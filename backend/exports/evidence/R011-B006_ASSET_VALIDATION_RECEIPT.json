@@ -1,0 +1,176 @@
+{
+  "schema_version": "r011.asset-validation-receipt.v1",
+  "boundary_id": "R011-B006",
+  "subgate": "section-2.2-localized-figure-closure",
+  "status": "pass",
+  "observed_utc": "2026-08-22T16:13:46.1694569Z",
+  "manifest": {
+    "path": "qa/b006-assets/ASSET_MANIFEST_R011-B006.json",
+    "bytes": 20602,
+    "sha256": "12df13ae4eeac43f492ec77efbe96d8470ffda0aeaf0c16265c879f4f1fb41ac"
+  },
+  "authority": {
+    "repository": "https://github.com/OpenIntroStat/openintro-statistics",
+    "commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "tree": "d61cc601e7d97759ce805900520f784d02a0489e"
+  },
+  "tools": {
+    "python": "3.13.9",
+    "pymupdf": "1.27.2.3",
+    "poppler_pdftoppm": "24.04.0",
+    "mupdf_mutool": "1.23.0",
+    "imagemagick": "7.1.2-22 Q16 x64"
+  },
+  "counts": {
+    "assets": 13,
+    "source_witnesses": 13,
+    "adjacent_r_producers": 8,
+    "localized_text_spans": 80,
+    "source_poppler_renders": 13,
+    "target_poppler_renders": 13,
+    "source_mupdf_renders": 13,
+    "target_mupdf_renders": 13,
+    "same_renderer_poppler_pairs": 13,
+    "same_renderer_mupdf_pairs": 13,
+    "deterministic_replays": 2,
+    "replay_identical_assets": 13
+  },
+  "bytes": {
+    "source_pdf_total": 65607,
+    "localized_pdf_total": 63651,
+    "r_producer_total": 11229,
+    "source_poppler_render_total": 403611,
+    "target_poppler_render_total": 415085,
+    "source_mupdf_render_total": 398832,
+    "target_mupdf_render_total": 405829,
+    "poppler_pair_render_total": 651044,
+    "mupdf_pair_render_total": 649243,
+    "poppler_contact_sheet": 1349643,
+    "mupdf_contact_sheet": 1374921
+  },
+  "checks": [
+    {
+      "id": "B006-ASSET-001",
+      "name": "pinned-source-witness-identity",
+      "status": "pass",
+      "evidence": "13 adjacent .source-en.pdf witnesses match the exact frozen English PDF byte identities recorded in the manifest."
+    },
+    {
+      "id": "B006-ASSET-002",
+      "name": "adjacent-r-producer-identity",
+      "status": "pass",
+      "evidence": "8/8 adjacent R producers match recorded sizes and SHA-256 hashes; no producer source was edited."
+    },
+    {
+      "id": "B006-ASSET-003",
+      "name": "reader-label-classification",
+      "status": "pass",
+      "evidence": "13/13 PDFs contain reader-visible English source labels; 0 are numeric/symbol-only; all 13 received id-ID presentation aliases."
+    },
+    {
+      "id": "B006-ASSET-004",
+      "name": "immutable-dataset-literals",
+      "status": "pass",
+      "evidence": "English dataset/category literals remain byte-exact in the R producers; only reader-facing PDF text objects were localized."
+    },
+    {
+      "id": "B006-ASSET-005",
+      "name": "localized-text-span-closure",
+      "status": "pass",
+      "evidence": "All 80 intended source spans were removed and replaced exactly once per manifest count; every non-target text span remains present with the original multiplicity."
+    },
+    {
+      "id": "B006-ASSET-006",
+      "name": "pdf-open-and-page-geometry",
+      "status": "pass",
+      "evidence": "PyMuPDF opened 13/13 localized PDFs; every file is one page and its MediaBox is identical to its English witness."
+    },
+    {
+      "id": "B006-ASSET-007",
+      "name": "vector-drawing-semantics",
+      "status": "pass",
+      "evidence": "13/13 source-target pairs have identical normalized vector drawing counts and semantic hashes."
+    },
+    {
+      "id": "B006-ASSET-008",
+      "name": "embedded-image-closure",
+      "status": "pass",
+      "evidence": "The 13 source PDFs contain no embedded raster images; localized outputs also contain none."
+    },
+    {
+      "id": "B006-ASSET-009",
+      "name": "numeric-token-preservation",
+      "status": "pass",
+      "evidence": "All extracted numeric and currency tick tokens remain in identical source order in every localized PDF."
+    },
+    {
+      "id": "B006-ASSET-010",
+      "name": "deterministic-replay",
+      "status": "pass",
+      "evidence": "Two consecutive full executions of scripts/localize_b006_figures.py produced byte-identical SHA-256 identities for all 13 outputs."
+    },
+    {
+      "id": "B006-ASSET-011",
+      "name": "independent-pdf-engine-rendering",
+      "status": "pass",
+      "evidence": "All 13 English witnesses and all 13 localized outputs rendered under both Poppler 24.04.0 and MuPDF 1.23.0 without error."
+    },
+    {
+      "id": "B006-ASSET-012",
+      "name": "paired-visual-inspection",
+      "status": "pass",
+      "evidence": "Two complete sets of 13 same-renderer side-by-side 180-dpi pairs (Poppler and MuPDF) and their contact sheets show legible, unclipped, nonoverlapping Indonesian labels with unchanged data geometry, proportions, colors, and panel order.",
+      "p1_findings": 0,
+      "p2_findings": 0,
+      "p3_findings": 0
+    },
+    {
+      "id": "B006-ASSET-013",
+      "name": "county-median-correction-preserved",
+      "status": "pass",
+      "evidence": "Unchanged vector median lines interpolate to approximately USD 52,930 for Bertambah and USD 44,590 for Tidak bertambah, preserving the plotted approximately 53k/45k values and not the stale upstream 45k/40k feedback."
+    },
+    {
+      "id": "B006-ASSET-014",
+      "name": "component-rights-closure",
+      "status": "pass",
+      "evidence": "COMPONENT_RIGHTS.csv contains normalized rows R011-RIGHTS-B006-GENERATED (7494beeda0089a905fb31a4989de5319c865e23dd0a6f3a879dae34c5de0fa36) and R011-RIGHTS-B006-DATA (612b9a943b4c7031d70c43ecf38d2ac97490461235d5a9eabb9bec26112e93c9), with OpenIntro package dependencies separately identified."
+    }
+  ],
+  "visual_evidence": {
+    "poppler": {
+      "source_inventory_sha256": "4fc3d35f6e9332147f03bf01dd08df797071018ba0abc7b1d5ade2984decef0e",
+      "target_inventory_sha256": "67049764d4a03ccf14a3cfd31e9a9c5fb95830e4bcb63f8b78e71fcc8d0c9292",
+      "same_renderer_pair_inventory_sha256": "03c86019fd4fa5c71ce6ad88d73e623779eac7233297e39f667a07d4794010fe",
+      "contact_sheet": {
+        "path": "qa/b006-assets/B006_ASSET_POPPLER_SOURCE_TARGET_CONTACT_SHEET.png",
+        "bytes": 1349643,
+        "sha256": "56b55ada23a7516c04992ec3ff14a7599011569ffa028cae513be5f14cbc8047"
+      }
+    },
+    "mupdf": {
+      "source_inventory_sha256": "d7bf2e920ce1d9a5326e6cb4854bb38adfe825a16a6cea07e334caec5ac4caa5",
+      "target_inventory_sha256": "b840a1156c7cd003ec498313b6c4b61acd99008608f1ceaccc3fdd5cb22d9b72",
+      "same_renderer_pair_inventory_sha256": "3ddbab1032c88f47e0b61c5f3131ae8158bb7f49348f1d53a6aa4fc40c3712f8",
+      "contact_sheet": {
+        "path": "qa/b006-assets/B006_ASSET_MUPDF_SOURCE_TARGET_CONTACT_SHEET.png",
+        "bytes": 1374921,
+        "sha256": "221a3dd6513f7cb94a042d1240c7ec062247a1e0c5685f71be1eb4d1ed6b9063"
+      }
+    }
+  },
+  "rights_notes": {
+    "repository_generated_expression": "CC BY-SA 3.0 Unported with attribution and share-alike obligations.",
+    "build_dependency": "The OpenIntro R package is a separately recorded GPL-3 dependency and is not relicensed by this receipt.",
+    "external_data": "The static figures use factual aggregates and packaged data; no third-party article or poll-report expression is copied into the localized PDFs.",
+    "antibiotic_data_provenance": "The inline counts correspond to Tamma et al., Ventilator-Associated Tracheitis in Children: Does Antibiotic Duration Matter?, DOI 10.1093/cid/cir203."
+  },
+  "notes": [
+    "Rscript is not installed in the active runtime. Replay uses the frozen authoritative English plot bytes and changes text objects only, which is stronger for data-geometry preservation than reconstructing plots through a different R/package runtime.",
+    "Trauma, Gastrointestinal, and Liberal are valid Indonesian labels identical in spelling to the English source terms.",
+    "The compact visible alias peror. is used only in loan_app_type_home_mosaic.pdf; accessibility prose may expand it as perorangan while naming the displayed abbreviation."
+  ],
+  "errors": [],
+  "blockers": [],
+  "asset_subgate_admission_ready": true
+}

@@ -1,0 +1,461 @@
+{
+  "schema_version": "r011.asset-manifest.v1",
+  "boundary_id": "R011-B006",
+  "status": "pass",
+  "authority": {
+    "repository": "https://github.com/OpenIntroStat/openintro-statistics",
+    "branch": "master",
+    "commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "tree": "d61cc601e7d97759ce805900520f784d02a0489e",
+    "reader": "https://www.openintro.org/book/os/"
+  },
+  "scope": {
+    "chapter": "2",
+    "section": "2.2",
+    "source_pdf_count": 13,
+    "localized_pdf_count": 13,
+    "adjacent_r_producer_count": 8,
+    "reader_visible_english_source_count": 13,
+    "numeric_or_symbol_only_source_count": 0,
+    "localized_text_span_count": 80,
+    "source_pdf_bytes": 65607,
+    "localized_pdf_bytes": 63651,
+    "r_producer_bytes": 11229
+  },
+  "localization_policy": {
+    "dataset_literals": "The English values in the R producers and datasets are immutable source literals.",
+    "reader_labels": "The Indonesian strings in the localized PDFs are presentation aliases; they do not mutate data values, counts, category order, or geometry.",
+    "lexically_identical_indonesian_labels": [
+      "Trauma",
+      "Gastrointestinal",
+      "Liberal"
+    ],
+    "unchanged_nonlinguistic_content": "All numbers, currency ticks, colors, shapes, paths, panel order, and category proportions remain source-equivalent."
+  },
+  "label_aliases": {
+    "homeownership": {
+      "rent": "sewa",
+      "mortgage": "hipotek",
+      "own": "milik",
+      "Homeownership": "Kepemilikan rumah"
+    },
+    "application_type": {
+      "joint": "bersama",
+      "individual": "perorangan",
+      "indiv.": "peror."
+    },
+    "axes": {
+      "Frequency": "Frekuensi",
+      "Proportion": "Proporsi",
+      "Relative frequency": "Frekuensi relatif",
+      "Change in Population": "Perubahan jumlah penduduk",
+      "Median Household Income": "Pendapatan Rumah Tangga Median"
+    },
+    "population_change": {
+      "Gain": "Bertambah",
+      "No Gain": "Tidak bertambah"
+    },
+    "antibiotic_conditions": {
+      "Prematurity": "Prematuritas",
+      "Cardiovascular": "Kardiovaskular",
+      "Respiratory": "Pernapasan",
+      "Trauma": "Trauma",
+      "Neuromuscular": "Neuromuskular",
+      "Genetic/metabolic": "Genetik/metabolik",
+      "Immunocompromised": "Imunokompromais",
+      "Gastrointestinal": "Gastrointestinal"
+    },
+    "dream_act": {
+      "Conservative": "Konservatif",
+      "Moderate": "Moderat",
+      "Liberal": "Liberal",
+      "Support": "Mendukung",
+      "Not support": "Tidak mendukung",
+      "Not sure": "Tidak yakin"
+    },
+    "raise_taxes": {
+      "Democrat": "Demokrat",
+      "Republican": "Republikan",
+      "Indep / Other": "Indep./lainnya",
+      "Raise taxes on the rich": "Naikkan pajak orang kaya",
+      "Raise taxes on the poor": "Naikkan pajak orang miskin",
+      "Not sure": "Tidak yakin"
+    }
+  },
+  "production": {
+    "script": {
+      "path": "scripts/localize_b006_figures.py",
+      "bytes": 20207,
+      "sha256": "12071f770b73440a98722a430cc09d046465e2469d7956bfc08b4e618913f6b4"
+    },
+    "source_witness_convention": "Each target basename has an adjacent .source-en.pdf immutable English witness.",
+    "method": "PyMuPDF text-only redaction and overlay; vector drawings and embedded images are excluded from redaction.",
+    "deterministic_replays": 2,
+    "replay_identity_count": 13
+  },
+  "component_rights": {
+    "path": "00_control/COMPONENT_RIGHTS.csv",
+    "observed_file_bytes": 9999,
+    "observed_file_sha256": "009feba8ff1f329ef742793f55f6b090dd08f3f761f9b9cc1edcbe03ecff58f0",
+    "generated_row": {
+      "component_id": "R011-RIGHTS-B006-GENERATED",
+      "normalized_csv_row_sha256": "7494beeda0089a905fb31a4989de5319c865e23dd0a6f3a879dae34c5de0fa36"
+    },
+    "data_dependency_row": {
+      "component_id": "R011-RIGHTS-B006-DATA",
+      "normalized_csv_row_sha256": "612b9a943b4c7031d70c43ecf38d2ac97490461235d5a9eabb9bec26112e93c9"
+    },
+    "repository_expression": "CC BY-SA 3.0 Unported",
+    "separate_build_dependency": "OpenIntro R package is recorded separately as GPL-3 in R011-RIGHTS-RPKG",
+    "third_party_expression_policy": "Only factual aggregate inputs and derived geometry are used; third-party article and poll-report expression is not bundled."
+  },
+  "producers": [
+    {
+      "path": "repo/ch_summarizing_data/figures/loan_homeownership_bar_plot/loan_homeownership_bar_plot.R",
+      "bytes": 817,
+      "sha256": "185868e8c4efbb4547988e4f9d2e96ac2ae626ef18f0bddb8cb317c9b5c91aef"
+    },
+    {
+      "path": "repo/ch_summarizing_data/figures/loan_app_type_home_seg_bar/loan_app_type_home_seg_bar.R",
+      "bytes": 1531,
+      "sha256": "69e9c8a39a251ee189cd0b31bd810fc085f096809c51b2aafae2586925e4655d"
+    },
+    {
+      "path": "repo/ch_summarizing_data/figures/loan_app_type_home_mosaic_plot/loan_app_type_home_mosaic_plot.R",
+      "bytes": 1641,
+      "sha256": "be6dc0cc1ec5ecc14893f7a62f0b0b7a30f1c5a0975df294de1f26b4707e0c2f"
+    },
+    {
+      "path": "repo/ch_summarizing_data/figures/loan_homeownership_pie_chart/loan_homeownership_pie_chart.R",
+      "bytes": 595,
+      "sha256": "14b2e6daad543f91f855b20c7c98fdd37de1c25f0b4af2818a4d54b85bb6ba75"
+    },
+    {
+      "path": "repo/ch_summarizing_data/figures/countyIncomeSplitByPopGain/countyIncomeSplitByPopGain.R",
+      "bytes": 2988,
+      "sha256": "100875651cb8715c7c30111d39a3131f1bd38cb08d8483ed9e1a4eba76af62c3"
+    },
+    {
+      "path": "repo/ch_summarizing_data/figures/eoce/antibiotic_use_children/antibiotic_use_children.R",
+      "bytes": 1348,
+      "sha256": "ce7bc34dd9fb9bf60f945e5e1de066a80228cf9312510d87b4e9d0e1ec5cc2d2"
+    },
+    {
+      "path": "repo/ch_summarizing_data/figures/eoce/dream_act_mosaic/dream_act_mosaic.R",
+      "bytes": 897,
+      "sha256": "211764b3a529b414563b2f3dc4704952dbb7edb15028911382dcf344af0d1cc6"
+    },
+    {
+      "path": "repo/ch_summarizing_data/figures/eoce/raise_taxes_mosaic/raise_taxes_mosaic.R",
+      "bytes": 1412,
+      "sha256": "8da2ff9bfaa84aaecfe7c10a44b7b39e26aefbceb8684804b0db56247c481c09"
+    }
+  ],
+  "assets": [
+    {
+      "id": "loan_homeownership_bar_plot",
+      "producer": "repo/ch_summarizing_data/figures/loan_homeownership_bar_plot/loan_homeownership_bar_plot.R",
+      "source": {
+        "path": "repo/ch_summarizing_data/figures/loan_homeownership_bar_plot/loan_homeownership_bar_plot.source-en.pdf",
+        "bytes": 4560,
+        "sha256": "1d69e133e8b0dda83f268f44ebb2ce608231f6dccdcc984f3935b0c3d3790859"
+      },
+      "target": {
+        "path": "repo/ch_summarizing_data/figures/loan_homeownership_bar_plot/loan_homeownership_bar_plot.pdf",
+        "bytes": 4565,
+        "sha256": "612a7d9965df2bdd2be7a2afede60aa9ca7276e4f8b704e750e71fad4434f18d"
+      },
+      "page_box_points": [0, 0, 504, 216],
+      "vector_drawing_count": 20,
+      "vector_drawing_semantic_sha256": "417807af3e13e5bd02d35ce3af531403aafb8da29dfbcb4952d695f1c51cc3f5",
+      "numeric_tokens": ["0", "1000", "2000", "3000", "4000", "0.0", "0.1", "0.2", "0.3", "0.4"],
+      "localized_span_count": 10
+    },
+    {
+      "id": "loan_app_type_home_seg_bar",
+      "producer": "repo/ch_summarizing_data/figures/loan_app_type_home_seg_bar/loan_app_type_home_seg_bar.R",
+      "source": {
+        "path": "repo/ch_summarizing_data/figures/loan_app_type_home_seg_bar/loan_app_type_home_seg_bar.source-en.pdf",
+        "bytes": 4446,
+        "sha256": "11fc0a08b9c2b926e4ce7a7a4bed2c2e520cd65572d37c101e9ada4bcf8e7225"
+      },
+      "target": {
+        "path": "repo/ch_summarizing_data/figures/loan_app_type_home_seg_bar/loan_app_type_home_seg_bar.pdf",
+        "bytes": 4422,
+        "sha256": "107bfe56c036488be19674cb0b2206f85bdd9bae06983694a612b8ad0428a791"
+      },
+      "page_box_points": [0, 0, 324, 252],
+      "vector_drawing_count": 16,
+      "vector_drawing_semantic_sha256": "e1df3229a1f2dd48b1be422fb9d22d6d23db66ffad01ba764da10675cca86127",
+      "numeric_tokens": ["0", "1000", "2000", "3000", "4000"],
+      "localized_span_count": 6
+    },
+    {
+      "id": "loan_app_type_home_sbs_bar",
+      "producer": "repo/ch_summarizing_data/figures/loan_app_type_home_seg_bar/loan_app_type_home_seg_bar.R",
+      "source": {
+        "path": "repo/ch_summarizing_data/figures/loan_app_type_home_seg_bar/loan_app_type_home_sbs_bar.source-en.pdf",
+        "bytes": 4450,
+        "sha256": "f0d7cd25800d8ca6108ab9c7eeea08bc5ed751bb011d54cb6e1d1241f3a85705"
+      },
+      "target": {
+        "path": "repo/ch_summarizing_data/figures/loan_app_type_home_seg_bar/loan_app_type_home_sbs_bar.pdf",
+        "bytes": 4432,
+        "sha256": "de6f8fa304727a978ea53474d97e28bebc1b069e13956604915aa595eb499820"
+      },
+      "page_box_points": [0, 0, 324, 252],
+      "vector_drawing_count": 16,
+      "vector_drawing_semantic_sha256": "5fee4a18b34a729fb53e2b4e3b30165bf2b96d3d54dd24efd76466025f98a742",
+      "numeric_tokens": ["0", "1000", "2000", "3000", "4000"],
+      "localized_span_count": 6
+    },
+    {
+      "id": "loan_app_type_home_seg_bar_standardized",
+      "producer": "repo/ch_summarizing_data/figures/loan_app_type_home_seg_bar/loan_app_type_home_seg_bar.R",
+      "source": {
+        "path": "repo/ch_summarizing_data/figures/loan_app_type_home_seg_bar/loan_app_type_home_seg_bar_standardized.source-en.pdf",
+        "bytes": 4461,
+        "sha256": "b680c464e1640352e0fba51ff9bab73bdb7384559ed18a2fc064fe963f99025d"
+      },
+      "target": {
+        "path": "repo/ch_summarizing_data/figures/loan_app_type_home_seg_bar/loan_app_type_home_seg_bar_standardized.pdf",
+        "bytes": 4453,
+        "sha256": "55c0344532978820fe8fd1849c3138f25c42dbe2d68d702d7ae29adc792a35bf"
+      },
+      "page_box_points": [0, 0, 360, 252],
+      "vector_drawing_count": 17,
+      "vector_drawing_semantic_sha256": "8d553dd8a790e85ec9841ba9ed411c5e15e544bf39fa24b73e2318263e5cc50b",
+      "numeric_tokens": ["0.0", "0.2", "0.4", "0.6", "0.8", "1.0"],
+      "localized_span_count": 6
+    },
+    {
+      "id": "loan_home_mosaic",
+      "producer": "repo/ch_summarizing_data/figures/loan_app_type_home_mosaic_plot/loan_app_type_home_mosaic_plot.R",
+      "source": {
+        "path": "repo/ch_summarizing_data/figures/loan_app_type_home_mosaic_plot/loan_home_mosaic.source-en.pdf",
+        "bytes": 4234,
+        "sha256": "00d7e759f5f4e012746a313c17c21bd5edd146a121a87a0e77c7c469e3c4e832"
+      },
+      "target": {
+        "path": "repo/ch_summarizing_data/figures/loan_app_type_home_mosaic_plot/loan_home_mosaic.pdf",
+        "bytes": 3816,
+        "sha256": "77d512e7d60bdc575ab460947471597295ef8fe41370944a2cd0cf1969ed2b3d"
+      },
+      "page_box_points": [0, 0, 189, 162],
+      "vector_drawing_count": 3,
+      "vector_drawing_semantic_sha256": "50a55ce0fde9822e943373526d220f6febf2ea2dde5458318b170b27e7abe253",
+      "numeric_tokens": [],
+      "localized_span_count": 3
+    },
+    {
+      "id": "loan_app_type_home_mosaic",
+      "producer": "repo/ch_summarizing_data/figures/loan_app_type_home_mosaic_plot/loan_app_type_home_mosaic_plot.R",
+      "source": {
+        "path": "repo/ch_summarizing_data/figures/loan_app_type_home_mosaic_plot/loan_app_type_home_mosaic.source-en.pdf",
+        "bytes": 4269,
+        "sha256": "a884f487abe26a4397b64d9f4192d8c600ead41fa89821734c90d110452e6984"
+      },
+      "target": {
+        "path": "repo/ch_summarizing_data/figures/loan_app_type_home_mosaic_plot/loan_app_type_home_mosaic.pdf",
+        "bytes": 3867,
+        "sha256": "3378320d94464a738483db352a34659da5338378431862fa3ef804aa74fa5478"
+      },
+      "page_box_points": [0, 0, 216, 162],
+      "vector_drawing_count": 6,
+      "vector_drawing_semantic_sha256": "5b0451195d2064936bce25a530f99a66ed33eeae4ce93f671284a0e29c7d7911",
+      "numeric_tokens": [],
+      "localized_span_count": 5
+    },
+    {
+      "id": "loan_app_type_home_mosaic_rev",
+      "producer": "repo/ch_summarizing_data/figures/loan_app_type_home_mosaic_plot/loan_app_type_home_mosaic_plot.R",
+      "source": {
+        "path": "repo/ch_summarizing_data/figures/loan_app_type_home_mosaic_plot/loan_app_type_home_mosaic_rev.source-en.pdf",
+        "bytes": 4321,
+        "sha256": "1e62de6ebe9977cb5da1ffddd33c1010120e611d356f29868bd704a7813acad3"
+      },
+      "target": {
+        "path": "repo/ch_summarizing_data/figures/loan_app_type_home_mosaic_plot/loan_app_type_home_mosaic_rev.pdf",
+        "bytes": 3912,
+        "sha256": "3f82e2fea8e8c75f3ad829d2ed3a32b2b493e5d232a0ab334cd8e57b2fcd5d19"
+      },
+      "page_box_points": [0, 0, 180, 108],
+      "vector_drawing_count": 6,
+      "vector_drawing_semantic_sha256": "0211bf97b5d88a30c6120976e282ab11ce3a1c8f09c74433c8a2c44ed0ff3b84",
+      "numeric_tokens": [],
+      "localized_span_count": 5
+    },
+    {
+      "id": "loan_homeownership_pie_chart",
+      "producer": "repo/ch_summarizing_data/figures/loan_homeownership_pie_chart/loan_homeownership_pie_chart.R",
+      "source": {
+        "path": "repo/ch_summarizing_data/figures/loan_homeownership_pie_chart/loan_homeownership_pie_chart.source-en.pdf",
+        "bytes": 5858,
+        "sha256": "9b8e7960e6722bfcd965a8a6fe06877fb80355dcd1dceb1f5d26e8004e28565a"
+      },
+      "target": {
+        "path": "repo/ch_summarizing_data/figures/loan_homeownership_pie_chart/loan_homeownership_pie_chart.pdf",
+        "bytes": 5780,
+        "sha256": "7f9ac0af6c97e5f5093688e6fcf5fa81ac334168c01d4cc82aa41859fd1b13ad"
+      },
+      "page_box_points": [0, 0, 540, 288],
+      "vector_drawing_count": 16,
+      "vector_drawing_semantic_sha256": "6e5c9df102f21bc2c4d96df59437f11241ced3469ff23645503a386d7d643fef",
+      "numeric_tokens": ["0", "1000", "2000", "3000", "4000"],
+      "localized_span_count": 8
+    },
+    {
+      "id": "countyIncomeSplitByPopGain",
+      "producer": "repo/ch_summarizing_data/figures/countyIncomeSplitByPopGain/countyIncomeSplitByPopGain.R",
+      "source": {
+        "path": "repo/ch_summarizing_data/figures/countyIncomeSplitByPopGain/countyIncomeSplitByPopGain.source-en.pdf",
+        "bytes": 9659,
+        "sha256": "b21a6ce06070df7ddcef4310270a7ef93fff8b63bdad55f2271dd85d2c738bdb"
+      },
+      "target": {
+        "path": "repo/ch_summarizing_data/figures/countyIncomeSplitByPopGain/countyIncomeSplitByPopGain.pdf",
+        "bytes": 9517,
+        "sha256": "ed1e257a20b628d38854a0b01e6c5a8603a813ea21ada439aa84d1fd56f59d2e"
+      },
+      "page_box_points": [0, 0, 540, 288],
+      "vector_drawing_count": 116,
+      "vector_drawing_semantic_sha256": "c03b2cacc9f4895d272a10191819485c0515f0ab7490b479b5e0e4a066084cfe",
+      "numeric_tokens": ["20k", "40k", "60k", "80k", "100k", "120k", "20k", "40k", "60k", "80k", "100k"],
+      "localized_span_count": 7,
+      "median_geometry_usd": {
+        "Bertambah": 52930,
+        "Tidak bertambah": 44590,
+        "method": "Linear interpolation from unchanged vector median lines against the unchanged 20k-to-120k y-axis ticks."
+      }
+    },
+    {
+      "id": "antibiotic_use_children_bar",
+      "producer": "repo/ch_summarizing_data/figures/eoce/antibiotic_use_children/antibiotic_use_children.R",
+      "source": {
+        "path": "repo/ch_summarizing_data/figures/eoce/antibiotic_use_children/antibiotic_use_children_bar.source-en.pdf",
+        "bytes": 4501,
+        "sha256": "8dee9c620a17ce986dca44665bdec90e86c9e1c23d651fca75389b3e4a766363"
+      },
+      "target": {
+        "path": "repo/ch_summarizing_data/figures/eoce/antibiotic_use_children/antibiotic_use_children_bar.pdf",
+        "bytes": 4510,
+        "sha256": "6bda18fdd33b98997717f09b87df5449897e5170c33fa2b15e7e108d02514fe1"
+      },
+      "page_box_points": [0, 0, 432, 216],
+      "vector_drawing_count": 17,
+      "vector_drawing_semantic_sha256": "5ee2cdb1961c18775796954d5339c72642bd1cfb9b00da2a2dec452a5d04b5c2",
+      "numeric_tokens": ["0.00", "0.10", "0.20", "0.30"],
+      "localized_span_count": 7
+    },
+    {
+      "id": "antibiotic_use_children_pie",
+      "producer": "repo/ch_summarizing_data/figures/eoce/antibiotic_use_children/antibiotic_use_children.R",
+      "source": {
+        "path": "repo/ch_summarizing_data/figures/eoce/antibiotic_use_children/antibiotic_use_children_pie.source-en.pdf",
+        "bytes": 6077,
+        "sha256": "1d158b4c4da2a4cab7c9e1e60b8114743dd050a83c74ccdc5827529bc78e7330"
+      },
+      "target": {
+        "path": "repo/ch_summarizing_data/figures/eoce/antibiotic_use_children/antibiotic_use_children_pie.pdf",
+        "bytes": 6022,
+        "sha256": "738884e12a829edc6ec055996299eb20a9bb4678e37ba11a35e7162d7429e8a8"
+      },
+      "page_box_points": [0, 0, 432, 216],
+      "vector_drawing_count": 16,
+      "vector_drawing_semantic_sha256": "e92a167e45a7de61c810a6f5a1e03d5f677c71a76720c7c33331c87b74a8bb5d",
+      "numeric_tokens": [],
+      "localized_span_count": 6
+    },
+    {
+      "id": "dream_act_mosaic",
+      "producer": "repo/ch_summarizing_data/figures/eoce/dream_act_mosaic/dream_act_mosaic.R",
+      "source": {
+        "path": "repo/ch_summarizing_data/figures/eoce/dream_act_mosaic/dream_act_mosaic.source-en.pdf",
+        "bytes": 4373,
+        "sha256": "85a5464cd6f03a948b4d6e7686f2afbf6f519d6a298a086a27be72afdcb721e3"
+      },
+      "target": {
+        "path": "repo/ch_summarizing_data/figures/eoce/dream_act_mosaic/dream_act_mosaic.pdf",
+        "bytes": 4362,
+        "sha256": "84e57a05fc927317e27c34c936527ed7d3253b10af04e929118a05bc88467df6"
+      },
+      "page_box_points": [0, 0, 504, 216],
+      "vector_drawing_count": 9,
+      "vector_drawing_semantic_sha256": "fd6ad38f83e3a6d6523770e5b3c78e538852a14be9613da0a9512b9ec77981b5",
+      "numeric_tokens": [],
+      "localized_span_count": 5
+    },
+    {
+      "id": "raise_taxes_mosaic",
+      "producer": "repo/ch_summarizing_data/figures/eoce/raise_taxes_mosaic/raise_taxes_mosaic.R",
+      "source": {
+        "path": "repo/ch_summarizing_data/figures/eoce/raise_taxes_mosaic/raise_taxes_mosaic.source-en.pdf",
+        "bytes": 4398,
+        "sha256": "ce160a8aec7ed62a1c4ea5ef7cc3e9f30862eeafa1571a484a42035af44097b7"
+      },
+      "target": {
+        "path": "repo/ch_summarizing_data/figures/eoce/raise_taxes_mosaic/raise_taxes_mosaic.pdf",
+        "bytes": 3993,
+        "sha256": "aa2fd82673c928deb41819721feb9b71a7cd893dea4e91eee95f12409d2432b4"
+      },
+      "page_box_points": [0, 0, 504, 216],
+      "vector_drawing_count": 9,
+      "vector_drawing_semantic_sha256": "d2c20104c9534c86c4da19318297d372ef6560e971f84c09852b185570b9560a",
+      "numeric_tokens": [],
+      "localized_span_count": 6
+    }
+  ],
+  "visual_evidence": {
+    "poppler": {
+      "source": {
+        "directory": "qa/b006-assets/renders/source-poppler",
+        "count": 13,
+        "bytes": 403611,
+        "inventory_sha256": "4fc3d35f6e9332147f03bf01dd08df797071018ba0abc7b1d5ade2984decef0e"
+      },
+      "target": {
+        "directory": "qa/b006-assets/renders/target-poppler",
+        "count": 13,
+        "bytes": 415085,
+        "inventory_sha256": "67049764d4a03ccf14a3cfd31e9a9c5fb95830e4bcb63f8b78e71fcc8d0c9292"
+      },
+      "same_renderer_pairs": {
+        "directory": "qa/b006-assets/renders/pairs-poppler",
+        "count": 13,
+        "bytes": 651044,
+        "inventory_sha256": "03c86019fd4fa5c71ce6ad88d73e623779eac7233297e39f667a07d4794010fe"
+      },
+      "contact_sheet": {
+        "path": "qa/b006-assets/B006_ASSET_POPPLER_SOURCE_TARGET_CONTACT_SHEET.png",
+        "bytes": 1349643,
+        "sha256": "56b55ada23a7516c04992ec3ff14a7599011569ffa028cae513be5f14cbc8047"
+      }
+    },
+    "mupdf": {
+      "source": {
+        "directory": "qa/b006-assets/renders/source-mupdf",
+        "count": 13,
+        "bytes": 398832,
+        "inventory_sha256": "d7bf2e920ce1d9a5326e6cb4854bb38adfe825a16a6cea07e334caec5ac4caa5"
+      },
+      "target": {
+        "directory": "qa/b006-assets/renders/target-mupdf",
+        "count": 13,
+        "bytes": 405829,
+        "inventory_sha256": "b840a1156c7cd003ec498313b6c4b61acd99008608f1ceaccc3fdd5cb22d9b72"
+      },
+      "same_renderer_pairs": {
+        "directory": "qa/b006-assets/renders/pairs-mupdf",
+        "count": 13,
+        "bytes": 649243,
+        "inventory_sha256": "3ddbab1032c88f47e0b61c5f3131ae8158bb7f49348f1d53a6aa4fc40c3712f8"
+      },
+      "contact_sheet": {
+        "path": "qa/b006-assets/B006_ASSET_MUPDF_SOURCE_TARGET_CONTACT_SHEET.png",
+        "bytes": 1374921,
+        "sha256": "221a3dd6513f7cb94a042d1240c7ec062247a1e0c5685f71be1eb4d1ed6b9063"
+      }
+    },
+    "inspection": "All 13 source/target pairs were inspected at 180 dpi under both Poppler and MuPDF using same-renderer pair sheets. Indonesian labels are legible, unclipped, nonoverlapping, and preserve data geometry and source order."
+  }
+}

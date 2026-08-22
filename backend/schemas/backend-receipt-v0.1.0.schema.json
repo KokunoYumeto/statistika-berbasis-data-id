@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/openintro-statistics-id/schemas/backend-receipt-v0.1.0.schema.json",
+  "title": "OpenIntro Statistics Indonesian backend validation receipt",
+  "type": "object",
+  "required": [
+    "$schema",
+    "schema_version",
+    "manifest_sha256",
+    "result",
+    "checks",
+    "publication_blockers"
+  ],
+  "properties": {
+    "$schema": {"const": "schemas/backend-receipt-v0.1.0.schema.json"},
+    "schema_version": {"const": "0.1.0"},
+    "manifest_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "result": {"enum": ["passed", "failed"]},
+    "checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "result"],
+        "properties": {
+          "name": {"type": "string"},
+          "result": {"enum": ["passed", "failed"]},
+          "detail": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "publication_blockers": {
+      "type": "array",
+      "items": {"type": "string"}
+    }
+  },
+  "additionalProperties": false
+}

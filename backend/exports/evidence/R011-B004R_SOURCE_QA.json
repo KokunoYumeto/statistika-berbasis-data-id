@@ -1,0 +1,406 @@
+{
+  "authority_commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+  "authority_tree": "d61cc601e7d97759ce805900520f784d02a0489e",
+  "base_boundary": {
+    "file_bytes": 40207756,
+    "file_count": 1156,
+    "id": "R011-B004",
+    "manifest": {
+      "bytes": 167625,
+      "path": "qa/R011-B004_TARGET_MANIFEST.tsv",
+      "sha256": "4004ca2779f6804b664df9aa5454f083597d36c1f897b452b463ab028c256c1d"
+    }
+  },
+  "boundary_id": "R011-B004R",
+  "closure_mode": "admitted_B004_manifest_plus_only_B004R_overlays",
+  "controls": {
+    "adverse_forward_excluded_ids": [
+      "R011-ADV-0051",
+      "R011-ADV-0052",
+      "R011-ADV-0053",
+      "R011-ADV-0054",
+      "R011-ADV-0055",
+      "R011-ADV-0056",
+      "R011-ADV-0057",
+      "R011-ADV-0058"
+    ],
+    "adverse_live": {
+      "bytes": 26885,
+      "last_id": "R011-ADV-0062",
+      "row_count": 62,
+      "sha256": "bf86015b06141000413692e5aeadffcf904f1ceec0a63e67a1da4d580bf50c1c"
+    },
+    "adverse_selected_ids": [
+      "R011-ADV-0001",
+      "R011-ADV-0002",
+      "R011-ADV-0003",
+      "R011-ADV-0004",
+      "R011-ADV-0005",
+      "R011-ADV-0006",
+      "R011-ADV-0007",
+      "R011-ADV-0008",
+      "R011-ADV-0009",
+      "R011-ADV-0010",
+      "R011-ADV-0011",
+      "R011-ADV-0012",
+      "R011-ADV-0013",
+      "R011-ADV-0014",
+      "R011-ADV-0015",
+      "R011-ADV-0016",
+      "R011-ADV-0017",
+      "R011-ADV-0018",
+      "R011-ADV-0019",
+      "R011-ADV-0020",
+      "R011-ADV-0021",
+      "R011-ADV-0022",
+      "R011-ADV-0023",
+      "R011-ADV-0024",
+      "R011-ADV-0025",
+      "R011-ADV-0026",
+      "R011-ADV-0027",
+      "R011-ADV-0028",
+      "R011-ADV-0029",
+      "R011-ADV-0030",
+      "R011-ADV-0031",
+      "R011-ADV-0032",
+      "R011-ADV-0033",
+      "R011-ADV-0034",
+      "R011-ADV-0035",
+      "R011-ADV-0036",
+      "R011-ADV-0037",
+      "R011-ADV-0038",
+      "R011-ADV-0039",
+      "R011-ADV-0040",
+      "R011-ADV-0041",
+      "R011-ADV-0042",
+      "R011-ADV-0043",
+      "R011-ADV-0044",
+      "R011-ADV-0045",
+      "R011-ADV-0046",
+      "R011-ADV-0047",
+      "R011-ADV-0048",
+      "R011-ADV-0049",
+      "R011-ADV-0050",
+      "R011-ADV-0059",
+      "R011-ADV-0060",
+      "R011-ADV-0061",
+      "R011-ADV-0062"
+    ],
+    "component_rights": {
+      "bytes": 7908,
+      "required_ids": [
+        "R011-RIGHTS-SEATTLEPETS",
+        "R011-RIGHTS-TWEMOJI",
+        "R011-RIGHTS-GGIMAGE",
+        "R011-RIGHTS-COUNTY-COMPLETE"
+      ],
+      "row_count": 22,
+      "sha256": "fb03c23f1990224574c088215786ebcbe3232b5bab867bf253c8277ddb0842b4"
+    },
+    "decision_log": {
+      "D019_present": true,
+      "D020_present": true,
+      "bytes": 9485,
+      "sha256": "e6f7a61752100ce8d70e9c3ca3b7e141d71828f64ace5c09ed91a5a21469dc29"
+    },
+    "terminology_basis": "B004 admitted terminology through R011-TERM-0075; B004R introduces no new controlled term row",
+    "terminology_forward_rows_included": false
+  },
+  "declared_changes": {
+    "ch_intro_to_data/TeX/review_exercises.tex": {
+      "base": {
+        "bytes": 13745,
+        "sha256": "2578a46459b0bae15e19c81f0f696b90d6778b3fad73892bac43c25cd4056d48"
+      },
+      "target": {
+        "bytes": 13273,
+        "sha256": "0a31db10e5a45e0bbf11b5b9271d91dd82f6b17656f1dadbad0754718c560e10"
+      }
+    },
+    "ch_intro_to_data/figures/eoce/county_income_education/REPLAY_RECEIPT.json": {
+      "base": null,
+      "target": {
+        "bytes": 5013,
+        "sha256": "d5a4d40231a97a7bd85a4ba79756c0acfe593ada60635aeebd79767fa69a5779"
+      }
+    },
+    "ch_intro_to_data/figures/eoce/county_income_education/county_income_education.R": {
+      "base": {
+        "bytes": 800,
+        "sha256": "be03706ee9f6a6a5ae66583d2d17ecf6c6cf65c651fcb501023f65458a334f40"
+      },
+      "target": {
+        "bytes": 801,
+        "sha256": "bfc70286124ce3edbd79e1e068e7964ce01fedc8740df6297896e463c76d4ab5"
+      }
+    },
+    "ch_intro_to_data/figures/eoce/county_income_education/county_income_education_scatterplot.pdf": {
+      "base": {
+        "bytes": 179753,
+        "sha256": "7a640bebd64d0c716b6eba0bce8a7b4db5ad528229f90a9abf0c7214dac0b435"
+      },
+      "target": {
+        "bytes": 355382,
+        "sha256": "2d7ba784f714c8ea0789a33e4a37520e6d88266085032a40ae337894fac27b77"
+      }
+    },
+    "ch_intro_to_data/figures/eoce/county_income_education/localize_pdf.py": {
+      "base": null,
+      "target": {
+        "bytes": 3447,
+        "sha256": "d7039fcfee7103a1e6c10a79598b08b9354a70b4e23a357724f6f2ab5ec13443"
+      }
+    },
+    "ch_intro_to_data/figures/eoce/seattle_pet_names/REPLAY_RECEIPT.json": {
+      "base": null,
+      "target": {
+        "bytes": 7145,
+        "sha256": "b4504ba5bf17eeaad3927cf5c2d6262c655180bb8253c3bafae717ed040418f9"
+      }
+    },
+    "ch_intro_to_data/figures/eoce/seattle_pet_names/localize_pdf.py": {
+      "base": null,
+      "target": {
+        "bytes": 4102,
+        "sha256": "3d04d6a709110fb29e6ebacd8b9737dfa3efcb17940dc16d49f152ebddc8143a"
+      }
+    },
+    "ch_intro_to_data/figures/eoce/seattle_pet_names/seattle_pet_names.R": {
+      "base": {
+        "bytes": 1672,
+        "sha256": "ea24497d2262292078554264428a597869085278717ab729dba12340da3c1ba1"
+      },
+      "target": {
+        "bytes": 1614,
+        "sha256": "c0981e5e4019d02ad33351fecc82db09515fe322f997fd84d003e693b3662d6b"
+      }
+    },
+    "ch_intro_to_data/figures/eoce/seattle_pet_names/seattle_pet_names.pdf": {
+      "base": {
+        "bytes": 261758,
+        "sha256": "2e9ab77181a51c38b40d024f149292f488d423328fdfd64240067f651feed975"
+      },
+      "target": {
+        "bytes": 690633,
+        "sha256": "153b33c3bf5d7b893095af512e5290bec7abcc42c946cc21f0464fb7f695fd36"
+      }
+    },
+    "extraTeX/eoceSolutions/eoceSolutions.tex": {
+      "base": {
+        "bytes": 107255,
+        "sha256": "cf5a63b334f3e9710bf83885fe1429aff532b99dac4a8d463d3b054de87a8d2a"
+      },
+      "mode": "B004 snapshot plus exact B004R answer-slice overlay",
+      "target": {
+        "bytes": 107428,
+        "sha256": "bbd62560e88011423edbd5f729dae2e0cbbffd6c03f6c383dc5890ca38823241"
+      }
+    }
+  },
+  "errors": [],
+  "figures": {
+    "county": {
+      "helper": {
+        "bytes": 3447,
+        "path": "ch_intro_to_data/figures/eoce/county_income_education/localize_pdf.py",
+        "sha256": "d7039fcfee7103a1e6c10a79598b08b9354a70b4e23a357724f6f2ab5ec13443"
+      },
+      "mutool_clean": {
+        "cleaned_pdf_created": true,
+        "diagnostic_line_count": 0,
+        "result": "passed",
+        "returncode": 0,
+        "tool": "mutool version 1.23.0"
+      },
+      "pdf": {
+        "bytes": 355382,
+        "path": "ch_intro_to_data/figures/eoce/county_income_education/county_income_education_scatterplot.pdf",
+        "sha256": "2d7ba784f714c8ea0789a33e4a37520e6d88266085032a40ae337894fac27b77"
+      },
+      "producer": {
+        "bytes": 801,
+        "path": "ch_intro_to_data/figures/eoce/county_income_education/county_income_education.R",
+        "sha256": "bfc70286124ce3edbd79e1e068e7964ce01fedc8740df6297896e463c76d4ab5"
+      },
+      "receipt": {
+        "bytes": 5013,
+        "path": "ch_intro_to_data/figures/eoce/county_income_education/REPLAY_RECEIPT.json",
+        "sha256": "d5a4d40231a97a7bd85a4ba79756c0acfe593ada60635aeebd79767fa69a5779"
+      },
+      "receipt_status": "PASS"
+    },
+    "seattle": {
+      "helper": {
+        "bytes": 4102,
+        "path": "ch_intro_to_data/figures/eoce/seattle_pet_names/localize_pdf.py",
+        "sha256": "3d04d6a709110fb29e6ebacd8b9737dfa3efcb17940dc16d49f152ebddc8143a"
+      },
+      "mutool_clean": {
+        "cleaned_pdf_created": true,
+        "diagnostic_line_count": 0,
+        "result": "passed",
+        "returncode": 0,
+        "tool": "mutool version 1.23.0"
+      },
+      "pdf": {
+        "bytes": 690633,
+        "path": "ch_intro_to_data/figures/eoce/seattle_pet_names/seattle_pet_names.pdf",
+        "sha256": "153b33c3bf5d7b893095af512e5290bec7abcc42c946cc21f0464fb7f695fd36"
+      },
+      "producer": {
+        "bytes": 1614,
+        "path": "ch_intro_to_data/figures/eoce/seattle_pet_names/seattle_pet_names.R",
+        "sha256": "c0981e5e4019d02ad33351fecc82db09515fe322f997fd84d003e693b3662d6b"
+      },
+      "receipt": {
+        "bytes": 7145,
+        "path": "ch_intro_to_data/figures/eoce/seattle_pet_names/REPLAY_RECEIPT.json",
+        "sha256": "b4504ba5bf17eeaad3927cf5c2d6262c655180bb8253c3bafae717ed040418f9"
+      },
+      "receipt_status": "PASS"
+    }
+  },
+  "forward_isolation": {
+    "B005_control_rows_entered_selection": false,
+    "B005_figure_paths_entered_manifest": false,
+    "B005_included": false,
+    "chapter2_exercises_manifest_identity": {
+      "bytes": 20292,
+      "sha256": "701b0ce5f883da62fc2f0cf6b3e180dfa5c5bda5d3fb476ea5016c9acda24409"
+    },
+    "chapter2_manifest_identity": {
+      "bytes": 114376,
+      "sha256": "00fb044707824539b57a27f6e258165c62c4f29769679305641214c6d4552f51"
+    },
+    "live_chapter2_deliberately_excluded": {
+      "bytes": 115980,
+      "sha256": "81a2a026f506201e52104c3b3184289753c1e2263d35872292b0387170063165"
+    },
+    "live_chapter2_exercises_deliberately_excluded": {
+      "bytes": 21931,
+      "sha256": "3a8e862413ada0f960c27cbca5c16194467078f0138330860459dab78e07776e"
+    },
+    "live_whole_solution_deliberately_excluded": {
+      "bytes": 107932,
+      "sha256": "127a81a8dde66435f7a22adffca4ec147ca898ffba698c90707ed4ba7fa965bb"
+    }
+  },
+  "gate_script": {
+    "bytes": 25775,
+    "path": "scripts/qa_boundary_b004r.py",
+    "sha256": "7aadbcecb507c72fa6b797f4ad9ae48f530fb2471716bfca635063ac9b6dce33"
+  },
+  "preflight": {
+    "bytes": 7184,
+    "path": "qa/R011-B004R_PREFLIGHT.md",
+    "sha256": "4a95c87c7f3209121c9d0a9340a3936e3c55de900e305b47277fcc5abe687817"
+  },
+  "public_answers": {
+    "answer_1_43_source_backed_correction": "present",
+    "english_residue": [],
+    "markers": [
+      35,
+      37,
+      39,
+      41,
+      43
+    ],
+    "o001_no_public_answer_gaps": [
+      36,
+      38,
+      40,
+      42,
+      44
+    ],
+    "public_answer_count": 5
+  },
+  "review": {
+    "authority": {
+      "bytes": 13671,
+      "sha256": "7e660f5fd14c1dc8b838ad48dfcad7da74ecef17517d43301fc83c5a04e4b91a"
+    },
+    "brace_balance": 0,
+    "counts": {
+      "citations": {
+        "authority": 5,
+        "target": 5
+      },
+      "eoce": {
+        "authority": 10,
+        "target": 10
+      },
+      "figures": {
+        "authority": 2,
+        "target": 2
+      },
+      "items": {
+        "authority": 38,
+        "target": 38
+      },
+      "labels": {
+        "authority": 10,
+        "target": 10
+      },
+      "math": {
+        "authority": 7,
+        "target": 7
+      },
+      "minipages": {
+        "authority": 5,
+        "target": 5
+      },
+      "parts": {
+        "authority": 10,
+        "target": 10
+      },
+      "tables": {
+        "authority": 2,
+        "target": 2
+      }
+    },
+    "english_residue": [],
+    "layout_reversal": [
+      "local zero-extra-gap group",
+      "review-header clear suppression",
+      "print break before 1.42"
+    ],
+    "protected_sequence_after_layout_reversal": "passed",
+    "target": {
+      "bytes": 13273,
+      "sha256": "0a31db10e5a45e0bbf11b5b9271d91dd82f6b17656f1dadbad0754718c560e10"
+    }
+  },
+  "schema": "openintro-boundary-source-qa",
+  "schema_version": "0.1.0",
+  "solution_reconstruction": {
+    "authority_slice": {
+      "bytes": 1876,
+      "sha256": "5d8e944cafd2f842f788f0d51a71bcb8a7dd80da8e98388be0f0587ccbd5f528"
+    },
+    "base": {
+      "bytes": 107255,
+      "sha256": "cf5a63b334f3e9710bf83885fe1429aff532b99dac4a8d463d3b054de87a8d2a"
+    },
+    "base_path": "qa/b004-build/source-snapshot-v5/extraTeX/eoceSolutions/eoceSolutions.tex",
+    "live_whole_file_deliberately_excluded": {
+      "bytes": 107932,
+      "sha256": "127a81a8dde66435f7a22adffca4ec147ca898ffba698c90707ed4ba7fa965bb"
+    },
+    "result": {
+      "bytes": 107428,
+      "sha256": "bbd62560e88011423edbd5f729dae2e0cbbffd6c03f6c383dc5890ca38823241"
+    },
+    "target_slice": {
+      "bytes": 2049,
+      "sha256": "1f9c453194663a87d07f709edf53d7eb05653359586a3e2720f0bd79a4dbc31d"
+    }
+  },
+  "status": "pass",
+  "target_manifest": {
+    "bytes": 168181,
+    "file_bytes": 40831611,
+    "file_count": 1160,
+    "path": "qa/R011-B004R_TARGET_MANIFEST.tsv",
+    "sha256": "1ced0106cc97e8a563e37e4317868d76eec95e9aed06b5dc91e5e05038874e0f"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/openintro-statistics-id/schemas/backend-manifest-v0.1.0.schema.json",
+  "title": "OpenIntro Statistics Indonesian backend export manifest",
+  "type": "object",
+  "required": [
+    "$schema",
+    "schema_version",
+    "backend_id",
+    "namespace_uuid",
+    "authority",
+    "canonicalization",
+    "files"
+  ],
+  "properties": {
+    "$schema": {"const": "schemas/backend-manifest-v0.1.0.schema.json"},
+    "schema_version": {"const": "0.1.0"},
+    "backend_id": {"type": "string", "format": "uuid"},
+    "namespace_uuid": {"type": "string", "format": "uuid"},
+    "authority": {
+      "type": "object",
+      "required": ["repository", "commit", "tree", "authority_sha256"],
+      "additionalProperties": true
+    },
+    "canonicalization": {
+      "type": "object",
+      "required": ["encoding", "normalization", "line_endings", "json", "record_order"],
+      "properties": {
+        "encoding": {"type": "string"},
+        "normalization": {"type": "string"},
+        "line_endings": {"type": "string"},
+        "json": {"type": "string"},
+        "record_order": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "files": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["path", "bytes", "sha256", "records"],
+        "properties": {
+          "path": {"type": "string"},
+          "bytes": {"type": "integer", "minimum": 0},
+          "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+          "records": {"type": ["integer", "null"], "minimum": 0}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": true
+}

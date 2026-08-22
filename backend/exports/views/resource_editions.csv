@@ -1,0 +1,2 @@
+resource_id,resource_code,work_title,edition_id,repository,branch_observed,commit,tree,license_expression,source_format,build_entrypoint
+29f05532-1fa2-599f-a51b-2975465c7684,R011,OpenIntro Statistics,b9823605-b359-533a-9cb9-84628fa32225,https://github.com/OpenIntroStat/openintro-statistics,master,fee25091fb24e89c36296fd67c48c1fcf7a93b6e,d61cc601e7d97759ce805900520f784d02a0489e,CC-BY-SA-3.0,"[""LaTeX"",""R"",""CSV"",""RData"",""raster"",""vector PDF""]",main.tex

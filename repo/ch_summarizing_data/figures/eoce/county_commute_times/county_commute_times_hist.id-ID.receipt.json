@@ -1,0 +1,117 @@
+{
+  "schema_version": "r011.figure-localization-receipt.v1",
+  "boundary_id": "R011-B005",
+  "asset_id": "county_commute_times_hist",
+  "locale": "id-ID",
+  "generated_at_utc": "2026-08-22T02:52:14Z",
+  "status": "pass",
+  "authority": {
+    "repository_url": "https://github.com/OpenIntroStat/openintro-statistics",
+    "commit_sha": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "tree_sha": "d61cc601e7d97759ce805900520f784d02a0489e",
+    "source_pdf": {
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_summarizing_data/figures/eoce/county_commute_times/county_commute_times_hist.pdf",
+      "bytes": 5289,
+      "sha256": "30ac80e05848769d7db67966b2b5e36f39bed7d12f9def0c8e66b4f563749013"
+    },
+    "producer": {
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_summarizing_data/figures/eoce/county_commute_times/county_commute_times.R",
+      "bytes": 1036,
+      "sha256": "99c5a8cc78afeecd9d60add7e4fb8d391d75e75cc4bac607a6d57539bcef1e0f"
+    },
+    "inputs": [
+      {
+        "kind": "external_R_dataset",
+        "identity": "openintro::county_complete",
+        "declared_observations": 3142,
+        "exact_package_version": null
+      },
+      {
+        "kind": "external_R_function",
+        "identity": "openintro::histPlot",
+        "exact_package_version": null
+      }
+    ],
+    "non_input_sibling": {
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_summarizing_data/figures/eoce/county_commute_times/countyMap.R",
+      "bytes": 3124,
+      "sha256": "c35720326cd8a2a84811c3d548e2fccf11d7700dbcf38d5c9fb8e8115c4b828a",
+      "reason_excluded": "Consumed only after the histogram device closes, for the separate county_commute_times_map.pdf asset."
+    },
+    "data_provenance": "The translated exercise identifies the 2010 United States Census; no separate local data file or dataset-specific rights file exists in the named asset directory."
+  },
+  "component_rights": {
+    "work_license": "CC BY-SA 3.0 Unported",
+    "license_path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/LICENSE.md",
+    "license_bytes": 2612,
+    "license_sha256": "9bd77ff3e58e0b7f1331824b8195d4cf588851a6461cc3230d12410da7935223",
+    "scope_evidence_path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/README.md",
+    "scope_evidence_bytes": 2310,
+    "scope_evidence_sha256": "69d08163e03fc3731ba9f09e17b66068f01ea04aaa9a55b8468bcbcad87b6410",
+    "closure": "README.md states that all repository files are under the cited Creative Commons license; the figure is a data chart, not a third-party photograph or logo. Census-data provenance is retained and is not treated here as an independent dataset-license grant."
+  },
+  "localization": {
+    "method": "deterministic decoded-content-stream substitution from the pinned authority PDF",
+    "label_map": [
+      {
+        "source": "Mean work travel (in min)",
+        "target": "Rerata waktu perjalanan kerja (menit)",
+        "wording_note": "Rerata is used because the authority PDF maps ASCII hyphen code 45 to the mathematical minus glyph; this avoids an incorrect Rata−rata rendering."
+      }
+    ],
+    "localized_producer": {
+      "path": "repo/ch_summarizing_data/figures/eoce/county_commute_times/county_commute_times.R",
+      "bytes": 1049,
+      "sha256": "5fea9f007106792e60ff2e26c1ac888f50b5d6815f08476c11705d0285380efb"
+    },
+    "deterministic_helper": {
+      "path": "repo/ch_summarizing_data/figures/eoce/county_commute_times/localize_county_commute_times_hist_id.py",
+      "bytes": 1715,
+      "sha256": "bab69abfc3d35fd6e839dc4c2d6fa3c2d6d12efa3a342402111f22c8da514121"
+    },
+    "replays": {
+      "count": 2,
+      "byte_identical": true,
+      "bytes_each": 5397,
+      "sha256_each": "91a5e5764da725cf5bd93f3c74096f41c315799e06c89ea58fad18fe5b20bdbc"
+    },
+    "output": {
+      "path": "repo/ch_summarizing_data/figures/eoce/county_commute_times/county_commute_times_hist.pdf",
+      "bytes": 5397,
+      "sha256": "91a5e5764da725cf5bd93f3c74096f41c315799e06c89ea58fad18fe5b20bdbc",
+      "post_copy_readback": true
+    }
+  },
+  "qa": {
+    "page_count": 1,
+    "media_box_points": [0, 0, 540, 288],
+    "decoded_page_content_exact_except_declared_label_runs": true,
+    "font_resources_semantically_identical": true,
+    "pypdf_strict": "pass",
+    "pikepdf_no_recovery_and_syntax_check": "pass",
+    "mutool_clean_info_pages_draw": "pass_zero_diagnostics",
+    "pdfinfo_and_pdftotext": "pass",
+    "english_residue_findings": 0,
+    "tex_embed_smoke_from_promoted_path": "pass",
+    "render_dpi": 180,
+    "changed_pixels": 12132,
+    "changed_pixel_bbox": [358, 669, 1101, 712],
+    "changed_pixels_outside_declared_label_bands": 0,
+    "visual_inspection": {
+      "clipping": 0,
+      "overlap": 0,
+      "glyph_defects": 0,
+      "data_or_geometry_defects": 0
+    }
+  },
+  "accessibility": {
+    "source_pdf_tagged": false,
+    "target_pdf_tagged": false,
+    "localized_text_extractable": true,
+    "surrounding_tex_alternative_text_retained": true
+  },
+  "limitations": [
+    "The pinned producer does not freeze the historical openintro R package version, so the exact original source-driven runtime closure cannot be replayed.",
+    "The standalone source and localized PDFs are untagged; accessibility intent is preserved through the extractable label and the surrounding localized TeX alternative text."
+  ]
+}

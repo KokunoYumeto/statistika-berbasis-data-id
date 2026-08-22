@@ -1,0 +1,58 @@
+{
+  "schema": "openintro-boundary-visual-findings",
+  "schema_version": "0.1.0",
+  "boundary_id": "R011-B006",
+  "candidate": "final-v2",
+  "status": "rejected",
+  "candidate_pdf": {
+    "path": "qa/b006-build/final-v2/main.pdf",
+    "bytes": 21976316,
+    "sha256": "22fc488fe22e60cf413920f8553dd71ebd7db15dc04e2e78e90b18f61b12bc2f",
+    "pages": 425
+  },
+  "candidate_build_receipt": {
+    "path": "qa/b006-build/final-v2/CANDIDATE_BUILD_QA_V2.json",
+    "bytes": 14925,
+    "sha256": "288bbcb83f45a10cfda72e155014d0de3c5e03e960a1520396771359fd45ef34"
+  },
+  "inspection_resolution_dpi": 180,
+  "inspection_mode": "operator inspection of every individual full-resolution PNG, with pages 70 and 390 reinspected at original detail",
+  "candidate_pages": [61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 388, 389, 390],
+  "passed_pages": [61, 62, 63, 64, 65, 66, 67, 68, 69, 71, 72, 73, 388, 389],
+  "findings": [
+    {
+      "id": "R011-B006-V2-001",
+      "page": 70,
+      "severity": "P2",
+      "category": "float_only_page_severe_underfill",
+      "description": "Figure 2.28 is vertically centered on a float-only page with roughly three fifths of the sheet unused because the following Section 2.2 exercise header flushes pending floats."
+    },
+    {
+      "id": "R011-B006-V2-002",
+      "page": 390,
+      "severity": "P2",
+      "category": "answer_continuation_severe_underfill",
+      "description": "Only the continuation of public answer 3.7 and its Venn diagram occupy roughly the top sixth of the page because an explicit page break follows the answer."
+    }
+  ],
+  "severity_counts": {"P0": 0, "P1": 0, "P2": 2, "P3": 0},
+  "render_manifest": {
+    "path": "qa/b006-render/final-v2/FINAL_MANIFEST.tsv",
+    "bytes": 1410,
+    "sha256": "3dde52f6952dd0ef52aa2dd38f58f56de1d9d803f86da79efaf25d1697b61a11"
+  },
+  "page_locator": {
+    "path": "qa/b006-render/final-v2/PAGE_LOCATOR.json",
+    "bytes": 1388,
+    "sha256": "fda282a1b05306a5fc19df7ae6e768296017130c852cbb12c5d95d2fd99b3880"
+  },
+  "contact_sheet": {
+    "path": "qa/b006-render/final-v2/CONTACT_SHEET.png",
+    "bytes": 681068,
+    "sha256": "7ce0ef16f3880c62f5f66e6275efac04d53e636d029a7d6ba2bf46196937824c"
+  },
+  "pass_audit_created": false,
+  "promoted": false,
+  "output_pdf_mutated": false,
+  "required_next_action": "Apply only the two ledgered local reflows and build a fresh deterministic candidate."
+}

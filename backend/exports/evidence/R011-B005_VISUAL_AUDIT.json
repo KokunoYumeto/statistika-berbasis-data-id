@@ -1,0 +1,58 @@
+{
+  "boundary_id": "R011-B005",
+  "clipping_overlap_underfill_or_centering_defects": 0,
+  "inspected_pages": [
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    386,
+    387,
+    388
+  ],
+  "inspection_notes": [
+    "Every listed 150-dpi full-page PNG was manually inspected in source order; no clipping, overlap, accidental underfill, centering defect, illegibility, or in-boundary English instructional residue remains.",
+    "The three D028 repair targets pass: page 46 keeps openintro.org/d?file=stat_wtd_mean intact on one line, page 53 renders Example 2.20 punctuation without a stray space, and page 58 continues from the Exercise 2.10 panels directly into Exercise 2.11 with a full readable page.",
+    "Pages 55-56 preserve the source sequence of subsection prose, Figures 2.15-2.16, and then Exercises 2.1 onward; all map legends and the complete localized figure set remain readable.",
+    "Pages 386-388 preserve public-answer continuity. English Section 2.2 and answers 2.21/2.23 on transition witnesses are explicitly forward R011-B006 content outside this admitted boundary."
+  ],
+  "inspection_resolution_dpi": 150,
+  "localized_figure_defects": 0,
+  "pdf": {
+    "bytes": 21976542,
+    "path": "qa/b005-build/final-v9/main.pdf",
+    "sha256": "1b325e6966d8c827c4580769231d637b2f58885cb7c850940ab7c31ce1178dc5"
+  },
+  "render_manifest": {
+    "bytes": 2288,
+    "path": "qa/b005-render/final-v9/FINAL_MANIFEST.tsv",
+    "sha256": "86cd933b3edc69167c5ee74bf6a492f12ad782ac8b2208a5ba462be3245a8eb4"
+  },
+  "schema": "openintro-boundary-visual-audit",
+  "schema_version": "0.1.0",
+  "severity_counts": {
+    "P1": 0,
+    "P2": 0,
+    "P3": 0
+  },
+  "status": "pass"
+}

@@ -1,0 +1,308 @@
+{
+  "authority": {
+    "commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "repository": "https://github.com/OpenIntroStat/openintro-statistics",
+    "tree": "d61cc601e7d97759ce805900520f784d02a0489e"
+  },
+  "boundary_admitted": false,
+  "boundary_id": "R011-B006",
+  "checks": {
+    "ADV_0077_and_0078": "passed",
+    "instructional_content_order_math_data_assets_unchanged": "passed",
+    "reverse_reconstruction_byte_exact": "passed",
+    "source_snapshot_v2_files_exact": "passed",
+    "target_manifest_v2_reverse_reconstructed": "passed",
+    "three_exact_layout_substitutions": "passed",
+    "v2_rejection_bound": "passed"
+  },
+  "final_canonical_outputs": [
+    {
+      "bytes": 114091,
+      "path": "repo/ch_summarizing_data/TeX/ch_summarizing_data.tex",
+      "sha256": "3a087003f4bcb01268090fc2a04a8c40f9b46da7ff5a5f276a591a9d266e7a9c"
+    },
+    {
+      "bytes": 6658,
+      "path": "repo/ch_summarizing_data/TeX/considering_categorical_data.tex",
+      "sha256": "2e56b476d8e96e0db30395e40fbe129b0d08739b6292373778d647f529f6d143"
+    },
+    {
+      "bytes": 107940,
+      "path": "repo/extraTeX/eoceSolutions/eoceSolutions.tex",
+      "sha256": "49ad90a6c041ec23cfb99ce5f0a1ece6bf45516cc82eabbe02474c1604749b43"
+    }
+  ],
+  "final_control": {
+    "adverse_ids": [
+      "R011-ADV-0077",
+      "R011-ADV-0078"
+    ],
+    "bytes": 35453,
+    "path": "00_control/ADVERSE_LEDGER.jsonl",
+    "sha256": "a7c204002629921e8e09076e94e8c5aa8dc8f09314e6f4fd4f2d9c9c475c6d29",
+    "validated_tail": [
+      "R011-ADV-0070",
+      "R011-ADV-0071",
+      "R011-ADV-0072",
+      "R011-ADV-0073",
+      "R011-ADV-0074",
+      "R011-ADV-0075",
+      "R011-ADV-0076",
+      "R011-ADV-0077",
+      "R011-ADV-0078"
+    ]
+  },
+  "gate_script": {
+    "bytes": 135018,
+    "path": "scripts/qa_boundary_b006.py",
+    "sha256": "e1b00273a9c1f7b7bdbf075da7b28e441c93354c4dd8872eee81d84675a9dc6a"
+  },
+  "layout_only_invariants": {
+    "asset_bindings_changed": false,
+    "files": {
+      "ch_summarizing_data/TeX/ch_summarizing_data.tex": {
+        "sequence_counts": {
+          "active_environment_topology": 266,
+          "active_math": 118,
+          "asset_bindings": 28,
+          "comments": 212,
+          "environment_topology": 276,
+          "inputs": 3,
+          "labels": 71,
+          "math": 139,
+          "numeric_data": 1117,
+          "protected_calls": 629,
+          "references": 112
+        },
+        "status": "passed"
+      },
+      "ch_summarizing_data/TeX/considering_categorical_data.tex": {
+        "sequence_counts": {
+          "active_environment_topology": 14,
+          "active_math": 0,
+          "asset_bindings": 4,
+          "comments": 4,
+          "environment_topology": 14,
+          "inputs": 0,
+          "labels": 4,
+          "math": 0,
+          "numeric_data": 70,
+          "protected_calls": 21,
+          "references": 0
+        },
+        "status": "passed"
+      },
+      "extraTeX/eoceSolutions/eoceSolutions.tex": {
+        "sequence_counts": {
+          "active_environment_topology": 86,
+          "active_math": 559,
+          "asset_bindings": 0,
+          "comments": 224,
+          "environment_topology": 86,
+          "inputs": 0,
+          "labels": 1,
+          "math": 559,
+          "numeric_data": 1887,
+          "protected_calls": 99,
+          "references": 3
+        },
+        "status": "passed"
+      }
+    },
+    "instructional_content_changed": false,
+    "instructional_order_changed": false,
+    "math_changed": false,
+    "numeric_data_changed": false,
+    "reverse_reconstruction_byte_identical_to_source_snapshot_v2": true,
+    "status": "passed"
+  },
+  "layout_repairs": {
+    "adverse_ids": [
+      "R011-ADV-0077",
+      "R011-ADV-0078"
+    ],
+    "asset_bytes_or_bindings_changed": false,
+    "exact_substitutions": [
+      {
+        "adverse_id": "R011-ADV-0077",
+        "after_utf8": "digambar dengan skala yang sama.\n\n\\begin{figure}[!t]\n  \\centering\n",
+        "before_utf8": "digambar dengan skala yang sama.\n\n\\begin{figure}\n  \\centering\n",
+        "expected_occurrences": 1,
+        "id": "R011-B006-LYT-V3-001A",
+        "path": "repo/ch_summarizing_data/TeX/ch_summarizing_data.tex"
+      },
+      {
+        "adverse_id": "R011-ADV-0077",
+        "after_utf8": "\\begingroup\n\\renewcommand{\\clearpageforsection}{}\n\\exercisesheader{}\n\\endgroup\n\n% 21\n",
+        "before_utf8": "\\exercisesheader{}\n\n% 21\n",
+        "expected_occurrences": 1,
+        "id": "R011-B006-LYT-V3-001B",
+        "path": "repo/ch_summarizing_data/TeX/considering_categorical_data.tex"
+      },
+      {
+        "adverse_id": "R011-ADV-0078",
+        "after_utf8": "dependent.}\n\n\\end{multicols}\n\\begin{multicols}{2}\n\n% 9\n",
+        "before_utf8": "dependent.}\n\n\\end{multicols}\n\\newpage\n\\begin{multicols}{2}\n\n% 9\n",
+        "expected_occurrences": 1,
+        "id": "R011-B006-LYT-V3-002",
+        "path": "repo/extraTeX/eoceSolutions/eoceSolutions.tex"
+      }
+    ],
+    "instructional_content_changed": false,
+    "instructional_order_changed": false,
+    "math_changed": false,
+    "numeric_data_changed": false,
+    "repair_group_count": 2,
+    "substitution_count": 3
+  },
+  "post_repair_target_manifest": {
+    "bytes": 173738,
+    "path": "qa/R011-B006_TARGET_MANIFEST.tsv",
+    "sha256": "f4e717e06956a4f1633164f3d6711d414d06c4bf5f9c736a8f89e1ecb6e952da"
+  },
+  "pre_repair_evidence": {
+    "rejected_build_v2_receipt": {
+      "bytes": 2066,
+      "path": "qa/R011-B006_BUILD_QA_V2_REJECTED.json",
+      "sha256": "9792c0fc177e652889575c7ffdfcbbe503fbabca08e53224a8c52f39c42c7188"
+    },
+    "source_snapshot_v2": {
+      "file_bytes": 41205906,
+      "file_count": 1195,
+      "path": "qa/b006-build/source-snapshot-v2",
+      "path_set_and_all_file_identities_match_manifest": true,
+      "source_files": [
+        {
+          "bytes": 114087,
+          "path": "qa/b006-build/source-snapshot-v2/ch_summarizing_data/TeX/ch_summarizing_data.tex",
+          "sha256": "6b3bdafd2862163e7bc7984acb4b44ead0aaf872f8a9d11cf0280744daf286c2"
+        },
+        {
+          "bytes": 6598,
+          "path": "qa/b006-build/source-snapshot-v2/ch_summarizing_data/TeX/considering_categorical_data.tex",
+          "sha256": "afba6b55c86da135e1f2998c6736a24bb6319b056c1c47df5b2a618e2fa9f72f"
+        },
+        {
+          "bytes": 107949,
+          "path": "qa/b006-build/source-snapshot-v2/extraTeX/eoceSolutions/eoceSolutions.tex",
+          "sha256": "2f81c2f2e4afd739153a1a2e1f6059fa32ee10c9a5c38588977802b9831d3a75"
+        }
+      ]
+    },
+    "target_manifest_v2": {
+      "bytes": 173738,
+      "path": "qa/R011-B006_TARGET_MANIFEST.tsv",
+      "sha256": "d8bd3f832477e48489a52f3d211d293088528dc341548bb30e3f587de4c6640a"
+    },
+    "target_manifest_v2_reverse_reconstruction": {
+      "algorithm": "Replace only the three v3 source-overlay rows with their exact source-snapshot-v2 identities; keep every path and all other rows byte-identical, sort canonically, and hash.",
+      "bytes": 173738,
+      "file_bytes": 41205906,
+      "file_count": 1195,
+      "matches_rejected_v2_manifest_identity": true,
+      "path": "qa/R011-B006_TARGET_MANIFEST.tsv",
+      "replaced_paths": [
+        "ch_summarizing_data/TeX/ch_summarizing_data.tex",
+        "ch_summarizing_data/TeX/considering_categorical_data.tex",
+        "extraTeX/eoceSolutions/eoceSolutions.tex"
+      ],
+      "sha256": "d8bd3f832477e48489a52f3d211d293088528dc341548bb30e3f587de4c6640a",
+      "status": "passed"
+    },
+    "visual_findings_v2_receipt": {
+      "bytes": 2396,
+      "path": "qa/R011-B006_VISUAL_FINDINGS_V2.json",
+      "sha256": "6221077b007c1357e4524fdefc1719cd4beedeea4a363d5919e012a7ceea950c"
+    }
+  },
+  "reverse_reconstruction": {
+    "algorithm": "Starting from each final canonical source, process the exact substitutions in reverse listed order; require one after_utf8 occurrence and zero before_utf8 occurrences, replace after_utf8 with before_utf8 once, then require byte identity with the corresponding source-snapshot-v2 file.",
+    "all_outputs_match_source_snapshot_v2_identities": true,
+    "operations": [
+      {
+        "adverse_id": "R011-ADV-0077",
+        "final_after_occurrences": 1,
+        "final_before_occurrences": 0,
+        "id": "R011-B006-LYT-V3-001A",
+        "observed_occurrences_during_reverse": 1,
+        "path": "repo/ch_summarizing_data/TeX/ch_summarizing_data.tex",
+        "pre_after_occurrences": 0,
+        "pre_before_occurrences": 1
+      },
+      {
+        "adverse_id": "R011-ADV-0077",
+        "final_after_occurrences": 1,
+        "final_before_occurrences": 0,
+        "id": "R011-B006-LYT-V3-001B",
+        "observed_occurrences_during_reverse": 1,
+        "path": "repo/ch_summarizing_data/TeX/considering_categorical_data.tex",
+        "pre_after_occurrences": 0,
+        "pre_before_occurrences": 1
+      },
+      {
+        "adverse_id": "R011-ADV-0078",
+        "final_after_occurrences": 1,
+        "final_before_occurrences": 0,
+        "id": "R011-B006-LYT-V3-002",
+        "observed_occurrences_during_reverse": 1,
+        "path": "repo/extraTeX/eoceSolutions/eoceSolutions.tex",
+        "pre_after_occurrences": 0,
+        "pre_before_occurrences": 1
+      }
+    ],
+    "outputs": [
+      {
+        "bytes": 114087,
+        "path": "qa/b006-build/source-snapshot-v2/ch_summarizing_data/TeX/ch_summarizing_data.tex",
+        "sha256": "6b3bdafd2862163e7bc7984acb4b44ead0aaf872f8a9d11cf0280744daf286c2"
+      },
+      {
+        "bytes": 6598,
+        "path": "qa/b006-build/source-snapshot-v2/ch_summarizing_data/TeX/considering_categorical_data.tex",
+        "sha256": "afba6b55c86da135e1f2998c6736a24bb6319b056c1c47df5b2a618e2fa9f72f"
+      },
+      {
+        "bytes": 107949,
+        "path": "qa/b006-build/source-snapshot-v2/extraTeX/eoceSolutions/eoceSolutions.tex",
+        "sha256": "2f81c2f2e4afd739153a1a2e1f6059fa32ee10c9a5c38588977802b9831d3a75"
+      }
+    ]
+  },
+  "schema": "openintro-b006-layout-repair-receipt",
+  "schema_version": "r011-b006-layout-repair-receipt-v3/1.0.0",
+  "status": "layout_repairs_applied_and_reverse_verified",
+  "visual_candidate_v2": {
+    "candidate_pdf": {
+      "bytes": 21976316,
+      "pages": 425,
+      "path": "qa/b006-build/final-v2/main.pdf",
+      "sha256": "22fc488fe22e60cf413920f8553dd71ebd7db15dc04e2e78e90b18f61b12bc2f"
+    },
+    "findings": [
+      {
+        "adverse_id": "R011-ADV-0077",
+        "category": "float_only_page_severe_underfill",
+        "id": "R011-B006-V2-001",
+        "page": 70,
+        "repair_ids": [
+          "R011-B006-LYT-V3-001A",
+          "R011-B006-LYT-V3-001B"
+        ],
+        "severity": "P2"
+      },
+      {
+        "adverse_id": "R011-ADV-0078",
+        "category": "answer_continuation_severe_underfill",
+        "id": "R011-B006-V2-002",
+        "page": 390,
+        "repair_ids": [
+          "R011-B006-LYT-V3-002"
+        ],
+        "severity": "P2"
+      }
+    ],
+    "promoted": false,
+    "status": "rejected_visual"
+  },
+  "write_boundary": "qa/R011-B006_LAYOUT_REPAIR_RECEIPT_V3.json, qa/R011-B006_TARGET_MANIFEST.tsv, and qa/R011-B006_SOURCE_QA.json only"
+}

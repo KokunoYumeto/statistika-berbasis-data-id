@@ -1,0 +1,605 @@
+{
+  "schema": "openintro-id-semantic-audit-receipt",
+  "schema_version": "0.8.0",
+  "boundary_id": "R011-B005",
+  "recorded_at": "2026-08-22",
+  "authority": {
+    "repository": "https://github.com/OpenIntroStat/openintro-statistics",
+    "commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "tree": "d61cc601e7d97759ce805900520f784d02a0489e",
+    "snapshot_root": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e"
+  },
+  "scope": {
+    "instructional_body": "Chapter 2 opener and Section 2.1 from the start of ch_summarizing_data.tex through the examining_numerical_data input",
+    "exercises": [
+      "2.1",
+      "2.2",
+      "2.3",
+      "2.4",
+      "2.5",
+      "2.6",
+      "2.7",
+      "2.8",
+      "2.9",
+      "2.10",
+      "2.11",
+      "2.12",
+      "2.13",
+      "2.14",
+      "2.15",
+      "2.16",
+      "2.17",
+      "2.18",
+      "2.19",
+      "2.20"
+    ],
+    "public_answers": [
+      "2.1",
+      "2.3",
+      "2.5",
+      "2.7",
+      "2.9",
+      "2.11",
+      "2.13",
+      "2.15",
+      "2.17",
+      "2.19"
+    ],
+    "no_public_answer_o001_gaps": [
+      "2.2",
+      "2.4",
+      "2.6",
+      "2.8",
+      "2.10",
+      "2.12",
+      "2.14",
+      "2.16",
+      "2.18",
+      "2.20"
+    ],
+    "section_2_2_boundary": "The suffix beginning exactly at \\section{Considering categorical data} is outside B005 and must remain byte-identical to authority.",
+    "restricted_instructor_solutions_accessed": false
+  },
+  "independence": {
+    "method": "A separate Codex audit agent read the Indonesian body, all twenty exercises, and only the ten upstream-public odd answers directly against the pinned English authority. It then re-read the final live files after another agent and the coordinator applied bounded accessibility and language repairs.",
+    "translator_and_auditor_roles_separated": true,
+    "live_source_edited_by_auditor": false
+  },
+  "pre_repair_target_identities": {
+    "body": {
+      "path": "repo/ch_summarizing_data/TeX/ch_summarizing_data.tex",
+      "bytes": 115990,
+      "sha256": "e2e59b8d25db13082bb909ec1575604608ad8e7707d8edf5ad56da36bbe98e59"
+    },
+    "exercises": {
+      "path": "repo/ch_summarizing_data/TeX/examining_numerical_data.tex",
+      "bytes": 21931,
+      "sha256": "3a8e862413ada0f960c27cbca5c16194467078f0138330860459dab78e07776e"
+    },
+    "solutions": {
+      "path": "repo/extraTeX/eoceSolutions/eoceSolutions.tex",
+      "bytes": 107932,
+      "sha256": "127a81a8dde66435f7a22adffca4ec147ca898ffba698c90707ed4ba7fa965bb"
+    }
+  },
+  "initial_audit": {
+    "result": "failed_with_repairable_findings",
+    "severity_counts": {
+      "P1": 0,
+      "P2": 1,
+      "P3": 2
+    },
+    "findings": [
+      {
+        "id": "R011-B005-SEM-001",
+        "severity": "P2",
+        "kind": "inherited_accessibility_data_error",
+        "authority_locus": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_summarizing_data/TeX/ch_summarizing_data.tex:193",
+        "target_locus_before_repair": "repo/ch_summarizing_data/TeX/ch_summarizing_data.tex:190",
+        "finding": "The stacked-dot alternative description assigned five observations to 11%, then a separate one observation to 11%, and three observations to 12%. The producer rounds loan50 interest_rate to whole percentages; the exact rounded counts are five at 11%, one at 12%, and three at 13%.",
+        "evidence": [
+          "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_summarizing_data/figures/loan_int_rate_dot_plot/loan_int_rate_dot_plot.R",
+          "https://www.openintro.org/data/csv/loan50.csv"
+        ],
+        "repair": "The final target now says 5 pada 11%, 1 pada 12%, dan 3 pada 13% while retaining every other stack count and the total of 50 observations.",
+        "final_target_locus": "repo/ch_summarizing_data/TeX/ch_summarizing_data.tex:190"
+      },
+      {
+        "id": "R011-B005-SEM-002",
+        "severity": "P3",
+        "kind": "target_language_residue",
+        "authority_locus": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_summarizing_data/TeX/ch_summarizing_data.tex:665, 848, 877-892",
+        "target_locus_before_repair": "repo/ch_summarizing_data/TeX/ch_summarizing_data.tex:646-647, 816, 841, 844, 855",
+        "finding": "English ordinal suffixes st, nd, rd, and th remained inside otherwise Indonesian prose for observations and percentiles.",
+        "repair": "The final target expresses the ordinals naturally as ke-$1$, ke-$2$, ke-$3$, ke-$50$, ke-$25$, and ke-$75$ without changing the underlying values or formulas.",
+        "final_target_locus": "repo/ch_summarizing_data/TeX/ch_summarizing_data.tex:646-647, 816, 841, 844, 855"
+      },
+      {
+        "id": "R011-B005-SEM-003",
+        "severity": "P3",
+        "kind": "chapter_title_consistency",
+        "authority_locus": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/extraTeX/eoceSolutions/eoceSolutions.tex:234",
+        "target_locus_before_repair": "repo/extraTeX/eoceSolutions/eoceSolutions.tex:248",
+        "finding": "The public-answer appendix used Meringkas data while the Chapter 2 reader title was Merangkum data.",
+        "repair": "The final public-answer header is Merangkum data, exactly matching the reader chapter title.",
+        "final_target_locus": "repo/extraTeX/eoceSolutions/eoceSolutions.tex:248"
+      }
+    ]
+  },
+  "concurrent_gate_repairs_reverified": [
+    {
+      "kind": "body_alt_label_localization",
+      "loci": "repo/ch_summarizing_data/TeX/ch_summarizing_data.tex:96, 126, 179, 190, 472, 1052",
+      "result": "passed",
+      "detail": "Six quoted axis labels in localized alternative descriptions are now Indonesian; all surrounding values and visual relations remain unchanged."
+    },
+    {
+      "kind": "inherited_accessibility_point_count",
+      "authority_locus": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_summarizing_data/TeX/examining_numerical_data.tex:18",
+      "target_locus": "repo/ch_summarizing_data/TeX/examining_numerical_data.tex:18",
+      "result": "passed",
+      "detail": "The study has 62 mammal rows, but only 55 rows have both life_span and gestation and therefore only 55 points are plotted. The final target correctly distinguishes 62 collected mammals in the exercise prose from 55 plotted points in the alternative description."
+    },
+    {
+      "kind": "localized_figure_label_identity",
+      "target_locus": "repo/ch_summarizing_data/TeX/examining_numerical_data.tex:305",
+      "result": "passed",
+      "detail": "The commute-histogram alternative description now quotes Rerata waktu perjalanan kerja (menit), byte-for-text matching the visible label extracted from the localized PDF."
+    }
+  ],
+  "layout_only_reflow": {
+    "decision": "D021",
+    "reason": "The first complete B005 visual build exposed effectively blank continuation pages in the body and exercise span.",
+    "omitted_print_only_forced_breaks": 4,
+    "body_break_loci": [
+      "before Example 2.6",
+      "before Guided Practice 2.9",
+      "before the Variance and standard deviation subsection"
+    ],
+    "exercise_break_locus": "between exercises 2.6 and 2.7",
+    "reader_visible_content_changed": false,
+    "reverse_substitution_proof": {
+      "body": {
+        "replaced_comment_count": 3,
+        "reconstructed_prior_bytes": 115963,
+        "reconstructed_prior_sha256": "5d19828e1728c2f70c6a5fe31a80cf5fa4d8f488b404b2f595f44008f52d5e9b"
+      },
+      "exercises": {
+        "replaced_comment_count": 1,
+        "reconstructed_prior_bytes": 21924,
+        "reconstructed_prior_sha256": "0168cd5dbb3822b81f5c6ee692075011e294a19819422f365e5e9d5750dcfd9a"
+      }
+    },
+    "required_revalidation": "fresh source gate, deterministic build, and manual inspection of every B005 candidate page"
+  },
+  "layout_only_reflow_D022": {
+    "decision": "D022",
+    "reason": "The complete v2 visual inspection found severe underfill on page 50 because a print-only forced break unnecessarily moved the box-plot subsection to page 51.",
+    "omitted_print_only_forced_breaks": 1,
+    "body_break_locus": "immediately before subsection Diagram kotak, kuartil, dan median",
+    "reader_visible_content_changed": false,
+    "reverse_substitution_proof": {
+      "body": {
+        "replaced_comment_count": 1,
+        "reconstructed_prior_bytes": 116107,
+        "reconstructed_prior_sha256": "15fcc65c3b018e16b7c7f28b06e7f20a2e43ac3ceb4c043063ea5d5ec94f1046"
+      },
+      "body_prefix": {
+        "reconstructed_prior_bytes": 57490,
+        "reconstructed_prior_sha256": "090f098bd64cba2b02d3af396187879c9e47000541c999cb33af5e2686c96dd1"
+      }
+    },
+    "rejected_v2_build_receipt": {
+      "path": "qa/R011-B005_BUILD_QA_V2_REJECTED.json",
+      "bytes": 11823,
+      "sha256": "0f254d484c3ed03e5dc6b1de827de301c9b83d62b04d37f188264375662c0a4b"
+    },
+    "rejected_v2_visual_findings": {
+      "path": "qa/b005-render/final-v2/VISUAL_FINDINGS_V2.json",
+      "bytes": 1845,
+      "sha256": "4f59808595a3d006640ac470365bf5fb9e385295e472d279a4fec95a5c0b1134",
+      "finding_id": "R011-B005-VIS-006",
+      "severity": "P2",
+      "page": 50
+    },
+    "required_revalidation": "fresh v3 source gate, deterministic rebuild in a new candidate lane, and manual inspection of every B005 candidate page"
+  },
+  "layout_only_reflow_D023": {
+    "decision": "D023",
+    "reason": "The complete v3 visual inspection found severe underfill on page 52 because the robust-statistics subsection was unnecessarily forced to page 53; the bounded cascade audit identified the same print-only constraint before the two following special-topic subsections.",
+    "omitted_print_only_forced_breaks": 3,
+    "body_break_loci": [
+      "immediately before subsection Statistik robust",
+      "immediately before subsection Mentransformasi data (topik khusus)",
+      "immediately before subsection Memetakan data (topik khusus)"
+    ],
+    "reader_visible_content_changed": false,
+    "reverse_substitution_proof": {
+      "body": {
+        "replaced_comment_count": 3,
+        "reconstructed_prior_bytes": 116165,
+        "reconstructed_prior_sha256": "a782c94a3d6e3ab8ef43032433c1b67b94845895ba753ec48bbcbfa98cb84071"
+      },
+      "body_prefix": {
+        "reconstructed_prior_bytes": 57548,
+        "reconstructed_prior_sha256": "bacd21903d882acdb5211beddc8636e1eef1a42dd87d9c4e6cf8a5c94660e1ac"
+      }
+    },
+    "rejected_v3_build_receipt": {
+      "path": "qa/R011-B005_BUILD_QA_V3_REJECTED.json",
+      "bytes": 11823,
+      "sha256": "9c28289efe968a0dba03b61b0d6821b7645aea1f82b7de2e7daafc37ef44e612"
+    },
+    "rejected_v3_visual_findings": {
+      "path": "qa/b005-render/final-v3/VISUAL_FINDINGS_V3.json",
+      "bytes": 1851,
+      "sha256": "82995a4740fc1ea649689290d5383677e52ad167ed382e22061a7054caa1f8c4",
+      "finding_id": "R011-B005-VIS-007",
+      "severity": "P2",
+      "page": 52
+    },
+    "required_revalidation": "fresh v4 source gate, deterministic rebuild in a new candidate lane, and manual inspection of every B005 candidate page"
+  },
+  "layout_only_reflow_D024": {
+    "decision": "D024",
+    "reason": "The complete v4 visual inspection found severe underfill and broken figure flow on page 55: removing the map-subsection break separated its introduction from Example 2.21 without advancing either full-page map figure.",
+    "restored_print_only_forced_breaks": 1,
+    "body_break_locus": "immediately before subsection Memetakan data (topik khusus)",
+    "retained_D023_omissions": [
+      "immediately before subsection Statistik robust",
+      "immediately before subsection Mentransformasi data (topik khusus)"
+    ],
+    "reader_visible_content_changed": false,
+    "reverse_substitution_proof": {
+      "body": {
+        "restored_directive_count": 1,
+        "reconstructed_prior_bytes": 116346,
+        "reconstructed_prior_sha256": "a5e1705477dbac290c71275681aa44c034c1c9bec5e3b7373502b6409715af4d"
+      },
+      "body_prefix": {
+        "reconstructed_prior_bytes": 57729,
+        "reconstructed_prior_sha256": "5a5a5ba8f8c37938abb4eae52e0c04ce6b205971b8aa4e587766068fac6db383"
+      }
+    },
+    "rejected_v4_build_receipt": {
+      "path": "qa/R011-B005_BUILD_QA_V4_REJECTED.json",
+      "bytes": 11823,
+      "sha256": "e220b72139d4fde30230f83b2cfb2e7b3e26c8ec35479c54116e0efeebffea9a"
+    },
+    "rejected_v4_visual_findings": {
+      "path": "qa/b005-render/final-v4/VISUAL_FINDINGS_V4.json",
+      "bytes": 2041,
+      "sha256": "9e18fef22e03c07624bd25ef53a5babffe3d73f7ae022981d2303978caf5b604",
+      "finding_id": "R011-B005-VIS-008",
+      "severity": "P2",
+      "page": 55
+    },
+    "required_revalidation": "fresh v5 source gate, deterministic rebuild in a new candidate lane, and manual inspection of every B005 candidate page"
+  },
+  "layout_only_reflow_D025": {
+    "decision": "D025",
+    "reason": "The four county intensity maps are paired two per figure for the bounded v6 candidate while preserving the D024 map-subsection break.",
+    "scope": "the two county-intensity-map figure environments only",
+    "width_substitutions": {
+      "count": 4,
+      "prior": "{1.00}",
+      "current": "{0.48}",
+      "byte_delta_total": 0
+    },
+    "hfill_insertions": {
+      "count": 2,
+      "exact_line": "  \\hfill\n",
+      "byte_delta_each": 9,
+      "byte_delta_total": 18
+    },
+    "D024_map_break_preserved": true,
+    "reader_visible_semantic_content_changed": false,
+    "layout_geometry_changed": true,
+    "reverse_substitution_proof": {
+      "body": {
+        "reconstructed_prior_bytes": 116288,
+        "reconstructed_prior_sha256": "9d6681989126b16b51a990684de86f8b506027d994c290f10adbf93faee3b886"
+      },
+      "body_prefix": {
+        "reconstructed_prior_bytes": 57671,
+        "reconstructed_prior_sha256": "1ebc439f61508cd1de03664d016ac363979e2b78df92701f30117b8dfc394e91"
+      }
+    },
+    "required_revalidation": "fresh v6 source gate, deterministic rebuild in a new candidate lane, and manual inspection of every B005 candidate page"
+  },
+  "layout_only_reflow_D026": {
+    "decision": "D026",
+    "reason": "The two paired county-map figures receive bounded bottom/top float preferences, and only the Section 2.1 exercise header locally suppresses its inherited section-level clear-page command for the v7 candidate.",
+    "scope": "the two county-intensity-map figure openings and the four-line local exercise-header block only",
+    "figure_placement_options": {
+      "count": 2,
+      "byte_delta_each": 4,
+      "byte_delta_total": 8,
+      "replacements": [
+        {
+          "prior": "\\begin{figure}",
+          "current": "\\begin{figure}[!b]",
+          "map_assets": [
+            "{countyPovertyMap}",
+            "{countyUnemploymentRateMap}"
+          ]
+        },
+        {
+          "prior": "\\begin{figure}",
+          "current": "\\begin{figure}[!t]",
+          "map_assets": [
+            "{countyHomeownershipMap}",
+            "{countyMedIncomeMap}"
+          ]
+        }
+      ]
+    },
+    "exercise_header_wrapper": {
+      "line_count": 4,
+      "current_block": "\\begingroup\n\\renewcommand{\\clearpageforsection}{}\n\\exercisesheader{}\n\\endgroup\n",
+      "current_block_bytes": 79,
+      "prior_line": "\\exercisesheader{}\n",
+      "prior_line_bytes": 19,
+      "byte_delta_total": 60,
+      "local_scope_preserved": true
+    },
+    "D024_map_break_preserved": true,
+    "D025_map_pairing_preserved": true,
+    "reader_visible_semantic_content_changed": false,
+    "instructional_content_changed": false,
+    "layout_geometry_changed": true,
+    "reverse_substitution_proof": {
+      "body": {
+        "reconstructed_prior_bytes": 116306,
+        "reconstructed_prior_sha256": "96ccd68d07153d0ba6c30fae149dcd014eed68ddc929ed5e39e6e1fe070535c7"
+      },
+      "body_prefix": {
+        "reconstructed_prior_bytes": 57689,
+        "reconstructed_prior_sha256": "0903f046be3b70694f1ebdffafc74f646fc01cccf266ad321bb3a61aa253d841"
+      },
+      "exercises": {
+        "reconstructed_prior_bytes": 21972,
+        "reconstructed_prior_sha256": "6e679e40e079d3dd530b1926aad8b13e391b7e34316126a66ab94e76d2f81c2c"
+      }
+    },
+    "required_revalidation": "fresh v7 source gate, deterministic rebuild in a new candidate lane, and manual inspection of every B005 candidate page"
+  },
+  "layout_only_reflow_D027": {
+    "decision": "D027",
+    "reason": "The v8 candidate loads placeins and places one FloatBarrier immediately after the second paired county-map figure so those maps cannot drift into the Section 2.1 exercises.",
+    "scope": "one package-list line in main.tex and one barrier immediately after Figure 2.16 only",
+    "package_insertion": {
+      "path": "repo/main.tex",
+      "count": 1,
+      "exact_line": "  placeins,\n",
+      "byte_delta": 12,
+      "reconstructed_v7": {
+        "bytes": 5343,
+        "sha256": "38402e564dcec095e46b8a1af1c5db8445bf8758ede2e4ed94f4c2a8d2f16017"
+      }
+    },
+    "float_barrier_insertion": {
+      "path": "repo/ch_summarizing_data/TeX/ch_summarizing_data.tex",
+      "count": 1,
+      "exact_text": "\n\\FloatBarrier\n",
+      "byte_delta": 15,
+      "locus": "immediately after the figure labeled countyIntensityMaps2 and before the following county index closure and exercise input",
+      "reconstructed_v7": {
+        "body": {
+          "bytes": 116314,
+          "sha256": "ac88a3ba072a803d5191bc6d324f0a1a0dc1a06d61d8de9cef052bcf38d57d80"
+        },
+        "body_prefix": {
+          "bytes": 57697,
+          "sha256": "f991ea5df4d34590fcf72e551de1cf0a581e67c3ba4b8f3152b42664c5e2e518"
+        }
+      }
+    },
+    "D024_map_break_preserved": true,
+    "D025_map_pairing_preserved": true,
+    "D026_float_preferences_and_local_header_wrapper_preserved": true,
+    "reader_visible_semantic_content_changed": false,
+    "instructional_content_changed": false,
+    "layout_geometry_changed": true,
+    "required_revalidation": "fresh v8 source gate, deterministic rebuild in a new candidate lane, and manual inspection of every B005 candidate page"
+  },
+  "layout_only_reflow_D028": {
+    "decision": "D028",
+    "reason": "The v9 candidate removes the forced page break after Exercise 2.10 so Exercise 2.11 can follow its six-panel figure, while two source-only body adjustments preserve URL/index semantics and improve line breaking and punctuation placement.",
+    "scope": "the weighted-mean supplement URL wrapper, the Example 2.20 period/index ordering, and the post-Exercise-2.10 page-break directive only",
+    "body_source_only_adjustments": {
+      "url_boxing": {
+        "count": 1,
+        "byte_delta": 7,
+        "command": "\\mbox{\\oiRedirect{stat_wtd_mean}{openintro.org/d?file=stat\\_wtd\\_mean}}",
+        "redirect_id_unchanged": "stat_wtd_mean",
+        "visible_url_target_unchanged": "openintro.org/d?file=stat_wtd_mean",
+        "reader_visible_semantic_content_changed": false
+      },
+      "example_2_20_period_index_reordering": {
+        "count": 1,
+        "byte_delta": 0,
+        "index": "\\index{kemencengan!ekstrem}",
+        "prior_order": "yang sangat menceng\\n\\index{kemencengan!ekstrem}.",
+        "current_order": "yang sangat menceng.\\n\\index{kemencengan!ekstrem}",
+        "index_sequence_changed": false,
+        "reader_visible_semantic_content_changed": false
+      },
+      "reconstructed_v8": {
+        "body": {
+          "bytes": 116329,
+          "sha256": "b27b5ccba03f6d775ac38516cb0837b059b4030c1c1efeb23c52d82f9c078dbc"
+        },
+        "body_prefix": {
+          "bytes": 57712,
+          "sha256": "9b19a26a788eece77e7629b394f0880f9273b0560a5c1706ea9b70fac72afe4c"
+        }
+      }
+    },
+    "exercise_break_replacement": {
+      "count": 1,
+      "locus": "immediately after Exercise 2.10 and before Exercise 2.11",
+      "prior": "\\D{\\newpage}\n",
+      "prior_bytes": 13,
+      "current": "% R011-B005 D028: jeda halaman paksa setelah Latihan 2.10 ditiadakan\n% agar Latihan 2.11 mengikuti panel gambar pada halaman yang sama.\n",
+      "current_bytes": 136,
+      "byte_delta": 123,
+      "reconstructed_v8": {
+        "bytes": 22032,
+        "sha256": "15309a23fe0bbcd88f5f2385f2fceb7db88952e5babb1012d3576558ff49f81c"
+      }
+    },
+    "main_tex_unchanged_from_v8": true,
+    "D027_placeins_and_FloatBarrier_preserved": true,
+    "reader_visible_semantic_content_changed": false,
+    "instructional_content_changed": false,
+    "layout_geometry_changed": true,
+    "required_revalidation": "fresh v9 source gate, deterministic rebuild in a new candidate lane, and manual inspection of every B005 candidate page"
+  },
+  "final_artifact_identities": {
+    "authority": [
+      {
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_summarizing_data/TeX/ch_summarizing_data.tex",
+        "bytes": 114376,
+        "sha256": "00fb044707824539b57a27f6e258165c62c4f29769679305641214c6d4552f51"
+      },
+      {
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_summarizing_data/TeX/examining_numerical_data.tex",
+        "bytes": 20292,
+        "sha256": "701b0ce5f883da62fc2f0cf6b3e180dfa5c5bda5d3fb476ea5016c9acda24409"
+      },
+      {
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/extraTeX/eoceSolutions/eoceSolutions.tex",
+        "bytes": 106045,
+        "sha256": "6c4e01376db4c023cc7b3f9949490e57220ef1cb831c580da71efde6ce723268"
+      }
+    ],
+    "target": [
+      {
+        "path": "repo/main.tex",
+        "bytes": 5355,
+        "sha256": "7d45fba9d91efa0115467f59c039432ab5acd44387997782994fff0d36464c5f"
+      },
+      {
+        "path": "repo/ch_summarizing_data/TeX/ch_summarizing_data.tex",
+        "bytes": 116336,
+        "sha256": "188ce7f179aa8c53d08d08ee9023277fc010c8c43e0b42b57f36617a03135bb7"
+      },
+      {
+        "path": "repo/ch_summarizing_data/TeX/examining_numerical_data.tex",
+        "bytes": 22155,
+        "sha256": "a97bbc7212a14a293776f3e307387ae671d2ff0577125f490a5c73ad6b6a8ebe"
+      },
+      {
+        "path": "repo/extraTeX/eoceSolutions/eoceSolutions.tex",
+        "bytes": 107932,
+        "sha256": "1a0f37c70ec657a6941a8c758d27134c1ac9b6a19279115555ce76c1776c031a"
+      }
+    ],
+    "bounded_slices": {
+      "authority_body_through_exercise_input": {
+        "bytes": 55754,
+        "sha256": "6810813316a3d08df0109d7ac8ca919c781fe63662dfca44751c64f273b13ae0"
+      },
+      "target_body_through_exercise_input": {
+        "bytes": 57714,
+        "sha256": "ddd3f99eb697bfb12a4d7fa1cd8b237200b6a8ca5e0fc368673e33a32de1ceb8"
+      },
+      "authority_pre_section_2_2": {
+        "bytes": 55759,
+        "sha256": "f3f1155e2e4f47e503466af0529bfd71815855d2d95179ae4c935dc64de1740f"
+      },
+      "target_pre_section_2_2": {
+        "bytes": 57719,
+        "sha256": "2b2693ed6f88dec8db79d1ac7c6bd5d0c2d4ecddfa69087eaf60f737ebf23d86"
+      },
+      "authority_and_target_section_2_2_suffix": {
+        "bytes": 58617,
+        "sha256": "5132a9d283a9dd606efb456fb2e1271d6020835b994a2c233a2b0bfb58633997",
+        "byte_identical": true
+      },
+      "authority_public_odd_answer_slice": {
+        "bytes": 4838,
+        "sha256": "0e60b86b248027548bc819c1fdb07e80f36de433a2cc8eefc1daa793c64d4341"
+      },
+      "target_public_odd_answer_slice": {
+        "bytes": 5342,
+        "sha256": "ddcb9f4021d7fdfdd06b5c5e4d624a5c42e32466cbc133f185dc47c8503dbaa3"
+      }
+    }
+  },
+  "evidence": {
+    "official_loan50_csv": {
+      "url": "https://www.openintro.org/data/csv/loan50.csv",
+      "retrieved_at": "2026-08-22",
+      "bytes": 6136,
+      "sha256": "73befa0d1d8e0cc776a84cb49b5629a23e5ca3addc0a96fc1a9ce0083a7ae962",
+      "rows": 50,
+      "identity_checks": "mean 11.5672, sample variance 25.523865, sample SD 5.052115, median 9.93, Q1 7.96, Q3 13.715, minimum 5.31, maximum 26.30; these replay the book macros after stated rounding",
+      "rounded_interest_rate_counts": "5:3, 6:3, 7:5, 8:4, 9:5, 10:8, 11:5, 12:1, 13:3, 14:1, 15:1, 16:1, 17:3, 18:2, 19:1, 20:1, 21:1, 25:1, 26:1"
+    },
+    "official_mammals_csv": {
+      "url": "https://www.openintro.org/data/csv/mammals.csv",
+      "retrieved_at": "2026-08-22",
+      "bytes": 2880,
+      "sha256": "c266523df462d2a678c62729d4528098e80f9e0b44aaa25c4fd8653d33ce5eb5",
+      "rows": 62,
+      "rows_with_both_life_span_and_gestation": 55
+    },
+    "pinned_producers": [
+      {
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_summarizing_data/figures/loan_int_rate_dot_plot/loan_int_rate_dot_plot.R",
+        "bytes": 1370,
+        "sha256": "f7d5e96e4fb92560771597e4e116c3fc9b06db0001f2ded27c5032530bb392ea"
+      },
+      {
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_summarizing_data/figures/eoce/mammal_life_spans/mammal_life_spans.R",
+        "bytes": 751,
+        "sha256": "abffdfd8d96bbd3017c8f05584a801da6eae0fc008de9994ec0f908ff275b1da"
+      }
+    ],
+    "localized_commute_histogram": {
+      "path": "repo/ch_summarizing_data/figures/eoce/county_commute_times/county_commute_times_hist.pdf",
+      "bytes": 5397,
+      "sha256": "91a5e5764da725cf5bd93f3c74096f41c315799e06c89ea58fad18fe5b20bdbc",
+      "extracted_axis_label": "Rerata waktu perjalanan kerja (menit)"
+    }
+  },
+  "final_reaudit": {
+    "result": "passed",
+    "severity_counts": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "finding_count": 0,
+    "checks": [
+      "The final Indonesian is natural and faithful across the complete B005 body, twenty exercises, and ten public odd answers.",
+      "Every instructional fact, number, variable, statistical claim, example, citation, code/data reference, label, cross-reference, exercise part, and public-answer relation was rechecked.",
+      "Body topology retains 94 checked labels/references/citations/input links; exercise topology retains 32 checked labels/citations/figure paths; public-answer topology retains its figure path.",
+      "All eight display-math blocks are authority-identical after whitespace and translated text normalization; all ten inline-math differences are only the intended Indonesian ordinal normalization.",
+      "Twenty exercise wrappers and 31 exercise parts are retained. Ten public solutions remain in exact odd order 1,3,5,7,9,11,13,15,17,19; no restricted solution was used or invented.",
+      "Active common-English residue in the admitted body, exercise file, and public-answer slice is zero; protected variable identifiers and proper names remain intentionally unchanged.",
+      "The 58,617-byte Section 2.2-and-later suffix is byte-identical to pinned authority.",
+      "Reversing the exact D028 URL wrapper, period/index ordering, and post-Exercise-2.10 break comment reconstructs v8 body, prefix, and exercises; removing the exact D027 placeins package line and post-map FloatBarrier reconstructs v7 main, body, and prefix; removing the two D026 figure-placement options and the exact four-line local exercise-header wrapper reconstructs v6 body and exercises; restoring the four D025 map widths to 1.00 and removing exactly two hfill lines reconstructs v5; reversing D024 reconstructs v4; restoring all three D023 directives reconstructs v3; restoring D022 reconstructs v2; removing the four D021 comments and restoring the four print-only newpage directives reconstructs v1 exactly. Instructional content and semantic topology are unchanged throughout; D025–D028 deliberately change only bounded layout geometry, pagination behavior, or source-only line-breaking/punctuation placement."
+    ],
+    "expected_authority_deltas": {
+      "body_numeric_multiset": "554 tokens on each side; only 11 count 8->7 and 13 count 1->2, exactly the repaired stacked-dot alternative description",
+      "exercise_numeric_multiset": "423 tokens on each side; only 62 count 3->2 and 55 count 0->1, exactly the repaired plotted-point count",
+      "answer_numeric_multiset": "64 tokens on each side with zero delta",
+      "semantic_macro_multiset": "Only the documented corrections remain: data 20->19, var 26->27, and us 25->27, corresponding to data-to-var interest_rate, loan_amount-to-interest_rate, and income-to-per_capita_income",
+      "documented_source_corrections_reverified": [
+        "R011-ADV-0051",
+        "R011-ADV-0052",
+        "R011-ADV-0053",
+        "R011-ADV-0054",
+        "R011-ADV-0055",
+        "R011-ADV-0056",
+        "R011-ADV-0057",
+        "R011-ADV-0058"
+      ]
+    },
+    "conclusion": "All initial and concurrent repair loci are correct in the final live identities, and no remaining P1, P2, or P3 semantic issue was found within R011-B005."
+  },
+  "status": "passed"
+}

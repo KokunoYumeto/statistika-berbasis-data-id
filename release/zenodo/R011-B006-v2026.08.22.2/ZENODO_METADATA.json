@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "title": "Statistika Berbasis Data — Edisi Kerja Bahasa Indonesia (R011-B006: Bab 1 dan Bagian 2.1–2.2)",
+    "upload_type": "publication",
+    "publication_type": "book",
+    "publication_date": "2026-08-22",
+    "description": "<p><strong>Rilis pelestarian yang secara eksplisit belum lengkap.</strong> Cakupan yang telah diterjemahkan dan diterima meliputi materi pendahuluan turunan, Bab 1 lengkap beserta latihan akhir bab dan jawaban publik, serta pembuka Bab 2 dan Bagian 2.1–2.2 beserta latihan 2.1–2.24 dan jawaban publik bernomor ganjil.</p><p>PDF batas kerja mempertahankan Bagian 2.3 dan seterusnya dalam bahasa Inggris untuk reproduksibilitas build buku lengkap; bagian tersebut belum merupakan terjemahan. Tidak ada solusi instruktur terbatas yang diakses atau diciptakan. Rilis mencakup PDF, penutupan sumber editable, backend modular JSONL/CSV, skema, manifes hak komponen, serta bukti build dan QA. Versi lanjutan dipelihara dalam garis keturunan konsep Zenodo yang sama.</p><p>Karya turunan dari <em>OpenIntro Statistics</em>, Edisi Keempat, oleh David M. Diez, Mine Çetinkaya-Rundel, dan Christopher D. Barr, dibekukan pada komit resmi <code>fee25091fb24e89c36296fd67c48c1fcf7a93b6e</code>. Judul turunan: <em>Statistika Berbasis Data</em>. Bukan produk OpenIntro dan tidak berafiliasi dengan atau didukung oleh OpenIntro. Kontributor edisi Bahasa Indonesia: Codex, atas permintaan Floris.</p>",
+    "creators": [
+      {"name": "Diez, David M."},
+      {"name": "Çetinkaya-Rundel, Mine"},
+      {"name": "Barr, Christopher D."}
+    ],
+    "contributors": [
+      {"name": "Codex", "type": "Other"}
+    ],
+    "access_right": "open",
+    "license": "cc-by-sa-3.0",
+    "language": "ind",
+    "version": "2026.08.22.2-R011-B006",
+    "keywords": [
+      "statistika",
+      "statistics",
+      "Bahasa Indonesia",
+      "open textbook",
+      "OpenIntro Statistics",
+      "machine-readable curriculum",
+      "R011",
+      "partial release"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/OpenIntroStat/openintro-statistics/tree/fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+        "relation": "isDerivedFrom",
+        "resource_type": "software"
+      },
+      {
+        "identifier": "https://www.openintro.org/book/os/",
+        "relation": "isDerivedFrom",
+        "resource_type": "publication-book"
+      }
+    ],
+    "notes": "The PDF is an admitted whole-book working-boundary artifact. Section 2.3 onward remains upstream English. The PDF declares id-ID but is not structurally tagged; an accessible complete reader is pending."
+  }
+}

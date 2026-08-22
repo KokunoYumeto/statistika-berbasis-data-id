@@ -1,0 +1,74 @@
+{
+  "schema_version": "r011-b006-final-gate-inputs/1.0.0",
+  "boundary_id": "R011-B006",
+  "status": "supplied_exact_final_inputs",
+  "inputs": {
+    "source_qa": {
+      "path": "qa/R011-B006_SOURCE_QA.json",
+      "bytes": 51559,
+      "sha256": "524852f1e21939d8a0ced8ab5d79f1a74d0bbf552ca06f0ce252082f30a4c918"
+    },
+    "target_manifest": {
+      "path": "qa/R011-B006_TARGET_MANIFEST.tsv",
+      "bytes": 173738,
+      "sha256": "bdf80b178094d903305c8d5539d969db39502720bbe0e0d5e3735ca92e8a05f4"
+    },
+    "build_gate_script": {
+      "path": "scripts/qa_build_b006.py",
+      "bytes": 49624,
+      "sha256": "201e90f21fe17ee27e64e8f3a7ce79d5f50ddbe1124d6886f086c373d6fe3795"
+    },
+    "candidate_build_qa": {
+      "path": "qa/b006-build/final-v4/CANDIDATE_BUILD_QA_V4.json",
+      "bytes": 15252,
+      "sha256": "a33e9c184697bfce38938d6ab52843d57f6de592cf42abd37f3effd75a0c1fbc"
+    },
+    "build_qa": {
+      "path": "qa/R011-B006_BUILD_QA_V4.json",
+      "bytes": 16346,
+      "sha256": "6d7dd115518c3c3d080d48c05e9e52bd89b8b477498fed909b1041295f19d618"
+    },
+    "build_log": {
+      "path": "qa/b006-build/final-v4/main.log",
+      "bytes": 494501,
+      "sha256": "9ca2696c1ab5995c26e48699db6bd25c7db46ad915b7ac3007249f4d25348cd8"
+    },
+    "build_text": {
+      "path": "qa/b006-build/final-v4/main-final.txt",
+      "bytes": 1588179,
+      "sha256": "92521604fcf9d2102463eb6847a41fa3cb35f563c14f556cdbf3b6bcd1981539"
+    },
+    "pdf": {
+      "path": "qa/b006-build/final-v4/main.pdf",
+      "bytes": 21975722,
+      "sha256": "d9a3df7d44a62babde04c355cb8dbb9edc74de947cc8162a3d30d872bea372b2",
+      "page_count": 424
+    },
+    "render_manifest": {
+      "path": "qa/b006-render/final-v4/FINAL_MANIFEST.tsv",
+      "bytes": 1500,
+      "sha256": "dd0a15cb79c3e4e3b5d89944d1fc275716d72732d8824fd4d3fe6c96fd413588",
+      "page_count": 17
+    },
+    "page_locator": {
+      "path": "qa/b006-render/final-v4/PAGE_LOCATOR.json",
+      "bytes": 1599,
+      "sha256": "4d6721fd2441371b609e1961ec9b0255b263b90e93b96253bc90253dd23f1492"
+    },
+    "contact_sheet": {
+      "path": "qa/b006-render/final-v4/CONTACT_SHEET.png",
+      "bytes": 859627,
+      "sha256": "313d69ae077a3d53389cd5b4a9064abe731a2996f05f612b9b7e79044b880fd7"
+    },
+    "visual_audit": {
+      "path": "qa/R011-B006_VISUAL_AUDIT_V4.json",
+      "bytes": 7747,
+      "sha256": "749f1210fa3c760abc18c984a2e1cb519c43b455d54bebc2cb3b173f67602e2c"
+    },
+    "visual_finalizer": {
+      "path": "scripts/qa_finalize_b006_visual_v4.py",
+      "bytes": 16228,
+      "sha256": "15aed320dedf02d47b376e0b8be1860a8ff8221382bd976255b4a147fad442f1"
+    }
+  }
+}

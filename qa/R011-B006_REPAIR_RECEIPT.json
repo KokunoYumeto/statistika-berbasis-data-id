@@ -1,0 +1,302 @@
+{
+  "authority": {
+    "commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "repository": "https://github.com/OpenIntroStat/openintro-statistics",
+    "tree": "d61cc601e7d97759ce805900520f784d02a0489e"
+  },
+  "boundary_admitted": false,
+  "boundary_id": "R011-B006",
+  "final_canonical_outputs": [
+    {
+      "bytes": 114087,
+      "path": "repo/ch_summarizing_data/TeX/ch_summarizing_data.tex",
+      "sha256": "6b3bdafd2862163e7bc7984acb4b44ead0aaf872f8a9d11cf0280744daf286c2"
+    },
+    {
+      "bytes": 6598,
+      "path": "repo/ch_summarizing_data/TeX/considering_categorical_data.tex",
+      "sha256": "afba6b55c86da135e1f2998c6736a24bb6319b056c1c47df5b2a618e2fa9f72f"
+    },
+    {
+      "bytes": 107949,
+      "path": "repo/extraTeX/eoceSolutions/eoceSolutions.tex",
+      "sha256": "2f81c2f2e4afd739153a1a2e1f6059fa32ee10c9a5c38588977802b9831d3a75"
+    }
+  ],
+  "final_control": {
+    "adverse_ids": [
+      "R011-ADV-0070",
+      "R011-ADV-0071",
+      "R011-ADV-0072",
+      "R011-ADV-0073",
+      "R011-ADV-0074",
+      "R011-ADV-0075",
+      "R011-ADV-0076"
+    ],
+    "bytes": 34107,
+    "path": "00_control/ADVERSE_LEDGER.jsonl",
+    "sha256": "3a1af7e6aad254569520cbb2e118140535f18878536da270db5a683470c7a063"
+  },
+  "pre_repair_evidence": {
+    "source_application_receipt": {
+      "bytes": 9586,
+      "path": "qa/R011-B006_SOURCE_APPLICATION_RECEIPT.json",
+      "sha256": "56d69a600cf4ad1bb18ede91b588266fba4e1f10f8356ba67ec96103d3a84286"
+    },
+    "source_gate_v1": {
+      "bytes": 22972,
+      "path": "qa/R011-B006_SOURCE_QA.json",
+      "sha256": "e47a1632fdd0124bf9ab96eabc2d107d64f33ec7f208a76b915a410623556ff9"
+    },
+    "source_snapshot_v1": {
+      "files": [
+        {
+          "bytes": 114048,
+          "path": "qa/b006-build/source-snapshot-v1/ch_summarizing_data/TeX/ch_summarizing_data.tex",
+          "sha256": "fe8049a4452ea7aed9fc83e28d092a8526b5e7bc5c4dec834af4450c77e63c8f"
+        },
+        {
+          "bytes": 6598,
+          "path": "qa/b006-build/source-snapshot-v1/ch_summarizing_data/TeX/considering_categorical_data.tex",
+          "sha256": "afba6b55c86da135e1f2998c6736a24bb6319b056c1c47df5b2a618e2fa9f72f"
+        },
+        {
+          "bytes": 107958,
+          "path": "qa/b006-build/source-snapshot-v1/extraTeX/eoceSolutions/eoceSolutions.tex",
+          "sha256": "3168a26366c4890ca5b11dfee1b48abc1724e64c3976873036fcc4211ce881a9"
+        }
+      ],
+      "receipt": {
+        "bytes": 1126,
+        "path": "qa/b006-build/SNAPSHOT_RECEIPT_V1.json",
+        "sha256": "8b98ca44a40afeaac80fb9ae45c01307ec145530267404790b923992a61d89c7"
+      }
+    },
+    "target_manifest_v1": {
+      "bytes": 173738,
+      "path": "qa/R011-B006_TARGET_MANIFEST.tsv",
+      "sha256": "477b957019e1e3f28e92c17dbf313991c57f3350aa7fb6280b3178d487cc9922"
+    }
+  },
+  "repairs": {
+    "adverse_ids": [
+      "R011-ADV-0070",
+      "R011-ADV-0071",
+      "R011-ADV-0072",
+      "R011-ADV-0073",
+      "R011-ADV-0074",
+      "R011-ADV-0075",
+      "R011-ADV-0076"
+    ],
+    "exact_substitutions": [
+      {
+        "adverse_id": "R011-ADV-0070",
+        "after_utf8": "  & & sewa & hipotek & milik & Total & \\hspace{2mm}\\  \\\\ \n",
+        "before_utf8": "  & & rent & mortgage & own & Total & \\hspace{2mm}\\  \\\\ \n",
+        "expected_occurrences": 1,
+        "id": "R011-B006-RPR-001A",
+        "path": "repo/ch_summarizing_data/TeX/ch_summarizing_data.tex"
+      },
+      {
+        "adverse_id": "R011-ADV-0070",
+        "after_utf8": "  & perorangan &\n",
+        "before_utf8": "  & individual &\n",
+        "expected_occurrences": 1,
+        "id": "R011-B006-RPR-001B",
+        "path": "repo/ch_summarizing_data/TeX/ch_summarizing_data.tex"
+      },
+      {
+        "adverse_id": "R011-ADV-0070",
+        "after_utf8": "  bersama &\n      \\loanapphomeBA{} &",
+        "before_utf8": "  joint &\n      \\loanapphomeBA{} &",
+        "expected_occurrences": 1,
+        "id": "R011-B006-RPR-001C",
+        "path": "repo/ch_summarizing_data/TeX/ch_summarizing_data.tex"
+      },
+      {
+        "adverse_id": "R011-ADV-0070",
+        "after_utf8": "  sewa & \\loanapphomeDA{} \\\\ \n  hipotek & \\loanapphomeDB{} \\\\ \n  milik & \\loanapphomeDC{} \\\\ \n",
+        "before_utf8": "  rent & \\loanapphomeDA{} \\\\\n  mortgage & \\loanapphomeDB{} \\\\\n  own & \\loanapphomeDC{} \\\\\n",
+        "expected_occurrences": 1,
+        "id": "R011-B006-RPR-001D",
+        "path": "repo/ch_summarizing_data/TeX/ch_summarizing_data.tex"
+      },
+      {
+        "adverse_id": "R011-ADV-0070",
+        "after_utf8": "  & sewa & hipotek & milik & Total \\\\\n  \\hline\n  perorangan & \n%      $\\loanapphomeAA{}/\\loanapphomeAD{} = 0.411$ &",
+        "before_utf8": "  & rent & mortgage & own & Total \\\\\n  \\hline\n  individual & \n%      $\\loanapphomeAA{}/\\loanapphomeAD{} = 0.411$ &",
+        "expected_occurrences": 1,
+        "id": "R011-B006-RPR-001E",
+        "path": "repo/ch_summarizing_data/TeX/ch_summarizing_data.tex"
+      },
+      {
+        "adverse_id": "R011-ADV-0070",
+        "after_utf8": "  bersama &\n%      $\\loanapphomeBA{}/\\loanapphomeBD{} = 0.242$ &",
+        "before_utf8": "  joint &\n%      $\\loanapphomeBA{}/\\loanapphomeBD{} = 0.242$ &",
+        "expected_occurrences": 1,
+        "id": "R011-B006-RPR-001F",
+        "path": "repo/ch_summarizing_data/TeX/ch_summarizing_data.tex"
+      },
+      {
+        "adverse_id": "R011-ADV-0070",
+        "after_utf8": "  & sewa & hipotek & milik & Total \\\\\n  \\hline\n  perorangan &\n%      $\\loanapphomeAA{}/\\loanapphomeDA{} = 0.906$ &",
+        "before_utf8": "  & rent & mortgage & own & Total \\\\\n  \\hline\n  individual &\n%      $\\loanapphomeAA{}/\\loanapphomeDA{} = 0.906$ &",
+        "expected_occurrences": 1,
+        "id": "R011-B006-RPR-001G",
+        "path": "repo/ch_summarizing_data/TeX/ch_summarizing_data.tex"
+      },
+      {
+        "adverse_id": "R011-ADV-0070",
+        "after_utf8": "  bersama &\n%      $\\loanapphomeBA{}/\\loanapphomeDA{} = 0.094$ &",
+        "before_utf8": "  joint &\n%      $\\loanapphomeBA{}/\\loanapphomeDA{} = 0.094$ &",
+        "expected_occurrences": 1,
+        "id": "R011-B006-RPR-001H",
+        "path": "repo/ch_summarizing_data/TeX/ch_summarizing_data.tex"
+      },
+      {
+        "adverse_id": "R011-ADV-0070",
+        "after_utf8": "  & teks & HTML & Total \\\\ \n",
+        "before_utf8": "  & text & HTML & Total \\\\ \n",
+        "expected_occurrences": 1,
+        "id": "R011-B006-RPR-001I",
+        "path": "repo/ch_summarizing_data/TeX/ch_summarizing_data.tex"
+      },
+      {
+        "adverse_id": "R011-ADV-0070",
+        "after_utf8": "  bukan spam & 986 & 2568 & 3554 \\\\ \n",
+        "before_utf8": "  not spam & 986 & 2568 & 3554 \\\\ \n",
+        "expected_occurrences": 1,
+        "id": "R011-B006-RPR-001J",
+        "path": "repo/ch_summarizing_data/TeX/ch_summarizing_data.tex"
+      },
+      {
+        "adverse_id": "R011-ADV-0071",
+        "after_utf8": "  Biasanya, paling berguna bila kita \"mengondisikan\" pada\n",
+        "before_utf8": "  Biasanya, paling berguna bila kita \"mengkondisikan\" pada\n",
+        "expected_occurrences": 1,
+        "id": "R011-B006-RPR-002",
+        "path": "repo/ch_summarizing_data/TeX/ch_summarizing_data.tex"
+      },
+      {
+        "adverse_id": "R011-ADV-0075",
+        "after_utf8": "\n\n\\subsection{Menggunakan diagram batang untuk dua variabel}\n",
+        "before_utf8": "\n\n\\D{\\newpage}\n\n\\subsection{Menggunakan diagram batang untuk dua variabel}\n",
+        "expected_occurrences": 1,
+        "id": "R011-B006-RPR-006",
+        "path": "repo/ch_summarizing_data/TeX/ch_summarizing_data.tex"
+      },
+      {
+        "adverse_id": "R011-ADV-0072",
+        "after_utf8": "sebab garis pembagi horizontal berada pada ketinggian yang berbeda\ndi setiap kolom.\n",
+        "before_utf8": "sebab posisi pembagian vertikal tidak sama pada setiap kolom.\n",
+        "expected_occurrences": 1,
+        "id": "R011-B006-RPR-003",
+        "path": "repo/ch_summarizing_data/TeX/ch_summarizing_data.tex"
+      },
+      {
+        "adverse_id": "R011-ADV-0073",
+        "after_utf8": "    dalam satuan \\$1000} \\\\\n",
+        "before_utf8": "    dalam \\$1000s} \\\\\n",
+        "expected_occurrences": 1,
+        "id": "R011-B006-RPR-004A",
+        "path": "repo/ch_summarizing_data/TeX/ch_summarizing_data.tex"
+      },
+      {
+        "adverse_id": "R011-ADV-0073",
+        "after_utf8": "    (dalam satuan \\$1000) dari sampel acak 100 county yang\n",
+        "before_utf8": "    (dalam \\$1000s) dari sampel acak 100 county yang\n",
+        "expected_occurrences": 1,
+        "id": "R011-B006-RPR-004B",
+        "path": "repo/ch_summarizing_data/TeX/ch_summarizing_data.tex"
+      },
+      {
+        "adverse_id": "R011-ADV-0074",
+        "after_utf8": "  dalam kelompok \\emph{Bertambah}.\n",
+        "before_utf8": "  dalam kelompok \\emph{gain}.\n",
+        "expected_occurrences": 1,
+        "id": "R011-B006-RPR-005",
+        "path": "repo/ch_summarizing_data/TeX/ch_summarizing_data.tex"
+      },
+      {
+        "adverse_id": "R011-ADV-0076",
+        "after_utf8": "DREAM Act berubah menurut ideologi politik, sehingga kedua variabel tersebut\nmungkin saling dependen.}\n\n\\end{multicols}\n\\begin{multicols}{2}\n\n% 25\n",
+        "before_utf8": "DREAM Act berubah menurut ideologi politik, sehingga kedua variabel tersebut\nmungkin saling dependen.}\n\n\\end{multicols}\n\\newpage\n\\begin{multicols}{2}\n\n% 25\n",
+        "expected_occurrences": 1,
+        "id": "R011-B006-RPR-007",
+        "path": "repo/extraTeX/eoceSolutions/eoceSolutions.tex"
+      }
+    ],
+    "instructional_content_order_changed": false,
+    "numeric_data_changed": false,
+    "substitution_count": 17
+  },
+  "reverse_reconstruction": {
+    "algorithm": "For each final file, replace every exact after_utf8 fragment with its before_utf8 fragment in reverse listed order; require exactly one occurrence of every fragment and no other mutation.",
+    "all_outputs_match_pre_repair_identities": true,
+    "outputs": [
+      {
+        "bytes": 114048,
+        "path": "repo/ch_summarizing_data/TeX/ch_summarizing_data.tex",
+        "sha256": "fe8049a4452ea7aed9fc83e28d092a8526b5e7bc5c4dec834af4450c77e63c8f"
+      },
+      {
+        "bytes": 6598,
+        "path": "repo/ch_summarizing_data/TeX/considering_categorical_data.tex",
+        "sha256": "afba6b55c86da135e1f2998c6736a24bb6319b056c1c47df5b2a618e2fa9f72f"
+      },
+      {
+        "bytes": 107958,
+        "path": "repo/extraTeX/eoceSolutions/eoceSolutions.tex",
+        "sha256": "3168a26366c4890ca5b11dfee1b48abc1724e64c3976873036fcc4211ce881a9"
+      }
+    ]
+  },
+  "schema_version": "r011-b006-repair-receipt/1.0.0",
+  "status": "repair_applied_and_reverse_verified",
+  "visual_candidate_v1": {
+    "candidate_pdf": {
+      "bytes": 21976624,
+      "pages": 425,
+      "path": "qa/b006-build/final-v1/main.pdf",
+      "sha256": "d52a180d68f85bc077982c187a7b0c8f3c33a6ad8f230641e31e52c57ce999d7"
+    },
+    "contact_sheet": {
+      "bytes": 677571,
+      "path": "qa/b006-render/final-v1/CONTACT_SHEET.png",
+      "sha256": "410ea362cd7040eb6b5ffe2c23f7f26d94921d0f8ae44b557c227de0e7619b1d"
+    },
+    "findings": [
+      {
+        "adverse_id": "R011-ADV-0075",
+        "category": "severe_underfill",
+        "description": "The page strands only Example 2.26 at about 20% fill before the \\D{\\newpage} immediately preceding the subsection Menggunakan diagram batang.",
+        "id": "R011-B006-V1-001",
+        "page": 65,
+        "repair_id": "R011-B006-RPR-006",
+        "severity": "P2"
+      },
+      {
+        "adverse_id": "R011-ADV-0076",
+        "category": "severe_underfill",
+        "description": "The page strands public answers 2.21 and 2.23 at about 20% fill before the explicit \\end{multicols}\\newpage\\begin{multicols}{2} transition ahead of answer 2.25.",
+        "id": "R011-B006-V1-002",
+        "page": 389,
+        "repair_id": "R011-B006-RPR-007",
+        "severity": "P2"
+      }
+    ],
+    "inspection_resolution_dpi": 180,
+    "promoted": false,
+    "rejected_build_receipt": {
+      "bytes": 15819,
+      "path": "qa/R011-B006_BUILD_QA_V1_REJECTED.json",
+      "sha256": "e649a2cbe71f4041b0684f8764b7297a5cbcbac4c8c78ed412a2e0b297806e16"
+    },
+    "status": "rejected_visual",
+    "visual_findings_receipt": {
+      "bytes": 2013,
+      "path": "qa/R011-B006_VISUAL_FINDINGS_V1.json",
+      "sha256": "cc4adb506a84b231d2d0988ee024dd673e2ae3b70cca9d7b9924333e8d923231"
+    }
+  }
+}

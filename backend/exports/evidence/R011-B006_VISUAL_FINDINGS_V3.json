@@ -1,0 +1,52 @@
+{
+  "schema": "openintro-boundary-visual-findings",
+  "schema_version": "0.1.0",
+  "boundary_id": "R011-B006",
+  "candidate": "final-v3",
+  "status": "rejected",
+  "candidate_pdf": {
+    "path": "qa/b006-build/final-v3/main.pdf",
+    "bytes": 21976293,
+    "sha256": "7fb77cd62425d4237f35e24791d1206f6eec704fc40b50d4a7159953f2647cab",
+    "pages": 425
+  },
+  "candidate_build_receipt": {
+    "path": "qa/b006-build/final-v3/CANDIDATE_BUILD_QA_V3.json",
+    "bytes": 14938,
+    "sha256": "c78aa1ea63ff4795df681ebcc6ecd5776b941104bffd4835bf981d46d62028a8"
+  },
+  "inspection_resolution_dpi": 180,
+  "inspection_mode": "main-agent inspection of every individual full-resolution locator PNG",
+  "candidate_pages": [61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 388, 389, 390],
+  "passed_pages": [61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 72, 73, 388, 389, 390],
+  "findings": [
+    {
+      "id": "R011-B006-V3-001",
+      "page": 71,
+      "severity": "P2",
+      "category": "exercise_continuation_severe_underfill",
+      "description": "Only Exercise 2.22 parts (d)-(e) occupy the top of PDF page 71 and the remainder is blank because an exact forced break precedes Exercise 2.23; PDF page 72 then starts Exercises 2.23-2.24."
+    }
+  ],
+  "severity_counts": {"P0": 0, "P1": 0, "P2": 1, "P3": 0},
+  "render_manifest": {
+    "path": "qa/b006-render/final-v3/FINAL_MANIFEST.tsv",
+    "bytes": 1410,
+    "sha256": "3597475ea9c386ce984d8999c08171116587872c9cb84db49f13e41b3834569e"
+  },
+  "page_locator": {
+    "path": "qa/b006-render/final-v3/PAGE_LOCATOR.json",
+    "bytes": 1388,
+    "sha256": "09fc9270227974d1b2b95f5a54dd2ba130dd13adc13afb8bf66dba9fee4412c7"
+  },
+  "contact_sheet": {
+    "path": "qa/b006-render/final-v3/CONTACT_SHEET.png",
+    "bytes": 728886,
+    "sha256": "dda65bfe0e02ff72f5b428d6288b27bd094083c50681ae71f4af33dc1f955a32"
+  },
+  "pass_audit_created": false,
+  "promoted": false,
+  "source_mutated": false,
+  "output_pdf_mutated": false,
+  "required_next_action": "Remove only the exact \\D{\\newpage} before Exercise 2.23, append ADV-0079, and run the revised source gate before creating a fresh deterministic candidate."
+}

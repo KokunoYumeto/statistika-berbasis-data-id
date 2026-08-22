@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Jika Anda menggunakan rilis pelestarian parsial ini, sitasikan edisi turunan dan karya sumbernya."
+title: "Statistika Berbasis Data — Edisi Kerja Bahasa Indonesia (R011-B006: Bab 1 dan Bagian 2.1–2.2)"
+type: book
+authors:
+  - family-names: Diez
+    given-names: David M.
+  - family-names: Çetinkaya-Rundel
+    given-names: Mine
+  - family-names: Barr
+    given-names: Christopher D.
+version: "2026.08.22.2-R011-B006"
+date-released: 2026-08-22
+license: CC-BY-SA-3.0
+repository-code: "https://github.com/KokunoYumeto/statistika-berbasis-data-id"
+url: "https://doi.org/10.5281/zenodo.22061163"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22061163"
+    description: "Rilis pelestarian R011-B006"
+abstract: "Rilis pelestarian yang secara eksplisit belum lengkap: materi pendahuluan, Bab 1 lengkap, serta pembuka Bab 2 dan Bagian 2.1–2.2 dalam Bahasa Indonesia, beserta latihan, jawaban publik, sumber editable, backend modular, dan bukti QA."
+

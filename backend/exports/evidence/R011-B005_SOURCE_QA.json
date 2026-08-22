@@ -1,0 +1,1790 @@
+{
+  "authority_commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+  "authority_tree": "d61cc601e7d97759ce805900520f784d02a0489e",
+  "base_boundary": {
+    "file_count": 1160,
+    "id": "R011-B004R",
+    "manifest": {
+      "bytes": 168181,
+      "path": "qa/R011-B004R_TARGET_MANIFEST.tsv",
+      "sha256": "1ced0106cc97e8a563e37e4317868d76eec95e9aed06b5dc91e5e05038874e0f"
+    },
+    "receipt": {
+      "bytes": 15013,
+      "path": "qa/BOUNDARY_RECEIPT_R011-B004R.json",
+      "sha256": "0959ca939456b1fc385b588e25cb7da9b7e0873b724783a054c1b88e4c720e33"
+    }
+  },
+  "body_reconstruction": {
+    "authority_prefix": {
+      "bytes": 55759,
+      "sha256": "f3f1155e2e4f47e503466af0529bfd71815855d2d95179ae4c935dc64de1740f"
+    },
+    "base_suffix": {
+      "bytes": 58617,
+      "sha256": "5132a9d283a9dd606efb456fb2e1271d6020835b994a2c233a2b0bfb58633997"
+    },
+    "live_suffix": {
+      "bytes": 58617,
+      "sha256": "5132a9d283a9dd606efb456fb2e1271d6020835b994a2c233a2b0bfb58633997"
+    },
+    "result": {
+      "bytes": 116336,
+      "sha256": "188ce7f179aa8c53d08d08ee9023277fc010c8c43e0b42b57f36617a03135bb7"
+    },
+    "suffix_exact_across_all_three": true,
+    "target_prefix": {
+      "bytes": 57719,
+      "sha256": "2b2693ed6f88dec8db79d1ac7c6bd5d0c2d4ecddfa69087eaf60f737ebf23d86"
+    }
+  },
+  "boundary_id": "R011-B005",
+  "closure_mode": "admitted_B004R_manifest_plus_only_declared_B005_overlays",
+  "controls": {
+    "adverse": {
+      "bytes": 27918,
+      "row_count": 64,
+      "selected_ids": [
+        "R011-ADV-0051",
+        "R011-ADV-0052",
+        "R011-ADV-0053",
+        "R011-ADV-0054",
+        "R011-ADV-0055",
+        "R011-ADV-0056",
+        "R011-ADV-0057",
+        "R011-ADV-0058",
+        "R011-ADV-0063",
+        "R011-ADV-0064"
+      ],
+      "sha256": "a0cd7dfd237db77029f7931a7553f3f2474b3c139cd991b57ce69c401a37c5b8"
+    },
+    "component_rights": {
+      "bytes": 7908,
+      "row_count": 22,
+      "sha256": "fb03c23f1990224574c088215786ebcbe3232b5bab867bf253c8277ddb0842b4"
+    },
+    "terminology": {
+      "bytes": 9429,
+      "last_id": "R011-TERM-0121",
+      "required_mappings": {
+        "interest rate": "suku bunga",
+        "loan amount": "jumlah pinjaman",
+        "median household income": "median pendapatan rumah tangga",
+        "population": "populasi",
+        "poverty rate": "tingkat kemiskinan",
+        "total income": "total pendapatan"
+      },
+      "row_count": 121,
+      "sha256": "09fe9ae2eb86dc06f9a64879785556c5ee8e8a9382451769a1f5d0bb03becebd"
+    }
+  },
+  "declared_changes": {
+    "ch_summarizing_data/TeX/ch_summarizing_data.tex": {
+      "base": {
+        "bytes": 114376,
+        "sha256": "00fb044707824539b57a27f6e258165c62c4f29769679305641214c6d4552f51"
+      },
+      "mode": "reconstructed B005 prefix plus B004R suffix",
+      "target": {
+        "bytes": 116336,
+        "sha256": "188ce7f179aa8c53d08d08ee9023277fc010c8c43e0b42b57f36617a03135bb7"
+      }
+    },
+    "ch_summarizing_data/TeX/examining_numerical_data.tex": {
+      "base": {
+        "bytes": 20292,
+        "sha256": "701b0ce5f883da62fc2f0cf6b3e180dfa5c5bda5d3fb476ea5016c9acda24409"
+      },
+      "mode": "complete Section 2.1 exercise file",
+      "target": {
+        "bytes": 22155,
+        "sha256": "a97bbc7212a14a293776f3e307387ae671d2ff0577125f490a5c73ad6b6a8ebe"
+      }
+    },
+    "ch_summarizing_data/figures/b005_eoce_closure/FINAL_MANIFEST.tsv": {
+      "base": null,
+      "mode": "canonical deterministic replay evidence",
+      "target": {
+        "bytes": 3602,
+        "sha256": "c7fbe119e10b59d7a759c07b796a26073aaa07eeb45c7a31e921a7d69cc74f78"
+      }
+    },
+    "ch_summarizing_data/figures/b005_eoce_closure/FINAL_RECEIPT.json": {
+      "base": null,
+      "mode": "canonical deterministic replay evidence",
+      "target": {
+        "bytes": 41724,
+        "sha256": "ffe3b4465c26428321fff32b983b3519153194884524316ec32f6d273aa61278"
+      }
+    },
+    "ch_summarizing_data/figures/b005_eoce_closure/PROPOSED_ASSET_ROWS.tsv": {
+      "base": null,
+      "mode": "canonical deterministic replay evidence",
+      "target": {
+        "bytes": 4559,
+        "sha256": "96465e04344cf03bc73a50af4262e50b2e9e7ac82ac65a5df38682a4af0579c3"
+      }
+    },
+    "ch_summarizing_data/figures/b005_eoce_closure/assemble_b005_eoce_closure.py": {
+      "base": null,
+      "mode": "canonical deterministic replay evidence",
+      "target": {
+        "bytes": 19746,
+        "sha256": "f14595aba43c27d2bb6522cd48ad01d012856f41c020c9c7e774f28ed9e84583"
+      }
+    },
+    "ch_summarizing_data/figures/b005_eoce_replay_hispanic_bacteria/PARTIAL_RECEIPT.json": {
+      "base": null,
+      "mode": "canonical deterministic replay evidence",
+      "target": {
+        "bytes": 35979,
+        "sha256": "2b4bfe645f969ffe9444c4609dca630ae08e84fac35c489b392650386f19f0fb"
+      }
+    },
+    "ch_summarizing_data/figures/b005_eoce_replay_hispanic_bacteria/PROPOSED_ASSET_ROWS.tsv": {
+      "base": null,
+      "mode": "canonical deterministic replay evidence",
+      "target": {
+        "bytes": 3398,
+        "sha256": "2fd43c602c304755878b66c49e8afca17bce4cc325e649e0022f4b7908d518be"
+      }
+    },
+    "ch_summarizing_data/figures/b005_eoce_replay_hispanic_bacteria/replay_a_manifest.json": {
+      "base": null,
+      "mode": "canonical deterministic replay evidence",
+      "target": {
+        "bytes": 5947,
+        "sha256": "be292c4bce2ee4cd2e04faabadb05845d9e746596f56aeaf245cacf426b4e193"
+      }
+    },
+    "ch_summarizing_data/figures/b005_eoce_replay_hispanic_bacteria/replay_b005_eoce_hispanic_bacteria.py": {
+      "base": null,
+      "mode": "canonical deterministic replay evidence",
+      "target": {
+        "bytes": 10008,
+        "sha256": "740d883565657b7fba7c617311576c291cf7f2bbb789c0f8a2d2831a2f8adddd"
+      }
+    },
+    "ch_summarizing_data/figures/b005_eoce_replay_hispanic_bacteria/replay_b_manifest.json": {
+      "base": null,
+      "mode": "canonical deterministic replay evidence",
+      "target": {
+        "bytes": 5947,
+        "sha256": "be292c4bce2ee4cd2e04faabadb05845d9e746596f56aeaf245cacf426b4e193"
+      }
+    },
+    "ch_summarizing_data/figures/b005_eoce_replay_hispanic_bacteria/verify_b005_eoce_hispanic_bacteria.py": {
+      "base": null,
+      "mode": "canonical deterministic replay evidence",
+      "target": {
+        "bytes": 22874,
+        "sha256": "e9c8039fc3d86f97eacf7b0357faea255a77e441b5b80707ad949a67ffe064ed"
+      }
+    },
+    "ch_summarizing_data/figures/b005_prefix_replay/FINAL_RECEIPT.json": {
+      "base": null,
+      "mode": "canonical deterministic replay evidence",
+      "target": {
+        "bytes": 48751,
+        "sha256": "64ff28b1333af238cf1b693a5d1984394ac5c9f0b8005818e505db2d448ab478"
+      }
+    },
+    "ch_summarizing_data/figures/b005_prefix_replay/PROPOSED_ASSET_ROWS.tsv": {
+      "base": null,
+      "mode": "canonical deterministic replay evidence",
+      "target": {
+        "bytes": 8471,
+        "sha256": "efd3a4e240174e90975dfeafa6a5486b45221ea5bfed12a2fb585cf619cc9bc6"
+      }
+    },
+    "ch_summarizing_data/figures/b005_prefix_replay/replay_a_manifest.json": {
+      "base": null,
+      "mode": "canonical deterministic replay evidence",
+      "target": {
+        "bytes": 11029,
+        "sha256": "1c99b76dd80d8dcfafb0560afd2c3282dca76d207881554b419c77893ecbd90d"
+      }
+    },
+    "ch_summarizing_data/figures/b005_prefix_replay/replay_b005_prefix_figures.py": {
+      "base": null,
+      "mode": "canonical deterministic replay evidence",
+      "target": {
+        "bytes": 21938,
+        "sha256": "424a193e6526854e378297a41309ed4a2e4c14c6be334439d33556589d3e404f"
+      }
+    },
+    "ch_summarizing_data/figures/b005_prefix_replay/replay_b_manifest.json": {
+      "base": null,
+      "mode": "canonical deterministic replay evidence",
+      "target": {
+        "bytes": 11029,
+        "sha256": "1c99b76dd80d8dcfafb0560afd2c3282dca76d207881554b419c77893ecbd90d"
+      }
+    },
+    "ch_summarizing_data/figures/b005_prefix_replay/verify_b005_prefix_figures.py": {
+      "base": null,
+      "mode": "canonical deterministic replay evidence",
+      "target": {
+        "bytes": 32271,
+        "sha256": "8a484405cec8d3f55d442e7a066e8d09636b612d49c8235fc6809c08b6274cb2"
+      }
+    },
+    "ch_summarizing_data/figures/countyIntensityMaps/countyHomeownershipMap.pdf": {
+      "base": {
+        "bytes": 396423,
+        "sha256": "84a4473a3fc3d2a252d1f05c101f2a72e5c9e3dbb7277da34e7df4f5332162bd"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 396545,
+        "sha256": "8f3a77774654a1c8538b83fbd007bf71ee5f91d151d9a5be6eb0918d61ad224d"
+      }
+    },
+    "ch_summarizing_data/figures/countyIntensityMaps/countyIntensityMaps.R": {
+      "base": {
+        "bytes": 1007,
+        "sha256": "bc924d3d91688ba9004965b23cb637f8949acf1215c2e67915275b6c9849ea9d"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 1027,
+        "sha256": "7ecd9e6264705dcddc2cfb0218d7777c6461f6ceaff8d712eaa65be6f7af48cf"
+      }
+    },
+    "ch_summarizing_data/figures/countyIntensityMaps/countyMedIncomeMap.pdf": {
+      "base": {
+        "bytes": 396186,
+        "sha256": "c66bfcf163a42b90a77e3c23bbf181235e5078a96fb23a1da28ae0be8d5d1f56"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 396324,
+        "sha256": "c40dcd847b72ff291be7f70bebea5aa15add0c7ff184ee42e187e4812943fbfc"
+      }
+    },
+    "ch_summarizing_data/figures/countyIntensityMaps/countyPovertyMap.pdf": {
+      "base": {
+        "bytes": 395761,
+        "sha256": "0b699fdd873729250c79ddda0e1994e07f49b8e6f2859f136ef090486a249a77"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 395858,
+        "sha256": "3838cc6e231656bb80034ee7d3c63b4b0b2568735c6051cd1b3d1cb578fd6f6e"
+      }
+    },
+    "ch_summarizing_data/figures/countyIntensityMaps/countyUnemploymentRateMap.pdf": {
+      "base": {
+        "bytes": 397028,
+        "sha256": "02cc44d2fddfb8cc0f9d60230a626b3f5cab74dc7849338fe9ddd7169c0e2e00"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 397142,
+        "sha256": "64e369cd7acb86f7db0ed9f6487812fe20c1c08238d850c0a6051feaebeed680"
+      }
+    },
+    "ch_summarizing_data/figures/county_pop_change_v_pop_transform/county_pop_change_v_pop_transform.R": {
+      "base": {
+        "bytes": 1167,
+        "sha256": "293fc8b84951194c4705b1722cb735d0fb602d9581849db11a0b3c48a74b9d40"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 1169,
+        "sha256": "76c8da299db77be031ee9368b8304709202d04e348b00702d493e5d025199646"
+      }
+    },
+    "ch_summarizing_data/figures/county_pop_change_v_pop_transform/county_pop_change_v_pop_transform_i.pdf": {
+      "base": {
+        "bytes": 333342,
+        "sha256": "34980b50b25fb3c4faf4c3f35e8955c7d85f9eac94ab304a760c87e4e9b25084"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 328430,
+        "sha256": "2730ad2747e6d6c70d8754f0ff4475f2ce6cf799b5cb7f3db464cbd8e8aec9d6"
+      }
+    },
+    "ch_summarizing_data/figures/county_pop_change_v_pop_transform/county_pop_change_v_pop_transform_log.pdf": {
+      "base": {
+        "bytes": 359575,
+        "sha256": "798617588bc74c88921d6264cfb4f1d5f1f9f76d2e60ace18f701ca7a952ff51"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 355322,
+        "sha256": "789c1d612288cd29c2c7100e5ba64dca63765a0fcc36c88b883003030445dae4"
+      }
+    },
+    "ch_summarizing_data/figures/county_pop_transformed/county_pop_transformed.R": {
+      "base": {
+        "bytes": 855,
+        "sha256": "79bb26d69fe61f6bf646281fca5d6c5f8d107545a394fc782a2813ba483e00ce"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 847,
+        "sha256": "2afafca2e3ab052375583b9d95075dd4af680feee9bc3978e5020ee4086f8209"
+      }
+    },
+    "ch_summarizing_data/figures/county_pop_transformed/county_pop_transformed_i.pdf": {
+      "base": {
+        "bytes": 4559,
+        "sha256": "5ca27adc79910776fcf6cfdd260d41da1ecab3b8c788eae21897a2c6bc118865"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 4677,
+        "sha256": "b05a6fcb6d1b3c7d14362914cbf40591c5f7bfb87159559de1b5d7d4cd8bc380"
+      }
+    },
+    "ch_summarizing_data/figures/county_pop_transformed/county_pop_transformed_log.pdf": {
+      "base": {
+        "bytes": 4490,
+        "sha256": "28a72b666e466224941bf054de2e6b1578d77740744512833a9a14a70a14793a"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 4619,
+        "sha256": "be148d3a9dc762a8981cd674c5be9758ae95c9d7a883625e1d4bb0ea11832975"
+      }
+    },
+    "ch_summarizing_data/figures/eoce/air_quality_durham/air_quality_durham.R": {
+      "base": {
+        "bytes": 2150,
+        "sha256": "ac4fe1d8b7e56ef760ff97acbe9d7bdec1216bf485fdefd66c86c6224bbba888"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 2155,
+        "sha256": "8ce1352520e4031e50f9a24b857068c1492b681cb00ab1915439e918f2b68659"
+      }
+    },
+    "ch_summarizing_data/figures/eoce/air_quality_durham/air_quality_durham_rel_freq_hist.id-ID.receipt.json": {
+      "base": null,
+      "mode": "canonical deterministic replay evidence",
+      "target": {
+        "bytes": 5323,
+        "sha256": "340451cd5f770588d5fef0fa2167402e64df8862f03bb6472a5c27e547abd0e6"
+      }
+    },
+    "ch_summarizing_data/figures/eoce/air_quality_durham/air_quality_durham_rel_freq_hist.pdf": {
+      "base": {
+        "bytes": 4487,
+        "sha256": "4f13ab9e61d1368ceeaa28f9761db94384919cdfaeffb46c462d0aaaee1a30c1"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 4599,
+        "sha256": "d2616fba9e528255ad3eeceba71a65564924bcd66fa12058185043f4872144cf"
+      }
+    },
+    "ch_summarizing_data/figures/eoce/air_quality_durham/localize_air_quality_durham_rel_freq_hist_id.py": {
+      "base": null,
+      "mode": "canonical deterministic replay evidence",
+      "target": {
+        "bytes": 1639,
+        "sha256": "d94dcbe8ae74675934fc39c4fc4ba55eb16d7dbb077112c70f78770bf383224b"
+      }
+    },
+    "ch_summarizing_data/figures/eoce/county_commute_times/county_commute_times.R": {
+      "base": {
+        "bytes": 1036,
+        "sha256": "99c5a8cc78afeecd9d60add7e4fb8d391d75e75cc4bac607a6d57539bcef1e0f"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 1049,
+        "sha256": "5fea9f007106792e60ff2e26c1ac888f50b5d6815f08476c11705d0285380efb"
+      }
+    },
+    "ch_summarizing_data/figures/eoce/county_commute_times/county_commute_times_hist.id-ID.receipt.json": {
+      "base": null,
+      "mode": "canonical deterministic replay evidence",
+      "target": {
+        "bytes": 5539,
+        "sha256": "c354b2e30ba340b951a172c697a92f49374d3ca51a9709dbf5a6f87035eb92c5"
+      }
+    },
+    "ch_summarizing_data/figures/eoce/county_commute_times/county_commute_times_hist.pdf": {
+      "base": {
+        "bytes": 5289,
+        "sha256": "30ac80e05848769d7db67966b2b5e36f39bed7d12f9def0c8e66b4f563749013"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 5397,
+        "sha256": "91a5e5764da725cf5bd93f3c74096f41c315799e06c89ea58fad18fe5b20bdbc"
+      }
+    },
+    "ch_summarizing_data/figures/eoce/county_commute_times/localize_county_commute_times_hist_id.py": {
+      "base": null,
+      "mode": "canonical deterministic replay evidence",
+      "target": {
+        "bytes": 1715,
+        "sha256": "bab69abfc3d35fd6e839dc4c2d6fa3c2d6d12efa3a342402111f22c8da514121"
+      }
+    },
+    "ch_summarizing_data/figures/eoce/county_hispanic_pop/county_hispanic_pop.R": {
+      "base": {
+        "bytes": 1379,
+        "sha256": "661785cf58c491e4ef2b72a792fde0418b4dea5a6cb03654199d95e5afd42640"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 1386,
+        "sha256": "bb1d0e171735210b4055632196a56f507834698207375814549f31dbcd20f2d3"
+      }
+    },
+    "ch_summarizing_data/figures/eoce/county_hispanic_pop/county_hispanic_pop_hist.pdf": {
+      "base": {
+        "bytes": 4859,
+        "sha256": "0087937a638a59676041b754bd0dd8e0b4190578bdf0ca946db8e9c4f78d7f28"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 4968,
+        "sha256": "d08dba1365476f2e938cf92dbe6d9ec1f86a99714642b463e805a075fe3781fd"
+      }
+    },
+    "ch_summarizing_data/figures/eoce/county_hispanic_pop/county_hispanic_pop_log_hist.pdf": {
+      "base": {
+        "bytes": 5290,
+        "sha256": "30ef90df09ae86bf5fc9f5da62c72156ca8a845558b6a68dfddd81b9c7cef2b1"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 5390,
+        "sha256": "c55ad74651d354c07632c23a4d7cb9c955dfdd42a18f0012d7b9ca2d0cc69487"
+      }
+    },
+    "ch_summarizing_data/figures/eoce/mammal_life_spans/localize_mammal_life_spans_scatterplot_id.py": {
+      "base": null,
+      "mode": "canonical deterministic replay evidence",
+      "target": {
+        "bytes": 4005,
+        "sha256": "51fb6acef884342423571d1e1e930f8e6890dc0b24a49093ac03eda24b375c6b"
+      }
+    },
+    "ch_summarizing_data/figures/eoce/mammal_life_spans/mammal_life_spans.R": {
+      "base": {
+        "bytes": 751,
+        "sha256": "abffdfd8d96bbd3017c8f05584a801da6eae0fc008de9994ec0f908ff275b1da"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 760,
+        "sha256": "911111724a2a95c97c18b0ef9e9fa3511d89180bfa4f76d728da399e8a9b27fd"
+      }
+    },
+    "ch_summarizing_data/figures/eoce/mammal_life_spans/mammal_life_spans_scatterplot.id-ID.receipt.json": {
+      "base": null,
+      "mode": "canonical deterministic replay evidence",
+      "target": {
+        "bytes": 6590,
+        "sha256": "0a163108c5b29e2c32d340cbbc5f3dea97ae411b23f312c9b745ff6562fe1430"
+      }
+    },
+    "ch_summarizing_data/figures/eoce/mammal_life_spans/mammal_life_spans_scatterplot.pdf": {
+      "base": {
+        "bytes": 4981,
+        "sha256": "b13478ff6bd0d1b93d56b7c38664f3c5d99e2e76eaddd568f8187afb47b1dea5"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 8269,
+        "sha256": "624084eff9263cd858d6246ced23694de2db43dd019a4a410473c5222e97a505"
+      }
+    },
+    "ch_summarizing_data/figures/eoce/reproducing_bacteria/reproducing_bacteria.R": {
+      "base": {
+        "bytes": 396,
+        "sha256": "a3362d3a98254f64aa73689380bd58f3ded766f583c6d8b197639a1253fc8393"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 392,
+        "sha256": "b35e6fdec78f7762e667419ab7f195946aa32599029f577e592fd56d5dac15f8"
+      }
+    },
+    "ch_summarizing_data/figures/eoce/reproducing_bacteria/reproducing_bacteria_sketch.pdf": {
+      "base": {
+        "bytes": 4811,
+        "sha256": "c9dd44040db8aced77a84e3bcf58ff6879c58b3e2c55cddab9c8e6c9815bad0f"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 4919,
+        "sha256": "e17abbf40e97906ce81b8ce14d5381571d001176ab278571800628ee5363eff3"
+      }
+    },
+    "ch_summarizing_data/figures/loan50IntRateHist/loan50IntRateHist.R": {
+      "base": {
+        "bytes": 915,
+        "sha256": "450c35e8166bd54677a3a15f35ca39087b04ff4d4b7b04f37fc01ebf3cf8b21c"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 912,
+        "sha256": "c06c81f58267fce45d11b369cd8e215feba4faf7da765b78be5702e728c82467"
+      }
+    },
+    "ch_summarizing_data/figures/loan50IntRateHist/loan50IntRateHist.pdf": {
+      "base": {
+        "bytes": 4569,
+        "sha256": "cb3b776aa345ffa55233a6daf8549bd3ba365fac4443a5ef71f235d81f16a724"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 4693,
+        "sha256": "c12d2512a2603dc7e61c49fb9cc6c5dc5c8703b42253ce3e02907a319fb34a11"
+      }
+    },
+    "ch_summarizing_data/figures/loan50_amt_vs_income/loan50_amt_vs_income.R": {
+      "base": {
+        "bytes": 824,
+        "sha256": "d940aec93543d91148ca0534745e7f7e51d695368e38df62a5d40ab17d05a3a5"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 832,
+        "sha256": "aab22adf82b464b2cc2f7c401a7c0046ebe56ec5e4004dd668f32800143e7bd3"
+      }
+    },
+    "ch_summarizing_data/figures/loan50_amt_vs_income/loan50_amt_vs_income.pdf": {
+      "base": {
+        "bytes": 7761,
+        "sha256": "a83ad69ff9803af0152239d428d5d8be11b70b76c213cb84565073a52a1e5b56"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 7851,
+        "sha256": "9bd56b89f84cbb24546114c8fb07687885a266e5d8fb7d338abbe0d51890302b"
+      }
+    },
+    "ch_summarizing_data/figures/loan_int_rate_box_plot_layout/loan_int_rate_box_plot_layout.R": {
+      "base": {
+        "bytes": 2285,
+        "sha256": "7074b873dd835e17893d3597cb7076d5e655bdd9f31ddbbe2689e06c00ef706c"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 2321,
+        "sha256": "8865b02d5ba39f066908c75f64a126f2ffd261e395a8434140ac109fd3adbfa4"
+      }
+    },
+    "ch_summarizing_data/figures/loan_int_rate_box_plot_layout/loan_int_rate_box_plot_layout.pdf": {
+      "base": {
+        "bytes": 8096,
+        "sha256": "47c618ecee5964442e59a6d544f73ebd6c407ac6ef4f0cf4429f71f67ff4cd9f"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 8156,
+        "sha256": "51faccd338bcffaf7152f8370962ea9036b0e0efa15e4e432b73e9f5ab00524e"
+      }
+    },
+    "ch_summarizing_data/figures/loan_int_rate_dot_plot/loan_int_rate_dot_plot.R": {
+      "base": {
+        "bytes": 1370,
+        "sha256": "f7d5e96e4fb92560771597e4e116c3fc9b06db0001f2ded27c5032530bb392ea"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 1367,
+        "sha256": "0e104c8f2f8bcb8d5f49ce6c6a38bdb56e9aa0b31b4dc76cd99f8457fc3a44d2"
+      }
+    },
+    "ch_summarizing_data/figures/loan_int_rate_dot_plot/loan_int_rate_dot_plot.pdf": {
+      "base": {
+        "bytes": 6126,
+        "sha256": "77bf899445c2b185739c2542648e40f550f36ace907b6c50c49b89d429d97edc"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 6223,
+        "sha256": "14e891f8c9ab4290fc9bae7569a9ede7a86395bfc8620051aaae149b71138384"
+      }
+    },
+    "ch_summarizing_data/figures/loan_int_rate_dot_plot/loan_int_rate_dot_plot_stacked.pdf": {
+      "base": {
+        "bytes": 4705,
+        "sha256": "b02c6ff9d7264b6a5ce351eec0f4d817cdab6de91b8ee2a4c82e13fad97c372f"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 7061,
+        "sha256": "589bba7a1ee93768a849f3d07ae51393023a6f4ad4fc4041c88239f552767f1d"
+      }
+    },
+    "ch_summarizing_data/figures/loan_int_rate_robust_ex/loan_int_rate_robust_ex.R": {
+      "base": {
+        "bytes": 1835,
+        "sha256": "765fc09e4be29a465d9d3584b73efb8abea1e5a2e828e003a393276fd230b6c1"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 1828,
+        "sha256": "47d8d138e6a17734baf5d9b8159fd350348612b46093d66649e7bd4c22d1e9c9"
+      }
+    },
+    "ch_summarizing_data/figures/loan_int_rate_robust_ex/loan_int_rate_robust_ex.pdf": {
+      "base": {
+        "bytes": 12399,
+        "sha256": "23829d9983906bc4b5b991df0d23dce14a1a35454b2e6206c2a3592d05c6e517"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 12329,
+        "sha256": "e55fe7a9c70907eb6752430a3145e4eeae7a60c9dbb07eeae2456398daa4aff7"
+      }
+    },
+    "ch_summarizing_data/figures/medianHHIncomePoverty/medianHHIncomePoverty.R": {
+      "base": {
+        "bytes": 1350,
+        "sha256": "15a3f4c62d2983c1fd39568528fe876727645b87ede07cf0feb67e1da6c87f2d"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 1362,
+        "sha256": "b5945536b4877b89de46306a94945c53e6d1e34bafcb678976bee68041c02021"
+      }
+    },
+    "ch_summarizing_data/figures/medianHHIncomePoverty/medianHHIncomePoverty.pdf": {
+      "base": {
+        "bytes": 199893,
+        "sha256": "03a296cd23c3108fccc162ef61d9b1883e3360bb5a1822df396746da740b18a7"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 197995,
+        "sha256": "3c0e1084a100f991ccbce349b36d695aa415d1d11db0e2f21b06b284e878efe5"
+      }
+    },
+    "ch_summarizing_data/figures/sdRuleForIntRate/sdRuleForIntRate.R": {
+      "base": {
+        "bytes": 1257,
+        "sha256": "e97d37d38a422d91d194c6adeee7f8540808fe8a3f8a68c605a314c3e56c7728"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 1254,
+        "sha256": "d9320e9f5a9dcaf72e2181cb6ac301a5c5b8c05848268a02e926b46db5eaa677"
+      }
+    },
+    "ch_summarizing_data/figures/sdRuleForIntRate/sdRuleForIntRate.pdf": {
+      "base": {
+        "bytes": 6562,
+        "sha256": "533d1f7b1e3ea6ba1c8803c7033d198cb84b7f8079d18ea6a9a1800cc6fe330d"
+      },
+      "mode": "receipt-bound B005 asset or producer",
+      "target": {
+        "bytes": 6653,
+        "sha256": "8634692b06562fcc6e307e86bbd9524682ea92d147636d24503242cda68674ba"
+      }
+    },
+    "extraTeX/eoceSolutions/eoceSolutions.tex": {
+      "base": {
+        "bytes": 107428,
+        "sha256": "bbd62560e88011423edbd5f729dae2e0cbbffd6c03f6c383dc5890ca38823241"
+      },
+      "mode": "B004R solution plus exact B005 odd-answer slice",
+      "target": {
+        "bytes": 107932,
+        "sha256": "1a0f37c70ec657a6941a8c758d27134c1ac9b6a19279115555ce76c1776c031a"
+      }
+    },
+    "main.tex": {
+      "base": {
+        "bytes": 5343,
+        "sha256": "38402e564dcec095e46b8a1af1c5db8445bf8758ede2e4ed94f4c2a8d2f16017"
+      },
+      "mode": "D027 root driver with one exact placeins package-list insertion",
+      "target": {
+        "bytes": 5355,
+        "sha256": "7d45fba9d91efa0115467f59c039432ab5acd44387997782994fff0d36464c5f"
+      }
+    }
+  },
+  "errors": [],
+  "figures": {
+    "body_receipt": {
+      "bytes": 48751,
+      "sha256": "64ff28b1333af238cf1b693a5d1984394ac5c9f0b8005818e505db2d448ab478"
+    },
+    "eoce_receipt": {
+      "bytes": 41724,
+      "sha256": "ffe3b4465c26428321fff32b983b3519153194884524316ec32f6d273aa61278"
+    },
+    "mammal_portability_validator": {
+      "bytes": 7598,
+      "sha256": "c0ce573edf4b2a77beee0a96d6a13a9a0a2714bcce642f489caa574f492f1e53"
+    },
+    "parallel_helper_manifest": {
+      "bytes": 2446,
+      "sha256": "732250a35e6a9e68dbcecb34b773d207d64e440b8b018ca4d5c94f283c734bcc"
+    },
+    "parser_replay": {
+      "countyIntensityMaps/countyHomeownershipMap.pdf": {
+        "cleaned_pdf_created": true,
+        "diagnostic_line_count": 0,
+        "result": "passed",
+        "returncode": 0
+      },
+      "countyIntensityMaps/countyMedIncomeMap.pdf": {
+        "cleaned_pdf_created": true,
+        "diagnostic_line_count": 0,
+        "result": "passed",
+        "returncode": 0
+      },
+      "countyIntensityMaps/countyPovertyMap.pdf": {
+        "cleaned_pdf_created": true,
+        "diagnostic_line_count": 0,
+        "result": "passed",
+        "returncode": 0
+      },
+      "countyIntensityMaps/countyUnemploymentRateMap.pdf": {
+        "cleaned_pdf_created": true,
+        "diagnostic_line_count": 0,
+        "result": "passed",
+        "returncode": 0
+      },
+      "county_pop_change_v_pop_transform/county_pop_change_v_pop_transform_i.pdf": {
+        "cleaned_pdf_created": true,
+        "diagnostic_line_count": 0,
+        "result": "passed",
+        "returncode": 0
+      },
+      "county_pop_change_v_pop_transform/county_pop_change_v_pop_transform_log.pdf": {
+        "cleaned_pdf_created": true,
+        "diagnostic_line_count": 0,
+        "result": "passed",
+        "returncode": 0
+      },
+      "county_pop_transformed/county_pop_transformed_i.pdf": {
+        "cleaned_pdf_created": true,
+        "diagnostic_line_count": 0,
+        "result": "passed",
+        "returncode": 0
+      },
+      "county_pop_transformed/county_pop_transformed_log.pdf": {
+        "cleaned_pdf_created": true,
+        "diagnostic_line_count": 0,
+        "result": "passed",
+        "returncode": 0
+      },
+      "eoce/air_quality_durham/air_quality_durham_rel_freq_hist.pdf": {
+        "cleaned_pdf_created": true,
+        "diagnostic_line_count": 0,
+        "result": "passed",
+        "returncode": 0
+      },
+      "eoce/association_plots/association_plots.pdf": {
+        "cleaned_pdf_created": true,
+        "diagnostic_line_count": 0,
+        "result": "passed",
+        "returncode": 0
+      },
+      "eoce/county_commute_times/county_commute_times_hist.pdf": {
+        "cleaned_pdf_created": true,
+        "diagnostic_line_count": 0,
+        "result": "passed",
+        "returncode": 0
+      },
+      "eoce/county_commute_times/county_commute_times_map.pdf": {
+        "cleaned_pdf_created": true,
+        "diagnostic_line_count": 0,
+        "result": "passed",
+        "returncode": 0
+      },
+      "eoce/county_hispanic_pop/county_hispanic_pop_hist.pdf": {
+        "cleaned_pdf_created": true,
+        "diagnostic_line_count": 0,
+        "result": "passed",
+        "returncode": 0
+      },
+      "eoce/county_hispanic_pop/county_hispanic_pop_log_hist.pdf": {
+        "cleaned_pdf_created": true,
+        "diagnostic_line_count": 0,
+        "result": "passed",
+        "returncode": 0
+      },
+      "eoce/county_hispanic_pop/county_hispanic_pop_map.pdf": {
+        "cleaned_pdf_created": true,
+        "diagnostic_line_count": 0,
+        "result": "passed",
+        "returncode": 0
+      },
+      "eoce/estimate_mean_median_simple/estimate_mean_median_simple.pdf": {
+        "cleaned_pdf_created": true,
+        "diagnostic_line_count": 0,
+        "result": "passed",
+        "returncode": 0
+      },
+      "eoce/hist_box_match/hist_box_match.pdf": {
+        "cleaned_pdf_created": true,
+        "diagnostic_line_count": 0,
+        "result": "passed",
+        "returncode": 0
+      },
+      "eoce/hist_vs_box/hist_vs_box.pdf": {
+        "cleaned_pdf_created": true,
+        "diagnostic_line_count": 0,
+        "result": "passed",
+        "returncode": 0
+      },
+      "eoce/income_coffee_shop/income_coffee_shop.pdf": {
+        "cleaned_pdf_created": true,
+        "diagnostic_line_count": 0,
+        "result": "passed",
+        "returncode": 0
+      },
+      "eoce/mammal_life_spans/mammal_life_spans_scatterplot.pdf": {
+        "cleaned_pdf_created": true,
+        "diagnostic_line_count": 0,
+        "result": "passed",
+        "returncode": 0
+      },
+      "eoce/reproducing_bacteria/reproducing_bacteria_sketch.pdf": {
+        "cleaned_pdf_created": true,
+        "diagnostic_line_count": 0,
+        "result": "passed",
+        "returncode": 0
+      },
+      "loan50IntRateHist/loan50IntRateHist.pdf": {
+        "cleaned_pdf_created": true,
+        "diagnostic_line_count": 0,
+        "result": "passed",
+        "returncode": 0
+      },
+      "loan50_amt_vs_income/loan50_amt_vs_income.pdf": {
+        "cleaned_pdf_created": true,
+        "diagnostic_line_count": 0,
+        "result": "passed",
+        "returncode": 0
+      },
+      "loan_int_rate_box_plot_layout/loan_int_rate_box_plot_layout.pdf": {
+        "cleaned_pdf_created": true,
+        "diagnostic_line_count": 0,
+        "result": "passed",
+        "returncode": 0
+      },
+      "loan_int_rate_dot_plot/loan_int_rate_dot_plot.pdf": {
+        "cleaned_pdf_created": true,
+        "diagnostic_line_count": 0,
+        "result": "passed",
+        "returncode": 0
+      },
+      "loan_int_rate_dot_plot/loan_int_rate_dot_plot_stacked.pdf": {
+        "cleaned_pdf_created": true,
+        "diagnostic_line_count": 0,
+        "result": "passed",
+        "returncode": 0
+      },
+      "loan_int_rate_robust_ex/loan_int_rate_robust_ex.pdf": {
+        "cleaned_pdf_created": true,
+        "diagnostic_line_count": 0,
+        "result": "passed",
+        "returncode": 0
+      },
+      "medianHHIncomePoverty/medianHHIncomePoverty.pdf": {
+        "cleaned_pdf_created": true,
+        "diagnostic_line_count": 0,
+        "result": "passed",
+        "returncode": 0
+      },
+      "sdRuleForIntRate/sdRuleForIntRate.pdf": {
+        "cleaned_pdf_created": true,
+        "diagnostic_line_count": 0,
+        "result": "passed",
+        "returncode": 0
+      },
+      "severalDiffDistWithSdOf1/severalDiffDistWithSdOf1.pdf": {
+        "cleaned_pdf_created": true,
+        "diagnostic_line_count": 0,
+        "result": "passed",
+        "returncode": 0
+      },
+      "singleBiMultiModalPlots/singleBiMultiModalPlots.pdf": {
+        "cleaned_pdf_created": true,
+        "diagnostic_line_count": 0,
+        "result": "passed",
+        "returncode": 0
+      }
+    },
+    "source_walk": {
+      "body": [
+        "loan50_amt_vs_income/loan50_amt_vs_income.pdf",
+        "medianHHIncomePoverty/medianHHIncomePoverty.pdf",
+        "loan_int_rate_dot_plot/loan_int_rate_dot_plot.pdf",
+        "loan_int_rate_dot_plot/loan_int_rate_dot_plot_stacked.pdf",
+        "loan50IntRateHist/loan50IntRateHist.pdf",
+        "singleBiMultiModalPlots/singleBiMultiModalPlots.pdf",
+        "sdRuleForIntRate/sdRuleForIntRate.pdf",
+        "severalDiffDistWithSdOf1/severalDiffDistWithSdOf1.pdf",
+        "loan_int_rate_box_plot_layout/loan_int_rate_box_plot_layout.pdf",
+        "loan_int_rate_robust_ex/loan_int_rate_robust_ex.pdf",
+        "county_pop_transformed/county_pop_transformed_i.pdf",
+        "county_pop_transformed/county_pop_transformed_log.pdf",
+        "county_pop_change_v_pop_transform/county_pop_change_v_pop_transform_i.pdf",
+        "county_pop_change_v_pop_transform/county_pop_change_v_pop_transform_log.pdf",
+        "countyIntensityMaps/countyPovertyMap.pdf",
+        "countyIntensityMaps/countyUnemploymentRateMap.pdf",
+        "countyIntensityMaps/countyHomeownershipMap.pdf",
+        "countyIntensityMaps/countyMedIncomeMap.pdf"
+      ],
+      "exercises": [
+        "eoce/mammal_life_spans/mammal_life_spans_scatterplot.pdf",
+        "eoce/association_plots/association_plots.pdf",
+        "eoce/hist_box_match/hist_box_match.pdf",
+        "eoce/air_quality_durham/air_quality_durham_rel_freq_hist.pdf",
+        "eoce/estimate_mean_median_simple/estimate_mean_median_simple.pdf",
+        "eoce/hist_vs_box/hist_vs_box.pdf",
+        "eoce/income_coffee_shop/income_coffee_shop.pdf",
+        "eoce/county_commute_times/county_commute_times_hist.pdf",
+        "eoce/county_commute_times/county_commute_times_map.pdf",
+        "eoce/county_hispanic_pop/county_hispanic_pop_hist.pdf",
+        "eoce/county_hispanic_pop/county_hispanic_pop_log_hist.pdf",
+        "eoce/county_hispanic_pop/county_hispanic_pop_map.pdf"
+      ],
+      "public_answers": [
+        "eoce/reproducing_bacteria/reproducing_bacteria_sketch.pdf"
+      ],
+      "total_unique_pdf_count": 31
+    }
+  },
+  "forward_isolation": {
+    "B006_included": false,
+    "Section_2_2_plus_identity": {
+      "bytes": 58617,
+      "sha256": "5132a9d283a9dd606efb456fb2e1271d6020835b994a2c233a2b0bfb58633997"
+    },
+    "canonical_added_files": [
+      "ch_summarizing_data/figures/b005_eoce_closure/FINAL_MANIFEST.tsv",
+      "ch_summarizing_data/figures/b005_eoce_closure/FINAL_RECEIPT.json",
+      "ch_summarizing_data/figures/b005_eoce_closure/PROPOSED_ASSET_ROWS.tsv",
+      "ch_summarizing_data/figures/b005_eoce_closure/assemble_b005_eoce_closure.py",
+      "ch_summarizing_data/figures/b005_eoce_replay_hispanic_bacteria/PARTIAL_RECEIPT.json",
+      "ch_summarizing_data/figures/b005_eoce_replay_hispanic_bacteria/PROPOSED_ASSET_ROWS.tsv",
+      "ch_summarizing_data/figures/b005_eoce_replay_hispanic_bacteria/replay_a_manifest.json",
+      "ch_summarizing_data/figures/b005_eoce_replay_hispanic_bacteria/replay_b005_eoce_hispanic_bacteria.py",
+      "ch_summarizing_data/figures/b005_eoce_replay_hispanic_bacteria/replay_b_manifest.json",
+      "ch_summarizing_data/figures/b005_eoce_replay_hispanic_bacteria/verify_b005_eoce_hispanic_bacteria.py",
+      "ch_summarizing_data/figures/b005_prefix_replay/FINAL_RECEIPT.json",
+      "ch_summarizing_data/figures/b005_prefix_replay/PROPOSED_ASSET_ROWS.tsv",
+      "ch_summarizing_data/figures/b005_prefix_replay/replay_a_manifest.json",
+      "ch_summarizing_data/figures/b005_prefix_replay/replay_b005_prefix_figures.py",
+      "ch_summarizing_data/figures/b005_prefix_replay/replay_b_manifest.json",
+      "ch_summarizing_data/figures/b005_prefix_replay/verify_b005_prefix_figures.py",
+      "ch_summarizing_data/figures/eoce/air_quality_durham/air_quality_durham_rel_freq_hist.id-ID.receipt.json",
+      "ch_summarizing_data/figures/eoce/air_quality_durham/localize_air_quality_durham_rel_freq_hist_id.py",
+      "ch_summarizing_data/figures/eoce/county_commute_times/county_commute_times_hist.id-ID.receipt.json",
+      "ch_summarizing_data/figures/eoce/county_commute_times/localize_county_commute_times_hist_id.py",
+      "ch_summarizing_data/figures/eoce/mammal_life_spans/localize_mammal_life_spans_scatterplot_id.py",
+      "ch_summarizing_data/figures/eoce/mammal_life_spans/mammal_life_spans_scatterplot.id-ID.receipt.json"
+    ],
+    "solution_mode": "B004R base plus only B005 answer slice",
+    "staging_replay_render_and_smoke_trees_included": false
+  },
+  "gate_revision": "v9",
+  "gate_script": {
+    "bytes": 143290,
+    "path": "scripts/qa_boundary_b005.py",
+    "sha256": "5499b14c45be6cf061c255839102e9ee25b9d48d322307d8cc7d0ee8b1100e7f"
+  },
+  "independent_semantic_audit": {
+    "bytes": 28821,
+    "path": "qa/b005-semantic/R011-B005_SEMANTIC_AUDIT.json",
+    "sha256": "62983d4f56fb178e94e043d67d3cc0bcd95108654d9e1bbfc44b762663b7a190"
+  },
+  "preflight": {
+    "bytes": 34883,
+    "path": "qa/R011-B005_PREFLIGHT.md",
+    "sha256": "9701a682ce7b3cca0a6d4f1b4794753d67d5bf547845ce0534ef2bee0328bdd8"
+  },
+  "schema": "openintro-boundary-source-qa",
+  "schema_version": "0.9.0",
+  "solution_reconstruction": {
+    "base": {
+      "bytes": 107428,
+      "sha256": "bbd62560e88011423edbd5f729dae2e0cbbffd6c03f6c383dc5890ca38823241"
+    },
+    "base_slice": {
+      "bytes": 4838,
+      "sha256": "0e60b86b248027548bc819c1fdb07e80f36de433a2cc8eefc1daa793c64d4341"
+    },
+    "live_whole_file": {
+      "bytes": 107932,
+      "sha256": "1a0f37c70ec657a6941a8c758d27134c1ac9b6a19279115555ce76c1776c031a"
+    },
+    "mode": "admitted B004R solution plus exact B005 heading/odd-answer slice",
+    "result": {
+      "bytes": 107932,
+      "sha256": "1a0f37c70ec657a6941a8c758d27134c1ac9b6a19279115555ce76c1776c031a"
+    },
+    "target_slice": {
+      "bytes": 5342,
+      "sha256": "ddcb9f4021d7fdfdd06b5c5e4d624a5c42e32466cbc133f185dc47c8503dbaa3"
+    }
+  },
+  "sources": {
+    "accessibility_label_reconciliation": {
+      "classification": "local_accessibility_consistency_QA_not_upstream_defect",
+      "counts": {
+        "\"Interest Rate\" -> \"Suku Bunga\"": 3,
+        "\"Loan Amount\" -> \"Jumlah Pinjaman\"": 1,
+        "\"Median Household Income\" -> \"Median Pendapatan Rumah Tangga\"": 1,
+        "\"Population\" -> \"Populasi\"": 1,
+        "\"Poverty Rate\" -> \"Tingkat Kemiskinan\"": 1,
+        "\"Total Income\" -> \"Total Pendapatan\"": 1
+      },
+      "reconstructed_prior_full_file": {
+        "bytes": 115953,
+        "sha256": "fec90d8b0503eee861e3a83f9ce1201dae81702ff23138f953bb5741fb60c504"
+      },
+      "reconstructed_prior_prefix": {
+        "bytes": 57336,
+        "sha256": "4e89ebeb98aa2faef29d6411daa3bbed8a6537d82ac4498e4d5e08918bb86388"
+      },
+      "replacement_occurrence_count": 8,
+      "surrounding_alt_text_and_suffix_unchanged": true
+    },
+    "body": {
+      "authority_prefix": {
+        "bytes": 55759,
+        "sha256": "f3f1155e2e4f47e503466af0529bfd71815855d2d95179ae4c935dc64de1740f"
+      },
+      "counts": {
+        "figure_calls": 18,
+        "guided_nexercise": 13,
+        "labels": 37,
+        "math_spans": 105,
+        "sections": 1,
+        "subsections": 8
+      },
+      "normalized_math_skeleton_exact": true,
+      "suffix": {
+        "bytes": 58617,
+        "sha256": "5132a9d283a9dd606efb456fb2e1271d6020835b994a2c233a2b0bfb58633997"
+      },
+      "target_prefix": {
+        "bytes": 57719,
+        "sha256": "2b2693ed6f88dec8db79d1ac7c6bd5d0c2d4ecddfa69087eaf60f737ebf23d86"
+      }
+    },
+    "driver": {
+      "reconstructed_v7": {
+        "bytes": 5343,
+        "sha256": "38402e564dcec095e46b8a1af1c5db8445bf8758ede2e4ed94f4c2a8d2f16017"
+      },
+      "target": {
+        "bytes": 5355,
+        "sha256": "7d45fba9d91efa0115467f59c039432ab5acd44387997782994fff0d36464c5f"
+      }
+    },
+    "exercises": {
+      "authority": {
+        "bytes": 20292,
+        "sha256": "701b0ce5f883da62fc2f0cf6b3e180dfa5c5bda5d3fb476ea5016c9acda24409"
+      },
+      "counts": {
+        "eoce": 20,
+        "figure_calls": 12,
+        "items": 31,
+        "labels": 17,
+        "markers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "math_spans": 0,
+        "parts": 10
+      },
+      "target": {
+        "bytes": 22155,
+        "sha256": "a97bbc7212a14a293776f3e307387ae671d2ff0577125f490a5c73ad6b6a8ebe"
+      }
+    },
+    "layout_only_reflow": {
+      "D021": {
+        "classification": "print_only_forced_break_removal",
+        "counts": {
+          "body": 3,
+          "exercises": 1,
+          "suffix": 0,
+          "total": 4
+        },
+        "decision": "D021",
+        "reader_visible_content_changed": false,
+        "reconstructed_v1": {
+          "body_prefix": {
+            "bytes": 57346,
+            "sha256": "da5aeab6197d5f4b4c5efa5ad585119012a04540d28ee866d3ef80522120a676"
+          },
+          "body_whole": {
+            "bytes": 115963,
+            "sha256": "5d19828e1728c2f70c6a5fe31a80cf5fa4d8f488b404b2f595f44008f52d5e9b"
+          },
+          "exercises": {
+            "bytes": 21924,
+            "sha256": "0168cd5dbb3822b81f5c6ee692075011e294a19819422f365e5e9d5750dcfd9a"
+          }
+        },
+        "replacement": {
+          "byte_delta_each": 48,
+          "v1": "\\D{\\newpage}",
+          "v2": "% R011-B005 D021: jeda halaman paksa untuk cetak ditiadakan."
+        }
+      },
+      "D022": {
+        "classification": "print_only_forced_break_removal",
+        "counts": {
+          "body": 1,
+          "exercises": 0,
+          "suffix": 0,
+          "total": 1
+        },
+        "decision": "D022",
+        "locus": "immediately before subsection Diagram kotak, kuartil, dan median",
+        "reader_visible_content_changed": false,
+        "reconstructed_v2": {
+          "body_prefix": {
+            "bytes": 57490,
+            "sha256": "090f098bd64cba2b02d3af396187879c9e47000541c999cb33af5e2686c96dd1"
+          },
+          "body_whole": {
+            "bytes": 116107,
+            "sha256": "15fcc65c3b018e16b7c7f28b06e7f20a2e43ac3ceb4c043063ea5d5ec94f1046"
+          }
+        },
+        "replacement": {
+          "byte_delta": 58,
+          "v2": "\\D{\\newpage}",
+          "v3": "% R011-B005 D022: jeda halaman paksa sebelum diagram kotak ditiadakan."
+        }
+      },
+      "D023": {
+        "byte_delta_total": 181,
+        "classification": "print_only_forced_break_cascade_removal",
+        "counts": {
+          "body": 3,
+          "exercises": 0,
+          "suffix": 0,
+          "total": 3
+        },
+        "decision": "D023",
+        "reader_visible_content_changed": false,
+        "reconstructed_v3": {
+          "body_prefix": {
+            "bytes": 57548,
+            "sha256": "bacd21903d882acdb5211beddc8636e1eef1a42dd87d9c4e6cf8a5c94660e1ac"
+          },
+          "body_whole": {
+            "bytes": 116165,
+            "sha256": "a782c94a3d6e3ab8ef43032433c1b67b94845895ba753ec48bbcbfa98cb84071"
+          }
+        },
+        "replacement_count": 3,
+        "replacements": [
+          {
+            "byte_delta": 61,
+            "count": 1,
+            "subsection": "\\subsection{Statistik robust}",
+            "v3": "\\D{\\newpage}",
+            "v4": "% R011-B005 D023: jeda halaman paksa sebelum statistik robust ditiadakan."
+          },
+          {
+            "byte_delta": 62,
+            "count": 1,
+            "subsection": "\\subsection{Mentransformasi data (topik khusus)}",
+            "v3": "\\D{\\newpage}",
+            "v4": "% R011-B005 D023: jeda halaman paksa sebelum transformasi data ditiadakan."
+          },
+          {
+            "byte_delta": 58,
+            "count": 1,
+            "subsection": "\\subsection{Memetakan data (topik khusus)}",
+            "v3": "\\D{\\newpage}",
+            "v4": "% R011-B005 D023: jeda halaman paksa sebelum pemetaan data ditiadakan."
+          }
+        ]
+      },
+      "D024": {
+        "classification": "upstream_print_only_forced_break_restoration",
+        "counts": {
+          "exercises": 0,
+          "restored_body_directive": 1,
+          "retained_D023_body_comments": 2,
+          "suffix": 0,
+          "superseded_map_comment": 0
+        },
+        "decision": "D024",
+        "locus": "immediately before subsection Memetakan data (topik khusus)",
+        "reader_visible_content_changed": false,
+        "reconstructed_v4": {
+          "body_prefix": {
+            "bytes": 57729,
+            "sha256": "5a5a5ba8f8c37938abb4eae52e0c04ce6b205971b8aa4e587766068fac6db383"
+          },
+          "body_whole": {
+            "bytes": 116346,
+            "sha256": "a5e1705477dbac290c71275681aa44c034c1c9bec5e3b7373502b6409715af4d"
+          }
+        },
+        "replacement": {
+          "v4": "% R011-B005 D023: jeda halaman paksa sebelum pemetaan data ditiadakan.",
+          "v5": "\\D{\\newpage}",
+          "v5_minus_v4_byte_delta": -58
+        }
+      },
+      "D025": {
+        "D024_map_break_preserved": true,
+        "body_byte_delta_total": 18,
+        "classification": "map_pair_layout_geometry_only",
+        "decision": "D025",
+        "hfill_insertions": {
+          "byte_delta_each": 9,
+          "byte_delta_total": 18,
+          "count": 2,
+          "exact_line": "  \\hfill\n"
+        },
+        "instructional_content_changed": false,
+        "layout_geometry_changed": true,
+        "reader_visible_semantic_content_changed": false,
+        "reconstructed_v5": {
+          "body_prefix": {
+            "bytes": 57671,
+            "sha256": "1ebc439f61508cd1de03664d016ac363979e2b78df92701f30117b8dfc394e91"
+          },
+          "body_whole": {
+            "bytes": 116288,
+            "sha256": "9d6681989126b16b51a990684de86f8b506027d994c290f10adbf93faee3b886"
+          }
+        },
+        "scope": "two county-intensity-map figure environments",
+        "width_substitutions": {
+          "asset_tokens": [
+            "{countyPovertyMap}",
+            "{countyUnemploymentRateMap}",
+            "{countyHomeownershipMap}",
+            "{countyMedIncomeMap}"
+          ],
+          "byte_delta_total": 0,
+          "count": 4,
+          "current": "{0.48}",
+          "prior": "{1.00}"
+        }
+      },
+      "D026": {
+        "D024_map_break_preserved": true,
+        "D025_map_pairing_preserved": true,
+        "body_byte_delta_total": 8,
+        "classification": "float_placement_and_local_header_pagination_only",
+        "decision": "D026",
+        "exercise_byte_delta_total": 60,
+        "exercise_header_wrapper": {
+          "byte_delta_total": 60,
+          "count": 1,
+          "current_block": "\\begingroup\n\\renewcommand{\\clearpageforsection}{}\n\\exercisesheader{}\n\\endgroup\n",
+          "current_block_bytes": 79,
+          "line_count": 4,
+          "local_scope_preserved": true,
+          "prior_line": "\\exercisesheader{}\n",
+          "prior_line_bytes": 19
+        },
+        "figure_placement_options": {
+          "byte_delta_each": 4,
+          "byte_delta_total": 8,
+          "count": 2,
+          "replacements": [
+            {
+              "bound_to_declared_map_pair": true,
+              "byte_delta": 4,
+              "count": 1,
+              "current": "\\begin{figure}[!b]",
+              "map_assets": [
+                "{countyPovertyMap}",
+                "{countyUnemploymentRateMap}"
+              ],
+              "prior": "\\begin{figure}"
+            },
+            {
+              "bound_to_declared_map_pair": true,
+              "byte_delta": 4,
+              "count": 1,
+              "current": "\\begin{figure}[!t]",
+              "map_assets": [
+                "{countyHomeownershipMap}",
+                "{countyMedIncomeMap}"
+              ],
+              "prior": "\\begin{figure}"
+            }
+          ]
+        },
+        "instructional_content_changed": false,
+        "layout_geometry_changed": true,
+        "reader_visible_semantic_content_changed": false,
+        "reconstructed_v6": {
+          "body_prefix": {
+            "bytes": 57689,
+            "sha256": "0903f046be3b70694f1ebdffafc74f646fc01cccf266ad321bb3a61aa253d841"
+          },
+          "body_whole": {
+            "bytes": 116306,
+            "sha256": "96ccd68d07153d0ba6c30fae149dcd014eed68ddc929ed5e39e6e1fe070535c7"
+          },
+          "exercises": {
+            "bytes": 21972,
+            "sha256": "6e679e40e079d3dd530b1926aad8b13e391b7e34316126a66ab94e76d2f81c2c"
+          }
+        },
+        "scope": "two county-intensity-map figure openings and the four-line local exercise-header block",
+        "total_source_byte_delta": 68
+      },
+      "D027": {
+        "D024_map_break_preserved": true,
+        "D025_map_pairing_preserved": true,
+        "D026_float_preferences_and_local_header_wrapper_preserved": true,
+        "classification": "post_map_float_containment_only",
+        "decision": "D027",
+        "float_barrier_insertion": {
+          "byte_delta": 15,
+          "count": 1,
+          "exact_text": "\n\\FloatBarrier\n",
+          "locus": "immediately after the figure labeled countyIntensityMaps2 and before the county index closure and exercise input",
+          "path": "repo/ch_summarizing_data/TeX/ch_summarizing_data.tex",
+          "reconstructed_v7": {
+            "body_prefix": {
+              "bytes": 57697,
+              "sha256": "f991ea5df4d34590fcf72e551de1cf0a581e67c3ba4b8f3152b42664c5e2e518"
+            },
+            "body_whole": {
+              "bytes": 116314,
+              "sha256": "ac88a3ba072a803d5191bc6d324f0a1a0dc1a06d61d8de9cef052bcf38d57d80"
+            }
+          }
+        },
+        "instructional_content_changed": false,
+        "layout_geometry_changed": true,
+        "package_insertion": {
+          "byte_delta": 12,
+          "count": 1,
+          "exact_line": "  placeins,\n",
+          "path": "repo/main.tex",
+          "reconstructed_v7": {
+            "bytes": 5343,
+            "sha256": "38402e564dcec095e46b8a1af1c5db8445bf8758ede2e4ed94f4c2a8d2f16017"
+          }
+        },
+        "reader_visible_semantic_content_changed": false,
+        "reconstructed_v7": {
+          "body_prefix": {
+            "bytes": 57697,
+            "sha256": "f991ea5df4d34590fcf72e551de1cf0a581e67c3ba4b8f3152b42664c5e2e518"
+          },
+          "body_whole": {
+            "bytes": 116314,
+            "sha256": "ac88a3ba072a803d5191bc6d324f0a1a0dc1a06d61d8de9cef052bcf38d57d80"
+          },
+          "main": {
+            "bytes": 5343,
+            "sha256": "38402e564dcec095e46b8a1af1c5db8445bf8758ede2e4ed94f4c2a8d2f16017"
+          }
+        },
+        "scope": "one package-list line in main.tex and one FloatBarrier immediately after Figure 2.16",
+        "total_source_byte_delta": 27
+      },
+      "D028": {
+        "D027_placeins_and_FloatBarrier_preserved": true,
+        "body_source_only_adjustments": {
+          "example_2_20_period_index_reordering": {
+            "byte_delta": 0,
+            "count": 1,
+            "index_sequence_changed": false,
+            "reader_visible_semantic_content_changed": false
+          },
+          "reconstructed_v8": {
+            "body": {
+              "bytes": 116329,
+              "sha256": "b27b5ccba03f6d775ac38516cb0837b059b4030c1c1efeb23c52d82f9c078dbc"
+            },
+            "body_prefix": {
+              "bytes": 57712,
+              "sha256": "9b19a26a788eece77e7629b394f0880f9273b0560a5c1706ea9b70fac72afe4c"
+            }
+          },
+          "url_boxing": {
+            "byte_delta": 7,
+            "count": 1,
+            "reader_visible_semantic_content_changed": false,
+            "redirect_id_unchanged": true,
+            "visible_url_target_unchanged": true
+          }
+        },
+        "classification": "exercise_break_removal_and_source_only_body_layout",
+        "decision": "D028",
+        "exercise_break_replacement": {
+          "byte_delta": 123,
+          "count": 1,
+          "current_bytes": 136,
+          "locus": "immediately after Exercise 2.10 and before Exercise 2.11",
+          "prior_bytes": 13,
+          "reconstructed_v8": {
+            "bytes": 22032,
+            "sha256": "15309a23fe0bbcd88f5f2385f2fceb7db88952e5babb1012d3576558ff49f81c"
+          }
+        },
+        "instructional_content_changed": false,
+        "layout_geometry_changed": true,
+        "main_tex_unchanged_from_v8": true,
+        "reader_visible_semantic_content_changed": false,
+        "scope": "the weighted-mean supplement URL wrapper, the Example 2.20 period/index ordering, and the post-Exercise-2.10 page-break directive"
+      },
+      "decisions": [
+        "D021",
+        "D022",
+        "D023",
+        "D024",
+        "D025",
+        "D026",
+        "D027",
+        "D028"
+      ],
+      "instructional_content_changed": false,
+      "layout_geometry_changed_by_D025": true,
+      "layout_geometry_changed_by_D026": true,
+      "layout_geometry_changed_by_D027": true,
+      "layout_geometry_changed_by_D028": true,
+      "reader_visible_content_changed": false,
+      "restored_print_only_forced_breaks": 1,
+      "total_omitted_print_only_forced_breaks": 8
+    },
+    "probable_english": {
+      "answers": [],
+      "body": [],
+      "exercises": []
+    },
+    "protected_sequences": {
+      "cite": {
+        "answers": true,
+        "body": true,
+        "exercises": true
+      },
+      "footfullcite": {
+        "answers": true,
+        "body": true,
+        "exercises": true
+      },
+      "input": {
+        "answers": true,
+        "body": true,
+        "exercises": true
+      },
+      "label": {
+        "answers": true,
+        "body": true,
+        "exercises": true
+      },
+      "pageref": {
+        "answers": true,
+        "body": true,
+        "exercises": true
+      },
+      "ref": {
+        "answers": true,
+        "body": true,
+        "exercises": true
+      },
+      "vref": {
+        "answers": true,
+        "body": true,
+        "exercises": true
+      }
+    },
+    "public_answers": {
+      "counts": {
+        "eocesol": 10,
+        "figure_calls": 1,
+        "markers": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11,
+          13,
+          15,
+          17,
+          19
+        ],
+        "math_spans": 11
+      },
+      "o001_no_public_answer_gaps": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "required_corrections_present": true
+  },
+  "status": "pass",
+  "supersedes": {
+    "v1": {
+      "preserved_files": {
+        "qa/R011-B005_PREFLIGHT_V1_SUPERSEDED.md": {
+          "bytes": 12650,
+          "sha256": "710b4cde91f64a06fdf804c396214b387bb447a9727b8039fd38abfe618aae3f"
+        },
+        "qa/R011-B005_SOURCE_QA_V1_SUPERSEDED.json": {
+          "bytes": 42603,
+          "sha256": "4008bff93837ef5eafee669e003e6f7dfb8f3e4cdc1cce4a40ae40051d0c32d5"
+        },
+        "qa/R011-B005_TARGET_MANIFEST_V1_SUPERSEDED.tsv": {
+          "bytes": 171577,
+          "sha256": "f26b09c15cd42c7827a4fce76ba8e87c4b24c203330cf01f3fb031e6b39a26ea"
+        },
+        "scripts/qa_boundary_b005_v1_superseded.py": {
+          "bytes": 52231,
+          "sha256": "95d9f9f6a034bed78119ecd47ca32a7130e6da6f657660c80aae708c631aff31"
+        }
+      },
+      "reason": "v1 visual build rejection: four print-only forced breaks caused effectively blank continuation pages, and the stacked-dot PDF lost all 50 points in Poppler because they were unembedded ZapfDingbats glyphs"
+    },
+    "v2": {
+      "preserved_files": {
+        "qa/R011-B005_PREFLIGHT_V2_SUPERSEDED.md": {
+          "bytes": 16688,
+          "sha256": "c4fdee0679e94b905e2157b9703ec5bfae2f7b0d366a73807085330cf4520fff"
+        },
+        "qa/R011-B005_SOURCE_QA_V2_SUPERSEDED.json": {
+          "bytes": 44547,
+          "sha256": "4aee9dc9e9f5c95f239e29dccafd37d3709e566eae01cb349692e103cca5c9e9"
+        },
+        "qa/R011-B005_TARGET_MANIFEST_V2_SUPERSEDED.tsv": {
+          "bytes": 171577,
+          "sha256": "b82774b001e978e50b18d1a461c754acd42cf7b55dc0e01f7327e3f16f107fa4"
+        },
+        "scripts/qa_boundary_b005_v2_superseded.py": {
+          "bytes": 64875,
+          "sha256": "f12a422b42a95559d0f1346b7c13dd39136a56ad825c72a35167ed05565c469a"
+        }
+      },
+      "reason": "v2 visual rejection: page 50 was severely underfilled because a remaining print-only forced break moved the box-plot subsection to page 51; D022 removes only that break",
+      "rejected_build_receipt": {
+        "bytes": 11823,
+        "path": "qa/R011-B005_BUILD_QA_V2_REJECTED.json",
+        "sha256": "0f254d484c3ed03e5dc6b1de827de301c9b83d62b04d37f188264375662c0a4b"
+      },
+      "visual_findings": {
+        "binding": "transitive_via_exact_v5_source_receipt",
+        "bytes": 1845,
+        "finding_id": "R011-B005-VIS-006",
+        "page": 50,
+        "path": "qa/b005-render/final-v2/VISUAL_FINDINGS_V2.json",
+        "promotion_allowed": false,
+        "severity": "P2",
+        "sha256": "4f59808595a3d006640ac470365bf5fb9e385295e472d279a4fec95a5c0b1134"
+      }
+    },
+    "v3": {
+      "preserved_files": {
+        "qa/R011-B005_PREFLIGHT_V3_SUPERSEDED.md": {
+          "bytes": 19109,
+          "sha256": "4ad6bdd33e0ec10744dfdb690b4ad5d0d606ce143679cf644f030c570e2fe30d"
+        },
+        "qa/R011-B005_SOURCE_QA_V3_SUPERSEDED.json": {
+          "bytes": 47232,
+          "sha256": "02e6a8cf0e46cae24bf19cd79f272b677a23310eb803366d32a77f86b13fa605"
+        },
+        "qa/R011-B005_TARGET_MANIFEST_V3_SUPERSEDED.tsv": {
+          "bytes": 171577,
+          "sha256": "9223a00b240115082d7426bfb2a0586d72bae8e9f33b011734742e8f99f481d0"
+        },
+        "scripts/qa_boundary_b005_v3_superseded.py": {
+          "bytes": 74199,
+          "sha256": "56e04b59ad2888ba5f2280116f2041769d6a6b95f572659e4a0d02d5b1bd43fd"
+        }
+      },
+      "reason": "v3 visual rejection: page 52 was severely underfilled because the robust-statistics subsection was forced to page 53; D023 removes that break and the two corresponding downstream special-topic subsection breaks",
+      "rejected_build_receipt": {
+        "bytes": 11823,
+        "path": "qa/R011-B005_BUILD_QA_V3_REJECTED.json",
+        "sha256": "9c28289efe968a0dba03b61b0d6821b7645aea1f82b7de2e7daafc37ef44e612"
+      },
+      "visual_findings": {
+        "binding": "transitive_via_exact_v5_source_receipt",
+        "bytes": 1851,
+        "finding_id": "R011-B005-VIS-007",
+        "page": 52,
+        "path": "qa/b005-render/final-v3/VISUAL_FINDINGS_V3.json",
+        "promotion_allowed": false,
+        "severity": "P2",
+        "sha256": "82995a4740fc1ea649689290d5383677e52ad167ed382e22061a7054caa1f8c4"
+      }
+    },
+    "v4": {
+      "preserved_files": {
+        "qa/R011-B005_PREFLIGHT_V4_SUPERSEDED.md": {
+          "bytes": 21656,
+          "sha256": "bdb63438e29efa1f1e8fcb45caafe8eafbc9f95e54d83b1279d7e1418bb456ec"
+        },
+        "qa/R011-B005_SOURCE_QA_V4_SUPERSEDED.json": {
+          "bytes": 50381,
+          "sha256": "acf9a594afc899658c85a698e3e45ebcd493bffa5dd54b3575304241b94aa042"
+        },
+        "qa/R011-B005_TARGET_MANIFEST_V4_SUPERSEDED.tsv": {
+          "bytes": 171577,
+          "sha256": "42e37e75f4d8471cfc6e5d8d3a0d5042003e06f5b7fddff2653ad383cb07a48d"
+        },
+        "scripts/qa_boundary_b005_v4_superseded.py": {
+          "bytes": 84530,
+          "sha256": "b128d8ecf652b308999788e472848be8a56d87bd3cc39dc532bdb2eb592dd189"
+        }
+      },
+      "reason": "v4 visual rejection: page 55 was severely underfilled and the omitted map-subsection break separated its introduction from Example 2.21 without advancing either full-page map; D024 restores only that upstream print break",
+      "rejected_build_receipt": {
+        "bytes": 11823,
+        "path": "qa/R011-B005_BUILD_QA_V4_REJECTED.json",
+        "sha256": "e220b72139d4fde30230f83b2cfb2e7b3e26c8ec35479c54116e0efeebffea9a"
+      },
+      "visual_findings": {
+        "binding": "transitive_via_exact_v5_source_receipt",
+        "bytes": 2041,
+        "finding_id": "R011-B005-VIS-008",
+        "page": 55,
+        "path": "qa/b005-render/final-v4/VISUAL_FINDINGS_V4.json",
+        "promotion_allowed": false,
+        "severity": "P2",
+        "sha256": "9e18fef22e03c07624bd25ef53a5babffe3d73f7ae022981d2303978caf5b604"
+      }
+    },
+    "v5": {
+      "preserved_files": {
+        "qa/R011-B005_PREFLIGHT_V5_SUPERSEDED.md": {
+          "bytes": 24192,
+          "sha256": "9c34652481d36350baee3e81894d42ecef7c5308c7697ef6ff840366852bd858"
+        },
+        "qa/R011-B005_SOURCE_QA_V5_SUPERSEDED.json": {
+          "bytes": 53013,
+          "sha256": "33b91857d67849e4bf465505d6419a7a5fb97b7efb6720ff079522360eb7c4cc"
+        },
+        "qa/R011-B005_TARGET_MANIFEST_V5_SUPERSEDED.tsv": {
+          "bytes": 171577,
+          "sha256": "7cb0437f92fdec7d59e84de999326bdf921078b54ce13fd035f279cdb4ebd2be"
+        },
+        "scripts/qa_boundary_b005_v5_superseded.py": {
+          "bytes": 94047,
+          "sha256": "30d118224f7f0b6969181d9d37dbd63872ca52197c931ee2eaf3de65c1e38465"
+        }
+      },
+      "reason": "v5 is the exact source parent of D025; v6 pairs the four county intensity maps by changing only four width arguments and inserting two hfill lines",
+      "rejected_build_receipt": null
+    },
+    "v6": {
+      "preserved_files": {
+        "qa/R011-B005_PREFLIGHT_V6_SUPERSEDED.md": {
+          "bytes": 26945,
+          "sha256": "024ca6889db5333652c968c3790e3cb136f56830de15deb024c2d9fac830856a"
+        },
+        "qa/R011-B005_SOURCE_QA_V6_SUPERSEDED.json": {
+          "bytes": 55557,
+          "sha256": "aba2a855a054ef6f3f179f1500676707cbd48448f5e4d8b95bfaa13ca7506bb1"
+        },
+        "qa/R011-B005_TARGET_MANIFEST_V6_SUPERSEDED.tsv": {
+          "bytes": 171577,
+          "sha256": "a9782f8573189bce4b60a39966fdba6cce53f820b94bc75f2be66fb944567b22"
+        },
+        "scripts/qa_boundary_b005_v6_superseded.py": {
+          "bytes": 102128,
+          "sha256": "72b06f3086f28e51b5cf731ce63d15b0602cd09ba5b76d599ccccff4620eafb1"
+        }
+      },
+      "reason": "v6 is the exact source parent of D026; v7 adds only two county-map float-placement options and the locally grouped exercise-header clear-page override",
+      "rejected_build_receipt": null
+    },
+    "v7": {
+      "preserved_files": {
+        "qa/R011-B005_PREFLIGHT_V7_SUPERSEDED.md": {
+          "bytes": 29556,
+          "sha256": "c7ff5ea9343791f6ed02fb780a52ae50244b93ca5f2f5a9d12744727b86f0219"
+        },
+        "qa/R011-B005_SOURCE_QA_V7_SUPERSEDED.json": {
+          "bytes": 58993,
+          "sha256": "76659fb4a8a8a1b4d144570e0cd666150fed84b2be494f732cf5f7d9bb196a2b"
+        },
+        "qa/R011-B005_TARGET_MANIFEST_V7_SUPERSEDED.tsv": {
+          "bytes": 171577,
+          "sha256": "8318954a2ee8539d2bfc41b989106fd10ba8c414b9df96a5494d09960fdca787"
+        },
+        "qa/b005-semantic/R011-B005_SEMANTIC_AUDIT_V7_SUPERSEDED.json": {
+          "bytes": 24088,
+          "sha256": "b63bcdf06019bea0b459d0452650dca8cf4ca50e1014dc3961d05aae1a4ec05b"
+        },
+        "scripts/qa_boundary_b005_v7_superseded.py": {
+          "bytes": 115136,
+          "sha256": "d6e879046eb05b5cea0314bb6576c99f6d386c2a7ec01f80baffc60fa99ba504"
+        }
+      },
+      "reason": "v7 is the exact source parent of D027; v8 adds only the placeins package-list line and one FloatBarrier after the second paired county-map figure",
+      "rejected_build_receipt": null
+    },
+    "v8": {
+      "preserved_files": {
+        "qa/R011-B005_PREFLIGHT_V8_SUPERSEDED.md": {
+          "bytes": 32009,
+          "sha256": "b5626ab3e397ebe9125496a2051e63cace48818bcc59883b27ac0ffe0ea6048d"
+        },
+        "qa/R011-B005_SOURCE_QA_V8_SUPERSEDED.json": {
+          "bytes": 63028,
+          "sha256": "455b4593b6fedff2307a21f765979deb08721160ab7624fdd6991e49d3811976"
+        },
+        "qa/R011-B005_TARGET_MANIFEST_V8_SUPERSEDED.tsv": {
+          "bytes": 171577,
+          "sha256": "8125d8faad3adc524002ef50347727b6cbf5ce593c1507c39dc54180f091d774"
+        },
+        "qa/b005-semantic/R011-B005_SEMANTIC_AUDIT_V8_SUPERSEDED.json": {
+          "bytes": 26092,
+          "sha256": "895208c12e8d618aab08f1a5af787ed88add0e5abcf394d0022113cee4bef996"
+        },
+        "scripts/qa_boundary_b005_v8_superseded.py": {
+          "bytes": 127659,
+          "sha256": "cfb65e93ef319d1e74a81cf803bb8f52a6b449014b15c70098f646a47d92d916"
+        }
+      },
+      "reason": "v8 is the exact source parent of D028; v9 removes only the post-Exercise-2.10 forced break and makes the two bounded source-only URL/punctuation layout adjustments",
+      "rejected_build_receipt": null
+    }
+  },
+  "target_manifest": {
+    "bytes": 171577,
+    "file_bytes": 41144346,
+    "file_count": 1182,
+    "path": "qa/R011-B005_TARGET_MANIFEST.tsv",
+    "sha256": "8e84e688c354757b52b081a0d79f848a6f9e651c339760f92cf3f123eabb6fe0"
+  }
+}
