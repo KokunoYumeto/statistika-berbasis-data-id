@@ -1,7 +1,7 @@
 {
   "schema": "openintro-id-cursor",
   "schema_version": "0.3.0",
-  "status": "R011-B001_through_B006_admitted_B006_zenodo_published_figshare_and_github_pending",
+  "status": "R011-B001_through_B006_admitted_and_published_R011-B007_candidate_repair_in_progress",
   "authority_commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
   "authority_tree": "d61cc601e7d97759ce805900520f784d02a0489e",
   "completed_boundaries": [
@@ -549,7 +549,7 @@
     "expected_title": "Case study: malaria vaccine"
   },
   "latest_qa_receipt": "qa/BOUNDARY_RECEIPT_R011-B006.json",
-  "publication_state": "R011-B006_zenodo_published_and_anonymously_verified_figshare_and_github_pending",
+  "publication_state": "R011-B006_published_and_anonymously_verified_on_zenodo_figshare_and_github",
   "publication": {
     "boundary_id": "R011-B006",
     "complete_corpus": false,
@@ -563,20 +563,36 @@
     "receipt_path": "release/zenodo/R011-B006-v2026.08.22.2/ZENODO_PUBLICATION_RECEIPT.json",
     "receipt_bytes": 4546,
     "receipt_sha256": "534850058087dd84323017a0dceee40ea8f4943aa92a3a09c4c12ef312a433b8",
-    "github_publication_state": "reinstated_per_user_2026-08-22_R011-B006_push_pending",
+    "github_publication_state": "published_and_anonymously_verified",
+    "github": {
+      "repository_url": "https://github.com/KokunoYumeto/statistika-berbasis-data-id",
+      "commit": "c09c9b06c23deb41e1014988b1b77351fcbb39af",
+      "tag": "r011-b006-2026.08.22.2",
+      "release_url": "https://github.com/KokunoYumeto/statistika-berbasis-data-id/releases/tag/r011-b006-2026.08.22.2",
+      "public_asset_count": 10,
+      "anonymous_asset_size_sha256_readback": "passed",
+      "anonymous_critical_raw_file_readback": "passed_10_of_10",
+      "receipt_path": "release/github/R011-B006-v2026.08.22.2/GITHUB_PUBLICATION_RECEIPT.json",
+      "receipt_bytes": 8639,
+      "receipt_sha256": "556512f26ac1c55a2565194adccaa0bfd78c56b806036e5e0bdda028fb2cba42"
+    },
     "figshare": {
       "publication_route": "cc0_metadata_link_only_no_false_license_substitution",
       "article_id": 33314727,
-      "doi": "10.6084/m9.figshare.33314727.v1",
+      "version": 2,
+      "doi": "10.6084/m9.figshare.33314727.v2",
       "record_url": "https://figshare.com/articles/online_resource/Statistika_Berbasis_Data_Bahasa_Indonesia_R011-B005_partial_Zenodo_preservation_link/33314727",
       "project_id": 280296,
       "collection_id": 8668413,
-      "collection_doi": "10.6084/m9.figshare.c.8668413.v3",
+      "collection_doi": "10.6084/m9.figshare.c.8668413.v33",
       "public_file_count": 1,
-      "anonymous_inventory_size_sha256_readback": "passed",
-      "receipt_path": "release/figshare/R011-B005-v2026.08.22.1/FIGSHARE_PUBLICATION_RECEIPT.json",
-      "receipt_bytes": 2649,
-      "receipt_sha256": "0f1bfc2c8ece188f8711858bce9f41ec328ef316ad15b2c437a8325c9946ccf1"
+      "ordered_immutable_link_count": 6,
+      "ordered_link_bytes": 57187428,
+      "anonymous_ordered_link_size_sha256_readback": "passed_6_of_6",
+      "project_hosted_bytes": 242539222,
+      "receipt_path": "release/figshare/R011-B006-v2026.08.22.2/FIGSHARE_PUBLICATION_RECEIPT.json",
+      "receipt_bytes": 7640,
+      "receipt_sha256": "2460733cedd2b714429bb0e5666962544b4a994541fa1888798c71226c910f06"
     }
   }
 }
