@@ -4,7 +4,7 @@
   "status": "published_and_anonymously_verified",
   "boundary_id": "R011-B006",
   "complete_corpus": false,
-  "verified_at": "2026-08-22T19:28:29.4688624+00:00",
+  "verified_at": "2026-08-22T19:40:05.3407791+00:00",
   "repository": {
     "owner": "KokunoYumeto",
     "name": "statistika-berbasis-data-id",
@@ -46,6 +46,62 @@
     "tracked_worktree_bytes": 70802033,
     "anonymous_main_ref_readback": "passed",
     "anonymous_tag_ref_readback": "passed"
+  },
+  "publication_control_followup": {
+    "commit": "228f3694464bd8331c7c3306161a56280f4f23f4",
+    "tree": "bf4dc9189c650ccb0178cd70e57f6a6c279b3724",
+    "subject": "Record finalized B006 publication controls",
+    "committed_files": 7,
+    "anonymous_main_ref_readback": "passed",
+    "release_tag_commit": "c09c9b06c23deb41e1014988b1b77351fcbb39af",
+    "release_tag_unchanged": "passed",
+    "raw_file_readback": [
+      {
+        "path": "00_control/CURRENT_STATE.md",
+        "bytes": 43555,
+        "sha256": "99f77c85c985c5ba8556ae7440565a16ebf81fb62a6600bd265968ff8000832f",
+        "status": "passed"
+      },
+      {
+        "path": "00_control/CURRENT_CURSOR.json",
+        "bytes": 32671,
+        "sha256": "74fbd3cb259f0a9f5015470df25baba192eb02c72dca082c4260edbb1520304f",
+        "status": "passed"
+      },
+      {
+        "path": "release/github/R011-B006-v2026.08.22.2/GITHUB_PUBLICATION_RECEIPT.json",
+        "bytes": 8639,
+        "sha256": "556512f26ac1c55a2565194adccaa0bfd78c56b806036e5e0bdda028fb2cba42",
+        "status": "passed",
+        "note": "Receipt version present in the seven-file content commit before this follow-up evidence was appended."
+      },
+      {
+        "path": "release/figshare/R011-B006-v2026.08.22.2/FIGSHARE_ARTICLE_PAYLOAD.json",
+        "bytes": 3866,
+        "sha256": "99046f6b56c8b92c029ef027be8c3e54a68126989aede3162329fad6352be085",
+        "status": "passed"
+      },
+      {
+        "path": "release/figshare/R011-B006-v2026.08.22.2/FIGSHARE_LINK_PLAN.json",
+        "bytes": 3255,
+        "sha256": "de236ba1af4bcddb0ad54b85490e5d1a82bd6eca9641b6e599966d4750155fc4",
+        "status": "passed"
+      },
+      {
+        "path": "release/figshare/R011-B006-v2026.08.22.2/FIGSHARE_PUBLICATION_RECEIPT.json",
+        "bytes": 7640,
+        "sha256": "2460733cedd2b714429bb0e5666962544b4a994541fa1888798c71226c910f06",
+        "status": "passed"
+      },
+      {
+        "path": "scripts/publish_figshare_b006.py",
+        "bytes": 27952,
+        "sha256": "935895430f8373a9f8f02a6a3bc1177215e891773e60e79cd55354bf426c2571",
+        "status": "passed"
+      }
+    ],
+    "receipt_publication_strategy": "A separate receipt-only commit follows this verified seven-file content commit so public main contains this final evidence without changing any other path.",
+    "self_referential_receipt_commit_hash_omitted": true
   },
   "admitted_source_closure": {
     "files": 1195,
