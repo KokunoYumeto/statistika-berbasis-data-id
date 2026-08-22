@@ -566,15 +566,17 @@
     "github_publication_state": "published_and_anonymously_verified",
     "github": {
       "repository_url": "https://github.com/KokunoYumeto/statistika-berbasis-data-id",
-      "commit": "c09c9b06c23deb41e1014988b1b77351fcbb39af",
+      "release_commit": "c09c9b06c23deb41e1014988b1b77351fcbb39af",
+      "control_content_commit": "228f3694464bd8331c7c3306161a56280f4f23f4",
+      "receipt_commit": "68eef887e00eb1cb172f8ce1bb07b3919255b1e3",
       "tag": "r011-b006-2026.08.22.2",
       "release_url": "https://github.com/KokunoYumeto/statistika-berbasis-data-id/releases/tag/r011-b006-2026.08.22.2",
       "public_asset_count": 10,
       "anonymous_asset_size_sha256_readback": "passed",
       "anonymous_critical_raw_file_readback": "passed_10_of_10",
       "receipt_path": "release/github/R011-B006-v2026.08.22.2/GITHUB_PUBLICATION_RECEIPT.json",
-      "receipt_bytes": 8639,
-      "receipt_sha256": "556512f26ac1c55a2565194adccaa0bfd78c56b806036e5e0bdda028fb2cba42"
+      "receipt_bytes": 11022,
+      "receipt_sha256": "91862e8fac85caf5a3a874b92624d828518dcd0cb7dbf6589c84fe6e583773d1"
     },
     "figshare": {
       "publication_route": "cc0_metadata_link_only_no_false_license_substitution",
