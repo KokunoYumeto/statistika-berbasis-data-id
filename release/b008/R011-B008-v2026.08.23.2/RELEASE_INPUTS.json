@@ -1,0 +1,253 @@
+{
+  "$schema": "r011-b008-release-inputs/v1",
+  "status": "READY_FOR_PACKAGING",
+  "boundary_id": "R011-B008",
+  "release_id": "R011-B008-v2026.08.23.2",
+  "version_label": "v2026.08.23.2",
+  "version": "2026.08.23.2-R011-B008",
+  "release_date": "2026-08-23",
+  "model_identification": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "license": "CC BY-SA 3.0 Unported",
+  "license_id": "cc-by-sa-3.0",
+  "coverage": {
+    "completion_state": "partial",
+    "short": "Materi pendahuluan, Bab 1 lengkap, Bagian 2.1-2.3, latihan sampai 2.34, jawaban publik ganjil sampai 2.33, dan celah O001 untuk 2.28/2.30/2.32/2.34.",
+    "untranslated_suffix": "Materi setelah batas latihan 2.34 tetap merupakan sumber berbahasa Inggris di PDF batas kerja dan bukan bagian dari terjemahan yang diterima.",
+    "restricted_solutions": "Tidak ada solusi instruktur terbatas yang diakses, direkonstruksi, atau dinyatakan sebagai solusi sumber."
+  },
+  "authority": {
+    "title": "OpenIntro Statistics, Fourth Edition",
+    "authors": [
+      "David M. Diez",
+      "Mine Çetinkaya-Rundel",
+      "Christopher D. Barr"
+    ],
+    "repository": "https://github.com/OpenIntroStat/openintro-statistics",
+    "reader": "https://www.openintro.org/book/os/",
+    "commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "tree": "d61cc601e7d97759ce805900520f784d02a0489e",
+    "derivative_title": "Statistika Berbasis Data"
+  },
+  "accepted_v3": {
+    "source_manifest": {
+      "path": "qa/b008-source/R011-B008_SOURCE_MANIFEST_V3.tsv",
+      "bytes": 175582,
+      "sha256": "743b4906fad27bad1adfcb331566517314a93602d6df3c3cc279aa56a88745f4"
+    },
+    "source_qa": {
+      "path": "qa/b008-source/R011-B008_SOURCE_QA_V3.json",
+      "bytes": 6896,
+      "sha256": "8fd911d8ac4164a51c44d52ce62a3277ac4f63aa2aaca4437f244550f7223a8a",
+      "required_fields": {
+        "$schema": "r011-b008-source-qa/v3",
+        "boundary_id": "R011-B008",
+        "status": "PASS_PAGE_FILL_REPAIRED_SOURCE_CLOSURE"
+      }
+    },
+    "candidate_pdf": {
+      "path": "qa/b008-build/final-v3/main.pdf",
+      "bytes": 22017328,
+      "sha256": "8aa8e6ecc3edc2a33ee8d83a586c6208e49966582b2fc439c8b3007470f32800",
+      "pages": 425
+    },
+    "build_receipt": {
+      "path": "qa/b008-build/final-v3/CANDIDATE_BUILD_QA_V3.json",
+      "bytes": 17044,
+      "sha256": "5d176e4275dbc41951797a043bb9270a09357ae31418868904d903939ff5beca",
+      "required_fields": {
+        "schema": "openintro-boundary-build-candidate-qa",
+        "schema_version": "0.5.0",
+        "boundary_id": "R011-B008",
+        "status": "pending_visual_review",
+        "nonvisual_status": "passed",
+        "determinism.byte_identical": true,
+        "candidate_artifact.bytes": 22017328,
+        "candidate_artifact.sha256": "8aa8e6ecc3edc2a33ee8d83a586c6208e49966582b2fc439c8b3007470f32800"
+      }
+    },
+    "build_visual_sanity": {
+      "path": "qa/b008-build/BUILD_ONLY_VISUAL_SANITY_V3.json",
+      "bytes": 2405,
+      "sha256": "09fca6423b19e1fd2014a982d687b06119a8203684dd8992c18a19edcd238d99",
+      "required_fields": {
+        "$schema": "r011-b008-build-only-visual-sanity/v3",
+        "boundary_id": "R011-B008",
+        "inspection.result": "PASS",
+        "promotion_or_admission_performed": false
+      }
+    },
+    "root_visual_audit": {
+      "path": "qa/b008-visual/R011-B008_VISUAL_AUDIT_V3.json",
+      "bytes": 3085,
+      "sha256": "f66bf2cceef66e2b83061fad87a6817719bf2feb9cc6ec6f06718750fb9bdbdc",
+      "required_fields": {
+        "$schema": "r011-b008-final-visual-audit/v3",
+        "boundary_id": "R011-B008",
+        "verdict": "PASS",
+        "visual_gate_passed": true,
+        "promotion_authorized_by_visual_gate": true
+      }
+    },
+    "source_snapshot": {
+      "root": "qa/b008-build/source-snapshot-v3",
+      "manifest_path": "qa/b008-build/R011-B008_SNAPSHOT_MANIFEST_V3.tsv",
+      "manifest_bytes": 175582,
+      "manifest_sha256": "743b4906fad27bad1adfcb331566517314a93602d6df3c3cc279aa56a88745f4",
+      "expected_files": 1206,
+      "expected_bytes": 41300273
+    }
+  },
+  "terminal_inputs": {
+    "boundary_receipt": {
+      "required": true,
+      "role": "terminal B008 boundary receipt",
+      "path": "qa/R011-B008_BOUNDARY_RECEIPT.json",
+      "bytes": 6108,
+      "sha256": "ddc00a2f4dc4a4a5307ea99d4e7f64faa9bb0aadeff4b104ee1a992ff95c7076",
+      "required_fields": {
+        "$schema": "r011-b008-boundary-receipt/v1",
+        "boundary_id": "R011-B008",
+        "status": "admitted_exact_pdf_and_backend",
+        "canonical_pdf_promoted": true,
+        "live_backend_mutated": true
+      },
+      "suggested_path": "qa/R011-B008_BOUNDARY_RECEIPT.json"
+    },
+    "backend_validation_receipt": {
+      "required": true,
+      "role": "admitted B008 backend validation receipt",
+      "path": "qa/b008-backend-final-v3/BACKEND_VALIDATION_RECEIPT_R011-B008-FINAL-V3.json",
+      "bytes": 7297,
+      "sha256": "6b64fbaf30502a4744ad41ea443bcad3e51de21d9925f6eab8cc8c62b292bbda",
+      "required_fields": {
+        "$schema": "r011-b008-backend-final-v3-validation-receipt/v1",
+        "boundary_id": "R011-B008",
+        "status": "passed_isolated_terminal_v3_backend_ready_for_guarded_admission",
+        "record_count": 2503,
+        "stage_inventory_file_count": 118,
+        "stage_inventory_bytes": 7712543,
+        "stage_inventory_sha256": "eb1e37d42c4bd97a720a1a60001b229e1fefed095635d67588c686713834726f"
+      },
+      "suggested_path": "qa/b008-backend-final-v3/BACKEND_VALIDATION_RECEIPT_R011-B008-FINAL-V3.json"
+    },
+    "backend_manifest": {
+      "required": true,
+      "role": "admitted modular backend manifest",
+      "path": "backend/exports/manifest.json",
+      "bytes": 28769,
+      "sha256": "c87b6402e47b8d606d341c49131a70aea5468a521c9c1731bd4c67cf9c276d68",
+      "required_fields": {
+        "$schema": "r011-backend-manifest/v0.1.0",
+        "schema_version": "0.1.0",
+        "admission_eligibility": "ready_for_separate_guarded_admission_transaction",
+        "final_v3_binding.status": "complete_exact_terminal_v3"
+      },
+      "suggested_path": "backend/exports/manifest.json"
+    },
+    "backend_inventory": {
+      "required": true,
+      "role": "exact admitted backend file inventory",
+      "path": "backend/exports",
+      "bytes": 7712543,
+      "sha256": "eb1e37d42c4bd97a720a1a60001b229e1fefed095635d67588c686713834726f",
+      "file_count": 118,
+      "identity_kind": "directory-inventory-tsv-sha256/v1",
+      "required_fields": null,
+      "suggested_path": "backend/exports"
+    },
+    "admission_receipt": {
+      "required": true,
+      "role": "terminal B008 admission receipt",
+      "path": "qa/R011-B008_BOUNDARY_RECEIPT.json",
+      "bytes": 6108,
+      "sha256": "ddc00a2f4dc4a4a5307ea99d4e7f64faa9bb0aadeff4b104ee1a992ff95c7076",
+      "required_fields": {
+        "$schema": "r011-b008-boundary-receipt/v1",
+        "boundary_id": "R011-B008",
+        "status": "admitted_exact_pdf_and_backend",
+        "transaction.preflight_fail_closed": true,
+        "transaction.backend_manifest_written_last": true
+      },
+      "suggested_path": "qa/R011-B008_BOUNDARY_RECEIPT.json"
+    },
+    "post_admission_verification": {
+      "required": true,
+      "role": "post-admission readback receipt",
+      "path": "qa/R011-B008_BOUNDARY_RECEIPT.json",
+      "bytes": 6108,
+      "sha256": "ddc00a2f4dc4a4a5307ea99d4e7f64faa9bb0aadeff4b104ee1a992ff95c7076",
+      "required_fields": {
+        "$schema": "r011-b008-boundary-receipt/v1",
+        "boundary_id": "R011-B008",
+        "transaction.post_admission_exact_replay": true,
+        "promoted_pdf.readback_exact": true,
+        "promoted_pdf.sha256": "8aa8e6ecc3edc2a33ee8d83a586c6208e49966582b2fc439c8b3007470f32800",
+        "admitted_backend.inventory.sha256": "eb1e37d42c4bd97a720a1a60001b229e1fefed095635d67588c686713834726f"
+      },
+      "suggested_path": "qa/R011-B008_BOUNDARY_RECEIPT.json"
+    },
+    "promoted_pdf": {
+      "required": true,
+      "role": "admitted/promoted B008 PDF; bytes must equal accepted V3 candidate",
+      "path": "output/pdf/statistika-berbasis-data-batas-R011-B008.pdf",
+      "bytes": 22017328,
+      "sha256": "8aa8e6ecc3edc2a33ee8d83a586c6208e49966582b2fc439c8b3007470f32800",
+      "required_fields": null,
+      "suggested_path": "output/pdf/statistika-berbasis-data-batas-R011-B008.pdf"
+    },
+    "admission_guard": {
+      "required": true,
+      "role": "guarded atomic B008 admission tool",
+      "path": "scripts/admit_b008.py",
+      "bytes": 50079,
+      "sha256": "666f638ab202b6b1aab1affee8a6777ee8e8df1f5a886a4ebd9bf8d2923f34ff",
+      "required_fields": null,
+      "suggested_path": "scripts/admit_b008.py"
+    }
+  },
+  "destinations": {
+    "zenodo": {
+      "concept_doi": "10.5281/zenodo.22059801",
+      "concept_record_id": 22059801,
+      "prior_record_id": 22063015,
+      "prior_version": "2026.08.23.1-R011-B007"
+    },
+    "figshare": {
+      "article_id": 33314727,
+      "project_id": 280296,
+      "collection_id": 8668413,
+      "prior_article_doi": "10.6084/m9.figshare.33314727.v3",
+      "fallback_mode": "cc0-metadata-link-only-unless-exact-cc-by-sa-3.0-is-offered",
+      "max_item_bytes": 500000000,
+      "max_project_bytes": 20000000000
+    },
+    "github": {
+      "owner": "KokunoYumeto",
+      "repository": "statistika-berbasis-data-id",
+      "default_branch": "main",
+      "tag": "r011-b008-2026.08.23.2",
+      "prerelease": true
+    }
+  },
+  "ordered_release_assets": [
+    "00_STATISTIKA_BERBASIS_DATA_ID_R011-B008_WORKING_READER.pdf",
+    "01_STATISTIKA_BERBASIS_DATA_ID_R011-B008_EDITABLE_SOURCE.zip",
+    "02_STATISTIKA_BERBASIS_DATA_ID_R011-B008_MODULAR_BACKEND.zip",
+    "CITATION.cff",
+    "LICENSES_AND_ATTRIBUTION.md",
+    "README_RELEASE.md",
+    "RELEASE_MANIFEST.json",
+    "SHA256SUMS.txt",
+    "ZENODO_METADATA.json"
+  ],
+  "publication_rules": {
+    "reader_first": true,
+    "no_upstream_contact": true,
+    "no_user_first_name": true,
+    "preserve_full_credits": true,
+    "exact_model_string_required": true,
+    "execute_requires_all_terminal_inputs": true,
+    "remote_collision_check_required": true,
+    "anonymous_byte_readback_required": true
+  }
+}

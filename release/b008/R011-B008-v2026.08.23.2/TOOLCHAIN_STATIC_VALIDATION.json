@@ -1,0 +1,75 @@
+{
+  "$schema": "r011-b008-release-toolchain-static-validation/v1",
+  "boundary_id": "R011-B008",
+  "release_id": "R011-B008-v2026.08.23.2",
+  "version": "2026.08.23.2-R011-B008",
+  "status": "PASS_READY_NO_EXECUTION",
+  "validated_at": "2026-08-23T12:00:00+02:00",
+  "accepted_v3_identities_verified": 7,
+  "terminal_inputs_verified": [
+    "admission_guard",
+    "admission_receipt",
+    "backend_inventory",
+    "backend_manifest",
+    "backend_validation_receipt",
+    "boundary_receipt",
+    "post_admission_verification",
+    "promoted_pdf"
+  ],
+  "terminal_inputs_unresolved": [],
+  "live_admission_binding": {
+    "canonical_pdf": {
+      "bytes": 22017328,
+      "sha256": "8aa8e6ecc3edc2a33ee8d83a586c6208e49966582b2fc439c8b3007470f32800"
+    },
+    "backend_inventory": {
+      "file_count": 118,
+      "bytes": 7712543,
+      "sha256": "eb1e37d42c4bd97a720a1a60001b229e1fefed095635d67588c686713834726f"
+    },
+    "backend_manifest": {
+      "bytes": 28769,
+      "sha256": "c87b6402e47b8d606d341c49131a70aea5468a521c9c1731bd4c67cf9c276d68"
+    },
+    "boundary_receipt": {
+      "bytes": 6108,
+      "sha256": "ddc00a2f4dc4a4a5307ea99d4e7f64faa9bb0aadeff4b104ee1a992ff95c7076"
+    },
+    "admission_guard": {
+      "bytes": 50079,
+      "sha256": "666f638ab202b6b1aab1affee8a6777ee8e8df1f5a886a4ebd9bf8d2923f34ff"
+    }
+  },
+  "files": [
+    {"path": "scripts/release_b008_common.py", "bytes": 26499, "sha256": "834e46d3de4e777d4b2c92eef1beeacb778c9dac0d9e44b53a85e8117df02372"},
+    {"path": "scripts/package_release_b008.py", "bytes": 8523, "sha256": "f1d3aa8aed82daa58cb04835fa82604400daaeaf8fae2158fc8507605d5aadf2"},
+    {"path": "scripts/publish_zenodo_b008.py", "bytes": 9874, "sha256": "e89bf7cd202af4f1421439d2c68109877e0d90da589020e8fe0f58be6ad33b47"},
+    {"path": "scripts/publish_figshare_b008.py", "bytes": 18701, "sha256": "87597ff080d0a82c3361257b26b9fe28b1bb2df9583891f49f9f5a76a902c860"},
+    {"path": "scripts/publish_github_b008.py", "bytes": 20356, "sha256": "a3d367942b6c4f1b26883846b36bd7b0c1b29a2f09ffc830e1a48ea5a29b8b58"},
+    {"path": "release/b008/R011-B008-v2026.08.23.2/RELEASE_INPUTS.json", "bytes": 10152, "sha256": "60326483bb0830d17a6d9dfa35a90b54f6d37cc0ec5d9ce1ea14f20a843c4374"},
+    {"path": "release/b008/R011-B008-v2026.08.23.2/README_RELEASE.template.md", "bytes": 3293, "sha256": "a0876712b3f790f3519bf9e236b337f8836f4689bd19be80369d8c40b898a070"},
+    {"path": "release/b008/R011-B008-v2026.08.23.2/LICENSES_AND_ATTRIBUTION.template.md", "bytes": 2334, "sha256": "484860e4bece925c5e723f561a87dbb3f44cfda98f1cd1ccbbd694c1cb21128f"},
+    {"path": "release/b008/R011-B008-v2026.08.23.2/CITATION.template.cff", "bytes": 1189, "sha256": "94ba018db6adea3d6fb4d02decc12edee62c1a8e006d02cd6802b54d8705a70f"},
+    {"path": "release/b008/R011-B008-v2026.08.23.2/ZENODO_METADATA.template.json", "bytes": 2740, "sha256": "33e7ebd6f45dfddb1b133d8cfcd4b3cbdef8d30e7558f26000984c34b13cea4b"},
+    {"path": "release/b008/R011-B008-v2026.08.23.2/FIGSHARE_METADATA.template.json", "bytes": 1181, "sha256": "b851f7761631f8754f172d1626bcf7dfa544eb158ac2e2b3e6265fe80a6751cd"},
+    {"path": "release/b008/R011-B008-v2026.08.23.2/GITHUB_PUBLICATION_POLICY.json", "bytes": 1406, "sha256": "10ccaee4c985815c3c2bf068b24156097f593b3f7e7ef9aba0166705a454e9ff"},
+    {"path": "release/b008/R011-B008-v2026.08.23.2/PUBLICATION_PLAN.md", "bytes": 2069, "sha256": "0e743c24e98571361cffd596c3b4d1684e5166cf68f2521447c21b7a59770e5d"}
+  ],
+  "checks": {
+    "python_ast_parse": "passed",
+    "json_parse": "passed",
+    "cff_yaml_parse": "passed",
+    "packager_self_check": "PASS_READY_NO_EXECUTION",
+    "zenodo_self_check": "PASS_READY_NO_EXECUTION",
+    "figshare_self_check": "PASS_READY_NO_EXECUTION",
+    "github_self_check": "PASS_READY_NO_EXECUTION"
+  },
+  "effects": {
+    "package_created": false,
+    "credentials_read": false,
+    "network_used": false,
+    "git_used": false,
+    "publication_performed": false,
+    "upstream_contacted": false
+  }
+}
