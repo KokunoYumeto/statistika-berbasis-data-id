@@ -1,0 +1,318 @@
+{
+  "authority": {
+    "openintro_r_package_commit": "48793d9645e0da033daaca1c1a19a051533d79d2",
+    "repository_commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e"
+  },
+  "authority_files": [
+    {
+      "bytes": 10138,
+      "path": "ch_intro_to_data/figures/eoce/internet_life_expectancy/factbook.rda",
+      "sha256": "4843576c765049344074a81f258e33fd79fe3107fee7f026cebe469210253918"
+    },
+    {
+      "bytes": 1131,
+      "path": "ch_intro_to_data/figures/eoce/internet_life_expectancy/internet_life_expectancy.R",
+      "sha256": "ba886ab6a73861a22503768d0cbe5111f57cb2d23a9ed80d8f54889be3529794"
+    },
+    {
+      "bytes": 17244,
+      "path": "ch_intro_to_data/figures/eoce/internet_life_expectancy/internet_life_expectancy.pdf",
+      "sha256": "f7d064fbfaa26f3913c7eb861863e140fa4f03939f2961b7bed2ec5aedbb9f0b"
+    },
+    {
+      "bytes": 840649,
+      "path": "ch_intro_to_data/figures/mnWinter/mnWinter.JPG",
+      "sha256": "9d24c2bc4cef7b6240ecba5fc2b1b501521de8c6f6543405ee5cf8f41b7de728"
+    },
+    {
+      "bytes": 980,
+      "path": "ch_intro_to_data/figures/popToSample/popToSampleGraduates.R",
+      "sha256": "0afd907badbffef4d1a9d9937181f75414c7e0382a54b6d39b9091008d4b8230"
+    },
+    {
+      "bytes": 20936,
+      "path": "ch_intro_to_data/figures/popToSample/popToSampleGraduates.pdf",
+      "sha256": "20af6107911d716f767893f994e3124f24656100e17a5a6f207035f42f5cfb4b"
+    },
+    {
+      "bytes": 1468,
+      "path": "ch_intro_to_data/figures/popToSample/popToSubSampleGraduates.R",
+      "sha256": "c71e29d767876baa92c2929f829162f738c0444b82f532d9ff4a808940a32c05"
+    },
+    {
+      "bytes": 21869,
+      "path": "ch_intro_to_data/figures/popToSample/popToSubSampleGraduates.pdf",
+      "sha256": "fbdb6a3d10255daf220a18227215b7995de6553130fb7d4068b362acc91e12d2"
+    },
+    {
+      "bytes": 1466,
+      "path": "ch_intro_to_data/figures/popToSample/surveySample.R",
+      "sha256": "46a36c0970f21740b6de5ea372106f4289ca34aeec31f7eced545ed6ebbca0a6"
+    },
+    {
+      "bytes": 21911,
+      "path": "ch_intro_to_data/figures/popToSample/surveySample.pdf",
+      "sha256": "aff24bc15747ac4571733f7fce1468220e9f344cf51848db93d18cd162553537"
+    },
+    {
+      "bytes": 5801,
+      "path": "ch_intro_to_data/figures/samplingMethodsFigure/SamplingMethodsFunctions.R",
+      "sha256": "5b0cd7d2f7558d814860391813efe25921c325ab31e30e1c8f5cc45487291e7a"
+    },
+    {
+      "bytes": 17847,
+      "path": "ch_intro_to_data/figures/samplingMethodsFigure/cluster_multistage.pdf",
+      "sha256": "69c7fca21590693e70285056830db77769925c1af6992bcc224e887466854e75"
+    },
+    {
+      "bytes": 488,
+      "path": "ch_intro_to_data/figures/samplingMethodsFigure/samplingMethodsFigures.R",
+      "sha256": "e6d2f865db1301717cfdf384b9a3f1bb66e87e068f592f9a2f8c8f72120a400b"
+    },
+    {
+      "bytes": 10852,
+      "path": "ch_intro_to_data/figures/samplingMethodsFigure/simple_stratified.pdf",
+      "sha256": "621e67ba25669ca86a419346bbb27469b6b17fc26c8f182be133a05185436cbc"
+    },
+    {
+      "bytes": 596,
+      "path": "ch_intro_to_data/figures/variables/sunCausesCancer.R",
+      "sha256": "e04bed95ed475ad94add94471350005ee8788bc771c53c052b5db294a15d05e5"
+    },
+    {
+      "bytes": 4489,
+      "path": "ch_intro_to_data/figures/variables/sunCausesCancer.pdf",
+      "sha256": "ba3b6f004f0f610670d99102038e4957d5821c948a8b3d5c56302102c82c04bd"
+    }
+  ],
+  "boundary_id": "R011-B003",
+  "component_rights": [
+    {
+      "basis": "repo/LICENSE.md",
+      "license": "CC BY-SA 3.0 Unported",
+      "scope": "localized producer sources and generated figure PDFs"
+    },
+    {
+      "basis": "openintro R package DESCRIPTION at commit 48793d9645e0da033daaca1c1a19a051533d79d2",
+      "license": "GPL-3.0-only",
+      "scope": "b003_replay_helpers.R palette and minimal helper implementations"
+    },
+    {
+      "basis": "https://www.cia.gov/site-policies/",
+      "license": "public domain unless marked otherwise",
+      "note": "The embedded RDA carries no separate machine-readable license notice.",
+      "scope": "factbook.rda factual source data"
+    },
+    {
+      "credit": "David M. Diez",
+      "license": "CC BY-SA 3.0",
+      "note": "Byte-identical source photograph; the localized caption carries the credit.",
+      "scope": "mnWinter.JPG"
+    }
+  ],
+  "immutable_inputs": [
+    {
+      "bytes": 10138,
+      "path": "ch_intro_to_data/figures/eoce/internet_life_expectancy/factbook.rda",
+      "sha256": "4843576c765049344074a81f258e33fd79fe3107fee7f026cebe469210253918"
+    },
+    {
+      "bytes": 840649,
+      "path": "ch_intro_to_data/figures/mnWinter/mnWinter.JPG",
+      "sha256": "9d24c2bc4cef7b6240ecba5fc2b1b501521de8c6f6543405ee5cf8f41b7de728"
+    }
+  ],
+  "invariants": {
+    "complete_internet_life_expectancy_rows": 208,
+    "factbook_rows": 259,
+    "hidden_default_axis_label_strings": 0,
+    "localization_method": "producer-level regeneration; no text overlay",
+    "output_count": 7,
+    "output_pages_each": 1,
+    "photo_rewritten": false,
+    "population_diagrams": {
+      "candidate_coordinate_pairs": 350,
+      "displayed_sample_points": 5,
+      "population_seed": 52,
+      "sample_seed_restricted": 7,
+      "sample_seed_unrestricted": 50
+    },
+    "rng_compatibility": "R 3.5.3",
+    "sampling_method_diagrams": {
+      "clusters": 9,
+      "multistage_sample_per_selected_cluster": 6,
+      "sampled_per_stratum": 3,
+      "seed": 4,
+      "selected_clusters": [
+        3,
+        4,
+        8
+      ],
+      "simple_random_population": 108,
+      "simple_random_sample": 18,
+      "strata": 6
+    },
+    "unaffected_b003_pdf_count": 4
+  },
+  "outputs": [
+    {
+      "authority_media_box_equal": true,
+      "bytes": 20653,
+      "media_box_points": [
+        0.0,
+        0.0,
+        288.0,
+        151.0
+      ],
+      "path": "ch_intro_to_data/figures/popToSample/popToSampleGraduates.pdf",
+      "producer": "ch_intro_to_data/figures/popToSample/popToSampleGraduates.R",
+      "sha256": "515a8fb940bc1d2cf3043c24378f3fbeabd62ea07ce3bbfd6b347f3450529213"
+    },
+    {
+      "authority_media_box_equal": true,
+      "bytes": 21579,
+      "media_box_points": [
+        0.0,
+        0.0,
+        288.0,
+        151.0
+      ],
+      "path": "ch_intro_to_data/figures/popToSample/popToSubSampleGraduates.pdf",
+      "producer": "ch_intro_to_data/figures/popToSample/popToSubSampleGraduates.R",
+      "sha256": "0991c2d6225bf65649a9f899cee262e4056ac20a3c3d2ce86c3410172e9de9b0"
+    },
+    {
+      "authority_media_box_equal": true,
+      "bytes": 21648,
+      "media_box_points": [
+        0.0,
+        0.0,
+        288.0,
+        151.0
+      ],
+      "path": "ch_intro_to_data/figures/popToSample/surveySample.pdf",
+      "producer": "ch_intro_to_data/figures/popToSample/surveySample.R",
+      "sha256": "d2b5d512e9230ae6ab315e9a5c7edfbb598f5e9124eb0b361a4084882b957037"
+    },
+    {
+      "authority_media_box_equal": true,
+      "bytes": 4540,
+      "media_box_points": [
+        0.0,
+        0.0,
+        338.0,
+        86.0
+      ],
+      "path": "ch_intro_to_data/figures/variables/sunCausesCancer.pdf",
+      "producer": "ch_intro_to_data/figures/variables/sunCausesCancer.R",
+      "sha256": "8828d8311bed32e3453f107f6b5a4d4f0eef723eca6e47b4876ae5e4000c4e9e"
+    },
+    {
+      "authority_media_box_equal": true,
+      "bytes": 26428,
+      "media_box_points": [
+        0.0,
+        0.0,
+        532.0,
+        540.0
+      ],
+      "path": "ch_intro_to_data/figures/samplingMethodsFigure/simple_stratified.pdf",
+      "producer": "ch_intro_to_data/figures/samplingMethodsFigure/samplingMethodsFigures.R",
+      "sha256": "f7c4d2227a46c054581c21ca49e1ecf17f963c4a17533af2392ab4a240d0329f"
+    },
+    {
+      "authority_media_box_equal": true,
+      "bytes": 36262,
+      "media_box_points": [
+        0.0,
+        0.0,
+        532.0,
+        540.0
+      ],
+      "path": "ch_intro_to_data/figures/samplingMethodsFigure/cluster_multistage.pdf",
+      "producer": "ch_intro_to_data/figures/samplingMethodsFigure/samplingMethodsFigures.R",
+      "sha256": "7ef042eacb303fd4ca4fce1b2c8595d31cd16b8bb55c7bcf17dbed902343e003"
+    },
+    {
+      "authority_media_box_equal": true,
+      "bytes": 17201,
+      "media_box_points": [
+        0.0,
+        0.0,
+        432.0,
+        309.0
+      ],
+      "path": "ch_intro_to_data/figures/eoce/internet_life_expectancy/internet_life_expectancy.pdf",
+      "producer": "ch_intro_to_data/figures/eoce/internet_life_expectancy/internet_life_expectancy.R",
+      "sha256": "5ba27b1942cf5c925dee05b40b8029e9507db9574c12dddead6275bc5398a80f"
+    }
+  ],
+  "producer_sources": [
+    {
+      "bytes": 2536,
+      "path": "ch_intro_to_data/figures/b003_replay_helpers.R",
+      "sha256": "1567688fb41afe8766fd710a41efa06c661f3e2f29209d2696b3f2f70dba23ad"
+    },
+    {
+      "bytes": 1198,
+      "path": "ch_intro_to_data/figures/eoce/internet_life_expectancy/internet_life_expectancy.R",
+      "sha256": "e1f9722cd6f6298085ec36bd1f2e8049e6a30d38f130e72ce21e3ee8851105c1"
+    },
+    {
+      "bytes": 1104,
+      "path": "ch_intro_to_data/figures/popToSample/popToSampleGraduates.R",
+      "sha256": "d1a35a5596bea01da1fdb16a9f5055c8061c911953be083dbcd31ba9b197558b"
+    },
+    {
+      "bytes": 1580,
+      "path": "ch_intro_to_data/figures/popToSample/popToSubSampleGraduates.R",
+      "sha256": "5b7976596024fb0330e43b82c775cb80120086a9241e0afa73cf24cce4c23266"
+    },
+    {
+      "bytes": 1588,
+      "path": "ch_intro_to_data/figures/popToSample/surveySample.R",
+      "sha256": "525a6cb45842cf809a3e467de8e7d30fe2c0c83207091128c6b4cfb9c1b23414"
+    },
+    {
+      "bytes": 11006,
+      "path": "ch_intro_to_data/figures/replay_b003_figures.py",
+      "sha256": "d57c081aaf96a32730073066e1bcbea8b33bc4f913cdcd7a987a2eb306a663eb"
+    },
+    {
+      "bytes": 5939,
+      "path": "ch_intro_to_data/figures/samplingMethodsFigure/SamplingMethodsFunctions.R",
+      "sha256": "c639df2271231ce2ef973b6d8d611f6a18f3f2ce65436da0fe76a8ca39004e99"
+    },
+    {
+      "bytes": 633,
+      "path": "ch_intro_to_data/figures/samplingMethodsFigure/samplingMethodsFigures.R",
+      "sha256": "ab3a4c5762c7e9cc940edef9a0a9deb0ec50d80da8942e7211b1d1a979d3fa44"
+    },
+    {
+      "bytes": 717,
+      "path": "ch_intro_to_data/figures/variables/sunCausesCancer.R",
+      "sha256": "5e77b2cc0df3ed1facaa45aeffc03a85000018d97cc11f898c4b62140f18b9da"
+    }
+  ],
+  "remediation": {
+    "affected_outputs": [
+      "ch_intro_to_data/figures/popToSample/popToSampleGraduates.pdf",
+      "ch_intro_to_data/figures/popToSample/popToSubSampleGraduates.pdf",
+      "ch_intro_to_data/figures/popToSample/surveySample.pdf"
+    ],
+    "issue": "P2 hidden default R plot axis-label residue",
+    "method": "Deterministic content-stream deletion of only the six source-equivalent hidden text objects; no overlay and no visible geometry change.",
+    "pikepdf_version": "10.12.0",
+    "producer_fix": "Set xlab and ylab to empty strings in each plot(..., type=\"n\", axes=FALSE) call.",
+    "removed_pdf_text_objects": [
+      "c(0, 2)",
+      "c(0, 1.1)"
+    ],
+    "two_pass_byte_stable": true
+  },
+  "runtime": {
+    "r_version": "Rscript (R) version 4.6.1 (2026-06-24)",
+    "rscript": "Rscript.exe"
+  },
+  "schema_version": "1.0.0"
+}

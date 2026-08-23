@@ -1,0 +1,111 @@
+{
+  "schema_version": "r011.figure-replay-receipt.v1",
+  "boundary_id": "R011-B004R",
+  "observed_on": "2026-08-22",
+  "figure_id": "county_income_education_scatterplot",
+  "authority": {
+    "commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "tree": "d61cc601e7d97759ce805900520f784d02a0489e",
+    "producer": {
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_intro_to_data/figures/eoce/county_income_education/county_income_education.R",
+      "bytes": 800,
+      "sha256": "be03706ee9f6a6a5ae66583d2d17ecf6c6cf65c651fcb501023f65458a334f40"
+    },
+    "pdf": {
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_intro_to_data/figures/eoce/county_income_education/county_income_education_scatterplot.pdf",
+      "bytes": 179753,
+      "sha256": "7a640bebd64d0c716b6eba0bce8a7b4db5ad528229f90a9abf0c7214dac0b435",
+      "page_count": 1,
+      "media_box_points": [0, 0, 360, 288],
+      "decoded_content_bytes": 641902,
+      "decoded_content_sha256": "02e1be4d1cd45d08fe2f152ae45dae4345db15d454933b0b2cda41bef6356c0a"
+    }
+  },
+  "target": {
+    "producer": {
+      "path": "repo/ch_intro_to_data/figures/eoce/county_income_education/county_income_education.R",
+      "bytes": 801,
+      "sha256": "bfc70286124ce3edbd79e1e068e7964ce01fedc8740df6297896e463c76d4ab5",
+      "localized_labels": ["Persentase bergelar sarjana", "Pendapatan per kapita"]
+    },
+    "helper": {
+      "path": "repo/ch_intro_to_data/figures/eoce/county_income_education/localize_pdf.py",
+      "bytes": 3447,
+      "sha256": "d7039fcfee7103a1e6c10a79598b08b9354a70b4e23a357724f6f2ab5ec13443"
+    },
+    "pdf": {
+      "path": "repo/ch_intro_to_data/figures/eoce/county_income_education/county_income_education_scatterplot.pdf",
+      "bytes": 355382,
+      "sha256": "2d7ba784f714c8ea0789a33e4a37520e6d88266085032a40ae337894fac27b77",
+      "pdf_version": "1.4",
+      "page_count": 1,
+      "media_box_points": [0, 0, 360, 288]
+    }
+  },
+  "replay": {
+    "native_r_runtime_available": false,
+    "method": "replace exactly two authority TJ operands and retain every other decoded content byte",
+    "run_1_sha256": "2d7ba784f714c8ea0789a33e4a37520e6d88266085032a40ae337894fac27b77",
+    "run_2_sha256": "2d7ba784f714c8ea0789a33e4a37520e6d88266085032a40ae337894fac27b77",
+    "byte_identical": true,
+    "python": "3.12.13",
+    "pypdf": "6.10.0"
+  },
+  "structural_qa": {
+    "localized_content_bytes": 641916,
+    "localized_content_sha256": "47adc58dc91d33f84b5998e16578b1bf8db35359ea6b2c4ab14d7136afb7f0ab",
+    "reverse_substitution_reconstructs_authority_exactly": true,
+    "operator_count": 18984,
+    "operator_sequence_exact": true,
+    "xobject_count": 0,
+    "all_3142_point_locations_axes_scales_ticks_colors_and_box_unchanged": true,
+    "font": "Helvetica Type 1, custom WinAnsiEncoding, unembedded; no font program copied",
+    "forbidden_reader_visible_english_labels": [],
+    "localized_extracted_text": [
+      "Persentase bergelar sarjana",
+      "Pendapatan per kapita",
+      "$0",
+      "$20k",
+      "$40k",
+      "$60k",
+      "0%",
+      "20%",
+      "40%",
+      "60%",
+      "80%"
+    ]
+  },
+  "visual_qa": {
+    "renderer": "Poppler pdftoppm 24.04.0 at 180 dpi",
+    "render_pixels": [900, 720],
+    "render_sha256": "373eb4e7e823613fa40cd684b47c259ecd30ad2ff4d420ad7091340cc5920a72",
+    "outside_label_mask_changed_pixels": 0,
+    "clipping_overlap_broken_glyph_or_legibility_defects": []
+  },
+  "rights": {
+    "repository_license": "CC BY-SA 3.0 Unported",
+    "license_path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/LICENSE.md",
+    "license_bytes": 2612,
+    "license_sha256": "9bd77ff3e58e0b7f1331824b8195d4cf588851a6461cc3230d12410da7935223",
+    "file_level_license_header": "absent",
+    "component_rights_control": {
+      "path": "00_control/COMPONENT_RIGHTS.csv",
+      "rows": 22,
+      "bytes": 7908,
+      "sha256": "fb03c23f1990224574c088215786ebcbe3232b5bab867bf253c8277ddb0842b4"
+    },
+    "resolved_components": [
+      {
+        "component_id": "R011-RIGHTS-COUNTY-COMPLETE",
+        "path_or_scope": "county_complete data used by county_income_education_scatterplot.pdf",
+        "role": "data and extraction closure",
+        "license_or_status": "GPL-3 packaged material; underlying U.S. federal factual data public domain",
+        "attribution": "OpenIntro package authors; U.S. Census Bureau; USDA Economic Research Service; Bureau of Labor Statistics",
+        "publication_disposition": "include derived static plot with source attribution",
+        "evidence": "openintro archive e8b9526364e70ca59d945fc83eadfd1d25eb784e3190429637f96bfe72b6dc99 DESCRIPTION and man/county_complete.Rd"
+      }
+    ],
+    "disposition": "retain the plotted observations exactly; credit the OpenIntro package authors and the named U.S. federal factual-data sources; attribute the OpenIntro source under CC BY-SA 3.0"
+  },
+  "result": "PASS"
+}

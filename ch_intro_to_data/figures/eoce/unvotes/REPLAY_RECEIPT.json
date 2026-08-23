@@ -1,0 +1,62 @@
+{
+  "asset": "unvotes.png",
+  "authority": {
+    "archive_sha256": "2ce21f837837494e0a9fe25aa240b6d26a358f78576d819bc2d586ca77dc5671",
+    "archive_url": "https://cran.r-project.org/src/contrib/Archive/unvotes/unvotes_0.2.0.tar.gz",
+    "package": "unvotes",
+    "version": "0.2.0"
+  },
+  "data_exports": {
+    "un_roll_call_issues.csv": "e11ce281b3e23308d08b7d4f49c80dba03a8853802ac877042f956ae9dcbadc0",
+    "un_roll_calls_dates.csv": "8d3c793af76409988b00f61f54c32d8aa88d724192bdfeb56d757a88b2480ab8",
+    "un_votes_three_countries.csv": "ec7f06487a58ccf0eed07d4e012ddeb3c321430be7ba5c5b913370fb68d3b32b"
+  },
+  "dimensions_pixels": [2100, 1200],
+  "localization": {
+    "countries": ["Kanada", "Meksiko", "AS"],
+    "facets": [
+      "Pengendalian dan pelucutan senjata",
+      "Kolonialisme",
+      "Pembangunan ekonomi",
+      "Hak asasi manusia",
+      "Senjata dan bahan nuklir",
+      "Konflik Palestina"
+    ],
+    "legend": "Negara",
+    "x_axis": "Tahun",
+    "y_axis": "Proporsi suara Ya"
+  },
+  "new": {
+    "bytes": 459690,
+    "producer_r_sha256": "a59cefd80edd6d4e1da015799fce14566d951658a8c7c9863dc4f126d64cb112",
+    "regenerator_sha256": "8aa5fb96d579eb2960ca0fd4f9688ad3a99629e4cd8de105e4f660f8c5ef5399",
+    "sha256": "b963bfaa0bbb0c01ab02d1fa529bc127acb212cc928692f13fe189dde550ee09"
+  },
+  "original": {
+    "bytes": 720065,
+    "producer_r_sha256": "d004178dc64e6842c2a741da58c583ea7c7968addff155aebbb83f4d73075b77",
+    "sha256": "eee3b872d4050cbd322273116be6b3246f0cd0e03e67aea8fa504e749b8d159d"
+  },
+  "rights": {
+    "dataset": "The package cites Erik Voeten's Harvard Dataverse dataset, now DOI 10.7910/DVN/LEJUQZ and declared CC0 1.0 as observed 2026-08-21.",
+    "package": "MIT; copyright holder David Robinson, 2016"
+  },
+  "semantic_checks": {
+    "joined_rows": 15773,
+    "smooth": "Per-country, per-facet local quadratic regression; span 0.75; 80 evaluation points; no confidence band",
+    "summarized_points_after_votes_gt_5": 932,
+    "year_range": [1946, 2015]
+  },
+  "toolchain": {
+    "matplotlib": "3.10.9",
+    "numpy": "2.4.4",
+    "pandas": "3.0.3",
+    "pillow": "12.2.0",
+    "python": "3.13.9"
+  },
+  "two_pass_sha256": [
+    "b963bfaa0bbb0c01ab02d1fa529bc127acb212cc928692f13fe189dde550ee09",
+    "b963bfaa0bbb0c01ab02d1fa529bc127acb212cc928692f13fe189dde550ee09"
+  ],
+  "visual_qa": "Inspected at native resolution: six facet titles, axes, and legend are fully Indonesian; 2x3 geometry, all point series, country colors, and local smooths are intact; no clipping or label collision."
+}
