@@ -1,0 +1,143 @@
+{
+  "authority_commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+  "authority_tree": "d61cc601e7d97759ce805900520f784d02a0489e",
+  "exact_copy_pdf_count": 7,
+  "localized_pdf_count": 3,
+  "records": [
+    {
+      "authority_bytes": 27751,
+      "authority_sha256": "f0346b81af9946622298aec8e8a118099b8f011ef57ab597c48f8c86a0a34ebb",
+      "mode": "exact-copy-no-reader-visible-words",
+      "output_bytes": 27751,
+      "output_sha256": "f0346b81af9946622298aec8e8a118099b8f011ef57ab597c48f8c86a0a34ebb",
+      "relative_path": "eoce/association_plots/association_plots.pdf"
+    },
+    {
+      "authority_bytes": 391930,
+      "authority_sha256": "e2265a9bfa8e267edb11e12f8c0d2642529083ab136e303dff6eb3f86b632dfb",
+      "mode": "exact-copy-no-reader-visible-words",
+      "output_bytes": 391930,
+      "output_sha256": "e2265a9bfa8e267edb11e12f8c0d2642529083ab136e303dff6eb3f86b632dfb",
+      "relative_path": "eoce/county_commute_times/county_commute_times_map.pdf"
+    },
+    {
+      "authority_bytes": 4859,
+      "authority_sha256": "0087937a638a59676041b754bd0dd8e0b4190578bdf0ca946db8e9c4f78d7f28",
+      "changed_instruction_count": 2,
+      "instruction_count": 349,
+      "mode": "localized-vector-text",
+      "output_bytes": 4968,
+      "output_sha256": "d08dba1365476f2e938cf92dbe6d9ec1f86a99714642b463e805a075fe3781fd",
+      "relative_path": "eoce/county_hispanic_pop/county_hispanic_pop_hist.pdf",
+      "replacements": [
+        {
+          "center_shift": -14.958,
+          "matrix_instruction_index": 9,
+          "new": "Persentase Hispanik",
+          "new_advance": 165.06,
+          "old": "Percent Hispanic",
+          "old_advance": 135.144,
+          "text_instruction_index": 10
+        }
+      ],
+      "unchanged_instruction_count": 347,
+      "unchanged_instruction_sha256": "b2eb7f0568bbf2e5a02e6e99da329030b7459254de90b6bd28f2284ff2a18733"
+    },
+    {
+      "authority_bytes": 5290,
+      "authority_sha256": "30ef90df09ae86bf5fc9f5da62c72156ca8a845558b6a68dfddd81b9c7cef2b1",
+      "changed_instruction_count": 2,
+      "instruction_count": 506,
+      "mode": "localized-vector-text",
+      "output_bytes": 5390,
+      "output_sha256": "c55ad74651d354c07632c23a4d7cb9c955dfdd42a18f0012d7b9ca2d0cc69487",
+      "relative_path": "eoce/county_hispanic_pop/county_hispanic_pop_log_hist.pdf",
+      "replacements": [
+        {
+          "center_shift": -14.958,
+          "matrix_instruction_index": 9,
+          "new": "log(Persentase Hispanik)",
+          "new_advance": 201.06,
+          "old": "log(Percent Hispanic)",
+          "old_advance": 171.144,
+          "text_instruction_index": 10
+        }
+      ],
+      "unchanged_instruction_count": 504,
+      "unchanged_instruction_sha256": "d2585dcf05f24f935513f5877ff264f4bbdcdfccf4ca43113d8cde77abc9f787"
+    },
+    {
+      "authority_bytes": 388755,
+      "authority_sha256": "9f04cd86c941db6100f00b7e9c03af214997600d0aefc19f6c05a85958faaa8c",
+      "mode": "exact-copy-no-reader-visible-words",
+      "output_bytes": 388755,
+      "output_sha256": "9f04cd86c941db6100f00b7e9c03af214997600d0aefc19f6c05a85958faaa8c",
+      "relative_path": "eoce/county_hispanic_pop/county_hispanic_pop_map.pdf"
+    },
+    {
+      "authority_bytes": 4746,
+      "authority_sha256": "858530cab1c2217139e7b6af69ede18e84a8da681445c2ea76d1b98c5af05a75",
+      "mode": "exact-copy-no-reader-visible-words",
+      "output_bytes": 4746,
+      "output_sha256": "858530cab1c2217139e7b6af69ede18e84a8da681445c2ea76d1b98c5af05a75",
+      "relative_path": "eoce/estimate_mean_median_simple/estimate_mean_median_simple.pdf"
+    },
+    {
+      "authority_bytes": 8060,
+      "authority_sha256": "86cc856f21fd5824fcc33481918abeab2abbdc608152f769d02de9a9d7d853d9",
+      "mode": "exact-copy-no-reader-visible-words",
+      "output_bytes": 8060,
+      "output_sha256": "86cc856f21fd5824fcc33481918abeab2abbdc608152f769d02de9a9d7d853d9",
+      "relative_path": "eoce/hist_box_match/hist_box_match.pdf"
+    },
+    {
+      "authority_bytes": 5399,
+      "authority_sha256": "edae7d75617032265cdb78d1f938d69838255343407f51346902b14f3931e695",
+      "mode": "exact-copy-no-reader-visible-words",
+      "output_bytes": 5399,
+      "output_sha256": "edae7d75617032265cdb78d1f938d69838255343407f51346902b14f3931e695",
+      "relative_path": "eoce/hist_vs_box/hist_vs_box.pdf"
+    },
+    {
+      "authority_bytes": 7587,
+      "authority_sha256": "ba565257e64ff187c3b1f781f9b8c24adf1e7a6c592d318eee7f2b226d497465",
+      "mode": "exact-copy-no-reader-visible-words",
+      "output_bytes": 7587,
+      "output_sha256": "ba565257e64ff187c3b1f781f9b8c24adf1e7a6c592d318eee7f2b226d497465",
+      "relative_path": "eoce/income_coffee_shop/income_coffee_shop.pdf"
+    },
+    {
+      "authority_bytes": 4811,
+      "authority_sha256": "c9dd44040db8aced77a84e3bcf58ff6879c58b3e2c55cddab9c8e6c9815bad0f",
+      "changed_instruction_count": 4,
+      "instruction_count": 147,
+      "mode": "localized-vector-text",
+      "output_bytes": 4919,
+      "output_sha256": "e17abbf40e97906ce81b8ce14d5381571d001176ab278571800628ee5363eff3",
+      "relative_path": "eoce/reproducing_bacteria/reproducing_bacteria_sketch.pdf",
+      "replacements": [
+        {
+          "center_shift": -6.507,
+          "matrix_instruction_index": 123,
+          "new": "waktu",
+          "new_advance": 47.016,
+          "old": "time",
+          "old_advance": 34.002,
+          "text_instruction_index": 124
+        },
+        {
+          "center_shift": 25.56,
+          "matrix_instruction_index": 128,
+          "new": "jumlah sel bakteri",
+          "new_advance": 140.04,
+          "old": "number of bacteria cells",
+          "old_advance": 191.16,
+          "text_instruction_index": 129
+        }
+      ],
+      "unchanged_instruction_count": 143,
+      "unchanged_instruction_sha256": "1a996e39bda861073ed815dbb5eccf5f256df5ba8185563937be7c53a7391e56"
+    }
+  ],
+  "schema": "r011-b005-eoce-hispanic-bacteria-replay/v1"
+}
