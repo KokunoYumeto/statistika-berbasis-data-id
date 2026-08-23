@@ -1,0 +1,641 @@
+{
+  "schema": "r011-b008-canonical-application/v1",
+  "boundary_id": "R011-B008",
+  "locale": "id-ID",
+  "status": "READY_FOR_EXPLICIT_APPLICATION",
+  "application_scope": "repo source and directly referenced assets only",
+  "never_target_roots": [
+    "00_control",
+    "backend",
+    "output",
+    "release",
+    ".git"
+  ],
+  "gates": {
+    "b007_admission": {
+      "receipt_path": "qa/R011-B007_BOUNDARY_RECEIPT.json",
+      "required_receipt_bytes": 3099,
+      "required_receipt_sha256": "e6aac35e979af6dbf36ac2256ec7be3f73745dadaad2f84d29aa56c67f1f92ba",
+      "required_schema": "r011-b007-boundary-receipt/v1",
+      "terminal_admission_assertions": [
+        {
+          "pointer": "/$schema",
+          "equals": "r011-b007-boundary-receipt/v1"
+        },
+        {
+          "pointer": "/boundary_id",
+          "equals": "R011-B007"
+        },
+        {
+          "pointer": "/status",
+          "equals": "admitted_exact_pdf_and_backend"
+        },
+        {
+          "pointer": "/canonical_pdf_promoted",
+          "equals": true
+        },
+        {
+          "pointer": "/canonical_source_mutated",
+          "equals": false
+        },
+        {
+          "pointer": "/live_backend_mutated",
+          "equals": true
+        },
+        {
+          "pointer": "/transaction/exact_rollback_on_failure",
+          "equals": true
+        },
+        {
+          "pointer": "/transaction/preflight_fail_closed",
+          "equals": true
+        }
+      ]
+    },
+    "b008_candidate_freeze": {
+      "receipt_path": "scratch/R011-B008-candidate/R011-B008_ROOT_CANDIDATE_FREEZE_RECEIPT.json",
+      "required_receipt_bytes": 14343,
+      "required_receipt_sha256": "f21542f103e7011d15ad41818428aa41faf5c61a6ce0882f7a155331d96cd999",
+      "required_schema": "r011-b008-root-candidate-freeze-audit/v1",
+      "terminal_candidate_assertions": [
+        {
+          "pointer": "/boundary_id",
+          "equals": "R011-B008"
+        },
+        {
+          "pointer": "/status",
+          "equals": "PASS"
+        },
+        {
+          "pointer": "/verdict",
+          "equals": "FROZEN_AND_TRANSACTION_READY_FOR_BINDING"
+        },
+        {
+          "pointer": "/terminal_assertions/candidate_text_freeze_pass",
+          "equals": true
+        },
+        {
+          "pointer": "/terminal_assertions/candidate_defects",
+          "equals": 0
+        },
+        {
+          "pointer": "/terminal_assertions/candidate_blockers",
+          "equals": 0
+        },
+        {
+          "pointer": "/terminal_assertions/transaction_ready_for_binding",
+          "equals": true
+        },
+        {
+          "pointer": "/terminal_assertions/canonical_application_authorized_by_this_receipt",
+          "equals": false
+        }
+      ],
+      "required_review_bytes": 9271,
+      "required_review_sha256": "40b6e3a052746bbd1f397a488e6e31ed1cc97fac27139d6c45f06962ff28e1c1",
+      "required_answer_fragment_bytes": 1644,
+      "required_answer_fragment_sha256": "2eb30d421dd4fbd87b43924fbb5ee8cef8af6737552746295a2243588946bd48"
+    },
+    "explicit_application": {
+      "required_cli_confirmation": "R011-B008-APPLY"
+    },
+    "b007_source_snapshot": {
+      "manifest_path": "qa/b007-build/R011-B007_SNAPSHOT_MANIFEST_V8.tsv",
+      "required_manifest_bytes": 174617,
+      "required_manifest_sha256": "a09e47b52b7b8d5eada0d9086777dcfd57b71339897b9ff0769c6d43fbb0b4c4",
+      "format": "headerless_tsv_path_bytes_sha256",
+      "required_bound_rows": 12
+    }
+  },
+  "known_sealed_inputs": [
+    {
+      "path": "scratch/R011-B008-transaction/preapplication-manifest.json",
+      "bytes": 16818,
+      "sha256": "85d3d5045c67587134f02e9af5afe659394db192a7879cb57406cc440dd15c6e"
+    },
+    {
+      "path": "scratch/R011-B008-transaction/payload/text/review_exercises.b007-guard-b008-tail.tex",
+      "bytes": 9321,
+      "sha256": "0882d5d98acabc5b386e32778625d4d6281dcf8af98fb3c9567c8c2b80aa9ed8"
+    },
+    {
+      "path": "scratch/R011-B008-transaction/payload/text/eoceSolutions.answers_2_27_2_33.source-en.tex",
+      "bytes": 1551,
+      "sha256": "aa1b90f980ce14f4fbd9baca215afccd0a791491bf02ac8671a4146817c12c7f"
+    },
+    {
+      "path": "scratch/R011-B008-candidate/review_exercises.tex",
+      "bytes": 9271,
+      "sha256": "40b6e3a052746bbd1f397a488e6e31ed1cc97fac27139d6c45f06962ff28e1c1"
+    },
+    {
+      "path": "scratch/R011-B008-candidate/eoceSolutions.answers_2_27_2_33.tex",
+      "bytes": 1644,
+      "sha256": "2eb30d421dd4fbd87b43924fbb5ee8cef8af6737552746295a2243588946bd48"
+    },
+    {
+      "path": "scratch/R011-B008-candidate/R011-B008_CANDIDATE_MANIFEST.json",
+      "bytes": 7417,
+      "sha256": "a3d75d7a6a54798bf9ffb4d2bd62daf35e7541b320034380c2df93cb196a8e89"
+    },
+    {
+      "path": "scratch/R011-B008-candidate/R011-B008_CANDIDATE_QA.json",
+      "bytes": 4983,
+      "sha256": "fa8aa99104ec5670c1999c90141e8a60416d452a93b4af071c58153ff26ea465"
+    },
+    {
+      "path": "scratch/R011-B008-candidate/R011-B008_INDEPENDENT_AUDIT_RECEIPT.json",
+      "bytes": 16251,
+      "sha256": "b73883376bf18da131e21c3444219023b626abdbb69e76ba2462653714d3eea0"
+    },
+    {
+      "path": "scratch/R011-B008-candidate/R011-B008_TRANSLATION_HANDOFF.md",
+      "bytes": 4619,
+      "sha256": "62f89f5512849869462faf5208a498c94cb1207ad3f8d9db37c8adaec7d8292f"
+    },
+    {
+      "path": "scratch/R011-B008-assets/receipts/manifest.json",
+      "bytes": 6187,
+      "sha256": "c3e13050700be7e252ff3edea8a3cfbeef8a94cd3bff7676ddcba5cd77f375d8"
+    },
+    {
+      "path": "scratch/R011-B008-assets/receipts/machine-qa.json",
+      "bytes": 2897,
+      "sha256": "5fc800c025025a25e04d8d7b427f45fe595f92aa7818f302dc91115307c71ca3"
+    },
+    {
+      "path": "scratch/R011-B008-assets/receipts/localization-qa.json",
+      "bytes": 2657,
+      "sha256": "310d01b61a6f77e613dcc3e77323f0675d136bf12fafa0f9992a6511cc599f4d"
+    },
+    {
+      "path": "scratch/R011-B008-assets/receipts/component-rights.json",
+      "bytes": 3637,
+      "sha256": "708d3077b646d4f68f6226ffd7eec5ad24f4500a40449eeaf6f394a319d44b18"
+    },
+    {
+      "path": "scratch/R011-B008-assets/receipts/visual-qa.md",
+      "bytes": 2286,
+      "sha256": "842ae9eb700ae6d8bcf294deac8d7574cc0256e377923e7259937157df2eff48"
+    },
+    {
+      "path": "scratch/R011-B008-assets/qa/check_outputs.py",
+      "bytes": 10623,
+      "sha256": "6d46360bedf2ca0fc7e3c5cf476a02a2f5ab66f9f264256cd13446bca3afb660"
+    },
+    {
+      "path": "scratch/R011-B008-assets/qa/analysis/machine_results.json",
+      "bytes": 14873,
+      "sha256": "0ba01769fd1eb4b20faa09f462aa619d277e3dd3f4977158374aa047ed655323"
+    },
+    {
+      "path": "scratch/R011-B008-assets/producers/vector-rewrite/build_localized_pdfs.py",
+      "bytes": 7125,
+      "sha256": "721be6c164f6f8683c2a99c5f0208e73cac9d27c4687bd94df2a8e3fba6513c3"
+    },
+    {
+      "path": "scratch/R011-B008-assets/output/pdf/infant_mortality_rel_freq_hist.pdf",
+      "bytes": 5461,
+      "sha256": "08b260d84539ae79f620ae36eb06c7543e212f3be84fb2c63533ae6a8267d185"
+    },
+    {
+      "path": "scratch/R011-B008-assets/output/pdf/oscars_winners_hist.pdf",
+      "bytes": 5784,
+      "sha256": "284b832da5c0f2cff343435aa540b8f2c777fdb16b4e3652db9bc1291532d9ef"
+    },
+    {
+      "path": "scratch/R011-B008-assets/output/pdf/marathon_winners_hist_box.pdf",
+      "bytes": 6300,
+      "sha256": "a82a9e9ad392be34dfc5bc40cf789252b3b197853b0ca78edf65712a60589043"
+    },
+    {
+      "path": "scratch/R011-B008-assets/output/pdf/marathon_winners_gender_box.pdf",
+      "bytes": 6636,
+      "sha256": "b554c0c57e6a5fb6baef9117bf35ebbb859986930f8e9aacc26ea16a71f76fd8"
+    },
+    {
+      "path": "scratch/R011-B008-assets/output/pdf/marathon_winners_time_series.pdf",
+      "bytes": 7379,
+      "sha256": "d5d89f87264594f957433e1064baa356d0f6a5c41f515fa98fc63722150aea5a"
+    },
+    {
+      "path": "scratch/R011-B008-assets/output/pdf/stats_scores_boxplot.pdf",
+      "bytes": 5118,
+      "sha256": "1de61b3686455aa98e89d296e947865c2ea3d829b07c00ca56729d22f707da4a"
+    },
+    {
+      "path": "scratch/R011-B008-assets/witnesses/english/pdf/infant_mortality_rel_freq_hist.pdf",
+      "bytes": 4646,
+      "sha256": "6515c65ed4f60d918f7bce140b7cb1fb5345a1ae168f757cfaafb7f6cb7e354a"
+    },
+    {
+      "path": "scratch/R011-B008-assets/witnesses/english/pdf/oscars_winners_hist.pdf",
+      "bytes": 4797,
+      "sha256": "f17b02171f7e255e82c2a77bfef853860be8d244b9f37ec6e04e94a37f3f99d8"
+    },
+    {
+      "path": "scratch/R011-B008-assets/witnesses/english/pdf/marathon_winners_hist_box.pdf",
+      "bytes": 5228,
+      "sha256": "040871d0206811ae78530a75a7c6dbf1f8bad4b198637400bccd1ac170ff5924"
+    },
+    {
+      "path": "scratch/R011-B008-assets/witnesses/english/pdf/marathon_winners_gender_box.pdf",
+      "bytes": 5390,
+      "sha256": "63631ae6f7d5812e60447ea263f3edbfd6f64d6023a18f5f7b1b91ee6e319d9f"
+    },
+    {
+      "path": "scratch/R011-B008-assets/witnesses/english/pdf/marathon_winners_time_series.pdf",
+      "bytes": 5564,
+      "sha256": "759e134a9ed483b1fea6a1dd97a8987e040c21d2dfe14b25d860aa1e49117ee4"
+    },
+    {
+      "path": "scratch/R011-B008-assets/witnesses/english/pdf/stats_scores_boxplot.pdf",
+      "bytes": 4473,
+      "sha256": "83a5404fbb7b624bc72df50b4201734c37d45c3ae18d6e5b8b0cd33f07c1654f"
+    },
+    {
+      "path": "scratch/R011-B008-assets/witnesses/english/producers/infant_mortality.R",
+      "bytes": 2410,
+      "sha256": "11d3fa569bea67f94d26062e421793b57a33d408c210b09e8bf55f4c51c2645b"
+    },
+    {
+      "path": "scratch/R011-B008-assets/witnesses/english/producers/oscar_winners.R",
+      "bytes": 760,
+      "sha256": "5b5f78edde73e24d31f2bb13e7557cce290e1a4c83bf0307c0ef0df0f02181ac"
+    },
+    {
+      "path": "scratch/R011-B008-assets/witnesses/english/producers/marathon_winners.R",
+      "bytes": 1997,
+      "sha256": "49aa5ef3eafcbfdad387b1d4686ecba797e56c7406190d918315d551f53f7caf"
+    },
+    {
+      "path": "scratch/R011-B008-assets/witnesses/english/producers/stats_scores_box.R",
+      "bytes": 659,
+      "sha256": "25eb533a2a3a000b6bef8202af4d0be1a7236b32133449386099b7ede77e3629"
+    },
+    {
+      "path": "scratch/R011-B008-assets/producers/localized-r/infant_mortality_id.R",
+      "bytes": 1096,
+      "sha256": "727e7a6834d9eabc9371e6fa4a8c31816fb425445e89afbf6c4bbe4b6f3faf65"
+    },
+    {
+      "path": "scratch/R011-B008-assets/producers/localized-r/oscar_winners_id.R",
+      "bytes": 703,
+      "sha256": "51c53a0fbd1c891f04e9b63959d38678ce98449119dd5f0d67e96049420843cf"
+    },
+    {
+      "path": "scratch/R011-B008-assets/producers/localized-r/marathon_winners_id.R",
+      "bytes": 1787,
+      "sha256": "eca7dd80e49428954ba126a963600157c569cabfdf2888bba40752f9aa7b186b"
+    },
+    {
+      "path": "scratch/R011-B008-assets/producers/localized-r/stats_scores_box_id.R",
+      "bytes": 496,
+      "sha256": "92e973f7d53ff0972233ce6a087e1301007fb132749a79a71ab05afbdf38f3fa"
+    },
+    {
+      "path": "scratch/R011-B008-assets/inputs/data/factbook.rda",
+      "bytes": 10138,
+      "sha256": "4843576c765049344074a81f258e33fd79fe3107fee7f026cebe469210253918"
+    },
+    {
+      "path": "scratch/R011-B008-assets/witnesses/english/context/review_exercises.tex",
+      "bytes": 8289,
+      "sha256": "ea3fc3367399f9863a91312decf5f334534ff5d75ac4b8aa698918229050aa16"
+    },
+    {
+      "path": "scratch/R011-B008-assets/witnesses/english/context/eoce.bib",
+      "bytes": 30361,
+      "sha256": "42191d6cb80b562e3bb769388759cba25b1798ae416536ebfdcf73de0770217a"
+    },
+    {
+      "path": "scratch/R011-B008-assets/witnesses/rights/LICENSE.md",
+      "bytes": 2612,
+      "sha256": "9bd77ff3e58e0b7f1331824b8195d4cf588851a6461cc3230d12410da7935223"
+    },
+    {
+      "path": "scratch/R011-B008-assets/witnesses/rights/README.md",
+      "bytes": 2310,
+      "sha256": "69d08163e03fc3731ba9f09e17b66068f01ea04aaa9a55b8468bcbcad87b6410"
+    },
+    {
+      "path": "scratch/R011-B008-transaction/payload/producers/infant_mortality.R",
+      "bytes": 2403,
+      "sha256": "afcda34cc631a0ca8c146320dc414ae56c0ee672941133501f168e1736b2e5e8"
+    },
+    {
+      "path": "scratch/R011-B008-transaction/payload/producers/oscar_winners.R",
+      "bytes": 933,
+      "sha256": "30f1411b9298ef816a66af4265e49bff6356f2938cb834ed37d2382c5894dfbc"
+    },
+    {
+      "path": "scratch/R011-B008-transaction/payload/producers/marathon_winners.R",
+      "bytes": 2001,
+      "sha256": "91eea072b1af15f3121745260a01e73702b88aea567b2faeccf49fec4c22c86a"
+    },
+    {
+      "path": "scratch/R011-B008-transaction/payload/producers/stats_scores_box.R",
+      "bytes": 659,
+      "sha256": "991241467c4bd11154d84848a98769fa41579708e91be60ca6c5ef65dbecbf21"
+    }
+  ],
+  "canonical_preimages": [
+    {
+      "path": "repo/ch_summarizing_data/TeX/review_exercises.tex",
+      "b007_admitted_bytes": 8339,
+      "b007_admitted_sha256": "3686a42c9a0cfefe7ef02d3846fd66c0c67a54a2aa5602e850076e681c6b48b7",
+      "b007_snapshot_path": "ch_summarizing_data/TeX/review_exercises.tex",
+      "upstream_authority_bytes": 8289,
+      "upstream_authority_sha256": "ea3fc3367399f9863a91312decf5f334534ff5d75ac4b8aa698918229050aa16",
+      "admitted_delta": "first-line reflow guard only"
+    },
+    {
+      "path": "repo/extraTeX/eoceSolutions/eoceSolutions.tex",
+      "b007_admitted_bytes": 108017,
+      "b007_admitted_sha256": "e3592306335188d90603dd26ac52fa39c2f86ef32d4baf2db81c65c3f42f8c33",
+      "authority_before_b007_bytes": 108017,
+      "authority_before_b007_sha256": "e3592306335188d90603dd26ac52fa39c2f86ef32d4baf2db81c65c3f42f8c33",
+      "b007_snapshot_path": "extraTeX/eoceSolutions/eoceSolutions.tex"
+    },
+    {
+      "path": "repo/ch_summarizing_data/figures/eoce/infant_mortality_rel_freq/infant_mortality_rel_freq_hist.pdf",
+      "b007_admitted_bytes": 4646,
+      "b007_admitted_sha256": "6515c65ed4f60d918f7bce140b7cb1fb5345a1ae168f757cfaafb7f6cb7e354a",
+      "authority_expected_bytes": 4646,
+      "authority_expected_sha256": "6515c65ed4f60d918f7bce140b7cb1fb5345a1ae168f757cfaafb7f6cb7e354a",
+      "b007_snapshot_path": "ch_summarizing_data/figures/eoce/infant_mortality_rel_freq/infant_mortality_rel_freq_hist.pdf"
+    },
+    {
+      "path": "repo/ch_summarizing_data/figures/eoce/oscar_winners/oscars_winners_hist.pdf",
+      "b007_admitted_bytes": 4797,
+      "b007_admitted_sha256": "f17b02171f7e255e82c2a77bfef853860be8d244b9f37ec6e04e94a37f3f99d8",
+      "authority_expected_bytes": 4797,
+      "authority_expected_sha256": "f17b02171f7e255e82c2a77bfef853860be8d244b9f37ec6e04e94a37f3f99d8",
+      "b007_snapshot_path": "ch_summarizing_data/figures/eoce/oscar_winners/oscars_winners_hist.pdf"
+    },
+    {
+      "path": "repo/ch_summarizing_data/figures/eoce/marathon_winners/marathon_winners_hist_box.pdf",
+      "b007_admitted_bytes": 5228,
+      "b007_admitted_sha256": "040871d0206811ae78530a75a7c6dbf1f8bad4b198637400bccd1ac170ff5924",
+      "authority_expected_bytes": 5228,
+      "authority_expected_sha256": "040871d0206811ae78530a75a7c6dbf1f8bad4b198637400bccd1ac170ff5924",
+      "b007_snapshot_path": "ch_summarizing_data/figures/eoce/marathon_winners/marathon_winners_hist_box.pdf"
+    },
+    {
+      "path": "repo/ch_summarizing_data/figures/eoce/marathon_winners/marathon_winners_gender_box.pdf",
+      "b007_admitted_bytes": 5390,
+      "b007_admitted_sha256": "63631ae6f7d5812e60447ea263f3edbfd6f64d6023a18f5f7b1b91ee6e319d9f",
+      "authority_expected_bytes": 5390,
+      "authority_expected_sha256": "63631ae6f7d5812e60447ea263f3edbfd6f64d6023a18f5f7b1b91ee6e319d9f",
+      "b007_snapshot_path": "ch_summarizing_data/figures/eoce/marathon_winners/marathon_winners_gender_box.pdf"
+    },
+    {
+      "path": "repo/ch_summarizing_data/figures/eoce/marathon_winners/marathon_winners_time_series.pdf",
+      "b007_admitted_bytes": 5564,
+      "b007_admitted_sha256": "759e134a9ed483b1fea6a1dd97a8987e040c21d2dfe14b25d860aa1e49117ee4",
+      "authority_expected_bytes": 5564,
+      "authority_expected_sha256": "759e134a9ed483b1fea6a1dd97a8987e040c21d2dfe14b25d860aa1e49117ee4",
+      "b007_snapshot_path": "ch_summarizing_data/figures/eoce/marathon_winners/marathon_winners_time_series.pdf"
+    },
+    {
+      "path": "repo/ch_summarizing_data/figures/eoce/stats_scores_box/stats_scores_boxplot.pdf",
+      "b007_admitted_bytes": 4473,
+      "b007_admitted_sha256": "83a5404fbb7b624bc72df50b4201734c37d45c3ae18d6e5b8b0cd33f07c1654f",
+      "authority_expected_bytes": 4473,
+      "authority_expected_sha256": "83a5404fbb7b624bc72df50b4201734c37d45c3ae18d6e5b8b0cd33f07c1654f",
+      "b007_snapshot_path": "ch_summarizing_data/figures/eoce/stats_scores_box/stats_scores_boxplot.pdf"
+    },
+    {
+      "path": "repo/ch_summarizing_data/figures/eoce/infant_mortality_rel_freq/infant_mortality.R",
+      "b007_admitted_bytes": 2410,
+      "b007_admitted_sha256": "11d3fa569bea67f94d26062e421793b57a33d408c210b09e8bf55f4c51c2645b",
+      "authority_expected_bytes": 2410,
+      "authority_expected_sha256": "11d3fa569bea67f94d26062e421793b57a33d408c210b09e8bf55f4c51c2645b",
+      "b007_snapshot_path": "ch_summarizing_data/figures/eoce/infant_mortality_rel_freq/infant_mortality.R"
+    },
+    {
+      "path": "repo/ch_summarizing_data/figures/eoce/oscar_winners/oscar_winners.R",
+      "b007_admitted_bytes": 760,
+      "b007_admitted_sha256": "5b5f78edde73e24d31f2bb13e7557cce290e1a4c83bf0307c0ef0df0f02181ac",
+      "authority_expected_bytes": 760,
+      "authority_expected_sha256": "5b5f78edde73e24d31f2bb13e7557cce290e1a4c83bf0307c0ef0df0f02181ac",
+      "b007_snapshot_path": "ch_summarizing_data/figures/eoce/oscar_winners/oscar_winners.R"
+    },
+    {
+      "path": "repo/ch_summarizing_data/figures/eoce/marathon_winners/marathon_winners.R",
+      "b007_admitted_bytes": 1997,
+      "b007_admitted_sha256": "49aa5ef3eafcbfdad387b1d4686ecba797e56c7406190d918315d551f53f7caf",
+      "authority_expected_bytes": 1997,
+      "authority_expected_sha256": "49aa5ef3eafcbfdad387b1d4686ecba797e56c7406190d918315d551f53f7caf",
+      "b007_snapshot_path": "ch_summarizing_data/figures/eoce/marathon_winners/marathon_winners.R"
+    },
+    {
+      "path": "repo/ch_summarizing_data/figures/eoce/stats_scores_box/stats_scores_box.R",
+      "b007_admitted_bytes": 659,
+      "b007_admitted_sha256": "25eb533a2a3a000b6bef8202af4d0be1a7236b32133449386099b7ede77e3629",
+      "authority_expected_bytes": 659,
+      "authority_expected_sha256": "25eb533a2a3a000b6bef8202af4d0be1a7236b32133449386099b7ede77e3629",
+      "b007_snapshot_path": "ch_summarizing_data/figures/eoce/stats_scores_box/stats_scores_box.R"
+    }
+  ],
+  "operations": [
+    {
+      "id": "text-review-whole-file",
+      "kind": "replace_file",
+      "source": "scratch/R011-B008-transaction/payload/text/review_exercises.b007-guard-b008-tail.tex",
+      "target": "repo/ch_summarizing_data/TeX/review_exercises.tex",
+      "expected_output_bytes": 9321,
+      "expected_output_sha256": "0882d5d98acabc5b386e32778625d4d6281dcf8af98fb3c9567c8c2b80aa9ed8",
+      "derivation": "validated by derived_payloads.review_exercises"
+    },
+    {
+      "id": "text-public-answers-exact-splice",
+      "kind": "splice_unique",
+      "source": "scratch/R011-B008-candidate/eoceSolutions.answers_2_27_2_33.tex",
+      "old_fragment": "scratch/R011-B008-transaction/payload/text/eoceSolutions.answers_2_27_2_33.source-en.tex",
+      "target": "repo/extraTeX/eoceSolutions/eoceSolutions.tex",
+      "required_old_occurrences": 1,
+      "expected_output_bytes": 108110,
+      "expected_output_sha256": "2b2709d17fcca943dde69288726a669fd978f576957518142e24c5aa2e86c140",
+      "preserve_prefix_suffix_exact": true
+    },
+    {
+      "id": "witness-infant-pdf",
+      "kind": "create_file_absent",
+      "source": "scratch/R011-B008-assets/witnesses/english/pdf/infant_mortality_rel_freq_hist.pdf",
+      "target": "repo/ch_summarizing_data/figures/eoce/infant_mortality_rel_freq/infant_mortality_rel_freq_hist.source-en.pdf",
+      "expected_output_bytes": 4646,
+      "expected_output_sha256": "6515c65ed4f60d918f7bce140b7cb1fb5345a1ae168f757cfaafb7f6cb7e354a"
+    },
+    {
+      "id": "witness-oscar-pdf",
+      "kind": "create_file_absent",
+      "source": "scratch/R011-B008-assets/witnesses/english/pdf/oscars_winners_hist.pdf",
+      "target": "repo/ch_summarizing_data/figures/eoce/oscar_winners/oscars_winners_hist.source-en.pdf",
+      "expected_output_bytes": 4797,
+      "expected_output_sha256": "f17b02171f7e255e82c2a77bfef853860be8d244b9f37ec6e04e94a37f3f99d8"
+    },
+    {
+      "id": "witness-marathon-hist-pdf",
+      "kind": "create_file_absent",
+      "source": "scratch/R011-B008-assets/witnesses/english/pdf/marathon_winners_hist_box.pdf",
+      "target": "repo/ch_summarizing_data/figures/eoce/marathon_winners/marathon_winners_hist_box.source-en.pdf",
+      "expected_output_bytes": 5228,
+      "expected_output_sha256": "040871d0206811ae78530a75a7c6dbf1f8bad4b198637400bccd1ac170ff5924"
+    },
+    {
+      "id": "witness-marathon-gender-pdf",
+      "kind": "create_file_absent",
+      "source": "scratch/R011-B008-assets/witnesses/english/pdf/marathon_winners_gender_box.pdf",
+      "target": "repo/ch_summarizing_data/figures/eoce/marathon_winners/marathon_winners_gender_box.source-en.pdf",
+      "expected_output_bytes": 5390,
+      "expected_output_sha256": "63631ae6f7d5812e60447ea263f3edbfd6f64d6023a18f5f7b1b91ee6e319d9f"
+    },
+    {
+      "id": "witness-marathon-time-pdf",
+      "kind": "create_file_absent",
+      "source": "scratch/R011-B008-assets/witnesses/english/pdf/marathon_winners_time_series.pdf",
+      "target": "repo/ch_summarizing_data/figures/eoce/marathon_winners/marathon_winners_time_series.source-en.pdf",
+      "expected_output_bytes": 5564,
+      "expected_output_sha256": "759e134a9ed483b1fea6a1dd97a8987e040c21d2dfe14b25d860aa1e49117ee4"
+    },
+    {
+      "id": "witness-stats-pdf",
+      "kind": "create_file_absent",
+      "source": "scratch/R011-B008-assets/witnesses/english/pdf/stats_scores_boxplot.pdf",
+      "target": "repo/ch_summarizing_data/figures/eoce/stats_scores_box/stats_scores_boxplot.source-en.pdf",
+      "expected_output_bytes": 4473,
+      "expected_output_sha256": "83a5404fbb7b624bc72df50b4201734c37d45c3ae18d6e5b8b0cd33f07c1654f"
+    },
+    {
+      "id": "pdf-infant",
+      "kind": "replace_file",
+      "source": "scratch/R011-B008-assets/output/pdf/infant_mortality_rel_freq_hist.pdf",
+      "target": "repo/ch_summarizing_data/figures/eoce/infant_mortality_rel_freq/infant_mortality_rel_freq_hist.pdf",
+      "expected_output_bytes": 5461,
+      "expected_output_sha256": "08b260d84539ae79f620ae36eb06c7543e212f3be84fb2c63533ae6a8267d185"
+    },
+    {
+      "id": "pdf-oscar",
+      "kind": "replace_file",
+      "source": "scratch/R011-B008-assets/output/pdf/oscars_winners_hist.pdf",
+      "target": "repo/ch_summarizing_data/figures/eoce/oscar_winners/oscars_winners_hist.pdf",
+      "expected_output_bytes": 5784,
+      "expected_output_sha256": "284b832da5c0f2cff343435aa540b8f2c777fdb16b4e3652db9bc1291532d9ef"
+    },
+    {
+      "id": "pdf-marathon-hist",
+      "kind": "replace_file",
+      "source": "scratch/R011-B008-assets/output/pdf/marathon_winners_hist_box.pdf",
+      "target": "repo/ch_summarizing_data/figures/eoce/marathon_winners/marathon_winners_hist_box.pdf",
+      "expected_output_bytes": 6300,
+      "expected_output_sha256": "a82a9e9ad392be34dfc5bc40cf789252b3b197853b0ca78edf65712a60589043"
+    },
+    {
+      "id": "pdf-marathon-gender",
+      "kind": "replace_file",
+      "source": "scratch/R011-B008-assets/output/pdf/marathon_winners_gender_box.pdf",
+      "target": "repo/ch_summarizing_data/figures/eoce/marathon_winners/marathon_winners_gender_box.pdf",
+      "expected_output_bytes": 6636,
+      "expected_output_sha256": "b554c0c57e6a5fb6baef9117bf35ebbb859986930f8e9aacc26ea16a71f76fd8"
+    },
+    {
+      "id": "pdf-marathon-time",
+      "kind": "replace_file",
+      "source": "scratch/R011-B008-assets/output/pdf/marathon_winners_time_series.pdf",
+      "target": "repo/ch_summarizing_data/figures/eoce/marathon_winners/marathon_winners_time_series.pdf",
+      "expected_output_bytes": 7379,
+      "expected_output_sha256": "d5d89f87264594f957433e1064baa356d0f6a5c41f515fa98fc63722150aea5a"
+    },
+    {
+      "id": "pdf-stats",
+      "kind": "replace_file",
+      "source": "scratch/R011-B008-assets/output/pdf/stats_scores_boxplot.pdf",
+      "target": "repo/ch_summarizing_data/figures/eoce/stats_scores_box/stats_scores_boxplot.pdf",
+      "expected_output_bytes": 5118,
+      "expected_output_sha256": "1de61b3686455aa98e89d296e947865c2ea3d829b07c00ca56729d22f707da4a"
+    },
+    {
+      "id": "producer-infant",
+      "kind": "replace_file",
+      "source": "scratch/R011-B008-transaction/payload/producers/infant_mortality.R",
+      "target": "repo/ch_summarizing_data/figures/eoce/infant_mortality_rel_freq/infant_mortality.R",
+      "expected_output_bytes": 2403,
+      "expected_output_sha256": "afcda34cc631a0ca8c146320dc414ae56c0ee672941133501f168e1736b2e5e8"
+    },
+    {
+      "id": "producer-oscar",
+      "kind": "replace_file",
+      "source": "scratch/R011-B008-transaction/payload/producers/oscar_winners.R",
+      "target": "repo/ch_summarizing_data/figures/eoce/oscar_winners/oscar_winners.R",
+      "expected_output_bytes": 933,
+      "expected_output_sha256": "30f1411b9298ef816a66af4265e49bff6356f2938cb834ed37d2382c5894dfbc"
+    },
+    {
+      "id": "producer-marathon",
+      "kind": "replace_file",
+      "source": "scratch/R011-B008-transaction/payload/producers/marathon_winners.R",
+      "target": "repo/ch_summarizing_data/figures/eoce/marathon_winners/marathon_winners.R",
+      "expected_output_bytes": 2001,
+      "expected_output_sha256": "91eea072b1af15f3121745260a01e73702b88aea567b2faeccf49fec4c22c86a"
+    },
+    {
+      "id": "producer-stats",
+      "kind": "replace_file",
+      "source": "scratch/R011-B008-transaction/payload/producers/stats_scores_box.R",
+      "target": "repo/ch_summarizing_data/figures/eoce/stats_scores_box/stats_scores_box.R",
+      "expected_output_bytes": 659,
+      "expected_output_sha256": "991241467c4bd11154d84848a98769fa41579708e91be60ca6c5ef65dbecbf21"
+    }
+  ],
+  "source_gate": {
+    "required_after_application": [
+      "all exact postimage hashes match this manifest",
+      "review exercise markers are exactly 27 through 34",
+      "public answer markers in the replaced fragment are exactly 27, 29, 31, and 33",
+      "O001 gaps 2.28, 2.30, 2.32, and 2.34 remain solution-free",
+      "all four source-correction decisions remain present in the frozen candidate audit",
+      "average maps to rerata and mean maps to rata-rata only in their bound contexts",
+      "all six localized PDFs retain their sealed PASS identities",
+      "all six adjacent English PDF witnesses retain their exact source identities",
+      "all four producer preimages are recoverable and all four localized producer postimages match",
+      "component-rights and citation dependencies remain bound",
+      "reverse reconstruction verifies every canonical target"
+    ],
+    "deterministic_boundary_receipt_path": "qa/R011-B008_BOUNDARY_RECEIPT.json",
+    "boundary_receipt_emission": "OUTSIDE_THIS_PREAPPLICATION_SCRIPT_AFTER_BUILD_AND_BACKEND_GATES"
+  },
+  "reverse": {
+    "root": "scratch/R011-B008-transaction/reverse",
+    "application_receipt": "scratch/R011-B008-transaction/reverse/application-receipt.json",
+    "preimage_root": "scratch/R011-B008-transaction/reverse/preimages",
+    "required_reverse_confirmation": "R011-B008-REVERSE"
+  },
+  "deferred_bindings": [],
+  "derived_payloads": {
+    "review_exercises": {
+      "path": "scratch/R011-B008-transaction/payload/text/review_exercises.b007-guard-b008-tail.tex",
+      "expected_bytes": 9321,
+      "expected_sha256": "0882d5d98acabc5b386e32778625d4d6281dcf8af98fb3c9567c8c2b80aa9ed8",
+      "b007_preimage_path": "repo/ch_summarizing_data/TeX/review_exercises.tex",
+      "b007_preimage_bytes": 8339,
+      "b007_preimage_sha256": "3686a42c9a0cfefe7ef02d3846fd66c0c67a54a2aa5602e850076e681c6b48b7",
+      "frozen_candidate_path": "scratch/R011-B008-candidate/review_exercises.tex",
+      "frozen_candidate_bytes": 9271,
+      "frozen_candidate_sha256": "40b6e3a052746bbd1f397a488e6e31ed1cc97fac27139d6c45f06962ff28e1c1",
+      "rule": "b007_bytes_through_first_lf_plus_candidate_bytes_after_first_lf",
+      "required_b007_first_line": "\\begingroup\\let\\clearpageforsection\\relax\\reviewexercisesheader{}\\endgroup",
+      "required_candidate_first_line": "\\reviewexercisesheader{}"
+    }
+  },
+  "transaction_safety": {
+    "preflight_is_read_only": true,
+    "canonical_targets_exactly_match_declared_operations": true,
+    "every_replaced_target_bound_to_b007_snapshot": true,
+    "newly_created_targets_must_be_absent": true,
+    "reverse_snapshot_completed_and_verified_before_first_canonical_write": true,
+    "automatic_exact_rollback_on_apply_failure": true,
+    "automatic_postimage_restore_on_reverse_failure": true,
+    "durable_application_and_reverse_receipts": true
+  }
+}

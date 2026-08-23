@@ -1,0 +1,57 @@
+{
+  "$schema": "r011-b008-build-only-visual-sanity/v3",
+  "boundary_id": "R011-B008",
+  "candidate_iteration": "V3",
+  "candidate_pdf": {
+    "path": "qa/b008-build/final-v3/main.pdf",
+    "bytes": 22017328,
+    "sha256": "8aa8e6ecc3edc2a33ee8d83a586c6208e49966582b2fc439c8b3007470f32800"
+  },
+  "candidate_build_receipt": {
+    "path": "qa/b008-build/final-v3/CANDIDATE_BUILD_QA_V3.json",
+    "bytes": 17044,
+    "sha256": "5d176e4275dbc41951797a043bb9270a09357ae31418868904d903939ff5beca"
+  },
+  "inspection": {
+    "method": "Full-resolution inspection of all nine 300-dpi Poppler page PNGs and the contact sheet.",
+    "pages": [78, 79, 80, 81, 82, 388, 389, 390, 391],
+    "page_count": 9,
+    "result": "PASS",
+    "formal_visual_finalizer": false,
+    "formal_visual_status": "PENDING_ROOT_JUDGMENT"
+  },
+  "verified_repairs": [
+    {
+      "page": 79,
+      "result": "PASS",
+      "finding": "The data:oscars prose note is natural Indonesian; Journal of Statistics Education and wikipedia.org credits remain visible."
+    },
+    {
+      "page": 80,
+      "result": "PASS_PAGE_FILL_REPAIRED",
+      "finding": "The localized parts (c) and (d), gender box plot, and time-series plot use the full available text width and are vertically centered as a balanced exercise-ending page. Labels are sharp, and no clipping or overlap is present."
+    }
+  ],
+  "page_findings": {
+    "78": "PASS_READABLE_LOCALIZED_EXERCISES",
+    "79": "PASS_READABLE_LOCALIZED_EXERCISES_AND_CREDIT_NOTE",
+    "80": "PASS_FULL_WIDTH_VERTICALLY_CENTERED_PAGE_FILL",
+    "81": "PASS_VISUAL_LAYOUT_CHAPTER_3_OUTSIDE_B008_SCOPE",
+    "82": "PASS_VISUAL_LAYOUT_CHAPTER_3_OUTSIDE_B008_SCOPE",
+    "388": "PASS_READABLE_IN_SCOPE_LOCALIZED_ANSWERS",
+    "389": "PASS_READABLE_IN_SCOPE_LOCALIZED_ANSWERS; CHAPTER_3_ENGLISH_OUTSIDE_B008_SCOPE",
+    "390": "PASS_VISUAL_LAYOUT_CHAPTER_3_ENGLISH_OUTSIDE_B008_SCOPE",
+    "391": "PASS_VISUAL_LAYOUT_CHAPTER_3_ENGLISH_OUTSIDE_B008_SCOPE"
+  },
+  "visual_checks": {
+    "clipping": "NONE_OBSERVED",
+    "overlap": "NONE_OBSERVED",
+    "unreadable_glyphs": "NONE_OBSERVED",
+    "localized_figures": "SHARP_AND_ALIGNED",
+    "page_80_fill_and_centering": "PASS",
+    "answer_pages_388_389": "READABLE_AND_IN_SCOPE_CONTENT_PRESENT",
+    "chapter_3_english_on_pages_81_82_389_390_391": "OUTSIDE_B008_SCOPE"
+  },
+  "promotion_or_admission_performed": false,
+  "repo_or_output_mutated": false
+}

@@ -1098,6 +1098,13 @@ hidup terhadap masa kehamilan ditampilkan di bawah ini. \footfullcite{Allison+Ci
 
 % 2
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+2c246af4-fd01-55a7-8d00-04a7d0b906fc,57d11337-8399-5156-84a2-79beb091af68,33,public-appendix-answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,400,402,23d364a7d3ba28561cc70ec1aedf80bfe1e2bf66af9bca4379226979e63808b1,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,426,431,a4b72360b2dc9b1eaeba7e102c2178d0a754fde2bd51193bf33b9f7db248505d,language_reviewed,"% 33
+
+\eocesol{\FigureFullPath[Ditampilkan diagram kotak untuk ""Nilai"" dengan kotak
+membentang dari sekitar 72 hingga 82 dan median pada sekitar 78. Kumis
+membentang ke bawah hingga 66 dan ke atas hingga 94. Satu titik ditampilkan di
+bawah kumis bawah pada sekitar 57.]{0.25}{ch_summarizing_data/figures/eoce/stats_scores_box/stats_scores_boxplot}}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 2f8890bf-1625-5e92-9a48-1fe86b67d5a0,ad5e9a37-7767-5450-9dab-f54b570978e8,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,325,329,1b0e5aac42b56c4c0bfcf0e88e8d8fcd622b8526787a1ec500217018c7609ecd,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,347,351,46c843a57d865da0af4dc19c4109fc14d7c7109d53a48e71a097098ba489f479,translated,"% 21
 
 \eocesol{(a)~Diagram batang memperlihatkan urutan kategori dan frekuensi relatifnya.
@@ -1439,6 +1446,17 @@ kesimpulannya dapat digeneralisasikan ke populasi yang lebih luas.
 }{}
 
 % 38
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+4244810d-8ea4-538b-812e-6564d0658bb6,1e6a7873-9995-5e0c-ac60-7ce19d16b804,31,public-appendix-answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,390,399,a8b688e4b845498528219184f006746f92510153e7917b924a98b0d36fe8aa54,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,416,425,7968fa634878bc31f9dcb125b7f8a139830279d98caea36fc4fa9bb0be4aa6d0,language_reviewed,"% 31
+
+\eocesol{Distribusi usia pemenang kategori Aktris Terbaik menceng ke kanan dengan median
+sekitar 30 tahun. Distribusi usia pemenang kategori Aktor Terbaik juga menceng ke kanan,
+meskipun tidak sekuat itu, dengan median sekitar 40 tahun. Perbedaan letak
+puncak kedua distribusi menunjukkan bahwa pemenang kategori Aktris Terbaik biasanya
+lebih muda daripada pemenang kategori Aktor Terbaik. Usia pemenang kategori Aktris Terbaik lebih
+bervariasi daripada usia pemenang kategori Aktor Terbaik. Kedua distribusi memiliki
+kemungkinan pencilan pada ujung atasnya.}
+
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 42ce4282-23fe-5ea0-bb2a-304137a23be6,c749f377-8b05-530a-9e33-4073fe3f435f,1,exercise,en,ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,41,57,f4fe8c4f9a5c666a85454eb24a649eadcc12e17ba1e6105893296171e5cbeb2c,id-ID,repo/ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,41,56,9021e963aec6340d8b702b7c445e6e6090909b2b6594b7976867d2be02f1891d,translated,"\eoce{\qt{Metode Buteyko: cakupan inferensi\label{scope_buteyko}} 
 Latihan~\ref{study_components_buteyko} memperkenalkan studi mengenai penggunaan 
@@ -1836,6 +1854,18 @@ pasien yang bebas nyeri 24 jam setelah menerima akupunktur pada kedua kelompok?
 \end{parts}
 }{}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""5e3e3e1d-d971-53de-98b9-f47c833ea058""]"
+49161f0f-0df6-5ad4-80d9-f55c3acbdd07,8f4e417c-5097-514a-9c06-f4a3c67e664b,27,public-appendix-answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,373,382,e1f6089b747dd5cdecab3a87bb8d1019ffbc34a90892507b0fadfbb860f2f62e,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,398,408,ed4b64237d6c1d2545ce0838576845f131a9c82c6ceea4f67318da831c3190f0,language_reviewed,"% 27
+
+\eocesol{(a)~Menurunkan: nilai mahasiswa yang mengikuti ujian susulan lebih
+kecil daripada rata-rata 24 nilai sebelumnya.
+(b)~Hitung rata-rata tertimbang. Gunakan bobot 24 untuk rata-rata lama dan 1
+untuk nilai baru: $(24\times 74 + 1\times64)/(24+1) = 73.6$.
+%Ada cara lain untuk menyelesaikan latihan ini tanpa menggunakan rata-rata
+%tertimbang.
+(c)~Nilai baru berjarak lebih dari 1 simpangan baku dari rata-rata sebelumnya,
+sehingga simpangan bakunya meningkat.}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 4a461cc5-57b3-5771-9b88-c4b7f9e26915,c9faaa37-1ac5-54ae-b62f-1556d2b63374,4,prose,en,ch_intro_to_data/TeX/ch_intro_to_data.tex,107,123,101802fff512c8aa3ffe47804085e1e61701558d932312be1b3ef8d525065932,id-ID,repo/ch_intro_to_data/TeX/ch_intro_to_data.tex,107,123,63427073430c4abc39777dd9af721cd2bb2ce3608461ff0e6e14ab485a675a22,translated,"Kita dapat menghitung statistik ringkasan dari tabel tersebut.
 Sebuah \term{statistik ringkasan}%
 \index{statistik|seealso{statistik ringkasan}}
@@ -2924,6 +2954,55 @@ Edisi Keempat}
 \small Terjemahan bahasa Indonesia dan adaptasi teknis, atas permintaan pengguna \\[2mm]
 }
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""947b6c3b-ce48-5326-b7af-6571830020d4""]"
+5f2289c9-2f21-570c-8d7e-aa09bbab4e65,7fb6fb37-23be-57f3-af92-f7f18dbb1210,31,chapter-review-exercise,en,ch_summarizing_data/TeX/review_exercises.tex,63,99,5110f2362dd0499625852be0afc7ee8be3698909f641530a47307fab0cf249f4,id-ID,repo/ch_summarizing_data/TeX/review_exercises.tex,75,122,bc32a108a71cfe4013033847ef334e4343879c65610afa9b7c7815efdf843315,language_reviewed,"% 31
+
+\eoce{\qt{Pemenang Oscar\label{oscar_winners}} Penghargaan Oscar untuk kategori
+Aktor Terbaik dan Aktris Terbaik pertama kali diberikan pada 1929. Histogram
+di bawah ini menunjukkan distribusi usia seluruh pemenang kategori Aktor
+Terbaik dan Aktris Terbaik dari 1929 hingga 2018. Statistik ringkasan untuk
+kedua distribusi ini juga disediakan. Bandingkan distribusi usia pemenang
+kategori Aktor Terbaik dan Aktris Terbaik.\footfullcite{data:oscars} \\
+\begin{minipage}[c]{0.72\textwidth}
+\begin{center}
+\Figures[Ditampilkan dua histogram, satu untuk ""Aktris Terbaik"" dan satu lagi
+untuk ""Aktor Terbaik"", dengan nilai pada kedua histogram membentang dari 15
+hingga 85. Tinggi interval-interval kelas pada histogram Aktris Terbaik adalah
+sebagai berikut: interval 15 hingga 25 memiliki tinggi 9, 25 hingga 35 memiliki
+tinggi 50, 35 hingga 45 memiliki tinggi 19, 45 hingga 55 memiliki tinggi 6, 55
+hingga 65 memiliki tinggi 8, 65 hingga 75 memiliki tinggi 1, dan 75 hingga 85
+memiliki tinggi 1. Tinggi interval-interval kelas pada histogram Aktor Terbaik
+adalah sebagai berikut: interval 15 hingga 25 memiliki tinggi 0, 25 hingga 35
+memiliki tinggi 14, 35 hingga 45 memiliki tinggi 45, 45 hingga 55 memiliki
+tinggi 23, 55 hingga 65 memiliki tinggi 11, 65 hingga 75 memiliki tinggi 0, dan
+75 hingga 85 memiliki tinggi 1.]{0.95}{eoce/oscar_winners}{oscars_winners_hist}
+\end{center}
+\end{minipage}
+\begin{minipage}[c]{0.27\textwidth}
+{\small
+\begin{tabular}{l c}
+\hline
+             & Aktris Terbaik  \\
+\hline
+Rata-rata    & 36.2      \\
+Simp. baku   & 11.9      \\
+n            & 92        \\  
+             & \\
+             & \\
+             & \\
+             & \\
+             & \\
+\hline
+             & Aktor Terbaik \\
+\hline
+Rata-rata    & 43.8 \\
+Simp. baku   & 8.83 \\
+n            & 92
+\end{tabular}
+}
+\end{minipage}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 6016d048-4580-5091-b311-2058706090ba,b23f3ca2-973a-561f-8d7b-0808ca9315e8,3,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,2135,2165,00da733b454c6bdf631d088d6abb316172575f2644ec9fdfeeb4253a5af8b001,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,2067,2097,b722252f92d09e99668a7f43f1de7dcb2f069bf838643d0c736dbf17f31fa50e,translated,"\end{exercisewrap}
 \footnotetext{Jawaban dapat bervariasi.
   Diagram kotak berdampingan sangat berguna untuk membandingkan
@@ -2999,6 +3078,15 @@ tunduk pada lisensi dan atribusi komponennya masing-masing.
 
 %_______________
 \begin{multicols}{2}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+68138640-5539-5a89-80d4-785b043887c7,3f62bfe2-5a2e-5441-86ab-c703b5da5e32,32,chapter-review-exercise,en,ch_summarizing_data/TeX/review_exercises.tex,100,107,af875b273324ae74554dc8bbc9787632701be106e91768c906368ca45f85313c,id-ID,repo/ch_summarizing_data/TeX/review_exercises.tex,123,130,9eb3100214da0831f7dd6fd872adefc7646fdcfafc92b4aa92251bee7df5a687,language_reviewed,"% 32
+
+\eoce{\qt{Nilai ujian\label{dist_shape_exam_scores}} Rerata nilai sebuah
+ujian sejarah (dengan nilai maksimum 100 poin) adalah 85, dengan simpangan baku
+15. Apakah distribusi nilai ujian ini simetris? Jika tidak, bentuk seperti apa
+yang Anda perkirakan untuk distribusi tersebut? Jelaskan penalaran Anda.
+}{}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 69156d43-6b19-55b9-8e16-317af2b1e4cf,a36d034f-f5c1-5f04-89ac-c4f4a6cd046d,1,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,986,1039,ad49b85b7f8990b5227fda65a52ea18f64221ef9362a56b8b7d28000b2298bdc,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,941,991,3ba075d64886f3f223e3b428bf2c59a9158036dce296ada9f0430f175676eddd,translated,"\subsection{Statistik robust}
@@ -3410,6 +3498,26 @@ pernapasan atas.
 
 % 22
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+7e048099-061b-57ab-a20d-c1a7bf996cde,cf7a2c60-ae2b-561a-983a-401900ec14f8,33,chapter-review-exercise,en,ch_summarizing_data/TeX/review_exercises.tex,108,125,7f50d73dd1a677d3099baa0105632ea6b8c52436447d08d351447e977a2e9216,id-ID,repo/ch_summarizing_data/TeX/review_exercises.tex,131,149,3cab8038a14b23f30705e0ce34194636398d5e94492f23fc3ebadfed60b3b91c,language_reviewed,"% 33
+
+\eoce{\qt{Nilai statistika\label{stats_scores_box}} Berikut adalah nilai ujian
+akhir dua puluh mahasiswa yang mengikuti mata kuliah statistika pengantar.
+\begin{center}
+57, 66, 69, 71, 72, 73, 74, 77, 78, 78, 79, 79, 81, 81, 82, 83, 83, 88, 89, 94
+\end{center}
+Buatlah diagram kotak untuk distribusi nilai tersebut. Ringkasan lima angka di
+bawah ini mungkin berguna.
+\begin{center}
+\renewcommand\arraystretch{1.5}
+\begin{tabular}{ccccc}
+Min & Q1    & Q2 (Median)   & Q3    & Maks \\
+\hline
+57  & 72.5  & 78.5          & 82.5  & 94 \\
+\end{tabular}
+\end{center}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 7e4cf8e4-a0d4-5938-9282-ea3db62eb94f,4cdfa335-3e1e-523b-88f0-48d4d680a618,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,18,23,2d742fbda5e3785c4973c51470b4302294c686ad28dbc3067a36a6eb28f8285c,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,18,23,2c280ce8aed1f40397e7dc751138d784f75d91a7df0510e321317cc64a387783,translated,"\eocesol{(a)~Perlakuan: $10/43 = 0.23 \rightarrow 23\%$. \\
 (b)~Kontrol: $2/46 = 0.04 \rightarrow 4\%$. 
 (c)~Persentase pasien yang bebas nyeri 24 jam setelah menerima akupunktur
@@ -3561,6 +3669,60 @@ Kita juga dapat memeriksa hubungan antara \var{app\us{}type} dan \var{homeowners
   % \chaptersection{section_obs_data_sampling}
   \chaptersection{experimentsSection}
 \end{chapterpage}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+8524847d-4525-5708-99fd-ca530ca08703,c30ed712-53d9-5d5c-9e77-fc405aee5528,34,chapter-review-exercise,en,ch_summarizing_data/TeX/review_exercises.tex,126,144,fe40c5947946f89b7cbcdaaf23e0217d7d0b72e0918d63959d23db90aa559eb8,id-ID,repo/ch_summarizing_data/TeX/review_exercises.tex,150,202,d5042d9401f106be671ca7479ef631e0f3f51a12430666b8653dbd4228b60e6a,language_reviewed,"% 34
+
+\eoce{\qt{Pemenang maraton\label{marathon_winners}} Histogram dan diagram kotak
+di bawah ini menunjukkan distribusi waktu finis dalam jam bagi pemenang pria
+dan wanita Maraton New York antara 1970 dan 1999.
+\begin{center}
+\Figures[Ditampilkan dua grafik, yaitu sebuah histogram dan sebuah diagram
+kotak, dengan rentang sumbu masing-masing dari 2.0 hingga 3.2. Interval-interval
+kelas pada histogram adalah sebagai berikut: interval 2.0 hingga 2.2 memiliki
+tinggi 21, 2.2 hingga 2.4 memiliki tinggi 6, 2.4 hingga 2.6 memiliki tinggi 25,
+2.6 hingga 2.8 memiliki tinggi 3, 2.8 hingga 3.0 memiliki tinggi 2, dan 3.0
+hingga 3.2 memiliki tinggi 2. Pada diagram kotak, kotak membentang dari 2.2
+hingga 2.5 dengan garis median di 2.4. Kumis membentang dari sekitar 2.15 hingga
+2.75. Empat titik ditandai di atas kumis atas pada 2.9, 3.0, 3.10, dan
+3.15.]{0.56}{eoce/marathon_winners}{marathon_winners_hist_box}
+\end{center}
+\begin{parts}
+\item Ciri-ciri distribusi apa yang tampak pada histogram tetapi tidak pada
+diagram kotak? Ciri-ciri apa yang tampak pada diagram kotak tetapi tidak pada
+histogram?
+\item Apa yang mungkin menyebabkan distribusi bimodal tersebut? Jelaskan.
+\item Bandingkan distribusi waktu maraton pria dan wanita berdasarkan diagram
+kotak di bawah ini.
+\begin{center}
+\Figures[Ditampilkan diagram kotak berdampingan untuk waktu lari maraton, satu
+diagram kotak untuk pria dan satu untuk wanita. Sumbu waktu lari membentang dari
+2.0 hingga 3.2. Semua nilai yang diuraikan berikut merupakan perkiraan. Pada
+diagram kotak pria, kotak membentang dari 2.16 hingga 2.22 dengan garis median
+pada 2.19. Kumis membentang dari 2.12 hingga 2.27. Terdapat 6 titik di atas
+kumis atas pada 2.32, 2.36, 2.38, 2.44, 2.46, dan 2.50. Pada diagram kotak wanita,
+kotak membentang dari 2.44 hingga 2.52 dengan median 2.46. Kumis membentang dari
+2.41 hingga 2.57. Terdapat 6 titik di atas kumis atas pada 2.72, 2.78, 2.9,
+2.92, 3.12, dan 3.15.]{0.56}{eoce/marathon_winners}{marathon_winners_gender_box}
+\end{center}
+\item Grafik deret waktu di bawah ini merupakan cara lain untuk menelaah data
+tersebut. Uraikan apa yang tampak pada grafik ini tetapi tidak pada grafik lain.
+\end{parts}
+\begin{center}
+\Figures[Ditampilkan sebuah grafik deret waktu yang dalam kasus ini tampak
+seperti diagram pencar. Sumbu horizontal menyatakan tahun dan membentang dari
+1970 hingga 2000, sedangkan sumbu vertikal menyatakan ""Waktu maraton"" dan
+membentang dari 2.0 hingga 3.2 jam. Penanda wanita berupa tanda silang dan
+penanda pria berupa titik; warnanya juga berbeda. Terdapat satu titik pria
+untuk setiap tahun dan, kecuali pada tahun pertama, satu titik wanita. Seri
+pria dimulai pada sekitar 2.5 pada 1970, sedangkan seri wanita dimulai pada
+sekitar 2.9 pada 1971. Waktu finis kedua kelompok naik turun selama beberapa
+tahun, lalu menurun pada 1975 atau 1976 menjadi 2.2 untuk pria dan 2.7 untuk
+wanita. Waktu finis pemenang wanita terus menurun selama beberapa tahun hingga
+sekitar 2.5. Sepanjang tahun-tahun berikutnya, waktu finis berfluktuasi naik
+atau turun sekitar 0.1 jam dari tahun ke tahun, tetapi relatif stabil hingga
+1999, tahun terakhir yang datanya ditampilkan.]{0.6}{eoce/marathon_winners}{marathon_winners_time_series} \\
+\end{center}
+}{}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 873ad0f2-99d9-5829-b74d-210a9a962dd4,76494447-2b5b-55a0-acf9-028b903fa8cb,1,exercise,en,ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,118,131,342c9fbbb706ee7ad1c9d425616bb5ce797193008e8b5647ca849b8dd0cfa4e5,id-ID,repo/ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,115,128,a866b20e2c061e4f9f33951a438be37527cd3a6ab950e4c69601165dd9929276,translated,"\eoce{\qt{Kepuasan mata kuliah antarkelompok\label{course_satisfaction_sections}} 
 Sebuah kelas besar di perguruan tinggi memiliki 160 mahasiswa. Seluruh 
@@ -4219,6 +4381,29 @@ kebisingan (tanpa kebisingan, kebisingan konstruksi, dan suara percakapan manusi
 (c)~Karena peneliti hendak memastikan bahwa laki-laki dan perempuan terwakili sama banyak 
 dalam setiap perlakuan, variabel jenis kelamin menjadi variabel pemblokan.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+a1977ea0-6145-5aa9-a9ac-59e541bcdc91,8d6c63f9-60c2-562b-84f3-86db59a7d01e,30,chapter-review-exercise,en,ch_summarizing_data/TeX/review_exercises.tex,50,62,86f63ee75e68ee5bcb3f27c0c1a52e26c462b90a0203d21025d7431e48132483,id-ID,repo/ch_summarizing_data/TeX/review_exercises.tex,61,74,191ddd4a3fd8045f299e8b04335fd8fe1c51cee189ee316f37cc47614ebd61c4,language_reviewed,"% 30
+
+\eoce{\qt{Statistik baru\label{new_stat}} Statistik
+$\frac{\bar{x}}{median}$ dapat digunakan sebagai ukuran kemencengan. Misalkan
+kita memiliki distribusi yang seluruh pengamatannya lebih besar daripada 0,
+$x_i > 0$. Bagaimanakah bentuk distribusi yang diperkirakan dalam setiap kondisi
+berikut? Jelaskan penalaran Anda.
+\begin{parts}
+\item $\frac{\bar{x}}{median} = 1$
+\item $\frac{\bar{x}}{median} < 1$
+\item $\frac{\bar{x}}{median} > 1$
+\end{parts}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+a39b706d-b249-56b0-abcd-4580e64b5bf4,8759fdd7-08ec-51f2-8f2d-655e40548142,29,public-appendix-answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,383,389,7b5373c2deaec77245c873efad5b579d036c684b587d2ab0668f13a1c715b51b,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,409,415,12e0601e6a6e9ade32483c5febb3c344afa73467de1b5821db16b686ea1ffa3e,language_reviewed,"% 29
+
+\eocesol{Tidak. Kita memperkirakan distribusi ini menceng ke kanan karena dua
+alasan: (1)~terdapat batas alami pada 0 (mustahil menonton televisi kurang dari
+0 jam), dan (2)~simpangan baku distribusi sangat besar dibandingkan dengan
+rata-ratanya.}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 a3b8fb88-7330-56e7-9350-91217a21bf06,b4cd26a2-3443-5b4d-9a38-f2d9766ae10a,1,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,819,895,a1b6e858d62ff089e63df08c6facaf2b976a3b401bbfab8daa337df510d225ad,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,788,858,4d61c5be68053c96d287131c1a50c8e80b7c9b676260003af0fc65582bf25bae,translated,"\subsection{Diagram kotak, kuartil, dan median}
 
 Sebuah \term{diagram kotak} merangkum suatu kumpulan data menggunakan
@@ -4325,10 +4510,54 @@ berdampingan dengan lahan pertaniannya sehingga perjalanan mereka ke tempat kerj
 hal ini dapat menjelaskan mengapa waktu perjalanan rata-rata di county-county tersebut 
 relatif rendah.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+a6a96e76-dec6-523b-8fa5-a0fa9ea3fc0a,97422792-2010-5ea8-9616-b1f55c20cdf6,29,chapter-review-exercise,en,ch_summarizing_data/TeX/review_exercises.tex,40,49,05fb6bedc4a08201e7469359d2ee2859b621972ebc9be29b01a916a92e24bd55,id-ID,repo/ch_summarizing_data/TeX/review_exercises.tex,51,60,6d8157c44563d5730db7677e24faea93e46b3146bc45a14ddff73d89ebe07786,language_reviewed,"% 29
+
+\eoce{\qt{Penonton televisi\label{dist_shape_TV_watchers}} Para siswa dalam
+sebuah kelas AP Statistics ditanya berapa jam mereka menonton televisi setiap
+minggu (termasuk melalui layanan streaming daring). Sampel ini menghasilkan
+rerata 4.71 jam dengan simpangan baku 4.18 jam. Apakah distribusi banyaknya
+jam menonton televisi per minggu tersebut simetris? Jika tidak, bentuk seperti
+apa yang Anda perkirakan untuk distribusi ini? Jelaskan penalaran Anda.
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 a8354dd5-89e7-52e3-a652-a19ef44a6b5e,25818565-4a7c-5f4a-ba20-4ad1e69ddae5,1,guided_exercise,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,140,143,f2be1cc7aaee31fca5ab252df0cd322aa4a56eb012e6678704c9506a8976fe7d,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,139,142,2f86ba28728ee5261d598e6defa07634e44c98986a4e377ded305d81245f0017,translated,"\begin{nexercise}
 Apa yang diperlihatkan diagram pencar tentang data,
 dan apa kegunaannya?\footnotemark{}
 \end{nexercise}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+a84eea06-2017-52c0-a017-4db73775c59b,089a1c0f-be6b-55c7-889c-45c6aa156692,28,chapter-review-exercise,en,ch_summarizing_data/TeX/review_exercises.tex,18,39,6198aee28ea606c24162244ee3880519de326ab8030d0a6f0805500a9158a2c1,id-ID,repo/ch_summarizing_data/TeX/review_exercises.tex,19,50,ab46b941db1c1a19c469155a144ce14be3f3d620edc347daf1e9751bd710f431,language_reviewed,"% 28
+
+\eoce{\qt{Kematian bayi\label{infant_mortality}} Angka kematian bayi
+didefinisikan sebagai banyaknya kematian bayi per 1,000 kelahiran hidup. Angka
+ini sering digunakan sebagai indikator tingkat kesehatan suatu negara.
+Histogram frekuensi relatif di bawah ini menunjukkan distribusi perkiraan angka
+kematian bayi untuk 224 negara yang datanya tersedia pada 2014.
+\footfullcite{data:ciaFactbook}
+
+\noindent\begin{minipage}[c]{0.43\textwidth}
+\begin{parts}
+\item Perkirakan Q1, median, dan Q3 dari histogram tersebut.
+\item Apakah Anda memperkirakan rata-rata kumpulan data ini lebih kecil atau
+lebih besar daripada mediannya? Jelaskan penalaran Anda.
+\end{parts} \vfill \
+\end{minipage}
+\begin{minipage}[c]{0.52\textwidth}
+\hfill%
+\Figures[Sebuah histogram ditampilkan untuk variabel ""Kematian Bayi (per 1000
+kelahiran hidup)"" dengan rentang sumbu dari 0 hingga 120. Sumbu vertikal
+histogram menyatakan ""Proporsi Negara"" dan membentang dari 0 hingga 0.4.
+Untuk setiap interval, jumlah negara, tinggi proporsi eksak, dan tinggi yang
+dibulatkan ke dua tempat desimal adalah sebagai berikut: 0 hingga 10: 84 negara
+(84/224; 0.38); 10 hingga 20: 50 negara (50/224; 0.22); 20 hingga 30: 24 negara
+(24/224; 0.11); 30 hingga 40: 13 negara (13/224; 0.06); 40 hingga 50: 14 negara
+(14/224; 0.06); 50 hingga 60: 17 negara (17/224; 0.08); 60 hingga 70: 8 negara
+(8/224; 0.04); 70 hingga 80: 7 negara (7/224; 0.03); 80 hingga 90: 1 negara
+(1/224; 0.00); 90 hingga 100: 3 negara (3/224; 0.01); 100 hingga 110: 2 negara
+(2/224; 0.01); dan 110 hingga 120: 1 negara (1/224; 0.00).]{0.85}{eoce/infant_mortality_rel_freq}{infant_mortality_rel_freq_hist}
+\end{minipage}
+}{}
+
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 a978e4b6-1fec-5e8f-9c46-cbf239644527,60a2cb71-2aa1-5917-9379-f7f55474c01a,1,review_heading,en,ch_intro_to_data/TeX/review_exercises.tex,1,1,fa49e97aff561605b9912c9d0e3a0c35242bb6b73f9d388744260b6299cae8da,id-ID,repo/ch_intro_to_data/TeX/review_exercises.tex,4,4,fa49e97aff561605b9912c9d0e3a0c35242bb6b73f9d388744260b6299cae8da,translated,"\reviewexercisesheader{}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
@@ -4906,6 +5135,23 @@ teramati antara peningkatan stres dan kram otot.
 }{}
 
 % 23
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+c7d04a9b-6843-59af-bd93-486f9ff0addf,bf8a9ea5-2ceb-51fa-b10f-4c470d3b7e00,27,chapter-review-exercise,en,ch_summarizing_data/TeX/review_exercises.tex,3,17,2419a43ab84113e47369754f4b6cb44e0c76db9720e5d4bdbfe3ec71161f35b1,id-ID,repo/ch_summarizing_data/TeX/review_exercises.tex,3,18,38886169c58d01d91896e1f8f6579cb6603787be076142aeb3cf68f3db983888,language_reviewed,"% 27
+
+\eoce{\qt{Ujian susulan\label{makeup_exam}} Dalam sebuah kelas yang terdiri atas
+25 mahasiswa, 24 mahasiswa mengikuti ujian di kelas dan 1 mahasiswa mengikuti
+ujian susulan pada hari berikutnya. Dosen menilai 24 ujian pertama dan
+memperoleh rerata nilai 74 poin dengan simpangan baku 8.9 poin. Mahasiswa
+yang mengikuti ujian susulan pada hari berikutnya memperoleh nilai 64 poin.
+\begin{parts}
+\item Apakah nilai mahasiswa yang mengikuti ujian susulan tersebut menaikkan
+atau menurunkan rerata nilai?
+\item Berapakah rerata nilai yang baru?
+\item Apakah nilai mahasiswa yang mengikuti ujian susulan tersebut menaikkan
+atau menurunkan simpangan baku nilai-nilai itu?
+\end{parts}
+}{}
+
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 c80ba3a4-493f-5f85-8918-63970163ed65,6cdc5305-7872-5fcc-b9b1-267950977dbe,1,exercise,en,ch_intro_to_data/TeX/data_basics.tex,170,200,f2c35547c56a685412bf2860cfb5b21fef82814f97740864a89aa56e7fcdae7c,id-ID,repo/ch_intro_to_data/TeX/data_basics.tex,170,199,11600f3928b8adf0cb4c7ca26248cf493ad128902d214d58e8d035953bf53758,translated,"\eoce{\qt{Kebiasaan merokok penduduk Britania Raya\label{smoking_habits_UK_datamatrix}} Sebuah survei
 dilakukan untuk mempelajari kebiasaan merokok penduduk Britania Raya. Matriks

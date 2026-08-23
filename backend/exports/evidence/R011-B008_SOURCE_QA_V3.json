@@ -1,0 +1,225 @@
+{
+  "$schema": "r011-b008-source-qa/v3",
+  "authority": {
+    "commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "repository": "https://github.com/OpenIntroStat/openintro-statistics",
+    "tree": "d61cc601e7d97759ce805900520f784d02a0489e"
+  },
+  "boundary_id": "R011-B008",
+  "checks": {
+    "blockers": [],
+    "failed": 0,
+    "passed": 30
+  },
+  "exact_reconstruction": {
+    "ch_summarizing_data/TeX/review_exercises.tex": {
+      "exact_changes": [
+        "top vspace fill inserted around the page-80 block",
+        "gender-box width 0.56 to 0.90",
+        "time-series width 0.75 to 0.95",
+        "bottom vspace fill inserted around the page-80 block"
+      ],
+      "forward_replay_exact": true,
+      "instructional_content_order_mathematics_labels_alt_text_and_asset_paths_unchanged": true,
+      "reverse_exact": true,
+      "v2_preimage": {
+        "bytes": 9331,
+        "sha256": "b5a3d928255c6cc20010d2227eaffeb1a15e5f50cd35f689a69c2e633c423f06"
+      },
+      "v3_postimage": {
+        "bytes": 9363,
+        "sha256": "91f393cf22afbace8f80626d50558809acc283417805e7aa814aecb2b0d32ae3"
+      }
+    },
+    "v2_preimage_reconstructed_exactly": true,
+    "v3_postimage_forward_replayed_exactly": true
+  },
+  "gate_script": {
+    "bytes": 17988,
+    "path": "scripts/qa_source_b008_v3.py",
+    "sha256": "d282684639300c409a2f36940ad3c0530e62261196bcb23e86d2d1951f8b6b80"
+  },
+  "immutable_v2_evidence": {
+    "files": 1206,
+    "manifest": {
+      "bytes": 175582,
+      "path": "qa/b008-source/R011-B008_SOURCE_MANIFEST_V2.tsv",
+      "sha256": "67aa27af504aa442cf4f80be20ba2c2c7c37530049125c40b00f627f9f8c7dc1"
+    },
+    "source_qa": {
+      "bytes": 6411,
+      "path": "qa/b008-source/R011-B008_SOURCE_QA_V2.json",
+      "sha256": "8d7ff2dc438d27474ce6395bd354d6139bf983a4c360131a109165df421116d5"
+    },
+    "verified_terminal_pass": true
+  },
+  "inherited_checks_reperformed": {
+    "english_pdf_witnesses_unchanged": 6,
+    "localized_pdfs_unchanged": 6,
+    "localized_producers_unchanged": 4,
+    "metadata": [
+      {
+        "bytes": 3894,
+        "path": "README.md",
+        "sha256": "2b370c57555723513f9aa71df298774c726a59a0732cb67dea17ce5a186301df"
+      },
+      {
+        "bytes": 1175,
+        "path": "CITATION.cff",
+        "sha256": "e97c051f940d656235ca1b8848d5c632f49d743068a741cfb3c7fa8597e29e6e"
+      }
+    ],
+    "o001_gaps": [
+      28,
+      30,
+      32,
+      34
+    ],
+    "production_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+    "public_answers": [
+      27,
+      29,
+      31,
+      33
+    ],
+    "restricted_solutions_accessed_or_invented": false,
+    "source_author_credits_preserved": true,
+    "terminology_qa": {
+      "bytes": 9629,
+      "path": "qa/terminology/R011_TERMINOLOGY_FIELD_USAGE_QA.json",
+      "sha256": "e52e69e6bd64dd5078adbd63a82f7923a4d4ba1e5f14ceecec5a3d0a8108a9d0"
+    }
+  },
+  "input_identities": [
+    {
+      "bytes": 27969,
+      "path": "scripts/qa_source_b008_v2.py",
+      "sha256": "ec3423eefc3e5ae2c33123c7819291777b7cdb5de55dc0465faf21d446dc46f3"
+    },
+    {
+      "bytes": 175582,
+      "path": "qa/b008-source/R011-B008_SOURCE_MANIFEST_V2.tsv",
+      "sha256": "67aa27af504aa442cf4f80be20ba2c2c7c37530049125c40b00f627f9f8c7dc1"
+    },
+    {
+      "bytes": 6411,
+      "path": "qa/b008-source/R011-B008_SOURCE_QA_V2.json",
+      "sha256": "8d7ff2dc438d27474ce6395bd354d6139bf983a4c360131a109165df421116d5"
+    },
+    {
+      "bytes": 22017323,
+      "path": "qa/b008-build/final-v2/main.pdf",
+      "sha256": "8e6d91a813206f7672fbed1736bed97f7eb48e3adc56f690fb696b7daa0ea9ef"
+    },
+    {
+      "bytes": 17149,
+      "path": "qa/b008-build/final-v2/CANDIDATE_BUILD_QA_V2.json",
+      "sha256": "f79462b733817eb13b70616a5f8f347a599e959c4c532a0eca0aa9ca5f0d7a5b"
+    },
+    {
+      "bytes": 2257,
+      "path": "qa/b008-build/BUILD_ONLY_VISUAL_SANITY_V2.json",
+      "sha256": "d395b51cb587048fdea11489e10c37095b2fedeb681757c850e78d58888bb092"
+    },
+    {
+      "bytes": 2231,
+      "path": "qa/b008-visual/ROOT_VISUAL_FINDINGS_V2.json",
+      "sha256": "0975aeade7f4563cb32eec8865f9b08e3e7f6598bc92e15b20541ccf328971da"
+    },
+    {
+      "bytes": 2506,
+      "path": "qa/b008-source/R011-B008_V2_LAYOUT_REPAIR_RECEIPT.json",
+      "sha256": "c3c57c19067667e99f8db485274b3834ae56ce66930384f7a4430bfe86286a8f"
+    }
+  ],
+  "pending": [
+    "deterministic V3 whole-book build",
+    "full-resolution inspection of pages 78-82 and 388-391"
+  ],
+  "rejected_v2_candidate": {
+    "build_receipt": {
+      "bytes": 17149,
+      "path": "qa/b008-build/final-v2/CANDIDATE_BUILD_QA_V2.json",
+      "sha256": "f79462b733817eb13b70616a5f8f347a599e959c4c532a0eca0aa9ca5f0d7a5b"
+    },
+    "build_visual_findings": {
+      "bytes": 2257,
+      "path": "qa/b008-build/BUILD_ONLY_VISUAL_SANITY_V2.json",
+      "sha256": "d395b51cb587048fdea11489e10c37095b2fedeb681757c850e78d58888bb092"
+    },
+    "candidate_pdf": {
+      "bytes": 22017323,
+      "path": "qa/b008-build/final-v2/main.pdf",
+      "sha256": "8e6d91a813206f7672fbed1736bed97f7eb48e3adc56f690fb696b7daa0ea9ef"
+    },
+    "nonvisual_build_passed": true,
+    "remaining_finding": "R011-B008-V2-P2-001",
+    "root_visual_findings": {
+      "bytes": 2231,
+      "path": "qa/b008-visual/ROOT_VISUAL_FINDINGS_V2.json",
+      "sha256": "0975aeade7f4563cb32eec8865f9b08e3e7f6598bc92e15b20541ccf328971da"
+    },
+    "visual_verdict": "REJECTED_LAYOUT_ONLY"
+  },
+  "repair_authority": {
+    "receipt": {
+      "bytes": 2506,
+      "path": "qa/b008-source/R011-B008_V2_LAYOUT_REPAIR_RECEIPT.json",
+      "sha256": "c3c57c19067667e99f8db485274b3834ae56ce66930384f7a4430bfe86286a8f"
+    },
+    "repair_id": "R011-B008-REPAIR-003",
+    "scope_exact": true
+  },
+  "scope": {
+    "answers_changed": 0,
+    "assets_changed": 0,
+    "canonical_pdf_backend_output_release_mutated": false,
+    "exercise_or_answer_relations_changed": 0,
+    "exercises": [
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "o001_gaps": [
+      28,
+      30,
+      32,
+      34
+    ],
+    "public_answers": [
+      27,
+      29,
+      31,
+      33
+    ],
+    "reader_visible_translation_changed": false,
+    "restricted_solution_content_added": false
+  },
+  "source_closure": {
+    "added_files": 0,
+    "base": "R011-B008 source QA V2",
+    "changed_files": [
+      "ch_summarizing_data/TeX/review_exercises.tex"
+    ],
+    "files": 1206,
+    "manifest": {
+      "bytes": 175582,
+      "path": "qa/b008-source/R011-B008_SOURCE_MANIFEST_V3.tsv",
+      "sha256": "743b4906fad27bad1adfcb331566517314a93602d6df3c3cc279aa56a88745f4"
+    },
+    "removed_files": 0,
+    "unchanged_files_exact": 1205,
+    "unexpected_files": 0
+  },
+  "status": "PASS_PAGE_FILL_REPAIRED_SOURCE_CLOSURE",
+  "write_boundary": [
+    "scripts/qa_source_b008_v3.py",
+    "qa/b008-source/R011-B008_SOURCE_MANIFEST_V3.tsv",
+    "qa/b008-source/R011-B008_SOURCE_QA_V3.json"
+  ]
+}

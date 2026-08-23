@@ -1,0 +1,63 @@
+{
+  "schema": "r011-b008-machine-qa-v1",
+  "task_id": "R011-B008",
+  "status": "PASS",
+  "command": "python qa/check_outputs.py",
+  "checker": {
+    "path": "qa/check_outputs.py",
+    "bytes": 10623,
+    "sha256": "6d46360bedf2ca0fc7e3c5cf476a02a2f5ab66f9f264256cd13446bca3afb660"
+  },
+  "authoritative_detail": {
+    "path": "qa/analysis/machine_results.json",
+    "bytes": 14873,
+    "sha256": "0ba01769fd1eb4b20faa09f462aa619d277e3dd3f4977158374aa047ed655323"
+  },
+  "toolchain": {
+    "python": "3.13.9",
+    "pypdf": "6.12.2",
+    "pillow": "12.2.0",
+    "poppler_pdftoppm": "25.07.0",
+    "mupdf_mutool": "1.23.0",
+    "render_dpi": 216
+  },
+  "checks": [
+    {"name": "two independent PDF passes are byte-identical", "status": "PASS", "files": 6},
+    {"name": "final output copies equal pass 2", "status": "PASS", "files": 6},
+    {"name": "one page, MediaBox, PDF 1.4 header, axes, data paths, and colors preserved", "status": "PASS", "files": 6},
+    {"name": "declared transformations exhaust decoded content differences", "status": "PASS", "files": 6},
+    {"name": "localized labels present and targeted English residue absent", "status": "PASS", "files": 6},
+    {"name": "pass-1 and pass-2 Poppler rasters byte-identical", "status": "PASS", "renders": 6},
+    {"name": "pass-1 and pass-2 MuPDF rasters byte-identical", "status": "PASS", "renders": 6},
+    {"name": "absolute profile paths absent from final PDF bytes", "status": "PASS", "files": 6}
+  ],
+  "portable_markers": [
+    {
+      "file": "output/pdf/marathon_winners_time_series.pdf",
+      "count": 31,
+      "source_origin_sequence_sha256": "729d00ff06906675e53d3fb7e3f45ae02d25eae266f94ce4f232d3f0efc39625",
+      "target_representation": "explicit vector path",
+      "poppler_visible": 31,
+      "mupdf_visible": 31,
+      "exact_origins": "qa/analysis/machine_results.json"
+    },
+    {
+      "file": "output/pdf/stats_scores_boxplot.pdf",
+      "count": 1,
+      "source_origin_sequence_sha256": "71e4abe1606489a93cfc1b4bc14da3c0e3187c3e7face395120bd1c95ed0b2c8",
+      "target_representation": "explicit vector path",
+      "poppler_visible": 1,
+      "mupdf_visible": 1,
+      "exact_origins": "qa/analysis/machine_results.json"
+    }
+  ],
+  "output_sha256": {
+    "infant_mortality_rel_freq_hist.pdf": "08b260d84539ae79f620ae36eb06c7543e212f3be84fb2c63533ae6a8267d185",
+    "oscars_winners_hist.pdf": "284b832da5c0f2cff343435aa540b8f2c777fdb16b4e3652db9bc1291532d9ef",
+    "marathon_winners_hist_box.pdf": "a82a9e9ad392be34dfc5bc40cf789252b3b197853b0ca78edf65712a60589043",
+    "marathon_winners_gender_box.pdf": "b554c0c57e6a5fb6baef9117bf35ebbb859986930f8e9aacc26ea16a71f76fd8",
+    "marathon_winners_time_series.pdf": "d5d89f87264594f957433e1064baa356d0f6a5c41f515fa98fc63722150aea5a",
+    "stats_scores_boxplot.pdf": "1de61b3686455aa98e89d296e947865c2ea3d829b07c00ca56729d22f707da4a"
+  },
+  "blockers": []
+}

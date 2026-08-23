@@ -56,6 +56,7 @@ id,concept_id,source_term,target_term,locale,variants,rejected_forms,scope,regis
 859fcdba-5422-5d63-b11a-3098d6f51766,3ee05ce5-34a2-50e0-8414-5488d45e4e15,mean,rata-rata,id-ID,[],[],descriptive statistics,academic,translated
 867307b6-15bf-51b4-bb24-7428d4052873,e5fd01c5-ba33-5c11-8054-6d191fc66639,interquartile range,rentang antarkuartil,id-ID,[],[],descriptive statistics,academic,translated
 86a10416-dd29-5c3e-989a-e5baf5c67c51,1557534c-d0f9-5d9f-b69d-97e1f366d3b3,standardized stacked bar plot,diagram batang bertumpuk terstandarisasi,id-ID,[],[],data visualization,academic,translated
+86b9543a-5e78-5f12-a381-701536d506d8,1cf70d78-b32f-5be5-bc3f-f2792574cab1,mean-to-median ratio,rasio rata-rata terhadap median,id-ID,[],[],chapter review exercises 2.27-2.34,academic,structurally_verified
 8834dac5-97d7-5589-9cfe-13d4e39670a3,c0c417a6-c314-572e-b9d0-2d5c5dcb9dd9,retrospective observational study,studi observasional retrospektif,id-ID,[],[],Avandia exercise,academic,structurally_verified
 89b88e44-05db-5d66-ab33-ba624855eed7,5594ac04-c075-52ae-b2ea-7374ea43221a,sample,sampel,id-ID,[],[],sampling and study design,academic,draft
 8c09d6ee-190e-5564-812d-1d4fd87ac3c1,2c25f8a0-57ca-5170-8226-10347de83596,robust statistic,statistik robust,id-ID,[],[],descriptive statistics,academic,translated
@@ -81,6 +82,7 @@ a43a5098-0edc-580c-9148-078287f9600c,32ef074f-ce3a-5744-a7e3-e9c0e3b3c440,sham s
 a46d0111-c600-5454-ac54-abdddbb2ac92,8d7b233e-b87b-5470-93e8-7ee26c31593d,retrospective study,studi retrospektif,id-ID,[],[],sampling and study design,academic,draft
 a6d85367-f698-54eb-a870-63ff68779b2b,716fc072-1834-5267-8577-8d9a1dfc3c06,randomization,pengacakan,id-ID,[],[],experimental design,academic,draft
 a71ffb75-8153-5ad8-9575-82135aac2ef0,32f0d81e-fba0-53df-83bf-b17fe4746090,row proportion,proporsi baris,id-ID,[],[],contingency table,academic,translated
+a7652b85-3ecd-5cab-9aac-0df26b0ed27a,c83e824f-46d2-5e04-8b02-024e7508e6cb,distribution shape,bentuk distribusi,id-ID,[],[],chapter review exercises 2.27-2.34,academic,structurally_verified
 a9bd1910-c684-54f0-ac9f-9bc4fd00eaef,19dd1a68-3be1-5e34-9fce-1963b24d4ef1,random assignment,alokasi acak,id-ID,"[""penempatan acak"",""pengacakan penempatan""]","[""pemilihan acak""]","experimental assignment, not population sampling",academic,draft
 abd42472-1630-58b8-875a-11ae981c7043,79c98b3e-9b1e-56b1-97aa-2decde5a265a,quartile,kuartil,id-ID,[],[],descriptive statistics,academic,translated
 acd9e6dc-2c82-5aa9-b854-99b40a9c92ad,6935d7b2-c75d-581a-9d05-61fe84151ba0,column total,total kolom,id-ID,[],[],contingency table,academic,translated
@@ -95,6 +97,7 @@ bc202e23-d84f-5cb4-a069-5d9e51ddb4d4,8f140534-f401-5d5c-a0d3-e6d0b4b6fe02,simula
 c10a84ef-ec2b-53c8-8311-1c44cec8f50a,f2cef028-5304-5b6f-bbe4-6ec6823bf173,unimodal,unimodal,id-ID,[],[],distribution shape,academic,translated
 c1e5a866-d5e8-5509-b03d-e9f5f3a49de2,ff0075a5-41d4-5a3a-954b-bdfe4abb291f,malaria vaccine,vaksin malaria,id-ID,[],[],clinical study,academic,structurally_verified
 c200c421-b87a-5c06-97f1-87a76c51c2eb,90395241-5c20-5c31-b8c9-118bc61f2b3a,point estimate,estimasi titik,id-ID,[],[],inference,academic,translated
+c4f2916d-bdcc-5c84-963b-e868682dd091,57f61578-d4ed-5129-9078-4e82e033277c,time-series plot,grafik deret waktu,id-ID,[],[],chapter review exercises 2.27-2.34,academic,structurally_verified
 c5f6d081-9f12-5839-9799-104ac9cb948f,15259de1-8af3-5a51-8c24-17536e076114,dependent,saling dependen,id-ID,[],[],relationship between variables,academic,translated
 c879f35c-0a04-5191-8041-d7bff3528cb1,cd2ae8e8-54a8-5158-ad35-31fbdecc52c7,IQR,IQR,id-ID,[],[],descriptive statistics abbreviation,academic,translated
 ca0a5a5f-466b-5409-84e1-5a5d7f6c7331,3628fe9d-5d14-57de-8e9a-d27ff2ffbb71,simple random sample,sampel acak sederhana,id-ID,[],[],sampling and study design,academic,draft
@@ -125,6 +128,7 @@ ef09cbd7-ca24-5ebe-9434-617c107c0282,d02ad5e2-bbe4-5912-b181-e8123916d48e,deviat
 f255495d-05be-5693-9b9c-6a32fb6c0141,f9d9ab73-6c38-5df8-a04d-47131ed0db45,prospective study,studi prospektif,id-ID,[],[],sampling and study design,academic,draft
 f2960679-bb72-539e-8efe-cfbc86d9aa29,59459694-3daa-53d6-bbd2-8715fb6477b4,control group,kelompok kontrol,id-ID,[],[],experimental design,academic,draft
 f3b4dd5c-bbdd-513b-858d-6fa1618fbaa4,0549ec0b-5f6b-5d9c-bf06-15321c2dbc46,confounding variable,variabel perancu,id-ID,[],[],sampling and study design,academic,draft
+f4b245cc-6262-52e3-b1ad-bdf642648281,d3c85f75-5577-52b4-b81d-2dc426ed815d,five-number summary,ringkasan lima angka,id-ID,[],[],chapter review exercises 2.27-2.34,academic,structurally_verified
 f6353487-3fa5-5434-9aad-5ad949aafb76,b69431f9-05b1-56a1-af04-f328007b784f,dot plot,diagram titik,id-ID,[],[],data visualization,academic,translated
 f858d029-3a44-567f-b92f-b2286cc5c5cd,7b6b82c2-0367-5b4d-bb75-643f3165be28,box plot,diagram kotak,id-ID,[],[],data visualization,academic,translated
 f9059826-6e10-5027-acd8-165acd75fa93,44df07a3-cbd5-5644-ace3-b913e58b3afa,statistical inference,statistika inferensial,id-ID,[],"[""inferensi statistika""]",field of statistics,academic,structurally_verified

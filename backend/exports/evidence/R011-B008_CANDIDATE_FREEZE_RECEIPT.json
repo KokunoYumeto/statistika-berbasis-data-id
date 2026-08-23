@@ -1,0 +1,295 @@
+{
+  "schema": "r011-b008-root-candidate-freeze-audit/v1",
+  "boundary_id": "R011-B008",
+  "locale": "id-ID",
+  "audited_at": "2026-08-23T00:47:32+02:00",
+  "authority_role": "root-final candidate freeze",
+  "status": "PASS",
+  "verdict": "FROZEN_AND_TRANSACTION_READY_FOR_BINDING",
+  "scope": {
+    "candidate_root": "scratch/R011-B008-candidate",
+    "write_set": [
+      "scratch/R011-B008-candidate/R011-B008_ROOT_CANDIDATE_FREEZE_RECEIPT.json"
+    ],
+    "canonical_mutation_performed": false,
+    "backend_mutation_performed": false,
+    "control_mutation_performed": false,
+    "output_or_release_mutation_performed": false,
+    "git_or_publication_mutation_performed": false,
+    "upstream_contact_performed": false
+  },
+  "authority": {
+    "repository": "https://github.com/OpenIntroStat/openintro-statistics",
+    "commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "tree": "d61cc601e7d97759ce805900520f784d02a0489e",
+    "freeze_control": {
+      "path": "authority/UPSTREAM_AUTHORITY.json",
+      "bytes": 912,
+      "sha256": "3e4e2b4921d32d62e3b269e2a7f258c63d1d6fcbed2a6ff1cededfc35a5bbd2d"
+    },
+    "file_manifest": {
+      "path": "authority/UPSTREAM_FILE_MANIFEST.csv",
+      "bytes": 220851,
+      "sha256": "a903668df126a827a3781c0587705e035d46af65762690d965fd6896c653a39d"
+    },
+    "review_source": {
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_summarizing_data/TeX/review_exercises.tex",
+      "bytes": 8289,
+      "sha256": "ea3fc3367399f9863a91312decf5f334534ff5d75ac4b8aa698918229050aa16"
+    },
+    "public_answer_source": {
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/extraTeX/eoceSolutions/eoceSolutions.tex",
+      "bytes": 106045,
+      "sha256": "6c4e01376db4c023cc7b3f9949490e57220ef1cb831c580da71efde6ce723268"
+    },
+    "citation_source": {
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/eoce.bib",
+      "bytes": 30361,
+      "sha256": "42191d6cb80b562e3bb769388759cba25b1798ae416536ebfdcf73de0770217a"
+    }
+  },
+  "control_basis": [
+    {
+      "path": "00_control/TERMINOLOGY.csv",
+      "bytes": 14120,
+      "sha256": "274cd6068a0eddb9f4f845f388ecabbf1781cc25510ee8826731e5279ebd72b8"
+    },
+    {
+      "path": "00_control/TASK_AND_WORKFLOW.md",
+      "bytes": 5408,
+      "sha256": "78446a0087c6943854a10a0d5e0f174a3d8d2bd17078c36b22f4ae76cd91c21b"
+    },
+    {
+      "path": "00_control/DECISION_LOG.md",
+      "bytes": 17326,
+      "sha256": "1f61ac19ba60be6dcb659afea5f8a144bf70d4fee148c8fd5ca8694d5832ce24"
+    },
+    {
+      "path": "00_control/ADVERSE_LEDGER.jsonl",
+      "bytes": 46272,
+      "sha256": "e43d9a74d03e56df19d5435cf0f97d4c448d67b1613d4f3197b862f1777c733f"
+    }
+  ],
+  "frozen_candidates": [
+    {
+      "path": "scratch/R011-B008-candidate/review_exercises.tex",
+      "bytes": 9271,
+      "sha256": "40b6e3a052746bbd1f397a488e6e31ed1cc97fac27139d6c45f06962ff28e1c1",
+      "strict_utf8": true,
+      "terminal_lf": true,
+      "coverage": ["2.27", "2.28", "2.29", "2.30", "2.31", "2.32", "2.33", "2.34"],
+      "status": "PASS"
+    },
+    {
+      "path": "scratch/R011-B008-candidate/eoceSolutions.answers_2_27_2_33.tex",
+      "bytes": 1644,
+      "sha256": "2eb30d421dd4fbd87b43924fbb5ee8cef8af6737552746295a2243588946bd48",
+      "strict_utf8": true,
+      "terminal_lf": true,
+      "coverage": ["2.27", "2.29", "2.31", "2.33"],
+      "status": "PASS"
+    }
+  ],
+  "coverage_and_answer_policy": {
+    "exercise_markers_exact": [27, 28, 29, 30, 31, 32, 33, 34],
+    "exercise_source_order": "PASS",
+    "empty_second_eoce_arguments": 8,
+    "public_answer_markers_exact": [27, 29, 31, 33],
+    "public_answer_count": 4,
+    "exercise_answer_relations": {
+      "2.27": "make-up exam score, revised mean, and standard deviation",
+      "2.29": "TV-watching distribution shape",
+      "2.31": "Oscar winner age distributions",
+      "2.33": "statistics-score box plot"
+    },
+    "o001_gaps_exact": ["2.28", "2.30", "2.32", "2.34"],
+    "restricted_solution_access_or_reconstruction": false,
+    "invented_even_solution_content": false,
+    "status": "PASS"
+  },
+  "independent_protected_surface_audit": {
+    "review_latex_command_sequence": {"count": 115, "exact": true},
+    "review_environment_sequence": "exact",
+    "review_labels": [
+      "makeup_exam",
+      "infant_mortality",
+      "dist_shape_TV_watchers",
+      "new_stat",
+      "oscar_winners",
+      "dist_shape_exam_scores",
+      "stats_scores_box",
+      "marathon_winners"
+    ],
+    "review_labels_exact": true,
+    "citation_keys": ["data:ciaFactbook", "data:oscars"],
+    "citation_keys_exact_and_present_in_eoce_bib": true,
+    "review_math_exact": [
+      "$\\frac{\\bar{x}}{median}$",
+      "$x_i > 0$",
+      "$\\frac{\\bar{x}}{median} = 1$",
+      "$\\frac{\\bar{x}}{median} < 1$",
+      "$\\frac{\\bar{x}}{median} > 1$"
+    ],
+    "review_numeric_sequence_outside_corrected_2_28_alt": {
+      "source_tokens": 189,
+      "target_tokens": 189,
+      "exact_order_equal": true
+    },
+    "answer_source_fragment": {
+      "path": "scratch/R011-B008-transaction/payload/text/eoceSolutions.answers_2_27_2_33.source-en.tex",
+      "bytes": 1551,
+      "sha256": "aa1b90f980ce14f4fbd9baca215afccd0a791491bf02ac8671a4146817c12c7f",
+      "exact_occurrences_in_pinned_authority": 1,
+      "exact_occurrences_in_current_admitted_repo_suffix": 1
+    },
+    "answer_numeric_sequence": {"source_tokens": 28, "target_tokens": 28, "exact_order_equal": true},
+    "answer_math_exact": "$(24\\times 74 + 1\\times64)/(24+1) = 73.6$",
+    "answer_latex_command_sequence_exact": true,
+    "tables_statistics_and_asset_paths": "PASS",
+    "status": "PASS"
+  },
+  "language_and_terminology": {
+    "complete_accurate_natural_id_ID": "PASS",
+    "untranslated_reader_visible_english": [],
+    "bindings": [
+      {
+        "term_id": "R011-TERM-0081",
+        "source": "average",
+        "target": "rerata",
+        "locations": ["exercise 2.27", "exercise 2.29", "exercise 2.32"],
+        "status": "PASS"
+      },
+      {
+        "term_id": "R011-TERM-0080",
+        "source": "mean",
+        "target": "rata-rata",
+        "locations": ["exercise 2.28", "exercise 2.31 table", "answer 2.27", "answer 2.29"],
+        "status": "PASS"
+      },
+      {
+        "term_id": "R011-TERM-0086",
+        "source": "weighted mean",
+        "target": "rata-rata tertimbang",
+        "locations": ["answer 2.27"],
+        "status": "PASS"
+      }
+    ],
+    "other_controlled_terms": "PASS: distribusi, histogram, frekuensi relatif, simetris, kemencengan, simpangan baku, diagram kotak, median, kuartil, pencilan, and bimodal remain natural and consistent with the admitted ledger."
+  },
+  "defect_and_correction_inventory": {
+    "candidate_defects": [],
+    "candidate_blocking_defects": 0,
+    "accepted_source_corrections": [
+      {
+        "id": "R011-B008-SC-001",
+        "location": "exercise 2.31 accessibility text",
+        "source_defect": "The second histogram is mislabeled Best Actress in the English alternative text.",
+        "candidate_correction": "Aktor Terbaik",
+        "independent_evidence": "The pinned PDF, producer, values, summary table, and localized rendering identify the second panel as Best Actor.",
+        "status": "PASS"
+      },
+      {
+        "id": "R011-B008-SC-002",
+        "location": "exercise 2.28 accessibility text",
+        "source_defect": "The English alternative text omits the 110-120 bin and misstates multiple rounded heights.",
+        "candidate_correction": {
+          "counts": [84, 50, 24, 13, 14, 17, 8, 7, 1, 3, 2, 1],
+          "n": 224,
+          "rounded_heights": ["0.38", "0.22", "0.11", "0.06", "0.06", "0.08", "0.04", "0.03", "0.00", "0.01", "0.01", "0.00"]
+        },
+        "independent_evidence": "The 12 PDF rectangle heights independently yield the listed counts on the plotted 0-0.4 scale; counts sum to 224 and count/224 gives every stated height.",
+        "status": "PASS"
+      },
+      {
+        "id": "R011-B008-SC-003",
+        "location": "exercise 2.34 time-series accessibility text",
+        "source_defect": "The source says each year has both observations and omits marker shapes although the women's series begins in 1971.",
+        "candidate_correction": "Except for the first year, each year has a women's cross and a men's point.",
+        "independent_evidence": "Fresh Poppler and MuPDF renders show the 1970 men's point, 1971 start of the women's crosses, and distinct cross/point encodings.",
+        "status": "PASS"
+      },
+      {
+        "id": "R011-B008-SC-004",
+        "location": "exercise 2.34 accessibility text",
+        "source_defect": "The source calls 2.0-3.2 and 1970-2000 observed-data ranges.",
+        "candidate_correction": "The candidate identifies them as axis ranges.",
+        "independent_evidence": "Fresh renders show axis bounds extending beyond the observed data.",
+        "status": "PASS"
+      }
+    ],
+    "correction_scope_confined": true
+  },
+  "asset_freeze": {
+    "manifest": {
+      "path": "scratch/R011-B008-assets/receipts/manifest.json",
+      "bytes": 6187,
+      "sha256": "c3e13050700be7e252ff3edea8a3cfbeef8a94cd3bff7676ddcba5cd77f375d8"
+    },
+    "manifest_listed_files_recomputed": 22,
+    "manifest_listed_bytes_and_hashes_all_match": true,
+    "deterministic_rebuild_from_english_witnesses": "PASS: all six rebuilt PDFs are byte-for-byte equal to the sealed outputs",
+    "fresh_visual_qa": "PASS: all six one-page PDFs rendered at 300 dpi with Poppler and MuPDF; labels, marks, geometry, and alternative-text bindings were inspected",
+    "outputs": [
+      {"path": "scratch/R011-B008-assets/output/pdf/infant_mortality_rel_freq_hist.pdf", "bytes": 5461, "sha256": "08b260d84539ae79f620ae36eb06c7543e212f3be84fb2c63533ae6a8267d185", "media_box": [396, 216]},
+      {"path": "scratch/R011-B008-assets/output/pdf/oscars_winners_hist.pdf", "bytes": 5784, "sha256": "284b832da5c0f2cff343435aa540b8f2c777fdb16b4e3652db9bc1291532d9ef", "media_box": [360, 226]},
+      {"path": "scratch/R011-B008-assets/output/pdf/marathon_winners_hist_box.pdf", "bytes": 6300, "sha256": "a82a9e9ad392be34dfc5bc40cf789252b3b197853b0ca78edf65712a60589043", "media_box": [504, 158]},
+      {"path": "scratch/R011-B008-assets/output/pdf/marathon_winners_gender_box.pdf", "bytes": 6636, "sha256": "b554c0c57e6a5fb6baef9117bf35ebbb859986930f8e9aacc26ea16a71f76fd8", "media_box": [504, 108]},
+      {"path": "scratch/R011-B008-assets/output/pdf/marathon_winners_time_series.pdf", "bytes": 7379, "sha256": "d5d89f87264594f957433e1064baa356d0f6a5c41f515fa98fc63722150aea5a", "media_box": [648, 216]},
+      {"path": "scratch/R011-B008-assets/output/pdf/stats_scores_boxplot.pdf", "bytes": 5118, "sha256": "1de61b3686455aa98e89d296e947865c2ea3d829b07c00ca56729d22f707da4a", "media_box": [396, 144]}
+    ],
+    "alt_text_bindings": [
+      ["exercise 2.28", "infant_mortality_rel_freq_hist.pdf"],
+      ["exercise 2.31", "oscars_winners_hist.pdf"],
+      ["exercise 2.34(a-b)", "marathon_winners_hist_box.pdf"],
+      ["exercise 2.34(c)", "marathon_winners_gender_box.pdf"],
+      ["exercise 2.34(d)", "marathon_winners_time_series.pdf"],
+      ["answer 2.33", "stats_scores_boxplot.pdf"]
+    ],
+    "sealed_receipts": [
+      {"path": "scratch/R011-B008-assets/receipts/machine-qa.json", "bytes": 2897, "sha256": "5fc800c025025a25e04d8d7b427f45fe595f92aa7818f302dc91115307c71ca3"},
+      {"path": "scratch/R011-B008-assets/receipts/localization-qa.json", "bytes": 2657, "sha256": "310d01b61a6f77e613dcc3e77323f0675d136bf12fafa0f9992a6511cc599f4d"},
+      {"path": "scratch/R011-B008-assets/receipts/component-rights.json", "bytes": 3637, "sha256": "708d3077b646d4f68f6226ffd7eec5ad24f4500a40449eeaf6f394a319d44b18"},
+      {"path": "scratch/R011-B008-assets/receipts/visual-qa.md", "bytes": 2286, "sha256": "842ae9eb700ae6d8bcf294deac8d7574cc0256e377923e7259937157df2eff48"}
+    ],
+    "receipt_claims_used_as_attribution_only": false,
+    "status": "PASS"
+  },
+  "transaction_inputs": [
+    {"path": "scratch/R011-B008-transaction/preapplication-manifest.json", "bytes": 10832, "sha256": "80300060e6bb2d562c5501bdd33d278ace30d17a785f6f36277b299421096cf3"},
+    {"path": "scratch/R011-B008-transaction/application-manifest.json", "bytes": 23370, "sha256": "76cc90737b5bfb5de93824a652f883ea7c63a6f2a02e3ce6f9e1224170dc7162"},
+    {"path": "scratch/R011-B008-transaction/read-only-qa.json", "bytes": 3473, "sha256": "cadbe5818ebd1b2b66f05d8ebbceb42c4f417fa84c32a00d701b14cff42c6e9a"}
+  ],
+  "blockers": {
+    "candidate_freeze": [],
+    "later_canonical_application": [
+      "Bind this receipt path, exact bytes, SHA-256, and terminal assertions into gates.b008_candidate_freeze.",
+      "Bind the exact terminal B007 admission receipt and every B007-admitted canonical preimage identity.",
+      "Compute and bind the full eoceSolutions.tex post-splice bytes and SHA-256 against that admitted B007 base.",
+      "Retain fail-closed reverse-preimage capture and exact postimage verification for every declared operation."
+    ]
+  },
+  "next_application_bindings": {
+    "gates.b008_candidate_freeze.receipt_path": "scratch/R011-B008-candidate/R011-B008_ROOT_CANDIDATE_FREEZE_RECEIPT.json",
+    "gates.b008_candidate_freeze.required_review_sha256": "40b6e3a052746bbd1f397a488e6e31ed1cc97fac27139d6c45f06962ff28e1c1",
+    "gates.b008_candidate_freeze.required_answer_fragment_sha256": "2eb30d421dd4fbd87b43924fbb5ee8cef8af6737552746295a2243588946bd48",
+    "gates.b008_candidate_freeze.terminal_candidate_assertions": {
+      "status": "PASS",
+      "frozen": true,
+      "transaction_ready_for_binding": true,
+      "candidate_defects": 0,
+      "coverage_complete": true,
+      "o001_policy_preserved": true,
+      "four_source_corrections_verified": true,
+      "six_assets_and_alt_text_verified": true
+    },
+    "receipt_bytes_and_sha256": "RECOMPUTE_FROM_THIS_FINAL_SERIALIZATION_BEFORE_BINDING"
+  },
+  "terminal_assertions": {
+    "candidate_text_freeze_pass": true,
+    "candidate_defects": 0,
+    "candidate_blockers": 0,
+    "transaction_ready_for_binding": true,
+    "canonical_application_authorized_by_this_receipt": false,
+    "canonical_application_status": "DEFERRED_FAIL_CLOSED_UNTIL_LISTED_BINDINGS_ARE_COMPLETE"
+  }
+}

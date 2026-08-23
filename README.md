@@ -1,58 +1,48 @@
-# Statistika Berbasis Data — Bahasa Indonesia
+# Statistika Berbasis Data - rilis pelestarian R011-B008
 
-Edisi kerja Bahasa Indonesia (`id-ID`) yang diturunkan dari *OpenIntro Statistics*, Edisi Keempat. Judul turunannya sengaja berbeda; proyek ini bukan produk OpenIntro dan tidak berafiliasi dengan atau didukung oleh OpenIntro.
+Versi: `2026.08.23.2-R011-B008`
 
-> **Status R011-B007: belum lengkap.** Materi pendahuluan, Bab 1 lengkap, pembuka Bab 2, serta Bagian 2.1–2.3 telah diterjemahkan dan diterima. Latihan tinjauan Bab 2 mulai 2.27 dan materi selanjutnya masih berbahasa Inggris di dalam PDF batas kerja agar build buku penuh tetap dapat direproduksi.
+Status: **edisi kerja yang belum lengkap**. Rilis ini mempertahankan batas produksi R011-B008 setelah sumber, build deterministik, pemeriksaan nonvisual, pemeriksaan visual, backend modular, dan penerimaan terminal seluruhnya lulus. Rilis ini bukan edisi Bahasa Indonesia lengkap.
 
-## Baca dan unduh
-
-- [PDF batas kerja R011-B007](output/pdf/statistika-berbasis-data-batas-R011-B007.pdf) — 425 halaman, 22017185 byte, SHA-256 `ca872ddbc2fb1cab5f6cdb2fe745a0711a315fef68ab2e72c7a11d1c633a5c1a`.
-- [Rilis pelestarian tetap di Zenodo](https://doi.org/10.5281/zenodo.22063015) — PDF, sumber editable, backend modular, manifes, dan checksum.
-- [Cermin publik di Figshare](https://doi.org/10.6084/m9.figshare.33314727.v3) — DOI `10.6084/m9.figshare.33314727.v3`.
-- [Garis keturunan konsep Zenodo](https://doi.org/10.5281/zenodo.22059801) — selalu menunjuk versi terbaru dari edisi ini.
-
-PDF pelestarian memakai penulisan ulang transport lossless yang deterministik: 20940913 byte, SHA-256 `4fdbfa817781cf949e1c68b9349429685ec9caba4d4aeb520df84db534389493`. Isi teks, tujuan bernama, anotasi, metadata, jumlah halaman, dan piksel halaman audit identik dengan PDF batas yang diterima.
-
-## Cakupan yang diterima
+## Cakupan yang diterjemahkan dan diterima
 
 - halaman judul, atribusi, dan materi pendahuluan turunan;
-- Bab 1, Bagian 1.1–1.4, latihan 1.35–1.44, dan jawaban publik yang tersedia;
-- pembuka Bab 2 dan Bagian 2.1, *Menelaah data numerik*;
-- Bagian 2.2, *Menelaah data kategoris*;
-- Bagian 2.3, *Studi kasus: vaksin malaria*, termasuk latihan 2.25–2.26;
-- semua jawaban publik yang tersedia sampai latihan 2.25.
+- Bab 1 lengkap, termasuk Bagian 1.1-1.4, latihan akhir bab 1.35-1.44, dan jawaban publik yang tersedia;
+- pembuka Bab 2 serta Bagian 2.1, 2.2, dan 2.3;
+- latihan Bab 2 sampai 2.34, termasuk latihan tinjauan 2.27-2.34;
+- jawaban publik ganjil sampai 2.33 yang tersedia dari sumber;
+- catatan celah umpan balik `O001` untuk latihan genap 2.28, 2.30, 2.32, dan 2.34.
 
-Latihan tanpa jawaban publik dicatat sebagai celah pendamping `O001`. Tidak ada solusi instruktur terbatas yang diakses, direkonstruksi, atau disajikan seolah-olah berasal dari sumber. Cursor berikutnya adalah latihan tinjauan Bab 2 mulai 2.27.
+Tidak ada solusi instruktur terbatas yang diakses, direkonstruksi, atau dinyatakan sebagai solusi sumber. Materi setelah batas latihan 2.34 tetap berbahasa Inggris di PDF batas kerja untuk menjaga build buku lengkap dapat direproduksi; sufiks tersebut belum merupakan hasil terjemahan yang diterima.
 
-## Isi repositori
+## Berkas
 
-- `repo/` — penutupan sumber LaTeX dan aset tepat untuk batas R011-B007;
-- `backend/exports/` dan `backend/schemas/` — 2264 rekaman bertipe, proyeksi CSV, pelokalan `id-ID`, skema, serta bukti penerimaan;
-- `output/pdf/` — PDF pembaca yang telah diterima;
-- `qa/`, `authority/`, dan `scripts/` — bukti ringkas serta gerbang reproduksi yang mengikat batas R011-B007;
-- `release/` — metadata dan tanda terima publikasi yang telah disanitasi.
+1. `00_STATISTIKA_BERBASIS_DATA_ID_R011-B008_WORKING_READER.pdf` - PDF pembaca utama; urutan berkas sengaja mendahulukan pembaca.
+2. `01_STATISTIKA_BERBASIS_DATA_ID_R011-B008_EDITABLE_SOURCE.zip` - penutupan sumber LaTeX dan aset yang dapat disunting, dengan pengecualian hak komponen yang dicatat.
+3. `02_STATISTIKA_BERBASIS_DATA_ID_R011-B008_MODULAR_BACKEND.zip` - ekspor backend modular yang telah diterima, manifes, skema, dan tanda terima QA.
+4. `CITATION.cff`, `LICENSES_AND_ATTRIBUTION.md`, `README_RELEASE.md`, `RELEASE_MANIFEST.json`, `SHA256SUMS.txt`, dan `ZENODO_METADATA.json` - metadata, hak, inventaris, dan checksum.
 
-## Otoritas dan reproduksi
+`RELEASE_MANIFEST.json` mengikat byte sumber V3 yang diterima, PDF deterministik, audit visual final, tanda terima batas, backend yang diterima, dan verifikasi pascapenerimaan. Pembuatan paket menolak berjalan sebelum semua identitas terminal itu tersedia dan cocok.
 
-Sumber resmi dibekukan pada repositori [`OpenIntroStat/openintro-statistics`](https://github.com/OpenIntroStat/openintro-statistics), komit `fee25091fb24e89c36296fd67c48c1fcf7a93b6e`, pohon `d61cc601e7d97759ce805900520f784d02a0489e`.
+## Otoritas dan kredit
 
-Build statis memakai gambar yang sudah dikomit dan urutan berikut dari dalam `repo/`:
+Karya ini merupakan turunan Bahasa Indonesia dari *OpenIntro Statistics*, Edisi Keempat, oleh David M. Diez, Mine Çetinkaya-Rundel, dan Christopher D. Barr. Sumber resmi dibekukan pada komit `fee25091fb24e89c36296fd67c48c1fcf7a93b6e` dan pohon `d61cc601e7d97759ce805900520f784d02a0489e`.
 
-```text
-pdflatex main.tex
-bibtex main
-makeindex main.idx
-pdflatex main.tex
-makeindex main.idx
-pdflatex main.tex
-makeindex main.idx
-pdflatex main.tex
-```
+Judul turunan: *Statistika Berbasis Data*. Karya ini bukan produk OpenIntro serta tidak berafiliasi dengan atau didukung oleh OpenIntro. Kontributor edisi Bahasa Indonesia: Codex, atas permintaan pengguna.
 
-## Lisensi, atribusi, dan merek
+Identifikasi model produksi: **OpenAI Codex gpt-5.6-sol, Ultra**. Identifikasi alat ini tidak menggantikan atau mengurangi kredit penulis sumber dan kontributor manusia.
 
-Teks sumber dan terjemahan tersedia berdasarkan CC BY-SA 3.0, kecuali komponen yang memiliki ketentuan sendiri. Lihat [lisensi dan atribusi](LICENSE.md), `00_control/COMPONENT_RIGHTS.csv`, dan `backend/exports/core/rights.jsonl` sebelum menggunakan kembali berkas individual.
+## Lisensi dan keterbatasan
 
-Karya sumber ditulis oleh David M. Diez, Mine Çetinkaya-Rundel, dan Christopher D. Barr. Kontributor edisi Bahasa Indonesia: Codex, atas permintaan pengguna. Merek dagang, logo, sampul, dan identitas visual OpenIntro tidak digunakan sebagai identitas karya turunan ini.
+Selain komponen yang dinyatakan terpisah, teks sumber dan terjemahan tersedia berdasarkan **CC BY-SA 3.0 Unported**. Hak berkas individual, data, kode, foto, dan dependensi tetap mengikuti manifes hak komponen; hak yang lebih khusus mengesampingkan lisensi teks umum.
 
-Identifikasi model produksi: **OpenAI Codex gpt-5.6-sol, Ultra**. Identifikasi ini menerangkan alat produksi edisi turunan dan tidak menggantikan atau mengurangi kredit penulis sumber maupun kontributor manusia.
+PDF mendeklarasikan bahasa `id-ID`, tetapi belum ditandai secara struktural. Pembaca HTML yang dapat diakses tetap diperlukan sebelum edisi lengkap dapat dinyatakan selesai.
+
+Garis keturunan pelestarian: <https://doi.org/10.5281/zenodo.22059801>.
+
+
+## Repositori publik
+
+- Zenodo: <https://zenodo.org/records/22063537>
+- Figshare: <https://figshare.com/articles/online_resource/Statistika_Berbasis_Data_Bahasa_Indonesia_R011-B005_partial_Zenodo_preservation_link/33314727>
+- Konsep Zenodo: <https://doi.org/10.5281/zenodo.22059801>

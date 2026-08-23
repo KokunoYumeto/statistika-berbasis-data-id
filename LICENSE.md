@@ -2,11 +2,11 @@
 
 ## Teks buku dan terjemahan
 
-Selain komponen yang dinyatakan secara terpisah, teks sumber dan terjemahan tersedia berdasarkan Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0): <https://creativecommons.org/licenses/by-sa/3.0/>.
+Selain komponen yang dinyatakan secara terpisah, teks sumber dan terjemahan tersedia berdasarkan **Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)**: <https://creativecommons.org/licenses/by-sa/3.0/>.
 
 Karya sumber: *OpenIntro Statistics*, Edisi Keempat, oleh David M. Diez, Mine Çetinkaya-Rundel, dan Christopher D. Barr.
 
-Karya turunan: *Statistika Berbasis Data*. Perubahan mencakup terjemahan ke Bahasa Indonesia, pelokalan gambar yang dihasilkan, koreksi sumber yang dicatat, dan penyesuaian teknis untuk pembangunan serta penyajian edisi ini. Kontributor edisi Bahasa Indonesia: Codex, atas permintaan pengguna. Identifikasi model produksi: OpenAI Codex gpt-5.6-sol, Ultra.
+Karya turunan: *Statistika Berbasis Data*. Perubahan mencakup terjemahan ke Bahasa Indonesia, pelokalan aset yang dihasilkan, koreksi sumber yang dicatat, dan penyesuaian teknis untuk pembangunan serta penyajian edisi ini. Kontributor edisi Bahasa Indonesia: Codex, atas permintaan pengguna. Identifikasi model produksi: **OpenAI Codex gpt-5.6-sol, Ultra**.
 
 Sumber resmi dibekukan pada:
 
@@ -16,19 +16,20 @@ Sumber resmi dibekukan pada:
 
 ## Nama dan merek
 
-Judul turunan ini sengaja berbeda dari judul sumber. Karya ini bukan produk OpenIntro dan tidak berafiliasi dengan atau didukung oleh OpenIntro. Merek dagang, logo, sampul, dan identitas visual OpenIntro tidak dilisensikan untuk digunakan sebagai identitas karya turunan ini dan tidak digunakan dalam rilis ini.
+Judul turunan sengaja berbeda dari judul sumber. Karya ini bukan produk OpenIntro dan tidak berafiliasi dengan atau didukung oleh OpenIntro. Merek dagang, logo, sampul, dan identitas visual OpenIntro tidak digunakan sebagai identitas karya turunan ini.
 
 ## Hak komponen
 
-Lisensi teks tidak otomatis melisensikan ulang semua aset, data, kode, foto, atau dependensi build. Status, atribusi, bukti, dan disposisi publikasi setiap komponen tercatat dalam manifes hak komponen di paket backend modular.
+Lisensi teks tidak otomatis melisensikan ulang semua aset, data, kode, foto, atau dependensi build. Status, atribusi, bukti, dan disposisi publikasi setiap komponen tercatat dalam manifes hak komponen pada paket backend modular.
 
 Khususnya:
 
 - pembantu R dari paket OpenIntro dipertahankan sebagai dependensi build GPL-3.0-only dan tidak dilisensikan ulang di bawah CC BY-SA;
-- fakta pemerintah dan data faktual tetap tunduk pada sumber dan catatan komponennya;
-- foto David M. Diez yang disertakan mempertahankan atribusi dan lisensi sumbernya;
-- `earacupuncture.pdf`, ekspresi pihak ketiga tanpa lisensi terbuka yang memadai, dikeluarkan dari penutupan publikasi dan fungsi pedagogisnya diganti dengan uraian turunan yang ditulis secara mandiri;
-- sumber terminologi eksternal yang hak tingkat berkasnya bertentangan tidak disertakan dalam muatan publik;
-- setiap hak komponen yang lebih khusus mengesampingkan lisensi teks umum.
+- fakta pemerintah dan data faktual tetap tunduk pada sumber serta catatan komponennya;
+- foto David M. Diez mempertahankan atribusi dan lisensi sumbernya;
+- `ch_intro_to_data/figures/eoce/migraine_and_acupuncture_intro/earacupuncture.pdf`, ekspresi pihak ketiga tanpa lisensi terbuka yang memadai, dikeluarkan dari ZIP sumber publik; fungsi pedagogisnya diganti dengan uraian turunan yang ditulis secara mandiri;
+- sumber terminologi eksternal yang hak tingkat berkasnya bertentangan tidak dimasukkan dalam muatan publik;
+- hak komponen yang lebih khusus mengesampingkan lisensi teks umum.
 
 Gunakan manifes hak komponen yang disertakan sebagai sumber otoritatif untuk penggunaan ulang berkas individual.
+

@@ -1,0 +1,65 @@
+{
+  "$schema": "r011-b008-final-visual-audit/v3",
+  "boundary_id": "R011-B008",
+  "candidate": {
+    "path": "qa/b008-build/final-v3/main.pdf",
+    "bytes": 22017328,
+    "sha256": "8aa8e6ecc3edc2a33ee8d83a586c6208e49966582b2fc439c8b3007470f32800",
+    "pages": 425,
+    "build_receipt": {
+      "path": "qa/b008-build/final-v3/CANDIDATE_BUILD_QA_V3.json",
+      "bytes": 17044,
+      "sha256": "5d176e4275dbc41951797a043bb9270a09357ae31418868904d903939ff5beca"
+    },
+    "independent_build_visual_record": {
+      "path": "qa/b008-build/BUILD_ONLY_VISUAL_SANITY_V3.json",
+      "bytes": 2405,
+      "sha256": "09fca6423b19e1fd2014a982d687b06119a8203684dd8992c18a19edcd238d99"
+    }
+  },
+  "render_evidence": {
+    "renderer": "Poppler pdftoppm",
+    "dpi": 300,
+    "manifest": {
+      "path": "qa/b008-build/render-final-v3/FINAL_MANIFEST.tsv",
+      "bytes": 800,
+      "sha256": "92957fb3e30b23f11393fc0df06e982c5a1864a322b5c01a7084a7be3e6dce68"
+    },
+    "pages": [
+      {"page": 78, "bytes": 664166, "sha256": "c664064e199d39331058a14f0ef91c48a63476742062a06144254b9bce49eafe"},
+      {"page": 79, "bytes": 463556, "sha256": "b37f624a346b291485ae5e672fe8de0570efe5c649738a456961a6cd5eb9a759"},
+      {"page": 80, "bytes": 163836, "sha256": "d5b8efaf1d5a44eefe4b2919d6f31a5216a9347332d2a10eb30f4c7c652947f1"},
+      {"page": 81, "bytes": 116650, "sha256": "a13bfa0494869c8271d4cac08310faaeef7d82e51282f070c6a043e3769f7939"},
+      {"page": 82, "bytes": 163082, "sha256": "e5a17e68eac77a8fd83b632d07aa1342f4341733b01d289b4b91e2ef0cb4ec14"},
+      {"page": 388, "bytes": 1210739, "sha256": "2d9db05722656a967f6627266b88b128b72f787b4ada3c30cdcbf9519e7b0cde"},
+      {"page": 389, "bytes": 1152386, "sha256": "7b7e0b7895ce4cdd2841e8274cb5425cc749c4eb5b033de5064c63ca8dceef09"},
+      {"page": 390, "bytes": 1136975, "sha256": "bf2b4d98ae851a544e5d1beeb584668259fb2d7e3dd6c764d601aa6a4196ff18"},
+      {"page": 391, "bytes": 1069631, "sha256": "b21deb471d7e6a54d351d3cf1e083b2cf50cc78ea7d2ef65fd3d6829f067f1d6"}
+    ],
+    "all_pages_inspected_individually": true,
+    "page_80_inspected_at_original_render_resolution": true
+  },
+  "checks": {
+    "exercise_order_2_27_through_2_34": "PASS",
+    "localized_labels_and_figures": "PASS",
+    "data_oscars_note_indonesian_and_credits_preserved": "PASS",
+    "page_80_figures_fill_usable_width": "PASS",
+    "page_80_continuation_vertically_balanced_and_centered": "PASS",
+    "page_80_clipping_overlap_or_glyph_loss": "PASS_NONE_FOUND",
+    "public_answers_2_27_2_29_2_31_2_33_readable_and_in_order": "PASS",
+    "later_english_content_treated_as_outside_b008_scope": "PASS"
+  },
+  "severity_counts": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0
+  },
+  "verdict": "PASS",
+  "visual_gate_passed": true,
+  "promotion_authorized_by_visual_gate": true,
+  "notes": [
+    "The V2 page-80 top-heavy layout is superseded, not overwritten; its rejected PDF and findings remain immutable evidence.",
+    "The V3 layout changes do not alter translation, mathematics, source order, labels, alternative descriptions, or asset bytes."
+  ]
+}

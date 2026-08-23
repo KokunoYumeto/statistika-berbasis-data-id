@@ -1,0 +1,113 @@
+{
+  "schema": "r011-b008-assets-manifest-v1",
+  "task_id": "R011-B008",
+  "locale": "id-ID",
+  "status": "PASS",
+  "scope": "six localized one-page figure PDFs",
+  "promotion_performed": false,
+  "outputs": [
+    {
+      "filename": "infant_mortality_rel_freq_hist.pdf",
+      "path": "output/pdf/infant_mortality_rel_freq_hist.pdf",
+      "bytes": 5461,
+      "sha256": "08b260d84539ae79f620ae36eb06c7543e212f3be84fb2c63533ae6a8267d185",
+      "page_size_points": [396, 216],
+      "english_witness": "witnesses/english/pdf/infant_mortality_rel_freq_hist.pdf",
+      "english_witness_sha256": "6515c65ed4f60d918f7bce140b7cb1fb5345a1ae168f757cfaafb7f6cb7e354a"
+    },
+    {
+      "filename": "oscars_winners_hist.pdf",
+      "path": "output/pdf/oscars_winners_hist.pdf",
+      "bytes": 5784,
+      "sha256": "284b832da5c0f2cff343435aa540b8f2c777fdb16b4e3652db9bc1291532d9ef",
+      "page_size_points": [360, 226],
+      "english_witness": "witnesses/english/pdf/oscars_winners_hist.pdf",
+      "english_witness_sha256": "f17b02171f7e255e82c2a77bfef853860be8d244b9f37ec6e04e94a37f3f99d8"
+    },
+    {
+      "filename": "marathon_winners_hist_box.pdf",
+      "path": "output/pdf/marathon_winners_hist_box.pdf",
+      "bytes": 6300,
+      "sha256": "a82a9e9ad392be34dfc5bc40cf789252b3b197853b0ca78edf65712a60589043",
+      "page_size_points": [504, 158],
+      "english_witness": "witnesses/english/pdf/marathon_winners_hist_box.pdf",
+      "english_witness_sha256": "040871d0206811ae78530a75a7c6dbf1f8bad4b198637400bccd1ac170ff5924"
+    },
+    {
+      "filename": "marathon_winners_gender_box.pdf",
+      "path": "output/pdf/marathon_winners_gender_box.pdf",
+      "bytes": 6636,
+      "sha256": "b554c0c57e6a5fb6baef9117bf35ebbb859986930f8e9aacc26ea16a71f76fd8",
+      "page_size_points": [504, 108],
+      "english_witness": "witnesses/english/pdf/marathon_winners_gender_box.pdf",
+      "english_witness_sha256": "63631ae6f7d5812e60447ea263f3edbfd6f64d6023a18f5f7b1b91ee6e319d9f"
+    },
+    {
+      "filename": "marathon_winners_time_series.pdf",
+      "path": "output/pdf/marathon_winners_time_series.pdf",
+      "bytes": 7379,
+      "sha256": "d5d89f87264594f957433e1064baa356d0f6a5c41f515fa98fc63722150aea5a",
+      "page_size_points": [648, 216],
+      "english_witness": "witnesses/english/pdf/marathon_winners_time_series.pdf",
+      "english_witness_sha256": "759e134a9ed483b1fea6a1dd97a8987e040c21d2dfe14b25d860aa1e49117ee4"
+    },
+    {
+      "filename": "stats_scores_boxplot.pdf",
+      "path": "output/pdf/stats_scores_boxplot.pdf",
+      "bytes": 5118,
+      "sha256": "1de61b3686455aa98e89d296e947865c2ea3d829b07c00ca56729d22f707da4a",
+      "page_size_points": [396, 144],
+      "english_witness": "witnesses/english/pdf/stats_scores_boxplot.pdf",
+      "english_witness_sha256": "83a5404fbb7b624bc72df50b4201734c37d45c3ae18d6e5b8b0cd33f07c1654f"
+    }
+  ],
+  "source_lineage": {
+    "repo_relative_family": "ch_summarizing_data/figures/eoce",
+    "english_producers": [
+      {"path": "witnesses/english/producers/infant_mortality.R", "bytes": 2410, "sha256": "11d3fa569bea67f94d26062e421793b57a33d408c210b09e8bf55f4c51c2645b"},
+      {"path": "witnesses/english/producers/oscar_winners.R", "bytes": 760, "sha256": "5b5f78edde73e24d31f2bb13e7557cce290e1a4c83bf0307c0ef0df0f02181ac"},
+      {"path": "witnesses/english/producers/marathon_winners.R", "bytes": 1997, "sha256": "49aa5ef3eafcbfdad387b1d4686ecba797e56c7406190d918315d551f53f7caf"},
+      {"path": "witnesses/english/producers/stats_scores_box.R", "bytes": 659, "sha256": "25eb533a2a3a000b6bef8202af4d0be1a7236b32133449386099b7ede77e3629"}
+    ],
+    "data_inputs": [
+      {"path": "inputs/data/factbook.rda", "bytes": 10138, "sha256": "4843576c765049344074a81f258e33fd79fe3107fee7f026cebe469210253918"}
+    ]
+  },
+  "localized_producers": [
+    {"path": "producers/localized-r/infant_mortality_id.R", "bytes": 1096, "sha256": "727e7a6834d9eabc9371e6fa4a8c31816fb425445e89afbf6c4bbe4b6f3faf65"},
+    {"path": "producers/localized-r/oscar_winners_id.R", "bytes": 703, "sha256": "51c53a0fbd1c891f04e9b63959d38678ce98449119dd5f0d67e96049420843cf"},
+    {"path": "producers/localized-r/marathon_winners_id.R", "bytes": 1787, "sha256": "eca7dd80e49428954ba126a963600157c569cabfdf2888bba40752f9aa7b186b"},
+    {"path": "producers/localized-r/stats_scores_box_id.R", "bytes": 496, "sha256": "92e973f7d53ff0972233ce6a087e1301007fb132749a79a71ab05afbdf38f3fa"},
+    {"path": "producers/vector-rewrite/build_localized_pdfs.py", "bytes": 7125, "sha256": "721be6c164f6f8683c2a99c5f0208e73cac9d27c4687bd94df2a8e3fba6513c3"}
+  ],
+  "build": {
+    "preferred_r_replay_attempted": false,
+    "r_replay_reason": "Rscript was unavailable in the execution environment.",
+    "fallback": "deterministic exact content-stream rewrite",
+    "pass_1": "qa/build/pass1",
+    "pass_2": "qa/build/pass2",
+    "byte_identical": true,
+    "pdf_version_preserved": "1.4",
+    "non_label_geometry_policy": "Byte-identical decoded content after removing declared label and marker transformation fragments.",
+    "label_visibility_repair": "The inherited clip that fully suppressed the intended marathon_winners_hist_box vertical label was removed only for that text block; its intended origin and all plot geometry remain unchanged.",
+    "marker_portability": "Thirty-one filled-circle operators in marathon_winners_time_series and one open-circle outlier in stats_scores_boxplot were converted from unembedded ZapfDingbats glyphs to the exact explicit vector outline at the same origin, scale, color, and paint mode."
+  },
+  "agent_provenance": {
+    "environment": "Codex",
+    "model_family": "GPT-5",
+    "model_variant": null,
+    "variant_note": "The runtime exposed no narrower model identifier, so none is asserted."
+  },
+  "rights": {
+    "receipt": "receipts/component-rights.json",
+    "output_license": "CC BY-SA 3.0 Unported",
+    "attribution_basis": "witnesses/rights/LICENSE.md"
+  },
+  "qa": {
+    "machine": "receipts/machine-qa.json",
+    "visual": "receipts/visual-qa.md",
+    "localization": "receipts/localization-qa.json",
+    "authoritative_machine_detail": "qa/analysis/machine_results.json"
+  },
+  "blockers": []
+}
