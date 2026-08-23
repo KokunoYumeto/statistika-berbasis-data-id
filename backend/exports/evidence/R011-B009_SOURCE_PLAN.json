@@ -1,0 +1,147 @@
+{
+  "schema": "r011-b009-source-plan",
+  "schema_version": "0.1.0",
+  "boundary_id": "R011-B009",
+  "status": "planned_source_asset_rights_closure",
+  "authority": {
+    "repository": "https://github.com/OpenIntroStat/openintro-statistics",
+    "branch": "master",
+    "commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "tree": "d61cc601e7d97759ce805900520f784d02a0489e",
+    "reader_witness": "https://www.openintro.org/book/os/",
+    "archive": "authority/archives/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e.zip",
+    "archive_bytes": 33232450,
+    "archive_sha256": "9b8c52f3a358bc53d888056bb9ee1c299d82aea733c0c826a522aa3b551104bf",
+    "upstream_manifest": "authority/UPSTREAM_FILE_MANIFEST.csv",
+    "upstream_manifest_sha256": "a903668df126a827a3781c0587705e035d46af65762690d965fd6896c653a39d"
+  },
+  "scope": {
+    "title": "Bab 3 Probability / Peluang — pembuka bab dan Bagian 3.1 Defining probability",
+    "main_source": {
+      "path": "repo/ch_probability/TeX/ch_probability.tex",
+      "authority_bytes": 132799,
+      "authority_sha256": "4f07fcf0e71e52bc99657835d5cced47b10ce9fc66b23dce156d400840690361",
+      "target_span_start": {"line": 1, "byte": 0},
+      "target_span_end_exclusive": {
+        "anchor": "\\section{Conditional probability}",
+        "line": 691,
+        "byte": 43045,
+        "prefix_bytes": 43045,
+        "prefix_sha256": "db5b1747d3769d0ed4d0b84cbd526563e82a0480f424fb5d9c41c3e750984599"
+      },
+      "immutable_suffix": {
+        "start_anchor": "\\section{Conditional probability}",
+        "start_line": 691,
+        "bytes": 89754,
+        "sha256": "ab102f80b194016c109f46151bbd35954dbc7dbeb2c2448d768c46c790458d5e"
+      },
+      "included": "chapterpage/chaptertitle/chapterintro plus Section 3.1 through the input of defining_probability.tex; do not alter Section 3.2 onward"
+    },
+    "eoce_exercise_source": {
+      "path": "repo/ch_probability/TeX/defining_probability.tex",
+      "bytes": 9353,
+      "sha256": "e0ad00ef9795134900a96bb1304111126abf0531eb9a24f16fa96d6a20a5a95f",
+      "lines": "1-233 inclusive",
+      "exercise_count": 12,
+      "exercise_ids_in_order": [
+        "tf_prob_definitions", "roulette_wheel", "four_games_one_winner", "backgammon",
+        "coin_flips", "dice_rolls", "swing_voters", "poverty_language",
+        "disjoint_indep", "guessing_on_exam", "edu_attain_couples", "school_absences"
+      ],
+      "public_answers": ["1", "3", "5", "7", "9", "11"],
+      "o001_gaps": ["2", "4", "6", "8", "10", "12"]
+    },
+    "public_answer_source": {
+      "path": "repo/extraTeX/eoceSolutions/eoceSolutions.tex",
+      "upstream_bytes": 106045,
+      "upstream_sha256": "6c4e01376db4c023cc7b3f9949490e57220ef1cb831c580da71efde6ce723268",
+      "current_target_bytes": 108110,
+      "current_target_sha256": "2b2709d17fcca943dde69288726a669fd978f576957518142e24c5aa2e86c140",
+      "probability_slice": {
+        "start_anchor": "\\eocesolch{Probability}",
+        "start_line": 441,
+        "start_byte": 19711,
+        "end_anchor_exclusive": "% 13",
+        "end_line": 510,
+        "end_byte": 22728,
+        "bytes": 3017,
+        "sha256": "d4cc1d7214d10b33bcadebf31d2596a303cd7530fadb9769e705dbe08b9f20b4",
+        "upstream_witness": {
+          "archive_entry": "openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/extraTeX/eoceSolutions/eoceSolutions.tex",
+          "start_byte": 17637,
+          "end_byte": 20663,
+          "bytes": 3026,
+          "sha256": "62d6ad99b761cae740ca7a4b06b26c637d4b85b0607595884ab125cf7e57cf32"
+        },
+        "target_delta": "The current target slice intentionally differs from the archive by a layout-only break before public answer 9 (upstream \\newpage; target \\begin{multicols}{2}); preserve this existing target-side repair unless a new build gate proves it should change.",
+        "coverage": "public odd solutions 1, 3, 5, 7, 9, 11; leave solution 13 and later as immutable suffix"
+      }
+    },
+    "guided_practice": {
+      "source": "repo/ch_probability/TeX/ch_probability.tex",
+      "section_span": "lines 38-684 inclusive",
+      "exercise_count": 18,
+      "exercise_start_lines": [129, 185, 193, 242, 256, 263, 293, 343, 352, 375, 424, 487, 494, 526, 533, 600, 609, 655],
+      "public_footnote_answers": 18,
+      "relation": "each nexercise is followed in source order by its public footnotetext answer; preserve IDs/labels and answer linkage"
+    }
+  },
+  "figures_and_data": {
+    "direct_main_figures": ["dieProp", "disjointSets", "cardsDiamondFaceVenn", "loans_app_type_home_venn", "usHouseholdIncomeDistBar", "diceSumDist", "complementOfD", "indepForRollingTwo1s"],
+    "direct_eoce_assets": ["roulette_wheel.jpg (exercise 2)", "swing_voters.pdf (public answer 7)"],
+    "asset_manifest": {
+      "path": "qa/b009-source/R011-B009_ASSET_RIGHTS_MANIFEST.tsv",
+      "bytes": 7677,
+      "sha256": "0020c5fe55ccc45cf0b835072b053126ecbf0ef0565e2fe5f86b37672482b05b"
+    },
+    "data_dependencies": [
+      {"name": "openintro::COL", "used_by": "all eight main R producers", "rights": "OpenIntro R package GPL-3; separately governed; do not claim CC BY-SA for package code"},
+      {"name": "openintro::loans_full_schema", "used_by": "loans_app_type_home_venn.R", "rights": "OpenIntro package data GPL-3 dependency; preserve aggregate counts/attribution; do not bundle raw package"},
+      {"name": "EoCE factual aggregates", "used_by": "defining_probability.tex exercises 1-12", "rights": "retain source citations and factual-data limits; no third-party article/report expression is bundled"},
+      {"name": "eoce.bib entries indepSwing, poorLang, eduSex, Mizan:2011", "used_by": "EoCE exercises 7, 8, 11, 12", "bytes": 30378, "sha256": "33deaa77c8eda67b43412b1341ae542b23833006a6bd16e72432807ffd8ebb26"}
+    ],
+    "excluded_transient": [
+      "ch_probability/figures/cardsDiamondFaceVenn/.Rhistory",
+      "ch_probability/figures/complementOfD/.Rhistory",
+      "ch_probability/figures/usHouseholdIncomeDistBar/.Rhistory"
+    ],
+    "non_asset_tex_displays": ["deckOfCards", "diceProb"],
+    "note": "deckOfCards and diceProb are rendered directly by TeX; no external figure file is required"
+  },
+  "rights_closure": {
+    "text_and_repository_figures": "CC BY-SA 3.0 Unported starting point; include OpenIntro authorship, derivative change notice, and no-endorsement/naming restriction",
+    "openintro_r_package": "GPL-3 separately governed; authority/external/r-packages/openintro-48793d9645e0da033daaca1c1a19a051533d79d2; retain provenance, do not relicense package",
+    "roulette_photo": "CC BY 2.0; Håkan Dahlström; retain Flickr source URL and visible credit from defining_probability.tex",
+    "branding": "OpenIntro logos, cover, and marks are excluded; use derivative title and non-endorsement language",
+    "controls": {
+      "component_rights_csv": "00_control/COMPONENT_RIGHTS.csv",
+      "component_rights_sha256": "009feba8ff1f329ef742793f55f6b090dd08f3f761f9b9cc1edcbe03ecff58f0",
+      "authority_component_closure": "authority/CORPUS_COMPONENT_CLOSURE.csv",
+      "authority_component_closure_sha256": "e247016cd63f3ff04e82991298cd793e6cd42e7c1abcd1288e86f39c2aa8249e"
+    },
+    "blockers": [
+      "Rscript is missing in the frozen local toolchain; use committed PDFs as static build inputs and make no exact R replay claim until a bounded alternative replay/localization receipt exists",
+      "roulette_wheel.jpg has a narrower CC BY 2.0 license and must not inherit the text CC BY-SA claim"
+    ]
+  },
+  "build_closure": {
+    "authority": "authority/BUILD_AND_READER_CLOSURE.json",
+    "authority_bytes": 1876,
+    "authority_sha256": "216b1e6c947e06f4fc7f967477892f58c135e0eedf2c45268c90e71690c9cbc5",
+    "entrypoint": "repo/main.tex",
+    "entrypoint_bytes": 5540,
+    "entrypoint_sha256": "dd47b5c534a2f7b88222b7070c96757f1558cd9529b09802d1fdd28222cc15a0",
+    "shared_style_dependency": "repo/fullminipage.sty (GPL-3.0-only; 3786 bytes; SHA-256 bf77fe6e9632c2aa33965e5371459f3dd781c0f6cb23be3a92aa73ac37f97ce)",
+    "sequence": ["pdflatex main.tex", "pdflatex main.tex", "pdflatex main.tex", "makeindex main.idx", "bibtex main", "pdflatex main.tex", "makeindex main.idx", "pdflatex main.tex"],
+    "toolchain": {"pdflatex": "MiKTeX-pdfTeX 4.27 (MiKTeX 26.5)", "bibtex": "MiKTeX-BibTeX 4.2 (MiKTeX 26.5)", "makeindex": "MiKTeX 26.5", "Rscript": "missing"},
+    "static_figure_policy": "committed upstream PDFs are build inputs; localize into adjacent id-ID PDFs with immutable .source-en.pdf witnesses and retain producer hashes",
+    "inherited_full_closure": {"path": "qa/b008-source/R011-B008_SOURCE_MANIFEST_V3.tsv", "files": 1206, "file_bytes": 41300273, "bytes": 175582, "sha256": "743b4906fad27bad1adfcb331566517314a93602d6df3c3cc279aa56a88745f4"}
+  },
+  "next_cursor": {
+    "action": "translate and localize R011-B009 in source order",
+    "first_mutation": "ch_probability/TeX/ch_probability.tex lines 1-690 (chapter opener + Section 3.1)",
+    "then": ["translate defining_probability.tex exercises 1-12", "translate public probability answers 1/3/5/7/9/11 only", "record O001 gaps 2/4/6/8/10/12", "localize eight main PDFs and swing_voters.pdf with adjacent English witnesses", "preserve roulette photo credit", "run bounded source/build/visual/backend gates"],
+    "do_not_touch": "ch_probability/TeX/ch_probability.tex line 691 onward and eoceSolutions line 510 onward",
+    "publication": "after admission, publish the bounded checkpoint through existing Zenodo/Figshare/GitHub lineage"
+  }
+}

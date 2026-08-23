@@ -43,6 +43,25 @@ Sebutkan dua variabel yang akan mempunyai hubungan berbentuk
 tapal kuda dalam diagram pencar ($\cap$ atau $\frown$).\footnotemark{}
 \end{nexercise}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+0592a4cd-dc6d-5ca9-9e13-7009e554810d,dc37ddab-3474-5bc3-93ae-09eb173ec6f6,1,guided_exercise,en,ch_probability/TeX/ch_probability.tex,608,619,432104baa141b31b6924c9483d2b82ddd95bfb22401609c5f2d62e26827d0b18,id-ID,repo/ch_probability/TeX/ch_probability.tex,605,616,1ff266dc2e20d6ab34a51d8934492c7d25594424b796350ce5ff6d92bb4b7851,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+\label{ex5Handedness}%
+Misalkan 5 orang dipilih secara acak.\footnotemark\vspace{-1.5mm}
+\begin{enumerate}
+\setlength{\itemsep}{0mm}
+\item[(a)] Berapa probabilitas semuanya tidak kidal?
+\item[(b)] Berapa probabilitas semuanya kidal?
+\item[(c)] Berapa probabilitas tidak semua orang tidak kidal?
+\end{enumerate}
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+07a090fc-523e-58d4-8928-e100dec4eba3,dc9cb209-acef-58d0-93ae-2148de066e54,1,guided_exercise,en,ch_probability/TeX/ch_probability.tex,184,188,6022733a3c648ccc0745469d36352d933eee1f703162cab8ea4e7e4895e04fc2,id-ID,repo/ch_probability/TeX/ch_probability.tex,184,188,50540930bb6ee87e36af23347f3498346cb3cd5d673088e668b26dcd7461a5a2,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+Kita tertarik pada probabilitas memperoleh \resp{1}, \resp{4}, atau \resp{5}. (a) Jelaskan mengapa hasil \resp{1}, \resp{4}, dan \resp{5} saling lepas. (b) Terapkan Aturan Penjumlahan untuk hasil yang saling lepas guna menentukan $P($\resp{1} atau \resp{4} atau \resp{5}$)$.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 091354a3-1aba-5166-a107-7b5c9259e95b,0f31ef05-8651-5e86-9185-b5d10b8fda5d,1,exercise,en,ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,21,39,b13ab622097680e2e24c23195a0bf260f0f0fb6414ddc75e590ffe2b28e45ea1,id-ID,repo/ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,21,39,24c5614f651062640fca6473d23ddc464d17f40f55dff157c729b21d626958e7,translated,"\eoce{\qt{Kecurangan: cakupan inferensi\label{scope_cheaters}} 
 Latihan~\ref{study_components_cheaters} memperkenalkan studi tentang hubungan 
 antara kejujuran, usia, dan pengendalian diri. Para peneliti melakukan eksperimen 
@@ -94,6 +113,12 @@ Gambar~\ref{rowPropAppTypeHomeownership}?
 Gambar~\ref{colPropAppTypeHomeownership}?\footnotemark{}
 \end{nexercise}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+0c6aad8c-9da4-505a-9424-829a2fb30e6c,c33c56be-8678-5ba2-b3a0-344f40bca434,1,guided_exercise,en,ch_probability/TeX/ch_probability.tex,493,497,a1233af50603c9d3a940b7c639205d1d4c4494171352c6c9152664d92b625b47,id-ID,repo/ch_probability/TeX/ch_probability.tex,493,497,70286f250bc6d668ca0c4b3c071c1aff45522ac4600b0eca0b01fc392d863437,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+Peristiwa $A=\{$\resp{1}, \resp{2}$\}$ dan $B=\{$\resp{4}, \resp{6}$\}$ ditunjukkan pada Gambar~\ref{disjointSets} di halaman~\pageref{disjointSets}. (a) Tuliskan apa yang direpresentasikan oleh $A^c$ dan $B^c$. (b)~Hitung $P(A^c)$ dan $P(B^c)$. (c)~Hitung $P(A)+P(A^c)$ dan $P(B)+P(B^c)$.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 0cb607e1-ee87-5d63-97cb-b8a8bf85c7fb,8c1f82f6-34a3-53be-9da6-0fa74df91111,1,exercise,en,ch_summarizing_data/TeX/examining_numerical_data.tex,316,335,98504cc6b5f60249f899a9cb458f880dfda96a0cee2310628cb805a5c3e1242e,id-ID,repo/ch_summarizing_data/TeX/examining_numerical_data.tex,321,339,ad3c73b3bccbd9f0aed161d13e9590d76c8cc55c2734098ffbe0b5058dae5603,language_reviewed,"\eoce{\qt{Populasi Hispanik\label{county_hispanic_pop}} Sensus Amerika Serikat mengumpulkan 
 data tentang ras dan etnis penduduk Amerika, selain banyak variabel lain. Histogram di bawah 
 ini menunjukkan distribusi persentase penduduk Hispanik di 3,142 county di Amerika Serikat 
@@ -113,6 +138,12 @@ tetapi tidak pada peta?
 Jelaskan alasan Anda.
 \end{parts} 
 }{}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+0eab55c9-522a-5000-bd4a-a075c7f50ec5,40116ec4-9cb8-5f8f-95bb-1f397c042240,1,guided_exercise,en,ch_probability/TeX/ch_probability.tex,342,346,c4bc32c3e8cbee36fdf56089969a23f40d2a22ee69f848c97777453b48412be7,id-ID,repo/ch_probability/TeX/ch_probability.tex,342,346,d86cded09158ec5cbaccbc4611146059a630e00be5761f8fb6bf972b0afe698c,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+(a) Jika $A$ dan $B$ saling lepas, jelaskan mengapa hal ini berarti $P(A$ dan $B) = 0$. (b) Dengan menggunakan bagian (a), verifikasi bahwa Aturan Penjumlahan Umum menyederhana menjadi Aturan Penjumlahan untuk peristiwa saling lepas jika $A$ dan $B$ saling lepas.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 0fb45c54-df84-520c-bd5d-435388ba2460,9c3f7c19-0f6c-5060-9c70-d8585ba33850,1,exercise,en,ch_intro_to_data/TeX/experiments.tex,67,73,50699e262e202d360f16d6be85cb52942b4897cafa277638a15660cb984424cc,id-ID,repo/ch_intro_to_data/TeX/experiments.tex,67,73,e82bf8c6b977f3923ef9f25d11a77fb0aa4fea3011756b99676f57cbee26fde8,translated,"\eoce{\qt{Musik dan pembelajaran\label{music_learning}} Anda hendak melakukan eksperimen di 
 kelas untuk mengetahui apakah mahasiswa belajar lebih baik ketika belajar tanpa musik, 
@@ -157,6 +188,19 @@ dapat ditarik dari studi ini?
 \end{parts}
 }{}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""33ab015a-b878-52bd-af46-2f824ee486c4""]"
+108c3bbe-0121-548f-96a5-cf57a07f3b4d,ddef022a-a3f0-5688-8a76-0b52859c00ba,1,end-of-section-exercise,en,ch_probability/TeX/defining_probability.tex,3,15,750b07eba103971068841389388643dc917fa1476ab47a60afb09f23190ccec3,id-ID,repo/ch_probability/TeX/defining_probability.tex,3,15,a485553a94a4c997c38a2ef88dab135e56772629a4261ea71397676c15884627,language_reviewed,"% 1
+
+\eoce{\qt{Benar atau salah\label{tf_prob_definitions}} Tentukan apakah pernyataan berikut
+benar atau salah, dan jelaskan penalaran Anda.
+\begin{parts}
+\item Jika koin adil dilempar berkali-kali dan delapan lemparan terakhir semuanya kepala,
+peluang lemparan berikutnya menghasilkan kepala sedikit kurang dari 50\%.
+\item Mengambil kartu bergambar (jack, queen, atau king) dan mengambil kartu merah dari
+dek kartu penuh merupakan peristiwa yang saling eksklusif.
+\item Mengambil kartu bergambar dan mengambil kartu ace dari dek kartu penuh
+merupakan peristiwa yang saling eksklusif.
+\end{parts}
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 10ba747c-aab0-507f-9637-27e5c0cf4d8b,8fd6ebca-4ca4-55c1-89f8-d040729c3b3e,1,chapter_intro,en,ch_intro_to_data/TeX/ch_intro_to_data.tex,17,35,70b60753156622c657f83656e7b5fb69964e1bed674081eb67d37126e791fd67,id-ID,repo/ch_intro_to_data/TeX/ch_intro_to_data.tex,17,35,43a59c0e51e90fcdb2f8bd246b853a4d299dcaa58eaca5cdc0c9a036d8e53f25,translated,"\chapterintro{Para ilmuwan berupaya menjawab pertanyaan
   dengan menggunakan metode yang ketat dan pengamatan yang cermat.
   Pengamatan ini -- yang dihimpun, antara lain, dari catatan lapangan,
@@ -234,6 +278,10 @@ Jumlah				& 46		& 405	&&	73	& 378 \\
 % R011-B005 D023: jeda halaman paksa sebelum statistik robust ditiadakan.
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+15c3c5bd-4d06-505d-9202-226ab8978bdc,e55b8aa8-632e-54f9-a1ea-667b2cafe96c,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,419,423,3100042341ee5310b369db161ccbcb4658fee1524cf255ca9d28a366450cd79e,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,7,10,83ddd11421344a8d59a56df3e21c2e3f287690ee75c3364a7c3240fb7afabc90,language_reviewed,"% 1
+\eocesol{(a)~Salah. Ini adalah percobaan independen.
+(b)~Salah. Ada kartu bergambar berwarna merah.
+(c)~Benar. Sebuah kartu tidak mungkin sekaligus kartu bergambar dan ace.}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 16f52590-1026-5382-a3e7-cba4d085a082,464e9807-e94f-510e-8157-c2c60c345df9,1,exercise,en,ch_summarizing_data/TeX/examining_numerical_data.tex,179,188,e2882c3f0bd92f9adf6ffec41fa54250b9948a6850a2fa4693560ffe7666ec65,id-ID,repo/ch_summarizing_data/TeX/examining_numerical_data.tex,185,194,b5a72573cf76f86a8b22a261b6644f4835eb3d243d9dd4b44b35bcf94548c255,language_reviewed,"\eoce{\qt{Median versus rata-rata\label{estimate_mean_median_simple}} Perkirakan median untuk 
 400 pengamatan yang ditampilkan dalam histogram, lalu nyatakan apakah Anda memperkirakan 
 rata-ratanya lebih tinggi atau lebih rendah daripada median.
@@ -309,6 +357,17 @@ temuannya dapat digunakan untuk menetapkan hubungan kausal.
 }{}
 
 % 14
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+193eb561-75db-5b59-a1bf-6acaf5fe4751,697eee11-37f2-5f2e-8492-16a070ccd069,1,section_lead,en,ch_probability/TeX/ch_probability.tex,38,47,adb292136bfc0860c156afc5bc91857a5cfa5425b484dad1335a4f46d8a72bdd,id-ID,repo/ch_probability/TeX/ch_probability.tex,38,47,14f640cee860a7976a9d8d0d5414d5dfc478e987491cfe8e1fb18aa04f502f0d,language_reviewed,"\section{Mendefinisikan probabilitas}
+\label{basicsOfProbability}
+
+Statistika didasarkan pada probabilitas,
+dan walaupun probabilitas tidak diperlukan untuk teknik-teknik
+terapan dalam buku ini, pemahaman probabilitas dapat membantu Anda
+memahami metode secara lebih mendalam dan membangun landasan yang lebih baik
+untuk mata kuliah selanjutnya.
+
+
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 1bad614c-c211-5fa3-a42b-ab6c8944ab07,fc3d849c-7c46-5c07-8ca2-c458b8032805,1,guided_exercise,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,1040,1046,3751186aa1879453bdb11c0d03f2d31bb10ac94ccdb05cd7d2f9572b38c49569,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,992,998,290567013e042bf6357ea8c615b12fbc574154930d8de78c7789350ebb6337fb,translated,"\begin{nexercise} \label{interestRateWhichIsMoreRobust}
 (a)~Manakah yang lebih dipengaruhi pengamatan ekstrem,
@@ -513,6 +572,27 @@ Metode grafis lain yang berguna menggunakan \termsub{histogram berongga}{hollow 
 
 \begin{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+1c69f919-99f9-5053-9fd5-3ccc9045f60a,1d288b7a-abb4-52c9-a011-f3226ffd930d,1,end-of-section-exercise,en,ch_probability/TeX/defining_probability.tex,121,143,754a542374919325a39807fd0bb8da29409bf02a7f1adfdd000f92c23db43bf6,id-ID,repo/ch_probability/TeX/defining_probability.tex,118,138,ab94a2ddce12c19b8837041c60dc7448e616cdd2bad809203fb9344e573e0857,language_reviewed,"% 8
+
+\eoce{\qt{Kemiskinan dan bahasa\label{poverty_language}} American Community
+Survey adalah survei berkelanjutan yang menyediakan data setiap tahun agar komunitas memperoleh
+informasi terkini yang dibutuhkan untuk merencanakan investasi dan layanan. American
+Community Survey tahun 2010 memperkirakan 14.6\% orang Amerika hidup di bawah garis kemiskinan,
+20.7\% berbicara bahasa selain bahasa Inggris (bahasa asing) di rumah, dan 4.2\%
+termasuk dalam kedua kategori tersebut. \footfullcite{poorLang}
+\begin{parts}
+\item Apakah hidup di bawah garis kemiskinan dan berbicara bahasa asing di rumah saling lepas?
+\item Buat diagram Venn yang merangkum variabel dan probabilitas terkait.
+\item Berapa persen orang Amerika yang hidup di bawah garis kemiskinan dan hanya berbicara
+bahasa Inggris di rumah?
+\item Berapa persen orang Amerika yang hidup di bawah garis kemiskinan atau berbicara bahasa
+asing di rumah?
+\item Berapa persen orang Amerika yang hidup di atas garis kemiskinan dan hanya berbicara
+bahasa Inggris di rumah?
+\item Apakah peristiwa seseorang hidup di bawah garis kemiskinan independen dari peristiwa
+orang tersebut berbicara bahasa asing di rumah?
+\end{parts}
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 1da15654-a1b4-5231-9b66-397a6a566d75,42d71cb2-708a-5c1c-bdc6-5d86d05d2841,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,84,89,67c0396a63f33062aa1b64322c65043778fc8a6d18e65acb9b9ecb5e7788f556,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,91,96,4f0de60a4f2dac75391c1e14f8603586ebe62c3eac4254e95f723e23d73e602b,translated,"% 17
 
 \eocesol{(a)~Observasi.
@@ -681,6 +761,18 @@ variabel yang sedang dipertimbangkan.
 
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+21002c30-bbc7-5db3-90d4-6546a7c5ccc2,c03720ee-be18-50bc-a512-6f4b2de1081c,1,end-of-section-exercise,en,ch_probability/TeX/defining_probability.tex,65,75,9e71cc7a73b49eaca869152e58f5e4e8b7116f5880710ab2766e76538f97c25a,id-ID,repo/ch_probability/TeX/defining_probability.tex,62,73,4042a7d19c008ba49b8c6d22a79136e0c0e082d11f7dbf5aaf4b8bc07022b3e2,language_reviewed,"% 4
+
+\eoce{\qt{Backgammon\label{backgammon}} Backgammon adalah permainan papan untuk dua
+pemain, dengan bidak yang dipindahkan sesuai hasil lemparan dua dadu.
+Pemain menang dengan mengeluarkan semua bidaknya dari papan, sehingga biasanya baik
+untuk memperoleh angka tinggi. Anda bermain backgammon dengan seorang teman dan
+mendapatkan dua angka 6 pada lemparan pertama serta dua angka 6 pada lemparan kedua.
+Teman Anda mendapatkan dua angka 3 pada lemparan pertama dan lagi pada lemparan kedua.
+Teman Anda menuduh Anda curang karena memperoleh dua angka 6 dua kali berturut-turut
+tampak sangat tidak mungkin. Dengan probabilitas, tunjukkan bahwa lemparan Anda sama
+mungkin dengan lemparannya.
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 216039b4-bb8e-503a-962b-125b14f319a7,21410d70-b32f-52d9-8f1a-9c5f14f67fb5,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,255,258,ba7bb788e6eba6652693d2e7f0c3b20ff0a96e0c3d1bbd21ddc15d5f6c18b574,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,269,272,a6241e5ba7e2f3de76b293bf5e4f0e19414d2229ae1ad4eb50f32182a25a4274,translated,"% 5
 
 \eocesol{(a)~Rata-rata populasi, $\mu_{2007} = 52$; rata-rata sampel, $\bar{x}_{2008} = 58$.
@@ -763,6 +855,12 @@ pada Gambar~\ref{malaria_vaccine_20_exp_summary_rand_1}.
 (b)~Kondisi pencahayaan: pencahayaan fluoresen dari atas, pencahayaan kuning dari atas, 
 dan tanpa pencahayaan dari atas (hanya menggunakan lampu meja).
 (c)~Variabel jenis kelamin: laki-laki, perempuan.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+262c60f8-85a9-5d6f-a774-6da2b20492dd,01ab1464-7aac-5927-87c5-eb0cf416259a,1,guided_exercise,en,ch_probability/TeX/ch_probability.tex,292,296,d88a1521b65d438ddc40696b00a4fc1b34fa0c890d60964e675527f715fc3faa,id-ID,repo/ch_probability/TeX/ch_probability.tex,292,296,f63f485768c6b3bc7624785bf07faf8e86cd189d97f505cda7b913bb58df20b8,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+(a) Berapa probabilitas kartu yang dipilih secara acak merupakan wajik? (b)~Berapa probabilitas kartu yang dipilih secara acak merupakan kartu bergambar?\footnotemark
+\end{nexercise}
+\end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 262d3091-0826-5eba-b807-af1e3b223b0e,580446af-d384-52ed-bf61-e76ca3df060f,1,preface,en,extraTeX/preamble/preface.tex,1,276,af5029f8f17f98dc094b6ce036a74143b803f71d841d6235bb70d130c57d1424,id-ID,repo/extraTeX/preamble/preface.tex,1,277,5c1c7811bb067ff7d3c0a3eb50c3a8d9e141c832ec7013220378159ce4a0561d,language_reviewed,"\chapter*{{\color{oiB}Prakata}}
 \markboth{\MakeUppercase{Prakata}}{}
@@ -1042,6 +1140,30 @@ Kami menghargai semua umpan balik mereka, yang membantu
 menyempurnakan teks ini secara berarti dan meningkatkan
 kualitas buku ini secara substansial.
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+2630d6c9-d004-5f60-9f0b-4272366f940e,712ad509-94bf-5176-808c-99930068799b,1,guided_exercise,en,ch_probability/TeX/ch_probability.tex,192,214,231a0cec8e8d138504f81f68a84c4af1ff495342068894bd841177483933cc07,id-ID,repo/ch_probability/TeX/ch_probability.tex,192,214,0b3432d77af6b3adc02ae26406bcae740904aefdf8a053a9b320a65321a2994b,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+Dalam himpunan data \data{loans} pada Bab~\ref{ch_summarizing_data},
+variabel \var{homeownership} menjelaskan apakah peminjam
+menyewa, memiliki hipotek, atau memiliki rumah sendiri.
+Dari 10.000 peminjam, 3858 menyewa, 4789 memiliki hipotek,
+dan 1353 memiliki rumah sendiri.\footnotemark{}
+\begin{enumerate}[(a)]
+\setlength{\itemsep}{0mm}
+\item
+    Apakah hasil \resp{rent}, \resp{mortgage},
+    dan \resp{own} saling lepas?
+\item
+    Tentukan proporsi pinjaman dengan nilai \resp{mortgage}
+    dan \resp{own} secara terpisah.
+\item
+    Gunakan Aturan Penjumlahan untuk hasil yang saling lepas
+    guna menghitung probabilitas bahwa pinjaman yang dipilih
+    secara acak dari himpunan data tersebut adalah milik seseorang
+    yang memiliki hipotek atau rumah sendiri.
+\end{enumerate}
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 2747d5fd-f64a-5476-a4c8-686ce6b587b3,ca6367c4-15b1-502f-9fa9-3f7229c912ee,3,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,156,166,b224e015aa8ff97df99b76cbb8bc15b2b4f871eb5c1c5639e2762347d696bb4a,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,154,163,0ffb5a7e31c486362af24f9049cc91bf9ae0f023b7122d6fcc23b6c13f4fa7a4,translated,"\end{exercisewrap}
 \footnotetext{Bayangkan sumbu vertikal menyatakan sesuatu yang
   ``baik'', sedangkan sumbu horizontal menyatakan sesuatu yang
@@ -1098,6 +1220,15 @@ hidup terhadap masa kehamilan ditampilkan di bawah ini. \footfullcite{Allison+Ci
 
 % 2
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+2b151983-28cb-5ce5-85b2-8037916ffff9,df0e47a5-e5a2-5a42-a83d-a8c0d10528d2,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,459,468,2292c98251ab0dca53007e745dd665bdfb3b7ead098f21149986c0da6c77130e,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,40,48,6eaa9a2a6747c145ba1456bd396d706f0e17e2f45c98fa2869802d63e8887fb7,language_reviewed,"% 9
+\eocesol{(a)~Jika kelas tidak dinilai berdasarkan kurva, keduanya independen. Jika dinilai
+berdasarkan kurva, keduanya tidak independen maupun saling lepas--kecuali pengajar hanya akan
+memberikan satu nilai A, situasi yang kita abaikan pada bagian~(b) dan~(c).
+(b)~Keduanya mungkin tidak independen: jika Anda belajar bersama, kebiasaan belajar Anda
+akan berkaitan, sehingga kinerja kuliah juga mungkin berkaitan.
+(c)~Tidak. Lihat jawaban bagian~(a) ketika mata kuliah tidak dinilai berdasarkan kurva.
+Secara umum, jika dua hal tidak berkaitan (independen), terjadinya salah satu tidak menghalangi
+terjadinya yang lain.}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 2c246af4-fd01-55a7-8d00-04a7d0b906fc,57d11337-8399-5156-84a2-79beb091af68,33,public-appendix-answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,400,402,23d364a7d3ba28561cc70ec1aedf80bfe1e2bf66af9bca4379226979e63808b1,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,426,431,a4b72360b2dc9b1eaeba7e102c2178d0a754fde2bd51193bf33b9f7db248505d,language_reviewed,"% 33
 
 \eocesol{\FigureFullPath[Ditampilkan diagram kotak untuk ""Nilai"" dengan kotak
@@ -1105,12 +1236,76 @@ membentang dari sekitar 72 hingga 82 dan median pada sekitar 78. Kumis
 membentang ke bawah hingga 66 dan ke atas hingga 94. Satu titik ditampilkan di
 bawah kumis bawah pada sekitar 57.]{0.25}{ch_summarizing_data/figures/eoce/stats_scores_box/stats_scores_boxplot}}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+2e30c12a-f861-50fd-8ff3-6ed43198dbe8,21fbf5c8-a2e1-5fba-9685-5f0b02eadb01,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,470,480,c2d4cfaf352248dbcd0df21b38ac1cfb643d219785645724da326a5effa4e178,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,50,60,36de60b84f790e746346967a8884347ab957272ef8eaa9f8e3a9e591e4faed59,language_reviewed,"% 11
+\eocesol{(a)~$0.16 + 0.09 = 0.25$.
+(b)~$0.17 + 0.09 = 0.26$.
+(c)~Dengan asumsi tingkat pendidikan suami dan istri independen:
+$0.25 \times 0.26 = 0.065$. Perhatikan bahwa kita sebenarnya juga membuat asumsi kedua:
+keputusan untuk menikah tidak berkaitan dengan tingkat pendidikan.
+(d)~Asumsi independensi suami/istri mungkin tidak wajar karena orang sering menikah dengan
+orang lain yang tingkat pendidikannya sebanding. Apakah asumsi kedua pada bagian~(c) wajar,
+silakan Anda pertimbangkan.}
+
+\end{multicols}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+2f165309-bbfe-5e5d-8291-127fd5edacf7,52bf0186-4674-569a-b8c7-783489172959,1,subsection_prose,en,ch_probability/TeX/ch_probability.tex,554,598,bea29f1c76d04522fa5c2a3240f53114d9bf8d31606e3ed35e256176354281f4,id-ID,repo/ch_probability/TeX/ch_probability.tex,552,595,4002e46c8a329cd0e6de45d037d51ed3c8ecc027fe4d040caf958e7597c12e57,language_reviewed,"\subsection{Kemandirian}
+\label{probabilityIndependence}
+
+Sebagaimana variabel dan pengamatan dapat saling independen, proses acak juga dapat saling independen. Dua proses \term{independen} jika mengetahui hasil salah satunya tidak memberikan informasi berguna tentang hasil yang lain. Misalnya, melempar koin dan melempar dadu adalah dua proses independen--mengetahui koin menunjukkan kepala tidak membantu menentukan hasil lemparan dadu. Sebaliknya, harga saham biasanya bergerak naik atau turun bersama-sama, sehingga tidak independen.
+
+Contoh~\ref{probOf2Ones} memberikan contoh dasar dua proses independen: melempar dua dadu. Kita ingin menentukan probabilitas keduanya menunjukkan \resp{1}. Misalkan salah satu dadu berwarna merah dan yang lain putih. Jika hasil dadu merah adalah \resp{1}, hal itu tidak memberikan informasi tentang hasil dadu putih. Kita telah menjumpai pertanyaan yang sama pada Contoh~\ref{probOf2Ones} (halaman~\pageref{probOf2Ones}), ketika probabilitas dihitung dengan penalaran berikut: dadu merah menunjukkan \resp{1} pada $1/6$ bagian waktu, dan pada $1/6$ bagian dari \emph{waktu tersebut} dadu putih juga menunjukkan \resp{1}. Hal ini diilustrasikan pada Gambar~\ref{indepForRollingTwo1s}. Karena lemparan-lemparan itu independen, probabilitas hasil yang bersesuaian dapat dikalikan untuk memperoleh jawaban akhir: $(1/6)\times(1/6)=1/36$. Penalaran ini dapat digeneralisasi ke banyak proses independen.
+
+\begin{figure}[hht]
+\centering
+\Figure[Persegi panjang hitam menguraikan gambar dan berlabel “Semua lemparan”. Di dalamnya, pita vertikal selebar kira-kira seperenam diarsir dan diberi label “seperenam lemparan pertama bernilai 1”. Bagian horizontal yang mewakili kira-kira seperenam dari pita vertikal itu diarsir berbeda dan diberi label “pada seperenam waktu ketika lemparan pertama bernilai 1, lemparan kedua juga bernilai 1”.]{0.6}{indepForRollingTwo1s}
+\caption{Pada $1/6$ bagian waktu, lemparan pertama bernilai \resp{1}. Kemudian pada $1/6$ bagian dari \emph{waktu tersebut}, lemparan kedua juga bernilai \resp{1}.}
+\label{indepForRollingTwo1s}
+\end{figure}
+
+\begin{examplewrap}
+\begin{nexample}{Bagaimana jika ada dadu biru yang juga independen dari dua dadu lainnya? Berapa probabilitas melempar ketiga dadu dan semuanya menunjukkan \resp{1}?}\label{threeDice}
+Logika yang sama seperti pada Contoh~\ref{probOf2Ones} berlaku. Jika dadu putih dan merah sama-sama \resp{1} pada $1/36$ bagian waktu, maka pada $1/6$ bagian dari \emph{waktu tersebut} dadu biru juga akan \resp{1}, sehingga kita mengalikan:
+{\begin{align*}
+P(putih=\text{\small\resp{1} dan } merah=\text{\small\resp{1} dan } biru=\text{\small\resp{1}})
+	&= P(putih=\text{\small\resp{1}})\times P(merah=\text{\small\resp{1}})\times P(biru=\text{\small\resp{1}}) \\
+	&= (1/6)\times (1/6)\times (1/6)
+	= 1/216
+\end{align*}} \vspace{-7mm}
+\end{nexample}
+\end{examplewrap}
+
+Contoh~\ref{threeDice} mengilustrasikan apa yang disebut Aturan Perkalian untuk proses independen.
+
+\begin{onebox}{Aturan Perkalian untuk proses independen}
+  \index{Multiplication Rule|textbf}%
+  Jika $A$ dan $B$ menyatakan peristiwa dari dua proses
+  yang berbeda dan independen, probabilitas bahwa $A$
+  dan $B$ terjadi dapat dihitung sebagai hasil kali
+  probabilitas masing-masing:
+  \begin{align*}
+  P(A \text{ dan }B) = P(A) \times  P(B)
+  \end{align*}
+  Demikian pula, jika terdapat $k$ peristiwa $A_1$, ..., $A_k$
+  dari $k$ proses independen, probabilitas semuanya terjadi adalah
+  \begin{align*}
+  P(A_1) \times  P(A_2)\times  \cdots \times  P(A_k)
+  \end{align*}\vspace{-6mm}
+\end{onebox}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 2f8890bf-1625-5e92-9a48-1fe86b67d5a0,ad5e9a37-7767-5450-9dab-f54b570978e8,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,325,329,1b0e5aac42b56c4c0bfcf0e88e8d8fcd622b8526787a1ec500217018c7609ecd,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,347,351,46c843a57d865da0af4dc19c4109fc14d7c7109d53a48e71a097098ba489f479,translated,"% 21
 
 \eocesol{(a)~Diagram batang memperlihatkan urutan kategori dan frekuensi relatifnya.
 (b)~Tidak ada ciri yang tampak pada diagram lingkaran tetapi tidak tampak pada diagram batang.
 (c)~Pada umumnya kami lebih memilih diagram batang karena grafik ini juga memperlihatkan frekuensi relatif setiap kategori.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+329fa693-385a-509f-b5fa-db340f86818e,9cdd5f10-ce1d-5869-965a-71b7aee9c5de,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,425,434,3a3d724b376ec9f522a7262672b1391cb571670b6c99c9756671a558f2634b46,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,12,19,6c2c938547ebd39759d6bdab7a4850d4ddea57408fe0d337dab05f03b60c0fd1,language_reviewed,"% 3
+\eocesol{(a)~10 lemparan. Lebih sedikit lemparan berarti proporsi kepala dalam sampel lebih bervariasi,
+sehingga peluang memperoleh setidaknya 60\% kepala lebih besar.
+(b)~100 lemparan. Lebih banyak lemparan membuat proporsi kepala yang diamati sering lebih dekat
+ke rata-rata, 0.50, dan karena itu juga di atas 0.40.
+(c)~100 lemparan. Dengan lebih banyak lemparan, proporsi kepala yang diamati sering lebih dekat
+ke rata-rata, 0.50.
+(d)~10 lemparan. Lebih sedikit lemparan meningkatkan variasi fraksi lemparan yang menghasilkan kepala.}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 338bd728-e565-547f-83e6-6d727dcd2b61,7addf1c9-9003-5d87-b901-6211727146b0,1,guided_exercise,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,963,970,315e87cfa644b5b46ef5b39f8963ec7d9d5ca29e7bef8c7ef6515efa216c1b03,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,919,926,a25fb619da47209f0c0bb0c73ddfe862f94895bd9f0e5b45cba0af38f0603c7d,translated,"\begin{nexercise}
 Dengan menggunakan Gambar~\ref{loan_int_rate_box_plot_layout},
 estimasikan nilai-nilai berikut untuk
@@ -1147,6 +1342,9 @@ Berapakah $n$ dalam sampel pinjaman
 ini?\footnotemark{}
 \end{nexercise}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+3994e449-3e1a-5603-a654-c900d15f9bc2,55052df6-d488-53ed-8f4c-e0bb4a894836,4,subsection_prose,en,ch_probability/TeX/ch_probability.tex,530,531,bec57d070f03f2b9335906f25615bcf7f5e061e80f45029c97c3d82249ad849b,id-ID,repo/ch_probability/TeX/ch_probability.tex,528,529,4cb38ea57de617dc897a70e916a4c023351b349e60fc66bf1c6fe781525c99c3,language_reviewed,"\footnotetext{(a)~Komplemen $A$: jumlahnya sama dengan \resp{12}. (b)~$P(A^c) = 1/36$. (c)~Gunakan probabilitas komplemen dari bagian (b), $P(A^c) = 1/36$, dan persamaan komplemen: $P($kurang dari \resp{12}$) = 1 - P($\resp{12}$) = 1 - 1/36 = 35/36$.}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 3a0b8dbf-cc25-54a7-bc65-8f42fb5c6f4f,34955eb4-a25f-5029-a4de-2749d28473d5,1,guided-practice,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,2253,2266,b3a89e9130211209eeac38685fe72b537baf60651d1ed9a20c8c630c2730fb39,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,2183,2194,87cb7e9b6db24bbd8a7bb124f2a2043f959506a6cd181c30daf0755e0ffeb70f,language_reviewed,"\begin{exercisewrap}
 \begin{nexercise}
 Apakah penelitian ini merupakan studi observasional atau eksperimen?
@@ -1159,6 +1357,16 @@ ditarik dari hasilnya?\footnotemark{}
   Karena penelitian ini merupakan eksperimen, hasilnya dapat digunakan
   untuk menilai hubungan kausal antara vaksin malaria
   dan apakah pasien menunjukkan tanda-tanda infeksi.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+3d15531f-ace6-5b99-b115-a57fef724bdb,3b45c972-4f12-577c-b7de-d173ab1640e3,6,subsection_prose,en,ch_probability/TeX/ch_probability.tex,267,275,92ebda0472887fda36d96152baaa0e06b12c1a8223c90259c5ca85b87f274418,id-ID,repo/ch_probability/TeX/ch_probability.tex,267,275,6e53bc9311059ecca302014d00e96f610ff9f91481f2d96927285e76cf116cc1,language_reviewed,"\footnotetext{Karena $B$ dan $D$ adalah peristiwa yang saling lepas, gunakan Aturan Penjumlahan: $P(B$ atau $D) = P(B) + P(D) = \frac{1}{3} + \frac{1}{3} = \frac{2}{3}$.}
+
+\index{event|)}
+\index{disjoint|)}
+\index{mutually exclusive|)}
+
+
+\D{\newpage}
+
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 3e1c3dbd-6f2e-54c1-993b-34966b0a037b,2074e3bc-e444-5c50-82e0-9cb61eebf94b,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,107,121,13622842c7832124dffd51364332a3a323d5241e1d7e5a64b4a590c150cec4e2,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,116,129,da8b927d1f581b96c01fdeb60685c7cc88c717ac50c1635102a38e30320ea68e,translated,"% 23
 
@@ -1174,6 +1382,10 @@ dihasilkan tidak terduga.)}
 
 \end{multicols}
 \begin{multicols}{2}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+3ee81614-3cf1-50e0-9028-964afb6413b9,b54e8af5-3f26-50bf-b6fa-38d4fa703cad,1,answer_heading,en,extraTeX/eoceSolutions/eoceSolutions.tex,412,418,0113e5bfc4a6c176d6de549e5ee89faa877de19b61e809934487fb5e3d9d518a,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,4,6,b795077b74c523cdde844f7daa2d200502116e1f06263c620506ef3e0c5b263a,language_reviewed,"\eocesolch{Probabilitas}
+\begin{multicols}{2}
+
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 3fb95d59-f8cc-599c-bb4f-23813aa4d9da,08a0e42f-434e-5621-ad7a-49c7c1f63adf,1,subsection-prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,2439,2579,df305002d9070a2c71ee17e2748e1f8ed4a396f007878219c27c4f33de114217,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,2364,2498,a852a285f8fac75de94f43490e889a4240e2268f6c194a2ef2c24d125b016d88,language_reviewed,"\subsection{Memeriksa independensi}
 
@@ -1447,6 +1659,19 @@ kesimpulannya dapat digeneralisasikan ke populasi yang lebih luas.
 
 % 38
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+423e5b91-67ef-5a35-ac4e-0c455e7f0b31,56a76996-2c09-5515-b086-e9f4a051ed88,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,442,457,9d8a609268f94f76be1faefa557a56d192869b54e82b84938a30059d56038bfe,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,26,38,a268d8275ea08ef14d6488893b84ab6cec736cd000d6aa24438fd743d20c1451,language_reviewed,"% 7
+\eocesol{(a)~Tidak, ada pemilih yang sekaligus Independen dan pemilih mengambang. \\
+(b)\\
+\FigureFullPath[Diagram Venn untuk variabel “Independen” dan “Mengambang” ditampilkan; kedua lingkaran sebagian beririsan. Bagian lingkaran “Independen” yang tidak beririsan berlabel “24”. Bagian lingkaran “Mengambang” yang tidak beririsan berlabel “12”. Bagian irisan berlabel “11”.]{0.25}{ch_probability/figures/eoce/swing_voters/swing_voters.pdf} \\
+(c)~Setiap pemilih Independen adalah pemilih mengambang atau bukan. Karena 35\% pemilih
+adalah Independen dan 11\% adalah keduanya, 24\% sisanya pasti bukan pemilih mengambang.
+(d)~0.47.
+(e)~0.53.
+(f)~P(Independen) $\times$ P(mengambang) = $0.35\times0.23 = 0.08$, yang
+tidak sama dengan P(Independen dan mengambang) = 0.11, sehingga kedua peristiwa dependen.}
+
+\end{multicols}
+\begin{multicols}{2}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 4244810d-8ea4-538b-812e-6564d0658bb6,1e6a7873-9995-5e0c-ac60-7ce19d16b804,31,public-appendix-answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,390,399,a8b688e4b845498528219184f006746f92510153e7917b924a98b0d36fe8aa54,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,416,425,7968fa634878bc31f9dcb125b7f8a139830279d98caea36fc4fa9bb0be4aa6d0,language_reviewed,"% 31
 
 \eocesol{Distribusi usia pemenang kategori Aktris Terbaik menceng ke kanan dengan median
@@ -1884,6 +2109,47 @@ Dua statistik ringkasan ini berguna untuk mencari perbedaan antarkelompok, dan k
 
 Pertanyaan kedua ini cukup rumit. Misalkan Anda melempar koin 100 kali. Walaupun peluang koin menunjukkan sisi kepala pada setiap lemparan adalah 50\%, kemungkinan besar kita tidak akan mengamati tepat 50 sisi kepala. Fluktuasi semacam ini merupakan bagian dari hampir semua proses pembangkitan data. Perbedaan 8\% dalam penelitian stent mungkin saja disebabkan oleh variasi alami ini. Namun, semakin besar perbedaan yang kita amati (untuk ukuran sampel tertentu), semakin sulit dipercaya bahwa perbedaan tersebut terjadi karena kebetulan. Jadi, pertanyaan yang sebenarnya kita ajukan adalah: apakah perbedaannya sedemikian besar sehingga kita harus menolak anggapan bahwa perbedaan tersebut terjadi karena kebetulan?
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+4ad94f74-d2bb-5d70-b2c2-2f4795977fd1,108fb25f-124d-5207-ad62-c21b11efb8fb,1,end-of-section-exercise,en,ch_probability/TeX/defining_probability.tex,17,48,81d2a1e381be6263d68155e2437cf899831def9b3d5b03c7e56cb7520ba79201,id-ID,repo/ch_probability/TeX/defining_probability.tex,17,45,ebf54bd0fa4766388ea4cb509e30c8e852197227eb3074b2f2efad426bce0aa2,language_reviewed,"% 2
+
+\eoce{\qt{Roda roulette\label{roulette_wheel}} Permainan roulette menggunakan
+roda dengan 38 slot: 18 merah, 18 hitam, dan 2 hijau. Sebuah bola diputar
+di atas roda dan akhirnya berhenti di salah satu slot; setiap slot memiliki
+peluang yang sama untuk menangkap bola.
+
+\noindent%
+\begin{minipage}[c]{0.65\textwidth}
+\raggedright\begin{parts}
+\item Anda mengamati roda roulette berputar 3 kali berturut-turut dan bola berhenti di
+slot merah setiap kali. Berapa probabilitas bola berhenti di slot merah pada putaran berikutnya?
+\item Anda mengamati roda roulette berputar 300 kali berturut-turut dan bola berhenti di
+slot merah setiap kali. Berapa probabilitas bola berhenti di slot merah pada putaran berikutnya?
+\item Apakah Anda sama yakinnya terhadap jawaban bagian~(a) dan~(b)? Mengapa?
+\end{parts}
+\end{minipage}
+\begin{minipage}[c]{0.05\textwidth}
+\ 
+\end{minipage}
+\begin{minipage}[c]{0.28\textwidth}
+\begin{center}
+\Figures[Foto roda roulette.]{}{eoce/roulette_wheel}{roulette_wheel.jpg} \\
+{\footnotesize Photo by H\r{a}kan Dahlstr\""{o}m \\
+  (\oiRedirect{textbook-flickr_hakan_dahlstrom_roulette_wheel}{http://flic.kr/p/93fEzp}) \\
+  \oiRedirect{textbook-CC_BY_2}{lisensi~CC~BY~2.0}}
+\end{center}
+\end{minipage}
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+4ade4db1-a84c-5a3a-a53d-0e541cea7389,a8c0aef5-98c8-5736-9a1e-e73de2cec4cc,1,end-of-section-exercise,en,ch_probability/TeX/defining_probability.tex,88,99,053acd88d1495a77967356c6bbe7033c3a5b07e240eb1f4635ec36711981c0a1,id-ID,repo/ch_probability/TeX/defining_probability.tex,86,97,f97b9b0942a49d3384ac6ffb2c9cb6c84385f42535bd17c6088f602b3d3d5a1d,language_reviewed,"% 6
+
+\eoce{\qt{Lemparan dadu\label{dice_rolls}} Jika Anda melempar sepasang dadu adil, berapa
+probabilitas
+\begin{parts}
+\item memperoleh jumlah 1?
+\item memperoleh jumlah 5?
+\item memperoleh jumlah 12?
+\end{parts}
+}{}
+
+\D{\newpage}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 4ae77186-ab13-5809-afea-e21d979ced27,3d7fc080-b542-5ce0-bc46-480b7738b62b,1,exercise,en,ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,133,145,a791265c5111df914f5e1e34db017265f2812a2de681dd3367416b28bb662d58,id-ID,repo/ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,130,143,f0a695f2f223303ae6bb2e19903b1fc05b4492468f3dbf662be67b6345ac8835,translated,"\eoce{\qt{Usulan hunian di berbagai asrama\label{housing_proposal_dorms}} Di sebuah 
 kampus besar, mahasiswa tahun pertama dan kedua tinggal di asrama di bagian 
 timur kampus, sedangkan mahasiswa tahun ketiga dan keempat tinggal di asrama 
@@ -2049,6 +2315,12 @@ Para peneliti mengalokasikan secara acak 224 pasien ke kelompok perlakuan dan 22
 
 Para peneliti mempelajari efek stent pada dua waktu: 30~hari setelah pendaftaran dan 365~hari setelah pendaftaran. Hasil untuk 5 pasien dirangkum dalam Gambar~\ref{stentStudyResultsDF}. Luaran pasien dicatat sebagai ``strok'' atau ``tidak ada kejadian'', yang menunjukkan apakah pasien mengalami strok hingga akhir suatu periode waktu.
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+5262544c-50b5-5745-9019-be1a5468bf08,800f9dd1-220d-5885-9921-06e4d5b61e31,1,guided_exercise,en,ch_probability/TeX/ch_probability.tex,486,490,c02352fb8a5deb36ea6b7401858c8ada0ef8709c382dd6825b2150d8fa63c229,id-ID,repo/ch_probability/TeX/ch_probability.tex,486,490,3c2586fa821b227a8c8538dfb455778546730552d58e175fe693d81c4eb811dd,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+(a) Hitung $P(D^c) = P($memperoleh \resp{1}, \resp{4}, \resp{5}, atau \resp{6}$)$. (b) Berapakah $P(D) + P(D^c)$?\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 52e9cbc2-31e0-530f-8398-15c06eaa3a7d,79b67f35-3460-585e-b91d-f1c7f8a7662f,1,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,1344,1460,4766d658e8d9f2abe88159242b5dd48ec92c7f8febc7cd3aeb8353064597067e,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,1289,1405,cb52af4134ae828b0ad34c6512aa67a55d2ef555dc1af4306d2e60303529c875,translated,"\subsection{Tabel kontingensi dan diagram batang}
 
 \newcommand{\loanapphomeAA}{3496}
@@ -2167,6 +2439,35 @@ yang menunjukkan proporsi pengamatan pada setiap kategori
 \D{\newpage}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+531f333e-3853-56b8-afc5-1ed347d86202,55052df6-d488-53ed-8f4c-e0bb4a894836,5,subsection_prose,en,ch_probability/TeX/ch_probability.tex,547,553,76cd338af6c3aa0f0c88fadcd3e2cef484c74d7156f9823006245c1b9e354761,id-ID,repo/ch_probability/TeX/ch_probability.tex,545,551,ce818f72b03d5bbe5c557a724a2cb0c1e7b41a6c8328339efa65e1b94868e517,language_reviewed,"\footnotetext{(a)~Pertama, cari $P($\resp{6}$)=5/36$, lalu gunakan komplemen: $P($bukan \resp{6}$) = 1 - P($\resp{6}$) = 31/36$.
+
+(b)~Pertama, cari komplemennya, yang membutuhkan jauh lebih sedikit usaha: $P($\resp{2} atau \resp{3}$)=1/36+2/36=1/12$. Kemudian hitung $P(B) = 1-P(B^c) = 1-1/12 = 11/12$.
+
+(c)~Seperti sebelumnya, mencari komplemen adalah cara cerdas untuk menentukan $P(D)$. Pertama, cari $P(D^c) = P($\resp{11} atau \resp{12}$)=2/36 + 1/36=1/12$. Kemudian hitung $P(D) = 1 - P(D^c) = 11/12$.}
+
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+5387ebd9-2649-53b7-b178-1b1f351c4cb3,3b45c972-4f12-577c-b7de-d173ab1640e3,4,subsection_prose,en,ch_probability/TeX/ch_probability.tex,248,254,8faf091bcc21f1f98b85f63d575628678d516cbdb0c7b3b315effc933b044fa2,id-ID,repo/ch_probability/TeX/ch_probability.tex,248,254,5c1feac2567300f7040a4f62ee326bf3b3b15e6f0887a8afc2d34a56e36eeeda,language_reviewed,"\footnotetext{(a)~$P(A) = P($\resp{1} atau \resp{2}$)
+    = P($\resp{1}$) + P($\resp{2}$)
+    = \frac{1}{6} + \frac{1}{6}
+    = \frac{2}{6}
+    = \frac{1}{3}$.
+    (b)~Dengan cara serupa, $P(B) = 1/3$.}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+555a43b1-d357-5015-a292-6fd46707f6b6,fc0caa09-fb91-51a2-9411-8f34e4651d62,4,subsection_prose,en,ch_probability/TeX/ch_probability.tex,362,373,252aaf1271da898398e74b240649c7077cf8276663a94a377cfd876ffbc0fc6f,id-ID,repo/ch_probability/TeX/ch_probability.tex,362,373,d543976e3aeed9216c45a7c8f189fa343d74be74cb814ea4f835598b83043cc0,language_reviewed,"\footnotetext{%
+  \begin{minipage}[t]{0.65\textwidth}
+  Baik jumlah maupun {\color{oiB}probabilitas} yang bersesuaian
+  (misalnya, $3839/10000 = 0.384$) ditampilkan.
+  Perhatikan bahwa jumlah pinjaman pada lingkaran kiri
+  adalah $3839 + 950 = 4789$, sedangkan jumlah
+  pada lingkaran kanan adalah $950 + 545 = 1495$.
+  \end{minipage}\ %
+  \begin{minipage}[c]{0.3\textwidth}
+  \hfill\Figure[Diagram Venn dengan dua lingkaran ditampilkan. Lingkaran pertama berlabel “pemohon memiliki hipotek” dan lingkaran kedua berlabel “permohonan bersama”; kedua lingkaran sebagian beririsan. Pada lingkaran pertama, bagian yang tidak beririsan menunjukkan jumlah 3839 dan proporsi 0,384. Bagian lingkaran permohonan bersama yang tidak beririsan berlabel 545 dengan proporsi 0,055. Bagian irisan berlabel jumlah 950 dan proporsi 0,095. Di luar kedua lingkaran dicatat bahwa “pinjaman lain” berjumlah 10.000 dikurangi 3.839, 950, dan 545, yaitu 4666 dengan proporsi 0,467.]{}{loans_app_type_home_venn} \vspace{-13mm}
+  \end{minipage}}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 56aeaa91-9f5a-54db-90e5-79aa540b0a5c,6fd54b2a-6a51-5f71-8a7b-fd2a10a6ab5d,1,exercise,en,ch_intro_to_data/TeX/review_exercises.tex,80,110,4f4a365b1c5a32b9996bab7009cef01bb98db0a0865b8958ca5d7125f39fd05f,id-ID,repo/ch_intro_to_data/TeX/review_exercises.tex,81,107,3a67030a18fe5a7f718ec468064419c499fd7b5b60972084cfe914d916d8d2ae,translated,"\eoce{\qt{Survei dewan kota\label{city_council_survey}}
 Sebuah dewan kota meminta agar survei rumah tangga dilakukan
 di wilayah pinggiran kotanya.
@@ -2195,6 +2496,53 @@ dalam konteks kota ini.
 
 % 39
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+56e0d106-36b7-59cd-9392-b8ce62bc0f63,a5d1f326-634c-5bcf-b4b2-9c9dea130284,1,end-of-section-exercise,en,ch_probability/TeX/defining_probability.tex,173,208,9c13bd7895a24169107f74cb269bc35334b0bf167f2befbc053c78c89869de73,id-ID,repo/ch_probability/TeX/defining_probability.tex,167,200,9738200bf275176f47cfa7019cf526d1f90c83e27829a35f23a86817f8206406,language_reviewed,"% 11
+
+\eoce{\qt{Pencapaian pendidikan pasangan\label{edu_attain_couples}} Tabel berikut
+menunjukkan distribusi tingkat pendidikan yang dicapai penduduk AS menurut
+gender berdasarkan data American Community Survey 2010.
+\footfullcite{eduSex}
+\begin{center}
+\begin{tabular}{l p{7cm} c c }
+&                                       & \multicolumn{2}{c}{\textit{Jenis kelamin}} \\
+\cline{3-4}
+&                                                   & Laki-laki  & Perempuan \\
+\cline{2-4}
+& Kurang dari kelas 9                               & 0.07  & 0.13 \\
+& Kelas 9 sampai 12, tanpa ijazah                     & 0.10  & 0.09 \\
+\textit{Pendidikan}    & Lulusan SMA (atau sederajat)   & 0.30  & 0.20 \\
+\textit{tertinggi}  & Pernah kuliah, tanpa gelar       & 0.22  & 0.24 \\ 
+\textit{yang dicapai}   & Gelar associate            & 0.06  & 0.08 \\
+& Gelar sarjana                                 & 0.16  & 0.17 \\
+& Gelar pascasarjana atau profesional                   & 0.09  & 0.09 \\
+\cline{2-4} 
+& Total                                             & 1.00  & 1.00
+\end{tabular}
+\end{center}
+\begin{parts}
+\item Berapa probabilitas laki-laki yang dipilih secara acak memiliki setidaknya
+gelar sarjana?
+\item Berapa probabilitas perempuan yang dipilih secara acak memiliki setidaknya
+gelar sarjana?
+\item Berapa probabilitas laki-laki dan perempuan yang menikah sama-sama memiliki
+setidaknya gelar sarjana? Catat asumsi yang harus dibuat untuk menjawab pertanyaan ini.
+\item Jika Anda membuat asumsi pada bagian~(c), apakah asumsi itu wajar? Jika tidak
+membuat asumsi, periksa kembali jawaban sebelumnya lalu kembali ke bagian ini.
+\end{parts}
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+57a43743-69e4-51ac-8a53-5ea031125d6c,3bd4a01b-3e04-5838-9c65-e744700c9e17,1,guided_exercise,en,ch_probability/TeX/ch_probability.tex,654,665,81abf7a337d54e933f7886e4dcf6ec4793369d8cbdea8e63e73f3501694305a9,id-ID,repo/ch_probability/TeX/ch_probability.tex,651,662,aa3b968e1bb161efbba32580f87b6746d95c4504e13c03628a195f21b9a0acad,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+Tiga orang dipilih secara acak.\footnotemark \vspace{-1.5mm}
+\begin{enumerate}
+\setlength{\itemsep}{0mm}
+\item[(a)] Berapa probabilitas orang pertama laki-laki dan tidak kidal?
+\item[(b)] Berapa probabilitas dua orang pertama laki-laki dan tidak kidal?
+\item[(c)] Berapa probabilitas orang ketiga perempuan dan kidal?
+\item[(d)] Berapa probabilitas dua orang pertama laki-laki dan tidak kidal, sedangkan orang ketiga perempuan dan kidal?
+\end{enumerate}
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 58c3e2ce-d4c7-5977-a38e-24292984be68,aa0c130d-cb84-5a06-b650-6dc25cefd73c,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,123,134,c799f55c424658e8fd91e42963be2e5f13b776cbf60296c918baa34e5bb15ec0,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,131,145,bd49b4f687003679754bb33a817f87af6180c0b8eb7c4b85ddef9656f9c54671,translated,"% 25
 
 \eocesol{(a)~Kasusnya adalah 200 peserta dari kalangan laki-laki dan perempuan
@@ -2210,6 +2558,44 @@ penjelas dan variabel respons karena studi ini bersifat observasional.
 kerangka asal pemilihan 200 peserta. Soal tidak menyebutkan kerangka tersebut,
 sehingga generalisasi ke populasi yang lebih luas tidak dapat
 dipastikan.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+592980bc-c9e2-5c1d-a28a-c1168aa6e1b0,50c1d32b-6f15-57f9-be96-bdb3a7c1760e,1,chapter_opener,en,ch_probability/TeX/ch_probability.tex,1,37,4f627fac926e0600ef322841e46967a9af9f2331d2434fba218ceb51eca14071,id-ID,repo/ch_probability/TeX/ch_probability.tex,1,37,d536bb79d09b7ff024bf121e5852f9028951341f74901b1646111db8bcf83241,language_reviewed,"\begin{chapterpage}{Probabilitas}
+  \chaptertitle{Probabilitas}
+  \label{probability}
+  \label{ch_probability}
+  \chaptersection{basicsOfProbability}
+  \chaptersection{conditionalProbabilitySection}
+  \chaptersection{smallPop}
+  \chaptersection{randomVariablesSection}
+  \chaptersection{contDist}
+\end{chapterpage}
+\renewcommand{\chapterfolder}{ch_probability}
+
+\index{probability|(}
+
+\chapterintro{Probabilitas merupakan landasan statistika,
+  dan Anda mungkin \mbox{sudah}
+  mengenal banyak gagasan yang disajikan dalam bab ini.
+  Namun, formalisasi konsep probabilitas kemungkinan besar masih
+  baru bagi sebagian besar pembaca. \\
+
+  \noindent%
+  Walaupun bab ini memberikan landasan teoretis
+  bagi gagasan-gagasan pada bab-bab selanjutnya dan membuka jalan
+  menuju pemahaman yang lebih mendalam,
+  penguasaan konsep-konsep yang diperkenalkan di bab ini
+  tidak diperlukan untuk menerapkan
+  metode yang diperkenalkan di bagian lain buku ini.}
+
+%  This chapter provides a theoretical foundation for
+%  the ideas introduced in later chapters.
+%  However, this chapter is not strictly required to
+%  understand or apply the methods introduced in the
+%  rest of this book.}
+
+
+
+
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 5a436845-190c-5387-9a5e-702e4f02c724,20b13ee4-e03c-53fa-ae0f-d8eee0d4f258,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,265,276,e23470c1e142d079d22bd20ffb69a7bf777b01a8b667922918f28744459157ff,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,279,291,8dbdbe4e72805fa68a0ff2374d94cc34db9b6b5e4d5a7135b8a5e42bc14902e2,translated,"% 9
 
@@ -2892,6 +3278,41 @@ Jelaskan alasan Anda.
 
 % 23
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+5c1d0fb0-35eb-5351-90bd-7853bb2eb919,52bf0186-4674-569a-b8c7-783489172959,3,subsection_prose,en,ch_probability/TeX/ch_probability.tex,620,653,025bd744df53e4cfa9effe76f28957a91251e65b20f4714547f36f6aa434dd7a,id-ID,repo/ch_probability/TeX/ch_probability.tex,617,650,032136db90402510dbc3b7104ed8c083f90ea6f836efbb87d57b3f9d5f1dc7e8,language_reviewed,"\footnotetext{(a)~Singkatan \resp{RH} dan \resp{LH} digunakan masing-masing untuk tidak kidal dan kidal. Karena semuanya independen, kita menerapkan Aturan Perkalian untuk proses independen:
+\begin{align*}
+P(\text{kelima orang adalah \resp{RH}})
+&= P(\text{pertama = \resp{RH}, kedua = \resp{RH}, ..., kelima = \resp{RH}}) \\
+&= P(\text{pertama = \resp{RH}})\times P(\text{kedua = \resp{RH}})\times  \dots \times P(\text{kelima = \resp{RH}}) \\
+&= 0.91\times 0.91\times 0.91\times 0.91\times 0.91 = 0.624
+\end{align*}
+
+(b)~Dengan penalaran yang sama seperti pada~(a), $0.09\times 0.09\times 0.09\times 0.09\times 0.09 = 0.0000059$
+
+(c)~Gunakan komplemen, $P($kelima orang \resp{RH}$)$, untuk menjawab pertanyaan ini:
+\begin{align*}
+P(\text{not all \resp{RH}})
+	= 1 - P(\text{all \resp{RH}})
+	= 1 - 0.624 = 0.376
+\end{align*}}
+
+Misalkan variabel \var{handedness} dan
+\var{sex} independen,
+artinya mengetahui \var{sex} seseorang tidak memberikan informasi
+berguna tentang \var{handedness}-nya, dan sebaliknya.
+Kita dapat menghitung probabilitas orang yang dipilih secara acak
+tidak kidal dan perempuan\footnote{Proporsi aktual
+  populasi AS yang \resp{perempuan} sekitar 50\%,
+  sehingga kita menggunakan 0,5 sebagai probabilitas memilih perempuan.
+  Namun, probabilitas ini berbeda di negara lain.}
+dengan Aturan Perkalian:
+\begin{align*}
+P(\text{tidak kidal dan perempuan})
+    &= P(\text{tidak kidal}) \times  P(\text{perempuan}) \\
+    &= 0.91 \times  0.50 = 0.455
+\end{align*}
+
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 5c9a47b6-f71b-5f14-b15c-41e43c91a4dd,d2fea3ad-d6f6-5a8b-a1b3-42405183e22a,1,exercise,en,ch_intro_to_data/TeX/case_study_using_stents_to_prevent_strokes.tex,62,105,2b06c64eab62d7488caa709e576f1d01092679d68b173337baf35100d849695e,id-ID,repo/ch_intro_to_data/TeX/case_study_using_stents_to_prevent_strokes.tex,59,102,9c4ea1e419c72ae6574d2a981afc0e593628e3ae528fb1e2ac48c0e027e94d18,translated,"\eoce{\qt{Sinusitis dan antibiotik,
     Bagian I\label{sinusitis_and_antibiotics_intro}} 
 Para peneliti yang membandingkan efek pengobatan antibiotik untuk sinusitis akut
@@ -2954,6 +3375,19 @@ Edisi Keempat}
 \small Terjemahan bahasa Indonesia dan adaptasi teknis, atas permintaan pengguna \\[2mm]
 }
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""947b6c3b-ce48-5326-b7af-6571830020d4""]"
+5e30d5bd-e4f1-58ad-a610-14fbb5cfc4a6,7ede0e9f-047f-5ea5-acdf-149e26f70e15,1,end-of-section-exercise,en,ch_probability/TeX/defining_probability.tex,158,171,70be3c21795862de5ddc6f21e1e4d875063e1d4ea9e004beb3985440020aebac,id-ID,repo/ch_probability/TeX/defining_probability.tex,153,165,dacd15c9a55b42c89434a02a9bb8a52f2b9968be4612dc09dcb59f98f81b25c6,language_reviewed,"% 10
+
+\eoce{\qt{Menebak dalam ujian\label{guessing_on_exam}} Dalam ujian pilihan ganda,
+terdapat 5 pertanyaan dan 4 pilihan untuk setiap pertanyaan (a, b, c, d). Nancy sama sekali belum
+belajar untuk ujian dan memutuskan menebak jawaban secara acak. Berapa probabilitas bahwa:
+\begin{parts}
+\item pertanyaan pertama yang dijawab benar adalah pertanyaan ke-$5$?
+\item ia menjawab semua pertanyaan dengan benar?
+\item ia menjawab setidaknya satu pertanyaan dengan benar?
+\end{parts}
+}{}
+
+\D{\newpage}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 5f2289c9-2f21-570c-8d7e-aa09bbab4e65,7fb6fb37-23be-57f3-af92-f7f18dbb1210,31,chapter-review-exercise,en,ch_summarizing_data/TeX/review_exercises.tex,63,99,5110f2362dd0499625852be0afc7ee8be3698909f641530a47307fab0cf249f4,id-ID,repo/ch_summarizing_data/TeX/review_exercises.tex,75,122,bc32a108a71cfe4013033847ef334e4343879c65610afa9b7c7815efdf843315,language_reviewed,"% 31
 
 \eoce{\qt{Pemenang Oscar\label{oscar_winners}} Penghargaan Oscar untuk kategori
@@ -3035,6 +3469,17 @@ n            & 92
 
 %___________________________________________
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+60eb256a-abb4-5370-ad68-01bde4361ab6,bb82be73-ea51-5c91-8039-bd102108c3c6,2,subsection_prose,en,ch_probability/TeX/ch_probability.tex,133,142,6ade8b83f7bb5f31aca5a4a35d71fbb6b094604455294752c7f8f6baaba2fb75,id-ID,repo/ch_probability/TeX/ch_probability.tex,133,142,99708b3ccd74d6034a2b58d9810dee597daefe6e8bfcff19b3c2a1efa1ddbef3,language_reviewed,"\footnotetext{Berikut empat contoh. (i) Apakah seseorang akan sakit bulan depan atau tidak merupakan proses yang tampak acak, dengan hasil \resp{sakit} dan \resp{tidak}. (ii) Kita dapat \emph{membangkitkan} proses acak dengan memilih seseorang secara acak lalu mengukur tinggi badannya. Hasil proses ini berupa bilangan positif. (iii) Apakah pasar saham naik atau turun minggu depan merupakan proses yang tampak acak, dengan hasil yang mungkin \resp{naik}, \resp{turun}, dan \resp{tidak\us{}berubah}. Sebagai alternatif, perubahan persentase pasar saham dapat digunakan sebagai hasil numerik. (iv) Apakah teman sekamar Anda mencuci piring malam ini juga mungkin tampak seperti proses acak, dengan hasil \resp{mencuci\us{}piring} dan \resp{meninggalkan\us{}piring}.}
+
+Hal-hal yang kita anggap sebagai proses acak belum tentu benar-benar acak; mungkin saja proses itu terlalu sulit dipahami secara tepat. Contoh keempat dalam jawaban catatan kaki Latihan Terbimbing~\ref{randomProcessExercise} mengisyaratkan bahwa perilaku teman sekamar adalah proses acak. Namun, meskipun perilaku teman sekamar tidak benar-benar acak, memodelkannya sebagai proses acak tetap dapat berguna.
+
+%\begin{tipBox}{\tipBoxTitle{Modeling a process as random}
+%It can be helpful to model a process as random even if it is not truly random.}
+%\end{tipBox}
+
+\index{random process|)}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 6530339a-4682-5055-8abb-ca4b594ef384,8be7cb0a-0a23-54f6-99da-04899215d5a2,1,copyright_page,en,extraTeX/preamble/copyright_derivative.tex,1,8,3c473391733db54bf15ebd67fa77e35eaf461e0c68c33ee7c51295ca1331762d,id-ID,repo/extraTeX/preamble/copyright_derivative.tex,1,36,225e9e4c2209bbb80e98adbfdb5ff8fc8722607607d234f48073b2acbc504f1e,translated,"\chapter*{}
 \vfill
 
@@ -3087,6 +3532,23 @@ ujian sejarah (dengan nilai maksimum 100 poin) adalah 85, dengan simpangan baku
 15. Apakah distribusi nilai ujian ini simetris? Jika tidak, bentuk seperti apa
 yang Anda perkirakan untuk distribusi tersebut? Jelaskan penalaran Anda.
 }{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+6887534e-fa97-5663-bf63-97b3ac37862c,fc0caa09-fb91-51a2-9411-8f34e4651d62,1,subsection_prose,en,ch_probability/TeX/ch_probability.tex,276,291,a13af4534076b426ab9d4dc9165df52e5e3bb79946f940253d58eb5b446226a2,id-ID,repo/ch_probability/TeX/ch_probability.tex,276,291,d97fa7091517d2693291fb595bb3ef516193d53ebdbd4976e3f4b98efbf100e1,language_reviewed,"\subsection{Probabilitas ketika peristiwa tidak saling lepas}
+
+Mari kita pertimbangkan perhitungan untuk dua peristiwa yang tidak saling lepas dalam konteks \indexthis{dek standar 52 kartu}{deck of cards}, yang ditampilkan pada Gambar~\ref{deckOfCards}. Jika Anda belum mengenal kartu dalam dek standar, lihat catatan kaki.\footnote{Ke-52 kartu dibagi menjadi empat \term{jenis}: $\clubsuit$ (keriting), {\color{redcards}$\diamondsuit$} (wajik), {\color{redcards}$\heartsuit$} (hati), dan $\spadesuit$ (sekop). Setiap jenis memiliki 13 kartu berlabel: \resp{2}, \resp{3}, ..., \resp{10}, \resp{J} (jack), \resp{Q} (queen), \resp{K} (king), dan \resp{A} (ace). Jadi, setiap kartu merupakan kombinasi unik antara jenis dan label, misalnya {\color{redcards}\resp{4$\heartsuit$}} dan \resp{J$\clubsuit$}. Ke-12 kartu berupa jack, queen, dan king disebut \termsub{\resp{kartu bergambar}}{face card}. Kartu berjenis {\color{redcards}$\diamondsuit$} atau {\color{redcards}$\heartsuit$} biasanya berwarna {\color{redcards}merah}, sedangkan dua jenis lainnya biasanya berwarna hitam.}
+
+\begin{figure}[h]
+\centering
+\begin{tabular}{lll lll lll lll l}
+\resp{2$\clubsuit$} & \resp{3$\clubsuit$} & \resp{4$\clubsuit$} & \resp{5$\clubsuit$} & \resp{6$\clubsuit$} & \resp{7$\clubsuit$} & \resp{8$\clubsuit$} & \resp{9$\clubsuit$} & \resp{10$\clubsuit$} & \resp{J$\clubsuit$} & \resp{Q$\clubsuit$} & \resp{K$\clubsuit$} & \resp{A$\clubsuit$}  \\
+\color{redcards} \resp{2$\diamondsuit$} & \color{redcards}\resp{3$\diamondsuit$} & \color{redcards}\resp{4$\diamondsuit$} & \color{redcards}\resp{5$\diamondsuit$} & \color{redcards}\resp{6$\diamondsuit$} & \color{redcards}\resp{7$\diamondsuit$} & \color{redcards}\resp{8$\diamondsuit$} & \color{redcards}\resp{9$\diamondsuit$} & \color{redcards}\resp{10$\diamondsuit$} & \color{redcards}\resp{J$\diamondsuit$} & \color{redcards}\resp{Q$\diamondsuit$} & \color{redcards}\resp{K$\diamondsuit$} & \color{redcards}\resp{A$\diamondsuit$} \\
+\color{redcards}\resp{2$\heartsuit$} & \color{redcards}\resp{3$\heartsuit$} & \color{redcards}\resp{4$\heartsuit$} & \color{redcards}\resp{5$\heartsuit$} & \color{redcards}\resp{6$\heartsuit$} & \color{redcards}\resp{7$\heartsuit$} & \color{redcards}\resp{8$\heartsuit$} & \color{redcards}\resp{9$\heartsuit$} & \color{redcards}\resp{10$\heartsuit$} & \color{redcards}\resp{J$\heartsuit$} & \color{redcards}\resp{Q$\heartsuit$} & \color{redcards}\resp{K$\heartsuit$} & \color{redcards}\resp{A$\heartsuit$} \\
+\resp{2$\spadesuit$} & \resp{3$\spadesuit$} & \resp{4$\spadesuit$} & \resp{5$\spadesuit$} & \resp{6$\spadesuit$} & \resp{7$\spadesuit$} & \resp{8$\spadesuit$} & \resp{9$\spadesuit$} & \resp{10$\spadesuit$} & \resp{J$\spadesuit$} & \resp{Q$\spadesuit$} & \resp{K$\spadesuit$} & \resp{A$\spadesuit$}
+\end{tabular}
+\caption{Representasi 52 kartu unik dalam sebuah dek.}
+\label{deckOfCards}
+\end{figure}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 69156d43-6b19-55b9-8e16-317af2b1e4cf,a36d034f-f5c1-5f04-89ac-c4f4a6cd046d,1,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,986,1039,ad49b85b7f8990b5227fda65a52ea18f64221ef9362a56b8b7d28000b2298bdc,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,941,991,3ba075d64886f3f223e3b428bf2c59a9158036dce296ada9f0430f175676eddd,translated,"\subsection{Statistik robust}
@@ -3327,6 +3789,47 @@ berikutnya.
 
 
 % R011-B005 D022: jeda halaman paksa sebelum diagram kotak ditiadakan.
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+72eea49f-2c73-5906-a185-d3310fb95560,cc898c78-1c18-5bff-bdc8-20447b9c318d,1,subsection_prose,en,ch_probability/TeX/ch_probability.tex,48,87,1fb0b8295973c16608ae6b024a0df0781fc6fe13e5e2765e931bd02dbf25c243,id-ID,repo/ch_probability/TeX/ch_probability.tex,48,87,541fb857dc0f8aad37341147fad3a05a67d13b96cff6f7e5d9b68c3faeba0c1d,language_reviewed,"\subsection{Contoh pengantar}
+
+Sebelum membahas gagasan teknis, mari kita lihat
+beberapa contoh dasar yang mungkin terasa lebih akrab.
+
+\begin{examplewrap}
+\begin{nexample}{“Dadu”, bentuk tunggal dari dice, adalah kubus dengan enam sisi bernomor \resp{1}, \resp{2}, \resp{3}, \resp{4}, \resp{5}, dan \resp{6}. Berapa peluang memperoleh \resp{1} saat melempar dadu?}\label{probOf1}
+Jika dadunya adil, peluang memperoleh \resp{1} sama dengan peluang memperoleh bilangan lain. Karena ada enam hasil, peluangnya adalah 1 banding 6 atau, secara ekuivalen, $1/6$.
+\end{nexample}
+\end{examplewrap}
+
+\begin{examplewrap}
+\begin{nexample}{Berapa peluang memperoleh \resp{1} atau \resp{2} pada lemparan berikutnya?}\label{probOf1Or2}
+\resp{1} dan \resp{2} merupakan dua dari enam hasil yang mungkin dan sama-sama berpeluang, sehingga peluang memperoleh salah satu dari kedua hasil ini adalah $2/6 = 1/3$.
+\end{nexample}
+\end{examplewrap}
+
+\begin{examplewrap}
+\begin{nexample}{Berapa peluang memperoleh \resp{1}, \resp{2}, \resp{3}, \resp{4}, \resp{5}, atau \resp{6} pada lemparan berikutnya?}\label{probOf123456}
+100\%. Hasilnya pasti salah satu dari bilangan tersebut.
+\end{nexample}
+\end{examplewrap}
+
+\begin{examplewrap}
+\begin{nexample}{Berapa peluang tidak memperoleh \resp{2}?}\label{probNot2}
+Karena peluang memperoleh \resp{2} adalah $1/6$ atau $16.\bar{6}\%$, peluang tidak memperoleh \resp{2} adalah $100\% - 16.\bar{6}\%=83.\bar{3}\%$ atau $5/6$.
+
+Sebagai alternatif, kita dapat menyadari bahwa tidak memperoleh \resp{2} sama dengan memperoleh \resp{1}, \resp{3}, \resp{4}, \resp{5}, atau \resp{6}. Kelima hasil itu mencakup lima dari enam hasil yang sama-sama berpeluang, sehingga probabilitasnya $5/6$.
+\end{nexample}
+\end{examplewrap}
+
+\begin{examplewrap}
+\begin{nexample}{Misalkan kita melempar dua dadu. Jika pada $1/6$ bagian dari seluruh lemparan dadu pertama menunjukkan \resp{1}, dan pada $1/6$ bagian dari waktu tersebut dadu kedua juga menunjukkan \resp{1}, berapa peluang memperoleh dua \resp{1}?}\label{probOf2Ones}
+Jika dadu pertama menunjukkan \resp{1} pada $16.\bar{6}$\% lemparan dan pada $1/6$ bagian dari \emph{lemparan tersebut} dadu kedua juga menunjukkan \resp{1}, maka peluang kedua dadu menunjukkan \resp{1} adalah $(1/6)\times (1/6)$ atau $1/36$.
+\end{nexample}
+\end{examplewrap}
+
+
+\D{\newpage}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 73a59424-0225-589c-95d0-0904da0fec3d,8f0807ed-49cf-58cd-829e-096e53f1df1c,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,91,95,d81168df6a0dd3cada0f020a24891fcf4feb5ffb83a15db26874aaa302ff0465,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,98,103,9a9e44864b4b25db8ff94778632d79e809f2cd8a08841dfc23e5b1c7459a141d,translated,"% 19
@@ -3656,8 +4159,21 @@ Kita juga dapat memeriksa hubungan antara \var{app\us{}type} dan \var{homeowners
 
 \begin{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+8337cd6f-25c1-5944-bb37-d8e0dbab214c,fc0caa09-fb91-51a2-9411-8f34e4651d62,3,subsection_prose,en,ch_probability/TeX/ch_probability.tex,347,350,a12992ecf3447790832fdf1b2ade417b03973249e3acbaba41fd848fc946b8dd,id-ID,repo/ch_probability/TeX/ch_probability.tex,347,350,c980f171050d784812821f3fa3950ba1d3724dbdae2c3fadb7153b9f8f9cee31,language_reviewed,"\footnotetext{(a) Jika $A$ dan $B$ saling lepas, $A$ dan $B$ tidak mungkin terjadi secara bersamaan. (b) Jika $A$ dan $B$ saling lepas, suku terakhir $P(A\text{ dan }B)$ dalam rumus Aturan Penjumlahan Umum bernilai 0 (lihat bagian (a)), sehingga tersisa Aturan Penjumlahan untuk peristiwa saling lepas.}
+
+\index{data!loans|(}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 8350fe92-c749-5c3a-a26f-389914d58f4c,c9faaa37-1ac5-54ae-b62f-1556d2b63374,1,section_heading,en,ch_intro_to_data/TeX/ch_intro_to_data.tex,41,42,9a1a765816b5a5d7a1f11675b36dcf49d3608391a6314c0dcf3f0472013c9e88,id-ID,repo/ch_intro_to_data/TeX/ch_intro_to_data.tex,41,42,a20a8e3760cb06a360f7811938c1cdd978b6500a616cace8e6d3a001e0d8da38,translated,"\section{Studi kasus: penggunaan stent untuk mencegah strok}
 \label{basicExampleOfStentsAndStrokes}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+83d4d213-318f-5ad8-825b-ffc0ff20daee,16deee95-44eb-5875-bb77-c77ae28667ba,1,guided_exercise,en,ch_probability/TeX/ch_probability.tex,241,247,ebeec582b3245d5d97fd2132584e4d0b39ee2b163fe1dfd41457a8dc80e048e3,id-ID,repo/ch_probability/TeX/ch_probability.tex,241,247,37145b27f5eb433d49f15f63fa6481a317fbe501646b959863aa264087df1584,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+(a) Verifikasi bahwa probabilitas peristiwa $A$, $P(A)$,
+adalah $1/3$ menggunakan Aturan Penjumlahan.
+(b)~Lakukan hal yang sama untuk peristiwa $B$.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 84d50ae4-01b3-5d92-a521-5e360c6d853e,7c6f18a3-f953-577e-a859-eda10519975c,1,chapter_title_page,en,ch_intro_to_data/TeX/ch_intro_to_data.tex,1,10,7d47f852c51eb2273288e1467bf9ffcbf464a16d3467bdabfde5694927b8e6e4,id-ID,repo/ch_intro_to_data/TeX/ch_intro_to_data.tex,1,10,366f2eb7243f372509f2353ab024d0a723cdd54fe280133488afc295ef45031c,translated,"\begin{chapterpage}{Pengantar data}
   \chaptertitle{Pengantar data}
@@ -3754,6 +4270,9 @@ pembobotan bila peluang itu berbeda, dan nonrespons. Kemiripan antarkelas
 terutama memengaruhi presisi; kemiripan itu sendiri tidak menjamin bahwa
 estimasi bebas bias.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+87e4410a-2ca6-5def-8485-846bb462725f,55052df6-d488-53ed-8f4c-e0bb4a894836,2,subsection_prose,en,ch_probability/TeX/ch_probability.tex,491,492,8264277e90c03650dd33d9e1bf8322f44d1ad84b5d5c4905a7afd5280e0261d6,id-ID,repo/ch_probability/TeX/ch_probability.tex,491,492,ebeada5e619b28124f72da6e9064c4f446c78ed142ea3361696e19237d27cfb3,language_reviewed,"\footnotetext{(a)~Hasil-hasilnya saling lepas dan masing-masing memiliki probabilitas $1/6$, sehingga probabilitas totalnya $4/6=2/3$. (b)~Kita juga dapat melihat bahwa $P(D)=\frac{1}{6} + \frac{1}{6} = 1/3$. Karena $D$ dan $D^c$ saling lepas, $P(D) + P(D^c) = 1$.}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 8819eb0f-cb02-5a70-adee-5fddfb21426a,aaaf998a-0136-55b4-a71e-e50907922fb3,1,guided_exercise,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,765,774,431764459fdfb673bdc99333fe8aefd9205d7002e26db4c2b11d37cdb75c9f7e,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,742,749,c6a67e7d11aa3d8f6385b6ff1a15570a60fd74d62ec83bc2ab45a62a74b4ea9b,translated,"\begin{nexercise}
 Pada halaman~\pageref{shapeFirstDiscussed}, konsep bentuk
 distribusi diperkenalkan. Deskripsi bentuk distribusi yang baik
@@ -3763,6 +4282,18 @@ Dengan menggunakan Gambar~\ref{severalDiffDistWithSdOf1} sebagai
 contoh, jelaskan mengapa deskripsi seperti ini penting.\footnotemark{}
 \end{nexercise}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+882054eb-0352-5030-8cc2-1b493b114673,e3d94fe5-3bce-5303-8104-8066f5d82f11,1,end-of-section-exercise,en,ch_probability/TeX/defining_probability.tex,145,156,fe9dc33db91941bfd6f13ccfb5713b99cb30a4eae28ebd991791f74d8e051d76,id-ID,repo/ch_probability/TeX/defining_probability.tex,140,151,bc2ec90aa9fdaaa1cd6ba55175661a579fd234bd37562d63f7c9df384a403083,language_reviewed,"% 9
+
+\eoce{\qt{Saling lepas versus independen\label{disjoint_indep}} Pada bagian~(a) dan~(b),
+tentukan apakah peristiwa saling lepas, independen, atau tidak keduanya (peristiwa tidak dapat
+sekaligus saling lepas dan independen).
+\begin{parts}
+\item Anda dan seorang mahasiswa dari kelas Anda yang dipilih secara acak sama-sama mendapat nilai A dalam
+mata kuliah ini.
+\item Anda dan rekan belajar sekelas sama-sama mendapat nilai A dalam mata kuliah ini.
+\item Jika dua peristiwa dapat terjadi bersamaan, apakah keduanya pasti dependen?
+\end{parts}
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 889d897e-c0b5-5ef1-b776-5a33eb4bdb80,ca6367c4-15b1-502f-9fa9-3f7229c912ee,2,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,144,151,3ea97ed3206d34d12f03d8d2957c0cbca9e192afba56974190b87bce9aed5f82,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,143,149,9218b68e8e8111c3e4f2178bba11b0832cac3582ba2679c369d15f3b9a2a5f21,translated,"\end{exercisewrap}
 \footnotetext{Jawaban dapat bervariasi.
   Diagram pencar membantu kita mengenali dengan cepat hubungan
@@ -3770,6 +4301,12 @@ contoh, jelaskan mengapa deskripsi seperti ini penting.\footnotemark{}
   hubungan yang lebih rumit.}
 
 \begin{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+8906f2a3-de4d-5045-8288-fc61ed94a9e1,10af6542-fd2c-526e-9043-03ee39c0bdfe,1,guided_exercise,en,ch_probability/TeX/ch_probability.tex,525,529,0d8d6db36c0397b8016aa241017cb49bb203fb7dfe166d59a2d351b26c937690,id-ID,repo/ch_probability/TeX/ch_probability.tex,523,527,3d99e8677b5a99a736a6718afee1d7fd5d84a9eea6feb55d3479aa586b82d297,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+Misalkan $A$ menyatakan peristiwa ketika kita melempar dua dadu dan jumlahnya kurang dari \resp{12}. (a)~Apa yang direpresentasikan oleh peristiwa $A^c$? (b)~Tentukan $P(A^c)$ dari Gambar~\ref{diceProb} pada halaman~\pageref{diceProb}. (c)~Tentukan $P(A)$.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 8955285c-18b1-545b-9b67-cf16e91a6a73,05ed1aa2-8201-50ff-8cb7-893d51314da9,1,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,1095,1206,1653939f7f859a5acc1e75ba9d32d156582df58c7c52330b439927c16d6ea500,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,1042,1149,11985310f1752ec03eef94339d1dec5e1a8d816d23b2dad8d871ade3c2df5087,language_reviewed,"\subsection{Mentransformasi data (topik khusus)}
 \label{transformingDataSubsection}
@@ -3922,6 +4459,32 @@ Apakah bentuk distribusinya relatif serupa pada kedua kelompok?
 Berapa banyak modus yang \emph{menonjol} pada setiap
 kelompok?\footnotemark{}
 \end{nexercise}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+8d98b33e-2b6c-5af6-921d-64bae260c430,55052df6-d488-53ed-8f4c-e0bb4a894836,3,subsection_prose,en,ch_probability/TeX/ch_probability.tex,498,524,2e899748471ec796b84e8f40e617965432ab709346d800ce184553320c194b60,id-ID,repo/ch_probability/TeX/ch_probability.tex,498,522,106717b94f5d56b022d345040157fd33c0783e677f124fbc88468c487e4fc1ed,language_reviewed,"\footnotetext{Jawaban singkat: (a)~$A^c=\{$\resp{3}, \resp{4}, \resp{5}, \resp{6}$\}$ dan $B^c=\{$\resp{1}, \resp{2}, \resp{3}, \resp{5}$\}$. (b)~Karena setiap hasil saling lepas, jumlahkan probabilitas hasil individual untuk memperoleh $P(A^c)=2/3$ dan $P(B^c)=2/3$. (c)~$A$~dan~$A^c$ saling lepas, demikian pula $B$~dan~$B^c$. Oleh karena itu, $P(A) + P(A^c) = 1$ dan $P(B) + P(B^c) = 1$.}
+
+\D{\newpage}
+
+Komplemen suatu peristiwa $A$ dibentuk agar memiliki dua sifat penting: (i) setiap hasil yang mungkin dan bukan anggota $A$ merupakan anggota $A^c$, dan (ii) $A$ dan $A^c$ saling lepas. Sifat (i) menyiratkan
+\begin{align*}
+P(A\text{ atau }A^c) = 1
+\end{align*}
+Artinya, jika hasil bukan anggota $A$, hasil itu harus direpresentasikan dalam $A^c$. Kita menggunakan Aturan Penjumlahan untuk peristiwa saling lepas guna menerapkan Sifat (ii):
+\begin{align*}
+P(A\text{ atau }A^c) = P(A) + P(A^c)
+\end{align*}
+Menggabungkan dua persamaan terakhir menghasilkan hubungan yang sangat berguna antara probabilitas suatu peristiwa dan komplemennya.
+
+\begin{onebox}{Komplemen}
+  Komplemen peristiwa $A$ dilambangkan $A^c$, dan $A^c$
+  menyatakan semua hasil yang bukan anggota~$A$. $A$ dan $A^c$
+  berhubungan secara matematis:
+  \begin{align*}
+  P(A) + P(A^c) = 1, \quad\text{i.e.}\quad P(A) = 1-P(A^c)
+  \end{align*}
+\end{onebox}
+
+Dalam contoh sederhana, menghitung $A$ atau $A^c$ dapat dilakukan dalam beberapa langkah. Namun, menggunakan komplemen dapat menghemat banyak waktu ketika masalah menjadi lebih kompleks.
+
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 8dc5af85-20b6-5bb2-980b-d05284d9beac,1c22723c-f2d0-5445-bccd-2c220201d232,1,end-of-section-exercise,en,ch_summarizing_data/TeX/case_study_malaria_vaccine.tex,3,52,56c23c4933bd45268dcff09a6463877989daacdd6c32d853c0ed133c4ee71f7b,id-ID,repo/ch_summarizing_data/TeX/case_study_malaria_vaccine.tex,3,80,ffe36e967628c7d598413263bec667ddae0683c302d7bdbfdbe6f98b3e8de02f,language_reviewed,"% 25
 
@@ -4318,6 +4881,33 @@ yang benar-benar mereka minum.
 (b)~Empat variabel numerik kontinu: panjang sepal, lebar sepal, panjang petal, dan lebar petal.
 (c)~Satu variabel kategoris, yaitu spesies, dengan tiga level: \emph{setosa}, \emph{versicolor}, dan \emph{virginica}.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+993257ed-e761-5deb-a0ae-08a2388461c7,40c6efec-8d75-5c57-a51b-ee316ebc5f0c,1,end-of-section-exercise,en,ch_probability/TeX/defining_probability.tex,77,86,1bd9a14c26b961d6f3bb25761a61763e3c6c44e76a700e139c9dc10e3619dfca,id-ID,repo/ch_probability/TeX/defining_probability.tex,75,84,1fb022f0e0b3229e912c00610c495998fa95c8614395a254deed91e187575438,language_reviewed,"% 5
+
+\eoce{\qt{Lemparan koin\label{coin_flips}} Jika Anda melempar koin adil 10 kali, berapa
+probabilitas
+\begin{parts}
+\item semuanya ekor?
+\item semuanya kepala?
+\item setidaknya satu ekor?
+\end{parts}
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+9949c7ad-ea54-5663-8255-bb0a9d3ae34b,d23a94a3-f019-5cf9-8453-40e20efb91cf,1,guided_exercise,en,ch_probability/TeX/ch_probability.tex,374,383,bc0b57456c17f992c524ae464e1d1f4b268787496ee571663110c9874122b37b,id-ID,repo/ch_probability/TeX/ch_probability.tex,374,383,2c69578c36bd11bf91cfc6c69d4fef743c0177c9e83d1e1b8bb4c931846f7444,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+(a)~Gunakan diagram Venn dari Latihan Terbimbing~\ref{emailSpamNumberVennExer} untuk menentukan
+probabilitas bahwa pinjaman yang dipilih secara acak dari himpunan data \data{loans}
+berasal dari permohonan bersama dengan pasangan yang memiliki
+hipotek.
+(b)~Berapa probabilitas pinjaman memiliki salah satu
+atribut tersebut?\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+99c51982-e9d0-5103-98eb-e1aba1786688,e3e697f7-00e7-5cce-8e2b-cee5b240a1a4,1,guided_exercise,en,ch_probability/TeX/ch_probability.tex,255,259,599a82c57526bc5ab071c324999e9731741acbf4069d9be9d35c5f6bd57687f9,id-ID,repo/ch_probability/TeX/ch_probability.tex,255,259,4ab0c1159f449ca0880d32cfc31b78184fae380caef76ef5b74d7bd6e34ca70d,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise} \label{exerExaminingDisjointSetsABD}
+(a) Dengan menggunakan Gambar~\ref{disjointSets} sebagai acuan, hasil apa yang direpresentasikan oleh peristiwa $D$? (b) Apakah peristiwa $B$ dan $D$ saling lepas? (c) Apakah peristiwa $A$ dan $D$ saling lepas?\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 9c1ffff0-f7bf-515b-b354-577c63acc515,affe87a9-0bfc-5ab3-9232-48b74cfd45dc,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,34,41,1650280608781546273d0bdc5bd8d4064995857d2ea8fd67849a1fd740a1797b,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,35,43,62705fc41cee14c1ec2f9184504ca6dc7016c81aa1fd3096a78269523d188ab9,translated,"% 5
 
 \eocesol{(a)~``Apakah memberi tahu anak-anak secara tegas agar tidak berbuat
@@ -4366,11 +4956,23 @@ dasar kelas K-3 diukur. Berapa banyak modus yang Anda perkirakan
 ada dalam kumpulan data tinggi badan ini?\footnotemark{}
 \end{nexercise}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+9e37c5ad-dc71-5269-a827-bd23c0f0de9b,708fb94d-36a9-54fc-a0a4-13ae6a5bb4cf,1,guided_exercise,en,ch_probability/TeX/ch_probability.tex,423,427,7a716a06da292fe970c406519fdcd7e168dbd5785488224863946cff9447d7ab,id-ID,repo/ch_probability/TeX/ch_probability.tex,423,427,9908b880fca75f134a439b0161f53f84407ffa7d1dd884a8467baa34adc0b073,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}\label{usHouseholdIncomeDistsExercise}
+Gambar~\ref{usHouseholdIncomeDists} menyajikan tiga distribusi pendapatan rumah tangga di Amerika Serikat. Hanya satu yang benar. Yang mana? Apa kesalahan pada dua lainnya?\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 9f8ee479-608a-5ea3-8dec-7b51491728d1,4a3973ff-5ada-5171-b55f-5dd0783c3cde,1,guided_exercise,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,2130,2134,87d4080b91211eac7639b2ad2ac01c9136f695eae3fbf7b0d48c7ae75165b2a2,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,2062,2066,f218fce6057576d440e76cdb351955c8ebaaa83528da412a0f9e36ae43145424,translated,"\begin{nexercise}
 Komponen mana dari masing-masing grafik pada
 Gambar~\ref{countyIncomeSplitByPopGain}
 yang menurut Anda paling berguna?\footnotemark{}
 \end{nexercise}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+a0059a3a-a395-5516-8090-ada4b425af98,fada9a56-d535-54db-807e-a978737acccb,1,guided_exercise,en,ch_probability/TeX/ch_probability.tex,128,132,2d48ad7df655f7fec82233cae1589d960ca697bcd896df439120639c15a119fd,id-ID,repo/ch_probability/TeX/ch_probability.tex,128,132,0742fd3385e5363f94d1a6d3ff112b74d1e33fef09f73e616de593d978c2e27f,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise} \label{randomProcessExercise}
+Contoh proses acak adalah melempar dadu dan melempar koin. (a) Pikirkan proses acak lain. (b) Uraikan semua hasil yang mungkin dari proses itu. Sebagai contoh, melempar dadu adalah proses acak dengan hasil yang mungkin \mbox{\resp{1}, \resp{2}, ..., \resp{6}}.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 a03fd745-016d-59a9-b3e2-43bb77db0f72,be9d7454-a37d-597d-8b35-e25c50236f78,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,158,163,588a6b0171ab2fed89999ea1bd7ac5d0f96aae8203689a06edddff396e6eda0e,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,169,176,2ac253ff2eed74390586bca8bc06d823b1e910b390b04eeeef148ce8c5f12257,translated,"% 31
 
@@ -4404,6 +5006,28 @@ alasan: (1)~terdapat batas alami pada 0 (mustahil menonton televisi kurang dari
 rata-ratanya.}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+a39e6416-61cb-5782-99f2-173f416d39f7,4c0edf10-83ae-5f81-9b5c-cdd22190cf82,1,end-of-section-exercise,en,ch_probability/TeX/defining_probability.tex,210,232,0cdf394ffc658fc6b20e8e94fbec86c8db7785787af4af66c9c94f5a3714d7ee,id-ID,repo/ch_probability/TeX/defining_probability.tex,202,223,649baa95c1dffbf1197ea5f0f3cb8401243c5388bce5c6129be79ffab691bdc3,language_reviewed,"% 12
+
+\eoce{\qt{Ketidakhadiran di sekolah\label{school_absences}} Data yang dikumpulkan di sekolah dasar
+di DeKalb County, GA menunjukkan bahwa setiap tahun sekitar 25\% siswa tidak masuk
+tepat satu hari, 15\% tidak masuk 2 hari, dan 28\% tidak masuk 3 hari atau lebih karena
+sakit. \footfullcite{Mizan:2011}
+\begin{parts}
+\item Berapa probabilitas siswa yang dipilih secara acak tidak absen sama sekali
+karena sakit tahun ini?
+\item Berapa probabilitas siswa yang dipilih secara acak absen tidak lebih dari
+satu hari?
+\item Berapa probabilitas siswa yang dipilih secara acak absen setidaknya satu
+hari?
+\item Jika orang tua memiliki dua anak di sekolah dasar DeKalb County, berapa
+probabilitas tidak satu pun anak absen? Catat asumsi yang harus dibuat untuk menjawab
+pertanyaan ini.
+\item Jika orang tua memiliki dua anak di sekolah dasar DeKalb County, berapa
+probabilitas kedua anak absen, yaitu setidaknya satu hari? Catat asumsi yang dibuat.
+\item Jika Anda membuat asumsi pada bagian~(d) atau~(e), apakah asumsi itu wajar?
+Jika tidak membuat asumsi, periksa kembali jawaban sebelumnya.
+\end{parts}
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 a3b8fb88-7330-56e7-9350-91217a21bf06,b4cd26a2-3443-5b4d-9a38-f2d9766ae10a,1,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,819,895,a1b6e858d62ff089e63df08c6facaf2b976a3b401bbfab8daa337df510d225ad,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,788,858,4d61c5be68053c96d287131c1a50c8e80b7c9b676260003af0fc65582bf25bae,translated,"\subsection{Diagram kotak, kuartil, dan median}
 
 Sebuah \term{diagram kotak} merangkum suatu kumpulan data menggunakan
@@ -4495,6 +5119,52 @@ ke populasi secara luas.
 menerima pendanaan. Apakah Anda memiliki keberatan terhadap usulan studi tersebut?
 \end{parts}
 }{}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+a56dd0b2-02cf-55e6-9bb4-2aded3729680,be09309b-7571-5131-8152-e98c6653b9a7,2,subsection_prose,en,ch_probability/TeX/ch_probability.tex,428,469,ba033dc84c443ed34e340d859c76ac9d7d09abf98efc3b638b0f90c5dfc01fe2,id-ID,repo/ch_probability/TeX/ch_probability.tex,428,469,6ac1bc7610e55f3c7033c7e1c2d0abcc1fb4f02412ab77b50536755c82470a11,language_reviewed,"\footnotetext{Probabilitas pada (a) tidak berjumlah~1.
+    Probabilitas kedua pada (b) bernilai negatif.
+    Dengan demikian tersisa (c), yang memang memenuhi
+    syarat sebuah distribusi.
+    Salah satu dari ketiganya disebut sebagai
+    distribusi pendapatan rumah tangga AS yang sebenarnya,
+    sehingga jawabannya pasti (c).}
+
+\begin{figure}[h]
+\centering
+\begin{tabular}{r | cc cc}
+  \hline
+Rentang pendapatan & \$0-25k & \$25k-50k & \$50k-100k & \$100k+ \\
+  \hline
+(a)\hspace{0.2mm}	 & 0.18 & 0.39 & 0.33 & 0.16 \\
+(b)				 & 0.38 & -0.27 & 0.52 & 0.37 \\
+(c)\hspace{0.2mm}	 & 0.28 & 0.27 & 0.29 & 0.16 \\
+  \hline
+\end{tabular}
+\caption{Distribusi pendapatan rumah tangga AS yang diusulkan (Latihan Terbimbing~\ref{usHouseholdIncomeDistsExercise}).}
+\label{usHouseholdIncomeDists}
+\end{figure}
+
+Bab~\ref{introductionToData} menekankan pentingnya membuat plot data untuk memperoleh ringkasan cepat. Distribusi probabilitas juga dapat diringkas dengan diagram batang. Misalnya, distribusi pendapatan rumah tangga AS ditampilkan sebagai diagram batang pada Gambar~\ref{usHouseholdIncomeDistBar}. %\footnote{Plot distribusi juga dapat dibuat ketika pendapatan tidak dibagi secara artifisial ke dalam empat kelompok. Distribusi \emph{kontinu} dibahas pada Bagian~\ref{contDist}.}
+Distribusi probabilitas jumlah dua dadu ditampilkan pada Gambar~\ref{diceProb} dan diplot pada Gambar~\ref{diceSumDist}.
+
+\begin{figure}[h]
+  \centering
+  \Figure[Diagram batang “Pendapatan Rumah Tangga AS” ditampilkan dengan empat kelompok pendapatan. Sumbu vertikal berlabel “Probabilitas”. Kelompok pertama adalah \$0 sampai \$25.000 dengan tinggi batang sekitar 0,28; kelompok kedua \$25.000 sampai \$50.000 dengan tinggi sekitar 0,27; kelompok ketiga \$50.000 sampai \$100.000 dengan tinggi sekitar 0,28; dan kelompok keempat di atas \$100.000 dengan tinggi sekitar 0,15.]{0.65}{usHouseholdIncomeDistBar}
+  \caption{Distribusi probabilitas pendapatan rumah tangga AS.}
+  \label{usHouseholdIncomeDistBar}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \Figure[Diagram batang jumlah dua dadu ditampilkan; nilainya dapat berupa 2, 3, 4, 5, dan seterusnya sampai 12. Sumbu vertikal berlabel “Probabilitas”. Tinggi batang untuk 2 sekitar 0,025; 3 sebesar 0,055; 4 sebesar 0,09; 5 sebesar 0,115; 6 sebesar 0,14; 7 sebesar 0,165; 8 sebesar 0,14; 9 sebesar 0,115; 10 sebesar 0,09; 11 sebesar 0,055; dan 12 sebesar 0,025.]{0.67}{diceSumDist}
+  \caption{Distribusi probabilitas jumlah dua dadu.}
+  \label{diceSumDist}
+\end{figure}
+
+Pada diagram batang ini, tinggi batang merepresentasikan probabilitas hasil. Jika hasilnya numerik dan diskret, biasanya (secara visual) nyaman membuat diagram batang yang menyerupai histogram, seperti pada jumlah dua dadu. Contoh lain penempatan batang pada lokasi masing-masing ditunjukkan pada Gambar~\ref{bookCostDist} di halaman~\pageref{bookCostDist}.
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+a5a325a6-e57c-58a5-848e-f280859141b0,3b45c972-4f12-577c-b7de-d173ab1640e3,5,subsection_prose,en,ch_probability/TeX/ch_probability.tex,260,261,e106a4ca40d6fe15465c774139e9ef51bb6c643048887095e61618c0c77f9a56,id-ID,repo/ch_probability/TeX/ch_probability.tex,260,261,decb99869160b70901056c0e44ca97ff155784fa199b415e155d827474031041,language_reviewed,"\footnotetext{(a)~Hasil \resp{2} dan \resp{3}. (b)~Ya, peristiwa $B$ dan $D$ saling lepas karena tidak memiliki hasil yang sama. (c)~Peristiwa $A$ dan $D$ memiliki hasil yang sama, yaitu \resp{2}, sehingga tidak saling lepas.}
+
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 a5f9ebf1-b44b-50cb-a707-a1b7152bad53,48408c78-fc77-5a5e-a880-0f7dfcbed0f1,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,312,323,8404ecdd696e8b3b7f8077161d29f84551415fd499ffde0ca61b5c2223d8fa6e,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,333,345,e5226b4b71cfd7907388a14e9747eacc9b4a2b67f9c47e37d7a530df43fbe717,translated,"% 19
 
@@ -4770,6 +5440,24 @@ temuannya dapat digunakan untuk menetapkan hubungan kausal.
 
 % 17
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+ae3ac72c-cb4f-5c70-9310-328b4ce42d00,2c6d8e91-4e76-57eb-a714-bcac9f61be47,1,end-of-section-exercise,en,ch_probability/TeX/defining_probability.tex,101,119,d6e49fc881db74013f28d948d43036e0ee4226d007bcc0e804c67ce6fc6efba6,id-ID,repo/ch_probability/TeX/defining_probability.tex,99,116,8d6039e4a5759acae63dda1326ba78bd660aef4b9fccdda35cd900803d676322,language_reviewed,"% 7
+
+\eoce{\qt{Pemilih mengambang\label{swing_voters}} Survei Pew Research menanyakan kepada 2.373
+pemilih terdaftar yang dipilih secara acak tentang afiliasi politik mereka (Republik,
+Demokrat, atau Independen) dan apakah mereka mengidentifikasi diri sebagai pemilih mengambang. Sebanyak 35\%
+responden mengidentifikasi diri sebagai Independen, 23\% sebagai pemilih mengambang, dan
+11\% sebagai keduanya.\footfullcite{indepSwing}
+\begin{parts}
+\item Apakah menjadi Independen dan menjadi pemilih mengambang saling lepas, yaitu saling
+eksklusif?
+\item Buat diagram Venn yang merangkum variabel dan probabilitas terkait.
+\item Berapa persen pemilih yang Independen tetapi bukan pemilih mengambang?
+\item Berapa persen pemilih yang Independen atau pemilih mengambang?
+\item Berapa persen pemilih yang bukan Independen maupun pemilih mengambang?
+\item Apakah peristiwa seseorang menjadi pemilih mengambang independen dari peristiwa
+seseorang menjadi Independen secara politik?
+\end{parts}
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 af23854e-8a70-5fff-8b98-39c6db3c5f73,0ece3572-bc49-5415-892d-29849f3ca09f,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,74,82,946b2f4e47b12422136e64fd699eca9c60bfbeb1c2c74bb50e390848c0870759,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,80,89,8c37023354259b1717a6670586b2f1dc4e95f8a42b772027f6ba44b7d4c5914f,translated,"% 15
 
 \eocesol{(a)~Populasi: seluruh pasien asma berusia 18--69 tahun yang 
@@ -4827,6 +5515,28 @@ robust kedua ukuran ini?
 }{}
 
 % 18
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+b1a8e486-7cb9-5a85-b155-86e4934d1061,9ce6e3d6-a448-524e-9e0c-005767bdaded,1,guided_exercise,en,ch_probability/TeX/ch_probability.tex,532,546,a761c32b7a9699cbfb72692a4cc370063eed8c028cf8afee265db7b613a51f87,id-ID,repo/ch_probability/TeX/ch_probability.tex,530,544,af4355c540568a62ddf49288d5b5086a3ec051c9a5ee18eb4ec2e2feb2eebd96,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+Tentukan probabilitas berikut untuk lemparan dua dadu:\footnotemark
+\begin{enumerate}[(a)]
+\setlength{\itemsep}{0mm}
+\item Jumlah dadu \emph{bukan} \resp{6}.
+\item Jumlahnya paling sedikit \resp{4}.
+    Artinya, tentukan probabilitas peristiwa
+    $B = \{$\resp{4}, \resp{5}, ..., \resp{12}$\}$.
+\item Jumlahnya paling banyak \resp{10}.
+    Artinya, tentukan probabilitas peristiwa
+    $D=\{$\resp{2}, \resp{3}, ..., \resp{10}$\}$.
+\end{enumerate}
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+b2f1703d-803c-5ccf-8ede-2a7b61dc9465,dd2c0635-0fd8-5cec-b7cb-9aefab4c0c43,1,guided_exercise,en,ch_probability/TeX/ch_probability.tex,599,603,430cf7bc4a7ab64997fbc500008b6adf9caeb343c8f23f59e130be3421381eef,id-ID,repo/ch_probability/TeX/ch_probability.tex,596,600,d24f9fcb25a8bf1d5138918e637d30e90e386c279a6ee2bf572b37d19fc2681b,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise} \label{ex2Handedness}
+Sekitar 9\% orang kidal. Misalkan 2 orang dipilih secara acak dari populasi AS. Karena ukuran sampel 2 sangat kecil dibandingkan populasi, wajar untuk menganggap kedua orang ini independen. (a)~Berapa probabilitas keduanya kidal? (b)~Berapa probabilitas keduanya tidak kidal?\footnotemark
+\end{nexercise}
+\end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 b5ad5e5f-d729-551d-a7c9-06f3f67c583c,e399d3b0-84b2-5859-93ff-fdafd4738bd8,1,exercise,en,ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,248,256,ac2f672ea74035473047f3cabbe0f458eaab9e265948d0385c9418db63179eaf,id-ID,repo/ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,243,252,b35cf6b15c9f7655036edce9e0b97195de40d241673c2b290c15f6c81263ba1c,translated,"\eoce{\qt{Ukuran keluarga\label{family_size}} Misalkan kita ingin memperkirakan 
 ukuran rumah tangga. Dalam konteks ini, rumah tangga terdiri atas orang-orang 
@@ -4931,6 +5641,19 @@ layak diterapkan pada data ini.
 }{}
 
 % 20
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+b9e61a21-7863-532e-8fb7-b982e5a81f9a,fc0caa09-fb91-51a2-9411-8f34e4651d62,5,subsection_prose,en,ch_probability/TeX/ch_probability.tex,384,395,71c5b3d2057d04f2412f79b9ad0bc8d10a56ec58b856aca848ec01162ca2da66,id-ID,repo/ch_probability/TeX/ch_probability.tex,384,395,69d65404223f0d6186468cd72f733ff7f61112f4354eab9afad7e31b9098a5d3,language_reviewed,"\footnotetext{%
+  (a)~Jawabannya direpresentasikan oleh irisan
+  kedua lingkaran: 0.095.
+  (b)~Ini adalah jumlah tiga probabilitas yang saling lepas yang ditunjukkan
+  di dalam lingkaran: $0.384 + 0.095 + 0.055 = 0.534$
+  (berbeda 0.001 karena pembulatan).}
+
+\index{data!loans|)}
+
+
+\D{\newpage}
+
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 baa7a378-cbdf-5cbd-b9f0-1e9aeb02a7c9,cd65f04f-a114-55e7-b4ff-4643fd1601e5,1,exercise,en,ch_intro_to_data/TeX/experiments.tex,50,65,1ea0832640d31b8bd2683910b56391a34eede117c039938d5f9c4b5d8c65f759,id-ID,repo/ch_intro_to_data/TeX/experiments.tex,49,65,3146a351e1e78daedb248ad6543533a9b0b02b87b91d927b0bb13f273a06bdae,translated,"\eoce{\qt{Kondisi pencahayaan, kebisingan, dan kinerja ujian\label{light_noise_exam_performance}} 
 Sebuah studi dirancang untuk menguji pengaruh kondisi pencahayaan dan tingkat kebisingan 
@@ -5104,6 +5827,24 @@ Batas kartografis pada peta bersumber dari U.S. Census Bureau.
 
 % 12
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""965b18a2-8bea-5a5c-9012-129137cfb727"",""c2c9e48e-4598-54df-b18c-376b407fd8e0""]"
+c073795d-5ee0-5d16-9eb6-d262e33246ea,02e4f013-6bce-52d8-a54b-02860c939510,1,guided_exercise,en,ch_probability/TeX/ch_probability.tex,262,266,70c6ea09e808fafe749e5b3f27659990e9e9f4475ebee42f4f504e678ad017df,id-ID,repo/ch_probability/TeX/ch_probability.tex,262,266,0ff84b98e90b1f4fba7e3823b73a1eff995676a32bef48e7c0ddd6067fa675e3,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+Dalam Latihan Terbimbing~\ref{exerExaminingDisjointSetsABD}, Anda mengonfirmasi bahwa $B$ dan $D$ pada Gambar~\ref{disjointSets} saling lepas. Hitung probabilitas peristiwa $B$ atau $D$ terjadi.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+c23f1f70-e3d0-5a0c-8249-f39622580ca2,1f6d8544-36eb-5bde-8d51-027d2e219020,1,guided_exercise,en,ch_probability/TeX/ch_probability.tex,351,361,e2f4852ae3ce9988826c0940181a70419862d4cd5b00fdd2eb60b54c622c06a7,id-ID,repo/ch_probability/TeX/ch_probability.tex,351,361,92762793754aa229832c7609ead6d1b4c8e220388b63b978b90f7934f5c3dce6,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}\label{emailSpamNumberVennExer}
+% library(openintro); d <- loans_full_schema; table(d[,c(""application_type"", ""homeownership"")]); table(d[,c(""application_type"")]); table(d[,c(""homeownership"")])
+Dalam himpunan data \data{loans} yang memuat 10.000 pinjaman,
+1495 pinjaman berasal dari permohonan bersama
+(misalnya, pasangan mengajukan bersama),
+4789 pemohon memiliki hipotek,
+dan 950 memiliki kedua karakteristik tersebut.
+Buat diagram Venn untuk situasi ini.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 c37a8e81-dd1b-5c26-9aaf-fbb7a0f485f7,17acf038-9821-5e3d-9ffa-1526fab12218,4,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,634,649,e3222f2cf41d7bac1b741292e96bcc6ebd05477a586bce04fe3ccd0f13bbc15e,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,618,632,1dc839678f924a507a3c5ed9b378929d129dbd1d1fff927ff3e77b3ad23133a3,translated,"\end{exercisewrap}
 \footnotetext{Mungkin tampak dua kelompok tinggi badan dalam
   kumpulan data: satu kelompok murid dan satu kelompok orang
@@ -5135,6 +5876,34 @@ teramati antara peningkatan stres dan kram otot.
 }{}
 
 % 23
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+c71bca52-4720-5d93-aa83-c66ccb503ba1,be09309b-7571-5131-8152-e98c6653b9a7,1,subsection_prose,en,ch_probability/TeX/ch_probability.tex,396,422,7c339e86280227a8becd869dbf9eca03dfc2ad0ec4e0fac69721e2248781507b,id-ID,repo/ch_probability/TeX/ch_probability.tex,396,422,214a15a0965b7dc016b425f9ca4f0e0ab67e11fa55d014e2098009230352c197,language_reviewed,"\subsection{Distribusi probabilitas}
+
+\termsub{Distribusi probabilitas}{probability!distribution} adalah tabel semua hasil yang saling lepas beserta probabilitasnya. Gambar~\ref{diceProb} menunjukkan distribusi probabilitas jumlah dua dadu.
+
+\begin{figure}[h] \small
+\centering
+\begin{tabular}{l ccc ccc ccc cc}
+  \hline
+  \ \vspace{-3mm} \\
+Jumlah dadu\vspace{0.3mm} & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12  \\
+Probabilitas & $\frac{1}{36}$ & $\frac{2}{36}$ & $\frac{3}{36}$ & $\frac{4}{36}$ & $\frac{5}{36}$ & $\frac{6}{36}$ & $\frac{5}{36}$ & $\frac{4}{36}$ & $\frac{3}{36}$ & $\frac{2}{36}$ & $\frac{1}{36}$\vspace{1mm} \\
+   \hline
+\end{tabular}
+\caption{Distribusi probabilitas jumlah dua dadu.}
+\label{diceProb}
+\end{figure}
+
+\begin{onebox}{Aturan distribusi probabilitas}
+Distribusi probabilitas adalah daftar hasil yang mungkin beserta probabilitasnya, yang memenuhi tiga aturan berikut: \vspace{-2mm}
+\begin{enumerate}
+\setlength{\itemsep}{0mm}
+\item Hasil yang tercantum harus saling lepas.
+\item Setiap probabilitas harus berada antara 0 dan 1.
+\item Jumlah seluruh probabilitas harus 1. \vspace{1mm}
+\end{enumerate}
+\end{onebox}
+
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 c7d04a9b-6843-59af-bd93-486f9ff0addf,bf8a9ea5-2ceb-51fa-b10f-4c470d3b7e00,27,chapter-review-exercise,en,ch_summarizing_data/TeX/review_exercises.tex,3,17,2419a43ab84113e47369754f4b6cb44e0c76db9720e5d4bdbfe3ec71161f35b1,id-ID,repo/ch_summarizing_data/TeX/review_exercises.tex,3,18,38886169c58d01d91896e1f8f6579cb6603787be076142aeb3cf68f3db983888,language_reviewed,"% 27
 
@@ -5238,6 +6007,20 @@ ideologi politik tampak saling independen? Jelaskan alasan Anda.
 
 % 24
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+cb66d0f0-88e5-5c7e-9c44-55dd6205470a,1abc8a2f-fff1-5a7e-9e46-948375210665,1,end-of-section-exercise,en,ch_probability/TeX/defining_probability.tex,50,63,977ebe301fed61467d377d4bf62e7418806d58984b7868e6d0d37841b1df8f10,id-ID,repo/ch_probability/TeX/defining_probability.tex,47,60,dfef240e72cb72019dbe1c45e0fbec9c83f5ba75558bca3ba8d441721453e175,language_reviewed,"% 3
+
+\eoce{\qt{Empat permainan, satu pemenang\label{four_games_one_winner}} Berikut empat
+versi permainan yang sama. Musuh bebuyutan Anda memilih versinya,
+lalu Anda memilih berapa kali melempar koin: 10 atau 100 kali.
+Tentukan jumlah lemparan koin yang sebaiknya dipilih untuk setiap versi.
+Biaya bermain setiap permainan adalah \$1. Jelaskan penalaran Anda.
+\begin{parts}
+\item Jika proporsi kepala lebih besar dari 0.60, Anda menang \$1.
+\item Jika proporsi kepala lebih besar dari 0.40, Anda menang \$1.
+\item Jika proporsi kepala berada antara 0.40 dan 0.60, Anda menang \$1.
+\item Jika proporsi kepala lebih kecil dari 0.30, Anda menang \$1.
+\end{parts}
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 cc641c66-2767-5630-8ac6-184363fd6f8e,17acf038-9821-5e3d-9ffa-1526fab12218,3,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,548,627,b3cb8d41d73fb7d8199cc158626ced1e9df851a9121960d00091d3c52e9c11b9,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,537,612,c057d9459321ff4e1b961cb636ae4fedcefd0fa0d26c547cae79e23c0373a200,language_reviewed,"\end{exercisewrap}
 \footnotetext{Suku bunga setiap pinjaman secara individual.}
 
@@ -5315,6 +6098,35 @@ dari interval-interval kelas di sebelahnya.
 
 \begin{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+cce75158-aeb3-58b1-882a-47c50b0b32a4,52bf0186-4674-569a-b8c7-783489172959,4,subsection_prose,en,ch_probability/TeX/ch_probability.tex,666,690,c3f4a4caf6ba35fe62f6a30b886321a02553cb6a20c8c4f1d3c9312e0faa8475,id-ID,repo/ch_probability/TeX/ch_probability.tex,663,690,b00d5203b83acc6933ae947826b473b96e44dd6ba46ff76e35041ceff6d9cca4,language_reviewed,"\footnotetext{Jawaban singkat diberikan. (a)~Dalam notasi probabilitas, ini dapat ditulis $P($orang yang dipilih secara acak adalah laki-laki dan tidak kidal$)=0.455$. (b)~0.207. (c)~0.045. (d)~0.0093.}
+
+Kadang-kadang kita ingin tahu apakah suatu hasil memberikan informasi berguna tentang hasil lain. Pertanyaannya: apakah kemunculan kedua peristiwa itu independen? Dua peristiwa $A$ dan $B$ disebut independen jika memenuhi
+$P(A \text{ dan }B) = P(A) \times  P(B)$.
+
+\begin{examplewrap}
+\begin{nexample}{Jika kita mengocok dek kartu lalu mengambil satu kartu, apakah peristiwa kartu itu hati independen dari peristiwa kartu itu ace?}
+Probabilitas kartu itu hati adalah $1/4$ dan probabilitas kartu itu ace adalah $1/13$. Probabilitas kartu itu ace hati adalah $1/52$.
+Kita memeriksa apakah $P(A \text{ dan }B) = P(A) \times  P(B)$
+terpenuhi:
+\begin{align*}
+P({\color{redcards}\heartsuit})\times P(\text{ace}) = \frac{1}{4}\times \frac{1}{13} = \frac{1}{52} 
+					= P({\color{redcards}\heartsuit}\text{ dan ace})
+\end{align*}
+Karena persamaan tersebut berlaku, peristiwa kartu itu hati dan peristiwa kartu itu ace merupakan peristiwa independen.
+\end{nexample}
+\end{examplewrap}
+
+% B009 translated boundary ends here: Chapter 3 opener and Defining probability
+% through Independence (source lines 1--684). The separate EOC-only input below
+% remains an untranslated upstream witness and is intentionally outside this
+% candidate; it has no public answer payload in this source file.
+{\input{ch_probability/TeX/defining_probability.tex}}
+
+
+
+
+%_________________
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 ce94b7d4-b2af-587f-8684-e5a9ec23818a,b96cf383-2b68-558c-85e4-82c8b25f30de,1,exercise,en,ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,100,116,297e9e416cfb01b01d031a081710e74e6ddcf152e3212917eae375c5901ac6be,id-ID,repo/ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,98,113,480d80da6abcf60fd63d9893c6fdfe7124c92cef6ea6abdf16a10093da955536,translated,"\eoce{\qt{Kucing di YouTube\label{cats_on_youtube_definitions}} Misalkan Anda 
 ingin memperkirakan persentase video YouTube yang menampilkan kucing. Karena 
 mustahil menonton semua video di YouTube, Anda menggunakan pemilih video acak 
@@ -5344,6 +6156,53 @@ mungkin lebih rendah daripada responden yang berhasil dihubungi.
 (c)~Studi ini tidak memiliki kelompok kontrol dan merupakan studi observasional;
 selain itu, mungkin terdapat variabel perancu. Misalnya, orang-orang ini mungkin
 berlari karena secara umum lebih sehat dan/atau juga melakukan olahraga lain.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+d4918324-9121-5cd6-ab61-caba223bbbd0,52bf0186-4674-569a-b8c7-783489172959,2,subsection_prose,en,ch_probability/TeX/ch_probability.tex,604,607,e2b034a999ea3b0e047df51e80951e3fdee9a35517ced497a8957263e4b87624,id-ID,repo/ch_probability/TeX/ch_probability.tex,601,604,5c1ca57047d14a8e9a1e99cbaf033b8744512d765a4b2027260cfde98c6fa895,language_reviewed,"\footnotetext{(a) Probabilitas orang pertama kidal adalah $0.09$, sama dengan orang kedua. Kita menerapkan Aturan Perkalian untuk proses independen untuk menentukan probabilitas keduanya kidal: $0.09\times 0.09 = 0.0081$.
+
+(b) Wajar untuk menganggap proporsi orang ambidekster (dapat menggunakan tangan kanan dan kiri) mendekati 0, sehingga $P($tidak kidal$)=1-0.09=0.91$. Dengan penalaran yang sama seperti bagian~(a), probabilitas keduanya tidak kidal adalah $0.91\times 0.91 = 0.8281$.}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+d6449948-59aa-5d31-bc9e-5795ba199884,3b45c972-4f12-577c-b7de-d173ab1640e3,1,subsection_prose,en,ch_probability/TeX/ch_probability.tex,143,183,e61ac0e76be7a42e8cfe7680e217d78a5ad2076b43f36f9ad56654038b6809a5,id-ID,repo/ch_probability/TeX/ch_probability.tex,143,183,9b721ba163d793e2fc9b6849f555f2bd845da76c62b953fcad5ffa496621d206,language_reviewed,"\subsection{Hasil saling lepas atau saling eksklusif}
+
+\index{disjoint|(}
+\index{mutually exclusive|(}
+
+Dua hasil disebut \term{saling lepas} atau \term{saling eksklusif} jika keduanya tidak mungkin terjadi bersamaan. Misalnya, jika kita melempar dadu, hasil \resp{1} dan \resp{2} saling lepas karena keduanya tidak mungkin muncul sekaligus. Sebaliknya, hasil \resp{1} dan “memperoleh bilangan ganjil” tidak saling lepas karena keduanya terjadi jika hasil lemparan adalah \resp{1}. Istilah \emph{saling lepas} dan \emph{saling eksklusif} ekuivalen dan dapat dipertukarkan.
+
+Menghitung probabilitas hasil yang saling lepas cukup mudah. Saat melempar dadu, hasil \resp{1} dan \resp{2} saling lepas, sehingga probabilitas salah satu hasil itu terjadi dihitung dengan menjumlahkan probabilitas masing-masing:
+\begin{align*}
+P(\text{\resp{1} atau \resp{2}})
+  = P(\text{\resp{1}})+P(\text{\resp{2}})
+  = 1/6 + 1/6
+  = 1/3
+\end{align*}
+Bagaimana dengan probabilitas memperoleh \resp{1}, \resp{2}, \resp{3}, \resp{4}, \resp{5}, atau \resp{6}? Sekali lagi, semua hasil tersebut saling lepas, sehingga probabilitasnya dijumlahkan:
+\begin{align*}
+&P(\text{\resp{1} atau \resp{2} atau \resp{3} atau \resp{4}
+    atau \resp{5} atau \resp{6}}) \\
+  &\quad = P(\text{\resp{1}})+P(\text{\resp{2}})
+      + P(\text{\resp{3}})+P(\text{\resp{4}})
+      + P(\text{\resp{5}})+P(\text{\resp{6}}) \\
+  &\quad = 1/6 + 1/6 + 1/6 + 1/6 + 1/6 + 1/6
+  = 1
+\end{align*}
+\term{Aturan Penjumlahan} menjamin ketepatan pendekatan ini ketika hasil-hasilnya saling lepas.
+
+\begin{onebox}{Aturan Penjumlahan untuk hasil yang saling lepas}
+  Jika $A_1$ dan $A_2$ menyatakan dua hasil yang saling lepas,
+  probabilitas salah satunya terjadi diberikan oleh
+  \begin{align*}
+  P(A_1\text{ atau } A_2) = P(A_1) + P(A_2)
+  \end{align*}
+  Jika terdapat banyak hasil yang saling lepas, $A_1$, ..., $A_k$,
+  probabilitas salah satu hasil tersebut terjadi adalah
+  \begin{align*}
+  P(A_1) + P(A_2) + \cdots + P(A_k)
+  \end{align*}
+\end{onebox}
+
+\D{\newpage}
+
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 d6dc7565-157f-5c68-b031-20b8eca1f7c0,38d29400-2764-5109-a7fd-d245c7e52b17,1,section_body,en,ch_intro_to_data/TeX/ch_intro_to_data.tex,799,1250,54c3eecb13e5bfd23889ef26a08d40140fbb3c7241a4b5d510d32f03d78d9263,id-ID,repo/ch_intro_to_data/TeX/ch_intro_to_data.tex,774,1247,2bc5638aa55698b891bcc0a048b8fd053316528e8ac3b19e6da6bc78d439c60b,translated,"\section{Prinsip dan strategi pengambilan sampel}
 \label{overviewOfDataCollectionPrinciples}
@@ -5952,6 +6811,10 @@ Variabel respons: kesejahteraan psikologis.
 (e)~Pernyataan tersebut seharusnya menggunakan kata ``bukti yang mendukung''
 dan bukan ``membuktikan''.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+dc9f550f-53d9-591a-96f7-273f97367f07,a7a20e5a-5ba0-5d46-b569-4d063734581e,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,436,440,93eb5e31f3f86faee3947c393ece8f7070419af61fc8bba4edceecc50ada7474,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,21,24,a26bbbac67b4e829f8938dc836f1d0580a34f338908b3ee8fbd701d4bd02dd53,language_reviewed,"% 5
+\eocesol{(a)~$0.5^{10}$ = 0.00098.
+(b)~$0.5^{10}$ = 0.00098.
+(c)~$P$(setidaknya satu ekor) = $1 - P$(tidak ada ekor) = $1 - (0.5^{10}) \approx 1 - 0.001 = 0.999$.}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 dea27a30-b5ae-50dd-af97-68fed4c18587,b4cd26a2-3443-5b4d-9a38-f2d9766ae10a,2,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,900,962,46147441ea7b414c077893e11439b4d575e046fcd80f125b1438e666bd57bd71,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,863,918,7822a0bbd1384e409fd1bf9031f1822c33011ac50349dd48e01023aa6ebcd95e,translated,"\end{exercisewrap}
 \footnotetext{Karena $Q_1$ dan $Q_3$ mencakup 50\% data bagian
   tengah dan median membelah data di tengah, 25\% data berada
@@ -6015,6 +6878,37 @@ df5e5859-bd53-5838-b35c-b5d6356bc40d,f420613b-16ba-5da1-a8a8-6e5b2cf9ccb9,1,publ
 rentang hidup yang lebih panjang.
 (b)~Asosiasinya akan tetap positif.
 (c)~Tidak, keduanya tidak saling bebas. Lihat bagian~(a).}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+e447b0f8-2587-54e0-8930-512638b373a7,3b45c972-4f12-577c-b7de-d173ab1640e3,2,subsection_prose,en,ch_probability/TeX/ch_probability.tex,189,191,0546289ce873747ce98ea5c3607990e4fae91ced13bec85ed93339705f1bba56,id-ID,repo/ch_probability/TeX/ch_probability.tex,189,191,b2bb5459828e2323b7267bbc3fb61b4720a874674654968aed6a304258e7d62d,language_reviewed,"\footnotetext{(a) Proses acaknya adalah lemparan dadu, dan paling banyak satu dari hasil tersebut yang dapat muncul. Jadi, hasil-hasil itu saling lepas. (b)~$P($\resp{1} atau \resp{4} atau \resp{5}$) = P($\resp{1}$)+P($\resp{4}$)+P($\resp{5}$) = \frac{1}{6} + \frac{1}{6} + \frac{1}{6} = \frac{3}{6} = \frac{1}{2}$}
+
+\index{data!loans|(}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+e4b1517e-d283-5389-88d4-5ae20c6807fa,3b45c972-4f12-577c-b7de-d173ab1640e3,3,subsection_prose,en,ch_probability/TeX/ch_probability.tex,215,240,b70f62bbb4e8e8851e38095c168c821a328f6d7e1b64b7eeafe7ae91dbc4b152,id-ID,repo/ch_probability/TeX/ch_probability.tex,215,240,54e8a71ad7510f9bd6d6fc776b1819e4b564435a6b75fd2a098c7f4d321090ee,language_reviewed,"\footnotetext{(a)~Ya. Setiap pinjaman dikategorikan ke tepat satu
+level \var{homeownership}.
+(b)~Hipotek: $\frac{4789}{10000} = 0.479$.
+Milik sendiri: $\frac{1353}{10000} = 0.135$.
+(c)~$P($\resp{mortgage} atau \resp{own}$) = P($\resp{mortgage}$) + P($\resp{own}$) = 0.479 + 0.135 = 0.614$.}
+\index{data!loans|)}
+
+\index{event|(}
+
+Ilmuwan data jarang bekerja dengan hasil individual; mereka lebih sering mempertimbangkan \indexthis{\emph{himpunan}}{sets} atau \indexthis{\emph{kumpulan}}{collections} hasil. Misalkan $A$ menyatakan peristiwa ketika lemparan dadu menghasilkan \resp{1} atau \resp{2}, dan $B$ menyatakan peristiwa ketika lemparan menghasilkan \resp{4} atau \resp{6}. Kita menulis $A$ sebagai himpunan hasil $\{$\resp{1},~\resp{2}$\}$ dan $B=\{$\resp{4}, \resp{6}$\}$. Himpunan-himpunan ini lazim disebut \termsub{peristiwa}{event}. Karena $A$ dan $B$ tidak memiliki elemen yang sama, keduanya adalah peristiwa yang saling lepas. $A$ dan $B$ ditunjukkan pada Gambar~\ref{disjointSets}.
+
+\begin{figure}[hhh]
+  \centering
+  \Figure[Enam bilangan ditampilkan berurutan: 1, 2, 3, 4, 5, dan 6. Bilangan 1 dan 2 dilingkari dan diberi label huruf “A”; bilangan 2 dan 3 dilingkari dan diberi label huruf “B”; bilangan 4 dan 6 dilingkari dengan label huruf “C”. (Lingkaran terakhir bukan lingkaran sebenarnya, melainkan kurungan yang tidak mencakup bilangan 5.)]{0.45}{disjointSets}
+  \caption{Tiga peristiwa, $A$, $B$, dan $D$, terdiri atas
+      hasil dari lemparan dadu.
+      $A$ dan $B$ saling lepas karena tidak memiliki
+      hasil yang sama.}
+  \label{disjointSets}
+\end{figure}
+
+Aturan Penjumlahan berlaku untuk hasil maupun peristiwa yang saling lepas. Probabilitas salah satu peristiwa saling lepas $A$ atau $B$ terjadi adalah jumlah probabilitas masing-masing:
+\begin{align*}
+P(A\text{ atau }B) = P(A) + P(B) = 1/3 + 1/3 = 2/3
+\end{align*}
+
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 e561524c-6dc7-5f3f-ba66-6310d2ca7110,008a3bd4-069a-5cc2-bea8-bf1d9a41d834,1,exercise,en,ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,258,267,a8977aa3f9315964551e4574ecf7f4cc30a57730c3494a31b94be8b9351e3cf5,id-ID,repo/ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,254,272,95b4f2222911be077d4dff3e5ff7cd769ca446f047278244105fad0b38217f82,translated,"\eoce{\qt{Strategi pengambilan sampel\label{sampling_strategies}} Seorang mahasiswa 
 statistika ingin mengetahui hubungan antara waktu yang dihabiskan siswa di situs 
@@ -6224,6 +7118,47 @@ dari universitas tersebut menghasilkan GPA rata-rata sebesar 3.59.
 
 % 6
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+ef6c559e-8091-5c53-8fd8-def046b50b08,bb82be73-ea51-5c91-8039-bd102108c3c6,1,subsection_prose,en,ch_probability/TeX/ch_probability.tex,88,127,f4f244de54cced6803c3d9483b7d476fc7e58bac5eaff455e56466d1164df1a2,id-ID,repo/ch_probability/TeX/ch_probability.tex,88,127,4c763e10203c75b6931944599693c29df2e3b77d864b142f87f41abb04e37448,language_reviewed,"\subsection{Probabilitas}
+
+\index{random process|(}
+
+Kita menggunakan probabilitas untuk membangun alat guna menggambarkan dan memahami keacakan yang tampak. Kita sering merumuskan probabilitas melalui \term{proses acak} yang menghasilkan suatu \term{hasil}.
+\begin{center}
+\begin{tabular}{lll}
+Lempar dadu &$\rightarrow$ & \resp{1}, \resp{2}, \resp{3}, \resp{4}, \resp{5}, atau \resp{6} \\
+Lempar koin &$\rightarrow$ & \resp{H} atau \resp{T} \\
+\end{tabular}
+\end{center}
+Melempar dadu atau koin merupakan proses yang tampak acak, dan masing-masing menghasilkan suatu hasil.
+
+\begin{onebox}{Probabilitas}
+\term{Probabilitas} suatu hasil adalah proporsi kemunculan hasil tersebut jika kita mengamati proses acak itu sebanyak tak berhingga kali.
+\end{onebox}
+
+Probabilitas didefinisikan sebagai proporsi dan selalu bernilai antara 0~dan~1, termasuk kedua batasnya. Probabilitas juga dapat ditampilkan sebagai persentase antara 0\% dan 100\%.
+
+Probabilitas dapat diilustrasikan dengan melempar dadu berkali-kali. Misalkan $\hat{p}_n$ adalah proporsi hasil yang berupa \resp{1} setelah $n$ lemparan pertama. Ketika jumlah lemparan bertambah, $\hat{p}_n$ akan konvergen ke probabilitas memperoleh \resp{1}, yaitu $p = 1/6$. Gambar~\ref{dieProp} menunjukkan konvergensi ini untuk 100.000 lemparan dadu. Kecenderungan $\hat{p}_n$ untuk stabil di sekitar $p$ dijelaskan oleh \term{Hukum Bilangan Besar}.
+
+\begin{figure}[h]
+\centering
+\Figure[Diagram garis ditampilkan. Sumbu horizontal adalah ""n (jumlah lemparan)"", dengan nilai yang meningkat secara eksponensial dari 1 ke 10, 100, 1.000, 10.000, lalu 100.000. Sumbu vertikal adalah ""p-hat sub n"" dengan rentang 0,0 hingga sekitar 0,35. Garis putus-putus horizontal juga ditampilkan pada nilai satu per enam. Garis yang menunjukkan fraksi lemparan bernilai 1 mulai dari 0 pada lemparan pertama dan tetap di sana sampai sekitar lemparan ke-4, lalu melonjak ke 0,25 dan berosilasi, kemudian mencapai sekitar 0,35 pada 10 lemparan sebelum turun mendekati satu per enam. Sampai 100 lemparan, garis berosilasi antara 0,13 dan 0,22; dengan semakin banyak lemparan, garis makin stabil di sekitar satu per enam, menyimpang tidak lebih dari sekitar 0,03 sampai 1.000 lemparan. Sampai sekitar 5.000 lemparan penyimpangannya tidak lebih dari sekitar 0,015, dan setelah itu hampir tidak dapat dibedakan dari satu per enam selama lebih dari 5.000 lemparan.]{0.85}{dieProp}
+\caption{Fraksi lemparan dadu yang menghasilkan 1 pada setiap tahap simulasi. Seiring bertambahnya jumlah lemparan, proporsinya cenderung mendekati probabilitas $1/6 \approx 0.167$.}
+\label{dieProp}
+\end{figure}
+
+\begin{onebox}{Hukum Bilangan Besar}
+Semakin banyak pengamatan dikumpulkan, proporsi $\hat{p}_n$ kemunculan suatu hasil tertentu akan konvergen ke probabilitas $p$ hasil tersebut.
+\end{onebox}
+
+Sesekali proporsi akan menyimpang dari probabilitas dan tampak menentang Hukum Bilangan Besar, seperti yang sering terjadi pada $\hat{p}_n$ di Gambar~\ref{dieProp}. Namun, penyimpangan itu mengecil ketika jumlah lemparan bertambah.
+
+Di atas kita menulis $p$ sebagai probabilitas memperoleh \resp{1}. Probabilitas ini juga dapat ditulis sebagai
+\begin{align*}
+P(\text{memperoleh \resp{1}})
+\end{align*}
+Seiring terbiasanya kita dengan notasi ini, kita dapat menyingkatnya lebih lanjut. Misalnya, jika prosesnya jelas berupa “melempar dadu”, kita dapat menyingkat $P($memperoleh \resp{1}$)$ menjadi~$P($\resp{1}$)$.
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 ef758a84-bb6f-505c-9cbd-720dbd1d1af2,d031fd92-364c-5922-9977-7d4f68b6f109,2,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,1583,1589,d0796f416146c72e220fc76c377eff07614d4c295cc4c5b2f6047ecbabc6fa55,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,1526,1532,7de23826efd76b623671bb82bcff6eedf04caecaa63fabc34edd85cdadc51523,translated,"\end{exercisewrap}
 \footnotetext{(a)~0.451 menyatakan proporsi pemohon perorangan
   yang memiliki hipotek.
@@ -6303,6 +7238,23 @@ dianggap mewakili populasi sasaran, hasilnya dapat digeneralisasikan ke
 kelahiran dalam cakupan itu. Namun, karena studi ini bersifat
 observasional, temuannya tidak dapat digunakan untuk menetapkan hubungan 
 kausal.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+f72d418b-1f13-55f4-8a0d-c8bed9befa6b,55052df6-d488-53ed-8f4c-e0bb4a894836,1,subsection_prose,en,ch_probability/TeX/ch_probability.tex,470,485,577c70655223fcc2289bbb0f95b8537157199062c0f7f2f3102029f2e116c3d2,id-ID,repo/ch_probability/TeX/ch_probability.tex,470,485,419dfade4f8de840a544230ee3b519a85f6424da5c39b9b67898c4c8aa0347bb,language_reviewed,"\subsection{Komplemen suatu peristiwa}
+
+Melempar dadu menghasilkan nilai dalam himpunan $\{$\resp{1}, \resp{2}, \resp{3}, \resp{4}, \resp{5}, \resp{6}$\}$. Himpunan semua hasil yang mungkin ini disebut \term{ruang sampel} ($S$)\index{S@$S$} untuk lemparan dadu. Kita sering menggunakan ruang sampel untuk memeriksa situasi ketika suatu peristiwa tidak terjadi.
+
+Misalkan $D=\{$\resp{2}, \resp{3}$\}$ menyatakan peristiwa bahwa hasil lemparan dadu adalah \resp{2} atau \resp{3}. Kemudian \term{komplemen} $D$ menyatakan semua hasil dalam ruang sampel yang bukan anggota $D$, dilambangkan dengan $D^c = \{$\resp{1}, \resp{4}, \resp{5}, \resp{6}$\}$. Dengan kata lain, $D^c$ adalah himpunan semua hasil yang mungkin yang belum termasuk dalam $D$. Gambar~\ref{complementOfD} menunjukkan hubungan antara $D$, $D^c$, dan ruang sampel $S$.
+
+\begin{figure}[hht]
+  \centering
+  \Figure[Bilangan 1, 2, 3, 4, 5, dan 6 ditampilkan berurutan. Bilangan 2 dan 3 dilingkari serta diberi label “D”. Bilangan 1, 4, 5, dan 6 dilingkari serta diberi label “D-pangkat-C” sebagai komplemen D. Semua bilangan kemudian dilingkari lagi dengan kurungan lebih besar berlabel “S” sebagai ruang sampel.]{0.55}{complementOfD}
+  \caption{Peristiwa $D=\{$\resp{2}, \resp{3}$\}$ dan komplemennya,
+      $D^c = \{$\resp{1}, \resp{4}, \resp{5}, \resp{6}$\}$.
+      $S$~menyatakan ruang sampel, yaitu himpunan
+      semua hasil yang mungkin.}
+  \label{complementOfD}
+\end{figure}
+
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 f872d0d4-8908-513c-b10c-a7abf90efdda,51f8c9e8-d47d-503f-a0db-38a0564b62f2,1,subsection-prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,2187,2252,7aca1cafbd40b283525978929351e5ba0bf31adac8fa41760b8e689ce2b476de,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,2119,2182,6614c29c096c8934a11239ed0b7d3ef3b09bb1ad678542826dba6c3609e48f6a,language_reviewed,"\subsection{Variabilitas dalam data}
 \label{variabilityWithinData}
@@ -6418,6 +7370,52 @@ fcefba29-842d-5996-b35d-778711423e2e,d7955a56-864b-500a-a33b-7c476b342c7e,1,sect
 Walaupun kedua proporsi itu kemungkinan besar berdekatan, tidak lazim jika keduanya persis sama. Kita mungkin akan mengamati sedikit perbedaan karena {faktor kebetulan}.
 \end{nexample}
 \end{examplewrap}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+fcf01135-f38b-5780-9b3f-b1b765e9012b,fc0caa09-fb91-51a2-9411-8f34e4651d62,2,subsection_prose,en,ch_probability/TeX/ch_probability.tex,297,341,f727c49d9b035395e2871a8e66e0b5fbcc7473d5a5cb203e957fc7df6beda562,id-ID,repo/ch_probability/TeX/ch_probability.tex,297,341,c150397381c2aba6668881886f022b94de0771bd335778d93a711f689e0fe4ea,language_reviewed,"\footnotetext{(a) Ada 52 kartu dan 13 kartu wajik. Jika kartu dikocok dengan baik, setiap kartu memiliki peluang yang sama untuk terambil, sehingga probabilitas kartu yang dipilih secara acak merupakan wajik adalah $P({\color{redcards}\diamondsuit}) = \frac{13}{52} = 0.250$. (b)~Demikian pula, ada 12 kartu bergambar, sehingga $P($kartu bergambar$) = \frac{12}{52} = \frac{3}{13} = 0.231$.}
+
+\term{Diagram Venn} berguna ketika hasil dapat dikategorikan sebagai “masuk” atau “tidak masuk” untuk dua atau tiga variabel, atribut, atau proses acak. Diagram Venn pada Gambar~\ref{cardsDiamondFaceVenn} menggunakan satu lingkaran untuk mewakili wajik dan lingkaran lain untuk mewakili kartu bergambar. Jika sebuah kartu merupakan wajik sekaligus kartu bergambar, kartu itu berada di irisan kedua lingkaran. Jika kartu itu wajik tetapi bukan kartu bergambar, kartu itu berada di bagian lingkaran kiri yang tidak termasuk lingkaran kanan (dan seterusnya). Jumlah kartu wajik diberikan oleh seluruh kartu di dalam lingkaran wajik: $10+3=13$. Probabilitasnya juga ditampilkan (misalnya, $10/52 = 0.1923$).
+
+\begin{figure}[h]
+\centering
+\Figure[Diagram Venn ditampilkan. Satu lingkaran berlabel “Wajik” dengan proporsi total 0,25 dan lingkaran kedua berlabel “Kartu bergambar” dengan proporsi total 0,2308. Kedua lingkaran beririsan dan berbagi 3 kartu, dengan proporsi 0,0577 dari satu dek. Bagian lingkaran wajik yang tidak beririsan berlabel “10” untuk 10 kartu dan proporsi 0,1923. Bagian lingkaran kartu bergambar yang tidak beririsan berlabel “9” untuk 9 kartu dan proporsi 0,2308. Gambar juga mencatat bahwa terdapat 30 kartu yang bukan wajik maupun kartu bergambar.]{0.65}{cardsDiamondFaceVenn}
+\caption{Diagram Venn untuk wajik dan kartu bergambar.}
+\label{cardsDiamondFaceVenn}
+\end{figure}
+
+Misalkan $A$ menyatakan peristiwa bahwa kartu yang dipilih secara acak adalah wajik dan $B$ menyatakan peristiwa bahwa kartu tersebut merupakan kartu bergambar. Bagaimana menghitung $P(A$ atau $B)$? Peristiwa $A$ dan $B$ tidak saling lepas--kartu {\color{redcards}$J\diamondsuit$}, {\color{redcards}$Q\diamondsuit$}, dan {\color{redcards}$K\diamondsuit$} termasuk dalam kedua kategori--sehingga kita tidak dapat menggunakan Aturan Penjumlahan untuk peristiwa yang saling lepas. Sebagai gantinya, kita menggunakan diagram Venn. Kita mulai dengan menjumlahkan probabilitas kedua peristiwa:
+\begin{align*}
+P(A) + P(B)
+  = P({\color{redcards}\diamondsuit}) + P(\text{kartu bergambar})
+  = 13/52 + 12/52
+\end{align*}
+
+\D{\newpage}
+
+\noindent%
+Namun, tiga kartu yang termasuk dalam kedua peristiwa telah dihitung dua kali, sekali pada setiap probabilitas. Kita harus memperbaiki penghitungan ganda ini:
+\begin{align*}
+P(A\text{ atau } B)
+  &= P({\color{redcards}\diamondsuit}\text{ atau kartu bergambar}) \\
+  &= P({\color{redcards}\diamondsuit}) + P(\text{kartu bergambar})
+      - P({\color{redcards}\diamondsuit}\text{ dan kartu bergambar}) \\
+  &= 13/52 + 12/52 - 3/52 \\
+  &= 22/52 = 11/26
+\end{align*}
+Persamaan ini merupakan contoh \term{Aturan Penjumlahan Umum}.
+
+\begin{onebox}{Aturan Penjumlahan Umum}
+  Jika $A$ dan $B$ adalah sembarang dua peristiwa, baik saling lepas maupun tidak,
+  probabilitas bahwa setidaknya salah satunya terjadi adalah
+  \begin{align*}
+  P(A\text{ atau }B) = P(A) + P(B) - P(A\text{ dan }B)
+  \end{align*}
+  dengan $P(A$ dan $B)$ adalah probabilitas kedua peristiwa terjadi.
+\end{onebox}
+
+\begin{tipBox}{\tipBoxTitle{“atau” bersifat inklusif}
+Ketika kita menulis “atau” dalam statistika, yang dimaksud adalah “dan/atau” kecuali dinyatakan secara eksplisit. Jadi, $A$ atau $B$ terjadi berarti $A$, $B$, atau keduanya, $A$ dan $B$, terjadi.}
+\end{tipBox}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 fef409ed-68ae-5df8-99f9-1bcdbbd41d22,39e28dfa-9fb6-5555-bee7-6649c37a02b2,1,exercise,en,ch_intro_to_data/TeX/experiments.tex,75,80,7198a9425664e74022a5a0c52eeaee6bb11dfbf2ae9f5140266dc3dc463517c8,id-ID,repo/ch_intro_to_data/TeX/experiments.tex,75,80,2b07a67300f8e877e9dfb78197831d66276d41f7e89f60302bdf5f0d400a20fc,translated,"\eoce{\qt{Preferensi minuman bersoda\label{soda_preference}} Anda hendak melakukan eksperimen 
