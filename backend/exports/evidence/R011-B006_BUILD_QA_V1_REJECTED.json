@@ -349,31 +349,31 @@
     "timezone": "UTC",
     "versions": {
       "bibtex": {
-        "path": "C:\\Users\\Floris\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\bibtex.exe",
+        "path": "<local-user-profile>/AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\bibtex.exe",
         "version_first_line": "MiKTeX-BibTeX 4.2 (MiKTeX 26.5)"
       },
       "makeindex": {
-        "path": "C:\\Users\\Floris\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\makeindex.exe",
+        "path": "<local-user-profile>/AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\makeindex.exe",
         "version_first_line": "Unknown option --."
       },
       "mutool": {
-        "path": "C:\\Users\\Floris\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.exe",
+        "path": "<local-user-profile>/AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.exe",
         "version_first_line": "mutool version 1.23.0"
       },
       "pdfinfo": {
-        "path": "C:\\Users\\Floris\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdfinfo.exe",
+        "path": "<local-user-profile>/AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdfinfo.exe",
         "version_first_line": "pdfinfo version 24.04.0"
       },
       "pdflatex": {
-        "path": "C:\\Users\\Floris\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdflatex.exe",
+        "path": "<local-user-profile>/AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdflatex.exe",
         "version_first_line": "MiKTeX-pdfTeX 4.27 (MiKTeX 26.5)"
       },
       "pdftoppm": {
-        "path": "C:\\Users\\Floris\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdftoppm.exe",
+        "path": "<local-user-profile>/AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdftoppm.exe",
         "version_first_line": "pdftoppm version 24.04.0"
       },
       "pdftotext": {
-        "path": "C:\\Users\\Floris\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdftotext.exe",
+        "path": "<local-user-profile>/AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdftotext.exe",
         "version_first_line": "pdftotext version 24.04.0"
       },
       "pillow": {

@@ -1,0 +1,418 @@
+{
+  "boundary_id": "R011-B007",
+  "candidate": "final-v8",
+  "candidate_build_receipt": {
+    "bytes": 18531,
+    "path": "qa/b007-build/final-v8/CANDIDATE_BUILD_QA_V8.json",
+    "sha256": "1f1aab5da5646adbc53aec9178266f8c59575634a4a1a9d9e1547fbb757bf403"
+  },
+  "checks": {
+    "clipping": "passed",
+    "front_matter_scope_and_neutral_provenance": "passed pages 1-6",
+    "localized_english_residue": "passed_zero",
+    "overlap": "passed",
+    "portable_localized_figures": "passed Poppler and MuPDF",
+    "public_answer_2_25": "passed page 389 with pages 388 and 390 context",
+    "readable_centered_page_filling_reflow": "passed for B007 scope",
+    "section_2_3_and_exercises_2_25_2_26": "passed pages 72-78",
+    "truncation": "passed"
+  },
+  "deferred_out_of_boundary": [
+    {
+      "finding": "the untranslated Chapter 2 review suffix ends sparsely before the intentional Chapter 3 opener",
+      "owner": "R011-B008",
+      "page": 80
+    },
+    {
+      "finding": "an inherited unembedded point font makes the marathon men series renderer-dependent; the B007 localized figure set is unaffected",
+      "owner": "R011-B008",
+      "page": 80
+    }
+  ],
+  "evidence": {
+    "candidate_pdf": {
+      "bytes": 22017185,
+      "pages": 425,
+      "path": "qa/b007-build/final-v8/main.pdf",
+      "sha256": "ca872ddbc2fb1cab5f6cdb2fe745a0711a315fef68ab2e72c7a11d1c633a5c1a"
+    },
+    "localized_assets": {
+      "asset_count": 5,
+      "canonical_promotion": {
+        "bytes": 19032,
+        "path": "qa/b007-assets/B007_CANONICAL_PROMOTION_RECEIPT.json",
+        "sha256": "5594452b1fca3bed7b8f4b97ee0c33af67dfd1f18aff7458c9512a66c85d6ae1"
+      },
+      "machine_qa": {
+        "bytes": 36911,
+        "path": "qa/b007-assets/B007_ASSET_MACHINE_QA.json",
+        "sha256": "3342c3e07c38e75c8334ddba4e89357cb960987b3e8727f1374c04fe6c25ed72"
+      },
+      "portable_point_assets": [
+        {
+          "key": "malaria_rand_dot_plot",
+          "mupdf_visible_points": 100,
+          "poppler_visible_points": 100,
+          "source_glyph_runs": 100,
+          "unique_centres": 100,
+          "vector_circles": 100
+        },
+        {
+          "key": "randomization_heart_transplants_rando",
+          "mupdf_visible_points": 100,
+          "poppler_visible_points": 100,
+          "source_glyph_runs": 1318,
+          "unique_centres": 100,
+          "vector_circles": 1318
+        }
+      ],
+      "visual_qa": {
+        "bytes": 13578,
+        "path": "qa/b007-assets/B007_ASSET_VISUAL_QA.json",
+        "sha256": "2395920ffeaba82dcca96ec78b329be040ba7affb8991159e395e81cae0f3039"
+      }
+    },
+    "mupdf": {
+      "page_render_bytes": 2700108,
+      "page_renders": [
+        {
+          "bytes": 262916,
+          "page": 72,
+          "path": "qa/b007-render/final-v8-mupdf/page-072.png",
+          "sha256": "2e94fe882526dde03708d796640b2031abae0dee4e8ef19dc06a0e82b124155b"
+        },
+        {
+          "bytes": 376012,
+          "page": 73,
+          "path": "qa/b007-render/final-v8-mupdf/page-073.png",
+          "sha256": "eb30ce1aed5d623c172c443194d67c03e63ecd5499000f3dc54c3ac61ad48b9d"
+        },
+        {
+          "bytes": 260930,
+          "page": 74,
+          "path": "qa/b007-render/final-v8-mupdf/page-074.png",
+          "sha256": "398083d60802699df7e8998339f16a7a2696d0d3f6710831d8c1a3b8815eedb9"
+        },
+        {
+          "bytes": 313543,
+          "page": 75,
+          "path": "qa/b007-render/final-v8-mupdf/page-075.png",
+          "sha256": "ff7b9305f09a572d6c8a86d5520f21d273806f3afbb37c9d8728c1566de2df43"
+        },
+        {
+          "bytes": 418011,
+          "page": 76,
+          "path": "qa/b007-render/final-v8-mupdf/page-076.png",
+          "sha256": "d2237ad6c44351ab9137bbbc6b5c7a0c7caaeacec31f4110ab3981fde995576c"
+        },
+        {
+          "bytes": 336410,
+          "page": 77,
+          "path": "qa/b007-render/final-v8-mupdf/page-077.png",
+          "sha256": "f4616ce808934b5d17fcb566485ef455e566e1f1b432ab8dcfc861d95aa2324c"
+        },
+        {
+          "bytes": 308089,
+          "page": 78,
+          "path": "qa/b007-render/final-v8-mupdf/page-078.png",
+          "sha256": "5f28b49b03010843f6cbf17c1f253d23d410d252aa588e5c92c76b0c2cf31cba"
+        },
+        {
+          "bytes": 219613,
+          "page": 79,
+          "path": "qa/b007-render/final-v8-mupdf/page-079.png",
+          "sha256": "efe5b854d933e15ec4f96a07cb29eac08292558b4c9921ae088013734134060d"
+        },
+        {
+          "bytes": 36544,
+          "page": 80,
+          "path": "qa/b007-render/final-v8-mupdf/page-080.png",
+          "sha256": "066d6b40d2a4a3f05dc901ede86d17fbcebff1f582d8511ecc1843b1a9647ce6"
+        },
+        {
+          "bytes": 65536,
+          "page": 81,
+          "path": "qa/b007-render/final-v8-mupdf/page-081.png",
+          "sha256": "7812f2b1fb2fb79315802104a1d7c2106df98dc185280b1c7f098ba64af3e2db"
+        },
+        {
+          "bytes": 102504,
+          "page": 82,
+          "path": "qa/b007-render/final-v8-mupdf/page-082.png",
+          "sha256": "780c04912d3bb8db120e81f9bab526190c998e20c76b0d9889b294388bf6668a"
+        }
+      ]
+    },
+    "poppler": {
+      "contact_sheet": {
+        "bytes": 961888,
+        "path": "qa/b007-render/final-v8/CONTACT_SHEET.png",
+        "sha256": "a088b211a037684ba5cfab6eb237b0cdc6343d5ee646ca078b14c7c871d4a95a"
+      },
+      "page_locator": {
+        "bytes": 1503,
+        "path": "qa/b007-render/final-v8/PAGE_LOCATOR.json",
+        "sha256": "80ba13a304b6db2384aa4f60718f710677ab396aea5d24ba8a766fb91d628e4b"
+      },
+      "page_render_bytes": 7696017,
+      "page_renders": [
+        {
+          "bytes": 69379,
+          "page": 1,
+          "path": "qa/b007-render/final-v8/page-001.png",
+          "sha256": "bbb94a8956a448356aea7def88a27ce5c2b70e8a1a899d20dfdb59c09d5b8d0b"
+        },
+        {
+          "bytes": 170123,
+          "page": 2,
+          "path": "qa/b007-render/final-v8/page-002.png",
+          "sha256": "987302cb96895809e8e8a27560418426b1757c6f79c7d2b2790ab995948ca5a6"
+        },
+        {
+          "bytes": 118042,
+          "page": 4,
+          "path": "qa/b007-render/final-v8/page-004.png",
+          "sha256": "69818f76d79f9d12b96397cec57e8f9840535e8e2be30dfbd6b926b980d91d8f"
+        },
+        {
+          "bytes": 340516,
+          "page": 5,
+          "path": "qa/b007-render/final-v8/page-005.png",
+          "sha256": "a86925089a50c8f704044e18b51888eaf6a7415851c6751b650e2c8dc80952cc"
+        },
+        {
+          "bytes": 434161,
+          "page": 6,
+          "path": "qa/b007-render/final-v8/page-006.png",
+          "sha256": "b73f337dcae4f9e35b6237181661fac2b8aaa127a6c7d62b065ca10f67df23d0"
+        },
+        {
+          "bytes": 370505,
+          "page": 46,
+          "path": "qa/b007-render/final-v8/page-046.png",
+          "sha256": "20a4e1237ba86cc4c5140193437484fe61beee542e96d4d00e6352013e42ffe1"
+        },
+        {
+          "bytes": 452327,
+          "page": 47,
+          "path": "qa/b007-render/final-v8/page-047.png",
+          "sha256": "56c4be1aeecd75079b51d508e459627d6aaa5151df6081d4ac4a9ad2410d0186"
+        },
+        {
+          "bytes": 328453,
+          "page": 53,
+          "path": "qa/b007-render/final-v8/page-053.png",
+          "sha256": "2a3fca8133a105a6947b86b8610ef46c5f0565a409daa3a520127054391c0ad7"
+        },
+        {
+          "bytes": 225156,
+          "page": 71,
+          "path": "qa/b007-render/final-v8/page-071.png",
+          "sha256": "c014489207f38314d7ce38a4f9d154cce8f72a503e75a029f04a8d16b43d822f"
+        },
+        {
+          "bytes": 339365,
+          "page": 72,
+          "path": "qa/b007-render/final-v8/page-072.png",
+          "sha256": "ae897e2ddf5a904e95b33824c7b434a8ebc277eca8486ef31e35f5babbf1300c"
+        },
+        {
+          "bytes": 510164,
+          "page": 73,
+          "path": "qa/b007-render/final-v8/page-073.png",
+          "sha256": "69bb13e0e1a91a3cd7d7b58bbe4281ecc4f6f7fb9c8838af4964a5f467e77bda"
+        },
+        {
+          "bytes": 345416,
+          "page": 74,
+          "path": "qa/b007-render/final-v8/page-074.png",
+          "sha256": "c8aa1ba1ed3945686a194dbe68a3735c66d9b364f488ffdd3e5ea786247032d1"
+        },
+        {
+          "bytes": 389492,
+          "page": 75,
+          "path": "qa/b007-render/final-v8/page-075.png",
+          "sha256": "6f392d60646bbcdddbf43a46e7b1aebd410f0c99240d10ba70432d126e989f6d"
+        },
+        {
+          "bytes": 503583,
+          "page": 76,
+          "path": "qa/b007-render/final-v8/page-076.png",
+          "sha256": "ead9ba32a1fade4019eb33ff8a64929f45cdeeb5888c2c7b838764c7f7f9a957"
+        },
+        {
+          "bytes": 387256,
+          "page": 77,
+          "path": "qa/b007-render/final-v8/page-077.png",
+          "sha256": "287d1d71d0b5b396516ef03a89711a4168d12c4b38b0b1bdf5d3e2b340572af8"
+        },
+        {
+          "bytes": 360612,
+          "page": 78,
+          "path": "qa/b007-render/final-v8/page-078.png",
+          "sha256": "b77cbde784c7414a3bb8f31f438347f6eb0b446bf6f2c57746b8c0914fd3a76c"
+        },
+        {
+          "bytes": 252300,
+          "page": 79,
+          "path": "qa/b007-render/final-v8/page-079.png",
+          "sha256": "54fa9827af32cd62a4d9075ff32830e2303042fb3346e5017ce41bcc3d6f734c"
+        },
+        {
+          "bytes": 35290,
+          "page": 80,
+          "path": "qa/b007-render/final-v8/page-080.png",
+          "sha256": "9e018a2b31d64fd13c4039a35996336f034a54a8aae0529360a91b62ea828146"
+        },
+        {
+          "bytes": 72599,
+          "page": 81,
+          "path": "qa/b007-render/final-v8/page-081.png",
+          "sha256": "90277c588e15b26e27ab94a72a1b174bc05ddd739d8eb80fdfb8e124d2e5b784"
+        },
+        {
+          "bytes": 128592,
+          "page": 82,
+          "path": "qa/b007-render/final-v8/page-082.png",
+          "sha256": "ba1a4e3b1595d5c61ab91ef5922bcd6ca61ff708662bcfdde2cce81252ce9137"
+        },
+        {
+          "bytes": 636852,
+          "page": 388,
+          "path": "qa/b007-render/final-v8/page-388.png",
+          "sha256": "2aa61eb715814ee2f53a89ca8b99e4401f820e8b3239a50cc8e678cec7487ddf"
+        },
+        {
+          "bytes": 613551,
+          "page": 389,
+          "path": "qa/b007-render/final-v8/page-389.png",
+          "sha256": "047a86cc6d1fe861db1c1ee178409ee8f5f19d545a2b2451b1e85f0c7021c2a7"
+        },
+        {
+          "bytes": 612283,
+          "page": 390,
+          "path": "qa/b007-render/final-v8/page-390.png",
+          "sha256": "b497f3d9e3bb9c38037bbee599a2fc8012e972ba142d80c1ffa15abb9453f2a9"
+        }
+      ],
+      "render_manifest": {
+        "bytes": 2019,
+        "path": "qa/b007-render/final-v8/FINAL_MANIFEST.tsv",
+        "sha256": "895e6ff19e786153ae03cc9397f21bb3629beece560d727c35af29887d5c9748"
+      },
+      "unexpected_diagnostic_count": 0
+    }
+  },
+  "finalization_script": {
+    "bytes": 23751,
+    "path": "scripts/qa_finalize_b007_visual_v8.py",
+    "sha256": "c98dc40b05b77892f07e653a1f8162b2d3628830497bda6f3f7bf9e550b4ff9b"
+  },
+  "findings_within_b007": [],
+  "inspection": {
+    "all_required_b007_pages_inspected": true,
+    "independent_main_agent_pages": [
+      1,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82
+    ],
+    "method": "every Poppler candidate render opened individually at original/full resolution; all B007 pages and localized figures cross-checked in MuPDF",
+    "mupdf_inspected_page_count": 11,
+    "mupdf_inspected_pages": [
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82
+    ],
+    "poppler_inspected_page_count": 23,
+    "poppler_inspected_pages": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      46,
+      47,
+      53,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      388,
+      389,
+      390
+    ]
+  },
+  "page_findings": [
+    {
+      "pages": [
+        72,
+        73,
+        74,
+        75
+      ],
+      "result": "Section 2.3 is readable and well-filled; page 75 displays all 100 malaria randomization points"
+    },
+    {
+      "pages": [
+        76,
+        77,
+        78
+      ],
+      "result": "exercise header and Exercises 2.25-2.26 flow in source order without forced underfill; page 78 displays all 100 heart-transplant randomization centres and begins the out-of-boundary review"
+    },
+    {
+      "pages": [
+        81,
+        82
+      ],
+      "result": "Chapter 3 opener and following transition are intact"
+    },
+    {
+      "pages": [
+        388,
+        389,
+        390
+      ],
+      "result": "answer 2.25 and adjacent answer context are readable; no answer 2.26 was invented"
+    }
+  ],
+  "privacy": {
+    "absolute_profile_path_hits": 0,
+    "prohibited_token_hits": 0
+  },
+  "promotion": {
+    "claim": "atomic admission guard owns output promotion",
+    "performed": false
+  },
+  "schema": "openintro-boundary-visual-audit",
+  "schema_version": "0.3.0",
+  "severity_counts_within_b007": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0
+  },
+  "status": "passed"
+}

@@ -86,7 +86,7 @@ R011-TERM-0084,population mean,rata-rata populasi,descriptive statistics,admitte
 R011-TERM-0085,point estimate,estimasi titik,inference,admitted,
 R011-TERM-0086,weighted mean,rata-rata tertimbang,descriptive statistics,admitted,
 R011-TERM-0087,histogram,histogram,data visualization,admitted,
-R011-TERM-0088,bin,kelas interval (bin),histogram,admitted,Use kelas interval in running prose and retain bin parenthetically at first definition
+R011-TERM-0088,bin,interval kelas (bin),histogram,admitted,Use interval kelas in running prose and retain bin parenthetically at first definition
 R011-TERM-0089,data density,kepadatan data,histogram,admitted,
 R011-TERM-0090,tail,ekor,distribution shape,admitted,
 R011-TERM-0091,right skewed,menceng kanan,distribution shape,admitted,
@@ -140,3 +140,22 @@ R011-TERM-0138,homeownership,status kepemilikan rumah,loan variable in prose,adm
 R011-TERM-0139,app_type,jenis pengajuan,loan variable in prose,admitted,Retain the literal source variable name inside var macros
 R011-TERM-0140,independent,saling independen,relationship between variables,admitted,
 R011-TERM-0141,dependent,saling dependen,relationship between variables,admitted,
+R011-TERM-0142,malaria vaccine,vaksin malaria,clinical study,proposed,Keep PfSPZ as an unchanged proper name. The LaTeX index alias retains source sort key malaria vaccine while displaying vaksin malaria.
+R011-TERM-0143,variability within data,variabilitas dalam data,subsection title,proposed,Extends admitted variability -> variabilitas.
+R011-TERM-0144,drug-sensitive strain,galur yang sensitif terhadap obat,malaria parasite,proposed,Use galur rather than strain in reader prose.
+R011-TERM-0145,infection rate,tingkat infeksi,clinical outcome,proposed,Use consistently for proportions of infection.
+R011-TERM-0146,random noise,derau acak,statistical variation,proposed,Reader-facing term; do not confuse with measurement error.
+R011-TERM-0147,independence model,model independensi,hypothesis model,proposed,Variables remain described as saling independen under existing terminology.
+R011-TERM-0148,alternative model,model alternatif,hypothesis model,proposed,Paired with model independensi.
+R011-TERM-0149,simulation,simulasi,randomization inference,proposed,Use menyimulasikan as the verb. The termsub index alias retains source sort key simulation while displaying simulasi.
+R011-TERM-0150,statistical inference,statistika inferensial,field of statistics,proposed,Preferred Indonesian field name; reserve inferensi for the act or process when context requires it
+R011-TERM-0151,model selection,pemilihan model,statistical inference,proposed,Natural technical term.
+R011-TERM-0152,retrospective observational study,studi observasional retrospektif,Avandia exercise,proposed,Extends admitted observational study -> studi observasional.
+R011-TERM-0153,relative frequency histogram,histogram frekuensi relatif,Avandia randomization,proposed,Keep relative attached to frequency.
+R011-TERM-0154,cardiovascular event,kejadian kardiovaskular,Avandia study,proposed,Use masalah kardiovaskular where the source says problems; use kejadian for events.
+R011-TERM-0155,heart transplant,transplantasi jantung,Stanford study,proposed,Use transplantasi for the procedure and receives a transplant -> menerima transplantasi.
+R011-TERM-0156,survival time,masa hidup,heart transplant figure,proposed,Do not use the raw source variable name survived as a display label.
+R011-TERM-0157,null hypothesis,hipotesis nol,randomization exercise,proposed,Keep $H_0$ unchanged.
+R011-TERM-0158,alternative hypothesis,hipotesis alternatif,randomization exercise,proposed,Keep $H_A$ unchanged.
+R011-TERM-0159,convincing evidence,bukti meyakinkan,evidence evaluation,proposed,Avoid stronger causal wording in the observational Avandia exercise.
+R011-TERM-0160,probability,peluang (probabilitas),probability language,proposed,Introduce both where defining the field; prefer peluang for individual-event probability and probabilitas in established field or chapter names

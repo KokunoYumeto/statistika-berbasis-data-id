@@ -1,0 +1,31 @@
+{
+  "schema": "interlanguage.figshare-article-payload-template",
+  "schema_version": "1.0.0",
+  "boundary_id": "R011-B007",
+  "title": "Statistika Berbasis Data - Edisi Kerja Bahasa Indonesia (R011-B007: Bab 1 dan Bagian 2.1-2.3)",
+  "scope_html": "<p><strong>Edisi kerja parsial Bahasa Indonesia.</strong> Cakupan yang telah diterjemahkan dan diterima meliputi materi pendahuluan turunan, Bab 1 lengkap beserta latihan akhir bab dan jawaban publik, serta pembuka Bab 2 dan Bagian 2.1-2.3 beserta latihan 2.1-2.26 dan semua jawaban publik yang tersedia sampai batas itu. Latihan tinjauan Bab 2 mulai 2.27 dan materi selanjutnya tetap berbahasa Inggris di dalam PDF batas kerja untuk reproduksibilitas build buku lengkap; bagian tersebut belum merupakan hasil terjemahan. Tidak ada solusi instruktur terbatas yang diakses atau diciptakan.</p>",
+  "hosted_route_html": "<p><strong>Rute Figshare:</strong> inventaris lisensi akun menyediakan CC BY-SA 3.0 secara tepat. Semua berkas rilis dihosting oleh Figshare sebagai cermin byte-for-byte, dalam urutan pembaca lebih dahulu, dan ditautkan pula ke versi Zenodo yang tidak dapat diubah untuk identitas lintas repositori.</p>",
+  "link_only_route_html": "<p><strong>Rute Figshare:</strong> inventaris lisensi akun tidak menyediakan CC BY-SA 3.0 secara tepat. Karena itu Figshare hanya memuat metadata CC0 dan penunjuk ke berkas pada versi Zenodo yang tidak dapat diubah. PDF pembaca menjadi satu-satunya objek berkas eksternal Figshare; berkas lain tetap terlihat sebagai tautan metadata. Figshare tidak menghosting atau melisensikan ulang byte karya.</p>",
+  "common_tail_html": "<p><strong>Batas lisensi:</strong> teks sumber dan terjemahan mengikuti CC BY-SA 3.0. Hak komponen yang lebih khusus tetap berlaku sebagaimana dicatat dalam <code>LICENSES_AND_ATTRIBUTION.md</code>; lisensi tingkat rekaman tidak menggantikan hak tersebut.</p><p>Karya turunan dari <em>OpenIntro Statistics, Fourth Edition</em> oleh David M. Diez, Mine Çetinkaya-Rundel, dan Christopher D. Barr, dibekukan pada komit resmi <code>fee25091fb24e89c36296fd67c48c1fcf7a93b6e</code>. Judul turunan: <em>Statistika Berbasis Data</em>. Bukan produk OpenIntro dan tidak berafiliasi dengan atau didukung oleh OpenIntro. Kontributor edisi Bahasa Indonesia: Codex, atas permintaan pengguna.</p><p>Identifikasi model produksi: <strong>OpenAI Codex gpt-5.6-sol, Ultra</strong>. Kredit penulis sumber dan kontributor manusia tetap dipertahankan.</p>",
+  "tags": [
+    "Bahasa Indonesia",
+    "statistika",
+    "open educational resources",
+    "partial edition",
+    "machine-readable curriculum",
+    "R011"
+  ],
+  "static_references": [
+    "https://github.com/OpenIntroStat/openintro-statistics/tree/fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "https://www.openintro.org/book/os/"
+  ],
+  "categories": [
+    26095
+  ],
+  "authors": [
+    {
+      "id": 21544022
+    }
+  ],
+  "defined_type": "online resource"
+}

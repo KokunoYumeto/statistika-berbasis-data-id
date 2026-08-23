@@ -10,12 +10,12 @@
   "helpers": [
     {
       "bytes": 10008,
-      "path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\replay_b005_eoce_hispanic_bacteria.py",
+      "path": "repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\replay_b005_eoce_hispanic_bacteria.py",
       "sha256": "740d883565657b7fba7c617311576c291cf7f2bbb789c0f8a2d2831a2f8adddd"
     },
     {
       "bytes": 22874,
-      "path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\verify_b005_eoce_hispanic_bacteria.py",
+      "path": "repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\verify_b005_eoce_hispanic_bacteria.py",
       "sha256": "e9c8039fc3d86f97eacf7b0357faea255a77e441b5b80707ad949a67ffe064ed"
     }
   ],
@@ -25,17 +25,17 @@
   "parser_and_embed_qa": {
     "embed_smoke": {
       "console_bytes": 4059,
-      "console_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\embed_smoke\\console.txt",
+      "console_path": "repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\embed_smoke\\console.txt",
       "console_sha256": "37b79e6b5883aafdeb4a8931443b428212a3601cdf0feb4154017dc7041f53a5",
       "embedded_asset_count": 10,
-      "engine": "C:\\Users\\Floris\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdflatex.EXE",
+      "engine": "<local-profile>\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdflatex.EXE",
       "output_pages": 10,
       "pdf_bytes": 852725,
-      "pdf_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\embed_smoke\\embed_smoke.pdf",
+      "pdf_path": "repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\embed_smoke\\embed_smoke.pdf",
       "pdf_sha256": "7fffbede16ecba24b472640a34319a1e791544d03a87389e62d675b166d2fef4",
       "result": "PASS",
       "tex_bytes": 2708,
-      "tex_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\embed_smoke\\embed_smoke.tex",
+      "tex_path": "repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\embed_smoke\\embed_smoke.tex",
       "tex_sha256": "218541ea36a37afe67b256569b5244884187a2ff9f43b07653a488e1b61527f2"
     },
     "mutool_info_pages_clean_asset_count": 10,
@@ -44,37 +44,53 @@
     "pypdf_strict": true,
     "result": "PASS"
   },
+  "privacy_rewrite": {
+    "classification": "metadata/privacy-only path rewrite",
+    "external_path_policy": "<local-profile> placeholder",
+    "intermediate_preimage": {
+      "bytes": 35619,
+      "sha256": "3ccb3906b0b3c0c1c8bfe53b741b1660fe34e0b241fe7054cd1cf46aef0a194e"
+    },
+    "lane_local_path_policy": "lane-relative",
+    "original_preimage": {
+      "bytes": 35979,
+      "sha256": "2b4bfe645f969ffe9444c4609dca630ae08e84fac35c489b392650386f19f0fb"
+    },
+    "path_occurrence_count": 90,
+    "substantive_counts_and_hashes_preserved": true,
+    "upstream_and_human_credits_preserved": true
+  },
   "records": [
     {
       "asset_id": "R011-ASSET-B005-2.1-020",
       "authority_bytes": 27751,
-      "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\eoce\\association_plots\\association_plots.pdf",
-      "authority_render_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_authority\\eoce\\association_plots\\association_plots.pdf.png",
+      "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\eoce\\association_plots\\association_plots.pdf",
+      "authority_render_path": "repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_authority\\eoce\\association_plots\\association_plots.pdf.png",
       "authority_sha256": "f0346b81af9946622298aec8e8a118099b8f011ef57ab597c48f8c86a0a34ebb",
       "bytes": 27751,
-      "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\eoce\\association_plots\\association_plots.pdf",
-      "live_render_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_live\\eoce\\association_plots\\association_plots.pdf.png",
+      "live_path": "repo\\ch_summarizing_data\\figures\\eoce\\association_plots\\association_plots.pdf",
+      "live_render_path": "repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_live\\eoce\\association_plots\\association_plots.pdf.png",
       "mode": "exact-copy-no-reader-visible-words",
       "page_boxes_match_authority": true,
       "page_count": 1,
       "parser_checks": {
         "mutool_clean": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
           "returncode": 0,
           "stderr": ""
         },
         "mutool_info": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
           "returncode": 0,
           "stderr": ""
         },
         "mutool_pages": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
           "returncode": 0,
           "stderr": ""
         },
         "pdfinfo": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdfinfo.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdfinfo.EXE",
           "returncode": 0,
           "stderr": ""
         }
@@ -95,33 +111,33 @@
     {
       "asset_id": "R011-ASSET-B005-2.1-021",
       "authority_bytes": 8060,
-      "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\eoce\\hist_box_match\\hist_box_match.pdf",
-      "authority_render_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_authority\\eoce\\hist_box_match\\hist_box_match.pdf.png",
+      "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\eoce\\hist_box_match\\hist_box_match.pdf",
+      "authority_render_path": "repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_authority\\eoce\\hist_box_match\\hist_box_match.pdf.png",
       "authority_sha256": "86cc856f21fd5824fcc33481918abeab2abbdc608152f769d02de9a9d7d853d9",
       "bytes": 8060,
-      "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\eoce\\hist_box_match\\hist_box_match.pdf",
-      "live_render_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_live\\eoce\\hist_box_match\\hist_box_match.pdf.png",
+      "live_path": "repo\\ch_summarizing_data\\figures\\eoce\\hist_box_match\\hist_box_match.pdf",
+      "live_render_path": "repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_live\\eoce\\hist_box_match\\hist_box_match.pdf.png",
       "mode": "exact-copy-no-reader-visible-words",
       "page_boxes_match_authority": true,
       "page_count": 1,
       "parser_checks": {
         "mutool_clean": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
           "returncode": 0,
           "stderr": ""
         },
         "mutool_info": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
           "returncode": 0,
           "stderr": ""
         },
         "mutool_pages": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
           "returncode": 0,
           "stderr": ""
         },
         "pdfinfo": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdfinfo.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdfinfo.EXE",
           "returncode": 0,
           "stderr": ""
         }
@@ -142,33 +158,33 @@
     {
       "asset_id": "R011-ASSET-B005-2.1-023",
       "authority_bytes": 4746,
-      "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\eoce\\estimate_mean_median_simple\\estimate_mean_median_simple.pdf",
-      "authority_render_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_authority\\eoce\\estimate_mean_median_simple\\estimate_mean_median_simple.pdf.png",
+      "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\eoce\\estimate_mean_median_simple\\estimate_mean_median_simple.pdf",
+      "authority_render_path": "repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_authority\\eoce\\estimate_mean_median_simple\\estimate_mean_median_simple.pdf.png",
       "authority_sha256": "858530cab1c2217139e7b6af69ede18e84a8da681445c2ea76d1b98c5af05a75",
       "bytes": 4746,
-      "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\eoce\\estimate_mean_median_simple\\estimate_mean_median_simple.pdf",
-      "live_render_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_live\\eoce\\estimate_mean_median_simple\\estimate_mean_median_simple.pdf.png",
+      "live_path": "repo\\ch_summarizing_data\\figures\\eoce\\estimate_mean_median_simple\\estimate_mean_median_simple.pdf",
+      "live_render_path": "repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_live\\eoce\\estimate_mean_median_simple\\estimate_mean_median_simple.pdf.png",
       "mode": "exact-copy-no-reader-visible-words",
       "page_boxes_match_authority": true,
       "page_count": 1,
       "parser_checks": {
         "mutool_clean": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
           "returncode": 0,
           "stderr": ""
         },
         "mutool_info": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
           "returncode": 0,
           "stderr": ""
         },
         "mutool_pages": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
           "returncode": 0,
           "stderr": ""
         },
         "pdfinfo": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdfinfo.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdfinfo.EXE",
           "returncode": 0,
           "stderr": ""
         }
@@ -189,33 +205,33 @@
     {
       "asset_id": "R011-ASSET-B005-2.1-024",
       "authority_bytes": 5399,
-      "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\eoce\\hist_vs_box\\hist_vs_box.pdf",
-      "authority_render_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_authority\\eoce\\hist_vs_box\\hist_vs_box.pdf.png",
+      "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\eoce\\hist_vs_box\\hist_vs_box.pdf",
+      "authority_render_path": "repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_authority\\eoce\\hist_vs_box\\hist_vs_box.pdf.png",
       "authority_sha256": "edae7d75617032265cdb78d1f938d69838255343407f51346902b14f3931e695",
       "bytes": 5399,
-      "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\eoce\\hist_vs_box\\hist_vs_box.pdf",
-      "live_render_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_live\\eoce\\hist_vs_box\\hist_vs_box.pdf.png",
+      "live_path": "repo\\ch_summarizing_data\\figures\\eoce\\hist_vs_box\\hist_vs_box.pdf",
+      "live_render_path": "repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_live\\eoce\\hist_vs_box\\hist_vs_box.pdf.png",
       "mode": "exact-copy-no-reader-visible-words",
       "page_boxes_match_authority": true,
       "page_count": 1,
       "parser_checks": {
         "mutool_clean": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
           "returncode": 0,
           "stderr": ""
         },
         "mutool_info": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
           "returncode": 0,
           "stderr": ""
         },
         "mutool_pages": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
           "returncode": 0,
           "stderr": ""
         },
         "pdfinfo": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdfinfo.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdfinfo.EXE",
           "returncode": 0,
           "stderr": ""
         }
@@ -236,33 +252,33 @@
     {
       "asset_id": "R011-ASSET-B005-2.1-025",
       "authority_bytes": 7587,
-      "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\eoce\\income_coffee_shop\\income_coffee_shop.pdf",
-      "authority_render_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_authority\\eoce\\income_coffee_shop\\income_coffee_shop.pdf.png",
+      "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\eoce\\income_coffee_shop\\income_coffee_shop.pdf",
+      "authority_render_path": "repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_authority\\eoce\\income_coffee_shop\\income_coffee_shop.pdf.png",
       "authority_sha256": "ba565257e64ff187c3b1f781f9b8c24adf1e7a6c592d318eee7f2b226d497465",
       "bytes": 7587,
-      "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\eoce\\income_coffee_shop\\income_coffee_shop.pdf",
-      "live_render_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_live\\eoce\\income_coffee_shop\\income_coffee_shop.pdf.png",
+      "live_path": "repo\\ch_summarizing_data\\figures\\eoce\\income_coffee_shop\\income_coffee_shop.pdf",
+      "live_render_path": "repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_live\\eoce\\income_coffee_shop\\income_coffee_shop.pdf.png",
       "mode": "exact-copy-no-reader-visible-words",
       "page_boxes_match_authority": true,
       "page_count": 1,
       "parser_checks": {
         "mutool_clean": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
           "returncode": 0,
           "stderr": ""
         },
         "mutool_info": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
           "returncode": 0,
           "stderr": ""
         },
         "mutool_pages": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
           "returncode": 0,
           "stderr": ""
         },
         "pdfinfo": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdfinfo.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdfinfo.EXE",
           "returncode": 0,
           "stderr": ""
         }
@@ -283,33 +299,33 @@
     {
       "asset_id": "R011-ASSET-B005-2.1-027",
       "authority_bytes": 391930,
-      "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\eoce\\county_commute_times\\county_commute_times_map.pdf",
-      "authority_render_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_authority\\eoce\\county_commute_times\\county_commute_times_map.pdf.png",
+      "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\eoce\\county_commute_times\\county_commute_times_map.pdf",
+      "authority_render_path": "repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_authority\\eoce\\county_commute_times\\county_commute_times_map.pdf.png",
       "authority_sha256": "e2265a9bfa8e267edb11e12f8c0d2642529083ab136e303dff6eb3f86b632dfb",
       "bytes": 391930,
-      "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\eoce\\county_commute_times\\county_commute_times_map.pdf",
-      "live_render_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_live\\eoce\\county_commute_times\\county_commute_times_map.pdf.png",
+      "live_path": "repo\\ch_summarizing_data\\figures\\eoce\\county_commute_times\\county_commute_times_map.pdf",
+      "live_render_path": "repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_live\\eoce\\county_commute_times\\county_commute_times_map.pdf.png",
       "mode": "exact-copy-no-reader-visible-words",
       "page_boxes_match_authority": true,
       "page_count": 1,
       "parser_checks": {
         "mutool_clean": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
           "returncode": 0,
           "stderr": ""
         },
         "mutool_info": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
           "returncode": 0,
           "stderr": ""
         },
         "mutool_pages": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
           "returncode": 0,
           "stderr": ""
         },
         "pdfinfo": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdfinfo.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdfinfo.EXE",
           "returncode": 0,
           "stderr": ""
         }
@@ -330,33 +346,33 @@
     {
       "asset_id": "R011-ASSET-B005-2.1-028",
       "authority_bytes": 4859,
-      "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\eoce\\county_hispanic_pop\\county_hispanic_pop_hist.pdf",
-      "authority_render_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_authority\\eoce\\county_hispanic_pop\\county_hispanic_pop_hist.pdf.png",
+      "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\eoce\\county_hispanic_pop\\county_hispanic_pop_hist.pdf",
+      "authority_render_path": "repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_authority\\eoce\\county_hispanic_pop\\county_hispanic_pop_hist.pdf.png",
       "authority_sha256": "0087937a638a59676041b754bd0dd8e0b4190578bdf0ca946db8e9c4f78d7f28",
       "bytes": 4968,
-      "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\eoce\\county_hispanic_pop\\county_hispanic_pop_hist.pdf",
-      "live_render_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_live\\eoce\\county_hispanic_pop\\county_hispanic_pop_hist.pdf.png",
+      "live_path": "repo\\ch_summarizing_data\\figures\\eoce\\county_hispanic_pop\\county_hispanic_pop_hist.pdf",
+      "live_render_path": "repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_live\\eoce\\county_hispanic_pop\\county_hispanic_pop_hist.pdf.png",
       "mode": "localized-vector-text",
       "page_boxes_match_authority": true,
       "page_count": 1,
       "parser_checks": {
         "mutool_clean": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
           "returncode": 0,
           "stderr": ""
         },
         "mutool_info": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
           "returncode": 0,
           "stderr": ""
         },
         "mutool_pages": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
           "returncode": 0,
           "stderr": ""
         },
         "pdfinfo": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdfinfo.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdfinfo.EXE",
           "returncode": 0,
           "stderr": ""
         }
@@ -392,33 +408,33 @@
     {
       "asset_id": "R011-ASSET-B005-2.1-029",
       "authority_bytes": 5290,
-      "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\eoce\\county_hispanic_pop\\county_hispanic_pop_log_hist.pdf",
-      "authority_render_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_authority\\eoce\\county_hispanic_pop\\county_hispanic_pop_log_hist.pdf.png",
+      "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\eoce\\county_hispanic_pop\\county_hispanic_pop_log_hist.pdf",
+      "authority_render_path": "repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_authority\\eoce\\county_hispanic_pop\\county_hispanic_pop_log_hist.pdf.png",
       "authority_sha256": "30ef90df09ae86bf5fc9f5da62c72156ca8a845558b6a68dfddd81b9c7cef2b1",
       "bytes": 5390,
-      "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\eoce\\county_hispanic_pop\\county_hispanic_pop_log_hist.pdf",
-      "live_render_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_live\\eoce\\county_hispanic_pop\\county_hispanic_pop_log_hist.pdf.png",
+      "live_path": "repo\\ch_summarizing_data\\figures\\eoce\\county_hispanic_pop\\county_hispanic_pop_log_hist.pdf",
+      "live_render_path": "repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_live\\eoce\\county_hispanic_pop\\county_hispanic_pop_log_hist.pdf.png",
       "mode": "localized-vector-text",
       "page_boxes_match_authority": true,
       "page_count": 1,
       "parser_checks": {
         "mutool_clean": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
           "returncode": 0,
           "stderr": ""
         },
         "mutool_info": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
           "returncode": 0,
           "stderr": ""
         },
         "mutool_pages": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
           "returncode": 0,
           "stderr": ""
         },
         "pdfinfo": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdfinfo.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdfinfo.EXE",
           "returncode": 0,
           "stderr": ""
         }
@@ -454,33 +470,33 @@
     {
       "asset_id": "R011-ASSET-B005-2.1-030",
       "authority_bytes": 388755,
-      "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\eoce\\county_hispanic_pop\\county_hispanic_pop_map.pdf",
-      "authority_render_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_authority\\eoce\\county_hispanic_pop\\county_hispanic_pop_map.pdf.png",
+      "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\eoce\\county_hispanic_pop\\county_hispanic_pop_map.pdf",
+      "authority_render_path": "repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_authority\\eoce\\county_hispanic_pop\\county_hispanic_pop_map.pdf.png",
       "authority_sha256": "9f04cd86c941db6100f00b7e9c03af214997600d0aefc19f6c05a85958faaa8c",
       "bytes": 388755,
-      "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\eoce\\county_hispanic_pop\\county_hispanic_pop_map.pdf",
-      "live_render_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_live\\eoce\\county_hispanic_pop\\county_hispanic_pop_map.pdf.png",
+      "live_path": "repo\\ch_summarizing_data\\figures\\eoce\\county_hispanic_pop\\county_hispanic_pop_map.pdf",
+      "live_render_path": "repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_live\\eoce\\county_hispanic_pop\\county_hispanic_pop_map.pdf.png",
       "mode": "exact-copy-no-reader-visible-words",
       "page_boxes_match_authority": true,
       "page_count": 1,
       "parser_checks": {
         "mutool_clean": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
           "returncode": 0,
           "stderr": ""
         },
         "mutool_info": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
           "returncode": 0,
           "stderr": ""
         },
         "mutool_pages": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
           "returncode": 0,
           "stderr": ""
         },
         "pdfinfo": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdfinfo.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdfinfo.EXE",
           "returncode": 0,
           "stderr": ""
         }
@@ -516,33 +532,33 @@
     {
       "asset_id": "R011-ASSET-B005-2.1-031",
       "authority_bytes": 4811,
-      "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\eoce\\reproducing_bacteria\\reproducing_bacteria_sketch.pdf",
-      "authority_render_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_authority\\eoce\\reproducing_bacteria\\reproducing_bacteria_sketch.pdf.png",
+      "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\eoce\\reproducing_bacteria\\reproducing_bacteria_sketch.pdf",
+      "authority_render_path": "repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_authority\\eoce\\reproducing_bacteria\\reproducing_bacteria_sketch.pdf.png",
       "authority_sha256": "c9dd44040db8aced77a84e3bcf58ff6879c58b3e2c55cddab9c8e6c9815bad0f",
       "bytes": 4919,
-      "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\eoce\\reproducing_bacteria\\reproducing_bacteria_sketch.pdf",
-      "live_render_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_live\\eoce\\reproducing_bacteria\\reproducing_bacteria_sketch.pdf.png",
+      "live_path": "repo\\ch_summarizing_data\\figures\\eoce\\reproducing_bacteria\\reproducing_bacteria_sketch.pdf",
+      "live_render_path": "repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\render_live\\eoce\\reproducing_bacteria\\reproducing_bacteria_sketch.pdf.png",
       "mode": "localized-vector-text",
       "page_boxes_match_authority": true,
       "page_count": 1,
       "parser_checks": {
         "mutool_clean": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
           "returncode": 0,
           "stderr": ""
         },
         "mutool_info": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
           "returncode": 0,
           "stderr": ""
         },
         "mutool_pages": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.EXE",
           "returncode": 0,
           "stderr": ""
         },
         "pdfinfo": {
-          "command": "C:\\Users\\Floris\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdfinfo.EXE",
+          "command": "<local-profile>\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdfinfo.EXE",
           "returncode": 0,
           "stderr": ""
         }
@@ -579,12 +595,12 @@
   ],
   "replay_a_manifest": {
     "bytes": 5947,
-    "path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\replay_a_manifest.json",
+    "path": "repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\replay_a_manifest.json",
     "sha256": "be292c4bce2ee4cd2e04faabadb05845d9e746596f56aeaf245cacf426b4e193"
   },
   "replay_b_manifest": {
     "bytes": 5947,
-    "path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\replay_b_manifest.json",
+    "path": "repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\replay_b_manifest.json",
     "sha256": "be292c4bce2ee4cd2e04faabadb05845d9e746596f56aeaf245cacf426b4e193"
   },
   "rights": {
@@ -593,7 +609,7 @@
     "external_components": "Producers name OpenIntro package datasets/colors and maps outlines; this replay vendors no package or new raw-data bytes and alters only labels in the already distributed pinned vector PDFs.",
     "repository_license": "CC BY-SA 3.0 Unported",
     "repository_license_bytes": 2612,
-    "repository_license_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\LICENSE.md",
+    "repository_license_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\LICENSE.md",
     "repository_license_sha256": "9bd77ff3e58e0b7f1331824b8195d4cf588851a6461cc3230d12410da7935223"
   },
   "schema": "r011-b005-eoce-assigned-partial-closure/v1",
@@ -605,7 +621,7 @@
   },
   "visual_qa": {
     "contact_sheet_bytes": 463250,
-    "contact_sheet_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\CONTACT_ASSIGNED_10.png",
+    "contact_sheet_path": "repo\\ch_summarizing_data\\figures\\b005_eoce_replay_hispanic_bacteria\\final_qa\\CONTACT_ASSIGNED_10.png",
     "contact_sheet_sha256": "0a626d17e99d2d483877cbfd1de42a0f84bfaa3cd6eaaa62288388fb221394d1",
     "pixel_changes_outside_label_regions": 0,
     "render_dpi": 180,

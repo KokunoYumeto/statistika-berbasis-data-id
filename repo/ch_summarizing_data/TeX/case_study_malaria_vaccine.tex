@@ -1,104 +1,135 @@
-\exercisesheader{}
+\begingroup\let\clearpageforsection\relax\exercisesheader{}\endgroup
 
 % 25
 
-\eoce{\qt{Side effects of Avandia\label{randomization_avandia}} Rosiglitazone is the 
-active ingredient in the controversial type~2 diabetes medicine Avandia and has 
-been linked to an increased risk of serious cardiovascular problems such as 
-stroke, heart failure, and death. A common alternative treatment is pioglitazone, 
-the active ingredient in a diabetes medicine called Actos. In a nationwide 
-retrospective observational study of 227,571 Medicare beneficiaries aged  
-65 years or older, it was found that 2,593 of the 67,593 patients using 
-rosiglitazone and 5,386 of the 159,978 using pioglitazone had serious 
-cardiovascular problems. These data are summarized in the contingency 
-table below. \footfullcite{Graham:2010}
+\eoce{\qt{Efek samping Avandia\label{randomization_avandia}} Rosiglitazon adalah
+bahan aktif dalam obat diabetes tipe~2 Avandia yang kontroversial dan telah
+dikaitkan dengan peningkatan risiko masalah kardiovaskular serius, seperti
+stroke, gagal jantung, dan kematian. Salah satu pengobatan alternatif yang umum
+adalah pioglitazon, yaitu bahan aktif dalam obat diabetes bernama Actos. Dalam
+sebuah studi observasional retrospektif berskala nasional terhadap 227,571
+penerima manfaat Medicare berusia 65 tahun atau lebih, ditemukan bahwa 2,593
+dari 67,593 pasien yang menggunakan rosiglitazon dan 5,386 dari 159,978 pasien
+yang menggunakan pioglitazon mengalami masalah kardiovaskular serius. Data ini
+dirangkum dalam tabel kontingensi berikut. \footfullcite{Graham:2010}
 \begin{center}
 \begin{tabular}{ll  cc c} 
-                                &   & \multicolumn{2}{c}{\textit{Cardiovascular problems}} \\
+                                &   & \multicolumn{2}{c}{\textit{Masalah kardiovaskular}} \\
 \cline{3-4} 
-                                    &               & Yes   & No        & Total \\
+                                    &               & Ya    & Tidak     & Total \\
 \cline{2-5}
-\multirow{2}{*}{\textit{Treatment}} & Rosiglitazone & 2,593 & 65,000    & 67,593 \\
-                                    & Pioglitazone  & 5,386 & 154,592   & 159,978 \\
+\multirow{2}{*}{\textit{Perlakuan}} & Rosiglitazon  & 2,593 & 65,000    & 67,593 \\
+                                    & Pioglitazon   & 5,386 & 154,592   & 159,978 \\
 \cline{2-5}
                                     & Total         & 7,979 & 219,592   & 227,571
 \end{tabular}
 \end{center}
 \begin{parts}
-\item Determine if each of the following statements is true or false. If false, explain why. \textit{Be careful:} The reasoning may be wrong even if the statement's conclusion is correct. In such cases, the statement should be considered false.
+\item Tentukan apakah setiap pernyataan berikut benar atau salah. Jika salah,
+jelaskan alasannya. \textit{Berhati-hatilah:} Penalarannya mungkin salah walaupun
+kesimpulan pernyataannya benar. Dalam kasus seperti itu, pernyataan harus
+dianggap salah.
 \begin{subparts}
-\item Since more patients on pioglitazone had cardiovascular problems (5,386 vs. 2,593), we can conclude that the rate of cardiovascular problems for those on a pioglitazone treatment is higher.
-\item The data suggest that diabetic patients who are taking rosiglitazone are more likely to have cardiovascular problems since the rate of incidence was (2,593 / 67,593 = 0.038) 3.8\% for patients on this treatment, while it was only (5,386 / 159,978 = 0.034) 3.4\% for patients on pioglitazone.
-\item The fact that the rate of incidence is higher for the rosiglitazone group proves that rosiglitazone causes serious cardiovascular problems.
-\item Based on the information provided so far, we cannot tell if the difference between the rates of incidences is due to a relationship between the two variables or due to chance.
+\item Karena lebih banyak pasien pengguna pioglitazon mengalami masalah
+kardiovaskular (5,386 dibandingkan dengan 2,593), kita dapat menyimpulkan bahwa
+tingkat masalah kardiovaskular pada orang yang menerima perlakuan pioglitazon
+lebih tinggi.
+\item Data mengisyaratkan bahwa pasien diabetes yang menggunakan rosiglitazon
+lebih mungkin mengalami masalah kardiovaskular karena tingkat kejadiannya
+adalah (2,593 / 67,593 = 0.038) 3.8\% pada pasien yang menerima perlakuan ini,
+sedangkan pada pasien pengguna pioglitazon hanya
+(5,386 / 159,978 = 0.034) 3.4\%.
+\item Fakta bahwa tingkat kejadian lebih tinggi pada kelompok rosiglitazon
+membuktikan bahwa rosiglitazon menyebabkan masalah kardiovaskular serius.
+\item Berdasarkan informasi yang diberikan sejauh ini, kita tidak dapat
+menentukan apakah perbedaan tingkat kejadian disebabkan oleh hubungan antara
+kedua variabel atau oleh faktor kebetulan.
 \end{subparts}
-\item What proportion of all patients had cardiovascular problems?
-\item If the type of treatment and having cardiovascular problems were independent, about how many patients in the rosiglitazone group would we expect to have had cardiovascular problems?
-\item We can investigate the relationship between outcome and treatment in this study using a randomization technique.  While in reality we would carry out the simulations required for randomization using statistical software, suppose we actually simulate using index cards. In order to simulate from the independence model, which states that the outcomes were independent of the treatment, we write whether or not each patient had a cardiovascular problem on cards, shuffled all the cards together, then deal them into two groups of size 67,593 and 159,978. We repeat this simulation 1,000 times and each time record the number of people in the rosiglitazone group who had cardiovascular problems. Use the relative frequency histogram of these counts to answer (i)-(iii).
+\item Berapa proporsi seluruh pasien yang mengalami masalah kardiovaskular?
+\item Jika jenis perlakuan dan kejadian masalah kardiovaskular saling
+independen, kira-kira berapa banyak pasien dalam kelompok rosiglitazon yang
+diperkirakan mengalami masalah kardiovaskular?
+\item Kita dapat menyelidiki hubungan antara hasil dan perlakuan dalam penelitian
+ini dengan teknik pengacakan. Dalam praktiknya, simulasi yang diperlukan untuk
+pengacakan akan dijalankan menggunakan perangkat lunak statistika, tetapi
+misalkan kita benar-benar menyimulasikannya dengan kartu indeks. Untuk
+menyimulasikan model independensi, yang menyatakan bahwa hasil tidak bergantung
+pada perlakuan, pada setiap kartu kita tuliskan apakah seorang pasien mengalami
+masalah kardiovaskular atau tidak. Semua kartu kemudian dikocok dan dibagikan
+ke dalam dua kelompok berukuran 67,593 dan 159,978. Kita mengulangi simulasi ini
+1,000 kali dan setiap kali mencatat jumlah orang dalam kelompok rosiglitazon
+yang mengalami masalah kardiovaskular. Gunakan histogram frekuensi relatif
+dari jumlah tersebut untuk menjawab (i)--(iii).
 \end{parts}
 \begin{minipage}[c]{0.5\textwidth}
 \begin{subparts}
-\item What are the claims being tested?
-\item Compared to the number calculated in part~(c), which would provide more support for the alternative hypothesis,  \textit{more} or \textit{fewer} patients with cardiovascular problems in the rosiglitazone group?
-\item What do the simulation results suggest about the relationship between taking rosiglitazone and having cardiovascular problems in diabetic patients?
+\item Pernyataan apa saja yang sedang diuji?
+\item Dibandingkan dengan jumlah yang dihitung pada bagian~(c), manakah yang
+akan lebih mendukung hipotesis alternatif: \textit{lebih banyak} atau
+\textit{lebih sedikit} pasien dengan masalah kardiovaskular dalam kelompok
+rosiglitazon?
+\item Apa yang ditunjukkan oleh hasil simulasi mengenai hubungan antara
+penggunaan rosiglitazon dan kejadian masalah kardiovaskular pada pasien diabetes?
 \end{subparts}
 \end{minipage}
 \begin{minipage}[c]{0.5\textwidth}
-\Figures[A histogram is shown for "Simulated rosiglitazone cardiovascular events", where values range between 2250 to 2450. The histogram, starting from the left, starts with bins that have low values until about 2280, at which point the bins rises gradually until rising steeply starting at 2320 to a peak at about 2360. The bins decline sharply at about 2380 to about half of the height of the peak, and then gradually decline out to 2460 before being zero after that point.]{}{eoce/randomization_avandia}{randomization_avandia} \\
+\Figures[Ditampilkan histogram "Kejadian kardiovaskular rosiglitazon hasil simulasi", dengan nilai yang membentang dari 2250 hingga 2450. Dari sisi kiri, histogram dimulai dengan interval-interval kelas yang rendah sampai sekitar 2280. Tinggi kelas kemudian naik bertahap, lalu meningkat tajam mulai 2320 hingga mencapai puncak sekitar 2360. Tinggi kelas turun tajam sekitar 2380 menjadi sekitar setengah tinggi puncak, lalu menurun bertahap sampai 2460 dan menjadi nol setelah titik tersebut.]{}{eoce/randomization_avandia}{randomization_avandia} \\
 \end{minipage}
 }{}
 
-\D{\newpage}
 
 % 26
 
-\eoce{\qt{Heart transplants\label{randomization_heart_transplants}} The Stanford 
-University Heart Transplant Study was conducted to determine whether an 
-experimental heart transplant program increased lifespan. Each patient 
-entering the program was designated an official heart transplant candidate, 
-meaning that he was gravely ill and would most likely benefit from a new heart. 
-Some patients got a transplant and some did not. The variable \texttt{transplant} 
-indicates which group the patients were in; patients in the treatment group got a 
-transplant and those in the control group did not. Of the 34 patients in the 
-control group, 30 died. Of the 69 people in the treatment group, 45 died. Another 
-variable called \texttt{survived} was used to indicate whether or not the patient 
-was alive at the end of the study. \footfullcite{Turnbull+Brown+Hu:1974}
+\eoce{\qt{Transplantasi jantung\label{randomization_heart_transplants}} Studi
+Transplantasi Jantung Universitas Stanford dilakukan untuk menentukan apakah
+program transplantasi jantung eksperimental memperpanjang masa hidup. Setiap
+pasien yang mengikuti program ditetapkan sebagai calon resmi penerima
+transplantasi jantung. Artinya, pasien tersebut sakit parah dan kemungkinan
+besar akan memperoleh manfaat dari jantung baru. Sebagian pasien menerima
+transplantasi dan sebagian lainnya tidak. Variabel \texttt{transplant}
+menunjukkan kelompok pasien; pasien dalam kelompok perlakuan menerima
+transplantasi, sedangkan pasien dalam kelompok kontrol tidak. Dari 34 pasien
+dalam kelompok kontrol, 30 meninggal. Dari 69 orang dalam kelompok perlakuan,
+45 meninggal. Variabel lain bernama \texttt{survived} digunakan untuk menunjukkan
+apakah pasien masih hidup pada akhir penelitian. \footfullcite{Turnbull+Brown+Hu:1974}
 \begin{center}
-\Figures[A mosaic plot for variables "experiment group" (primary split) and "survived". The first tall rectangle for the "control" experiment group is about half the width of the second tall rectangle for "treatment". When looking at the secondary split for the control group, the "alive" outcome represents about 10\% of the height and "dead" represents about 90\% of the height. When looking at the secondary split for the treatment group, the "alive" outcome represents about 35\% of the height and "dead" represents about 65\% of the height.]{0.48}{eoce/randomization_heart_transplants}{randomization_heart_transplants_mosaic}
-\Figures[A side-by-side box plot is shown for the variable "Survival Time (days)" for two box plots labeled "control" and "survived". The axis for survival time spans 0 to about 1800. The box for the control group spans about 0 to 50 with the median line at about 20, and the whiskers extend down to 0 and up to about 125. There are five observations shown beyond the upper whisker at locations of about 150, 250, 300, 400, and 1400. The box for the treatment spans about 100 to 650 with the median line about 250, and the whiskers extend down to 0 and up to about 1400. There are a few points beyond the upper whiskers at about 1550, 1575, and 1800.]{0.48}{eoce/randomization_heart_transplants}{randomization_heart_transplants_box}
+\Figures[Diagram mosaik untuk variabel "kelompok eksperimen" (pemisahan primer) dan "kelangsungan hidup". Persegi panjang tinggi pertama untuk kelompok eksperimen "kontrol" lebarnya sekitar setengah persegi panjang tinggi kedua untuk "perlakuan". Pada pemisahan sekunder kelompok kontrol, hasil "hidup" mencakup sekitar 10\% tinggi persegi panjang dan "meninggal" sekitar 90\%. Pada pemisahan sekunder kelompok perlakuan, hasil "hidup" mencakup sekitar 35\% tinggi persegi panjang dan "meninggal" sekitar 65\%.]{0.48}{eoce/randomization_heart_transplants}{randomization_heart_transplants_mosaic}
+\Figures[Ditampilkan diagram kotak berdampingan untuk variabel "Masa hidup (hari)", dengan dua diagram kotak berlabel "kontrol" dan "perlakuan". Sumbu masa hidup membentang dari 0 hingga sekitar 1800. Kotak kelompok kontrol membentang dari sekitar 0 hingga 50 dengan garis median sekitar 20, sedangkan kumisnya memanjang ke bawah hingga 0 dan ke atas hingga sekitar 125. Lima pengamatan berada di atas kumis atas, masing-masing sekitar 150, 250, 300, 400, dan 1400. Kotak kelompok perlakuan membentang dari sekitar 100 hingga 650 dengan garis median sekitar 250, sedangkan kumisnya memanjang ke bawah hingga 0 dan ke atas hingga sekitar 1400. Beberapa titik berada di atas kumis atas, masing-masing sekitar 1550, 1575, dan 1800.]{0.48}{eoce/randomization_heart_transplants}{randomization_heart_transplants_box}
 \end{center}
 \begin{parts}
-\item Based on the mosaic plot, is survival independent of whether or not the 
-patient got a transplant? Explain your reasoning.
-\item What do the box plots below suggest about the efficacy (effectiveness) of the heart transplant treatment.
-\item What proportion of patients in the treatment group and what proportion of 
-patients in the control group died?
-\item One approach for investigating whether or not the treatment is effective 
-is to use a randomization technique.
+\item Berdasarkan diagram mosaik, apakah kelangsungan hidup independen dari
+status penerimaan transplantasi? Jelaskan penalaran Anda.
+\item Apa yang ditunjukkan oleh diagram kotak di atas mengenai efikasi
+(keefektifan) perlakuan transplantasi jantung?
+\item Berapa proporsi pasien yang meninggal dalam kelompok perlakuan, dan berapa
+proporsinya dalam kelompok kontrol?
+\item Salah satu pendekatan untuk menyelidiki apakah perlakuan tersebut efektif
+adalah dengan menggunakan teknik pengacakan.
 \begin{subparts}
-\item What are the claims being tested?
-\item The paragraph below describes the set up for such approach, if we were 
-to do it without using statistical software. Fill in the blanks with a number 
-or phrase, whichever is appropriate.
+\item Pernyataan apa saja yang sedang diuji?
+\item Paragraf berikut menjelaskan penyiapan pendekatan tersebut jika kita
+melakukannya tanpa perangkat lunak statistika. Isi bagian kosong dengan angka
+atau frasa yang sesuai.
 \begin{adjustwidth}{2em}{2em}
-We write \textit{alive} on \rule{2cm}{0.5pt} cards representing patients who were 
-alive at the end of the study, and \textit{dead} on \rule{2cm}{0.5pt} cards 
-representing patients who were not. Then, we shuffle these cards and split them 
-into two groups: one group of size \rule{2cm}{0.5pt} representing treatment, and 
-another group of size \rule{2cm}{0.5pt} representing control. We calculate the 
-difference between the proportion of \textit{dead} cards in the treatment and 
-control groups (treatment - control) and record this value. We repeat this 100 
-times to build a distribution centered at \rule{2cm}{0.5pt}. Lastly, we calculate 
-the fraction of simulations where the simulated differences in proportions are 
-\rule{2cm}{0.5pt}. If this fraction is low, we conclude that it is unlikely to 
-have observed such an outcome by chance and that the null hypothesis should 
-be rejected in favor of the alternative.
+Kita menuliskan \textit{hidup} pada \rule{2cm}{0.5pt} kartu yang mewakili pasien
+yang masih hidup pada akhir penelitian, dan \textit{meninggal} pada
+\rule{2cm}{0.5pt} kartu yang mewakili pasien yang sudah meninggal. Kemudian,
+kartu-kartu ini dikocok dan dibagi menjadi dua kelompok: satu kelompok berukuran
+\rule{2cm}{0.5pt} yang mewakili perlakuan, dan kelompok lain berukuran
+\rule{2cm}{0.5pt} yang mewakili kontrol. Kita menghitung selisih antara proporsi
+kartu \textit{meninggal} dalam kelompok perlakuan dan kelompok kontrol
+(perlakuan - kontrol), lalu mencatat nilainya. Prosedur ini diulangi 100 kali
+untuk membangun distribusi yang berpusat di \rule{2cm}{0.5pt}. Terakhir, kita
+menghitung proporsi simulasi dengan selisih proporsi hasil simulasi yang
+\rule{2cm}{0.5pt}. Jika proporsi ini kecil, kita menyimpulkan bahwa hasil
+seperti itu kecil kemungkinannya untuk teramati secara kebetulan; hipotesis nol
+harus ditolak dan hipotesis alternatif dipilih.
 \end{adjustwidth}
-\item What do the simulation results shown below suggest about the effectiveness 
-of the transplant program?
+\item Apa yang ditunjukkan oleh hasil simulasi berikut mengenai keefektifan
+program transplantasi?
 \end{subparts}
 \end{parts}
 \begin{center}
-\Figures[A stacked dot plot is shown for what appears to be about 100 points on the variable "Simulated Differences in Proportions", which spans values of -0.25 to 0.25. There are 11 stacks of points, which are located at the following locations and in the following approximate quantities: 2 points at -0.23, 1 point at -0.19, 8 at -0.14, 15 points at -0.10, 18 points at -0.05, 20 points at -0.01, 12 points at 0.04, 10 points at 0.08, 6 points at 0.12, 4 points at 0.17, and 3 points at 0.21.]{0.6}{eoce/randomization_heart_transplants}{randomization_heart_transplants_rando}
+\Figures[Ditampilkan diagram titik bertumpuk yang tampaknya memuat sekitar 100 titik untuk variabel "Selisih proporsi hasil simulasi", yang membentang dari -0.25 hingga 0.25. Terdapat 11 tumpukan titik, dengan perkiraan lokasi dan jumlah sebagai berikut: 2 titik pada -0.23, 1 titik pada -0.19, 8 titik pada -0.14, 15 titik pada -0.10, 18 titik pada -0.05, 20 titik pada -0.01, 12 titik pada 0.04, 10 titik pada 0.08, 6 titik pada 0.12, 4 titik pada 0.17, dan 3 titik pada 0.21.]{0.6}{eoce/randomization_heart_transplants}{randomization_heart_transplants_rando}
 \end{center}
 }{}

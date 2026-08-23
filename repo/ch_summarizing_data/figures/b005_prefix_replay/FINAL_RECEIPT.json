@@ -10,22 +10,38 @@
   "helpers": [
     {
       "bytes": 21938,
-      "path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\b005_prefix_replay\\replay_b005_prefix_figures.py",
+      "path": "repo\\ch_summarizing_data\\figures\\b005_prefix_replay\\replay_b005_prefix_figures.py",
       "sha256": "424a193e6526854e378297a41309ed4a2e4c14c6be334439d33556589d3e404f"
     },
     {
       "bytes": 32271,
-      "path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\b005_prefix_replay\\verify_b005_prefix_figures.py",
+      "path": "repo\\ch_summarizing_data\\figures\\b005_prefix_replay\\verify_b005_prefix_figures.py",
       "sha256": "8a484405cec8d3f55d442e7a066e8d09636b612d49c8235fc6809c08b6274cb2"
     }
   ],
   "localized_asset_count": 16,
   "numeric_only_exact_copy_count": 2,
   "observed_date": "2026-08-22",
+  "privacy_rewrite": {
+    "classification": "metadata/privacy-only path rewrite",
+    "external_path_policy": "<local-profile> placeholder",
+    "intermediate_preimage": {
+      "bytes": 48407,
+      "sha256": "6dc147a15092b6b9bceaf4582ba45e7c9f807212afc9c8d8fca526578d4089a6"
+    },
+    "lane_local_path_policy": "lane-relative",
+    "original_preimage": {
+      "bytes": 48751,
+      "sha256": "64ff28b1333af238cf1b693a5d1984394ac5c9f0b8005818e505db2d448ab478"
+    },
+    "path_occurrence_count": 86,
+    "substantive_counts_and_hashes_preserved": true,
+    "upstream_and_human_credits_preserved": true
+  },
   "records": [
     {
       "authority_bytes": 7761,
-      "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\loan50_amt_vs_income\\loan50_amt_vs_income.pdf",
+      "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\loan50_amt_vs_income\\loan50_amt_vs_income.pdf",
       "authority_sha256": "a83ad69ff9803af0152239d428d5d8be11b70b76c213cb84565073a52a1e5b56",
       "bytes": 7851,
       "data_ids": [
@@ -33,17 +49,17 @@
         "openintro::loan50.loan_amount",
         "openintro::COL"
       ],
-      "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\loan50_amt_vs_income\\loan50_amt_vs_income.pdf",
+      "live_path": "repo\\ch_summarizing_data\\figures\\loan50_amt_vs_income\\loan50_amt_vs_income.pdf",
       "page_boxes_match_authority": true,
       "page_count": 1,
       "portable_point_repair": null,
       "producers": [
         {
           "authority_bytes": 824,
-          "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\loan50_amt_vs_income\\loan50_amt_vs_income.R",
+          "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\loan50_amt_vs_income\\loan50_amt_vs_income.R",
           "authority_sha256": "d940aec93543d91148ca0534745e7f7e51d695368e38df62a5d40ab17d05a3a5",
           "live_bytes": 832,
-          "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\loan50_amt_vs_income\\loan50_amt_vs_income.R",
+          "live_path": "repo\\ch_summarizing_data\\figures\\loan50_amt_vs_income\\loan50_amt_vs_income.R",
           "live_sha256": "aab22adf82b464b2cc2f7c401a7c0046ebe56ec5e4004dd668f32800143e7bd3",
           "relative_path": "loan50_amt_vs_income/loan50_amt_vs_income.R"
         }
@@ -58,7 +74,7 @@
     },
     {
       "authority_bytes": 199893,
-      "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\medianHHIncomePoverty\\medianHHIncomePoverty.pdf",
+      "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\medianHHIncomePoverty\\medianHHIncomePoverty.pdf",
       "authority_sha256": "03a296cd23c3108fccc162ef61d9b1883e3360bb5a1822df396746da740b18a7",
       "bytes": 197995,
       "data_ids": [
@@ -66,17 +82,17 @@
         "openintro::county.median_hh_income",
         "openintro::COL"
       ],
-      "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\medianHHIncomePoverty\\medianHHIncomePoverty.pdf",
+      "live_path": "repo\\ch_summarizing_data\\figures\\medianHHIncomePoverty\\medianHHIncomePoverty.pdf",
       "page_boxes_match_authority": true,
       "page_count": 1,
       "portable_point_repair": null,
       "producers": [
         {
           "authority_bytes": 1350,
-          "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\medianHHIncomePoverty\\medianHHIncomePoverty.R",
+          "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\medianHHIncomePoverty\\medianHHIncomePoverty.R",
           "authority_sha256": "15a3f4c62d2983c1fd39568528fe876727645b87ede07cf0feb67e1da6c87f2d",
           "live_bytes": 1362,
-          "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\medianHHIncomePoverty\\medianHHIncomePoverty.R",
+          "live_path": "repo\\ch_summarizing_data\\figures\\medianHHIncomePoverty\\medianHHIncomePoverty.R",
           "live_sha256": "b5945536b4877b89de46306a94945c53e6d1e34bafcb678976bee68041c02021",
           "relative_path": "medianHHIncomePoverty/medianHHIncomePoverty.R"
         }
@@ -91,24 +107,24 @@
     },
     {
       "authority_bytes": 6126,
-      "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\loan_int_rate_dot_plot\\loan_int_rate_dot_plot.pdf",
+      "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\loan_int_rate_dot_plot\\loan_int_rate_dot_plot.pdf",
       "authority_sha256": "77bf899445c2b185739c2542648e40f550f36ace907b6c50c49b89d429d97edc",
       "bytes": 6223,
       "data_ids": [
         "openintro::loan50.interest_rate",
         "openintro::COL"
       ],
-      "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\loan_int_rate_dot_plot\\loan_int_rate_dot_plot.pdf",
+      "live_path": "repo\\ch_summarizing_data\\figures\\loan_int_rate_dot_plot\\loan_int_rate_dot_plot.pdf",
       "page_boxes_match_authority": true,
       "page_count": 1,
       "portable_point_repair": null,
       "producers": [
         {
           "authority_bytes": 1370,
-          "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\loan_int_rate_dot_plot\\loan_int_rate_dot_plot.R",
+          "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\loan_int_rate_dot_plot\\loan_int_rate_dot_plot.R",
           "authority_sha256": "f7d5e96e4fb92560771597e4e116c3fc9b06db0001f2ded27c5032530bb392ea",
           "live_bytes": 1367,
-          "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\loan_int_rate_dot_plot\\loan_int_rate_dot_plot.R",
+          "live_path": "repo\\ch_summarizing_data\\figures\\loan_int_rate_dot_plot\\loan_int_rate_dot_plot.R",
           "live_sha256": "0e104c8f2f8bcb8d5f49ce6c6a38bdb56e9aa0b31b4dc76cd99f8457fc3a44d2",
           "relative_path": "loan_int_rate_dot_plot/loan_int_rate_dot_plot.R"
         }
@@ -123,14 +139,14 @@
     },
     {
       "authority_bytes": 4705,
-      "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\loan_int_rate_dot_plot\\loan_int_rate_dot_plot_stacked.pdf",
+      "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\loan_int_rate_dot_plot\\loan_int_rate_dot_plot_stacked.pdf",
       "authority_sha256": "b02c6ff9d7264b6a5ce351eec0f4d817cdab6de91b8ee2a4c82e13fad97c372f",
       "bytes": 7061,
       "data_ids": [
         "openintro::loan50.interest_rate",
         "openintro::COL"
       ],
-      "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\loan_int_rate_dot_plot\\loan_int_rate_dot_plot_stacked.pdf",
+      "live_path": "repo\\ch_summarizing_data\\figures\\loan_int_rate_dot_plot\\loan_int_rate_dot_plot_stacked.pdf",
       "page_boxes_match_authority": true,
       "page_count": 1,
       "portable_point_repair": {
@@ -148,10 +164,10 @@
       "producers": [
         {
           "authority_bytes": 1370,
-          "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\loan_int_rate_dot_plot\\loan_int_rate_dot_plot.R",
+          "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\loan_int_rate_dot_plot\\loan_int_rate_dot_plot.R",
           "authority_sha256": "f7d5e96e4fb92560771597e4e116c3fc9b06db0001f2ded27c5032530bb392ea",
           "live_bytes": 1367,
-          "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\loan_int_rate_dot_plot\\loan_int_rate_dot_plot.R",
+          "live_path": "repo\\ch_summarizing_data\\figures\\loan_int_rate_dot_plot\\loan_int_rate_dot_plot.R",
           "live_sha256": "0e104c8f2f8bcb8d5f49ce6c6a38bdb56e9aa0b31b4dc76cd99f8457fc3a44d2",
           "relative_path": "loan_int_rate_dot_plot/loan_int_rate_dot_plot.R"
         }
@@ -166,24 +182,24 @@
     },
     {
       "authority_bytes": 4569,
-      "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\loan50IntRateHist\\loan50IntRateHist.pdf",
+      "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\loan50IntRateHist\\loan50IntRateHist.pdf",
       "authority_sha256": "cb3b776aa345ffa55233a6daf8549bd3ba365fac4443a5ef71f235d81f16a724",
       "bytes": 4693,
       "data_ids": [
         "openintro::loan50.interest_rate",
         "openintro::COL"
       ],
-      "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\loan50IntRateHist\\loan50IntRateHist.pdf",
+      "live_path": "repo\\ch_summarizing_data\\figures\\loan50IntRateHist\\loan50IntRateHist.pdf",
       "page_boxes_match_authority": true,
       "page_count": 1,
       "portable_point_repair": null,
       "producers": [
         {
           "authority_bytes": 915,
-          "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\loan50IntRateHist\\loan50IntRateHist.R",
+          "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\loan50IntRateHist\\loan50IntRateHist.R",
           "authority_sha256": "450c35e8166bd54677a3a15f35ca39087b04ff4d4b7b04f37fc01ebf3cf8b21c",
           "live_bytes": 912,
-          "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\loan50IntRateHist\\loan50IntRateHist.R",
+          "live_path": "repo\\ch_summarizing_data\\figures\\loan50IntRateHist\\loan50IntRateHist.R",
           "live_sha256": "c06c81f58267fce45d11b369cd8e215feba4faf7da765b78be5702e728c82467",
           "relative_path": "loan50IntRateHist/loan50IntRateHist.R"
         }
@@ -198,24 +214,24 @@
     },
     {
       "authority_bytes": 5372,
-      "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\singleBiMultiModalPlots\\singleBiMultiModalPlots.pdf",
+      "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\singleBiMultiModalPlots\\singleBiMultiModalPlots.pdf",
       "authority_sha256": "5ec9121bd46bf1583aaaf67b1783c03b34b27f9c4aa292104190c0d1dbbfa9b1",
       "bytes": 5372,
       "data_ids": [
         "synthetic:set.seed(51);stats::rchisq;stats::rnorm",
         "openintro::COL"
       ],
-      "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\singleBiMultiModalPlots\\singleBiMultiModalPlots.pdf",
+      "live_path": "repo\\ch_summarizing_data\\figures\\singleBiMultiModalPlots\\singleBiMultiModalPlots.pdf",
       "page_boxes_match_authority": true,
       "page_count": 1,
       "portable_point_repair": null,
       "producers": [
         {
           "authority_bytes": 570,
-          "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\singleBiMultiModalPlots\\singleBiMultiModalPlots.R",
+          "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\singleBiMultiModalPlots\\singleBiMultiModalPlots.R",
           "authority_sha256": "2d094989872aa2e704e3b995e711114b396cbff10bfb71f93443979fdda09080",
           "live_bytes": 570,
-          "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\singleBiMultiModalPlots\\singleBiMultiModalPlots.R",
+          "live_path": "repo\\ch_summarizing_data\\figures\\singleBiMultiModalPlots\\singleBiMultiModalPlots.R",
           "live_sha256": "2d094989872aa2e704e3b995e711114b396cbff10bfb71f93443979fdda09080",
           "relative_path": "singleBiMultiModalPlots/singleBiMultiModalPlots.R"
         }
@@ -230,24 +246,24 @@
     },
     {
       "authority_bytes": 6562,
-      "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\sdRuleForIntRate\\sdRuleForIntRate.pdf",
+      "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\sdRuleForIntRate\\sdRuleForIntRate.pdf",
       "authority_sha256": "533d1f7b1e3ea6ba1c8803c7033d198cb84b7f8079d18ea6a9a1800cc6fe330d",
       "bytes": 6653,
       "data_ids": [
         "openintro::loan50.interest_rate",
         "openintro::COL"
       ],
-      "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\sdRuleForIntRate\\sdRuleForIntRate.pdf",
+      "live_path": "repo\\ch_summarizing_data\\figures\\sdRuleForIntRate\\sdRuleForIntRate.pdf",
       "page_boxes_match_authority": true,
       "page_count": 1,
       "portable_point_repair": null,
       "producers": [
         {
           "authority_bytes": 1257,
-          "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\sdRuleForIntRate\\sdRuleForIntRate.R",
+          "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\sdRuleForIntRate\\sdRuleForIntRate.R",
           "authority_sha256": "e97d37d38a422d91d194c6adeee7f8540808fe8a3f8a68c605a314c3e56c7728",
           "live_bytes": 1254,
-          "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\sdRuleForIntRate\\sdRuleForIntRate.R",
+          "live_path": "repo\\ch_summarizing_data\\figures\\sdRuleForIntRate\\sdRuleForIntRate.R",
           "live_sha256": "d9320e9f5a9dcaf72e2181cb6ac301a5c5b8c05848268a02e926b46db5eaa677",
           "relative_path": "sdRuleForIntRate/sdRuleForIntRate.R"
         }
@@ -262,24 +278,24 @@
     },
     {
       "authority_bytes": 6924,
-      "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\severalDiffDistWithSdOf1\\severalDiffDistWithSdOf1.pdf",
+      "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\severalDiffDistWithSdOf1\\severalDiffDistWithSdOf1.pdf",
       "authority_sha256": "9d12cbe2560f43394d67000841897ea961d8434b914ab0505284dc42c797448e",
       "bytes": 6924,
       "data_ids": [
         "synthetic:stats::qnorm;stats::qchisq",
         "openintro::COL"
       ],
-      "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\severalDiffDistWithSdOf1\\severalDiffDistWithSdOf1.pdf",
+      "live_path": "repo\\ch_summarizing_data\\figures\\severalDiffDistWithSdOf1\\severalDiffDistWithSdOf1.pdf",
       "page_boxes_match_authority": true,
       "page_count": 1,
       "portable_point_repair": null,
       "producers": [
         {
           "authority_bytes": 2264,
-          "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\severalDiffDistWithSdOf1\\severalDiffDistWithSdOf1.R",
+          "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\severalDiffDistWithSdOf1\\severalDiffDistWithSdOf1.R",
           "authority_sha256": "eb770f9fd72a54877c5ef479e9714b9b3792155991669edbe4478f2edaec8d51",
           "live_bytes": 2264,
-          "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\severalDiffDistWithSdOf1\\severalDiffDistWithSdOf1.R",
+          "live_path": "repo\\ch_summarizing_data\\figures\\severalDiffDistWithSdOf1\\severalDiffDistWithSdOf1.R",
           "live_sha256": "eb770f9fd72a54877c5ef479e9714b9b3792155991669edbe4478f2edaec8d51",
           "relative_path": "severalDiffDistWithSdOf1/severalDiffDistWithSdOf1.R"
         }
@@ -294,24 +310,24 @@
     },
     {
       "authority_bytes": 8096,
-      "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\loan_int_rate_box_plot_layout\\loan_int_rate_box_plot_layout.pdf",
+      "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\loan_int_rate_box_plot_layout\\loan_int_rate_box_plot_layout.pdf",
       "authority_sha256": "47c618ecee5964442e59a6d544f73ebd6c407ac6ef4f0cf4429f71f67ff4cd9f",
       "bytes": 8156,
       "data_ids": [
         "openintro::loan50.interest_rate",
         "openintro::COL"
       ],
-      "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\loan_int_rate_box_plot_layout\\loan_int_rate_box_plot_layout.pdf",
+      "live_path": "repo\\ch_summarizing_data\\figures\\loan_int_rate_box_plot_layout\\loan_int_rate_box_plot_layout.pdf",
       "page_boxes_match_authority": true,
       "page_count": 1,
       "portable_point_repair": null,
       "producers": [
         {
           "authority_bytes": 2285,
-          "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\loan_int_rate_box_plot_layout\\loan_int_rate_box_plot_layout.R",
+          "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\loan_int_rate_box_plot_layout\\loan_int_rate_box_plot_layout.R",
           "authority_sha256": "7074b873dd835e17893d3597cb7076d5e655bdd9f31ddbbe2689e06c00ef706c",
           "live_bytes": 2321,
-          "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\loan_int_rate_box_plot_layout\\loan_int_rate_box_plot_layout.R",
+          "live_path": "repo\\ch_summarizing_data\\figures\\loan_int_rate_box_plot_layout\\loan_int_rate_box_plot_layout.R",
           "live_sha256": "8865b02d5ba39f066908c75f64a126f2ffd261e395a8434140ac109fd3adbfa4",
           "relative_path": "loan_int_rate_box_plot_layout/loan_int_rate_box_plot_layout.R"
         }
@@ -326,7 +342,7 @@
     },
     {
       "authority_bytes": 12399,
-      "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\loan_int_rate_robust_ex\\loan_int_rate_robust_ex.pdf",
+      "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\loan_int_rate_robust_ex\\loan_int_rate_robust_ex.pdf",
       "authority_sha256": "23829d9983906bc4b5b991df0d23dce14a1a35454b2e6206c2a3592d05c6e517",
       "bytes": 12329,
       "data_ids": [
@@ -334,17 +350,17 @@
         "synthetic:set.seed(16)",
         "openintro::COL"
       ],
-      "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\loan_int_rate_robust_ex\\loan_int_rate_robust_ex.pdf",
+      "live_path": "repo\\ch_summarizing_data\\figures\\loan_int_rate_robust_ex\\loan_int_rate_robust_ex.pdf",
       "page_boxes_match_authority": true,
       "page_count": 1,
       "portable_point_repair": null,
       "producers": [
         {
           "authority_bytes": 1835,
-          "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\loan_int_rate_robust_ex\\loan_int_rate_robust_ex.R",
+          "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\loan_int_rate_robust_ex\\loan_int_rate_robust_ex.R",
           "authority_sha256": "765fc09e4be29a465d9d3584b73efb8abea1e5a2e828e003a393276fd230b6c1",
           "live_bytes": 1828,
-          "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\loan_int_rate_robust_ex\\loan_int_rate_robust_ex.R",
+          "live_path": "repo\\ch_summarizing_data\\figures\\loan_int_rate_robust_ex\\loan_int_rate_robust_ex.R",
           "live_sha256": "47d8d138e6a17734baf5d9b8159fd350348612b46093d66649e7bd4c22d1e9c9",
           "relative_path": "loan_int_rate_robust_ex/loan_int_rate_robust_ex.R"
         }
@@ -359,24 +375,24 @@
     },
     {
       "authority_bytes": 4559,
-      "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\county_pop_transformed\\county_pop_transformed_i.pdf",
+      "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\county_pop_transformed\\county_pop_transformed_i.pdf",
       "authority_sha256": "5ca27adc79910776fcf6cfdd260d41da1ecab3b8c788eae21897a2c6bc118865",
       "bytes": 4677,
       "data_ids": [
         "openintro::county.pop2017",
         "openintro::COL"
       ],
-      "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\county_pop_transformed\\county_pop_transformed_i.pdf",
+      "live_path": "repo\\ch_summarizing_data\\figures\\county_pop_transformed\\county_pop_transformed_i.pdf",
       "page_boxes_match_authority": true,
       "page_count": 1,
       "portable_point_repair": null,
       "producers": [
         {
           "authority_bytes": 855,
-          "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\county_pop_transformed\\county_pop_transformed.R",
+          "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\county_pop_transformed\\county_pop_transformed.R",
           "authority_sha256": "79bb26d69fe61f6bf646281fca5d6c5f8d107545a394fc782a2813ba483e00ce",
           "live_bytes": 847,
-          "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\county_pop_transformed\\county_pop_transformed.R",
+          "live_path": "repo\\ch_summarizing_data\\figures\\county_pop_transformed\\county_pop_transformed.R",
           "live_sha256": "2afafca2e3ab052375583b9d95075dd4af680feee9bc3978e5020ee4086f8209",
           "relative_path": "county_pop_transformed/county_pop_transformed.R"
         }
@@ -391,24 +407,24 @@
     },
     {
       "authority_bytes": 4490,
-      "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\county_pop_transformed\\county_pop_transformed_log.pdf",
+      "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\county_pop_transformed\\county_pop_transformed_log.pdf",
       "authority_sha256": "28a72b666e466224941bf054de2e6b1578d77740744512833a9a14a70a14793a",
       "bytes": 4619,
       "data_ids": [
         "openintro::county.pop2017",
         "openintro::COL"
       ],
-      "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\county_pop_transformed\\county_pop_transformed_log.pdf",
+      "live_path": "repo\\ch_summarizing_data\\figures\\county_pop_transformed\\county_pop_transformed_log.pdf",
       "page_boxes_match_authority": true,
       "page_count": 1,
       "portable_point_repair": null,
       "producers": [
         {
           "authority_bytes": 855,
-          "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\county_pop_transformed\\county_pop_transformed.R",
+          "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\county_pop_transformed\\county_pop_transformed.R",
           "authority_sha256": "79bb26d69fe61f6bf646281fca5d6c5f8d107545a394fc782a2813ba483e00ce",
           "live_bytes": 847,
-          "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\county_pop_transformed\\county_pop_transformed.R",
+          "live_path": "repo\\ch_summarizing_data\\figures\\county_pop_transformed\\county_pop_transformed.R",
           "live_sha256": "2afafca2e3ab052375583b9d95075dd4af680feee9bc3978e5020ee4086f8209",
           "relative_path": "county_pop_transformed/county_pop_transformed.R"
         }
@@ -423,7 +439,7 @@
     },
     {
       "authority_bytes": 333342,
-      "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\county_pop_change_v_pop_transform\\county_pop_change_v_pop_transform_i.pdf",
+      "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\county_pop_change_v_pop_transform\\county_pop_change_v_pop_transform_i.pdf",
       "authority_sha256": "34980b50b25fb3c4faf4c3f35e8955c7d85f9eac94ab304a760c87e4e9b25084",
       "bytes": 328430,
       "data_ids": [
@@ -431,17 +447,17 @@
         "openintro::county.pop_change",
         "openintro::COL"
       ],
-      "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\county_pop_change_v_pop_transform\\county_pop_change_v_pop_transform_i.pdf",
+      "live_path": "repo\\ch_summarizing_data\\figures\\county_pop_change_v_pop_transform\\county_pop_change_v_pop_transform_i.pdf",
       "page_boxes_match_authority": true,
       "page_count": 1,
       "portable_point_repair": null,
       "producers": [
         {
           "authority_bytes": 1167,
-          "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\county_pop_change_v_pop_transform\\county_pop_change_v_pop_transform.R",
+          "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\county_pop_change_v_pop_transform\\county_pop_change_v_pop_transform.R",
           "authority_sha256": "293fc8b84951194c4705b1722cb735d0fb602d9581849db11a0b3c48a74b9d40",
           "live_bytes": 1169,
-          "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\county_pop_change_v_pop_transform\\county_pop_change_v_pop_transform.R",
+          "live_path": "repo\\ch_summarizing_data\\figures\\county_pop_change_v_pop_transform\\county_pop_change_v_pop_transform.R",
           "live_sha256": "76c8da299db77be031ee9368b8304709202d04e348b00702d493e5d025199646",
           "relative_path": "county_pop_change_v_pop_transform/county_pop_change_v_pop_transform.R"
         }
@@ -456,7 +472,7 @@
     },
     {
       "authority_bytes": 359575,
-      "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\county_pop_change_v_pop_transform\\county_pop_change_v_pop_transform_log.pdf",
+      "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\county_pop_change_v_pop_transform\\county_pop_change_v_pop_transform_log.pdf",
       "authority_sha256": "798617588bc74c88921d6264cfb4f1d5f1f9f76d2e60ace18f701ca7a952ff51",
       "bytes": 355322,
       "data_ids": [
@@ -464,17 +480,17 @@
         "openintro::county.pop_change",
         "openintro::COL"
       ],
-      "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\county_pop_change_v_pop_transform\\county_pop_change_v_pop_transform_log.pdf",
+      "live_path": "repo\\ch_summarizing_data\\figures\\county_pop_change_v_pop_transform\\county_pop_change_v_pop_transform_log.pdf",
       "page_boxes_match_authority": true,
       "page_count": 1,
       "portable_point_repair": null,
       "producers": [
         {
           "authority_bytes": 1167,
-          "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\county_pop_change_v_pop_transform\\county_pop_change_v_pop_transform.R",
+          "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\county_pop_change_v_pop_transform\\county_pop_change_v_pop_transform.R",
           "authority_sha256": "293fc8b84951194c4705b1722cb735d0fb602d9581849db11a0b3c48a74b9d40",
           "live_bytes": 1169,
-          "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\county_pop_change_v_pop_transform\\county_pop_change_v_pop_transform.R",
+          "live_path": "repo\\ch_summarizing_data\\figures\\county_pop_change_v_pop_transform\\county_pop_change_v_pop_transform.R",
           "live_sha256": "76c8da299db77be031ee9368b8304709202d04e348b00702d493e5d025199646",
           "relative_path": "county_pop_change_v_pop_transform/county_pop_change_v_pop_transform.R"
         }
@@ -489,7 +505,7 @@
     },
     {
       "authority_bytes": 395761,
-      "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyPovertyMap.pdf",
+      "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyPovertyMap.pdf",
       "authority_sha256": "0b699fdd873729250c79ddda0e1994e07f49b8e6f2859f136ef090486a249a77",
       "bytes": 395858,
       "data_ids": [
@@ -498,26 +514,26 @@
         "maps::county.fips",
         "maps::map(county)"
       ],
-      "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyPovertyMap.pdf",
+      "live_path": "repo\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyPovertyMap.pdf",
       "page_boxes_match_authority": true,
       "page_count": 1,
       "portable_point_repair": null,
       "producers": [
         {
           "authority_bytes": 1007,
-          "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyIntensityMaps.R",
+          "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyIntensityMaps.R",
           "authority_sha256": "bc924d3d91688ba9004965b23cb637f8949acf1215c2e67915275b6c9849ea9d",
           "live_bytes": 1027,
-          "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyIntensityMaps.R",
+          "live_path": "repo\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyIntensityMaps.R",
           "live_sha256": "7ecd9e6264705dcddc2cfb0218d7777c6461f6ceaff8d712eaa65be6f7af48cf",
           "relative_path": "countyIntensityMaps/countyIntensityMaps.R"
         },
         {
           "authority_bytes": 3507,
-          "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyMap.R",
+          "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyMap.R",
           "authority_sha256": "791e39aead0dec6422f724f072e1d31bae38f44cc2faff06a90bac4c35dd1346",
           "live_bytes": 3507,
-          "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyMap.R",
+          "live_path": "repo\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyMap.R",
           "live_sha256": "791e39aead0dec6422f724f072e1d31bae38f44cc2faff06a90bac4c35dd1346",
           "relative_path": "countyIntensityMaps/countyMap.R"
         }
@@ -532,7 +548,7 @@
     },
     {
       "authority_bytes": 397028,
-      "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyUnemploymentRateMap.pdf",
+      "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyUnemploymentRateMap.pdf",
       "authority_sha256": "02cc44d2fddfb8cc0f9d60230a626b3f5cab74dc7849338fe9ddd7169c0e2e00",
       "bytes": 397142,
       "data_ids": [
@@ -541,26 +557,26 @@
         "maps::county.fips",
         "maps::map(county)"
       ],
-      "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyUnemploymentRateMap.pdf",
+      "live_path": "repo\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyUnemploymentRateMap.pdf",
       "page_boxes_match_authority": true,
       "page_count": 1,
       "portable_point_repair": null,
       "producers": [
         {
           "authority_bytes": 1007,
-          "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyIntensityMaps.R",
+          "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyIntensityMaps.R",
           "authority_sha256": "bc924d3d91688ba9004965b23cb637f8949acf1215c2e67915275b6c9849ea9d",
           "live_bytes": 1027,
-          "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyIntensityMaps.R",
+          "live_path": "repo\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyIntensityMaps.R",
           "live_sha256": "7ecd9e6264705dcddc2cfb0218d7777c6461f6ceaff8d712eaa65be6f7af48cf",
           "relative_path": "countyIntensityMaps/countyIntensityMaps.R"
         },
         {
           "authority_bytes": 3507,
-          "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyMap.R",
+          "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyMap.R",
           "authority_sha256": "791e39aead0dec6422f724f072e1d31bae38f44cc2faff06a90bac4c35dd1346",
           "live_bytes": 3507,
-          "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyMap.R",
+          "live_path": "repo\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyMap.R",
           "live_sha256": "791e39aead0dec6422f724f072e1d31bae38f44cc2faff06a90bac4c35dd1346",
           "relative_path": "countyIntensityMaps/countyMap.R"
         }
@@ -575,7 +591,7 @@
     },
     {
       "authority_bytes": 396423,
-      "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyHomeownershipMap.pdf",
+      "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyHomeownershipMap.pdf",
       "authority_sha256": "84a4473a3fc3d2a252d1f05c101f2a72e5c9e3dbb7277da34e7df4f5332162bd",
       "bytes": 396545,
       "data_ids": [
@@ -584,26 +600,26 @@
         "maps::county.fips",
         "maps::map(county)"
       ],
-      "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyHomeownershipMap.pdf",
+      "live_path": "repo\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyHomeownershipMap.pdf",
       "page_boxes_match_authority": true,
       "page_count": 1,
       "portable_point_repair": null,
       "producers": [
         {
           "authority_bytes": 1007,
-          "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyIntensityMaps.R",
+          "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyIntensityMaps.R",
           "authority_sha256": "bc924d3d91688ba9004965b23cb637f8949acf1215c2e67915275b6c9849ea9d",
           "live_bytes": 1027,
-          "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyIntensityMaps.R",
+          "live_path": "repo\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyIntensityMaps.R",
           "live_sha256": "7ecd9e6264705dcddc2cfb0218d7777c6461f6ceaff8d712eaa65be6f7af48cf",
           "relative_path": "countyIntensityMaps/countyIntensityMaps.R"
         },
         {
           "authority_bytes": 3507,
-          "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyMap.R",
+          "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyMap.R",
           "authority_sha256": "791e39aead0dec6422f724f072e1d31bae38f44cc2faff06a90bac4c35dd1346",
           "live_bytes": 3507,
-          "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyMap.R",
+          "live_path": "repo\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyMap.R",
           "live_sha256": "791e39aead0dec6422f724f072e1d31bae38f44cc2faff06a90bac4c35dd1346",
           "relative_path": "countyIntensityMaps/countyMap.R"
         }
@@ -618,7 +634,7 @@
     },
     {
       "authority_bytes": 396186,
-      "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyMedIncomeMap.pdf",
+      "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyMedIncomeMap.pdf",
       "authority_sha256": "c66bfcf163a42b90a77e3c23bbf181235e5078a96fb23a1da28ae0be8d5d1f56",
       "bytes": 396324,
       "data_ids": [
@@ -627,26 +643,26 @@
         "maps::county.fips",
         "maps::map(county)"
       ],
-      "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyMedIncomeMap.pdf",
+      "live_path": "repo\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyMedIncomeMap.pdf",
       "page_boxes_match_authority": true,
       "page_count": 1,
       "portable_point_repair": null,
       "producers": [
         {
           "authority_bytes": 1007,
-          "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyIntensityMaps.R",
+          "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyIntensityMaps.R",
           "authority_sha256": "bc924d3d91688ba9004965b23cb637f8949acf1215c2e67915275b6c9849ea9d",
           "live_bytes": 1027,
-          "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyIntensityMaps.R",
+          "live_path": "repo\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyIntensityMaps.R",
           "live_sha256": "7ecd9e6264705dcddc2cfb0218d7777c6461f6ceaff8d712eaa65be6f7af48cf",
           "relative_path": "countyIntensityMaps/countyIntensityMaps.R"
         },
         {
           "authority_bytes": 3507,
-          "authority_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyMap.R",
+          "authority_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyMap.R",
           "authority_sha256": "791e39aead0dec6422f724f072e1d31bae38f44cc2faff06a90bac4c35dd1346",
           "live_bytes": 3507,
-          "live_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyMap.R",
+          "live_path": "repo\\ch_summarizing_data\\figures\\countyIntensityMaps\\countyMap.R",
           "live_sha256": "791e39aead0dec6422f724f072e1d31bae38f44cc2faff06a90bac4c35dd1346",
           "relative_path": "countyIntensityMaps/countyMap.R"
         }
@@ -727,12 +743,12 @@
   },
   "replay_a_manifest": {
     "bytes": 11029,
-    "path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\b005_prefix_replay\\replay_a_manifest.json",
+    "path": "repo\\ch_summarizing_data\\figures\\b005_prefix_replay\\replay_a_manifest.json",
     "sha256": "1c99b76dd80d8dcfafb0560afd2c3282dca76d207881554b419c77893ecbd90d"
   },
   "replay_b_manifest": {
     "bytes": 11029,
-    "path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\b005_prefix_replay\\replay_b_manifest.json",
+    "path": "repo\\ch_summarizing_data\\figures\\b005_prefix_replay\\replay_b_manifest.json",
     "sha256": "1c99b76dd80d8dcfafb0560afd2c3282dca76d207881554b419c77893ecbd90d"
   },
   "residual_label_scan": {
@@ -763,7 +779,7 @@
     "external_components": "The R producers name openintro package datasets/color helpers and, for county maps, maps package outlines. Their package-level licenses are not embedded in this pinned textbook repository. This replay vendors no package or raw dataset bytes: it changes only labels in the already distributed pinned vector PDFs and retains source-level provenance.",
     "repository_license": "CC BY-SA 3.0 Unported",
     "repository_license_bytes": 2612,
-    "repository_license_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\LICENSE.md",
+    "repository_license_path": "authority\\upstream\\openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e\\LICENSE.md",
     "repository_license_sha256": "9bd77ff3e58e0b7f1331824b8195d4cf588851a6461cc3230d12410da7935223"
   },
   "schema": "r011-b005-prefix-figure-final-receipt/v1",
@@ -774,7 +790,7 @@
   },
   "visual_qa": {
     "contact_sheet_bytes": 4478241,
-    "contact_sheet_path": "C:\\Users\\Floris\\Documents\\interlanguage\\04_mirrors\\id\\openintro-statistics-id\\repo\\ch_summarizing_data\\figures\\b005_prefix_replay\\render_a\\CONTACT_ALL.png",
+    "contact_sheet_path": "repo\\ch_summarizing_data\\figures\\b005_prefix_replay\\render_a\\CONTACT_ALL.png",
     "contact_sheet_sha256": "0a48678e96a84b88c2847e42484717f3c566f1bb6283aff5fcfe703276b3b061",
     "criteria": [
       "no clipped or overlapping reader labels",

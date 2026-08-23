@@ -1,0 +1,17 @@
+{
+  "schema": "interlanguage.public-checkpoint-cursor",
+  "schema_version": "1.0.0",
+  "boundary_id": "R011-B007",
+  "status": "admitted_partial_checkpoint",
+  "complete_corpus": false,
+  "translated_through": "Chapter 2 Section 2.3 and exercise 2.26",
+  "next_source_unit": "Chapter 2 review exercise 2.27",
+  "zenodo_record_id": 22063015,
+  "zenodo_doi": "10.5281/zenodo.22063015",
+  "zenodo_concept_doi": "10.5281/zenodo.22059801",
+  "figshare_doi": "10.6084/m9.figshare.33314727.v3",
+  "figshare_url": "https://doi.org/10.6084/m9.figshare.33314727.v3",
+  "github_tag": "r011-b007-2026.08.23.1",
+  "production_attribution": "Codex, atas permintaan pengguna",
+  "production_model": "OpenAI Codex gpt-5.6-sol, Ultra"
+}

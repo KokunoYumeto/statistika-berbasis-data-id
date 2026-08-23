@@ -1,0 +1,91 @@
+{
+  "schema": "interlanguage.zenodo-publication-receipt",
+  "schema_version": "1.1.0",
+  "status": "published_and_anonymously_verified",
+  "release_id": "R011-B007-v2026.08.23.1",
+  "boundary_id": "R011-B007",
+  "complete_corpus": false,
+  "prior_record_id": 22061163,
+  "record_id": 22063015,
+  "concept_record_id": 22059801,
+  "doi": "10.5281/zenodo.22063015",
+  "concept_doi": "10.5281/zenodo.22059801",
+  "record_url": "https://zenodo.org/records/22063015",
+  "record_api_url": "https://zenodo.org/api/records/22063015",
+  "published_at": "08/23/2026 01:51:44",
+  "verified_at": "2026-08-22T23:51:53.3815207+00:00",
+  "title": "Statistika Berbasis Data - Edisi Kerja Bahasa Indonesia (R011-B007: Bab 1 dan Bagian 2.1-2.3)",
+  "version": "2026.08.23.1-R011-B007",
+  "package_receipt_sha256": "b87b21e5bfdae8c54afb59ebd4d2a0381391d3e92ffee2adfd059b5c3475a22c",
+  "metadata_local_sha256": "be2f3a2adbb5f77a6a17865e446452edcaed13e1cef2488f1630c03b809c4bf5",
+  "release_manifest_sha256": "65fc8d41d275b3e0371c90c13761a94bb783eabda5633394a6fcc4c3a216d37c",
+  "sha256sums_sha256": "5dd705b756dcdea81f6314e2e46a2de031b29c717993ebec88a7cd92ad9ae219",
+  "anonymous_metadata_readback": "passed",
+  "anonymous_file_inventory_and_sha256_readback": "passed",
+  "files": [
+    {
+      "filename": "00_STATISTIKA_BERBASIS_DATA_ID_R011-B007_WORKING_READER.pdf",
+      "bytes": 20940913,
+      "sha256": "4fdbfa817781cf949e1c68b9349429685ec9caba4d4aeb520df84db534389493",
+      "anonymous_download_url": "https://zenodo.org/api/records/22063015/files/00_STATISTIKA_BERBASIS_DATA_ID_R011-B007_WORKING_READER.pdf/content",
+      "verification": "passed"
+    },
+    {
+      "filename": "01_STATISTIKA_BERBASIS_DATA_ID_R011-B007_EDITABLE_SOURCE.zip",
+      "bytes": 33142747,
+      "sha256": "815c585867023f78121ef4649e60fc52553ee2c4c0a86ffdb314bd7b6c1367a6",
+      "anonymous_download_url": "https://zenodo.org/api/records/22063015/files/01_STATISTIKA_BERBASIS_DATA_ID_R011-B007_EDITABLE_SOURCE.zip/content",
+      "verification": "passed"
+    },
+    {
+      "filename": "02_STATISTIKA_BERBASIS_DATA_ID_R011-B007_MODULAR_BACKEND.zip",
+      "bytes": 2322279,
+      "sha256": "db0643e9a98218f3c12274659e35761e037d99109ea8aeb143dbbbe82e1835e5",
+      "anonymous_download_url": "https://zenodo.org/api/records/22063015/files/02_STATISTIKA_BERBASIS_DATA_ID_R011-B007_MODULAR_BACKEND.zip/content",
+      "verification": "passed"
+    },
+    {
+      "filename": "CITATION.cff",
+      "bytes": 1002,
+      "sha256": "9b048a72f5563f8cf322b90403941538256f07b597c8362a8c42dd5ed06714fc",
+      "anonymous_download_url": "https://zenodo.org/api/records/22063015/files/CITATION.cff/content",
+      "verification": "passed"
+    },
+    {
+      "filename": "LICENSES_AND_ATTRIBUTION.md",
+      "bytes": 2349,
+      "sha256": "c2fa07305771ec3fc0ebe8e8e713c68ee43b5d2e83f96ce7152f333e73eaf1db",
+      "anonymous_download_url": "https://zenodo.org/api/records/22063015/files/LICENSES_AND_ATTRIBUTION.md/content",
+      "verification": "passed"
+    },
+    {
+      "filename": "README_RELEASE.md",
+      "bytes": 3929,
+      "sha256": "8f6351bbff4280a2ad806a870efeb75d90bad5e0f7dc3ac99a1ddfa91744b252",
+      "anonymous_download_url": "https://zenodo.org/api/records/22063015/files/README_RELEASE.md/content",
+      "verification": "passed"
+    },
+    {
+      "filename": "RELEASE_MANIFEST.json",
+      "bytes": 5193,
+      "sha256": "65fc8d41d275b3e0371c90c13761a94bb783eabda5633394a6fcc4c3a216d37c",
+      "anonymous_download_url": "https://zenodo.org/api/records/22063015/files/RELEASE_MANIFEST.json/content",
+      "verification": "passed"
+    },
+    {
+      "filename": "SHA256SUMS.txt",
+      "bytes": 820,
+      "sha256": "5dd705b756dcdea81f6314e2e46a2de031b29c717993ebec88a7cd92ad9ae219",
+      "anonymous_download_url": "https://zenodo.org/api/records/22063015/files/SHA256SUMS.txt/content",
+      "verification": "passed"
+    },
+    {
+      "filename": "ZENODO_METADATA.json",
+      "bytes": 3120,
+      "sha256": "be2f3a2adbb5f77a6a17865e446452edcaed13e1cef2488f1630c03b809c4bf5",
+      "anonymous_download_url": "https://zenodo.org/api/records/22063015/files/ZENODO_METADATA.json/content",
+      "verification": "passed"
+    }
+  ],
+  "credentials_persisted": false
+}

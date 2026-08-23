@@ -1,0 +1,751 @@
+{
+  "schema_version": "r011-b007-source-application-receipt/1.3.0",
+  "corpus_id": "R011",
+  "boundary_id": "R011-B007",
+  "result": "PASS_SOURCE_APPLICATION_AND_ASSET_BINDING",
+  "authority": {
+    "commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "tree": "d61cc601e7d97759ce805900520f784d02a0489e"
+  },
+  "gate_script": {
+    "path": "scripts/qa_source_b007.py",
+    "bytes": 92081,
+    "sha256": "46d3ede5eddc5d4272be2653d441a1c0fe045436d7e0515071817547ce37bed2"
+  },
+  "application_manifest": {
+    "path": "qa/R011-B007_SOURCE_APPLICATION_MANIFEST.json",
+    "bytes": 27428,
+    "sha256": "7f8943fc8d02e4f9502f9235fcb0160b9326261e8faf0b8099d8138595277496"
+  },
+  "reverse_reconstruction": {
+    "chapter": {
+      "field_updated_prefix": {
+        "bytes": 98381,
+        "sha256": "4d34c17a08010e95608e9c55475550666d17a3791957de83c86dbedb925a9100"
+      },
+      "base_b006_prefix": {
+        "bytes": 98378,
+        "sha256": "78c2cdf38987ba36f4544a12afb40da103e8a7e502ee7ccdd6b9eca3c4392a59"
+      },
+      "final_section": {
+        "bytes": 16480,
+        "sha256": "468fcea0a263e3f396fbe8909299b30991669d627680c560808bbf7ddf0bef6f"
+      },
+      "base_candidate_overlay": {
+        "bytes": 16487,
+        "sha256": "fe5e9b1fa195410e60673572773fdbc490995c353a2dbbd73ad9e293371ecd67"
+      },
+      "section_2_4_plus_suffix": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "reason": "Section 2.3 is the terminal source section."
+      },
+      "reconstructed_base_application": {
+        "bytes": 114865,
+        "sha256": "84baa0a03077d395b8065bcb2e1c0abc6124dc97f632440057b2769d35fbb415"
+      },
+      "reconstructed_preapplication": {
+        "bytes": 114091,
+        "sha256": "3a087003f4bcb01268090fc2a04a8c40f9b46da7ff5a5f276a591a9d266e7a9c"
+      }
+    },
+    "exercise": {
+      "final": {
+        "path": "repo/ch_summarizing_data/TeX/case_study_malaria_vaccine.tex",
+        "bytes": 9638,
+        "sha256": "4e5fc10a9b8e95ef020ee4ac1b61fd818c2c3a7be172fe219c646fb1e9f3af03"
+      },
+      "reconstructed_base_overlay": {
+        "bytes": 9598,
+        "sha256": "712f7ddb0f3c80806f20063fff88d7ac4eb0c13e57422ae482d1a11697e83ddd"
+      },
+      "layout_only_reflow": {
+        "preimage": "\\exercisesheader{}",
+        "replacement": "\\begingroup\\let\\clearpageforsection\\relax\\exercisesheader{}\\endgroup",
+        "header_wrapper_occurrences": 1,
+        "removed_forced_break": "\\D{\\newpage}",
+        "removed_forced_break_occurrences": 1,
+        "exercise_content_changed": false
+      },
+      "reconstructed_preapplication": {
+        "bytes": 9265,
+        "sha256": "d31f5dc0611b4efac08a34bb1f584e86714a4b4bf85b89b435b12ca774a326ec"
+      },
+      "chapter_review_transition": {
+        "final": {
+          "path": "repo/ch_summarizing_data/TeX/review_exercises.tex",
+          "bytes": 8339,
+          "sha256": "3686a42c9a0cfefe7ef02d3846fd66c0c67a54a2aa5602e850076e681c6b48b7"
+        },
+        "preimage": {
+          "path": "repo/ch_summarizing_data/TeX/review_exercises.tex",
+          "bytes": 8289,
+          "sha256": "ea3fc3367399f9863a91312decf5f334534ff5d75ac4b8aa698918229050aa16"
+        },
+        "replacement": {
+          "preimage": "\\reviewexercisesheader{}",
+          "replacement": "\\begingroup\\let\\clearpageforsection\\relax\\reviewexercisesheader{}\\endgroup",
+          "wrapper_occurrences": 1,
+          "review_content_or_order_changed": false,
+          "semantic_boundary_changed": false
+        }
+      },
+      "chapter_two_loader": {
+        "final": {
+          "path": "repo/main.tex",
+          "bytes": 5540,
+          "sha256": "dd47b5c534a2f7b88222b7070c96757f1558cd9529b09802d1fdd28222cc15a0"
+        },
+        "preimage": {
+          "path": "repo/main.tex",
+          "bytes": 5355,
+          "sha256": "7d45fba9d91efa0115467f59c039432ab5acd44387997782994fff0d36464c5f"
+        },
+        "replacement": {
+          "preimage": "\\includechapter{2}{ch_summarizing_data}",
+          "replacement": "% Chapter 2's closing exercises use the available page flow.\n\\setcounter{chapter}{2}\n\\addtocounter{chapter}{-1}\n\\normalsize\n\\input{ch_summarizing_data/TeX/ch_summarizing_data}\n\\input{ch_summarizing_data/TeX/review_exercises}",
+          "chapter_number": 2,
+          "ordered_inputs": [
+            "ch_summarizing_data/TeX/ch_summarizing_data",
+            "ch_summarizing_data/TeX/review_exercises"
+          ],
+          "global_includechapter_macro_changed": false,
+          "later_chapter_loaders_changed": false,
+          "chapter_content_or_order_changed": false
+        }
+      }
+    },
+    "answer": {
+      "preserved_prefix": {
+        "bytes": 15894,
+        "sha256": "237cdc24a8cf2025b45b9c75c08b8cfe211793552556a9ac79170b85509737a4"
+      },
+      "applied_answer_25": {
+        "bytes": 2115,
+        "sha256": "a9a5eba3d9df4b0445441339f5da5c8bb3119567fa5bf91cf85ecb0f6be3d48c"
+      },
+      "preserved_suffix": {
+        "bytes": 90008,
+        "sha256": "1d3939a4a08b79a33ea11d36ce4d6c0f8e00e147e3ec8e2518e54267810af34e"
+      },
+      "reconstructed_preapplication": {
+        "bytes": 107940,
+        "sha256": "49ad90a6c041ec23cfb99ce5f0a1ece6bf45516cc82eabbe02474c1604749b43"
+      }
+    },
+    "prior_translation_field_usage": {
+      "examining_numerical_data": {
+        "final": {
+          "path": "repo/ch_summarizing_data/TeX/examining_numerical_data.tex",
+          "bytes": 22191,
+          "sha256": "e02d13f2fd10a823fe42d8802f83bd8139546690771df2da35deee01c76ad1b2"
+        },
+        "reconstructed_pre_field_usage": {
+          "bytes": 22155,
+          "sha256": "a97bbc7212a14a293776f3e307387ae671d2ff0577125f490a5c73ad6b6a8ebe"
+        }
+      },
+      "preface": {
+        "final": {
+          "path": "repo/extraTeX/preamble/preface.tex",
+          "bytes": 10078,
+          "sha256": "5c1c7811bb067ff7d3c0a3eb50c3a8d9e141c832ec7013220378159ce4a0561d"
+        },
+        "reconstructed_pre_field_usage": {
+          "bytes": 10076,
+          "sha256": "44982a2074a3977620700fd3f76e1ea514f28593896e1cff6db6a9b6ffdc7d9a"
+        }
+      }
+    },
+    "terminology": {
+      "reused_candidate_terms": {
+        "R011-B007-TERM-0001": "R011-TERM-0009",
+        "R011-B007-TERM-0010": "R011-TERM-0062"
+      },
+      "candidate_append_range": [
+        "R011-TERM-0142",
+        "R011-TERM-0159"
+      ],
+      "field_usage_addition": "R011-TERM-0160",
+      "tail_id": "R011-TERM-0160",
+      "retained_decisions": {
+        "average": [
+          "rerata",
+          "R011-TERM-0081"
+        ],
+        "independence model": [
+          "model independensi",
+          "R011-TERM-0147"
+        ],
+        "independent": [
+          "saling independen",
+          "R011-TERM-0140"
+        ],
+        "categorical data": [
+          "data kategoris",
+          "R011-TERM-0122"
+        ],
+        "variance": [
+          "varians",
+          "R011-TERM-0099"
+        ],
+        "standard deviation": [
+          "simpangan baku",
+          "R011-TERM-0100"
+        ]
+      },
+      "reconstructed_base_application": {
+        "bytes": 13874,
+        "sha256": "7cc933a8af1eb181cb7462e48fcd74c1a50043e16b6fb80b9e062e94bb7659a1"
+      },
+      "reconstructed_preapplication": {
+        "bytes": 11279,
+        "sha256": "622fa65372875784cb190619175750bcfbfa9600bcc4526f521019c39f093f7e"
+      }
+    },
+    "adverse": {
+      "source_correction_ids": [
+        "R011-B007-SC-001",
+        "R011-B007-SC-002",
+        "R011-B007-SC-003",
+        "R011-B007-SC-004",
+        "R011-B007-SC-005",
+        "R011-B007-SC-006",
+        "R011-B007-SC-007",
+        "R011-B007-SC-008"
+      ],
+      "o001_gap_ids": [
+        "R011-B007-O001-0001"
+      ],
+      "candidate_append_range": [
+        "R011-ADV-0080",
+        "R011-ADV-0088"
+      ],
+      "field_usage_decision_range": [
+        "R011-ADV-0089",
+        "R011-ADV-0091"
+      ],
+      "terminology_witness_rights_record": "R011-ADV-0092",
+      "tail_id": "R011-ADV-0092",
+      "field_usage_qa_evidence": {
+        "path": "qa/terminology/R011_TERMINOLOGY_FIELD_USAGE_QA.json",
+        "bytes": 9629,
+        "sha256": "e52e69e6bd64dd5078adbd63a82f7923a4d4ba1e5f14ceecec5a3d0a8108a9d0",
+        "status": "verified"
+      },
+      "sc006_resolution": {
+        "status": "corrected_in_derivative",
+        "asset_promotion_receipt": {
+          "path": "qa/b007-assets/B007_CANONICAL_PROMOTION_RECEIPT.json",
+          "bytes": 17750,
+          "sha256": "7f1d1be6c8f0964de9791e29a1cd6360a4d5fd535150b6061b7bc7a16e4cb678"
+        }
+      },
+      "reconstructed_base_application": {
+        "bytes": 42438,
+        "sha256": "9d9412bc4c2a441a7020b3ae6882673295ab6913153ee9d7c696438ac8fdaabb"
+      },
+      "reconstructed_preapplication": {
+        "bytes": 36030,
+        "sha256": "04032e0f4486268d99d809333779fd450d4062d376149ca0945f34e24f8af7c3"
+      }
+    }
+  },
+  "structural_equivalence": {
+    "section_2_3": {
+      "commands": {
+        "source_count": 213,
+        "target_count": 213,
+        "equal": true
+      },
+      "environments": {
+        "source_count": 42,
+        "target_count": 42,
+        "equal": true
+      },
+      "labels": {
+        "source_count": 9,
+        "target_count": 9,
+        "equal": true
+      },
+      "references": {
+        "source_count": 10,
+        "target_count": 10,
+        "equal": true
+      },
+      "citations": {
+        "source_count": 0,
+        "target_count": 0,
+        "equal": true
+      },
+      "inline_math": {
+        "source_count": 15,
+        "target_count": 15,
+        "equal": true
+      },
+      "numeric_tokens": {
+        "source_count": 128,
+        "target_count": 128,
+        "equal": true
+      },
+      "protected_var_resp_texttt": {
+        "source_count": 7,
+        "target_count": 7,
+        "equal": true
+      },
+      "newcommand_names": {
+        "source_count": 15,
+        "target_count": 15,
+        "equal": true
+      },
+      "balanced_braces": true
+    },
+    "exercises_25_26": {
+      "commands": {
+        "source_count": 91,
+        "target_count": 91,
+        "equal": true
+      },
+      "environments": {
+        "source_count": 24,
+        "target_count": 24,
+        "equal": true
+      },
+      "labels": {
+        "source_count": 2,
+        "target_count": 2,
+        "equal": true
+      },
+      "references": {
+        "source_count": 0,
+        "target_count": 0,
+        "equal": true
+      },
+      "citations": {
+        "source_count": 2,
+        "target_count": 2,
+        "equal": true
+      },
+      "inline_math": {
+        "source_count": 0,
+        "target_count": 0,
+        "equal": true
+      },
+      "numeric_tokens": {
+        "source_count": 114,
+        "target_count": 114,
+        "equal": true
+      },
+      "protected_var_resp_texttt": {
+        "source_count": 2,
+        "target_count": 2,
+        "equal": true
+      },
+      "newcommand_names": {
+        "source_count": 0,
+        "target_count": 0,
+        "equal": true
+      },
+      "figure_references": {
+        "source_count": 4,
+        "target_count": 4,
+        "equal": true
+      },
+      "balanced_braces": true
+    },
+    "public_answer_25": {
+      "commands": {
+        "source_count": 8,
+        "target_count": 8,
+        "equal": true
+      },
+      "environments": {
+        "source_count": 0,
+        "target_count": 0,
+        "equal": true
+      },
+      "labels": {
+        "source_count": 0,
+        "target_count": 0,
+        "equal": true
+      },
+      "references": {
+        "source_count": 0,
+        "target_count": 0,
+        "equal": true
+      },
+      "citations": {
+        "source_count": 0,
+        "target_count": 0,
+        "equal": true
+      },
+      "inline_math": {
+        "source_count": 4,
+        "target_count": 4,
+        "equal": true
+      },
+      "numeric_tokens": {
+        "source_count": 11,
+        "target_count": 11,
+        "equal": true
+      },
+      "protected_var_resp_texttt": {
+        "source_count": 0,
+        "target_count": 0,
+        "equal": true
+      },
+      "newcommand_names": {
+        "source_count": 0,
+        "target_count": 0,
+        "equal": true
+      },
+      "balanced_braces": true
+    }
+  },
+  "semantic_copy": {
+    "visible_index_aliases": [
+      "data!malaria vaccine@vaksin malaria",
+      "simulation@simulasi"
+    ],
+    "statistika_inferensial_b007_occurrences": 3,
+    "statistika_inferensial_preface_occurrences": 1,
+    "statistika_inferensial_total_changed_occurrences": 4,
+    "localized_edition_scope": "Bab 1 dan Bagian 2.1–2.3",
+    "localized_edition_scope_tex_occurrences": 1,
+    "layout_only_reflow": {
+      "removed_command": "\\D{\\newpage}",
+      "removed_occurrences": 1,
+      "content_changed": false,
+      "purpose": "page-filling reflow after Gambar 2.31 and Contoh 2.35"
+    },
+    "exercise_header_layout_only_reflow": {
+      "suppressed_command_locally": "\\clearpageforsection",
+      "wrapper_occurrences": 1,
+      "removed_inter_exercise_command": "\\D{\\newpage}",
+      "removed_inter_exercise_command_occurrences": 1,
+      "exercise_order_or_content_changed": false,
+      "semantic_boundary_changed": false,
+      "purpose": "allow the Section 2.3 exercise header and source-ordered exercises 2.25-2.26 to use available page space continuously"
+    },
+    "chapter_review_header_layout_only_reflow": {
+      "suppressed_command_locally": "\\clearpageforsection",
+      "wrapper_occurrences": 1,
+      "chapter_two_explicit_loader_occurrences": 1,
+      "outer_includechapter_newpage_bypassed_locally": true,
+      "global_includechapter_macro_changed": false,
+      "later_chapter_loaders_changed": false,
+      "review_exercise_order_or_content_changed": false,
+      "semantic_boundary_changed": false,
+      "purpose": "allow the tail of exercise 2.26 and the Chapter 2 review header to use available page space continuously"
+    },
+    "old_kelas_interval_occurrences_in_known_translated_targets": 0,
+    "exercise_26b_above_and_question_mark": true,
+    "exercise_alt_control_treatment": true,
+    "avandia_reader_simulations": 1000
+  },
+  "coverage": {
+    "instructional_sections": 1,
+    "translated_exercises": [
+      25,
+      26
+    ],
+    "translated_public_answers": [
+      25
+    ],
+    "o001_open_gaps": [
+      26
+    ],
+    "invented_or_restricted_solutions": 0
+  },
+  "ledger_tails": {
+    "terminology": {
+      "candidate_first": "R011-TERM-0142",
+      "candidate_last": "R011-TERM-0159",
+      "field_usage_addition": "R011-TERM-0160",
+      "tail": "R011-TERM-0160"
+    },
+    "adverse": {
+      "candidate_first": "R011-ADV-0080",
+      "candidate_last": "R011-ADV-0088",
+      "field_usage_first": "R011-ADV-0089",
+      "field_usage_last": "R011-ADV-0091",
+      "terminology_witness_rights": "R011-ADV-0092",
+      "tail": "R011-ADV-0092"
+    }
+  },
+  "field_usage_qa": [
+    {
+      "path": "qa/terminology/R011_TERMINOLOGY_FIELD_USAGE_QA.json",
+      "bytes": 9629,
+      "sha256": "e52e69e6bd64dd5078adbd63a82f7923a4d4ba1e5f14ceecec5a3d0a8108a9d0"
+    },
+    {
+      "path": "qa/terminology/R011_TERMINOLOGY_FIELD_USAGE_QA.md",
+      "bytes": 2312,
+      "sha256": "2b1de3fbd1681532e45c0d47e72a779a9f6a55bb75e257b9e7c9e83dc094f4af"
+    }
+  ],
+  "asset_promotion": {
+    "status": "canonical_promotion_complete",
+    "promotion_receipt": {
+      "path": "qa/b007-assets/B007_CANONICAL_PROMOTION_RECEIPT.json",
+      "bytes": 19032,
+      "sha256": "5594452b1fca3bed7b8f4b97ee0c33af67dfd1f18aff7458c9512a66c85d6ae1"
+    },
+    "promotion_supporting_evidence": [
+      {
+        "path": "qa/b007-assets/B007_ASSET_LOCALIZATION_RECEIPT.json",
+        "bytes": 8207,
+        "sha256": "5021a0591cbea58e302b8962b89186b170a6830e953ddae7360abec58e919941"
+      },
+      {
+        "path": "qa/b007-assets/B007_ASSET_OUTPUT_MANIFEST.json",
+        "bytes": 8696,
+        "sha256": "8682e2ff4a761f55abc260915cfec59881f04ef61d76a60c983699d5e09fd524"
+      },
+      {
+        "path": "qa/b007-assets/B007_ASSET_PRIVACY_REFRESH_QA.json",
+        "bytes": 13841,
+        "sha256": "58358d23440cb8d632a9efa800ae3236c275ba425ed5b3e8c580c30bba15db81"
+      }
+    ],
+    "privacy_refresh_qa": {
+      "path": "qa/b007-assets/B007_ASSET_PRIVACY_REFRESH_QA.json",
+      "bytes": 13841,
+      "sha256": "58358d23440cb8d632a9efa800ae3236c275ba425ed5b3e8c580c30bba15db81"
+    },
+    "terminology_evidence": [
+      {
+        "path": "qa/terminology/R011_TERMINOLOGY_FIELD_USAGE_QA.json",
+        "bytes": 9629,
+        "sha256": "e52e69e6bd64dd5078adbd63a82f7923a4d4ba1e5f14ceecec5a3d0a8108a9d0"
+      },
+      {
+        "path": "qa/terminology/R011_TERMINOLOGY_FIELD_USAGE_QA.md",
+        "bytes": 2312,
+        "sha256": "2b1de3fbd1681532e45c0d47e72a779a9f6a55bb75e257b9e7c9e83dc094f4af"
+      }
+    ],
+    "destinations": [
+      {
+        "path": "repo/ch_summarizing_data/figures/malaria_rand_dot_plot/malaria_rand_dot_plot.pdf",
+        "bytes": 11083,
+        "sha256": "badb8d98c195c85c7e7800278c27283da6b93b47b34533d00e4eda9e1bd3b332",
+        "role": "localized_reader_pdf",
+        "asset_id": "R011-B007-ASSET-0001",
+        "producer_id": "R011-B007-CODE-0001"
+      },
+      {
+        "path": "repo/ch_summarizing_data/figures/malaria_rand_dot_plot/malaria_rand_dot_plot.source-en.pdf",
+        "bytes": 4865,
+        "sha256": "6e42bf561f3fa30f6b8f8b99e5bf098dcfaf48b2bb3ba08b8293e87b29c8f63d",
+        "role": "exact_english_pdf_witness",
+        "asset_id": "R011-B007-ASSET-0001",
+        "producer_id": "R011-B007-CODE-0001"
+      },
+      {
+        "path": "repo/ch_summarizing_data/figures/eoce/randomization_avandia/randomization_avandia.pdf",
+        "bytes": 1887,
+        "sha256": "cdca456620c05f17f215149ac0fb62d2ac43dc3e2be49d6eaf7c45b0bb8f4247",
+        "role": "localized_reader_pdf",
+        "asset_id": "R011-B007-ASSET-0002",
+        "producer_id": "R011-B007-CODE-0002"
+      },
+      {
+        "path": "repo/ch_summarizing_data/figures/eoce/randomization_avandia/randomization_avandia.source-en.pdf",
+        "bytes": 4618,
+        "sha256": "69202b9ba715bdeba6f61b886890dfec11f56d3275eedca1239d68c7cab20787",
+        "role": "exact_english_pdf_witness",
+        "asset_id": "R011-B007-ASSET-0002",
+        "producer_id": "R011-B007-CODE-0002"
+      },
+      {
+        "path": "repo/ch_summarizing_data/figures/eoce/randomization_heart_transplants/randomization_heart_transplants_mosaic.pdf",
+        "bytes": 3837,
+        "sha256": "271c43cb22fd4329c31d19488f012a4e9165bb30546aff5b47e9fc8f077355da",
+        "role": "localized_reader_pdf",
+        "asset_id": "R011-B007-ASSET-0003",
+        "producer_id": "R011-B007-CODE-0003"
+      },
+      {
+        "path": "repo/ch_summarizing_data/figures/eoce/randomization_heart_transplants/randomization_heart_transplants_mosaic.source-en.pdf",
+        "bytes": 4232,
+        "sha256": "fade35f65205c0ca57b55382f03b68001552b50728100cdca9b79639feb4d9da",
+        "role": "exact_english_pdf_witness",
+        "asset_id": "R011-B007-ASSET-0003",
+        "producer_id": "R011-B007-CODE-0003"
+      },
+      {
+        "path": "repo/ch_summarizing_data/figures/eoce/randomization_heart_transplants/randomization_heart_transplants_box.pdf",
+        "bytes": 5094,
+        "sha256": "7447161e002ec5301f971f136a654f45e52420b10b986619b1b422284b03fe3f",
+        "role": "localized_reader_pdf",
+        "asset_id": "R011-B007-ASSET-0004",
+        "producer_id": "R011-B007-CODE-0003"
+      },
+      {
+        "path": "repo/ch_summarizing_data/figures/eoce/randomization_heart_transplants/randomization_heart_transplants_box.source-en.pdf",
+        "bytes": 5154,
+        "sha256": "6173e5e80faa450b617fd495a5c0ddbf60aae28677af2f82269d0a4acdc7d8a5",
+        "role": "exact_english_pdf_witness",
+        "asset_id": "R011-B007-ASSET-0004",
+        "producer_id": "R011-B007-CODE-0003"
+      },
+      {
+        "path": "repo/ch_summarizing_data/figures/eoce/randomization_heart_transplants/randomization_heart_transplants_rando.pdf",
+        "bytes": 45948,
+        "sha256": "3504d6e03fcd6fb59f62c199528479668b678813a103cb399a450b133b634f10",
+        "role": "localized_reader_pdf",
+        "asset_id": "R011-B007-ASSET-0005",
+        "producer_id": "R011-B007-CODE-0003"
+      },
+      {
+        "path": "repo/ch_summarizing_data/figures/eoce/randomization_heart_transplants/randomization_heart_transplants_rando.source-en.pdf",
+        "bytes": 5748,
+        "sha256": "fdbabbfc71cba4640572a3bf968fd5959e59bf61e67d77b2c6032609e1aed8a2",
+        "role": "exact_english_pdf_witness",
+        "asset_id": "R011-B007-ASSET-0005",
+        "producer_id": "R011-B007-CODE-0003"
+      },
+      {
+        "path": "repo/ch_summarizing_data/figures/malaria_rand_dot_plot/malaria_rand_dot_plot.R",
+        "bytes": 1315,
+        "sha256": "f27d1899fea24c182d74e8443afba8fb67eec4ee4ab7cdb1f763b8a9e78401f3",
+        "role": "localized_R_producer",
+        "producer_id": "R011-B007-CODE-0001"
+      },
+      {
+        "path": "repo/ch_summarizing_data/figures/eoce/randomization_avandia/randomization_avandia.R",
+        "bytes": 902,
+        "sha256": "30198c57fdbdf1e59a94bdfe66dd6aed4a83ae12a56658d12ec3d6e9bdb3be0d",
+        "role": "localized_R_producer",
+        "producer_id": "R011-B007-CODE-0002"
+      },
+      {
+        "path": "repo/ch_summarizing_data/figures/eoce/randomization_heart_transplants/randomization_heart_transplants.R",
+        "bytes": 2197,
+        "sha256": "09f1c91a858448c38dd8ce04263f085bbd2d74ed74b472e6ed40a202e3dd3704",
+        "role": "localized_R_producer",
+        "producer_id": "R011-B007-CODE-0003"
+      }
+    ],
+    "localized_reader_pdfs": 5,
+    "english_pdf_witnesses": 5,
+    "localized_r_producers": 3,
+    "serialized_input": {
+      "path": "repo/ch_summarizing_data/figures/eoce/randomization_heart_transplants/inference.RData",
+      "bytes": 180341,
+      "sha256": "ae8de46d6fb0cfb867e691f544d3799a6c6133e8a560642d4fce5d83af6d15e0"
+    },
+    "canonical_avandia_n": 1000,
+    "candidate_avandia_n": 1000,
+    "qa": {
+      "P0": 0,
+      "P1": 0,
+      "P2": 0,
+      "P3": 0,
+      "all_points_visible_in_poppler_and_mupdf": true,
+      "portable_point_asset_count": 2,
+      "portable_point_source_glyph_runs": 1418,
+      "portable_point_unique_visual_centres": 200
+    }
+  },
+  "privacy_remediation": {
+    "metadata_only_rewrites": {
+      "classification": "metadata/privacy-only",
+      "title": {
+        "preimage": {
+          "path": "qa/b006-build/source-snapshot-v4/extraTeX/preamble/title_derivative.tex",
+          "bytes": 546,
+          "sha256": "edcf71fd12626a64ebfa0603c2155ad109c45d03179aca3dc4f6f523603eb223"
+        },
+        "final": {
+          "path": "repo/extraTeX/preamble/title_derivative.tex",
+          "bytes": 548,
+          "sha256": "1b5da4df4b12cf7428b1873143868082cc89df0336f480cff65b68e44424fc15"
+        },
+        "replacement_count": 1,
+        "reader_visible_requester_credit_neutralized": true
+      },
+      "task_owned_receipts": [
+        {
+          "path": "repo/ch_summarizing_data/figures/b005_eoce_closure/FINAL_RECEIPT.json",
+          "preimage": {
+            "path": "qa/b006-build/source-snapshot-v4/ch_summarizing_data/figures/b005_eoce_closure/FINAL_RECEIPT.json",
+            "bytes": 41724,
+            "sha256": "ffe3b4465c26428321fff32b983b3519153194884524316ec32f6d273aa61278"
+          },
+          "intermediate": {
+            "bytes": 41404,
+            "sha256": "0aa60947d74579ecf7b85ac6cd1e72ead82644bd335dad326f731a7667b5fa94"
+          },
+          "final": {
+            "path": "repo/ch_summarizing_data/figures/b005_eoce_closure/FINAL_RECEIPT.json",
+            "bytes": 38815,
+            "sha256": "d59d1e9f41ee14079ae8ef022d22921836e8aa3b0d906960ddd94b6715afef4d"
+          },
+          "path_occurrence_count": 80,
+          "substantive_counts_and_hashes_preserved": true,
+          "upstream_and_human_credits_preserved": true
+        },
+        {
+          "path": "repo/ch_summarizing_data/figures/b005_eoce_replay_hispanic_bacteria/PARTIAL_RECEIPT.json",
+          "preimage": {
+            "path": "qa/b006-build/source-snapshot-v4/ch_summarizing_data/figures/b005_eoce_replay_hispanic_bacteria/PARTIAL_RECEIPT.json",
+            "bytes": 35979,
+            "sha256": "2b4bfe645f969ffe9444c4609dca630ae08e84fac35c489b392650386f19f0fb"
+          },
+          "intermediate": {
+            "bytes": 35619,
+            "sha256": "3ccb3906b0b3c0c1c8bfe53b741b1660fe34e0b241fe7054cd1cf46aef0a194e"
+          },
+          "final": {
+            "path": "repo/ch_summarizing_data/figures/b005_eoce_replay_hispanic_bacteria/PARTIAL_RECEIPT.json",
+            "bytes": 32294,
+            "sha256": "e1f5e52f84e94367cde9e5ed3d9d00f7b3fc8c4b3abbb691007fc84a718bc673"
+          },
+          "path_occurrence_count": 90,
+          "substantive_counts_and_hashes_preserved": true,
+          "upstream_and_human_credits_preserved": true
+        },
+        {
+          "path": "repo/ch_summarizing_data/figures/b005_prefix_replay/FINAL_RECEIPT.json",
+          "preimage": {
+            "path": "qa/b006-build/source-snapshot-v4/ch_summarizing_data/figures/b005_prefix_replay/FINAL_RECEIPT.json",
+            "bytes": 48751,
+            "sha256": "64ff28b1333af238cf1b693a5d1984394ac5c9f0b8005818e505db2d448ab478"
+          },
+          "intermediate": {
+            "bytes": 48407,
+            "sha256": "6dc147a15092b6b9bceaf4582ba45e7c9f807212afc9c8d8fca526578d4089a6"
+          },
+          "final": {
+            "path": "repo/ch_summarizing_data/figures/b005_prefix_replay/FINAL_RECEIPT.json",
+            "bytes": 41966,
+            "sha256": "aade78b18ebdea04fc03395d2684c4f0305b048870f10d764a4c6574e72907a1"
+          },
+          "path_occurrence_count": 86,
+          "substantive_counts_and_hashes_preserved": true,
+          "upstream_and_human_credits_preserved": true
+        }
+      ],
+      "receipt_count": 3,
+      "path_occurrence_count": 256
+    },
+    "canonical_repo_scan": {
+      "root": "repo",
+      "prohibited_token_path_count": 0,
+      "prohibited_token_paths": [],
+      "absolute_profile_path_count": 0,
+      "absolute_profile_paths": [],
+      "result": "PASS_ZERO_ZERO"
+    },
+    "asset_privacy_refresh_qa": {
+      "path": "qa/b007-assets/B007_ASSET_PRIVACY_REFRESH_QA.json",
+      "bytes": 13841,
+      "sha256": "58358d23440cb8d632a9efa800ae3236c275ba425ed5b3e8c580c30bba15db81"
+    }
+  },
+  "remaining_source_or_asset_dependency": null,
+  "next_external_stage": "backend_build_and_boundary_admission"
+}

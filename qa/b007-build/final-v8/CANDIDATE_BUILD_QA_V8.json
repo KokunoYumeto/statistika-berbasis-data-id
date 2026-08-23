@@ -1,0 +1,684 @@
+{
+  "authority": {
+    "commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "repository": "https://github.com/OpenIntroStat/openintro-statistics",
+    "tree": "d61cc601e7d97759ce805900520f784d02a0489e"
+  },
+  "boundary_id": "R011-B007",
+  "build_files": {
+    "console-bibtex.txt": {
+      "bytes": 199,
+      "path": "qa/b007-build/final-v8/console-bibtex.txt",
+      "sha256": "e8a8631277d146deceea831b346bdcecc8b9ca6e96fadb70c78e2abda0c84c6b"
+    },
+    "console-makeindex1.txt": {
+      "bytes": 308,
+      "path": "qa/b007-build/final-v8/console-makeindex1.txt",
+      "sha256": "a8005f45b6614da989e431e5bfe646bb7b6a09ded3d27167e24fcdf69a22b667"
+    },
+    "console-makeindex2.txt": {
+      "bytes": 308,
+      "path": "qa/b007-build/final-v8/console-makeindex2.txt",
+      "sha256": "c2c9f26859b20a421e5ac152ba51fdf99eb91d9939f3a0a7f88228aa647c4fe2"
+    },
+    "console-makeindex3.txt": {
+      "bytes": 308,
+      "path": "qa/b007-build/final-v8/console-makeindex3.txt",
+      "sha256": "c2c9f26859b20a421e5ac152ba51fdf99eb91d9939f3a0a7f88228aa647c4fe2"
+    },
+    "console-mutool-info.txt": {
+      "bytes": 29161,
+      "path": "qa/b007-build/final-v8/console-mutool-info.txt",
+      "sha256": "e5f7ba9fae424923c53427346b1ae9cccf0475d949ff4bfcea07c7da88564d66"
+    },
+    "console-pass1.txt": {
+      "bytes": 301404,
+      "path": "qa/b007-build/final-v8/console-pass1.txt",
+      "sha256": "13183c7bc45ad3e4a10df5c3e2d002d13bad674a61fe3b70d988d6cbb569db50"
+    },
+    "console-pass2.txt": {
+      "bytes": 106356,
+      "path": "qa/b007-build/final-v8/console-pass2.txt",
+      "sha256": "b7626baccea4f52d3399cdcd0e0c2d2863aac3b7b3323af5a20853817ae810fe"
+    },
+    "console-pass3.txt": {
+      "bytes": 105979,
+      "path": "qa/b007-build/final-v8/console-pass3.txt",
+      "sha256": "15bca474e8dbe40f1764f7bb184c224f62b315dba780cbdddb39405835098507"
+    },
+    "console-pass4.txt": {
+      "bytes": 105979,
+      "path": "qa/b007-build/final-v8/console-pass4.txt",
+      "sha256": "15bca474e8dbe40f1764f7bb184c224f62b315dba780cbdddb39405835098507"
+    },
+    "console-pdfinfo.txt": {
+      "bytes": 819,
+      "path": "qa/b007-build/final-v8/console-pdfinfo.txt",
+      "sha256": "ac0a4e71e1a4d160a7fb2b83bb1629ac34553e328a636d0878ddb2c7156146f3"
+    },
+    "console-pdftotext.txt": {
+      "bytes": 0,
+      "path": "qa/b007-build/final-v8/console-pdftotext.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "main-final.txt": {
+      "bytes": 1583120,
+      "path": "qa/b007-build/final-v8/main-final.txt",
+      "sha256": "c1b6d1d777b3b89d7a70afa00f0429ce4e7a0b8e9bfbdd8ec17c87d84a564336"
+    },
+    "main.fls": {
+      "bytes": 279166,
+      "path": "qa/b007-build/final-v8/main.fls",
+      "sha256": "3a419b98746e1437f1746d191a3f1ec38257af920bf09923fd906bd9ea048bba"
+    },
+    "main.log": {
+      "bytes": 495076,
+      "path": "qa/b007-build/final-v8/main.log",
+      "sha256": "66fc93d9953425f9dd24c435c7f3fe3bf5f38655431aad647573f53fba5b0261"
+    }
+  },
+  "build_input_closure": {
+    "fls_input_records": 4010,
+    "forbidden_lane_inputs": [],
+    "live_repo_input_count": 0,
+    "run_input_records": 126,
+    "snapshot_input_records": 3454,
+    "unique_lane_inputs": 411
+  },
+  "build_visual_acceptance": {
+    "backend_or_control_mutated": false,
+    "next_cursor": "R011-B008",
+    "nonvisual_status": "passed",
+    "output_mutated": false,
+    "publication_performed": false,
+    "source_or_layout_mutated_by_finalization": false,
+    "source_snapshot": "qa/b007-build/source-snapshot-v8",
+    "source_snapshot_manifest": {
+      "bytes": 174617,
+      "path": "qa/b007-build/R011-B007_SNAPSHOT_MANIFEST_V8.tsv",
+      "sha256": "a09e47b52b7b8d5eada0d9086777dcfd57b71339897b9ff0769c6d43fbb0b4c4"
+    },
+    "status": "accepted_build_and_visual",
+    "visual_status": "passed"
+  },
+  "candidate_artifact": {
+    "bytes": 22017185,
+    "path": "qa/b007-build/final-v8/main.pdf",
+    "promoted": false,
+    "sha256": "ca872ddbc2fb1cab5f6cdb2fe745a0711a315fef68ab2e72c7a11d1c633a5c1a"
+  },
+  "candidate_history": {
+    "bytes": 18531,
+    "path": "qa/b007-build/final-v8/CANDIDATE_BUILD_QA_V8.json",
+    "preserved_unchanged": true,
+    "sha256": "1f1aab5da5646adbc53aec9178266f8c59575634a4a1a9d9e1547fbb757bf403",
+    "status": "pending_visual_review"
+  },
+  "determinism": {
+    "byte_identical": true,
+    "pass_3": {
+      "bytes": 22017185,
+      "path": "qa/b007-build/final-v8/main-pass3.pdf",
+      "sha256": "ca872ddbc2fb1cab5f6cdb2fe745a0711a315fef68ab2e72c7a11d1c633a5c1a"
+    },
+    "pass_4": {
+      "bytes": 22017185,
+      "path": "qa/b007-build/final-v8/main.pdf",
+      "sha256": "ca872ddbc2fb1cab5f6cdb2fe745a0711a315fef68ab2e72c7a11d1c633a5c1a"
+    }
+  },
+  "edition_metadata": {
+    "exact_model_identification": "OpenAI Codex gpt-5.6-sol, Ultra",
+    "exact_model_line_sources": [
+      {
+        "bytes": 3830,
+        "exact_model_line_occurrences": 1,
+        "path": "README.md",
+        "sha256": "98e0df40bfd28aec008cc90d7f8da724cf7de3710e2ba1610221476f6fa6b8d2"
+      },
+      {
+        "bytes": 1136,
+        "exact_model_line_occurrences": 1,
+        "path": "CITATION.cff",
+        "sha256": "9d500aaffbe4039e34a02a3a3eb8246df25b1b80f9fad139294d1b30505df0f0"
+      }
+    ],
+    "localized_scope": "Bab 1 dan Bagian 2.1–2.3"
+  },
+  "errors": [],
+  "final_log": {
+    "duplicate_destination_warnings": 1,
+    "fatal_errors": 0,
+    "latex_errors": 0,
+    "missing_characters": 0,
+    "missing_destinations": 0,
+    "overfull_hbox_warnings": 416,
+    "overfull_vbox_warnings": 2,
+    "rerun_requests": 0,
+    "undefined_references_or_citations": 0,
+    "underfull_hbox_warnings": 161,
+    "underfull_vbox_warnings": 0
+  },
+  "finalization_script": {
+    "bytes": 23751,
+    "path": "scripts/qa_finalize_b007_visual_v8.py",
+    "sha256": "c98dc40b05b77892f07e653a1f8162b2d3628830497bda6f3f7bf9e550b4ff9b"
+  },
+  "gate_script": {
+    "bytes": 21307,
+    "path": "scripts/qa_build_b007.py",
+    "sha256": "43991ce4dcd0e45bf488645e4f5b1d7be32703a1966fdacf16df02316cef14c1"
+  },
+  "limitations": [
+    "This candidate is not promoted and no automated visual PASS is asserted.",
+    "Chapter 3 and later instructional content deliberately remain upstream English.",
+    "The PDF declares id-ID but the inherited source does not produce a structurally tagged PDF.",
+    "One inherited unreferenced duplicate page-destination warning is permitted and counted exactly.",
+    "TeX box-warning counts are retained for page-by-page visual review.",
+    "The five exact English figure witnesses are frozen in the source closure but are not reader-linked."
+  ],
+  "links_and_structure": {
+    "additional_action_present": false,
+    "all_pages_letter_612_by_792_points": true,
+    "annotation_links": 2759,
+    "b007_boundary_pages": {
+      "all_candidate_pages": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        46,
+        47,
+        53,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        388,
+        389,
+        390
+      ],
+      "chapter_3_transition_page": 81,
+      "coverage_policy": "all Section 2.3 pages, one preceding page, the Chapter 3 transition and one following page; public answer 2.25 plus adjacent pages; the preface terminology-correction page plus adjacent pages; and every earlier translated page whose extracted accessibility text contains the propagated term interval kelas; plus the neutral requester-credit title page and adjacent context",
+      "exercise_2_25_hits": [
+        76
+      ],
+      "exercise_2_26_hits": [
+        77
+      ],
+      "heading_hits": [
+        72
+      ],
+      "interval_kelas_accessibility_hits": [
+        46,
+        47,
+        53
+      ],
+      "localized_edition_scope": "Bab 1 dan Bagian 2.1–2.3",
+      "localized_edition_scope_hits": [
+        5
+      ],
+      "preface_context_pages": [
+        4,
+        5,
+        6
+      ],
+      "preface_statistika_inferensial_hits": [
+        5
+      ],
+      "prohibited_reader_visible_token_hits": [],
+      "public_answer_2_25_hits": [
+        389
+      ],
+      "public_answer_context_pages": [
+        388,
+        389,
+        390
+      ],
+      "section_2_3_content_span": [
+        72,
+        80
+      ],
+      "section_2_3_page": 72,
+      "section_transition_context_pages": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82
+      ],
+      "title_privacy_context_pages": [
+        1,
+        2
+      ],
+      "title_privacy_hits": [
+        1
+      ]
+    },
+    "document_language": "id-ID",
+    "embedded_file_name_tree_present": false,
+    "encrypted": false,
+    "file_attachment_annotations": 0,
+    "form_present": false,
+    "goto_links": 2475,
+    "javascript_name_tree_present": false,
+    "links_without_action_or_destination": 0,
+    "missing_link_targets": 0,
+    "named_destinations": 3406,
+    "open_action_type": "/GoTo",
+    "opening_view_goto_valid": true,
+    "other_action_links": 0,
+    "other_action_types": {},
+    "page_count": 425,
+    "raw_pdf_prohibited_token_present": false,
+    "tagged": false,
+    "uri_links": 284,
+    "visual_candidate_pages": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      46,
+      47,
+      53,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      388,
+      389,
+      390
+    ]
+  },
+  "metadata": {
+    "/Author": "David M. Diez, Mine Çetinkaya-Rundel, Christopher D. Barr",
+    "/CreationDate": "D:20260820000000Z",
+    "/Keywords": "statistika, data, buku teks, bahasa Indonesia",
+    "/ModDate": "D:20260820000000Z",
+    "/Subject": "Karya turunan berbahasa Indonesia dari OpenIntro Statistics, Edisi Keempat",
+    "/Title": "Statistika Berbasis Data"
+  },
+  "nonvisual_status": "passed",
+  "pdfinfo": {
+    "Author": "David M. Diez, Mine Çetinkaya-Rundel, Christopher D. Barr",
+    "CreationDate": "Thu Aug 20 02:00:00 2026 W. Europe Daylight Time",
+    "Creator": "LaTeX with hyperref",
+    "Custom Metadata": "yes",
+    "Encrypted": "no",
+    "File size": "22017185 bytes",
+    "Form": "none",
+    "JavaScript": "no",
+    "Keywords": "statistika, data, buku teks, bahasa Indonesia",
+    "Metadata Stream": "no",
+    "ModDate": "Thu Aug 20 02:00:00 2026 W. Europe Daylight Time",
+    "Optimized": "no",
+    "PDF version": "1.5",
+    "Page rot": "0",
+    "Page size": "612 x 792 pts (letter)",
+    "Pages": "425",
+    "Producer": "MiKTeX pdfTeX-1.40.29",
+    "Subject": "Karya turunan berbahasa Indonesia dari OpenIntro Statistics, Edisi Keempat",
+    "Suspects": "no",
+    "Tagged": "no",
+    "Title": "Statistika Berbasis Data",
+    "UserProperties": "no"
+  },
+  "pending": [],
+  "privacy_final": {
+    "absolute_profile_path_hits": 0,
+    "prohibited_token_hits": 0,
+    "result": "PASS_ZERO_ZERO"
+  },
+  "schema": "openintro-boundary-build-candidate-qa",
+  "schema_version": "0.2.0",
+  "source_closure": {
+    "adversarial_self_tests": {
+      "count": 14,
+      "failure_count": 0,
+      "sha256": "935e4863f32b49c75c12ae03a24762a46dc2473c5dd8e846858de6e0c831f5b7",
+      "tests": [
+        {
+          "id": "reject_prefix_mutation",
+          "status": "PASS"
+        },
+        {
+          "id": "reject_suffix_mutation",
+          "status": "PASS"
+        },
+        {
+          "id": "reject_command_mutation",
+          "status": "PASS"
+        },
+        {
+          "id": "reject_label_mutation",
+          "status": "PASS"
+        },
+        {
+          "id": "reject_numeric_mutation",
+          "status": "PASS"
+        },
+        {
+          "id": "reject_invented_answer_26",
+          "status": "PASS"
+        },
+        {
+          "id": "reject_duplicate_term_id",
+          "status": "PASS"
+        },
+        {
+          "id": "reject_wrong_o001_id",
+          "status": "PASS"
+        },
+        {
+          "id": "reject_asset_mutation",
+          "status": "PASS"
+        },
+        {
+          "id": "reject_sc006_reopened_after_promotion",
+          "status": "PASS"
+        },
+        {
+          "id": "reject_candidate_avandia_n100",
+          "status": "PASS"
+        },
+        {
+          "id": "reject_missing_index_alias",
+          "status": "PASS"
+        },
+        {
+          "id": "reject_old_bin_order",
+          "status": "PASS"
+        },
+        {
+          "id": "reject_statistical_inference_regression",
+          "status": "PASS"
+        }
+      ]
+    },
+    "assembly_evidence": {
+      "embedded_in_candidate_receipt": true,
+      "persisted_separately": true,
+      "policy": "every path and file identity is recomputed against the admitted base closure and exact B007 deltas on every replay"
+    },
+    "checks": {
+      "count": 14,
+      "failure_count": 0,
+      "ids": [
+        "final_file_identities",
+        "privacy_metadata_only_rewrites",
+        "canonical_repo_privacy_scan",
+        "bound_candidate_inputs",
+        "chapter_double_reverse_reconstruction",
+        "exercise_double_reverse_reconstruction",
+        "answer_reverse_reconstruction",
+        "prior_translation_field_usage_reverse",
+        "tex_structure_and_semantics",
+        "indonesian_copy_and_field_usage",
+        "coverage_and_answer_topology",
+        "terminology_deduplication_and_reverse",
+        "adverse_deduplication_and_reverse",
+        "asset_promotion_exact_binding"
+      ],
+      "sha256": "e49a3a3384d1e57a83b22f324484d0f0fa924fc858ecbff9a556975dad56890b"
+    },
+    "derived_snapshot_manifest": {
+      "bytes": 174617,
+      "derivation": "admitted R011-B006 target manifest plus exactly 24 hash-bound B007 repo deltas, including five source-en witness additions",
+      "file_bytes": 41262291,
+      "file_count": 1200,
+      "path": "qa/b007-build/R011-B007_SNAPSHOT_MANIFEST_V8.tsv",
+      "sha256": "a09e47b52b7b8d5eada0d9086777dcfd57b71339897b9ff0769c6d43fbb0b4c4"
+    },
+    "file_bytes": 41262291,
+    "file_count": 1200,
+    "path": "qa/b007-build/source-snapshot-v8",
+    "path_set_and_all_file_identities_match_manifest": true,
+    "privacy_scan": {
+      "absolute_profile_path_count": 0,
+      "absolute_profile_paths": [],
+      "prohibited_token_path_count": 0,
+      "prohibited_token_paths": [],
+      "result": "PASS_ZERO_ZERO"
+    },
+    "source_application_manifest": {
+      "bytes": 27428,
+      "path": "qa/R011-B007_SOURCE_APPLICATION_MANIFEST.json",
+      "sha256": "7f8943fc8d02e4f9502f9235fcb0160b9326261e8faf0b8099d8138595277496"
+    },
+    "source_application_receipt": {
+      "bytes": 26533,
+      "path": "qa/R011-B007_SOURCE_APPLICATION_RECEIPT.json",
+      "sha256": "1b0429aa37617e021fb77d1ede777347dbb5df24cba79ebda60da521d3ee3187"
+    },
+    "source_gate_qa": {
+      "bytes": 3370,
+      "path": "qa/R011-B007_SOURCE_GATE_QA.json",
+      "sha256": "677921acb28e9da034c4c40fc78a7367162ceaf1d986a8bdb0f29977aa237294"
+    },
+    "source_receipt_result": "PASS_SOURCE_APPLICATION_AND_ASSET_BINDING",
+    "status": "passed"
+  },
+  "status": "accepted",
+  "toolchain": {
+    "force_source_date": true,
+    "sequence": [
+      "pdflatex-1",
+      "bibtex",
+      "makeindex-1",
+      "pdflatex-2",
+      "makeindex-2",
+      "pdflatex-3",
+      "makeindex-3",
+      "pdflatex-4"
+    ],
+    "source_date_epoch": 1787184000,
+    "stable_final_passes": [
+      3,
+      4
+    ],
+    "timezone": "UTC",
+    "versions": {
+      "bibtex": {
+        "executable": "bibtex.exe",
+        "version_first_line": "MiKTeX-BibTeX 4.2 (MiKTeX 26.5)"
+      },
+      "makeindex": {
+        "executable": "makeindex.exe",
+        "version_first_line": "Unknown option --."
+      },
+      "mutool": {
+        "executable": "mutool.exe",
+        "version_first_line": "mutool version 1.23.0"
+      },
+      "pdfinfo": {
+        "executable": "pdfinfo.exe",
+        "version_first_line": "pdfinfo version 24.04.0"
+      },
+      "pdflatex": {
+        "executable": "pdflatex.exe",
+        "version_first_line": "MiKTeX-pdfTeX 4.27 (MiKTeX 26.5)"
+      },
+      "pdftoppm": {
+        "executable": "pdftoppm.exe",
+        "version_first_line": "pdftoppm version 24.04.0"
+      },
+      "pdftotext": {
+        "executable": "pdftotext.exe",
+        "version_first_line": "pdftotext version 24.04.0"
+      },
+      "pillow": {
+        "version": "12.2.0"
+      },
+      "pypdf": {
+        "version": "6.12.2"
+      },
+      "python": {
+        "version": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]"
+      }
+    }
+  },
+  "visual_evidence": {
+    "candidate_page_count": 23,
+    "candidate_pages": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      46,
+      47,
+      53,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      388,
+      389,
+      390
+    ],
+    "claim": "no visual PASS is asserted by this automated gate",
+    "contact_sheet": {
+      "bytes": 961888,
+      "path": "qa/b007-render/final-v8/CONTACT_SHEET.png",
+      "sha256": "a088b211a037684ba5cfab6eb237b0cdc6343d5ee646ca078b14c7c871d4a95a"
+    },
+    "individual_png_bytes": 7696017,
+    "inspection_resolution_dpi": 180,
+    "operator_inspection": {
+      "all_required_b007_pages_inspected": true,
+      "mupdf_pages": [
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82
+      ],
+      "poppler_pages": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        46,
+        47,
+        53,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        388,
+        389,
+        390
+      ]
+    },
+    "page_locator": {
+      "bytes": 1503,
+      "path": "qa/b007-render/final-v8/PAGE_LOCATOR.json",
+      "sha256": "80ba13a304b6db2384aa4f60718f710677ab396aea5d24ba8a766fb91d628e4b"
+    },
+    "pdf": {
+      "bytes": 22017185,
+      "path": "qa/b007-build/final-v8/main.pdf",
+      "sha256": "ca872ddbc2fb1cab5f6cdb2fe745a0711a315fef68ab2e72c7a11d1c633a5c1a"
+    },
+    "render_diagnostics": {
+      "allowed_diagnostic_count": 176,
+      "pages_with_allowed_diagnostics": [
+        46,
+        53,
+        71,
+        75,
+        77,
+        78,
+        79,
+        80,
+        388,
+        389,
+        390
+      ],
+      "policy": "only the inherited Poppler no-display-font diagnostics enumerated by the gate are accepted; all other diagnostics fail",
+      "unexpected_diagnostic_count": 0,
+      "unique_allowed_diagnostics": [
+        "Syntax Error: No display font for 'ArialNarrow'",
+        "Syntax Error: No display font for 'ArialNarrow,Bold'",
+        "Syntax Error: No display font for 'ArialNarrow,BoldItalic'",
+        "Syntax Error: No display font for 'ArialNarrow,Italic'",
+        "Syntax Error: No display font for 'ArialNarrow-Bold'",
+        "Syntax Error: No display font for 'ArialNarrow-BoldItalic'",
+        "Syntax Error: No display font for 'ArialNarrow-Italic'",
+        "Syntax Error: No display font for 'ArialUnicode'",
+        "Syntax Error: No display font for 'HelveticaNarrow'",
+        "Syntax Error: No display font for 'HelveticaNarrow,Bold'",
+        "Syntax Error: No display font for 'HelveticaNarrow,BoldItalic'",
+        "Syntax Error: No display font for 'HelveticaNarrow,Italic'",
+        "Syntax Error: No display font for 'HelveticaNarrow-Bold'",
+        "Syntax Error: No display font for 'HelveticaNarrow-BoldItalic'",
+        "Syntax Error: No display font for 'HelveticaNarrow-Italic'",
+        "Syntax Error: No display font for 'Symbol'"
+      ]
+    },
+    "render_manifest": {
+      "bytes": 2019,
+      "path": "qa/b007-render/final-v8/FINAL_MANIFEST.tsv",
+      "sha256": "895e6ff19e786153ae03cc9397f21bb3629beece560d727c35af29887d5c9748"
+    },
+    "required_next_action": "none for B007 build/visual QA",
+    "status": "passed_operator_inspection",
+    "visual_audit": {
+      "bytes": 13083,
+      "path": "qa/R011-B007_VISUAL_AUDIT.json",
+      "sha256": "67395e5c8b13d9373952e42c26733d32b94c97bde7162f25500b4dc492f8c6b2"
+    }
+  },
+  "write_boundary": [
+    "qa/R011-B007_VISUAL_AUDIT.json",
+    "qa/b007-build/final-v8/CANDIDATE_BUILD_QA_V8.json"
+  ]
+}

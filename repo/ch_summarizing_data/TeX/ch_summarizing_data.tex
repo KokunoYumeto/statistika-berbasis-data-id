@@ -431,19 +431,19 @@ Diagram titik menunjukkan nilai tepat setiap pengamatan.
 Tampilan ini berguna untuk kumpulan data kecil, tetapi dapat
 menjadi sulit dibaca pada sampel yang lebih besar. Alih-alih
 menampilkan nilai setiap pengamatan, kita menganggap setiap nilai
-sebagai anggota suatu \emph{kelas interval} (\emph{bin}).
+sebagai anggota suatu \emph{interval kelas} (\emph{bin}).
 Sebagai contoh, untuk kumpulan data \data{loan50}, kita membuat
 tabel hitungan banyaknya pinjaman dengan suku bunga antara 5.0\%
 dan 7.5\%, kemudian banyaknya pinjaman dengan suku bunga antara
 7.5\% dan 10.0\%, dan seterusnya.
-Pengamatan yang tepat berada pada batas kelas interval
+Pengamatan yang tepat berada pada batas interval kelas
 (misalnya 10.00\%) dimasukkan ke kelas yang lebih rendah.
 Tabulasi ini ditampilkan dalam Gambar~\ref{binnedIntRateAmountTable}.
-Hitungan per kelas interval tersebut digambar sebagai batang dalam
+Hitungan per interval kelas tersebut digambar sebagai batang dalam
 Gambar~\ref{loan50IntRateHist}, membentuk apa yang disebut
 \term{histogram}. Bentuknya menyerupai diagram titik bertumpuk pada
 Gambar~\ref{loan_int_rate_dot_plot_stacked}, tetapi dengan
-pengelompokan kelas interval yang lebih lebar.
+pengelompokan interval kelas yang lebih lebar.
 
 \begin{figure}[ht]
 \centering\small
@@ -461,7 +461,7 @@ pengelompokan kelas interval yang lebih lebar.
   \hline
 \end{tabular}
 \caption{Hitungan data \var{interest\us{}rate}
-    menurut kelas interval.}
+    menurut interval kelas.}
 \label{binnedIntRateAmountTable}
 \end{figure}
 % library(openintro); library(xtable); d <- loan50$interest_rate; max(d); t1 <- table(cut(d, seq(5, 27.5, 2.5), right = TRUE)); t1; xtable(rbind(t1))
@@ -469,7 +469,7 @@ pengelompokan kelas interval yang lebih lebar.
 \begin{figure}[bth]
   \centering
   \Figure
-    [Histogram dengan sumbu horizontal berlabel "Suku Bunga" (suku bunga) dan frekuensi kemunculan berbagai kelas interval suku bunga pada sumbu vertikal. Kelas pertama, 5\%-7.5\%, mempunyai frekuensi (hitungan) 11 pengamatan; 7.5\%-10\% berfrekuensi 15; 10\%-12.5\% berfrekuensi 8; 12.5\%-15\% berfrekuensi 4; 15\%-17.5\% berfrekuensi 5; 17.5\%-20\% berfrekuensi 4; sedangkan kelas 20\%-22.5\%, 22.5\%-25\%, dan 25\%-27.5\% masing-masing berfrekuensi 1.]
+    [Histogram dengan sumbu horizontal berlabel "Suku Bunga" (suku bunga) dan frekuensi kemunculan berbagai interval kelas suku bunga pada sumbu vertikal. Kelas pertama, 5\%-7.5\%, mempunyai frekuensi (hitungan) 11 pengamatan; 7.5\%-10\% berfrekuensi 15; 10\%-12.5\% berfrekuensi 8; 12.5\%-15\% berfrekuensi 4; 15\%-17.5\% berfrekuensi 5; 17.5\%-20\% berfrekuensi 4; sedangkan kelas 20\%-22.5\%, 22.5\%-25\%, dan 25\%-27.5\% masing-masing berfrekuensi 1.]
     {0.76}{loan50IntRateHist}
   \caption{Histogram \var{interest\us{}rate}.
       Distribusi ini sangat menceng ke kanan.
@@ -559,12 +559,12 @@ disebut multimodal.
 Perhatikan bahwa distribusi unimodal itu mempunyai satu puncak
 menonjol dan satu puncak lain yang kurang menonjol. Puncak kedua
 tidak dihitung karena tingginya hanya berbeda beberapa pengamatan
-dari kelas-kelas interval di sebelahnya.
+dari interval-interval kelas di sebelahnya.
 
 \begin{figure}[h]
   \centering
   \Figure
-    [Ditampilkan tiga histogram. Histogram pertama mempunyai kelas interval selebar 2 dari 0 hingga 18 pada sumbu horizontal, dengan frekuensi 3, 16, 16, 7, 11, 6, 4, 1, dan 1. Histogram kedua, yang mewakili kumpulan data berbeda, mempunyai kelas interval selebar 2 dengan nilai 0 hingga 20; hitungan kelasnya secara berurutan ialah 2, 9, 5, 2, 2, 2, 2, 10, 19, dan 9. Histogram ketiga, untuk kumpulan data lain lagi, mempunyai kelas interval selebar 2 dengan nilai 0 hingga 22; hitungan kelasnya secara berurutan ialah 10, 8, 4, 3, 1, 20, 15, 3, 15, 18, dan 5.]
+    [Ditampilkan tiga histogram. Histogram pertama mempunyai interval kelas selebar 2 dari 0 hingga 18 pada sumbu horizontal, dengan frekuensi 3, 16, 16, 7, 11, 6, 4, 1, dan 1. Histogram kedua, yang mewakili kumpulan data berbeda, mempunyai interval kelas selebar 2 dengan nilai 0 hingga 20; hitungan kelasnya secara berurutan ialah 2, 9, 5, 2, 2, 2, 2, 10, 19, dan 9. Histogram ketiga, untuk kumpulan data lain lagi, mempunyai interval kelas selebar 2 dengan nilai 0 hingga 22; hitungan kelasnya secara berurutan ialah 10, 8, 4, 3, 1, 20, 15, 3, 15, 18, dan 5.]
     {0.9}{singleBiMultiModalPlots}
   \caption{Jika hanya puncak yang menonjol yang dihitung,
       distribusi-distribusi ini (dari kiri ke kanan) bersifat
@@ -731,7 +731,7 @@ Yunani \emph{sigma}.
 \begin{figure}
   \centering
   \Figure
-    [Ditampilkan tiga histogram (atas, tengah, bawah). Setiap distribusi juga memuat arsiran: abu-abu gelap antara -1 dan 1, abu-abu lebih muda antara -2 dan 2, abu-abu muda antara -3 dan 3, lalu abu-abu sangat muda di luarnya. Diagram atas hanya mempunyai dua kelas interval bernilai tak nol dengan tinggi sama, masing-masing pada -1 dan 1. Diagram tengah membentuk kurva lonceng; sebagian besar kelas interval yang tinggi berada antara -1 dan 1, tinggi sedang berada antara -2 dan -1 serta antara 1 dan 2, lalu data makin jarang pada kedua arah dengan nilai yang terus mengecil. Histogram bawah tidak mempunyai data di bawah sekitar -1.6; nilainya naik cepat ke puncak sekitar -0.7, lalu turun perlahan hingga sekitar setengah tinggi maksimum pada 1 dan terus mengecil hingga posisi horizontal 3 dan seterusnya.]
+    [Ditampilkan tiga histogram (atas, tengah, bawah). Setiap distribusi juga memuat arsiran: abu-abu gelap antara -1 dan 1, abu-abu lebih muda antara -2 dan 2, abu-abu muda antara -3 dan 3, lalu abu-abu sangat muda di luarnya. Diagram atas hanya mempunyai dua interval kelas bernilai tak nol dengan tinggi sama, masing-masing pada -1 dan 1. Diagram tengah membentuk kurva lonceng; sebagian besar interval kelas yang tinggi berada antara -1 dan 1, tinggi sedang berada antara -2 dan -1 serta antara 1 dan 2, lalu data makin jarang pada kedua arah dengan nilai yang terus mengecil. Histogram bawah tidak mempunyai data di bawah sekitar -1.6; nilainya naik cepat ke puncak sekitar -0.7, lalu turun perlahan hingga sekitar setengah tinggi maksimum pada 1 dan terus mengecil hingga posisi horizontal 3 dan seterusnya.]
     {0.6}{severalDiffDistWithSdOf1}
   \caption{Tiga distribusi populasi yang sangat berbeda dengan
       rata-rata $\mu=0$ dan simpangan baku $\sigma=1$ yang sama.}
@@ -1056,7 +1056,7 @@ agar lebih mudah dimodelkan.
     \label{county_pop_transformed_i}
   }
   \subfigure[]{
-    \Figures[Ditampilkan histogram dengan logaritma basis 10 dari populasi pada sumbu horizontal. Sumbu horizontal membentang dari sekitar 2 hingga 7, dan frekuensi (tinggi kelas interval/kotak) mencapai puncak sedikit di atas 1000. Data kira-kira berbentuk lonceng, dengan puncak di tengah antara 4 dan 4.5; makin jauh dari 4--4.5, frekuensinya makin rendah dan mendekati nol di luar 2.5 hingga 6.5.]
+    \Figures[Ditampilkan histogram dengan logaritma basis 10 dari populasi pada sumbu horizontal. Sumbu horizontal membentang dari sekitar 2 hingga 7, dan frekuensi (tinggi interval kelas/kotak) mencapai puncak sedikit di atas 1000. Data kira-kira berbentuk lonceng, dengan puncak di tengah antara 4 dan 4.5; makin jauh dari 4--4.5, frekuensinya makin rendah dan mendekati nol di luar 2.5 hingga 6.5.]
         {0.46}
         {county_pop_transformed}
         {county_pop_transformed_log}
@@ -1076,7 +1076,7 @@ agar lebih mudah dimodelkan.
     Gambar~\ref{county_pop_transformed_i}, yang sangat menceng.
     \index{kemencengan!ekstrem}
     Apa yang membuat diagram ini kurang berguna?}
-  Hampir semua data masuk ke kelas interval paling kiri, dan
+  Hampir semua data masuk ke interval kelas paling kiri, dan
   kemencengan yang ekstrem menyamarkan banyak rincian data yang
   sebenarnya berpotensi menarik.
 \end{nexample}
@@ -2021,7 +2021,7 @@ digambar dengan skala yang sama.
 
 \begin{figure}[!t]
   \centering
-  \Figure[Dua grafik ditampilkan: diagram kotak berdampingan di kiri dan dua histogram berongga yang ditumpangtindihkan di kanan. Keduanya menggambarkan data yang sama dari himpunan data county: variabel numerik "Pendapatan Rumah Tangga Median" dan variabel kategoris "Perubahan jumlah penduduk" dengan kategori "Bertambah" serta "Tidak bertambah". Pada grafik kiri, diagram kotak "Bertambah" berada di kiri dan "Tidak bertambah" di kanan, dengan sumbu vertikal dari sekitar \$20,000 sampai sekitar \$130,000. Kumis bawah "Tidak bertambah" berada di sekitar \$20,000, sedangkan kumis bawah "Bertambah" sekitar \$25,000. Batas bawah kotak "Tidak bertambah" sekitar \$40,000 dan batas bawah kotak "Bertambah" sekitar \$47,000. Garis median "Tidak bertambah" sekitar \$45,000, bahkan lebih rendah daripada batas bawah kotak "Bertambah". Median "Bertambah" sekitar \$53,000, sedikit di atas batas atas kotak "Tidak bertambah" yang sekitar \$52,000. Batas atas kotak "Bertambah" sekitar \$62,000. Kumis atas "Bertambah" mencapai sekitar \$87,000 dan kumis atas "Tidak bertambah" sekitar \$70,000. Banyak titik pengamatan terletak di atas kumis atas; pencilan terbesar "Bertambah" sekitar \$130,000 dan "Tidak bertambah" sekitar \$112,000. Pada grafik kanan, dua histogram berongga untuk kategori "Bertambah" (biru) dan "Tidak bertambah" (merah) ditumpangtindihkan. Sumbu horizontal membentang dari sekitar \$20,000 sampai sekitar \$130,000. Setiap histogram hanya menampilkan garis batas atas setiap kelas interval. Di sisi kiri, garis "Tidak bertambah" mulai sedikit naik pada \$20,000, sedangkan garis "Bertambah" mulai naik sekitar \$25,000. Garis "Tidak bertambah" kemudian naik tajam mulai sekitar \$30,000, disusul garis "Bertambah" yang naik tajam sekitar \$40,000. Pada titik ini, "Tidak bertambah" juga mencapai puncak dan relatif datar sampai sekitar \$50,000; di sekitar \$50,000 garis "Bertambah" juga mencapai puncak. Pada titik tersebut, garis "Tidak bertambah" turun tajam dari puncak yang relatif datar antara sekitar \$35,000 sampai \$50,000, sedangkan kelompok "Bertambah" mulai turun jauh lebih lambat di sekitar \$50,000. Di sekitar \$70,000, "Tidak bertambah" hampir menyentuh sumbu horizontal, sementara "Bertambah" baru turun sekitar 70\% dari puncaknya. "Tidak bertambah" tetap dekat sumbu sampai menyatu dengannya sedikit di atas \$90,000. Sebaliknya, "Bertambah" menurun perlahan dari sekitar 30\% puncaknya pada \$70,000 hingga mendekati sumbu pada \$100,000. Kelompok "Bertambah" sedikit naik antara \$100,000 dan \$130,000 sebelum menyatu dengan sumbu horizontal.]
+  \Figure[Dua grafik ditampilkan: diagram kotak berdampingan di kiri dan dua histogram berongga yang ditumpangtindihkan di kanan. Keduanya menggambarkan data yang sama dari himpunan data county: variabel numerik "Pendapatan Rumah Tangga Median" dan variabel kategoris "Perubahan jumlah penduduk" dengan kategori "Bertambah" serta "Tidak bertambah". Pada grafik kiri, diagram kotak "Bertambah" berada di kiri dan "Tidak bertambah" di kanan, dengan sumbu vertikal dari sekitar \$20,000 sampai sekitar \$130,000. Kumis bawah "Tidak bertambah" berada di sekitar \$20,000, sedangkan kumis bawah "Bertambah" sekitar \$25,000. Batas bawah kotak "Tidak bertambah" sekitar \$40,000 dan batas bawah kotak "Bertambah" sekitar \$47,000. Garis median "Tidak bertambah" sekitar \$45,000, bahkan lebih rendah daripada batas bawah kotak "Bertambah". Median "Bertambah" sekitar \$53,000, sedikit di atas batas atas kotak "Tidak bertambah" yang sekitar \$52,000. Batas atas kotak "Bertambah" sekitar \$62,000. Kumis atas "Bertambah" mencapai sekitar \$87,000 dan kumis atas "Tidak bertambah" sekitar \$70,000. Banyak titik pengamatan terletak di atas kumis atas; pencilan terbesar "Bertambah" sekitar \$130,000 dan "Tidak bertambah" sekitar \$112,000. Pada grafik kanan, dua histogram berongga untuk kategori "Bertambah" (biru) dan "Tidak bertambah" (merah) ditumpangtindihkan. Sumbu horizontal membentang dari sekitar \$20,000 sampai sekitar \$130,000. Setiap histogram hanya menampilkan garis batas atas setiap interval kelas. Di sisi kiri, garis "Tidak bertambah" mulai sedikit naik pada \$20,000, sedangkan garis "Bertambah" mulai naik sekitar \$25,000. Garis "Tidak bertambah" kemudian naik tajam mulai sekitar \$30,000, disusul garis "Bertambah" yang naik tajam sekitar \$40,000. Pada titik ini, "Tidak bertambah" juga mencapai puncak dan relatif datar sampai sekitar \$50,000; di sekitar \$50,000 garis "Bertambah" juga mencapai puncak. Pada titik tersebut, garis "Tidak bertambah" turun tajam dari puncak yang relatif datar antara sekitar \$35,000 sampai \$50,000, sedangkan kelompok "Bertambah" mulai turun jauh lebih lambat di sekitar \$50,000. Di sekitar \$70,000, "Tidak bertambah" hampir menyentuh sumbu horizontal, sementara "Bertambah" baru turun sekitar 70\% dari puncaknya. "Tidak bertambah" tetap dekat sumbu sampai menyatu dengannya sedikit di atas \$90,000. Sebaliknya, "Bertambah" menurun perlahan dari sekitar 30\% puncaknya pada \$70,000 hingga mendekati sumbu pada \$100,000. Kelompok "Bertambah" sedikit naik antara \$100,000 dan \$130,000 sebelum menyatu dengan sumbu horizontal.]
       {1.00}{countyIncomeSplitByPopGain}
   \caption{Diagram kotak berdampingan (panel kiri)
       dan histogram berongga (panel kanan) untuk
@@ -2095,49 +2095,47 @@ yang menurut Anda paling berguna?\footnotemark{}
 
 
 %___________________________________________
-\section{Case study: malaria vaccine}
+\section{Studi kasus: vaksin malaria}
 \label{caseStudyMalariaVaccine}
 
 \begin{examplewrap}
-\begin{nexample}{Suppose your professor splits the students in class into two groups: students on the left and students on the right. If $\hat{p}_{_L}$ and $\hat{p}_{_R}$ represent the proportion of students who own an Apple product on the left and right, respectively, would you be surprised if $\hat{p}_{_L}$ did not {exactly} equal $\hat{p}_{_R}$?}\label{classRightLeftSideApple}
-While the proportions would probably be close to each other, it would be unusual for them to be exactly the same. We would probably observe a small difference due to {chance}.
+\begin{nexample}{Misalkan dosen Anda membagi mahasiswa di kelas menjadi dua kelompok: mahasiswa di sisi kiri dan mahasiswa di sisi kanan. Jika $\hat{p}_{_L}$ dan $\hat{p}_{_R}$ masing-masing menyatakan proporsi mahasiswa yang memiliki produk Apple di sisi kiri dan kanan, apakah Anda akan terkejut jika $\hat{p}_{_L}$ tidak {persis} sama dengan $\hat{p}_{_R}$?}\label{classRightLeftSideApple}
+Walaupun kedua proporsi itu kemungkinan besar berdekatan, tidak lazim jika keduanya persis sama. Kita mungkin akan mengamati sedikit perbedaan karena {faktor kebetulan}.
 \end{nexample}
 \end{examplewrap}
 
 \begin{exercisewrap}
 \begin{nexercise}
-If we don't think the side of the room a person sits on
-in class is related to whether the person owns an Apple product,
-what assumption are we making about the relationship between
-these two variables?\footnotemark{}
+Jika kita beranggapan bahwa sisi ruangan tempat seseorang duduk
+di kelas tidak berkaitan dengan apakah orang tersebut memiliki produk Apple,
+asumsi apa yang kita buat tentang hubungan antara
+kedua variabel ini?\footnotemark{}
 \end{nexercise}
 \end{exercisewrap}
-\footnotetext{We would be assuming that these two variables
-  are independent.}
+\footnotetext{Kita mengasumsikan bahwa kedua variabel ini
+  saling independen.}
 
 
-\subsection{Variability within data}
+\subsection{Variabilitas dalam data}
 \label{variabilityWithinData}
 
-\index{data!malaria vaccine|(}
+\index{data!malaria vaccine@vaksin malaria|(}
 
-We consider a study on a new malaria vaccine
-called PfSPZ.
-In this study, volunteer patients were randomized
-into one of two experiment groups:
-14 patients received an experimental vaccine
-and 6 patients received a placebo vaccine.
-Nineteen weeks later, all 20 patients were exposed
-to a drug-sensitive malaria parasite strain;
-the motivation of using a drug-sensitive strain
-of parasite here is for ethical considerations,
-allowing any infections to be treated effectively.
-The results are summarized in
-Figure~\ref{malaria_vaccine_20_exp_summary},
-where 9 of the 14 treatment patients remained free
-of signs of infection while all of the~6 patients
-in the control group patients showed some baseline
-signs of infection.
+Kita meninjau sebuah penelitian mengenai vaksin malaria baru
+bernama PfSPZ.
+Dalam penelitian ini, pasien relawan dialokasikan secara acak
+ke salah satu dari dua kelompok eksperimen:
+14 pasien menerima vaksin eksperimental
+dan 6 pasien menerima vaksin plasebo.
+Sembilan belas minggu kemudian, seluruh 20 pasien dipaparkan
+pada galur parasit malaria yang sensitif terhadap obat;
+galur yang sensitif terhadap obat digunakan di sini atas
+pertimbangan etis, agar setiap infeksi dapat diobati secara efektif.
+Hasilnya dirangkum dalam
+Gambar~\ref{malaria_vaccine_20_exp_summary}:
+9 dari 14 pasien kelompok perlakuan tetap bebas
+dari tanda-tanda infeksi, sedangkan seluruh~6 pasien
+  dalam kelompok kontrol menunjukkan sejumlah tanda awal infeksi.
 
 \newcommand{\malariaAA}{5}
 \newcommand{\malariaAB}{9}
@@ -2160,14 +2158,14 @@ signs of infection.
 \begin{tabular}{l l cc rr}
   & & \multicolumn{2}{c}{\var{outcome}} \\
   \cline{3-4}
-  &  &  {infection} & {no infection} & Total & \hspace{3mm}  \\ 
+  &  &  {terinfeksi} & {tidak terinfeksi} & Total & \hspace{3mm}  \\ 
   \cline{2-5}
-  & {vaccine} &
+  & {vaksin} &
       \malariaAA{} &
       \malariaAB{} &
       \malariaAD{} \\ 
   \raisebox{1.5ex}[0pt]{\var{treatment}}
-  & {placebo} & 
+  & {plasebo} & 
       \malariaBA{} &
       \malariaBB{} &
       \malariaBD{} \\ 
@@ -2178,333 +2176,322 @@ signs of infection.
       \malariaDD{} \\ 
   \cline{2-5}
 \end{tabular}
-\caption{Summary results for the malaria vaccine experiment.}
+\caption{Ringkasan hasil eksperimen vaksin malaria.}
 \label{malaria_vaccine_20_exp_summary}
 \end{figure}
 
 \begin{exercisewrap}
 \begin{nexercise}
-Is this an observational study or an experiment?
-What implications does the study type have on what can
-be inferred from the results?\footnotemark{}
+Apakah penelitian ini merupakan studi observasional atau eksperimen?
+Apa dampak jenis penelitian ini terhadap kesimpulan yang dapat
+ditarik dari hasilnya?\footnotemark{}
 \end{nexercise}
 \end{exercisewrap}
-\footnotetext{The
-  study is an experiment, as patients were randomly
-  assigned an experiment group.
-  Since this is an experiment, the results can be used
-  to evaluate a causal relationship between the malaria
-  vaccine and whether patients showed signs
-  of an infection.}
+\footnotetext{Penelitian ini merupakan eksperimen karena pasien
+  dialokasikan secara acak ke kelompok eksperimen.
+  Karena penelitian ini merupakan eksperimen, hasilnya dapat digunakan
+  untuk menilai hubungan kausal antara vaksin malaria
+  dan apakah pasien menunjukkan tanda-tanda infeksi.}
 
-In this study, a smaller proportion of patients
-who received the vaccine showed signs of an infection
-(\malariaVIRPerc{} versus \malariaPIRPerc{}).
-However, the sample is very small,
-and it is unclear whether the difference provides
-\emph{convincing evidence} that the vaccine is
-effective.
+Dalam penelitian ini, proporsi pasien yang menunjukkan tanda-tanda
+infeksi lebih kecil pada kelompok yang menerima vaksin
+(\malariaVIRPerc{} dibandingkan dengan \malariaPIRPerc{}).
+Namun, sampelnya sangat kecil,
+dan belum jelas apakah perbedaan tersebut memberikan
+\emph{bukti meyakinkan} bahwa vaksin itu efektif.
 
 \D{\newpage}
 
 \begin{examplewrap}
-\begin{nexample}{Data scientists are sometimes called
-    upon to evaluate the strength of evidence.
-    When looking at the rates of infection for patients
-    in the two groups in this study,
-    what comes to mind as we try to determine whether
-    the data show convincing evidence of a real difference?}
+\begin{nexample}{Ilmuwan data terkadang diminta
+    menilai kekuatan bukti.
+    Ketika melihat tingkat infeksi pasien
+    pada kedua kelompok dalam penelitian ini,
+    apa yang terlintas dalam pikiran saat kita mencoba menentukan apakah
+    data tersebut menunjukkan bukti meyakinkan adanya perbedaan nyata?}
   \label{malaria_vaccine_20_what_is_convincing}
-  The observed infection rates
-  (\malariaVIRPerc{} for the treatment group versus
-  \malariaPIRPerc{} for the control group)
-  suggest the vaccine may be effective.
-  However, we cannot be sure if the observed difference
-  represents the vaccine's efficacy or is just from
-  random chance.
-  Generally there is a little bit of fluctuation
-  in sample data, and we wouldn't expect the sample
-  proportions to be \emph{exactly} equal,
-  even if the truth was that the infection rates
-  were independent of getting the vaccine.
-  Additionally, with such small samples,
-  perhaps it's common to observe such large differences
-  when we randomly split a group due to chance alone!
+  Tingkat infeksi yang diamati
+  (\malariaVIRPerc{} pada kelompok perlakuan dibandingkan dengan
+  \malariaPIRPerc{} pada kelompok kontrol)
+  mengisyaratkan bahwa vaksin mungkin efektif.
+  Namun, kita tidak dapat memastikan apakah perbedaan yang diamati
+  mencerminkan efikasi vaksin atau sekadar timbul
+  karena faktor kebetulan.
+  Data sampel umumnya mengalami sedikit fluktuasi, dan kita tidak
+  mengharapkan proporsi sampel \emph{persis} sama,
+  meskipun sebenarnya tingkat infeksi
+  tidak bergantung pada pemberian vaksin.
+  Selain itu, dengan sampel sekecil ini,
+  mungkin perbedaan sebesar itu memang lazim muncul ketika
+  kita membagi sebuah kelompok secara acak semata-mata karena kebetulan!
 \end{nexample}
 \end{examplewrap}
 
-Example~\ref{malaria_vaccine_20_what_is_convincing}
-is a reminder that the observed outcomes in the data
-sample may not perfectly reflect the true relationships
-between variables since there is \term{random noise}.
-While the observed difference in rates of infection
-is large, the sample size for the study is small,
-making it unclear if this observed difference represents
-efficacy of the vaccine or whether it is simply due to
-chance.
-We label these two competing claims, $H_0$ and $H_A$,
-which are spoken as ``H-nought'' and ``H-A'':
+Contoh~\ref{malaria_vaccine_20_what_is_convincing}
+mengingatkan kita bahwa hasil yang diamati dalam sampel data
+mungkin tidak mencerminkan secara sempurna hubungan sebenarnya
+antara variabel karena terdapat \term{derau acak}.
+Walaupun perbedaan tingkat infeksi yang diamati besar,
+ukuran sampel penelitian ini kecil,
+sehingga belum jelas apakah perbedaan yang diamati tersebut
+mencerminkan efikasi vaksin atau sekadar timbul karena kebetulan.
+Kita menamai dua pernyataan yang bersaing ini, $H_0$ dan $H_A$,
+yang dibaca ``H-nol'' dan ``H-A'':
 \begin{itemize}
 \setlength{\itemsep}{0mm}
-\item[$H_0$:] \textbf{Independence model.}
-    The variables \var{treatment} and \var{outcome}
-    are independent.
-    They have no relationship, and the observed difference
-    between the proportion of patients who developed
-    an infection in the two groups, \malariaIRDiffPerc{},
-    was due to chance.
-\item[$H_A$:] \textbf{Alternative model.}
-    The variables are \emph{not} independent.
-    The difference in infection rates of
+\item[$H_0$:] \textbf{Model independensi.}
+    Variabel \var{treatment} dan \var{outcome}
+    saling independen.
+    Keduanya tidak memiliki hubungan, dan perbedaan yang diamati
+    antara proporsi pasien yang mengalami infeksi
+    pada kedua kelompok, yaitu \malariaIRDiffPerc{},
+    terjadi karena kebetulan.
+\item[$H_A$:] \textbf{Model alternatif.}
+    Kedua variabel \emph{tidak} saling independen.
+    Perbedaan tingkat infeksi sebesar
     \malariaIRDiffPerc{}
-    was not due to chance,
-    and vaccine affected the rate of infection.
+    tidak terjadi karena kebetulan,
+    dan vaksin memengaruhi tingkat infeksi.
 \end{itemize}
 
-What would it mean if the independence model,
-which says the vaccine had no influence on the
-rate of infection, is true?
-It would mean 11~patients were going to
-develop an infection \emph{no matter which group
-they were randomized into},
-and 9~patients would not develop an infection
-\emph{no matter which group they were randomized
-into}.
-That~is, if the vaccine did not affect the rate
-of infection, the difference in the infection rates
-was due to chance alone in how the patients were
-randomized.
+Apa artinya jika model independensi,
+yang menyatakan bahwa vaksin tidak memengaruhi
+tingkat infeksi, benar?
+Artinya, 11~pasien akan mengalami infeksi
+\emph{terlepas dari kelompok mana mereka dialokasikan
+secara acak},
+dan 9~pasien tidak akan mengalami infeksi
+\emph{terlepas dari kelompok mana mereka dialokasikan
+secara acak}.
+Dengan kata lain, jika vaksin tidak memengaruhi tingkat
+infeksi, perbedaan tingkat infeksi itu semata-mata
+terjadi secara kebetulan akibat cara pasien dialokasikan
+secara acak.
 
-Now consider the alternative model:
-infection rates were influenced by whether a patient
-received the vaccine or not.
-If this was true, and especially if this influence
-was substantial, we would expect to see some difference
-in the infection rates of patients in the groups.
+Sekarang tinjau model alternatif:
+tingkat infeksi dipengaruhi oleh apakah seorang pasien
+menerima vaksin atau tidak.
+Jika hal ini benar, terlebih jika pengaruhnya cukup besar,
+kita akan mengharapkan adanya perbedaan tingkat infeksi
+antara pasien dalam kedua kelompok.
 
-We choose between these two competing claims
-by assessing if the data conflict so much with
-$H_0$ that the independence model cannot be deemed
-reasonable.
-If this is the case, and the data support $H_A$,
-then we will reject the notion of independence
-and conclude the vaccine was effective.
+Kita memilih di antara kedua pernyataan yang bersaing ini
+dengan menilai apakah data sedemikian bertentangan dengan
+$H_0$ sehingga model independensi tidak lagi dapat dianggap
+masuk akal.
+Jika demikian, dan data mendukung $H_A$,
+kita akan menolak gagasan independensi
+dan menyimpulkan bahwa vaksin tersebut efektif.
 
 
-\subsection{Simulating the study}
+\subsection{Menyimulasikan penelitian}
 \label{simulatingTheStudy}
 
-We're going to implement
-\termsub{simulations}{simulation},
-where we will pretend we know that the malaria
-vaccine being tested does \emph{not} work.
-Ultimately, we want to understand if the large
-difference we observed is common in these
-simulations.
-If it is common, then maybe the difference
-we observed was purely due to chance.
-If it is very uncommon, then the possibility
-that the vaccine was helpful seems more plausible.
+Kita akan menjalankan
+\termsub{simulasi}{simulation@simulasi},
+dengan berpura-pura mengetahui bahwa vaksin malaria
+yang sedang diuji \emph{tidak} bekerja.
+Pada akhirnya, kita ingin memahami apakah perbedaan besar
+yang kita amati lazim muncul dalam simulasi-simulasi ini.
+Jika lazim, mungkin perbedaan yang kita amati murni
+terjadi karena kebetulan.
+Jika sangat tidak lazim, kemungkinan bahwa vaksin tersebut
+bermanfaat menjadi lebih masuk akal.
 
-Figure~\ref{malaria_vaccine_20_exp_summary}
-shows that 11 patients developed infections and 9 did not.
-For our simulation, we will suppose the infections
-were independent of the vaccine and we were able to
-\emph{rewind} back to when the researchers randomized
-the patients in the study.
-If we happened to randomize the patients differently,
-we may get a different result in this hypothetical
-world where the vaccine doesn't influence the infection.
-Let's complete another \term{randomization} using
-a simulation.
+Gambar~\ref{malaria_vaccine_20_exp_summary}
+menunjukkan bahwa 11 pasien mengalami infeksi dan 9 tidak.
+Untuk simulasi ini, kita akan menganggap bahwa infeksi
+tidak bergantung pada vaksin dan bahwa kita dapat
+\emph{memutar balik} waktu ke saat peneliti mengalokasikan
+pasien dalam penelitian secara acak.
+Seandainya pasien dialokasikan secara acak dengan cara yang berbeda,
+kita mungkin memperoleh hasil berbeda dalam dunia hipotetis
+yang menganggap vaksin tidak memengaruhi infeksi ini.
+Mari kita lakukan \term{pengacakan} lain dengan
+sebuah simulasi.
 
 \D{\newpage}
 
-In this \term{simulation}, we take 20 notecards to
-represent the 20 patients, where we write down ``infection''
-on 11 cards and ``no infection'' on 9 cards.
-In this hypothetical world, we believe each patient
-that got an infection was going to get it regardless
-of which group they were in, so let's see what happens
-if we randomly assign the patients to the treatment
-and control groups again.
-We thoroughly shuffle the notecards and deal 14 into
-a \resp{vaccine} pile and 6 into a \resp{placebo} pile.
-Finally, we tabulate the results, which are shown in
-Figure~\ref{malaria_vaccine_20_exp_summary_rand_1}.
+Dalam \term{simulasi} ini, kita menggunakan 20 kartu indeks untuk
+mewakili 20 pasien, lalu menuliskan ``terinfeksi''
+pada 11 kartu dan ``tidak terinfeksi'' pada 9 kartu.
+Dalam dunia hipotetis ini, kita menganggap setiap pasien
+yang mengalami infeksi memang akan mengalaminya terlepas
+dari kelompoknya. Karena itu, mari kita lihat apa yang terjadi
+jika kita kembali mengalokasikan pasien secara acak ke kelompok
+perlakuan dan kontrol.
+Kita mengocok kartu-kartu indeks tersebut secara menyeluruh,
+lalu membagikan 14 kartu ke tumpukan \resp{vaccine}
+dan 6 kartu ke tumpukan \resp{placebo}.
+Terakhir, kita menyusun hasilnya dalam tabel, seperti ditampilkan
+pada Gambar~\ref{malaria_vaccine_20_exp_summary_rand_1}.
 
 \begin{figure}[ht]
 \centering
 \begin{tabular}{l l cc rr}
   & & \multicolumn{2}{c}{\var{outcome}} \\
   \cline{3-4}
-  &  &  {infection} & {no infection} & Total & \hspace{3mm}  \\ 
+  &  &  {terinfeksi} & {tidak terinfeksi} & Total & \hspace{3mm}  \\ 
   \cline{2-5}
-  treatment & {vaccine} & 7 & 7 & 14 \\ 
-  (simulated) & {placebo} & 4 & 2 & 6 \\ 
+  perlakuan & {vaksin} & 7 & 7 & 14 \\ 
+  (simulasi) & {plasebo} & 4 & 2 & 6 \\ 
   \cline{2-5}
   & Total & 11 & 9 & 20 \\
   \cline{2-5}
 \end{tabular}
-\caption{Simulation results, where any difference
-    in infection rates is purely due to chance.}
+\caption{Hasil simulasi; setiap perbedaan tingkat infeksi
+    di sini semata-mata terjadi karena kebetulan.}
 \label{malaria_vaccine_20_exp_summary_rand_1}
 \end{figure}
 
 \begin{exercisewrap}
 \begin{nexercise}
 \label{malaria_vaccine_20_exp_summary_rand_1_diff}
-What is the difference in infection rates between
-the two simulated groups in
-Figure~\ref{malaria_vaccine_20_exp_summary_rand_1}?
-How does this compare to the observed
-\malariaIRDiffPerc{} difference
-in the actual data?\footnotemark{}
+Berapa selisih tingkat infeksi antara
+kedua kelompok hasil simulasi pada
+Gambar~\ref{malaria_vaccine_20_exp_summary_rand_1}?
+Bagaimana selisih ini dibandingkan dengan selisih
+\malariaIRDiffPerc{} yang diamati
+pada data sebenarnya?\footnotemark{}
 \end{nexercise}
 \end{exercisewrap}
-\footnotetext{$4 / 6 - 7 / 14 = 0.167$
-  or about 16.7\% in favor of the vaccine.
-  This difference due to chance is much smaller than the
-  difference observed in the actual groups.}
+\footnotetext{$4 / 6 - 7 / 14 = 0.167$,
+  atau sekitar 16.7\% yang berpihak pada vaksin.
+  Perbedaan akibat kebetulan ini jauh lebih kecil daripada
+  perbedaan yang diamati pada kelompok sebenarnya.}
 
 
-\subsection{Checking for independence}
+\subsection{Memeriksa independensi}
 
-We computed one possible difference under the
-independence model in Guided
-Practice~\ref{malaria_vaccine_20_exp_summary_rand_1_diff},
-which represents one difference due to chance.
-While in this first simulation, we physically dealt
-out notecards to represent the patients,
-it is more efficient to perform this simulation
-using a computer.
-Repeating the simulation on a computer, we get another
-difference due to chance:
+Kita menghitung satu perbedaan yang mungkin terjadi di bawah
+model independensi dalam Latihan Terpandu
+\ref{malaria_vaccine_20_exp_summary_rand_1_diff};
+perbedaan tersebut mewakili satu perbedaan akibat kebetulan.
+Dalam simulasi pertama ini, kita membagikan kartu indeks
+secara fisik untuk mewakili pasien, tetapi simulasi ini
+lebih efisien dilakukan dengan komputer.
+Ketika simulasi diulangi dengan komputer, kita memperoleh
+perbedaan lain akibat kebetulan:
 \begin{align*}
 \frac{2}{\malariaBD{}} - \frac{9}{\malariaAD{}} = -0.310
 \end{align*}
-And another:
+Lalu perbedaan lainnya:
 \begin{align*}
 \frac{3}{\malariaBD{}} - \frac{8}{\malariaAD{}} = -0.071
 \end{align*}
-And so on until we repeat the simulation enough times
-that we have a good idea of what represents the
-\emph{distribution of differences from chance alone}.
-Figure~\ref{malaria_rand_dot_plot} shows a stacked plot
-of the differences found from 100 simulations,
-where each dot represents a simulated difference between
-the infection rates (control rate minus treatment rate).
+Demikian seterusnya, hingga simulasi telah cukup sering
+diulangi sehingga kita memahami dengan baik seperti apa
+\emph{distribusi perbedaan yang semata-mata timbul karena kebetulan}.
+Gambar~\ref{malaria_rand_dot_plot} menampilkan diagram titik bertumpuk
+untuk perbedaan yang diperoleh dari 100 simulasi;
+setiap titik mewakili selisih tingkat infeksi hasil simulasi
+(tingkat kelompok kontrol dikurangi tingkat kelompok perlakuan).
 
 \begin{figure}[ht]
   \centering
-  \Figure[A stacked dot plot is shown. The horizontal axis represents "difference in infection rates" and has a range of -0.6 to 0.8. There are six stacks of dots shown in the plot, with 3 points shown at -0.55, 20-25 points shown at -0.32, 30-35 points shown at -0.08, 25-30 points shown at 0.18, 10-12 points shown at 0.41, and 2 points shown at 0.64.]
+  \Figure[Ditampilkan sebuah diagram titik bertumpuk. Sumbu horizontal menyatakan "selisih tingkat infeksi" dan membentang dari -0.6 sampai 0.8. Diagram memuat enam tumpukan titik: 3 titik pada -0.55, 20--25 titik pada -0.32, 30--35 titik pada -0.08, 25--30 titik pada 0.18, 10--12 titik pada 0.41, dan 2 titik pada 0.64.]
       {0.85}{malaria_rand_dot_plot}
-  \caption{A stacked dot plot of differences from
-      100 simulations produced under the independence model,
-      $H_0$, where in these simulations infections are
-      unaffected by the vaccine.
-      Two of the 100 simulations had a difference of
-      at least \malariaIRDiffPerc{}, the difference observed
-      in the study.}
+  \caption{Diagram titik bertumpuk untuk perbedaan dari
+      100 simulasi yang dihasilkan di bawah model independensi,
+      $H_0$, dengan infeksi yang tidak dipengaruhi oleh vaksin
+      dalam simulasi-simulasi ini.
+      Dua dari 100 simulasi menghasilkan perbedaan setidaknya
+      sebesar \malariaIRDiffPerc{}, yaitu perbedaan yang diamati
+      dalam penelitian.}
   \label{malaria_rand_dot_plot}
 \end{figure}
 
-Note that the distribution of these simulated differences
-is centered around 0.
-We simulated these differences assuming that the independence
-model was true, and under this condition,
-we expect the difference to be near zero with some random
-fluctuation, where \emph{near} is pretty generous in this
-case since the sample sizes are so small in this study.
+Perhatikan bahwa distribusi perbedaan hasil simulasi ini
+berpusat di sekitar 0.
+Kita menyimulasikan perbedaan-perbedaan tersebut dengan menganggap
+model independensi benar. Dalam kondisi ini,
+kita memperkirakan selisihnya mendekati nol dengan sedikit
+fluktuasi acak. Istilah \emph{mendekati} digunakan cukup longgar
+dalam kasus ini karena ukuran sampel penelitian begitu kecil.
 
 \begin{examplewrap}
-\begin{nexample}{How often would you observe a difference
-    of at least \malariaIRDiffPerc{} (\malariaIRDiff{})
-    according to Figure~\ref{malaria_rand_dot_plot}?
-    Often, sometimes, rarely, or never?}
-  It appears that a difference of at least
-  \malariaIRDiffPerc{} due to chance alone would only
-  happen about 2\% of the time according to
-  Figure~\ref{malaria_rand_dot_plot}.
-  Such a low probability indicates a rare event.
+\begin{nexample}{Seberapa sering Anda akan mengamati perbedaan
+    setidaknya sebesar \malariaIRDiffPerc{} (\malariaIRDiff{})
+    menurut Gambar~\ref{malaria_rand_dot_plot}?
+    Sering, kadang-kadang, jarang, atau tidak pernah?}
+  Perbedaan setidaknya sebesar \malariaIRDiffPerc{} yang
+  semata-mata terjadi karena kebetulan tampaknya hanya muncul
+  sekitar 2\% dari seluruh simulasi menurut
+  Gambar~\ref{malaria_rand_dot_plot}.
+  Peluang serendah itu menunjukkan peristiwa yang jarang.
 \end{nexample}
 \end{examplewrap}
 
-\D{\newpage}
 
-The difference of \malariaIRDiffPerc{} being
-a rare event suggests two possible interpretations
-of the results of the study:
+Karena perbedaan sebesar \malariaIRDiffPerc{} merupakan
+peristiwa langka, hasil penelitian ini dapat ditafsirkan
+dengan dua cara:
 \begin{itemize}
   \setlength{\itemsep}{0mm}
-  \item[$H_0$] \textbf{Independence model.}
-      The vaccine has no effect on infection rate,
-      and we just happened to observe a difference
-      that would only occur on a rare occasion.
-  \item[$H_A$] \textbf{Alternative model.}
-      The vaccine has an effect on infection rate,
-      and the difference we observed was actually due to
-      the vaccine being effective at combatting malaria,
-      which explains the large difference
-      of~\malariaIRDiffPerc{}.
+  \item[$H_0$] \textbf{Model independensi.}
+      Vaksin tidak memengaruhi tingkat infeksi,
+      dan kebetulan saja kita mengamati perbedaan yang
+      hanya akan terjadi sesekali.
+  \item[$H_A$] \textbf{Model alternatif.}
+      Vaksin memengaruhi tingkat infeksi,
+      dan perbedaan yang kita amati memang terjadi karena
+      vaksin efektif melawan malaria; hal ini menjelaskan
+      perbedaan besar sebesar~\malariaIRDiffPerc{}.
 \end{itemize}
-Based on the simulations, we have two options.
-(1)~We conclude that the study results do not provide
-strong evidence against the independence model.
-That is, we do not have sufficiently strong evidence
-to conclude the vaccine had an effect in this
-clinical setting.
-(2)~We conclude the evidence is sufficiently strong
-to reject $H_0$ and assert that the vaccine was useful.
-When we conduct formal studies, usually we reject the
-notion that we just happened to observe a rare
-event.\footnote{This reasoning does not generally extend
-    to anecdotal observations.
-    Each of us observes incredibly rare events every day,
-    events we could not possibly hope to predict.
-    However, in the non-rigorous setting of anecdotal
-    evidence, almost anything may appear to be a rare event,
-    so the idea of looking for rare events in day-to-day
-    activities is treacherous.
-    For example, we might look at the lottery:
-    there was only a 1 in 292 million chance that the
-    Powerball numbers for the largest jackpot in history
-    (January 13th, 2016) would be (04, 08, 19, 27, 34)
-    with a Powerball of (10),
-    but nonetheless those numbers came up!
-    However, no matter what numbers had turned up,
-    they would have had the same incredibly rare odds.
-    That is, \emph{any set of numbers we could have
-    observed would ultimately be incredibly rare}.
-    This type of situation is typical of our daily lives:
-    each possible event in itself seems incredibly rare,
-    but if we consider every alternative, those outcomes
-    are also incredibly rare.
-    We should be cautious not to misinterpret such
-    anecdotal evidence.}
-So in this case, we reject the independence model in favor
-of the alternative.
-That is, we are concluding the data provide strong evidence
-that the vaccine provides some protection against malaria
-in this clinical setting.
+Berdasarkan simulasi tersebut, kita memiliki dua pilihan.
+(1)~Kita menyimpulkan bahwa hasil penelitian tidak memberikan
+bukti kuat untuk menentang model independensi.
+Dengan kata lain, kita tidak memiliki bukti yang cukup kuat
+untuk menyimpulkan bahwa vaksin berpengaruh dalam
+konteks klinis ini.
+(2)~Kita menyimpulkan bahwa bukti tersebut cukup kuat
+untuk menolak $H_0$ dan menyatakan bahwa vaksin bermanfaat.
+Ketika melakukan penelitian formal, biasanya kita menolak
+gagasan bahwa kita kebetulan mengamati suatu peristiwa
+langka.\footnote{Penalaran ini pada umumnya tidak dapat diperluas
+    ke pengamatan anekdotal.
+    Setiap orang mengamati berbagai peristiwa yang sangat langka
+    setiap hari, yaitu peristiwa yang mustahil dapat kita ramalkan.
+    Namun, dalam konteks bukti anekdotal yang tidak ketat,
+    hampir segala sesuatu dapat tampak sebagai peristiwa langka.
+    Karena itu, mencari peristiwa langka dalam kegiatan sehari-hari
+    dapat sangat menyesatkan.
+    Sebagai contoh, perhatikan lotere:
+    hanya terdapat peluang 1 banding 292 juta bahwa nomor Powerball
+    untuk hadiah terbesar sepanjang sejarah (13 Januari 2016)
+    akan berupa (04, 08, 19, 27, 34) dengan nomor Powerball (10),
+    tetapi nomor-nomor itu tetap muncul!
+    Namun, nomor apa pun yang muncul
+    akan memiliki peluang luar biasa kecil yang sama.
+    Artinya, \emph{setiap himpunan nomor yang mungkin kita amati
+    pada akhirnya akan sama-sama sangat langka}.
+    Situasi seperti ini lazim dalam kehidupan sehari-hari:
+    setiap peristiwa yang mungkin terjadi tampak sangat langka
+    jika ditinjau sendiri, tetapi jika semua alternatif dipertimbangkan,
+    hasil-hasil lain tersebut juga sangat langka.
+    Kita harus berhati-hati agar tidak salah menafsirkan
+    bukti anekdotal semacam ini.}
+Jadi, dalam kasus ini kita menolak model independensi dan memilih
+model alternatif.
+Dengan kata lain, kita menyimpulkan bahwa data memberikan bukti kuat
+bahwa vaksin memberi perlindungan tertentu terhadap malaria
+dalam konteks klinis ini.
 
-\index{data!malaria vaccine|)}
+\index{data!malaria vaccine@vaksin malaria|)}
 
-One field of statistics, statistical inference, is built
-on evaluating whether such differences are due to chance.
-In statistical inference, data scientists evaluate which
-model is most reasonable given the data.
-Errors do occur, just like rare events, and we might choose
-the wrong model.
-While we do not always choose correctly, statistical
-inference gives us tools to control and evaluate how
-often these errors occur.
-In Chapter~\ref{foundationsForInference},
-we give a formal introduction to the problem of model
-selection.
-We spend the next two chapters building a foundation
-of probability and theory necessary to make that
-discussion rigorous.
+Salah satu cabang statistika, yaitu statistika inferensial, dibangun
+di atas penilaian apakah perbedaan semacam ini terjadi karena kebetulan.
+Dalam statistika inferensial, ilmuwan data menilai model mana yang
+paling masuk akal berdasarkan data.
+Kesalahan tetap dapat terjadi, seperti halnya peristiwa langka,
+dan kita mungkin memilih model yang salah.
+Walaupun pilihan kita tidak selalu tepat, statistika inferensial
+memberi kita perangkat untuk mengendalikan dan menilai seberapa
+sering kesalahan itu terjadi.
+Dalam Bab~\ref{foundationsForInference},
+kita memberikan pengantar formal mengenai masalah pemilihan model.
+Dua bab berikutnya digunakan untuk membangun landasan probabilitas
+dan teori yang diperlukan agar pembahasan tersebut menjadi ketat.
 
 
 

@@ -1,0 +1,84 @@
+{
+  "schema": "interlanguage.figshare-publication-plan-template",
+  "schema_version": "1.0.0",
+  "release_id": "R011-B007-v2026.08.23.1",
+  "boundary_id": "R011-B007",
+  "complete_corpus": false,
+  "article_id": 33314727,
+  "project_id": 280296,
+  "collection_id": 8668413,
+  "expected_zenodo": {
+    "prior_record_id": 22061163,
+    "concept_record_id": 22059801,
+    "concept_doi": "10.5281/zenodo.22059801",
+    "title": "Statistika Berbasis Data - Edisi Kerja Bahasa Indonesia (R011-B007: Bab 1 dan Bagian 2.1-2.3)",
+    "metadata_bytes": 3120,
+    "metadata_sha256": "be2f3a2adbb5f77a6a17865e446452edcaed13e1cef2488f1630c03b809c4bf5"
+  },
+  "limits": {
+    "task_logical_payload_bytes": 500000000,
+    "whole_project_hosted_bytes_exclusive": 20000000000
+  },
+  "license_route_policy": {
+    "preferred": "If the authenticated account exposes one unambiguous exact CC BY-SA 3.0 license, host every exact Zenodo release byte under that license.",
+    "fallback": "Otherwise require exact CC0 and publish metadata plus immutable Zenodo pointers only; use the reader PDF as the sole Figshare external-file object.",
+    "substitute_sharealike_versions_forbidden": true,
+    "reader_first": true
+  },
+  "ordered_files": [
+    {
+      "position": 1,
+      "role": "reader_pdf",
+      "label": "PDF pembaca saat ini",
+      "filename": "00_STATISTIKA_BERBASIS_DATA_ID_R011-B007_WORKING_READER.pdf"
+    },
+    {
+      "position": 2,
+      "role": "editable_source",
+      "label": "Sumber editable",
+      "filename": "01_STATISTIKA_BERBASIS_DATA_ID_R011-B007_EDITABLE_SOURCE.zip"
+    },
+    {
+      "position": 3,
+      "role": "modular_backend",
+      "label": "Backend modular",
+      "filename": "02_STATISTIKA_BERBASIS_DATA_ID_R011-B007_MODULAR_BACKEND.zip"
+    },
+    {
+      "position": 4,
+      "role": "citation",
+      "label": "Metadata sitasi",
+      "filename": "CITATION.cff"
+    },
+    {
+      "position": 5,
+      "role": "licenses_and_attribution",
+      "label": "Lisensi dan atribusi",
+      "filename": "LICENSES_AND_ATTRIBUTION.md"
+    },
+    {
+      "position": 6,
+      "role": "release_readme",
+      "label": "Catatan rilis",
+      "filename": "README_RELEASE.md"
+    },
+    {
+      "position": 7,
+      "role": "release_manifest",
+      "label": "Manifes rilis",
+      "filename": "RELEASE_MANIFEST.json"
+    },
+    {
+      "position": 8,
+      "role": "sha256_checksums",
+      "label": "Checksum SHA-256",
+      "filename": "SHA256SUMS.txt"
+    },
+    {
+      "position": 9,
+      "role": "zenodo_metadata",
+      "label": "Metadata Zenodo",
+      "filename": "ZENODO_METADATA.json"
+    }
+  ]
+}

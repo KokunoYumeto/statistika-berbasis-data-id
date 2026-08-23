@@ -2,32 +2,35 @@
 
 Edisi kerja Bahasa Indonesia (`id-ID`) yang diturunkan dari *OpenIntro Statistics*, Edisi Keempat. Judul turunannya sengaja berbeda; proyek ini bukan produk OpenIntro dan tidak berafiliasi dengan atau didukung oleh OpenIntro.
 
-> **Status R011-B006: belum lengkap.** Materi pendahuluan, Bab 1 lengkap, pembuka Bab 2, serta Bagian 2.1–2.2 telah diterjemahkan dan diterima. Bagian 2.3 dan seterusnya masih berbahasa Inggris di dalam PDF batas kerja agar build buku penuh tetap dapat direproduksi.
+> **Status R011-B007: belum lengkap.** Materi pendahuluan, Bab 1 lengkap, pembuka Bab 2, serta Bagian 2.1–2.3 telah diterjemahkan dan diterima. Latihan tinjauan Bab 2 mulai 2.27 dan materi selanjutnya masih berbahasa Inggris di dalam PDF batas kerja agar build buku penuh tetap dapat direproduksi.
 
 ## Baca dan unduh
 
-- [PDF batas kerja R011-B006](output/pdf/statistika-berbasis-data-batas-R011-B006.pdf) — 424 halaman, 21.975.722 byte, SHA-256 `d9a3df7d44a62babde04c355cb8dbb9edc74de947cc8162a3d30d872bea372b2`.
-- [Rilis pelestarian tetap di Zenodo](https://doi.org/10.5281/zenodo.22061163) — PDF, sumber editable, backend modular, bukti QA, manifes, dan checksum.
+- [PDF batas kerja R011-B007](output/pdf/statistika-berbasis-data-batas-R011-B007.pdf) — 425 halaman, 22017185 byte, SHA-256 `ca872ddbc2fb1cab5f6cdb2fe745a0711a315fef68ab2e72c7a11d1c633a5c1a`.
+- [Rilis pelestarian tetap di Zenodo](https://doi.org/10.5281/zenodo.22063015) — PDF, sumber editable, backend modular, manifes, dan checksum.
+- [Cermin publik di Figshare](https://doi.org/10.6084/m9.figshare.33314727.v3) — DOI `10.6084/m9.figshare.33314727.v3`.
 - [Garis keturunan konsep Zenodo](https://doi.org/10.5281/zenodo.22059801) — selalu menunjuk versi terbaru dari edisi ini.
+
+PDF pelestarian memakai penulisan ulang transport lossless yang deterministik: 20940913 byte, SHA-256 `4fdbfa817781cf949e1c68b9349429685ec9caba4d4aeb520df84db534389493`. Isi teks, tujuan bernama, anotasi, metadata, jumlah halaman, dan piksel halaman audit identik dengan PDF batas yang diterima.
 
 ## Cakupan yang diterima
 
 - halaman judul, atribusi, dan materi pendahuluan turunan;
-- Bab 1, Bagian 1.1–1.4;
-- latihan akhir Bab 1 nomor 1.35–1.44 dan semua jawaban publik yang tersedia;
+- Bab 1, Bagian 1.1–1.4, latihan 1.35–1.44, dan jawaban publik yang tersedia;
 - pembuka Bab 2 dan Bagian 2.1, *Menelaah data numerik*;
 - Bagian 2.2, *Menelaah data kategoris*;
-- latihan 2.1–2.24 dan semua jawaban publik bernomor ganjil yang tersedia sampai batas ini.
+- Bagian 2.3, *Studi kasus: vaksin malaria*, termasuk latihan 2.25–2.26;
+- semua jawaban publik yang tersedia sampai latihan 2.25.
 
-Latihan tanpa jawaban publik dicatat sebagai celah pendamping `O001`. Tidak ada solusi instruktur terbatas yang diakses, direkonstruksi, atau disajikan seolah-olah berasal dari sumber. Cursor berikutnya adalah Bagian 2.3, *Studi kasus: vaksin malaria*.
+Latihan tanpa jawaban publik dicatat sebagai celah pendamping `O001`. Tidak ada solusi instruktur terbatas yang diakses, direkonstruksi, atau disajikan seolah-olah berasal dari sumber. Cursor berikutnya adalah latihan tinjauan Bab 2 mulai 2.27.
 
 ## Isi repositori
 
-- `repo/` — sumber LaTeX dan aset tepat untuk membangun batas R011-B006;
-- `backend/exports/` dan `backend/schemas/` — 1.969 rekaman bertipe, 8.647 referensi terselesaikan, tampilan CSV, pelokalan `id-ID`, skema, dan bukti;
+- `repo/` — penutupan sumber LaTeX dan aset tepat untuk batas R011-B007;
+- `backend/exports/` dan `backend/schemas/` — 2264 rekaman bertipe, proyeksi CSV, pelokalan `id-ID`, skema, serta bukti penerimaan;
 - `output/pdf/` — PDF pembaca yang telah diterima;
-- `qa/`, `authority/`, dan `scripts/` — bukti ringkas serta gerbang reproduksi yang secara khusus mengikat batas R011-B006;
-- `release/zenodo/R011-B006-v2026.08.22.2/` — metadata, manifes, checksum, dan tanda terima publikasi yang telah disanitasi.
+- `qa/`, `authority/`, dan `scripts/` — bukti ringkas serta gerbang reproduksi yang mengikat batas R011-B007;
+- `release/` — metadata dan tanda terima publikasi yang telah disanitasi.
 
 ## Otoritas dan reproduksi
 
@@ -46,11 +49,10 @@ makeindex main.idx
 pdflatex main.tex
 ```
 
-Build yang diterima memakai MiKTeX 26.5; dua lintasan PDF terakhir identik byte demi byte. Generator gambar R disertakan jika tersedia, tetapi tidak diperlukan untuk build statis. Build gambar global belum hermetik karena upstream tidak menyediakan driver global maupun lockfile dependensi.
-
 ## Lisensi, atribusi, dan merek
 
-Teks sumber dan terjemahan tersedia berdasarkan CC BY-SA 3.0, kecuali komponen yang memiliki ketentuan sendiri. Lihat [lisensi dan atribusi](LICENSE.md) serta `00_control/COMPONENT_RIGHTS.csv` dan `backend/exports/core/rights.jsonl` sebelum menggunakan kembali berkas individual.
+Teks sumber dan terjemahan tersedia berdasarkan CC BY-SA 3.0, kecuali komponen yang memiliki ketentuan sendiri. Lihat [lisensi dan atribusi](LICENSE.md), `00_control/COMPONENT_RIGHTS.csv`, dan `backend/exports/core/rights.jsonl` sebelum menggunakan kembali berkas individual.
 
-Karya sumber ditulis oleh David M. Diez, Mine Çetinkaya-Rundel, dan Christopher D. Barr. Kontributor edisi Bahasa Indonesia: Codex, atas permintaan Floris. Merek dagang, logo, sampul, dan identitas visual OpenIntro tidak digunakan sebagai identitas karya turunan ini.
+Karya sumber ditulis oleh David M. Diez, Mine Çetinkaya-Rundel, dan Christopher D. Barr. Kontributor edisi Bahasa Indonesia: Codex, atas permintaan pengguna. Merek dagang, logo, sampul, dan identitas visual OpenIntro tidak digunakan sebagai identitas karya turunan ini.
 
+Identifikasi model produksi: **OpenAI Codex gpt-5.6-sol, Ultra**. Identifikasi ini menerangkan alat produksi edisi turunan dan tidak menggantikan atau mengurangi kredit penulis sumber maupun kontributor manusia.

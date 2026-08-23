@@ -125,7 +125,12 @@
 \normalsize
 \input{ch_intro_to_data/TeX/ch_intro_to_data}
 \input{ch_intro_to_data/TeX/review_exercises}
-\includechapter{2}{ch_summarizing_data}
+% Chapter 2's closing exercises use the available page flow.
+\setcounter{chapter}{2}
+\addtocounter{chapter}{-1}
+\normalsize
+\input{ch_summarizing_data/TeX/ch_summarizing_data}
+\input{ch_summarizing_data/TeX/review_exercises}
 \includechapter{3}{ch_probability}
 \includechapter{4}{ch_distributions}
 \includechapter{5}{ch_foundations_for_inf}

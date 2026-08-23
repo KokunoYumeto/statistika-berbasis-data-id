@@ -94,13 +94,13 @@ Gambar~\ref{rowPropAppTypeHomeownership}?
 Gambar~\ref{colPropAppTypeHomeownership}?\footnotemark{}
 \end{nexercise}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
-0cb607e1-ee87-5d63-97cb-b8a8bf85c7fb,8c1f82f6-34a3-53be-9da6-0fa74df91111,1,exercise,en,ch_summarizing_data/TeX/examining_numerical_data.tex,316,335,98504cc6b5f60249f899a9cb458f880dfda96a0cee2310628cb805a5c3e1242e,id-ID,repo/ch_summarizing_data/TeX/examining_numerical_data.tex,321,339,41e4c0d4ffa05b86a7a7f1b39602d687a1dc8b716ae704d2d06b490eebf89f9c,translated,"\eoce{\qt{Populasi Hispanik\label{county_hispanic_pop}} Sensus Amerika Serikat mengumpulkan 
+0cb607e1-ee87-5d63-97cb-b8a8bf85c7fb,8c1f82f6-34a3-53be-9da6-0fa74df91111,1,exercise,en,ch_summarizing_data/TeX/examining_numerical_data.tex,316,335,98504cc6b5f60249f899a9cb458f880dfda96a0cee2310628cb805a5c3e1242e,id-ID,repo/ch_summarizing_data/TeX/examining_numerical_data.tex,321,339,ad3c73b3bccbd9f0aed161d13e9590d76c8cc55c2734098ffbe0b5058dae5603,language_reviewed,"\eoce{\qt{Populasi Hispanik\label{county_hispanic_pop}} Sensus Amerika Serikat mengumpulkan 
 data tentang ras dan etnis penduduk Amerika, selain banyak variabel lain. Histogram di bawah 
 ini menunjukkan distribusi persentase penduduk Hispanik di 3,142 county di Amerika Serikat 
 pada tahun 2010. Histogram logaritma nilai-nilai tersebut juga ditampilkan.
 \begin{center}
-\Figures[Sebuah histogram untuk variabel ""Persentase Hispanik"" ditampilkan dengan sumbu horizontal dari 0 hingga 100. Kelas interval pertama, dari 0 hingga 5, jauh lebih tinggi daripada semua kelas lain, yaitu sekitar 2000. Setelah itu, tinggi kelas-kelas interval turun dengan cepat: sekitar 500 antara 5 dan 10, 200 antara 10 dan 15, serta 100 antara 15 dan 20. Selanjutnya, tingginya terus menurun hingga hampir tidak dapat dibedakan dari 0 untuk kelas-kelas interval di sekitar 50\%.]{0.48}{eoce/county_hispanic_pop}{county_hispanic_pop_hist}
-\Figures[Sebuah histogram untuk variabel yang telah ditransformasi, ""logaritma natural Persentase Hispanik"", ditampilkan dengan sumbu horizontal dari sekitar -2.5 hingga 4.5. Frekuensi kelas-kelas interval sangat dekat dengan 0 hingga -1, lalu naik sedikit sampai sekitar -0.5 sebelum meningkat tajam menuju puncak pada sekitar 0.5. Setelah itu, tingginya menurun secara teratur menuju frekuensi 0 pada nilai horizontal 4.5.]{0.48}{eoce/county_hispanic_pop}{county_hispanic_pop_log_hist}
+\Figures[Sebuah histogram untuk variabel ""Persentase Hispanik"" ditampilkan dengan sumbu horizontal dari 0 hingga 100. Interval kelas pertama, dari 0 hingga 5, jauh lebih tinggi daripada semua kelas lain, yaitu sekitar 2000. Setelah itu, tinggi interval-interval kelas turun dengan cepat: sekitar 500 antara 5 dan 10, 200 antara 10 dan 15, serta 100 antara 15 dan 20. Selanjutnya, tingginya terus menurun hingga hampir tidak dapat dibedakan dari 0 untuk interval-interval kelas di sekitar 50\%.]{0.48}{eoce/county_hispanic_pop}{county_hispanic_pop_hist}
+\Figures[Sebuah histogram untuk variabel yang telah ditransformasi, ""logaritma natural Persentase Hispanik"", ditampilkan dengan sumbu horizontal dari sekitar -2.5 hingga 4.5. Frekuensi interval-interval kelas sangat dekat dengan 0 hingga -1, lalu naik sedikit sampai sekitar -0.5 sebelum meningkat tajam menuju puncak pada sekitar 0.5. Setelah itu, tingginya menurun secara teratur menuju frekuensi 0 pada nilai horizontal 4.5.]{0.48}{eoce/county_hispanic_pop}{county_hispanic_pop_log_hist}
 \Figures[Sebuah peta intensitas spasial Amerika Serikat ditampilkan. Legenda arsiran membentang dari nilai 0\% hingga nilai tertinggi ""lebih dari 40\%"". Sebagian besar wilayah timur dan tengah negara tersebut---di sebelah timur Texas, Colorado, Utah, dan Idaho---diarsir dengan nilai di bawah 10\%. Florida merupakan pengecualian karena beberapa county menunjukkan nilai yang lebih tinggi. Nilai yang lebih tinggi sangat menonjol di Texas, New Mexico, Arizona, dan California, yang sebagian besar menunjukkan arsiran untuk nilai sedikitnya 20\%. Nevada, Idaho, Oregon, dan Washington menunjukkan nilai rata-rata sekitar 10--20\%.]{0.48}{eoce/county_hispanic_pop}{county_hispanic_pop_map}
 \end{center}
 \begin{parts}
@@ -187,13 +187,13 @@ dapat ditarik dari studi ini?
 
 \begin{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
-1199c1d0-c597-56af-ab73-b42911a126ae,2967fbd0-7fb9-5e4c-9c33-436c98c436bd,1,exercise,en,ch_summarizing_data/TeX/examining_numerical_data.tex,190,203,76060f71516ffb7c52848667dc684e304817f420bc1ce53d2b61952104dfc052,id-ID,repo/ch_summarizing_data/TeX/examining_numerical_data.tex,196,209,64fb91645cb3cb0ee7b4d7de1d4fd39953fe3552f09eb8be7198b2827fd2745c,translated,"\eoce{\qt{Histogram versus diagram kotak\label{hist_vs_box}} Bandingkan kedua diagram di bawah 
+1199c1d0-c597-56af-ab73-b42911a126ae,2967fbd0-7fb9-5e4c-9c33-436c98c436bd,1,exercise,en,ch_summarizing_data/TeX/examining_numerical_data.tex,190,203,76060f71516ffb7c52848667dc684e304817f420bc1ce53d2b61952104dfc052,id-ID,repo/ch_summarizing_data/TeX/examining_numerical_data.tex,196,209,80c778f548dd55a5efa85922293d227574ccb859e64b863bbd644cb290078bf5,language_reviewed,"\eoce{\qt{Histogram versus diagram kotak\label{hist_vs_box}} Bandingkan kedua diagram di bawah 
 ini. Karakteristik distribusi apa yang tampak dalam histogram tetapi tidak dalam diagram kotak? 
 Karakteristik apa yang tampak dalam diagram kotak tetapi tidak dalam histogram?
 \begin{center}
 \Figures[Dua diagram ditampilkan: yang pertama histogram dan yang kedua diagram kotak. Data pada setiap diagram membentang dari sekitar 0 hingga 30.
 
-Histogram memiliki kelas interval dengan lebar 2. Dimulai dari nilai yang lebih rendah, kelas-kelas interval menunjukkan puncak pertama pada nilai horizontal sekitar 5, lalu menurun hingga mendekati sumbu horizontal pada 10, sebelum naik kembali antara 10 dan 14. Tinggi kelas-kelas interval kembali lebih rendah antara 15 dan 30.
+Histogram memiliki interval kelas dengan lebar 2. Dimulai dari nilai yang lebih rendah, interval-interval kelas menunjukkan puncak pertama pada nilai horizontal sekitar 5, lalu menurun hingga mendekati sumbu horizontal pada 10, sebelum naik kembali antara 10 dan 14. Tinggi interval-interval kelas kembali lebih rendah antara 15 dan 30.
 
 Kotak pada diagram kotak berpusat pada 10 dan membentang dari sekitar 5 hingga 12. Garis kumisnya mencapai sekitar 2 di bawah dan sekitar 22 di atas. Terdapat beberapa titik di atas garis kumis atas.
 ]{0.6}{eoce/hist_vs_box}{hist_vs_box}
@@ -234,11 +234,11 @@ Jumlah				& 46		& 405	&&	73	& 378 \\
 % R011-B005 D023: jeda halaman paksa sebelum statistik robust ditiadakan.
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
-16f52590-1026-5382-a3e7-cba4d085a082,464e9807-e94f-510e-8157-c2c60c345df9,1,exercise,en,ch_summarizing_data/TeX/examining_numerical_data.tex,179,188,e2882c3f0bd92f9adf6ffec41fa54250b9948a6850a2fa4693560ffe7666ec65,id-ID,repo/ch_summarizing_data/TeX/examining_numerical_data.tex,185,194,a9507313779438c61d8ed7bf4b23c8bfcdb8fd1c42cdf4d3db98a23d166e7692,translated,"\eoce{\qt{Median versus rata-rata\label{estimate_mean_median_simple}} Perkirakan median untuk 
+16f52590-1026-5382-a3e7-cba4d085a082,464e9807-e94f-510e-8157-c2c60c345df9,1,exercise,en,ch_summarizing_data/TeX/examining_numerical_data.tex,179,188,e2882c3f0bd92f9adf6ffec41fa54250b9948a6850a2fa4693560ffe7666ec65,id-ID,repo/ch_summarizing_data/TeX/examining_numerical_data.tex,185,194,b5a72573cf76f86a8b22a261b6644f4835eb3d243d9dd4b44b35bcf94548c255,language_reviewed,"\eoce{\qt{Median versus rata-rata\label{estimate_mean_median_simple}} Perkirakan median untuk 
 400 pengamatan yang ditampilkan dalam histogram, lalu nyatakan apakah Anda memperkirakan 
 rata-ratanya lebih tinggi atau lebih rendah daripada median.
 \begin{center}
-\Figures[Sebuah histogram ditampilkan dengan sumbu horizontal data dari 40 hingga 100 dan lebar kelas interval 5. Frekuensi kelas-kelas interval tersebut adalah sebagai berikut, dengan jumlah yang bersifat perkiraan: 2 (untuk kelas 40 hingga 45), 4, 2, 10, 20, 25, 50, 75, 70, 85, 45, dan 10 untuk kelas terakhir dari 95 hingga 100.
+\Figures[Sebuah histogram ditampilkan dengan sumbu horizontal data dari 40 hingga 100 dan lebar interval kelas 5. Frekuensi interval-interval kelas tersebut adalah sebagai berikut, dengan jumlah yang bersifat perkiraan: 2 (untuk kelas 40 hingga 45), 4, 2, 10, 20, 25, 50, 75, 70, 85, 45, dan 10 untuk kelas terakhir dari 95 hingga 100.
 ]{0.6}{eoce/estimate_mean_median_simple}{estimate_mean_median_simple}
 \end{center}
 }{}
@@ -318,26 +318,26 @@ Gambar~\ref{robustOrNotTable} mungkin membantu.
 simpangan baku atau IQR?\footnotemark{}
 \end{nexercise}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
-1bbd9706-5396-549d-8374-68c3d2190c96,17acf038-9821-5e3d-9ffa-1526fab12218,1,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,436,527,9f4bb55ca5d7498b2f0d504387ad49052c278a7a9a42a64d07a74d01d3e25695,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,427,518,0a06f192a1404414b756873578ac916969e0d60d58c96fc9dd82ab2fa25cfce0,translated,"\subsection{Histogram dan bentuk distribusi}
+1bbd9706-5396-549d-8374-68c3d2190c96,17acf038-9821-5e3d-9ffa-1526fab12218,1,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,436,527,9f4bb55ca5d7498b2f0d504387ad49052c278a7a9a42a64d07a74d01d3e25695,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,427,518,7d603f74bd0cbba826995b632dfd982e23cf7258491c42b66e94161a64559f14,language_reviewed,"\subsection{Histogram dan bentuk distribusi}
 \label{histogramsAndShape}
 
 Diagram titik menunjukkan nilai tepat setiap pengamatan.
 Tampilan ini berguna untuk kumpulan data kecil, tetapi dapat
 menjadi sulit dibaca pada sampel yang lebih besar. Alih-alih
 menampilkan nilai setiap pengamatan, kita menganggap setiap nilai
-sebagai anggota suatu \emph{kelas interval} (\emph{bin}).
+sebagai anggota suatu \emph{interval kelas} (\emph{bin}).
 Sebagai contoh, untuk kumpulan data \data{loan50}, kita membuat
 tabel hitungan banyaknya pinjaman dengan suku bunga antara 5.0\%
 dan 7.5\%, kemudian banyaknya pinjaman dengan suku bunga antara
 7.5\% dan 10.0\%, dan seterusnya.
-Pengamatan yang tepat berada pada batas kelas interval
+Pengamatan yang tepat berada pada batas interval kelas
 (misalnya 10.00\%) dimasukkan ke kelas yang lebih rendah.
 Tabulasi ini ditampilkan dalam Gambar~\ref{binnedIntRateAmountTable}.
-Hitungan per kelas interval tersebut digambar sebagai batang dalam
+Hitungan per interval kelas tersebut digambar sebagai batang dalam
 Gambar~\ref{loan50IntRateHist}, membentuk apa yang disebut
 \term{histogram}. Bentuknya menyerupai diagram titik bertumpuk pada
 Gambar~\ref{loan_int_rate_dot_plot_stacked}, tetapi dengan
-pengelompokan kelas interval yang lebih lebar.
+pengelompokan interval kelas yang lebih lebar.
 
 \begin{figure}[ht]
 \centering\small
@@ -355,7 +355,7 @@ pengelompokan kelas interval yang lebih lebar.
   \hline
 \end{tabular}
 \caption{Hitungan data \var{interest\us{}rate}
-    menurut kelas interval.}
+    menurut interval kelas.}
 \label{binnedIntRateAmountTable}
 \end{figure}
 % library(openintro); library(xtable); d <- loan50$interest_rate; max(d); t1 <- table(cut(d, seq(5, 27.5, 2.5), right = TRUE)); t1; xtable(rbind(t1))
@@ -363,7 +363,7 @@ pengelompokan kelas interval yang lebih lebar.
 \begin{figure}[bth]
   \centering
   \Figure
-    [Histogram dengan sumbu horizontal berlabel ""Suku Bunga"" (suku bunga) dan frekuensi kemunculan berbagai kelas interval suku bunga pada sumbu vertikal. Kelas pertama, 5\%-7.5\%, mempunyai frekuensi (hitungan) 11 pengamatan; 7.5\%-10\% berfrekuensi 15; 10\%-12.5\% berfrekuensi 8; 12.5\%-15\% berfrekuensi 4; 15\%-17.5\% berfrekuensi 5; 17.5\%-20\% berfrekuensi 4; sedangkan kelas 20\%-22.5\%, 22.5\%-25\%, dan 25\%-27.5\% masing-masing berfrekuensi 1.]
+    [Histogram dengan sumbu horizontal berlabel ""Suku Bunga"" (suku bunga) dan frekuensi kemunculan berbagai interval kelas suku bunga pada sumbu vertikal. Kelas pertama, 5\%-7.5\%, mempunyai frekuensi (hitungan) 11 pengamatan; 7.5\%-10\% berfrekuensi 15; 10\%-12.5\% berfrekuensi 8; 12.5\%-15\% berfrekuensi 4; 15\%-17.5\% berfrekuensi 5; 17.5\%-20\% berfrekuensi 4; sedangkan kelas 20\%-22.5\%, 22.5\%-25\%, dan 25\%-27.5\% masing-masing berfrekuensi 1.]
     {0.76}{loan50IntRateHist}
   \caption{Histogram \var{interest\us{}rate}.
       Distribusi ini sangat menceng ke kanan.
@@ -411,7 +411,7 @@ sama pada kedua arah disebut \term{simetris}.
 
 \begin{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
-1bcc3c84-bca8-5252-b5ba-17cc90854edc,b23f3ca2-973a-561f-8d7b-0808ca9315e8,1,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,2003,2102,f8afd182061e1e89fb3bc4e93537b71628b9d90264d108beec3669f04ba6819c,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,1936,2036,3eb0b20547484778a640b9e409743313ed8202a63d85f52bd317d96507cd2795,translated,"\subsection{Membandingkan data numerik antarkelompok}
+1bcc3c84-bca8-5252-b5ba-17cc90854edc,b23f3ca2-973a-561f-8d7b-0808ca9315e8,1,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,2003,2102,f8afd182061e1e89fb3bc4e93537b71628b9d90264d108beec3669f04ba6819c,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,1936,2036,e25e1039680bbbd830ebda3c9f73438fea0eea07e8689f62f236a9b4bd14f6cc,language_reviewed,"\subsection{Membandingkan data numerik antarkelompok}
 \label{comparingAcrossGroups}
 
 \index{data!county|(}
@@ -499,7 +499,7 @@ digambar dengan skala yang sama.
 
 \begin{figure}[!t]
   \centering
-  \Figure[Dua grafik ditampilkan: diagram kotak berdampingan di kiri dan dua histogram berongga yang ditumpangtindihkan di kanan. Keduanya menggambarkan data yang sama dari himpunan data county: variabel numerik ""Pendapatan Rumah Tangga Median"" dan variabel kategoris ""Perubahan jumlah penduduk"" dengan kategori ""Bertambah"" serta ""Tidak bertambah"". Pada grafik kiri, diagram kotak ""Bertambah"" berada di kiri dan ""Tidak bertambah"" di kanan, dengan sumbu vertikal dari sekitar \$20,000 sampai sekitar \$130,000. Kumis bawah ""Tidak bertambah"" berada di sekitar \$20,000, sedangkan kumis bawah ""Bertambah"" sekitar \$25,000. Batas bawah kotak ""Tidak bertambah"" sekitar \$40,000 dan batas bawah kotak ""Bertambah"" sekitar \$47,000. Garis median ""Tidak bertambah"" sekitar \$45,000, bahkan lebih rendah daripada batas bawah kotak ""Bertambah"". Median ""Bertambah"" sekitar \$53,000, sedikit di atas batas atas kotak ""Tidak bertambah"" yang sekitar \$52,000. Batas atas kotak ""Bertambah"" sekitar \$62,000. Kumis atas ""Bertambah"" mencapai sekitar \$87,000 dan kumis atas ""Tidak bertambah"" sekitar \$70,000. Banyak titik pengamatan terletak di atas kumis atas; pencilan terbesar ""Bertambah"" sekitar \$130,000 dan ""Tidak bertambah"" sekitar \$112,000. Pada grafik kanan, dua histogram berongga untuk kategori ""Bertambah"" (biru) dan ""Tidak bertambah"" (merah) ditumpangtindihkan. Sumbu horizontal membentang dari sekitar \$20,000 sampai sekitar \$130,000. Setiap histogram hanya menampilkan garis batas atas setiap kelas interval. Di sisi kiri, garis ""Tidak bertambah"" mulai sedikit naik pada \$20,000, sedangkan garis ""Bertambah"" mulai naik sekitar \$25,000. Garis ""Tidak bertambah"" kemudian naik tajam mulai sekitar \$30,000, disusul garis ""Bertambah"" yang naik tajam sekitar \$40,000. Pada titik ini, ""Tidak bertambah"" juga mencapai puncak dan relatif datar sampai sekitar \$50,000; di sekitar \$50,000 garis ""Bertambah"" juga mencapai puncak. Pada titik tersebut, garis ""Tidak bertambah"" turun tajam dari puncak yang relatif datar antara sekitar \$35,000 sampai \$50,000, sedangkan kelompok ""Bertambah"" mulai turun jauh lebih lambat di sekitar \$50,000. Di sekitar \$70,000, ""Tidak bertambah"" hampir menyentuh sumbu horizontal, sementara ""Bertambah"" baru turun sekitar 70\% dari puncaknya. ""Tidak bertambah"" tetap dekat sumbu sampai menyatu dengannya sedikit di atas \$90,000. Sebaliknya, ""Bertambah"" menurun perlahan dari sekitar 30\% puncaknya pada \$70,000 hingga mendekati sumbu pada \$100,000. Kelompok ""Bertambah"" sedikit naik antara \$100,000 dan \$130,000 sebelum menyatu dengan sumbu horizontal.]
+  \Figure[Dua grafik ditampilkan: diagram kotak berdampingan di kiri dan dua histogram berongga yang ditumpangtindihkan di kanan. Keduanya menggambarkan data yang sama dari himpunan data county: variabel numerik ""Pendapatan Rumah Tangga Median"" dan variabel kategoris ""Perubahan jumlah penduduk"" dengan kategori ""Bertambah"" serta ""Tidak bertambah"". Pada grafik kiri, diagram kotak ""Bertambah"" berada di kiri dan ""Tidak bertambah"" di kanan, dengan sumbu vertikal dari sekitar \$20,000 sampai sekitar \$130,000. Kumis bawah ""Tidak bertambah"" berada di sekitar \$20,000, sedangkan kumis bawah ""Bertambah"" sekitar \$25,000. Batas bawah kotak ""Tidak bertambah"" sekitar \$40,000 dan batas bawah kotak ""Bertambah"" sekitar \$47,000. Garis median ""Tidak bertambah"" sekitar \$45,000, bahkan lebih rendah daripada batas bawah kotak ""Bertambah"". Median ""Bertambah"" sekitar \$53,000, sedikit di atas batas atas kotak ""Tidak bertambah"" yang sekitar \$52,000. Batas atas kotak ""Bertambah"" sekitar \$62,000. Kumis atas ""Bertambah"" mencapai sekitar \$87,000 dan kumis atas ""Tidak bertambah"" sekitar \$70,000. Banyak titik pengamatan terletak di atas kumis atas; pencilan terbesar ""Bertambah"" sekitar \$130,000 dan ""Tidak bertambah"" sekitar \$112,000. Pada grafik kanan, dua histogram berongga untuk kategori ""Bertambah"" (biru) dan ""Tidak bertambah"" (merah) ditumpangtindihkan. Sumbu horizontal membentang dari sekitar \$20,000 sampai sekitar \$130,000. Setiap histogram hanya menampilkan garis batas atas setiap interval kelas. Di sisi kiri, garis ""Tidak bertambah"" mulai sedikit naik pada \$20,000, sedangkan garis ""Bertambah"" mulai naik sekitar \$25,000. Garis ""Tidak bertambah"" kemudian naik tajam mulai sekitar \$30,000, disusul garis ""Bertambah"" yang naik tajam sekitar \$40,000. Pada titik ini, ""Tidak bertambah"" juga mencapai puncak dan relatif datar sampai sekitar \$50,000; di sekitar \$50,000 garis ""Bertambah"" juga mencapai puncak. Pada titik tersebut, garis ""Tidak bertambah"" turun tajam dari puncak yang relatif datar antara sekitar \$35,000 sampai \$50,000, sedangkan kelompok ""Bertambah"" mulai turun jauh lebih lambat di sekitar \$50,000. Di sekitar \$70,000, ""Tidak bertambah"" hampir menyentuh sumbu horizontal, sementara ""Bertambah"" baru turun sekitar 70\% dari puncaknya. ""Tidak bertambah"" tetap dekat sumbu sampai menyatu dengannya sedikit di atas \$90,000. Sebaliknya, ""Bertambah"" menurun perlahan dari sekitar 30\% puncaknya pada \$70,000 hingga mendekati sumbu pada \$100,000. Kelompok ""Bertambah"" sedikit naik antara \$100,000 dan \$130,000 sebelum menyatu dengan sumbu horizontal.]
       {1.00}{countyIncomeSplitByPopGain}
   \caption{Diagram kotak berdampingan (panel kiri)
       dan histogram berongga (panel kanan) untuk
@@ -696,6 +696,67 @@ mungkin saling dependen.}
 \end{multicols}
 \begin{multicols}{2}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+21c7fe6c-29f9-5a32-a70d-a7e378db0ca6,ca42976d-868b-528b-8451-40e275e0fa37,1,subsection-prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,2362,2421,610c2365e2e67c8ab9316afc6f32df7d151a4fb527688809ad9e78abafb18b4c,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,2287,2346,d1e830bf42fab0aabc686d03b63f82081d8c9ba29d37449d2b5f98aeb646440d,language_reviewed,"\subsection{Menyimulasikan penelitian}
+\label{simulatingTheStudy}
+
+Kita akan menjalankan
+\termsub{simulasi}{simulation@simulasi},
+dengan berpura-pura mengetahui bahwa vaksin malaria
+yang sedang diuji \emph{tidak} bekerja.
+Pada akhirnya, kita ingin memahami apakah perbedaan besar
+yang kita amati lazim muncul dalam simulasi-simulasi ini.
+Jika lazim, mungkin perbedaan yang kita amati murni
+terjadi karena kebetulan.
+Jika sangat tidak lazim, kemungkinan bahwa vaksin tersebut
+bermanfaat menjadi lebih masuk akal.
+
+Gambar~\ref{malaria_vaccine_20_exp_summary}
+menunjukkan bahwa 11 pasien mengalami infeksi dan 9 tidak.
+Untuk simulasi ini, kita akan menganggap bahwa infeksi
+tidak bergantung pada vaksin dan bahwa kita dapat
+\emph{memutar balik} waktu ke saat peneliti mengalokasikan
+pasien dalam penelitian secara acak.
+Seandainya pasien dialokasikan secara acak dengan cara yang berbeda,
+kita mungkin memperoleh hasil berbeda dalam dunia hipotetis
+yang menganggap vaksin tidak memengaruhi infeksi ini.
+Mari kita lakukan \term{pengacakan} lain dengan
+sebuah simulasi.
+
+\D{\newpage}
+
+Dalam \term{simulasi} ini, kita menggunakan 20 kartu indeks untuk
+mewakili 20 pasien, lalu menuliskan ``terinfeksi''
+pada 11 kartu dan ``tidak terinfeksi'' pada 9 kartu.
+Dalam dunia hipotetis ini, kita menganggap setiap pasien
+yang mengalami infeksi memang akan mengalaminya terlepas
+dari kelompoknya. Karena itu, mari kita lihat apa yang terjadi
+jika kita kembali mengalokasikan pasien secara acak ke kelompok
+perlakuan dan kontrol.
+Kita mengocok kartu-kartu indeks tersebut secara menyeluruh,
+lalu membagikan 14 kartu ke tumpukan \resp{vaccine}
+dan 6 kartu ke tumpukan \resp{placebo}.
+Terakhir, kita menyusun hasilnya dalam tabel, seperti ditampilkan
+pada Gambar~\ref{malaria_vaccine_20_exp_summary_rand_1}.
+
+\begin{figure}[ht]
+\centering
+\begin{tabular}{l l cc rr}
+  & & \multicolumn{2}{c}{\var{outcome}} \\
+  \cline{3-4}
+  &  &  {terinfeksi} & {tidak terinfeksi} & Total & \hspace{3mm}  \\ 
+  \cline{2-5}
+  perlakuan & {vaksin} & 7 & 7 & 14 \\ 
+  (simulasi) & {plasebo} & 4 & 2 & 6 \\ 
+  \cline{2-5}
+  & Total & 11 & 9 & 20 \\
+  \cline{2-5}
+\end{tabular}
+\caption{Hasil simulasi; setiap perbedaan tingkat infeksi
+    di sini semata-mata terjadi karena kebetulan.}
+\label{malaria_vaccine_20_exp_summary_rand_1}
+\end{figure}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 25e0de6b-f309-5f03-b5b7-ff64e1fee4ff,cc807b75-61bb-5246-adef-100e98d605fe,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,151,156,91ff952c7b152db66f0301a02498ab5db5c7bf2c82b86771249563746d8d4669,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,162,167,e7a7858ac7870e1b9d21665b3dad83bfbe51b0dbb919954bfda1b00027364a08,translated,"% 29
 
 \eocesol{(a)~Kinerja ujian.
@@ -703,7 +764,7 @@ mungkin saling dependen.}
 dan tanpa pencahayaan dari atas (hanya menggunakan lampu meja).
 (c)~Variabel jenis kelamin: laki-laki, perempuan.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
-262d3091-0826-5eba-b807-af1e3b223b0e,580446af-d384-52ed-bf61-e76ca3df060f,1,preface,en,extraTeX/preamble/preface.tex,1,276,af5029f8f17f98dc094b6ce036a74143b803f71d841d6235bb70d130c57d1424,id-ID,repo/extraTeX/preamble/preface.tex,1,277,44982a2074a3977620700fd3f76e1ea514f28593896e1cff6db6a9b6ffdc7d9a,translated,"\chapter*{{\color{oiB}Prakata}}
+262d3091-0826-5eba-b807-af1e3b223b0e,580446af-d384-52ed-bf61-e76ca3df060f,1,preface,en,extraTeX/preamble/preface.tex,1,276,af5029f8f17f98dc094b6ce036a74143b803f71d841d6235bb70d130c57d1424,id-ID,repo/extraTeX/preamble/preface.tex,1,277,5c1c7811bb067ff7d3c0a3eb50c3a8d9e141c832ec7013220378159ce4a0561d,language_reviewed,"\chapter*{{\color{oiB}Prakata}}
 \markboth{\MakeUppercase{Prakata}}{}
 %\chaptertext{}
 %\sectiontext{}
@@ -782,7 +843,7 @@ Bab-bab dalam buku ini adalah sebagai berikut:%\vspace{2mm}
 \item[5. Dasar-dasar inferensi.]
     %Introduction to uncertainty in point estimates,
     %confidence intervals, and hypothesis tests.
-    Gagasan umum inferensi statistika dalam konteks
+    Gagasan umum statistika inferensial dalam konteks
     pendugaan proporsi populasi.
 \item[6. Inferensi untuk data kategoris.]
     Inferensi untuk proporsi dan tabel dengan menggunakan distribusi
@@ -813,9 +874,9 @@ Jika tujuan utama Anda adalah mempelajari regresi berganda
 secepat mungkin, prasyarat yang ideal adalah sebagai berikut:
 \begin{itemize}
 \setlength{\itemsep}{0mm}
-\item Bab~\ref{ch_intro_to_data},
-    Bagian~\ref{numericalData},
-    dan Bagian~\ref{categoricalData} untuk memperoleh
+\item Bab~\ref{ch_intro_to_data} dan
+    Bagian~\ref{numericalData}--\ref{caseStudyMalariaVaccine}
+    untuk memperoleh
     pengantar yang kokoh tentang struktur data dan ringkasan
     statistika yang digunakan di seluruh buku.
 \item Bagian~\ref{normalDist}
@@ -1079,6 +1140,19 @@ Berapakah $n$ dalam sampel pinjaman
 ini?\footnotemark{}
 \end{nexercise}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+3a0b8dbf-cc25-54a7-bc65-8f42fb5c6f4f,34955eb4-a25f-5029-a4de-2749d28473d5,1,guided-practice,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,2253,2266,b3a89e9130211209eeac38685fe72b537baf60651d1ed9a20c8c630c2730fb39,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,2183,2194,87cb7e9b6db24bbd8a7bb124f2a2043f959506a6cd181c30daf0755e0ffeb70f,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+Apakah penelitian ini merupakan studi observasional atau eksperimen?
+Apa dampak jenis penelitian ini terhadap kesimpulan yang dapat
+ditarik dari hasilnya?\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Penelitian ini merupakan eksperimen karena pasien
+  dialokasikan secara acak ke kelompok eksperimen.
+  Karena penelitian ini merupakan eksperimen, hasilnya dapat digunakan
+  untuk menilai hubungan kausal antara vaksin malaria
+  dan apakah pasien menunjukkan tanda-tanda infeksi.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 3e1c3dbd-6f2e-54c1-993b-34966b0a037b,2074e3bc-e444-5c50-82e0-9cb61eebf94b,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,107,121,13622842c7832124dffd51364332a3a323d5241e1d7e5a64b4a590c150cec4e2,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,116,129,da8b927d1f581b96c01fdeb60685c7cc88c717ac50c1635102a38e30320ea68e,translated,"% 23
 
 \eocesol{(a)~Pengambilan sampel acak sederhana layak digunakan. Bahkan, jarang 
@@ -1093,6 +1167,142 @@ dihasilkan tidak terduga.)}
 
 \end{multicols}
 \begin{multicols}{2}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+3fb95d59-f8cc-599c-bb4f-23813aa4d9da,08a0e42f-434e-5621-ad7a-49c7c1f63adf,1,subsection-prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,2439,2579,df305002d9070a2c71ee17e2748e1f8ed4a396f007878219c27c4f33de114217,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,2364,2498,a852a285f8fac75de94f43490e889a4240e2268f6c194a2ef2c24d125b016d88,language_reviewed,"\subsection{Memeriksa independensi}
+
+Kita menghitung satu perbedaan yang mungkin terjadi di bawah
+model independensi dalam Latihan Terpandu
+\ref{malaria_vaccine_20_exp_summary_rand_1_diff};
+perbedaan tersebut mewakili satu perbedaan akibat kebetulan.
+Dalam simulasi pertama ini, kita membagikan kartu indeks
+secara fisik untuk mewakili pasien, tetapi simulasi ini
+lebih efisien dilakukan dengan komputer.
+Ketika simulasi diulangi dengan komputer, kita memperoleh
+perbedaan lain akibat kebetulan:
+\begin{align*}
+\frac{2}{\malariaBD{}} - \frac{9}{\malariaAD{}} = -0.310
+\end{align*}
+Lalu perbedaan lainnya:
+\begin{align*}
+\frac{3}{\malariaBD{}} - \frac{8}{\malariaAD{}} = -0.071
+\end{align*}
+Demikian seterusnya, hingga simulasi telah cukup sering
+diulangi sehingga kita memahami dengan baik seperti apa
+\emph{distribusi perbedaan yang semata-mata timbul karena kebetulan}.
+Gambar~\ref{malaria_rand_dot_plot} menampilkan diagram titik bertumpuk
+untuk perbedaan yang diperoleh dari 100 simulasi;
+setiap titik mewakili selisih tingkat infeksi hasil simulasi
+(tingkat kelompok kontrol dikurangi tingkat kelompok perlakuan).
+
+\begin{figure}[ht]
+  \centering
+  \Figure[Ditampilkan sebuah diagram titik bertumpuk. Sumbu horizontal menyatakan ""selisih tingkat infeksi"" dan membentang dari -0.6 sampai 0.8. Diagram memuat enam tumpukan titik: 3 titik pada -0.55, 20--25 titik pada -0.32, 30--35 titik pada -0.08, 25--30 titik pada 0.18, 10--12 titik pada 0.41, dan 2 titik pada 0.64.]
+      {0.85}{malaria_rand_dot_plot}
+  \caption{Diagram titik bertumpuk untuk perbedaan dari
+      100 simulasi yang dihasilkan di bawah model independensi,
+      $H_0$, dengan infeksi yang tidak dipengaruhi oleh vaksin
+      dalam simulasi-simulasi ini.
+      Dua dari 100 simulasi menghasilkan perbedaan setidaknya
+      sebesar \malariaIRDiffPerc{}, yaitu perbedaan yang diamati
+      dalam penelitian.}
+  \label{malaria_rand_dot_plot}
+\end{figure}
+
+Perhatikan bahwa distribusi perbedaan hasil simulasi ini
+berpusat di sekitar 0.
+Kita menyimulasikan perbedaan-perbedaan tersebut dengan menganggap
+model independensi benar. Dalam kondisi ini,
+kita memperkirakan selisihnya mendekati nol dengan sedikit
+fluktuasi acak. Istilah \emph{mendekati} digunakan cukup longgar
+dalam kasus ini karena ukuran sampel penelitian begitu kecil.
+
+\begin{examplewrap}
+\begin{nexample}{Seberapa sering Anda akan mengamati perbedaan
+    setidaknya sebesar \malariaIRDiffPerc{} (\malariaIRDiff{})
+    menurut Gambar~\ref{malaria_rand_dot_plot}?
+    Sering, kadang-kadang, jarang, atau tidak pernah?}
+  Perbedaan setidaknya sebesar \malariaIRDiffPerc{} yang
+  semata-mata terjadi karena kebetulan tampaknya hanya muncul
+  sekitar 2\% dari seluruh simulasi menurut
+  Gambar~\ref{malaria_rand_dot_plot}.
+  Peluang serendah itu menunjukkan peristiwa yang jarang.
+\end{nexample}
+\end{examplewrap}
+
+
+Karena perbedaan sebesar \malariaIRDiffPerc{} merupakan
+peristiwa langka, hasil penelitian ini dapat ditafsirkan
+dengan dua cara:
+\begin{itemize}
+  \setlength{\itemsep}{0mm}
+  \item[$H_0$] \textbf{Model independensi.}
+      Vaksin tidak memengaruhi tingkat infeksi,
+      dan kebetulan saja kita mengamati perbedaan yang
+      hanya akan terjadi sesekali.
+  \item[$H_A$] \textbf{Model alternatif.}
+      Vaksin memengaruhi tingkat infeksi,
+      dan perbedaan yang kita amati memang terjadi karena
+      vaksin efektif melawan malaria; hal ini menjelaskan
+      perbedaan besar sebesar~\malariaIRDiffPerc{}.
+\end{itemize}
+Berdasarkan simulasi tersebut, kita memiliki dua pilihan.
+(1)~Kita menyimpulkan bahwa hasil penelitian tidak memberikan
+bukti kuat untuk menentang model independensi.
+Dengan kata lain, kita tidak memiliki bukti yang cukup kuat
+untuk menyimpulkan bahwa vaksin berpengaruh dalam
+konteks klinis ini.
+(2)~Kita menyimpulkan bahwa bukti tersebut cukup kuat
+untuk menolak $H_0$ dan menyatakan bahwa vaksin bermanfaat.
+Ketika melakukan penelitian formal, biasanya kita menolak
+gagasan bahwa kita kebetulan mengamati suatu peristiwa
+langka.\footnote{Penalaran ini pada umumnya tidak dapat diperluas
+    ke pengamatan anekdotal.
+    Setiap orang mengamati berbagai peristiwa yang sangat langka
+    setiap hari, yaitu peristiwa yang mustahil dapat kita ramalkan.
+    Namun, dalam konteks bukti anekdotal yang tidak ketat,
+    hampir segala sesuatu dapat tampak sebagai peristiwa langka.
+    Karena itu, mencari peristiwa langka dalam kegiatan sehari-hari
+    dapat sangat menyesatkan.
+    Sebagai contoh, perhatikan lotere:
+    hanya terdapat peluang 1 banding 292 juta bahwa nomor Powerball
+    untuk hadiah terbesar sepanjang sejarah (13 Januari 2016)
+    akan berupa (04, 08, 19, 27, 34) dengan nomor Powerball (10),
+    tetapi nomor-nomor itu tetap muncul!
+    Namun, nomor apa pun yang muncul
+    akan memiliki peluang luar biasa kecil yang sama.
+    Artinya, \emph{setiap himpunan nomor yang mungkin kita amati
+    pada akhirnya akan sama-sama sangat langka}.
+    Situasi seperti ini lazim dalam kehidupan sehari-hari:
+    setiap peristiwa yang mungkin terjadi tampak sangat langka
+    jika ditinjau sendiri, tetapi jika semua alternatif dipertimbangkan,
+    hasil-hasil lain tersebut juga sangat langka.
+    Kita harus berhati-hati agar tidak salah menafsirkan
+    bukti anekdotal semacam ini.}
+Jadi, dalam kasus ini kita menolak model independensi dan memilih
+model alternatif.
+Dengan kata lain, kita menyimpulkan bahwa data memberikan bukti kuat
+bahwa vaksin memberi perlindungan tertentu terhadap malaria
+dalam konteks klinis ini.
+
+\index{data!malaria vaccine@vaksin malaria|)}
+
+Salah satu cabang statistika, yaitu statistika inferensial, dibangun
+di atas penilaian apakah perbedaan semacam ini terjadi karena kebetulan.
+Dalam statistika inferensial, ilmuwan data menilai model mana yang
+paling masuk akal berdasarkan data.
+Kesalahan tetap dapat terjadi, seperti halnya peristiwa langka,
+dan kita mungkin memilih model yang salah.
+Walaupun pilihan kita tidak selalu tepat, statistika inferensial
+memberi kita perangkat untuk mengendalikan dan menilai seberapa
+sering kesalahan itu terjadi.
+Dalam Bab~\ref{foundationsForInference},
+kita memberikan pengantar formal mengenai masalah pemilihan model.
+Dua bab berikutnya digunakan untuk membangun landasan probabilitas
+dan teori yang diperlukan agar pembahasan tersebut menjadi ketat.
+
+
+
+{\input{ch_summarizing_data/TeX/case_study_malaria_vaccine.tex}}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 3fcfe49a-62f4-562b-b965-4b6688595c1f,c9faaa37-1ac5-54ae-b62f-1556d2b63374,5,prose,en,ch_intro_to_data/TeX/ch_intro_to_data.tex,125,136,55230f213b20ce31e356017b622bf930552ed1c74126612e274c182edeb36edf,id-ID,repo/ch_intro_to_data/TeX/ch_intro_to_data.tex,125,136,6aa862405209f9e6a484abbd0c7d5617730f2bbdf6ce608c07584c90edcc4522,translated,"Meskipun kita belum memiliki perangkat statistik untuk menjawab pertanyaan ini sepenuhnya secara mandiri, kita dapat memahami kesimpulan analisis yang telah dipublikasikan: terdapat bukti kuat bahwa penggunaan stent membahayakan pasien dalam penelitian ini.
 
@@ -1300,6 +1510,99 @@ yang menarik.
 Pada awalnya mungkin juga terdapat periode pertumbuhan eksponensial
 sebelum ukuran cawan petri mulai memperlambat pertumbuhan. \\
 \FigureFullPath[Sebuah grafik ditampilkan dengan sumbu horizontal ""waktu"" dan sumbu vertikal berlabel ""jumlah sel bakteri"". Sebuah kurva naik dengan curam di sisi kiri; ketika bergerak ke kanan, kenaikannya melambat hingga hampir berhenti ketika mencapai sisi kanan grafik.]{0.25}{ch_summarizing_data/figures/eoce/reproducing_bacteria/reproducing_bacteria_sketch}}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+455f6d3d-9ca4-5423-8ca8-3715f0b7a5b6,51f8c9e8-d47d-503f-a0db-38a0564b62f2,2,subsection-prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,2267,2361,a735d10e60fd2608f439d0542e15ef1be2a651f5c62494b1e4a0ab853461bdf2,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,2195,2286,949456789f53dd5ed6a4de0aa753c99846437f70b09f47d61adf5135e324bd01,language_reviewed,"
+Dalam penelitian ini, proporsi pasien yang menunjukkan tanda-tanda
+infeksi lebih kecil pada kelompok yang menerima vaksin
+(\malariaVIRPerc{} dibandingkan dengan \malariaPIRPerc{}).
+Namun, sampelnya sangat kecil,
+dan belum jelas apakah perbedaan tersebut memberikan
+\emph{bukti meyakinkan} bahwa vaksin itu efektif.
+
+\D{\newpage}
+
+\begin{examplewrap}
+\begin{nexample}{Ilmuwan data terkadang diminta
+    menilai kekuatan bukti.
+    Ketika melihat tingkat infeksi pasien
+    pada kedua kelompok dalam penelitian ini,
+    apa yang terlintas dalam pikiran saat kita mencoba menentukan apakah
+    data tersebut menunjukkan bukti meyakinkan adanya perbedaan nyata?}
+  \label{malaria_vaccine_20_what_is_convincing}
+  Tingkat infeksi yang diamati
+  (\malariaVIRPerc{} pada kelompok perlakuan dibandingkan dengan
+  \malariaPIRPerc{} pada kelompok kontrol)
+  mengisyaratkan bahwa vaksin mungkin efektif.
+  Namun, kita tidak dapat memastikan apakah perbedaan yang diamati
+  mencerminkan efikasi vaksin atau sekadar timbul
+  karena faktor kebetulan.
+  Data sampel umumnya mengalami sedikit fluktuasi, dan kita tidak
+  mengharapkan proporsi sampel \emph{persis} sama,
+  meskipun sebenarnya tingkat infeksi
+  tidak bergantung pada pemberian vaksin.
+  Selain itu, dengan sampel sekecil ini,
+  mungkin perbedaan sebesar itu memang lazim muncul ketika
+  kita membagi sebuah kelompok secara acak semata-mata karena kebetulan!
+\end{nexample}
+\end{examplewrap}
+
+Contoh~\ref{malaria_vaccine_20_what_is_convincing}
+mengingatkan kita bahwa hasil yang diamati dalam sampel data
+mungkin tidak mencerminkan secara sempurna hubungan sebenarnya
+antara variabel karena terdapat \term{derau acak}.
+Walaupun perbedaan tingkat infeksi yang diamati besar,
+ukuran sampel penelitian ini kecil,
+sehingga belum jelas apakah perbedaan yang diamati tersebut
+mencerminkan efikasi vaksin atau sekadar timbul karena kebetulan.
+Kita menamai dua pernyataan yang bersaing ini, $H_0$ dan $H_A$,
+yang dibaca ``H-nol'' dan ``H-A'':
+\begin{itemize}
+\setlength{\itemsep}{0mm}
+\item[$H_0$:] \textbf{Model independensi.}
+    Variabel \var{treatment} dan \var{outcome}
+    saling independen.
+    Keduanya tidak memiliki hubungan, dan perbedaan yang diamati
+    antara proporsi pasien yang mengalami infeksi
+    pada kedua kelompok, yaitu \malariaIRDiffPerc{},
+    terjadi karena kebetulan.
+\item[$H_A$:] \textbf{Model alternatif.}
+    Kedua variabel \emph{tidak} saling independen.
+    Perbedaan tingkat infeksi sebesar
+    \malariaIRDiffPerc{}
+    tidak terjadi karena kebetulan,
+    dan vaksin memengaruhi tingkat infeksi.
+\end{itemize}
+
+Apa artinya jika model independensi,
+yang menyatakan bahwa vaksin tidak memengaruhi
+tingkat infeksi, benar?
+Artinya, 11~pasien akan mengalami infeksi
+\emph{terlepas dari kelompok mana mereka dialokasikan
+secara acak},
+dan 9~pasien tidak akan mengalami infeksi
+\emph{terlepas dari kelompok mana mereka dialokasikan
+secara acak}.
+Dengan kata lain, jika vaksin tidak memengaruhi tingkat
+infeksi, perbedaan tingkat infeksi itu semata-mata
+terjadi secara kebetulan akibat cara pasien dialokasikan
+secara acak.
+
+Sekarang tinjau model alternatif:
+tingkat infeksi dipengaruhi oleh apakah seorang pasien
+menerima vaksin atau tidak.
+Jika hal ini benar, terlebih jika pengaruhnya cukup besar,
+kita akan mengharapkan adanya perbedaan tingkat infeksi
+antara pasien dalam kedua kelompok.
+
+Kita memilih di antara kedua pernyataan yang bersaing ini
+dengan menilai apakah data sedemikian bertentangan dengan
+$H_0$ sehingga model independensi tidak lagi dapat dianggap
+masuk akal.
+Jika demikian, dan data mendukung $H_A$,
+kita akan menolak gagasan independensi
+dan menyimpulkan bahwa vaksin tersebut efektif.
+
+
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 4695139d-27a3-5e9b-b80a-46c0fdf5d8c2,539c9f92-ebb5-583a-bbe7-033054cf48e2,1,guided_exercise,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,240,245,5a65b642e0499b81f9b384811b7c891674fefbdab31bcd3627fd4da09536ce52,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,238,243,d34457c2f8766e39256048df79df5f4d5061984a7a8d669e4f356693a8064451,translated,"\begin{nexercise}
 Perhatikan persamaan untuk rata-rata.
@@ -1566,7 +1869,7 @@ secara setara.
 
 % 21
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
-4b791333-be12-5551-8066-5eefa52f93a3,8953f299-909a-5500-9c5f-46b560e50081,1,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,650,764,cb16cc46921971e35273d180159458d58426f6c4356ae2b01b47427df2e0de14,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,633,741,95029ee182bd17f027c0400240501260798a5ab1894ac57b5a1d7a0d09219da8,translated,"\subsection{Varians dan simpangan baku}
+4b791333-be12-5551-8066-5eefa52f93a3,8953f299-909a-5500-9c5f-46b560e50081,1,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,650,764,cb16cc46921971e35273d180159458d58426f6c4356ae2b01b47427df2e0de14,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,633,741,7b73fb49eb70a62fdb7f6b98a6d7c946343fbc63e44017951e12f16d387b7eff,language_reviewed,"\subsection{Varians dan simpangan baku}
 \label{variability}
 
 Rata-rata diperkenalkan sebagai cara untuk menggambarkan pusat
@@ -1667,7 +1970,7 @@ Yunani \emph{sigma}.
 \begin{figure}
   \centering
   \Figure
-    [Ditampilkan tiga histogram (atas, tengah, bawah). Setiap distribusi juga memuat arsiran: abu-abu gelap antara -1 dan 1, abu-abu lebih muda antara -2 dan 2, abu-abu muda antara -3 dan 3, lalu abu-abu sangat muda di luarnya. Diagram atas hanya mempunyai dua kelas interval bernilai tak nol dengan tinggi sama, masing-masing pada -1 dan 1. Diagram tengah membentuk kurva lonceng; sebagian besar kelas interval yang tinggi berada antara -1 dan 1, tinggi sedang berada antara -2 dan -1 serta antara 1 dan 2, lalu data makin jarang pada kedua arah dengan nilai yang terus mengecil. Histogram bawah tidak mempunyai data di bawah sekitar -1.6; nilainya naik cepat ke puncak sekitar -0.7, lalu turun perlahan hingga sekitar setengah tinggi maksimum pada 1 dan terus mengecil hingga posisi horizontal 3 dan seterusnya.]
+    [Ditampilkan tiga histogram (atas, tengah, bawah). Setiap distribusi juga memuat arsiran: abu-abu gelap antara -1 dan 1, abu-abu lebih muda antara -2 dan 2, abu-abu muda antara -3 dan 3, lalu abu-abu sangat muda di luarnya. Diagram atas hanya mempunyai dua interval kelas bernilai tak nol dengan tinggi sama, masing-masing pada -1 dan 1. Diagram tengah membentuk kurva lonceng; sebagian besar interval kelas yang tinggi berada antara -1 dan 1, tinggi sedang berada antara -2 dan -1 serta antara 1 dan 2, lalu data makin jarang pada kedua arah dengan nilai yang terus mengecil. Histogram bawah tidak mempunyai data di bawah sekitar -1.6; nilainya naik cepat ke puncak sekitar -0.7, lalu turun perlahan hingga sekitar setengah tinggi maksimum pada 1 dan terus mengecil hingga posisi horizontal 3 dan seterusnya.]
     {0.6}{severalDiffDistWithSdOf1}
   \caption{Tiga distribusi populasi yang sangat berbeda dengan
       rata-rata $\mu=0$ dan simpangan baku $\sigma=1$ yang sama.}
@@ -2604,7 +2907,7 @@ gejala lebih tinggi?
 \end{parts}
 }{}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
-5e27f860-db74-5559-9dd8-dcd2a60c752b,3a67e1e4-7d18-5753-bbc0-ac47d9ac4fb2,1,title_page_source,en,extraTeX/preamble/title_derivative.tex,1,21,e187e431e2fad382442b631a3ca6b8f74bf783abb9f82ad64502529a071aaf47,id-ID,repo/extraTeX/preamble/title_derivative.tex,1,16,edcf71fd12626a64ebfa0603c2155ad109c45d03179aca3dc4f6f523603eb223,translated,"
+5e27f860-db74-5559-9dd8-dcd2a60c752b,3a67e1e4-7d18-5753-bbc0-ac47d9ac4fb2,1,title_page_source,en,extraTeX/preamble/title_derivative.tex,1,21,e187e431e2fad382442b631a3ca6b8f74bf783abb9f82ad64502529a071aaf47,id-ID,repo/extraTeX/preamble/title_derivative.tex,1,16,1b5da4df4b12cf7428b1873143868082cc89df0336f480cff65b68e44424fc15,translated,"
 % Pedoman atribusi dan penamaan karya turunan:
 % https://github.com/OpenIntroStat/openintro-statistics/blob/master/LICENSE.md
 
@@ -2618,7 +2921,7 @@ Edisi Keempat}
 \normalsize Christopher D. Barr \\[8mm]
 \Large Kontributor Edisi Bahasa Indonesia \\[1.5mm]
 \normalsize Codex \\
-\small Terjemahan bahasa Indonesia dan adaptasi teknis, atas permintaan Floris \\[2mm]
+\small Terjemahan bahasa Indonesia dan adaptasi teknis, atas permintaan pengguna \\[2mm]
 }
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""947b6c3b-ce48-5326-b7af-6571830020d4""]"
 6016d048-4580-5091-b311-2058706090ba,b23f3ca2-973a-561f-8d7b-0808ca9315e8,3,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,2135,2165,00da733b454c6bdf631d088d6abb316172575f2644ec9fdfeeb4253a5af8b001,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,2067,2097,b722252f92d09e99668a7f43f1de7dcb2f069bf838643d0c736dbf17f31fa50e,translated,"\end{exercisewrap}
@@ -3073,6 +3376,22 @@ hanya kelompok ketiga yang menunjukkan peningkatan kesejahteraan psikologis sepa
 
 % 42
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+7923b5b0-37c2-5464-9292-0221e791e904,2496839a-c5b7-5ea8-9986-c3930571e33c,1,guided-practice,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,2422,2436,4b05779394820726d7eda60f506e9b43b220989a2b9978ad5ccc892c5c580bc9,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,2347,2361,9266509ac03f7c899c657e1b4e460372d31c180343f08da51587617e24fc4b16,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+\label{malaria_vaccine_20_exp_summary_rand_1_diff}
+Berapa selisih tingkat infeksi antara
+kedua kelompok hasil simulasi pada
+Gambar~\ref{malaria_vaccine_20_exp_summary_rand_1}?
+Bagaimana selisih ini dibandingkan dengan selisih
+\malariaIRDiffPerc{} yang diamati
+pada data sebenarnya?\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{$4 / 6 - 7 / 14 = 0.167$,
+  atau sekitar 16.7\% yang berpihak pada vaksin.
+  Perbedaan akibat kebetulan ini jauh lebih kecil daripada
+  perbedaan yang diamati pada kelompok sebenarnya.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 7d8eb465-9a42-5325-a2b5-90a76b54880a,15e82d16-af8c-5c5f-900d-1e15be6b7e41,1,exercise,en,ch_summarizing_data/TeX/considering_categorical_data.tex,5,21,505dd2fe84a2aa5f0b7340b25aab914e115014d15a8ef2da3798033fcaa5386e,id-ID,repo/ch_summarizing_data/TeX/considering_categorical_data.tex,8,24,41a2c29068bd9377a75c34db6f9a3d14e5666b85f517f715dc348be288f24bde,translated,"\eoce{\qt{Penggunaan antibiotik pada anak\label{antibiotic_use_children}} Diagram batang
 dan diagram lingkaran di bawah menunjukkan distribusi kondisi medis yang sudah
 ada sebelumnya pada anak-anak yang terlibat dalam penelitian tentang durasi
@@ -3290,7 +3609,7 @@ contoh, jelaskan mengapa deskripsi seperti ini penting.\footnotemark{}
 
 \begin{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
-8955285c-18b1-545b-9b67-cf16e91a6a73,05ed1aa2-8201-50ff-8cb7-893d51314da9,1,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,1095,1206,1653939f7f859a5acc1e75ba9d32d156582df58c7c52330b439927c16d6ea500,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,1042,1149,8231b0e2037235d0782f6bac9e19bc1a8cec731b6faf230084e6058597eb59f9,translated,"\subsection{Mentransformasi data (topik khusus)}
+8955285c-18b1-545b-9b67-cf16e91a6a73,05ed1aa2-8201-50ff-8cb7-893d51314da9,1,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,1095,1206,1653939f7f859a5acc1e75ba9d32d156582df58c7c52330b439927c16d6ea500,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,1042,1149,11985310f1752ec03eef94339d1dec5e1a8d816d23b2dad8d871ade3c2df5087,language_reviewed,"\subsection{Mentransformasi data (topik khusus)}
 \label{transformingDataSubsection}
 
 \noindent%
@@ -3307,7 +3626,7 @@ agar lebih mudah dimodelkan.
     \label{county_pop_transformed_i}
   }
   \subfigure[]{
-    \Figures[Ditampilkan histogram dengan logaritma basis 10 dari populasi pada sumbu horizontal. Sumbu horizontal membentang dari sekitar 2 hingga 7, dan frekuensi (tinggi kelas interval/kotak) mencapai puncak sedikit di atas 1000. Data kira-kira berbentuk lonceng, dengan puncak di tengah antara 4 dan 4.5; makin jauh dari 4--4.5, frekuensinya makin rendah dan mendekati nol di luar 2.5 hingga 6.5.]
+    \Figures[Ditampilkan histogram dengan logaritma basis 10 dari populasi pada sumbu horizontal. Sumbu horizontal membentang dari sekitar 2 hingga 7, dan frekuensi (tinggi interval kelas/kotak) mencapai puncak sedikit di atas 1000. Data kira-kira berbentuk lonceng, dengan puncak di tengah antara 4 dan 4.5; makin jauh dari 4--4.5, frekuensinya makin rendah dan mendekati nol di luar 2.5 hingga 6.5.]
         {0.46}
         {county_pop_transformed}
         {county_pop_transformed_log}
@@ -3327,7 +3646,7 @@ agar lebih mudah dimodelkan.
     Gambar~\ref{county_pop_transformed_i}, yang sangat menceng.
     \index{kemencengan!ekstrem}
     Apa yang membuat diagram ini kurang berguna?}
-  Hampir semua data masuk ke kelas interval paling kiri, dan
+  Hampir semua data masuk ke interval kelas paling kiri, dan
   kemencengan yang ekstrem menyamarkan banyak rincian data yang
   sebenarnya berpotensi menarik.
 \end{nexample}
@@ -3442,6 +3761,85 @@ Berapa banyak modus yang \emph{menonjol} pada setiap
 kelompok?\footnotemark{}
 \end{nexercise}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+8dc5af85-20b6-5bb2-980b-d05284d9beac,1c22723c-f2d0-5445-bccd-2c220201d232,1,end-of-section-exercise,en,ch_summarizing_data/TeX/case_study_malaria_vaccine.tex,3,52,56c23c4933bd45268dcff09a6463877989daacdd6c32d853c0ed133c4ee71f7b,id-ID,repo/ch_summarizing_data/TeX/case_study_malaria_vaccine.tex,3,80,ffe36e967628c7d598413263bec667ddae0683c302d7bdbfdbe6f98b3e8de02f,language_reviewed,"% 25
+
+\eoce{\qt{Efek samping Avandia\label{randomization_avandia}} Rosiglitazon adalah
+bahan aktif dalam obat diabetes tipe~2 Avandia yang kontroversial dan telah
+dikaitkan dengan peningkatan risiko masalah kardiovaskular serius, seperti
+stroke, gagal jantung, dan kematian. Salah satu pengobatan alternatif yang umum
+adalah pioglitazon, yaitu bahan aktif dalam obat diabetes bernama Actos. Dalam
+sebuah studi observasional retrospektif berskala nasional terhadap 227,571
+penerima manfaat Medicare berusia 65 tahun atau lebih, ditemukan bahwa 2,593
+dari 67,593 pasien yang menggunakan rosiglitazon dan 5,386 dari 159,978 pasien
+yang menggunakan pioglitazon mengalami masalah kardiovaskular serius. Data ini
+dirangkum dalam tabel kontingensi berikut. \footfullcite{Graham:2010}
+\begin{center}
+\begin{tabular}{ll  cc c} 
+                                &   & \multicolumn{2}{c}{\textit{Masalah kardiovaskular}} \\
+\cline{3-4} 
+                                    &               & Ya    & Tidak     & Total \\
+\cline{2-5}
+\multirow{2}{*}{\textit{Perlakuan}} & Rosiglitazon  & 2,593 & 65,000    & 67,593 \\
+                                    & Pioglitazon   & 5,386 & 154,592   & 159,978 \\
+\cline{2-5}
+                                    & Total         & 7,979 & 219,592   & 227,571
+\end{tabular}
+\end{center}
+\begin{parts}
+\item Tentukan apakah setiap pernyataan berikut benar atau salah. Jika salah,
+jelaskan alasannya. \textit{Berhati-hatilah:} Penalarannya mungkin salah walaupun
+kesimpulan pernyataannya benar. Dalam kasus seperti itu, pernyataan harus
+dianggap salah.
+\begin{subparts}
+\item Karena lebih banyak pasien pengguna pioglitazon mengalami masalah
+kardiovaskular (5,386 dibandingkan dengan 2,593), kita dapat menyimpulkan bahwa
+tingkat masalah kardiovaskular pada orang yang menerima perlakuan pioglitazon
+lebih tinggi.
+\item Data mengisyaratkan bahwa pasien diabetes yang menggunakan rosiglitazon
+lebih mungkin mengalami masalah kardiovaskular karena tingkat kejadiannya
+adalah (2,593 / 67,593 = 0.038) 3.8\% pada pasien yang menerima perlakuan ini,
+sedangkan pada pasien pengguna pioglitazon hanya
+(5,386 / 159,978 = 0.034) 3.4\%.
+\item Fakta bahwa tingkat kejadian lebih tinggi pada kelompok rosiglitazon
+membuktikan bahwa rosiglitazon menyebabkan masalah kardiovaskular serius.
+\item Berdasarkan informasi yang diberikan sejauh ini, kita tidak dapat
+menentukan apakah perbedaan tingkat kejadian disebabkan oleh hubungan antara
+kedua variabel atau oleh faktor kebetulan.
+\end{subparts}
+\item Berapa proporsi seluruh pasien yang mengalami masalah kardiovaskular?
+\item Jika jenis perlakuan dan kejadian masalah kardiovaskular saling
+independen, kira-kira berapa banyak pasien dalam kelompok rosiglitazon yang
+diperkirakan mengalami masalah kardiovaskular?
+\item Kita dapat menyelidiki hubungan antara hasil dan perlakuan dalam penelitian
+ini dengan teknik pengacakan. Dalam praktiknya, simulasi yang diperlukan untuk
+pengacakan akan dijalankan menggunakan perangkat lunak statistika, tetapi
+misalkan kita benar-benar menyimulasikannya dengan kartu indeks. Untuk
+menyimulasikan model independensi, yang menyatakan bahwa hasil tidak bergantung
+pada perlakuan, pada setiap kartu kita tuliskan apakah seorang pasien mengalami
+masalah kardiovaskular atau tidak. Semua kartu kemudian dikocok dan dibagikan
+ke dalam dua kelompok berukuran 67,593 dan 159,978. Kita mengulangi simulasi ini
+1,000 kali dan setiap kali mencatat jumlah orang dalam kelompok rosiglitazon
+yang mengalami masalah kardiovaskular. Gunakan histogram frekuensi relatif
+dari jumlah tersebut untuk menjawab (i)--(iii).
+\end{parts}
+\begin{minipage}[c]{0.5\textwidth}
+\begin{subparts}
+\item Pernyataan apa saja yang sedang diuji?
+\item Dibandingkan dengan jumlah yang dihitung pada bagian~(c), manakah yang
+akan lebih mendukung hipotesis alternatif: \textit{lebih banyak} atau
+\textit{lebih sedikit} pasien dengan masalah kardiovaskular dalam kelompok
+rosiglitazon?
+\item Apa yang ditunjukkan oleh hasil simulasi mengenai hubungan antara
+penggunaan rosiglitazon dan kejadian masalah kardiovaskular pada pasien diabetes?
+\end{subparts}
+\end{minipage}
+\begin{minipage}[c]{0.5\textwidth}
+\Figures[Ditampilkan histogram ""Kejadian kardiovaskular rosiglitazon hasil simulasi"", dengan nilai yang membentang dari 2250 hingga 2450. Dari sisi kiri, histogram dimulai dengan interval-interval kelas yang rendah sampai sekitar 2280. Tinggi kelas kemudian naik bertahap, lalu meningkat tajam mulai 2320 hingga mencapai puncak sekitar 2360. Tinggi kelas turun tajam sekitar 2380 menjadi sekitar setengah tinggi puncak, lalu menurun bertahap sampai 2460 dan menjadi nol setelah titik tersebut.]{}{eoce/randomization_avandia}{randomization_avandia} \\
+\end{minipage}
+}{}
+
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 8dea20bf-5f12-5971-b610-b96049820846,1d4258d2-754c-5f2a-b382-28e0c5cf5252,1,exercise,en,ch_intro_to_data/TeX/data_basics.tex,26,46,6b050e18d174d9bd1354a8069343d6c54b9bca162e906c808573342011628bc6,id-ID,repo/ch_intro_to_data/TeX/data_basics.tex,27,47,67d2fb10f6d0003862c738b92dec850024c567a2a2e3e4046d531e08735eec66,translated,"\eoce{\qt{Metode Buteyko, komponen penelitian\label{study_components_buteyko}}
 Metode Buteyko adalah teknik pernapasan dangkal yang dikembangkan oleh Konstantin
 Buteyko, seorang dokter Rusia, pada tahun 1952. Bukti anekdotal menunjukkan bahwa
@@ -3497,6 +3895,17 @@ dan uraikan kemungkinan pengaruhnya.
 
 % 22
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""0f82ea30-16ac-53ad-afe5-d62667bc819b"",""328e0168-0cda-50d4-bfc4-3f3e8d555983""]"
+92102be0-4ed5-56b1-bbd6-d1dbb76c0d20,961275f4-5a1e-59a5-8a35-44ba47c24314,1,guided-practice,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,2175,2184,23f748e08787e0382c8b010375ff65a124025452a0c3cac3bdb8910456cd682a,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,2107,2116,d679ac8d1533d8809fab83b1368460cdd24a5d43537e05ef591df79fc5c1c005,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+Jika kita beranggapan bahwa sisi ruangan tempat seseorang duduk
+di kelas tidak berkaitan dengan apakah orang tersebut memiliki produk Apple,
+asumsi apa yang kita buat tentang hubungan antara
+kedua variabel ini?\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Kita mengasumsikan bahwa kedua variabel ini
+  saling independen.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 92f378d4-61c4-5ec5-88fa-c00daff344fe,0c15d1e6-cc3a-5b85-9c5e-028f9f39d588,1,exercise,en,ch_intro_to_data/TeX/data_basics.tex,80,99,419c70330a1bee0ad0b816094bac4b23dedbb99b85d8583ce0c0b9a7fec165e9,id-ID,repo/ch_intro_to_data/TeX/data_basics.tex,79,100,f48e5243b1308c0edcfeb5ae2b0b0ce55e9175d0358ad940dba8576b5bb7c9e8,translated,"\eoce{\qt{Perilaku mengambil permen, komponen penelitian\label{study_components_stealers}}
 Dalam sebuah penelitian tentang hubungan antara kelas sosioekonomi dan perilaku
 tidak etis, 129 mahasiswa sarjana University of California, Berkeley diminta
@@ -4153,13 +4562,13 @@ partikulat kasar PM$_{10}$ (partikel dengan diameter aerodinamik hingga
 di stasiun pemantau kualitas udara, serta lama kehamilan.
 Semuanya merupakan variabel numerik kontinu. }
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
-b08b1e67-7b70-5211-a45b-d431b8244d1e,73da116e-6d01-56d0-b143-2ec2806b49a2,1,exercise,en,ch_summarizing_data/TeX/examining_numerical_data.tex,252,288,ee0f93d4a20ad063de2e81fb64c4381a913da06265e27575d83f1a86a25244f5,id-ID,repo/ch_summarizing_data/TeX/examining_numerical_data.tex,257,292,9f933ed465e6739c7ab52449f79766cf6532a65005c461986a919a99bbf1109e,translated,"\eoce{\qt{Pendapatan di kedai kopi\label{income_coffee_shop}} Histogram pertama di bawah ini 
+b08b1e67-7b70-5211-a45b-d431b8244d1e,73da116e-6d01-56d0-b143-2ec2806b49a2,1,exercise,en,ch_summarizing_data/TeX/examining_numerical_data.tex,252,288,ee0f93d4a20ad063de2e81fb64c4381a913da06265e27575d83f1a86a25244f5,id-ID,repo/ch_summarizing_data/TeX/examining_numerical_data.tex,257,292,5adae6b4388b065d2f868aa3437cafda42930bfee002227be9515654ae9dcad5,language_reviewed,"\eoce{\qt{Pendapatan di kedai kopi\label{income_coffee_shop}} Histogram pertama di bawah ini 
 menunjukkan distribusi pendapatan tahunan 40 pelanggan di sebuah kedai kopi kampus. Andaikan 
 dua orang baru memasuki kedai kopi tersebut: seorang berpenghasilan \$225,000 dan seorang lagi 
 berpenghasilan \$250,000. Histogram kedua menunjukkan distribusi pendapatan yang baru. Statistik 
 ringkasan juga disediakan. \\
 \begin{minipage}[c]{0.57\textwidth}
-\Figures[Dua histogram ditampilkan dan diberi label 1 dan 2. Diagram 1 memiliki sumbu horizontal dari \$60,000 hingga \$70,000. Dari kiri ke kanan, tinggi kelas-kelas interval umumnya meningkat secara teratur dari frekuensi 2 hingga 3 pada \$60,000 sampai \$62,000, lalu mencapai puncak sekitar 7 hingga 8 antara \$64,000 dan \$66,000. Setelah itu, jumlah pada kelas-kelas interval menurun secara teratur hingga sekitar 2 pada kelas terakhir, yaitu \$69,000 sampai \$70,000. Diagram (2) menunjukkan histogram dengan sumbu horizontal dari sekitar \$60,000 hingga \$260,000. Lebar kelas intervalnya \$1,000 seperti pada diagram pertama, dan 10 kelas interval pertama menggambarkan data yang dijelaskan pada Diagram (1). Dua kelas interval tambahan ditampilkan pada sekitar \$225,000 dan \$250,000, masing-masing dengan tinggi 1.]{}{eoce/income_coffee_shop}{income_coffee_shop}
+\Figures[Dua histogram ditampilkan dan diberi label 1 dan 2. Diagram 1 memiliki sumbu horizontal dari \$60,000 hingga \$70,000. Dari kiri ke kanan, tinggi interval-interval kelas umumnya meningkat secara teratur dari frekuensi 2 hingga 3 pada \$60,000 sampai \$62,000, lalu mencapai puncak sekitar 7 hingga 8 antara \$64,000 dan \$66,000. Setelah itu, jumlah pada interval-interval kelas menurun secara teratur hingga sekitar 2 pada kelas terakhir, yaitu \$69,000 sampai \$70,000. Diagram (2) menunjukkan histogram dengan sumbu horizontal dari sekitar \$60,000 hingga \$260,000. Lebar interval kelasnya \$1,000 seperti pada diagram pertama, dan 10 interval kelas pertama menggambarkan data yang dijelaskan pada Diagram (1). Dua interval kelas tambahan ditampilkan pada sekitar \$225,000 dan \$250,000, masing-masing dengan tinggi 1.]{}{eoce/income_coffee_shop}{income_coffee_shop}
 \end{minipage}
 \begin{minipage}[c]{0.4\textwidth}
 \begin{center}
@@ -4276,13 +4685,13 @@ $n$ nilai yang diamati.
 
 \begin{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
-b944f56b-9f55-5f6d-814e-fb9e24c252ff,09615ad9-b250-53c0-9814-d60b7f700fc3,1,exercise,en,ch_summarizing_data/TeX/examining_numerical_data.tex,299,314,b844cf9a625468409c303f1740b0c9e1b084b02d771c67585a24a15d68d0aee5,id-ID,repo/ch_summarizing_data/TeX/examining_numerical_data.tex,303,319,35cc9bf49ff5d0aaa376c6dd82bf427afb3b64d62fb928ffac47cfacb85efc15,translated,"\eoce{\qt{Waktu perjalanan ke tempat kerja\label{county_commute_times}} Sensus Amerika Serikat 
+b944f56b-9f55-5f6d-814e-fb9e24c252ff,09615ad9-b250-53c0-9814-d60b7f700fc3,1,exercise,en,ch_summarizing_data/TeX/examining_numerical_data.tex,299,314,b844cf9a625468409c303f1740b0c9e1b084b02d771c67585a24a15d68d0aee5,id-ID,repo/ch_summarizing_data/TeX/examining_numerical_data.tex,303,319,cc6bbdf8647c62971f123febcc0d6b6bc6f2b084a315af99c959b1135538a9d1,language_reviewed,"\eoce{\qt{Waktu perjalanan ke tempat kerja\label{county_commute_times}} Sensus Amerika Serikat 
 mengumpulkan data tentang waktu yang dibutuhkan penduduk Amerika untuk bepergian ke tempat 
 kerja, selain banyak variabel lain. Histogram di bawah ini menunjukkan distribusi waktu 
 perjalanan rata-rata di 3,142 county di Amerika Serikat pada tahun 2010. Peta intensitas 
 spasial dari data yang sama juga ditampilkan di bawah ini.
 \begin{center}
-\Figures[Sebuah histogram ditampilkan dengan sumbu horizontal untuk variabel ""Rerata waktu perjalanan kerja (menit)"" yang membentang dari sekitar 0 hingga 50. Sumbu vertikal menunjukkan frekuensi dengan nilai puncak sekitar 200. Kelas-kelas interval pada sisi kiri mula-mula rendah, lalu tingginya mulai meningkat pada sekitar 10 dan naik dengan cepat menjelang 15 sebelum melandai dan mencapai puncak pada sekitar 22. Tinggi kelas-kelas interval mulai menurun lagi secara bertahap pada sekitar 24, kemudian lebih cepat pada sekitar 26 hingga 29. Pada 30, tingginya terus menurun tetapi dengan laju yang lebih lambat, lalu mendatar mendekati 0 pada sekitar 35.]{0.48}{eoce/county_commute_times}{county_commute_times_hist}
+\Figures[Sebuah histogram ditampilkan dengan sumbu horizontal untuk variabel ""Rerata waktu perjalanan kerja (menit)"" yang membentang dari sekitar 0 hingga 50. Sumbu vertikal menunjukkan frekuensi dengan nilai puncak sekitar 200. Interval-interval kelas pada sisi kiri mula-mula rendah, lalu tingginya mulai meningkat pada sekitar 10 dan naik dengan cepat menjelang 15 sebelum melandai dan mencapai puncak pada sekitar 22. Tinggi interval-interval kelas mulai menurun lagi secara bertahap pada sekitar 24, kemudian lebih cepat pada sekitar 26 hingga 29. Pada 30, tingginya terus menurun tetapi dengan laju yang lebih lambat, lalu mendatar mendekati 0 pada sekitar 35.]{0.48}{eoce/county_commute_times}{county_commute_times_hist}
 \Figures[Sebuah peta intensitas spasial Amerika Serikat ditampilkan. Legenda arsiran membentang dari nilai 4 hingga sekitar 33. Arsiran di bagian timur negara tersebut menunjukkan nilai yang sedikit lebih tinggi, sedangkan bagian barat dari Midwest bagian utara (Dakota Utara, Dakota Selatan, dan Nebraska) menunjukkan nilai yang lebih rendah. Wilayah khusus lain yang menunjukkan pola nilai lebih tinggi daripada daerah sekitarnya berada di Florida bagian selatan dan California bagian utara.]{0.48}{eoce/county_commute_times}{county_commute_times_map}
 \end{center}
 \begin{parts}
@@ -4346,15 +4755,15 @@ diskret atau kontinu. Jika kategoris, nyatakan apakah variabel tersebut ordinal.
 
 % 4
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
-bcf21ea8-59e2-5d89-bb25-614e787d479d,4b6d3a80-1d24-55b9-84dd-6d4068279d00,1,exercise,en,ch_summarizing_data/TeX/examining_numerical_data.tex,131,151,88f06c69163d7b1b654ecdacb37ee30ef1dd37953bae9fe08118392a441874c9,id-ID,repo/ch_summarizing_data/TeX/examining_numerical_data.tex,135,156,72585f46855dff812858e8aa9ea3a6f4696a08cfe540626b8c97a5ab554b46eb,translated,"\eoce{\qt{Cocokkan} Deskripsikan distribusi pada histogram di bawah ini dan cocokkan setiap histogram dengan diagram kotaknya. \\
+bcf21ea8-59e2-5d89-bb25-614e787d479d,4b6d3a80-1d24-55b9-84dd-6d4068279d00,1,exercise,en,ch_summarizing_data/TeX/examining_numerical_data.tex,131,151,88f06c69163d7b1b654ecdacb37ee30ef1dd37953bae9fe08118392a441874c9,id-ID,repo/ch_summarizing_data/TeX/examining_numerical_data.tex,135,156,92f4c48076a43fd3c89111b272f557a0340dd25be2cf71d103cc685a759156e0,language_reviewed,"\eoce{\qt{Cocokkan} Deskripsikan distribusi pada histogram di bawah ini dan cocokkan setiap histogram dengan diagram kotaknya. \\
 \begin{center}
 \Figures[Enam diagram ditampilkan: tiga histogram berlabel a, b, dan c serta 3 diagram kotak berlabel 1, 2, dan 3.
 
 Diagram (a) menunjukkan histogram dengan rentang data horizontal dari 50 hingga 70. Data berbentuk lonceng dan berpusat di tengah diagram; hanya sedikit data yang mendekati batas bawah 50 dan batas atas 70.
 
-Diagram (b) menunjukkan histogram lain dengan sumbu horizontal yang membentang dari 0 hingga 100. Tinggi kelas-kelas interval histogram relatif tetap, mulai dari kelas pertama di dekat nol hingga kelas terakhir di dekat 100.
+Diagram (b) menunjukkan histogram lain dengan sumbu horizontal yang membentang dari 0 hingga 100. Tinggi interval-interval kelas histogram relatif tetap, mulai dari kelas pertama di dekat nol hingga kelas terakhir di dekat 100.
 
-Diagram (c) adalah histogram dengan sumbu horizontal dari 0 hingga sekitar 7. Beberapa kelas interval pertama naik dengan cepat menuju puncak pada nilai horizontal 1, lalu turun hingga nilai 2. Setelah itu, tingginya menurun jauh lebih bertahap hingga sekitar 4, tempat kelas-kelas interval mendekati nol dan tetap mendekati nol untuk nilai yang lebih besar.
+Diagram (c) adalah histogram dengan sumbu horizontal dari 0 hingga sekitar 7. Beberapa interval kelas pertama naik dengan cepat menuju puncak pada nilai horizontal 1, lalu turun hingga nilai 2. Setelah itu, tingginya menurun jauh lebih bertahap hingga sekitar 4, tempat interval-interval kelas mendekati nol dan tetap mendekati nol untuk nilai yang lebih besar.
 
 Diagram (1) adalah diagram kotak dengan sumbu vertikal dari 0 hingga sekitar 7. Garis kumis bawah berada pada 0, kotaknya membentang dari sekitar 1 hingga 2, dan garis tengah diagram kotak berada pada sekitar 1.4. Garis kumis atas mencapai sekitar 3.5, lalu beberapa titik ditandai secara terpisah hingga sekitar 7.
 
@@ -4583,7 +4992,7 @@ ideologi politik tampak saling independen? Jelaskan alasan Anda.
 
 % 24
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
-cc641c66-2767-5630-8ac6-184363fd6f8e,17acf038-9821-5e3d-9ffa-1526fab12218,3,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,548,627,b3cb8d41d73fb7d8199cc158626ced1e9df851a9121960d00091d3c52e9c11b9,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,537,612,f46d379f490e908561fc0f940d628bdadd6ed6b74b8858e16fac10e6c754fd3a,translated,"\end{exercisewrap}
+cc641c66-2767-5630-8ac6-184363fd6f8e,17acf038-9821-5e3d-9ffa-1526fab12218,3,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,548,627,b3cb8d41d73fb7d8199cc158626ced1e9df851a9121960d00091d3c52e9c11b9,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,537,612,c057d9459321ff4e1b961cb636ae4fedcefd0fa0d26c547cae79e23c0373a200,language_reviewed,"\end{exercisewrap}
 \footnotetext{Suku bunga setiap pinjaman secara individual.}
 
 Selain memperhatikan apakah distribusi menceng atau simetris,
@@ -4608,12 +5017,12 @@ disebut multimodal.
 Perhatikan bahwa distribusi unimodal itu mempunyai satu puncak
 menonjol dan satu puncak lain yang kurang menonjol. Puncak kedua
 tidak dihitung karena tingginya hanya berbeda beberapa pengamatan
-dari kelas-kelas interval di sebelahnya.
+dari interval-interval kelas di sebelahnya.
 
 \begin{figure}[h]
   \centering
   \Figure
-    [Ditampilkan tiga histogram. Histogram pertama mempunyai kelas interval selebar 2 dari 0 hingga 18 pada sumbu horizontal, dengan frekuensi 3, 16, 16, 7, 11, 6, 4, 1, dan 1. Histogram kedua, yang mewakili kumpulan data berbeda, mempunyai kelas interval selebar 2 dengan nilai 0 hingga 20; hitungan kelasnya secara berurutan ialah 2, 9, 5, 2, 2, 2, 2, 10, 19, dan 9. Histogram ketiga, untuk kumpulan data lain lagi, mempunyai kelas interval selebar 2 dengan nilai 0 hingga 22; hitungan kelasnya secara berurutan ialah 10, 8, 4, 3, 1, 20, 15, 3, 15, 18, dan 5.]
+    [Ditampilkan tiga histogram. Histogram pertama mempunyai interval kelas selebar 2 dari 0 hingga 18 pada sumbu horizontal, dengan frekuensi 3, 16, 16, 7, 11, 6, 4, 1, dan 1. Histogram kedua, yang mewakili kumpulan data berbeda, mempunyai interval kelas selebar 2 dengan nilai 0 hingga 20; hitungan kelasnya secara berurutan ialah 2, 9, 5, 2, 2, 2, 2, 10, 19, dan 9. Histogram ketiga, untuk kumpulan data lain lagi, mempunyai interval kelas selebar 2 dengan nilai 0 hingga 22; hitungan kelasnya secara berurutan ialah 10, 8, 4, 3, 1, 20, 15, 3, 15, 18, dan 5.]
     {0.9}{singleBiMultiModalPlots}
   \caption{Jika hanya puncak yang menonjol yang dihitung,
       distribusi-distribusi ini (dari kiri ke kanan) bersifat
@@ -5190,7 +5599,7 @@ $\vdots$	&	$\vdots$	  &	$\vdots$ \\
 % trmt <- c(rep('trmt', 224), rep('control', 227)); outcome30 <- c(rep(c('event', 'no_event'), c(33, 191)), rep(c('event', 'no_event'), c(13, 214))); outcome365 <- c(rep(c('event', 'no_event'), c(33, 191)), rep(c('event', 'no_event'), c(13, 214)))
 \end{figure}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
-d97c1bde-ae77-5b6f-8dbd-a580d428546f,8a23e856-49af-570b-8460-82f99ced2ef0,1,exercise,en,ch_summarizing_data/TeX/examining_numerical_data.tex,153,177,4d4f544e337f989b295889b7de73345bd542c8b694a8d1e3244b1bcf0b287a8d,id-ID,repo/ch_summarizing_data/TeX/examining_numerical_data.tex,158,183,2fb01b1685a8e9547202654ef325d25f16db09b8ddf9b736e7386847c8637a43,translated,"\eoce{\qt{Kualitas udara\label{air_quality_durham}} Kualitas udara harian diukur dengan indeks 
+d97c1bde-ae77-5b6f-8dbd-a580d428546f,8a23e856-49af-570b-8460-82f99ced2ef0,1,exercise,en,ch_summarizing_data/TeX/examining_numerical_data.tex,153,177,4d4f544e337f989b295889b7de73345bd542c8b694a8d1e3244b1bcf0b287a8d,id-ID,repo/ch_summarizing_data/TeX/examining_numerical_data.tex,158,183,8495b3c6520a8b02901171c2093a05845d9cb05dabf256c1baa893ae4d80b708,language_reviewed,"\eoce{\qt{Kualitas udara\label{air_quality_durham}} Kualitas udara harian diukur dengan indeks 
 kualitas udara (AQI) yang dilaporkan oleh Badan Perlindungan Lingkungan Amerika Serikat. Indeks 
 ini melaporkan tingkat pencemaran dan dampak kesehatan terkait yang mungkin perlu diperhatikan. 
 Indeks tersebut dihitung untuk lima pencemar udara utama yang diatur oleh Undang-Undang Udara 
@@ -5210,7 +5619,7 @@ sangat tinggi? Jelaskan alasan Anda.
 \end{minipage}
 \begin{minipage}[c]{0.45\textwidth}
 \begin{center}
-\Figures[Sebuah histogram ""AQI harian"" ditampilkan dengan sumbu horizontal data dari sekitar 5 hingga 65. Lebar kelas intervalnya 5, terdapat 12 kelas interval dari 5 hingga 60, dan sumbu vertikal menunjukkan proporsi. Tinggi ke-12 kelas interval tersebut, secara berurutan dari kiri ke kanan, sekitar 0.02 (untuk kelas 5 hingga 10), 0.06, 0.20, 0.06, 0.20, 0.15, 0.07, 0.04, 0.07, 0.08, 0.03, dan 0.02 untuk kelas terakhir dari 60 hingga 65.]{}{eoce/air_quality_durham}{air_quality_durham_rel_freq_hist}
+\Figures[Sebuah histogram ""AQI harian"" ditampilkan dengan sumbu horizontal data dari sekitar 5 hingga 65. Lebar interval kelasnya 5, terdapat 12 interval kelas dari 5 hingga 60, dan sumbu vertikal menunjukkan proporsi. Tinggi ke-12 interval kelas tersebut, secara berurutan dari kiri ke kanan, sekitar 0.02 (untuk kelas 5 hingga 10), 0.06, 0.20, 0.06, 0.20, 0.15, 0.07, 0.04, 0.07, 0.08, 0.03, dan 0.02 untuk kelas terakhir dari 60 hingga 65.]{}{eoce/air_quality_durham}{air_quality_durham_rel_freq_hist}
 \end{center}
 \end{minipage}
 }{}
@@ -5230,6 +5639,62 @@ db53ac95-742a-5db3-9da3-e89ac011c55d,a36d034f-f5c1-5f04-89ac-c4f4a6cd046d,3,subs
 
 % R011-B005 D023: jeda halaman paksa sebelum transformasi data ditiadakan.
 
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+dba4f419-6462-5d56-b4cf-2ac379015e93,8b9932bf-3164-5e36-a64a-304ae1894c90,1,end-of-section-exercise,en,ch_summarizing_data/TeX/case_study_malaria_vaccine.tex,53,104,b2d1ee372abaaac0c8d2aa66e5054dac9dd2284ffef6960b65fab90d2838b9c4,id-ID,repo/ch_summarizing_data/TeX/case_study_malaria_vaccine.tex,81,135,55382a65085c45e94c6f0da42403ce4659164a02104afcb461620e6e9b039f5c,language_reviewed,"% 26
+
+\eoce{\qt{Transplantasi jantung\label{randomization_heart_transplants}} Studi
+Transplantasi Jantung Universitas Stanford dilakukan untuk menentukan apakah
+program transplantasi jantung eksperimental memperpanjang masa hidup. Setiap
+pasien yang mengikuti program ditetapkan sebagai calon resmi penerima
+transplantasi jantung. Artinya, pasien tersebut sakit parah dan kemungkinan
+besar akan memperoleh manfaat dari jantung baru. Sebagian pasien menerima
+transplantasi dan sebagian lainnya tidak. Variabel \texttt{transplant}
+menunjukkan kelompok pasien; pasien dalam kelompok perlakuan menerima
+transplantasi, sedangkan pasien dalam kelompok kontrol tidak. Dari 34 pasien
+dalam kelompok kontrol, 30 meninggal. Dari 69 orang dalam kelompok perlakuan,
+45 meninggal. Variabel lain bernama \texttt{survived} digunakan untuk menunjukkan
+apakah pasien masih hidup pada akhir penelitian. \footfullcite{Turnbull+Brown+Hu:1974}
+\begin{center}
+\Figures[Diagram mosaik untuk variabel ""kelompok eksperimen"" (pemisahan primer) dan ""kelangsungan hidup"". Persegi panjang tinggi pertama untuk kelompok eksperimen ""kontrol"" lebarnya sekitar setengah persegi panjang tinggi kedua untuk ""perlakuan"". Pada pemisahan sekunder kelompok kontrol, hasil ""hidup"" mencakup sekitar 10\% tinggi persegi panjang dan ""meninggal"" sekitar 90\%. Pada pemisahan sekunder kelompok perlakuan, hasil ""hidup"" mencakup sekitar 35\% tinggi persegi panjang dan ""meninggal"" sekitar 65\%.]{0.48}{eoce/randomization_heart_transplants}{randomization_heart_transplants_mosaic}
+\Figures[Ditampilkan diagram kotak berdampingan untuk variabel ""Masa hidup (hari)"", dengan dua diagram kotak berlabel ""kontrol"" dan ""perlakuan"". Sumbu masa hidup membentang dari 0 hingga sekitar 1800. Kotak kelompok kontrol membentang dari sekitar 0 hingga 50 dengan garis median sekitar 20, sedangkan kumisnya memanjang ke bawah hingga 0 dan ke atas hingga sekitar 125. Lima pengamatan berada di atas kumis atas, masing-masing sekitar 150, 250, 300, 400, dan 1400. Kotak kelompok perlakuan membentang dari sekitar 100 hingga 650 dengan garis median sekitar 250, sedangkan kumisnya memanjang ke bawah hingga 0 dan ke atas hingga sekitar 1400. Beberapa titik berada di atas kumis atas, masing-masing sekitar 1550, 1575, dan 1800.]{0.48}{eoce/randomization_heart_transplants}{randomization_heart_transplants_box}
+\end{center}
+\begin{parts}
+\item Berdasarkan diagram mosaik, apakah kelangsungan hidup independen dari
+status penerimaan transplantasi? Jelaskan penalaran Anda.
+\item Apa yang ditunjukkan oleh diagram kotak di atas mengenai efikasi
+(keefektifan) perlakuan transplantasi jantung?
+\item Berapa proporsi pasien yang meninggal dalam kelompok perlakuan, dan berapa
+proporsinya dalam kelompok kontrol?
+\item Salah satu pendekatan untuk menyelidiki apakah perlakuan tersebut efektif
+adalah dengan menggunakan teknik pengacakan.
+\begin{subparts}
+\item Pernyataan apa saja yang sedang diuji?
+\item Paragraf berikut menjelaskan penyiapan pendekatan tersebut jika kita
+melakukannya tanpa perangkat lunak statistika. Isi bagian kosong dengan angka
+atau frasa yang sesuai.
+\begin{adjustwidth}{2em}{2em}
+Kita menuliskan \textit{hidup} pada \rule{2cm}{0.5pt} kartu yang mewakili pasien
+yang masih hidup pada akhir penelitian, dan \textit{meninggal} pada
+\rule{2cm}{0.5pt} kartu yang mewakili pasien yang sudah meninggal. Kemudian,
+kartu-kartu ini dikocok dan dibagi menjadi dua kelompok: satu kelompok berukuran
+\rule{2cm}{0.5pt} yang mewakili perlakuan, dan kelompok lain berukuran
+\rule{2cm}{0.5pt} yang mewakili kontrol. Kita menghitung selisih antara proporsi
+kartu \textit{meninggal} dalam kelompok perlakuan dan kelompok kontrol
+(perlakuan - kontrol), lalu mencatat nilainya. Prosedur ini diulangi 100 kali
+untuk membangun distribusi yang berpusat di \rule{2cm}{0.5pt}. Terakhir, kita
+menghitung proporsi simulasi dengan selisih proporsi hasil simulasi yang
+\rule{2cm}{0.5pt}. Jika proporsi ini kecil, kita menyimpulkan bahwa hasil
+seperti itu kecil kemungkinannya untuk teramati secara kebetulan; hipotesis nol
+harus ditolak dan hipotesis alternatif dipilih.
+\end{adjustwidth}
+\item Apa yang ditunjukkan oleh hasil simulasi berikut mengenai keefektifan
+program transplantasi?
+\end{subparts}
+\end{parts}
+\begin{center}
+\Figures[Ditampilkan diagram titik bertumpuk yang tampaknya memuat sekitar 100 titik untuk variabel ""Selisih proporsi hasil simulasi"", yang membentang dari -0.25 hingga 0.25. Terdapat 11 tumpukan titik, dengan perkiraan lokasi dan jumlah sebagai berikut: 2 titik pada -0.23, 1 titik pada -0.19, 8 titik pada -0.14, 15 titik pada -0.10, 18 titik pada -0.05, 20 titik pada -0.01, 12 titik pada 0.04, 10 titik pada 0.08, 6 titik pada 0.12, 4 titik pada 0.17, dan 3 titik pada 0.21.]{0.6}{eoce/randomization_heart_transplants}{randomization_heart_transplants_rando}
+\end{center}
+}{}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 dc82d8e3-0107-5e99-98bb-f0ec22f7e17e,645a441c-5609-5ae7-9a39-ce2aa74eb3b2,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,210,217,8d448081dd9710488c8df3dd2de3d101fa4eebfd6a887bc79e4a25e585d0367c,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,222,230,c545bddc8265c908f8b72ba8f092171c4cea40c05094f78f93d51b18d15162ce,translated,"% 41
 
@@ -5550,6 +6015,38 @@ Gambar~\ref{rowPropAppTypeHomeownership}?
 Gambar~\ref{colPropAppTypeHomeownership}?\footnotemark{}
 \end{nexercise}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+f3c1cae2-d2fa-587d-80c3-d63330738b25,a132efe2-d782-5317-859e-6b0fd4cab424,1,public-answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,344,371,7106152e66b4e2ae517a8bcc4655ba6045b5c8a7b9791c637c51afa6917459e2,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,365,395,a9a5eba3d9df4b0445441339f5da5c8bb3119567fa5bf91cf85ecb0f6be3d48c,language_reviewed,"\eocesol{(a)~(i) Salah. Alih-alih membandingkan jumlah, kita harus membandingkan persentase orang dalam setiap kelompok yang mengalami masalah kardiovaskular.
+(ii)~Benar.
+(iii)~Salah. Asosiasi tidak menyiratkan sebab-akibat. Kita tidak dapat menarik
+kesimpulan kausal berdasarkan studi observasional. Perbedaannya dengan
+bagian~(ii) tidak kentara.
+(iv)~Benar. \\
+(b)~Proporsi seluruh pasien yang mengalami masalah kardiovaskular: $\frac{7,979}{227,571} \approx 0.035$ \\
+(c)~Jika kejadian masalah kardiovaskular dan perlakuan saling independen,
+perkiraan jumlah pasien dengan masalah kardiovaskular dalam kelompok
+rosiglitazon dapat dihitung dengan mengalikan jumlah pasien dalam kelompok itu
+dengan tingkat kejadian masalah kardiovaskular secara keseluruhan dalam penelitian:
+$67,593 * \frac{7,979}{227,571} \approx 2370$. \\
+(d)~(i)~$H_0$: Perlakuan dan masalah kardiovaskular saling independen. Keduanya
+tidak memiliki hubungan, dan perbedaan tingkat kejadian antara kelompok
+rosiglitazon dan pioglitazon terjadi karena kebetulan.
+$H_A$: Perlakuan dan masalah kardiovaskular tidak saling independen. Perbedaan
+tingkat kejadian antara kelompok rosiglitazon dan pioglitazon tidak terjadi
+karena kebetulan, dan rosiglitazon berasosiasi dengan peningkatan risiko
+masalah kardiovaskular serius.
+(ii)~Jumlah pasien dengan masalah kardiovaskular yang lebih tinggi daripada
+perkiraan di bawah asumsi independensi akan mendukung hipotesis alternatif,
+karena hal ini mengisyaratkan bahwa rosiglitazon meningkatkan risiko masalah
+tersebut.
+(iii)~Dalam penelitian sebenarnya, kita mengamati 2,593 kejadian kardiovaskular
+dalam kelompok rosiglitazon. Pada 1,000 simulasi di bawah model independensi,
+jumlah yang diamati dalam setiap simulasi selalu lebih kecil daripada 2,593.
+Hal ini mengisyaratkan bahwa hasil sebenarnya tidak berasal dari model
+independensi. Dengan kata lain, kedua variabel tampaknya tidak saling independen,
+dan kita menolak model independensi serta memilih model alternatif. Hasil
+penelitian memberikan bukti meyakinkan bahwa rosiglitazon berasosiasi dengan
+peningkatan risiko masalah kardiovaskular.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 f4d36b97-8690-52d2-9418-09cc24d7eed3,49928af2-5b48-5390-8a64-218e71c10a1a,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,65,72,23f297121ec0b0836532ba8cc1159223986ef5d4798c204a7136cc061c54176f,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,69,78,32c16c0b0a24a0bdf5e0f8475cbffd44d6b61b8cea466131c24aec6044611679,translated,"% 13
 
 \eocesol{(a)~Populasi sasaran: kelahiran di California Selatan dalam cakupan
@@ -5560,6 +6057,71 @@ dianggap mewakili populasi sasaran, hasilnya dapat digeneralisasikan ke
 kelahiran dalam cakupan itu. Namun, karena studi ini bersifat
 observasional, temuannya tidak dapat digunakan untuk menetapkan hubungan 
 kausal.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+f872d0d4-8908-513c-b10c-a7abf90efdda,51f8c9e8-d47d-503f-a0db-38a0564b62f2,1,subsection-prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,2187,2252,7aca1cafbd40b283525978929351e5ba0bf31adac8fa41760b8e689ce2b476de,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,2119,2182,6614c29c096c8934a11239ed0b7d3ef3b09bb1ad678542826dba6c3609e48f6a,language_reviewed,"\subsection{Variabilitas dalam data}
+\label{variabilityWithinData}
+
+\index{data!malaria vaccine@vaksin malaria|(}
+
+Kita meninjau sebuah penelitian mengenai vaksin malaria baru
+bernama PfSPZ.
+Dalam penelitian ini, pasien relawan dialokasikan secara acak
+ke salah satu dari dua kelompok eksperimen:
+14 pasien menerima vaksin eksperimental
+dan 6 pasien menerima vaksin plasebo.
+Sembilan belas minggu kemudian, seluruh 20 pasien dipaparkan
+pada galur parasit malaria yang sensitif terhadap obat;
+galur yang sensitif terhadap obat digunakan di sini atas
+pertimbangan etis, agar setiap infeksi dapat diobati secara efektif.
+Hasilnya dirangkum dalam
+Gambar~\ref{malaria_vaccine_20_exp_summary}:
+9 dari 14 pasien kelompok perlakuan tetap bebas
+dari tanda-tanda infeksi, sedangkan seluruh~6 pasien
+  dalam kelompok kontrol menunjukkan sejumlah tanda awal infeksi.
+
+\newcommand{\malariaAA}{5}
+\newcommand{\malariaAB}{9}
+\newcommand{\malariaAD}{14}
+\newcommand{\malariaBA}{6}
+\newcommand{\malariaBB}{0}
+\newcommand{\malariaBD}{6}
+\newcommand{\malariaDA}{11}
+\newcommand{\malariaDB}{9}
+\newcommand{\malariaDD}{20}
+\newcommand{\malariaVIR}{0.357}
+\newcommand{\malariaVIRPerc}{35.7\%}
+\newcommand{\malariaPIR}{1.000}
+\newcommand{\malariaPIRPerc}{100\%}
+\newcommand{\malariaIRDiff}{0.643}
+\newcommand{\malariaIRDiffPerc}{64.3\%}
+
+\begin{figure}[ht]
+\centering
+\begin{tabular}{l l cc rr}
+  & & \multicolumn{2}{c}{\var{outcome}} \\
+  \cline{3-4}
+  &  &  {terinfeksi} & {tidak terinfeksi} & Total & \hspace{3mm}  \\ 
+  \cline{2-5}
+  & {vaksin} &
+      \malariaAA{} &
+      \malariaAB{} &
+      \malariaAD{} \\ 
+  \raisebox{1.5ex}[0pt]{\var{treatment}}
+  & {plasebo} & 
+      \malariaBA{} &
+      \malariaBB{} &
+      \malariaBD{} \\ 
+  \cline{2-5}
+  & Total & 
+      \malariaDA{} &
+      \malariaDB{} &
+      \malariaDD{} \\ 
+  \cline{2-5}
+\end{tabular}
+\caption{Ringkasan hasil eksperimen vaksin malaria.}
+\label{malaria_vaccine_20_exp_summary}
+\end{figure}
+
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 faba6941-44d2-5f25-a767-a7de90b27005,9ffbb29e-06de-5487-9e89-c5638618252f,1,exercise,en,ch_intro_to_data/TeX/data_basics.tex,101,118,691aa86fd0b5a6f793330850b627a3f618a58f25c7db7db77f757f2386e5575d,id-ID,repo/ch_intro_to_data/TeX/data_basics.tex,102,119,153886733a42cff23efcde1965f875de71ca5fca874c7444944ee7eb0800fd3f,translated,"\eoce{\qt{Migrain dan akupunktur,
     Bagian II\label{migraine_and_acupuncture_exp_resp}}
@@ -5601,6 +6163,16 @@ eksekutif tingkat tinggi yang memperoleh gaji jauh lebih besar daripada semua ka
 }{}
 
 % 17
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+fcefba29-842d-5996-b35d-778711423e2e,d7955a56-864b-500a-a33b-7c476b342c7e,1,section-lead,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,2166,2174,6ef028db0b51282c6d6f478215bcd7a18f56cbdcea285e7dbc291186add7708d,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,2098,2106,c01ca36ff7acd225ef58df587ab91b42e65eb040f890a21c9546ac3492f6fcff,language_reviewed,"\section{Studi kasus: vaksin malaria}
+\label{caseStudyMalariaVaccine}
+
+\begin{examplewrap}
+\begin{nexample}{Misalkan dosen Anda membagi mahasiswa di kelas menjadi dua kelompok: mahasiswa di sisi kiri dan mahasiswa di sisi kanan. Jika $\hat{p}_{_L}$ dan $\hat{p}_{_R}$ masing-masing menyatakan proporsi mahasiswa yang memiliki produk Apple di sisi kiri dan kanan, apakah Anda akan terkejut jika $\hat{p}_{_L}$ tidak {persis} sama dengan $\hat{p}_{_R}$?}\label{classRightLeftSideApple}
+Walaupun kedua proporsi itu kemungkinan besar berdekatan, tidak lazim jika keduanya persis sama. Kita mungkin akan mengamati sedikit perbedaan karena {faktor kebetulan}.
+\end{nexample}
+\end{examplewrap}
+
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 fef409ed-68ae-5df8-99f9-1bcdbbd41d22,39e28dfa-9fb6-5555-bee7-6649c37a02b2,1,exercise,en,ch_intro_to_data/TeX/experiments.tex,75,80,7198a9425664e74022a5a0c52eeaee6bb11dfbf2ae9f5140266dc3dc463517c8,id-ID,repo/ch_intro_to_data/TeX/experiments.tex,75,80,2b07a67300f8e877e9dfb78197831d66276d41f7e89f60302bdf5f0d400a20fc,translated,"\eoce{\qt{Preferensi minuman bersoda\label{soda_preference}} Anda hendak melakukan eksperimen 
 di kelas untuk mengetahui apakah teman-teman sekelas Anda lebih menyukai rasa Coke biasa 

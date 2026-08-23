@@ -1,0 +1,204 @@
+{
+  "schema": "interlanguage.terminology-field-usage-qa",
+  "schema_version": "1.0.0",
+  "boundary_id": "R011-B007",
+  "observed_date": "2026-08-22",
+  "status": "decisions_final_propagation_in_progress",
+  "instruction_scope": "One-time Indonesian mathematical-statistics terminology check before translation proceeds beyond R011-B007.",
+  "arxiv_search": {
+    "outcome": "no_suitable_same_field_indonesian_source_found_in_bounded_search",
+    "queries": [
+      "site:arxiv.org Indonesian statistika probability data",
+      "arXiv all:\"Bahasa Indonesia\"",
+      "arXiv searches for statistika, analisis statistik, uji hipotesis, probabilitas, and teori peluang"
+    ],
+    "limitations": [
+      "The bounded phrase search returned 17 records, none a core Indonesian mathematical-statistics source.",
+      "arXiv intermittently returned HTTP 429 for additional searches; no negative claim beyond this bounded search is made."
+    ],
+    "inspected_candidate": {
+      "arxiv_id": "2304.02746v1",
+      "title": "Sejarah dan Perkembangan Teknik Natural Language Processing (NLP) Bahasa Indonesia: Tinjauan tentang sejarah, perkembangan teknologi, dan aplikasi NLP dalam bahasa Indonesia",
+      "author": "Mukhlis Amien",
+      "category": "cs.CL",
+      "published": "2023-03-28T02:31:47Z",
+      "abstract_url": "https://arxiv.org/abs/2304.02746v1",
+      "source_url": "https://arxiv.org/src/2304.02746v1",
+      "source_archive_path": "qa/terminology/arxiv-2304.02746v1/arXiv-2304.02746v1.tar.gz",
+      "source_archive_bytes": 14303,
+      "source_archive_sha256": "23d680b38a939675baef6fb5d1b07d99608a867e674944dc0a55cc1e3025cb26",
+      "source_archive_entries": 4,
+      "tex_path": "qa/terminology/arxiv-2304.02746v1/source/templateArxiv.tex",
+      "tex_bytes": 24853,
+      "tex_sha256": "90c02c2982630210b7994b348977846cee7ce6c693041002a61b8e13697fd4f9",
+      "language_observation": "The body is Indonesian and the actual TeX was inspected.",
+      "suitability_decision": "rejected_as_primary_field_witness",
+      "reason": "It is an NLP survey, not a mathematical-statistics source. Its overlap is limited to general scientific terms such as data, model, analisis, statistik, probabilitas, and pembelajaran mesin."
+    }
+  },
+  "fallback_field_source": {
+    "title": "Buku Ajar Statistika Dasar",
+    "authors": [
+      "Wiwik Sulistiyowati",
+      "Cindy Cahyaning Astuti"
+    ],
+    "publisher": "Umsida Press",
+    "year": 2017,
+    "edition_statement_in_pdf": "Cetakan kedua, Agustus 2017",
+    "publisher_page_published_date": "2021-08-22",
+    "doi": "10.21070/2017/978-979-3401-73-7",
+    "landing_url": "https://press.umsida.ac.id/index.php/umsidapress/article/view/978-979-3401-73-7",
+    "download_url": "https://press.umsida.ac.id/index.php/umsidapress/article/download/978-979-3401-73-7/787",
+    "license_as_publisher_states": "Creative Commons Attribution 4.0 International",
+    "embedded_pdf_rights_notice": "Copyright 2017; Authors; All rights reserved; the PDF also says reproduction requires written publisher permission.",
+    "rights_conflict": "The current publisher-page CC BY 4.0 metadata conflicts with the more restrictive notice embedded in the downloaded PDF. No file-level redistribution conclusion is drawn from the landing-page metadata alone.",
+    "release_handling": "Terminology witness only. Keep the downloaded PDF and text extraction out of public edition payloads; publish only bibliographic identity, URL, observations, and hashes unless rights are separately resolved.",
+    "pdf_path": "qa/terminology/fallback-statistika-dasar-2017/Buku_Ajar_Statistika_Dasar_Cindy_Cahyaning_Astuti_2017.pdf",
+    "pdf_pages": 237,
+    "pdf_bytes": 5607906,
+    "pdf_sha256": "6d71aac407c9b39b87c9a43bf232a7bfff750a57495949c8c92d28421db319d9",
+    "text_extract_path": "qa/terminology/fallback-statistika-dasar-2017/Buku_Ajar_Statistika_Dasar_Cindy_Cahyaning_Astuti_2017.txt",
+    "text_extract_bytes": 201466,
+    "text_extract_sha256": "f0e15d276e1e27c99d805ad8977dcf40d49165a76b970cfbce2897642dfe41af",
+    "visual_pages_inspected": [10, 44, 76, 83, 115, 184],
+    "representative_counts": {
+      "statistika": 52,
+      "inferensi": 7,
+      "independen": 9,
+      "hipotesis_nol": 10,
+      "hipotesis_alternatif": 3,
+      "sampel": 65,
+      "populasi": 34,
+      "variabel": 95,
+      "simpangan_baku": 24,
+      "rata_rata": 72,
+      "kuartil": 16,
+      "varians": 34,
+      "distribusi": 80,
+      "frekuensi_relatif": 21,
+      "diagram_batang": 5,
+      "median": 18,
+      "modus": 16,
+      "persentil": 16,
+      "proporsi": 9
+    },
+    "quality_caveat": "This is a representative field-usage witness, not an authority that overrides mathematical meaning. It contains inconsistent forms and typographical errors, so each decision was evaluated semantically rather than copied mechanically."
+  },
+  "decisions": [
+    {
+      "term_id": "R011-TERM-0001",
+      "source_term": "statistics",
+      "before": "statistika",
+      "after": "statistika",
+      "decision": "retain",
+      "reason": "The book title and discipline passages support statistika; the edition keeps statistik for a computed statistic or idiomatic adjective."
+    },
+    {
+      "term_id": "R011-TERM-0080",
+      "source_term": "mean",
+      "before": "rata-rata",
+      "after": "rata-rata",
+      "decision": "retain",
+      "reason": "The witness uses rata-rata 72 times and explicitly pairs it with mean."
+    },
+    {
+      "term_id": "R011-TERM-0081",
+      "source_term": "average",
+      "before": "rerata",
+      "after": "rerata",
+      "decision": "retain_as_secondary_synonym_only",
+      "reason": "Rata-rata remains the controlled term. Rerata is retained only where the source explicitly introduces a synonym, not as a competing default."
+    },
+    {
+      "term_id": "R011-TERM-0088",
+      "source_term": "bin",
+      "before": "kelas interval (bin)",
+      "after": "interval kelas (bin)",
+      "decision": "refine_and_propagate",
+      "reason": "The 237-page field witness consistently uses interval kelas; it is also the clearer Indonesian head order for a histogram class interval."
+    },
+    {
+      "term_id": "R011-TERM-0100",
+      "source_term": "standard deviation",
+      "before": "simpangan baku",
+      "after": "simpangan baku",
+      "decision": "retain",
+      "reason": "The witness uses simpangan baku 24 times."
+    },
+    {
+      "term_id": "R011-TERM-0122",
+      "source_term": "categorical data",
+      "before": "data kategoris",
+      "after": "data kategoris",
+      "decision": "retain",
+      "reason": "The witness's data kualitatif is broader and is not a mathematically exact replacement for categorical data."
+    },
+    {
+      "term_id": "R011-TERM-0140",
+      "source_term": "independent",
+      "before": "saling independen",
+      "after": "saling independen",
+      "decision": "retain",
+      "reason": "The witness uses independen for events; saling explicitly expresses the symmetric relation between variables."
+    },
+    {
+      "term_id": "R011-TERM-0147",
+      "source_term": "independence model",
+      "before": "model independensi",
+      "after": "model independensi",
+      "decision": "retain",
+      "reason": "Model independen could mean a model independent of something else; model independensi denotes a model encoding independence."
+    },
+    {
+      "term_id": "R011-TERM-0150",
+      "source_term": "statistical inference",
+      "before": "inferensi statistika",
+      "after": "statistika inferensial",
+      "decision": "refine_and_propagate",
+      "reason": "The source paragraph names a branch of statistics. The witness uses statistika inferensi/inferensia; the conventional adjectival field name statistika inferensial is clearer and avoids the awkward noun-noun calque."
+    },
+    {
+      "term_id": "R011-TERM-0157",
+      "source_term": "null hypothesis",
+      "before": "hipotesis nol",
+      "after": "hipotesis nol",
+      "decision": "retain",
+      "reason": "Directly confirmed in the field witness."
+    },
+    {
+      "term_id": "R011-TERM-0158",
+      "source_term": "alternative hypothesis",
+      "before": "hipotesis alternatif",
+      "after": "hipotesis alternatif",
+      "decision": "retain",
+      "reason": "Directly confirmed in the field witness; its occasional hipotesis tandingan is treated as a synonym, not the edition default."
+    },
+    {
+      "term_id": "R011-TERM-0160",
+      "source_term": "probability",
+      "before": null,
+      "after": "peluang (probabilitas)",
+      "decision": "add_scoped_term",
+      "reason": "The witness repeatedly pairs probabilitas with peluang. The edition will prefer peluang for an individual event and retain probabilitas in established field or chapter names."
+    }
+  ],
+  "propagation_requirements": {
+    "replace_in_translated_material": [
+      "kelas interval -> interval kelas, with natural plural and modifier order",
+      "inferensi statistika -> statistika inferensial"
+    ],
+    "do_not_replace": [
+      "source-language witnesses",
+      "untranslated English text",
+      "raw variable names or code tokens",
+      "stable semantic identifiers"
+    ],
+    "validation": "Bind exact changed spans and hashes in the R011-B007 source gate; update localized backend overlays while retaining prior released B006 evidence as immutable history."
+  },
+  "provenance_requirement": {
+    "exact_model_identification": "OpenAI Codex gpt-5.6-sol, Ultra",
+    "credit_rule": "Add this note without removing or diminishing upstream authors, source credits, or human contributors."
+  },
+  "errors": [],
+  "blockers": []
+}

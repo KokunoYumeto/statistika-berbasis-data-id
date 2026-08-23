@@ -1,0 +1,308 @@
+{
+  "boundary_id": "R011-B007",
+  "canonical_mutation_performed": false,
+  "determinism": {
+    "all_byte_identical": true,
+    "all_english_witnesses_exact": true,
+    "outputs": [
+      {
+        "all_byte_identical": true,
+        "english_witness": {
+          "bytes": 4865,
+          "path": "scratch/R011-B007-assets/ch_summarizing_data/figures/malaria_rand_dot_plot/malaria_rand_dot_plot.source-en.pdf",
+          "sha256": "6e42bf561f3fa30f6b8f8b99e5bf098dcfaf48b2bb3ba08b8293e87b29c8f63d"
+        },
+        "english_witness_exact": true,
+        "key": "malaria_rand_dot_plot",
+        "pass_1": {
+          "bytes": 11083,
+          "path": "qa/b007-assets/determinism/pass-1/ch_summarizing_data/figures/malaria_rand_dot_plot/malaria_rand_dot_plot.pdf",
+          "sha256": "badb8d98c195c85c7e7800278c27283da6b93b47b34533d00e4eda9e1bd3b332"
+        },
+        "pass_2": {
+          "bytes": 11083,
+          "path": "qa/b007-assets/determinism/pass-2/ch_summarizing_data/figures/malaria_rand_dot_plot/malaria_rand_dot_plot.pdf",
+          "sha256": "badb8d98c195c85c7e7800278c27283da6b93b47b34533d00e4eda9e1bd3b332"
+        },
+        "staged": {
+          "bytes": 11083,
+          "path": "scratch/R011-B007-assets/ch_summarizing_data/figures/malaria_rand_dot_plot/malaria_rand_dot_plot.pdf",
+          "sha256": "badb8d98c195c85c7e7800278c27283da6b93b47b34533d00e4eda9e1bd3b332"
+        }
+      },
+      {
+        "all_byte_identical": true,
+        "english_witness": {
+          "bytes": 4618,
+          "path": "scratch/R011-B007-assets/ch_summarizing_data/figures/eoce/randomization_avandia/randomization_avandia.source-en.pdf",
+          "sha256": "69202b9ba715bdeba6f61b886890dfec11f56d3275eedca1239d68c7cab20787"
+        },
+        "english_witness_exact": true,
+        "key": "randomization_avandia",
+        "pass_1": {
+          "bytes": 1887,
+          "path": "qa/b007-assets/determinism/pass-1/ch_summarizing_data/figures/eoce/randomization_avandia/randomization_avandia.pdf",
+          "sha256": "cdca456620c05f17f215149ac0fb62d2ac43dc3e2be49d6eaf7c45b0bb8f4247"
+        },
+        "pass_2": {
+          "bytes": 1887,
+          "path": "qa/b007-assets/determinism/pass-2/ch_summarizing_data/figures/eoce/randomization_avandia/randomization_avandia.pdf",
+          "sha256": "cdca456620c05f17f215149ac0fb62d2ac43dc3e2be49d6eaf7c45b0bb8f4247"
+        },
+        "staged": {
+          "bytes": 1887,
+          "path": "scratch/R011-B007-assets/ch_summarizing_data/figures/eoce/randomization_avandia/randomization_avandia.pdf",
+          "sha256": "cdca456620c05f17f215149ac0fb62d2ac43dc3e2be49d6eaf7c45b0bb8f4247"
+        }
+      },
+      {
+        "all_byte_identical": true,
+        "english_witness": {
+          "bytes": 4232,
+          "path": "scratch/R011-B007-assets/ch_summarizing_data/figures/eoce/randomization_heart_transplants/randomization_heart_transplants_mosaic.source-en.pdf",
+          "sha256": "fade35f65205c0ca57b55382f03b68001552b50728100cdca9b79639feb4d9da"
+        },
+        "english_witness_exact": true,
+        "key": "randomization_heart_transplants_mosaic",
+        "pass_1": {
+          "bytes": 3837,
+          "path": "qa/b007-assets/determinism/pass-1/ch_summarizing_data/figures/eoce/randomization_heart_transplants/randomization_heart_transplants_mosaic.pdf",
+          "sha256": "271c43cb22fd4329c31d19488f012a4e9165bb30546aff5b47e9fc8f077355da"
+        },
+        "pass_2": {
+          "bytes": 3837,
+          "path": "qa/b007-assets/determinism/pass-2/ch_summarizing_data/figures/eoce/randomization_heart_transplants/randomization_heart_transplants_mosaic.pdf",
+          "sha256": "271c43cb22fd4329c31d19488f012a4e9165bb30546aff5b47e9fc8f077355da"
+        },
+        "staged": {
+          "bytes": 3837,
+          "path": "scratch/R011-B007-assets/ch_summarizing_data/figures/eoce/randomization_heart_transplants/randomization_heart_transplants_mosaic.pdf",
+          "sha256": "271c43cb22fd4329c31d19488f012a4e9165bb30546aff5b47e9fc8f077355da"
+        }
+      },
+      {
+        "all_byte_identical": true,
+        "english_witness": {
+          "bytes": 5154,
+          "path": "scratch/R011-B007-assets/ch_summarizing_data/figures/eoce/randomization_heart_transplants/randomization_heart_transplants_box.source-en.pdf",
+          "sha256": "6173e5e80faa450b617fd495a5c0ddbf60aae28677af2f82269d0a4acdc7d8a5"
+        },
+        "english_witness_exact": true,
+        "key": "randomization_heart_transplants_box",
+        "pass_1": {
+          "bytes": 5094,
+          "path": "qa/b007-assets/determinism/pass-1/ch_summarizing_data/figures/eoce/randomization_heart_transplants/randomization_heart_transplants_box.pdf",
+          "sha256": "7447161e002ec5301f971f136a654f45e52420b10b986619b1b422284b03fe3f"
+        },
+        "pass_2": {
+          "bytes": 5094,
+          "path": "qa/b007-assets/determinism/pass-2/ch_summarizing_data/figures/eoce/randomization_heart_transplants/randomization_heart_transplants_box.pdf",
+          "sha256": "7447161e002ec5301f971f136a654f45e52420b10b986619b1b422284b03fe3f"
+        },
+        "staged": {
+          "bytes": 5094,
+          "path": "scratch/R011-B007-assets/ch_summarizing_data/figures/eoce/randomization_heart_transplants/randomization_heart_transplants_box.pdf",
+          "sha256": "7447161e002ec5301f971f136a654f45e52420b10b986619b1b422284b03fe3f"
+        }
+      },
+      {
+        "all_byte_identical": true,
+        "english_witness": {
+          "bytes": 5748,
+          "path": "scratch/R011-B007-assets/ch_summarizing_data/figures/eoce/randomization_heart_transplants/randomization_heart_transplants_rando.source-en.pdf",
+          "sha256": "fdbabbfc71cba4640572a3bf968fd5959e59bf61e67d77b2c6032609e1aed8a2"
+        },
+        "english_witness_exact": true,
+        "key": "randomization_heart_transplants_rando",
+        "pass_1": {
+          "bytes": 45948,
+          "path": "qa/b007-assets/determinism/pass-1/ch_summarizing_data/figures/eoce/randomization_heart_transplants/randomization_heart_transplants_rando.pdf",
+          "sha256": "3504d6e03fcd6fb59f62c199528479668b678813a103cb399a450b133b634f10"
+        },
+        "pass_2": {
+          "bytes": 45948,
+          "path": "qa/b007-assets/determinism/pass-2/ch_summarizing_data/figures/eoce/randomization_heart_transplants/randomization_heart_transplants_rando.pdf",
+          "sha256": "3504d6e03fcd6fb59f62c199528479668b678813a103cb399a450b133b634f10"
+        },
+        "staged": {
+          "bytes": 45948,
+          "path": "scratch/R011-B007-assets/ch_summarizing_data/figures/eoce/randomization_heart_transplants/randomization_heart_transplants_rando.pdf",
+          "sha256": "3504d6e03fcd6fb59f62c199528479668b678813a103cb399a450b133b634f10"
+        }
+      }
+    ],
+    "pass_count": 2
+  },
+  "evidence": {
+    "build_receipt": {
+      "bytes": 34247,
+      "path": "qa/b007-assets/B007_ASSET_BUILD_RECEIPT.json",
+      "sha256": "4475a38720d4d6afd00e2d2f2306a98e874832a8f1122f64a720a26c3dedf62f"
+    },
+    "localization_receipt": {
+      "bytes": 8207,
+      "path": "qa/b007-assets/B007_ASSET_LOCALIZATION_RECEIPT.json",
+      "sha256": "5021a0591cbea58e302b8962b89186b170a6830e953ddae7360abec58e919941"
+    },
+    "machine_qa": {
+      "bytes": 36911,
+      "path": "qa/b007-assets/B007_ASSET_MACHINE_QA.json",
+      "sha256": "3342c3e07c38e75c8334ddba4e89357cb960987b3e8727f1374c04fe6c25ed72"
+    },
+    "output_manifest": {
+      "bytes": 8696,
+      "path": "qa/b007-assets/B007_ASSET_OUTPUT_MANIFEST.json",
+      "sha256": "8682e2ff4a761f55abc260915cfec59881f04ef61d76a60c983699d5e09fd524"
+    },
+    "visual_qa": {
+      "bytes": 13578,
+      "path": "qa/b007-assets/B007_ASSET_VISUAL_QA.json",
+      "sha256": "2395920ffeaba82dcca96ec78b329be040ba7affb8991159e395e81cae0f3039"
+    }
+  },
+  "next_action": "Perform the already-authorized guarded canonical asset promotion.",
+  "portable_points": {
+    "all_points_visible_in_poppler_and_mupdf": true,
+    "all_source_coordinate_multisets_preserved": true,
+    "asset_count": 2,
+    "records": [
+      {
+        "coordinate_mapping_sha256": "c2d8968641ee956d80af133b4391a67961e1468a8f7c21ce78f83b005d38fd33",
+        "key": "malaria_rand_dot_plot",
+        "mupdf_visible_component_count": 100,
+        "poppler_mupdf_blue_iou": 0.9886654713114754,
+        "poppler_visible_component_count": 100,
+        "source_glyph_run_count": 100,
+        "target_vector_circle_count": 100,
+        "unique_visual_centre_count": 100
+      },
+      {
+        "coordinate_mapping_sha256": "ac976231cc303e87488ed51213a5612a025db03d988721cdd69bbc5c0bb4fa94",
+        "key": "randomization_heart_transplants_rando",
+        "mupdf_visible_component_count": 100,
+        "poppler_mupdf_blue_iou": 0.9352748282323547,
+        "poppler_visible_component_count": 100,
+        "source_glyph_run_count": 1318,
+        "target_vector_circle_count": 1318,
+        "unique_visual_centre_count": 100
+      }
+    ]
+  },
+  "privacy": {
+    "absolute_profile_path_hits": 0,
+    "avandia_author": "Codex, acting at the user's request",
+    "avandia_author_is_neutral": true,
+    "files_scanned": 21,
+    "prohibited_requester_token_hits": 0,
+    "records": [
+      {
+        "absolute_profile_path_hits": 0,
+        "path": "scratch/R011-B007-assets/ch_summarizing_data/figures/malaria_rand_dot_plot/malaria_rand_dot_plot.pdf",
+        "prohibited_requester_token_hits": 0
+      },
+      {
+        "absolute_profile_path_hits": 0,
+        "path": "scratch/R011-B007-assets/ch_summarizing_data/figures/malaria_rand_dot_plot/malaria_rand_dot_plot.source-en.pdf",
+        "prohibited_requester_token_hits": 0
+      },
+      {
+        "absolute_profile_path_hits": 0,
+        "path": "scratch/R011-B007-assets/ch_summarizing_data/figures/eoce/randomization_avandia/randomization_avandia.pdf",
+        "prohibited_requester_token_hits": 0
+      },
+      {
+        "absolute_profile_path_hits": 0,
+        "path": "scratch/R011-B007-assets/ch_summarizing_data/figures/eoce/randomization_avandia/randomization_avandia.source-en.pdf",
+        "prohibited_requester_token_hits": 0
+      },
+      {
+        "absolute_profile_path_hits": 0,
+        "path": "scratch/R011-B007-assets/ch_summarizing_data/figures/eoce/randomization_heart_transplants/randomization_heart_transplants_mosaic.pdf",
+        "prohibited_requester_token_hits": 0
+      },
+      {
+        "absolute_profile_path_hits": 0,
+        "path": "scratch/R011-B007-assets/ch_summarizing_data/figures/eoce/randomization_heart_transplants/randomization_heart_transplants_mosaic.source-en.pdf",
+        "prohibited_requester_token_hits": 0
+      },
+      {
+        "absolute_profile_path_hits": 0,
+        "path": "scratch/R011-B007-assets/ch_summarizing_data/figures/eoce/randomization_heart_transplants/randomization_heart_transplants_box.pdf",
+        "prohibited_requester_token_hits": 0
+      },
+      {
+        "absolute_profile_path_hits": 0,
+        "path": "scratch/R011-B007-assets/ch_summarizing_data/figures/eoce/randomization_heart_transplants/randomization_heart_transplants_box.source-en.pdf",
+        "prohibited_requester_token_hits": 0
+      },
+      {
+        "absolute_profile_path_hits": 0,
+        "path": "scratch/R011-B007-assets/ch_summarizing_data/figures/eoce/randomization_heart_transplants/randomization_heart_transplants_rando.pdf",
+        "prohibited_requester_token_hits": 0
+      },
+      {
+        "absolute_profile_path_hits": 0,
+        "path": "scratch/R011-B007-assets/ch_summarizing_data/figures/eoce/randomization_heart_transplants/randomization_heart_transplants_rando.source-en.pdf",
+        "prohibited_requester_token_hits": 0
+      },
+      {
+        "absolute_profile_path_hits": 0,
+        "path": "repo/ch_summarizing_data/figures/malaria_rand_dot_plot/malaria_rand_dot_plot.R",
+        "prohibited_requester_token_hits": 0
+      },
+      {
+        "absolute_profile_path_hits": 0,
+        "path": "repo/ch_summarizing_data/figures/eoce/randomization_avandia/randomization_avandia.R",
+        "prohibited_requester_token_hits": 0
+      },
+      {
+        "absolute_profile_path_hits": 0,
+        "path": "repo/ch_summarizing_data/figures/eoce/randomization_heart_transplants/randomization_heart_transplants.R",
+        "prohibited_requester_token_hits": 0
+      },
+      {
+        "absolute_profile_path_hits": 0,
+        "path": "qa/b007-assets/B007_ASSET_OUTPUT_MANIFEST.json",
+        "prohibited_requester_token_hits": 0
+      },
+      {
+        "absolute_profile_path_hits": 0,
+        "path": "qa/b007-assets/B007_ASSET_BUILD_RECEIPT.json",
+        "prohibited_requester_token_hits": 0
+      },
+      {
+        "absolute_profile_path_hits": 0,
+        "path": "qa/b007-assets/B007_ASSET_MACHINE_QA.json",
+        "prohibited_requester_token_hits": 0
+      },
+      {
+        "absolute_profile_path_hits": 0,
+        "path": "qa/b007-assets/B007_ASSET_VISUAL_QA.json",
+        "prohibited_requester_token_hits": 0
+      },
+      {
+        "absolute_profile_path_hits": 0,
+        "path": "qa/b007-assets/B007_ASSET_LOCALIZATION_RECEIPT.json",
+        "prohibited_requester_token_hits": 0
+      },
+      {
+        "absolute_profile_path_hits": 0,
+        "path": "qa/b007-assets/AVANDIA_N1000_SIMULATION.json",
+        "prohibited_requester_token_hits": 0
+      },
+      {
+        "absolute_profile_path_hits": 0,
+        "path": "README.md",
+        "prohibited_requester_token_hits": 0
+      },
+      {
+        "absolute_profile_path_hits": 0,
+        "path": "CITATION.cff",
+        "prohibited_requester_token_hits": 0
+      }
+    ]
+  },
+  "schema": "r011.b007-asset-privacy-portability-qa.v2",
+  "scope": "Five localized assets, five exact English witnesses, three localized R producers, task evidence, and edition metadata",
+  "status": "pass_privacy_and_portability_ready_for_canonical_promotion"
+}

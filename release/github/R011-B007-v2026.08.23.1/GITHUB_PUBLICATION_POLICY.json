@@ -1,0 +1,178 @@
+{
+  "schema": "interlanguage.github-publication-policy",
+  "schema_version": "1.1.0",
+  "boundary_id": "R011-B007",
+  "release_id": "R011-B007-v2026.08.23.1",
+  "repository": {
+    "owner": "KokunoYumeto",
+    "name": "statistika-berbasis-data-id",
+    "default_branch": "main",
+    "https_remote": "https://github.com/KokunoYumeto/statistika-berbasis-data-id.git",
+    "ssh_remote": "git@github.com:KokunoYumeto/statistika-berbasis-data-id.git",
+    "tag": "r011-b007-2026.08.23.1"
+  },
+  "source_manifest": {
+    "path": "qa/b007-build/R011-B007_SNAPSHOT_MANIFEST_V8.tsv",
+    "bytes": 174617,
+    "sha256": "a09e47b52b7b8d5eada0d9086777dcfd57b71339897b9ff0769c6d43fbb0b4c4",
+    "public_prefix": "repo"
+  },
+  "replaceable_root_predecessors": {
+    "README.md": {
+      "bytes": 3830,
+      "sha256": "98e0df40bfd28aec008cc90d7f8da724cf7de3710e2ba1610221476f6fa6b8d2"
+    },
+    "CITATION.cff": {
+      "bytes": 1136,
+      "sha256": "9d500aaffbe4039e34a02a3a3eb8246df25b1b80f9fad139294d1b30505df0f0"
+    },
+    "LICENSE.md": {
+      "bytes": 2256,
+      "sha256": "86de751758c6ecb3ddd675cc47f3a1c21cae1ee21d5fdd759c865397e99b324c"
+    }
+  },
+  "required_exact_files": [
+    ".gitattributes",
+    ".gitignore",
+    "authority/BUILD_AND_READER_CLOSURE.json",
+    "authority/CORPUS_CLOSURE_SUMMARY.json",
+    "authority/CORPUS_COMPONENT_CLOSURE.csv",
+    "authority/UPSTREAM_AUTHORITY.json",
+    "authority/UPSTREAM_FILE_MANIFEST.csv",
+    "00_control/ADVERSE_LEDGER.jsonl",
+    "00_control/COMPONENT_RIGHTS.csv",
+    "00_control/TERMINOLOGY.csv",
+    "qa/R011-B007_BUILD_QA.json",
+    "qa/R011-B007_PREAPPLICATION_MANIFEST.json",
+    "qa/R011-B007_SOURCE_APPLICATION_MANIFEST.json",
+    "qa/R011-B007_SOURCE_APPLICATION_RECEIPT.json",
+    "qa/R011-B007_SOURCE_GATE_QA.json",
+    "qa/R011-B007_VISUAL_AUDIT.json",
+    "qa/R011-B007_BOUNDARY_RECEIPT.json",
+    "qa/b007-build/R011-B007_SNAPSHOT_MANIFEST_V8.tsv",
+    "qa/b007-build/final-v8/CANDIDATE_BUILD_QA_V8.json",
+    "qa/b007-backend/BACKEND_VALIDATION_RECEIPT_R011-B007.json",
+    "qa/b007-backend/R011-B007_FINAL_GATE_INPUTS.json",
+    "qa/b007-assets/B007_ASSET_PRIVACY_REFRESH_QA.json",
+    "scripts/admit_b007.py",
+    "scripts/generate_backend_b007.py",
+    "scripts/package_zenodo_b007.ps1",
+    "scripts/qa_build_b007.py",
+    "scripts/qa_finalize_b007_visual_v8.py",
+    "scripts/validate_backend_b007.py",
+    "output/pdf/statistika-berbasis-data-batas-R011-B007.pdf",
+    "release/zenodo/R011-B007-v2026.08.23.1/CITATION.cff",
+    "release/zenodo/R011-B007-v2026.08.23.1/LICENSES_AND_ATTRIBUTION.md",
+    "release/zenodo/R011-B007-v2026.08.23.1/README_RELEASE.md",
+    "release/zenodo/R011-B007-v2026.08.23.1/RELEASE_MANIFEST.json",
+    "release/zenodo/R011-B007-v2026.08.23.1/SHA256SUMS.txt",
+    "release/zenodo/R011-B007-v2026.08.23.1/ZENODO_METADATA.json",
+    "qa/b007-zenodo/ZENODO_PUBLICATION_RECEIPT_R011-B007-v2026.08.23.1.json",
+    "release/figshare/R011-B007-v2026.08.23.1/FIGSHARE_ARTICLE_PAYLOAD_TEMPLATE.json",
+    "release/figshare/R011-B007-v2026.08.23.1/FIGSHARE_PUBLICATION_PLAN_TEMPLATE.json",
+    "release/figshare/R011-B007-v2026.08.23.1/FIGSHARE_PUBLICATION_RECEIPT.json",
+    "release/github/R011-B007-v2026.08.23.1/GITHUB_RELEASE_CURRENT_TREE_PLAN.md",
+    "release/github/R011-B007-v2026.08.23.1/GITHUB_PUBLICATION_POLICY.json",
+    "release/github/R011-B007-v2026.08.23.1/GITHUB_ROOT_README_TEMPLATE.md",
+    "release/github/R011-B007-v2026.08.23.1/GITHUB_ROOT_CITATION_TEMPLATE.cff",
+    "release/github/R011-B007-v2026.08.23.1/GITHUB_PUBLICATION_STATE_TEMPLATE.md",
+    "release/github/R011-B007-v2026.08.23.1/GITHUB_PUBLICATION_CURSOR_TEMPLATE.json"
+  ],
+  "generated_current_tree_files": [
+    "README.md",
+    "CITATION.cff",
+    "LICENSE.md",
+    "00_control/PUBLICATION_STATE_R011-B007.md",
+    "00_control/PUBLICATION_CURSOR_R011-B007.json"
+  ],
+  "removable_tracked_prefixes": [
+    "repo/",
+    "backend/",
+    "output/",
+    "qa/",
+    "scripts/",
+    "release/",
+    "00_control/",
+    "authority/",
+    "scratch/",
+    "tmp/"
+  ],
+  "selected_raw_readback": [
+    "README.md",
+    "LICENSE.md",
+    "CITATION.cff",
+    "00_control/PUBLICATION_STATE_R011-B007.md",
+    "00_control/PUBLICATION_CURSOR_R011-B007.json",
+    "output/pdf/statistika-berbasis-data-batas-R011-B007.pdf",
+    "repo/main.tex",
+    "qa/b007-build/R011-B007_SNAPSHOT_MANIFEST_V8.tsv",
+    "qa/R011-B007_BOUNDARY_RECEIPT.json",
+    "backend/exports/manifest.json",
+    "release/zenodo/R011-B007-v2026.08.23.1/RELEASE_MANIFEST.json",
+    "qa/b007-zenodo/ZENODO_PUBLICATION_RECEIPT_R011-B007-v2026.08.23.1.json"
+  ],
+  "ordered_release_assets": [
+    "00_STATISTIKA_BERBASIS_DATA_ID_R011-B007_WORKING_READER.pdf",
+    "01_STATISTIKA_BERBASIS_DATA_ID_R011-B007_EDITABLE_SOURCE.zip",
+    "02_STATISTIKA_BERBASIS_DATA_ID_R011-B007_MODULAR_BACKEND.zip",
+    "CITATION.cff",
+    "LICENSES_AND_ATTRIBUTION.md",
+    "README_RELEASE.md",
+    "RELEASE_MANIFEST.json",
+    "SHA256SUMS.txt",
+    "ZENODO_METADATA.json"
+  ],
+  "ordered_release_asset_identities": [
+    {
+      "filename": "00_STATISTIKA_BERBASIS_DATA_ID_R011-B007_WORKING_READER.pdf",
+      "bytes": 20940913,
+      "sha256": "4fdbfa817781cf949e1c68b9349429685ec9caba4d4aeb520df84db534389493"
+    },
+    {
+      "filename": "01_STATISTIKA_BERBASIS_DATA_ID_R011-B007_EDITABLE_SOURCE.zip",
+      "bytes": 33142747,
+      "sha256": "815c585867023f78121ef4649e60fc52553ee2c4c0a86ffdb314bd7b6c1367a6"
+    },
+    {
+      "filename": "02_STATISTIKA_BERBASIS_DATA_ID_R011-B007_MODULAR_BACKEND.zip",
+      "bytes": 2322279,
+      "sha256": "db0643e9a98218f3c12274659e35761e037d99109ea8aeb143dbbbe82e1835e5"
+    },
+    {
+      "filename": "CITATION.cff",
+      "bytes": 1002,
+      "sha256": "9b048a72f5563f8cf322b90403941538256f07b597c8362a8c42dd5ed06714fc"
+    },
+    {
+      "filename": "LICENSES_AND_ATTRIBUTION.md",
+      "bytes": 2349,
+      "sha256": "c2fa07305771ec3fc0ebe8e8e713c68ee43b5d2e83f96ce7152f333e73eaf1db"
+    },
+    {
+      "filename": "README_RELEASE.md",
+      "bytes": 3929,
+      "sha256": "8f6351bbff4280a2ad806a870efeb75d90bad5e0f7dc3ac99a1ddfa91744b252"
+    },
+    {
+      "filename": "RELEASE_MANIFEST.json",
+      "bytes": 5193,
+      "sha256": "65fc8d41d275b3e0371c90c13761a94bb783eabda5633394a6fcc4c3a216d37c"
+    },
+    {
+      "filename": "SHA256SUMS.txt",
+      "bytes": 820,
+      "sha256": "5dd705b756dcdea81f6314e2e46a2de031b29c717993ebec88a7cd92ad9ae219"
+    },
+    {
+      "filename": "ZENODO_METADATA.json",
+      "bytes": 3120,
+      "sha256": "be2f3a2adbb5f77a6a17865e446452edcaed13e1cef2488f1630c03b809c4bf5"
+    }
+  ],
+  "excluded_operational_files": [
+    "scripts/publish_figshare_b007.py",
+    "scripts/publish_github_b007.py",
+    "scripts/publish_zenodo_b007.ps1",
+    "scripts/qa_source_b007.py"
+  ]
+}

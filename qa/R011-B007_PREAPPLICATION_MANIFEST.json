@@ -1,0 +1,204 @@
+{
+  "schema_version": "r011-b007-preapplication-manifest/1.0.0",
+  "corpus_id": "R011",
+  "boundary_id": "R011-B007",
+  "locale": "id-ID",
+  "status": "candidate_bound_before_source_application",
+  "authority": {
+    "repository": "https://github.com/OpenIntroStat/openintro-statistics",
+    "branch": "master",
+    "commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "tree": "d61cc601e7d97759ce805900520f784d02a0489e"
+  },
+  "pre_application_files": [
+    {
+      "path": "repo/ch_summarizing_data/TeX/ch_summarizing_data.tex",
+      "bytes": 114091,
+      "sha256": "3a087003f4bcb01268090fc2a04a8c40f9b46da7ff5a5f276a591a9d266e7a9c",
+      "preserved_prefix": {
+        "end_exclusive_anchor": "\\section{Case study: malaria vaccine}",
+        "bytes": 98378,
+        "sha256": "78c2cdf38987ba36f4544a12afb40da103e8a7e502ee7ccdd6b9eca3c4392a59"
+      },
+      "replacement_preimage": {
+        "scope": "exact anchor through EOF",
+        "bytes": 15713,
+        "sha256": "fcc5177c7683b11b1381b8c2a94eaf5ae8be702640bc08f10bc53ae9aff4190d"
+      }
+    },
+    {
+      "path": "repo/ch_summarizing_data/TeX/case_study_malaria_vaccine.tex",
+      "scope": "whole file",
+      "bytes": 9265,
+      "sha256": "d31f5dc0611b4efac08a34bb1f584e86714a4b4bf85b89b435b12ca774a326ec"
+    },
+    {
+      "path": "repo/extraTeX/eoceSolutions/eoceSolutions.tex",
+      "bytes": 107940,
+      "sha256": "49ad90a6c041ec23cfb99ce5f0a1ece6bf45516cc82eabbe02474c1604749b43",
+      "preserved_prefix": {
+        "end_exclusive_anchor": "\\eocesol{(a)~(i) False.",
+        "bytes": 15894,
+        "sha256": "237cdc24a8cf2025b45b9c75c08b8cfe211793552556a9ac79170b85509737a4"
+      },
+      "replacement_preimage": {
+        "scope": "Chapter 2 public answer 25 eocesol block only",
+        "bytes": 2038,
+        "sha256": "84635353bc1dd6edae5ccae6fe44fc9ed574e6ba5cb1f570514d5857c0ee36d6"
+      },
+      "preserved_suffix": {
+        "start_anchor": "% 27",
+        "bytes": 90008,
+        "sha256": "1d3939a4a08b79a33ea11d36ce4d6c0f8e00e147e3ec8e2518e54267810af34e"
+      }
+    },
+    {
+      "path": "00_control/TERMINOLOGY.csv",
+      "bytes": 11279,
+      "sha256": "622fa65372875784cb190619175750bcfbfa9600bcc4526f521019c39f093f7e",
+      "rows": 141,
+      "tail_id": "R011-TERM-0141"
+    },
+    {
+      "path": "00_control/ADVERSE_LEDGER.jsonl",
+      "bytes": 36030,
+      "sha256": "04032e0f4486268d99d809333779fd450d4062d376149ca0945f34e24f8af7c3",
+      "rows": 79,
+      "tail_id": "R011-ADV-0079"
+    }
+  ],
+  "candidate_overlays": [
+    {
+      "path": "scratch/R011-B007-candidate/ch_summarizing_data/TeX/ch_summarizing_data.section-2.3.tex",
+      "stored_bytes": 16643,
+      "stored_sha256": "8ae0e019244eafd2d0a5d821864f695e57d8b78b08fe5aacbf3178bb77e83194",
+      "strip_leading_comment_lines": 2,
+      "applied_bytes": 16487,
+      "applied_sha256": "fe5e9b1fa195410e60673572773fdbc490995c353a2dbbd73ad9e293371ecd67",
+      "target": "repo/ch_summarizing_data/TeX/ch_summarizing_data.tex exact anchor through EOF"
+    },
+    {
+      "path": "scratch/R011-B007-candidate/ch_summarizing_data/TeX/case_study_malaria_vaccine.tex",
+      "stored_bytes": 9598,
+      "stored_sha256": "712f7ddb0f3c80806f20063fff88d7ac4eb0c13e57422ae482d1a11697e83ddd",
+      "target": "repo/ch_summarizing_data/TeX/case_study_malaria_vaccine.tex whole file"
+    },
+    {
+      "path": "scratch/R011-B007-candidate/extraTeX/eoceSolutions/solution-25.tex",
+      "stored_bytes": 2271,
+      "stored_sha256": "4b67495bae085d8826fe976d6ab13bce570e57830fd3752174658b145476fee0",
+      "strip_leading_comment_lines": 2,
+      "applied_bytes": 2115,
+      "applied_sha256": "a9a5eba3d9df4b0445441339f5da5c8bb3119567fa5bf91cf85ecb0f6be3d48c",
+      "target": "repo/extraTeX/eoceSolutions/eoceSolutions.tex Chapter 2 public answer 25 block"
+    }
+  ],
+  "expected_post_application_files": [
+    {
+      "path": "repo/ch_summarizing_data/TeX/ch_summarizing_data.tex",
+      "bytes": 114865,
+      "sha256": "84baa0a03077d395b8065bcb2e1c0abc6124dc97f632440057b2769d35fbb415"
+    },
+    {
+      "path": "repo/ch_summarizing_data/TeX/case_study_malaria_vaccine.tex",
+      "bytes": 9598,
+      "sha256": "712f7ddb0f3c80806f20063fff88d7ac4eb0c13e57422ae482d1a11697e83ddd"
+    },
+    {
+      "path": "repo/extraTeX/eoceSolutions/eoceSolutions.tex",
+      "bytes": 108017,
+      "sha256": "e3592306335188d90603dd26ac52fa39c2f86ef32d4baf2db81c65c3f42f8c33"
+    }
+  ],
+  "candidate_ledger_inputs": [
+    {
+      "path": "scratch/R011-B007-candidate/TERMINOLOGY_PROPOSALS.tsv",
+      "bytes": 2765,
+      "sha256": "e4ce0fbd6bcb5c40fab80d4bf221e3f90e27f796595039afa18dd1b1d8062390"
+    },
+    {
+      "path": "scratch/R011-B007-candidate/SOURCE_CORRECTIONS.tsv",
+      "bytes": 3650,
+      "sha256": "f0a79b99f7d770406856a750b2041ed42e98bd18a695906bd095abc689df2474"
+    },
+    {
+      "path": "scratch/R011-B007-candidate/O001_MASTERY_GAPS.tsv",
+      "bytes": 607,
+      "sha256": "34c3f8078188094e73674f52917b1acef5919dfb2d7a82cf6382a534c42f8e45"
+    }
+  ],
+  "terminology_application": {
+    "candidate_rows": 20,
+    "reuse_existing": [
+      {
+        "candidate_id": "R011-B007-TERM-0001",
+        "canonical_id": "R011-TERM-0009",
+        "source_term": "case study"
+      },
+      {
+        "candidate_id": "R011-B007-TERM-0010",
+        "canonical_id": "R011-TERM-0062",
+        "source_term": "randomization"
+      }
+    ],
+    "append_new_ids": [
+      "R011-TERM-0142",
+      "R011-TERM-0143",
+      "R011-TERM-0144",
+      "R011-TERM-0145",
+      "R011-TERM-0146",
+      "R011-TERM-0147",
+      "R011-TERM-0148",
+      "R011-TERM-0149",
+      "R011-TERM-0150",
+      "R011-TERM-0151",
+      "R011-TERM-0152",
+      "R011-TERM-0153",
+      "R011-TERM-0154",
+      "R011-TERM-0155",
+      "R011-TERM-0156",
+      "R011-TERM-0157",
+      "R011-TERM-0158",
+      "R011-TERM-0159"
+    ],
+    "new_status": "proposed_until_B007_admission"
+  },
+  "adverse_ledger_application": {
+    "source_correction_ids": [
+      "R011-B007-SC-001",
+      "R011-B007-SC-002",
+      "R011-B007-SC-003",
+      "R011-B007-SC-004",
+      "R011-B007-SC-005",
+      "R011-B007-SC-006",
+      "R011-B007-SC-007",
+      "R011-B007-SC-008"
+    ],
+    "o001_gap_ids": ["R011-B007-O001-0001"],
+    "append_adverse_ids": [
+      "R011-ADV-0080",
+      "R011-ADV-0081",
+      "R011-ADV-0082",
+      "R011-ADV-0083",
+      "R011-ADV-0084",
+      "R011-ADV-0085",
+      "R011-ADV-0086",
+      "R011-ADV-0087",
+      "R011-ADV-0088"
+    ]
+  },
+  "asset_dependency": {
+    "canonical_assets_or_producers_mutated_by_this_application": false,
+    "reader_pdfs_pending_localization": 5,
+    "candidate_r_producers_pending_application_and_replay": 3,
+    "avandia_candidate_decision": "N=1000; canonical producer remains pinned N=100 until the separate asset transaction"
+  },
+  "application_policy": {
+    "mutation_method": "apply_patch",
+    "exact_preimage_required": true,
+    "reverse_reconstruction_required": true,
+    "preserve_b006_prefix_and_answer_suffix": true,
+    "assets_in_scope": false,
+    "backend_build_publication_git_in_scope": false
+  }
+}

@@ -47,7 +47,7 @@ myPDF('malaria_rand_dot_plot.pdf', 6, 3.5,
       mgp = c(2.35, 0.6, 0))
 plot(X, Y,
      xlim = range(diffs) + c(-1, 1) * sd(diffs) / 4,
-     xlab = "Difference in Infection Rates",
+     xlab = "Selisih tingkat infeksi",
      axes = FALSE,
      ylim = c(0, max(Y)),
      col = COL[1],

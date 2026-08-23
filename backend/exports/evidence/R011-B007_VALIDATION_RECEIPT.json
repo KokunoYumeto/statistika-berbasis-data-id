@@ -1,0 +1,139 @@
+{
+  "schema_version": "r011.translation_candidate_validation.v1",
+  "boundary_id": "R011-B007",
+  "validated_at_utc": "2026-08-22T19:31:39.5744791Z",
+  "result": "PASS_FOR_REVISED_ISOLATED_APPLICATION_REVIEW",
+  "canonical_admission": false,
+  "authority": {
+    "commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "tree": "d61cc601e7d97759ce805900520f784d02a0489e"
+  },
+  "preimage_checks": {
+    "current_section_2_3_span_equals_pinned_authority": true,
+    "current_section_2_3_span_bytes": 15713,
+    "current_section_2_3_span_sha256": "fcc5177c7683b11b1381b8c2a94eaf5ae8be702640bc08f10bc53ae9aff4190d",
+    "current_exercise_file_equals_pinned_authority": true,
+    "current_exercise_file_bytes": 9265,
+    "current_exercise_file_sha256": "d31f5dc0611b4efac08a34bb1f584e86714a4b4bf85b89b435b12ca774a326ec",
+    "current_public_answer_25_equals_pinned_authority": true,
+    "current_public_answer_25_block_bytes": 2038,
+    "current_public_answer_25_block_sha256": "84635353bc1dd6edae5ccae6fe44fc9ed574e6ba5cb1f570514d5857c0ee36d6"
+  },
+  "tex_structural_checks": {
+    "section_2_3": {
+      "command_sequence": {"authority": 213, "candidate": 213, "equal": true},
+      "environment_sequence": {"authority": 42, "candidate": 42, "equal": true},
+      "label_sequence": {"authority": 9, "candidate": 9, "equal": true},
+      "reference_sequence": {"authority": 10, "candidate": 10, "equal": true},
+      "inline_math_sequence": {"authority": 15, "candidate": 15, "equal": true},
+      "protected_var_resp_texttt_sequence": {"authority": 7, "candidate": 7, "equal": true},
+      "newcommand_sequence": {"authority": 15, "candidate": 15, "equal": true},
+      "numeric_token_sequence_equal_after_ordinal_normalization": true,
+      "balanced_braces": true
+    },
+    "exercises_25_26": {
+      "command_sequence": {"authority": 91, "candidate": 91, "equal": true},
+      "environment_sequence": {"authority": 24, "candidate": 24, "equal": true},
+      "label_sequence": {"authority": 2, "candidate": 2, "equal": true},
+      "citation_sequence": {"authority": 2, "candidate": 2, "equal": true},
+      "figure_reference_sequence": {"authority": 4, "candidate": 4, "equal": true},
+      "protected_texttt_sequence": {"authority": 2, "candidate": 2, "equal": true},
+      "numeric_token_sequence_equal": true,
+      "balanced_braces": true
+    },
+    "public_answer_25": {
+      "command_sequence": {"authority": 8, "candidate": 8, "equal": true},
+      "inline_math_sequence": {"authority": 4, "candidate": 4, "equal": true},
+      "numeric_token_sequence_equal": true,
+      "balanced_braces": true
+    }
+  },
+  "coverage": {
+    "instructional_section_complete": true,
+    "guided_practices_with_upstream_feedback": 3,
+    "guided_practice_feedback_translated": 3,
+    "end_of_section_exercises": 2,
+    "end_of_section_exercises_translated": 2,
+    "upstream_public_answers": 1,
+    "upstream_public_answers_translated": 1,
+    "invented_or_restricted_solutions": 0,
+    "o001_gaps": 1,
+    "o001_gap_exercise": 26
+  },
+  "language_checks": {
+    "reader_prose_reviewed_in_full": true,
+    "known_intentional_english_tokens": [
+      "Apple",
+      "PfSPZ",
+      "Avandia",
+      "Actos",
+      "Medicare",
+      "Stanford",
+      "Powerball",
+      "protected data/code values inside var, resp, and texttt macros"
+    ],
+    "unexplained_reader_prose_residue_found": false,
+    "visible_index_english_residue_found": false,
+    "localized_index_aliases": [
+      {
+        "source_sort_key": "data!malaria vaccine",
+        "target_display": "data!vaksin malaria",
+        "latex_argument": "data!malaria vaccine@vaksin malaria"
+      },
+      {
+        "source_sort_key": "simulation",
+        "target_display": "simulasi",
+        "latex_argument": "simulation@simulasi"
+      }
+    ],
+    "copyedits_verified": [
+      "sejumlah tanda awal infeksi",
+      "16.7% yang berpihak pada vaksin",
+      "2% dari seluruh simulasi",
+      "inferensi statistika",
+      "Masa hidup (hari)",
+      "hipotesis nol harus ditolak dan hipotesis alternatif dipilih",
+      "menolak model independensi serta memilih model alternatif"
+    ]
+  },
+  "asset_checks": {
+    "direct_reader_pdfs": 5,
+    "source_r_generators": 3,
+    "serialized_generator_inputs": 1,
+    "all_current_pdf_generator_input_hashes_equal_pinned_authority": true,
+    "malaria_generator_nonwhitespace_tokens_equal_after_expected_xlab_substitution": true,
+    "avandia_expected_changes_exactly_xlab_and_n_100_to_1000": true,
+    "avandia_pinned_generator_n": 100,
+    "avandia_candidate_generator_n": 1000,
+    "avandia_reader_prose_and_answer_n": 1000,
+    "avandia_material_inconsistency_resolved_in_candidate_source": true,
+    "heart_original_inference_call_retained": true,
+    "heart_original_inference_seed_95632_retained": true,
+    "heart_original_nsim_100_retained": true,
+    "heart_raw_success_and_order_tokens_retained": true,
+    "heart_display_factor_copy_isolated_from_inference_data": true,
+    "r_execution": "NOT_RUN_R_RUNTIME_UNAVAILABLE_ON_PATH",
+    "pdf_replay": "NOT_RUN",
+    "visual_qa": "NOT_RUN",
+    "promotion_ready": false
+  },
+  "source_corrections": {
+    "high_confidence_records": 8,
+    "upstream_contact": false,
+    "material_inconsistency_disposition": "Retain both reader-facing 1,000-simulation authorities and change only the isolated candidate producer from N=100 to N=1000; deterministic replay, revised alt evidence, and visual QA remain required before promotion.",
+    "exercise_26_b_punctuation_correction_recorded": true
+  },
+  "candidate_manifest": {
+    "path": "CANDIDATE_MANIFEST.json",
+    "bytes": 5484,
+    "sha256": "ede9a93032d6f3c702ad4bb5add099508de508aba84be22ca0455f0172504e66"
+  },
+  "deterministic_validation_replay": {
+    "replays": 2,
+    "checks_per_replay": 12,
+    "failure_count": 0,
+    "replay_sha256": "fbda8d1b81cc29887d6d0e31f6fa88241efc4260c4ce7e76e496423c70d8c33f",
+    "identical_results": true
+  },
+  "next_gate": "Main task must apply only against the bound preimages; integrate terminology, corrections, O001, rights, index source/display mappings, and backend records; execute two deterministic localized asset replays including the Avandia N=1000 correction; regenerate the Avandia alt description from the actual histogram; visually inspect all five PDFs; then run source/build/admission gates."
+}

@@ -1,0 +1,271 @@
+{
+  "anonymous_article_metadata_readback": "passed",
+  "anonymous_file_inventory_order_readback": "passed",
+  "anonymous_immutable_link_size_sha256_readback": "passed",
+  "article": {
+    "api_url": "https://api.figshare.com/v2/articles/33314727",
+    "defined_type": "online resource",
+    "doi": "10.6084/m9.figshare.33314727.v3",
+    "draft_resumed_in_this_run": false,
+    "id": 33314727,
+    "license": {
+      "name": "CC0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "value": 2
+    },
+    "mutated_in_this_run": false,
+    "prior_ambiguous_publish_converged": false,
+    "prior_public_version": 3,
+    "public_version": 3,
+    "publish_invoked_in_this_run": false,
+    "reader_first": true,
+    "title": "Statistika Berbasis Data - Edisi Kerja Bahasa Indonesia (R011-B007: Bab 1 dan Bagian 2.1-2.3)",
+    "url": "https://figshare.com/articles/online_resource/Statistika_Berbasis_Data_Bahasa_Indonesia_R011-B005_partial_Zenodo_preservation_link/33314727"
+  },
+  "boundary_id": "R011-B007",
+  "collection": {
+    "anonymous_membership_readback": "passed",
+    "association_added_in_this_run": false,
+    "doi": "10.6084/m9.figshare.c.8668413.v43",
+    "draft_resumed_in_this_run": false,
+    "id": 8668413,
+    "prior_ambiguous_publish_converged": false,
+    "publish_invoked_in_this_run": false,
+    "title": "Indonesian Mathematics — Reader PDFs",
+    "url": null,
+    "version": 43
+  },
+  "complete_corpus": false,
+  "credentials_persisted": false,
+  "license_boundary": "For the exact-license hosted route, CC BY-SA 3.0 governs the text and translation while component-specific rights in LICENSES_AND_ATTRIBUTION.md remain authoritative. For the fallback route, CC0 governs only Figshare metadata and link pointers; linked Zenodo bytes are not relicensed.",
+  "local_inputs": {
+    "article_payload_template": {
+      "bytes": 2928,
+      "path": "release/figshare/R011-B007-v2026.08.23.1/FIGSHARE_ARTICLE_PAYLOAD_TEMPLATE.json",
+      "sha256": "9c6aef512b59e441e437322b7cd72fc3af0359bc744a202ef0746c4dd6d5ab95"
+    },
+    "publication_plan_template": {
+      "bytes": 2620,
+      "path": "release/figshare/R011-B007-v2026.08.23.1/FIGSHARE_PUBLICATION_PLAN_TEMPLATE.json",
+      "sha256": "4a3846327a2d34480f0321d7b2a15cbc7f6f75894aed6162af87ae8786e09b9d"
+    },
+    "zenodo_metadata": {
+      "bytes": 3120,
+      "path": "release/zenodo/R011-B007-v2026.08.23.1/ZENODO_METADATA.json",
+      "sha256": "be2f3a2adbb5f77a6a17865e446452edcaed13e1cef2488f1630c03b809c4bf5"
+    }
+  },
+  "logical_payload": {
+    "bytes": 56422352,
+    "file_count": 9,
+    "limit_bytes": 500000000,
+    "within_limit": true
+  },
+  "ordered_files": [
+    {
+      "bytes": 20940913,
+      "figshare_download_url": "https://zenodo.org/records/22063015/files/00_STATISTIKA_BERBASIS_DATA_ID_R011-B007_WORKING_READER.pdf",
+      "figshare_file_byte_sha256_readback": "passed",
+      "figshare_file_id": 67762179,
+      "figshare_surface": "primary_external_file",
+      "filename": "00_STATISTIKA_BERBASIS_DATA_ID_R011-B007_WORKING_READER.pdf",
+      "position": 1,
+      "references_link_readback": "passed",
+      "role": "reader_pdf",
+      "sha256": "4fdbfa817781cf949e1c68b9349429685ec9caba4d4aeb520df84db534389493",
+      "visible_description_link_readback": "passed",
+      "zenodo_link_readback": "passed",
+      "zenodo_url": "https://zenodo.org/records/22063015/files/00_STATISTIKA_BERBASIS_DATA_ID_R011-B007_WORKING_READER.pdf"
+    },
+    {
+      "bytes": 33142747,
+      "figshare_download_url": null,
+      "figshare_file_byte_sha256_readback": "not_applicable",
+      "figshare_file_id": null,
+      "figshare_surface": "metadata_link",
+      "filename": "01_STATISTIKA_BERBASIS_DATA_ID_R011-B007_EDITABLE_SOURCE.zip",
+      "position": 2,
+      "references_link_readback": "passed",
+      "role": "editable_source",
+      "sha256": "815c585867023f78121ef4649e60fc52553ee2c4c0a86ffdb314bd7b6c1367a6",
+      "visible_description_link_readback": "passed",
+      "zenodo_link_readback": "passed",
+      "zenodo_url": "https://zenodo.org/records/22063015/files/01_STATISTIKA_BERBASIS_DATA_ID_R011-B007_EDITABLE_SOURCE.zip"
+    },
+    {
+      "bytes": 2322279,
+      "figshare_download_url": null,
+      "figshare_file_byte_sha256_readback": "not_applicable",
+      "figshare_file_id": null,
+      "figshare_surface": "metadata_link",
+      "filename": "02_STATISTIKA_BERBASIS_DATA_ID_R011-B007_MODULAR_BACKEND.zip",
+      "position": 3,
+      "references_link_readback": "passed",
+      "role": "modular_backend",
+      "sha256": "db0643e9a98218f3c12274659e35761e037d99109ea8aeb143dbbbe82e1835e5",
+      "visible_description_link_readback": "passed",
+      "zenodo_link_readback": "passed",
+      "zenodo_url": "https://zenodo.org/records/22063015/files/02_STATISTIKA_BERBASIS_DATA_ID_R011-B007_MODULAR_BACKEND.zip"
+    },
+    {
+      "bytes": 1002,
+      "figshare_download_url": null,
+      "figshare_file_byte_sha256_readback": "not_applicable",
+      "figshare_file_id": null,
+      "figshare_surface": "metadata_link",
+      "filename": "CITATION.cff",
+      "position": 4,
+      "references_link_readback": "passed",
+      "role": "citation",
+      "sha256": "9b048a72f5563f8cf322b90403941538256f07b597c8362a8c42dd5ed06714fc",
+      "visible_description_link_readback": "passed",
+      "zenodo_link_readback": "passed",
+      "zenodo_url": "https://zenodo.org/records/22063015/files/CITATION.cff"
+    },
+    {
+      "bytes": 2349,
+      "figshare_download_url": null,
+      "figshare_file_byte_sha256_readback": "not_applicable",
+      "figshare_file_id": null,
+      "figshare_surface": "metadata_link",
+      "filename": "LICENSES_AND_ATTRIBUTION.md",
+      "position": 5,
+      "references_link_readback": "passed",
+      "role": "licenses_and_attribution",
+      "sha256": "c2fa07305771ec3fc0ebe8e8e713c68ee43b5d2e83f96ce7152f333e73eaf1db",
+      "visible_description_link_readback": "passed",
+      "zenodo_link_readback": "passed",
+      "zenodo_url": "https://zenodo.org/records/22063015/files/LICENSES_AND_ATTRIBUTION.md"
+    },
+    {
+      "bytes": 3929,
+      "figshare_download_url": null,
+      "figshare_file_byte_sha256_readback": "not_applicable",
+      "figshare_file_id": null,
+      "figshare_surface": "metadata_link",
+      "filename": "README_RELEASE.md",
+      "position": 6,
+      "references_link_readback": "passed",
+      "role": "release_readme",
+      "sha256": "8f6351bbff4280a2ad806a870efeb75d90bad5e0f7dc3ac99a1ddfa91744b252",
+      "visible_description_link_readback": "passed",
+      "zenodo_link_readback": "passed",
+      "zenodo_url": "https://zenodo.org/records/22063015/files/README_RELEASE.md"
+    },
+    {
+      "bytes": 5193,
+      "figshare_download_url": null,
+      "figshare_file_byte_sha256_readback": "not_applicable",
+      "figshare_file_id": null,
+      "figshare_surface": "metadata_link",
+      "filename": "RELEASE_MANIFEST.json",
+      "position": 7,
+      "references_link_readback": "passed",
+      "role": "release_manifest",
+      "sha256": "65fc8d41d275b3e0371c90c13761a94bb783eabda5633394a6fcc4c3a216d37c",
+      "visible_description_link_readback": "passed",
+      "zenodo_link_readback": "passed",
+      "zenodo_url": "https://zenodo.org/records/22063015/files/RELEASE_MANIFEST.json"
+    },
+    {
+      "bytes": 820,
+      "figshare_download_url": null,
+      "figshare_file_byte_sha256_readback": "not_applicable",
+      "figshare_file_id": null,
+      "figshare_surface": "metadata_link",
+      "filename": "SHA256SUMS.txt",
+      "position": 8,
+      "references_link_readback": "passed",
+      "role": "sha256_checksums",
+      "sha256": "5dd705b756dcdea81f6314e2e46a2de031b29c717993ebec88a7cd92ad9ae219",
+      "visible_description_link_readback": "passed",
+      "zenodo_link_readback": "passed",
+      "zenodo_url": "https://zenodo.org/records/22063015/files/SHA256SUMS.txt"
+    },
+    {
+      "bytes": 3120,
+      "figshare_download_url": null,
+      "figshare_file_byte_sha256_readback": "not_applicable",
+      "figshare_file_id": null,
+      "figshare_surface": "metadata_link",
+      "filename": "ZENODO_METADATA.json",
+      "position": 9,
+      "references_link_readback": "passed",
+      "role": "zenodo_metadata",
+      "sha256": "be2f3a2adbb5f77a6a17865e446452edcaed13e1cef2488f1630c03b809c4bf5",
+      "visible_description_link_readback": "passed",
+      "zenodo_link_readback": "passed",
+      "zenodo_url": "https://zenodo.org/records/22063015/files/ZENODO_METADATA.json"
+    }
+  ],
+  "project": {
+    "anonymous_membership_readback": "passed",
+    "id": 280296,
+    "storage_after": {
+      "article_count": 29,
+      "below_limit": true,
+      "contains_article": true,
+      "file_count": 75,
+      "hosted_bytes": 471334381,
+      "inventory_hosted_bytes": 212728003,
+      "limit_bytes_exclusive": 20000000000,
+      "quota_hosted_bytes": 471334381,
+      "target_article_hosted_bytes": 0,
+      "used_quota": 212728003,
+      "used_quota_private": 0,
+      "used_quota_public": 471334381
+    },
+    "storage_before": {
+      "article_count": 29,
+      "below_limit": true,
+      "contains_article": true,
+      "file_count": 75,
+      "hosted_bytes": 471334381,
+      "inventory_hosted_bytes": 212728003,
+      "limit_bytes_exclusive": 20000000000,
+      "quota_hosted_bytes": 471334381,
+      "replacement_base_bytes": 471334381,
+      "replacement_projected_bytes": 471334381,
+      "target_article_hosted_bytes": 0,
+      "used_quota": 212728003,
+      "used_quota_private": 0,
+      "used_quota_public": 471334381
+    },
+    "url": "https://figshare.com/projects/Open_and_Share-Alike_Educational_Materials_Translations/280296"
+  },
+  "publication_route": "cc0_metadata_and_immutable_zenodo_links",
+  "rendered_transaction_identities": {
+    "article_payload": {
+      "bytes": 5208,
+      "sha256": "1d9202403b9293a354fcbf16e5f9e95176a5a04aab6f5f9fcb0d645703f35789"
+    },
+    "publication_plan": {
+      "bytes": 5198,
+      "sha256": "f60934e4035316f31f315eba59d29c6a55876cc9f535c7fe1287a67ef8fb5f73"
+    }
+  },
+  "runtime_license_probe": {
+    "exact_cc_by_sa_3_0_available": false,
+    "selected_license": {
+      "name": "CC0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "value": 2
+    },
+    "substitute_sharealike_version_used": false
+  },
+  "schema": "interlanguage.figshare-publication-receipt",
+  "schema_version": "2.0.0",
+  "status": "published_and_anonymously_verified",
+  "zenodo_target": {
+    "anonymous_metadata_readback": "passed",
+    "concept_doi": "10.5281/zenodo.22059801",
+    "doi": "10.5281/zenodo.22063015",
+    "receipt": {
+      "bytes": 4331,
+      "path": "qa/b007-zenodo/ZENODO_PUBLICATION_RECEIPT_R011-B007-v2026.08.23.1.json",
+      "sha256": "4e95bb4d44d025138aac94655d1a50bfebbc8380c37d0b17db16b910f920cee5"
+    },
+    "record_id": 22063015,
+    "record_url": "https://zenodo.org/records/22063015"
+  }
+}

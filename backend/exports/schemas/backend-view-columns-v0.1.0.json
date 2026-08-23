@@ -1,0 +1,16 @@
+{
+  "schema": "openintro-backend-csv-views",
+  "schema_version": "0.1.0",
+  "views": {
+    "views/artifacts.csv": ["id", "artifact_kind", "path", "bytes", "sha256", "result", "rights_component_ids"],
+    "views/corrections.csv": ["id", "affected_id", "category", "summary", "disposition", "confidence", "status"],
+    "views/exercises_answers.csv": ["exercise_id", "source_local_ids", "answer_availability", "answer_id", "o001_gap_id", "source_path", "translation_state", "rights_component_ids"],
+    "views/qa_build_events.csv": ["id", "qa_type", "result", "subject_id", "witness_path", "detail"],
+    "views/relations.csv": ["id", "relation_type", "from_id", "to_id", "qualifier", "order"],
+    "views/resource_editions.csv": ["resource_id", "resource_code", "work_title", "edition_id", "repository", "branch_observed", "commit", "tree", "license_expression", "source_format", "build_entrypoint"],
+    "views/rights_components.csv": ["id", "component_scope", "license_expression", "verification_status", "attribution", "change_notice", "non_endorsement", "publication_effect"],
+    "views/segments_locale.csv": ["segment_id", "unit_id", "order", "segment_kind", "source_locale", "source_path", "line_start", "line_end", "source_sha256", "target_locale", "target_path", "target_line_start", "target_line_end", "target_sha256", "translation_state", "target_text", "rights_component_ids"],
+    "views/terminology.csv": ["id", "concept_id", "source_term", "target_term", "locale", "variants", "rejected_forms", "scope", "register", "translation_state"],
+    "views/unit_hierarchy.csv": ["id", "parent_id", "order", "unit_type", "source_local_ids", "source_path", "line_start", "line_end", "source_sha256", "translation_state", "rights_component_ids"]
+  }
+}

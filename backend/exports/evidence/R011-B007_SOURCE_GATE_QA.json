@@ -1,0 +1,122 @@
+{
+  "schema_version": "r011-b007-source-gate-qa/1.3.0",
+  "corpus_id": "R011",
+  "boundary_id": "R011-B007",
+  "result": "PASS_SOURCE_GATE_ASSETS_BOUND",
+  "application_manifest": {
+    "path": "qa/R011-B007_SOURCE_APPLICATION_MANIFEST.json",
+    "bytes": 27428,
+    "sha256": "7f8943fc8d02e4f9502f9235fcb0160b9326261e8faf0b8099d8138595277496"
+  },
+  "application_receipt": {
+    "path": "qa/R011-B007_SOURCE_APPLICATION_RECEIPT.json",
+    "bytes": 26533,
+    "sha256": "1b0429aa37617e021fb77d1ede777347dbb5df24cba79ebda60da521d3ee3187"
+  },
+  "checks": {
+    "count": 14,
+    "failure_count": 0,
+    "ids": [
+      "final_file_identities",
+      "privacy_metadata_only_rewrites",
+      "canonical_repo_privacy_scan",
+      "bound_candidate_inputs",
+      "chapter_double_reverse_reconstruction",
+      "exercise_double_reverse_reconstruction",
+      "answer_reverse_reconstruction",
+      "prior_translation_field_usage_reverse",
+      "tex_structure_and_semantics",
+      "indonesian_copy_and_field_usage",
+      "coverage_and_answer_topology",
+      "terminology_deduplication_and_reverse",
+      "adverse_deduplication_and_reverse",
+      "asset_promotion_exact_binding"
+    ],
+    "sha256": "e49a3a3384d1e57a83b22f324484d0f0fa924fc858ecbff9a556975dad56890b"
+  },
+  "adversarial_self_tests": {
+    "count": 14,
+    "failure_count": 0,
+    "tests": [
+      {
+        "id": "reject_prefix_mutation",
+        "status": "PASS"
+      },
+      {
+        "id": "reject_suffix_mutation",
+        "status": "PASS"
+      },
+      {
+        "id": "reject_command_mutation",
+        "status": "PASS"
+      },
+      {
+        "id": "reject_label_mutation",
+        "status": "PASS"
+      },
+      {
+        "id": "reject_numeric_mutation",
+        "status": "PASS"
+      },
+      {
+        "id": "reject_invented_answer_26",
+        "status": "PASS"
+      },
+      {
+        "id": "reject_duplicate_term_id",
+        "status": "PASS"
+      },
+      {
+        "id": "reject_wrong_o001_id",
+        "status": "PASS"
+      },
+      {
+        "id": "reject_asset_mutation",
+        "status": "PASS"
+      },
+      {
+        "id": "reject_sc006_reopened_after_promotion",
+        "status": "PASS"
+      },
+      {
+        "id": "reject_candidate_avandia_n100",
+        "status": "PASS"
+      },
+      {
+        "id": "reject_missing_index_alias",
+        "status": "PASS"
+      },
+      {
+        "id": "reject_old_bin_order",
+        "status": "PASS"
+      },
+      {
+        "id": "reject_statistical_inference_regression",
+        "status": "PASS"
+      }
+    ],
+    "sha256": "935e4863f32b49c75c12ae03a24762a46dc2473c5dd8e846858de6e0c831f5b7"
+  },
+  "replay_contract": {
+    "default_mode": "read_only",
+    "volatile_timestamps": false,
+    "expected_identical_replays": 2
+  },
+  "privacy_remediation": {
+    "canonical_repo_scan": {
+      "root": "repo",
+      "prohibited_token_path_count": 0,
+      "prohibited_token_paths": [],
+      "absolute_profile_path_count": 0,
+      "absolute_profile_paths": [],
+      "result": "PASS_ZERO_ZERO"
+    },
+    "asset_privacy_refresh_qa": {
+      "path": "qa/b007-assets/B007_ASSET_PRIVACY_REFRESH_QA.json",
+      "bytes": 13841,
+      "sha256": "58358d23440cb8d632a9efa800ae3236c275ba425ed5b3e8c580c30bba15db81"
+    }
+  },
+  "remaining_source_or_asset_dependency": null,
+  "next_external_stage": "backend_build_and_boundary_admission"
+}
