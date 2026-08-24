@@ -1,0 +1,161 @@
+{
+  "schema_version": "0.1.0",
+  "record_type": "translation_candidate_receipt",
+  "boundary_id": "R011-B010",
+  "status": "COMPLETE_CANDIDATE_STRUCTURALLY_VERIFIED",
+  "recorded_at": "2026-08-23T21:22:43.0521605+02:00",
+  "translation_provenance": "Direct English-to-id-ID translation by OpenAI Codex gpt-5.6-sol, Ultra, acting on the user's request.",
+  "authority": {
+    "repository": "https://github.com/OpenIntroStat/openintro-statistics",
+    "branch": "master",
+    "commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "tree": "d61cc601e7d97759ce805900520f784d02a0489e"
+  },
+  "source_slice": {
+    "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_probability/TeX/ch_probability.tex",
+    "source_file_bytes": 132799,
+    "source_file_sha256": "4f07fcf0e71e52bc99657835d5cced47b10ce9fc66b23dce156d400840690361",
+    "line_start": 691,
+    "line_end": 1608,
+    "line_count": 918,
+    "byte_start": 43045,
+    "byte_end_exclusive": 91921,
+    "slice_bytes": 48876,
+    "slice_sha256": "9ae0b850df610d58e23d7dbf9a4b4b27e5ab800fb22a1ded5238f1cf6720f6fa",
+    "start_anchor": "\\section{Conditional probability} followed by \\label{conditionalProbabilitySection}",
+    "end_anchor": "{\\input{ch_probability/TeX/conditional_probability.tex}}",
+    "next_source_anchor": "\\label{smallPop} after the included conditional_probability.tex unit"
+  },
+  "candidate": {
+    "path": "scratch/b010-candidate/ch_probability_section_3_2_id.tex",
+    "locale": "id-ID",
+    "bytes": 50355,
+    "sha256": "aa38a63b72b81c4873c6d8cc2705d787411c9918c1c853f2b75c42ab00a1307d",
+    "line_count": 918,
+    "coverage": "Complete source-order Section 3.2 instructional slice through the preserved conditional_probability.tex input; the separately included file is not duplicated in this candidate."
+  },
+  "structural_verification": {
+    "macro_sequence_exact": true,
+    "source_macro_count": 1267,
+    "candidate_macro_count": 1267,
+    "protected_argument_sequence_exact": true,
+    "protected_argument_count": 273,
+    "environment_sequence_exact": true,
+    "environment_token_count": 218,
+    "math_numeric_sequence_exact": true,
+    "math_numeric_token_count": 190,
+    "math_operator_sequence_exact": true,
+    "math_operator_token_count": 270,
+    "math_dollar_delimiter_count_source": 228,
+    "math_dollar_delimiter_count_candidate": 228,
+    "counts": {
+      "sections": 1,
+      "subsections": 8,
+      "labels": 22,
+      "refs_and_vrefs": 27,
+      "figure_environments": 9,
+      "figure_macros_with_alt_text": 6,
+      "captions": 9,
+      "examples": 6,
+      "guided_exercises": 15,
+      "footnote_marks": 15,
+      "public_footnote_answers": 15,
+      "align_environments": 39,
+      "inputs": 1,
+      "data_tokens": 12,
+      "variable_tokens": 130,
+      "response_tokens": 162,
+      "index_tokens": 18
+    },
+    "english_residue_review": "PASS: no obvious live English sentence residue; remaining English strings are stable TeX commands, labels, index keys, source data/variable/response identifiers, proper names, or an unchanged R source comment."
+  },
+  "terminology_decisions": [
+    {
+      "source": "conditional probability",
+      "target": "peluang bersyarat",
+      "decision": "Required controlled term; used consistently throughout visible prose, headings, definitions, and exercise answers."
+    },
+    {
+      "source": "marginal probability",
+      "target": "probabilitas marginal",
+      "decision": "Retains the established statistical-register use of probabilitas for distributional concepts."
+    },
+    {
+      "source": "joint probability",
+      "target": "probabilitas gabungan",
+      "decision": "Natural id-ID statistical term and paired consistently with probabilitas marginal."
+    },
+    {
+      "source": "General Multiplication Rule",
+      "target": "Aturan Perkalian Umum",
+      "decision": "Direct conventional mathematical rendering with capitalization retained for the named rule."
+    },
+    {
+      "source": "tree diagram",
+      "target": "diagram pohon",
+      "decision": "Confirmed field usage."
+    },
+    {
+      "source": "independent / independence",
+      "target": "saling independen / independensi",
+      "decision": "Retains the controlled glossary's saling independen for relations between events or processes."
+    },
+    {
+      "source": "Bayes' Theorem",
+      "target": "Teorema Bayes",
+      "decision": "Confirmed field usage."
+    },
+    {
+      "source": "false negative / false positive",
+      "target": "negatif palsu / positif palsu",
+      "decision": "Concise established diagnostic-testing terminology."
+    },
+    {
+      "source": "Bayesian statistics",
+      "target": "statistika Bayesian",
+      "decision": "Retains the established adjectival technical label while naturalizing the discipline noun."
+    }
+  ],
+  "source_grammar_corrections_in_indonesian_rendering": [
+    {
+      "source_lines": "735-736",
+      "source_issue": "Malformed phrase: 'represents a classifier a sample'.",
+      "rendering": "Interpreted grammatically as the data set containing classifier results for a sample of photos."
+    },
+    {
+      "source_lines": "924-926",
+      "source_issue": "Number agreement in 'Each of the four outcome combination are disjoint'.",
+      "rendering": "Rendered with correct Indonesian plural agreement."
+    },
+    {
+      "source_line": 1083,
+      "source_issue": "Typo: 'my have a value'.",
+      "rendering": "Rendered as the logically required value in the Indonesian answer."
+    },
+    {
+      "source_line": 1296,
+      "source_issue": "Malformed modifier: 'independence processes'.",
+      "rendering": "Rendered as processes that are mutually independent."
+    }
+  ],
+  "source_observations_preserved_without_mutation": [
+    {
+      "source_line": 888,
+      "observation": "Caption uses \\var{photo\\us{}classify} where surrounding prose uses \\data{photo\\us{}classify}; macro identity preserved."
+    },
+    {
+      "source_lines": "1273, 1324, 1333",
+      "observation": "The source alternates \\var{outcome}/\\var{result} and \\var{inoculation}/\\var{inoculated}; all identifiers preserved exactly."
+    },
+    {
+      "source_line": 1353,
+      "observation": "The testTree alt text calls the 0.0689 endpoint 'other-and-other' within the Midterm-A branch; source wording was preserved in translation rather than silently changing content."
+    }
+  ],
+  "restrictions": {
+    "canonical_files_modified": false,
+    "restricted_solutions_used": false,
+    "publication_performed": false,
+    "git_used": false
+  }
+}

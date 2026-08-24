@@ -1,0 +1,190 @@
+{
+  "schema_id": "r011.b010.eoce_translation_receipt.v1",
+  "work_id": "R011",
+  "boundary_id": "R011-B010",
+  "status": "CANDIDATE_TRANSLATION_COMPLETE",
+  "recorded_at_utc": "2026-08-23T19:13:22.8618697Z",
+  "model_provenance": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "authority": {
+    "repository": "https://github.com/OpenIntroStat/openintro-statistics",
+    "branch": "master",
+    "commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "observed_date": "2026-08-20"
+  },
+  "scope": {
+    "section": "3.2 conditional probability end-of-chapter exercises",
+    "exercise_ids": [13, 14, 15, 16, 17, 18, 19, 20, 21, 22],
+    "public_answer_ids": [13, 15, 17, 19, 21],
+    "source_order_preserved": true,
+    "canonical_files_modified": [],
+    "restricted_answers_accessed": false,
+    "restricted_answers_invented": false
+  },
+  "sources": {
+    "exercise_file": {
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_probability/TeX/conditional_probability.tex",
+      "selection": "entire file, exercises 13-22",
+      "bytes": 10580,
+      "lines": 228,
+      "sha256": "ebbd61bdaafe1c5d6e5f9e3df6dae3ecaba4dd80d6811f80fa1379522cad3b31"
+    },
+    "public_answer_file": {
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/extraTeX/eoceSolutions/eoceSolutions.tex",
+      "selection": "Probability chapter public answers 13, 15, 17, 19, and 21; source lines 482-523",
+      "bytes": 106045,
+      "lines": 2588,
+      "sha256": "6c4e01376db4c023cc7b3f9949490e57220ef1cb831c580da71efde6ce723268",
+      "selected_slice_bytes_utf8": 2793,
+      "selected_slice_lines": 43,
+      "selected_slice_sha256_utf8": "796aa101e4b2cf08d7f60346c68750b5097949021553f82b2649f5337ea886f7"
+    }
+  },
+  "targets": {
+    "exercise_file": {
+      "path": "scratch/b010-candidate/conditional_probability_B010.tex",
+      "bytes": 11270,
+      "lines": 228,
+      "sha256": "d065ba04fde8f4ec5af2e89c1272c3480feb9ac702aee0928013104e94c02567"
+    },
+    "public_answer_file": {
+      "path": "scratch/b010-candidate/R011-B010_PUBLIC_ODD_ANSWERS.tex",
+      "bytes": 3289,
+      "lines": 70,
+      "sha256": "def0555cbf7137caa95c7a6c5d1cd3c3bbac97a2f4ebf7b0f9be6c41bda7ea2e"
+    }
+  },
+  "o001_mastery_gaps": [
+    {
+      "exercise_id": 14,
+      "gap_id": "R011-O001-B010-014",
+      "reason": "No linked public answer appears in the pinned public-answer layer.",
+      "action": "Recorded only; no restricted answer retrieved or invented."
+    },
+    {
+      "exercise_id": 16,
+      "gap_id": "R011-O001-B010-016",
+      "reason": "No linked public answer appears in the pinned public-answer layer.",
+      "action": "Recorded only; no restricted answer retrieved or invented."
+    },
+    {
+      "exercise_id": 18,
+      "gap_id": "R011-O001-B010-018",
+      "reason": "No linked public answer appears in the pinned public-answer layer.",
+      "action": "Recorded only; no restricted answer retrieved or invented."
+    },
+    {
+      "exercise_id": 20,
+      "gap_id": "R011-O001-B010-020",
+      "reason": "No linked public answer appears in the pinned public-answer layer.",
+      "action": "Recorded only; no restricted answer retrieved or invented."
+    },
+    {
+      "exercise_id": 22,
+      "gap_id": "R011-O001-B010-022",
+      "reason": "No linked public answer appears in the pinned public-answer layer.",
+      "action": "Recorded only; no restricted answer retrieved or invented."
+    }
+  ],
+  "source_corrections": [
+    {
+      "correction_id": "R011-CORR-B010-001",
+      "location": "public answer 13(c)",
+      "source_issue": "The source says that 0.21 was computed under independence in part (a), but the computation occurs in part (b-i).",
+      "derivative_correction": "The Indonesian answer refers to part (b-i).",
+      "mathematical_effect": "None; the value 0.21 is unchanged.",
+      "upstream_contact": "none"
+    },
+    {
+      "correction_id": "R011-CORR-B010-002",
+      "location": "public answer 17(d)",
+      "source_issue": "The English phrase 'Under the assumption of a dating choices being independent of hamburger preference' is grammatically malformed.",
+      "derivative_correction": "Rendered as a clear assumption that partner selection is independent of hamburger preference.",
+      "mathematical_effect": "None; the product and result are unchanged.",
+      "upstream_contact": "none"
+    }
+  ],
+  "terminology_decisions": {
+    "evidence_basis": [
+      "00_control/TERMINOLOGY.csv entry R011-TERM-0160",
+      "B010 terminology gate reporting an Indonesian field witness for 'peluang bersyarat', 'diagram pohon', 'Teorema Bayes', and both 'saling bebas'/'independen'"
+    ],
+    "probability_in_reader_prose": "peluang",
+    "conditional_probability": "peluang bersyarat",
+    "tree_diagram": "diagram pohon",
+    "independent_plural_relation": "saling independen",
+    "independence_noun": "independensi",
+    "independent_against_object": "bersifat independen terhadap",
+    "literal_variable_and_code_tokens": "preserved unchanged",
+    "residual_probabilitas_occurrences": [],
+    "residual_probabilitas_count": 0,
+    "residual_rationale": "None required; this EoCE/answer slice contains only individual-event and conditional-probability reader prose, so TERM-0160 calls for 'peluang'."
+  },
+  "preserved_invariants": {
+    "exercise_comment_order": "13-22 exact",
+    "public_answer_comment_order": "13,15,17,19,21 exact",
+    "exercise_macro_counts": {
+      "exercisesheader": [1, 1],
+      "eoce": [10, 10],
+      "qt": [10, 10],
+      "label": [10, 10],
+      "footfullcite": [4, 4],
+      "begin": [15, 15],
+      "end": [15, 15],
+      "item": [29, 29],
+      "D": [2, 2],
+      "multirow": [1, 1]
+    },
+    "labels": [
+      "joint_cond",
+      "pbj",
+      "global_warming",
+      "health_coverage_rel_freqs",
+      "burger_preferences",
+      "assortative_mating",
+      "tree_drawing_box_plots",
+      "tree_thrombosis",
+      "tree_lupus",
+      "tree_exit_poll"
+    ],
+    "citations": ["globalWarming", "burgers", "Laeng:2007", "data:scott"],
+    "exercise_numeric_token_sequence": {
+      "source_count": 143,
+      "target_count": 143,
+      "equal_after_locale_thousands_normalization": true
+    },
+    "public_answer_numeric_token_sequence": {
+      "source_count": 66,
+      "target_count": 66,
+      "equal": true
+    },
+    "figure_paths": [
+      "ch_probability/figures/eoce/tree_drawing_box_plots/tree_drawing_box_plots",
+      "ch_probability/figures/eoce/tree_lupus/tree_lupus.pdf"
+    ],
+    "figure_accessibility_descriptions": "Both source descriptions are retained semantically and translated into natural id-ID.",
+    "math_and_probability_values": "Preserved exactly; only the documented part reference was corrected."
+  },
+  "qa": {
+    "structural_parity": "PASS",
+    "brace_balance": {
+      "exercise_source": {"final": 0, "minimum": 0},
+      "exercise_target": {"final": 0, "minimum": 0},
+      "answer_source_slice": {"final": 0, "minimum": 0},
+      "answer_target": {"final": 0, "minimum": 0}
+    },
+    "lacheck": {
+      "exercise_exit_code": 0,
+      "public_answer_exit_code": 0
+    },
+    "english_residue_scan": "PASS; no reader-prose residue found. Proper names, trademarks, acronyms, and the Indonesian cognate 'Total' remain intentionally.",
+    "language_review": "PASS; natural id-ID wording reviewed against admitted B009 terminology and harmonized through the B010 probability-field terminology gate.",
+    "full_book_build": "NOT_RUN_FOR_ISOLATED_FRAGMENT; integration/build remains the parent boundary's next gate."
+  },
+  "rights": {
+    "source_text_starting_license": "CC BY-SA 3.0",
+    "derivative_text_license": "CC BY-SA 3.0",
+    "ancillary_action": "Existing figure commands and paths are referenced unchanged; no ancillary binary was copied or relicensed in this candidate.",
+    "restricted_solution_material": "excluded"
+  },
+  "next_action": "Integrate these two candidate fragments into the R011-B010 staging tree, emit backend records and terminology/O001/correction events, then run the complete structural and PDF build gates."
+}

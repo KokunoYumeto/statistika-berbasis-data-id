@@ -1,0 +1,9 @@
+source_term	preferred_id_ID	accepted_variant	context	status	evidence	decision
+sampling	pengambilan sampel		sampling process	language_reviewed	existing edition usage plus fallback textbook	retain
+population	populasi		statistical population	language_reviewed	fallback PDF text and existing edition glossary	retain
+with replacement	dengan pengembalian		sampling from a finite population	language_reviewed	Teori Peluang (2021), PDF p.19	retain
+without replacement	tanpa pengembalian		sampling from a finite population	language_reviewed	Teori Peluang (2021), PDF p.19	retain
+independent	saling independen	saling bebas	relation among random observations	language_reviewed	Teori Peluang (2021), PDF pp.32 and 142	retain preferred form; record synonym
+probability	peluang	probabilitas	individual event probability	language_reviewed	Teori Peluang (2021), paired field heading and event usage	retain scoped edition rule
+outcome	hasil		result of a random draw or experiment	language_reviewed	Teori Peluang (2021), sampling discussion	retain
+mutually exclusive	saling lepas	saling terpisah	disjoint outcome categories	language_reviewed	fallback variant plus existing edition control	retain preferred form; record variant

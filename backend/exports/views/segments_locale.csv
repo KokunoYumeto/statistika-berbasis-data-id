@@ -28,6 +28,18 @@ atas, dan tanpa pencahayaan dari atas (hanya menggunakan lampu meja).
 diagram kotak. Diagram kotak memudahkan kita mengidentifikasi secara lebih tepat nilai-nilai 
 pengamatan yang berada di luar garis kumis.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+038811d4-b11b-5e0e-8875-a232698193c1,bc95a131-dfa7-5a47-a97e-d119bb3e0379,7,worked_example,en,ch_probability/TeX/ch_probability.tex,1668,1678,3cf3ad328ec0fc5ec25344ed26adeb0b49c39759ecd1392f55952d7f56ab1fcc,id-ID,repo/ch_probability/TeX/ch_probability.tex,1657,1667,324a2f53ac4a32d7115d551e7638cf41fe5395f46ae525d5432bef9f51de1c8f,language_reviewed,"\begin{examplewrap}
+\begin{nexample}{Misalkan dosen memilih secara acak tanpa memperhatikan siapa yang sudah dipilih, yaitu mahasiswa dapat dipilih lebih dari sekali. Berapakah peluang Anda tidak terpilih untuk ketiga pertanyaan tersebut?}\label{3wRep}
+Pemilihan-pemilihan tersebut saling independen, dan peluang tidak terpilih untuk satu pertanyaan adalah $14/15$. Jadi, kita dapat menggunakan Aturan Perkalian untuk proses yang saling independen.
+\begin{align*}
+&P(\text{tidak terpilih dalam 3 pertanyaan}) \\
+&\quad = P(\text{\var{Q1}} = \text{\resp{tidak\us{}terpilih}, }\text{\var{Q2}} = \text{\resp{tidak\us{}terpilih}, }\text{\var{Q3}} = \text{\resp{tidak\us{}terpilih}.}) \\
+&\quad = \frac{14}{15}\times\frac{14}{15}\times\frac{14}{15} = 0.813
+\end{align*}
+Peluang Anda untuk tidak terpilih sedikit lebih besar dibandingkan ketika dosen memilih orang yang berbeda untuk setiap pertanyaan. Namun, sekarang Anda mungkin dipilih lebih dari sekali.
+\end{nexample}
+\end{examplewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 04c71223-707a-5b63-8f52-1590ce3abcae,ea975387-3208-52a7-bab8-012230362971,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,302,310,4fa1027109440ccf0b13022151050ddfb18cf07920777d28fa3401f0588502bc,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,323,331,613497112971466d1f4a9c0f508b5316db8d937e9e296f37389e3979d948c692,translated,"% 17
 
 \eocesol{(a)~Median merupakan ukuran yang jauh lebih baik untuk pendapatan tipikal 42 orang 
@@ -413,6 +425,12 @@ untuk mata kuliah selanjutnya.
 
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+1964e9e1-75f5-583d-b7f9-3b6e193f4851,2285033f-f28c-51ac-ad8b-b8bb2de4267b,8,guided_exercise,en,ch_probability/TeX/ch_probability.tex,1680,1684,7434d59b80bdba79b51be1b9b7dc90bec2fb50bd167fbcb60e9a41cd2057e3c0,id-ID,repo/ch_probability/TeX/ch_probability.tex,1669,1673,acfba40220365189aaf460e01c0d1eb33f7bcab1f6cebe8954cda0536ed7becb,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+Berdasarkan skenario pada Contoh~\ref{3wRep}, berapakah peluang Anda terpilih untuk menjawab ketiga pertanyaan?\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 1adff8c6-a052-517d-afd9-03ebe36f46fc,1b67b489-5bfb-5b84-8f44-a692fdc15298,31,guided_exercise,en,ch_probability/TeX/ch_probability.tex,1384,1388,6f7fe3fbfa99e4d9aafee5c65c970b922bce81d4983646a3d20cc9a856e7149b,id-ID,repo/ch_probability/TeX/ch_probability.tex,1383,1387,8dfc5ab3fbf4b44ed0abbd9eef4c1752f8a3384c2fff87c25f4c4116eeafa47f,language_reviewed,"\begin{exercisewrap}
 \begin{nexercise}
 Setelah mengikuti mata kuliah statistika pengantar, 78\% mahasiswa dapat menyusun diagram pohon dengan benar. Di antara mahasiswa yang dapat menyusun diagram pohon, 97\% lulus, sedangkan hanya 57\% mahasiswa yang tidak dapat menyusun diagram pohon yang lulus. (a)~Susun informasi ini dalam sebuah diagram pohon. (b)~Berapa peluang bahwa mahasiswa yang dipilih secara acak lulus? (c)~Hitung peluang bahwa seorang mahasiswa mampu menyusun diagram pohon jika diketahui mahasiswa tersebut lulus.\footnotemark
@@ -622,6 +640,17 @@ Metode grafis lain yang berguna menggunakan \termsub{histogram berongga}{hollow 
 
 \begin{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+1c26ed44-c810-5f32-aed3-d34a4508d2d6,c8802e70-be70-5fea-93ee-0747d3536be6,3,worked_example,en,ch_probability/TeX/ch_probability.tex,1640,1649,e861a0600b5e1a4aefdcaaf484032f9230ce2775ebf74aed6ed89b34718888ad,id-ID,repo/ch_probability/TeX/ch_probability.tex,1629,1638,b713664aadcd28a3c262d9a7c7ab591a4af45c2db716c7ceb62bb334786d1f06,language_reviewed,"\begin{examplewrap}
+\begin{nexample}{Jika dosen mengajukan 3 pertanyaan, berapakah peluang Anda tidak terpilih? Anggap dosen tidak memilih orang yang sama dua kali dalam satu perkuliahan.}\label{3woRep}
+Untuk pertanyaan pertama, dosen memilih orang lain dengan peluang $14/15$. Ketika mengajukan pertanyaan kedua, hanya ada 14 orang yang belum ditanya. Jadi, jika Anda tidak terpilih untuk pertanyaan pertama, peluang Anda kembali tidak terpilih adalah $13/14$. Demikian pula, peluang Anda kembali tidak terpilih untuk pertanyaan ketiga adalah $12/13$, dan peluang tidak terpilih untuk ketiga pertanyaan tersebut adalah
+\begin{align*}
+&P(\text{tidak terpilih dalam 3 pertanyaan}) \\
+&\quad = P(\text{\var{Q1}} = \text{\resp{tidak\us{}terpilih}, }\text{\var{Q2}} = \text{\resp{tidak\us{}terpilih}, }\text{\var{Q3}} = \text{\resp{tidak\us{}terpilih}.}) \\
+&\quad = \frac{14}{15}\times\frac{13}{14}\times\frac{12}{13} = \frac{12}{15} = 0.80
+\end{align*}
+\end{nexample}
+\end{examplewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 1c443be3-7710-58a9-9521-4efb02ec4632,5d52d2c3-518e-5fb4-9993-fc3cb99829f2,15,subsection_prose,en,ch_probability/TeX/ch_probability.tex,1186,1187,a5bb8a5380e60014dd99344c39662bd532776853cca0a36c3d19aa88755b2195,id-ID,repo/ch_probability/TeX/ch_probability.tex,1185,1186,b72a23734381db64ce41527329ef581cc24d0c9592f4df3e39c9acdc99928809,language_reviewed,"\footnotetext{$P($\var{result} = \resp{died} $|$ \var{inoculated} = \resp{yes}$) = \frac{P(\text{\var{result} = \resp{died} dan \var{inoculated} = \resp{yes}})}{P(\text{\var{inoculated} = \resp{yes}})} = \frac{0.0010}{0.0392} = 0.0255$ (jika kesalahan pembulatan dihindari, diperoleh $6 / 244 = 0.0246$). Tingkat kematian orang yang diinokulasi hanya sekitar 1~dari~40, sedangkan pada orang yang tidak diinokulasi sekitar 1~dari~7.}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
@@ -814,6 +843,15 @@ variabel yang sedang dipertimbangkan.
 
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+206540fc-a716-5f87-9b8c-d83c6f80288b,145804b8-59c9-5118-aed9-6d21fa1ae97d,1,end-of-section-exercise,en,ch_probability/TeX/sampling_from_a_small_population.tex,80,88,07ec426167fe8049239fb789875e0792a793fefa2e246f951741a9a00ed2ec4b,id-ID,repo/ch_probability/TeX/sampling_from_a_small_population.tex,80,88,966cf38c04f3d605132c02fa30ff78e28eaf3bddba407bb65670da9ca47cecd7,language_reviewed,"% 27
+
+\eoce{\qt{Pakaian mahasiswa\label{student_outfits}} Di sebuah kelas yang terdiri atas 24 
+mahasiswa, 7 mahasiswa mengenakan jins, 4 mengenakan celana pendek, 8 mengenakan 
+rok, dan sisanya mengenakan legging. Jika kita memilih 3 mahasiswa secara acak 
+tanpa pengembalian, berapakah peluang bahwa satu mahasiswa yang terpilih 
+mengenakan legging dan dua lainnya mengenakan jins? Perhatikan bahwa jenis-jenis 
+pakaian ini saling lepas.
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 21002c30-bbc7-5db3-90d4-6546a7c5ccc2,c03720ee-be18-50bc-a512-6f4b2de1081c,1,end-of-section-exercise,en,ch_probability/TeX/defining_probability.tex,65,75,9e71cc7a73b49eaca869152e58f5e4e8b7116f5880710ab2766e76538f97c25a,id-ID,repo/ch_probability/TeX/defining_probability.tex,62,73,4042a7d19c008ba49b8c6d22a79136e0c0e082d11f7dbf5aaf4b8bc07022b3e2,language_reviewed,"% 4
 
 \eoce{\qt{Backgammon\label{backgammon}} Backgammon adalah permainan papan untuk dua
@@ -1303,6 +1341,12 @@ membentang dari sekitar 72 hingga 82 dan median pada sekitar 78. Kumis
 membentang ke bawah hingga 66 dan ke atas hingga 94. Satu titik ditampilkan di
 bawah kumis bawah pada sekitar 57.]{0.25}{ch_summarizing_data/figures/eoce/stats_scores_box/stats_scores_boxplot}}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+2c809231-c9cd-5005-90d8-739ad5111490,379ec19d-7f79-56a5-b950-7e79d938325c,2,worked_example,en,ch_probability/TeX/ch_probability.tex,1634,1638,d7eff9474503dd58c2ba648b9efdc6be8c7ab1b060e4a24e79dc3ed239d5f3d9,id-ID,repo/ch_probability/TeX/ch_probability.tex,1623,1627,29cd28bb2d2928f7641d4d26045fed7f1d7f71f22788b8d608dc078edbb37566,language_reviewed,"\begin{examplewrap}
+\begin{nexample}{Dosen terkadang memilih seorang mahasiswa secara acak untuk menjawab pertanyaan. Jika setiap mahasiswa memiliki peluang yang sama untuk dipilih dan ada 15 orang di kelas Anda, berapakah peluang dosen memilih Anda untuk pertanyaan berikutnya?}
+Jika ada 15 orang yang dapat ditanya dan semuanya hadir di kelas, peluangnya adalah $1/15$, atau sekitar $0.067$.
+\end{nexample}
+\end{examplewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 2e30c12a-f861-50fd-8ff3-6ed43198dbe8,21fbf5c8-a2e1-5fba-9685-5f0b02eadb01,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,470,480,c2d4cfaf352248dbcd0df21b38ac1cfb643d219785645724da326a5effa4e178,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,50,60,36de60b84f790e746346967a8884347ab957272ef8eaa9f8e3a9e591e4faed59,language_reviewed,"% 11
 \eocesol{(a)~$0.16 + 0.09 = 0.25$.
 (b)~$0.17 + 0.09 = 0.26$.
@@ -1379,6 +1423,36 @@ ke rata-rata, 0.50, dan karena itu juga di atas 0.40.
 (c)~100 lemparan. Dengan lebih banyak lemparan, proporsi kepala yang diamati sering lebih dekat
 ke rata-rata, 0.50.
 (d)~10 lemparan. Lebih sedikit lemparan meningkatkan variasi fraksi lemparan yang menghasilkan kepala.}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+3311d7cc-e15c-5dc7-9ada-04850668a968,fc0c0c57-060f-5b6e-a442-f74566a01ce8,1,end-of-section-exercise,en,ch_probability/TeX/sampling_from_a_small_population.tex,49,78,7f2ec37e92bcd9c9ddcd4c81057d3c1e3da901b87b4246f591d7ba772bfafd06,id-ID,repo/ch_probability/TeX/sampling_from_a_small_population.tex,49,78,4d858c071b2740067fe331302abab19982c625c884b37c7f291b07ac0e5c8e44,language_reviewed,"% 26
+
+\eoce{\qt{Buku di rak buku\label{books_on_shelf}} Tabel di bawah ini menunjukkan 
+distribusi buku di sebuah rak berdasarkan jenis fiksi atau 
+nonfiksi serta format sampul keras atau sampul lunak.
+\begin{center}
+\begin{tabular}{ll  cc c} 
+                                &           & \multicolumn{2}{c}{\textit{Format}} \\
+\cline{3-4}
+                                &           & Sampul keras     & Sampul lunak     & Total \\
+\cline{2-5}
+\multirow{2}{*}{\textit{Jenis}}  & Fiksi   & 13            & 59            & 72 \\
+                                & Nonfiksi& 15            & 8             & 23 \\
+\cline{2-5} 
+                                & Total     & 28            & 67            & 95 \\
+\cline{2-5}
+\end{tabular}
+\end{center}
+\begin{parts}
+\item Tentukan peluang mengambil sebuah buku sampul keras terlebih dahulu, lalu sebuah buku fiksi 
+bersampul lunak sebagai buku kedua, ketika pengambilan dilakukan tanpa pengembalian.
+\item Tentukan peluang mengambil sebuah buku fiksi terlebih dahulu, lalu sebuah 
+buku sampul keras sebagai buku kedua, ketika pengambilan dilakukan tanpa pengembalian.
+\item Hitung peluang untuk skenario pada bagian~(b), tetapi kali ini 
+lakukan perhitungan untuk skenario ketika buku pertama dikembalikan 
+ke rak sebelum buku kedua diambil secara acak.
+\item Jawaban akhir untuk bagian~(b) dan~(c) sangat mirip. Jelaskan mengapa 
+hal ini terjadi.
+\end{parts}
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 338bd728-e565-547f-83e6-6d727dcd2b61,7addf1c9-9003-5d87-b901-6211727146b0,1,guided_exercise,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,963,970,315e87cfa644b5b46ef5b39f8963ec7d9d5ca29e7bef8c7ef6515efa216c1b03,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,919,926,a25fb619da47209f0c0bb0c73ddfe862f94895bd9f0e5b45cba0af38f0603c7d,translated,"\begin{nexercise}
 Dengan menggunakan Gambar~\ref{loan_int_rate_box_plot_layout},
 estimasikan nilai-nilai berikut untuk
@@ -1431,6 +1505,19 @@ ditarik dari hasilnya?\footnotemark{}
   untuk menilai hubungan kausal antara vaksin malaria
   dan apakah pasien menunjukkan tanda-tanda infeksi.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+3a3f1429-cf39-5e9d-9923-2ffaeb2e7557,8445e7de-dd67-55c8-8497-e1bc10ee1dfd,9,guided_inline_answer,en,ch_probability/TeX/ch_probability.tex,1685,1685,a79d3b9b70e7d7f5d7963168af53e4ab75e2b1599bdcd029a70fedc2a87d4b7d,id-ID,repo/ch_probability/TeX/ch_probability.tex,1674,1674,59435357c97068b05c37b2d1d429d12439d01a25bcbb69aea4855bb292828b84,language_reviewed,"\footnotetext{$P($terpilih untuk menjawab ketiga pertanyaan$) = \left(\frac{1}{15}\right)^3 = 0.00030$.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+3a3fa70a-0e58-5cc1-b698-46ca80d0d4ce,6a382e37-fe07-52b9-8dd9-e399f6b64cec,1,end-of-section-exercise,en,ch_probability/TeX/sampling_from_a_small_population.tex,90,100,f1a5c24de89bb46c6b73bba86d5611ba54db8b11b87d0e7a42e2855ad5345bf9,id-ID,repo/ch_probability/TeX/sampling_from_a_small_population.tex,90,100,ae36a97ed1c44f426d955ea82eaebbc909d48976f00a432a7fa6e6a0b746277d,language_reviewed,"% 28
+
+\eoce{\qt{Masalah ulang tahun\label{birthday_problem}} Misalkan kita memilih tiga 
+orang secara acak. Untuk setiap pertanyaan berikut, abaikan kasus khusus 
+ketika seseorang mungkin lahir pada 29 Februari, dan anggap kelahiran tersebar 
+merata sepanjang tahun.
+\begin{parts}
+\item Berapakah peluang bahwa dua orang pertama berulang tahun pada tanggal yang sama? 
+\item Berapakah peluang bahwa setidaknya dua orang berulang tahun pada tanggal yang sama?
+\end{parts}
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 3bda5ba1-a62d-5d94-bd79-9889948b37d2,748801d5-dff8-5970-9094-9b6e46cc74b3,33,subsection_prose,en,ch_probability/TeX/ch_probability.tex,1402,1549,91a57281f2f7a58115b27e1a0ceb8c6b9d01e9fde5fb1af2dedb24cc8717a4b6,id-ID,repo/ch_probability/TeX/ch_probability.tex,1401,1543,06616f5e710e6a263da074c81b84976a4952075db826f2c6af9cf39bbfa727e1,language_reviewed,"\subsection{Teorema Bayes}
 \label{bayesTheoremSubsection}
 
@@ -1882,6 +1969,13 @@ atau apakah salah satunya berguna.
 
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+41920d3c-df7d-5428-9971-d104cf82fde8,93046933-8e02-5f54-bd55-1ba308a95745,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,525,531,63747264e0d69425615a537a2aa102fe1f97d7f45e3b9051e7617f44b95eea27,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,574,580,1b457b5c8c5fe85c524b1003f9f91053c7e65bf1cf46757f05c73a1c210299cd,language_reviewed,"% 23
+
+\eocesol{(a)~0.3.
+(b)~0.3.
+(c)~0.3.
+(d)~$0.3\times0.3=0.09$.
+(e)~Ya, populasi yang menjadi sumber pengambilan sampel identik pada setiap pengambilan.}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 419d9061-494a-5636-aeef-9b7577786811,dd8d8e77-b7eb-5286-bf06-75098ab768d6,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,511,516,98314b4af1a499c508ac21f3a5e918afbe9a98bf74ee858c2ba8e00eb9f2a9e4,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,536,551,29eab86a9fe72ea4fe0409402bee3f26bcdc7e74f0143f64e0f63457da454f78,language_reviewed,"% 19
 
 \eocesol{(a) \\
@@ -4153,6 +4247,22 @@ Wood County    & Wisconsin & Putih     & 1157         & 0.03          & 0.03 \\
 
 % 44
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+6ea81b59-730b-5682-987a-11e44eb17e12,01e2b504-cd69-5b62-a16d-5c19310ba737,1,end-of-section-exercise,en,ch_probability/TeX/sampling_from_a_small_population.tex,3,18,c4a28b4e4c98b3acb243ac40baacab655d7dc4a70818b9a17211c673f1630128,id-ID,repo/ch_probability/TeX/sampling_from_a_small_population.tex,3,18,ffde2e7852e65292dfdd930dcfbc0b8a77b31e91402380c9015fa966d75535f9,language_reviewed,"% 23
+
+\eoce{\qt{Kelereng di dalam guci\label{marbles_in_urn}} Bayangkan Anda memiliki sebuah guci 
+yang berisi 5 kelereng merah, 3 biru, dan 2 oranye. 
+\begin{parts}
+\item Berapakah peluang bahwa kelereng pertama yang Anda ambil berwarna biru?
+\item Misalkan Anda mengambil kelereng biru pada pengambilan pertama. Jika pengambilan dilakukan dengan 
+pengembalian, berapakah peluang mengambil kelereng biru pada pengambilan kedua?
+\item Misalkan Anda justru mengambil kelereng oranye pada pengambilan pertama. Jika pengambilan dilakukan 
+dengan pengembalian, berapakah peluang mengambil kelereng biru pada pengambilan 
+kedua?
+\item Jika pengambilan dilakukan dengan pengembalian, berapakah peluang mengambil dua kelereng 
+biru berturut-turut?
+\item Ketika pengambilan dilakukan dengan pengembalian, apakah setiap pengambilan saling independen? Jelaskan.
+\end{parts}
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 6f6754bc-63d5-501a-a6cf-6b3fb82b2acc,98f96526-d335-579f-8990-474cae0b598a,1,exercise,en,ch_summarizing_data/TeX/examining_numerical_data.tex,114,129,cb01211f6325db03cfab8aecacc09cc27c3055a737626e2961790cbf991c4970,id-ID,repo/ch_summarizing_data/TeX/examining_numerical_data.tex,118,133,3f7ff8b4edb0047e01e46e72dd327f0f74ef35de1fbcef98a1e52cb55da411e6,translated,"\eoce{\qt{Rata-rata dan simpangan baku} Untuk setiap bagian, bandingkan distribusi (1) dan (2) berdasarkan rata-rata dan simpangan bakunya. Anda tidak perlu menghitung statistik tersebut; cukup nyatakan bagaimana rata-rata dan simpangan baku kedua distribusi dibandingkan. Pastikan untuk menjelaskan alasan Anda. \textit{Petunjuk:} Membuat sketsa diagram titik kedua distribusi mungkin berguna.
 \begin{multicols}{2}
 \begin{parts}
@@ -4488,6 +4598,20 @@ pada data sebenarnya?\footnotemark{}
   Perbedaan akibat kebetulan ini jauh lebih kecil daripada
   perbedaan yang diamati pada kelompok sebenarnya.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+79990c87-93a6-5b4a-a98f-faaad4e555f9,a766f9cd-f941-5953-b2d9-9d5f0b9a8764,15,section_prose,en,ch_probability/TeX/ch_probability.tex,1702,1712,32d26ae85d810dd491935dd1df4c55bd990774dbf79592c055542103789d9847,id-ID,repo/ch_probability/TeX/ch_probability.tex,1691,1701,7a2d21b82f2bc26e852ad7e67a78563db01edbc95964d4cee11faa60948150ad,language_reviewed,"
+Seandainya kita mengulangi Latihan Terbimbing~\ref{raffleOf30TicketsWWOReplacement} dengan 300 tiket, bukan 30 tiket, kita akan menemukan hal yang menarik: hasilnya akan hampir identik. Peluangnya adalah 0.0233 tanpa pengembalian dan 0.0231 dengan pengembalian. Ketika ukuran sampel hanya merupakan sebagian kecil dari populasi (di bawah 10\%), pengamatan hampir saling independen meskipun pengambilan sampel dilakukan tanpa pengembalian.
+
+
+{\setlength{\eoceAfterSpace}{2mm}\input{ch_probability/TeX/sampling_from_a_small_population.tex}}
+
+
+
+
+
+%_________________
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+7b1ecc09-e625-5328-9987-8cda0ab14daf,fa211d70-60ff-56ba-aee4-b00a48d83ddf,14,guided_inline_answer,en,ch_probability/TeX/ch_probability.tex,1701,1701,87b33d5c4e1969d6a44fc34a25cb905cafbe600fe6e7a70abe53f96c726529ca,id-ID,repo/ch_probability/TeX/ch_probability.tex,1690,1690,7a43447c495741963e805d831017fb8c9ab4ccf90c30600bed0e2e0739eb2fe9,language_reviewed,"\footnotetext{Peluang memenangkan hadiah sekitar 10\% lebih besar jika pengambilan sampel dilakukan tanpa pengembalian. Namun, dengan prosedur pengambilan sampel ini, paling banyak hanya satu hadiah yang dapat dimenangkan.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 7d8eb465-9a42-5325-a2b5-90a76b54880a,15e82d16-af8c-5c5f-900d-1e15be6b7e41,1,exercise,en,ch_summarizing_data/TeX/considering_categorical_data.tex,5,21,505dd2fe84a2aa5f0b7340b25aab914e115014d15a8ef2da3798033fcaa5386e,id-ID,repo/ch_summarizing_data/TeX/considering_categorical_data.tex,8,24,41a2c29068bd9377a75c34db6f9a3d14e5666b85f517f715dc348be288f24bde,translated,"\eoce{\qt{Penggunaan antibiotik pada anak\label{antibiotic_use_children}} Diagram batang
 dan diagram lingkaran di bawah menunjukkan distribusi kondisi medis yang sudah
 ada sebelumnya pada anak-anak yang terlibat dalam penelitian tentang durasi
@@ -4543,12 +4667,31 @@ diagram yang menggambarkan hubungan antara jumlah sel bakteri dan waktu.
 
 % 4
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+7f55cda3-382e-54fe-a373-5e70f466f6c1,0fa1975d-b6d4-524e-b068-1cdf25486aac,1,end-of-section-exercise,en,ch_probability/TeX/sampling_from_a_small_population.tex,20,32,cfff75106e1d18549791f43b0831870fa31573a2faca30c7e4fc35d43c6aa8bc,id-ID,repo/ch_probability/TeX/sampling_from_a_small_population.tex,20,32,24097852e6c29409ab99a3340d5edbe8602648430b0088ad0ff6a1659115bcb3,language_reviewed,"% 24
+
+\eoce{\qt{Kaus kaki di dalam laci\label{socks_in_drawer}} Di dalam laci kaus kaki, Anda memiliki 
+4 kaus kaki biru, 5 abu-abu, dan 3 hitam. Dalam keadaan setengah mengantuk pada suatu pagi, Anda mengambil 2 kaus kaki secara 
+acak lalu memakainya. Tentukan peluang bahwa Anda akhirnya mengenakan
+\begin{parts}
+\item 2 kaus kaki biru
+\item tidak ada kaus kaki abu-abu
+\item setidaknya 1 kaus kaki hitam
+\item sebuah kaus kaki hijau
+\item sepasang kaus kaki dengan warna yang sama
+\end{parts}
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 80910c29-f9d3-56c2-a034-77c844cdcdd0,9dc09770-ae18-5fa5-95d7-a5f0ef2d2e3d,1,guided_exercise,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,1073,1080,ef0272e35a5aae0d2e56e53ce008e0842df92098c2e7a6c68008a5c66d2ac9e4,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,1023,1028,53bb571397df16aaa343a0ea5b8a4dec6a3471c98b09b6cb52647e823fa89322,translated,"\begin{nexercise}
 Distribusi jumlah pinjaman dalam kumpulan data \data{loan50}
 menceng kanan, dengan beberapa pinjaman besar berada jauh di ekor
 kanan. Jika Anda ingin memahami besar pinjaman yang tipikal,
 apakah rata-rata atau median yang lebih relevan?\footnotemark
 \end{nexercise}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+82da058a-6a21-550b-b057-15a85c302161,0bdb3ffe-12b6-5636-830d-79197bfc7f65,11,guided_exercise,en,ch_probability/TeX/ch_probability.tex,1689,1693,52c0bbb6db2ea55911ab035b17c05840638424e02987ad9af83522e4b0232d1a,id-ID,repo/ch_probability/TeX/ch_probability.tex,1678,1682,0ece475659bdcb0239d5238f1cca1fea169008c5102d4d7a1a19d7edc0ef0fdf,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise} \label{raffleOf30TicketsWWOReplacement}
+Departemen Anda mengadakan undian berhadiah. Mereka menjual 30 tiket dan menyediakan tujuh hadiah. (a) Tiket-tiket tersebut dimasukkan ke dalam topi dan satu tiket diundi untuk setiap hadiah. Tiket diambil tanpa pengembalian, yaitu tiket yang terpilih tidak dimasukkan kembali ke dalam topi. Berapakah peluang memenangkan hadiah jika Anda membeli satu tiket? (b)~Bagaimana jika tiket diambil dengan pengembalian?\footnotemark
+\end{nexercise}
+\end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 8335895c-2f21-5784-86b9-e31a88cf7f31,d031fd92-364c-5922-9977-7d4f68b6f109,1,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,1461,1575,eeb937e11bc3c5a67d8b5eba472e83bfdce54b7361c0db550a65463d98cfda99,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,1406,1518,5afaefbe2021197e4dc614c23fd143c5dde37dadd49eee49dd6eb720192967b3,translated,"\subsection{Proporsi baris dan kolom}
 
@@ -4851,6 +4994,10 @@ mata kuliah ini.
 \item Jika dua peristiwa dapat terjadi bersamaan, apakah keduanya pasti dependen?
 \end{parts}
 }{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+88316c65-5f8f-57ef-add9-0a90737c0310,a766f9cd-f941-5953-b2d9-9d5f0b9a8764,6,section_prose,en,ch_probability/TeX/ch_probability.tex,1665,1667,1986b718c382e5072f7ab9569e16b9e786aba0e9cd00038fb010228a6878eb05,id-ID,repo/ch_probability/TeX/ch_probability.tex,1654,1656,1986b718c382e5072f7ab9569e16b9e786aba0e9cd00038fb010228a6878eb05,language_reviewed,"
+\D{\newpage}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 889d897e-c0b5-5ef1-b776-5a33eb4bdb80,ca6367c4-15b1-502f-9fa9-3f7229c912ee,2,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,144,151,3ea97ed3206d34d12f03d8d2957c0cbca9e192afba56974190b87bce9aed5f82,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,143,149,9218b68e8e8111c3e4f2178bba11b0832cac3582ba2679c369d15f3b9a2a5f21,translated,"\end{exercisewrap}
 \footnotetext{Jawaban dapat bervariasi.
   Diagram pencar membantu kita mengenali dengan cepat hubungan
@@ -5195,6 +5342,8 @@ dan uraikan kemungkinan pengaruhnya.
 
 % 22
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""0f82ea30-16ac-53ad-afe5-d62667bc819b"",""328e0168-0cda-50d4-bfc4-3f3e8d555983""]"
+9172a9ac-2519-56c6-bc4a-8e9912dcac5c,9bce34fa-59e4-5d7c-b126-0ba4f7961036,12,guided_inline_answer,en,ch_probability/TeX/ch_probability.tex,1694,1694,d951db8790adcd25946d2f8ed4b1360b78e4ff86567e7ef54165312e65f73946,id-ID,repo/ch_probability/TeX/ch_probability.tex,1683,1683,f8191d5a53453284d74224172e039b0f9dcb1827ed009bd1efe0f351c33e22d9,language_reviewed,"\footnotetext{(a) Pertama, tentukan peluang tidak menang. Tiket diambil tanpa pengembalian, yang berarti peluang Anda tidak menang pada pengundian pertama adalah $29/30$, $28/29$ pada pengundian kedua, ..., dan $23/24$ pada pengundian ketujuh. Peluang Anda tidak memenangkan hadiah adalah hasil kali peluang-peluang tersebut: $23/30$. Artinya, peluang memenangkan hadiah adalah $1 - 23/30 = 7/30 = 0.233$. (b)~Ketika tiket diambil dengan pengembalian, terdapat tujuh pengundian yang saling independen. Sekali lagi, pertama-tama kita mencari peluang tidak memenangkan hadiah: $(29/30)^7 = 0.789$. Jadi, peluang memenangkan (setidaknya) satu hadiah ketika pengambilan dilakukan dengan pengembalian adalah 0.211.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 92102be0-4ed5-56b1-bbd6-d1dbb76c0d20,961275f4-5a1e-59a5-8a35-44ba47c24314,1,guided-practice,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,2175,2184,23f748e08787e0382c8b010375ff65a124025452a0c3cac3bdb8910456cd682a,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,2107,2116,d679ac8d1533d8809fab83b1368460cdd24a5d43537e05ef591df79fc5c1c005,language_reviewed,"\begin{exercisewrap}
 \begin{nexercise}
 Jika kita beranggapan bahwa sisi ruangan tempat seseorang duduk
@@ -6237,6 +6386,12 @@ temuannya dapat digunakan untuk menetapkan hubungan kausal.
 
 % 17
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+adffb75d-1c91-50c9-af1d-c01f3c789a22,86a3e7b7-abec-5677-b5cf-7e7dbdb08ae4,4,guided_exercise,en,ch_probability/TeX/ch_probability.tex,1651,1655,05f9d4506f64acd082ca684e490c4fb62133838b6bf032b0a18e129f7829329c,id-ID,repo/ch_probability/TeX/ch_probability.tex,1640,1644,919bef1b545f6d26eddd44c9bdc4822ab8e028dd0164b58ce6aaef11e8ef62a9,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+Aturan apa yang memungkinkan kita mengalikan peluang-peluang dalam Contoh~\ref{3woRep}?\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 ae3ac72c-cb4f-5c70-9310-328b4ce42d00,2c6d8e91-4e76-57eb-a714-bcac9f61be47,1,end-of-section-exercise,en,ch_probability/TeX/defining_probability.tex,101,119,d6e49fc881db74013f28d948d43036e0ee4226d007bcc0e804c67ce6fc6efba6,id-ID,repo/ch_probability/TeX/defining_probability.tex,99,116,8d6039e4a5759acae63dda1326ba78bd660aef4b9fccdda35cd900803d676322,language_reviewed,"% 7
 
 \eoce{\qt{Pemilih mengambang\label{swing_voters}} Survei Pew Research menanyakan kepada 2.373
@@ -6340,6 +6495,16 @@ b2f1703d-803c-5ccf-8ede-2a7b61dc9465,dd2c0635-0fd8-5cec-b7cb-9aefab4c0c43,1,guid
 Sekitar 9\% orang kidal. Misalkan 2 orang dipilih secara acak dari populasi AS. Karena ukuran sampel 2 sangat kecil dibandingkan populasi, wajar untuk menganggap kedua orang ini independen. (a)~Berapa probabilitas keduanya kidal? (b)~Berapa probabilitas keduanya tidak kidal?\footnotemark
 \end{nexercise}
 \end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+b3adce0c-61df-5e82-aab1-d5450ca11b22,0490a7f0-3ec2-599c-9bb2-efb58d5eb4ae,5,guided_inline_answer,en,ch_probability/TeX/ch_probability.tex,1656,1664,58d44253505516eb595939f6c84f335561be83c73d0ad06b05c4906eb3564317,id-ID,repo/ch_probability/TeX/ch_probability.tex,1645,1653,ab667c4ec06b23ba70b8f05a07f96311bdffa828ca625c0f7151db11bff5478d,language_reviewed,"\footnotetext{Ketiga peluang yang kita hitung sebenarnya terdiri atas satu peluang marginal, $P($\var{Q1}$ = $\resp{tidak\us{}terpilih}$)$, dan dua peluang bersyarat:
+\begin{align*}
+&P(\text{\var{Q2}} =  \text{\resp{tidak\us{}terpilih} }|
+    \text{ \var{Q1}} = \text{\resp{tidak\us{}terpilih}}) \\
+&P(\text{\var{Q3}} =  \text{\resp{tidak\us{}terpilih} }|
+    \text{ \var{Q1}} = \text{\resp{tidak\us{}terpilih}, }
+    \text{\var{Q2}} = \text{\resp{tidak\us{}terpilih}})
+\end{align*}
+Dengan Aturan Perkalian Umum, hasil kali ketiga peluang ini adalah peluang tidak terpilih dalam 3 pertanyaan.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 b5ad5e5f-d729-551d-a7c9-06f3f67c583c,e399d3b0-84b2-5859-93ff-fdafd4738bd8,1,exercise,en,ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,248,256,ac2f672ea74035473047f3cabbe0f458eaab9e265948d0385c9418db63179eaf,id-ID,repo/ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,243,252,b35cf6b15c9f7655036edce9e0b97195de40d241673c2b290c15f6c81263ba1c,translated,"\eoce{\qt{Ukuran keluarga\label{family_size}} Misalkan kita ingin memperkirakan 
 ukuran rumah tangga. Dalam konteks ini, rumah tangga terdiri atas orang-orang 
@@ -6489,6 +6654,20 @@ dan uraikan levelnya.
 
 % 32
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+bb589d7d-614a-536f-8684-dbaa6d913b22,f1251dae-8a9f-5689-af39-6a16e66f6a72,1,end-of-section-exercise,en,ch_probability/TeX/sampling_from_a_small_population.tex,34,47,2d283b36f03105b4da6ba34d9644906bbb42cfd2fb082f505d71b71db09fc76a,id-ID,repo/ch_probability/TeX/sampling_from_a_small_population.tex,34,47,98c792de96172e1aa587b44b3d427a0e4d1b38d080be0478a8642c62cc252369,language_reviewed,"% 25
+
+\eoce{\qt{Keping di dalam kantong\label{chips_in_bag}} Bayangkan Anda memiliki sebuah kantong 
+yang berisi 5 keping merah, 3 biru, dan 2 oranye.
+\begin{parts}
+\item Misalkan Anda mengambil satu keping dan keping itu berwarna biru. Jika pengambilan dilakukan tanpa pengembalian, 
+berapakah peluang bahwa keping berikutnya juga berwarna biru?
+\item Misalkan Anda mengambil satu keping dan keping itu berwarna oranye, lalu Anda mengambil keping kedua 
+tanpa pengembalian. Berapakah peluang bahwa keping kedua ini berwarna biru?
+\item Jika pengambilan dilakukan tanpa pengembalian, berapakah peluang mengambil dua keping biru 
+berturut-turut?
+\item Ketika pengambilan dilakukan tanpa pengembalian, apakah setiap pengambilan saling independen? Jelaskan.
+\end{parts}
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 bc1f374f-8a4b-55ec-9474-1f61a3afe68e,df8c32ef-fdf2-53a0-82d9-6ff7b9bfbb39,1,exercise,en,ch_summarizing_data/TeX/considering_categorical_data.tex,74,84,5b6e5311d35d7288188e0b7b09f7d9993eef3379fddf2dc90f64fb1caa63ec4a,id-ID,repo/ch_summarizing_data/TeX/considering_categorical_data.tex,78,88,cd5834e98a8a637583ed2f952bd8c99e3474e475cbe4c3d891369a33d1ab6fbd,translated,"\eoce{\qt{Menaikkan pajak\label{raise_taxes_mosaic}} Sampel acak pemilih terdaftar
 secara nasional ditanya apakah menurut mereka lebih baik menaikkan pajak
 orang kaya atau menaikkan pajak orang miskin. Survei tersebut juga
@@ -6680,6 +6859,10 @@ dan 950 memiliki kedua karakteristik tersebut.
 Buat diagram Venn untuk situasi ini.\footnotemark
 \end{nexercise}
 \end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+c2453e2f-b2b2-5108-84fa-bafceb0e4b9e,a766f9cd-f941-5953-b2d9-9d5f0b9a8764,10,section_prose,en,ch_probability/TeX/ch_probability.tex,1686,1688,c6005c5dece78125f4e3a7d609a33e0314e65f8653125ab120b0fd9e9816fc9e,id-ID,repo/ch_probability/TeX/ch_probability.tex,1675,1677,25d59757e914c3f13d3a764681bc2475d8ce9589b3442924f937fb82af6ce146,language_reviewed,"
+Jika kita mengambil sampel dari populasi kecil \term{tanpa pengembalian}, pengamatan-pengamatan kita tidak lagi saling independen. Dalam Contoh~\ref{3woRep}, peluang tidak terpilih untuk pertanyaan kedua dikondisikan pada peristiwa bahwa Anda tidak terpilih untuk pertanyaan pertama. Dalam Contoh~\ref{3wRep}, dosen mengambil sampel mahasiswa \term{dengan pengembalian}: dosen tersebut berulang kali mengambil sampel dari seluruh kelas tanpa memedulikan siapa yang sudah dipilih. 
+
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 c37a8e81-dd1b-5c26-9aaf-fbb7a0f485f7,17acf038-9821-5e3d-9ffa-1526fab12218,4,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,634,649,e3222f2cf41d7bac1b741292e96bcc6ebd05477a586bce04fe3ccd0f13bbc15e,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,618,632,1dc839678f924a507a3c5ed9b378929d129dbd1d1fff927ff3e77b3ad23133a3,translated,"\end{exercisewrap}
 \footnotetext{Mungkin tampak dua kelompok tinggi badan dalam
@@ -6968,6 +7151,32 @@ Karena persamaan tersebut berlaku, peristiwa kartu itu hati dan peristiwa kartu 
 
 
 %_________________
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+cd08b596-7f26-5bdd-a95b-9c7ee330b111,a766f9cd-f941-5953-b2d9-9d5f0b9a8764,1,section_prose,en,ch_probability/TeX/ch_probability.tex,1615,1633,67c8f4c9b3d34a33f0551e215c5d5af980c6f12b4f345bfcac11a081a3004c1d,id-ID,repo/ch_probability/TeX/ch_probability.tex,1604,1622,98af348f9e1080a83f62764783de65f9bd6dc645fab7dd36e1b9b6ff454b8f2c,language_reviewed,"\section{Pengambilan sampel dari populasi kecil}
+\label{smallPop}
+
+\noindent%
+Ketika kita mengambil pengamatan dari suatu populasi sebagai sampel,
+biasanya kita hanya mengambil sebagian kecil dari
+individu atau kasus yang mungkin.
+Namun, terkadang ukuran sampel kita cukup besar
+atau populasinya cukup kecil sehingga kita
+mengambil lebih dari 10\% populasi\footnote{Pedoman 10\%
+  merupakan batas berdasarkan kaidah praktis untuk menentukan kapan
+  pertimbangan ini menjadi lebih penting.}
+\emph{tanpa
+pengembalian} (artinya kita tidak mungkin
+mengambil kasus yang sama dua kali).
+Pengambilan bagian populasi yang cukup besar seperti ini
+dapat memengaruhi cara kita menganalisis
+sampel tersebut.
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+ce061f53-1713-54c9-83c4-61b6ee34e259,4aca5d0c-6529-52ee-9f7d-e794fe6d7613,13,guided_exercise,en,ch_probability/TeX/ch_probability.tex,1696,1700,8db237c4158abbe515d0dad783eff0ef4a9a139fe6c79ed9d7a118fffdaa5261,id-ID,repo/ch_probability/TeX/ch_probability.tex,1685,1689,c57ec920127f3d551adc220abfed08b517bd23efbeb3af4d08a829bb62b1a0d6,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise} \label{followUpToRaffleOf30TicketsWWOReplacement}
+Bandingkan jawaban Anda dalam Latihan Terbimbing~\ref{raffleOf30TicketsWWOReplacement}. Seberapa besar pengaruh metode pengambilan sampel terhadap peluang Anda memenangkan hadiah?\footnotemark
+\end{nexercise}
+\end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 ce94b7d4-b2af-587f-8684-e5a9ec23818a,b96cf383-2b68-558c-85e4-82c8b25f30de,1,exercise,en,ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,100,116,297e9e416cfb01b01d031a081710e74e6ddcf152e3212917eae375c5901ac6be,id-ID,repo/ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,98,113,480d80da6abcf60fd63d9893c6fdfe7124c92cef6ea6abdf16a10093da955536,translated,"\eoce{\qt{Kucing di YouTube\label{cats_on_youtube_definitions}} Misalkan Anda 
 ingin memperkirakan persentase video YouTube yang menampilkan kucing. Karena 
@@ -7718,6 +7927,13 @@ dc9f550f-53d9-591a-96f7-273f97367f07,a7a20e5a-5ba0-5d46-b569-4d063734581e,1,publ
 \eocesol{(a)~$0.5^{10}$ = 0.00098.
 (b)~$0.5^{10}$ = 0.00098.
 (c)~$P$(setidaknya satu ekor) = $1 - P$(tidak ada ekor) = $1 - (0.5^{10}) \approx 1 - 0.001 = 0.999$.}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+dce8fdac-c387-581c-8add-adcd824722da,5a337c31-cd63-530d-9f43-917e5cc22e7a,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,533,539,73d14a71e4181eadfc207a234fb1bf66c2ad25637eefae2e2e1e47026cd51576,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,582,588,8f68edaf070a83cdf22fe33f1e0057ffd5babf9ba69dc2e6f104f3309e9e5de1,language_reviewed,"% 25
+
+\eocesol{(a)~$2 / 9 \approx 0.22$.
+(b)~$3 / 9 \approx 0.33$.
+(c)~$\frac{3}{10} \times \frac{2}{9} \approx 0.067$.
+(d)~Tidak. Sebagai contoh, dalam latihan ini, diambilnya satu keping secara berarti
+mengubah peluang hasil pengambilan berikutnya.}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 dea27a30-b5ae-50dd-af97-68fed4c18587,b4cd26a2-3443-5b4d-9a38-f2d9766ae10a,2,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,900,962,46147441ea7b414c077893e11439b4d575e046fcd80f125b1438e666bd57bd71,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,863,918,7822a0bbd1384e409fd1bf9031f1822c33011ac50349dd48e01023aa6ebcd95e,translated,"\end{exercisewrap}
 \footnotetext{Karena $Q_1$ dan $Q_3$ mencakup 50\% data bagian
   tengah dan median membelah data di tengah, 25\% data berada
@@ -8219,6 +8435,11 @@ pada~(b) bernilai~1.\footnotemark
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+eea55044-2d76-5488-a68f-c24eba5b0a61,39d7b86b-a323-5f6b-ae99-66f0fa044450,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,541,545,764f99e9960ba1517e6c46920ecc2e08a9d8480d6306561e19582280c801ed8f,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,590,594,b2e4a006991b12ec598fd3cbe163c8d71eb28893778e6f7fd6d6ae3556fec153,language_reviewed,"% 27
+
+\eocesol{$P(^1$legging, $^2$jins, $^3$jins$) = \frac{5}{24} \times \frac{7}{23} \times \frac{6}{22} = 0.0173$. 
+Namun, mahasiswa yang mengenakan legging dapat terpilih pada urutan ke-2 atau ke-3; masing-masing 
+urutan ini memiliki peluang yang sama, sehingga $3 \times 0.0173 = 0.0519$.}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 eecf72a9-4c55-5241-9df8-47f8b30c7b3e,bafc762b-769e-5379-a396-6eb4dbfd7857,1,public_inline_answer,en,ch_intro_to_data/TeX/ch_intro_to_data.tex,105,105,090d976957d8c399446bd254367e374ad21aa68dc34567d3c157cd718e35b155,id-ID,repo/ch_intro_to_data/TeX/ch_intro_to_data.tex,105,105,bbdb2aad861f5519ff127602acb163c8c94d5f573f2c62f6e9ea22ce3b5c1c7d,translated,"\end{exercisewrap}\footnotetext{Proporsi dari 224 pasien yang mengalami strok dalam 365 hari: $45/224 = 0.20$.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 ef28f590-841d-5c71-9e87-d5e2879e6369,c0bd2c0d-1734-5635-9b83-fea31490ec87,1,exercise,en,ch_summarizing_data/TeX/examining_numerical_data.tex,58,72,d0b5f466e368ab50f1f1897ae2db3d07b4f5bfa0a2c4e4511b20dae83f3609f7,id-ID,repo/ch_summarizing_data/TeX/examining_numerical_data.tex,61,75,93264d0534b651708b05b633bcff03c549a08c08877feac1175802f2eb33628f,translated,"\eoce{\qt{Parameter dan statistik\label{parameters_stats}} Tentukan nilai mana yang merupakan 
