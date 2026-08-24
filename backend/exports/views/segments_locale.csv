@@ -1852,6 +1852,13 @@ Teorema Bayes biasanya merupakan pilihan yang baik ketika terdapat begitu banyak
   $0.1081 / 0.1696 = 0.6374$.}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+3c99b860-6050-58b1-9bf6-3452fbb1d8d4,fc39d34f-4c80-5cfe-831d-1c029efd4b3f,8,worked_example,en,ch_probability/TeX/ch_probability.tex,2312,2317,61b884692474c0323e76a8d5944c9da4214a686d5d75b7f38b8c732b683d18fc,id-ID,repo/ch_probability/TeX/ch_probability.tex,2301,2306,07f80ee1f0f3b2a13e49204e5fd6ea22cb3d4dc192e8d389e3f59fe96cdf3835,language_reviewed,"\begin{examplewrap}
+\begin{nexample}{Berapa peluang bahwa orang yang dipilih secara acak memiliki tinggi \textbf{tepat} \resp{180}~cm? Anggap Anda dapat mengukur dengan sempurna.}
+\label{probabilityOfExactly180cm}
+Peluang ini adalah nol. Seseorang mungkin memiliki tinggi yang mendekati \resp{180} cm, tetapi tidak tepat \resp{180} cm. Hal ini juga masuk akal berdasarkan definisi peluang sebagai luas; tidak ada luas yang tercakup antara \resp{180}~cm dan \resp{180}~cm.
+\end{nexample}
+\end{examplewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 3d15531f-ace6-5b99-b115-a57fef724bdb,3b45c972-4f12-577c-b7de-d173ab1640e3,6,subsection_prose,en,ch_probability/TeX/ch_probability.tex,267,275,92ebda0472887fda36d96152baaa0e06b12c1a8223c90259c5ca85b87f274418,id-ID,repo/ch_probability/TeX/ch_probability.tex,267,275,6e53bc9311059ecca302014d00e96f610ff9f91481f2d96927285e76cf116cc1,language_reviewed,"\footnotetext{Karena $B$ dan $D$ adalah peristiwa yang saling lepas, gunakan Aturan Penjumlahan: $P(B$ atau $D) = P(B) + P(D) = \frac{1}{3} + \frac{1}{3} = \frac{2}{3}$.}
 
 \index{event|)}
@@ -3132,6 +3139,47 @@ yang menunjukkan proporsi pengamatan pada setiap kategori
 
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+536b157c-7296-5ea5-8eae-dae62a806746,0ae4d0a7-e336-5050-9c0f-81ec643541a2,1,end-of-section-exercise,en,ch_probability/TeX/continuous_distributions.tex,24,65,9ccd9a0aeee5638d2a5043d7f6a27fbf246c2fb28fe11f4796770d048df9d057,id-ID,repo/ch_probability/TeX/continuous_distributions.tex,24,64,ca55e710425d68843752efd3ed8040659113b3672c6028bb8e8f724cd5e2995e,language_reviewed,"% 38
+
+\eoce{\qt{Pendapatan dan gender\label{income_gender}} Tabel frekuensi relatif
+di bawah ini menampilkan distribusi pendapatan pribadi total tahunan (dalam dolar
+yang disesuaikan dengan inflasi tahun 2009) untuk sampel representatif yang terdiri atas
+96,420,486 penduduk Amerika Serikat. Data ini berasal dari American Community Survey
+tahun 2005--2009. Sampel ini terdiri atas 59\% laki-laki dan 41\% perempuan. \footfullcite{acsIncome2005-2009} \\
+
+\noindent\begin{minipage}[c]{0.60\textwidth}
+\begin{parts}
+\item Deskripsikan distribusi pendapatan pribadi total.
+\item Berapa peluang bahwa penduduk AS yang dipilih secara acak berpenghasilan kurang dari
+\$50,000 per tahun?
+\item Berapa peluang bahwa penduduk AS yang dipilih secara acak berpenghasilan kurang dari
+\$50,000 per tahun dan berjenis kelamin perempuan? Nyatakan setiap asumsi yang Anda buat.
+\item Sumber data yang sama menunjukkan bahwa 71.8\% perempuan berpenghasilan kurang dari
+\$50,000 per tahun. Gunakan nilai ini untuk menentukan apakah asumsi yang Anda buat pada bagian (c) valid.
+\end{parts}
+\end{minipage}
+\begin{minipage}[c]{0.4\textwidth}
+{\small
+\begin{center}
+\begin{tabular}{lr}
+  \hline
+\textit{Pendapatan}         & \textit{Total} \\
+  \hline
+\$1 sampai \$9,999 atau rugi & 2.2\% \\
+\$10,000 sampai \$14,999    & 4.7\% \\
+\$15,000 sampai \$24,999    & 15.8\% \\
+\$25,000 sampai \$34,999    & 18.3\% \\
+\$35,000 sampai \$49,999    & 21.2\% \\
+\$50,000 sampai \$64,999    & 13.9\% \\
+\$65,000 sampai \$74,999    & 5.8\% \\
+\$75,000 sampai \$99,999    & 8.4\% \\
+\$100,000 atau lebih        & 9.7\% \\
+   \hline
+\end{tabular}
+\end{center}
+}
+\end{minipage}
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 5387ebd9-2649-53b7-b178-1b1f351c4cb3,3b45c972-4f12-577c-b7de-d173ab1640e3,4,subsection_prose,en,ch_probability/TeX/ch_probability.tex,248,254,8faf091bcc21f1f98b85f63d575628678d516cbdb0c7b3b315effc933b044fa2,id-ID,repo/ch_probability/TeX/ch_probability.tex,248,254,5c1feac2567300f7040a4f62ee326bf3b3b15e6f0887a8afc2d34a56e36eeeda,language_reviewed,"\footnotetext{(a)~$P(A) = P($\resp{1} atau \resp{2}$)
     = P($\resp{1}$) + P($\resp{2}$)
     = \frac{1}{6} + \frac{1}{6}
@@ -3252,6 +3300,12 @@ Tiga orang dipilih secara acak.\footnotemark \vspace{-1.5mm}
 \item[(c)] Berapa probabilitas orang ketiga perempuan dan kidal?
 \item[(d)] Berapa probabilitas dua orang pertama laki-laki dan tidak kidal, sedangkan orang ketiga perempuan dan kidal?
 \end{enumerate}
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+58ae2322-53b6-510c-9faf-b3daa5a76dfd,11796fc0-4792-55b4-b51f-e02d6287afa0,9,guided_exercise,en,ch_probability/TeX/ch_probability.tex,2319,2323,eae8f879c6e61ffe5ed5e4f5cffb302e5ef81e1c8c118ba255a6d277d144b75b,id-ID,repo/ch_probability/TeX/ch_probability.tex,2308,2312,8b653081391ea7548976af73dd947814b914e50aaa59c2f61f094283f0ce5961,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+Misalkan tinggi seseorang dibulatkan ke sentimeter terdekat. Apakah ada peluang bahwa tinggi \textbf{terukur} seseorang yang dipilih secara acak adalah \resp{180} cm?\footnotemark
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
@@ -3999,6 +4053,17 @@ Jelaskan alasan Anda.
 preferensi hamburger--yang sepintas tampak wajar--diperoleh
 $0.65 \times 0.72 = 0.468$.
 (e)~$(252 + 6 - 1)/500 = 0.514$.}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+5bd116ac-f690-5822-a830-ce8b978e4689,4509dff9-7dd1-5735-8e6f-415a5448cfe1,6,guided_exercise,en,ch_probability/TeX/ch_probability.tex,2298,2307,e0c698c0a501645dde2dcd68cd339147e076afef93a6aa29cd2c14aa2acb5088,id-ID,repo/ch_probability/TeX/ch_probability.tex,2287,2296,b4169cd68497b9b1057d15a93e33a00fb28f0a9d6738062000680ec881bd63a9,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+Tiga orang dewasa di AS dipilih secara acak. Peluang bahwa satu orang dewasa memiliki tinggi antara \resp{180} dan \resp{185} cm adalah 0.1157.\footnotemark\vspace{-1.5mm}
+\begin{enumerate}
+\setlength{\itemsep}{0mm}
+\item[(a)] Berapa peluang bahwa ketiganya memiliki tinggi antara \resp{180} dan \resp{185} cm?
+\item[(b)] Berapa peluang bahwa tidak satu pun memiliki tinggi antara \resp{180} dan \resp{185} cm?
+\end{enumerate}
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 5c1d0fb0-35eb-5351-90bd-7853bb2eb919,52bf0186-4674-569a-b8c7-783489172959,3,subsection_prose,en,ch_probability/TeX/ch_probability.tex,620,653,025bd744df53e4cfa9effe76f28957a91251e65b20f4714547f36f6aa434dd7a,id-ID,repo/ch_probability/TeX/ch_probability.tex,617,650,032136db90402510dbc3b7104ed8c083f90ea6f836efbb87d57b3f9d5f1dc7e8,language_reviewed,"\footnotetext{(a)~Singkatan \resp{RH} dan \resp{LH} digunakan masing-masing untuk tidak kidal dan kidal. Karena semuanya independen, kita menerapkan Aturan Perkalian untuk proses independen:
 \begin{align*}
 P(\text{kelima orang adalah \resp{RH}})
@@ -4109,6 +4174,19 @@ belajar untuk ujian dan memutuskan menebak jawaban secara acak. Berapa probabili
 }{}
 
 \D{\newpage}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+5e936600-2a94-5871-96a3-4e660b5b46ba,4c8457ff-0769-59f0-9a0d-040a50fb107c,1,section_prose,en,ch_probability/TeX/ch_probability.tex,2198,2208,c5d17e42761d35f6ab5f9f10dc42780c959b1ad8f568da1d0cfc1744d1e570bd,id-ID,repo/ch_probability/TeX/ch_probability.tex,2186,2197,aa7d6da3682c597f497057a2fd4165ed6c68dfcd5e290a56d956eed1e1fcbd25,language_reviewed,"%_________________
+\section{Distribusi kontinu}
+\label{contDist}
+
+\noindent%
+Sejauh ini dalam bab ini kita telah membahas kasus
+ketika hasil suatu variabel bersifat diskret.
+Dalam bagian ini, kita mempertimbangkan konteks ketika
+hasilnya merupakan variabel numerik kontinu.
+
+\index{data!US adult heights|(}
+\index{hollow histogram|(}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 5f2289c9-2f21-570c-8d7e-aa09bbab4e65,7fb6fb37-23be-57f3-af92-f7f18dbb1210,31,chapter-review-exercise,en,ch_summarizing_data/TeX/review_exercises.tex,63,99,5110f2362dd0499625852be0afc7ee8be3698909f641530a47307fab0cf249f4,id-ID,repo/ch_summarizing_data/TeX/review_exercises.tex,75,122,bc32a108a71cfe4013033847ef334e4343879c65610afa9b7c7815efdf843315,language_reviewed,"% 31
 
 \eoce{\qt{Pemenang Oscar\label{oscar_winners}} Penghargaan Oscar untuk kategori
@@ -5461,6 +5539,16 @@ kelompok?\footnotemark{}
 8b9e1d74-4635-577b-b6f5-fffcaf9dcb7c,24b82592-6802-5f86-86a9-f633491e350a,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,565,567,7b98f87a3b2b30aa51a84e7e5802152f353624a061683a202ebde7f93d73e710,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,614,616,7b98f87a3b2b30aa51a84e7e5802152f353624a061683a202ebde7f93d73e710,language_reviewed,"% 35
 
 \eocesol{E = -0.0526. SD = 0.9986.}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+8ccc592a-0fd2-5818-ad03-5dd7295f09ab,ceab8500-f0e6-5a98-bdb3-4007e44800d9,4,worked_example,en,ch_probability/TeX/ch_probability.tex,2232,2240,fcbf61b87368a87546f7d52d201e794b0924dad81db8866b01e2de47fa7c5363,id-ID,repo/ch_probability/TeX/ch_probability.tex,2221,2229,f8d5044bde3303d52e25b7ed244b15d8bd082a123ff956e0bd7de4385c8b6e3d,language_reviewed,"\begin{examplewrap}
+\begin{nexample}{Berapa proporsi sampel yang memiliki tinggi antara \resp{180} cm dan \resp{185} cm (sekitar 5 kaki 11 inci sampai 6 kaki 1 inci)?}\label{contDistProb}
+Kita dapat menjumlahkan tinggi bin-bin dalam rentang \resp{180} cm sampai \resp{185} cm lalu membaginya dengan ukuran sampel. Sebagai contoh, hal ini dapat dilakukan menggunakan dua bin berarsir pada Gambar~\ref{usHeightsHist180185}. Kedua bin dalam rentang ini memiliki hitungan 195,307 dan 156,239 orang, sehingga menghasilkan estimasi peluang berikut:
+\begin{align*}
+\frac{195307 + 156239}{\text{3,000,000}} = 0.1172
+\end{align*}
+Pecahan ini sama dengan proporsi luas histogram yang berada dalam rentang \resp{180} sampai \resp{185} cm.
+\end{nexample}
+\end{examplewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 8d98b33e-2b6c-5af6-921d-64bae260c430,55052df6-d488-53ed-8f4c-e0bb4a894836,3,subsection_prose,en,ch_probability/TeX/ch_probability.tex,498,524,2e899748471ec796b84e8f40e617965432ab709346d800ce184553320c194b60,id-ID,repo/ch_probability/TeX/ch_probability.tex,498,522,106717b94f5d56b022d345040157fd33c0783e677f124fbc88468c487e4fc1ed,language_reviewed,"\footnotetext{Jawaban singkat: (a)~$A^c=\{$\resp{3}, \resp{4}, \resp{5}, \resp{6}$\}$ dan $B^c=\{$\resp{1}, \resp{2}, \resp{3}, \resp{5}$\}$. (b)~Karena setiap hasil saling lepas, jumlahkan probabilitas hasil individual untuk memperoleh $P(A^c)=2/3$ dan $P(B^c)=2/3$. (c)~$A$~dan~$A^c$ saling lepas, demikian pula $B$~dan~$B^c$. Oleh karena itu, $P(A) + P(A^c) = 1$ dan $P(B) + P(B^c) = 1$.}
 
 \D{\newpage}
@@ -5989,6 +6077,12 @@ lihat pada diagram titik tetapi tidak pada histogram?\footnotemark{}
 (e)~Karena ini adalah eksperimen, kita dapat membuat pernyataan kausal. Namun, karena
 sampelnya tidak acak, pernyataan kausal tersebut tidak dapat digeneralisasikan ke
 populasi yang lebih luas.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+9d9ea627-b125-5cde-aa16-53c992fe078d,4c8457ff-0769-59f0-9a0d-040a50fb107c,11,section_prose,en,ch_probability/TeX/ch_probability.tex,2325,2329,517de8c1854c79e4a280285dd9e82f4cc497530f008db1aa1efd3b98d71ba9ca,id-ID,repo/ch_probability/TeX/ch_probability.tex,2314,2318,517de8c1854c79e4a280285dd9e82f4cc497530f008db1aa1efd3b98d71ba9ca,language_reviewed,"
+\index{data!US adult heights|)}
+
+
+{\input{ch_probability/TeX/continuous_distributions.tex}}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 9dc979f1-f8ea-532a-ba91-c6dd6e6b595c,fbe8307c-8576-5fc9-9d86-4ffff1359550,1,exercise,en,ch_summarizing_data/TeX/examining_numerical_data.tex,97,112,fbf9e613542dc95b0777ffa7ca2818da69c0a5874800ddc7d21f72cf0faa79d4,id-ID,repo/ch_summarizing_data/TeX/examining_numerical_data.tex,101,116,5efea4cdb0bc6f02048235cff93673b39a57e07025d592bb03009804f82c4900,translated,"\eoce{\qt{Median dan IQR} Untuk setiap bagian, bandingkan distribusi (1) dan (2) berdasarkan median dan IQR-nya. Anda tidak perlu menghitung statistik tersebut; cukup nyatakan bagaimana median dan IQR kedua distribusi dibandingkan. Pastikan untuk menjelaskan alasan Anda. 
 \begin{multicols}{2}
@@ -7236,6 +7330,36 @@ Dalam Latihan Terbimbing~\ref{exerExaminingDisjointSetsABD}, Anda mengonfirmasi 
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+c09da265-b413-5a84-9311-0f0890ec02d1,4c8457ff-0769-59f0-9a0d-040a50fb107c,3,section_prose,en,ch_probability/TeX/ch_probability.tex,2223,2231,25bb531b9cbb958903268e712c63ddbc01812ef686e5ed6f1141d059dd03d40d,id-ID,repo/ch_probability/TeX/ch_probability.tex,2212,2220,9e1e35c880d038ac1a5d7d583cc58e17cd9535985fbeeea36d935d70a51e9fd4,language_reviewed,"
+\begin{figure}[ht]
+  \centering
+  \Figure[Ditampilkan empat histogram berongga tinggi badan orang dewasa di AS dalam sentimeter dengan lebar bin yang berbeda-beda. Perbedaan tampilannya dibahas terlebih dahulu, lalu bentuk histogram terakhir yang paling terperinci dijelaskan. Histogram pertama memiliki sekitar 6 bin dengan nilai yang tampak tidak nol, sehingga garis luarnya sangat menyerupai kotak-kotak. Histogram kedua memiliki sekitar 12 bin tidak nol dan tampak sedikit lebih kontinu serta tidak sekaku histogram pertama. Histogram ketiga memiliki sekitar 25 bin tidak nol dan garis luar histogram berongganya mulai tampak agak lebih mulus. Histogram terakhir memiliki sekitar 50 bin; karena jumlah bin yang besar, distribusinya tampak cukup mulus, yakni tidak ada langkah dari satu bin ke bin berikutnya yang berupa kenaikan atau penurunan tinggi yang besar. Berikutnya, histogram terakhir ini dijelaskan: tinggi bin kira-kira nol sampai 147, lalu naik secara bertahap hingga sekitar 155 sebelum meningkat tajam sedikit sampai 157, kemudian naik secara bertahap ke puncak sekitar 165. Dari sini histogram turun sekitar 10\% dari puncaknya pada 170, lalu penurunannya lebih bertahap sampai sekitar 183. Pada titik itu histogram menurun cepat sampai sekitar 187, kemudian mulai menurun lebih perlahan sambil mendekati 0. Pada sekitar 200, tinggi bin pada dasarnya telah mencapai nol dan tetap di sana.]{}{fdicHistograms}
+  \caption{Empat histogram berongga tinggi badan orang dewasa di AS
+      dengan lebar bin yang berbeda-beda.}
+  \label{fdicHistograms}
+\end{figure}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+c0d8b725-a438-563b-b069-2b3e503069f8,f37d178c-b60a-52c7-b3a1-5689a49e4a32,1,end-of-section-exercise,en,ch_probability/TeX/continuous_distributions.tex,3,22,7771ff452a6504073819d8d0743bd8ce09d79f58678874f0abaafa150a7b01e3,id-ID,repo/ch_probability/TeX/continuous_distributions.tex,3,22,3c1393491b480aab7e7972281c7a8cd8d73ba3c61ca0a3a2360674fe12b8a859,language_reviewed,"% 37
+
+\eoce{\qt{Berat kucing\label{cat_weights}} Histogram di bawah ini merepresentasikan
+berat (dalam kg) 47 kucing betina dan 97 kucing jantan. \footfullcite{cats} \\
+\begin{minipage}[c]{0.47\textwidth}
+\begin{parts}
+\item Berapa proporsi kucing-kucing ini yang beratnya kurang dari 2.5 kg?
+\item Berapa proporsi kucing-kucing ini yang beratnya antara 2.5 dan 2.75 kg?
+\item Berapa proporsi kucing-kucing ini yang beratnya antara 2.75 dan 3.5 kg?
+\end{parts} \vspace{27mm}
+\end{minipage}
+\begin{minipage}[c]{0.05\textwidth}
+$\:$
+\end{minipage}
+\begin{minipage}[c]{0.48\textwidth}
+\begin{center}
+\Figures[Ditampilkan histogram berat badan kucing dalam kilogram. Rentang beratnya dari 2.0 sampai 4.0 dan setiap bin histogram memiliki lebar 0.25. Tinggi kedelapan bin, dari kiri ke kanan, adalah 29, 32, 21, 26, 12, 15, 5, dan 4.]{}{eoce/cat_weights}{cat_weights}
+\end{center}
+\end{minipage}
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 c116651f-eaa4-5022-be70-32faca3a5baf,a1826e03-0981-5650-8830-88dc2ad8b719,24,subsection_prose,en,ch_probability/TeX/ch_probability.tex,1273,1277,c2e96aa28e0eba42214121ed51af37bb389c742bb120627f33bbc0a286a87766,id-ID,repo/ch_probability/TeX/ch_probability.tex,1272,1276,6849deb62960620c16196fee94eff4eedbdb97c946486e34e00fc1eb09bc99ae,language_reviewed,"\footnotetext{Ukuran sampelnya besar jika dibandingkan dengan perbedaan tingkat kematian antara kelompok ``diinokulasi'' dan ``tidak diinokulasi'', sehingga tampaknya terdapat hubungan antara \var{inoculated} dan \var{result}. Namun, sebagaimana dicatat dalam jawaban Latihan Terbimbing~\ref{SmallpoxInoculationObsExpExercise}, penelitian ini bersifat observasional sehingga kita tidak dapat memastikan adanya hubungan sebab-akibat. (Penelitian lebih lanjut menunjukkan bahwa inokulasi efektif menurunkan tingkat kematian.)}
 
 
@@ -7574,6 +7698,12 @@ Bandingkan jawaban Anda dalam Latihan Terbimbing~\ref{raffleOf30TicketsWWOReplac
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+ce34bbdd-21a6-5a78-b11f-21d53062b1b4,cf00ae23-f06e-5c82-8ebe-638b9820c621,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,569,574,9858dacf5764235a02e1ef2ff48ad6049725c354c603f92d145904fcfd5adcc3,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,618,623,f1b7c087af1652bf5b75a91d23539e849e0597920f6cc8d93a8ef3df0628f341,language_reviewed,"% 37
+
+\eocesol{Jawaban perkiraan dapat diterima. \\
+(a)~$(29+32)/144 = 0.42$.
+(b)~$21/144 = 0.15$.
+(c)~$(26+12+15)/144 = 0.37$.}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 ce94b7d4-b2af-587f-8684-e5a9ec23818a,b96cf383-2b68-558c-85e4-82c8b25f30de,1,exercise,en,ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,100,116,297e9e416cfb01b01d031a081710e74e6ddcf152e3212917eae375c5901ac6be,id-ID,repo/ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,98,113,480d80da6abcf60fd63d9893c6fdfe7124c92cef6ea6abdf16a10093da955536,translated,"\eoce{\qt{Kucing di YouTube\label{cats_on_youtube_definitions}} Misalkan Anda 
 ingin memperkirakan persentase video YouTube yang menampilkan kucing. Karena 
 mustahil menonton semua video di YouTube, Anda menggunakan pemilih video acak 
@@ -7603,6 +7733,21 @@ mungkin lebih rendah daripada responden yang berhasil dihubungi.
 (c)~Studi ini tidak memiliki kelompok kontrol dan merupakan studi observasional;
 selain itu, mungkin terdapat variabel perancu. Misalnya, orang-orang ini mungkin
 berlari karena secara umum lebih sehat dan/atau juga melakukan olahraga lain.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+d03947f2-a3cc-57a3-9974-13c7bb411da3,a4fa26d3-f74e-5ad7-8fd2-444728913b98,2,worked_example,en,ch_probability/TeX/ch_probability.tex,2209,2222,a9766c5dd3a3847d71b5f9a526f8c64eeb3c40c25b8b7fc2bf74dcccaf3337e4,id-ID,repo/ch_probability/TeX/ch_probability.tex,2198,2211,a874633e8023a732fcc2bb283fe26adb75ce07acc4ae4518589fbf5620de52a4,language_reviewed,"\begin{examplewrap}
+\begin{nexample}{Gambar~\ref{fdicHistograms} menampilkan beberapa
+    histogram berongga yang berbeda untuk tinggi badan orang dewasa di AS.
+    Bagaimana perubahan jumlah bin memungkinkan Anda membuat
+    penafsiran yang berbeda terhadap data tersebut?}
+  \label{usHeights}%
+  Penambahan jumlah bin memberikan perincian yang lebih besar.
+  Sampel ini sangat besar, sehingga bin yang jauh lebih sempit
+  masih dapat digunakan dengan baik.
+  Biasanya kita tidak menggunakan bin sebanyak ini pada sampel
+  yang lebih kecil karena sedikitnya hitungan per bin membuat tinggi bin
+  sangat tidak stabil.
+\end{nexample}
+\end{examplewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 d1972b26-4dfa-54b7-b208-33c6a4c28530,13907cdd-4711-558a-a9d8-3ea52d989703,23,guided_exercise,en,ch_probability/TeX/ch_probability.tex,1268,1272,058fcaeaa453c6b4248de6124c0de4f174a8b83fdd706b4f1d082924f707b28e,id-ID,repo/ch_probability/TeX/ch_probability.tex,1267,1271,27865f4d22bc7dc5e249cc40fac07addc80ea7d0b85069aa863ebaea854e4d60,language_reviewed,"\begin{exercisewrap}
 \begin{nexercise}
@@ -8203,6 +8348,64 @@ Gunakan $P($\var{inoculated} = \resp{yes}$) = 0.0392$ dan $P($\var{result} = \re
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+d89f9797-53bf-568b-8d94-703cb13072df,4c8457ff-0769-59f0-9a0d-040a50fb107c,5,section_prose,en,ch_probability/TeX/ch_probability.tex,2241,2297,493841802a2226aa8399e3fadabbc8f1c418ec90401df12f81ab3d6a54089181,id-ID,repo/ch_probability/TeX/ch_probability.tex,2230,2286,03513435d09507a82cd2c70106693c1abd44153a86c740c1103e4dc3d16a67a3,language_reviewed,"
+\begin{figure}[h]
+  \centering
+  \Figure[Ditampilkan sebuah histogram tinggi badan dengan dua bin histogram antara 180 dan 185 sentimeter diberi arsiran; bin-bin tersebut merepresentasikan individu yang tingginya antara 180 dan 185 sentimeter.]{0.9}{usHeightsHist180185}
+  \caption{Histogram dengan lebar bin 2.5 cm.
+      Daerah berarsir merepresentasikan individu dengan
+      tinggi antara \resp{180} dan \resp{185} cm.}
+  \label{usHeightsHist180185}
+\end{figure}
+
+
+\D{\newpage}
+
+\subsection{Dari histogram ke distribusi kontinu}
+
+Perhatikan peralihan dari histogram berongga yang menyerupai kotak-kotak di bagian kiri atas Gambar~\ref{fdicHistograms} ke grafik yang jauh lebih mulus di bagian kanan bawah. Pada grafik terakhir ini, bin-bin begitu sempit sehingga histogram berongganya mulai menyerupai kurva mulus. Hal ini menunjukkan bahwa tinggi badan populasi sebagai variabel numerik \emph{kontinu} mungkin paling baik dijelaskan dengan kurva yang merepresentasikan garis luar bin-bin yang sangat sempit.
+
+Kurva mulus ini merepresentasikan
+\termsub{fungsi kepadatan peluang}
+    {probability!density function}
+(juga disebut \term{kepadatan} atau \term{distribusi}), dan kurva semacam itu ditampilkan pada Gambar~\ref{fdicHeightContDist} serta ditumpangkan pada histogram sampel. Suatu kepadatan memiliki sifat khusus: luas total di bawah kurva kepadatan adalah 1.
+
+\begin{figure}[tbh]
+\centering
+\Figure[Ditampilkan sebuah histogram tinggi badan orang dewasa di AS dengan garis kontinu yang ditumpangkan mengikuti tinggi bin-bin. Garis kontinu ini mulus dan merepresentasikan bentuk histogram berongga seandainya kita memiliki data tak terhingga dan lebar bin begitu kecil sehingga garis luar histogram yang menyerupai kotak-kotak tampak kontinu. Bentuk ini disebut “kepadatan peluang kontinu”.]{0.9}{fdicHeightContDist}
+\caption{Distribusi peluang kontinu tinggi badan orang dewasa di AS.}
+\label{fdicHeightContDist}
+\end{figure}
+
+\index{hollow histogram|)}
+
+
+\D{\newpage}
+
+\subsection{Peluang dari distribusi kontinu}
+
+Dalam Contoh~\ref{contDistProb}, kita menghitung proporsi individu dengan tinggi \resp{180} sampai \resp{185} cm sebagai pecahan:
+\begin{align*}
+\frac{\text{jumlah orang dengan tinggi antara \resp{180} dan \resp{185}}}{\text{ukuran sampel total}}
+\end{align*}
+Kita menemukan jumlah orang dengan tinggi antara \resp{180} dan \resp{185} cm dengan menentukan proporsi luas histogram dalam rentang tersebut. Serupa dengan itu, kita dapat menggunakan luas daerah berarsir di bawah kurva untuk menemukan peluang (dengan bantuan komputer):
+\begin{align*}
+P(\text{\var{height} antara \resp{180} dan \resp{185}})
+	= \text{luas antara \resp{180} dan \resp{185}}
+	= 0.1157
+\end{align*}
+Peluang bahwa orang yang dipilih secara acak memiliki tinggi antara \resp{180} dan \resp{185} cm adalah 0.1157. Nilai ini sangat dekat dengan estimasi dari Contoh~\ref{contDistProb}: 0.1172.
+
+\begin{figure}[h]
+  \centering
+  \Figure[Ditampilkan sebuah kurva kepadatan tinggi badan dengan daerah antara 180 dan 185 sentimeter diberi arsiran.]{0.7}{fdicHeightContDistFilled}
+  \caption{Kepadatan tinggi badan populasi orang dewasa di AS
+      dengan luas antara 180 dan 185 cm diberi arsiran.
+      Bandingkan grafik ini dengan Gambar~\ref{usHeightsHist180185}.}
+  \label{fdicHeightContDistFilled}
+\end{figure}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 d97c1bde-ae77-5b6f-8dbd-a580d428546f,8a23e856-49af-570b-8460-82f99ced2ef0,1,exercise,en,ch_summarizing_data/TeX/examining_numerical_data.tex,153,177,4d4f544e337f989b295889b7de73345bd542c8b694a8d1e3244b1bcf0b287a8d,id-ID,repo/ch_summarizing_data/TeX/examining_numerical_data.tex,158,183,8495b3c6520a8b02901171c2093a05845d9cb05dabf256c1baa893ae4d80b708,language_reviewed,"\eoce{\qt{Kualitas udara\label{air_quality_durham}} Kualitas udara harian diukur dengan indeks 
 kualitas udara (AQI) yang dilaporkan oleh Badan Perlindungan Lingkungan Amerika Serikat. Indeks 
 ini melaporkan tingkat pencemaran dan dampak kesehatan terkait yang mungkin perlu diperhatikan. 
@@ -8630,6 +8833,8 @@ peminjam berpendapatan di atas~\$250,000.
 \D{\newpage}
 
 \begin{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+e815c86e-c1a3-5500-89e2-85e50c91589c,b4e4f4b2-ec1c-5ccf-99e3-98cb2c136922,10,guided_inline_answer,en,ch_probability/TeX/ch_probability.tex,2324,2324,e2793f762f748a1d6b448ab6972621f401d721855694d0b5c57ddd0127da2d41,id-ID,repo/ch_probability/TeX/ch_probability.tex,2313,2313,d7c4f0b226edd85487551ed726a10ef75adcfdb50059951080db8e2be4e3f288,language_reviewed,"\footnotetext{Peluang ini bernilai positif. Siapa pun yang tingginya antara \resp{179.5} cm dan \resp{180.5} cm akan memiliki tinggi \emph{terukur} sebesar \resp{180} cm. Ini mungkin merupakan skenario yang lebih realistis dijumpai dalam praktik daripada Contoh~\ref{probabilityOfExactly180cm}.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 e8932d35-2f8b-5a9e-9ba9-d38646a26915,6e9dc374-9378-5c52-b2ae-88d498bcec17,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,97,105,c24a97fd3cda692d9f43e6a1e76811873a2bfdb4c7bbeec2c5578b96e5a61051,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,105,114,7cf8be8ee69d34c864556d730df7c9526f0a90ee5b996156071b922e2d424bca,translated,"% 21
 
@@ -9519,6 +9724,10 @@ tersebut.
 }{}
 
 % 24
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+ff922404-f304-577a-a593-45e4a60e330d,9317c395-4af4-5e47-84f0-bc77d1088be9,7,guided_inline_answer,en,ch_probability/TeX/ch_probability.tex,2308,2310,f320b5ae789cb1a6704450baaf376d4f2d0ab5dc3ecfcb4456eb815f3a37b426,id-ID,repo/ch_probability/TeX/ch_probability.tex,2297,2299,9abfe6b0816dafcb0675674a474d682311d119d37adeaf5f377cb7bbca2fee7d,language_reviewed,"\footnotetext{Jawaban singkat:
+  (a) $0.1157 \times 0.1157 \times 0.1157 = 0.0015$.
+  (b) $(1-0.1157)^3 = 0.692$}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 ffe75dc0-360d-5294-bf88-2f79fbf9041a,5172495b-cd2b-5f34-b695-29ce4bc07662,1,exercise,en,ch_intro_to_data/TeX/review_exercises.tex,276,308,d82364aae9187e94b2c78f68c6cea054a0471c92eb7a410741db441437315deb,id-ID,repo/ch_intro_to_data/TeX/review_exercises.tex,248,274,4a1b2da00c7e68729066e51e3bff1439eaaded14ecb8e33a13fe8bf9bf4b9ef8,translated,"\eoce{\qt{Peluncuran antariksa\label{space_launches}}
 Tabel berikut merangkum jumlah peluncuran antariksa di Amerika Serikat menurut

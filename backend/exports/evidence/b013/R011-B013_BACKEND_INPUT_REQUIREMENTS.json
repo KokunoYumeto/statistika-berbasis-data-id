@@ -1,0 +1,176 @@
+{
+  "$schema": "interlanguage.r011-b013-backend-input-requirements/v1",
+  "base_preimage": {
+    "admission_checkpoint": {
+      "bytes": 1958,
+      "path": "00_control/R011-B012_ADMISSION_CHECKPOINT.md",
+      "sha256": "c863c0cfd7776db3ae4cec19811cb856bef8774b94347c9096cf6cef90b2cd91"
+    },
+    "admission_receipt": {
+      "bytes": 15232,
+      "path": "qa/R011-B012_BOUNDARY_RECEIPT.json",
+      "sha256": "8191d1fddc607578f0d35711c0680afc1c31b3f393254e2969e211cf679ee553"
+    },
+    "all_record_bytes_canonical_and_unique": true,
+    "boundary_id": "R011-B012",
+    "inventory": {
+      "bytes": 103636392,
+      "files": 282,
+      "sha256": "f9049b89169d4f6314a0bb2ee3d254c74b1a5622f101bdc14df421022fde9156"
+    },
+    "manifest": {
+      "bytes": 57355,
+      "path": "backend/exports/manifest.json",
+      "sha256": "679f48f4d1170a2dd4cfdf164b346827ed76f6e516285c4691de3454dce79fcb"
+    },
+    "record_count": 4276,
+    "record_counts": {
+      "artifacts": 264,
+      "assets": 291,
+      "concepts": 171,
+      "corrections": 104,
+      "courses": 1,
+      "editions": 1,
+      "localizations": 384,
+      "programs": 1,
+      "qa_events": 144,
+      "relations": 1938,
+      "resources": 1,
+      "rights": 37,
+      "segments": 384,
+      "terms": 171,
+      "units": 384
+    }
+  },
+  "boundary_id": "R011-B013",
+  "planned_backend_invariants": {
+    "base_record_count": 4276,
+    "no_live_backend_or_canonical_mutation": true,
+    "preserve_all_b012_record_bytes_exact": true,
+    "required_entity_classes": [
+      "program",
+      "course",
+      "resource",
+      "edition",
+      "unit",
+      "concept",
+      "segment",
+      "term",
+      "asset",
+      "relation",
+      "rights",
+      "qa_event",
+      "artifact",
+      "correction"
+    ],
+    "required_views": [
+      "views/resource_editions.csv",
+      "views/unit_hierarchy.csv",
+      "views/relations.csv",
+      "views/segments_locale.csv",
+      "views/terminology.csv",
+      "views/exercises_answers.csv",
+      "views/rights_components.csv",
+      "views/corrections.csv",
+      "views/qa_build_events.csv",
+      "views/artifacts.csv"
+    ],
+    "stable_ids_derived_from_existing_namespace": true,
+    "translation_state_mapping_lossless": true
+  },
+  "provenance": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "recorded_at": "2026-08-24T22:00:00+02:00",
+  "required_terminal_inputs": [
+    {"key": "source_closure", "purpose": "exact pinned B013 source boundary"},
+    {"key": "main_fragment", "purpose": "terminal translated Section 3.5 fragment"},
+    {"key": "eoce_fragment", "purpose": "terminal translated EoCE 37-38"},
+    {"key": "public_answers_fragment", "purpose": "terminal public answer 37"},
+    {"key": "assembled_main", "purpose": "full candidate main source assembled on admitted B012"},
+    {"key": "assembled_answers", "purpose": "full candidate public-answer source assembled on admitted B012"},
+    {"key": "preface", "purpose": "provenance-bearing candidate preface"},
+    {"key": "candidate_receipt", "purpose": "candidate source and correction binding"},
+    {"key": "final_translation_qa", "purpose": "terminal translation, topology, formula and correction QA"},
+    {"key": "terminology_qa", "purpose": "reused field-source terminology decision receipt"},
+    {"key": "controlled_terms", "purpose": "deterministic controlled-term exchange table"},
+    {"key": "asset_closure_qa", "purpose": "five-figure source/producer/localization and rights closure"},
+    {"key": "localized_figure_receipt", "purpose": "five localized figure QA bindings"},
+    {"key": "localization_producer", "purpose": "deterministic five-figure localization producer"},
+    {"key": "localized_fdic_histograms_pdf", "purpose": "localized fdicHistograms PDF"},
+    {"key": "localized_us_heights_hist_pdf", "purpose": "localized usHeightsHist180185 PDF"},
+    {"key": "localized_fdic_height_cont_dist_pdf", "purpose": "localized fdicHeightContDist PDF"},
+    {"key": "localized_fdic_height_cont_dist_filled_pdf", "purpose": "localized fdicHeightContDistFilled PDF"},
+    {"key": "localized_cat_weights_pdf", "purpose": "localized cat_weights PDF"},
+    {"key": "component_rights_closure", "purpose": "repository component-rights evidence"},
+    {"key": "candidate_builder", "purpose": "isolated B013 candidate builder"},
+    {"key": "source_manifest", "purpose": "exact isolated source snapshot inventory"},
+    {"key": "source_qa", "purpose": "terminal isolated source-overlay QA"},
+    {"key": "build_receipt", "purpose": "terminal deterministic build receipt"},
+    {"key": "reader_pdf", "purpose": "terminal deterministic candidate reader PDF"},
+    {"key": "visual_qa", "purpose": "terminal zero-defect boundary visual receipt"}
+  ],
+  "required_terminal_semantics": {
+    "assets": {
+      "five_localized_figure_and_producer_bindings": true,
+      "five_source_figure_and_r_producer_pairs": true,
+      "rights_closure_required": true
+    },
+    "build": {
+      "canonical_mutation": false,
+      "deterministic_pdf_replay_required": true,
+      "page_count_and_pdf_identity_required": true,
+      "source_overlay_qa_required": true
+    },
+    "terminology": {
+      "controlled_terms_required": true,
+      "model_provenance_required": true,
+      "reused_field_source_decision_must_be_bound": true
+    },
+    "translation": {
+      "complete_main_source_order": true,
+      "eoce_exercises": [37, 38],
+      "guided_exercises": 2,
+      "guided_inline_public_answers": 2,
+      "o001_gaps": [38],
+      "public_answers": [37],
+      "restricted_solutions_accessed_or_invented": false,
+      "subsections": 2,
+      "terminal_candidate_hashes_bound": true,
+      "typed_correction_count": 3,
+      "worked_examples": 3
+    },
+    "visual": {
+      "all_remaining_defect_severities_zero": true,
+      "candidate_pdf_identity_must_match_build": true,
+      "terminal_boundary_window_receipt_required": true
+    }
+  },
+  "source_closure": {
+    "authority": {
+      "answers": {"bytes": 106045, "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/extraTeX/eoceSolutions/eoceSolutions.tex", "sha256": "6c4e01376db4c023cc7b3f9949490e57220ef1cb831c580da71efde6ce723268"},
+      "commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+      "eoce": {"bytes": 2358, "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_probability/TeX/continuous_distributions.tex", "sha256": "42de1d525152bc5e5f85112963fdf7e9e5117b4148434046cde2b6fa17100cfe"},
+      "main": {"bytes": 132799, "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_probability/TeX/ch_probability.tex", "sha256": "4f07fcf0e71e52bc99657835d5cced47b10ce9fc66b23dce156d400840690361"},
+      "tree": "d61cc601e7d97759ce805900520f784d02a0489e"
+    },
+    "exercise_answer_closure": {
+      "eoce_exercises": [37, 38],
+      "o001_gaps": [38],
+      "public_answer_slice": {"byte_end_exclusive": 24794, "byte_start": 24671, "bytes": 123, "sha256": "59a1c0ce9597f94ceac7cbdc9a0cae6a06aa995850261f22ae259d2a2fbbc840"},
+      "public_answers": [37],
+      "restricted_solutions_accessed": false
+    },
+    "section": {
+      "authority_span": {"byte_end_exclusive": 132799, "byte_start": 124925},
+      "bytes": 7874,
+      "figures": 5,
+      "guided_exercises": 2,
+      "guided_inline_answers": 2,
+      "next_anchor": "normalDist",
+      "sha256": "3459e761d91681907a99c555bd7fe627c9a80ddcd3658b46fd04f6382c5cad0c",
+      "source_anchor": "contDist",
+      "subsections": 2,
+      "worked_examples": 3
+    }
+  },
+  "status": "READY_TERMINAL_INPUTS"
+}

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Jika Anda menggunakan edisi kerja parsial ini, sitasikan edisi turunan dan karya sumbernya."
+title: "Statistika Berbasis Data - Edisi Kerja Bahasa Indonesia (R011-B013: Bagian 3.5 Distribusi kontinu)"
+type: book
+authors:
+  - family-names: Diez
+    given-names: David M.
+  - family-names: Çetinkaya-Rundel
+    given-names: Mine
+  - family-names: Barr
+    given-names: Christopher D.
+version: "2026.08.24.3-R011-B013"
+date-released: 2026-08-24
+license: CC-BY-SA-3.0
+repository-code: "https://github.com/KokunoYumeto/statistika-berbasis-data-id"
+url: "https://doi.org/10.5281/zenodo.22059801"
+abstract: "Edisi kerja yang belum lengkap: Bagian 3.5 Distribusi kontinu, 3 contoh, 2 latihan terpandu, EoCE 37-38, jawaban publik 37, O001 38, lima gambar PDF terlokalkan, lima produsen R sumber, satu pelokal Python bersama, sumber editable, dan backend modular Bahasa Indonesia."
+notes: "Karya turunan dari OpenIntro Statistics oleh David M. Diez, Mine Çetinkaya-Rundel, dan Christopher D. Barr. Kontributor: Codex, atas permintaan pengguna. Model: OpenAI Codex gpt-5.6-sol, Ultra."
+

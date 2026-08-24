@@ -1,0 +1,144 @@
+{
+  "$schema": "interlanguage.r011-b013-localized-figure-receipt/v1",
+  "boundary_id": "R011-B013",
+  "figures": [
+    {
+      "forbidden_visible_text": [
+        "height (cm)"
+      ],
+      "id": "fdicHistograms",
+      "localized": {
+        "bytes": 10608,
+        "path": "scratch/b013-candidate/assets/ch_probability/figures/fdicHistograms/fdicHistograms.pdf",
+        "sha256": "dd345af6e78837437855c6f8c4e3b6f1193f6165f52d9cb63aef092223781eb5"
+      },
+      "page_box": [
+        0.0,
+        0.0,
+        446.0,
+        237.0
+      ],
+      "required_visible_count": 4,
+      "required_visible_text": [
+        "tinggi (cm)"
+      ],
+      "semantic_change": "none; reader-visible axis-label localization only",
+      "source": {
+        "bytes": 10060,
+        "path": "repo/ch_probability/figures/fdicHistograms/fdicHistograms.pdf",
+        "sha256": "71302f94a80df3afbc9a82deaf7b751b822c34b4e05c0527cb00c381d2083162"
+      }
+    },
+    {
+      "forbidden_visible_text": [
+        "height (cm)"
+      ],
+      "id": "usHeightsHist180185",
+      "localized": {
+        "bytes": 6055,
+        "path": "scratch/b013-candidate/assets/ch_probability/figures/usHeightsHist180185/usHeightsHist180185.pdf",
+        "sha256": "70c184719b5d4f503efe5381db9d620631b0014946ea794a7714bd77de16f64b"
+      },
+      "page_box": [
+        0.0,
+        0.0,
+        496.0,
+        227.0
+      ],
+      "required_visible_count": 1,
+      "required_visible_text": [
+        "tinggi (cm)"
+      ],
+      "semantic_change": "none; reader-visible axis-label localization only",
+      "source": {
+        "bytes": 5777,
+        "path": "repo/ch_probability/figures/usHeightsHist180185/usHeightsHist180185.pdf",
+        "sha256": "3fc3fead04b32067b15e6863c6ad4776351e10e75955a1498dc1692141206c42"
+      }
+    },
+    {
+      "forbidden_visible_text": [
+        "height (cm)"
+      ],
+      "id": "fdicHeightContDist",
+      "localized": {
+        "bytes": 8599,
+        "path": "scratch/b013-candidate/assets/ch_probability/figures/fdicHeightContDist/fdicHeightContDist.pdf",
+        "sha256": "d06edc5d3aa0971882361aa55b95e3d8cdc7bcb0ec6fc6d0a6520748b0afbfe3"
+      },
+      "page_box": [
+        0.0,
+        0.0,
+        480.0,
+        231.0
+      ],
+      "required_visible_count": 1,
+      "required_visible_text": [
+        "tinggi (cm)"
+      ],
+      "semantic_change": "none; reader-visible axis-label localization only",
+      "source": {
+        "bytes": 8337,
+        "path": "repo/ch_probability/figures/fdicHeightContDist/fdicHeightContDist.pdf",
+        "sha256": "fc6179b789afdeca709a6ce707cf5111c71a43a3ef43e5bb42ae6a3a778d4952"
+      }
+    },
+    {
+      "forbidden_visible_text": [
+        "height (cm)"
+      ],
+      "id": "fdicHeightContDistFilled",
+      "localized": {
+        "bytes": 8879,
+        "path": "scratch/b013-candidate/assets/ch_probability/figures/fdicHeightContDistFilled/fdicHeightContDistFilled.pdf",
+        "sha256": "6bec72771ef11af7184bd997f75b0537b5c355f66b3f95d0c77f10dec2f77932"
+      },
+      "page_box": [
+        0.0,
+        0.0,
+        410.0,
+        198.0
+      ],
+      "required_visible_count": 1,
+      "required_visible_text": [
+        "tinggi (cm)"
+      ],
+      "semantic_change": "none; reader-visible axis-label localization only",
+      "source": {
+        "bytes": 8627,
+        "path": "repo/ch_probability/figures/fdicHeightContDistFilled/fdicHeightContDistFilled.pdf",
+        "sha256": "10a87bce4c78fd6708770798f471e5c91c6093d758ac0e115d772ea7853a9149"
+      }
+    },
+    {
+      "forbidden_visible_text": [
+        "Body weight"
+      ],
+      "id": "cat_weights",
+      "localized": {
+        "bytes": 4687,
+        "path": "scratch/b013-candidate/assets/ch_probability/figures/eoce/cat_weights/cat_weights.pdf",
+        "sha256": "493295b9e642e54ee0eb09fc04f6114925ed0e929778b99fae770eab2d3f0635"
+      },
+      "page_box": [
+        0.0,
+        0.0,
+        396.0,
+        309.0
+      ],
+      "required_visible_count": 1,
+      "required_visible_text": [
+        "Berat badan (kg)"
+      ],
+      "semantic_change": "none; reader-visible axis-label localization only",
+      "source": {
+        "bytes": 4416,
+        "path": "repo/ch_probability/figures/eoce/cat_weights/cat_weights.pdf",
+        "sha256": "26dd765ba632563b41e40aee564dfc1eb456e34464ae318685140729c786d72e"
+      }
+    }
+  ],
+  "license": "CC BY-SA 3.0 repository declaration; preserve source attribution",
+  "production_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "status": "PASS_EXACT_LABEL_ONLY_LOCALIZATION"
+}

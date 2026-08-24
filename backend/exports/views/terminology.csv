@@ -16,6 +16,7 @@ id,concept_id,source_term,target_term,locale,variants,rejected_forms,scope,regis
 1432184d-a18a-5ed4-bfcb-ad6b97923a50,4d456438-03ab-5e27-80c1-3f6702f14fa2,clinical equipoise,ekuipoise klinis,id-ID,[],[],research ethics,academic,draft
 1532b814-3a75-5b45-ad7f-5f1268f6b0cc,bb311d55-ff4e-5140-afd2-173b5615fa82,stratified sampling,pengambilan sampel berstrata,id-ID,[],[],sampling and study design,academic,draft
 177cbf68-0785-58e4-80c8-fdb35182931c,b6bb62cf-4420-5fed-b07e-a8b214cc0a4c,data density,kepadatan data,id-ID,[],[],histogram,academic,translated
+180dfe02-3b9a-564e-bbbb-e4b59a7fb549,1a8bdfc6-3122-5c5a-940f-40fe78cd1722,probability density function,fungsi kepadatan peluang,id-ID,"[""fungsi densitas peluang""]",[],probability / Chapter 3 Section 3.5,academic,language_reviewed
 1c9e5c1c-cbed-553e-8492-f069fe9e883e,3ce722dd-32b8-5c66-b3ae-613ebb714b1f,Venn diagrams,Diagram Venn,id-ID,[],[],probability / Chapter 3,academic,language_reviewed
 21635288-cf8f-53fe-a693-bfeef65ad1c7,76cf85fd-64f2-5d14-91dd-349923716d5a,symmetric,simetris,id-ID,[],[],distribution shape,academic,translated
 25aebea3-3b97-5d6c-8fd6-31b68d838c4b,538cb94d-65ba-51eb-8960-58e221b90da5,random variable,variabel acak,id-ID,"[""peubah acak"",""variabel random""]",[],probability / Chapter 3 Section 3.4,academic,language_reviewed
@@ -47,17 +48,21 @@ id,concept_id,source_term,target_term,locale,variants,rejected_forms,scope,regis
 4f823135-2b88-5d0d-810a-cdc17efefa6f,3ee4acb8-ee7f-51da-be6d-68438b09521d,independent,saling independen,id-ID,[],[],relationship between variables,academic,translated
 503f3159-0697-51e4-bd75-75005eee9b24,02503f9b-f161-5a95-add8-5b715d5fa1f6,relative frequency,frekuensi relatif,id-ID,[],[],categorical data summary,academic,translated
 50b8b964-b5a3-5d62-825d-8b0d980a0d9f,8964003c-1727-5182-a8d4-dc589ee0fd06,total income,total pendapatan,id-ID,[],[],loan data and figure label,academic,translated
+50d8d12e-d18d-5934-8f10-a268992a6728,716f7dd9-b47c-5656-b3ce-5c188544c5ee,continuous distribution,distribusi kontinu,id-ID,[],[],probability / Chapter 3 Section 3.5,academic,language_reviewed
 52a49e1e-60d5-5141-94e9-a4f12bf0621b,0b2168f4-1030-551b-9265-a41eaaadbbf5,independence model,model independensi,id-ID,[],[],hypothesis model,academic,structurally_verified
 53a517ff-5698-5d78-879d-ff07dc30bc4c,173ffd63-ed4d-5826-910f-46c1408aa48a,nonadherence,ketidakpatuhan,id-ID,[],[],study conduct,academic,draft
 5580d352-b8ea-5742-b8ae-477419001ac3,0771c223-9fb4-52c1-bfec-008c08696446,mutually exclusive,saling eksklusif,id-ID,[],[],probability / Chapter 3,academic,language_reviewed
+580830fe-bb70-5609-b0c4-4610dfda56a0,a81f45d4-eef9-5950-9da6-516523a1bc06,hollow histogram,histogram berongga,id-ID,[],[],probability / Chapter 3 Section 3.5,academic,language_reviewed
 58265af7-a5a6-59bc-87f4-e345f892cdd9,242b3145-5fba-5e43-a01d-3fe9c643bbfe,blind,tersamar,id-ID,[],[],experimental design,academic,draft
 588ff64b-edaf-52d9-87d7-6d5e7bbd9821,7028ecf8-e85a-5bd6-a024-9fafb00a6d9f,marginal probability,peluang marginal,id-ID,[],[],probability / Chapter 3 Section 3.2,academic,language_reviewed
 598e7d03-49d6-55bb-a810-f07253f035ac,e20e1798-bc0d-5b9b-a074-82cdf2653ca1,explanatory variable,variabel penjelas,id-ID,"[""variabel eksplanatori""]",[],variable relationship,academic,draft
 5ad3b732-0d3f-5056-9f4b-8770cdb8b86c,cac2995f-8150-5b51-9f71-4b48e4351cee,statistics,statistika,id-ID,"[""statistik""]","[""ilmu data""]",field of study,academic,draft
+5be068cc-95b5-5c89-b272-a5d293ace98b,47a4abea-ad60-5143-a7b2-a2c996b1f9f1,continuous numerical variable,variabel numerik kontinu,id-ID,[],[],probability / Chapter 3 Section 3.5,academic,language_reviewed
 5cba70e0-b824-518b-8bc1-7df3d409a3b9,908bf615-6901-5917-bfb2-8484eb8f82ee,third quartile,kuartil ketiga,id-ID,[],[],descriptive statistics,academic,translated
 5dd959f6-5155-5b5d-99c8-2ecbe74b8e8a,fbd89196-dd9e-5b95-8cea-0f11a64740cd,variability,variabilitas,id-ID,[],[],descriptive statistics,academic,translated
 5e29ec91-2598-5ece-b5fc-8bbd273c018b,9983d97c-a601-5ab2-bdc6-8912d8b7d4c2,convincing evidence,bukti meyakinkan,id-ID,[],[],evidence evaluation,academic,structurally_verified
 5e667493-259f-50cc-95cb-d990087b17f3,0ae5a7f5-56b9-5c27-8bfd-7a79492f6b3d,treatment,perlakuan,id-ID,[],[],experimental design,academic,draft
+5f16dd88-48e3-520d-9e92-a13dea692a6b,0d2da2c1-8eac-5c27-9881-3fd255930f17,density,kepadatan,id-ID,[],[],probability / Chapter 3 Section 3.5,academic,language_reviewed
 6060423f-ebe2-5595-a2ab-8edecc6942c3,6fb50407-29b2-56b8-b3de-11179ce63f9c,chance variation,variasi acak,id-ID,"[""variasi karena kebetulan""]",[],informal first-chapter explanation,accessible,draft
 621b9f98-ba2f-5891-933e-95ff377c1a26,de01b23d-0d60-59bd-9b25-4f32a389b571,experiment,eksperimen,id-ID,"[""percobaan""]",[],study design,academic,draft
 636ecd2e-bbc8-593f-b7f4-c68f6e5e8364,9f450610-5ed2-54fb-9986-95a65d980077,data matrix,matriks data,id-ID,[],[],tabular data,academic,draft
@@ -93,6 +98,7 @@ id,concept_id,source_term,target_term,locale,variants,rejected_forms,scope,regis
 94a90cd3-c5f1-5056-a190-ecd006569b1c,167c6e57-8c84-53a4-a7bb-91c682b87273,poverty rate,tingkat kemiskinan,id-ID,[],[],county data and figure label,academic,translated
 96457b1c-c253-5739-9d9f-f91db49a4ed2,e5685187-081e-58b2-97d8-93278df642d9,data,data,id-ID,[],[],general,academic,draft
 96e9543d-6cfd-586e-ba79-765324a7bffb,b2df9bb5-2dc4-53d2-9fbe-97d6119f9dad,scatterplot,diagram pencar,id-ID,[],[],data visualization,academic,translated
+9755e57b-a40c-589b-b383-e5eebf82cc71,d8df0018-7a8d-5c04-80e3-63316d05f3ea,probability,peluang,id-ID,"[""probabilitas""]",[],probability / Chapter 3 Section 3.5,academic,language_reviewed
 97fd008f-3ffa-56bd-b032-9bcd5d048ca3,701ec881-995b-5643-ad55-f870996e4579,whisker,garis kumis,id-ID,[],[],box plot,academic,translated
 9854a684-851c-5bec-8f38-0f3f9f5736a6,ac06a033-648f-5bb3-a8fe-6ade9d27d43e,survival time,masa hidup,id-ID,[],[],heart transplant figure,academic,structurally_verified
 98ccc344-2a62-52a5-adfa-1da75edf877b,064182bc-2642-5db6-bf74-9c844b1387f3,relative frequency histogram,histogram frekuensi relatif,id-ID,[],[],Avandia randomization,academic,structurally_verified

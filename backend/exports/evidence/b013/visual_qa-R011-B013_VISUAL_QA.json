@@ -1,0 +1,182 @@
+{
+  "$schema": "interlanguage.r011-b013-visual-qa/v1",
+  "boundary_id": "R011-B013",
+  "status": "PASS_ZERO_VISUAL_DEFECTS_IN_BOUNDARY_AND_TRANSITION_WINDOWS",
+  "result": "passed",
+  "recorded_at": "2026-08-24T20:45:00+02:00",
+  "production_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "scope": "Independent original-detail visual inspection of every PNG listed by the terminal B013 build receipt: preface terminology, the complete Section 3.5 boundary and transitions, EoCE 3.37-3.38, public answer 3.37, and adjacent answer pages.",
+  "build_receipt": {
+    "path": "qa/b013-build/final/CANDIDATE_BUILD_QA_B013.json",
+    "bytes": 19854,
+    "sha256": "e463ceb1dcbbbbb25e71c4d627741ca285a5532220197c55511f7b9ed18ad2e7",
+    "status": "PASS_ISOLATED_TWO_REPLAY_DETERMINISTIC_BUILD_VISUAL_AUDIT_PENDING"
+  },
+  "candidate_pdf": {
+    "path": "qa/b013-build/final/main.pdf",
+    "pages": 427,
+    "bytes": 22030847,
+    "sha256": "b190e01e6356022a4abb67fc070f46558941191606a2fb908cd94f0c3578765d"
+  },
+  "render_configuration": {
+    "format": "PNG",
+    "resolution_dpi": 144,
+    "inspection_detail": "original",
+    "directory": "qa/b013-build/review-render"
+  },
+  "inspected_pages": [
+    {
+      "page": 5,
+      "path": "qa/b013-build/review-render/page-0005-005.png",
+      "bytes": 261695,
+      "sha256": "36775fbbd63a5e49a399c747ef1a20b2dee83d4354b0bc4ab0533a891b2f4e2c",
+      "role": "preface terminology and chapter-outline witness",
+      "verdict": "PASS",
+      "finding": "The Indonesian preface is centered within the established text block; heading hierarchy, list indentation, margins, page number, and the controlled 'Distribusi variabel acak' wording are legible and unclipped."
+    },
+    {
+      "page": 128,
+      "path": "qa/b013-build/review-render/page-0128-128.png",
+      "bytes": 233794,
+      "sha256": "053b9861880cabd7c1c685cea09938a418e73146f97084e622026b363a1211db",
+      "role": "preceding B012 EoCE boundary",
+      "verdict": "PASS",
+      "finding": "Exercises 3.33-3.36 remain readable, evenly aligned, and free of clipping or overlap. The lower whitespace is the accepted end-of-section transition before Section 3.5 and does not isolate a single fragment."
+    },
+    {
+      "page": 129,
+      "path": "qa/b013-build/review-render/page-0129-129.png",
+      "bytes": 192766,
+      "sha256": "65c2a3651e77f1f85af59f2803f95760db7ff88d8d928bc542e10a1de7f26265",
+      "role": "Section 3.5 opening, Examples 3.71-3.72, and localized histogram panel",
+      "verdict": "PASS",
+      "finding": "The section banner, example rules, four-panel figure, captions, equations, and Indonesian 'tinggi (cm)' labels are sharp, centered, correctly spaced, and wholly inside the page and text margins."
+    },
+    {
+      "page": 130,
+      "path": "qa/b013-build/review-render/page-0130-130.png",
+      "bytes": 142403,
+      "sha256": "fc66b74a4e02a635acce6f7d4c84b31c8ab14f9ec604ca13db48502fe474d951",
+      "role": "localized shaded histogram and density introduction",
+      "verdict": "PASS",
+      "finding": "Both localized figures are centered and proportional; the shaded 180-185 cm region, axes, captions, subsection heading, body typography, and page header are legible with no collisions or cropping."
+    },
+    {
+      "page": 131,
+      "path": "qa/b013-build/review-render/page-0131-131.png",
+      "bytes": 246050,
+      "sha256": "7a3d43c41c20d4bd40d9c9291b3c40c9622c63eec013028948b7e3287da6f234",
+      "role": "continuous-distribution probability, Guided Exercises 3.73 and 3.75, and Example 3.74",
+      "verdict": "PASS",
+      "finding": "Equations, the localized density figure, guide/example callouts, inline answer footnotes, caption, headers, and footer area remain aligned and readable; no glyph, overlap, or page-fill defect is visible."
+    },
+    {
+      "page": 132,
+      "path": "qa/b013-build/review-render/page-0132-132.png",
+      "bytes": 229189,
+      "sha256": "5bbdc53253f5bb62baef55eb0ddbc050f6e7af2364fdf5bd5ac0785ca3bdedd9",
+      "role": "B013 EoCE exercises 3.37-3.38",
+      "verdict": "PASS",
+      "finding": "The 'Latihan' heading, localized cat-weight chart and 'Berat badan (kg)' label, income table, multi-part prompts, and source footnotes are balanced and unclipped. The remaining space is a normal two-exercise section ending before the chapter review."
+    },
+    {
+      "page": 133,
+      "path": "qa/b013-build/review-render/page-0133-133.png",
+      "bytes": 291091,
+      "sha256": "805032fa453e4068412204d7a7b18e347183f736d5eb9a66c8eaf68f16da88e4",
+      "role": "inherited Chapter 3 review opening beyond B013",
+      "verdict": "PASS",
+      "finding": "The chapter-review banner, English inherited exercises, tables, footnotes, headers, margins, and line breaks render cleanly. English here is the declared untranslated suffix beyond the B013 boundary."
+    },
+    {
+      "page": 134,
+      "path": "qa/b013-build/review-render/page-0134-134.png",
+      "bytes": 167147,
+      "sha256": "4e71dcdf5e634a92bbfcf81d08447a61ff88815aa41aff1523130b36954bfa68",
+      "role": "inherited Chapter 3 review ending and chapter transition",
+      "verdict": "PASS",
+      "finding": "Exercises 3.44-3.47, the compact statistics table, and displayed formulas are aligned and fully legible. The lower whitespace is structurally required by the following Chapter 4 title-page break and is not an orphan-page defect."
+    },
+    {
+      "page": 135,
+      "path": "qa/b013-build/review-render/page-0135-135.png",
+      "bytes": 57081,
+      "sha256": "9577dffd0d818f1aa63cbc796aca967a2886390426e03d11c1be59ca0589afaf",
+      "role": "inherited Chapter 4 title page",
+      "verdict": "PASS",
+      "finding": "The title-page composition, rule lines, chapter number, title, and section list are intentionally spacious, consistently aligned, and free of clipping. The inherited English Chapter 4 title is outside B013 coverage."
+    },
+    {
+      "page": 136,
+      "path": "qa/b013-build/review-render/page-0136-136.png",
+      "bytes": 81783,
+      "sha256": "136b5770d52cd315430285d62287b588298f0ba2ac82372cd1e288dff0bd77c9",
+      "role": "inherited Chapter 4 introduction and resource callout",
+      "verdict": "PASS",
+      "finding": "The deliberately sparse chapter-opening layout is centered and balanced; introduction rules, English inherited text, resource icons, Indonesian resource note, URL, and page number are sharp and unobstructed."
+    },
+    {
+      "page": 391,
+      "path": "qa/b013-build/review-render/page-0391-391.png",
+      "bytes": 476563,
+      "sha256": "284defa9f2513b504994f5ea061f9dfb16fb40b3a576bdf9b46852c99e0653b2",
+      "role": "answer appendix preceding B013 answer boundary",
+      "verdict": "PASS",
+      "finding": "The two-column answer typography, equations, plot, section heading, page number, and column flow are clean, aligned, and uncut at the transition into Chapter 3 answers."
+    },
+    {
+      "page": 392,
+      "path": "qa/b013-build/review-render/page-0392-392.png",
+      "bytes": 462933,
+      "sha256": "53618c6c1b689ee2cd476b41192e0199b9ffc9f8901461f26603112c7e9f1151",
+      "role": "public answer 3.37 and adjacent Chapter 3 answers",
+      "verdict": "PASS",
+      "finding": "The localized 3.37 answer is visible in source order with correct multi-part alignment. The two-column appendix, diagrams, equations, and continuation into inherited answer 3.39 are legible and neither overlap nor clip at the page boundary."
+    },
+    {
+      "page": 393,
+      "path": "qa/b013-build/review-render/page-0393-393.png",
+      "bytes": 421893,
+      "sha256": "abfdfc80329b7645532b5a3a4a9f4021053b91fd73d198b54ab0d3e477959fea",
+      "role": "inherited answer continuation beyond B013",
+      "verdict": "PASS",
+      "finding": "Answer 3.39 continues without loss and the following inherited Chapter 3/4 answers, equations, shaded plots, headers, columns, and page number remain sharp and fully within bounds."
+    }
+  ],
+  "inspection": {
+    "pages_requested": 13,
+    "pages_inspected": 13,
+    "all_listed_render_identities_exact": true,
+    "centering_and_page_fill": "PASS",
+    "clipping": "NONE",
+    "overlap": "NONE",
+    "typography_and_glyph_legibility": "PASS",
+    "localized_labels_and_figures": "PASS",
+    "equations_and_tables": "PASS",
+    "headers_footers_and_page_numbers": "PASS",
+    "section_eoce_and_answer_placement": "PASS",
+    "transition_pages": "PASS",
+    "blank_or_effectively_blank_unintended_pages": 0,
+    "remaining_findings_by_severity": {
+      "blocking": 0,
+      "major": 0,
+      "minor": 0
+    }
+  },
+  "issues": [],
+  "boundary_notes": [
+    "B013 translated coverage ends after EoCE 3.38 and public answer 3.37.",
+    "English on pages 133-136 and inherited answers beginning with 3.39 is outside the B013 translation boundary and is not counted as residue in translated coverage.",
+    "Pages 128, 132, and 134 have structurally motivated end-of-section or end-of-chapter whitespace; pages 135-136 use the source book's intentional chapter-opening designs. None strands a small translated fragment or produces an unintended blank page.",
+    "No restricted instructor solutions were accessed or invented; exercise 3.38 remains the explicit O001 companion gap."
+  ],
+  "canonical_source_mutated": false,
+  "backend_mutated": false,
+  "controls_mutated": false,
+  "release_mutated": false,
+  "git_used": false,
+  "network_used": false,
+  "publication_performed": false,
+  "admission_authorized": true,
+  "next_gate": "Bind this visual receipt into the terminal B013 backend append and guarded admission transaction."
+}

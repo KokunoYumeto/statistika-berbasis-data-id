@@ -1,0 +1,255 @@
+{
+  "$schema": "interlanguage.r011-b013-final-translation-qa/v1",
+  "asset_closure": {
+    "bytes": 6455,
+    "path": "qa/b013-assets/R011-B013_ASSET_CLOSURE.json",
+    "sha256": "aee8e115d6fdf22ee8d04ba96dc8e0283596ec9279ce08c1bd6cd979c08b362e"
+  },
+  "boundary_id": "R011-B013",
+  "candidate_files": [
+    {
+      "bytes": 8408,
+      "path": "scratch/b013-candidate/ch_probability_section_3_5_id.tex",
+      "sha256": "bf83c6246adefe3991c829bbac95bcf8c84e0f41d8aa0971e0ac8cd00a9d2ac8"
+    },
+    {
+      "bytes": 2560,
+      "path": "scratch/b013-candidate/continuous_distributions_B013.tex",
+      "sha256": "56b62ea8894708982731f0301e9c349bd39d8b78658567d9b115d0c5d7de42d4"
+    },
+    {
+      "bytes": 129,
+      "path": "scratch/b013-candidate/R011-B013_PUBLIC_ODD_ANSWERS.tex",
+      "sha256": "3e46786830b0abee53fef55be9bbfd6ff3768c1fe27542406f9a2224cd733b32"
+    },
+    {
+      "bytes": 135993,
+      "path": "scratch/b013-candidate/ch_probability_B013_source.tex",
+      "sha256": "808c3ff7245eb5f36561efff68f48f79511067b4e87e0819568bad21e642af8a"
+    },
+    {
+      "bytes": 109045,
+      "path": "scratch/b013-candidate/eoceSolutions_B013_source.tex",
+      "sha256": "a7088158d60ac8dbf9e05720d081633ffad1b829611cf90c85029fc27ca72ed6"
+    },
+    {
+      "bytes": 10080,
+      "path": "scratch/b013-candidate/preface_B013_source.tex",
+      "sha256": "e2d3dc856591ed58a4a46e5573f694fe92f9b7f65ef428da5997fa1b7a336fb9"
+    }
+  ],
+  "date": "2026-08-24",
+  "formula_qa": {
+    "display_environments": 3,
+    "display_numeric_operator_command_signatures_exact": true,
+    "inline_math_exact": true,
+    "inline_math_segments": 6,
+    "numeric_multiset_delta": {
+      "added": {
+        "26": 1
+      },
+      "reason": "B013-SC003 corrects the cat-weight alt-text fourth-bin count from 25 to 26.",
+      "removed": {
+        "25": 1
+      }
+    }
+  },
+  "model": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "mutation_boundary": {
+    "backend_modified": false,
+    "build_performed": false,
+    "canonical_repo_modified": false,
+    "release_or_remote_modified": false
+  },
+  "o001": {
+    "gap_ids": [
+      38
+    ],
+    "reason": "No public answer is supplied for the even-numbered item; no restricted instructor solution was accessed or invented."
+  },
+  "provenance": "Direct English-to-id-ID translation by OpenAI Codex gpt-5.6-sol, Ultra, acting on the user's request.",
+  "residue_qa": {
+    "forbidden_phrase_counts": {
+      "Approximate answers are OK": 0,
+      "Body weight": 0,
+      "Cat weights": 0,
+      "Continuous distributions": 0,
+      "From histograms to continuous distributions": 0,
+      "Income and gender": 0,
+      "Probabilities from continuous distributions": 0,
+      "So far in this chapter": 0,
+      "Three US adults are randomly selected": 0,
+      "What proportion of the sample": 0,
+      "height (cm)": 0
+    },
+    "inherited_english_classification": {
+      "assembled_main": "Earlier admitted/candidate material remains in its existing language state; B013 is the EOF section.",
+      "assembled_solutions": "Public solutions beginning with item 39 are beyond B013 and intentionally inherited English."
+    },
+    "intentional_source_stable_tokens": {
+      "data_variable_identifier": [
+        "height"
+      ],
+      "labels_figure_ids_and_citation_keys": "verified exactly against source topology",
+      "machine_index_keys": [
+        "data!US adult heights",
+        "hollow histogram",
+        "probability!density function"
+      ],
+      "official_name": [
+        "American Community Survey"
+      ]
+    },
+    "reader_visible_english_sentence_residue": 0,
+    "scope": "translated B013 fragments only; English elsewhere in assemblies is inherited and out of boundary"
+  },
+  "source_closure": {
+    "bytes": 3562,
+    "path": "qa/b013-source/R011-B013_SOURCE_CLOSURE.json",
+    "sha256": "5bce21fee2d5aa4fcad43a225ce3435eb723596e10e41129c29f16da46ca0f46"
+  },
+  "source_corrections": [
+    {
+      "correction": "The difference in appearance will first be discussed",
+      "handling": "translated naturally; retained only as an internal upstream-report candidate",
+      "id": "B013-SC001",
+      "source_location": "ch_probability.tex line 2226, fdicHistograms alt text",
+      "source_text": "The difference in appears will first be discussed"
+    },
+    {
+      "correction": "US adult heights (or US adults' heights)",
+      "handling": "translated naturally; retained only as an internal upstream-report candidate",
+      "id": "B013-SC002",
+      "source_location": "ch_probability.tex line 2227, fdicHistograms caption",
+      "source_text": "US adults heights"
+    },
+    {
+      "correction": "fourth bin height 26",
+      "evidence": "47 + 97 = 144 total cats, all bin counts must sum to 144, and the public answer for item 37(c) explicitly uses 26 + 12 + 15",
+      "handling": "corrected in translated alt text; retained only as an internal upstream-report candidate",
+      "id": "B013-SC003",
+      "source_location": "continuous_distributions.tex item 37 alt text",
+      "source_text": "fourth bin height 25"
+    }
+  ],
+  "status": "PASS_COMPLETE_TERMINAL_SOURCE_CANDIDATE_READY_FOR_BUILD",
+  "structural_topology": {
+    "citations_source": [
+      "cats",
+      "acsIncome2005-2009"
+    ],
+    "citations_target": [
+      "cats",
+      "acsIncome2005-2009"
+    ],
+    "data_variable_identifiers_source": [
+      "height"
+    ],
+    "data_variable_identifiers_target": [
+      "height"
+    ],
+    "figure_ids": [
+      "fdicHistograms",
+      "usHeightsHist180185",
+      "fdicHeightContDist",
+      "fdicHeightContDistFilled",
+      "cat_weights"
+    ],
+    "labels_source": [
+      "contDist",
+      "usHeights",
+      "fdicHistograms",
+      "contDistProb",
+      "usHeightsHist180185",
+      "fdicHeightContDist",
+      "fdicHeightContDistFilled",
+      "probabilityOfExactly180cm",
+      "cat_weights",
+      "income_gender"
+    ],
+    "labels_target": [
+      "contDist",
+      "usHeights",
+      "fdicHistograms",
+      "contDistProb",
+      "usHeightsHist180185",
+      "fdicHeightContDist",
+      "fdicHeightContDistFilled",
+      "probabilityOfExactly180cm",
+      "cat_weights",
+      "income_gender"
+    ],
+    "macro_counts_source": {
+      "\\Figure[": 4,
+      "\\Figures[": 1,
+      "\\begin{figure}": 4,
+      "\\begin{nexample}": 3,
+      "\\begin{nexercise}": 2,
+      "\\eocesol{": 1,
+      "\\eoce{": 2,
+      "\\footnotemark": 2,
+      "\\footnotetext{": 2,
+      "\\input{": 1,
+      "\\section{": 1,
+      "\\subsection{": 2
+    },
+    "macro_counts_target": {
+      "\\Figure[": 4,
+      "\\Figures[": 1,
+      "\\begin{figure}": 4,
+      "\\begin{nexample}": 3,
+      "\\begin{nexercise}": 2,
+      "\\eocesol{": 1,
+      "\\eoce{": 2,
+      "\\footnotemark": 2,
+      "\\footnotetext{": 2,
+      "\\input{": 1,
+      "\\section{": 1,
+      "\\subsection{": 2
+    },
+    "refs_source": [
+      "fdicHistograms",
+      "usHeightsHist180185",
+      "fdicHistograms",
+      "fdicHeightContDist",
+      "contDistProb",
+      "contDistProb",
+      "usHeightsHist180185",
+      "probabilityOfExactly180cm"
+    ],
+    "refs_target": [
+      "fdicHistograms",
+      "usHeightsHist180185",
+      "fdicHistograms",
+      "fdicHeightContDist",
+      "contDistProb",
+      "contDistProb",
+      "usHeightsHist180185",
+      "probabilityOfExactly180cm"
+    ],
+    "source_order_preserved": true
+  },
+  "terminology": {
+    "boundary_terms": {
+      "continuous distribution": "distribusi kontinu",
+      "continuous numerical variable": "variabel numerik kontinu",
+      "density": "kepadatan",
+      "hollow histogram": "histogram berongga",
+      "probability": "peluang",
+      "probability density function": "fungsi kepadatan peluang"
+    },
+    "research_repeated": false,
+    "reused_evidence": {
+      "qa": {
+        "bytes": 6408,
+        "path": "qa/b012-terminology/R011-B012_TERMINOLOGY_QA.json",
+        "sha256": "6a209eedb8e01949a0d77b16b8af348c1216ee20f34782ec6b87fde2093f22f7"
+      },
+      "terms": {
+        "bytes": 2343,
+        "path": "qa/b012-terminology/R011-B012_CONTROLLED_TERMS.tsv",
+        "sha256": "50574600ce8397a31e3be124e84d0e85565f2aa033c93ed9612ee1a57e05c713"
+      }
+    }
+  }
+}

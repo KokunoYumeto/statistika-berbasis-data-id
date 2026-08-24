@@ -1,0 +1,11 @@
+source_term	controlled_id_ID	accepted_synonyms	field_witness_observation	decision
+random variable	variabel acak	peubah acak; variabel random	The directly inspected probability textbook uses “variabel random”; the admitted edition already uses “variabel acak” in a guided exercise and “peubah acak” in the preface.	Use variabel acak as the natural, edition-consistent default; retain both witnessed variants as glossary synonyms and normalize the preface heading.
+probability distribution	distribusi peluang	distribusi probabilitas	The witness chapter heading is “Variabel Random dan Distribusi Peluang”.	Retain distribusi peluang.
+discrete random variable	variabel acak diskret	variabel random diskrit	The witness uses “variabel random diskrit”.	Use the controlled adjective diskret and the controlled head variabel acak.
+continuous random variable	variabel acak kontinu	variabel random kontinu	The witness uses “variabel random kontinu”.	Use variabel acak kontinu.
+expected value	nilai harapan	ekspektasi	The witness has the section heading “Nilai Harapan” and defines E(X) under that name.	Retain nilai harapan as the default.
+expectation	nilai harapan	ekspektasi	The same witness explicitly treats E(X) as nilai harapan or rataan.	Use nilai harapan when naming the concept; use rata-rata only for the resulting mean value in context.
+variance	varians	variansi	The witness alternates the heading “Variansi” with prose “Varians”; the admitted edition already controls varians.	Retain varians; record variansi as a synonym.
+standard deviation	simpangan baku	deviasi standar	The probability witness uses both “deviasi standar” and later “simpangan baku”; the representative statistics witness uses simpangan baku 24 times.	Retain simpangan baku; record deviasi standar as a synonym.
+linear combination	kombinasi linear	kombinasi linier	The witness directly presents Var(aX+b) and Var(X+Y), though it does not use the exact compound as a heading.	Use kombinasi linear, matching established Indonesian mathematical adjective order.
+independent	saling independen	saling bebas	The witness uses independen for random variables and the earlier probability QA records saling bebas for events.	Retain saling independen for random-variable relations; preserve saling bebas as a mathematically scoped synonym.

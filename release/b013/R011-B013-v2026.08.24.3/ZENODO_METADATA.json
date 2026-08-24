@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "title": "Statistika Berbasis Data - Edisi Kerja Bahasa Indonesia (R011-B013: Bagian 3.5 Distribusi kontinu)",
+    "upload_type": "publication",
+    "publication_type": "book",
+    "publication_date": "2026-08-24",
+    "description": "<p><strong>Rilis pelestarian yang belum lengkap.</strong> Bagian 3.5 Distribusi kontinu lengkap dalam urutan sumber, dengan 3 contoh, 2 latihan terpandu dan jawaban publik inline, EoCE 37-38, jawaban publik 37, O001 38, lima gambar PDF berlabel Bahasa Indonesia, lima produsen R sumber, dan satu pelokal Python bersama. Latihan ulasan Bab 3 setelah nomor 38 dan materi mulai Bab 4 tetap berbahasa Inggris. Tidak ada solusi instruktur terbatas yang diakses atau diciptakan.</p><p>Karya turunan dari <em>OpenIntro Statistics</em>, Edisi Keempat, oleh David M. Diez, Mine Çetinkaya-Rundel, dan Christopher D. Barr. Judul turunan: <em>Statistika Berbasis Data</em>. Bukan produk OpenIntro dan tidak berafiliasi dengan atau didukung oleh OpenIntro. Kontributor edisi Bahasa Indonesia: Codex, atas permintaan pengguna.</p><p>Model produksi: <strong>OpenAI Codex gpt-5.6-sol, Ultra</strong>. Teks dan terjemahan: <strong>CC BY-SA 3.0 Unported</strong>; hak komponen dipertahankan. Saksi terminologi internal/terbatas dan tanda terima yang memuat jalur profil tidak termasuk dalam muatan publik.</p>",
+    "creators": [{"name": "Diez, David M."}, {"name": "Çetinkaya-Rundel, Mine"}, {"name": "Barr, Christopher D."}],
+    "contributors": [{"name": "Codex", "type": "Other"}],
+    "access_right": "open",
+    "license": "cc-by-sa-3.0",
+    "language": "ind",
+    "version": "2026.08.24.3-R011-B013",
+    "keywords": ["statistika", "distribusi kontinu", "Bahasa Indonesia", "open textbook", "OpenIntro Statistics", "R011", "partial release"],
+    "related_identifiers": [
+      {"identifier": "https://github.com/OpenIntroStat/openintro-statistics/tree/fee25091fb24e89c36296fd67c48c1fcf7a93b6e", "relation": "isDerivedFrom", "resource_type": "software"},
+      {"identifier": "https://www.openintro.org/book/os/", "relation": "isDerivedFrom", "resource_type": "publication-book"}
+    ],
+    "notes": "Reader-first partial working edition. Model: OpenAI Codex gpt-5.6-sol, Ultra. Exact component rights are preserved in the included manifests."
+  }
+}
+

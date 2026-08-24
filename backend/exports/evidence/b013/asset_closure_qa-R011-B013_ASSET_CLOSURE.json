@@ -1,0 +1,141 @@
+{
+  "$schema": "interlanguage.r011-b013-asset-closure/v1",
+  "assets": [
+    {
+      "id": "fdicHistograms",
+      "localized_pdf": {
+        "bytes": 10608,
+        "path": "scratch/b013-candidate/assets/ch_probability/figures/fdicHistograms/fdicHistograms.pdf",
+        "sha256": "dd345af6e78837437855c6f8c4e3b6f1193f6165f52d9cb63aef092223781eb5"
+      },
+      "publication_disposition": "include_subject_to_attribution_and_brand_exclusion",
+      "rights_evidence": "authority/CORPUS_COMPONENT_CLOSURE.csv",
+      "rights_resolution": "CC-BY-SA-3.0-repository-declaration",
+      "semantic_change": "none; reader-visible axis-label localization only",
+      "source_generator": {
+        "bytes": 2027,
+        "path": "repo/ch_probability/figures/fdicHistograms/fdicHistograms.R",
+        "sha256": "7449af21b034360dae797b277fd0e4b660dbd96db47243c5dd0b8ad70f69c277"
+      },
+      "source_pdf": {
+        "bytes": 10060,
+        "path": "repo/ch_probability/figures/fdicHistograms/fdicHistograms.pdf",
+        "sha256": "71302f94a80df3afbc9a82deaf7b751b822c34b4e05c0527cb00c381d2083162"
+      }
+    },
+    {
+      "id": "usHeightsHist180185",
+      "localized_pdf": {
+        "bytes": 6055,
+        "path": "scratch/b013-candidate/assets/ch_probability/figures/usHeightsHist180185/usHeightsHist180185.pdf",
+        "sha256": "70c184719b5d4f503efe5381db9d620631b0014946ea794a7714bd77de16f64b"
+      },
+      "publication_disposition": "include_subject_to_attribution_and_brand_exclusion",
+      "rights_evidence": "authority/CORPUS_COMPONENT_CLOSURE.csv",
+      "rights_resolution": "CC-BY-SA-3.0-repository-declaration",
+      "semantic_change": "none; reader-visible axis-label localization only",
+      "source_generator": {
+        "bytes": 2183,
+        "path": "repo/ch_probability/figures/usHeightsHist180185/usHeightsHist180185.R",
+        "sha256": "6df61ecabebe217529c78cba339182d529e9103dff71ea5f614aa11de3793509"
+      },
+      "source_pdf": {
+        "bytes": 5777,
+        "path": "repo/ch_probability/figures/usHeightsHist180185/usHeightsHist180185.pdf",
+        "sha256": "3fc3fead04b32067b15e6863c6ad4776351e10e75955a1498dc1692141206c42"
+      }
+    },
+    {
+      "id": "fdicHeightContDist",
+      "localized_pdf": {
+        "bytes": 8599,
+        "path": "scratch/b013-candidate/assets/ch_probability/figures/fdicHeightContDist/fdicHeightContDist.pdf",
+        "sha256": "d06edc5d3aa0971882361aa55b95e3d8cdc7bcb0ec6fc6d0a6520748b0afbfe3"
+      },
+      "publication_disposition": "include_subject_to_attribution_and_brand_exclusion",
+      "rights_evidence": "authority/CORPUS_COMPONENT_CLOSURE.csv",
+      "rights_resolution": "CC-BY-SA-3.0-repository-declaration",
+      "semantic_change": "none; reader-visible axis-label localization only",
+      "source_generator": {
+        "bytes": 1962,
+        "path": "repo/ch_probability/figures/fdicHeightContDist/fdicHeightContDist.R",
+        "sha256": "6d5905c21c60139f66057bb989b029ada2dd8336d3ca5fcc79d6ab07edf8348e"
+      },
+      "source_pdf": {
+        "bytes": 8337,
+        "path": "repo/ch_probability/figures/fdicHeightContDist/fdicHeightContDist.pdf",
+        "sha256": "fc6179b789afdeca709a6ce707cf5111c71a43a3ef43e5bb42ae6a3a778d4952"
+      }
+    },
+    {
+      "id": "fdicHeightContDistFilled",
+      "localized_pdf": {
+        "bytes": 8879,
+        "path": "scratch/b013-candidate/assets/ch_probability/figures/fdicHeightContDistFilled/fdicHeightContDistFilled.pdf",
+        "sha256": "6bec72771ef11af7184bd997f75b0537b5c355f66b3f95d0c77f10dec2f77932"
+      },
+      "publication_disposition": "include_subject_to_attribution_and_brand_exclusion",
+      "rights_evidence": "authority/CORPUS_COMPONENT_CLOSURE.csv",
+      "rights_resolution": "CC-BY-SA-3.0-repository-declaration",
+      "semantic_change": "none; reader-visible axis-label localization only",
+      "source_generator": {
+        "bytes": 2723,
+        "path": "repo/ch_probability/figures/fdicHeightContDistFilled/fdicHeightContDistFilled.R",
+        "sha256": "5522ddf2732daa0decff71ae84b0cbf0170d15031312f22198f68ddeb8dbf397"
+      },
+      "source_pdf": {
+        "bytes": 8627,
+        "path": "repo/ch_probability/figures/fdicHeightContDistFilled/fdicHeightContDistFilled.pdf",
+        "sha256": "10a87bce4c78fd6708770798f471e5c91c6093d758ac0e115d772ea7853a9149"
+      }
+    },
+    {
+      "id": "cat_weights",
+      "localized_pdf": {
+        "bytes": 4687,
+        "path": "scratch/b013-candidate/assets/ch_probability/figures/eoce/cat_weights/cat_weights.pdf",
+        "sha256": "493295b9e642e54ee0eb09fc04f6114925ed0e929778b99fae770eab2d3f0635"
+      },
+      "publication_disposition": "include_subject_to_attribution_and_brand_exclusion",
+      "rights_evidence": "authority/CORPUS_COMPONENT_CLOSURE.csv",
+      "rights_resolution": "CC-BY-SA-3.0-repository-declaration",
+      "semantic_change": "none; reader-visible axis-label localization only",
+      "source_generator": {
+        "bytes": 558,
+        "path": "repo/ch_probability/figures/eoce/cat_weights/cat_weights.R",
+        "sha256": "a75b51a6117a7f954dce45479b042d8f96477a7ae5c9c079f1048a6765757a0e"
+      },
+      "source_pdf": {
+        "bytes": 4416,
+        "path": "repo/ch_probability/figures/eoce/cat_weights/cat_weights.pdf",
+        "sha256": "26dd765ba632563b41e40aee564dfc1eb456e34464ae318685140729c786d72e"
+      }
+    }
+  ],
+  "boundary_id": "R011-B013",
+  "component_rights_closure": {
+    "bytes": 452295,
+    "path": "authority/CORPUS_COMPONENT_CLOSURE.csv",
+    "sha256": "e247016cd63f3ff04e82991298cd793e6cd42e7c1abcd1288e86f39c2aa8249e"
+  },
+  "date": "2026-08-24",
+  "deterministic_replay": {
+    "byte_identical": true,
+    "localized_preview_directory": "qa/b013-assets/localized-preview",
+    "runs": 2,
+    "source_preview_directory": "qa/b013-assets/source-preview",
+    "visual_inspection": "PASS_ZERO_VISIBLE_LABEL_OR_LAYOUT_DEFECTS"
+  },
+  "license": "CC BY-SA 3.0 repository declaration; preserve attribution and branding exclusions",
+  "localization_producer": {
+    "bytes": 8857,
+    "path": "qa/b013-assets/localize_figures_b013.py",
+    "sha256": "525b643ad97e925f8397d07701cfdb552a196d55d86c4b5e19813f8788953ef4"
+  },
+  "localized_receipt": {
+    "bytes": 4545,
+    "path": "qa/b013-assets/R011-B013_LOCALIZED_FIGURE_RECEIPT.json",
+    "sha256": "7f4fe802268f8af97447fb0abb09825f84f86ae5179a2bc0fd86d11b2efca106"
+  },
+  "status": "PASS_COMPLETE_DIRECT_ASSET_RIGHTS_AND_LOCALIZATION_CLOSURE"
+}

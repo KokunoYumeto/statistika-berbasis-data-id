@@ -1,5 +1,6 @@
 id,relation_type,from_id,to_id,qualifier,order
 002d00a7-9ef3-5bd3-884e-91425ae0d4b5,localizes,6cd7decc-0f9b-5cd5-b358-0ea4b2df2206,99f8c42c-33e3-534c-8107-87397904a03a,id-ID terminal localization,126
+0040aaa3-11d1-53f0-be12-dd70b26c2403,produces,86c70769-65c3-5032-ad68-8c35a059e0fe,d0ae6f9b-d896-5f01-ba4b-9dfe4ad9ecda,deterministic localized figure/producer pair,80
 007c7db1-13a6-5847-baf4-d045c84b3efa,contains,52bf0186-4674-569a-b8c7-783489172959,2f165309-bbfe-5e5d-8291-127fd5edacf7,unit contains source segment,130
 00bdf767-35d4-59ef-beba-71be09d91002,localizes,13702f1d-c113-52f1-9b83-4b808647daa7,b4885c3b-2061-5a17-89a3-83fc0732cef9,terminal id-ID localization,131
 00fc738c-a652-536e-b436-54232f5a8037,exercises,3f62bfe2-5a2e-5441-86ab-c703b5da5e32,534b83d0-a5d0-573a-987d-f2e6634f18ed,chapter review concept index,5
@@ -41,6 +42,7 @@ id,relation_type,from_id,to_id,qualifier,order
 06a67342-99da-565b-adf3-dfdb09ba6410,contains,6cdc5305-7872-5fcc-b9b1-267950977dbe,23cf850c-f093-503a-9a95-3d9bcd433b7c,,1
 06d9d23a-c0b9-58d4-af2b-49eac6802a38,introduces,17acf038-9821-5e3d-9ffa-1526fab12218,9b116943-243d-590b-8777-a7d4e3b7fd33,Section 2.1,94
 06dd73b6-7d90-5bea-ae98-b8b009721167,contains,193a93a2-5f42-56b5-a579-7a4c8b028e6d,1ccdac4a-c69d-5ebf-8b8d-b67e18622d11,B010 source order,25
+070af6cc-7e9f-52c4-a93b-3c17e0cbeb71,lexicalizes,5be068cc-95b5-5c89-b272-a5d293ace98b,47a4abea-ad60-5143-a7b2-a2c996b1f9f1,terminal B013 terminology,50
 0723f9db-8d08-5786-915b-ee31b19476b9,localizes,df55a464-3082-5d0b-b7eb-a91169dead87,2b151983-28cb-5ce5-85b2-8037916ffff9,id-ID candidate localization,179
 078f6a6f-74b6-54cc-aba7-707daaffca36,contains,b23f3ca2-973a-561f-8d7b-0808ca9315e8,4a3973ff-5ada-5171-b55f-5dd0783c3cde,,4
 07ca3925-eaff-5845-99ee-26577a402355,contains,aa6de920-293e-53d9-bae5-bdb90e35f8f4,05ed1aa2-8201-50ff-8cb7-893d51314da9,,7
@@ -66,6 +68,7 @@ id,relation_type,from_id,to_id,qualifier,order
 0b1f2173-72a6-5d0e-99f2-528839cda331,contains,d7152df1-4a80-5da4-a8ca-ed4e11e85af0,bafc762b-769e-5379-a396-6eb4dbfd7857,,1
 0b2dab22-0730-5110-98c7-27f727097f54,contains,6a382e37-fe07-52b9-8dd9-e399f6b64cec,b07242e1-14c2-5194-89dd-4c4f5d3fa1f0,B011 source hierarchy and order,24
 0b9a9a99-d483-5cc5-9221-b1d7f3974878,prerequisite,d1db6444-a2a0-53bc-add5-e9d5991d65b2,b6bb62cf-4420-5fed-b07e-a8b214cc0a4c,conceptual,1
+0b9c791f-ea01-59ea-a905-77996da1762b,documents,48dd585e-5686-5862-b7fc-a1550b9cd4ad,b9823605-b359-533a-9cb9-84628fa32225,exact B013 evidence,110
 0c16e5b5-a54f-5185-8f7c-b249c872b967,contains,193a93a2-5f42-56b5-a579-7a4c8b028e6d,934f478e-1372-5c73-9c65-90094a7a5d9a,B010 source order,29
 0c3210b9-4945-5e8d-91f9-256197514538,has_public_answer,44b85273-e757-59b5-85c9-11547f246ae1,dd8d8e77-b7eb-5286-bf06-75098ab768d6,public upstream answer,159
 0c4a337d-2300-5f61-81ac-3ce346fb4c14,exercises,15e82d16-af8c-5c5f-900d-1e15be6b7e41,744f1908-fee6-5f95-957e-eed201c22687,concept index,4
@@ -101,6 +104,7 @@ id,relation_type,from_id,to_id,qualifier,order
 10676025-4f88-5d37-812d-d66355dbce93,validates,5504b0fc-e7dc-5c79-81a8-3bf3bf45f633,b796373f-e409-550e-a27f-eebaf5b4ebe8,typed B009 QA event,246
 106b31f9-b048-5780-8211-409ca0d76a05,illustrates,e78c331d-dfe8-5170-9306-b8c64861e3b2,8b9932bf-3164-5e36-a64a-304ae1894c90,canonical reader-visible id-ID Section 2.3 asset,1
 107a0208-97af-541c-8515-bb70d83244c9,exercises,2967fbd0-7fb9-5e4c-9c33-436c98c436bd,d1db6444-a2a0-53bc-add5-e9d5991d65b2,concept index,1
+10800732-a115-569d-89f4-c0ad66c0f625,contains,4c8457ff-0769-59f0-9a0d-040a50fb107c,c09da265-b413-5a84-9311-0f0890ec02d1,unit contains exact source segment,19
 10e53b1e-3588-53af-a4ac-42badb444822,localizes,ddcaebf3-5fed-5eca-99f6-f828825e5009,e9c01503-28e6-5163-a080-e1958f0403d8,terminal id-ID localization,133
 1118b0a3-d1cf-5aac-bbd4-348b67ed2d5d,contains,193a93a2-5f42-56b5-a579-7a4c8b028e6d,3317c057-e51f-5e98-a14d-08cb1d5ad72a,B010 source order,31
 11453754-36b7-5e76-a97c-43d84d73592f,localizes,2ff531f0-de2d-5ccb-8d04-e1235e9f1cb1,9a1e140e-2ab0-5848-8777-d833a4c3494d,id-ID terminal localization,94
@@ -115,9 +119,12 @@ id,relation_type,from_id,to_id,qualifier,order
 128110d0-2a9d-5007-b8d2-0609e8fb2727,contains,f03bc0fc-6c96-5db2-8d50-46b2ac141f2b,f86e5215-7329-54e1-a609-a0cc647248de,unit contains source segment,103
 129be054-3aa0-5c60-aa15-2245c558306e,has_edition,29f05532-1fa2-599f-a51b-2975465c7684,b9823605-b359-533a-9cb9-84628fa32225,,1
 12a2508e-23b7-52dc-8ee0-5ea83892192a,exercises,8c1f82f6-34a3-53be-9da6-0fa74df91111,d1db6444-a2a0-53bc-add5-e9d5991d65b2,concept index,1
+12b6e011-e4c4-593c-a3b8-d04f1a446a7a,documents,5f31e6ff-d259-572a-9bb5-035eeafa1f86,b9823605-b359-533a-9cb9-84628fa32225,exact B013 evidence,93
 12def980-0844-581f-bb1f-2789625b3340,contains,7c6f18a3-f953-577e-a859-eda10519975c,9cf167d5-4320-5a32-b56f-605c6e7ff489,,3
+12e7d678-ee8d-5d11-8bc7-ff7ca81a912f,contains,ceab8500-f0e6-5a98-bdb3-4007e44800d9,8ccc592a-0fd2-5818-ad03-5dd7295f09ab,unit contains exact source segment,21
 13129896-b191-5212-ae55-f4d2339431fe,contains,38d29400-2764-5109-a7fd-d245c7e52b17,76494447-2b5b-55a0-acf9-028b903fa8cb,,19
 13241975-f354-5b54-b39f-7af43896a4c2,contains,38d29400-2764-5109-a7fd-d245c7e52b17,38dacc66-f01c-540b-90f2-0877ee9a1271,,23
+136b3a4c-3ca9-546b-a0b7-081b04a510ce,covers,4c8457ff-0769-59f0-9a0d-040a50fb107c,a81f45d4-eef9-5950-9da6-516523a1bc06,Section 3.5 concept index,55
 138cd87b-926f-55cf-949e-83d6e549d60e,prerequisite,7b6b82c2-0367-5b4d-bb75-643f3165be28,d3c85f75-5577-52b4-b81d-2dc426ed815d,conceptual,1
 13a78b85-8dbf-5eaa-ad3b-3cc742b17a97,contains,ec3b569a-6059-551c-9ddb-937edfb55960,2187f81d-e800-543b-af70-139c9763fd9c,,1
 13b18a71-f3d9-580d-9ae4-4a948721b5cb,validates,f0a84fab-d592-57f8-b861-5a14e186bdbc,7d48bc60-4d67-56d5-b740-f54b3994a1ee,typed B012 QA event,220
@@ -125,8 +132,10 @@ id,relation_type,from_id,to_id,qualifier,order
 13f66daf-b3d4-5aa6-a410-85d11167aae3,adapts,e27c147b-1293-5a61-97b9-b7413db1ac66,6ffddf14-4999-5b38-baa0-0e64f0e01f40,canonical presentation localization; Avandia also carries explicit N=1000 correction,1
 13f6fe9f-51ac-55ff-8af3-1530477582c4,covers,697eee11-37f2-5f2e-8492-16a070ccd069,c67dba19-84f0-5b64-b955-58d15000bd0d,Section 3.1 concept index,216
 14272800-b648-5a57-b952-aacb365e096e,contains,3f62bfe2-5a2e-5441-86ab-c703b5da5e32,68138640-5539-5a89-80d4-785b043887c7,translated prompt,1
+1437fa47-7b51-5274-9b09-9e4d531e2857,corrects,19b6190a-3493-57bb-b160-4ea2d511ca71,4c8457ff-0769-59f0-9a0d-040a50fb107c,typed source accessibility correction,122
 14413891-49f7-5cc2-896f-bc03ad4bef13,embodies,33dadcf3-c16a-5e5c-818f-038790125697,aa6de920-293e-53d9-bae5-bdb90e35f8f4,direct Section 2.1 dependency,0
 144df0a3-f711-5873-8b14-cc34f1d9ebd6,lexicalizes,c4f2916d-bdcc-5c84-963b-e868682dd091,57f61578-d4ed-5129-9078-4e82e033277c,id-ID controlled terminology,4
+146cca78-dcf3-57d0-b32d-f6990396e1a7,documents,e65b3a8a-b543-5aa5-adf1-128117a5eb10,b9823605-b359-533a-9cb9-84628fa32225,exact B013 evidence,90
 14bd3827-3442-5b57-94c5-709a5a2c2925,documents,156cf866-6c14-5de4-a5d4-88ff1cb4d3d9,b9823605-b359-533a-9cb9-84628fa32225,exact B012 evidence,218
 14cdd68b-f6b7-5520-8d91-74b7f90a7d63,contains,f7d2045e-5e64-539c-9a77-881a363a8baf,182f6700-e0da-5bf6-bbf5-310ba0df1d35,,1
 14cfa3da-f331-5c5c-8d3e-63c01012bbdf,translates,fcefba29-842d-5996-b35d-778711423e2e,59f6d671-5986-5bdf-bffa-35d67253c853,exact canonical id-ID target span; backend nonadmitted,1
@@ -152,6 +161,7 @@ id,relation_type,from_id,to_id,qualifier,order
 1723bb24-87cc-5dcd-9fb7-6866ac294886,introduces,79b67f35-3460-585e-b91d-f1c7f8a7662f,6935d7b2-c75d-581a-9d05-61fe84151ba0,Section 2.2,125
 17303855-69c8-51f3-9750-9b450710ff56,illustrates,d49438a9-882f-5a4a-a00a-ea181a65340f,cf7a2c60-ae2b-561a-983a-401900ec14f8,canonical reader-visible id-ID asset,6
 174c1fff-addd-560c-9c77-c6f8c71e09c7,contains,a485ca16-e7af-5fc9-a661-2481b3a87b29,4e433fc3-72d5-5511-b8fa-f671182f898f,B012 hierarchy,20
+17581d30-82df-5540-904f-d41e5b05e58f,contains,f37d178c-b60a-52c7-b3a1-5689a49e4a32,c0d8b725-a438-563b-b069-2b3e503069f8,unit contains exact source segment,37
 17605bf9-27f8-5d1b-8027-4b45fba50037,localizes,73decbdd-87a7-5072-9407-fd7727ce2727,9bdecdc8-8f32-5cb8-94b1-ba2c3ba3c536,terminal id-ID localization,69
 17817520-c0ad-59c1-ae03-46ee6fc54d20,answers,8f0807ed-49cf-58cd-829e-096e53f1df1c,76494447-2b5b-55a0-acf9-028b903fa8cb,public_appendix,1
 178ff5f8-f3e2-5565-bb44-4b2aa199ec7c,introduces,ca6367c4-15b1-502f-9fa9-3f7229c912ee,8964003c-1727-5182-a8d4-dc589ee0fd06,Section 2.1,117
@@ -160,6 +170,7 @@ id,relation_type,from_id,to_id,qualifier,order
 17ce4c6b-2b3e-5fd4-8eca-7d68b6d26e83,validates,82884b8e-30b5-5490-89c0-7584fa9a461f,d80b345f-7d33-5235-b847-541d8e4754ef,typed B011 QA event,124
 17dc9e72-f349-5e34-b622-8e885f1fd7ca,depends_on,950b9119-5f57-51a6-a4c8-663e71fc4e97,d3181627-d084-55a0-bbef-b65279ec8f62,localized producer candidate and deterministic PDF derivation are both retained,259
 17f42611-70cc-56eb-a5a2-a24bc9f5f272,exercises,4b6d3a80-1d24-55b9-84dd-6d4068279d00,d1db6444-a2a0-53bc-add5-e9d5991d65b2,concept index,1
+184c2735-c888-517c-b465-59cdfede05d3,contains,4c8457ff-0769-59f0-9a0d-040a50fb107c,9d9ea627-b125-5cde-aa16-53c992fe078d,unit contains exact source segment,35
 18573033-96c8-530e-9653-a065013ad67b,localizes,2d765d98-25f9-5631-9422-fdbdc074f133,3a3f1429-cf39-5e9d-9923-2ffaeb2e7557,id-ID terminal localization,42
 1882ed96-5dd8-532d-8370-057ba05e6cd2,contains,c9faaa37-1ac5-54ae-b62f-1556d2b63374,a10d1176-5b95-56e2-8941-573322a79e39,,2
 18949025-4058-53df-b27f-417a0160ead4,introduces,b4cd26a2-3443-5b4d-9a38-f2d9766ae10a,e5fd01c5-ba33-5c11-8054-6d191fc66639,Section 2.1,104
@@ -185,6 +196,7 @@ id,relation_type,from_id,to_id,qualifier,order
 1cb78b4b-295b-5cfa-88b7-e367ae06d35f,covers,a485ca16-e7af-5fc9-a661-2481b3a87b29,ee859f84-8ccf-53e3-a464-cc2203fd915f,Section 3.4 concept index,169
 1d12db2a-c9f0-5aa0-a669-aaf7ecdf28b7,exercises,8a23e856-49af-570b-8460-82f99ced2ef0,d1db6444-a2a0-53bc-add5-e9d5991d65b2,concept index,1
 1d1320a4-2403-572f-ba5c-87857fc0d3b1,produces,6ffddf14-4999-5b38-baa0-0e64f0e01f40,128714c4-5b59-573a-8995-4c488452e669,pinned authority producer,1
+1d16e775-7abd-5f63-99da-64e30cb94fff,contains,4c8457ff-0769-59f0-9a0d-040a50fb107c,11796fc0-4792-55b4-b51f-e02d6287afa0,B013 hierarchy,9
 1d40c789-e372-59d8-aad8-e2a7f6eb9a47,depends_on,49ca843c-e79c-5858-96ba-34396dd18ae6,ba420651-d079-5afa-9132-12b61a0af23a,reader-visible localized figure,1
 1d9af983-9915-5678-a0b6-5e763c2d3d51,uses_asset,a485ca16-e7af-5fc9-a661-2481b3a87b29,2517863d-5391-5453-90d5-0a50393c0870,B012 figure/code/data closure,182
 1d9c6503-454f-528e-b6be-ad7ec76ee1c6,prerequisite,e5fd01c5-ba33-5c11-8054-6d191fc66639,cd2ae8e8-54a8-5158-ad35-31fbdecc52c7,conceptual,1
@@ -192,12 +204,14 @@ id,relation_type,from_id,to_id,qualifier,order
 1db4c045-64fb-5914-9eab-523d7e58d2c6,contains,ad088d84-2be6-5f62-9470-ee5552968ec1,e469005d-7009-5632-a36c-8d1deb3607e8,unit contains source segment,119
 1de5f0d3-41ee-5ad5-91b9-339dfc46323e,verifies,285454df-b4e5-5ca8-a2e7-6993e5a33122,de7e07a2-78fc-5028-8b20-4dd87bf60e91,two byte-identical replays and visual PASS,0
 1dfb78cf-61d5-5c2e-9247-b58e5807188c,lexicalizes,31082fff-22c0-5d60-90bd-ed7ed9ced310,ac2a4487-23dc-53d8-b610-b7e17d9287b0,terminal B012 terminology,174
+1e092fe7-c55a-5377-8417-62a68cafd189,answers,cf00ae23-f06e-5c82-8ebe-638b9820c621,f37d178c-b60a-52c7-b3a1-5689a49e4a32,public upstream answer,45
 1e2332bd-e19a-58c1-a6a8-38c4dca42774,contains,ef7f55d2-6426-5c6b-a525-29e747da8d0b,cd65f04f-a114-55e7-b4ff-4643fd1601e5,,31
 1e27e83c-32fd-5346-a716-d2d71847759a,contains,dc37ddab-3474-5bc3-93ae-09eb173ec6f6,0592a4cd-dc6d-5ca9-9e13-7009e554810d,unit contains source segment,136
 1e513a0f-a492-5994-bd3c-b2178fe6af74,verifies,342c2dd5-2a34-56c0-85f8-448c2df61ee0,ffc8e55c-68f9-53d4-9cb2-5abe7d34ab5d,Poppler and MuPDF same-renderer pairs; deterministic replay,1
 1e561d36-17fb-5248-9fab-4260d563b887,contains,40116ec4-9cb8-5f8f-95bb-1f397c042240,0eab55c9-522a-5000-bd4a-a075c7f50ec5,unit contains source segment,94
 1e80cf96-3440-5ec0-8146-a2a0e8bf7773,exercises,089a1c0f-be6b-55c7-889c-45c6aa156692,77650911-967b-5348-96e1-4400d431e18e,chapter review concept index,3
 1ed832a2-adfe-5ee8-aff8-5ebebec91cd5,contains,5d52d2c3-518e-5fb4-9993-fc3cb99829f2,6cf76de5-ad58-56a0-8ae3-941bf2616c52,B010 source order,14
+1f0c11a5-0f5b-5480-9b1a-afee18fe8cf2,answers,b4e4f4b2-ec1c-5ccf-99e3-98cb2c136922,11796fc0-4792-55b4-b51f-e02d6287afa0,public inline answer,44
 1f0e28dc-da90-5775-bfdb-e456745616a4,has_companion_gap,470c3927-0fbc-5034-9d45-fbf0ba065727,e4ec9d68-2046-5d31-a3f4-779873497a5e,O001 restricted-answer gap,162
 1f1b9472-9cbe-579f-b6d4-b456d43fa126,requires_companion_answer,65551ca9-43d7-5ff5-957c-31dfc67eb47a,938ff02b-f218-5723-8aaa-2fc3711a7157,O001 independent original,16
 1f49a2e2-3978-5e25-93e3-e643cef7d2a4,contains,697eee11-37f2-5f2e-8492-16a070ccd069,40c6efec-8d75-5c57-a51b-ee316ebc5f0c,B009 source order,33
@@ -208,6 +222,7 @@ id,relation_type,from_id,to_id,qualifier,order
 1fd5eb95-8ce1-511e-8e41-e455c984b75a,lexicalizes,a67d295c-efa5-58d6-a151-9a5474a48ada,0b69cd38-cf6f-5cca-a5ec-2e1b5f80d131,candidate id-ID terminology,197
 1fe21c2a-9073-59f4-903f-394d1786f673,embodies,2dc5579b-c572-52a6-b9db-db2caf0c95db,8a23e856-49af-570b-8460-82f99ced2ef0,exercise-2.4-figure-1,0
 1ff12490-6121-5032-912e-2021f59868bc,contains,ddf6486c-36cf-5b4d-8978-667c8e4f60da,3c13e4ec-802d-5481-9f06-1accf29c1e35,B012 hierarchy,31
+202109a1-d61e-5b50-b2a8-2ce8b7e6313a,documents,bfc33074-baeb-5041-b9b5-f15f1c4b9b37,b9823605-b359-533a-9cb9-84628fa32225,exact B013 evidence,104
 20433137-d253-50dd-8ad9-e5e3d0fb237f,prerequisite,d02ad5e2-bbe4-5912-b181-e8123916d48e,c5109902-f56d-56a5-919f-e24c141240c0,conceptual,1
 20517b05-8417-5197-b731-8577932dfbf5,documents,b1efeab4-6c5c-5f76-b5a3-c417f0fe4620,b9823605-b359-533a-9cb9-84628fa32225,exact isolated B011 evidence,101
 205bba1a-9bf8-5165-b4e3-28e75c461de6,contains,748801d5-dff8-5970-9094-9b6e46cc74b3,e1c74ee9-395b-596f-bd77-fb71fc4c1f8c,unit contains source segment,113
@@ -217,6 +232,7 @@ id,relation_type,from_id,to_id,qualifier,order
 212dca8c-a2dc-5de7-9291-2aa3f8a4f5e0,exercises,464e9807-e94f-510e-8157-c2c60c345df9,3ee05ce5-34a2-50e0-8414-5488d45e4e15,concept index,2
 21438450-954e-50be-9702-11546993cc11,contains,0fa1975d-b6d4-524e-b068-1cdf25486aac,f0e7ea2d-2d5b-588f-9c7b-68b29f472d20,B011 source hierarchy and order,16
 21446113-aa9c-5288-a353-9dc6404ea400,contains,a485ca16-e7af-5fc9-a661-2481b3a87b29,7ba09482-96b7-53d1-8e41-f46b74e44456,unit contains exact source segment,58
+21621fed-b105-5777-8847-94809712efcc,documents,3e978545-fa72-505d-a849-66c62d3b60c0,b9823605-b359-533a-9cb9-84628fa32225,exact B013 evidence,103
 218803e3-746b-5f5d-8f57-609a7cf45784,introduces,38d29400-2764-5109-a7fd-d245c7e52b17,17f59434-f100-5747-b564-f9759d39ffe0,,13
 219b03a7-b596-58af-9466-468d3d786609,supports,feef2c88-1e7d-5267-9d7c-7c5cee518693,108fb25f-124d-5207-ad62-c21b11efb8fb,reader-visible B009 asset lineage,257
 219f113c-862c-5a3e-a2dd-084653bfe42b,introduces,38d29400-2764-5109-a7fd-d245c7e52b17,836d2b2b-d7a7-56ea-91d6-19bd78c63b1c,,5
@@ -226,6 +242,7 @@ id,relation_type,from_id,to_id,qualifier,order
 22453d3c-85db-5441-af36-149d78c37132,contains,4d283c50-161a-5cc0-983b-b7fa7c39ae0f,2553ef43-3ccf-5ccc-b44e-b190ea8c6ef3,unit contains source segment,145
 22862a27-9f16-57e2-80f3-d904753cb3ad,documents,cd8ec3e8-051f-51d7-8241-50eb5bce2350,b9823605-b359-533a-9cb9-84628fa32225,exact isolated evidence,194
 228e5784-6262-5643-afa9-439910740517,answers,8759fdd7-08ec-51f2-8f2d-655e40548142,97422792-2010-5ea8-9616-b1f55c20cdf6,public appendix,29
+22bc02a1-7d78-5258-ab57-630abab04cbc,validates,4c2a91e7-b412-5096-8583-97149af100b2,5b52cd68-cb09-5562-b6e5-2b723318c3cb,typed B013 QA event,111
 22d191da-0ded-5534-9b97-695ed42c0c78,contains,cda64c06-7961-5028-afbc-01956ce7d61c,32fa00df-613b-5933-8eda-622980c61eba,,22
 22d939ed-f80c-5bcd-ac40-8c622fcf7f5c,verifies,342c2dd5-2a34-56c0-85f8-448c2df61ee0,3bcd6778-7a56-5daa-a4fc-e85f0b4a9f91,Poppler and MuPDF same-renderer pairs; deterministic replay,1
 22dca973-e094-5ae9-9ecf-4950a93cca32,introduces,38d29400-2764-5109-a7fd-d245c7e52b17,af8dd830-2b94-51f6-8237-8b68232398d9,,8
@@ -233,6 +250,7 @@ id,relation_type,from_id,to_id,qualifier,order
 22e9f33c-6cb8-53f9-a372-d4378b3cf91b,answers,aa0c130d-cb84-5a06-b650-6dc25cefd73c,e6eef250-171b-5467-b369-df0a8ef36623,public_appendix,1
 22ed13f7-03ca-59d7-a1c3-00b882660380,contains,a1826e03-0981-5650-8830-88dc2ad8b719,f0a39f9e-82ec-5b2b-afe4-69c440b8db46,unit contains source segment,83
 23010e76-7f6a-51a0-bae6-1421e5c2cb3f,contains,91fc3301-cb1f-55c9-be90-4bcb58dca050,f420613b-16ba-5da1-a8a8-6e5b2cf9ccb9,,1
+2303a76f-3bc8-56cc-b029-1dc6f1825153,localizes,1edbb76c-6fae-5c89-b9f3-b06d04904a2b,ce34bbdd-21a6-5a78-b11f-21d53062b1b4,terminal id-ID localization,42
 23258dc9-fb6f-5ab4-b5af-3e1f52a91acb,localizes,e414e4d3-ffc3-56e4-aa46-709bdeb98f4f,4244810d-8ea4-538b-812e-6564d0658bb6,id-ID,1
 234e100d-ae50-5d8d-9503-ccf29a14284c,lexicalizes,86b9543a-5e78-5f12-a381-701536d506d8,1cf70d78-b32f-5be5-bc3f-f2792574cab1,id-ID controlled terminology,2
 235352b2-5abc-536f-a6f7-993ad819fd2f,requires_companion_answer,391d0e5b-40e2-5ee5-bbb1-684bc01ef590,5304d294-140f-52a0-ba8a-9aa0509c661f,explicit O001 gap; restricted solution not accessed,154
@@ -262,6 +280,7 @@ id,relation_type,from_id,to_id,qualifier,order
 258e263d-87d7-5697-9a3b-431513e91c14,introduces,ef7f55d2-6426-5c6b-a525-29e747da8d0b,827509e1-c9ea-5a12-be10-c861d1c571a3,,9
 25f0c067-0ab7-5456-a279-97e02489828b,contains,f03bc0fc-6c96-5db2-8d50-46b2ac141f2b,bc8c4c9c-3cc0-57ff-acc5-dd1ac2bf19e0,unit contains source segment,107
 2606854b-cf95-5665-9c2b-3c3c5c7039ec,contains,a485ca16-e7af-5fc9-a661-2481b3a87b29,6dd33049-d188-59dd-8cd1-cae32f6399af,B012 hierarchy,8
+260fe3cd-0a4a-5edb-84d6-9089ccb5cd8d,covers,4c8457ff-0769-59f0-9a0d-040a50fb107c,0d2da2c1-8eac-5c27-9881-3fd255930f17,Section 3.5 concept index,53
 26230c7c-fe15-5e9f-abbd-59b2365b22fb,illustrates,65f98bcb-a662-56c8-96aa-c0f83e1daf2c,c30ed712-53d9-5d5c-9e77-fc405aee5528,canonical reader-visible id-ID asset,5
 26391850-5962-5bdb-95c0-fa0fb78080fc,exercises,8a23e856-49af-570b-8460-82f99ced2ef0,77650911-967b-5348-96e1-4400d431e18e,concept index,2
 2666100c-8349-5cdf-a19c-eecb58148da9,localizes,c53871df-ee8e-5c30-8ace-26a90b6db969,af70950d-14fe-521a-b377-1994be498578,terminal id-ID localization,87
@@ -276,6 +295,7 @@ id,relation_type,from_id,to_id,qualifier,order
 28d4f9de-020f-5d41-af12-df1592737f96,contains,193a93a2-5f42-56b5-a579-7a4c8b028e6d,470c3927-0fbc-5034-9d45-fbf0ba065727,B010 source order,43
 2948780b-9b7c-5793-9c8d-1eeac55ab4d4,contains,a485ca16-e7af-5fc9-a661-2481b3a87b29,ed214947-7dfd-5083-add7-9d812dbb45af,B012 hierarchy,26
 29aba5d5-b8b0-523b-adcb-f9824cc03343,prerequisite,064182bc-2642-5db6-bf74-9c844b1387f3,02503f9b-f161-5a95-add8-5b715d5fa1f6,conceptual,1
+29f1b559-9e4f-532c-bef7-158353a8dc52,localizes,4958c508-b9f7-5729-9509-cfb87c041383,d89f9797-53bf-568b-8d94-703cb13072df,terminal id-ID localization,24
 29f28271-c2c5-5615-865e-7f841c96a83b,contains,7c6f18a3-f953-577e-a859-eda10519975c,60a2cb71-2aa1-5917-9379-f7f55474c01a,,6
 29fe770b-63c4-511e-acf6-6759d42266e3,depends_on,9cf167d5-4320-5a32-b56f-605c6e7ff489,52e18b06-1534-52bc-998d-9f725931e7ff,localized reader figure,0
 2a0fc05e-87a8-580b-b7f6-271b88ff93d7,translates,aeb3b3fd-bf4a-5e4b-9bfb-1fc459352933,c22bcce9-25c5-5228-8740-a0411e2bfb32,receipt-bound id-ID localized PDF,1
@@ -286,6 +306,7 @@ id,relation_type,from_id,to_id,qualifier,order
 2a9f018d-63d1-5e0b-bec2-1eacaa01127f,embodies,ebc5a83b-939a-5637-9f74-f5fb015f1267,aa6de920-293e-53d9-bae5-bdb90e35f8f4,direct Section 2.1 dependency,0
 2ad65754-85ed-5c8b-931d-6fa6f92b3f04,documents,17cfa95d-9a6e-5a62-a3d9-bb444e5d251a,b9823605-b359-533a-9cb9-84628fa32225,exact isolated B011 evidence,103
 2ae77623-eb55-54a9-9be4-869f76788204,produces,88c72603-dd81-5968-ab71-ed44b4e554af,2d245db3-ed93-5d7e-aa55-d45e4302b06f,deterministic localized regeneration,5
+2b0287fb-4688-5b3a-bf8c-9681bebbea9f,uses_asset,4c8457ff-0769-59f0-9a0d-040a50fb107c,d0ae6f9b-d896-5f01-ba4b-9dfe4ad9ecda,B013 figure/code/data closure,75
 2b52b990-dfcd-5707-886a-b18957e0c119,depends_on,1663206a-64a7-5af8-91b9-185c65783ff1,e633ba24-3b6d-5446-ba2f-d4a9a1eaf4f7,unchanged photograph with retained attribution,0
 2b604558-12a2-57da-9715-9a44dab170d5,contains,748801d5-dff8-5970-9094-9b6e46cc74b3,d51bcbb3-0f29-5b96-8c36-c129798a4bdb,unit contains source segment,117
 2b813efb-6bc7-5a69-b645-f72b13c05b78,contains,39e28dfa-9fb6-5555-bee7-6649c37a02b2,c526fa55-62c1-5a35-bb8d-40abfc2fc3d8,,1
@@ -295,9 +316,11 @@ id,relation_type,from_id,to_id,qualifier,order
 2bb2554f-a711-5016-8947-aa8a9be3294d,validates,c899e9f8-71ab-5738-a2dd-2bdd388f27c9,b7acdbed-c9af-5967-bfdb-fd0ffd87d7b8,typed B011 QA event,117
 2bc1938a-abed-50c8-9c6e-bd8c0c60519d,localizes,9c264806-035e-57bc-aa91-6d159bedbf17,fb201178-8253-5055-9687-526b99e246e6,terminal id-ID localization,57
 2bdfc23b-98af-528a-ae38-cea3a7f99a5c,illustrates,0ffb1772-e673-56ab-bb8e-46e236db1143,76ecd2e2-efd6-5cd9-b054-41be3101723f,reader-visible Section 2.2 asset,1
+2c002cea-e8a7-5e40-b547-2443b4ff1177,requires_companion_answer,0ae4d0a7-e336-5050-9c0f-81ec643541a2,a1c4b57f-f95e-5031-84d1-80e1c90b1c28,explicit O001 gap; restricted solution not accessed,46
 2c2a47f9-2ad8-5130-89ce-f2dfa6c594b5,lexicalizes,c5cc85a4-cfa7-58e9-a3c9-54af89f39417,7b1be91b-4de8-513f-a54e-7b0231ebfef5,terminal B011 terminology,87
 2c3876e0-413e-5947-836f-f06a291af33b,localizes,7b5e35e6-f3bc-5118-b4c2-b1a34dec937a,a4f4132c-8c6f-57c8-8d9e-678314c99fe7,id-ID terminal localization,66
 2c59d6d6-de43-5013-bf09-0363e6bca507,localizes,66aa4042-864a-541d-8b27-31a2b203d921,41920d3c-df7d-5428-9971-d104cf82fde8,id-ID terminal localization,68
+2c8d5d73-aa68-5aab-a2be-ee6c6255131f,documents,6ce6868b-1c5f-5b97-802a-c055bf4e75f3,b9823605-b359-533a-9cb9-84628fa32225,exact B013 evidence,85
 2cea8302-c189-5f2b-8525-13b5eb896b64,corrects,3d6aa43c-508e-5e90-b81a-ff6bb2b064e5,8b9932bf-3164-5e36-a64a-304ae1894c90,held for single deduplicated end-of-corpus report,7
 2d0c8e8b-b197-5933-a38a-eb3628d33159,covers,697eee11-37f2-5f2e-8492-16a070ccd069,2ba94c3f-c1a6-5a03-b893-c50de2cc16e8,Section 3.1 concept index,204
 2d194e73-05c0-5733-9fdc-a1a65235cc02,supports,fc1bd953-2912-5d8b-9e76-002dc648bd25,748801d5-dff8-5970-9094-9b6e46cc74b3,reader-visible Section 3.2 asset,232
@@ -306,6 +329,7 @@ id,relation_type,from_id,to_id,qualifier,order
 2d414e8a-f62a-5b8d-b815-1f1fa09bab1d,answers,8445e7de-dd67-55c8-8497-e1bc10ee1dfd,2285033f-f28c-51ac-ad8b-b8bb2de4267b,public source footnotetext answer,74
 2d5ca2f4-bdd1-55e2-97d2-03fa0324dffd,documents,0ccb84e5-0573-5f28-9b4c-0cbb98366505,b9823605-b359-533a-9cb9-84628fa32225,exact isolated evidence,227
 2d86b7aa-d6ad-501d-b620-baa243289507,depends_on,eeb57456-7de0-59ca-9c5c-b6faafa2ba8d,fc8b7779-de70-5f78-a317-9e41908b74c2,localized producer candidate and deterministic PDF derivation are both retained,251
+2ddbc1db-dc76-5636-b823-d358a197a9a8,validates,fcbd4045-4c0d-54ad-b50d-44ad03658740,e65b3a8a-b543-5aa5-adf1-128117a5eb10,typed B013 QA event,112
 2e0b73d4-893e-5a87-a1d8-5cdc1a3a891a,contains,b44842e4-51b4-52b7-8653-480ff0007c50,fbe8307c-8576-5fc9-9d86-4ffff1359550,,8
 2e18927c-7c52-5399-8f7f-344b6ee14ebc,localizes,5aa0ad0e-9eca-58d4-8f26-e8c04a85eff6,d4918324-9121-5cd6-ab61-caba223bbbd0,id-ID candidate localization,135
 2e612d2a-9eb0-58c4-9f26-2c239e089a1a,documents,46d2117c-cbfd-5138-b7c2-135239a1fd9d,b9823605-b359-533a-9cb9-84628fa32225,exact isolated evidence,204
@@ -313,17 +337,20 @@ id,relation_type,from_id,to_id,qualifier,order
 2e7367d9-a1d7-54ed-aba3-218ad43724a0,introduces,8953f299-909a-5500-9c5f-46b560e50081,c5109902-f56d-56a5-919f-e24c141240c0,Section 2.1,99
 2e899aad-2ebb-5a3f-9e50-4f3c938890e3,embodies,b9823605-b359-533a-9cb9-84628fa32225,13d6426f-763c-54c4-97d9-632bb975a7de,,1
 2ee6121b-7965-5705-8d3c-49f2b7bcf6ee,contains,b44842e4-51b4-52b7-8653-480ff0007c50,91fc3301-cb1f-55c9-be90-4bcb58dca050,,1
+2eee12b0-a475-5ed1-938c-264e85d95974,documents,5b52cd68-cb09-5562-b6e5-2b723318c3cb,b9823605-b359-533a-9cb9-84628fa32225,exact B013 evidence,107
 2ef835cb-a6d0-53d7-afb0-c4db2acd7909,embodies,3a4a70d8-4f7e-5994-8d6d-88a9e134dabf,73da116e-6d01-56d0-b143-2ec2806b49a2,exercise-2.7-figure-1,0
 2efb265f-ee29-5eeb-94aa-89c7844da425,answers,cc807b75-61bb-5246-adef-100e98d605fe,48d76130-cdf3-5c50-aecb-e80b5c96ded3,public_appendix,1
 2f0549d9-d144-573e-9a29-0464bf706131,produces,8bab6972-d1e2-51b0-8ec0-51380a8c21c1,ebc5a83b-939a-5637-9f74-f5fb015f1267,pinned producer provenance,0
 2f78564e-8280-5e77-a792-d74d12088ad6,contains,38d29400-2764-5109-a7fd-d245c7e52b17,e6eef250-171b-5467-b369-df0a8ef36623,,25
 2f78a4c4-7a7e-5b94-a861-f53e1507f89a,contains,a766f9cd-f941-5953-b2d9-9d5f0b9a8764,c8802e70-be70-5fea-93ee-0747d3536be6,B011 source hierarchy and order,3
+2fee0892-f6a3-55fe-8cec-88945fbb63e9,validates,c918d562-5e29-5d87-851e-22bec290ec97,77bbc0bd-c480-532e-9a07-8776b1915d0e,typed B013 QA event,116
 2ff4a568-d53b-5986-85e8-f4a39fdaff08,contains,a7dbebca-d475-5f78-aa32-5a701b11f749,04aafa45-424f-589d-8238-84708173800c,unit contains exact source segment,136
 3007ca1b-bf8c-5765-bafd-07ec0080173a,validates,6daee73b-8510-5282-9d8f-d2ebdf1b64a3,15b39f05-f5c1-54df-ae17-178255d6bfc9,typed B012 QA event,219
 30272fd0-24ea-525a-995c-051bef6c3bc2,contains,6dd33049-d188-59dd-8cd1-cae32f6399af,7e18ca56-a46a-5483-87d5-42a33965f090,unit contains exact source segment,60
 306f9f3b-12f2-524e-9e95-4187e07c9361,localizes,956bc52a-49e4-571c-aa23-0e83558e3dfe,b4728ba5-2232-5277-a68e-f5eff2e3b69a,terminal id-ID localization,71
 307e4d76-9b28-532f-8017-b9078b55c546,documents,7d48bc60-4d67-56d5-b740-f54b3994a1ee,b9823605-b359-533a-9cb9-84628fa32225,exact B012 evidence,203
 30876987-a372-5daa-bf09-fde1d44068d6,contains,a766f9cd-f941-5953-b2d9-9d5f0b9a8764,cd08b596-7f26-5bdd-a95b-9c7ee330b111,unit contains source segment,25
+30a8248d-7fab-50e7-813a-f58c5122258c,contains,a4fa26d3-f74e-5ad7-8fd2-444728913b98,d03947f2-a3cc-57a3-9974-13c7bb411da3,unit contains exact source segment,17
 30c511a2-8055-5155-bead-83fcfba4c7a8,documents,24c6870a-005a-52bf-888e-ea668884d1d8,b9823605-b359-533a-9cb9-84628fa32225,exact isolated evidence,241
 312267e2-7744-5d45-a2c9-2fe090736150,validates,f492fbee-7b0e-59fc-9884-1282a3fd1301,7d48bc60-4d67-56d5-b740-f54b3994a1ee,typed B012 QA event,226
 312e5845-ca8e-59a9-be63-583a9b7e7d58,covers,193a93a2-5f42-56b5-a579-7a4c8b028e6d,51898cf7-a8c5-5bbd-9fd8-9ad08163d103,Section 3.2 concept index,165
@@ -331,6 +358,7 @@ id,relation_type,from_id,to_id,qualifier,order
 31652bd7-ec36-5dbe-aa3d-6caec86b9dc4,localizes,ff27c18f-6fbb-5f14-8c94-f07fe3fe95dd,92e20a80-b951-5afe-863f-843507de91b8,id-ID terminal localization,144
 3180c785-2976-50b0-a8f2-9bfdfaff301f,localizes,7e089b21-8a6e-5803-8b3c-98e00b7b5d28,c073795d-5ee0-5d16-9eb6-d262e33246ea,id-ID candidate localization,85
 319fc869-dcfd-5070-aeda-f9eef4077c13,contains,b44842e4-51b4-52b7-8653-480ff0007c50,4b6d3a80-1d24-55b9-84dd-6d4068279d00,,10
+31a6639d-d575-5798-8f29-5e8415173f38,localizes,c85f93e0-2652-5611-89ed-8db6a5e74cb9,3c99b860-6050-58b1-9bf6-3452fbb1d8d4,terminal id-ID localization,30
 31cd6c4d-cf47-5e4b-8f3c-3d17787dbd38,documents,4d1b6243-e8c1-58db-90ba-152a11c2f102,b9823605-b359-533a-9cb9-84628fa32225,exact isolated evidence,225
 31e9fde5-2571-5e5d-a14c-d797ba614983,localizes,c46b5de7-dee3-563e-ae5f-562b4e45fd08,3c5d581f-4eee-5240-988b-2226ff5112d9,id-ID terminal localization,60
 320a7bc9-fb1d-58ff-9370-23d646933df8,documents,04d694d2-0cc3-5ab3-a49b-14a3059a9d7a,b9823605-b359-533a-9cb9-84628fa32225,exact isolated B011 evidence,104
@@ -344,6 +372,8 @@ id,relation_type,from_id,to_id,qualifier,order
 3362adf5-3a59-5bf5-9971-5173cd6a8334,contains,697eee11-37f2-5f2e-8492-16a070ccd069,3bd4a01b-3e04-5838-9c65-e744700c9e17,B009 source order,28
 3395a95d-3ce0-5cf5-81e6-6c6013d9f233,produces,857c2cf0-a779-548c-8099-8185a198ec3f,677d0b99-e068-5fb2-ae32-6d7e0bc7d330,pinned source producer and unchanged data geometry,1
 3398fa3b-9fb4-58ff-8b07-c6287824c329,introduces,1c22723c-f2d0-5445-bccd-2c220201d232,c0c417a6-c314-572e-b9d0-2d5c5dcb9dd9,Section 2.3,123
+33c4d186-c3b2-50ee-8152-b4d01eccb939,governs,e163a1f6-2e26-5db8-aab5-90804bac32de,4c8457ff-0769-59f0-9a0d-040a50fb107c,localized asset rights,125
+33cd0729-f7e1-594c-b95b-4be32a7d18d0,documents,4753e7be-c5a7-5e53-9635-fcaf0b18b099,b9823605-b359-533a-9cb9-84628fa32225,exact B013 evidence,98
 33d36368-3289-5c6e-bf9b-336b0cd8fce7,verifies,6391a386-fb76-5d7c-9d5d-0dc4ee0969b8,ef036f62-c0c7-5e27-b723-06f14aa7b9b0,"13-asset deterministic replay, parser, embed, residue, and visual PASS",0
 33daebf2-e9f0-57a6-af8e-9b1e60029fd5,produced_by,ba2a3300-9df7-51bd-bef8-9475b7f89513,ffd4d5cd-cbe9-51e2-8319-61da58cd4489,canonical localized producer,1
 33e48e6a-1465-5b10-bf4b-c90e42f99b67,contains,148fb9c7-6f08-569a-bcf8-32d935ff1598,962d7de1-d570-5f94-805f-75e8c656321d,unit contains source segment,151
@@ -384,6 +414,7 @@ id,relation_type,from_id,to_id,qualifier,order
 36c84f2f-ae54-50fe-b59b-eec1b89bc9b0,prerequisite,e9a6e4cc-caba-5bad-9309-d2886cfd92a0,e925381c-407a-5907-a2f7-fcce2ea052f1,conceptual,1
 36d76f80-404a-5b4d-9b38-4f1a945fa2dc,answers,b3e99a20-b89a-57f1-bde3-b30db27daa44,7d606a5f-8ba7-518f-8651-397ed719dd34,public inline answer,144
 36e9e991-3839-5090-bb91-672a04516584,localizes,12a8815c-12b0-5605-b6d2-a476a586a1c8,a633f2cc-a9f8-5fa0-b641-0da17076f645,exact source-to-target R producer lineage,242
+36f41c3b-0e94-579d-8b1e-112c350e3244,uses_asset,4c8457ff-0769-59f0-9a0d-040a50fb107c,c86df970-983d-5613-ad31-547da89e55b1,B013 figure/code/data closure,71
 371aa255-3fe1-5194-9069-b2d1f3e4dff5,contains,b44842e4-51b4-52b7-8653-480ff0007c50,e2b24411-28f5-5067-bc3d-383eda5fecf5,,3
 374348fb-a9cf-5a64-a134-59d3d47c14f0,contains,a485ca16-e7af-5fc9-a661-2481b3a87b29,af685fb6-e44f-55f1-9419-ddd28f320c68,B012 hierarchy,24
 377f17bc-33c6-5e92-85c5-49d63116aae9,contains,fc0caa09-fb91-51a2-9411-8f34e4651d62,6887534e-fa97-5663-bf63-97b3ac37862c,unit contains source segment,88
@@ -395,6 +426,7 @@ id,relation_type,from_id,to_id,qualifier,order
 381407d1-3040-57eb-9ff5-8cef30d1eedf,localizes,183524a1-2d20-593c-ab22-74166233f5a5,b06b8c4b-a52b-5704-a1dd-ed3739c17f2d,id-ID terminal localization,116
 381436b0-f070-535f-8854-8bad8488b98d,contains,a485ca16-e7af-5fc9-a661-2481b3a87b29,c1f5b86e-dc64-5744-836f-8877d2e9b42d,B012 hierarchy,10
 382fabeb-29b2-5b9c-bb47-3765267adec1,contains,748801d5-dff8-5970-9094-9b6e46cc74b3,3a63d598-154c-5a5b-86d1-784338c7d4d8,B010 source order,23
+3849391e-acec-5a21-b510-c1d3cb44a3ac,contains,11796fc0-4792-55b4-b51f-e02d6287afa0,58ae2322-53b6-510c-9faf-b3daa5a76dfd,unit contains exact source segment,31
 389d94a5-774e-59ea-bf86-2b17fdcaad2a,documents,94fd647d-503d-5378-be86-eda5d7264e75,b9823605-b359-533a-9cb9-84628fa32225,exact isolated evidence,188
 38ad18d6-2228-5842-9322-9bd900e7f782,contains,55052df6-d488-53ed-8f4c-e0bb4a894836,8d98b33e-2b6c-5af6-921d-64bae260c430,unit contains source segment,120
 38b0ffdf-c752-5506-93b4-369686c6b896,introduces,b4cd26a2-3443-5b4d-9a38-f2d9766ae10a,7ad0d4c2-d0c4-58cb-9125-663ee48ad159,Section 2.1,111
@@ -404,6 +436,7 @@ id,relation_type,from_id,to_id,qualifier,order
 38e847f5-9f8b-5af9-9714-44afea6b6751,prerequisite,c5cd16ce-1e9d-5d41-a4d1-fd86b860f467,7b6b82c2-0367-5b4d-bb75-643f3165be28,conceptual,1
 38f4a2dd-d3e1-50cf-9496-691c29760ceb,introduces,ca6367c4-15b1-502f-9fa9-3f7229c912ee,3e0ca2a1-19a6-57b9-bfbf-1b8048536dbe,Section 2.1,77
 392ff20f-2709-5f7e-a609-f069f2048dea,contains,6a4104b8-6358-5cac-bb8f-44a62a948843,3024a3df-ad69-5255-943d-d2911908a101,,1
+393b3853-ee5a-5268-857d-c16a2ed4a3ed,localizes,7902daa2-ac8d-5464-b315-a4e67443eea2,5bd116ac-f690-5822-a830-ce8b978e4689,terminal id-ID localization,26
 395e5987-ac0d-5b8d-9970-0e7cbfe2dc67,introduces,b4cd26a2-3443-5b4d-9a38-f2d9766ae10a,4c4ac8dc-25f8-5942-a352-c108153c1afb,Section 2.1,107
 395f72cf-9833-5485-a9a7-6ed90a0c5cea,contains,af685fb6-e44f-55f1-9419-ddd28f320c68,71bd4cfb-7830-5c25-af1a-0e7f6198b65a,unit contains exact source segment,94
 396edbff-d6a1-5b0b-b569-c27ed0163c4b,documents,fcdeb0cf-22fd-5df7-9375-3d51e52dbc2d,b9823605-b359-533a-9cb9-84628fa32225,exact isolated B011 evidence,102
@@ -417,6 +450,7 @@ id,relation_type,from_id,to_id,qualifier,order
 3a7a0b29-c349-5725-83cb-46c0c7bcce80,localizes,7b94ed7b-eddb-557a-9984-46c4684b91de,c71bca52-4720-5d93-aa83-c66ccb503ba1,id-ID candidate localization,107
 3a86dc1f-b07f-5bd5-8928-e1b92cb47269,localizes,21d700e4-d497-599e-a660-b848ba03385c,fe7c5541-b477-52ac-abcb-9150525e8925,terminal id-ID localization,115
 3a8d571c-57d8-55b7-b931-f00300659da4,verifies,32c06366-018e-5689-9052-8c9b3190196e,b88a3ec2-361a-5eb4-8a7c-81dab3c7c139,deterministic nonvisual and accessibility closure,1
+3aa3f884-c1ae-59ab-baa4-1c751674912d,contains,4c8457ff-0769-59f0-9a0d-040a50fb107c,5e936600-2a94-5871-96a3-4e660b5b46ba,unit contains exact source segment,15
 3acc0988-e820-5e4e-a78c-87e68c6f17ec,depends_on,9cf167d5-4320-5a32-b56f-605c6e7ff489,163481cb-739a-5244-bc6b-f5088bff57c3,localized reader figure,0
 3af0adde-253f-50ba-9ab1-c0b36dbb04dc,validates,c22c926c-8f24-50a7-8c7a-f70ee49c44c2,46d2117c-cbfd-5138-b7c2-135239a1fd9d,typed B010 QA event,228
 3af23f05-b1d4-5149-8628-e54fcd4f9e33,covers,193a93a2-5f42-56b5-a579-7a4c8b028e6d,8c40f798-fae7-5d0e-a0f4-7ee7049d6d45,Section 3.2 concept index,169
@@ -451,6 +485,7 @@ id,relation_type,from_id,to_id,qualifier,order
 3d69fb63-8b55-5289-a5cb-1a39f92577c0,documents,7f85c838-1491-5eda-9b10-551c773a79d2,b9823605-b359-533a-9cb9-84628fa32225,exact isolated B011 evidence,94
 3d90fd98-f09e-580b-90e0-2b633af8a705,contains,7c6f18a3-f953-577e-a859-eda10519975c,c9faaa37-1ac5-54ae-b62f-1556d2b63374,,2
 3dacc4e7-2a04-5deb-8a82-a6892d1b4603,documents,5b4c349a-2016-5634-8965-bb9257d59e4e,b9823605-b359-533a-9cb9-84628fa32225,exact isolated B011 evidence,108
+3db5e0d5-ee56-57fe-9041-8ea8af37e7ec,precedes,a485ca16-e7af-5fc9-a661-2481b3a87b29,4c8457ff-0769-59f0-9a0d-040a50fb107c,source order Section 3.4 to 3.5,47
 3dd18a9a-e6d0-5f29-a6ed-d59da8d89ef7,corrects,92b3f75f-d3bd-58bf-bb7e-6a203f7f58ce,c30ed712-53d9-5d5c-9e77-fc405aee5528,held for one deduplicated end-of-corpus report,4
 3e093c92-7a71-5dfd-813b-339a0eb77f70,precedes,4d7e1beb-821d-5a81-b350-46eb6bf05f55,52bf0186-4674-569a-b8c7-783489172959,boundary marker for inherited Section 3.2 continuation,194
 3e0e23de-9013-5563-bb1d-d3bf1c9818d0,precedes,a766f9cd-f941-5953-b2d9-9d5f0b9a8764,a485ca16-e7af-5fc9-a661-2481b3a87b29,source order Section 3.3 to 3.4,159
@@ -458,6 +493,7 @@ id,relation_type,from_id,to_id,qualifier,order
 3e2724ef-4172-50db-9ea6-baba6215e6f3,introduces,ca42976d-868b-528b-8451-40e275e0fa37,8f140534-f401-5d5c-a0d3-e6d0b4b6fe02,Section 2.3,120
 3e7226d3-5f3a-5b4d-bb88-a8d80528dd3e,exercises,bf8a9ea5-2ceb-51fa-b10f-4c470d3b7e00,3ee05ce5-34a2-50e0-8414-5488d45e4e15,chapter review concept index,1
 3e9b9ce5-7fa3-5054-8c55-ec6f3ccc2183,contains,68bfba60-9cd5-54a0-94f7-11662305a6a3,57c61a2c-45fe-56ee-b26e-78b4607cf27f,B010 source order,40
+3ee9d3b0-4bd0-5292-b54d-7ccfafb621eb,documents,c904170d-1ea0-5ac8-b356-81ba9b153042,b9823605-b359-533a-9cb9-84628fa32225,exact B013 evidence,89
 3eec0f66-8734-5d11-b82b-657d1df73209,projects,842a89d4-340a-51b9-a839-3935bddf926c,6391a386-fb76-5d7c-9d5d-0dc4ee0969b8,backend-ready asset projection,0
 3f28e13e-5d3b-5a6e-b170-7bcee9dcda2f,localizes,9dc38eab-a0db-55d0-98f3-a78e143d1770,b7f83439-ecc8-5c80-93e9-3b0c9f1fb9bb,id-ID terminal localization,52
 3f529554-a5ce-51da-9d1d-35a5d0483272,exercises,fbe8307c-8576-5fc9-9d86-4ffff1359550,c5cd16ce-1e9d-5d41-a4d1-fd86b860f467,concept index,1
@@ -491,6 +527,7 @@ id,relation_type,from_id,to_id,qualifier,order
 42e89f98-99b0-5c1f-92e8-9a2964632dd1,contains,a766f9cd-f941-5953-b2d9-9d5f0b9a8764,2285033f-f28c-51ac-ad8b-b8bb2de4267b,B011 source hierarchy and order,7
 430320b3-6f43-5072-b1f0-bd166c938f2d,contains,697eee11-37f2-5f2e-8492-16a070ccd069,708fb94d-36a9-54fc-a0a4-13ae6a5bb4cf,B009 source order,21
 431ded41-b955-5961-93aa-44d29ce7164f,produces,2a3b8da2-5c77-507a-90a5-39c1931b7c0d,7bc23c66-c962-5e46-a8e4-19da0dbb20db,canonical localized producer/output linkage; Avandia uses receipt-bound equivalent renderer,1
+43326718-d13c-51d9-9642-c82ede3a82b3,documents,3da3751e-9f3f-566f-8dd4-7de72606b189,b9823605-b359-533a-9cb9-84628fa32225,exact B013 evidence,92
 4339c07f-eea0-5d9e-bdd9-0d74b1e54179,verifies,f72f69cb-e12a-570c-9ea0-fa42f5dc3c28,65bcf937-56ef-5eaf-9ffa-02ed782b30d2,two byte-identical outputs and source-stream equivalence,8
 436f00f9-c935-539f-926d-f4cc7fadf233,embodies,e1bd2aa7-96ca-58fb-96af-c1f3a26dc5b3,aa6de920-293e-53d9-bae5-bdb90e35f8f4,direct Section 2.1 dependency,0
 43772245-4d54-5179-a766-f5add54441fc,requires_companion_answer,464e9807-e94f-510e-8157-c2c60c345df9,6136c364-c7dd-5c31-acbc-fb1316ed3e6a,O001 independent original,12
@@ -500,10 +537,12 @@ id,relation_type,from_id,to_id,qualifier,order
 43d966e3-9b64-5bf6-b11a-de6923d3c92f,translates,f3c1cae2-d2fa-587d-80c3-d63330738b25,193f077e-9b1f-56e5-a70b-46b497374183,exact canonical id-ID target span; backend nonadmitted,1
 4400800d-0b76-54f7-9894-c904ef4dd6c8,corrects,c2fd6c01-237b-51ce-9663-3ac44783b2e4,a132efe2-d782-5317-859e-6b0fd4cab424,held for single deduplicated end-of-corpus report,5
 440e6471-3fa5-539e-8231-2349e6b52be9,depends_on,a766f9cd-f941-5953-b2d9-9d5f0b9a8764,193a93a2-5f42-56b5-a579-7a4c8b028e6d,General multiplication and conditional probability are prerequisite concepts.,84
+441a35f5-67fa-59a5-bb83-00369b51c91b,contains,9317c395-4af4-5e47-84f0-bc77d1088be9,ff922404-f304-577a-a593-45e4a60e330d,unit contains exact source segment,27
 44206d3f-bb90-58b3-b7fa-cb21a5b6e4f7,corrects,1606cc19-64a9-5fc9-b11a-a94b9205009e,51f8c9e8-d47d-503f-a0db-38a0564b62f2,held for single deduplicated end-of-corpus report,1
 44622c39-4b23-5520-8d7f-050c2529d47a,introduces,b4cd26a2-3443-5b4d-9a38-f2d9766ae10a,701ec881-995b-5643-ad55-f870996e4579,Section 2.1,110
 44cd5bc6-905e-5e1a-acd8-f968dbc97a56,introduces,38d29400-2764-5109-a7fd-d245c7e52b17,9e50634c-425d-538c-b202-85122d72d1c1,,1
 44d94438-9ff5-523e-adfb-e9b2812a02ad,localizes,a7a936a1-1e01-5797-b6ce-361fe8e3044f,7d28502a-5033-5c7f-a9fa-e6b30ec9d083,terminal id-ID localization,135
+44ee1d24-90f2-5a54-8dce-e2f96fa87fe4,validates,a9836086-1ef7-57e0-8af2-8db2e5dd6821,a6c784de-dc90-55ae-af56-e0888cbf3927,typed B013 QA event,114
 4513c96f-1e27-5123-8d81-3336aa19e68d,contains,a36d034f-f5c1-5f04-89ac-c4f4a6cd046d,9dc09770-ae18-5fa5-95d7-a5f0ef2d2e3d,,12
 45464102-6983-5c1f-a187-ed2ace558763,contains,47a4fe12-f3c0-587a-b879-47adb3ee9dc9,cb2c7316-4e1c-5097-83f3-001b8c3c91ca,B010 source order,19
 454f7c45-18b1-53c4-bdeb-089e1fe7870f,contains,697eee11-37f2-5f2e-8492-16a070ccd069,193eb561-75db-5b59-a1bf-6acaf5fe4751,unit contains source segment,56
@@ -522,8 +561,10 @@ id,relation_type,from_id,to_id,qualifier,order
 46b08e6a-dda9-5700-b684-46b5372afee0,prerequisite,7b6b82c2-0367-5b4d-bb75-643f3165be28,3e1a17b0-923b-58e8-aef7-c71954373c12,conceptual,1
 4719dcb9-f39d-5c40-9d98-c5b0114b2975,localizes,a0599d36-3a00-5a45-9367-8d93f167b48d,c7d04a9b-6843-59af-bd93-486f9ff0addf,id-ID,1
 47c0073c-013b-5f89-a163-af55a45eedf3,contains,5bfb5b40-d95a-5f3f-a0fb-f65bf49e01a7,24a53db7-bf63-53f4-b2db-29b93c4cae6e,unit contains source segment,111
+47da3857-45ee-59e0-a6a9-e21997ffcaac,localizes,47889fae-7cbb-5601-8d6d-e06bdf51def8,ff922404-f304-577a-a593-45e4a60e330d,terminal id-ID localization,28
 47e37749-6a89-545c-a0de-a88289b9ef80,contains,2285033f-f28c-51ac-ad8b-b8bb2de4267b,8445e7de-dd67-55c8-8497-e1bc10ee1dfd,B011 source hierarchy and order,8
 48293c1c-597f-5166-9e1c-806e00ad10cc,contains,a72d52ee-0344-56a3-9746-98c4db684cf0,c163c8b3-1093-54f3-beb4-47248e2ba6ae,B010 source order,36
+48305cef-0acb-5016-be7c-241acc926eb5,contains,4c8457ff-0769-59f0-9a0d-040a50fb107c,d89f9797-53bf-568b-8d94-703cb13072df,unit contains exact source segment,23
 4870ef00-3b24-5961-9606-e2ad67020f41,prerequisite,0eff251b-154b-5846-8460-b4bc24a500b5,3ee05ce5-34a2-50e0-8414-5488d45e4e15,conceptual,1
 48bb9104-aa69-5417-89c0-74cea52299db,contains,c9faaa37-1ac5-54ae-b62f-1556d2b63374,32d7de43-664b-5d21-a5bf-693e1695b0b9,,1
 48cdc753-e187-5c10-bb26-232a4bbc980f,produces,7c3e074b-cf8d-51a5-bd68-b0af8448bfbf,7ffc22fc-9c9a-5e4e-bb07-cef261e545ec,deterministic localized regeneration,2
@@ -545,6 +586,7 @@ id,relation_type,from_id,to_id,qualifier,order
 4ab9ee89-c1e4-53c3-89f1-ec5c7e41d294,covers,697eee11-37f2-5f2e-8492-16a070ccd069,a1eded49-73c0-525a-9e14-4d91bc92c6a1,Section 3.1 concept index,206
 4acc5fde-8a7a-5d26-b923-13156ca9866c,illustrates,fb5724da-e65e-53ff-a0e2-3d4e10f5e68e,a1268a25-f69a-531a-976d-441e5c4c5663,reader-visible Section 2.2 asset,1
 4ad489ff-fd2a-5707-abda-0265cba9c1b8,corrects,027ad406-4211-5e04-b264-a211d8e038c0,ef25e2c4-b83a-58be-bfaa-8fe6b5fa5d63,explicit source-backed derivative correction,268
+4af36999-7924-57b5-9694-f5b98e6532e6,contains,4509dff9-7dd1-5735-8e6f-415a5448cfe1,9317c395-4af4-5e47-84f0-bc77d1088be9,B013 hierarchy,8
 4afc06c2-9087-58ff-8d98-6ae711dab023,exercises,f476eaff-0729-5ce0-9e73-4cf11501b67e,b3091050-234a-5e25-9b35-62e087b0a405,,3
 4b0bca67-ba06-55be-bb13-a2b609a8ec17,exercises,f476eaff-0729-5ce0-9e73-4cf11501b67e,242b3145-5fba-5e43-a01d-3fe9c643bbfe,,4
 4b1f9620-d462-5437-a4db-3230789e8313,covers,a485ca16-e7af-5fc9-a661-2481b3a87b29,74027271-e1e9-5cff-9cc2-6cc3b09636c3,Section 3.4 concept index,167
@@ -563,10 +605,12 @@ id,relation_type,from_id,to_id,qualifier,order
 4c5f77a1-f35c-53bf-9105-18e1b3ef37ac,localizes,7c23dd48-a0a4-5c42-ac01-7139a825a5bc,1964e9e1-75f5-583d-b7f9-3b6e193f4851,id-ID terminal localization,40
 4c707430-162d-5e46-bd1c-7ce1ae319739,contains,13d6426f-763c-54c4-97d9-632bb975a7de,4855a03b-af6e-56cc-ad3b-7d0f5e26745e,,5
 4c98b8ce-4455-5a9f-aeea-bd8cea67c315,contains,b44842e4-51b4-52b7-8653-480ff0007c50,f7d2045e-5e64-539c-9a77-881a363a8baf,,14
+4cb6ad89-e950-5765-b449-7c88c32d5a19,uses_asset,4c8457ff-0769-59f0-9a0d-040a50fb107c,61d7149e-8be4-5815-b7d2-0a01b345b9f0,B013 figure/code/data closure,69
 4cc3b0b3-4cfb-57fc-8782-9355052197d4,introduces,38d29400-2764-5109-a7fd-d245c7e52b17,bb311d55-ff4e-5140-afd2-173b5615fa82,,12
 4cda1cb9-045e-5567-a2ea-69574fc7a21d,requires_companion_answer,fbe8307c-8576-5fc9-9d86-4ffff1359550,6f102af0-0e7f-5a14-9f29-8abb91c6cd56,O001 independent original,8
 4d00c744-02a0-58a7-8967-6dce7fefdc91,exercises,b82173dd-a963-514b-8628-cd6c9d97f633,cbc69c00-a498-5088-91ff-79b55320c07a,,5
 4d57b533-6f06-5475-96a8-01d814bf3082,contains,1c22723c-f2d0-5445-bccd-2c220201d232,a132efe2-d782-5317-859e-6b0fd4cab424,,1
+4dd49a96-2e26-5bca-b83a-b5580221c08a,localizes,187aa714-b993-5ea6-a238-1506d4712c64,c0d8b725-a438-563b-b069-2b3e503069f8,terminal id-ID localization,38
 4dfa5768-bf32-5378-9031-d03d8647e50b,contains,874701bb-ab89-5499-9df6-344ae73c9aa3,3c5d581f-4eee-5240-988b-2226ff5112d9,unit contains source segment,59
 4e251d53-5223-5324-9864-f01255c3cf3f,produces,01dae82f-e47d-5580-9e4b-0a96c5b75a53,ffc8e55c-68f9-53d4-9cb2-5abe7d34ab5d,pinned source producer and unchanged data geometry,1
 4e2d2e61-60aa-5b93-a3a1-e569e17e5ca5,produces,93d72384-beb3-5d6a-96b8-8c2b875d3fc0,7da81cdb-e359-522b-9949-272b73610ab7,two byte-identical replays,1
@@ -598,7 +642,9 @@ id,relation_type,from_id,to_id,qualifier,order
 51e7d90a-0fba-5f28-a298-d3dee4d0572a,contains,86a3e7b7-abec-5677-b5cf-7e7dbdb08ae4,adffb75d-1c91-50c9-af1d-c01f3c789a22,unit contains source segment,31
 52045515-7212-5924-be9d-c552a044feb3,verifies,6391a386-fb76-5d7c-9d5d-0dc4ee0969b8,b2329233-08ac-54ca-99ae-1d61c13721d7,"13-asset deterministic replay, parser, embed, residue, and visual PASS",0
 522d585c-7dd0-55e7-8632-988338a72d99,localizes,59d6b337-4803-5156-b7b2-03696bd60d1f,e71856cd-6923-57df-85db-45ba3a69df12,terminal id-ID localization,109
+526e5803-08bc-528e-a6df-33abdc12cc27,lexicalizes,5f16dd88-48e3-520d-9e92-a13dea692a6b,0d2da2c1-8eac-5c27-9881-3fd255930f17,terminal B013 terminology,52
 5274e4d6-6a24-5cb7-b24d-e4710f23fa1c,exercises,df8c32ef-fdf2-53a0-82d9-6ff7b9bfbb39,15259de1-8af3-5a51-8c24-17536e076114,concept index,3
+5286ad01-fa20-5448-b02d-c2b38e0e5674,documents,a6c784de-dc90-55ae-af56-e0888cbf3927,b9823605-b359-533a-9cb9-84628fa32225,exact B013 evidence,83
 52b52f40-0c4f-5646-bd72-e41d62dfe9cb,covers,a485ca16-e7af-5fc9-a661-2481b3a87b29,f045a4b9-4455-5914-b73f-37665f444c58,Section 3.4 concept index,177
 52d69780-5468-5aa7-82ec-49cb7cb132ae,contains,17acf038-9821-5e3d-9ffa-1526fab12218,8cd11f37-e330-56f8-96c4-18968b901319,,5
 52f08f3c-ee40-51b4-b2a4-1deb01851619,exercises,8d6c63f9-60c2-562b-84f3-86db59a7d01e,0f678819-5b71-53c9-81a0-a23530beb82c,chapter review concept index,5
@@ -623,10 +669,12 @@ id,relation_type,from_id,to_id,qualifier,order
 55bb5249-b326-58ec-91ba-f7b1735e2262,contains,a36d034f-f5c1-5f04-89ac-c4f4a6cd046d,fc3d849c-7c46-5c07-8ca2-c458b8032805,,11
 55c84945-bea4-56b8-9db8-fdba84c87b3d,contains,9cf167d5-4320-5a32-b56f-605c6e7ff489,ac4ef134-e728-567a-9bc4-2a1255aa7b0a,,3
 55f1e6f8-d5ed-5b29-a681-0250c1574594,depends_on,f88736cd-9543-5c6f-aa27-a3c9e2a73287,d4a825a2-7a56-5a93-886f-ce5291b471ae,localized producer candidate and deterministic PDF derivation are both retained,235
+55f9bd26-1303-5f2d-92ca-1d3f25a09b50,documents,6ea75e6e-472c-56cb-bf3c-3a330179339b,b9823605-b359-533a-9cb9-84628fa32225,exact B013 evidence,101
 55feabf2-28ef-5c57-8a2d-d30111755606,validates,81c959a6-fc19-53ca-a49d-2a5462837e8b,a2088264-8a43-58d0-a14a-444e7414c2c9,typed B010 QA event,220
 56171e10-acef-52e0-8f99-730350a420d3,produces,88c72603-dd81-5968-ab71-ed44b4e554af,5161e893-5f4d-5af9-834b-3da4bb47c29e,deterministic localized regeneration,6
 56208ad9-8aec-5758-8f1a-91ed6d81f548,exercises,8b9932bf-3164-5e36-a64a-304ae1894c90,8a655167-3e55-582b-91d3-7b096130e4e7,concept index,1
 565e9593-feb2-5e45-9146-402dcb3f62e9,contains,7fb6fb37-23be-57f3-af92-f7f18dbb1210,1e6a7873-9995-5e0c-ac60-7ce19d16b804,public appendix,1
+56612fef-9e1d-5805-b28c-aa413b247e60,localizes,cefd216f-f45e-54a3-85be-f4b41af6efec,e815c86e-c1a3-5500-89e2-85e50c91589c,terminal id-ID localization,34
 567976fb-5f8b-5638-89a6-dfd19c86418f,depends_on,9cf167d5-4320-5a32-b56f-605c6e7ff489,ede4f031-9d62-5d24-9f64-1d841acb5cbc,localized reader figure,0
 56843a54-b60a-58da-bb89-1bc679b1d3eb,verifies,6391a386-fb76-5d7c-9d5d-0dc4ee0969b8,1e30fb21-e26a-5435-bd2e-dde314f70bd2,"13-asset deterministic replay, parser, embed, residue, and visual PASS",0
 568cb118-ac6c-5ecc-bb23-22b271eb10b5,localizes,af3b186f-3528-5f43-91dd-72636e8a2b5e,962d7de1-d570-5f94-805f-75e8c656321d,id-ID terminal localization,152
@@ -665,12 +713,14 @@ id,relation_type,from_id,to_id,qualifier,order
 5a26e66f-a8fc-5f0a-a287-d6d9fc90a5b8,contains,d031fd92-364c-5922-9977-7d4f68b6f109,6a97129a-886b-5c53-bcbb-de071986d1e8,,2
 5a564c16-e5f7-5638-ab39-69972499fd1c,prerequisite,1cf70d78-b32f-5be5-bc3f-f2792574cab1,c5cd16ce-1e9d-5d41-a4d1-fd86b860f467,conceptual,1
 5aae7e44-e4dd-510c-8158-00ee36a02019,contains,df8c32ef-fdf2-53a0-82d9-6ff7b9bfbb39,a85116d3-aa90-5866-a80f-22f5b408397e,,1
+5ac59099-07ea-5ecc-9dbf-493bd1008c31,documents,595d533d-5359-5b7d-8d3d-789a01e6a388,b9823605-b359-533a-9cb9-84628fa32225,exact B013 evidence,96
 5b3a4684-efde-5f98-8419-9b1b8c7c68ab,answers,0c5a6a38-7e7c-5ca9-91cb-d65cbe872021,8a23e856-49af-570b-8460-82f99ced2ef0,public appendix,11
 5b4446c9-bdfe-56db-9e77-3d0207ba8ae7,illustrates,1b0b7423-94fc-59d7-a6fc-2f0acf47fefd,15e82d16-af8c-5c5f-900d-1e15be6b7e41,reader-visible Section 2.2 asset,1
 5b5d89b3-3a38-586e-996e-346600a7ec81,contains,ef7f55d2-6426-5c6b-a525-29e747da8d0b,39e28dfa-9fb6-5555-bee7-6649c37a02b2,,33
 5b5f98f3-18d0-5ca3-99b2-074169e2ded7,covers,193a93a2-5f42-56b5-a579-7a4c8b028e6d,7028ecf8-e85a-5bd6-a024-9fafb00a6d9f,Section 3.2 concept index,171
 5b680fee-345a-59d1-8058-0d277ebee283,contains,7c6f18a3-f953-577e-a859-eda10519975c,ef7f55d2-6426-5c6b-a525-29e747da8d0b,,5
 5b789863-a522-5b76-a6a6-ce5116a001e4,contains,697eee11-37f2-5f2e-8492-16a070ccd069,dc9cb209-acef-58d0-93ae-2148de066e54,B009 source order,12
+5bc0a85c-f8b8-5646-9ff8-9f1289b36679,documents,92bb0872-dcd2-53a0-9439-eaa0f39ee71b,b9823605-b359-533a-9cb9-84628fa32225,exact B013 evidence,100
 5c4ca785-d2d0-585c-8ff5-cdca3801ca7c,embodies,6d53d0d0-d81f-5fdf-a0bb-e8f6d74e1e89,09615ad9-b250-53c0-9814-d60b7f700fc3,exercise-2.14-figure-2,0
 5c4f400d-485e-5e63-bc5b-b59bd873905f,introduces,ef7f55d2-6426-5c6b-a525-29e747da8d0b,7cddef10-0879-5b02-9632-f5566ac06eb8,,10
 5c5f7b73-f69b-501f-9af2-6d7e1a98b7b8,contains,b44842e4-51b4-52b7-8653-480ff0007c50,f2d394a2-2958-5de5-9cd6-2a4cd0a365d7,,15
@@ -693,9 +743,11 @@ id,relation_type,from_id,to_id,qualifier,order
 5dcdfd85-14ff-55a9-bc3e-6a2c38546412,exercises,464d9b37-0ad1-53d0-b540-74effa8239f3,b2df9bb5-2dc4-53d2-9fbe-97d6119f9dad,guided concept practice,1
 5e00ed0a-754a-5a02-a29d-041371bd98b4,contains,697eee11-37f2-5f2e-8492-16a070ccd069,e3d94fe5-3bce-5303-8104-8066f5d82f11,B009 source order,37
 5e0401cf-b49f-5b51-9d0b-c55c94488cd2,corrects,9c7c9691-1d75-5cdb-8585-d25e8240123a,fc1bd953-2912-5d8b-9e76-002dc648bd25,explicit source-backed derivative correction,271
+5e2085a4-7cf9-5539-a613-a6ecee5fa9f1,documents,bfdb0a70-7fb6-5af9-adb8-981473604688,b9823605-b359-533a-9cb9-84628fa32225,exact B013 evidence,87
 5e350e64-9d1e-53cc-b9e3-3528553b6291,verifies,342c2dd5-2a34-56c0-85f8-448c2df61ee0,bab3be76-8249-5f77-aa7c-7ebcb8ecc39f,Poppler and MuPDF same-renderer pairs; deterministic replay,1
 5e3e76b4-9b81-5d4b-9e28-e2ea56110e27,answers,9bce34fa-59e4-5d7c-b126-0ba4f7961036,0bdb3ffe-12b6-5636-830d-79197bfc7f65,public source footnotetext answer,75
 5e53a956-a742-5726-81c5-21ebee8248a1,answers,48408c78-fc77-5a5e-a880-0f7dfcbed0f1,09615ad9-b250-53c0-9814-d60b7f700fc3,public appendix,19
+5e685100-4b94-5f24-8b9e-dc4a2a45b919,localizes,84d21c58-825c-5e49-87d5-f6245751c7c9,58ae2322-53b6-510c-9faf-b3daa5a76dfd,terminal id-ID localization,32
 5e9d6627-8469-5112-b293-a9499545c37a,exercises,98f96526-d335-579f-8990-474cae0b598a,3ee05ce5-34a2-50e0-8414-5488d45e4e15,concept index,1
 5ea959e7-f36e-52ba-9bf9-bd593cf1ce87,embodies,4e59fefe-4839-5a12-a1ed-5b4efb78232a,8c1f82f6-34a3-53be-9da6-0fa74df91111,exercise-2.15-figure-3,0
 5eaefeed-c80c-52d4-947e-bc067a2721af,prerequisite,8f140534-f401-5d5c-a0d3-e6d0b4b6fe02,44df07a3-cbd5-5644-ace3-b913e58b3afa,conceptual,1
@@ -722,6 +774,7 @@ id,relation_type,from_id,to_id,qualifier,order
 61123dd8-dcc3-5bc3-8a09-371b16f8bda5,answers,bafc762b-769e-5379-a396-6eb4dbfd7857,d7152df1-4a80-5da4-a8ca-ed4e11e85af0,public_inline,1
 613d1189-efe9-5ad1-90dd-1dc78d24264f,prerequisite,d1db6444-a2a0-53bc-add5-e9d5991d65b2,c1455a2b-e04b-509c-bf4c-7fbef1b422be,conceptual,1
 619ee3a6-fbf0-5b46-996a-611410d59d13,localizes,fa586a1a-d823-5e4f-a40d-65b4fa7876a7,b7159090-5a69-5ee4-872e-da8d859ee1fc,id-ID terminal localization,78
+619f1b9f-ce5e-55ab-af37-7ec51cec03c1,contains,b4e4f4b2-ec1c-5ccf-99e3-98cb2c136922,e815c86e-c1a3-5500-89e2-85e50c91589c,unit contains exact source segment,33
 61c3422f-9394-52ef-a3c1-a657dcf4e515,documents,96508f41-cb3d-5c50-b7c8-6ebd4fda7317,b9823605-b359-533a-9cb9-84628fa32225,exact B012 evidence,209
 61cabdef-04bd-5d86-b800-7d2f2eb73137,introduces,9cf167d5-4320-5a32-b56f-605c6e7ff489,e20e1798-bc0d-5b9b-a074-82cdf2653ca1,,16
 61e16df9-1db2-5975-a021-c36ecf4067d6,introduces,9cf167d5-4320-5a32-b56f-605c6e7ff489,0cc8a3da-2540-5f84-83e9-5a12552714c4,,14
@@ -747,6 +800,7 @@ id,relation_type,from_id,to_id,qualifier,order
 645d5168-7cce-5a94-a175-d38b4282fb63,contains,68bfba60-9cd5-54a0-94f7-11662305a6a3,ebdda9ac-27a7-553b-b5be-d0de4f5e32fa,unit contains source segment,137
 64896b72-afe5-5226-be3b-56b2abfc1328,exercises,91fc3301-cb1f-55c9-be90-4bcb58dca050,b2df9bb5-2dc4-53d2-9fbe-97d6119f9dad,concept index,1
 649c990d-8b68-5bcf-bcfc-f8ca109fc11f,prerequisite,e9a6e4cc-caba-5bad-9309-d2886cfd92a0,32f0d81e-fba0-53df-83bf-b17fe4746090,conceptual,1
+64b91672-c04a-5b59-85a6-d174d1986d76,uses_asset,4c8457ff-0769-59f0-9a0d-040a50fb107c,bb8ce8d7-42c6-5dd7-bfd7-0b55e29f1406,B013 figure/code/data closure,61
 64e5ac0f-a7e5-5bf3-8307-8a4471d394ab,answers,fa211d70-60ff-56ba-aee4-b00a48d83ddf,4aca5d0c-6529-52ee-9f7d-e794fe6d7613,public source footnotetext answer,76
 64eccd53-eae9-51d9-a51f-99a00ecde6d8,lexicalizes,356b6e23-4571-509f-91d4-3350b8dad382,ee859f84-8ccf-53e3-a464-cc2203fd915f,terminal B012 terminology,168
 650e4fc3-7988-5223-9700-531aa2b742ed,produces,e27c147b-1293-5a61-97b9-b7413db1ac66,b71687f3-eb47-5691-a4dd-4ffa4496f55f,canonical localized producer/output linkage; Avandia uses receipt-bound equivalent renderer,1
@@ -767,6 +821,7 @@ id,relation_type,from_id,to_id,qualifier,order
 6767d93b-f096-5b62-aabb-3dd95394ef99,exercises,15e82d16-af8c-5c5f-900d-1e15be6b7e41,e81b3115-9e2d-5266-bdea-f4a7efd3ab74,concept index,2
 676aee13-198a-5384-8ccc-a76b029e4d95,exercises,f7d2045e-5e64-539c-9a77-881a363a8baf,0f678819-5b71-53c9-81a0-a23530beb82c,concept index,2
 6775f647-d957-564a-8ef8-e5768492c9ec,exercises,089a1c0f-be6b-55c7-889c-45c6aa156692,064182bc-2642-5db6-bf74-9c844b1387f3,chapter review concept index,1
+679c4498-9f21-588d-802f-c75c6c355015,documents,77bbc0bd-c480-532e-9a07-8776b1915d0e,b9823605-b359-533a-9cb9-84628fa32225,exact B013 evidence,84
 67d2b45c-c28c-582c-897e-cd76fe49152c,supports,b5fddefd-7be9-52a8-8098-b1fd6f6bc8cb,108fb25f-124d-5207-ad62-c21b11efb8fb,reader-visible B009 asset lineage,260
 67d6d258-13a4-583e-a1d9-dcd7ceaf1b8f,supports,328b4fc6-a906-531e-bd42-1a67bcf9e87d,f03bc0fc-6c96-5db2-8d50-46b2ac141f2b,reader-visible Section 3.2 asset,248
 6810ebd4-7f02-5d44-a6d0-5be5fbe2227b,localizes,d0729927-cb0e-5257-a9dc-453a7365ff9a,7338ff33-f61e-5f05-9651-f146275ddbcb,exact source-to-target asset lineage,266
@@ -776,7 +831,9 @@ id,relation_type,from_id,to_id,qualifier,order
 68d59d64-eb16-501f-a623-35f23f239dea,has_public_answer,ddef022a-a3f0-5688-8a76-0b52859c00ba,e55b8aa8-632e-54f9-a1ea-667b2cafe96c,public upstream answer,182
 690087c8-3cdf-5527-a4cb-fdacd76dfd74,illustrates,a8a86173-7433-548f-8ee8-3e84a76732e9,79b67f35-3460-585e-b91d-f1c7f8a7662f,reader-visible Section 2.2 asset,1
 690b4b62-4353-50bb-b064-9cfce1180f03,documents,a2088264-8a43-58d0-a14a-444e7414c2c9,b9823605-b359-533a-9cb9-84628fa32225,exact isolated evidence,198
+6919eb5f-41fd-5887-b01f-e6e4b25bcb7e,localizes,12ad31ef-2b32-51dc-8ea1-53725f9396b6,536b157c-7296-5ea5-8eae-dae62a806746,terminal id-ID localization,40
 691dd592-6496-54ef-b176-8c365e37ed6f,introduces,8b9932bf-3164-5e36-a64a-304ae1894c90,c9b35017-fec8-5e4b-8685-2f4536317b22,Section 2.3,126
+693fe61b-69f8-5894-acac-5613e0ec9dd8,uses_asset,4c8457ff-0769-59f0-9a0d-040a50fb107c,c3534883-5016-5b4a-bf78-3d7e01dd35fa,B013 figure/code/data closure,65
 695eab57-f5f4-540b-a9bd-90e866dbd396,contains,f1251dae-8a9f-5689-af39-6a16e66f6a72,bb589d7d-614a-536f-8684-dbaa6d913b22,unit contains source segment,59
 69cc1a07-798e-5552-a695-e6fbd5c12dd0,translates,f1b3e14f-1f16-5a25-bdd2-abc0caec34c7,690b9550-f3c8-5a39-8c13-e3f22dea4584,id-ID text-object overlay,1
 6a41c708-3ef2-5814-866c-b2713f23c0f6,requires_companion_answer,ec3b569a-6059-551c-9ddb-937edfb55960,2187f81d-e800-543b-af70-139c9763fd9c,no_public_answer_upstream,1
@@ -823,15 +880,18 @@ id,relation_type,from_id,to_id,qualifier,order
 6e8e76d6-bd5b-5bc3-8c76-f5dea5f33950,corrects,4ee59633-83dd-52ae-9949-f7c77323a226,6e4e8c2c-e78c-58d3-afef-7c55af54eb37,explicit source-backed derivative correction,263
 6ea49234-f63b-58f4-a6ac-e4b16ea9e3c2,produces,f8ece73f-da7b-50d0-9890-207cda8d3673,fb5724da-e65e-53ff-a0e2-3d4e10f5e68e,pinned source producer and unchanged data geometry,1
 6f09b380-56dd-5add-ab41-ce348dee71f0,contains,1d288b7a-abb4-52c9-a011-f3226ffd930d,1c69f919-99f9-5053-9fd5-3ccc9045f60a,unit contains source segment,158
+6f6e87f2-9943-5b79-b85a-d68b9a644e69,contains,4c8457ff-0769-59f0-9a0d-040a50fb107c,f26ddf64-d10a-54fb-9f16-b7b79e2c9a2e,B013 hierarchy,3
 6fa67744-ca19-5973-a913-e41e276328fb,exercises,2967fbd0-7fb9-5e4c-9c33-436c98c436bd,7b6b82c2-0367-5b4d-bb75-643f3165be28,concept index,2
 6fcc00de-eb2b-51b6-ae6f-5d3722ac580b,contains,193a93a2-5f42-56b5-a579-7a4c8b028e6d,a1826e03-0981-5650-8830-88dc2ad8b719,B010 source order,6
 6ff466ab-5a63-5140-b6c3-319b26201269,answers,8eb2d76e-01a5-5f6a-944c-4dc01adf6597,b82173dd-a963-514b-8628-cd6c9d97f633,public_appendix,1
 7010beb2-3e7f-5f0d-87f8-39d9fd18bd0b,requires_companion_answer,73520ca6-33b3-53b3-9713-2ad77ac46942,db989fe3-bfe4-5edd-b70a-3b3531baf3de,O001 independent original,6
+7043fd82-999d-5314-ba52-18bde011b616,validates,e8457e92-a84a-5014-ac19-aa54a35ea619,95c0dfd2-8f0a-5024-bc90-903af03c7a3c,typed B013 QA event,117
 7071a0c8-cb92-5a6a-8d0f-4ccd99786d0c,requires_companion_answer,be68d249-d0b7-55f6-9d31-100dc668e656,74df7b7d-b3b8-5719-9c25-bb11c33719ce,O001 independent original,4
 707e5e82-1c4e-5fc1-b158-86671f2cd1b4,contains,697eee11-37f2-5f2e-8492-16a070ccd069,02e4f013-6bce-52d8-a54b-02860c939510,B009 source order,16
 708c75e0-8002-5b55-bdaa-e79594384f3c,contains,697eee11-37f2-5f2e-8492-16a070ccd069,ddef022a-a3f0-5688-8a76-0b52859c00ba,B009 source order,29
 708e2b02-ed04-5d0e-85b8-a360d5422f06,exercises,b82173dd-a963-514b-8628-cd6c9d97f633,986809be-b0b3-5f4b-b034-bca386679560,,1
 709c0bd3-7996-5404-b38f-14d187bd4d42,contains,aea2b278-db6e-56f4-8ada-b95a599ebaab,fb201178-8253-5055-9687-526b99e246e6,unit contains exact source segment,56
+70bc7408-c71c-5d32-883e-073b89c927ac,documents,10cbea5b-27e4-5401-a0d1-27adfc82de9e,b9823605-b359-533a-9cb9-84628fa32225,exact B013 evidence,95
 70e25f63-8c15-5bdc-b9a3-8580d38ef44f,contains,4855a03b-af6e-56cc-ad3b-7d0f5e26745e,7dd4a8b0-6956-5804-ae79-259a778f22a2,,10
 70e3185b-a02c-5d96-9a4c-8ad717428979,exercises,1c22723c-f2d0-5445-bccd-2c220201d232,d9cc1f8f-d0ad-5e77-ab4b-1eff72b55d37,concept index,1
 7108f02b-b900-547d-8561-127065ba217f,depends_on,c9faaa37-1ac5-54ae-b62f-1556d2b63374,619fb15b-7a4e-5515-98a6-e300198da7b7,inline_tables,1
@@ -870,12 +930,14 @@ id,relation_type,from_id,to_id,qualifier,order
 7565f474-37ef-50eb-9f9f-301cfb43552c,embodies,1e30fb21-e26a-5435-bd2e-dde314f70bd2,4b6d3a80-1d24-55b9-84dd-6d4068279d00,exercise-2.3-figure-1,0
 75873633-ea23-5a0f-8a87-e6392fbedb94,witnesses,4f8f313a-214e-51ce-91cd-0a717b55334f,0ff2e593-84b1-5db8-b4d2-64ff51ac786b,exact adjacent English witness,1
 75957ad0-5800-537c-b2bf-a63547619768,contains,193a93a2-5f42-56b5-a579-7a4c8b028e6d,47a4fe12-f3c0-587a-b879-47adb3ee9dc9,B010 source order,7
+75b28d45-5756-5590-8d3e-067116a8dae0,uses_asset,4c8457ff-0769-59f0-9a0d-040a50fb107c,e6e23e71-f52d-50e3-8411-d36ff81d6bcf,B013 figure/code/data closure,64
 75b787f9-8484-5f61-89b8-b95e616295d8,lexicalizes,3d981594-e526-55b7-ae84-b9732ce45331,2ba94c3f-c1a6-5a03-b893-c50de2cc16e8,candidate id-ID terminology,203
 75eceffe-1080-53e4-a38c-36dada5012fa,contains,9cf167d5-4320-5a32-b56f-605c6e7ff489,9ffbb29e-06de-5487-9e89-c5638618252f,,7
 75fdc9fa-18c0-5d3e-b0fb-69ce0fbdf7ba,translates,f872d0d4-8908-513c-b10c-a7abf90efdda,5a56c475-500e-5fe7-9656-a72286d0298e,exact canonical id-ID target span; backend nonadmitted,1
 760d1ad9-4e3a-56d5-b7d0-020832156e00,contains,aa6de920-293e-53d9-bae5-bdb90e35f8f4,ca6367c4-15b1-502f-9fa9-3f7229c912ee,,1
 7650d135-622c-5cf3-bcc3-e5814503f8a3,requires_companion_answer,d79811d2-246c-52cc-8ca4-361c37772b63,0bf0e1db-b742-5f4e-8320-04e356ad9122,no_public_answer_upstream,1
 7676cdc6-d9a1-5ba0-a7b3-92dd0d198e93,contains,cf7a2c60-ae2b-561a-983a-401900ec14f8,7e048099-061b-57ab-a20d-c1a7bf996cde,translated prompt,1
+7695818d-7e6a-54eb-be64-11c0bb1e0f73,produces,86c70769-65c3-5032-ad68-8c35a059e0fe,6699cd03-54a3-5ef7-bfcb-b9b9612a693c,deterministic localized figure/producer pair,77
 76a5daeb-24f5-5635-bff7-22de54a92ec0,localizes,d0b41e8e-029c-59f4-8a54-0b1f08286b29,ae3ac72c-cb4f-5c70-9310-328b4ce42d00,id-ID candidate localization,157
 76b81720-8211-5571-9d6f-a2bfde5d4758,exercises,23d3cfd6-9e74-5f22-82d3-3caa9881794d,d1db6444-a2a0-53bc-add5-e9d5991d65b2,guided concept practice,1
 76df9260-450f-5597-a3cf-4695e67da30f,introduces,c9faaa37-1ac5-54ae-b62f-1556d2b63374,de01b23d-0d60-59bd-9b25-4f32a389b571,,3
@@ -885,11 +947,13 @@ id,relation_type,from_id,to_id,qualifier,order
 77fafa91-59ef-5bdb-b818-ec7f534ace02,localizes,512e4192-5601-5e13-93f8-7d4213fe7b6f,3994e449-3e1a-5603-a654-c900d15f9bc2,id-ID candidate localization,125
 7837be12-514b-5416-b693-b495876ed021,exercises,7fb6fb37-23be-57f3-af92-f7f18dbb1210,d1db6444-a2a0-53bc-add5-e9d5991d65b2,chapter review concept index,2
 783ed08b-db7e-5b90-9c83-8b3635e02ed5,prerequisite,744f1908-fee6-5f95-957e-eed201c22687,e9a6e4cc-caba-5bad-9309-d2886cfd92a0,conceptual,1
+78524655-f6ca-5a14-b28d-421d865e56ad,documents,746250c8-3612-58e5-a525-767356e13dac,b9823605-b359-533a-9cb9-84628fa32225,exact B013 evidence,91
 78a41f0a-29e9-5b5e-b2ff-d6ee0b39f791,lexicalizes,a7652b85-3ecd-5cab-9aac-0df26b0ed27a,c83e824f-46d2-5e04-8b02-024e7508e6cb,id-ID controlled terminology,1
 78ab0ff7-0732-56ae-bfc5-95245a22691c,depends_on,6a4104b8-6358-5cac-bb8f-44a62a948843,58d63c22-9830-547d-a469-86fab9cb6f5d,localized deterministic plot,0
 78d4e3be-65a1-52e2-826f-7ee65a317bd8,embodies,0907a1b1-cb2f-5c9a-b9f8-5ff99537193f,aa6de920-293e-53d9-bae5-bdb90e35f8f4,direct Section 2.1 dependency,0
 79987f9b-bfa4-597e-8162-902504a8be78,contains,1b67b489-5bfb-5b84-8f44-a692fdc15298,1adff8c6-a052-517d-afd9-03ebe36f46fc,unit contains source segment,105
 79d2e972-a9fd-54ab-b137-bdd5f723e2d2,answers,b953cdfb-cb9f-5695-927d-813e52effca0,f476eaff-0729-5ce0-9e73-4cf11501b67e,public_appendix,1
+7a2a8fce-ce8f-5fe5-b656-8067bd72e721,validates,6f9fb207-8086-571e-a28a-e15d9793e5ad,e65b3a8a-b543-5aa5-adf1-128117a5eb10,typed B013 QA event,118
 7a629891-9740-585f-83b8-79513ec7cbf3,requires_companion_answer,a74608ed-09bd-5bc9-b1a8-0118b4dbe4d2,d47db775-23f5-5854-89aa-2c29a9e39d34,no_public_answer_upstream,1
 7a6ea73b-96b8-5ba4-9a6a-2a2c5fae6ef6,localizes,cc43c94d-7b46-5e76-bafe-928045405749,adffb75d-1c91-50c9-af1d-c01f3c789a22,id-ID terminal localization,32
 7a7a24f9-fa31-5747-afe1-ab111640cfb0,contains,38d29400-2764-5109-a7fd-d245c7e52b17,0f31ef05-8651-5e86-9185-b5d10b8fda5d,,14
@@ -920,6 +984,7 @@ id,relation_type,from_id,to_id,qualifier,order
 7d6ed1ef-3e83-513b-b680-4d660551306e,exercises,8b9932bf-3164-5e36-a64a-304ae1894c90,d9cc1f8f-d0ad-5e77-ab4b-1eff72b55d37,concept index,1
 7d8aad71-43aa-55a8-8396-a6e79c6ac473,lexicalizes,0794effd-0627-58c4-b017-940b21edbc0a,8c40f798-fae7-5d0e-a0f4-7ee7049d6d45,terminal B010 terminology,168
 7d8b1054-e7df-5939-a6b9-dd6d44004232,contains,8d6c63f9-60c2-562b-84f3-86db59a7d01e,289e08ee-d483-592e-83b3-e37e6fb69fe3,explicit empty public-answer slot,1
+7da13e55-413f-5c5f-8349-37a6de92d949,contains,0ae4d0a7-e336-5050-9c0f-81ec643541a2,a1c4b57f-f95e-5031-84d1-80e1c90b1c28,B013 hierarchy,14
 7dfb7c3e-bbd6-5581-83b8-8d657182d4df,produces,67e841f7-88bc-55b5-8e54-0d05a124801a,4e59fefe-4839-5a12-a1ed-5b4efb78232a,pinned producer provenance,0
 7dff5c5f-ae34-55f5-996d-9ed4610d0601,contains,47a4fe12-f3c0-587a-b879-47adb3ee9dc9,9a1e140e-2ab0-5848-8777-d833a4c3494d,unit contains source segment,93
 7e025632-93aa-5f6b-8885-7fc986bc47a7,answers,4ad79ac2-b6ea-5eb3-86f4-298962d0bb50,dcd87770-5428-5ca2-8375-09e2744b09a7,public appendix,23
@@ -944,6 +1009,7 @@ id,relation_type,from_id,to_id,qualifier,order
 800f7d60-f6cf-5a0d-9c6f-ed365ac83bec,produces,3b233c23-894b-55bb-9b1e-dacc728f4d28,690b9550-f3c8-5a39-8c13-e3f22dea4584,pinned source producer and unchanged data geometry,1
 8025106a-5caa-591d-8431-ccc19897e677,contributes_to,2433ce5a-4574-575b-af7b-dfbc38a37020,6391a386-fb76-5d7c-9d5d-0dc4ee0969b8,ten exact/numeric and shared-producer assets,0
 804398ae-538f-510e-b5f9-26872e9af977,validates,5c932a29-cde0-5f0f-999e-444a75e1705b,40af8f0a-2568-537b-8d27-a955924168a1,typed B012 QA event,224
+8055f456-5243-543b-b120-b334ddb0d27a,answers,9317c395-4af4-5e47-84f0-bc77d1088be9,4509dff9-7dd1-5735-8e6f-415a5448cfe1,public inline answer,43
 8056b84b-dba2-5b62-aa4f-3d2a691df976,exercises,981a77ce-25ad-5caf-ab40-e597c250cae9,32f0d81e-fba0-53df-83bf-b17fe4746090,guided concept practice,1
 8096cfdf-550b-52ee-bf98-9c36c0895ee6,prerequisite,986809be-b0b3-5f4b-b034-bca386679560,744f1908-fee6-5f95-957e-eed201c22687,conceptual,1
 80c962f7-48a3-57c1-b4a3-237f241f6f10,answers,42d71cb2-708a-5c1c-bdc6-5d86d05d2841,e3317173-2b2f-5983-a8d4-d251370857eb,public_appendix,1
@@ -964,6 +1030,7 @@ id,relation_type,from_id,to_id,qualifier,order
 82732209-8606-5d13-b86d-1e7551c4ae14,contains,6cf76de5-ad58-56a0-8ae3-941bf2616c52,c5ef874a-c3f1-5866-90e8-09d5b6dbbcad,unit contains source segment,71
 829995f7-81ed-5cd7-992c-d7aedf5bf4a6,illustrates,b71687f3-eb47-5691-a4dd-4ffa4496f55f,8b9932bf-3164-5e36-a64a-304ae1894c90,canonical reader-visible id-ID Section 2.3 asset,1
 82ab9194-590b-5deb-8a60-19dbec420588,corrects,e4a078c9-b583-5429-a1bd-db333a70a187,47a4fe12-f3c0-587a-b879-47adb3ee9dc9,explicit source-backed derivative correction,266
+82bdd2c3-cb3b-57fd-adfc-74945c520400,validates,28a21a74-cdef-5888-90f5-bdbec996c72e,bfc33074-baeb-5041-b9b5-f15f1c4b9b37,typed B013 QA event,115
 82cdaa05-2072-56fc-a7de-365a464f5eca,requires_companion_answer,ab27db6b-571d-5b55-908f-97ce3cec29d0,bcf10718-b547-5025-a829-51ae07a1cd56,explicit O001 gap; restricted solution not accessed,158
 82d8cf8f-6dd6-5f1b-b81e-c2db1647902c,embodies,71f770c9-ca8b-501d-950e-34bbf7bb13af,aa6de920-293e-53d9-bae5-bdb90e35f8f4,direct Section 2.1 dependency,0
 835141d0-f90b-515e-8927-e9d1dfa4c168,exercises,8b9932bf-3164-5e36-a64a-304ae1894c90,716fc072-1834-5267-8577-8d9a1dfc3c06,concept index,1
@@ -1000,11 +1067,13 @@ id,relation_type,from_id,to_id,qualifier,order
 863cccdc-1c33-5c9d-9895-72201931f7b1,contains,a485ca16-e7af-5fc9-a661-2481b3a87b29,be52aff2-82ec-57e8-9248-7d5838b5503a,B012 hierarchy,16
 863f2b08-8530-52c2-bd9b-0bafb861a979,contains,697eee11-37f2-5f2e-8492-16a070ccd069,40116ec4-9cb8-5f8f-95bb-1f397c042240,B009 source order,18
 8643bbfb-95b4-5332-b2ca-bc9acff4d111,introduces,38d29400-2764-5109-a7fd-d245c7e52b17,5594ac04-c075-52ae-b2ea-7374ea43221a,,2
+864c51e8-83bf-52d2-b7bb-e1cec0b4a26c,localizes,90727c94-8d29-5041-8b91-a12f59e06f7e,8ccc592a-0fd2-5818-ad03-5dd7295f09ab,terminal id-ID localization,22
 86d29651-c4af-5ce0-97fd-051cdff47ada,contains,60a2cb71-2aa1-5917-9379-f7f55474c01a,69e6130f-70e9-5ba1-9f52-baaf7a2ac41e,,36
 86e3f212-2a03-53d6-ad21-0048013d4676,introduces,17acf038-9821-5e3d-9ffa-1526fab12218,bbfa7b30-c8bc-546d-9f82-b4e8276f8459,Section 2.1,91
 873bfca0-919e-50c7-9187-e9c89739a55d,governs,b8ee2bc6-8b07-51f4-8124-2fd462cd606b,a766f9cd-f941-5953-b2d9-9d5f0b9a8764,smallest-component B011 localized-text rights,90
 8741ed6c-5daf-57ea-9ccf-4b5914185be7,contains,c33c56be-8678-5ba2-b3a0-344f40bca434,0c6aad8c-9da4-505a-9424-829a2fb30e6c,unit contains source segment,118
 8777af22-66c9-51e4-ae52-785e8a29873b,prerequisite,77650911-967b-5348-96e1-4400d431e18e,d1db6444-a2a0-53bc-add5-e9d5991d65b2,conceptual,1
+87aa9d0a-393a-5e80-953e-ec6c48a1fa2d,contains,4c8457ff-0769-59f0-9a0d-040a50fb107c,fc39d34f-4c80-5cfe-831d-1c029efd4b3f,B013 hierarchy,6
 87baaa51-3248-5ea1-8177-3b6423846cbc,included_in,802b1c0a-b2ab-578e-9f7a-fba25cfe1b88,86136ccc-cdd4-5403-9ddd-d2885ac7a7bb,Exact public-answer source member.,5
 87cd7800-d39f-517f-8cc2-2a8156436068,documents,8e5992d7-8f31-543e-912b-962220de3c7a,b9823605-b359-533a-9cb9-84628fa32225,exact B012 evidence,193
 8830a593-5ada-5ada-8861-65a983c0a09f,localizes,e39d4591-6e55-59b6-a0fb-a97f1eb699fc,bc8c4c9c-3cc0-57ff-acc5-dd1ac2bf19e0,id-ID terminal localization,108
@@ -1021,10 +1090,13 @@ id,relation_type,from_id,to_id,qualifier,order
 891b2624-8497-5fae-a6f2-cbede6b25491,contains,49ca843c-e79c-5858-96ba-34396dd18ae6,6e9dc374-9378-5c52-b2ae-88d498bcec17,,1
 8928a042-ac75-55d1-ac7c-b825457bfd66,localizes,feef2c88-1e7d-5267-9d7c-7c5cee518693,93fa983a-840d-5bf2-a6d6-0bbca3d924ef,exact source-to-target asset lineage,267
 8969ddd9-fbcd-5203-8939-50baf800eb66,introduces,b4cd26a2-3443-5b4d-9a38-f2d9766ae10a,7b6b82c2-0367-5b4d-bb75-643f3165be28,Section 2.1,102
+896faaac-6998-5123-b329-888be8a92050,documents,41f303d0-7ff9-5492-a413-8aa9ce2b476b,b9823605-b359-533a-9cb9-84628fa32225,exact B013 evidence,102
 8980d4c0-39b9-5603-ae4c-f7ed06838f5a,contains,9cf167d5-4320-5a32-b56f-605c6e7ff489,0c15d1e6-cc3a-5b85-9c5e-028f9f39d588,,6
 8993d398-b1a2-5316-8cd1-301ff02ac09a,documents,e9b8dcfc-3346-5351-8b6c-51e18fd7f54c,b9823605-b359-533a-9cb9-84628fa32225,exact isolated evidence,236
 89c9b25f-8d69-55fc-9534-107fa7459cbe,translates,dba4f419-6462-5d56-b4cf-2ac379015e93,721a97c6-3826-5267-bd88-bff776ec11e6,exact canonical id-ID target span; backend nonadmitted,1
+89f965fc-4a5e-509b-a52b-67ba74725483,covers,4c8457ff-0769-59f0-9a0d-040a50fb107c,d8df0018-7a8d-5c04-80e3-63316d05f3ea,Section 3.5 concept index,57
 8a2506e0-b3ee-5a60-aaad-c24fc0fbb57b,contains,fed108b4-46d7-5413-91db-2b18f47fbb01,f2061e42-468f-5214-9156-882597a64221,B012 hierarchy,41
+8a268d73-dad3-5dd2-a5b4-5e47e74ef97d,documents,89486d86-971a-5e68-a32d-a7bde602fee2,b9823605-b359-533a-9cb9-84628fa32225,exact B013 evidence,81
 8a279727-42d3-58e4-8d67-cfa002f26db5,contains,4fa0fd7b-9cac-53c7-a0f1-1fdbeaa2b52d,eb293ee2-f92a-5a6b-8654-ead45b33cfdf,unit contains exact source segment,128
 8a5a7c11-6056-5823-810a-19be25de412f,prerequisite,6d4ab24b-de8c-50fb-a166-0a95b318b413,39419da2-308b-5a02-9d4d-b87a2121ace2,conceptual,1
 8a7af8e4-f45b-5467-aff2-1d64ac7f86a6,contains,697eee11-37f2-5f2e-8492-16a070ccd069,55052df6-d488-53ed-8f4c-e0bb4a894836,B009 source order,9
@@ -1077,6 +1149,7 @@ id,relation_type,from_id,to_id,qualifier,order
 90c03cd0-75f1-59f5-967b-032c50c6469b,produces,93d72384-beb3-5d6a-96b8-8c2b875d3fc0,1b0b7423-94fc-59d7-a6fc-2f0acf47fefd,two byte-identical replays,1
 90d09f52-14b4-5df5-bc03-762f490a2e7b,documents,0dd10ff9-54e7-55db-bde4-b2d659713069,b9823605-b359-533a-9cb9-84628fa32225,exact isolated B011 evidence,96
 90e3865a-e434-538b-a28b-53f56348b1ed,contains,a5d1f326-634c-5bcf-b4b2-9c9dea130284,21fbf5c8-a2e1-5fba-9685-5f0b02eadb01,B009 source order,47
+90f9d98e-98cb-5643-bf69-ceddae30d10f,corrects,5c0539c3-f99d-5106-9f7a-01d7a80d17fa,4c8457ff-0769-59f0-9a0d-040a50fb107c,typed source accessibility correction,121
 912e75a6-5b37-55fa-8312-c9c664b7d9e0,requires_companion_answer,0fa1975d-b6d4-524e-b068-1cdf25486aac,f0e7ea2d-2d5b-588f-9c7b-68b29f472d20,O001 restricted-answer gap; restricted solution not accessed,78
 9139d6d2-e33b-5b20-9a30-67aa9d89a182,introduces,9cf167d5-4320-5a32-b56f-605c6e7ff489,1dcc57e8-e305-5cbb-9ac9-92efbdb173ec,,18
 91ac1905-d908-527b-bdd8-1eeea073f868,contains,108fb25f-124d-5207-ad62-c21b11efb8fb,eb907e1e-ab6f-5965-913c-4a23f79501a1,B009 source order,48
@@ -1101,8 +1174,10 @@ id,relation_type,from_id,to_id,qualifier,order
 939ccce4-ae39-556a-bca3-4d6f3ae825a1,localizes,11163e20-c455-5df1-a299-22c22f64ef0a,36dd87da-3393-58d0-92a4-bc30fff571d6,terminal id-ID localization,113
 93d30381-73f0-5fb6-a46e-97157bb70bdc,depends_on,ef7f55d2-6426-5c6b-a525-29e747da8d0b,76fde769-00ca-5b62-beb4-758042182d84,reader-visible localized vector figure,1
 94088f7b-8d5d-5e95-be2e-d46f1cfd48aa,contains,dcd87770-5428-5ca2-8375-09e2744b09a7,4ad79ac2-b6ea-5eb3-86f4-298962d0bb50,,1
+940dd358-6f0f-598c-b104-daa969e78314,documents,c16c32cc-ea23-5065-bd1b-9639619c7af2,b9823605-b359-533a-9cb9-84628fa32225,exact B013 evidence,108
 941cb08a-9cbb-583c-a6f4-7fd48a0010e4,contains,fa211d70-60ff-56ba-aee4-b00a48d83ddf,7b1ecc09-e625-5328-9987-8cda0ab14daf,unit contains source segment,51
 9444fe79-7f7f-556b-9ba2-ef296d04b7e9,verifies,6391a386-fb76-5d7c-9d5d-0dc4ee0969b8,02c09987-5568-5412-a141-b9051306cae5,"13-asset deterministic replay, parser, embed, residue, and visual PASS",0
+945220fe-d390-5821-be4c-d270c33223ea,documents,95c0dfd2-8f0a-5024-bc90-903af03c7a3c,b9823605-b359-533a-9cb9-84628fa32225,exact B013 evidence,106
 9464ef02-e7c6-5e8a-8883-00a5f96a3c86,exercises,32fa00df-613b-5933-8eda-622980c61eba,3ee4acb8-ee7f-51da-be6d-68438b09521d,concept index,4
 949916d8-b9b0-5de9-bd8b-b2eec56f9f63,introduces,38d29400-2764-5109-a7fd-d245c7e52b17,f9d9ab73-6c38-5df8-a04d-47131ed0db45,,10
 94c3958b-db83-5b46-9f87-f9fb889f2b68,translates,8dc5af85-20b6-5bb2-980b-d05284d9beac,50b97b19-c994-5f71-98a0-e5c46a9c06b8,exact canonical id-ID target span; backend nonadmitted,1
@@ -1133,6 +1208,7 @@ id,relation_type,from_id,to_id,qualifier,order
 97b2a096-0948-514f-8508-576427c0a65b,validates,0b8dd541-d571-5e85-ab95-3e84492925f8,86136ccc-cdd4-5403-9ddd-d2885ac7a7bb,Thirty source checks pass.,6
 97b6c02f-1846-553e-a2ee-717d0fb04bd1,introduces,38d29400-2764-5109-a7fd-d245c7e52b17,9e9ea1cf-0d5d-5db9-a084-9452e9de2a79,,7
 97d118fa-a0bc-5b16-b380-9b276f29302c,supports,2a184703-0be7-582e-b94f-30fa3748a581,27323993-c63c-57ac-ba90-5e0b9457ab94,two P2 underfill findings motivate only ADV-0077 and ADV-0078,1
+97dc53a1-5d76-5e46-9ca5-2c83e488a827,uses_asset,4c8457ff-0769-59f0-9a0d-040a50fb107c,304ad2e4-9fd9-5aca-b328-ce810e3cfb65,B013 figure/code/data closure,67
 97e202b0-7b45-5ea4-a8c3-0cf828bf701a,produces,dd289298-02bd-5e06-bb38-89ac1b7f85a9,2dc5579b-c572-52a6-b9db-db2caf0c95db,pinned producer provenance,0
 9808c3de-98a2-5f08-b682-426adb339c98,contains,3b45c972-4f12-577c-b7de-d173ab1640e3,d6449948-59aa-5d31-bc9e-5795ba199884,unit contains source segment,66
 9819be98-f7e0-51c7-ab1d-cfb9d9737ba0,produces,c61713d5-a944-51c2-b134-d32112402f64,71f770c9-ca8b-501d-950e-34bbf7bb13af,pinned producer provenance,0
@@ -1174,6 +1250,7 @@ id,relation_type,from_id,to_id,qualifier,order
 9bd6b5fe-2c1b-5763-9d91-3d6f1e68e11f,produces,1972e66f-ff0c-5ec8-9ac6-9edeca17ea53,33dadcf3-c16a-5e5c-818f-038790125697,pinned producer provenance,0
 9bf580f0-ef9d-578b-9e9d-a87bc260b99b,localizes,4b43961e-d291-5381-b2d2-d98f7fd6f55b,3ee81614-3cf1-50e0-9028-964afb6413b9,id-ID candidate localization,169
 9bf89ac2-a938-59a2-89e4-3f4006d35a18,localizes,ae79e886-181d-5b57-87cf-1b538e6571d8,2c246af4-fd01-55a7-8d00-04a7d0b906fc,id-ID,1
+9bfe27e3-6bcb-502e-86ad-cfffc4a152b4,uses_asset,4c8457ff-0769-59f0-9a0d-040a50fb107c,6699cd03-54a3-5ef7-bfcb-b9b9612a693c,B013 figure/code/data closure,66
 9c04701e-d622-5760-82f4-e8bace421c7a,exercises,5172495b-cd2b-5f34-b695-29ce4bc07662,e20e1798-bc0d-5b9b-a074-82cdf2653ca1,,3
 9c25d5c1-64f6-5ddb-96c0-f8ea8b6bc74b,verifies,6391a386-fb76-5d7c-9d5d-0dc4ee0969b8,2dc5579b-c572-52a6-b9db-db2caf0c95db,"13-asset deterministic replay, parser, embed, residue, and visual PASS",0
 9c38a8ba-a24a-5eb2-91e1-6cdda5c8ad4f,produces,5baec410-5943-542f-bfd9-ef96d6d60166,e1bd2aa7-96ca-58fb-96af-c1f3a26dc5b3,pinned producer provenance,0
@@ -1181,9 +1258,11 @@ id,relation_type,from_id,to_id,qualifier,order
 9c6ce8eb-40b2-5af3-8849-99baa3b54e3a,contains,0fe007c9-8e05-5b33-ac63-e0941b0bb9df,2b26a40e-e53d-5697-9e81-9dd25b95261f,,1
 9c95a468-7f05-56be-84a7-1f47814aa74d,covers,a485ca16-e7af-5fc9-a661-2481b3a87b29,36e35ba2-9cc5-55b4-8dcd-7a36306ed91f,Section 3.4 concept index,179
 9d275b7a-b26d-5fd6-93af-666f2880a440,exercises,65551ca9-43d7-5ff5-957c-31dfc67eb47a,2c25f8a0-57ca-5170-8226-10347de83596,concept index,2
+9d2f6d05-3d39-5a75-97ff-e0b287826e43,contains,4c8457ff-0769-59f0-9a0d-040a50fb107c,0ae4d0a7-e336-5050-9c0f-81ec643541a2,B013 hierarchy,13
 9d3a9126-57fc-5e6c-b456-802f29834e06,localizes,938335b6-5043-57b6-ba01-d6b7c76f1211,0592a4cd-dc6d-5ca9-9e13-7009e554810d,id-ID candidate localization,137
 9d4b604f-548e-5986-9225-bd50edfcf114,lexicalizes,f4b245cc-6262-52e3-b1ad-bdf642648281,d3c85f75-5577-52b4-b81d-2dc426ed815d,id-ID controlled terminology,3
 9d6a630e-645f-5897-a5a0-4a2194267efc,produces,3317b8b9-c75f-5bb9-af95-21a7165757bd,4ef34873-0e22-57c5-98eb-16d7d5bfb488,pinned producer provenance,0
+9d75f40f-877a-5174-8007-1edcf6f7e964,contains,f37d178c-b60a-52c7-b3a1-5689a49e4a32,cf00ae23-f06e-5c82-8ebe-638b9820c621,B013 hierarchy,12
 9d805b18-f220-5274-a6af-9e422a49b145,verifies,285454df-b4e5-5ca8-a2e7-6993e5a33122,dbf7477f-e53a-5339-b21d-3cec50ef7a94,two byte-identical replays and visual PASS,0
 9d9934d7-081f-5b9f-b619-029f8ef45c5e,contains,4aca5d0c-6529-52ee-9f7d-e794fe6d7613,fa211d70-60ff-56ba-aee4-b00a48d83ddf,B011 source hierarchy and order,12
 9d9c9a8f-d91a-54a0-8ded-b00ce64b34a0,localizes,5a56220f-8d7e-50b4-9a75-05fa2bb5561b,62e57ca0-d2fd-56b2-bb0f-b401f768a115,source note to Indonesian provenance summary,261
@@ -1199,16 +1278,20 @@ id,relation_type,from_id,to_id,qualifier,order
 9e6c8524-62e7-5b58-9813-18eb50470b88,localizes,eeb57456-7de0-59ca-9c5c-b6faafa2ba8d,44aabb05-6eaa-5589-80a7-56b28ffc43b2,exact source-to-target PDF lineage,249
 9e9ce5e7-7791-5285-af8c-d93bce5aca83,prerequisite,3ee4acb8-ee7f-51da-be6d-68438b09521d,0b2168f4-1030-551b-9265-a41eaaadbbf5,conceptual,1
 9ec25af7-d466-546b-9063-3b6f68190593,contains,9cf167d5-4320-5a32-b56f-605c6e7ff489,1d4258d2-754c-5f2a-b382-28e0c5cf5252,,4
+9ee842ca-6777-5a97-8250-0d368956f1cd,documents,bbec5e06-f32b-52a9-ab6f-5fed220e3075,b9823605-b359-533a-9cb9-84628fa32225,exact B013 evidence,105
 9f1e7ee2-8a4c-5df8-9457-1b56c958d2b1,contains,ef25e2c4-b83a-58be-bfaa-8fe6b5fa5d63,5bb45cef-c069-554c-8ee2-e944e0162b29,unit contains source segment,147
 9f2442a5-3170-55da-bdee-3fe44027632c,contains,4855a03b-af6e-56cc-ad3b-7d0f5e26745e,4a0f5bef-95db-5c6c-ae94-097778cff15d,,3
 9f28f16d-0412-5032-8199-b719490126a7,contains,470c3927-0fbc-5034-9d45-fbf0ba065727,e4ec9d68-2046-5d31-a3f4-779873497a5e,B010 source order,44
 9f782fb0-5ffe-51ed-bc2f-d2731b2a6a0a,contains,4855a03b-af6e-56cc-ad3b-7d0f5e26745e,7fb6fb37-23be-57f3-af92-f7f18dbb1210,chapter review source order,31
 9fa364cf-176e-5fe2-b1e5-7fecd6c3dee1,documents,68caf8fa-04f8-5ac0-93d2-fd8617817c31,b9823605-b359-533a-9cb9-84628fa32225,exact B012 evidence,212
+9fd66da3-d987-5c8d-8380-9bdce56d677d,documents,b4c510d3-3052-57f5-b1c6-3aaccc250a5d,b9823605-b359-533a-9cb9-84628fa32225,exact B013 evidence,99
 9fdb290b-2254-5410-b8d3-d2957314f1f8,contains,15e82d16-af8c-5c5f-900d-1e15be6b7e41,ad5e9a37-7767-5450-9dab-f54b570978e8,,1
 a0600dee-2cd0-5ed7-87b5-38e163dc73d6,verifies,3e6a1471-1a27-56b5-9eb7-6ea4178af062,cda64c06-7961-5028-afbc-01956ce7d61c,one exact layout-only substitution and byte-exact v3 reverse reconstruction,1
 a0653a97-5216-5665-ab83-ba4029bdc9a0,introduces,c9faaa37-1ac5-54ae-b62f-1556d2b63374,59459694-3daa-53d6-bbd2-8715fb6477b4,,6
 a071787a-08a8-52ba-9326-b5031074b05e,exercises,e2b24411-28f5-5067-bc3d-383eda5fecf5,77650911-967b-5348-96e1-4400d431e18e,concept index,1
 a0827227-1af5-5e0a-a196-109a37e6d08f,localizes,76c7ccd1-481b-56ec-80c1-da32aeb3b219,1c69f919-99f9-5053-9fd5-3ccc9045f60a,id-ID candidate localization,159
+a0d53114-7efe-529f-8ad7-af7d7cc1625e,documents,562e9d53-e1d8-52ed-8cf3-f87271ef10f5,b9823605-b359-533a-9cb9-84628fa32225,exact B013 evidence,97
+a0e9e8cc-aa7c-5276-b6b5-4471c438342d,uses_asset,4c8457ff-0769-59f0-9a0d-040a50fb107c,86c70769-65c3-5032-ad68-8c35a059e0fe,B013 figure/code/data closure,60
 a0f6cc58-65e9-5647-9fee-5207fb18f43c,contains,5d1c54cb-75dd-5f1d-94d9-0795134806dd,a967ccbc-648b-5a29-a41a-119f9073a205,,1
 a0f737ae-8ae8-57fb-8360-d5fafe5255e8,contains,f737466c-6fe9-55d9-b2b4-09ec9a1f5afe,5623583c-258f-50a2-af9a-aeed766142b9,unit contains exact source segment,84
 a0fef646-d13e-56c5-854b-a7a92be658b5,contains,4a0f5bef-95db-5c6c-ae94-097778cff15d,e6ac9457-94fd-5c0e-9e5d-64019cffef9a,,3
@@ -1229,6 +1312,7 @@ a264d93c-6b5c-52ed-83db-62ac5e1f6d71,localizes,10f802b3-8869-559f-a8d4-2c557f0c4
 a26afb25-0340-5873-8c12-89a31eb7ba18,localizes,aa2f324a-f74b-5171-ae22-9cba3b1010eb,15c3c5bd-4d06-505d-9202-226ab8978bdc,id-ID candidate localization,171
 a295782d-8989-5028-ac01-b10bde848f08,contains,4a0f5bef-95db-5c6c-ae94-097778cff15d,76ecd2e2-efd6-5cd9-b054-41be3101723f,,4
 a2980311-ec2f-55db-9aa3-4aae3a60cc11,validates,c9fc676f-0bc3-5ce1-bbd7-e6fad38c387a,24496d67-35b1-5a38-8cde-d2654acf1d91,typed B010 QA event,222
+a2ecae0c-b000-5e43-9e53-b5c0d98fc96c,lexicalizes,180dfe02-3b9a-564e-bbbb-e4b59a7fb549,1a8bdfc6-3122-5c5a-940f-40fe78cd1722,terminal B013 terminology,58
 a3009e58-e1d4-5ca5-b202-f365568db258,validates,d24040d5-b080-57e8-abaa-ac5a9857ef43,dd70bbcd-9481-5264-abfc-eb2ee98f1e84,typed B009 QA event,245
 a30c513f-1858-521d-be78-3ca5cece39c8,introduces,38d29400-2764-5109-a7fd-d245c7e52b17,94a6e094-21f4-554c-8620-041fcacbbf33,,4
 a396b109-9857-5f11-9fa2-873a7aa80702,illustrates,677d0b99-e068-5fb2-ae32-6d7e0bc7d330,df8c32ef-fdf2-53a0-82d9-6ff7b9bfbb39,reader-visible Section 2.2 asset,1
@@ -1245,6 +1329,7 @@ a44a4fa0-e827-5b58-a646-d4ef5d03c5b9,contains,8b9932bf-3164-5e36-a64a-304ae1894c
 a46b1a28-908e-53aa-9eb2-dc0bc70abe21,supports,2d8febca-1993-5cd7-a5e8-826028a7a28a,108fb25f-124d-5207-ad62-c21b11efb8fb,reader-visible B009 asset lineage,259
 a4729c77-0e1f-5b97-9c58-0896c6f12f14,documents,ffbfb836-225e-5e06-9b38-a3788bf1d223,b9823605-b359-533a-9cb9-84628fa32225,exact isolated evidence,193
 a4826c22-80d9-5938-945e-b2407c63d574,has_public_answer,934f478e-1372-5c73-9c65-90094a7a5d9a,4d283c50-161a-5cc0-983b-b7fa7c39ae0f,public upstream answer,155
+a492734b-fe4e-5dfb-ac9c-2fc7f473abf2,uses_asset,4c8457ff-0769-59f0-9a0d-040a50fb107c,eaed91f4-a9b3-5bfe-9227-93faa692eb6f,B013 figure/code/data closure,70
 a4a7d808-1767-58a3-b291-acc70e79be05,produces,ad6a57a4-4b88-5f64-936b-98d3e1dcc7c2,1a4c76f8-d2b3-57b7-bd10-ac9d94980614,canonical localized R producer,2
 a4acea02-9997-5f43-962c-652ce104d89d,contains,193a93a2-5f42-56b5-a579-7a4c8b028e6d,f03bc0fc-6c96-5db2-8d50-46b2ac141f2b,B010 source order,8
 a4c0bc66-251a-5ca8-874d-c8f75f8d3da1,has_public_answer,64168f66-cd8a-5a1b-a859-284c1a945475,ef25e2c4-b83a-58be-bfaa-8fe6b5fa5d63,public upstream answer,157
@@ -1295,6 +1380,7 @@ ab814ed8-ab09-52ca-a9f4-1e901b2f04de,introduces,c9faaa37-1ac5-54ae-b62f-1556d2b6
 abc1ca4d-646d-5cd2-99fa-08fdb795ff6b,documents,c1e479b6-886e-5fe5-92bd-f2dde21274ce,b9823605-b359-533a-9cb9-84628fa32225,exact isolated evidence,187
 ac1489dc-2478-58f3-bdc0-54f63f933129,localizes,f03325fd-2759-55fa-bdaf-a3895518a3f0,bf824794-2b9b-5736-8525-7da70037b51d,terminal id-ID localization,49
 ac36795c-d757-5165-8cca-16409bed3bff,answers,645a441c-5609-5ae7-9a39-ce2aa74eb3b2,eb7f6e94-501d-595e-8eaa-4e48c95d5afd,public_appendix,1
+ac4447ec-a369-5040-b10f-b58f2fc4269a,contains,4c8457ff-0769-59f0-9a0d-040a50fb107c,4509dff9-7dd1-5735-8e6f-415a5448cfe1,B013 hierarchy,7
 ac485dcd-9d6a-5437-9f81-4a643ecd99a6,localizes,0ef94d93-6953-55c6-95a3-5e6e0dfaa762,e4b1517e-d283-5389-88d4-5ae20c6807fa,id-ID candidate localization,75
 ac4976c9-03a6-5810-b96d-8e8f81c5523e,contains,697eee11-37f2-5f2e-8492-16a070ccd069,be09309b-7571-5131-8152-e98c6653b9a7,B009 source order,8
 ac4de980-6b3e-52f4-a948-929e53ddbf17,translates,3a0b8dbf-cc25-54a7-bc65-8f42fb5c6f4f,66226366-f3d0-5472-9575-4a87914b5814,exact canonical id-ID target span; backend nonadmitted,1
@@ -1328,9 +1414,11 @@ af228683-e270-5cd5-9d86-9153cd7ea1cb,documents,40049b2f-e8af-5b23-9d57-a23ee0935
 af44f6b7-d1e0-5dee-a715-e8c97d999ed5,contains,3c6361cd-2b66-5dcf-9ae1-6f9525f9dce4,563fa6b8-edde-5b8d-9b60-984c6a23797a,unit contains exact source segment,92
 af626af4-4bf0-5b10-8de7-bc0d9edb3e6e,localizes,39c4b3be-d1ee-5d1a-8487-8fb01c36d126,ed670e07-028b-5731-83aa-0397faf52363,id-ID terminal localization,50
 af6ffc5f-256e-5a4d-bb59-4502a79b6309,exercises,f2d394a2-2958-5de5-9cd6-2a4cd0a365d7,2c25f8a0-57ca-5170-8226-10347de83596,concept index,2
+af97c89f-47ac-55e7-ba4a-dbd70b93683d,lexicalizes,580830fe-bb70-5609-b0c4-4610dfda56a0,a81f45d4-eef9-5950-9da6-516523a1bc06,terminal B013 terminology,54
 afbce58e-d901-5fe1-8d19-c0d7d6e76502,contains,1c22723c-f2d0-5445-bccd-2c220201d232,8dc5af85-20b6-5bb2-980b-d05284d9beac,end-of-section-exercise,1
 afd70598-1ff7-5d57-8f83-ec864664e700,contains,cd65f04f-a114-55e7-b4ff-4643fd1601e5,be9d7454-a37d-597d-8b35-e25c50236f78,,1
 b007709d-f24d-5f51-9877-debdf82de651,localizes,e601181b-0b6d-5b5e-b018-07267a310374,7593c8b7-78d6-5669-8a16-3e3e75e2ebfd,terminal id-ID localization,127
+b026bec8-50ba-5041-9d34-02457fffc974,lexicalizes,9755e57b-a40c-589b-b383-e5eebf82cc71,d8df0018-7a8d-5c04-80e3-63316d05f3ea,terminal B013 terminology,56
 b032f5ed-54d3-5101-9237-0bd04f01bd0c,introduces,08a0e42f-434e-5621-ad7a-49c7c1f63adf,44df07a3-cbd5-5644-ace3-b913e58b3afa,Section 2.3,121
 b0336aab-b6df-57a4-94dc-e6698740cedf,contains,6fd54b2a-6a51-5f71-8a7b-fd2a10a6ab5d,b9df52a0-1b52-513c-af1d-ce03b66d9dd1,,1
 b033a3a0-c0a2-579d-a758-5078c6f54405,produces,93d72384-beb3-5d6a-96b8-8c2b875d3fc0,4d91d156-55aa-5121-8af2-5786dd91de49,two byte-identical replays,1
@@ -1338,16 +1426,20 @@ b035944b-d6be-53f4-ad00-3fe0c07115df,contains,66ad4593-df37-5b7b-bd2c-14b7767ee4
 b04f4015-7a8f-5b10-8f88-9d119d811e3e,documents,dd70bbcd-9481-5264-abfc-eb2ee98f1e84,b9823605-b359-533a-9cb9-84628fa32225,exact isolated evidence,233
 b054de7b-4074-582f-8555-bf43f384dd2b,requires_companion_answer,e399d3b0-84b2-5859-93ff-fdafd4738bd8,fa155c02-1ddf-50ea-8bc1-a7219f555b32,no_public_answer_upstream,1
 b056e985-cf41-5cc0-a117-9c60d17b433d,localizes,f3d94405-e8dd-57ab-ac63-928f458eab13,4ad94f74-d2bb-5d70-b2c2-2f4795977fd1,id-ID candidate localization,147
+b06e083b-0b5e-5c2c-bd8b-b21a11483da5,uses_asset,4c8457ff-0769-59f0-9a0d-040a50fb107c,f4831515-af15-50c4-b30a-a9aeab734b2f,B013 figure/code/data closure,74
 b0a93176-8ee3-53a3-b45d-916563179a3b,depends_on,a74608ed-09bd-5bc9-b1a8-0118b4dbe4d2,04e80a8f-960f-5a01-8c08-0c8189dcac07,localized deterministic plot,0
 b0bb1bf9-a68b-5966-8422-86e6cb010962,exercises,eb7f6e94-501d-595e-8eaa-4e48c95d5afd,19dd1a68-3be1-5e34-9fce-1963b24d4ef1,,2
 b0bc884f-0cbe-5c6f-b0c2-886571de7f3f,prerequisite,3ee4acb8-ee7f-51da-be6d-68438b09521d,15259de1-8af3-5a51-8c24-17536e076114,conceptual,1
+b103fda1-6f79-5d6e-bd9c-f73a781700b4,produces,86c70769-65c3-5032-ad68-8c35a059e0fe,1dacbf69-903f-5896-9b1d-f94de07f6630,deterministic localized figure/producer pair,76
 b158d983-4d0a-5e2b-ba83-d25ed9fb7a65,documents,d204398c-a6e3-5662-b2a6-d302289d335e,b9823605-b359-533a-9cb9-84628fa32225,exact isolated evidence,213
 b160478c-b43c-5021-9aa9-99a6188748af,documents,6f55e58c-685d-5c17-aa0d-2eb19a60c5ba,b9823605-b359-533a-9cb9-84628fa32225,exact isolated evidence,201
+b17f9300-5e90-5404-8086-4b92841bc8e6,covers,4c8457ff-0769-59f0-9a0d-040a50fb107c,716f7dd9-b47c-5656-b3ce-5c188544c5ee,Section 3.5 concept index,49
 b191cac9-83d5-5a0e-8260-ea89d5c98851,contains,8b9932bf-3164-5e36-a64a-304ae1894c90,dba4f419-6462-5d56-b4cf-2ac379015e93,end-of-section-exercise,1
 b19ed0aa-05a1-590f-8f70-60bcf0194e79,documents,aeeac66c-192b-53d2-b953-a8ddf3fd3ff1,b9823605-b359-533a-9cb9-84628fa32225,exact isolated B011 evidence,100
 b1d29d27-f865-5b63-a122-94b19ba21f42,introduces,a1268a25-f69a-531a-976d-441e5c4c5663,e81b3115-9e2d-5266-bdea-f4a7efd3ab74,Section 2.2,135
 b1dcddcd-7e3e-5bc1-a47d-b0d517d8a0df,documents,18e40726-930f-59b4-aca7-d61f46bf305d,b9823605-b359-533a-9cb9-84628fa32225,exact isolated evidence,192
 b1ee96b3-1aa9-5a54-9548-459cbc20dbaa,localizes,542ec104-b5c4-5b23-8d65-479930742766,b1a8e486-7cb9-5a85-b155-86e4934d1061,id-ID candidate localization,127
+b1f385da-ce95-5708-a36f-ca1bc48ec9eb,documents,7ab7d8ea-de53-5e29-afd3-734719af6ae3,b9823605-b359-533a-9cb9-84628fa32225,exact B013 evidence,86
 b208b5c2-a1e6-5dd6-8d74-f1950f04139f,covers,a766f9cd-f941-5953-b2d9-9d5f0b9a8764,dc1c92e5-7eb1-5000-b1bc-89c2d3151ddd,Section 3.3 concept index,86
 b21ec219-ab4f-5b5f-bde9-732c70324b04,answers,9723bec2-d07b-5e14-996f-2416bcef0f22,e2b24411-28f5-5067-bc3d-383eda5fecf5,public appendix,3
 b22e601d-540e-59bd-9e7a-eb75c7daa276,documents,c87f814e-ca48-5196-9385-d6bb79ea9513,b9823605-b359-533a-9cb9-84628fa32225,exact B012 evidence,200
@@ -1355,13 +1447,16 @@ b239e82f-d700-5ad6-be65-c9ea9c63779e,contains,93046933-8e02-5f54-bd55-1ba308a957
 b265267f-900a-56ea-9a71-65f05ece4fe0,verifies,6391a386-fb76-5d7c-9d5d-0dc4ee0969b8,5d1dcc97-492f-5a69-a2ef-27f6c1c90460,"13-asset deterministic replay, parser, embed, residue, and visual PASS",0
 b2a9d743-94c2-5b69-b3d2-0ba50a15027b,adapts,493109f8-f322-5444-9ef9-54f29e5c8f78,21a17ac9-80d9-54ab-b223-e1574d364da3,canonical presentation localization; Avandia also carries explicit N=1000 correction,1
 b2d1bf6a-b5e6-5e1c-bfa1-6dd801bd6174,localizes,d04079ba-96b1-5afc-a55f-ed5d54f977be,3bda5ba1-a62d-5d94-bd79-9889948b37d2,id-ID terminal localization,110
+b2db9377-ab08-57fb-99a0-bb349dfb0044,uses_asset,4c8457ff-0769-59f0-9a0d-040a50fb107c,52615b4b-1b7b-5b86-a4f4-580f867869cc,B013 figure/code/data closure,72
 b2e8508f-4938-5c3b-9334-9f3280d6d580,verifies,6391a386-fb76-5d7c-9d5d-0dc4ee0969b8,547a5f2a-5b38-5ff4-a763-800727031413,"13-asset deterministic replay, parser, embed, residue, and visual PASS",0
 b331cd00-a227-5861-97f9-96ecfa7ddd06,contains,470c3927-0fbc-5034-9d45-fbf0ba065727,ded8b9a4-d200-5624-940c-df9155008472,unit contains source segment,141
 b351ad29-58ac-5f4c-802f-7349907cf03d,localizes,02272fb6-cb4d-5aed-8967-fe6be2d03d43,eddce87f-9a7a-5dda-af7f-bd402e6dd165,id-ID terminal localization,62
 b38cf4e4-6876-51bc-9e50-eb0d76ab9ce8,covers,a485ca16-e7af-5fc9-a661-2481b3a87b29,801aa4cc-07f7-5a36-8cd4-a9e292901486,Section 3.4 concept index,171
 b39eb506-fccf-539f-aa21-b28a3b0dbbc2,validates,66bf45d2-3b40-5b5c-9ba0-64a2373f08d1,86136ccc-cdd4-5403-9ddd-d2885ac7a7bb,Typed terminal source QA event.,11
 b3a40233-4950-5a03-b6b4-e5cc60996425,answers,a132efe2-d782-5317-859e-6b0fd4cab424,1c22723c-f2d0-5445-bccd-2c220201d232,public appendix,25
+b3a94134-df36-5f0c-8352-3ca6f0f92734,documents,b6ca6338-bd2a-573d-a6b9-89dc816689ea,b9823605-b359-533a-9cb9-84628fa32225,exact B013 evidence,82
 b3dad992-2ff9-5c09-a116-4ac9bebf2fc2,requires_companion_answer,6a382e37-fe07-52b9-8dd9-e399f6b64cec,b07242e1-14c2-5194-89dd-4c4f5d3fa1f0,O001 restricted-answer gap; restricted solution not accessed,82
+b3dda6ca-da94-5fb3-9b1a-99917c2f1aad,documents,110c286c-e00c-5d61-9ade-56ed86a0c53d,b9823605-b359-533a-9cb9-84628fa32225,exact B013 evidence,88
 b3efa48d-617c-55bc-865e-b8d3d26158b5,localizes,515bfcf9-8b36-5872-92d5-d6c7f8618414,05d134f9-69b4-5902-bd9c-e894cb2e81ba,terminal id-ID localization,119
 b3f5de85-0a30-5935-83f9-c64231d4f8e9,contains,a485ca16-e7af-5fc9-a661-2481b3a87b29,391d0e5b-40e2-5ee5-bbb1-684bc01ef590,B012 hierarchy,38
 b4023b5d-950c-5bf4-b7bb-cee7f1f38831,contains,76494447-2b5b-55a0-acf9-028b903fa8cb,8f0807ed-49cf-58cd-829e-096e53f1df1c,,1
@@ -1388,6 +1483,7 @@ b6f1b40d-1929-527d-90d5-e7c7e8c83316,contains,a766f9cd-f941-5953-b2d9-9d5f0b9a87
 b6f46513-8e92-5314-bcf9-56bec7e8261a,contains,d2e7d229-5d0d-5829-bced-f63521bd731d,c295369e-5c28-5ad5-a2af-9754cd135397,unit contains exact source segment,88
 b6ff00f3-9e20-5e6d-a796-5b8476014993,localizes,f42e5b37-5a8f-5668-97a0-e41f768b585d,8906f2a3-de4d-5045-8288-fc61ed94a9e1,id-ID candidate localization,123
 b70d607e-0eed-53c6-aeb9-12c0f20fae87,contains,2c6d8e91-4e76-57eb-a714-bcac9f61be47,56a76996-2c09-5515-b086-e9f4a051ed88,B009 source order,45
+b719e7ef-35ea-5f03-ae4e-7e4608b9e575,contains,cf00ae23-f06e-5c82-8ebe-638b9820c621,ce34bbdd-21a6-5a78-b11f-21d53062b1b4,unit contains exact source segment,41
 b71dbf86-a5f4-5f07-a9e8-b0904e544854,validates,b06d0f8d-9114-535a-aeb9-7ffeeb658948,68caf8fa-04f8-5ac0-93d2-fd8617817c31,typed B012 QA event,223
 b727e89b-ac6f-531a-96b9-2c0bc5cdf7e4,localizes,f88736cd-9543-5c6f-aa27-a3c9e2a73287,f9abc109-9b31-54dc-b13f-56010b0ffad7,exact source-to-target PDF lineage,233
 b745a6d0-13b1-5d46-9826-a202036a66ed,exercises,c30ed712-53d9-5d5c-9e77-fc405aee5528,57f61578-d4ed-5129-9078-4e82e033277c,chapter review concept index,5
@@ -1398,7 +1494,9 @@ b790c685-8fc0-53fa-b96c-e8120ca36cbb,introduces,38d29400-2764-5109-a7fd-d245c7e5
 b7d28a2d-29c7-5063-984a-a4cfe07f491d,corrects,a804f0d4-d595-5aa8-beb2-010ec78535bc,5a337c31-cd63-530d-9f43-917e5cc22e7a,explicit pre-gate candidate correction,127
 b7db4371-5af0-58aa-b70e-13dbf8107d61,localizes,a12f0aa9-2f61-5ecf-bb6c-f8b8ead7ab9f,a39b706d-b249-56b0-abcd-4580e64b5bf4,id-ID,1
 b7ecd3e0-ec92-5efb-ab94-ae87f38d1f94,lexicalizes,12c0a067-8c13-5357-b7ca-dbcd7217f02d,04c149a0-23c2-5057-8c52-abd7a0ba75f0,terminal B012 terminology,164
+b80264ed-93d2-5ec2-9539-3189a58fd1d5,localizes,d3819574-4feb-5644-80b0-a149c82d7143,d03947f2-a3cc-57a3-9974-13c7bb411da3,terminal id-ID localization,18
 b85ba996-6cf8-5eec-9fc7-f9f99d3e1f89,corrects,caf11286-f797-5346-8cab-f2330eb9974d,0d9c327c-fe75-55f7-a4e4-35bec165ffe1,explicit source-backed derivative correction,267
+b87979b2-57ed-5a21-96b6-98ac5587e833,contains,4c8457ff-0769-59f0-9a0d-040a50fb107c,f37d178c-b60a-52c7-b3a1-5689a49e4a32,B013 hierarchy,11
 b889669e-ec14-5187-88ce-b4b0bbd5d1b0,embodies,dbf7477f-e53a-5339-b21d-3cec50ef7a94,aa6de920-293e-53d9-bae5-bdb90e35f8f4,direct Section 2.1 dependency,0
 b89d94ae-97d5-5fe2-bda6-3019df8b26b6,contains,8759fdd7-08ec-51f2-8f2d-655e40548142,a39b706d-b249-56b0-abcd-4580e64b5bf4,translated public answer,1
 b8b75c3e-b34d-5b74-866a-35871669cb95,exercises,8b9932bf-3164-5e36-a64a-304ae1894c90,8f140534-f401-5d5c-a0d3-e6d0b4b6fe02,concept index,1
@@ -1408,6 +1506,7 @@ b9199fc4-66c3-5fe4-8292-63d32c76f6d4,localizes,2649bc3f-8c0f-52e5-8adb-6b68f889d
 b92c8e7c-e5db-5ca8-b9a3-17a37c901feb,verifies,e0965e49-6a75-541f-822e-de1498e4815b,5d1dcc97-492f-5a69-a2ef-27f6c1c90460,two byte-identical localized replays,0
 b94ac7bb-848b-5536-bd81-8874367ab9f5,has_public_answer,1ccdac4a-c69d-5ebf-8b8d-b67e18622d11,0d9c327c-fe75-55f7-a4e4-35bec165ffe1,public upstream answer,153
 b9534367-16a8-568a-9ff5-0b31fd8d003e,produces,e27c147b-1293-5a61-97b9-b7413db1ac66,e78c331d-dfe8-5170-9306-b8c64861e3b2,canonical localized producer/output linkage; Avandia uses receipt-bound equivalent renderer,1
+b9a07032-8087-519d-8e5d-8313f16db595,documents,1a6191ca-89cc-52ff-880f-c60aec585a73,b9823605-b359-533a-9cb9-84628fa32225,exact B013 evidence,109
 b9a28c58-f1b3-5ffe-9ff7-b38b8055d25b,exercises,5172495b-cd2b-5f34-b695-29ce4bc07662,cbc69c00-a498-5088-91ff-79b55320c07a,,4
 b9e8f751-8896-58ac-b0ac-3813e9818e54,exercises,5172495b-cd2b-5f34-b695-29ce4bc07662,0cc8a3da-2540-5f84-83e9-5a12552714c4,,2
 b9ec8c19-1951-57a3-ba9b-91762e5dfc6d,answers,2b26a40e-e53d-5697-9e81-9dd25b95261f,0fe007c9-8e05-5b33-ac63-e0941b0bb9df,public_appendix,1
@@ -1424,11 +1523,14 @@ bc0023c4-e2f3-551b-a410-e1f61d53bb88,exercises,1c22723c-f2d0-5445-bccd-2c220201d
 bc4d719b-cadb-5add-acaf-f6f78d014277,introduces,e6ac9457-94fd-5c0e-9e5d-64019cffef9a,28855bd1-c6a3-5db7-ab73-c0cc4aeb9fae,Section 2.2,132
 bc7a5191-eeba-55e6-9863-d4a4516bc590,verifies,4800c34b-48aa-5da3-93ca-96a616862bdd,285454df-b4e5-5ca8-a2e7-6993e5a33122,structural and visual verification,0
 bcab7c0f-92cc-5413-a0f8-82bfddd0c28b,contains,a485ca16-e7af-5fc9-a661-2481b3a87b29,175fb5b8-02c7-5763-937a-dbaf90efe95a,B012 hierarchy,34
+bcb2a02d-486c-545e-9946-e5e465a5e29b,contains,11796fc0-4792-55b4-b51f-e02d6287afa0,b4e4f4b2-ec1c-5ccf-99e3-98cb2c136922,B013 hierarchy,10
+bcb77b8b-dfdf-5039-9d60-31e804070f65,uses_asset,4c8457ff-0769-59f0-9a0d-040a50fb107c,1dacbf69-903f-5896-9b1d-f94de07f6630,B013 figure/code/data closure,63
 bcb86af1-a735-5d6a-b389-ea7709f272da,localizes,fe92a87d-f887-5f77-b220-1ee81c3c30db,262c60f8-85a9-5d6f-a774-6da2b20492dd,id-ID candidate localization,91
 bcf180b8-d112-5eb6-ac15-af2b478a079a,exercises,cf7a2c60-ae2b-561a-983a-401900ec14f8,7ad0d4c2-d0c4-58cb-9125-663ee48ad159,chapter review concept index,5
 bd10d7a2-9ca8-54d2-b03c-52836f0600c5,produces,93d72384-beb3-5d6a-96b8-8c2b875d3fc0,0ffb1772-e673-56ab-bb8e-46e236db1143,two byte-identical replays,1
 bd5eca63-33bf-5c63-b30e-1b82be582f7f,validates,d4110bea-bf41-5f8c-994b-f6221a3137f1,cb45a8ab-beef-567c-9b1c-bad952d8a132,typed B011 QA event,123
 bd9281e1-c360-5e28-be6f-4badcae74b9b,supports,886eda74-76ce-5093-bd35-f935f625830b,f03bc0fc-6c96-5db2-8d50-46b2ac141f2b,reader-visible Section 3.2 asset,240
+bdaa2157-7bd0-513a-b03c-7f0d34a2d4ba,contains,4d7e1beb-821d-5a81-b350-46eb6bf05f55,4c8457ff-0769-59f0-9a0d-040a50fb107c,B013 hierarchy,1
 bdae7f58-a095-5a99-b486-2a6aef229740,localizes,176219cb-9fae-5a0e-a8af-d22dd63b657b,ad2253d6-c9b7-56ba-a615-60eba36565bc,terminal id-ID localization,65
 bdc9c093-d7aa-5a53-8729-511679ed6841,verifies,f789c3ba-643c-5426-bb65-e5db2a6fd6ba,b88a3ec2-361a-5eb4-8a7c-81dab3c7c139,zero-severity operator sweep,1
 bde50a59-b023-5372-9343-dd680f499ef2,prerequisite,77650911-967b-5348-96e1-4400d431e18e,12d7bbfa-fa12-5d05-aeb8-b54f773ab2d8,conceptual,1
@@ -1442,6 +1544,7 @@ be8da341-92e2-5723-a190-1a7836772237,documents,e8686ede-5e99-5903-b6ce-45cb4b68d
 bec3991f-b5ca-56a4-96f3-24b7a00c76ee,exercises,32fa00df-613b-5933-8eda-622980c61eba,e9a6e4cc-caba-5bad-9309-d2886cfd92a0,concept index,1
 beddb659-619b-5993-9999-b9e965c96879,contains,1d288b7a-abb4-52c9-a011-f3226ffd930d,4cdfc3db-0562-5833-a04f-2007948b7200,B009 source order,51
 bf0cf33b-af7e-513a-b230-70bd51780899,contains,6a382e37-fe07-52b9-8dd9-e399f6b64cec,3a3fa70a-0e58-5cc1-b698-46ca80d0d4ce,unit contains source segment,65
+bf2512c2-7a11-5467-927f-bbfa5c8564d1,uses_asset,4c8457ff-0769-59f0-9a0d-040a50fb107c,aac73657-4cf3-5b80-8849-a94f031e2a83,B013 figure/code/data closure,73
 bf46da00-03c7-55a2-a0a7-3ee436128c35,localizes,d0fe6609-be2a-5343-9fbb-7b631b434124,ef6c559e-8091-5c53-8fd8-def046b50b08,id-ID candidate localization,61
 bf55e89f-353a-577a-8681-61f2bf6658e7,documents,40af8f0a-2568-537b-8d27-a955924168a1,b9823605-b359-533a-9cb9-84628fa32225,exact B012 evidence,199
 bf71c4dd-fb4c-5895-9c63-7e611c2c8419,answers,4cdfa335-3e1e-523b-88f0-48d4d680a618,b1193e47-cb89-5836-85ff-5fa2be7997ce,public_appendix,1
@@ -1488,6 +1591,7 @@ c3950110-6897-56e8-846b-1bf3c310fa6a,answers,f420613b-16ba-5da1-a8a8-6e5b2cf9ccb
 c3a46322-1d10-514a-a53c-7d2511759272,introduces,c9faaa37-1ac5-54ae-b62f-1556d2b63374,19dd1a68-3be1-5e34-9fce-1963b24d4ef1,,4
 c3b391c1-f51b-5ff7-83c4-7f1861422417,depends_on,38d29400-2764-5109-a7fd-d245c7e52b17,15fa8e4a-3c81-5c61-bba9-a6a9cb4e5e42,reader-visible localized figure,3
 c3baf250-4282-59ec-94c0-cf68fa42e3a1,exercises,eb7f6e94-501d-595e-8eaa-4e48c95d5afd,de01b23d-0d60-59bd-9b25-4f32a389b571,,1
+c3be0968-dfcf-568e-aed1-9d8f7046a110,produces,86c70769-65c3-5032-ad68-8c35a059e0fe,52615b4b-1b7b-5b86-a4f4-580f867869cc,deterministic localized figure/producer pair,79
 c3e47be5-011a-5935-99a4-cbd458cef5dd,covers,a485ca16-e7af-5fc9-a661-2481b3a87b29,6e9a38b9-583e-59bd-92c0-d5996673d712,Section 3.4 concept index,173
 c3e858d0-b36a-5c79-87c1-8fba4d6bf782,contains,52bf0186-4674-569a-b8c7-783489172959,5c1d0fb0-35eb-5351-90bd-7853bb2eb919,unit contains source segment,138
 c3ff6f2b-c805-58e7-aa3c-6f6c3990c270,lexicalizes,015079d7-c390-5e46-bd8a-1ae72986ec38,461890ab-5bd3-57aa-89a0-ac5085741c09,terminal B010 terminology,180
@@ -1515,11 +1619,13 @@ c74ba852-fcb7-514f-8b1c-264724ea9a53,answers,6a7ec1cc-2062-594b-9240-1d3b747f909
 c78b2a6e-827c-5e27-b80e-fe28e9d2b1f8,localizes,c6e9f5a8-4780-5e50-b450-8371b6fdd0ae,2553ef43-3ccf-5ccc-b44e-b190ea8c6ef3,id-ID terminal localization,146
 c7ab9df6-1188-55dc-8461-8e5b6f78d90d,exercises,0135feda-7bfb-5aa7-b3cb-0ad3ada718b2,e90ef72c-b9d3-5e62-8048-055e3b8fa020,concept index,2
 c7ac8f18-dfdf-591c-b367-731e59ea854b,documents,7498e31f-0d72-58aa-b211-ed22d5d2f283,b9823605-b359-533a-9cb9-84628fa32225,exact B012 evidence,195
+c7c5b353-e650-5f0a-93a3-de1c26aab896,produces,86c70769-65c3-5032-ad68-8c35a059e0fe,61d7149e-8be4-5815-b7d2-0a01b345b9f0,deterministic localized figure/producer pair,78
 c7d5d017-9ab1-5404-b066-567e444f2f90,documents,d7d0b081-b992-5ff6-8286-e1ac141cd4c7,b9823605-b359-533a-9cb9-84628fa32225,exact isolated evidence,239
 c7f6a6e2-5a04-5500-85d8-378a88a8336d,embodies,3f9fedc5-4b51-539b-bb68-397bcf8ab3b6,9723bec2-d07b-5e14-996f-2416bcef0f22,public-answer-2.3-figure-1,0
 c804c0d7-987b-5b74-80dc-d16010fb42fa,contains,9ffbb29e-06de-5487-9e89-c5638618252f,d8f095f4-b65e-533d-ae7e-f9eeeeb3835a,,1
 c8270a03-a5e6-5070-bd80-c389f35fec4c,localizes,382e28a5-0d2b-50c4-8418-7d890ff9f742,073a3359-41de-56e6-a662-d3f753cb3166,terminal id-ID localization,79
 c857001a-b172-5db5-9124-14ac9853bb3b,produces,c9da6d51-7384-5a63-95a6-7b8330eda01e,0907a1b1-cb2f-5c9a-b9f8-5ff99537193f,pinned producer provenance,0
+c8592354-d874-5343-9a32-bdec1a271286,covers,4c8457ff-0769-59f0-9a0d-040a50fb107c,1a8bdfc6-3122-5c5a-940f-40fe78cd1722,Section 3.5 concept index,59
 c85b4743-ba4f-5266-9387-db1936a280ab,contains,b4cd26a2-3443-5b4d-9a38-f2d9766ae10a,85124b7a-8d55-5597-8711-5649f8f185e2,,9
 c86c01b2-30d5-54a4-9785-5590049e0d07,answers,d6274bc8-d45e-51f1-91e8-38da3bbe4007,008a3bd4-069a-5cc2-bea8-bf1d9a41d834,public_appendix,1
 c8998249-3463-5177-9efb-f43df6f887e5,produces,f0bdc8a1-c681-5b94-a34c-d6fdebddd6a7,dbf7477f-e53a-5339-b21d-3cec50ef7a94,pinned producer provenance,0
@@ -1539,6 +1645,7 @@ ca330a12-da78-5384-ac5d-126ab648a809,contains,aa6de920-293e-53d9-bae5-bdb90e35f8
 ca6066ad-8b20-53da-a3f8-ec561912af76,contains,d2fea3ad-d6f6-5a8b-a1b3-42405183e22a,2f3e0850-c668-5666-95ad-bf2792417294,,1
 ca6660f6-d5fc-5277-91b5-3a62147176fb,verifies,939f1132-c085-53b3-b199-907ba7434561,f7913e76-ea30-5138-b919-2e77f302e4a1,full-resolution zero-severity page sweep,1
 cabc6a4e-6259-5e04-a6e2-0dd4baaa9784,translates,21c7fe6c-29f9-5a32-a70d-a7e378db0ca6,fbaeff34-5531-5c61-9114-b7b39d5ed7d9,exact canonical id-ID target span; backend nonadmitted,1
+cac61833-3caa-5e0b-a5ff-5b0c0154b33e,contains,4c8457ff-0769-59f0-9a0d-040a50fb107c,ceab8500-f0e6-5a98-bdb3-4007e44800d9,B013 hierarchy,5
 caf8da5f-6aee-5952-983f-d7624327a176,contains,697eee11-37f2-5f2e-8492-16a070ccd069,2c6d8e91-4e76-57eb-a714-bcac9f61be47,B009 source order,35
 cb25a036-2a36-5ce6-9baa-2fd810506e8b,verifies,342c2dd5-2a34-56c0-85f8-448c2df61ee0,f6f0c7d6-f0e9-5f55-9dce-0d807c03cb44,Poppler and MuPDF same-renderer pairs; deterministic replay,1
 cb314d2b-bdb1-500c-8443-4c1b3f6af732,localizes,e60d3237-d1b2-5bad-a4b5-8b77352f8bfb,9f4d825a-acce-5209-8b35-0e9deac3efdd,terminal id-ID localization,53
@@ -1571,6 +1678,7 @@ cd4dd115-3f74-56af-b8c7-75a49fa245f5,lexicalizes,d17ec833-5f05-5ec6-956a-741c6ed
 cda8a1ad-e04c-5ee3-abbd-84c060084f2b,contains,fed108b4-46d7-5413-91db-2b18f47fbb01,7593c8b7-78d6-5669-8a16-3e3e75e2ebfd,unit contains exact source segment,126
 cda8b76d-518c-5dae-98ac-9e3725d36e7d,contains,ef7f55d2-6426-5c6b-a525-29e747da8d0b,c008ad85-0b9e-5a0c-bd8a-16e3520c8c96,,30
 cde22808-f93b-5a81-8ddf-cb660f74790f,contains,193a93a2-5f42-56b5-a579-7a4c8b028e6d,874701bb-ab89-5499-9df6-344ae73c9aa3,B010 source order,4
+cdeb2d83-c8e2-56e4-8560-9aaac90a3c3a,validates,2995b7ea-5adf-5ea2-9e6f-07359539d6cb,bbec5e06-f32b-52a9-ab6f-5fed220e3075,typed B013 QA event,113
 ce1d0a28-b4f9-587f-9e87-5288182a15a5,contains,193a93a2-5f42-56b5-a579-7a4c8b028e6d,5d52d2c3-518e-5fb4-9993-fc3cb99829f2,B010 source order,5
 ce26ca3c-92d1-5fef-bf08-b0ca875af8bf,contributes_to,e0965e49-6a75-541f-822e-de1498e4815b,6391a386-fb76-5d7c-9d5d-0dc4ee0969b8,individual localization input,0
 ce3deef5-22a9-5ef6-9395-72256a59f662,localizes,bedd3ebe-c4c3-549b-80eb-13db4472f24c,99c51982-e9d0-5103-98eb-e1aba1786688,id-ID candidate localization,81
@@ -1581,6 +1689,7 @@ ce9ae618-6a0c-5d66-8197-a2659e73b661,exercises,1c22723c-f2d0-5445-bccd-2c220201d
 ce9ed313-ad4a-5e63-9dc3-36710dd58c06,contains,a485ca16-e7af-5fc9-a661-2481b3a87b29,fed108b4-46d7-5413-91db-2b18f47fbb01,B012 hierarchy,40
 ced14310-3a17-5999-93e6-f5700b671e0e,embodies,e02d20e8-df4b-5b90-9372-e0d32c8e069c,aa6de920-293e-53d9-bae5-bdb90e35f8f4,direct Section 2.1 dependency,0
 cedbef62-b414-57bc-aa3d-ef3e1b2fecf5,exercises,c0bd2c0d-1734-5635-9b83-fea31490ec87,90395241-5c20-5c31-b8c9-118bc61f2b3a,concept index,3
+ceff3f76-b0ee-5c0c-9d4e-e1a249617a42,governs,b410ecf6-7942-5337-9e18-e09c9e84783d,4c8457ff-0769-59f0-9a0d-040a50fb107c,localized text rights,124
 cf019fbc-e11f-58c2-b46c-1c07dc9c1401,prerequisite,e925381c-407a-5907-a2f7-fcce2ea052f1,3ee4acb8-ee7f-51da-be6d-68438b09521d,conceptual,1
 cf028145-caaa-5a1d-8539-638abd1d2fa0,requires_companion_answer,d2fea3ad-d6f6-5a8b-a1b3-42405183e22a,2f3e0850-c668-5666-95ad-bf2792417294,no_public_answer_upstream,1
 cf26856a-b764-54b1-b096-d3b611be1bc3,localizes,50a46f9a-9d49-56b0-848b-65b4f92d13c7,88316c65-5f8f-57ef-add9-0a90737c0310,id-ID terminal localization,36
@@ -1597,9 +1706,11 @@ d006448d-5f51-5467-ae56-83a68ab51dc2,exercises,7fb6fb37-23be-57f3-af92-f7f18dbb1
 d00a1cd2-4372-50ff-b1c5-0eb2929d25af,replays,cf0c0fb8-82b4-5c3c-b803-c3e6ba694859,a0df8e7c-3fc1-536e-98a0-d443102758be,deterministic localized component replay,0
 d01b9895-7b6b-5049-bca4-ea4c69b8c0b4,contains,a72d52ee-0344-56a3-9746-98c4db684cf0,717a5391-733a-5105-a6f4-82eca0dbfbe8,unit contains source segment,133
 d039f4e0-5165-5df5-9d60-ef0266dc4439,contains,eb7f6e94-501d-595e-8eaa-4e48c95d5afd,645a441c-5609-5ae7-9a39-ce2aa74eb3b2,,1
+d03e4a68-2334-52b5-8179-ab630536b06a,contains,4c8457ff-0769-59f0-9a0d-040a50fb107c,a4fa26d3-f74e-5ad7-8fd2-444728913b98,B013 hierarchy,4
 d0772e45-67e2-5398-b3a5-eac718da5dc6,contains,a766f9cd-f941-5953-b2d9-9d5f0b9a8764,79990c87-93a6-5b4a-a98f-faaad4e555f9,unit contains source segment,53
 d0bd683d-88de-5d2e-a358-31dffb1f077c,documents,d937a093-7a2d-5142-b253-682cc67fe926,b9823605-b359-533a-9cb9-84628fa32225,exact isolated evidence,235
 d0c2be0e-1461-5edf-bc5e-036e4f6472a1,contains,a485ca16-e7af-5fc9-a661-2481b3a87b29,89852718-cd3e-517e-95ba-7daea0c05661,B012 hierarchy,9
+d0c8e541-7ee6-5f58-8875-86c3eb60d4ed,lexicalizes,50d8d12e-d18d-5934-8f10-a268992a6728,716f7dd9-b47c-5656-b3ce-5c188544c5ee,terminal B013 terminology,48
 d0d0bc6a-e7b3-5f65-838d-adadaead5f4f,exercises,9dc09770-ae18-5fa5-95d7-a5f0ef2d2e3d,2c25f8a0-57ca-5170-8226-10347de83596,guided concept practice,1
 d0e5d18f-3850-52d9-a2b9-6b0b39907519,introduces,17acf038-9821-5e3d-9ffa-1526fab12218,d1db6444-a2a0-53bc-add5-e9d5991d65b2,Section 2.1,87
 d1104a11-8811-516f-93fa-3c4a921971e5,localizes,c5b6d773-64c9-57cc-97a5-a4ba1aae0d05,ebdda9ac-27a7-553b-b5be-d0de4f5e32fa,id-ID terminal localization,138
@@ -1618,6 +1729,7 @@ d3010c7f-adb8-5e85-98ea-48494d51c714,localizes,c24abdea-e86f-584b-a0c2-ff9f80191
 d313af08-f543-5e88-9a1b-1f169ffa0832,contains,60a2cb71-2aa1-5917-9379-f7f55474c01a,b82173dd-a963-514b-8628-cd6c9d97f633,,43
 d3146c98-1229-58a4-bf12-3b88ab65b974,localizes,aa7167de-b646-5470-937f-20bfda0ad9de,e0cd474d-1349-5f4b-ba4f-ac5d5659738e,id-ID terminal localization,88
 d3484873-5442-5cc7-b055-81afef0f5e10,introduces,79b67f35-3460-585e-b91d-f1c7f8a7662f,6d4ab24b-de8c-50fb-a166-0a95b318b413,Section 2.2,126
+d34b5585-26ad-5615-9220-f8190e401a2f,contains,fc39d34f-4c80-5cfe-831d-1c029efd4b3f,3c99b860-6050-58b1-9bf6-3452fbb1d8d4,unit contains exact source segment,29
 d39a99f0-aa4b-5636-b226-6580794cbb88,witnesses,313a68ff-d695-5c54-8772-8d1e686f0ea3,128714c4-5b59-573a-8995-4c488452e669,exact adjacent English witness,1
 d3aa8031-635c-525b-b6d5-e71941c06d65,depends-on,e27c147b-1293-5a61-97b9-b7413db1ac66,e5543d37-d785-576c-a684-fad31ef0ca21,byte-identical serialized inference input,1
 d3adec4b-eeff-584c-b5a0-bd99dce6291a,localizes,d7ef4f01-32b8-5ad2-81dc-f7bc5b4e3d12,175c0a01-f8d8-573a-acf1-5eab7c444073,terminal id-ID localization,63
@@ -1664,6 +1776,7 @@ d7bb13ae-b061-5a49-8425-e997b1d3045d,documents,82cd6aa7-ab47-5a45-9618-2966ccc4c
 d7d7cba6-a169-538b-b43f-09091fea2cc5,produces,5baec410-5943-542f-bfd9-ef96d6d60166,422775f0-9a7b-5018-b857-228391e16f48,pinned producer provenance,0
 d80db88a-ff88-581f-8282-790d095affd9,uses_asset,a485ca16-e7af-5fc9-a661-2481b3a87b29,b74d450b-3887-5d31-a763-9914368b9b99,B012 figure/code/data closure,186
 d8232955-c0a6-57ab-9cd2-2ad4fd752215,supports,82943b5d-61d5-5087-be7b-17101fc08d3c,56a76996-2c09-5515-b086-e9f4a051ed88,reader-visible B009 asset lineage,261
+d82589ea-accb-5038-b1dd-79a4b0dec815,contains,4509dff9-7dd1-5735-8e6f-415a5448cfe1,5bd116ac-f690-5822-a830-ce8b978e4689,unit contains exact source segment,25
 d83089f4-ad86-571e-a924-81c46522dbaa,exercises,b82173dd-a963-514b-8628-cd6c9d97f633,0cc8a3da-2540-5f84-83e9-5a12552714c4,,2
 d847cbcb-d06c-5c6b-a884-0b9cfd73f6d5,answers,d8f095f4-b65e-533d-ae7e-f9eeeeb3835a,9ffbb29e-06de-5487-9e89-c5638618252f,public_appendix,1
 d8927d45-5c9b-5b45-8909-5e0e103e91d3,exercises,6fd54b2a-6a51-5f71-8a7b-fd2a10a6ab5d,3c0b4478-7303-52af-80b6-86a8091d753e,,4
@@ -1699,6 +1812,7 @@ dd15236c-ebfe-5bc0-acb0-545b3eab8136,documents,afffa549-89bd-5729-9c0b-eb07e08be
 dd2ca4a3-0453-5e5a-ae6b-bce0579a1675,contains,4855a03b-af6e-56cc-ad3b-7d0f5e26745e,089a1c0f-be6b-55c7-889c-45c6aa156692,chapter review source order,28
 dd4cc18d-4a66-55db-aa56-fd1baf3f64f2,introduces,17acf038-9821-5e3d-9ffa-1526fab12218,76cf85fd-64f2-5d14-91dd-349923716d5a,Section 2.1,93
 ddd14a71-8a45-531b-abfb-67e75e1955f7,depends_on,a87266fa-7c02-53db-bf1f-232c1dffe3ef,d889eaee-6727-5f7b-9c4f-b09746fafb9a,localized producer candidate and deterministic PDF derivation are both retained,255
+de0e3bd8-2c80-552c-895b-3ae1c0f43d05,localizes,5772f104-7ac1-5fb6-86ee-432520919013,5e936600-2a94-5871-96a3-4e660b5b46ba,terminal id-ID localization,16
 de597866-d2c7-587f-b5d9-82c7732d74a5,localizes,14c504ab-e82d-50fe-b044-376a85bab5f5,e83afe8e-2905-58e7-94e6-d28b65af2e79,exact source-to-target asset lineage,264
 de5a8b6a-e072-5256-8d4c-bb7ce4ccf367,introduces,4a67928d-9842-5598-8a98-8360b6b3ab69,622243a1-bf6e-57cc-a60c-026bf145c09d,Section 2.1,115
 def03b28-466d-5f12-ada4-a500cec17213,exercises,ec3b569a-6059-551c-9ddb-937edfb55960,e20e1798-bc0d-5b9b-a074-82cdf2653ca1,,2
@@ -1735,6 +1849,7 @@ e38692d0-b681-54c0-b821-75d052ed998b,contains,d7955a56-864b-500a-a33b-7c476b342c
 e399fbc9-8b1b-528e-8ec5-c7448a6d13a3,exercises,85124b7a-8d55-5597-8711-5649f8f185e2,7b6b82c2-0367-5b4d-bb75-643f3165be28,guided concept practice,1
 e3b463c9-5795-58b6-9799-21b6ebe03023,localizes,9178dbcc-8f41-50b8-9623-bfcc0b0ce814,f0a39f9e-82ec-5b2b-afe4-69c440b8db46,id-ID terminal localization,84
 e3d1c0f6-2444-52c6-961c-90ad22c922ed,depends_on,90c3a9f2-5fe7-59c5-8603-5d863ba36920,12a8815c-12b0-5605-b6d2-a476a586a1c8,localized producer candidate and deterministic PDF derivation are both retained,243
+e3fdd8c6-e905-5fef-88a2-9ecc5ba5eb43,validates,29dfa9f9-36af-503e-940b-dd6fb0a42da6,c16c32cc-ea23-5065-bd1b-9639619c7af2,typed B013 QA event,119
 e43a5c20-c525-5e4d-8523-7e639b765b5c,contains,3c13e4ec-802d-5481-9f06-1accf29c1e35,fe7c5541-b477-52ac-abcb-9150525e8925,unit contains exact source segment,114
 e44d25bf-c2f3-5dfc-80c4-6ec0d8fe7f39,contains,193a93a2-5f42-56b5-a579-7a4c8b028e6d,a72d52ee-0344-56a3-9746-98c4db684cf0,B010 source order,35
 e46b2423-acd7-523f-b421-beba791c447f,localizes,477ad30e-a37b-5b98-bc97-14c3b0473005,eb293ee2-f92a-5a6b-8654-ead45b33cfdf,terminal id-ID localization,129
@@ -1759,10 +1874,12 @@ e698cacd-eb17-5720-b83f-4ee4651f5888,uses,be02bb59-5807-512c-8ba1-f5d22a702812,2
 e6f47026-42c1-5dcb-8b10-b5a9ae7ae164,produces,6d82d4f4-c318-5ae0-8f24-1fab8f3bf950,69001bfc-1115-5ace-99d5-93b34976747c,pinned producer provenance,0
 e6f62f96-675e-54f2-ac9c-d9f4f15173eb,documents,d80b345f-7d33-5235-b847-541d8e4754ef,b9823605-b359-533a-9cb9-84628fa32225,exact isolated B011 evidence,111
 e76063ef-3a5a-5a36-9de4-1231d17a64a2,produces,93d72384-beb3-5d6a-96b8-8c2b875d3fc0,ffc8e55c-68f9-53d4-9cb2-5abe7d34ab5d,two byte-identical replays,1
+e7a26464-5887-5191-9fa4-4ea8666fdb2c,validates,008240cf-e14b-5dd0-a78e-98791998b24d,5b52cd68-cb09-5562-b6e5-2b723318c3cb,typed B013 QA event,120
 e7c196ae-f22d-5206-a9f8-1282f24feb12,contains,4855a03b-af6e-56cc-ad3b-7d0f5e26745e,c30ed712-53d9-5d5c-9e77-fc405aee5528,chapter review source order,34
 e7dc2963-f717-5128-bb71-3936dd4ed50a,lexicalizes,0fa4a15b-7a81-53ee-8a61-a1599d78ae3b,4550125d-421f-5173-aba9-e3b70e78b409,candidate id-ID terminology,195
 e8395311-c75c-542a-bd3c-3ba10179d385,validates,cbe65a2c-a200-5a7d-85ca-f6384dc5fa95,b1efeab4-6c5c-5f76-b5a3-c417f0fe4620,typed B011 QA event,122
 e87afd15-6276-5470-a726-1a8fbd1933fb,exercises,5172495b-cd2b-5f34-b695-29ce4bc07662,986809be-b0b3-5f4b-b034-bca386679560,,1
+e88e13b1-50a5-5dd5-acfd-018f7225478c,localizes,3d69e5d6-2328-5e1d-8b81-87a5baeaa332,9d9ea627-b125-5cde-aa16-53c992fe078d,terminal id-ID localization,36
 e896e404-c60d-5324-ae70-8ac443fff34c,contains,464e9807-e94f-510e-8157-c2c60c345df9,6136c364-c7dd-5c31-acbc-fb1316ed3e6a,,1
 e8987525-227e-530c-b09e-3c71873b7748,contains,f08664a6-4f0f-5605-8552-c11ddaf76f5c,3e11341f-e6a5-55d3-b66f-6f32e62e99aa,unit contains source segment,85
 e8eb6fcf-c0f3-5bc3-889c-485231861446,prerequisite,18f2f74b-b41f-5b82-a1e4-87b4832fa375,02503f9b-f161-5a95-add8-5b715d5fa1f6,conceptual,1
@@ -1793,11 +1910,13 @@ ec0a5145-7f79-5f10-b042-1ceec1792e06,validates,87df5412-b239-5ab6-aaa2-4d2e3e866
 ec2e4371-9394-541b-8d8b-f5857378f313,translates,7923b5b0-37c2-5464-9292-0221e791e904,f997d6b1-1848-5528-84a7-8300c2e1983e,exact canonical id-ID target span; backend nonadmitted,1
 ec4bfc13-eec8-5757-b644-2985bb556f63,contains,d23a94a3-f019-5cf9-8453-40e20efb91cf,9949c7ad-ea54-5663-8255-bb0a9d3ae34b,unit contains source segment,102
 ec6873b1-e61d-5a6a-be02-ef28169565d9,contains,a485ca16-e7af-5fc9-a661-2481b3a87b29,175c0a01-f8d8-573a-acf1-5eab7c444073,unit contains exact source segment,62
+ecaacad1-49e2-5225-b0e8-cc949596da6a,corrects,c3212242-374d-5fa8-8b2e-30e50fb99528,4c8457ff-0769-59f0-9a0d-040a50fb107c,typed source accessibility correction,123
 ecbb3176-9574-54c7-939f-5eb4f26dd4e3,exercises,cf7a2c60-ae2b-561a-983a-401900ec14f8,d3c85f75-5577-52b4-b81d-2dc426ed815d,chapter review concept index,2
 eccd498c-bb97-5477-8d02-5dd5c0ea19a1,witnesses,bdc17dc2-e727-56bb-b80e-07038860daf4,28103db5-0378-5fe4-8e7e-451939e20e67,exact adjacent English witness,1
 ece98f4a-931e-52a4-8567-48b27a9280c6,lexicalizes,a13d0cbc-ac25-5f5d-8bcb-04f90b8fd098,67100dd5-006e-5eb3-82ca-86ccbd2048c0,candidate id-ID terminology,219
 ed17c2de-75af-53bb-bd4e-9835c3884eca,localizes,2a3252d2-d396-5641-9540-db02d33f1840,57a43743-69e4-51ac-8a53-5ea031125d6c,id-ID candidate localization,141
 ed6bcbed-e4e9-5795-b259-be609393d24c,contains,a485ca16-e7af-5fc9-a661-2481b3a87b29,66ad4593-df37-5b7b-bd2c-14b7767ee4f6,B012 hierarchy,44
+ed928345-63f5-5633-bf46-e7080360a9b6,uses_asset,4c8457ff-0769-59f0-9a0d-040a50fb107c,d57c068e-1083-5858-817c-4d3cd7d23fb1,B013 figure/code/data closure,68
 ed9d9780-0f3f-5a50-aaf4-506981c215f4,introduces,ef7f55d2-6426-5c6b-a525-29e747da8d0b,32ef074f-ce3a-5744-a7e3-e9c0e3b3c440,,14
 edd4705a-3a51-5ff2-b5f0-19a6f5e59537,contains,d7955a56-864b-500a-a33b-7c476b342c7e,1c22723c-f2d0-5445-bccd-2c220201d232,,25
 edf46592-0fdc-5b5b-8797-4713d9acd591,has_public_answer,1abc8a2f-fff1-5a7e-9e46-948375210665,9cdd5f10-ce1d-5869-965a-71b7aee9c5de,public upstream answer,184
@@ -1856,10 +1975,12 @@ f32a2298-4671-572a-a8c2-8021638fa66a,exercises,b82173dd-a963-514b-8628-cd6c9d97f
 f333fbf9-2d26-5b45-acc3-faa2e2f49ce6,introduces,b4cd26a2-3443-5b4d-9a38-f2d9766ae10a,2a2b4279-7bf2-58c0-a732-08d762a4298d,Section 2.1,108
 f33911eb-2e7e-51d4-aab2-0a6f9a2ef6d6,contains,4855a03b-af6e-56cc-ad3b-7d0f5e26745e,3f62bfe2-5a2e-5441-86ab-c703b5da5e32,chapter review source order,32
 f36860c3-6cf3-52f6-9bf5-b157f00c80fb,documents,9fdda857-a406-50ec-8949-7007f33699ae,b9823605-b359-533a-9cb9-84628fa32225,exact isolated evidence,211
+f3e6747d-6b99-55de-907e-d0b1063302d5,localizes,fe460f14-568c-52e5-98b7-369e7ff7c162,c09da265-b413-5a84-9311-0f0890ec02d1,terminal id-ID localization,20
 f44649fa-9854-5922-95dd-71e0e002e236,documents,cb604a1a-9d49-556e-8743-7b882d6fce76,b9823605-b359-533a-9cb9-84628fa32225,exact isolated evidence,223
 f4566776-6be6-516a-8b0c-c3dd1e3a54be,contains,5d52d2c3-518e-5fb4-9993-fc3cb99829f2,3b51eaaa-1838-524c-a1a8-7d199197a3d9,B010 source order,15
 f45e1a30-7bbb-5bfc-ae6a-c37165eb0d8c,contains,9bce34fa-59e4-5d7c-b126-0ba4f7961036,9172a9ac-2519-56c6-bc4a-8e9912dcac5c,unit contains source segment,47
 f4943251-f7a4-526d-889c-92145544bf9e,contains,cda64c06-7961-5028-afbc-01956ce7d61c,df8c32ef-fdf2-53a0-82d9-6ff7b9bfbb39,,24
+f4e10f8a-1ee3-529a-aa71-91d7d6a7b2a5,contains,4c8457ff-0769-59f0-9a0d-040a50fb107c,486281ed-a85b-5717-9bd9-3695fd56bbab,B013 hierarchy,2
 f4f9169e-9b9c-51a3-888a-62b5f7e1e739,contains,97422792-2010-5ea8-9616-b1f55c20cdf6,a6a96e76-dec6-523b-8fa5-a0fa9ea3fc0a,translated prompt,1
 f552f348-a7f9-5181-97a3-62e0b3f8ac17,contains,4e433fc3-72d5-5511-b8fa-f671182f898f,f737466c-6fe9-55d9-b2b4-09ec9a1f5afe,B012 hierarchy,21
 f573ab7b-145d-55cf-a1eb-bb3b93d3a40b,contains,3d7fc080-b542-5ce0-bc46-480b7738b62b,530ee541-0ab6-5e92-9af5-eebd34e31095,,1
@@ -1873,12 +1994,15 @@ f64fa463-9b90-5927-a668-1ea55690480e,localizes,328b4fc6-a906-531e-bd42-1a67bcf9e
 f6859aaf-b9d5-518d-9465-0482fcd53fc8,replays,b9146271-e5d0-5d12-a82e-98981151e2c0,5d1dcc97-492f-5a69-a2ef-27f6c1c90460,deterministic localized component replay,0
 f68fa0cd-319b-52e9-a013-d6a4c94fc6db,requires_companion_answer,8d6c63f9-60c2-562b-84f3-86db59a7d01e,289e08ee-d483-592e-83b3-e37e6fb69fe3,O001 independent original; no restricted solution used,30
 f6d9ad92-357f-556b-b20f-d3f4a86a634a,contains,4fa0fd7b-9cac-53c7-a0f1-1fdbeaa2b52d,a0df2baf-c5c0-589c-89fa-7fd1639f0ba8,B012 hierarchy,43
+f6de9fb2-bbda-54c1-ae61-e7c13564b2aa,uses_asset,4c8457ff-0769-59f0-9a0d-040a50fb107c,a3c56e91-2ef2-5109-9490-2c8ffed2bb9d,B013 figure/code/data closure,62
+f7116ebf-b55c-5b9f-ad27-7ff64eb573cf,covers,4c8457ff-0769-59f0-9a0d-040a50fb107c,47a4abea-ad60-5143-a7b2-a2c996b1f9f1,Section 3.5 concept index,51
 f7132597-e050-59c9-bafa-e5882ef07bc5,contains,fc0caa09-fb91-51a2-9411-8f34e4651d62,fcf01135-f38b-5780-9b3f-b1b765e9012b,unit contains source segment,92
 f72f8a3e-3cbe-5438-91f2-d798dc96e1d6,produces,21a17ac9-80d9-54ab-b223-e1574d364da3,aeb3b3fd-bf4a-5e4b-9bfb-1fc459352933,pinned authority producer,1
 f74e4558-2d1d-54ff-b71f-8788e1af00c8,localizes,e2ac724f-798f-5b8d-b167-95d427c21ac6,37ac6144-579d-537d-8182-abaadc755a16,terminal id-ID localization,75
 f77f556e-c73c-58c5-b0f8-bcf341628d12,contains,4a0f5bef-95db-5c6c-ae94-097778cff15d,79b67f35-3460-585e-b91d-f1c7f8a7662f,,1
 f7b2f684-57f5-50b5-8cce-5ba58454af5a,validates,1e5bb4eb-4c6e-52ba-8007-bbec7c18e5d4,072d7373-9aba-5976-b233-3eed893931e2,typed B010 QA event,215
 f7cf35a2-9be4-5716-afc5-c8ac0df2dc89,verifies,285454df-b4e5-5ca8-a2e7-6993e5a33122,5d2e2280-38c6-5a80-bd6f-5c281ae47e1d,two byte-identical replays and visual PASS,0
+f7e7efe6-d2a1-5332-92b9-ff3fa42243b9,contains,0ae4d0a7-e336-5050-9c0f-81ec643541a2,536b157c-7296-5ea5-8eae-dae62a806746,unit contains exact source segment,39
 f7fe4ec3-83b2-549e-a94c-989384c51924,documents,3c03317c-f184-5893-8222-c467392e41fb,b9823605-b359-533a-9cb9-84628fa32225,exact B012 evidence,211
 f833f63f-3259-52b6-8f94-3f6ed40ad966,exercises,8b9932bf-3164-5e36-a64a-304ae1894c90,0b2168f4-1030-551b-9265-a41eaaadbbf5,concept index,1
 f83643ca-25af-58c7-9701-0cc6baef27d8,validates,0b250cb8-10b3-52dd-ba25-4c87f15774cd,072d7373-9aba-5976-b233-3eed893931e2,typed B010 QA event,227
@@ -1895,6 +2019,7 @@ f9b3db7c-2cd5-5be6-bc84-5b1b322f7b56,contains,fc0caa09-fb91-51a2-9411-8f34e4651d
 f9fdf0d6-6af0-5e86-b878-a794a4465e7c,exercises,25818565-4a7c-5f4a-ba20-4ad1e69ddae5,b2df9bb5-2dc4-53d2-9fbe-97d6119f9dad,guided concept practice,1
 fa0afe28-a637-5eeb-ba29-737e8e96a724,contains,dd2c0635-0fd8-5cec-b7cb-9aefab4c0c43,b2f1703d-803c-5ccf-8ede-2a7b61dc9465,unit contains source segment,132
 fa5dbda4-22b5-5af0-9c12-768e7ebc0dd2,produces,c61713d5-a944-51c2-b134-d32112402f64,e02d20e8-df4b-5b90-9372-e0d32c8e069c,pinned producer provenance,0
+fad60d68-ffaa-5c2c-ad1d-ca47f25be31c,documents,43a50148-f1e9-537c-9e53-1736b825257f,b9823605-b359-533a-9cb9-84628fa32225,exact B013 evidence,94
 fb101f2a-7d88-5ebe-a0a8-02798d3d6ceb,translates,131f2029-b6f2-51ff-b9c4-3f28f6b87ad9,677d0b99-e068-5fb2-ae32-6d7e0bc7d330,id-ID text-object overlay,1
 fb179e08-146b-5316-b385-fdaa3e2ea919,contains,748801d5-dff8-5970-9094-9b6e46cc74b3,3bda5ba1-a62d-5d94-bd79-9889948b37d2,unit contains source segment,109
 fb2feeb1-2c3d-5612-8136-e216bfe573ad,introduces,e6ac9457-94fd-5c0e-9e5d-64019cffef9a,1557534c-d0f9-5d9f-b69d-97e1f366d3b3,Section 2.2,133

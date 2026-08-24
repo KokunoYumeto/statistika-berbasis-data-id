@@ -1,0 +1,91 @@
+{
+  "$schema": "interlanguage.r011-b013-source-closure/v1",
+  "authority": {
+    "branch": "master",
+    "commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "network_contact_performed": false,
+    "repository": "https://github.com/OpenIntroStat/openintro-statistics",
+    "tree": "d61cc601e7d97759ce805900520f784d02a0489e"
+  },
+  "boundary_id": "R011-B013",
+  "date": "2026-08-24",
+  "next_cursor": {
+    "anchor": "\\section{Normal distribution} followed by \\label{normalDist}",
+    "bytes": 91188,
+    "path": "ch_distributions/TeX/ch_distributions.tex",
+    "section": "Chapter 4 Section 4.1 Normal distribution",
+    "sha256": "71e4985a1bf31e9dd6897ec2bd246b3b2f8cd62ab55524a5b1bfe791e613a3a9"
+  },
+  "pinned_files": [
+    {
+      "bytes": 132799,
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_probability/TeX/ch_probability.tex",
+      "sha256": "4f07fcf0e71e52bc99657835d5cced47b10ce9fc66b23dce156d400840690361"
+    },
+    {
+      "bytes": 2358,
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_probability/TeX/continuous_distributions.tex",
+      "sha256": "42de1d525152bc5e5f85112963fdf7e9e5117b4148434046cde2b6fa17100cfe"
+    },
+    {
+      "bytes": 106045,
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/extraTeX/eoceSolutions/eoceSolutions.tex",
+      "sha256": "6c4e01376db4c023cc7b3f9949490e57220ef1cb831c580da71efde6ce723268"
+    }
+  ],
+  "scope": {
+    "end_anchor_inclusive": "{\\input{ch_probability/TeX/continuous_distributions.tex}} at EOF",
+    "eoce_ids": [
+      37,
+      38
+    ],
+    "guided_exercises": 2,
+    "guided_inline_public_answers": 2,
+    "instructional_unit": "Chapter 3 Section 3.5 Continuous distributions",
+    "main_figures": 4,
+    "o001_gap_ids": [
+      38
+    ],
+    "public_answer_ids": [
+      37
+    ],
+    "restricted_instructor_solutions_accessed": false,
+    "restricted_instructor_solutions_invented": false,
+    "start_anchor": "\\section{Continuous distributions} followed by \\label{contDist}",
+    "subsections": 2,
+    "worked_examples": 3
+  },
+  "source_ranges": {
+    "direct_eoce_input": {
+      "byte_end_exclusive": 2358,
+      "byte_start_zero_based": 0,
+      "bytes": 2358,
+      "line_count": 65,
+      "line_end_inclusive": 65,
+      "line_start_inclusive": 1,
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_probability/TeX/continuous_distributions.tex",
+      "sha256": "42de1d525152bc5e5f85112963fdf7e9e5117b4148434046cde2b6fa17100cfe"
+    },
+    "main_closed_section": {
+      "byte_end_exclusive": 132799,
+      "byte_start_zero_based": 124925,
+      "bytes": 7874,
+      "line_count": 132,
+      "line_end_inclusive": 2329,
+      "line_start_inclusive": 2198,
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_probability/TeX/ch_probability.tex",
+      "sha256": "3459e761d91681907a99c555bd7fe627c9a80ddcd3658b46fd04f6382c5cad0c"
+    },
+    "public_answer_37": {
+      "byte_end_exclusive": 24794,
+      "byte_start_zero_based": 24671,
+      "bytes": 123,
+      "line_count": 6,
+      "line_end_inclusive": 574,
+      "line_start_inclusive": 569,
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/extraTeX/eoceSolutions/eoceSolutions.tex",
+      "sha256": "59a1c0ce9597f94ceac7cbdc9a0cae6a06aa995850261f22ae259d2a2fbbc840"
+    }
+  },
+  "status": "PASS_EXACT_PINNED_CLOSED_BOUNDARY"
+}

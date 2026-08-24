@@ -1,0 +1,14 @@
+{
+  "$schema": "r011-b013-figshare-metadata-template/v1",
+  "boundary_id": "R011-B013",
+  "release_id": "R011-B013-v2026.08.24.3",
+  "title": "Statistika Berbasis Data - edisi kerja Bahasa Indonesia R011-B013",
+  "description": "Rilis pelestarian parsial Bagian 3.5 Distribusi kontinu: 3 contoh, 2 latihan terpandu dan jawaban inline, EoCE 37-38, jawaban publik 37, O001 38, lima gambar PDF berlabel Bahasa Indonesia, lima produsen R sumber, dan satu pelokal Python bersama. Karya turunan dari OpenIntro Statistics oleh David M. Diez, Mine Çetinkaya-Rundel, dan Christopher D. Barr. Teks/terjemahan: CC BY-SA 3.0 Unported; hak komponen tetap berlaku. Model: OpenAI Codex gpt-5.6-sol, Ultra.",
+  "keywords": ["statistika", "distribusi kontinu", "Bahasa Indonesia", "open textbook", "R011", "partial release"],
+  "article_id": 33314727,
+  "project_id": 280296,
+  "collection_id": 8668413,
+  "unavailable_route": "write truthful non-mutating route-status receipt; never create a duplicate article",
+  "zenodo_concept_doi": "10.5281/zenodo.22059801"
+}
+
