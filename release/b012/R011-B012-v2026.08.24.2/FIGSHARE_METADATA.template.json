@@ -1,0 +1,15 @@
+{
+  "$schema": "r011-b012-figshare-metadata-template/v1",
+  "boundary_id": "R011-B012",
+  "release_id": "R011-B012-v2026.08.24.2",
+  "title": "Statistika Berbasis Data - edisi kerja Bahasa Indonesia R011-B012",
+  "description": "Rilis pelestarian parsial Bagian 3.4 Variabel acak: 8 contoh, 9 latihan terpandu, EoCE 29-36, jawaban publik 29/31/33/35, serta dua gambar id-ID dengan produsen R portabel. Karya turunan dari OpenIntro Statistics oleh David M. Diez, Mine Çetinkaya-Rundel, dan Christopher D. Barr. Teks/terjemahan: CC BY-SA 3.0 Unported; hak komponen tetap berlaku. Model: OpenAI Codex gpt-5.6-sol, Ultra.",
+  "keywords": ["statistika", "pengambilan sampel", "Bahasa Indonesia", "open textbook", "R011", "partial release"],
+  "article_id": 33314727,
+  "project_id": 280296,
+  "collection_id": 8668413,
+  "unavailable_route": "write truthful non-mutating route-status receipt; never create a duplicate article",
+  "zenodo_concept_doi": "10.5281/zenodo.22059801"
+}
+
+

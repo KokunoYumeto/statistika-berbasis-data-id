@@ -1,0 +1,479 @@
+\section{Variabel acak}
+\label{randomVariablesSection}
+
+\index{random variable|(}
+
+\noindent%
+Sering kali, suatu proses berguna untuk dimodelkan dengan menggunakan apa yang
+disebut \term{variabel acak}.
+Model semacam ini memungkinkan kita menerapkan kerangka
+matematis dan prinsip-prinsip statistika untuk
+memahami dan memprediksi hasil dengan lebih baik
+di dunia nyata.
+
+\begin{examplewrap}
+\begin{nexample}{Dua buku diwajibkan untuk sebuah kelas statistika: buku teks dan panduan belajar yang menyertainya. Toko buku universitas menemukan bahwa 20\% mahasiswa yang terdaftar tidak membeli satu pun dari kedua buku tersebut, 55\% hanya membeli buku teks, dan 25\% membeli keduanya; persentase ini relatif konstan dari satu semester ke semester berikutnya. Jika~ada 100 mahasiswa yang terdaftar, berapa banyak buku yang diperkirakan akan dijual toko buku tersebut kepada kelas ini?}\label{bookStoreSales}
+Sekitar 20 mahasiswa tidak akan membeli satu pun buku (total 0 buku), sekitar 55 mahasiswa akan membeli satu buku (total 55 buku), dan sekitar 25 mahasiswa akan membeli dua buku (total 50 buku untuk 25 mahasiswa ini). Toko buku tersebut diperkirakan akan menjual sekitar 105 buku kepada kelas ini.
+\end{nexample}
+\end{examplewrap}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Apakah Anda akan terkejut jika toko buku tersebut menjual sedikit lebih banyak atau lebih sedikit daripada 105 buku?\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Jika toko buku menjual sedikit lebih banyak atau sedikit lebih sedikit, hal ini seharusnya tidak mengejutkan. Semoga Bab~\ref{introductionToData} telah memperjelas bahwa data yang diamati memiliki variabilitas alami. Sebagai contoh, jika kita melempar koin 100 kali, sisi kepala biasanya tidak akan muncul tepat separuh dari seluruh lemparan, tetapi jumlahnya mungkin akan mendekati separuh.}
+
+\begin{examplewrap}
+\begin{nexample}{Harga buku teks adalah \$137 dan harga panduan belajar adalah \$33. Berapa besar pendapatan yang diperkirakan akan diperoleh toko buku dari kelas yang terdiri atas 100 mahasiswa ini?}\label{bookStoreRev}
+Sekitar 55 mahasiswa hanya akan membeli buku teks, sehingga menghasilkan pendapatan sebesar
+\begin{align*}
+\$137 \times  55 = \$7,535
+\end{align*}
+Sekitar 25 mahasiswa yang membeli buku teks dan panduan belajar akan membayar total sebesar
+\begin{align*}
+(\$137 + \$33) \times  25 = \$170 \times  25 = \$4,250
+\end{align*}
+Jadi, toko buku tersebut diperkirakan memperoleh sekitar $\$7,535 + \$4,250 = \$11,785$ dari 100 mahasiswa dalam satu kelas ini. Namun, mungkin terdapat \emph{variabilitas pengambilan sampel}, sehingga jumlah sebenarnya dapat sedikit berbeda.
+\end{nexample}
+\end{examplewrap}
+
+\begin{figure}[h]
+  \centering
+  \Figure[Sebuah distribusi peluang yang tampak menyerupai histogram. Sumbu horizontal berlabel “Biaya” dan membentang dari \$0 hingga \$170. Sumbu vertikal berlabel “Peluang”. Terdapat tiga batang: batang setinggi 0.2 pada \$0, batang setinggi 0.55 pada \$137, dan batang setinggi 0.25 pada \$170. Sebuah segitiga merah ditampilkan pada rata-rata, yaitu \$117.85.]{0.6}{bookCostDist}
+  \caption{Distribusi peluang pendapatan toko buku
+      dari satu mahasiswa.
+      Segitiga menunjukkan
+      pendapatan rata-rata per mahasiswa.}
+  \label{bookCostDist}
+\end{figure}
+
+\D{\newpage}
+
+\begin{examplewrap}
+\begin{nexample}{Berapakah pendapatan rata-rata per mahasiswa untuk mata kuliah ini?}\label{revFromStudent}
+Total pendapatan yang diharapkan adalah \$11,785 dan terdapat 100 mahasiswa. Oleh karena itu, pendapatan yang diharapkan per mahasiswa adalah $\$11,785/100 =  \$117.85$.
+\end{nexample}
+\end{examplewrap}
+
+\subsection{Nilai harapan}
+
+\index{expectation|(}
+
+Variabel atau proses dengan hasil numerik disebut \term{variabel acak}, dan variabel acak ini biasanya dilambangkan dengan huruf kapital seperti $X$, $Y$, atau $Z$. Jumlah uang yang dibelanjakan seorang mahasiswa untuk buku-buku statistikanya merupakan variabel acak, dan kita melambangkannya dengan $X$.
+
+\begin{onebox}{Variabel acak}
+Proses acak atau variabel yang memiliki hasil numerik.
+\end{onebox}
+
+Hasil-hasil yang mungkin dari $X$ diberi label dengan huruf kecil $x$ dan subskrip yang bersesuaian. Sebagai contoh, kita menulis $x_1=\$0$, $x_2=\$137$, dan $x_3=\$170$, yang masing-masing terjadi dengan peluang $0.20$, $0.55$, dan $0.25$. Distribusi $X$ diringkas pada Gambar~\ref{bookCostDist} dan Gambar~\ref{statSpendDist}.
+
+\begin{figure}[h]
+\centering
+\begin{tabular}{l ccc r}
+\hline
+$i$	  & 1 & 2 & 3  & Total\\
+\hline
+$x_i$ & \$0 & \$137 & \$170 & --\\
+$P(X=x_i)$ & 0.20 & 0.55 & 0.25 & 1.00 \\
+\hline
+\end{tabular}
+\caption{Distribusi peluang variabel acak $X$, yang menyatakan pendapatan toko buku dari satu mahasiswa.}
+\label{statSpendDist}
+\end{figure}
+
+Kita menghitung hasil rata-rata $X$ sebesar \$117.85 dalam Contoh~\ref{revFromStudent}.
+Rata-rata ini disebut \term{nilai harapan} $X$, yang dilambangkan dengan $E(X)$\index{EX@$E(X)$}.
+Nilai harapan suatu variabel acak dihitung dengan menjumlahkan setiap hasil yang dibobotkan menurut peluangnya:
+\begin{align*}
+E(X) &= 0 \times  P(X=0) + 137 \times  P(X=137) + 170 \times  P(X=170) \\
+	&= 0 \times  0.20 + 137 \times  0.55 + 170 \times  0.25 = 117.85
+\end{align*}
+
+\begin{onebox}{Nilai harapan variabel acak diskret}
+Jika $X$ memiliki hasil $x_1$, ..., $x_k$ dengan peluang $P(X=x_1)$, ..., $P(X=x_k)$, nilai harapan $X$ adalah jumlah setiap hasil yang dikalikan dengan peluang yang bersesuaian:
+\begin{align*}
+E(X)
+  &= x_1 \times P(X = x_1) + \cdots + x_k\times P(X = x_k) \\
+  &= \sum_{i = 1}^{k} x_i P(X = x_i)
+\end{align*}
+Huruf Yunani $\mu$\index{Greek!mu@mu ($\mu$)}
+dapat digunakan sebagai pengganti notasi $E(X)$.
+\end{onebox}
+
+% Tata letak: pemisah halaman paksa yang usang dihapus.
+
+Nilai harapan suatu variabel acak menyatakan hasil rata-rata. Sebagai contoh, $E(X)=117.85$ menyatakan jumlah rata-rata yang diperkirakan akan diperoleh toko buku dari satu mahasiswa, yang juga dapat kita tulis sebagai $\mu=117.85$.
+
+Nilai harapan variabel acak kontinu juga dapat dihitung (lihat Bagian~\ref{contDist}). Namun, perhitungannya memerlukan sedikit kalkulus dan kita menundanya untuk mata kuliah lanjutan.\footnote{$\mu = \int xf(x)dx$ dengan $f(x)$ menyatakan fungsi bagi kurva kepadatan.}
+
+Dalam fisika, nilai harapan memiliki makna yang sama dengan pusat gravitasi. Distribusi dapat direpresentasikan oleh serangkaian beban pada setiap hasil, dan rata-rata menyatakan titik keseimbangan. Hal ini ditampilkan pada Gambar~\ref{bookCostDist} dan~\ref{bookWts}. Gagasan pusat gravitasi juga berlaku untuk distribusi peluang kontinu. Gambar~\ref{contBalance} menunjukkan distribusi peluang kontinu yang seimbang di atas penyangga yang ditempatkan pada rata-rata.
+
+\begin{figure}
+\centering
+\Figure[Sebuah batang digantung dengan tali, dan tiga beban tergantung pada tiga posisi berbeda di sepanjang batang. Beban-beban tersebut berada pada posisi 0, 137, dan 170 dengan bobot yang sebanding dengan peluang 0.2, 0.55, dan 0.25. Beban-beban itu seimbang karena tali yang menopang batang terletak pada rata-rata distribusi, yaitu 117.85.]{0.72}{bookWts}
+\caption{Sistem beban yang merepresentasikan distribusi peluang $X$. Tali menahan distribusi pada rata-ratanya agar sistem tetap seimbang.}
+\label{bookWts}
+\end{figure}
+
+\begin{figure}
+\centering
+\Figure[Ditampilkan sebuah distribusi yang miring ke kanan, serupa dengan tampilan histogram jika bin-binnya sangat kecil sehingga menyatu dan tampak kontinu. Distribusi ini seimbang di atas sebuah segitiga yang terletak pada rata-rata distribusi.]{0.68}{contBalance}
+\caption{Distribusi kontinu juga dapat diseimbangkan pada rata-ratanya.}
+\label{contBalance}
+\end{figure}
+
+\index{expectation|)}
+
+
+\D{\newpage}
+
+\subsection{Variabilitas dalam variabel acak}
+
+Misalkan Anda mengelola toko buku universitas. Selain besarnya pendapatan yang diperkirakan akan diperoleh, Anda mungkin juga ingin mengetahui volatilitas (variabilitas) pendapatan tersebut. 
+
+\indexthis{Varians}{variance} dan \indexthis{simpangan baku}{standard deviation} dapat digunakan untuk mendeskripsikan variabilitas suatu variabel acak. Bagian~\ref{variability}
+memperkenalkan metode untuk menentukan varians dan simpangan baku suatu kumpulan data. Pertama, kita menghitung simpangan dari rata-rata ($x_i - \mu$), menguadratkan simpangan tersebut, lalu mengambil rata-ratanya untuk memperoleh varians. Untuk variabel acak, kita kembali menghitung kuadrat simpangan. Namun, kita menjumlahkannya dengan pembobotan berdasarkan peluang yang bersesuaian, seperti yang kita lakukan untuk nilai harapan. Jumlah kuadrat simpangan berbobot ini sama dengan varians, dan kita menghitung simpangan baku dengan mengambil akar kuadrat varians, seperti yang dilakukan pada Bagian~\ref{variability}.
+
+\begin{onebox}{Rumus umum varians}
+Jika $X$ memiliki hasil $x_1$, ..., $x_k$ dengan peluang $P(X=x_1)$, ..., $P(X=x_k)$ dan nilai harapan $\mu=E(X)$, varians $X$, yang dilambangkan dengan $Var(X)$ atau simbol $\sigma^2$, adalah
+\begin{align*}
+\sigma^2 &= (x_1-\mu)^2\times P(X=x_1) + \cdots \\
+	& \qquad\quad\cdots+ (x_k-\mu)^2\times P(X=x_k) \\
+	&= \sum_{j=1}^{k} (x_j - \mu)^2 P(X=x_j)
+\end{align*}
+Simpangan baku $X$, yang dilambangkan dengan
+$\sigma$\index{Greek!sigma@sigma ($\sigma$)},
+adalah akar kuadrat dari varians.
+\end{onebox}
+
+\begin{examplewrap}
+\begin{nexample}{Hitung nilai harapan, varians, dan simpangan baku $X$, yaitu pendapatan toko buku dari satu mahasiswa statistika.}
+Kita dapat menyusun tabel yang memuat perhitungan setiap hasil secara terpisah, lalu menjumlahkan hasil-hasilnya.
+\begin{center}
+\begin{tabular}{l rrr r}
+\hline
+$i$ & 1 & 2 & 3 & Total \\
+\hline
+$x_i$ & \$0 & \$137 & \$170 &  \\
+$P(X=x_i)$ & 0.20 & 0.55 & 0.25 &  \\
+$x_i \times  P(X=x_i)$ & 0 & 75.35 & 42.50 & 117.85 \\
+\hline
+\end{tabular}
+\end{center}
+Jadi, nilai harapannya adalah $\mu=117.85$, seperti yang telah kita hitung. Varians dapat disusun dengan memperluas tabel ini:
+\begin{center}
+\begin{tabular}{l rrr r}
+\hline
+$i$ & 1 & 2 & 3 & Total \\
+\hline
+$x_i$ & \$0 & \$137 & \$170 &  \\
+$P(X=x_i)$ & 0.20 & 0.55 & 0.25 &  \\
+$x_i \times  P(X=x_i)$ & 0 & 75.35 & 42.50 & 117.85 \\
+$x_i - \mu$ & -117.85 & 19.15 & 52.15 &  \\
+$(x_i-\mu)^2$ & 13888.62 &  366.72 & 2719.62 &  \\
+$(x_i-\mu)^2\times P(X=x_i)$ & 2777.7 & 201.7 & 679.9 & 3659.3 \\
+\hline
+\end{tabular}
+\end{center}
+Varians $X$ adalah $\sigma^2 = 3659.3$, yang berarti simpangan bakunya adalah $\sigma = \sqrt{3659.3} = \$60.49$.
+\end{nexample}
+\end{examplewrap}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Toko buku tersebut juga menawarkan buku teks kimia seharga \$159 dan buku pendamping seharga \$41. Berdasarkan pengalaman sebelumnya, mereka mengetahui bahwa sekitar 25\% mahasiswa kimia hanya membeli buku teks, sedangkan 60\% membeli buku teks beserta buku pendamping.\footnotemark
+\begin{enumerate}
+\item[(a)] Berapa proporsi mahasiswa yang tidak membeli satu pun dari kedua buku tersebut? Anggap tidak ada mahasiswa yang membeli buku pendamping tanpa buku teks.
+\item[(b)] Misalkan $Y$ menyatakan pendapatan dari satu mahasiswa. Tuliskan distribusi peluang $Y$, yaitu tabel yang memuat setiap hasil beserta peluangnya.
+\item[(c)] Hitung pendapatan yang diharapkan dari satu mahasiswa kimia. 
+\item[(d)] Tentukan simpangan baku untuk mendeskripsikan variabilitas pendapatan dari satu mahasiswa.
+\end{enumerate}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{(a) 100\% - 25\% - 60\% = 15\% mahasiswa tidak membeli buku apa pun untuk kelas tersebut. Bagian~(b) direpresentasikan oleh dua baris pertama pada tabel di bawah ini. Nilai harapan untuk bagian~(c) diberikan sebagai total pada baris $y_i\times P(Y=y_i)$. Hasil bagian~(d) adalah akar kuadrat varians yang tercantum sebagai total pada baris terakhir: $\sigma = \sqrt{Var(Y)} = \$69.28$.
+\begin{center}
+\begin{tabular}{rrrrr}
+  \hline
+$i$ (skenario) & 1 (\resp{tanpa\us{}buku}) & 2 (\resp{buku\us{}teks}) & 3 (\resp{keduanya}) & Total \\
+  \hline
+$y_i$ & 0.00 & 159.00 & 200.00 &  \\
+$P(Y=y_i)$ & 0.15 & 0.25 & 0.60 & \\
+$y_i\times P(Y=y_i)$ & 0.00 & 39.75 & 120.00 & $E(Y) = 159.75$\\
+$y_i-E(Y)$ & -159.75 & -0.75 & 40.25 & \\
+$(y_i-E(Y))^2$ & 25520.06 & 0.56 & 1620.06 & \\
+$(y_i-E(Y))^2\times P(Y)$ & 3828.0 & 0.1 & 972.0 & $Var(Y) \approx 4800$ \\
+   \hline
+\end{tabular}
+\end{center}}
+
+\subsection{Kombinasi linear variabel acak}
+
+Sejauh ini, kita menganggap setiap variabel sebagai gambaran yang lengkap dengan sendirinya. Terkadang, kombinasi beberapa variabel lebih tepat digunakan. Sebagai contoh, waktu yang dihabiskan seseorang untuk bepergian ke tempat kerja setiap minggu dapat diuraikan menjadi beberapa perjalanan harian. Demikian pula, total keuntungan atau kerugian dalam suatu portofolio saham merupakan jumlah keuntungan dan kerugian dari komponen-komponennya.
+
+\begin{examplewrap}
+\begin{nexample}{John pergi ke tempat kerja lima hari dalam seminggu. Kita akan menggunakan $X_1$ untuk menyatakan waktu perjalanannya pada hari Senin, $X_2$ untuk menyatakan waktu perjalanannya pada hari Selasa, dan seterusnya. Tuliskan persamaan menggunakan $X_1$, ..., $X_5$ yang menyatakan waktu perjalanannya selama seminggu, yang dilambangkan dengan $W$.}
+Total waktu perjalanan mingguannya adalah jumlah kelima nilai harian:
+\begin{align*}
+W = X_1 + X_2 + X_3 + X_4 + X_5
+\end{align*}
+Menguraikan waktu perjalanan mingguan $W$ menjadi beberapa bagian menyediakan kerangka untuk memahami setiap sumber keacakan dan berguna dalam memodelkan $W$.
+\end{nexample}
+\end{examplewrap}
+
+\D{\newpage}
+
+\begin{examplewrap}
+\begin{nexample}{Waktu rata-rata yang dibutuhkan John untuk pergi ke tempat kerja setiap hari adalah 18 menit. Berapa waktu perjalanan rata-rata yang Anda harapkan selama seminggu?}
+Kita diberi tahu bahwa rata-rata (yaitu nilai harapan) waktu perjalanan adalah 18 menit per hari: $E(X_i) = 18$. Untuk memperoleh waktu yang diharapkan bagi jumlah lima hari tersebut, kita dapat menjumlahkan waktu yang diharapkan untuk setiap hari:
+\begin{align*}
+E(W) &= E(X_1 + X_2 + X_3 + X_4 + X_5) \\
+	&= E(X_1) + E(X_2) + E(X_3) + E(X_4) + E(X_5) \\
+	&= 18 + 18 + 18 + 18 + 18 = 90\text{ menit}
+\end{align*}
+Nilai harapan waktu total sama dengan jumlah nilai harapan waktu masing-masing. Secara lebih umum, nilai harapan jumlah beberapa variabel acak selalu sama dengan jumlah nilai harapan setiap variabel acak.
+\end{nexample}
+\end{examplewrap}
+
+\begin{exercisewrap}
+\begin{nexercise}
+\label{elenaIsSellingATVAndBuyingAToasterOvenAtAnAuction}%
+Elena menjual sebuah TV dalam lelang tunai dan juga bermaksud membeli oven pemanggang dalam lelang tersebut. Jika $X$ menyatakan keuntungan dari penjualan TV dan $Y$ menyatakan biaya oven pemanggang, tuliskan persamaan yang menyatakan perubahan bersih uang tunai Elena.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Elena akan memperoleh $X$ dolar dari TV, tetapi membelanjakan $Y$ dolar untuk oven pemanggang: $X-Y$.}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Berdasarkan lelang sebelumnya, Elena memperkirakan akan memperoleh sekitar \$175 dari TV dan membayar sekitar \$23 untuk oven pemanggang. Secara keseluruhan, berapa banyak uang yang diperkirakan akan ia peroleh atau belanjakan?\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{$E(X-Y) = E(X) - E(Y) = 175 - 23 = \$152$. Elena diperkirakan akan memperoleh sekitar \$152.}
+
+\begin{exercisewrap}
+\begin{nexercise} \label{explainWhyThereIsUncertaintyInTheSum}
+Apakah Anda akan terkejut jika waktu perjalanan mingguan John tidak tepat 90 menit atau jika Elena tidak memperoleh tepat \$152? Jelaskan.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Tidak, karena kemungkinan terdapat variabilitas. Sebagai contoh, kondisi lalu lintas berubah dari satu hari ke hari berikutnya, dan harga lelang akan bervariasi bergantung pada kualitas barang serta minat para peserta.}
+
+Dua konsep penting mengenai kombinasi variabel acak telah diperkenalkan. Pertama, suatu nilai akhir terkadang dapat dinyatakan dalam persamaan sebagai jumlah bagian-bagiannya. Kedua, secara intuitif, memasukkan nilai rata-rata setiap bagian ke dalam persamaan ini akan memberikan nilai total rata-rata yang kita harapkan. Poin kedua ini perlu diperjelas -- hal tersebut dijamin benar untuk apa yang disebut \emph{kombinasi linear variabel acak}.
+
+\term{Kombinasi linear} dua variabel acak $X$ dan $Y$ adalah istilah untuk menyatakan kombinasi
+\begin{align*}
+aX + bY
+\end{align*}
+dengan $a$ dan $b$ sebagai bilangan tetap yang diketahui. Untuk waktu perjalanan John, terdapat lima variabel acak -- satu untuk setiap hari kerja -- dan setiap variabel acak dapat ditulis dengan koefisien tetap sebesar 1:
+\begin{align*}
+1X_1 + 1 X_2 + 1 X_3 + 1 X_4 + 1 X_5
+\end{align*}
+Untuk keuntungan atau kerugian bersih Elena, variabel acak $X$ memiliki
+koefisien +1 dan variabel acak $Y$ memiliki
+koefisien~-1.
+
+\D{\newpage}
+
+Ketika mempertimbangkan rata-rata kombinasi linear variabel acak, kita dapat memasukkan rata-rata setiap variabel acak lalu menghitung hasil akhirnya. Beberapa contoh kombinasi nonlinear variabel acak -- yaitu kasus ketika kita tidak dapat sekadar memasukkan rata-rata -- diberikan dalam catatan kaki.\footnote{Jika $X$ dan $Y$ merupakan variabel acak, pertimbangkan kombinasi berikut: $X^{1+Y}$, $X\times Y$, $X/Y$. Dalam kasus seperti ini, memasukkan nilai rata-rata setiap variabel acak dan menghitung hasilnya umumnya tidak akan menghasilkan nilai rata-rata yang akurat bagi hasil akhir.}
+
+\begin{onebox}{Kombinasi linear variabel acak dan hasil rata-rata}
+Jika $X$ dan $Y$ merupakan variabel acak, kombinasi linear kedua variabel acak tersebut diberikan oleh
+\begin{align*}
+aX + bY
+\end{align*}
+dengan $a$ dan $b$ sebagai bilangan tetap. Untuk menghitung nilai rata-rata kombinasi linear variabel acak, masukkan rata-rata setiap variabel acak lalu hitung hasilnya:
+\begin{align*}
+a\times E(X) + b\times E(Y)
+\end{align*}
+Ingat bahwa nilai harapan sama dengan rata-rata, misalnya $E(X) = \mu_X$.
+\end{onebox}
+
+\begin{examplewrap}
+\begin{nexample}{Leonard telah menginvestasikan \$6000 di Caterpillar Inc
+    (kode saham: CAT) dan \$2000 di Exxon Mobil Corp (XOM).
+    Jika $X$ menyatakan perubahan saham Caterpillar pada bulan depan
+    dan $Y$ menyatakan perubahan saham Exxon Mobil
+    pada bulan depan, tuliskan persamaan yang mendeskripsikan berapa banyak
+    uang yang akan diperoleh atau hilang dari saham Leonard selama
+    bulan tersebut.}
+  Untuk menyederhanakan, kita menganggap $X$ dan $Y$ tidak dinyatakan
+  dalam persen, melainkan dalam bentuk desimal
+  (misalnya, jika saham Caterpillar naik 1\%, maka $X=0.01$;
+  atau jika turun 1\%, maka $X=-0.01$).
+  Dengan demikian, kita dapat menuliskan persamaan keuntungan Leonard sebagai
+  \begin{align*}
+  \$6000\times X + \$2000\times Y
+  \end{align*}
+  Jika kita memasukkan perubahan nilai saham untuk $X$ dan $Y$,
+  persamaan ini memberikan perubahan nilai portofolio saham Leonard
+  selama bulan tersebut. Nilai positif menyatakan keuntungan,
+  sedangkan nilai negatif menyatakan kerugian.
+\end{nexample}
+\end{examplewrap}
+
+\begin{exercisewrap}
+\begin{nexercise}\label{expectedChangeInLeonardsStockPortfolio}
+Saham Caterpillar akhir-akhir ini naik
+sebesar 2.0\% dan saham Exxon Mobil sebesar 0.2\% per bulan.
+Hitung perubahan yang diharapkan pada portofolio saham Leonard
+untuk bulan depan.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+% library(openintro); d <- stocks_18; cols <- 2:4; apply(d[, cols], 2, mean); apply(d[, cols], 2, sd)
+\footnotetext{%
+  $E(\$6000\times X + \$2000\times Y) =
+    \$6000\times 0.020 + \$2000\times 0.002 = \$124$.}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Anda seharusnya menemukan bahwa Leonard mengharapkan keuntungan positif
+dalam Latihan Terbimbing~\ref{expectedChangeInLeonardsStockPortfolio}.
+Namun, apakah Anda akan terkejut jika ia sebenarnya mengalami
+kerugian pada bulan ini?\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Tidak.
+  Walaupun saham cenderung naik dari waktu ke waktu, nilainya sering
+  bergejolak dalam jangka pendek.}
+
+
+\D{\newpage}
+
+\subsection{Variabilitas dalam kombinasi linear variabel acak}
+\label{var_lin_combo_of_RVs}
+
+Mengukur hasil rata-rata dari kombinasi linear
+variabel acak memang berguna, tetapi kita juga perlu
+memahami ketidakpastian yang berkaitan dengan
+hasil total kombinasi variabel acak tersebut.
+Keuntungan atau kerugian bersih yang diharapkan dari portofolio saham Leonard
+telah dipertimbangkan dalam Latihan Terbimbing~\ref{expectedChangeInLeonardsStockPortfolio}.
+Namun, volatilitas portofolio ini belum
+dibahas secara kuantitatif.
+Sebagai contoh, meskipun keuntungan bulanan rata-rata menurut data mungkin
+sekitar \$124, keuntungan tersebut tidak terjamin.
+Gambar~\ref{changeInLeonardsStockPortfolioFor36Months}
+menunjukkan perubahan bulanan pada portofolio seperti milik Leonard selama
+periode tiga tahun.
+Keuntungan dan kerugiannya sangat bervariasi, dan mengukur
+fluktuasi ini penting ketika berinvestasi dalam saham.
+
+\begin{figure}[ht]
+\centering
+\Figure[Diagram titik ditumpangkan pada diagram kotak untuk variabel “Imbal Hasil Bulanan Selama 3 Tahun”. Bagian kotak membentang kira-kira dari -200 hingga 450, dengan garis median sekitar 200. Garis kumis membentang ke ujung bawah sekitar -600 dan ujung atas sekitar 1050. Terdapat satu titik di luar garis kumis bawah pada sekitar -1400. Pada diagram titik, titik-titik tersebar cukup merata di sepanjang bagian kotak dan garis kumis, dengan satu pengecualian berupa titik pada -1400.]{0.6}{changeInLeonardsStockPortfolioFor36Months}
+\caption{Perubahan portofolio seperti milik Leonard selama 36 bulan,
+    dengan \$6000 diinvestasikan dalam saham Caterpillar dan \$2000 dalam
+    saham Exxon Mobil.}
+\label{changeInLeonardsStockPortfolioFor36Months}
+\end{figure}
+
+Seperti dalam banyak kasus sebelumnya,
+kita menggunakan varians dan simpangan baku untuk mendeskripsikan
+ketidakpastian yang berkaitan dengan imbal hasil bulanan Leonard.
+Untuk itu, varians imbal hasil bulanan setiap saham
+akan berguna, dan nilainya ditampilkan pada
+Gambar~\ref{sumStatOfCATXOM}.
+Imbal hasil kedua saham tersebut hampir saling independen.
+
+\begin{figure}
+\centering
+\begin{tabular}{lrrr}
+\hline
+    & Rata-rata ($\bar{x}$) & Simpangan baku ($s$) &
+	    Varians ($s^2$) \\
+\hline
+CAT & 0.0204  & 0.0757  & 0.0057 \\
+XOM & 0.0025  & 0.0455  & 0.0021 \\
+\hline
+\end{tabular}
+\caption{Rata-rata, simpangan baku, dan varians saham
+    CAT dan XOM.
+    Statistik ini diestimasi dari data saham
+    historis, sehingga digunakan notasi untuk
+    statistik sampel.}
+\label{sumStatOfCATXOM}
+\end{figure}
+
+Di sini kita menggunakan persamaan dari teori probabilitas untuk
+mendeskripsikan ketidakpastian imbal hasil bulanan Leonard;
+pembuktian metode ini diserahkan kepada mata kuliah
+khusus probabilitas.
+Varians kombinasi linear variabel acak
+dapat dihitung dengan memasukkan varians setiap
+variabel acak dan menguadratkan koefisien
+variabel-variabel acak tersebut:
+\begin{align*}
+Var(aX + bY) = a^2\times Var(X) + b^2\times Var(Y)
+\end{align*}
+Perlu diperhatikan bahwa kesamaan ini mengasumsikan
+variabel-variabel acak tersebut saling independen;
+%\Comment{new description here about if independence is broken}
+jika independensi tidak terpenuhi, persamaan ini
+perlu dimodifikasi. Topik tersebut akan
+dibahas dalam mata kuliah selanjutnya.
+Persamaan ini dapat digunakan untuk menghitung varians
+imbal hasil bulanan Leonard:
+\begin{align*}
+Var(6000\times X + 2000\times Y)
+	&= 6000^2\times Var(X) + 2000^2\times Var(Y) \\
+	&= 36,000,000\times 0.0057 + 4,000,000\times 0.0021 \\
+	&\approx 213,600
+% sum(c(36e6, 4e6) * c(0.0057, 0.0021))
+\end{align*}
+Simpangan baku dihitung sebagai akar kuadrat
+varians: $\sqrt{213,600} = \$463$.
+Meskipun imbal hasil bulanan rata-rata sebesar \$124 dari
+investasi \$8000 bukanlah jumlah yang kecil,
+imbal hasil bulanan tersebut begitu bergejolak sehingga Leonard sebaiknya
+tidak mengharapkan pendapatan ini sangat stabil.
+
+\begin{onebox}{Variabilitas kombinasi linear variabel acak}
+Varians kombinasi linear variabel acak dapat dihitung dengan menguadratkan konstanta, mengganti variabel acak dengan variansnya, lalu menghitung hasilnya:
+\begin{align*}
+Var(aX + bY) = a^2\times Var(X) + b^2\times Var(Y)
+\end{align*}
+Persamaan ini berlaku selama variabel-variabel acak tersebut saling independen. Simpangan baku kombinasi linear dapat diperoleh dengan mengambil akar kuadrat varians.
+\end{onebox}
+
+\begin{examplewrap}
+\begin{nexample}{Misalkan waktu perjalanan harian John memiliki simpangan baku 4 menit. Berapakah ketidakpastian total waktu perjalanannya selama seminggu?} \label{sdOfJohnsCommuteWeeklyTime}
+Ekspresi untuk waktu perjalanan John adalah
+\begin{align*}
+X_1 + X_2 + X_3 + X_4 + X_5
+\end{align*}
+Setiap koefisien bernilai 1, dan varians waktu perjalanan setiap hari adalah $4^2=16$. Jadi, varians total waktu perjalanan mingguan adalah
+\begin{align*}
+&\text{varians }= 1^2 \times  16 + 1^2 \times  16 + 1^2 \times  16 + 1^2 \times  16 + 1^2 \times  16 = 5\times 16 = 80 \\
+&\text{simpangan baku } = \sqrt{\text{varians}} = \sqrt{80} = 8.94
+\end{align*}
+Simpangan baku waktu perjalanan mingguan John ke tempat kerja adalah sekitar 9 menit.
+\end{nexample}
+\end{examplewrap}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Perhitungan dalam Contoh~\ref{sdOfJohnsCommuteWeeklyTime} bergantung pada asumsi penting: waktu perjalanan setiap hari saling independen dari waktu perjalanan pada hari-hari lain dalam minggu tersebut. Menurut Anda, apakah asumsi ini valid? Jelaskan.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Salah satu hal yang perlu dipertimbangkan adalah apakah pola lalu lintas cenderung memiliki siklus mingguan (misalnya, hari Jumat mungkin lebih buruk daripada hari lainnya). Jika demikian dan John berkendara, asumsi tersebut mungkin tidak masuk akal. Namun, jika John berjalan kaki ke tempat kerja, waktu perjalanannya mungkin tidak dipengaruhi oleh siklus lalu lintas mingguan.}
+
+\begin{exercisewrap}
+\begin{nexercise}\label{elenaIsSellingATVAndBuyingAToasterOvenAtAnAuctionVariability}
+Pertimbangkan kembali dua lelang Elena dari Latihan Terbimbing~\ref{elenaIsSellingATVAndBuyingAToasterOvenAtAnAuction} pada halaman~\pageref{elenaIsSellingATVAndBuyingAToasterOvenAtAnAuction}. Misalkan kedua lelang ini kira-kira saling independen dan variabilitas harga lelang TV serta oven pemanggang dapat dideskripsikan menggunakan simpangan baku \$25 dan \$8. Hitung simpangan baku keuntungan bersih Elena.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Persamaan untuk Elena dapat ditulis sebagai
+\begin{align*}
+(1)\times X + (-1)\times Y
+\end{align*}
+Varians $X$ dan $Y$ adalah 625 dan 64. Kita menguadratkan koefisien dan memasukkan nilai varians:
+\begin{align*}
+(1)^2\times Var(X) + (-1)^2\times Var(Y) = 1\times 625 + 1\times 64 = 689
+\end{align*}
+Varians kombinasi linear tersebut adalah 689, dan simpangan bakunya adalah akar kuadrat 689: sekitar \$26.25.}
+
+Pertimbangkan kembali Latihan Terbimbing~\ref{elenaIsSellingATVAndBuyingAToasterOvenAtAnAuctionVariability}. Koefisien negatif untuk $Y$ dalam kombinasi linear hilang ketika kita menguadratkan koefisien. Hal ini berlaku secara umum: tanda negatif dalam kombinasi linear tidak memengaruhi variabilitas yang dihitung untuk kombinasi linear, tetapi memengaruhi perhitungan nilai harapan.
+
+\index{random variable|)}
+
+
+{\input{ch_probability/TeX/random_variables.tex}}

@@ -1,0 +1,114 @@
+{
+  "$schema": "interlanguage.r011-b012-visual-qa/v1",
+  "boundary_id": "R011-B012",
+  "status": "PASS_ZERO_VISUAL_DEFECTS_IN_BOUNDARY_WINDOW",
+  "recorded_at": "2026-08-24T07:47:35.9165785+02:00",
+  "production_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "candidate_pdf": {
+    "path": "qa/b012-build/final/main.pdf",
+    "pages": 427,
+    "bytes": 22028312,
+    "sha256": "5f1efd0f201cdedc1802e6393b608a075f05b23c77bc61f9460fb5c1a3c42e82"
+  },
+  "bound_inputs": {
+    "build_receipt": {
+      "path": "qa/b012-build/final/CANDIDATE_BUILD_QA_B012.json",
+      "bytes": 16590,
+      "sha256": "17704eaba27975ba3489e501a9b4e5169dc668feb357e675fd316cb324cd6355"
+    },
+    "source_qa": {
+      "path": "qa/b012-build/R011-B012_SOURCE_QA.json",
+      "bytes": 15575,
+      "sha256": "95a8b83e97ef22f5f124ce8079ec764a66923ac3dfdabf8c21170e7d8d4047d2"
+    },
+    "source_manifest": {
+      "path": "qa/b012-build/R011-B012_SOURCE_MANIFEST.tsv",
+      "bytes": 175582,
+      "sha256": "711c14901b07b385fd19d13bfafb04cf842d84d328ed60d5a770e7f67c9d62de"
+    },
+    "translation_qa": {
+      "path": "scratch/b012-candidate/R011-B012_FINAL_TRANSLATION_QA.json",
+      "bytes": 11161,
+      "sha256": "de0cd90ac9bec7185e212f4e56bc04329d3b9202340d7b6545095fa8750cb9e4"
+    },
+    "terminology_qa": {
+      "path": "qa/b012-terminology/R011-B012_TERMINOLOGY_QA.json",
+      "bytes": 6408,
+      "sha256": "6a209eedb8e01949a0d77b16b8af348c1216ee20f34782ec6b87fde2093f22f7"
+    },
+    "rejected_pre_reflow_visual_qa": {
+      "path": "qa/b012-visual/R011-B012_VISUAL_QA_REJECTED_PRE_REFLOW.json",
+      "bytes": 3880,
+      "sha256": "ec44f577f92127dc46c28f111f526bcee55066b89a427111d9930d901b61d214"
+    }
+  },
+  "rejected_pre_repair_candidate": {
+    "pdf_pages": 428,
+    "pdf_bytes": 22029240,
+    "pdf_sha256": "ee7429c9b97b85b9a41e0b7cfa91f7e9eb8efcfaa9ec2ded7210327d807a28d4",
+    "findings": [
+      "Page 120 stranded the expected-value definition box above roughly four-fifths blank space.",
+      "Page 129 stranded only exercise 3.36 above roughly three-quarters blank space."
+    ],
+    "severity": "blocking_layout_defects"
+  },
+  "repair": {
+    "description": "Remove only the obsolete forced break immediately after the expected-value onebox and add one localized-edition break immediately before exercise 3.33.",
+    "effect": "The expected-value explanation now fills page 120; EoCE 3.29-3.32 and 3.33-3.36 are balanced across pages 127-128; Section 3.5 begins cleanly on page 129. The reader decreases from 428 to 427 pages.",
+    "semantic_change": false,
+    "translation_topology_change": false,
+    "content_order_change": false,
+    "reversible": true
+  },
+  "render_configuration": {
+    "tool": "pdftoppm",
+    "resolution_dpi": 120,
+    "format": "PNG",
+    "directory": "qa/b012-build/review-render"
+  },
+  "inspected_renders": [
+    {"page": 5, "role": "preface controlled-term overlay", "bytes": 226219, "sha256": "aab7bfecd61224ca45421b645eeb7bcd2684dfe968e3709d0d8b0e54602520c9"},
+    {"page": 117, "role": "preceding B011 boundary", "bytes": 300650, "sha256": "675af76fa657cd89697a22b781514f2b3e5fc3fb09845ecc83cc7078c1e66ef0"},
+    {"page": 118, "role": "Section 3.4 opening and worked examples", "bytes": 207835, "sha256": "f94eb3cf534c5c05b857a7ae359c813651bb19d2196e86ca30defefede5e51ed"},
+    {"page": 119, "role": "localized cost figure and expected-value development", "bytes": 163404, "sha256": "18a31e41195df3fab2c7eec5b45fbef695aa0db943ccfa717e14be6dc1ba37ea"},
+    {"page": 120, "role": "reflowed expected-value definitions and balance figures", "bytes": 148119, "sha256": "0e514ddd401d140c49314b3504d6ae105abe06493d9a8bf8429bf1e71991cd0a"},
+    {"page": 121, "role": "variance subsection, formulas, and tables", "bytes": 200547, "sha256": "29d26654e4ebf627e4807747d5bd3bb3433ea0d5d4ee7c184b911cc9a7a0f7bd"},
+    {"page": 122, "role": "guided exercise, public answer footnote, and linear-combination opening", "bytes": 221614, "sha256": "5cd277199021ff4f9557b163986eec3f55a00f32ee8ab6f33e1eb589b51a9021"},
+    {"page": 123, "role": "worked and guided exercises with public-answer footnotes", "bytes": 246096, "sha256": "921043f17dbd14bba9aad0a3941331187981cf5a242030ed473ff02c299a2534"},
+    {"page": 124, "role": "linear-combination rule and portfolio examples", "bytes": 222427, "sha256": "6f5f309cd9c3313d35ec7054cb5a242a070df9ba64c67e8d7515fa4f35f4e6b0"},
+    {"page": 125, "role": "localized portfolio figure, equations, and summary table", "bytes": 249410, "sha256": "e579d115942d43406832b0521f6c70f3a2444decfee637a89dc2189025b82309"},
+    {"page": 126, "role": "variability rule and guided exercises with public answers", "bytes": 226805, "sha256": "0e8a0e356371fc9563e8cd376c7339277700a899198c6bdcb26f5442da777913"},
+    {"page": 127, "role": "EoCE 3.29-3.32", "bytes": 217806, "sha256": "42ee86888d65c476acedfc616128197dd75b56e40f36b2214c0b694c77e0d4e9"},
+    {"page": 128, "role": "EoCE 3.33-3.36 after balancing repair", "bytes": 196507, "sha256": "2167def66916f6f54b1d4b589cd5936b59a96afd85dc40ae5f89cf06e26e2fbf"},
+    {"page": 129, "role": "next untranslated Section 3.5 opening", "bytes": 152172, "sha256": "159173eda945e20de716197f1c6bcf55ba2b274533088677fd2ae6526bfcb09c"},
+    {"page": 130, "role": "next untranslated Section 3.5 continuation", "bytes": 112963, "sha256": "3c3918c8c7657750b56eed2853f30343d97730fbf6efaa0d192c90d12b115aae"},
+    {"page": 391, "role": "answer appendix entry into Chapter 3", "bytes": 383973, "sha256": "b06fe1292a6a6d6bdececcfcfc494f3e03513995a21c4fe69b564b21b2c2c0ee"},
+    {"page": 392, "role": "public answers 3.29, 3.31, 3.33, and 3.35", "bytes": 384009, "sha256": "d2c6a90c8658524111e45788f3eaa43ef2eeeb607cc827e2d2b121e787b63ad7"},
+    {"page": 393, "role": "declared inherited answer suffix beyond B012", "bytes": 342059, "sha256": "25ef370986e8d3d38ff66ee49d982ab50c831675b6451c3bb77b8b1834a9be69"}
+  ],
+  "inspection": {
+    "content_order": "PASS",
+    "line_and_page_breaks": "PASS",
+    "margins_and_page_fill": "PASS",
+    "tables": "PASS",
+    "localized_figures_and_labels": "PASS",
+    "mathematics": "PASS",
+    "footnotes": "PASS",
+    "headers_and_page_numbers": "PASS",
+    "glyph_legibility": "PASS",
+    "clipping": "NONE",
+    "overlap": "NONE",
+    "unreadable_glyphs": "NONE",
+    "blank_or_effectively_blank_pages_in_boundary_window": 0,
+    "remaining_findings_by_severity": {"blocking": 0, "major": 0, "minor": 0}
+  },
+  "notes": [
+    "All 18 listed PNGs were inspected at original detail after the terminal deterministic rebuild.",
+    "Pages 127 and 128 form a balanced two-page EoCE spread; neither page contains isolated content or a material underfill defect.",
+    "English content beginning at Section 3.5 and after answer 3.39 is the declared inherited source witness beyond B012, not translated coverage.",
+    "No restricted instructor solutions were accessed or invented; even exercises 30, 32, 34, and 36 remain explicit O001 mastery-companion gaps."
+  ],
+  "canonical_mutation": false,
+  "admission_authorized": true,
+  "next_gate": "Bind this receipt into the terminal backend append, validate it twice in isolation, then perform guarded admission and public-byte preservation."
+}

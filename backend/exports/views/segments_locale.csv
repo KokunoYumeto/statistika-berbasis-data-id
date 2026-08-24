@@ -40,6 +40,11 @@ Peluang Anda untuk tidak terpilih sedikit lebih besar dibandingkan ketika dosen 
 \end{nexample}
 \end{examplewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+04aafa45-424f-589d-8238-84708173800c,a7dbebca-d475-5f78-aa32-5a701b11f749,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,555,559,4b832ea13f7b39e00c39ba23a5b3c9f32b781d6018cf049ee47577bfb5e04658,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,604,608,a669ad1675959783f52e2ed78a4efd579d292c01e307e50d47ba66c4e122d1c1,language_reviewed,"% 31
+
+\eocesol{(a)~E(X) = 3.59. SD(X) = 9.64.
+(b)~E(X) = -1.41. SD(X) = 9.64.
+(c)~Tidak, laba bersih yang diharapkan bernilai negatif, sehingga secara rata-rata Anda diperkirakan akan kehilangan uang.}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 04c71223-707a-5b63-8f52-1590ce3abcae,ea975387-3208-52a7-bab8-012230362971,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,302,310,4fa1027109440ccf0b13022151050ddfb18cf07920777d28fa3401f0588502bc,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,323,331,613497112971466d1f4a9c0f508b5316db8d937e9e296f37389e3979d948c692,translated,"% 17
 
 \eocesol{(a)~Median merupakan ukuran yang jauh lebih baik untuk pendapatan tipikal 42 orang 
@@ -112,6 +117,41 @@ Misalkan 5 orang dipilih secara acak.\footnotemark\vspace{-1.5mm}
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+05d134f9-69b4-5902-bd9c-e894cb2e81ba,fec2b6d6-1e71-5b55-a3b1-b5f3d643f53f,1,end-of-section-exercise,en,ch_probability/TeX/random_variables.tex,3,15,a79c60959341183664beef0d0e1659606a82ae996580dfc8f02c494607c5dbf6,id-ID,repo/ch_probability/TeX/random_variables.tex,3,15,3909d4c4f74827ffcc696803ed21349eb32994c8cc2db4a57a1b916fa3aeb84b,language_reviewed,"% 29
+
+\eoce{\qt{Mahasiswa perokok\label{college_smokers}} Di sebuah universitas, 13\% 
+mahasiswanya merokok.
+\begin{parts}
+\item Hitung jumlah perokok yang diharapkan dalam sampel acak 100 mahasiswa 
+dari universitas ini.
+\item Pusat kebugaran universitas buka pada pukul 9 pagi setiap hari Sabtu. Pada suatu Sabtu pagi, 
+pukul 8:55 terdapat 27 mahasiswa di luar pusat kebugaran yang menunggu tempat itu dibuka. Apakah 
+Anda sebaiknya menggunakan pendekatan yang sama seperti pada bagian (a) untuk menghitung jumlah 
+perokok yang diharapkan di antara 27 mahasiswa ini?
+\end{parts}
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+06a67101-1829-5614-b7a4-c062ab72f8c5,a2b2dedf-f76c-5954-8618-f2d50e9565dd,30,worked_example,en,ch_probability/TeX/ch_probability.tex,2149,2162,0f8c329adb67a89321b2c7052a8b70aa2777af767518e73baf2b8a9a93b1b8cb,id-ID,repo/ch_probability/TeX/ch_probability.tex,2138,2151,b6b352e71f60eb929e5594d78a2c5e00dff02dc8df6fc67df8b06870440edbd3,language_reviewed,"\begin{examplewrap}
+\begin{nexample}{Misalkan waktu perjalanan harian John memiliki simpangan baku 4 menit. Berapakah ketidakpastian total waktu perjalanannya selama seminggu?} \label{sdOfJohnsCommuteWeeklyTime}
+Ekspresi untuk waktu perjalanan John adalah
+\begin{align*}
+X_1 + X_2 + X_3 + X_4 + X_5
+\end{align*}
+Setiap koefisien bernilai 1, dan varians waktu perjalanan setiap hari adalah $4^2=16$. Jadi, varians total waktu perjalanan mingguan adalah
+\begin{align*}
+&\text{varians }= 1^2 \times  16 + 1^2 \times  16 + 1^2 \times  16 + 1^2 \times  16 + 1^2 \times  16 = 5\times 16 = 80 \\
+&\text{simpangan baku } = \sqrt{\text{varians}} = \sqrt{80} = 8.94
+\end{align*}
+Simpangan baku waktu perjalanan mingguan John ke tempat kerja adalah sekitar 9 menit.
+\end{nexample}
+\end{examplewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+073a3359-41de-56e6-a662-d3f753cb3166,7d606a5f-8ba7-518f-8651-397ed719dd34,16,guided_exercise,en,ch_probability/TeX/ch_probability.tex,1950,1955,287309cefadc967d36d87d57932cc06650ed4c13ae203869bf59bb022e05024a,id-ID,repo/ch_probability/TeX/ch_probability.tex,1939,1944,97fd0d93f6dff3dad4831c20e273179bd839af840bf8389750eb5df62d2b5e33,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+\label{elenaIsSellingATVAndBuyingAToasterOvenAtAnAuction}%
+Elena menjual sebuah TV dalam lelang tunai dan juga bermaksud membeli oven pemanggang dalam lelang tersebut. Jika $X$ menyatakan keuntungan dari penjualan TV dan $Y$ menyatakan biaya oven pemanggang, tuliskan persamaan yang menyatakan perubahan bersih uang tunai Elena.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 07a090fc-523e-58d4-8928-e100dec4eba3,dc9cb209-acef-58d0-93ae-2148de066e54,1,guided_exercise,en,ch_probability/TeX/ch_probability.tex,184,188,6022733a3c648ccc0745469d36352d933eee1f703162cab8ea4e7e4895e04fc2,id-ID,repo/ch_probability/TeX/ch_probability.tex,184,188,50540930bb6ee87e36af23347f3498346cb3cd5d673088e668b26dcd7461a5a2,language_reviewed,"\begin{exercisewrap}
 \begin{nexercise}
 Kita tertarik pada probabilitas memperoleh \resp{1}, \resp{4}, atau \resp{5}. (a) Jelaskan mengapa hasil \resp{1}, \resp{4}, dan \resp{5} saling lepas. (b) Terapkan Aturan Penjumlahan untuk hasil yang saling lepas guna menentukan $P($\resp{1} atau \resp{4} atau \resp{5}$)$.\footnotemark
@@ -137,6 +177,16 @@ temuannya dapat digunakan untuk menetapkan hubungan kausal.
 }{}
 
 % 15
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+0a0e3e2d-7350-5e5e-931a-b17c1426a51b,c1f5b86e-dc64-5744-836f-8877d2e9b42d,13,worked_example,en,ch_probability/TeX/ch_probability.tex,1926,1934,cffebe7b498427aa5ff321db51607a6997ccd6e9b01281ce1eb14538f19c30d3,id-ID,repo/ch_probability/TeX/ch_probability.tex,1915,1923,621c3e007a431f842df1578522c7b819d0cfaa70f21b70aa4c268292f31d42cc,language_reviewed,"\begin{examplewrap}
+\begin{nexample}{John pergi ke tempat kerja lima hari dalam seminggu. Kita akan menggunakan $X_1$ untuk menyatakan waktu perjalanannya pada hari Senin, $X_2$ untuk menyatakan waktu perjalanannya pada hari Selasa, dan seterusnya. Tuliskan persamaan menggunakan $X_1$, ..., $X_5$ yang menyatakan waktu perjalanannya selama seminggu, yang dilambangkan dengan $W$.}
+Total waktu perjalanan mingguannya adalah jumlah kelima nilai harian:
+\begin{align*}
+W = X_1 + X_2 + X_3 + X_4 + X_5
+\end{align*}
+Menguraikan waktu perjalanan mingguan $W$ menjadi beberapa bagian menyediakan kerangka untuk memahami setiap sumber keacakan dan berguna dalam memodelkan $W$.
+\end{nexample}
+\end{examplewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 0aa5cebc-ffc1-53f1-a4e2-2ba726586d43,4a0f5bef-95db-5c6c-ae94-097778cff15d,1,section_lead,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,1323,1343,39b27f56c2ea3398b10509567a63c9530f74461b2a62c627a4a15201e9b6aff3,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,1268,1288,9f71699f18403f88d21e92cad455530ef3637c45d5bb1ecf18ae2c6ff5df560f,translated,"\section{Menelaah data kategoris}
 \label{categoricalData}
@@ -201,6 +251,9 @@ Jelaskan alasan Anda.
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+0ec7481b-6304-5a22-b6b7-271558349ba1,f2061e42-468f-5214-9156-882597a64221,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,561,563,fbd4606e0302031be5089faf57979905595e712f75ed34f0ba85c8c70520c6e8,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,610,612,222289f5663607df4ef1fbef84c152508af5070eb8c53831e20caedff3c9ea66,language_reviewed,"% 33
+
+\eocesol{Nilainya meningkat 5\%.}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 0fb45c54-df84-520c-bd5d-435388ba2460,9c3f7c19-0f6c-5060-9c70-d8585ba33850,1,exercise,en,ch_intro_to_data/TeX/experiments.tex,67,73,50699e262e202d360f16d6be85cb52942b4897cafa277638a15660cb984424cc,id-ID,repo/ch_intro_to_data/TeX/experiments.tex,67,73,e82bf8c6b977f3923ef9f25d11a77fb0aa4fea3011756b99676f57cbee26fde8,translated,"\eoce{\qt{Musik dan pembelajaran\label{music_learning}} Anda hendak melakukan eksperimen di 
 kelas untuk mengetahui apakah mahasiswa belajar lebih baik ketika belajar tanpa musik, 
 dengan musik tanpa lirik (instrumental), atau dengan musik berlirik. Uraikan secara 
@@ -244,6 +297,10 @@ dapat ditarik dari studi ini?
 \end{parts}
 }{}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""33ab015a-b878-52bd-af46-2f824ee486c4""]"
+10137e34-6e2d-5086-94d3-04a0ccd8f516,72db07fc-c9f5-5dd6-8b42-53729c34751f,26,guided_inline_answer,en,ch_probability/TeX/ch_probability.tex,2034,2036,264504aebaa8d2e7a4d5ab10dd0cc33fbf9c36ccb51f96f5d48c052503ff7a5b,id-ID,repo/ch_probability/TeX/ch_probability.tex,2023,2025,264504aebaa8d2e7a4d5ab10dd0cc33fbf9c36ccb51f96f5d48c052503ff7a5b,language_reviewed,"\footnotetext{%
+  $E(\$6000\times X + \$2000\times Y) =
+    \$6000\times 0.020 + \$2000\times 0.002 = \$124$.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 108c3bbe-0121-548f-96a5-cf57a07f3b4d,ddef022a-a3f0-5688-8a76-0b52859c00ba,1,end-of-section-exercise,en,ch_probability/TeX/defining_probability.tex,3,15,750b07eba103971068841389388643dc917fa1476ab47a60afb09f23190ccec3,id-ID,repo/ch_probability/TeX/defining_probability.tex,3,15,a485553a94a4c997c38a2ef88dab135e56772629a4261ea71397676c15884627,language_reviewed,"% 1
 
 \eoce{\qt{Benar atau salah\label{tf_prob_definitions}} Tentukan apakah pernyataan berikut
@@ -334,6 +391,8 @@ Jumlah				& 46		& 405	&&	73	& 378 \\
 % R011-B005 D023: jeda halaman paksa sebelum statistik robust ditiadakan.
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+13cc1cba-a4cb-5195-8a18-1e081753e1f3,b3e99a20-b89a-57f1-bde3-b30db27daa44,17,guided_inline_answer,en,ch_probability/TeX/ch_probability.tex,1956,1956,e577d7b7b7ff12a2763b124beba4a1baf769606256c9483993eff9827cb023bf,id-ID,repo/ch_probability/TeX/ch_probability.tex,1945,1945,750e5ae0c4df92a59b661b0d57dce7c565875e3534e0da005cbdbba4c4432e44,language_reviewed,"\footnotetext{Elena akan memperoleh $X$ dolar dari TV, tetapi membelanjakan $Y$ dolar untuk oven pemanggang: $X-Y$.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 15c3c5bd-4d06-505d-9202-226ab8978bdc,e55b8aa8-632e-54f9-a1ea-667b2cafe96c,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,419,423,3100042341ee5310b369db161ccbcb4658fee1524cf255ca9d28a366450cd79e,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,7,10,83ddd11421344a8d59a56df3e21c2e3f287690ee75c3364a7c3240fb7afabc90,language_reviewed,"% 1
 \eocesol{(a)~Salah. Ini adalah percobaan independen.
 (b)~Salah. Ada kartu bergambar berwarna merah.
@@ -388,6 +447,99 @@ di kalangan anjing maupun kucing.
 
 % 36
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""bad63bfb-9cf6-5f60-bbe6-9e93ae431ce0"",""67382a1e-7768-5d98-9912-2c3a848ce7a1""]"
+175c0a01-f8d8-573a-acf1-5eab7c444073,a485ca16-e7af-5fc9-a661-2481b3a87b29,8,section_prose,en,ch_probability/TeX/ch_probability.tex,1770,1861,2e7567dd5bc0aba47fa2b909db4c2941fc2853dc88501af802101e09ee1f8a62,id-ID,repo/ch_probability/TeX/ch_probability.tex,1759,1850,a1690117e9fb6bf78b6651b44b386954a5cf5ded6c4964767dd3fedf440b28e8,language_reviewed,"
+\subsection{Nilai harapan}
+
+\index{expectation|(}
+
+Variabel atau proses dengan hasil numerik disebut \term{variabel acak}, dan variabel acak ini biasanya dilambangkan dengan huruf kapital seperti $X$, $Y$, atau $Z$. Jumlah uang yang dibelanjakan seorang mahasiswa untuk buku-buku statistikanya merupakan variabel acak, dan kita melambangkannya dengan $X$.
+
+\begin{onebox}{Variabel acak}
+Proses acak atau variabel yang memiliki hasil numerik.
+\end{onebox}
+
+Hasil-hasil yang mungkin dari $X$ diberi label dengan huruf kecil $x$ dan subskrip yang bersesuaian. Sebagai contoh, kita menulis $x_1=\$0$, $x_2=\$137$, dan $x_3=\$170$, yang masing-masing terjadi dengan peluang $0.20$, $0.55$, dan $0.25$. Distribusi $X$ diringkas pada Gambar~\ref{bookCostDist} dan Gambar~\ref{statSpendDist}.
+
+\begin{figure}[h]
+\centering
+\begin{tabular}{l ccc r}
+\hline
+$i$	  & 1 & 2 & 3  & Total\\
+\hline
+$x_i$ & \$0 & \$137 & \$170 & --\\
+$P(X=x_i)$ & 0.20 & 0.55 & 0.25 & 1.00 \\
+\hline
+\end{tabular}
+\caption{Distribusi peluang variabel acak $X$, yang menyatakan pendapatan toko buku dari satu mahasiswa.}
+\label{statSpendDist}
+\end{figure}
+
+Kita menghitung hasil rata-rata $X$ sebesar \$117.85 dalam Contoh~\ref{revFromStudent}.
+Rata-rata ini disebut \term{nilai harapan} $X$, yang dilambangkan dengan $E(X)$\index{EX@$E(X)$}.
+Nilai harapan suatu variabel acak dihitung dengan menjumlahkan setiap hasil yang dibobotkan menurut peluangnya:
+\begin{align*}
+E(X) &= 0 \times  P(X=0) + 137 \times  P(X=137) + 170 \times  P(X=170) \\
+	&= 0 \times  0.20 + 137 \times  0.55 + 170 \times  0.25 = 117.85
+\end{align*}
+
+\begin{onebox}{Nilai harapan variabel acak diskret}
+Jika $X$ memiliki hasil $x_1$, ..., $x_k$ dengan peluang $P(X=x_1)$, ..., $P(X=x_k)$, nilai harapan $X$ adalah jumlah setiap hasil yang dikalikan dengan peluang yang bersesuaian:
+\begin{align*}
+E(X)
+  &= x_1 \times P(X = x_1) + \cdots + x_k\times P(X = x_k) \\
+  &= \sum_{i = 1}^{k} x_i P(X = x_i)
+\end{align*}
+Huruf Yunani $\mu$\index{Greek!mu@mu ($\mu$)}
+dapat digunakan sebagai pengganti notasi $E(X)$.
+\end{onebox}
+
+% Tata letak: pemisah halaman paksa yang usang dihapus.
+
+Nilai harapan suatu variabel acak menyatakan hasil rata-rata. Sebagai contoh, $E(X)=117.85$ menyatakan jumlah rata-rata yang diperkirakan akan diperoleh toko buku dari satu mahasiswa, yang juga dapat kita tulis sebagai $\mu=117.85$.
+
+Nilai harapan variabel acak kontinu juga dapat dihitung (lihat Bagian~\ref{contDist}). Namun, perhitungannya memerlukan sedikit kalkulus dan kita menundanya untuk mata kuliah lanjutan.\footnote{$\mu = \int xf(x)dx$ dengan $f(x)$ menyatakan fungsi bagi kurva kepadatan.}
+
+Dalam fisika, nilai harapan memiliki makna yang sama dengan pusat gravitasi. Distribusi dapat direpresentasikan oleh serangkaian beban pada setiap hasil, dan rata-rata menyatakan titik keseimbangan. Hal ini ditampilkan pada Gambar~\ref{bookCostDist} dan~\ref{bookWts}. Gagasan pusat gravitasi juga berlaku untuk distribusi peluang kontinu. Gambar~\ref{contBalance} menunjukkan distribusi peluang kontinu yang seimbang di atas penyangga yang ditempatkan pada rata-rata.
+
+\begin{figure}
+\centering
+\Figure[Sebuah batang digantung dengan tali, dan tiga beban tergantung pada tiga posisi berbeda di sepanjang batang. Beban-beban tersebut berada pada posisi 0, 137, dan 170 dengan bobot yang sebanding dengan peluang 0.2, 0.55, dan 0.25. Beban-beban itu seimbang karena tali yang menopang batang terletak pada rata-rata distribusi, yaitu 117.85.]{0.72}{bookWts}
+\caption{Sistem beban yang merepresentasikan distribusi peluang $X$. Tali menahan distribusi pada rata-ratanya agar sistem tetap seimbang.}
+\label{bookWts}
+\end{figure}
+
+\begin{figure}
+\centering
+\Figure[Ditampilkan sebuah distribusi yang miring ke kanan, serupa dengan tampilan histogram jika bin-binnya sangat kecil sehingga menyatu dan tampak kontinu. Distribusi ini seimbang di atas sebuah segitiga yang terletak pada rata-rata distribusi.]{0.68}{contBalance}
+\caption{Distribusi kontinu juga dapat diseimbangkan pada rata-ratanya.}
+\label{contBalance}
+\end{figure}
+
+\index{expectation|)}
+
+
+\D{\newpage}
+
+\subsection{Variabilitas dalam variabel acak}
+
+Misalkan Anda mengelola toko buku universitas. Selain besarnya pendapatan yang diperkirakan akan diperoleh, Anda mungkin juga ingin mengetahui volatilitas (variabilitas) pendapatan tersebut. 
+
+\indexthis{Varians}{variance} dan \indexthis{simpangan baku}{standard deviation} dapat digunakan untuk mendeskripsikan variabilitas suatu variabel acak. Bagian~\ref{variability}
+memperkenalkan metode untuk menentukan varians dan simpangan baku suatu kumpulan data. Pertama, kita menghitung simpangan dari rata-rata ($x_i - \mu$), menguadratkan simpangan tersebut, lalu mengambil rata-ratanya untuk memperoleh varians. Untuk variabel acak, kita kembali menghitung kuadrat simpangan. Namun, kita menjumlahkannya dengan pembobotan berdasarkan peluang yang bersesuaian, seperti yang kita lakukan untuk nilai harapan. Jumlah kuadrat simpangan berbobot ini sama dengan varians, dan kita menghitung simpangan baku dengan mengambil akar kuadrat varians, seperti yang dilakukan pada Bagian~\ref{variability}.
+
+\begin{onebox}{Rumus umum varians}
+Jika $X$ memiliki hasil $x_1$, ..., $x_k$ dengan peluang $P(X=x_1)$, ..., $P(X=x_k)$ dan nilai harapan $\mu=E(X)$, varians $X$, yang dilambangkan dengan $Var(X)$ atau simbol $\sigma^2$, adalah
+\begin{align*}
+\sigma^2 &= (x_1-\mu)^2\times P(X=x_1) + \cdots \\
+	& \qquad\quad\cdots+ (x_k-\mu)^2\times P(X=x_k) \\
+	&= \sum_{j=1}^{k} (x_j - \mu)^2 P(X=x_j)
+\end{align*}
+Simpangan baku $X$, yang dilambangkan dengan
+$\sigma$\index{Greek!sigma@sigma ($\sigma$)},
+adalah akar kuadrat dari varians.
+\end{onebox}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 179fea7c-2d45-535c-be68-7124e4ab33a1,7fd8dc8e-619e-5d32-a046-da020e549122,1,exercise,en,ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,204,212,b8a090cde6bac3960b07497a190d4d4cd519f717f514a1b69f0029304539f0da,id-ID,repo/ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,200,208,bcd72b65db99960b3ddb7a0a101c5c498884af6bb205d9d7bfd71bb0341a1464,translated,"\eoce{\qt{Pemanggilan digit acak\label{random_digit_dialing}} Gallup Poll 
 menggunakan prosedur yang disebut pemanggilan digit acak. Prosedur ini membuat 
 nomor telepon berdasarkan daftar seluruh kode area di Amerika Serikat serta 
@@ -1334,6 +1486,12 @@ akan berkaitan, sehingga kinerja kuliah juga mungkin berkaitan.
 (c)~Tidak. Lihat jawaban bagian~(a) ketika mata kuliah tidak dinilai berdasarkan kurva.
 Secara umum, jika dua hal tidak berkaitan (independen), terjadinya salah satu tidak menghalangi
 terjadinya yang lain.}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+2b4d83e5-1016-5f21-9760-b50e1fafa4e8,4e433fc3-72d5-5511-b8fa-f671182f898f,18,guided_exercise,en,ch_probability/TeX/ch_probability.tex,1958,1962,468c6fe3bfb7205d4f9fa2b37a20aa684e983d60960fb0dd05953dba081caecc,id-ID,repo/ch_probability/TeX/ch_probability.tex,1947,1951,02de86211181ee5920323bf9914d7fe422083b90764989d36d5acc292c24065c,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+Berdasarkan lelang sebelumnya, Elena memperkirakan akan memperoleh sekitar \$175 dari TV dan membayar sekitar \$23 untuk oven pemanggang. Secara keseluruhan, berapa banyak uang yang diperkirakan akan ia peroleh atau belanjakan?\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 2c246af4-fd01-55a7-8d00-04a7d0b906fc,57d11337-8399-5156-84a2-79beb091af68,33,public-appendix-answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,400,402,23d364a7d3ba28561cc70ec1aedf80bfe1e2bf66af9bca4379226979e63808b1,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,426,431,a4b72360b2dc9b1eaeba7e102c2178d0a754fde2bd51193bf33b9f7db248505d,language_reviewed,"% 33
 
 \eocesol{\FigureFullPath[Ditampilkan diagram kotak untuk ""Nilai"" dengan kotak
@@ -1358,6 +1516,8 @@ orang lain yang tingkat pendidikannya sebanding. Apakah asumsi kedua pada bagian
 silakan Anda pertimbangkan.}
 
 \end{multicols}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+2e86549f-fc85-5fcd-a6c3-fe51fb6c5a1b,a485ca16-e7af-5fc9-a661-2481b3a87b29,25,section_prose,en,ch_probability/TeX/ch_probability.tex,2033,2033,eb9d32c6b5b46e7bca0e39ab1f03cb2afaff541032c813e63e314860a6a5c01a,id-ID,repo/ch_probability/TeX/ch_probability.tex,2022,2022,eb9d32c6b5b46e7bca0e39ab1f03cb2afaff541032c813e63e314860a6a5c01a,language_reviewed,"% library(openintro); d <- stocks_18; cols <- 2:4; apply(d[, cols], 2, mean); apply(d[, cols], 2, sd)
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 2ec2c0ba-2564-5d63-ba5f-4d82e40293cd,b4950b8d-fc43-509b-ae57-5e5466047f82,12,guided_exercise,en,ch_probability/TeX/ch_probability.tex,1174,1178,2cdf36f5309b8f00bd159de9dc361c27e0a410f71858afe70fccba45dedc2926,id-ID,repo/ch_probability/TeX/ch_probability.tex,1173,1177,a5051d4f9dbe81d5f335579f3bf0f622bb0317f2085fddaadeab8077d7197964,language_reviewed,"\begin{exercisewrap}
 \begin{nexercise} \label{probDiedIfNotInoculated}
 Tuliskan, dalam notasi formal, peluang bahwa seseorang yang dipilih secara acak dan tidak diinokulasi meninggal akibat cacar, lalu hitung \mbox{peluang tersebut.}\footnotemark
@@ -1423,6 +1583,10 @@ ke rata-rata, 0.50, dan karena itu juga di atas 0.40.
 (c)~100 lemparan. Dengan lebih banyak lemparan, proporsi kepala yang diamati sering lebih dekat
 ke rata-rata, 0.50.
 (d)~10 lemparan. Lebih sedikit lemparan meningkatkan variasi fraksi lemparan yang menghasilkan kepala.}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+32a56f0f-633b-5f66-82dd-1d64aebffdf1,20dba04a-3ff6-52ab-8bac-f6a3d84f677e,28,guided_inline_answer,en,ch_probability/TeX/ch_probability.tex,2046,2048,144afdbd0625b54b1f1a15a4f372a866c6871cadee438319e6559cbd64e2c46d,id-ID,repo/ch_probability/TeX/ch_probability.tex,2035,2037,0ba57d5d593bbf41663cc99560ea6d549185734a5090015aa289b7cecf8472b6,language_reviewed,"\footnotetext{Tidak.
+  Walaupun saham cenderung naik dari waktu ke waktu, nilainya sering
+  bergejolak dalam jangka pendek.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 3311d7cc-e15c-5dc7-9ada-04850668a968,fc0c0c57-060f-5b6e-a442-f74566a01ce8,1,end-of-section-exercise,en,ch_probability/TeX/sampling_from_a_small_population.tex,49,78,7f2ec37e92bcd9c9ddcd4c81057d3c1e3da901b87b4246f591d7ba772bfafd06,id-ID,repo/ch_probability/TeX/sampling_from_a_small_population.tex,49,78,4d858c071b2740067fe331302abab19982c625c884b37c7f291b07ac0e5c8e44,language_reviewed,"% 26
 
 \eoce{\qt{Buku di rak buku\label{books_on_shelf}} Tabel di bawah ini menunjukkan 
@@ -1488,6 +1652,16 @@ yang tidak biasa, jika ada.
 Berapakah $n$ dalam sampel pinjaman
 ini?\footnotemark{}
 \end{nexercise}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+36dd87da-3393-58d0-92a4-bc30fff571d6,ddf6486c-36cf-5b4d-8978-667c8e4f60da,33,guided_exercise,en,ch_probability/TeX/ch_probability.tex,2171,2175,42d3da74ff0eb4c6557922428afacfd9185511a3d18851e18f579e100d472e2b,id-ID,repo/ch_probability/TeX/ch_probability.tex,2160,2164,3b27f1de1429d85fd3eb25a24cdb5cbe6a939a1dfd3771d22a3e25a0a19929e5,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}\label{elenaIsSellingATVAndBuyingAToasterOvenAtAnAuctionVariability}
+Pertimbangkan kembali dua lelang Elena dari Latihan Terbimbing~\ref{elenaIsSellingATVAndBuyingAToasterOvenAtAnAuction} pada halaman~\pageref{elenaIsSellingATVAndBuyingAToasterOvenAtAnAuction}. Misalkan kedua lelang ini kira-kira saling independen dan variabilitas harga lelang TV serta oven pemanggang dapat dideskripsikan menggunakan simpangan baku \$25 dan \$8. Hitung simpangan baku keuntungan bersih Elena.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+37ac6144-579d-537d-8182-abaadc755a16,a485ca16-e7af-5fc9-a661-2481b3a87b29,14,section_prose,en,ch_probability/TeX/ch_probability.tex,1935,1937,1986b718c382e5072f7ab9569e16b9e786aba0e9cd00038fb010228a6878eb05,id-ID,repo/ch_probability/TeX/ch_probability.tex,1924,1926,1986b718c382e5072f7ab9569e16b9e786aba0e9cd00038fb010228a6878eb05,language_reviewed,"
+\D{\newpage}
+
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 3994e449-3e1a-5603-a654-c900d15f9bc2,55052df6-d488-53ed-8f4c-e0bb4a894836,4,subsection_prose,en,ch_probability/TeX/ch_probability.tex,530,531,bec57d070f03f2b9335906f25615bcf7f5e061e80f45029c97c3d82249ad849b,id-ID,repo/ch_probability/TeX/ch_probability.tex,528,529,4cb38ea57de617dc897a70e916a4c023351b349e60fc66bf1c6fe781525c99c3,language_reviewed,"\footnotetext{(a)~Komplemen $A$: jumlahnya sama dengan \resp{12}. (b)~$P(A^c) = 1/36$. (c)~Gunakan probabilitas komplemen dari bagian (b), $P(A^c) = 1/36$, dan persamaan komplemen: $P($kurang dari \resp{12}$) = 1 - P($\resp{12}$) = 1 - 1/36 = 35/36$.}
 
@@ -2572,6 +2746,18 @@ untuk nilai baru: $(24\times 74 + 1\times64)/(24+1) = 73.6$.
 sehingga simpangan bakunya meningkat.}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+496a5b38-c1dd-5b4b-9727-2671c56282f1,be52aff2-82ec-57e8-9248-7d5838b5503a,10,guided_exercise,en,ch_probability/TeX/ch_probability.tex,1895,1905,24ae20db1a3eeb3494fbcde46779941b87d4686c3ee815810052ebee366d52e7,id-ID,repo/ch_probability/TeX/ch_probability.tex,1884,1894,41ef6fb6fed0b0d059a975d95f4c35665cfa6c4fc65a2fafffac1e5c303ebc8a,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+Toko buku tersebut juga menawarkan buku teks kimia seharga \$159 dan buku pendamping seharga \$41. Berdasarkan pengalaman sebelumnya, mereka mengetahui bahwa sekitar 25\% mahasiswa kimia hanya membeli buku teks, sedangkan 60\% membeli buku teks beserta buku pendamping.\footnotemark
+\begin{enumerate}
+\item[(a)] Berapa proporsi mahasiswa yang tidak membeli satu pun dari kedua buku tersebut? Anggap tidak ada mahasiswa yang membeli buku pendamping tanpa buku teks.
+\item[(b)] Misalkan $Y$ menyatakan pendapatan dari satu mahasiswa. Tuliskan distribusi peluang $Y$, yaitu tabel yang memuat setiap hasil beserta peluangnya.
+\item[(c)] Hitung pendapatan yang diharapkan dari satu mahasiswa kimia. 
+\item[(d)] Tentukan simpangan baku untuk mendeskripsikan variabilitas pendapatan dari satu mahasiswa.
+\end{enumerate}
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 4a461cc5-57b3-5771-9b88-c4b7f9e26915,c9faaa37-1ac5-54ae-b62f-1556d2b63374,4,prose,en,ch_intro_to_data/TeX/ch_intro_to_data.tex,107,123,101802fff512c8aa3ffe47804085e1e61701558d932312be1b3ef8d525065932,id-ID,repo/ch_intro_to_data/TeX/ch_intro_to_data.tex,107,123,63427073430c4abc39777dd9af721cd2bb2ce3608461ff0e6e14ab485a675a22,translated,"Kita dapat menghitung statistik ringkasan dari tabel tersebut.
 Sebuah \term{statistik ringkasan}%
 \index{statistik|seealso{statistik ringkasan}}
@@ -2954,6 +3140,8 @@ yang menunjukkan proporsi pengamatan pada setiap kategori
     (b)~Dengan cara serupa, $P(B) = 1/3$.}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+53fd5705-3052-521f-8aa5-1e05d2260c71,6b8ea891-98b7-5c7a-bb1d-20ae11681a38,32,guided_inline_answer,en,ch_probability/TeX/ch_probability.tex,2169,2169,3e075d8ba0f6d8e570a1baa44f4add11755d2f5193f024510081c38a2f2f8c25,id-ID,repo/ch_probability/TeX/ch_probability.tex,2158,2158,1ce608663cd347f48234c55c60fa9a2faf512252cf42c3d1898a00ace256d29e,language_reviewed,"\footnotetext{Salah satu hal yang perlu dipertimbangkan adalah apakah pola lalu lintas cenderung memiliki siklus mingguan (misalnya, hari Jumat mungkin lebih buruk daripada hari lainnya). Jika demikian dan John berkendara, asumsi tersebut mungkin tidak masuk akal. Namun, jika John berjalan kaki ke tempat kerja, waktu perjalanannya mungkin tidak dipengaruhi oleh siklus lalu lintas mingguan.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 555a43b1-d357-5015-a292-6fd46707f6b6,fc0caa09-fb91-51a2-9411-8f34e4651d62,4,subsection_prose,en,ch_probability/TeX/ch_probability.tex,362,373,252aaf1271da898398e74b240649c7077cf8276663a94a377cfd876ffbc0fc6f,id-ID,repo/ch_probability/TeX/ch_probability.tex,362,373,d543976e3aeed9216c45a7c8f189fa343d74be74cb814ea4f835598b83043cc0,language_reviewed,"\footnotetext{%
   \begin{minipage}[t]{0.65\textwidth}
   Baik jumlah maupun {\color{oiB}probabilitas} yang bersesuaian
@@ -2966,6 +3154,31 @@ yang menunjukkan proporsi pengamatan pada setiap kategori
   \hfill\Figure[Diagram Venn dengan dua lingkaran ditampilkan. Lingkaran pertama berlabel “pemohon memiliki hipotek” dan lingkaran kedua berlabel “permohonan bersama”; kedua lingkaran sebagian beririsan. Pada lingkaran pertama, bagian yang tidak beririsan menunjukkan jumlah 3839 dan proporsi 0,384. Bagian lingkaran permohonan bersama yang tidak beririsan berlabel 545 dengan proporsi 0,055. Bagian irisan berlabel jumlah 950 dan proporsi 0,095. Di luar kedua lingkaran dicatat bahwa “pinjaman lain” berjumlah 10.000 dikurangi 3.839, 950, dan 545, yaitu 4666 dengan proporsi 0,467.]{}{loans_app_type_home_venn} \vspace{-13mm}
   \end{minipage}}
 
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+5623583c-258f-50a2-af9a-aeed766142b9,f737466c-6fe9-55d9-b2b4-09ec9a1f5afe,19,guided_inline_answer,en,ch_probability/TeX/ch_probability.tex,1963,1963,eb1d4220aaccb269df96b3ff9bcad73b3fe15744134eaa066ef9aaa44d2624bc,id-ID,repo/ch_probability/TeX/ch_probability.tex,1952,1952,c7b52e1c4b101bd17c62cbdde7e0da26af87966509c5d4c225ba1dd1ff925438,language_reviewed,"\footnotetext{$E(X-Y) = E(X) - E(Y) = 175 - 23 = \$152$. Elena diperkirakan akan memperoleh sekitar \$152.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+563fa6b8-edde-5b8d-9b60-984c6a23797a,3c6361cd-2b66-5dcf-9ae1-6f9525f9dce4,23,worked_example,en,ch_probability/TeX/ch_probability.tex,2002,2023,2ba6e992320c756789d2dac2d4ab1278c873573a02d32e04300b3e56836f896f,id-ID,repo/ch_probability/TeX/ch_probability.tex,1991,2012,337ba636373e46c63beb6f30b5ba6364fe8cfc046f853ba239df8b0c5055aa2d,language_reviewed,"\begin{examplewrap}
+\begin{nexample}{Leonard telah menginvestasikan \$6000 di Caterpillar Inc
+    (kode saham: CAT) dan \$2000 di Exxon Mobil Corp (XOM).
+    Jika $X$ menyatakan perubahan saham Caterpillar pada bulan depan
+    dan $Y$ menyatakan perubahan saham Exxon Mobil
+    pada bulan depan, tuliskan persamaan yang mendeskripsikan berapa banyak
+    uang yang akan diperoleh atau hilang dari saham Leonard selama
+    bulan tersebut.}
+  Untuk menyederhanakan, kita menganggap $X$ dan $Y$ tidak dinyatakan
+  dalam persen, melainkan dalam bentuk desimal
+  (misalnya, jika saham Caterpillar naik 1\%, maka $X=0.01$;
+  atau jika turun 1\%, maka $X=-0.01$).
+  Dengan demikian, kita dapat menuliskan persamaan keuntungan Leonard sebagai
+  \begin{align*}
+  \$6000\times X + \$2000\times Y
+  \end{align*}
+  Jika kita memasukkan perubahan nilai saham untuk $X$ dan $Y$,
+  persamaan ini memberikan perubahan nilai portofolio saham Leonard
+  selama bulan tersebut. Nilai positif menyatakan keuntungan,
+  sedangkan nilai negatif menyatakan kerugian.
+\end{nexample}
+\end{examplewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 56aeaa91-9f5a-54db-90e5-79aa540b0a5c,6fd54b2a-6a51-5f71-8a7b-fd2a10a6ab5d,1,exercise,en,ch_intro_to_data/TeX/review_exercises.tex,80,110,4f4a365b1c5a32b9996bab7009cef01bb98db0a0865b8958ca5d7125f39fd05f,id-ID,repo/ch_intro_to_data/TeX/review_exercises.tex,81,107,3a67030a18fe5a7f718ec468064419c499fd7b5b60972084cfe914d916d8d2ae,translated,"\eoce{\qt{Survei dewan kota\label{city_council_survey}}
 Sebuah dewan kota meminta agar survei rumah tangga dilakukan
@@ -4327,6 +4540,15 @@ bermata hijau yang dipilih secara acak memiliki pasangan bermata biru?
 Jelaskan penalaran Anda.
 \end{parts}
 }{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+71bd4cfb-7830-5c25-af1a-0e7f6198b65a,af685fb6-e44f-55f1-9419-ddd28f320c68,24,guided_exercise,en,ch_probability/TeX/ch_probability.tex,2025,2032,50ad4cea9138009e5f6da5d6373ae62d3ac18d50263db2c7cee0cb88741beb6c,id-ID,repo/ch_probability/TeX/ch_probability.tex,2014,2021,cbf264943f5a41e9615cf7382b3d310b90ba76c52ace1746684507e57fcb3530,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}\label{expectedChangeInLeonardsStockPortfolio}
+Saham Caterpillar akhir-akhir ini naik
+sebesar 2.0\% dan saham Exxon Mobil sebesar 0.2\% per bulan.
+Hitung perubahan yang diharapkan pada portofolio saham Leonard
+untuk bulan depan.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 71c93aff-e4aa-5666-834f-8588875a5c16,3317c057-e51f-5e98-a14d-08cb1d5ad72a,1,end-of-section-exercise,en,ch_probability/TeX/conditional_probability.tex,70,102,d57da6462bba9ea9525ed03b7f9b6fc1ae59b977764d4e41dec82e704dbbc065,id-ID,repo/ch_probability/TeX/conditional_probability.tex,71,102,e428b9f726c28011304f5f2882423efcc24bcf0076a2239f72bf2fa76f7a2a42,language_reviewed,"% 16
 
 \eoce{\qt{Jaminan kesehatan, frekuensi relatif\label{health_coverage_rel_freqs}}
@@ -4366,6 +4588,12 @@ teman pengguna Facebook? \footfullcite{Backstrom:2011}
 }{}
 
 % 15
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+71f401b5-837b-55bc-86b3-e175d23531db,45ed057d-0a5f-51c3-8bf6-3f3608131e69,2,worked_example,en,ch_probability/TeX/ch_probability.tex,1726,1730,cebfee9affa5f008d8edfc1d55936cc0436f8220ac0945a81aa86f9f5e292ec2,id-ID,repo/ch_probability/TeX/ch_probability.tex,1715,1719,cd9d75d39266ad1986462d4d1021687d9ed6da4b10aed2dd33cd24ae4daf5057,language_reviewed,"\begin{examplewrap}
+\begin{nexample}{Dua buku diwajibkan untuk sebuah kelas statistika: buku teks dan panduan belajar yang menyertainya. Toko buku universitas menemukan bahwa 20\% mahasiswa yang terdaftar tidak membeli satu pun dari kedua buku tersebut, 55\% hanya membeli buku teks, dan 25\% membeli keduanya; persentase ini relatif konstan dari satu semester ke semester berikutnya. Jika~ada 100 mahasiswa yang terdaftar, berapa banyak buku yang diperkirakan akan dijual toko buku tersebut kepada kelas ini?}\label{bookStoreSales}
+Sekitar 20 mahasiswa tidak akan membeli satu pun buku (total 0 buku), sekitar 55 mahasiswa akan membeli satu buku (total 55 buku), dan sekitar 25 mahasiswa akan membeli dua buku (total 50 buku untuk 25 mahasiswa ini). Toko buku tersebut diperkirakan akan menjual sekitar 105 buku kepada kelas ini.
+\end{nexample}
+\end{examplewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 72c2706b-4294-565c-9d43-fff51aef3f72,8953f299-909a-5500-9c5f-46b560e50081,2,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,775,818,a0839122ec9efc5011226dfc6c729ee6b09f8c60a4ff25325130385dddb6f160,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,750,787,536621a231d03b976a254286ee2c13911221f08070a7c2f913bae13756d44ed4,translated,"\end{exercisewrap}
 \footnotetext{Gambar~\ref{severalDiffDistWithSdOf1}
@@ -4504,6 +4732,13 @@ Jika kategoris, nyatakan apakah variabel tersebut ordinal.
 \end{parts}
 }{}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""a6059c8f-0284-5fbf-8de3-60a38a68ffb3""]"
+7593c8b7-78d6-5669-8a16-3e3e75e2ebfd,fed108b4-46d7-5413-91db-2b18f47fbb01,1,end-of-section-exercise,en,ch_probability/TeX/random_variables.tex,63,69,8afe2563d1915f36b3b927275c48316f3db615f827458ffd505b48965735e18a,id-ID,repo/ch_probability/TeX/random_variables.tex,65,71,e9096d2076a8781a2948a15ea3883e072151352677bd833500203b430db2ba31,language_reviewed,"% 33
+
+\eoce{\qt{Imbal hasil portofolio\label{portfolio_return}} Nilai suatu portofolio meningkat 
+sebesar 18\% selama ledakan ekonomi dan sebesar 9\% dalam kondisi normal. Nilainya turun 
+12\% selama resesi. Berapakah imbal hasil yang diharapkan dari portofolio ini jika setiap 
+skenario memiliki peluang yang sama?
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 7742e154-61ed-513f-a6d1-c48abc2ac62a,de51ce11-a679-5af1-bc9f-40f2b6673cf0,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,178,184,17ecb8b63c1efd8b7f8ff35dc91dbd28d7f11e5832d503b722fe4bf1789cb573,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,191,197,f13ca01150d310e1d724dd086773fa11a91a981ad67eba1215ceab345176600b,translated,"% 35
 
 \eocesol{(a)~Studi observasional.
@@ -4610,8 +4845,31 @@ Seandainya kita mengulangi Latihan Terbimbing~\ref{raffleOf30TicketsWWOReplaceme
 
 %_________________
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+7a9419d0-b631-51df-87ff-b3cad82b7621,f4e2f13b-d59e-5d4e-a7be-690e28ef9f2b,4,guided_inline_answer,en,ch_probability/TeX/ch_probability.tex,1737,1737,3c70d6225376093ba693f59906fc07232fca333582b9444a8740474dbe390690,id-ID,repo/ch_probability/TeX/ch_probability.tex,1726,1726,9b4a21dff605bbfc091be51aae3d7bf604e1561f37159608338e321bd69d1985,language_reviewed,"\footnotetext{Jika toko buku menjual sedikit lebih banyak atau sedikit lebih sedikit, hal ini seharusnya tidak mengejutkan. Semoga Bab~\ref{introductionToData} telah memperjelas bahwa data yang diamati memiliki variabilitas alami. Sebagai contoh, jika kita melempar koin 100 kali, sisi kepala biasanya tidak akan muncul tepat separuh dari seluruh lemparan, tetapi jumlahnya mungkin akan mendekati separuh.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 7b1ecc09-e625-5328-9987-8cda0ab14daf,fa211d70-60ff-56ba-aee4-b00a48d83ddf,14,guided_inline_answer,en,ch_probability/TeX/ch_probability.tex,1701,1701,87b33d5c4e1969d6a44fc34a25cb905cafbe600fe6e7a70abe53f96c726529ca,id-ID,repo/ch_probability/TeX/ch_probability.tex,1690,1690,7a43447c495741963e805d831017fb8c9ab4ccf90c30600bed0e2e0739eb2fe9,language_reviewed,"\footnotetext{Peluang memenangkan hadiah sekitar 10\% lebih besar jika pengambilan sampel dilakukan tanpa pengembalian. Namun, dengan prosedur pengambilan sampel ini, paling banyak hanya satu hadiah yang dapat dimenangkan.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+7ba09482-96b7-53d1-8e41-f46b74e44456,a485ca16-e7af-5fc9-a661-2481b3a87b29,6,section_prose,en,ch_probability/TeX/ch_probability.tex,1752,1764,6f31199fa2dd710ef406f1bc4ea1874c20b3d2fcfa7f7f6c3bb29857be4c6fa3,id-ID,repo/ch_probability/TeX/ch_probability.tex,1741,1753,1d05bfbdcbc3370978a7176ed844061e8623fb6e7d207b82309e101841a01f13,language_reviewed,"
+\begin{figure}[h]
+  \centering
+  \Figure[Sebuah distribusi peluang yang tampak menyerupai histogram. Sumbu horizontal berlabel “Biaya” dan membentang dari \$0 hingga \$170. Sumbu vertikal berlabel “Peluang”. Terdapat tiga batang: batang setinggi 0.2 pada \$0, batang setinggi 0.55 pada \$137, dan batang setinggi 0.25 pada \$170. Sebuah segitiga merah ditampilkan pada rata-rata, yaitu \$117.85.]{0.6}{bookCostDist}
+  \caption{Distribusi peluang pendapatan toko buku
+      dari satu mahasiswa.
+      Segitiga menunjukkan
+      pendapatan rata-rata per mahasiswa.}
+  \label{bookCostDist}
+\end{figure}
+
+\D{\newpage}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+7d28502a-5033-5c7f-a9fa-e6b30ec9d083,265b4bc6-ed59-56e2-81bb-20efe8616c93,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,547,553,d4fff0d95b52b1836b68a49cf8d0889d1d4d7e53abfdee05b425282569e20916,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,596,602,337030e102ba5db47655628e880370db6b458b94813bdc9d705cb37dd32af853,language_reviewed,"% 29
+
+\eocesol{(a)~13.
+(b)~Tidak, 27 mahasiswa ini bukan sampel acak dari populasi mahasiswa 
+universitas tersebut. Sebagai contoh, dapat dikatakan bahwa proporsi perokok di antara 
+mahasiswa yang pergi ke pusat kebugaran pada pukul 9 pagi pada hari Sabtu lebih rendah daripada 
+proporsi perokok di universitas secara keseluruhan.}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 7d8eb465-9a42-5325-a2b5-90a76b54880a,15e82d16-af8c-5c5f-900d-1e15be6b7e41,1,exercise,en,ch_summarizing_data/TeX/considering_categorical_data.tex,5,21,505dd2fe84a2aa5f0b7340b25aab914e115014d15a8ef2da3798033fcaa5386e,id-ID,repo/ch_summarizing_data/TeX/considering_categorical_data.tex,8,24,41a2c29068bd9377a75c34db6f9a3d14e5666b85f517f715dc348be288f24bde,translated,"\eoce{\qt{Penggunaan antibiotik pada anak\label{antibiotic_use_children}} Diagram batang
 dan diagram lingkaran di bawah menunjukkan distribusi kondisi medis yang sudah
 ada sebelumnya pada anak-anak yang terlibat dalam penelitian tentang durasi
@@ -4649,6 +4907,12 @@ Min & Q1    & Q2 (Median)   & Q3    & Maks \\
 \end{center}
 }{}
 
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+7e18ca56-a46a-5483-87d5-42a33965f090,6dd33049-d188-59dd-8cd1-cae32f6399af,7,worked_example,en,ch_probability/TeX/ch_probability.tex,1765,1769,7626505d86c48b95d8ff17503a5e5e8f45388f1010134759ff149a077a4b7f12,id-ID,repo/ch_probability/TeX/ch_probability.tex,1754,1758,75a6d0875fa2162a4a39baaaadca4325724ebcb5aa09bc7e380c8f197b41b447,language_reviewed,"\begin{examplewrap}
+\begin{nexample}{Berapakah pendapatan rata-rata per mahasiswa untuk mata kuliah ini?}\label{revFromStudent}
+Total pendapatan yang diharapkan adalah \$11,785 dan terdapat 100 mahasiswa. Oleh karena itu, pendapatan yang diharapkan per mahasiswa adalah $\$11,785/100 =  \$117.85$.
+\end{nexample}
+\end{examplewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 7e4cf8e4-a0d4-5938-9282-ea3db62eb94f,4cdfa335-3e1e-523b-88f0-48d4d680a618,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,18,23,2d742fbda5e3785c4973c51470b4302294c686ad28dbc3067a36a6eb28f8285c,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,18,23,2c280ce8aed1f40397e7dc751138d784f75d91a7df0510e321317cc64a387783,translated,"\eocesol{(a)~Perlakuan: $10/43 = 0.23 \rightarrow 23\%$. \\
 (b)~Kontrol: $2/46 = 0.04 \rightarrow 4\%$. 
@@ -5012,6 +5276,18 @@ Misalkan $A$ menyatakan peristiwa ketika kita melempar dua dadu dan jumlahnya ku
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+89290241-82d4-5f68-95d3-e63b02bbc798,9f2dd8ec-2b4e-5c1a-a536-89d40c9b5b03,15,worked_example,en,ch_probability/TeX/ch_probability.tex,1938,1948,300f18ba187f0f771ec05272e7f0128b4849eaf5e0b4727fae04073b615167d7,id-ID,repo/ch_probability/TeX/ch_probability.tex,1927,1937,f662217129692f1e39044acb49c792df4894eda5ad6e60aaefeabc4dc2498e94,language_reviewed,"\begin{examplewrap}
+\begin{nexample}{Waktu rata-rata yang dibutuhkan John untuk pergi ke tempat kerja setiap hari adalah 18 menit. Berapa waktu perjalanan rata-rata yang Anda harapkan selama seminggu?}
+Kita diberi tahu bahwa rata-rata (yaitu nilai harapan) waktu perjalanan adalah 18 menit per hari: $E(X_i) = 18$. Untuk memperoleh waktu yang diharapkan bagi jumlah lima hari tersebut, kita dapat menjumlahkan waktu yang diharapkan untuk setiap hari:
+\begin{align*}
+E(W) &= E(X_1 + X_2 + X_3 + X_4 + X_5) \\
+	&= E(X_1) + E(X_2) + E(X_3) + E(X_4) + E(X_5) \\
+	&= 18 + 18 + 18 + 18 + 18 = 90\text{ menit}
+\end{align*}
+Nilai harapan waktu total sama dengan jumlah nilai harapan waktu masing-masing. Secara lebih umum, nilai harapan jumlah beberapa variabel acak selalu sama dengan jumlah nilai harapan setiap variabel acak.
+\end{nexample}
+\end{examplewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 8955285c-18b1-545b-9b67-cf16e91a6a73,05ed1aa2-8201-50ff-8cb7-893d51314da9,1,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,1095,1206,1653939f7f859a5acc1e75ba9d32d156582df58c7c52330b439927c16d6ea500,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,1042,1149,11985310f1752ec03eef94339d1dec5e1a8d816d23b2dad8d871ade3c2df5087,language_reviewed,"\subsection{Mentransformasi data (topik khusus)}
 \label{transformingDataSubsection}
 
@@ -5182,6 +5458,9 @@ Berapa banyak modus yang \emph{menonjol} pada setiap
 kelompok?\footnotemark{}
 \end{nexercise}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+8b9e1d74-4635-577b-b6f5-fffcaf9dcb7c,24b82592-6802-5f86-86a9-f633491e350a,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,565,567,7b98f87a3b2b30aa51a84e7e5802152f353624a061683a202ebde7f93d73e710,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,614,616,7b98f87a3b2b30aa51a84e7e5802152f353624a061683a202ebde7f93d73e710,language_reviewed,"% 35
+
+\eocesol{E = -0.0526. SD = 0.9986.}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 8d98b33e-2b6c-5af6-921d-64bae260c430,55052df6-d488-53ed-8f4c-e0bb4a894836,3,subsection_prose,en,ch_probability/TeX/ch_probability.tex,498,524,2e899748471ec796b84e8f40e617965432ab709346d800ce184553320c194b60,id-ID,repo/ch_probability/TeX/ch_probability.tex,498,522,106717b94f5d56b022d345040157fd33c0783e677f124fbc88468c487e4fc1ed,language_reviewed,"\footnotetext{Jawaban singkat: (a)~$A^c=\{$\resp{3}, \resp{4}, \resp{5}, \resp{6}$\}$ dan $B^c=\{$\resp{1}, \resp{2}, \resp{3}, \resp{5}$\}$. (b)~Karena setiap hasil saling lepas, jumlahkan probabilitas hasil individual untuk memperoleh $P(A^c)=2/3$ dan $P(B^c)=2/3$. (c)~$A$~dan~$A^c$ saling lepas, demikian pula $B$~dan~$B^c$. Oleh karena itu, $P(A) + P(A^c) = 1$ dan $P(B) + P(B^c) = 1$.}
 
 \D{\newpage}
@@ -5670,6 +5949,22 @@ orang tersebut juga menyukai jeli?
 Jika dua peristiwa saling independen, mengetahui hasil salah satunya tidak memberikan informasi tentang peristiwa lainnya. Dengan peluang bersyarat, kita dapat menunjukkan bahwa pernyataan ini benar secara matematis.
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+9bdecdc8-8f32-5cb8-94b1-ba2c3ba3c536,6a7ec1cc-2062-594b-9240-1d3b747f9099,11,guided_inline_answer,en,ch_probability/TeX/ch_probability.tex,1906,1920,13f9abc2214c483b5b6720e8e68452def54454902ddc5c6cd6aea2242fe6997e,id-ID,repo/ch_probability/TeX/ch_probability.tex,1895,1909,ba5761f668f9217ce3bcfb46b96a676c2695f9aa9de90436241f2d7328edd970,language_reviewed,"\footnotetext{(a) 100\% - 25\% - 60\% = 15\% mahasiswa tidak membeli buku apa pun untuk kelas tersebut. Bagian~(b) direpresentasikan oleh dua baris pertama pada tabel di bawah ini. Nilai harapan untuk bagian~(c) diberikan sebagai total pada baris $y_i\times P(Y=y_i)$. Hasil bagian~(d) adalah akar kuadrat varians yang tercantum sebagai total pada baris terakhir: $\sigma = \sqrt{Var(Y)} = \$69.28$.
+\begin{center}
+\begin{tabular}{rrrrr}
+  \hline
+$i$ (skenario) & 1 (\resp{tanpa\us{}buku}) & 2 (\resp{buku\us{}teks}) & 3 (\resp{keduanya}) & Total \\
+  \hline
+$y_i$ & 0.00 & 159.00 & 200.00 &  \\
+$P(Y=y_i)$ & 0.15 & 0.25 & 0.60 & \\
+$y_i\times P(Y=y_i)$ & 0.00 & 39.75 & 120.00 & $E(Y) = 159.75$\\
+$y_i-E(Y)$ & -159.75 & -0.75 & 40.25 & \\
+$(y_i-E(Y))^2$ & 25520.06 & 0.56 & 1620.06 & \\
+$(y_i-E(Y))^2\times P(Y)$ & 3828.0 & 0.1 & 972.0 & $Var(Y) \approx 4800$ \\
+   \hline
+\end{tabular}
+\end{center}}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 9c1ffff0-f7bf-515b-b354-577c63acc515,affe87a9-0bfc-5ab3-9232-48b74cfd45dc,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,34,41,1650280608781546273d0bdc5bd8d4064995857d2ea8fd67849a1fd740a1797b,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,35,43,62705fc41cee14c1ec2f9184504ca6dc7016c81aa1fd3096a78269523d188ab9,translated,"% 5
 
 \eocesol{(a)~``Apakah memberi tahu anak-anak secara tegas agar tidak berbuat
@@ -5721,6 +6016,36 @@ ada dalam kumpulan data tinggi badan ini?\footnotemark{}
 9e37c5ad-dc71-5269-a827-bd23c0f0de9b,708fb94d-36a9-54fc-a0a4-13ae6a5bb4cf,1,guided_exercise,en,ch_probability/TeX/ch_probability.tex,423,427,7a716a06da292fe970c406519fdcd7e168dbd5785488224863946cff9447d7ab,id-ID,repo/ch_probability/TeX/ch_probability.tex,423,427,9908b880fca75f134a439b0161f53f84407ffa7d1dd884a8467baa34adc0b073,language_reviewed,"\begin{exercisewrap}
 \begin{nexercise}\label{usHouseholdIncomeDistsExercise}
 Gambar~\ref{usHouseholdIncomeDists} menyajikan tiga distribusi pendapatan rumah tangga di Amerika Serikat. Hanya satu yang benar. Yang mana? Apa kesalahan pada dua lainnya?\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+9eb026b1-e1b8-5ec6-a091-982492b6dfce,391d0e5b-40e2-5ee5-bbb1-684bc01ef590,1,end-of-section-exercise,en,ch_probability/TeX/random_variables.tex,49,61,d9c9c1fa5ba083b8b7e470d3642666d44a7bfcf2860db90e133d3fb4e770ed93,id-ID,repo/ch_probability/TeX/random_variables.tex,49,63,39602cf55c66a1f2317f63015af60d16da66e9990d49fdaeaf03e11ca2932919,language_reviewed,"% 32
+
+\eoce{\qtq{Apakah sepadan\label{worth_it}} Andy selalu mencari cara untuk 
+mendapatkan uang dengan cepat. Belakangan ini, ia mencoba mendapatkan uang melalui perjudian. Berikut 
+permainan yang sedang dipertimbangkannya: biaya bermain adalah \$2. Ia mengambil satu kartu 
+dari setumpuk kartu. Jika memperoleh kartu angka (2-10), ia tidak memenangkan apa pun. Untuk setiap kartu bergambar (
+jack, queen, atau king), ia memenangkan \$3. Untuk setiap as, ia memenangkan \$5, dan memperoleh 
+\textit{tambahan} \$20 jika mengambil as keriting.
+\begin{parts}
+\item Buat model probabilitas dan tentukan laba yang diharapkan Andy per permainan.
+\item Apakah Anda akan merekomendasikan permainan ini kepada Andy sebagai cara yang baik untuk mendapatkan uang? Jelaskan.
+\end{parts}
+}{}
+
+\D{\newpage}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+9f4d825a-acce-5209-8b35-0e9deac3efdd,b51285a0-3bfa-55b0-ba7d-2acaf50d4339,3,guided_exercise,en,ch_probability/TeX/ch_probability.tex,1732,1736,13f861284e475713d0fb19dfd09cd810e28fcf5ef83248c66ef3a415f6726aa4,id-ID,repo/ch_probability/TeX/ch_probability.tex,1721,1725,2edfd96636e5611859947fc48159258e0ee62bd03c9978bc777086bf6b28680e,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+Apakah Anda akan terkejut jika toko buku tersebut menjual sedikit lebih banyak atau lebih sedikit daripada 105 buku?\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+9f8741e9-6f72-5d43-ad7f-a7d5c9cd4af3,ed214947-7dfd-5083-add7-9d812dbb45af,27,guided_exercise,en,ch_probability/TeX/ch_probability.tex,2038,2045,8a340d19e16c8b200674c847f4f1036330cb1f586fe490f7cd7bb8ff6b2bb30b,id-ID,repo/ch_probability/TeX/ch_probability.tex,2027,2034,3dbb6227332e3babf691ab6827894c308d4764a4901239da168c840b6ee3c73a,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+Anda seharusnya menemukan bahwa Leonard mengharapkan keuntungan positif
+dalam Latihan Terbimbing~\ref{expectedChangeInLeonardsStockPortfolio}.
+Namun, apakah Anda akan terkejut jika ia sebenarnya mengalami
+kerugian pada bulan ini?\footnotemark
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
@@ -6194,6 +6519,39 @@ abfbcf57-b2a6-51ca-b613-769df693c412,b23f3ca2-973a-561f-8d7b-0808ca9315e8,2,subs
 
 \begin{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+ad2253d6-c9b7-56ba-a615-60eba36565bc,89852718-cd3e-517e-95ba-7daea0c05661,9,worked_example,en,ch_probability/TeX/ch_probability.tex,1862,1893,00663cf4c0922337cb8fc0df68d3097e194326fc5d093603183f7255ac986616,id-ID,repo/ch_probability/TeX/ch_probability.tex,1851,1882,7372b83bd3700b6b072b00c5b05b7635b9daaf21cf09e3b486cdcb62d8703de8,language_reviewed,"\begin{examplewrap}
+\begin{nexample}{Hitung nilai harapan, varians, dan simpangan baku $X$, yaitu pendapatan toko buku dari satu mahasiswa statistika.}
+Kita dapat menyusun tabel yang memuat perhitungan setiap hasil secara terpisah, lalu menjumlahkan hasil-hasilnya.
+\begin{center}
+\begin{tabular}{l rrr r}
+\hline
+$i$ & 1 & 2 & 3 & Total \\
+\hline
+$x_i$ & \$0 & \$137 & \$170 &  \\
+$P(X=x_i)$ & 0.20 & 0.55 & 0.25 &  \\
+$x_i \times  P(X=x_i)$ & 0 & 75.35 & 42.50 & 117.85 \\
+\hline
+\end{tabular}
+\end{center}
+Jadi, nilai harapannya adalah $\mu=117.85$, seperti yang telah kita hitung. Varians dapat disusun dengan memperluas tabel ini:
+\begin{center}
+\begin{tabular}{l rrr r}
+\hline
+$i$ & 1 & 2 & 3 & Total \\
+\hline
+$x_i$ & \$0 & \$137 & \$170 &  \\
+$P(X=x_i)$ & 0.20 & 0.55 & 0.25 &  \\
+$x_i \times  P(X=x_i)$ & 0 & 75.35 & 42.50 & 117.85 \\
+$x_i - \mu$ & -117.85 & 19.15 & 52.15 &  \\
+$(x_i-\mu)^2$ & 13888.62 &  366.72 & 2719.62 &  \\
+$(x_i-\mu)^2\times P(X=x_i)$ & 2777.7 & 201.7 & 679.9 & 3659.3 \\
+\hline
+\end{tabular}
+\end{center}
+Varians $X$ adalah $\sigma^2 = 3659.3$, yang berarti simpangan bakunya adalah $\sigma = \sqrt{3659.3} = \$60.49$.
+\end{nexample}
+\end{examplewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 ad336d56-45f5-5863-8ab2-667f11f1c54a,e6ac9457-94fd-5c0e-9e5d-64019cffef9a,1,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,1701,1871,1382ab290f1f48d3d1cdff00c810574b01fbfa5b54768bf80c42335cbda9e47f,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,1640,1808,4bb490e8d886c2c09c1d871e9e5317eb7e7b500d825d40c4938fbcfc9cb0eca1,translated,"\subsection{Menggunakan diagram batang untuk dua variabel}
 \label{bar_plots_subsection}
 
@@ -6421,6 +6779,12 @@ populasi yang didefinisikan di atas. Selain itu, karena studi ini merupakan
 eksperimen dengan penugasan acak, temuannya dapat digunakan untuk menetapkan 
 hubungan kausal.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+af70950d-14fe-521a-b377-1994be498578,3fd65188-973d-50b5-b887-a42cb813ae7a,20,guided_exercise,en,ch_probability/TeX/ch_probability.tex,1965,1969,7fb961ae3817d80acdeb290128b9a7ebb517ed3092bc111623fb96d9cfe7c58b,id-ID,repo/ch_probability/TeX/ch_probability.tex,1954,1958,c6bc492d2651b82e9c4412f9bf21aca2d8f2c93065715553c541b36362dccf79,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise} \label{explainWhyThereIsUncertaintyInTheSum}
+Apakah Anda akan terkejut jika waktu perjalanan mingguan John tidak tepat 90 menit atau jika Elena tidak memperoleh tepat \$152? Jelaskan.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 b0672da2-86cd-5366-9e74-7dca23e91f74,02f6e6bb-cb13-52fa-bcd9-7183093cea93,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,25,32,2e9647e54554ed4598e1de227ed8cbe069c235e0da10ff0a2aa7fb063b351120,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,25,33,073a9df0ef6e5bf2571b92549904faf77992d23bc6b9efea84a60b1102c81684,translated,"% 3
 
 \eocesol{(a)~``Apakah ada hubungan antara paparan polusi udara dan kelahiran prematur?''
@@ -6506,6 +6870,22 @@ b3adce0c-61df-5e82-aab1-d5450ca11b22,0490a7f0-3ec2-599c-9bb2-efb58d5eb4ae,5,guid
 \end{align*}
 Dengan Aturan Perkalian Umum, hasil kali ketiga peluang ini adalah peluang tidak terpilih dalam 3 pertanyaan.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+b4728ba5-2232-5277-a68e-f5eff2e3b69a,a485ca16-e7af-5fc9-a661-2481b3a87b29,12,section_prose,en,ch_probability/TeX/ch_probability.tex,1921,1925,29f064b815f9de2ec23a513e20c62c7c93ea72113f505edad9288306bcc44ab0,id-ID,repo/ch_probability/TeX/ch_probability.tex,1910,1914,746861ec613f6176a1c5eb7f672ffb1d81ea87904aadb71b59730806dc1990f2,language_reviewed,"
+\subsection{Kombinasi linear variabel acak}
+
+Sejauh ini, kita menganggap setiap variabel sebagai gambaran yang lengkap dengan sendirinya. Terkadang, kombinasi beberapa variabel lebih tepat digunakan. Sebagai contoh, waktu yang dihabiskan seseorang untuk bepergian ke tempat kerja setiap minggu dapat diuraikan menjadi beberapa perjalanan harian. Demikian pula, total keuntungan atau kerugian dalam suatu portofolio saham merupakan jumlah keuntungan dan kerugian dari komponen-komponennya.
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+b4885c3b-2061-5a17-89a3-83fc0732cef9,66ad4593-df37-5b7b-bd2c-14b7767ee4f6,1,end-of-section-exercise,en,ch_probability/TeX/random_variables.tex,87,96,b07712cb085597af075948c744a4f4e1e31479d94d91a5ad9bc716a7477b7aa4,id-ID,repo/ch_probability/TeX/random_variables.tex,89,98,1a7d024f300f249b89740181ba26005e889eab0aec1b01746602759e25bc360c,language_reviewed,"% 35
+
+\eoce{\qt{Roulette Amerika\label{roulette_american}} Permainan roulette 
+Amerika menggunakan roda dengan 38 slot: 18 merah, 18 hitam, dan 2 hijau. 
+Sebuah bola diputar pada roda dan akhirnya akan jatuh ke salah satu slot; setiap slot 
+memiliki peluang yang sama untuk menangkap bola. Pemain dapat bertaruh pada warna merah atau 
+hitam. Jika bola jatuh pada warna pilihan mereka, uang mereka menjadi dua kali lipat. Jika jatuh pada 
+warna lain, mereka kehilangan uang taruhan. Misalkan Anda mempertaruhkan \$1 pada warna merah. Berapakah 
+nilai harapan dan simpangan baku hasil bersih taruhan Anda?
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 b5ad5e5f-d729-551d-a7c9-06f3f67c583c,e399d3b0-84b2-5859-93ff-fdafd4738bd8,1,exercise,en,ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,248,256,ac2f672ea74035473047f3cabbe0f458eaab9e265948d0385c9418db63179eaf,id-ID,repo/ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,243,252,b35cf6b15c9f7655036edce9e0b97195de40d241673c2b290c15f6c81263ba1c,translated,"\eoce{\qt{Ukuran keluarga\label{family_size}} Misalkan kita ingin memperkirakan 
 ukuran rumah tangga. Dalam konteks ini, rumah tangga terdiri atas orang-orang 
 yang tinggal bersama dalam hunian yang sama dan berbagi fasilitas tempat 
@@ -6814,6 +7194,20 @@ Ia menyimpulkan bahwa berlari menurunkan risiko masalah sendi.
 
 % 40
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+bf824794-2b9b-5736-8525-7da70037b51d,a485ca16-e7af-5fc9-a661-2481b3a87b29,1,section_prose,en,ch_probability/TeX/ch_probability.tex,1713,1725,f3839c01a6a1cd812803cfccd004548b6203c02590b4377eead5b425289539f3,id-ID,repo/ch_probability/TeX/ch_probability.tex,1702,1714,e0423976d5b8db6594e4e39e3b6c0493a57773b8b0efc680cd2fd9b8b8705fb1,language_reviewed,"\section{Variabel acak}
+\label{randomVariablesSection}
+
+\index{random variable|(}
+
+\noindent%
+Sering kali, suatu proses berguna untuk dimodelkan dengan menggunakan apa yang
+disebut \term{variabel acak}.
+Model semacam ini memungkinkan kita menerapkan kerangka
+matematis dan prinsip-prinsip statistika untuk
+memahami dan memprediksi hasil dengan lebih baik
+di dunia nyata.
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 c023896b-c99c-5693-b2fe-d677659b865b,6a4104b8-6358-5cac-bb8f-44a62a948843,1,exercise,en,ch_intro_to_data/TeX/data_basics.tex,202,222,0acc42a171a89cd61c2c945f24dc9765cd6f75edb620a1b6d6f53dee8dd80523,id-ID,repo/ch_intro_to_data/TeX/data_basics.tex,201,221,c70a2036d8feffe47047d1da3a10945a182d21f1be3ee909b0e0310e3671bad9,translated,"\eoce{\qt{Bandara di AS\label{US Airports}}
 Visualisasi di bawah menunjukkan sebaran geografis bandara di Amerika Serikat
 daratan utama dan Washington, DC.
@@ -6863,6 +7257,8 @@ Buat diagram Venn untuk situasi ini.\footnotemark
 c2453e2f-b2b2-5108-84fa-bafceb0e4b9e,a766f9cd-f941-5953-b2d9-9d5f0b9a8764,10,section_prose,en,ch_probability/TeX/ch_probability.tex,1686,1688,c6005c5dece78125f4e3a7d609a33e0314e65f8653125ab120b0fd9e9816fc9e,id-ID,repo/ch_probability/TeX/ch_probability.tex,1675,1677,25d59757e914c3f13d3a764681bc2475d8ce9589b3442924f937fb82af6ce146,language_reviewed,"
 Jika kita mengambil sampel dari populasi kecil \term{tanpa pengembalian}, pengamatan-pengamatan kita tidak lagi saling independen. Dalam Contoh~\ref{3woRep}, peluang tidak terpilih untuk pertanyaan kedua dikondisikan pada peristiwa bahwa Anda tidak terpilih untuk pertanyaan pertama. Dalam Contoh~\ref{3wRep}, dosen mengambil sampel mahasiswa \term{dengan pengembalian}: dosen tersebut berulang kali mengambil sampel dari seluruh kelas tanpa memedulikan siapa yang sudah dipilih. 
 
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+c295369e-5c28-5ad5-a2af-9754cd135397,d2e7d229-5d0d-5829-bced-f63521bd731d,21,guided_inline_answer,en,ch_probability/TeX/ch_probability.tex,1970,1970,edcfe95bfdf240c0e1df921988e17ff0bca6f8b685565ffa49aa3e947586343e,id-ID,repo/ch_probability/TeX/ch_probability.tex,1959,1959,7b748ba4fc9a1f64023c9060f231195122ce68057b2227851217e1328feaba34,language_reviewed,"\footnotetext{Tidak, karena kemungkinan terdapat variabilitas. Sebagai contoh, kondisi lalu lintas berubah dari satu hari ke hari berikutnya, dan harga lelang akan bervariasi bergantung pada kualitas barang serta minat para peserta.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 c37a8e81-dd1b-5c26-9aaf-fbb7a0f485f7,17acf038-9821-5e3d-9ffa-1526fab12218,4,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,634,649,e3222f2cf41d7bac1b741292e96bcc6ebd05477a586bce04fe3ccd0f13bbc15e,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,618,632,1dc839678f924a507a3c5ed9b378929d129dbd1d1fff927ff3e77b3ad23133a3,translated,"\end{exercisewrap}
 \footnotetext{Mungkin tampak dua kelompok tinggi badan dalam
@@ -7225,6 +7621,38 @@ P(A_2 | B) &= \frac{P(B | A_2) P(A_2)}{P(B | A_1) P(A_1) + P(B | A_2) P(A_2) + P
 		&= \frac{(0.25)(0.35)}{(0.7)(0.2) + (0.25)(0.35) + (0.05)(0.45)} \\
 		&= 0.35
 \end{align*}}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+d612cb03-ae6d-5f11-b06a-8b7df927bcb5,a485ca16-e7af-5fc9-a661-2481b3a87b29,22,section_prose,en,ch_probability/TeX/ch_probability.tex,1971,2001,70908560e5852b0c7f0b26970694e8106b99a2e0010bc67b05434039e0a22cab,id-ID,repo/ch_probability/TeX/ch_probability.tex,1960,1990,b5dd4383d8b2cd0bc6b060bb390498c48bc69a08cf38b31625ecc016a8c4aa85,language_reviewed,"
+Dua konsep penting mengenai kombinasi variabel acak telah diperkenalkan. Pertama, suatu nilai akhir terkadang dapat dinyatakan dalam persamaan sebagai jumlah bagian-bagiannya. Kedua, secara intuitif, memasukkan nilai rata-rata setiap bagian ke dalam persamaan ini akan memberikan nilai total rata-rata yang kita harapkan. Poin kedua ini perlu diperjelas -- hal tersebut dijamin benar untuk apa yang disebut \emph{kombinasi linear variabel acak}.
+
+\term{Kombinasi linear} dua variabel acak $X$ dan $Y$ adalah istilah untuk menyatakan kombinasi
+\begin{align*}
+aX + bY
+\end{align*}
+dengan $a$ dan $b$ sebagai bilangan tetap yang diketahui. Untuk waktu perjalanan John, terdapat lima variabel acak -- satu untuk setiap hari kerja -- dan setiap variabel acak dapat ditulis dengan koefisien tetap sebesar 1:
+\begin{align*}
+1X_1 + 1 X_2 + 1 X_3 + 1 X_4 + 1 X_5
+\end{align*}
+Untuk keuntungan atau kerugian bersih Elena, variabel acak $X$ memiliki
+koefisien +1 dan variabel acak $Y$ memiliki
+koefisien~-1.
+
+\D{\newpage}
+
+Ketika mempertimbangkan rata-rata kombinasi linear variabel acak, kita dapat memasukkan rata-rata setiap variabel acak lalu menghitung hasil akhirnya. Beberapa contoh kombinasi nonlinear variabel acak -- yaitu kasus ketika kita tidak dapat sekadar memasukkan rata-rata -- diberikan dalam catatan kaki.\footnote{Jika $X$ dan $Y$ merupakan variabel acak, pertimbangkan kombinasi berikut: $X^{1+Y}$, $X\times Y$, $X/Y$. Dalam kasus seperti ini, memasukkan nilai rata-rata setiap variabel acak dan menghitung hasilnya umumnya tidak akan menghasilkan nilai rata-rata yang akurat bagi hasil akhir.}
+
+\begin{onebox}{Kombinasi linear variabel acak dan hasil rata-rata}
+Jika $X$ dan $Y$ merupakan variabel acak, kombinasi linear kedua variabel acak tersebut diberikan oleh
+\begin{align*}
+aX + bY
+\end{align*}
+dengan $a$ dan $b$ sebagai bilangan tetap. Untuk menghitung nilai rata-rata kombinasi linear variabel acak, masukkan rata-rata setiap variabel acak lalu hitung hasilnya:
+\begin{align*}
+a\times E(X) + b\times E(Y)
+\end{align*}
+Ingat bahwa nilai harapan sama dengan rata-rata, misalnya $E(X) = \mu_X$.
+\end{onebox}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 d6449948-59aa-5d31-bc9e-5795ba199884,3b45c972-4f12-577c-b7de-d173ab1640e3,1,subsection_prose,en,ch_probability/TeX/ch_probability.tex,143,183,e61ac0e76be7a42e8cfe7680e217d78a5ad2076b43f36f9ad56654038b6809a5,id-ID,repo/ch_probability/TeX/ch_probability.tex,143,183,9b721ba163d793e2fc9b6849f555f2bd845da76c62b953fcad5ffa496621d206,language_reviewed,"\subsection{Hasil saling lepas atau saling eksklusif}
@@ -8011,6 +8439,14 @@ rentang hidup yang lebih panjang.
 (b)~Asosiasinya akan tetap positif.
 (c)~Tidak, keduanya tidak saling bebas. Lihat bagian~(a).}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+e08260a4-b42e-5e4f-99bb-599c2d3642dc,a485ca16-e7af-5fc9-a661-2481b3a87b29,35,section_prose,en,ch_probability/TeX/ch_probability.tex,2185,2197,45fdcfe73037170440a7bb0fba3c948f941535c29066d7df1d51dd6004c35fcb,id-ID,repo/ch_probability/TeX/ch_probability.tex,2174,2180,ec5cf86dd70c34b377ec4f0f48d60209b4d5c0a6db746531c9ed4f1a8246d99f,language_reviewed,"
+Pertimbangkan kembali Latihan Terbimbing~\ref{elenaIsSellingATVAndBuyingAToasterOvenAtAnAuctionVariability}. Koefisien negatif untuk $Y$ dalam kombinasi linear hilang ketika kita menguadratkan koefisien. Hal ini berlaku secara umum: tanda negatif dalam kombinasi linear tidak memengaruhi variabilitas yang dihitung untuk kombinasi linear, tetapi memengaruhi perhitungan nilai harapan.
+
+\index{random variable|)}
+
+
+{\input{ch_probability/TeX/random_variables.tex}}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 e0cd474d-1349-5f4b-ba4f-ac5d5659738e,a1826e03-0981-5650-8830-88dc2ad8b719,22,subsection_prose,en,ch_probability/TeX/ch_probability.tex,1254,1267,6c166cd5e33d88c607be208fb81d5deb06482cd73eba46800e86541c6dc9d97d,id-ID,repo/ch_probability/TeX/ch_probability.tex,1253,1266,4111dcf274c51efa72e1dfecf6350320fc3444acde78746801ef037b62eea24a,language_reviewed,"\footnotetext{Hanya ada dua hasil yang mungkin: \resp{lived} atau \resp{died}. Artinya, 100\% - 97,54\% = 2,46\% orang yang diinokulasi meninggal.}
 
 \begin{onebox}{Jumlah peluang bersyarat}
@@ -8122,6 +8558,12 @@ populasi yang diklaim.
 
 % 7
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+e71856cd-6923-57df-85db-45ba3a69df12,e63fd8cb-be7f-5a22-bb5e-a2dbb024e1f5,31,guided_exercise,en,ch_probability/TeX/ch_probability.tex,2164,2168,bf3e56ac5caa0fa08c8b0899c1b9ad5463d23a60fcd6844ababdb2cebb0ccc65,id-ID,repo/ch_probability/TeX/ch_probability.tex,2153,2157,2293556e526976211a25d1ec4eed0b8be11abce0bc2bcc991a8f0941526dde35,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+Perhitungan dalam Contoh~\ref{sdOfJohnsCommuteWeeklyTime} bergantung pada asumsi penting: waktu perjalanan setiap hari saling independen dari waktu perjalanan pada hari-hari lain dalam minggu tersebut. Menurut Anda, apakah asumsi ini valid? Jelaskan.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 e7bbb557-7b45-55c1-b0d4-53312770c44e,ca6367c4-15b1-502f-9fa9-3f7229c912ee,1,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,73,139,3f9400174e78120d7c1d59279e1853b5465bb6de74247efacbbc7764449d39b0,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,73,138,080c604c07c3965af8c341d6adef4ac6edb352d1f3a6bd492919fa7cd5b73515,translated,"\subsection{Diagram pencar untuk data berpasangan}
 \label{scatterPlots}
 
@@ -8208,6 +8650,23 @@ diagram yang menggambarkan hubungan antara stres dan produktivitas.
 
 % 5
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+e9c01503-28e6-5163-a080-e1958f0403d8,ab27db6b-571d-5b55-908f-97ce3cec29d0,1,end-of-section-exercise,en,ch_probability/TeX/random_variables.tex,98,114,00707d5aec2337f9c5a5225cc2d2296e73c6a42553bd137a1322c7af7a6d0f04,id-ID,repo/ch_probability/TeX/random_variables.tex,100,116,100754c90b6696cf7628043e4706735aee52ac570a37beb62105f377feea4476,language_reviewed,"% 36
+
+\eoce{\qt{Roulette Eropa\label{roulette_european}} Permainan roulette 
+Eropa menggunakan roda dengan 37 slot: 18 merah, 18 hitam, dan 1 hijau. 
+Sebuah bola diputar pada roda dan akhirnya akan jatuh ke salah satu slot; setiap slot 
+memiliki peluang yang sama untuk menangkap bola. Pemain dapat bertaruh pada warna merah atau 
+hitam. Jika bola jatuh pada warna pilihan mereka, uang mereka menjadi dua kali lipat. Jika jatuh pada 
+warna lain, mereka kehilangan uang taruhan.
+\begin{parts}
+\item Misalkan Anda bermain roulette dan mempertaruhkan \$3 dalam satu putaran. Berapakah 
+nilai harapan dan simpangan baku total hasil bersih taruhan Anda?
+\item Misalkan Anda mempertaruhkan \$1 dalam tiga putaran berbeda. Berapakah nilai harapan 
+dan simpangan baku total hasil bersih taruhan Anda?
+\item Bagaimana perbandingan jawaban Anda untuk bagian (a) dan (b)? Apa yang ditunjukkan hal ini mengenai 
+tingkat risiko kedua permainan tersebut?
+\end{parts}
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 eaa89f38-1dc1-52ed-8df2-83f4d30105a3,193a93a2-5f42-56b5-a579-7a4c8b028e6d,1,section_lead,en,ch_probability/TeX/ch_probability.tex,691,702,cc8068a763ecb966b72eb6cbcdf6b4281ea8adbda3692c2939c9ee623de3133b,id-ID,repo/ch_probability/TeX/ch_probability.tex,691,702,5080b9b581d2d954b93022bc01c249472603e9f90c651ca437e2fd34cf0f658a,language_reviewed,"\section{Peluang bersyarat}
 \label{conditionalProbabilitySection}
 
@@ -8262,6 +8721,21 @@ variabel tersebut? Daftarkan level (kategori) yang bersesuaian.
 
 % 10
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""143d3528-ba59-5a42-8932-7a2770216b5b""]"
+eb293ee2-f92a-5a6b-8654-ead45b33cfdf,4fa0fd7b-9cac-53c7-a0f1-1fdbeaa2b52d,1,end-of-section-exercise,en,ch_probability/TeX/random_variables.tex,71,85,2383e4959567286fbd9d1731e24f4f384de0ea68387b770a5057ec8558130290,id-ID,repo/ch_probability/TeX/random_variables.tex,73,87,c6cfd828ef46941e2d3b9f892c5a8c928132a69b1022167dca0b37b023e57a50,language_reviewed,"% 34
+
+\eoce{\qt{Biaya bagasi\label{baggage_fees}} Sebuah maskapai mengenakan 
+biaya bagasi berikut: \$25 untuk tas pertama dan \$35 untuk tas kedua. Misalkan 54\% 
+penumpang tidak memiliki bagasi tercatat, 34\% memiliki satu bagasi tercatat, dan 
+12\% memiliki dua bagasi. Kita menganggap proporsi penumpang yang mendaftarkan lebih dari 
+dua tas dapat diabaikan.
+\begin{parts}
+\item Susun model probabilitas, hitung pendapatan rata-rata per penumpang, dan 
+hitung simpangan baku yang bersesuaian.
+\item Sekitar berapa besar pendapatan yang dapat diharapkan maskapai untuk penerbangan dengan 120 
+penumpang? Dengan simpangan baku berapa? Nyatakan setiap asumsi yang Anda buat dan apakah 
+menurut Anda asumsi tersebut dapat dibenarkan.
+\end{parts}
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 ebdda9ac-27a7-553b-b5be-d0de4f5e32fa,68bfba60-9cd5-54a0-94f7-11662305a6a3,1,end-of-section-exercise,en,ch_probability/TeX/conditional_probability.tex,190,202,a7ef93ef8d6be02273963c37251e3bba7520c0cc7f5f7b279684732798999547,id-ID,repo/ch_probability/TeX/conditional_probability.tex,190,201,3b4fd0702503442afa3bf5a5eb3a778b996f20a6a4d972d27c6eb45cb9368347,language_reviewed,"% 20
 
 \eoce{\qt{Predisposisi trombosis\label{tree_thrombosis}} Sebuah tes genetik digunakan
@@ -8573,6 +9047,20 @@ dan kita menolak model independensi serta memilih model alternatif. Hasil
 penelitian memberikan bukti meyakinkan bahwa rosiglitazon berasosiasi dengan
 peningkatan risiko masalah kardiovaskular.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+f485c5b8-7648-54f9-8cd1-f94a891371e7,175fb5b8-02c7-5763-937a-dbaf90efe95a,1,end-of-section-exercise,en,ch_probability/TeX/random_variables.tex,17,30,8e06eb15abdea737b1cefc3afde3211a3f3f254ccd2b9fa77c718adc8324a321,id-ID,repo/ch_probability/TeX/random_variables.tex,17,30,514ef9a208ba10e353106544af034ea19833686bf6a47c3c26b704b6563080e3,language_reviewed,"% 30
+
+\eoce{\qt{As keriting menang\label{ace_of_clubs}} Pertimbangkan permainan kartu berikut 
+dengan setumpuk kartu yang telah dikocok dengan baik. Jika Anda mengambil kartu merah, Anda tidak memperoleh apa pun. Jika 
+Anda memperoleh kartu sekop, Anda memenangkan \$5. Untuk kartu keriting apa pun, Anda memenangkan \$10 ditambah \$20 tambahan jika 
+memperoleh as keriting.
+\begin{parts}
+\item Buat model probabilitas untuk jumlah yang Anda menangkan dalam permainan ini. Tentukan pula 
+nilai harapan uang kemenangan untuk satu permainan dan simpangan baku 
+uang kemenangan tersebut.
+\item Berapa jumlah maksimum yang bersedia Anda bayarkan untuk memainkan permainan ini? 
+Jelaskan alasan Anda.
+\end{parts}
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 f4d36b97-8690-52d2-9418-09cc24d7eed3,49928af2-5b48-5390-8a64-218e71c10a1a,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,65,72,23f297121ec0b0836532ba8cc1159223986ef5d4798c204a7136cc061c54176f,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,69,78,32c16c0b0a24a0bdf5e0f8475cbffd44d6b61b8cea466131c24aec6044611679,translated,"% 13
 
 \eocesol{(a)~Populasi sasaran: kelahiran di California Selatan dalam cakupan
@@ -8734,6 +9222,123 @@ dari tanda-tanda infeksi, sedangkan seluruh~6 pasien
 \end{figure}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+f8d9ab05-98bc-5c11-9de4-415b4778cde9,a485ca16-e7af-5fc9-a661-2481b3a87b29,29,section_prose,en,ch_probability/TeX/ch_probability.tex,2049,2148,5401264c3d8acde0c04576ecfbe4497280da757e698a23c1af217f956b1b3206,id-ID,repo/ch_probability/TeX/ch_probability.tex,2038,2137,b5588c322e162b805145e7fc2ee49002560fc873b13bb59fae114871a37ceb33,language_reviewed,"
+
+\D{\newpage}
+
+\subsection{Variabilitas dalam kombinasi linear variabel acak}
+\label{var_lin_combo_of_RVs}
+
+Mengukur hasil rata-rata dari kombinasi linear
+variabel acak memang berguna, tetapi kita juga perlu
+memahami ketidakpastian yang berkaitan dengan
+hasil total kombinasi variabel acak tersebut.
+Keuntungan atau kerugian bersih yang diharapkan dari portofolio saham Leonard
+telah dipertimbangkan dalam Latihan Terbimbing~\ref{expectedChangeInLeonardsStockPortfolio}.
+Namun, volatilitas portofolio ini belum
+dibahas secara kuantitatif.
+Sebagai contoh, meskipun keuntungan bulanan rata-rata menurut data mungkin
+sekitar \$124, keuntungan tersebut tidak terjamin.
+Gambar~\ref{changeInLeonardsStockPortfolioFor36Months}
+menunjukkan perubahan bulanan pada portofolio seperti milik Leonard selama
+periode tiga tahun.
+Keuntungan dan kerugiannya sangat bervariasi, dan mengukur
+fluktuasi ini penting ketika berinvestasi dalam saham.
+
+\begin{figure}[ht]
+\centering
+\Figure[Diagram titik ditumpangkan pada diagram kotak untuk variabel “Imbal Hasil Bulanan Selama 3 Tahun”. Bagian kotak membentang kira-kira dari -200 hingga 450, dengan garis median sekitar 200. Garis kumis membentang ke ujung bawah sekitar -600 dan ujung atas sekitar 1050. Terdapat satu titik di luar garis kumis bawah pada sekitar -1400. Pada diagram titik, titik-titik tersebar cukup merata di sepanjang bagian kotak dan garis kumis, dengan satu pengecualian berupa titik pada -1400.]{0.6}{changeInLeonardsStockPortfolioFor36Months}
+\caption{Perubahan portofolio seperti milik Leonard selama 36 bulan,
+    dengan \$6000 diinvestasikan dalam saham Caterpillar dan \$2000 dalam
+    saham Exxon Mobil.}
+\label{changeInLeonardsStockPortfolioFor36Months}
+\end{figure}
+
+Seperti dalam banyak kasus sebelumnya,
+kita menggunakan varians dan simpangan baku untuk mendeskripsikan
+ketidakpastian yang berkaitan dengan imbal hasil bulanan Leonard.
+Untuk itu, varians imbal hasil bulanan setiap saham
+akan berguna, dan nilainya ditampilkan pada
+Gambar~\ref{sumStatOfCATXOM}.
+Imbal hasil kedua saham tersebut hampir saling independen.
+
+\begin{figure}
+\centering
+\begin{tabular}{lrrr}
+\hline
+    & Rata-rata ($\bar{x}$) & Simpangan baku ($s$) &
+	    Varians ($s^2$) \\
+\hline
+CAT & 0.0204  & 0.0757  & 0.0057 \\
+XOM & 0.0025  & 0.0455  & 0.0021 \\
+\hline
+\end{tabular}
+\caption{Rata-rata, simpangan baku, dan varians saham
+    CAT dan XOM.
+    Statistik ini diestimasi dari data saham
+    historis, sehingga digunakan notasi untuk
+    statistik sampel.}
+\label{sumStatOfCATXOM}
+\end{figure}
+
+Di sini kita menggunakan persamaan dari teori probabilitas untuk
+mendeskripsikan ketidakpastian imbal hasil bulanan Leonard;
+pembuktian metode ini diserahkan kepada mata kuliah
+khusus probabilitas.
+Varians kombinasi linear variabel acak
+dapat dihitung dengan memasukkan varians setiap
+variabel acak dan menguadratkan koefisien
+variabel-variabel acak tersebut:
+\begin{align*}
+Var(aX + bY) = a^2\times Var(X) + b^2\times Var(Y)
+\end{align*}
+Perlu diperhatikan bahwa kesamaan ini mengasumsikan
+variabel-variabel acak tersebut saling independen;
+%\Comment{new description here about if independence is broken}
+jika independensi tidak terpenuhi, persamaan ini
+perlu dimodifikasi. Topik tersebut akan
+dibahas dalam mata kuliah selanjutnya.
+Persamaan ini dapat digunakan untuk menghitung varians
+imbal hasil bulanan Leonard:
+\begin{align*}
+Var(6000\times X + 2000\times Y)
+	&= 6000^2\times Var(X) + 2000^2\times Var(Y) \\
+	&= 36,000,000\times 0.0057 + 4,000,000\times 0.0021 \\
+	&\approx 213,600
+% sum(c(36e6, 4e6) * c(0.0057, 0.0021))
+\end{align*}
+Simpangan baku dihitung sebagai akar kuadrat
+varians: $\sqrt{213,600} = \$463$.
+Meskipun imbal hasil bulanan rata-rata sebesar \$124 dari
+investasi \$8000 bukanlah jumlah yang kecil,
+imbal hasil bulanan tersebut begitu bergejolak sehingga Leonard sebaiknya
+tidak mengharapkan pendapatan ini sangat stabil.
+
+\begin{onebox}{Variabilitas kombinasi linear variabel acak}
+Varians kombinasi linear variabel acak dapat dihitung dengan menguadratkan konstanta, mengganti variabel acak dengan variansnya, lalu menghitung hasilnya:
+\begin{align*}
+Var(aX + bY) = a^2\times Var(X) + b^2\times Var(Y)
+\end{align*}
+Persamaan ini berlaku selama variabel-variabel acak tersebut saling independen. Simpangan baku kombinasi linear dapat diperoleh dengan mengambil akar kuadrat varians.
+\end{onebox}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+f9d1e2ef-39ae-517d-947d-866186b00648,3c9da11f-a0b1-5882-b2c8-6bec9138c872,1,end-of-section-exercise,en,ch_probability/TeX/random_variables.tex,32,47,365fabd4bd27489cd8a848ab6d2dc670e28d11d31353657720b7151197f1aff6,id-ID,repo/ch_probability/TeX/random_variables.tex,32,47,05852b66c363b8d29825a483baca065af4a3939188284763bdb03388f2d879cd,language_reviewed,"% 31
+
+\eoce{\qt{Kartu hati menang\label{hearts}} Dalam permainan kartu baru, Anda memulai
+dengan setumpuk kartu lengkap yang telah dikocok dengan baik dan mengambil 3 kartu tanpa pengembalian.
+Jika Anda mengambil 3 kartu hati, 
+Anda memenangkan \$50. Jika Anda mengambil 3 kartu hitam, Anda memenangkan \$25. Untuk hasil pengambilan lainnya, Anda 
+tidak memperoleh apa pun.
+\begin{parts}
+\item Buat model probabilitas untuk jumlah yang Anda menangkan dalam permainan ini, lalu tentukan 
+nilai harapan uang kemenangan. Hitung pula simpangan baku distribusi ini.
+\item Jika biaya memainkan permainan adalah \$5, berapakah nilai harapan dan 
+simpangan baku laba (atau rugi) bersih? \textit{(Petunjuk: 
+laba = uang kemenangan $-$ biaya; $X-5$)}
+\item Jika biaya memainkan permainan adalah \$5, apakah Anda sebaiknya memainkannya? Jelaskan.
+\end{parts}
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 faba6941-44d2-5f25-a767-a7de90b27005,9ffbb29e-06de-5487-9e89-c5638618252f,1,exercise,en,ch_intro_to_data/TeX/data_basics.tex,101,118,691aa86fd0b5a6f793330850b627a3f618a58f25c7db7db77f757f2386e5575d,id-ID,repo/ch_intro_to_data/TeX/data_basics.tex,102,119,153886733a42cff23efcde1965f875de71ca5fca874c7444944ee7eb0800fd3f,translated,"\eoce{\qt{Migrain dan akupunktur,
     Bagian II\label{migraine_and_acupuncture_exp_resp}}
 Latihan~\ref{migraine_and_acupuncture_intro}
@@ -8774,6 +9379,20 @@ eksekutif tingkat tinggi yang memperoleh gaji jauh lebih besar daripada semua ka
 }{}
 
 % 17
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+fb201178-8253-5055-9687-526b99e246e6,aea2b278-db6e-56f4-8ada-b95a599ebaab,5,worked_example,en,ch_probability/TeX/ch_probability.tex,1739,1751,6abf2f4d2ddb585419533e54df200940b242bdebf2e51ce289aa11726cd927ee,id-ID,repo/ch_probability/TeX/ch_probability.tex,1728,1740,a9ab51d43e9a45f6e6cf6aaf67936a2f495afd193049010343b06c0e5a69d37e,language_reviewed,"\begin{examplewrap}
+\begin{nexample}{Harga buku teks adalah \$137 dan harga panduan belajar adalah \$33. Berapa besar pendapatan yang diperkirakan akan diperoleh toko buku dari kelas yang terdiri atas 100 mahasiswa ini?}\label{bookStoreRev}
+Sekitar 55 mahasiswa hanya akan membeli buku teks, sehingga menghasilkan pendapatan sebesar
+\begin{align*}
+\$137 \times  55 = \$7,535
+\end{align*}
+Sekitar 25 mahasiswa yang membeli buku teks dan panduan belajar akan membayar total sebesar
+\begin{align*}
+(\$137 + \$33) \times  25 = \$170 \times  25 = \$4,250
+\end{align*}
+Jadi, toko buku tersebut diperkirakan memperoleh sekitar $\$7,535 + \$4,250 = \$11,785$ dari 100 mahasiswa dalam satu kelas ini. Namun, mungkin terdapat \emph{variabilitas pengambilan sampel}, sehingga jumlah sebenarnya dapat sedikit berbeda.
+\end{nexample}
+\end{examplewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 fb869ea6-5b73-59f3-8049-f102985c9dee,993641eb-cf5b-50e6-9840-92d99ada6efe,5,subsection_prose,en,ch_probability/TeX/ch_probability.tex,924,946,f6cfcb9e5ae391ab92f8975c7861584ad81794e66dd5cd5e15e9e80a43531235,id-ID,repo/ch_probability/TeX/ch_probability.tex,924,944,6ca7eae36c5ae42674de5ce9e01a7b7cf0b8a07523923f2276ea2856b9fd689a,language_reviewed,"\footnotetext{Keempat kombinasi hasil tersebut saling lepas,
    semua peluangnya memang tak negatif, dan jumlah
@@ -8865,6 +9484,16 @@ Misalkan $X$ dan $Y$ menyatakan hasil pelemparan dua dadu.\footnotemark
 \end{enumerate}
 \end{nexercise}
 \end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+fe7c5541-b477-52ac-abcb-9150525e8925,3c13e4ec-802d-5481-9f06-1accf29c1e35,34,guided_inline_answer,en,ch_probability/TeX/ch_probability.tex,2176,2184,9658a555ad53b10b2596912d1b20c06c74943e698fe9576755159510bcb5acbf,id-ID,repo/ch_probability/TeX/ch_probability.tex,2165,2173,5c4f0625f0b7b625403443b2179377adddef5e910280370606b1fd7d96cb6132,language_reviewed,"\footnotetext{Persamaan untuk Elena dapat ditulis sebagai
+\begin{align*}
+(1)\times X + (-1)\times Y
+\end{align*}
+Varians $X$ dan $Y$ adalah 625 dan 64. Kita menguadratkan koefisien dan memasukkan nilai varians:
+\begin{align*}
+(1)^2\times Var(X) + (-1)^2\times Var(Y) = 1\times 625 + 1\times 64 = 689
+\end{align*}
+Varians kombinasi linear tersebut adalah 689, dan simpangan bakunya adalah akar kuadrat 689: sekitar \$26.25.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 fef409ed-68ae-5df8-99f9-1bcdbbd41d22,39e28dfa-9fb6-5555-bee7-6649c37a02b2,1,exercise,en,ch_intro_to_data/TeX/experiments.tex,75,80,7198a9425664e74022a5a0c52eeaee6bb11dfbf2ae9f5140266dc3dc463517c8,id-ID,repo/ch_intro_to_data/TeX/experiments.tex,75,80,2b07a67300f8e877e9dfb78197831d66276d41f7e89f60302bdf5f0d400a20fc,translated,"\eoce{\qt{Preferensi minuman bersoda\label{soda_preference}} Anda hendak melakukan eksperimen 
 di kelas untuk mengetahui apakah teman-teman sekelas Anda lebih menyukai rasa Coke biasa 

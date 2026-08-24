@@ -1,0 +1,243 @@
+{
+  "$schema": "interlanguage.r011-b012-final-translation-qa/v1",
+  "boundary_id": "R011-B012",
+  "recorded_at": "2026-08-24T07:34:22.5915743+02:00",
+  "status": "PASS_FINAL_CANDIDATE",
+  "model": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "scope": "Final translation QA for the complete Chapter 3 Section 3.4 Random variables candidate, its direct EoCE input, linked public odd answers, bounded preface terminology overlay, and terminal localized figure assets.",
+  "hash_algorithm": "SHA-256",
+  "terminal_candidate_artifacts": [
+    {
+      "path": "scratch/b012-candidate/ch_probability_section_3_4_id.tex",
+      "bytes": 27338,
+      "sha256": "869e13f8dc9ff9a9462c53089a877595cbf582d75a8cb967d6ecb6896afe6dfb"
+    },
+    {
+      "path": "scratch/b012-candidate/random_variables_B012.tex",
+      "bytes": 5606,
+      "sha256": "0537aae7489691233d605a6c63cca1d73b6d345a1a2e06fcedde0354f32a21fe"
+    },
+    {
+      "path": "scratch/b012-candidate/R011-B012_PUBLIC_ODD_ANSWERS.tex",
+      "bytes": 811,
+      "sha256": "0ca2e91a83c42a80d001863a483e2258d31d8097d35d1f3ed5198d4299391e7e"
+    },
+    {
+      "path": "scratch/b012-candidate/ch_probability_B012_source.tex",
+      "bytes": 135478,
+      "sha256": "c294c872ea02e1a72e74e1daf623e3a405069ae01d5b4c0529c9853f5b7e7fb4"
+    },
+    {
+      "path": "scratch/b012-candidate/eoceSolutions_B012_source.tex",
+      "bytes": 109040,
+      "sha256": "5eea635826351b4176eaaf73e3496e15402ca856933fa9b17f520726340aa56f"
+    },
+    {
+      "path": "scratch/b012-candidate/preface_B012_source.tex",
+      "bytes": 10080,
+      "sha256": "e2d3dc856591ed58a4a46e5573f694fe92f9b7f65ef428da5997fa1b7a336fb9"
+    }
+  ],
+  "candidate_receipt": {
+    "path": "scratch/b012-candidate/R011-B012_TRANSLATION_CANDIDATE_RECEIPT.json",
+    "bytes": 23788,
+    "sha256": "f2513dd8aa29eb4915ddbaf76005fc839e100939ad37b71a062d0823569aca6f",
+    "status": "COMPLETE_FINAL_CANDIDATE_STRUCTURALLY_VERIFIED_NO_BUILD_BY_INSTRUCTION"
+  },
+  "terminology_evidence": {
+    "qa": {
+      "path": "qa/b012-terminology/R011-B012_TERMINOLOGY_QA.json",
+      "bytes": 6408,
+      "sha256": "6a209eedb8e01949a0d77b16b8af348c1216ee20f34782ec6b87fde2093f22f7"
+    },
+    "controlled_terms": {
+      "path": "qa/b012-terminology/R011-B012_CONTROLLED_TERMS.tsv",
+      "bytes": 2343,
+      "sha256": "50574600ce8397a31e3be124e84d0e85565f2aa033c93ed9612ee1a57e05c713"
+    },
+    "terms_alias": {
+      "path": "qa/b012-terminology/R011-B012_TERMS.tsv",
+      "bytes": 2343,
+      "sha256": "50574600ce8397a31e3be124e84d0e85565f2aa033c93ed9612ee1a57e05c713",
+      "byte_identical_to_controlled_terms": true
+    }
+  },
+  "terminal_asset_chain": {
+    "closure_receipt": {
+      "path": "scratch/b012-assets/R011-B012_ASSET_CLOSURE.json",
+      "bytes": 7804,
+      "sha256": "1de02ff1c58a63c48f227e7208dd303003328b4bd3e2ad1988d3b74ae124c60f"
+    },
+    "localized_pdfs": [
+      {
+        "path": "scratch/b012-assets/localized/bookCostDist/bookCostDist.id-ID.pdf",
+        "byte_identical_staging_alias": "scratch/b012-assets/localized/bookCostDist/bookCostDist.pdf",
+        "bytes": 4769,
+        "sha256": "b127e803ddb9c5b69c098eea2a0c6b7a8e4f92ed21188f73282053c23e0c6cd9"
+      },
+      {
+        "path": "scratch/b012-assets/localized/changeInLeonardsStockPortfolioFor36Months/changeInLeonardsStockPortfolioFor36Months.id-ID.pdf",
+        "byte_identical_staging_alias": "scratch/b012-assets/localized/changeInLeonardsStockPortfolioFor36Months/changeInLeonardsStockPortfolioFor36Months.pdf",
+        "bytes": 7116,
+        "sha256": "f92cdbe188a71d17b58b303aeeacebf5958f1a6b34a74adcb56cfcad230283b7"
+      }
+    ]
+  },
+  "source_freeze": {
+    "main_overlay": {
+      "path": "repo/ch_probability/TeX/ch_probability.tex",
+      "lines_inclusive": "1702-2180",
+      "byte_start_zero_based": 100242,
+      "byte_end_exclusive": 126540,
+      "bytes": 26298,
+      "sha256": "1ff9e6d64ae6b949792f5829f54bb3458d83e54c9e148f9d7aadf96af68cf5ec"
+    },
+    "direct_eoce_input": {
+      "path": "repo/ch_probability/TeX/random_variables.tex",
+      "lines_inclusive": "1-114",
+      "bytes": 4804,
+      "sha256": "e6b7dd329d07781270b3545bc9ad641cc0d9c2972df274ea082119e9341ebc6c"
+    },
+    "public_answer_slice": {
+      "path": "repo/extraTeX/eoceSolutions/eoceSolutions.tex",
+      "lines_inclusive": "596-617",
+      "byte_start_zero_based": 27046,
+      "byte_end_exclusive": 27616,
+      "bytes": 570,
+      "sha256": "b05b301640ecfb6b84c623c9b8e26ab8b6eda9db4a6eebac4055512aa233b905"
+    }
+  },
+  "terminal_corrections": {
+    "layout_only_underfill_repair": {
+      "reason": "Deterministic visual QA rejected two major underfill defects.",
+      "main": {
+        "location": "Immediately after the Nilai harapan variabel acak diskret onebox.",
+        "removed_exact": "\\D{\\newpage}",
+        "replacement_exact": "% Tata letak: pemisah halaman paksa yang usang dihapus.",
+        "authorized_removed_macro_sequence": ["\\D", "\\newpage"],
+        "fragment_replacement_occurrences": 1,
+        "assembled_main_corresponding_replacement_occurrences": 1,
+        "pre_layout_fragment_reconstruction_sha256": "4222adfda1fd247b6ef6a01526565cce67f7731b5e713d579720f6d7239eb848",
+        "pre_layout_assembled_main_reconstruction_sha256": "26c34c2a5b4004be0b9205ceb132c29f312a8fce9bd59ef049528f7d34b38e73"
+      },
+      "direct_eoce_input": {
+        "location": "Immediately before % 33 / exercise 33.",
+        "inserted_exact": "\\D{\\newpage}",
+        "authorized_added_macro_sequence": ["\\D", "\\newpage"],
+        "insertion_occurrences": 1,
+        "pre_layout_reconstruction_sha256": "59431fdd5fc1d89638faa4bf9c0b336c44eee16e1c86b2eef29a3b8bf8f37566"
+      },
+      "reader_visible_prose_math_numbers_labels_refs_exercise_answer_ids_and_assets_unchanged": true,
+      "build_performed": false
+    },
+    "probability_distribution": {
+      "controlled_target": "distribusi peluang",
+      "reader_visible_synonym_occurrences_normalized": 7,
+      "legacy_reader_visible_distribusi_probabilitas_count": 0,
+      "accepted_glossary_synonym_retained": "distribusi probabilitas"
+    },
+    "expected_value_and_expectation": {
+      "controlled_target": "nilai harapan",
+      "subsection_and_reader_visible_prose_normalized": true,
+      "legacy_reader_visible_ekspektasi_count": 0
+    },
+    "chemistry_table_responses": {
+      "source_sequence": ["\\resp{noBook}", "\\resp{textbook}", "\\resp{both}"],
+      "candidate_sequence": ["\\resp{tanpa\\us{}buku}", "\\resp{buku\\us{}teks}", "\\resp{keduanya}"],
+      "legacy_source_response_tokens_remaining": false
+    },
+    "preface_consistency_overlay": {
+      "before": "Distribusi peubah acak.",
+      "after": "Distribusi variabel acak.",
+      "exact_single_string_replacement": true
+    }
+  },
+  "topology_qa": {
+    "main": {
+      "line_counts_source_candidate": [479, 479],
+      "macro_counts_source_candidate": [470, 470],
+      "macro_sequence_exact": false,
+      "authorized_macro_delta": "Two added \\us tokens localize multiword \\resp cells; one obsolete \\D and its nested \\newpage are removed after the expected-value onebox, producing zero net macro-count change.",
+      "authorized_added_macro_sequence": ["\\us", "\\us"],
+      "authorized_removed_layout_macro_sequence": ["\\D", "\\newpage"],
+      "macro_sequence_exact_after_reversing_only_authorized_localization_and_layout_deltas": true,
+      "environment_sequence_exact": true,
+      "environment_counts_source_candidate": [146, 146],
+      "numeric_sequence_exact": true,
+      "numeric_counts_source_candidate": [365, 365],
+      "label_ref_pageref_input_sequence_exact": true,
+      "protected_token_counts_source_candidate": [35, 35],
+      "raw_dollar_counts_source_candidate": [312, 312],
+      "brace_balance_source_candidate": [[0, 0], [0, 0]]
+    },
+    "direct_eoce_input": {
+      "line_counts_source_candidate": [114, 116],
+      "macro_sequence_exact": false,
+      "macro_counts_source_candidate": [76, 78],
+      "authorized_added_layout_macro_sequence_before_exercise_33": ["\\D", "\\newpage"],
+      "macro_sequence_exact_after_removing_only_authorized_layout_pair": true,
+      "environment_sequence_exact": true,
+      "environment_counts_source_candidate": [12, 12],
+      "numeric_sequence_exact": true,
+      "numeric_counts_source_candidate": [52, 52],
+      "label_sequence_exact": true,
+      "label_counts_source_candidate": [8, 8],
+      "raw_dollar_counts_source_candidate": [20, 20],
+      "brace_balance_source_candidate": [[0, 0], [0, 0]]
+    },
+    "public_answers": {
+      "public_ids": [29, 31, 33, 35],
+      "macro_sequence_exact": true,
+      "macro_counts_source_candidate_body": [5, 5],
+      "numeric_sequence_exact": true,
+      "numeric_counts_source_candidate_body": [14, 14],
+      "brace_balance_source_candidate_body": [[0, 0], [0, 0]],
+      "assembled_candidate_body_exact_occurrences": 1
+    },
+    "assembly": {
+      "assembled_main_contains_corrected_fragment_exactly_once": true,
+      "assembled_main_is_exact_canonical_prefix_plus_candidate_fragment_plus_canonical_suffix": true,
+      "assembled_answers_contains_public_candidate_body_exactly_once": true,
+      "source_order_preserved": true
+    }
+  },
+  "residue_qa": {
+    "status": "PASS",
+    "controlled_term_residue_count": 0,
+    "layout_comment_reader_visible": false,
+    "reader_visible_content_unchanged_by_layout_repair": true,
+    "live_reader_english_sentence_residue": false,
+    "legacy_distribusi_probabilitas_residue": false,
+    "legacy_ekspektasi_residue": false,
+    "legacy_english_response_token_residue": false,
+    "field_synonyms_not_used_in_candidate_prose": ["peubah acak", "variabel random", "variansi", "deviasi standar"],
+    "intentional_protected_or_conventional_residue": [
+      "English index keys retained for the existing index-key convention.",
+      "Stable labels, references, paths, TeX commands and environments, code/data identifiers, ticker symbols, and proper names.",
+      "Source-internal R comments and inactive editorial comments that are not reader-visible.",
+      "Card labels jack, queen, and king following the admitted Chapter 3 convention.",
+      "Out-of-scope English text in the full assembled source files."
+    ]
+  },
+  "answer_linkage": {
+    "eoce_ids": [29, 30, 31, 32, 33, 34, 35, 36],
+    "public_answer_ids": [29, 31, 33, 35],
+    "o001_gap_ids": [30, 32, 34, 36],
+    "restricted_solutions_accessed": false,
+    "restricted_solutions_invented": false
+  },
+  "execution_limits": {
+    "canonical_files_modified": false,
+    "controls_modified": false,
+    "backend_or_output_modified": false,
+    "git_or_network_used": false,
+    "build_performed": false,
+    "publication_performed": false
+  },
+  "terminal_inputs_frozen": true,
+  "next_deterministic_actions": [
+    "Hash-gate every terminal identity in this QA record and the candidate receipt.",
+    "Stage the layout-repaired fragment, EoCE input, public answers, preface overlay, and localized PDFs in the isolated B012 build harness.",
+    "Re-run the boundary build, cross-reference, pagination, rendered-page underfill, localized-asset, and post-build residue gates."
+  ]
+}

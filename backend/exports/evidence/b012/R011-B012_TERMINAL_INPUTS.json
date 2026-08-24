@@ -1,0 +1,151 @@
+{
+  "$schema": "interlanguage.r011-b012-terminal-inputs/v1",
+  "boundary_id": "R011-B012",
+  "closure": {
+    "eoce_exercises": [
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ],
+    "guided_exercises": 9,
+    "guided_inline_public_answers": 9,
+    "localized_assets": [
+      "bookCostDist",
+      "changeInLeonardsStockPortfolioFor36Months"
+    ],
+    "o001_gaps": [
+      30,
+      32,
+      34,
+      36
+    ],
+    "public_answers": [
+      29,
+      31,
+      33,
+      35
+    ],
+    "reader_pdf_pages": 427,
+    "restricted_solutions_accessed_or_invented": false,
+    "typed_corrections": 3,
+    "worked_examples": 8
+  },
+  "inputs": {
+    "assembled_answers": {
+      "bytes": 109040,
+      "path": "scratch/b012-candidate/eoceSolutions_B012_source.tex",
+      "sha256": "5eea635826351b4176eaaf73e3496e15402ca856933fa9b17f520726340aa56f"
+    },
+    "assembled_main": {
+      "bytes": 135478,
+      "path": "scratch/b012-candidate/ch_probability_B012_source.tex",
+      "sha256": "c294c872ea02e1a72e74e1daf623e3a405069ae01d5b4c0529c9853f5b7e7fb4"
+    },
+    "asset_closure_qa": {
+      "bytes": 7804,
+      "path": "scratch/b012-assets/R011-B012_ASSET_CLOSURE.json",
+      "sha256": "1de02ff1c58a63c48f227e7208dd303003328b4bd3e2ad1988d3b74ae124c60f"
+    },
+    "asset_inventory": {
+      "bytes": 3133,
+      "path": "scratch/b012-assets/ASSET_INVENTORY.tsv",
+      "sha256": "9b23fae59b7f5b59b727d40f7e4980b9e9ee0d35bcc3f66debc1a06845f54f6a"
+    },
+    "asset_localization_qa": {
+      "bytes": 2700,
+      "path": "qa/b012-assets/R011-B012_ASSET_LOCALIZATION_QA.json",
+      "sha256": "abe8247b934f908aefb072635fc1e233ba4ff5bd9ba045180ecb27b101ccc5a5"
+    },
+    "asset_sha256sums": {
+      "bytes": 2022,
+      "path": "scratch/b012-assets/SHA256SUMS.tsv",
+      "sha256": "f7a426cf7282b98b40560cbbe65974bbef340448152f773a4d00be9e4295ee07"
+    },
+    "build_receipt": {
+      "bytes": 16590,
+      "path": "qa/b012-build/final/CANDIDATE_BUILD_QA_B012.json",
+      "sha256": "17704eaba27975ba3489e501a9b4e5169dc668feb357e675fd316cb324cd6355"
+    },
+    "candidate_builder": {
+      "bytes": 61894,
+      "path": "scripts/build_b012_candidate.py",
+      "sha256": "a9c4d4aac2685e973277f5313e09ded6475cc195dc7012c2dc331106bed91bf2"
+    },
+    "controlled_terms": {
+      "bytes": 2343,
+      "path": "qa/b012-terminology/R011-B012_CONTROLLED_TERMS.tsv",
+      "sha256": "50574600ce8397a31e3be124e84d0e85565f2aa033c93ed9612ee1a57e05c713"
+    },
+    "eoce_fragment": {
+      "bytes": 5606,
+      "path": "scratch/b012-candidate/random_variables_B012.tex",
+      "sha256": "0537aae7489691233d605a6c63cca1d73b6d345a1a2e06fcedde0354f32a21fe"
+    },
+    "final_translation_qa": {
+      "bytes": 11161,
+      "path": "scratch/b012-candidate/R011-B012_FINAL_TRANSLATION_QA.json",
+      "sha256": "de0cd90ac9bec7185e212f4e56bc04329d3b9202340d7b6545095fa8750cb9e4"
+    },
+    "localized_book_cost_pdf": {
+      "bytes": 4769,
+      "path": "scratch/b012-assets/localized/bookCostDist/bookCostDist.id-ID.pdf",
+      "sha256": "b127e803ddb9c5b69c098eea2a0c6b7a8e4f92ed21188f73282053c23e0c6cd9"
+    },
+    "localized_book_cost_producer": {
+      "bytes": 1616,
+      "path": "scratch/b012-assets/localized/bookCostDist/bookCostDist.id-ID.R",
+      "sha256": "c615fb742ac5411691b5357ac439c431e03b54db35d2a0bf75ca660fc703b5a2"
+    },
+    "localized_leonard_pdf": {
+      "bytes": 7116,
+      "path": "scratch/b012-assets/localized/changeInLeonardsStockPortfolioFor36Months/changeInLeonardsStockPortfolioFor36Months.id-ID.pdf",
+      "sha256": "f92cdbe188a71d17b58b303aeeacebf5958f1a6b34a74adcb56cfcad230283b7"
+    },
+    "localized_leonard_producer": {
+      "bytes": 670,
+      "path": "scratch/b012-assets/localized/changeInLeonardsStockPortfolioFor36Months/changeInLeonardsStockPortfolioFor36Months.id-ID.R",
+      "sha256": "1c82e83f05643a4d3ef76c545f74bc3c88cb415bfb5cd72b3ff1e6bc097dc759"
+    },
+    "main_fragment": {
+      "bytes": 27338,
+      "path": "scratch/b012-candidate/ch_probability_section_3_4_id.tex",
+      "sha256": "869e13f8dc9ff9a9462c53089a877595cbf582d75a8cb967d6ecb6896afe6dfb"
+    },
+    "public_answers_fragment": {
+      "bytes": 811,
+      "path": "scratch/b012-candidate/R011-B012_PUBLIC_ODD_ANSWERS.tex",
+      "sha256": "0ca2e91a83c42a80d001863a483e2258d31d8097d35d1f3ed5198d4299391e7e"
+    },
+    "reader_pdf": {
+      "bytes": 22028312,
+      "path": "qa/b012-build/final/main.pdf",
+      "sha256": "5f1efd0f201cdedc1802e6393b608a075f05b23c77bc61f9460fb5c1a3c42e82"
+    },
+    "source_manifest": {
+      "bytes": 175582,
+      "path": "qa/b012-build/R011-B012_SOURCE_MANIFEST.tsv",
+      "sha256": "711c14901b07b385fd19d13bfafb04cf842d84d328ed60d5a770e7f67c9d62de"
+    },
+    "source_qa": {
+      "bytes": 15575,
+      "path": "qa/b012-build/R011-B012_SOURCE_QA.json",
+      "sha256": "95a8b83e97ef22f5f124ce8079ec764a66923ac3dfdabf8c21170e7d8d4047d2"
+    },
+    "terminology_qa": {
+      "bytes": 6408,
+      "path": "qa/b012-terminology/R011-B012_TERMINOLOGY_QA.json",
+      "sha256": "6a209eedb8e01949a0d77b16b8af348c1216ee20f34782ec6b87fde2093f22f7"
+    },
+    "visual_qa": {
+      "bytes": 7206,
+      "path": "qa/b012-visual/R011-B012_VISUAL_QA.json",
+      "sha256": "ebb6c77e09d2dbfa696d5f2045f42200db79604b5c87bde6a18c3800bbf7896b"
+    }
+  },
+  "status": "READY_TERMINAL_INPUTS"
+}

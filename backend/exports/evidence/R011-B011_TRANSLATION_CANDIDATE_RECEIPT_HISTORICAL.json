@@ -1,0 +1,297 @@
+{
+  "schema_version": "0.1.0",
+  "record_type": "translation_candidate_receipt",
+  "boundary_id": "R011-B011",
+  "status": "COMPLETE_CANDIDATE_STRUCTURALLY_VERIFIED",
+  "recorded_at": "2026-08-24T03:38:08.4228045+02:00",
+  "translation_provenance": "Direct English-to-id-ID translation by OpenAI Codex gpt-5.6-sol, acting on the user's request.",
+  "authority": {
+    "repository": "https://github.com/OpenIntroStat/openintro-statistics",
+    "branch": "master",
+    "commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "tree": "d61cc601e7d97759ce805900520f784d02a0489e",
+    "network_contact_performed": false
+  },
+  "scope": {
+    "section": "Chapter 3 Section 3.3, Sampling from a small population",
+    "start_anchor": "\\section{Sampling from a small population} followed by \\label{smallPop}",
+    "semantic_end_anchor_exclusive": "\\section{Random variables} followed by \\label{randomVariablesSection}",
+    "main_overlay_end_anchor_inclusive": "{\\input{ch_probability/TeX/sampling_from_a_small_population.tex}}",
+    "direct_inputs": [
+      "repo/ch_probability/TeX/sampling_from_a_small_population.tex"
+    ],
+    "nested_inputs": [],
+    "exercise_ids": [23, 24, 25, 26, 27, 28],
+    "public_answer_ids": [23, 25, 27],
+    "restricted_answer_ids_excluded": [24, 26, 28],
+    "source_order_preserved": true
+  },
+  "pinned_authority_files": [
+    {
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_probability/TeX/ch_probability.tex",
+      "bytes": 132799,
+      "sha256": "4f07fcf0e71e52bc99657835d5cced47b10ce9fc66b23dce156d400840690361"
+    },
+    {
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_probability/TeX/sampling_from_a_small_population.tex",
+      "bytes": 3969,
+      "sha256": "896af1ed6914b13013a1a18ebba09ba14b74cf925dbccf49e2b260f25d8e5e6e"
+    },
+    {
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/extraTeX/eoceSolutions/eoceSolutions.tex",
+      "bytes": 106045,
+      "sha256": "6c4e01376db4c023cc7b3f9949490e57220ef1cb831c580da71efde6ce723268"
+    }
+  ],
+  "canonical_pre_post_invariants": [
+    {
+      "path": "repo/ch_probability/TeX/ch_probability.tex",
+      "bytes_pre": 134071,
+      "sha256_pre": "d3496ef5f2cbcb3869ca62340b1643647126c546396e291ab72918266b21e55d",
+      "bytes_post": 134071,
+      "sha256_post": "d3496ef5f2cbcb3869ca62340b1643647126c546396e291ab72918266b21e55d",
+      "unchanged": true
+    },
+    {
+      "path": "repo/ch_probability/TeX/sampling_from_a_small_population.tex",
+      "bytes_pre": 3969,
+      "sha256_pre": "896af1ed6914b13013a1a18ebba09ba14b74cf925dbccf49e2b260f25d8e5e6e",
+      "bytes_post": 3969,
+      "sha256_post": "896af1ed6914b13013a1a18ebba09ba14b74cf925dbccf49e2b260f25d8e5e6e",
+      "unchanged": true
+    },
+    {
+      "path": "repo/extraTeX/eoceSolutions/eoceSolutions.tex",
+      "bytes_pre": 108741,
+      "sha256_pre": "0803ba4fdaa402d62535b52d07c365c54b561ab7e1f218f6815adc81ef8d3b5d",
+      "bytes_post": 108741,
+      "sha256_post": "0803ba4fdaa402d62535b52d07c365c54b561ab7e1f218f6815adc81ef8d3b5d",
+      "unchanged": true
+    }
+  ],
+  "source_ranges": {
+    "main_semantic_range": {
+      "path": "repo/ch_probability/TeX/ch_probability.tex",
+      "lines_inclusive": "1604-1701",
+      "byte_start_zero_based": 93217,
+      "byte_end_exclusive": 99875,
+      "bytes": 6658,
+      "sha256": "95bef1328565aa35c6f545d284e7fedeb59e4b40aa08a4a427b813c249e8d83a",
+      "note": "Includes the six terminal blank/comment lines before Section 3.4."
+    },
+    "main_overlay_fragment": {
+      "path": "repo/ch_probability/TeX/ch_probability.tex",
+      "lines_inclusive": "1604-1695",
+      "byte_start_zero_based": 93217,
+      "byte_end_exclusive": 99851,
+      "bytes": 6634,
+      "line_count": 92,
+      "sha256": "da7be78b7b571cfc58cc94c06f55fa8e6507d881d7bbc2bec5d1059f4883902b",
+      "note": "Complete translatable content from the Section 3.3 heading through the EoCE input."
+    },
+    "direct_exercise_input": {
+      "path": "repo/ch_probability/TeX/sampling_from_a_small_population.tex",
+      "lines_inclusive": "1-100",
+      "byte_start_zero_based": 0,
+      "byte_end_exclusive": 3969,
+      "bytes": 3969,
+      "line_count": 100,
+      "sha256": "896af1ed6914b13013a1a18ebba09ba14b74cf925dbccf49e2b260f25d8e5e6e"
+    },
+    "public_odd_answer_slice": {
+      "authority_path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/extraTeX/eoceSolutions/eoceSolutions.tex",
+      "authority_lines_inclusive": "525-546",
+      "repo_path": "repo/extraTeX/eoceSolutions/eoceSolutions.tex",
+      "repo_lines_inclusive": "571-592",
+      "repo_byte_start_zero_based": 26152,
+      "repo_byte_end_exclusive": 26797,
+      "bytes": 645,
+      "line_count": 22,
+      "sha256": "789c23ade274af5dd6dd760286c1f08c6ee1d23681333a8400a48fec5527ac21",
+      "selection": "Probability-chapter public answers 23, 25, and 27, including terminal blank line and ending before answer 29."
+    }
+  },
+  "candidates": [
+    {
+      "path": "scratch/b011-candidate/ch_probability_section_3_3_id.tex",
+      "role": "Section 3.3 source-order overlay fragment through the preserved EoCE input",
+      "bytes": 6921,
+      "lines": 92,
+      "sha256": "c7cd73d277fde5db0ab4b7cb42ff1af4e831e11ea9fd591a56089c4fa3a46e34"
+    },
+    {
+      "path": "scratch/b011-candidate/sampling_from_a_small_population_B011.tex",
+      "role": "Complete Indonesian overlay for EoCE exercises 23-28; all six answer arguments remain empty",
+      "bytes": 4492,
+      "lines": 100,
+      "sha256": "38816f705909bd5959ed39520d5c9f01bd4fb3b41d255cc19dc0d1a799d12915"
+    },
+    {
+      "path": "scratch/b011-candidate/R011-B011_PUBLIC_ODD_ANSWERS.tex",
+      "role": "Pinned public odd-answer overlay for exercises 23, 25, and 27 only",
+      "bytes": 906,
+      "lines": 24,
+      "sha256": "10962901917883446d496fd327d241c2c5fff0491da8786b5e029e5ca4b09e09"
+    },
+    {
+      "path": "scratch/b011-candidate/ch_probability_B011_source.tex",
+      "role": "Full current-repo main source with the Section 3.3 candidate inserted exactly once",
+      "bytes": 134358,
+      "lines": 2318,
+      "sha256": "67de19cd97fe8638e0eb2a692d7ff7bad8d8d3b40bddbb6e905571d2920c8f25"
+    },
+    {
+      "path": "scratch/b011-candidate/eoceSolutions_B011_source.tex",
+      "role": "Full current-repo public-answer source with B011 answers 23, 25, and 27 inserted exactly once",
+      "bytes": 108815,
+      "lines": 2634,
+      "sha256": "917daf79bf56472d70093c2a1eaa82ef61da0ed3a63c710bdd8ddc1931b89762"
+    }
+  ],
+  "content_inventory": {
+    "main": {
+      "sections": 1,
+      "labels": 5,
+      "refs": 6,
+      "examples": 3,
+      "guided_exercises": 4,
+      "source_provided_guided_answers": 4,
+      "explanatory_footnotes": 1,
+      "align_environments": 3,
+      "inputs": 1
+    },
+    "exercise_input": {
+      "eoce_exercises": 6,
+      "labels": 6,
+      "parts_items": 20,
+      "tables": 1,
+      "explicit_accessibility_description_macros": 0,
+      "empty_answer_arguments": 6
+    },
+    "public_answer_layer": {
+      "eocesol_entries": 3,
+      "answer_ids": [23, 25, 27]
+    }
+  },
+  "structural_verification": {
+    "main_macro_sequence_exact": true,
+    "main_macro_counts_source_candidate": [149, 149],
+    "main_environment_sequence_exact": true,
+    "main_environment_token_counts_source_candidate": [34, 34],
+    "main_numeric_sequence_exact": true,
+    "main_numeric_token_counts_source_candidate": [66, 66],
+    "main_protected_label_ref_input_var_sequence_exact": true,
+    "main_protected_token_counts_source_candidate": [24, 24],
+    "main_resp_not_us_picked_counts_source_candidate": [12, 12],
+    "main_math_dollar_counts_source_candidate": [34, 34],
+    "main_brace_balance_source_candidate": [[0, 0], [0, 0]],
+    "exercise_macro_sequence_exact": true,
+    "exercise_macro_counts_source_candidate": [66, 66],
+    "exercise_environment_sequence_exact": true,
+    "exercise_environment_token_counts_source_candidate": [14, 14],
+    "exercise_numeric_sequence_exact": true,
+    "exercise_numeric_token_counts_source_candidate": [43, 43],
+    "exercise_label_sequence_exact": true,
+    "exercise_label_counts_source_candidate": [6, 6],
+    "exercise_ampersand_counts_source_candidate": [18, 18],
+    "exercise_empty_answer_argument_counts_source_candidate": [6, 6],
+    "exercise_brace_balance_source_candidate": [[0, 0], [0, 0]],
+    "public_answer_macro_sequence_exact": true,
+    "public_answer_macro_counts_source_candidate": [16, 16],
+    "public_answer_numeric_sequence_exact": true,
+    "public_answer_numeric_token_counts_source_candidate": [35, 35],
+    "public_answer_math_dollar_counts_source_candidate": [18, 18],
+    "assembled_main_contains_candidate_exactly_once": true,
+    "assembled_answers_contains_candidate_block_exactly_once": true,
+    "lacheck": {
+      "main_exit_code": 0,
+      "exercise_exit_code": 0,
+      "public_answers_exit_code": 0,
+      "main_nonfatal_diagnostics": [
+        "Possible unwanted spaces at source-preserved math-text braces on candidate lines 45 and 47.",
+        "Source-preserved literal ellipsis on candidate line 80; lacheck prefers \\ldots.",
+        "The isolated scratch fragment cannot resolve its canonical input path until staged for integration."
+      ]
+    }
+  },
+  "terminology_decisions": [
+    {
+      "source": "sampling / sample / population",
+      "target": "pengambilan sampel / sampel / populasi",
+      "basis": "Admitted R011 terminology."
+    },
+    {
+      "source": "without replacement / with replacement",
+      "target": "tanpa pengembalian / dengan pengembalian",
+      "basis": "Conventional Indonesian probability and sampling terminology; used consistently in instruction, exercises, and answers."
+    },
+    {
+      "source": "probability",
+      "target": "peluang",
+      "basis": "R011-TERM-0160 preference for individual-event probability."
+    },
+    {
+      "source": "independent / independence",
+      "target": "saling independen / independensi expressed propositionally",
+      "basis": "Admitted relationship terminology; prose uses saling independen for multiple draws or observations."
+    },
+    {
+      "source": "General Multiplication Rule / Guided Practice",
+      "target": "Aturan Perkalian Umum / Latihan Terbimbing",
+      "basis": "Matches admitted Chapter 3 terminology and capitalization."
+    },
+    {
+      "source": "marginal probability / conditional probability",
+      "target": "peluang marginal / peluang bersyarat",
+      "basis": "Matches the admitted B010 Chapter 3 rendering."
+    },
+    {
+      "source": "marble / chip / hardcover / paperback",
+      "target": "kelereng / keping / sampul keras / sampul lunak",
+      "basis": "Natural id-ID object and book-format vocabulary."
+    }
+  ],
+  "english_residue_classification": {
+    "live_reader_prose": "PASS: no obvious English sentence residue in the three bounded candidate fragments.",
+    "intentional_residue": [
+      "Twelve occurrences of \\resp{not\\us{}picked} remain unchanged as protected source response identifiers.",
+      "Variable tokens Q1, Q2, and Q3, labels, references, input paths, TeX command/environment names, and exercise label IDs remain unchanged.",
+      "The full assembled files contain later out-of-scope English sections and answers by design; residue classification applies only to B011 fragments."
+    ]
+  },
+  "accessibility_and_references": {
+    "cross_references_preserved": true,
+    "labels_preserved": true,
+    "code_or_data_references_in_scope": [],
+    "figures_or_media_in_scope": [],
+    "source_accessibility_text_in_scope": [],
+    "table_note": "The source table has introductory descriptive prose but no explicit alt-text or tagged-table macro; that prose is translated and table topology is unchanged."
+  },
+  "restricted_solution_control": {
+    "restricted_solutions_accessed": false,
+    "restricted_solutions_invented": false,
+    "public_answers_used": [23, 25, 27],
+    "even_exercise_answer_arguments_preserved_empty": [24, 26, 28]
+  },
+  "restrictions": {
+    "canonical_files_modified": false,
+    "backend_modified": false,
+    "output_modified": false,
+    "controls_modified": false,
+    "publication_state_modified": false,
+    "git_used": false,
+    "network_used": false,
+    "publication_performed": false
+  },
+  "unresolved_items": [
+    {
+      "item": "Integration and complete-book PDF build were not run from isolated scratch overlays.",
+      "next_action": "Stage the three fragments at their canonical paths, use the assembled files as byte-identity references, then run the boundary's deterministic full build, cross-reference, and rendered-page gates."
+    },
+    {
+      "item": "The upstream table has no dedicated accessibility-description macro.",
+      "next_action": "Preserve the translated introductory description during integration; any new table-accessibility mechanism would be a separate topology-changing task."
+    }
+  ],
+  "next_needed_review": "Integrate ch_probability_section_3_3_id.tex at repo main lines 1604-1695, install sampling_from_a_small_population_B011.tex at the preserved input path, merge only public answers 23/25/27, verify exact candidate occurrence, then run full LaTeX/PDF, cross-reference, pagination, and bounded English-residue QA."
+}

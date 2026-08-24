@@ -17,7 +17,7 @@ myPDF("changeInLeonardsStockPortfolioFor36Months.pdf", 5, 2.15,
       mgp = c(2.3, 0.6, 0))
 boxPlot(ret,
         main = "",
-        xlab = "Monthly Returns Over 3 Years",
+        xlab = "Imbal Hasil Bulanan Selama 3 Tahun",
         ylab = "",
         horiz = TRUE,
         axes = FALSE,

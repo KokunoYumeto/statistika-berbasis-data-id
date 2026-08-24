@@ -59,7 +59,7 @@ prob <- c(0.2, .55, .25)
 par(mar = c(2.9, 4, 0.1, 0.5),
     mgp = c(1.7, 0.7, 0))
 probDist(at, prob,
-         xlab = 'Cost',
+         xlab = 'Biaya',
          ylab = '',
          ylim = c(-0.02, 0.55),
          col = COL[1])
@@ -69,5 +69,5 @@ polygon(117.85 + c(-17, 17, 0),
         c(-0.08, -0.08, 0),
         col = COL[4])
 par(las = 0)
-mtext('Probability', side = 2, line = 2.8)
+mtext('Peluang', side = 2, line = 2.8)
 dev.off()

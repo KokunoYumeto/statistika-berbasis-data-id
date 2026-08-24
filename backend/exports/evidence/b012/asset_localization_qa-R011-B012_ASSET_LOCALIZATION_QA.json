@@ -1,0 +1,64 @@
+{
+  "$schema": "interlanguage.r011-b012-asset-localization-qa/v1",
+  "boundary_id": "R011-B012",
+  "status": "PASS",
+  "production_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "scope": {
+    "direct_figures": 4,
+    "localized_derivatives": 2,
+    "retained_byte_exact_figures": 2,
+    "unresolved_assets": 0
+  },
+  "determinism": {
+    "pass_1_root": "scratch/b012-assets/localized-pass1",
+    "pass_2_root": "scratch/b012-assets/localized-pass2",
+    "terminal_root": "scratch/b012-assets/localized",
+    "all_terminal_outputs_byte_identical_to_both_replays": true,
+    "bookCostDist_sha256": "b127e803ddb9c5b69c098eea2a0c6b7a8e4f92ed21188f73282053c23e0c6cd9",
+    "changeInLeonardsStockPortfolioFor36Months_sha256": "f92cdbe188a71d17b58b303aeeacebf5958f1a6b34a74adcb56cfcad230283b7"
+  },
+  "checks": [
+    {
+      "figure_id": "bookCostDist",
+      "page_box_points": [360, 165],
+      "required_visible_text": ["Biaya", "Peluang"],
+      "forbidden_visible_text": ["Cost", "Probability"],
+      "render": "scratch/b012-assets/preview-localized/bookCostDist-id.png",
+      "result": "PASS",
+      "finding": "Both localized axis labels are centered, legible, and unclipped; bars, axes, tick values, and probability geometry are unchanged."
+    },
+    {
+      "figure_id": "changeInLeonardsStockPortfolioFor36Months",
+      "page_box_points": [360, 154],
+      "required_visible_text": ["Imbal Hasil Bulanan Selama 3 Tahun"],
+      "forbidden_visible_text": ["Monthly Returns Over 3 Years"],
+      "render": "scratch/b012-assets/preview-localized/change-id.png",
+      "result": "PASS",
+      "finding": "The localized title is centered, legible, and unclipped; dot plot, box plot, axes, tick values, and numerical geometry are unchanged."
+    }
+  ],
+  "retained_sources": [
+    {
+      "figure_id": "bookWts",
+      "reason": "numeric-only reader-visible content",
+      "sha256": "61d583f6f7659576f725161c04480e293d4f8d1eb9498dda8654e5fb6a5c9620"
+    },
+    {
+      "figure_id": "contBalance",
+      "reason": "mathematical-symbol-only reader-visible content",
+      "sha256": "ddcbecb1e43d7f3dd0856bc99d86138eb78838beeb5262ce37cee23eecddddda"
+    }
+  ],
+  "producer": {
+    "path": "scripts/localize_figures_b012.py",
+    "bytes": 8419,
+    "sha256": "cdee9faa90a24f57d4d214aa82b1adbb8c17bc85ffb19c988a48f25db8309e7b"
+  },
+  "rights": {
+    "classification": "CC-BY-SA-3.0-repository-declaration",
+    "semantic_change": false,
+    "credit_rule": "Preserve upstream authors, component authors, and all human contributor credits."
+  },
+  "defects": [],
+  "verdict": "The four-figure boundary is closed; the two English-language labels are localized without semantic or geometrical alteration."
+}
