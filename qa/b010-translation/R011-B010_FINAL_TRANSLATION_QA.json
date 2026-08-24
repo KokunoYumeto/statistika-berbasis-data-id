@@ -1,0 +1,118 @@
+{
+  "$schema": "interlanguage.translation-boundary-qa",
+  "schema_version": "1.0.0",
+  "boundary_id": "R011-B010",
+  "recorded_at": "2026-08-23T22:27:00+02:00",
+  "status": "PASS_FINAL_CANDIDATE",
+  "production_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "authority": {
+    "repository": "https://github.com/OpenIntroStat/openintro-statistics",
+    "branch": "master",
+    "commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "tree": "d61cc601e7d97759ce805900520f784d02a0489e",
+    "reader": "https://www.openintro.org/book/os/"
+  },
+  "coverage": {
+    "instructional_unit": "Chapter 3, Section 3.2, Conditional probability / Peluang bersyarat, complete in source order",
+    "subsections": 8,
+    "worked_examples": 6,
+    "guided_exercises_with_public_inline_answers": 15,
+    "end_of_chapter_exercises": [13, 14, 15, 16, 17, 18, 19, 20, 21, 22],
+    "public_end_of_chapter_answers": [13, 15, 17, 19, 21],
+    "o001_gaps": [14, 16, 18, 20, 22],
+    "next_untranslated_anchor": "ch_probability/TeX/ch_probability.tex#smallPop"
+  },
+  "final_inputs": {
+    "translated_section_fragment": {
+      "path": "scratch/b010-candidate/ch_probability_section_3_2_id.tex",
+      "bytes": 49228,
+      "sha256": "9128d8e57aa785a35f7abed60e352f5332cb0b15029aae266fe728994e591c8a"
+    },
+    "assembled_chapter_source": {
+      "path": "scratch/b010-candidate/ch_probability_B010_source.tex",
+      "bytes": 134071,
+      "sha256": "d3496ef5f2cbcb3869ca62340b1643647126c546396e291ab72918266b21e55d"
+    },
+    "translated_eoce": {
+      "path": "scratch/b010-candidate/conditional_probability_B010.tex",
+      "bytes": 11269,
+      "sha256": "c8b01bd990e1808fb40c40e4c8b162884644d02f60c30c0177a7827af0ef050c"
+    },
+    "translated_public_answers": {
+      "path": "scratch/b010-candidate/R011-B010_PUBLIC_ODD_ANSWERS.tex",
+      "bytes": 3270,
+      "sha256": "7daeea71b9b02faee4fbbe81de0543dd52f2dd111814236437cc56eaa5e2d9cb"
+    },
+    "assembled_public_answer_source": {
+      "path": "scratch/b010-candidate/eoceSolutions_B010_source.tex",
+      "bytes": 108741,
+      "sha256": "0803ba4fdaa402d62535b52d07c365c54b561ab7e1f218f6815adc81ef8d3b5d"
+    }
+  },
+  "terminal_evidence": {
+    "source_overlay_qa": {
+      "path": "qa/b010-build/R011-B010_SOURCE_QA.json",
+      "bytes": 9189,
+      "sha256": "55278e10495863e9e386269ba57f659a1b6e9f3000dcb063b4a30c59dc6cf4ab",
+      "status": "PASS_ISOLATED_OVERLAY_CLOSURE"
+    },
+    "terminology_field_usage_qa": {
+      "path": "qa/b010-terminology/R011-B010_PROBABILITY_TERMINOLOGY_QA.json",
+      "bytes": 11720,
+      "sha256": "3239cbe0773945808f1fad2aea8eae8492ce467c4a21bb1826c39f713aa99006",
+      "status": "passed_decisions_propagated_to_candidate"
+    },
+    "deterministic_build_qa": {
+      "path": "qa/b010-build/final/CANDIDATE_BUILD_QA_B010.json",
+      "bytes": 13089,
+      "sha256": "ad44b741422f7318e194898f6509a47f3357b76b7deae8e8946b7f99475e11b7",
+      "status": "PASS_ISOLATED_DETERMINISTIC_BUILD"
+    },
+    "bounded_visual_qa": {
+      "path": "qa/b010-visual/R011-B010_VISUAL_QA.json",
+      "bytes": 3621,
+      "sha256": "c1bae04c23a919e087e317f0ef25beb58897d8025c509bd273d6cf8a20bec6e0",
+      "status": "PASS"
+    }
+  },
+  "language_and_mathematics": {
+    "reader_prose": "Natural id-ID reviewed across the complete admitted window; no live English prose remains inside Section 3.2 or EoCE 13-22 beyond proper names, trademarks, citations, stable identifiers, code, and literal data labels.",
+    "controlled_terms": [
+      "peluang",
+      "peluang bersyarat",
+      "peluang marginal",
+      "peluang bersama",
+      "distribusi peluang bersama",
+      "Aturan Perkalian Umum",
+      "diagram pohon",
+      "cabang utama",
+      "saling independen",
+      "Teorema Bayes",
+      "statistika Bayes",
+      "positif palsu",
+      "negatif palsu"
+    ],
+    "mathematical_preservation": "Numbers, formulas, labels, references, exercise-answer relations, data/variable identifiers, and source order are preserved. Layout-only formula reflow uses equivalent aligned/gathered presentation.",
+    "restricted_solutions": "No restricted instructor solution was accessed, reconstructed, or invented."
+  },
+  "source_corrections": [
+    "Public answer 13(c) now points to the correct source calculation in part (b-i).",
+    "Public answer 17(d) repairs malformed English grammar without changing its assumption or arithmetic.",
+    "The smallpox variable footnote uses the defined variable result instead of the stray outcome name.",
+    "The 0.0689 test-tree leaf accessibility text is corrected from other-and-other to A-and-other in Indonesian."
+  ],
+  "historical_receipts": {
+    "paths": [
+      "scratch/b010-candidate/R011-B010_MAIN_TRANSLATION_RECEIPT.json",
+      "scratch/b010-candidate/R011-B010_EOCE_TRANSLATION_RECEIPT.json"
+    ],
+    "classification": "pre_terminology_and_pre_layout_historical_evidence",
+    "warning": "Their candidate hashes and initial terminology decisions are superseded by this terminal receipt and must not be used as admission identities."
+  },
+  "rights": {
+    "text_and_translation": "CC BY-SA 3.0 starting point",
+    "component_specific_rights": "Preserved in the component-rights and asset-closure records; repository visibility is not treated as uniform licensing.",
+    "terminology_witness_files": "Internal evidence only; restrictive external PDF/text/renders are excluded from public release bytes."
+  },
+  "upstream_contact": false
+}

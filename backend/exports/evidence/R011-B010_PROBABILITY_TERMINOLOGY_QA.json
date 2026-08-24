@@ -1,0 +1,233 @@
+{
+  "$schema": "interlanguage.terminology-field-usage-qa",
+  "schema_version": "1.1.0",
+  "boundary_id": "R011-B010",
+  "recorded_at": "2026-08-23T21:36:05+02:00",
+  "status": "passed_decisions_propagated_to_candidate",
+  "instruction_scope": "One-time probability-field Indonesian terminology check before R011-B010 assembly and further translation.",
+  "production_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "credit_rule": "The model provenance note is additive. All upstream author, source, and human-contributor credits remain intact.",
+  "arxiv_search": {
+    "method": "Bounded arXiv searches for Indonesian probability terminology, followed by inspection of the closest statistics candidate and its e-print response.",
+    "queries": [
+      "peluang bersyarat",
+      "probabilitas bersyarat",
+      "statistika peluang",
+      "teorema bayes",
+      "Indonesian statistics sampling distribution"
+    ],
+    "outcome": "no_suitable_indonesian_probability_source_with_downloadable_tex_found_in_bounded_search",
+    "negative_claim_limit": "This is a bounded-search result, not a claim that no such arXiv source exists.",
+    "closest_candidate": {
+      "arxiv_id": "2002.04384",
+      "title": "A Case Study of Promoting Informal Inferential Reasoning in Learning Sampling Distribution for High School Students",
+      "authors": [
+        "Geovani Debby Setyani",
+        "Yosep Dwi Kristanto"
+      ],
+      "category": "stat.OT",
+      "abstract_url": "https://arxiv.org/abs/2002.04384",
+      "eprint_url": "https://arxiv.org/e-print/2002.04384",
+      "response_path": "authority/terminology/2026-08-23/arxiv-2002.04384-e-print-response.pdf",
+      "response_bytes": 346717,
+      "response_sha256": "41493435d1eb757950ec6d6982f601b5d7859ab27a218cc28262c16736384854",
+      "text_path": "authority/terminology/2026-08-23/arxiv-2002.04384-e-print-response.txt",
+      "text_bytes": 52429,
+      "text_sha256": "c9ed8d878d1fda9f3fe903280e89ebe98fb55cd4d8c6ef39587863c58050d53d",
+      "package_observation": "The e-print endpoint returned a PDF, not a TeX source archive; there was therefore no TeX package to unpack.",
+      "language_observation": "The paper has an Indonesian abstract and keywords, but its instructional body is English.",
+      "suitability_decision": "rejected_as_probability_terminology_witness",
+      "reason": "It is near-field statistics-education work, but not an Indonesian-language probability exposition and provides no Indonesian TeX body terminology."
+    }
+  },
+  "fallback_field_source": {
+    "title": "Teori Peluang",
+    "authors": [
+      "Hidayah Ansori",
+      "Noor Fajriah",
+      "Yuni Suryaningsih"
+    ],
+    "institution_and_publisher": "Jurusan Pendidikan Matematika dan IPA, FKIP, Universitas Lambung Mangkurat",
+    "edition": "Edisi Kesatu",
+    "publication_date": "September 2021",
+    "isbn": "978-623-97654-2-2",
+    "landing_url": "https://repo-dosen.ulm.ac.id/handle/123456789/23100",
+    "pdf_path": "authority/terminology/2026-08-23/Ansori-Fajriah-Suryaningsih-2021-Teori-Peluang.pdf",
+    "pdf_pages": 266,
+    "pdf_bytes": 2124755,
+    "pdf_sha256": "1861dbfac23304dc4743546be39c00e995c213c9082955dac2619e5de304d358",
+    "text_path": "authority/terminology/2026-08-23/Ansori-Fajriah-Suryaningsih-2021-Teori-Peluang.txt",
+    "text_bytes": 386031,
+    "text_sha256": "9b166a905c99a321eef25e2cc6932a5573037ae9441a866282d08154cd491707",
+    "visual_pdf_pages_inspected": [30, 35, 126],
+    "visual_observations": [
+      "Physical PDF page 30 visibly heads Section 1.5 as Peluang Bersyarat.",
+      "Physical PDF page 35 visibly heads Section 1.6 as Teorema Bayes and uses both peristiwa and kejadian in exposition.",
+      "Physical PDF page 126 visibly heads Chapter IV as Distribusi Peluang Gabungan and describes simultaneous outcomes."
+    ],
+    "rights_notice": "The PDF states that copyright is protected and reproduction requires written permission except short quotations for scientific research or review.",
+    "release_handling": "Internal terminology witness only. Exclude the PDF, extracted text, and rendered review pages from public release payloads; publish only bibliographic identity, URLs, observations, and cryptographic hashes.",
+    "count_method": "Case-insensitive Unicode-letter-bounded phrase matches in the extracted text.",
+    "representative_counts": {
+      "peluang_bersyarat": 8,
+      "probabilitas_bersyarat": 1,
+      "peluang_bersama": 4,
+      "peluang_gabungan": 20,
+      "saling_bebas": 18,
+      "independen": 28,
+      "diagram_pohon": 4,
+      "teorema_bayes": 3,
+      "kejadian": 119,
+      "peristiwa": 44
+    },
+    "quality_caveat": "This is a representative field-usage witness, not a linguistic authority. It contains inconsistent terminology and typographical defects, so its forms were evaluated against mathematical meaning and edition consistency rather than copied mechanically."
+  },
+  "university_usage_corroboration": [
+    {
+      "source": "Universitas Katolik Parahyangan, Statistika untuk Komputasi",
+      "url": "https://informatika.unpar.ac.id/program-sarjana/kurikulum-s-1/statistika-untuk-komputasi/",
+      "observation": "Uses distribusi peluang."
+    },
+    {
+      "source": "Universitas Gadjah Mada, Statistika dan Probabilitas",
+      "url": "https://istiarto.staff.ugm.ac.id/index.php/kuliah/sarjana-s1/statistika-dan-probabilitas/",
+      "observation": "Uses distribusi probabilitas and probabilitas bersyarat."
+    },
+    {
+      "source": "Universitas Negeri Padang, Kurikulum Program Diploma III Departemen Statistika",
+      "url": "https://statistika.fmipa.unp.ac.id/?page_id=541",
+      "observation": "Uses distribusi peluang, fungsi peluang gabungan, and fungsi peluang bersyarat."
+    },
+    {
+      "source": "Institut Pertanian Bogor curriculum",
+      "url": "https://panduansupport.ipb.ac.id/ProgramStudi/Kurikulum/Detail/S1/1045",
+      "observation": "Uses the course title Pengantar Statistika Bayes while its description also uses Bayesian."
+    }
+  ],
+  "decisions": [
+    {
+      "source_term": "probability",
+      "target_term": "peluang",
+      "decision": "retain_and_apply_systematically",
+      "reason": "Peluang is the natural default for an event or result; probabilitas remains an accepted variant and is retained only in an established compound."
+    },
+    {
+      "source_term": "probability distribution",
+      "target_term": "distribusi probabilitas",
+      "accepted_variant": "distribusi peluang",
+      "decision": "retain_existing_edition_term",
+      "reason": "Both forms are established in Indonesian university usage. Retaining the already controlled compound avoids an unnecessary cross-boundary churn while event-level probability remains peluang."
+    },
+    {
+      "source_term": "conditional probability",
+      "target_term": "peluang bersyarat",
+      "decision": "retain",
+      "reason": "Directly supported by the fallback probability text and semantically transparent."
+    },
+    {
+      "source_term": "marginal probability",
+      "target_term": "peluang marginal",
+      "decision": "refine_candidate",
+      "reason": "Harmonizes the head noun with event-level peluang and matches field usage."
+    },
+    {
+      "source_term": "joint probability",
+      "target_term": "peluang bersama",
+      "accepted_variant": "peluang gabungan",
+      "decision": "refine_candidate",
+      "reason": "Bersama cleanly denotes simultaneous/intersection probability; reserving gabungan for set union avoids ambiguity. Indonesian mathematical sources attest both forms."
+    },
+    {
+      "source_term": "joint probability distribution",
+      "target_term": "distribusi peluang bersama",
+      "accepted_variant": "distribusi peluang gabungan",
+      "decision": "refine_candidate",
+      "reason": "Uses the edition's scalar term peluang bersama while recording the fallback text's established gabungan form as a variant."
+    },
+    {
+      "source_term": "independent",
+      "target_term": "saling independen",
+      "accepted_variant": "saling bebas",
+      "decision": "retain",
+      "reason": "Both are established; the existing edition term remains clear and symmetric."
+    },
+    {
+      "source_term": "tree diagram",
+      "target_term": "diagram pohon",
+      "decision": "retain",
+      "reason": "Directly attested and aligned with the localized figures."
+    },
+    {
+      "source_term": "primary branch",
+      "target_term": "cabang utama",
+      "decision": "harmonize_candidate_and_alt_text",
+      "reason": "Natural Indonesian and exactly aligned with the visible localized-figure labels."
+    },
+    {
+      "source_term": "Bayes' Theorem",
+      "target_term": "Teorema Bayes",
+      "decision": "retain",
+      "reason": "Directly attested by the fallback text."
+    },
+    {
+      "source_term": "Bayesian statistics",
+      "target_term": "statistika Bayes",
+      "accepted_variant": "statistika Bayesian",
+      "decision": "refine_candidate",
+      "reason": "The official IPB course title uses Statistika Bayes; Bayesian remains an established adjectival variant."
+    }
+  ],
+  "candidate_propagation": {
+    "main": {
+      "path": "scratch/b010-candidate/ch_probability_section_3_2_id.tex",
+      "bytes": 49228,
+      "sha256": "9128d8e57aa785a35f7abed60e352f5332cb0b15029aae266fe728994e591c8a"
+    },
+    "eoce": {
+      "path": "scratch/b010-candidate/conditional_probability_B010.tex",
+      "bytes": 11269,
+      "sha256": "c8b01bd990e1808fb40c40e4c8b162884644d02f60c30c0177a7827af0ef050c"
+    },
+    "public_odd_answers": {
+      "path": "scratch/b010-candidate/R011-B010_PUBLIC_ODD_ANSWERS.tex",
+      "bytes": 3270,
+      "sha256": "7daeea71b9b02faee4fbbe81de0543dd52f2dd111814236437cc56eaa5e2d9cb"
+    },
+    "changes_applied": [
+      "probabilitas marginal -> peluang marginal",
+      "probabilitas gabungan -> peluang bersama",
+      "statistika Bayesian -> statistika Bayes",
+      "cabang primer -> cabang utama",
+      "generic event-level probabilitas -> peluang",
+      "EoCE heading Peluang gabungan -> Peluang bersama",
+      "public-answer independence sentence made idiomatic without changing its stated assumption",
+      "overwide Bayes denominator reflowed into a mathematically identical stacked denominator after visual QA",
+      "two long probability displays reflowed into mathematically identical aligned rows",
+      "three prose passages tightened without changing mathematical or medical content to prevent margin overflow"
+    ],
+    "cross_boundary_result": "No B001-B009 prose mutation was required. The one potentially broader term, distribusi probabilitas, was consciously retained because both distributions terms are established and it is already the edition-controlled compound.",
+    "post_gate_residue": {
+      "generic_probabilitas_in_main_eoce_answers": 0,
+      "permitted_distribusi_probabilitas_compound_in_main": 1,
+      "probabilitas_gabungan": 0,
+      "probabilitas_marginal": 0,
+      "statistika_bayesian": 0,
+      "cabang_primer": 0
+    }
+  },
+  "source_accessibility_corrections": [
+    {
+      "source_location": "ch_probability/TeX/ch_probability.tex:1273",
+      "finding": "The footnote names var{outcome}, but the defined data variable is var{result}.",
+      "derivative_action": "Use var{result}."
+    },
+    {
+      "source_location": "ch_probability/TeX/ch_probability.tex:1353",
+      "finding": "The 0.0689 leaf is Midterm=A and Final=Other, but the source alt text describes other-and-other.",
+      "derivative_action": "Describe the leaf as A-dan-lainnya."
+    }
+  ],
+  "controlled_glossary": "qa/b010-terminology/R011-B010_CONTROLLED_TERMS.tsv",
+  "rights_or_contact_blockers": [],
+  "upstream_contact": false
+}

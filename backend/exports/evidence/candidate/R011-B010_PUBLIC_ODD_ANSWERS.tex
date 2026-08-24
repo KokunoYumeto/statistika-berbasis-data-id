@@ -1,0 +1,70 @@
+% Jawaban publik bernomor ganjil yang terhubung langsung dengan
+% conditional_probability.tex: hanya latihan 13, 15, 17, 19, dan 21.
+% Tidak ada jawaban instruktur terbatas yang ditambahkan. Latihan genap
+% 14, 16, 18, 20, dan 22 dicatat sebagai kesenjangan penguasaan O001.
+% Koreksi turunan: rujukan bagian pada jawaban 13(c) diperbaiki dari (a)
+% menjadi (b-i), dan tata bahasa sumber pada jawaban 17(d) diperjelas.
+
+% 13
+
+\eocesol{(a)~Tidak, tetapi kita dapat menghitungnya jika A dan B saling independen.
+(b-i)~0.21.
+(b-ii)~0.79.
+(b-iii)~0.3.
+(c)~Tidak, karena 0.1 $\ne$ 0.21; nilai 0.21 dihitung berdasarkan independensi
+pada bagian~(b-i).
+(d)~0.143.}
+
+% 15
+
+\eocesol{(a)~Tidak, 0.18 responden termasuk dalam kombinasi ini.
+(b)~$0.60 + 0.20 - 0.18 = 0.62$.
+(c)~$0.18 / 0.20 = 0.9$.
+(d)~$0.11 / 0.33 \approx 0.33$.
+(e)~Tidak, karena jika saling independen, jawaban bagian~(c) dan~(d) akan sama.
+(f)~$0.06 / 0.34 \approx 0.18$.}
+
+% 17
+
+\eocesol{(a)~Tidak. Ada 6~perempuan yang paling menyukai Five Guys Burgers.
+(b)~$162 / 248 = 0.65$.
+(c)~$181 / 252 = 0.72$.
+(d)~Dengan asumsi independensi antara pemilihan pasangan kencan dan
+preferensi hamburger--yang sepintas tampak wajar--diperoleh
+$0.65 \times 0.72 = 0.468$.
+(e)~$(252 + 6 - 1)/500 = 0.514$.}
+
+% 19
+
+\eocesol{(a) \\
+
+\FigureFullPath[Diagram pohon dengan cabang utama “Dapat membuat diagram kotak?”
+dan cabang sekunder “Lulus?”. Cabang utama “Dapat membuat diagram kotak” memiliki
+dua kemungkinan, yaitu “Ya” dengan peluang 0.8 dan “Tidak” dengan peluang
+0.2. Masing-masing cabang ini memiliki dua cabang sekunder. Cabang utama “Ya”
+terbagi menjadi cabang “Ya” (untuk Lulus) dengan peluang bersyarat 0.86 dan
+peluang akhir Ya-dan-Ya sebesar 0.688, serta cabang sekunder “Tidak” dengan
+peluang bersyarat 0.14 dan peluang akhir Ya-dan-Tidak sebesar 0.112.
+Cabang utama “Tidak” dari “Dapat membuat diagram kotak” memiliki cabang “Ya” dengan
+peluang bersyarat 0.65 dan peluang akhir Tidak-dan-Ya sebesar 0.13, serta
+cabang sekunder “Tidak” dengan peluang bersyarat 0.35 dan peluang akhir
+Tidak-dan-Tidak sebesar 0.07.]{0.375}{ch_probability/figures/eoce/tree_drawing_box_plots/tree_drawing_box_plots}
+(b)~0.84}
+
+% 21
+
+\eocesol{0.0714. Bahkan ketika pasien mendapat hasil tes positif untuk lupus,
+peluang bahwa pasien tersebut benar-benar menderita lupus hanya 7,14\%.
+House mungkin benar. \\
+
+\FigureFullPath[Diagram pohon dengan cabang utama “Lupus” dan cabang sekunder
+“Hasil” untuk tes lupus. Cabang utama “Lupus” memiliki dua kemungkinan, yaitu
+“Ya” dengan peluang 0.02 dan “Tidak” dengan peluang 0.98. Masing-masing
+cabang ini memiliki dua cabang sekunder. Cabang utama “Ya” terbagi menjadi cabang
+“Ya” (untuk Hasil) dengan peluang bersyarat 0.98 dan peluang akhir
+Ya-dan-Ya sebesar 0.0196, serta cabang sekunder “Tidak” dengan peluang
+bersyarat 0.02 dan peluang akhir Ya-dan-Tidak sebesar 0.0004. Cabang utama
+“Tidak” dari “Lupus” memiliki cabang sekunder “Ya” dengan peluang bersyarat
+0.26 dan peluang akhir Tidak-dan-Ya sebesar 0.2548, serta cabang sekunder
+“Tidak” dengan peluang bersyarat 0.74 dan peluang akhir Tidak-dan-Tidak
+sebesar 0.7252.]{0.375}{ch_probability/figures/eoce/tree_lupus/tree_lupus.pdf}}

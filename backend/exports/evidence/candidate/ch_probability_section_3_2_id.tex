@@ -1,0 +1,912 @@
+\section{Peluang bersyarat}
+\label{conditionalProbabilitySection}
+
+Hubungan antara dua variabel atau lebih dapat sangat kaya
+dan penting untuk dipahami.
+Sebagai contoh, perusahaan asuransi mobil akan mempertimbangkan
+informasi tentang riwayat mengemudi seseorang untuk menilai
+risiko bahwa orang tersebut akan menyebabkan kecelakaan.
+Hubungan semacam ini merupakan ranah
+peluang bersyarat.
+
+
+\subsection{Mengeksplorasi peluang dengan tabel kontingensi}
+
+\index{data!photo\_classify|(}
+
+\newcommand{\fashN}{1822}
+% Urutan: ML, lalu manusia
+\newcommand{\fashYY}{197}
+\newcommand{\fashYN}{22}
+\newcommand{\fashYA}{219}
+\newcommand{\fashNY}{112}
+\newcommand{\fashNN}{1491}
+\newcommand{\fashNA}{1603}
+\newcommand{\fashAY}{309}
+\newcommand{\fashAN}{1513}
+\newcommand{\fashAA}{\fashN{}}
+%\newcommand{\fashPYY}{}
+%\newcommand{\fashPYN}{}
+%\newcommand{\fashPNY}{}
+%\newcommand{\fashPNN}{}
+%\newcommand{\fashPYA}{0.12}
+%\newcommand{\fashPNA}{0.88}
+%\newcommand{\fashPAY}{}
+%\newcommand{\fashPAN}{}
+%\newcommand{\fashPYCY}{}
+%\newcommand{\fashPYCN}{}
+%\newcommand{\fashPNCY}{}
+%\newcommand{\fashPNCN}{}
+\newcommand{\fashCYPY}{0.96}
+\newcommand{\fashCYPN}{0.04}
+\newcommand{\fashCNPY}{0.07}
+\newcommand{\fashCNPN}{0.93}
+
+Himpunan data \data{photo\us{}classify} memuat hasil kerja
+sebuah pengklasifikasi pada sampel \fashN{} foto dari situs berbagi foto.
+Para ilmuwan data berupaya meningkatkan kemampuan pengklasifikasi
+untuk menentukan apakah sebuah foto berkaitan dengan mode, dan 1.822 foto ini
+digunakan untuk menguji pengklasifikasi tersebut.
+Setiap foto memperoleh dua klasifikasi:
+yang pertama disebut \var{mach\us{}learn} dan berisi
+klasifikasi dari sistem pembelajaran
+mesin~(ML)\index{machine learning (ML)}, yakni
+\resp{pred\us{}fashion} atau \resp{pred\us{}not}.
+Masing-masing dari \fashN{} foto ini juga telah diklasifikasikan dengan cermat
+oleh sebuah tim manusia, yang kita jadikan acuan kebenaran;
+variabel ini disebut \var{truth} dan bernilai
+\resp{fashion} atau \resp{not}.
+Gambar~\ref{contTableOfFashionPhotos} merangkum hasilnya.
+
+\begin{figure}[ht]
+\centering
+\begin{tabular}{ll ccc rr}
+&& \multicolumn{2}{c}{\var{truth}} & \hspace{1cm} &  \\
+\cline{3-4}
+&& \resp{fashion} & \resp{not} & Total  \\
+\cline{2-5}
+& \resp{pred\us{}fashion} &
+    \fashYY{} & \fashYN{} & \fashYA{} \\
+\raisebox{1.5ex}[0pt]{\var{mach\us{}learn}}
+    & \resp{pred\us{}not} \hspace{0.5cm} &
+    \fashNY{} & \fashNN{} & \fashNA{}   \\
+\cline{2-5}
+& Total & \fashAY{} & \fashAN{} & \fashN{} \\
+\end{tabular}
+\caption{Tabel kontingensi yang merangkum himpunan data
+    \data{photo\us{}classify}.}
+\label{contTableOfFashionPhotos}
+\end{figure}
+% library(openintro); table(photo_classify)
+
+\begin{figure}[ht]
+  \centering
+  \Figure[Ditampilkan diagram Venn yang menggunakan kotak, bukan lingkaran, untuk dua kategori yang sebagian bertumpang tindih, yaitu "ML Memprediksi Mode" dan "Foto Mode". Bagian persegi panjang ML Memprediksi Mode yang tidak bertumpang tindih berlabel 0,01. Bagian persegi panjang Foto Mode yang tidak bertumpang tindih berlabel 0,06. Bagian yang bertumpang tindih berlabel 0,11. Di luar kedua persegi panjang terdapat label "Bukan Keduanya" dengan nilai 0,82.]{0.65}{photoClassifyVenn}
+  \caption{Diagram Venn yang menggunakan kotak untuk himpunan data
+      \data{photo\us{}classify}.}
+  \label{photoClassifyVenn}
+\end{figure}
+
+\begin{examplewrap}
+\begin{nexample}{Jika sebuah foto memang berkaitan dengan mode,
+    berapa peluang pengklasifikasi ML mengidentifikasi dengan benar
+    bahwa foto tersebut berkaitan dengan mode?}
+  Kita dapat memperkirakan peluang ini menggunakan data.
+  Dari \fashAY{} foto mode,
+  algoritma ML mengklasifikasikan \fashYY{} foto dengan benar:
+\begin{align*}
+P(\text{\var{mach\us{}learn} adalah \resp{pred\us{}fashion}
+    jika \var{truth} adalah \resp{fashion}})
+  = \frac{\fashYY{}}{\fashAY{}}
+  = 0.638
+\end{align*}
+\end{nexample}
+\end{examplewrap}
+
+\begin{examplewrap}
+\begin{nexample}{Kita mengambil sampel sebuah foto dari himpunan data
+    dan mengetahui bahwa algoritma ML memprediksi foto ini
+    tidak berkaitan dengan mode.
+    Berapa peluang prediksi tersebut keliru dan
+    foto itu sebenarnya berkaitan dengan mode?}
+  Jika pengklasifikasi ML menyatakan bahwa sebuah foto tidak berkaitan dengan mode,
+  foto itu berasal dari baris kedua pada himpunan data.
+  Dari~\fashNA{} foto tersebut, \fashNY{} sebenarnya
+  berkaitan dengan mode:
+\begin{align*}
+P(\text{\var{truth} adalah \resp{fashion}
+    jika \var{mach\us{}learn} adalah \resp{pred\us{}not}})
+  = \frac{\fashNY{}}{\fashNA{}}
+  = 0.070
+\end{align*}
+\end{nexample}
+\end{examplewrap}
+
+\subsection{Peluang marginal dan bersama}
+\label{marginalAndJointProbabilities}
+
+\index{marginal probability|(}
+\index{joint probability|(}
+
+Gambar~\ref{contTableOfFashionPhotos} memuat total baris dan
+kolom untuk setiap variabel secara terpisah dalam himpunan data
+\data{photo\us{}classify}.
+Total-total ini menyatakan
+\termsub{peluang marginal}{peluang marginal}
+untuk sampel tersebut, yaitu peluang yang didasarkan pada
+satu variabel tanpa memperhatikan variabel lain.
+Sebagai contoh, peluang yang hanya didasarkan pada variabel
+\var{mach\us{}learn} merupakan peluang marginal:
+\begin{align*}
+P(\text{\var{mach\us{}learn} adalah \resp{pred\us{}fashion}})
+    = \frac{\fashYA{}}{\fashN{}}
+    = 0.12
+\end{align*}
+Peluang hasil untuk dua variabel atau proses atau lebih
+disebut
+\termsub{peluang \mbox{bersama}}{peluang bersama}:
+\begin{align*}
+P(\text{\var{mach\us{}learn} adalah \resp{pred\us{}fashion}
+    dan \var{truth} adalah \resp{fashion}})
+  = \frac{\fashYY{}}{\fashN{}}
+  = 0.11
+\end{align*}
+Dalam peluang bersama, kata ``dan'' lazim diganti dengan koma,
+meskipun penggunaan kata ``dan'' maupun koma
+sama-sama dapat diterima:
+\begin{center}
+$P(\text{\var{mach\us{}learn} adalah \resp{pred\us{}fashion},
+    \var{truth} adalah \resp{fashion}})$ \\[2mm]
+berarti sama dengan \\[2mm]
+$P(\text{\var{mach\us{}learn} adalah \resp{pred\us{}fashion}
+    dan \var{truth} adalah \resp{fashion}})$
+\end{center}
+
+\begin{onebox}{Peluang marginal dan bersama}
+  Jika suatu peluang didasarkan pada satu variabel,
+  peluang tersebut merupakan \emph{\hiddenterm{peluang marginal}}.
+  Peluang hasil untuk dua variabel atau proses atau lebih
+  disebut \emph{\hiddenterm{peluang bersama}}.
+\end{onebox}
+
+Kita menggunakan \term{proporsi tabel} untuk merangkum peluang bersama
+pada sampel \data{photo\us{}classify}.
+Proporsi ini dihitung dengan membagi setiap frekuensi dalam
+Gambar~\ref{contTableOfFashionPhotos} dengan total tabel,
+\fashN{}, sehingga diperoleh proporsi pada
+Gambar~\ref{photoClassifyProbTable}.
+Distribusi peluang bersama variabel \var{mach\us{}learn}
+dan \var{truth} ditampilkan pada
+Gambar~\ref{photoClassifyDistribution}.
+
+\begin{figure}[h]
+\centering
+\begin{tabular}{l rr r}
+\hline
+& \var{truth}: \resp{fashion} &
+    \var{truth}: \resp{not} & Total  \\
+\hline
+\var{mach\us{}learn}: \resp{pred\us{}fashion} \hspace{0.5cm}
+    & 0.1081 & 0.0121 & 0.1202 \\
+\var{mach\us{}learn}: \resp{pred\us{}not}
+    & 0.0615 & 0.8183 & 0.8798  \\
+\hline
+Total & 0.1696 & 0.8304 & 1.00 \\
+\hline
+\end{tabular}
+\caption{Tabel peluang yang merangkum himpunan data
+    \var{photo\us{}classify}.}
+\label{photoClassifyProbTable}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\begin{tabular}{l c}
+  \hline
+Hasil bersama & Peluang \\
+  \hline
+\var{mach\us{}learn} adalah \resp{pred\us{}fashion}
+    dan \var{truth} adalah \resp{fashion} & 0.1081 \\
+\var{mach\us{}learn} adalah \resp{pred\us{}fashion}
+    dan \var{truth} adalah \resp{not} & 0.0121 \\
+\var{mach\us{}learn} adalah \resp{pred\us{}not}
+    dan \var{truth} adalah \resp{fashion} & 0.0615 \\
+\var{mach\us{}learn} adalah \resp{pred\us{}not}
+    dan \var{truth} adalah \resp{not} & 0.8183 \\
+   \hline
+Total & 1.0000 \\
+\hline
+\end{tabular}
+\caption{Distribusi peluang bersama untuk himpunan data \data{photo\us{}classify}.}
+\label{photoClassifyDistribution}
+\end{figure}
+
+\D{\newpage}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Verifikasikan bahwa Gambar~\ref{photoClassifyDistribution} menyatakan
+suatu distribusi probabilitas: peristiwa-peristiwanya saling lepas,
+semua peluangnya tak negatif, dan jumlah seluruh peluangnya
+adalah~1.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Keempat kombinasi hasil tersebut saling lepas,
+   semua peluangnya memang tak negatif, dan jumlah
+   peluangnya adalah $0.1081 + 0.0121 + 0.0615 + 0.8183 = 1.00$.}
+
+Peluang marginal dapat dihitung dari peluang bersama.
+Misalnya, peluang foto bertema mode adalah jumlah peluang bagi
+hasil-hasil dengan \var{truth} bernilai \resp{fashion}:%
+\index{marginal probability|)}\index{joint probability|)}
+\newcommand{\ultruthfashion}[0]
+    {\underline{\var{truth} adalah \resp{fashion}}}%
+\begin{align*}
+P(\text{\ultruthfashion{}})
+  &= P(\text{\var{mach\us{}learn} adalah \resp{pred\us{}fashion}
+        dan \ultruthfashion{}}) \\
+    & \qquad + P(\text{\var{mach\us{}learn} adalah \resp{pred\us{}not}
+        dan \ultruthfashion{}}) \\
+  &= 0.1081 + 0.0615 \\
+  &= 0.1696
+\end{align*}
+
+
+\subsection{Mendefinisikan peluang bersyarat}
+
+\index{conditional probability|(}
+
+Pengklasifikasi ML memprediksi apakah sebuah foto berkaitan dengan mode,
+meskipun hasilnya tidak sempurna.
+Kita ingin memahami dengan lebih baik cara menggunakan informasi
+dari variabel seperti \var{mach\us{}learn} untuk memperbaiki
+perkiraan peluang bagi variabel kedua, yang dalam contoh ini
+adalah \var{truth}.
+
+Peluang bahwa sebuah foto acak dari himpunan data berkaitan dengan
+mode adalah sekitar 0,17.
+Jika kita mengetahui bahwa pengklasifikasi pembelajaran mesin memprediksi
+foto tersebut berkaitan dengan mode, dapatkah kita memperoleh perkiraan yang lebih baik
+atas peluang bahwa foto itu memang berkaitan dengan mode?
+Tentu saja.
+Untuk melakukannya, kita membatasi perhatian hanya pada \fashYA{} kasus
+ketika pengklasifikasi ML memprediksi bahwa foto tersebut berkaitan dengan
+mode, lalu melihat fraksi foto yang memang berkaitan
+dengan mode:
+\begin{align*}
+P(\text{\var{truth} adalah \resp{fashion} jika
+    \var{mach\us{}learn} adalah \resp{pred\us{}fashion}})
+  = \frac{\fashYY{}}{\fashYA{}}
+  = 0.900
+\end{align*}
+Kita menyebutnya \term{peluang bersyarat} karena
+kita menghitung peluang di bawah suatu syarat:
+pengklasifikasi ML memprediksi bahwa foto tersebut berkaitan dengan mode.
+
+Peluang bersyarat terdiri atas dua bagian,
+yaitu \term{hasil yang menjadi perhatian} dan \term{syarat}.
+Syarat dapat dipandang sebagai informasi yang kita ketahui
+benar, dan informasi ini biasanya dapat dinyatakan sebagai
+hasil atau peristiwa yang diketahui.
+Dalam notasi peluang, kita umumnya memisahkan
+hasil yang menjadi perhatian dan syaratnya dengan
+garis vertikal:
+\begin{align*}
+&& P(\text{\var{truth} adalah \resp{fashion} jika
+    \var{mach\us{}learn} adalah \resp{pred\us{}fashion}}) \\
+&& \quad = P(\text{\var{truth} adalah \resp{fashion}\ }|
+    \text{\ \var{mach\us{}learn} adalah \resp{pred\us{}fashion}})
+  = \frac{\fashYY{}}{\fashYA{}}
+  = 0.900
+\end{align*}
+Garis vertikal ``$|$'' dibaca \emph{dengan syarat}.
+
+\D{\newpage}
+
+Pada persamaan terakhir, kita menghitung peluang sebuah foto
+berkaitan dengan mode dengan syarat algoritma ML
+memprediksi foto itu berkaitan dengan mode, sebagai fraksi:
+\begin{align*}
+& P(\text{\var{truth} adalah \resp{fashion}\ }|
+    \text{\ \var{mach\us{}learn} adalah \resp{pred\us{}fashion}}) \\
+  &\quad = \frac{\text{\# kasus ketika \var{truth} adalah \resp{fashion}
+       dan \var{mach\us{}learn} adalah \resp{pred\us{}fashion}}}
+     {\text{\# kasus ketika \var{mach\us{}learn} adalah \resp{pred\us{}fashion}}} \\
+  &\quad = \frac{\fashYY{}}{\fashYA{}}
+      = 0.900
+\end{align*}
+Kita hanya mempertimbangkan kasus yang memenuhi syarat,
+\var{mach\us{}learn} bernilai \resp{pred\us{}fashion}, lalu
+menghitung rasio kasus yang memenuhi
+hasil yang menjadi perhatian, yaitu foto tersebut memang berkaitan dengan mode.
+
+Sering kali peluang marginal dan bersama diberikan
+sebagai pengganti data frekuensi.
+Sebagai contoh, tingkat penyakit lazim disajikan dalam persentase,
+bukan dalam bentuk frekuensi.
+Kita ingin dapat menghitung peluang bersyarat
+meskipun tidak tersedia frekuensi, dan kita menggunakan persamaan terakhir
+sebagai pola untuk memahami teknik ini.
+
+Kita hanya mempertimbangkan kasus yang memenuhi syarat,
+yaitu algoritma ML memprediksi mode.
+Di antara kasus-kasus ini, peluang bersyarat adalah
+fraksi yang menyatakan hasil yang menjadi perhatian, yakni
+foto tersebut berkaitan dengan mode.
+Misalkan kita hanya diberi informasi dalam
+Gambar~\ref{photoClassifyProbTable}, yaitu hanya data peluang.
+Jika kita kemudian mengambil sampel 1.000 foto, kita memperkirakan
+sekitar 12,0\% atau $0.120\times 1000 = 120$ foto akan diprediksi
+berkaitan dengan mode (\var{mach\us{}learn} adalah \resp{pred\us{}fashion}).
+Demikian pula, kita memperkirakan sekitar 10,8\% atau
+$0.108\times 1000 = 108$ foto memenuhi kriteria informasi tersebut
+sekaligus mewakili hasil yang menjadi perhatian.
+Peluang bersyarat lalu dapat dihitung sebagai
+\begin{align*}
+&P(\text{\var{truth} adalah \resp{fashion}}\ |\ 
+    \text{\var{mach\us{}learn} adalah \resp{pred\us{}fashion}}) \\
+  &= \frac{\text{\# (\var{truth} adalah \resp{fashion}
+      dan \var{mach\us{}learn} adalah \resp{pred\us{}fashion})}}
+    {\text{\# (\var{mach\us{}learn} adalah \resp{pred\us{}fashion})}} \\
+  &= \frac{108}{120}
+		= \frac{0.108}{0.120}
+		= 0.90
+\end{align*}
+Di sini kita menelaah tepatnya fraksi dari dua peluang,
+0,108 dan 0,120, yang dapat kita tulis sebagai
+\begin{align*}
+&P(\text{\var{truth} adalah \resp{fashion} dan
+    \var{mach\us{}learn} adalah \resp{pred\us{}fashion}})
+\\[-1mm]
+&\qquad\text{dan}\qquad
+P(\text{\var{mach\us{}learn} adalah \resp{pred\us{}fashion}}).
+\end{align*}
+Fraksi kedua peluang ini merupakan contoh
+rumus umum peluang bersyarat.
+
+\begin{onebox}{Peluang bersyarat}
+  Peluang bersyarat hasil $A$
+  dengan syarat $B$ dihitung sebagai berikut:
+  \begin{align*}
+  P(A | B) = \frac{P(A\text{ dan }B)}{P(B)}
+  \end{align*}
+\end{onebox}
+
+%\D{\newpage}
+
+\begin{exercisewrap}
+\begin{nexercise}
+\label{fashionProbOfMLNotGivenTruthNot}%
+(a) Tuliskan pernyataan berikut dalam notasi
+peluang bersyarat:
+``\emph{Peluang bahwa prediksi ML benar,
+jika foto tersebut berkaitan dengan mode}''.
+Di sini, syaratnya didasarkan pada status
+\var{truth} foto, bukan pada algoritma ML. \\[1mm]
+(b)~Tentukan peluang pada bagian (a).
+Tabel~\vref{photoClassifyProbTable} mungkin membantu.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{(a) Jika foto tersebut berkaitan dengan mode dan
+  prediksi algoritma ML benar, maka variabel keluaran algoritma ML
+  harus bernilai \resp{pred\us{}fashion}:
+  \begin{align*}
+  P(\text{\var{mach\us{}learn} adalah \resp{pred\us{}fashion}}\ |
+      \ \text{\var{truth} adalah \resp{fashion}})
+  \end{align*}
+  (b)~Persamaan peluang bersyarat menunjukkan bahwa kita
+  harus terlebih dahulu mencari \\
+  $P(\text{\var{mach\us{}learn} adalah \resp{pred\us{}fashion}
+    dan \var{truth} adalah \resp{fashion}}) = 0.1081$
+  dan $P(\text{\var{truth} adalah \resp{fashion}}) = 0.1696$. \\
+  Rasionya kemudian menyatakan peluang bersyarat:
+  $0.1081 / 0.1696 = 0.6374$.}
+
+\begin{exercisewrap}
+\begin{nexercise}
+\label{whyCondProbSumTo1}%
+(a)~Tentukan peluang bahwa algoritma tersebut keliru
+jika diketahui foto itu berkaitan dengan mode. \\[1mm]
+(b)~Dengan menggunakan jawaban bagian~(a) dan
+Latihan Terbimbing~\ref{fashionProbOfMLNotGivenTruthNot}(b),
+hitung
+\begin{align*}
+&P(\text{\var{mach\us{}learn} adalah \resp{pred\us{}fashion}}
+    \ |\ \text{\var{truth} adalah \resp{fashion}}) \\
+&\qquad  +\ P(\text{\var{mach\us{}learn} adalah \resp{pred\us{}not}}
+    \ |\ \text{\var{truth} adalah \resp{fashion}})
+\end{align*}
+(c)~Berikan alasan intuitif yang menjelaskan mengapa jumlah
+pada~(b) bernilai~1.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{(a)~Peluang ini adalah
+  $\frac{P(\text{\var{mach\us{}learn} adalah \resp{pred\us{}not},
+      \var{truth} adalah \resp{fashion}})}
+    {P(\text{\var{truth} adalah \resp{fashion}})}
+  = \frac{0.0615}{0.1696} = 0.3626$.
+  (b)~Jumlahnya sama dengan~1.
+  (c)~Dengan syarat foto tersebut berkaitan dengan mode,
+      algoritma ML pasti memprediksinya berkaitan dengan mode
+      atau tidak berkaitan dengan mode.
+      Aturan komplemen tetap berlaku untuk peluang bersyarat,
+      selama peluang-peluang tersebut dikondisikan pada
+      informasi yang sama.}
+
+\index{conditional probability|)}
+\index{data!photo\_classify|)}
+
+
+\subsection{Cacar di Boston, 1721}
+
+\index{data!smallpox|(}
+
+Himpunan data \data{smallpox} memuat sampel 6.224 orang dari tahun 1721 yang terpapar cacar di Boston.
+Para dokter pada masa itu meyakini bahwa inokulasi, yakni memaparkan seseorang pada penyakit secara terkendali, dapat mengurangi peluang kematian.
+
+Setiap kasus mewakili satu orang dengan dua variabel: \var{inoculated} dan \var{result}. Variabel \var{inoculated} memiliki dua tingkat, yaitu \resp{yes} atau \resp{no}, yang menunjukkan apakah orang tersebut diinokulasi. Variabel \var{result} memiliki hasil \resp{lived} atau \resp{died}. Data ini dirangkum dalam Tabel~\ref{smallpoxContingencyTable} dan~\ref{smallpoxProbabilityTable}.
+
+\begin{figure}[h]
+\centering
+\begin{tabular}{ll rr r}
+& & \multicolumn{2}{c}{diinokulasi} & \\
+\cline{3-4}
+& & \resp{yes} & \resp{no} & Total  \\
+\cline{2-5}
+		& \resp{lived}     & 238 & 5136 & 5374 \\
+\raisebox{1.5ex}[0pt]{\var{result}} &  \resp{died} \hspace{0.5cm} & 6 & 844 & 850  \\
+\cline{2-5}
+	& Total & 244 & 5980 & 6224 \\
+\end{tabular}
+\caption{Tabel kontingensi untuk himpunan data \data{smallpox}.}
+\label{smallpoxContingencyTable}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\begin{tabular}{ll rr r}
+& & \multicolumn{2}{c}{diinokulasi} & \\
+\cline{3-4}
+& & \resp{yes} & \resp{no} & Total  \\
+   \cline{2-5}
+ & \resp{lived}     & 0.0382 & 0.8252 & 0.8634 \\
+\raisebox{1.5ex}[0pt]{\var{result}} & \resp{died} \hspace{0.5cm} & 0.0010 & 0.1356  & 0.1366  \\
+   \cline{2-5}
+& Total & 0.0392 & 0.9608 & 1.0000 \\
+\end{tabular}
+\caption{Proporsi tabel untuk data \data{smallpox}, yang dihitung dengan membagi setiap frekuensi dengan total tabel, 6.224.}
+\label{smallpoxProbabilityTable}
+\end{figure}
+
+%\D{\newpage}
+
+\begin{exercisewrap}
+\begin{nexercise} \label{probDiedIfNotInoculated}
+Tuliskan, dalam notasi formal, peluang bahwa seseorang yang dipilih secara acak dan tidak diinokulasi meninggal akibat cacar, lalu hitung \mbox{peluang tersebut.}\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{$P($\var{result} = \resp{died} $|$ \var{inoculated} = \resp{no}$) = \frac{P(\text{\var{result} = \resp{died} dan \var{inoculated} = \resp{no}})}{P(\text{\var{inoculated} = \resp{no}})} = \frac{0.1356}{0.9608} = 0.1411$.}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Tentukan peluang bahwa seseorang yang diinokulasi meninggal akibat cacar. Bagaimana hasil ini dibandingkan dengan hasil Latihan Terbimbing~\ref{probDiedIfNotInoculated}?\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{$P($\var{result} = \resp{died} $|$ \var{inoculated} = \resp{yes}$) = \frac{P(\text{\var{result} = \resp{died} dan \var{inoculated} = \resp{yes}})}{P(\text{\var{inoculated} = \resp{yes}})} = \frac{0.0010}{0.0392} = 0.0255$ (jika kesalahan pembulatan dihindari, diperoleh $6 / 244 = 0.0246$). Tingkat kematian orang yang diinokulasi hanya sekitar 1~dari~40, sedangkan pada orang yang tidak diinokulasi sekitar 1~dari~7.}
+
+\begin{exercisewrap}
+\begin{nexercise}\label{SmallpoxInoculationObsExpExercise}
+Penduduk Boston memilih sendiri apakah mereka akan diinokulasi. (a) Apakah penelitian ini bersifat observasional atau merupakan eksperimen? (b) Dapatkah kita menyimpulkan hubungan sebab-akibat dari data ini? (c) Apa saja variabel perancu potensial yang mungkin memengaruhi apakah seseorang \resp{lived} atau \resp{died}, sekaligus memengaruhi apakah orang tersebut diinokulasi?\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Jawaban singkat: (a)~Observasional. (b)~Tidak, kita tidak dapat menyimpulkan sebab-akibat dari penelitian observasional ini. (c)~Akses terhadap perawatan medis terbaru dan terbaik. Ada jawaban lain yang juga sah untuk bagian~(c).}
+
+
+\subsection{Aturan perkalian umum}
+
+Bagian~\ref{probabilityIndependence} memperkenalkan Aturan Perkalian untuk proses yang saling independen. Di sini kita menyajikan \term{Aturan Perkalian Umum} untuk peristiwa yang mungkin tidak saling independen.
+
+\begin{onebox}{Aturan Perkalian Umum}
+Jika $A$ dan $B$ menyatakan dua hasil atau peristiwa, maka \vspace{-1.5mm}
+\begin{align*}
+P(A\text{ dan }B) = P(A | B)\times P(B)
+\end{align*} \vspace{-6.5mm} \par
+$A$ dapat dipandang sebagai hasil yang menjadi perhatian dan $B$ sebagai syaratnya.
+\end{onebox}
+
+\noindent%
+Aturan Perkalian Umum ini hanyalah bentuk susunan ulang dari persamaan peluang bersyarat.
+
+%\D{\newpage}
+
+\begin{examplewrap}
+\begin{nexample}{Perhatikan himpunan data \data{smallpox}. Misalkan kita hanya diberi dua informasi: 96,08\% penduduk tidak diinokulasi, dan 85,88\% penduduk yang tidak diinokulasi bertahan hidup. Bagaimana kita dapat menghitung peluang bahwa seorang penduduk tidak diinokulasi dan tetap hidup?}
+Kita akan menghitung jawabannya menggunakan Aturan Perkalian Umum, lalu memverifikasinya dengan Gambar~\ref{smallpoxProbabilityTable}. Kita ingin menentukan
+\begin{align*}
+P(\text{\var{result}
+    = \resp{lived} dan \var{inoculated} = \resp{no}})
+\end{align*}
+dan diketahui bahwa
+\begin{align*}
+P(\text{\var{result}
+    = \resp{lived} }|\text{ \var{inoculated} = \resp{no}})
+    &= 0.8588 %\\
+&&P(\text{\var{inoculated} = \resp{no}})
+    = 0.9608
+\end{align*}
+Di antara 96,08\% orang yang tidak diinokulasi, 85,88\% bertahan hidup:
+\begin{align*}
+P(\text{\var{result} = \resp{lived}
+        dan \var{inoculated} = \resp{no}})
+    = 0.8588 \times 0.9608
+    = 0.8251
+\end{align*}
+Perhitungan ini setara dengan Aturan Perkalian Umum. Kita dapat mengonfirmasi peluang ini pada Gambar~\ref{smallpoxProbabilityTable}, di perpotongan \resp{no} dan \resp{lived} (dengan sedikit kesalahan pembulatan).
+\end{nexample}
+\end{examplewrap}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Gunakan $P($\var{inoculated} = \resp{yes}$) = 0.0392$ dan $P($\var{result} = \resp{lived} $|$ \var{inoculated} = \resp{yes}$) = 0.9754$ untuk menentukan peluang bahwa seseorang diinokulasi dan tetap hidup.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Jawabannya adalah 0,0382, yang dapat diverifikasi menggunakan Gambar~\ref{smallpoxProbabilityTable}.}
+
+%\D{\newpage}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Jika 97,54\% orang yang diinokulasi tetap hidup,
+berapa proporsi orang yang diinokulasi yang meninggal?\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Hanya ada dua hasil yang mungkin: \resp{lived} atau \resp{died}. Artinya, 100\% - 97,54\% = 2,46\% orang yang diinokulasi meninggal.}
+
+\begin{onebox}{Jumlah peluang bersyarat}
+Misalkan $A_1$, ..., $A_k$ menyatakan semua hasil yang saling lepas bagi suatu variabel atau proses. Jika $B$ adalah sebuah peristiwa, yang mungkin berasal dari variabel atau proses lain, maka: \vspace{-1mm}
+\begin{align*}
+P(A_1|B) + \cdots + P(A_k|B) = 1
+\end{align*}%
+\vspace{-5.5mm} \par
+Aturan komplemen juga berlaku apabila sebuah peristiwa dan komplemennya dikondisikan pada informasi yang sama: \vspace{-1.5mm}
+\begin{align*}
+P(A | B) = 1 - P(A^c | B)
+\end{align*}
+\end{onebox}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Berdasarkan peluang yang dihitung di atas, apakah inokulasi tampaknya efektif mengurangi risiko kematian akibat cacar?\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Ukuran sampelnya besar jika dibandingkan dengan perbedaan tingkat kematian antara kelompok ``diinokulasi'' dan ``tidak diinokulasi'', sehingga tampaknya terdapat hubungan antara \var{inoculated} dan \var{result}. Namun, sebagaimana dicatat dalam jawaban Latihan Terbimbing~\ref{SmallpoxInoculationObsExpExercise}, penelitian ini bersifat observasional sehingga kita tidak dapat memastikan adanya hubungan sebab-akibat. (Penelitian lebih lanjut menunjukkan bahwa inokulasi efektif menurunkan tingkat kematian.)}
+
+
+%\D{\newpage}
+
+\subsection{Pertimbangan independensi dalam peluang bersyarat}
+
+Jika dua peristiwa saling independen, mengetahui hasil salah satunya tidak memberikan informasi tentang peristiwa lainnya. Dengan peluang bersyarat, kita dapat menunjukkan bahwa pernyataan ini benar secara matematis.
+
+\begin{exercisewrap}
+\begin{nexercise} \label{condProbOfRollingA1AfterOne1}
+Misalkan $X$ dan $Y$ menyatakan hasil pelemparan dua dadu.\footnotemark
+\begin{enumerate}[(a)]
+\setlength{\itemsep}{0mm}
+\item Berapa peluang bahwa dadu pertama, $X$, menghasilkan \resp{1}?
+\item Berapa peluang bahwa $X$ dan $Y$ sama-sama menghasilkan \resp{1}?
+\item Gunakan rumus peluang bersyarat untuk menghitung $P(Y =$ \resp{1}$\ |\ X = $ \resp{1}$)$.
+\item Berapa nilai $P(Y=1)$? Apakah hasil ini berbeda dari jawaban bagian (c)? Jelaskan.
+\end{enumerate}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Jawaban singkat: (a) $1/6$. (b) $1/36$. (c)~$\frac{P(Y = \text{ \resp{1} dan }X=\text{ \resp{1}})}{P(X=\text{ \resp{1}})} = \frac{1/36}{1/6} = 1/6$. (d)~Peluangnya sama seperti pada bagian~(c): $P(Y=1)=1/6$. Peluang bahwa $Y=1$ tidak berubah setelah kita mengetahui $X$, sesuai dengan fakta bahwa $X$ dan $Y$ saling independen.}
+
+Pada Latihan Terbimbing~\ref{condProbOfRollingA1AfterOne1}(c), kita dapat menunjukkan bahwa informasi yang menjadi syarat tidak berpengaruh dengan menggunakan Aturan Perkalian untuk proses yang saling independen:
+\begin{align*}
+P(Y=\text{\resp{1}}\ |\ X=\text{\resp{1}})
+    &= \frac{P(Y=\text{\resp{1} dan }X=\text{\resp{1}})}
+      {P(X=\text{\resp{1}})} \\
+    &= \frac{P(Y=\text{\resp{1}}) \times
+        \color{oiGB}P(X=\text{\resp{1}})}
+      {\color{oiGB}P(X=\text{\resp{1}})} \\
+    &= P(Y=\text{\resp{1}}) \\
+\end{align*}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Ron sedang mengamati meja rolet di kasino dan melihat bahwa lima hasil terakhir adalah \resp{black}. Ia beranggapan bahwa peluang memperoleh \resp{black} enam kali berturut-turut sangat kecil (sekitar $1/64$), lalu mempertaruhkan seluruh gajinya pada merah. Apa yang keliru dalam penalarannya?\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Ia lupa bahwa putaran rolet berikutnya independen dari putaran-putaran sebelumnya. Kasino memang menggunakan praktik ini: mereka menampilkan beberapa hasil terakhir dari berbagai permainan taruhan untuk mengecoh penjudi yang tidak waspada agar percaya bahwa peluang berpihak kepada mereka. Kekeliruan ini disebut \term{sesat pikir penjudi}.}
+
+
+\D{\newpage}
+
+\subsection{Diagram pohon}
+
+\index{data!smallpox|)}
+\index{tree diagram|(}
+
+\termsub{Diagram pohon}{diagram pohon} merupakan alat untuk menata hasil dan peluang berdasarkan struktur data. Diagram ini paling berguna ketika dua proses atau lebih terjadi secara berurutan dan setiap proses dikondisikan pada proses-proses sebelumnya.
+
+Data \data{smallpox} sesuai dengan gambaran ini. Populasi terbagi menurut \var{inoculation}: \resp{yes} dan \resp{no}. Setelah pembagian ini, tingkat kelangsungan hidup diamati pada setiap kelompok. Struktur tersebut tercermin dalam \term{diagram pohon} pada Gambar~\ref{smallpoxTreeDiagram}. Cabang pertama untuk \var{inoculation} disebut \term{cabang utama}, sedangkan cabang-cabang lainnya disebut \term{cabang sekunder}.
+
+\begin{figure}[ht]
+\centering
+\Figure[Diagram pohon dengan cabang utama "Diinokulasi" dan cabang sekunder "Hasil". Cabang utama Diinokulasi menuju dua pilihan: "Ya" dengan peluang 0,0392 dan "Tidak" dengan peluang 0,9608. Masing-masing cabang ini memiliki cabang sekunder berisi peluang "Hasil" yang dikondisikan pada "Diinokulasi". Cabang Diinokulasi--Ya terbagi menjadi "Hidup" (0,9754) dan "Meninggal" (0,0246). Cabang-cabang ini juga menampilkan hasil perkalian peluang sepanjang cabang. Sebagai contoh, cabang Ya-dan-Hidup mengalikan 0,0392 dengan 0,9754 dan menghasilkan 0,03824. Cabang Ya-dan-Meninggal memiliki peluang hasil perkalian 0,00096. Selanjutnya, cabang utama "Tidak" juga memiliki cabang sekunder Hidup dan Meninggal, masing-masing dengan peluang bersyarat 0,8589 dan 0,1411. Hasil perkalian peluang pada setiap rangkaian cabang juga ditampilkan: Tidak-dan-Hidup sebesar 0,82523 dan Tidak-dan-Meninggal sebesar 0,13557.]{0.93}{smallpoxTreeDiagram}
+\caption{Diagram pohon untuk himpunan data \data{smallpox}.}
+\label{smallpoxTreeDiagram}
+\end{figure}
+
+Diagram pohon diberi keterangan peluang marginal dan peluang bersyarat, seperti pada Gambar~\ref{smallpoxTreeDiagram}. Diagram ini membagi data cacar menurut \var{inoculation} menjadi kelompok \resp{yes} dan \resp{no}, dengan peluang marginal masing-masing 0,0392 dan 0,9608. Cabang-cabang sekunder dikondisikan pada cabang pertama, sehingga kita memberikan peluang bersyarat pada cabang-cabang ini. Sebagai contoh, cabang teratas pada Gambar~\ref{smallpoxTreeDiagram} adalah peluang bahwa \var{result} = \resp{lived} dengan syarat \var{inoculated} = \resp{yes}. Kita dapat (dan biasanya memang) menghitung peluang bersama di ujung setiap cabang dengan mengalikan bilangan-bilangan yang ditemui saat bergerak dari kiri ke kanan. Peluang bersama ini dihitung menggunakan Aturan Perkalian Umum:
+\begin{align*}
+& P(\text{\var{inoculated} = \resp{yes}
+    dan \var{result} = \resp{lived}}) \\
+  &\quad = P(\text{\var{inoculated} = \resp{yes}})\times
+      P(\text{\var{result} = \resp{lived}}|
+          \text{\var{inoculated} = \resp{yes}}) \\
+  &\quad = 0.0392\times 0.9754=0.0382
+\end{align*}
+
+\begin{examplewrap}
+\begin{nexample}{Perhatikan ujian tengah semester dan ujian akhir pada sebuah kelas statistika. Misalkan 13\% mahasiswa memperoleh \resp{A} pada ujian tengah semester. Di antara mahasiswa yang memperoleh \resp{A} pada ujian tengah semester, 47\% memperoleh \resp{A} pada ujian akhir; sementara itu, 11\% mahasiswa yang memperoleh nilai di bawah \resp{A} pada ujian tengah semester memperoleh \resp{A} pada ujian akhir. Anda mengambil secara acak satu lembar ujian akhir dan melihat bahwa mahasiswa tersebut memperoleh \resp{A}. Berapa peluang mahasiswa itu juga memperoleh \resp{A} pada ujian tengah semester?} \label{exerciseForTreeDiagramOfStudentGettingAOnMidtermGivenThatSheGotAOnFinal}
+Tujuan akhirnya adalah mencari $P(\text{\var{midterm} = \resp{A}} | \text{\var{final} = \resp{A}})$. Untuk menghitung peluang bersyarat ini, kita memerlukan peluang berikut:
+\begin{align*}
+P(\text{\var{midterm} = \resp{A} dan \var{final} = \resp{A}})
+  \qquad\text{dan}\qquad
+  P(\text{\var{final} = \resp{A}})
+\end{align*}
+Namun, informasi ini tidak diberikan, dan cara menghitung peluang tersebut tidak langsung terlihat. Karena langkah berikutnya belum jelas, informasi ini sebaiknya kita tata dalam sebuah diagram pohon:
+\begin{center}
+\Figure[Diagram pohon dengan cabang utama "Ujian Tengah Semester" dan cabang sekunder "Ujian Akhir". Cabang utama Ujian Tengah Semester menuju dua pilihan: "A" dengan peluang 0,13 dan "Lainnya" dengan peluang 0,87. Masing-masing cabang memiliki cabang sekunder berisi peluang bersyarat "Ujian Akhir" dengan syarat "Ujian Tengah Semester". Cabang Ujian-Tengah-Semester--A terbagi menjadi cabang "A", dengan peluang bersyarat 0,47 dan peluang akhir A-dan-A sebesar 0,0611, serta cabang sekunder "lainnya", dengan peluang bersyarat 0,53 dan peluang akhir A-dan-lainnya sebesar 0,0689. Selanjutnya, cabang utama Ujian-Tengah-Semester--Lainnya juga memiliki cabang sekunder Ujian-Akhir--A dengan peluang bersyarat 0,11 dan peluang akhir 0,0957, serta cabang Ujian-Akhir--lainnya dengan peluang bersyarat 0,89 dan peluang akhir 0,7743.]{0.85}{testTree}
+\end{center}
+Ketika menyusun diagram pohon, variabel yang dilengkapi peluang marginal sering digunakan untuk membentuk cabang utama; dalam kasus ini, peluang marginal diberikan untuk nilai ujian tengah semester. Nilai ujian akhir, yang bersesuaian dengan peluang bersyarat yang diberikan, ditampilkan pada cabang sekunder.
+
+Setelah diagram pohon tersusun, kita dapat menghitung peluang yang diperlukan:
+\begin{align*}
+&P(\text{\var{midterm} = \resp{A} dan \var{final} = \resp{A}}) = 0.0611 \\
+&P(\text{\underline{\color{black}\var{final} = \resp{A}}})  \\
+& \quad= P(\text{\var{midterm} = \resp{other} dan \underline{\color{black}\var{final} = \resp{A}}}) + P(\text{\var{midterm} = \resp{A} dan \underline{\color{black}\var{final} = \resp{A}}}) \\
+& \quad= 0.0957 + 0.0611  = 0.1568
+\end{align*}
+Peluang marginal $P($\var{final} = \resp{A}$)$ dihitung dengan menjumlahkan semua peluang bersama di sisi kanan pohon yang bersesuaian dengan \var{final} = \resp{A}. Sekarang kita dapat mengambil rasio kedua peluang tersebut:
+\begin{align*}
+P(\text{\var{midterm} = \resp{A}} | \text{\var{final} = \resp{A}})
+  &= \frac{P(\text{\var{midterm} = \resp{A}
+      dan \var{final} = \resp{A}})}
+    {P(\text{\var{final} = \resp{A}})} \\
+  &= \frac{0.0611}{0.1568} = 0.3897
+\end{align*}
+Peluang bahwa mahasiswa tersebut juga memperoleh A pada ujian tengah semester adalah sekitar 0,39.
+\end{nexample}
+\end{examplewrap}
+
+%\begin{figure}[ht]
+%  \centering
+%  \Figure{0.9}{testTree}
+%  \caption{Diagram pohon yang menggambarkan variabel \var{midterm}
+%      dan \var{final}.}
+%  \label{testTree}
+%\end{figure}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Setelah mengikuti mata kuliah statistika pengantar, 78\% mahasiswa dapat menyusun diagram pohon dengan benar. Di antara mahasiswa yang dapat menyusun diagram pohon, 97\% lulus, sedangkan hanya 57\% mahasiswa yang tidak dapat menyusun diagram pohon yang lulus. (a)~Susun informasi ini dalam sebuah diagram pohon. (b)~Berapa peluang bahwa mahasiswa yang dipilih secara acak lulus? (c)~Hitung peluang bahwa seorang mahasiswa mampu menyusun diagram pohon jika diketahui mahasiswa tersebut lulus.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{%\begin{minipage}[t]{0.27\linewidth}
+(a) Diagram pohon ditampilkan di sebelah kanan. \\
+(b)~Tentukan dua peluang bersama yang mewakili
+    mahasiswa yang lulus, lalu jumlahkan:
+    $P($lulus$) = 0.7566+0.1254= 0.8820$. \\
+(c)~$P($mampu menyusun diagram pohon $|$ lulus$)
+   = \frac{0.7566}{0.8820} = 0.8578$. \\ %\vspace{15mm} \\
+%\end{minipage}
+%\begin{minipage}[c]{0.7\linewidth}
+\Figure[Diagram pohon dengan cabang utama "Mampu menyusun diagram pohon" dan cabang sekunder "Lulus mata kuliah". Cabang utama Mampu-menyusun-diagram-pohon menuju dua pilihan: "Ya" dengan peluang 0,78 dan "Tidak" dengan peluang 0,22. Masing-masing cabang memiliki cabang sekunder berisi peluang "Lulus Mata Kuliah" dengan syarat "Mampu menyusun diagram pohon". Cabang utama Ya terbagi menjadi cabang "Lulus", dengan peluang bersyarat 0,97 dan peluang akhir Ya-dan-Lulus sebesar 0,7566, serta cabang sekunder "Tidak lulus", dengan peluang bersyarat 0,03 dan peluang akhir Ya-dan-Tidak-Lulus sebesar 0,0234. Selanjutnya, cabang utama Tidak juga memiliki cabang sekunder Lulus dengan peluang bersyarat 0,57 dan peluang akhir 0,1254, serta cabang Tidak Lulus dengan peluang bersyarat 0,43 dan peluang akhir 0,0946.]{0.7}{treeDiagramAndPass}}% \vspace{-25mm}
+%\end{minipage}}
+
+
+\subsection{Teorema Bayes}
+\label{bayesTheoremSubsection}
+
+\index{Bayes' Theorem|(}
+
+Dalam banyak kasus, kita diberi peluang bersyarat berbentuk
+\begin{align*}
+P(\text{pernyataan tentang variabel 1 } | \text{ pernyataan tentang variabel 2})
+\end{align*}
+padahal yang ingin kita ketahui adalah peluang bersyarat dengan arah terbalik:
+\begin{align*}
+P(\text{pernyataan tentang variabel 2 } | \text{ pernyataan tentang variabel 1})
+\end{align*}
+Diagram pohon dapat digunakan untuk mencari peluang bersyarat kedua jika peluang yang pertama diketahui. Namun, kadang-kadang skenarionya tidak dapat digambarkan dengan diagram pohon. Dalam kasus seperti ini, kita dapat menerapkan rumus umum yang sangat berguna: Teorema Bayes.
+
+Pertama, kita telaah dengan cermat sebuah contoh pembalikan peluang bersyarat yang masih dapat diselesaikan menggunakan diagram pohon.
+
+\D{\newpage}
+
+\begin{examplewrap}
+\begin{nexample}{Di Kanada, sekitar 0,35\% perempuan berusia di atas 40 tahun
+    mengidap kanker payudara pada suatu tahun.
+    Mamogram lazim digunakan untuk penapisan, tetapi tidak sempurna.
+    Pada 11\% pasien yang mengidap kanker, hasilnya \term{negatif palsu}:
+    pemeriksaan menyatakan tidak ada kanker padahal kanker ada.
+    Pada 7\% pasien tanpa kanker, hasilnya \term{positif palsu}:
+    pemeriksaan menyatakan ada kanker padahal tidak.
+    Jika seorang perempuan di atas 40 tahun dipilih secara acak dan hasil
+    mamogramnya positif, berapa peluang ia benar-benar mengidap kanker payudara?}
+
+\label{probBreastCancerGivenPositiveTestExample}
+
+Informasi ini langsung memberi peluang hasil pemeriksaan positif jika pasien mengidap kanker ($1.00-0.11=0.89$). Namun, kita mencari peluang dengan arah terbalik: peluang mengidap kanker dengan syarat hasil pemeriksaan positif. (Dalam istilah penapisan yang kurang intuitif, hasil mamogram \emph{positif} menunjukkan kemungkinan adanya kanker.) Peluang terbalik ini dapat diuraikan menjadi dua bagian:
+\begin{align*}
+P(\text{mengidap KP } | \text{ mamogram$^+$}) = \frac{P(\text{mengidap KP dan mamogram$^+$})}{P(\text{mamogram$^+$})}
+\end{align*}
+dengan ``mengidap KP'' sebagai singkatan bahwa pasien mengidap
+kanker payudara dan ``mamogram$^+$'' berarti hasil penapisan mamogram
+positif.
+Kita dapat menyusun diagram pohon untuk peluang-peluang ini:
+\begin{center}
+\Figure[Diagram pohon dengan cabang utama "Kondisi sebenarnya" dan cabang sekunder "Mamogram". Cabang utama Kondisi sebenarnya menuju dua pilihan: "Kanker" dengan peluang 0,0035 dan "Tanpa Kanker" dengan peluang 0,9965. Masing-masing cabang memiliki cabang sekunder berisi peluang bersyarat untuk hasil mamogram "Positif" dan "Negatif", dengan syarat apakah kondisi sebenarnya berupa kanker atau bukan. Cabang utama Kanker terbagi menjadi cabang "Positif", dengan peluang bersyarat 0,89 dan peluang akhir Kanker-dan-Positif sebesar 0,00312, serta cabang sekunder "Negatif", dengan peluang bersyarat 0,11 dan peluang akhir Kanker-dan-Negatif sebesar 0,00038. Selanjutnya, cabang utama Tanpa-Kanker juga memiliki cabang sekunder Positif dengan peluang bersyarat 0,07 dan peluang akhir 0,06976, serta cabang Negatif dengan peluang bersyarat 0,93 dan peluang akhir 0,92675.]{0.9}{BreastCancerTreeDiagram}
+\end{center}
+Peluang bahwa pasien mengidap kanker payudara
+dan hasil mamogramnya positif adalah
+\begin{align*}
+P(\text{mengidap KP dan mamogram$^+$}) &= P(\text{mamogram$^+$ } | \text{ mengidap KP})P(\text{mengidap KP}) \\
+	&= 0.89\times 0.0035 = 0.00312
+\end{align*}
+Peluang hasil pemeriksaan positif adalah jumlah peluang dua skenario yang bersesuaian:
+\begin{align*}
+P(\text{\underline{\color{black}mamogram$^+$}})
+  &= P(\text{\underline{\color{black}mamogram$^+$} dan mengidap KP}) \\
+  &\qquad\qquad
+      + P(\text{\underline{\color{black}mamogram$^+$} dan tidak mengidap KP})\\
+  &= P(\text{mengidap KP})P(\text{mamogram$^+$ } | \text{ mengidap KP}) \\
+  &\qquad\qquad
+      + P(\text{tidak mengidap KP})P(\text{mamogram$^+$ } | \text{ tidak mengidap KP}) \\
+  &= 0.0035\times 0.89 + 0.9965\times 0.07 = 0.07288
+\end{align*}
+Jadi, jika hasil penapisan mamogram seorang pasien positif, peluang bahwa pasien tersebut mengidap kanker payudara adalah
+\begin{align*}
+P(\text{mengidap KP } | \text{ mamogram$^+$})
+	&= \frac{P(\text{mengidap KP dan mamogram$^+$})}{P(\text{mamogram$^+$})}\\
+	&= \frac{0.00312}{0.07288} \approx 0.0428
+\end{align*}
+Dengan kata lain, meskipun hasil penapisan mamogram seorang pasien positif, peluang bahwa pasien tersebut mengidap kanker payudara tetap hanya sekitar~4\%.
+\end{nexample}
+\end{examplewrap}
+
+%\begin{figure}[h]
+%  \centering
+%  \Figure{0.75}{BreastCancerTreeDiagram}
+%  \caption{Diagram pohon untuk
+%      Contoh~\ref{probBreastCancerGivenPositiveTestExample}.}%,
+%      %menghitung peluang bahwa pasien acak dengan hasil mamogram
+%      %positif benar-benar mengidap kanker payudara.}
+%\label{BreastCancerTreeDiagram}
+%\end{figure}
+
+\D{\newpage}
+
+Contoh~\ref{probBreastCancerGivenPositiveTestExample} menunjukkan mengapa dokter sering melakukan pemeriksaan lanjutan setelah hasil pemeriksaan pertama positif. Jika suatu kondisi medis jarang terjadi, satu hasil positif umumnya belum bersifat meyakinkan.
+
+Perhatikan kembali persamaan terakhir pada Contoh~\ref{probBreastCancerGivenPositiveTestExample}.
+Dari diagram pohon, kita melihat bahwa pembilang (bagian atas pecahan) sama dengan hasil kali berikut:
+\begin{align*}
+P(\text{mengidap KP dan mamogram$^+$}) = P(\text{mamogram$^+$ } | \text{ mengidap KP})P(\text{mengidap KP})
+\end{align*}
+Penyebutnya -- peluang bahwa hasil penapisan positif -- sama dengan jumlah peluang setiap skenario penapisan positif:
+\begin{align*}
+P(\text{\underline{\color{black}mamogram$^+$}})
+	&= P(\text{\underline{\color{black}mamogram$^+$} dan tidak mengidap KP})
+		+ P(\text{\underline{\color{black}mamogram$^+$} dan mengidap KP})
+\end{align*}
+Dalam contoh tersebut, diagram pohon digunakan untuk menguraikan setiap peluang di ruas kanan menjadi hasil kali peluang bersyarat dan peluang marginal.
+\begin{align*}
+P(\text{mamogram$^+$})
+	&= P(\text{mamogram$^+$ dan tidak mengidap KP}) + P(\text{mamogram$^+$ dan mengidap KP}) \\
+	&= P(\text{mamogram$^+$ } | \text{ tidak mengidap KP})P(\text{tidak mengidap KP}) \\
+			   &\qquad\qquad + P(\text{mamogram$^+$ } | \text{ mengidap KP})P(\text{mengidap KP})
+\end{align*}
+Penerapan Teorema Bayes terlihat ketika bentuk-bentuk peluang yang dihasilkan disubstitusikan ke pembilang dan penyebut peluang bersyarat semula.
+\begin{align*}
+& P(\text{mengidap KP } | \text{ mamogram$^+$})  \\
+& \qquad= \frac{P(\text{mamogram$^+$ } | \text{ mengidap KP})P(\text{mengidap KP})}
+	{\begin{gathered}
+	 P(\text{mamogram$^+$ } | \text{ tidak mengidap KP})P(\text{tidak mengidap KP}) \\
+	 {}+P(\text{mamogram$^+$ } | \text{ mengidap KP})P(\text{mengidap KP})
+	 \end{gathered}}
+\end{align*}
+
+\begin{onebox}{Teorema Bayes: membalik peluang}
+Perhatikan peluang bersyarat berikut untuk variabel 1 dan variabel 2:\vspace{-1.5mm}
+\begin{align*}
+P(\text{hasil $A_1$ dari variabel 1 } | \text{ hasil $B$ dari variabel 2})
+\end{align*}
+Teorema Bayes menyatakan bahwa peluang bersyarat ini dapat ditentukan dengan pecahan berikut:\vspace{-1.5mm}
+\begin{align*}
+\frac{P(B | A_1) P(A_1)}
+	{P(B | A_1) P(A_1) + P(B | A_2) P(A_2) + \cdots + P(B | A_k) P(A_k)}
+\end{align*}
+dengan $A_2$, $A_3$, ..., dan $A_k$ menyatakan semua hasil lain yang mungkin dari variabel pertama.\index{Bayes' Theorem|textbf}
+\end{onebox}
+
+Teorema Bayes merupakan generalisasi dari langkah yang telah kita lakukan
+dengan diagram pohon.
+Pembilangnya menunjukkan peluang memperoleh
+$A_1$ dan~$B$ sekaligus.
+Penyebutnya adalah peluang marginal memperoleh~$B$.
+Bagian bawah pecahan ini tampak panjang dan
+rumit karena kita harus menjumlahkan peluang dari semua cara berbeda untuk memperoleh $B$. Kita selalu melakukan langkah ini saat menggunakan diagram pohon. Namun, biasanya langkah tersebut dikerjakan secara terpisah sehingga tidak tampak serumit ini.
+
+\noindent%
+Untuk menerapkan Teorema Bayes dengan benar, ada dua langkah persiapan:
+\begin{enumerate}
+\setlength{\itemsep}{0mm}
+\item[(1)] Pertama, tentukan peluang marginal setiap hasil yang mungkin dari variabel pertama: $P(A_1)$, $P(A_2)$, ..., $P(A_k)$.
+\item[(2)] Kemudian, tentukan peluang hasil $B$ dengan syarat setiap skenario yang mungkin bagi variabel pertama: $P(B | A_1)$, $P(B | A_2)$, ..., $P(B | A_k)$.
+\end{enumerate}
+Setelah semua peluang ini ditentukan, nilainya dapat langsung dimasukkan ke dalam rumus.
+Teorema Bayes biasanya merupakan pilihan yang baik ketika terdapat begitu banyak skenario sehingga diagram pohon akan rumit.
+
+\begin{exercisewrap}
+\begin{nexercise} \label{exerciseForParkingLotOnCampusBeingFullAndWhetherOrNotThereIsASportingEvent}
+Jose mengunjungi kampus setiap Kamis malam. Namun, pada beberapa malam gedung parkir penuh, sering kali karena ada acara kampus. Acara akademik berlangsung pada 35\% malam, acara olahraga pada 20\% malam, dan tidak ada acara pada 45\% malam. Saat ada acara akademik, gedung parkir penuh sekitar 25\% dari waktu tersebut; saat ada acara olahraga, gedung parkir penuh pada 70\% malam. Pada malam tanpa acara, gedung parkir hanya penuh sekitar 5\% dari waktu tersebut. Jika Jose datang ke kampus dan mendapati gedung parkir penuh, berapa peluang bahwa sedang berlangsung acara olahraga? Gunakan diagram pohon untuk menyelesaikan masalah ini.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{\begin{minipage}[t]{0.27\linewidth}
+Diagram pohon dengan tiga cabang utama ditampilkan di sebelah kanan. Selanjutnya, kita menentukan dua peluang dari diagram tersebut. (1) Peluang bahwa ada acara olahraga dan gedung parkir penuh: 0,14. (2) Peluang gedung parkir penuh: $0.0875 + 0.14 + 0.0225 = 0.25$. Jawabannya adalah rasio kedua peluang tersebut: $\frac{0.14}{0.25} = 0.56$. Jika gedung parkir penuh, peluang bahwa ada acara olahraga adalah 56\%. \vspace{0.1mm} \\\ 
+\end{minipage}
+\begin{minipage}[c]{0.65\linewidth}
+\Figure[Diagram pohon dengan cabang utama "Acara" dan cabang sekunder "Gedung parkir penuh". Cabang utama "Acara" memiliki tiga kemungkinan: "Akademik" dengan peluang 0,35, "Olahraga" dengan peluang 0,20, dan "Tidak ada" dengan peluang 0,45. Masing-masing dari ketiga cabang ini memiliki dua cabang sekunder. Cabang utama "Akademik" terbagi menjadi cabang "Penuh" dengan peluang bersyarat 0,25 dan peluang akhir Akademik-dan-Penuh sebesar 0,0875, serta cabang sekunder "Tempat Tersedia" dengan peluang bersyarat 0,75 dan peluang akhir Akademik-dan-Tempat-Tersedia sebesar 0,2625. Cabang utama "Olahraga" terbagi menjadi cabang "Penuh" dengan peluang bersyarat 0,7 dan peluang akhir Olahraga-dan-Penuh sebesar 0,14, serta cabang sekunder "Tempat Tersedia" dengan peluang bersyarat 0,3 dan peluang akhir Olahraga-dan-Tempat-Tersedia sebesar 0,06. Cabang utama "Tidak ada" terbagi menjadi cabang "Penuh" dengan peluang bersyarat 0,05 dan peluang akhir Tidak-Ada-dan-Penuh sebesar 0,0225, serta cabang sekunder "Tempat Tersedia" dengan peluang bersyarat 0,95 dan peluang akhir Tidak-Ada-dan-Penuh sebesar 0,4275.]{}{treeDiagramGarage}\vspace{-45mm}
+\end{minipage}}
+
+\begin{examplewrap}
+\begin{nexample}{Di sini kita menyelesaikan masalah yang sama seperti pada Latihan Terbimbing~\ref{exerciseForParkingLotOnCampusBeingFullAndWhetherOrNotThereIsASportingEvent}, tetapi kali ini menggunakan Teorema Bayes.}
+Hasil yang menjadi perhatian adalah ada atau tidaknya acara olahraga (kita sebut $A_1$), sedangkan syaratnya adalah gedung parkir penuh ($B$). Misalkan $A_2$ menyatakan acara akademik dan $A_3$ menyatakan tidak adanya acara di kampus. Peluang yang diberikan dapat ditulis sebagai
+\begin{align*}
+&P(A_1) = 0.2 &&P(A_2) = 0.35 &&P(A_3) = 0.45 \\
+&P(B | A_1) = 0.7 &&P(B | A_2) = 0.25 &&P(B | A_3) = 0.05
+\end{align*}
+Teorema Bayes dapat digunakan untuk menghitung peluang adanya acara olahraga ($A_1$) dengan syarat gedung parkir penuh ($B$):
+\begin{align*}
+P(A_1 | B) &= \frac{P(B | A_1) P(A_1)}{P(B | A_1) P(A_1) + P(B | A_2) P(A_2) + P(B | A_3) P(A_3)} \\
+		&= \frac{(0.7)(0.2)}{(0.7)(0.2) + (0.25)(0.35) + (0.05)(0.45)} \\
+		&= 0.56 
+\end{align*}
+Berdasarkan informasi bahwa gedung parkir penuh, peluang bahwa acara olahraga sedang berlangsung di kampus pada malam itu adalah 56\%.
+\end{nexample}
+\end{examplewrap}
+
+\D{\newpage}
+
+\begin{exercisewrap}
+\begin{nexercise} \label{exerciseForParkingLotOnCampusBeingFullAndWhetherOrNotThereIsAnAcademicEvent}
+Gunakan informasi pada latihan dan contoh sebelumnya untuk memverifikasi bahwa peluang adanya acara akademik dengan syarat gedung parkir penuh adalah 0,35.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Jawaban singkat:
+\begin{align*}
+P(A_2 | B) &= \frac{P(B | A_2) P(A_2)}{P(B | A_1) P(A_1) + P(B | A_2) P(A_2) + P(B | A_3) P(A_3)} \\
+		&= \frac{(0.25)(0.35)}{(0.7)(0.2) + (0.25)(0.35) + (0.05)(0.45)} \\
+		&= 0.35
+\end{align*}}
+
+\begin{exercisewrap}
+\begin{nexercise} \label{exerciseForParkingLotOnCampusBeingFullAndWhetherOrNotThereIsNoEvent}
+Dalam Latihan Terbimbing~\ref{exerciseForParkingLotOnCampusBeingFullAndWhetherOrNotThereIsASportingEvent} dan~\ref{exerciseForParkingLotOnCampusBeingFullAndWhetherOrNotThereIsAnAcademicEvent}, Anda menemukan bahwa jika gedung parkir penuh, peluang adanya acara olahraga adalah 0,56 dan peluang adanya acara akademik adalah 0,35. Dengan informasi ini, hitung $P($tidak ada acara $|$ gedung parkir penuh$)$.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Setiap peluang dikondisikan pada informasi yang sama, yaitu gedung parkir penuh, sehingga aturan komplemen dapat digunakan: $1.00 - 0.56 - 0.35 = 0.09$.}
+
+Beberapa latihan terakhir memberikan cara untuk memperbarui keyakinan kita mengenai apakah sedang ada acara olahraga, acara akademik, atau tidak ada acara di kampus berdasarkan informasi bahwa gedung parkir penuh. Strategi \emph{memperbarui keyakinan} dengan Teorema Bayes ini merupakan landasan sebuah cabang statistika yang disebut \term{statistika Bayes}. Walaupun statistika Bayes sangat penting dan berguna, buku ini tidak akan membahasnya lebih jauh.
+
+\index{Bayes' Theorem|)}
+\index{tree diagram|)}
+\index{conditional probability|)}
+\index{probability|)}
+
+
+{\input{ch_probability/TeX/conditional_probability.tex}}

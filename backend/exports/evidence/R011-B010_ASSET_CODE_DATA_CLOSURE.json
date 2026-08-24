@@ -1,0 +1,893 @@
+{
+  "schema": "r011-b010-asset-code-data-closure",
+  "schema_version": "1.0.0",
+  "boundary_id": "R011-B010",
+  "locale": "id-ID",
+  "status": "candidate_isolated_not_admitted",
+  "authority": {
+    "repository_url": "https://github.com/OpenIntroStat/openintro-statistics",
+    "branch": "master",
+    "commit_sha": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "tree_sha": "d61cc601e7d97759ce805900520f784d02a0489e"
+  },
+  "scope": {
+    "figure_pair_count": 8,
+    "research_note_count": 1,
+    "alt_text_record_count": 8,
+    "canonical_files_modified": 0
+  },
+  "assets": [
+    {
+      "asset_id": "BreastCancerTreeDiagram",
+      "repository_relative_directory": "ch_probability/figures/BreastCancerTreeDiagram",
+      "source_and_current_identical": true,
+      "source_r": {
+        "bytes": 414,
+        "sha256": "71724e847d8d3ded1f8f87a9d8aa96e324c84863519f299540ddd325861ff076"
+      },
+      "source_pdf": {
+        "bytes": 4442,
+        "sha256": "cd70daeba274942b81cd48bcccdfabfa1bbb1a3273880988659ec3bdb82e8bdc"
+      },
+      "candidate_r": {
+        "path": "id-ID/BreastCancerTreeDiagram/BreastCancerTreeDiagram.R",
+        "bytes": 417,
+        "sha256": "d3d8c39fda20f77873b1cdccc25cc848cd9f568a9b8b460100d95617ef5d3e22",
+        "execution_status": "not_executed_Rscript_absent",
+        "static_syntax_sanity": true
+      },
+      "candidate_pdf": {
+        "path": "id-ID/BreastCancerTreeDiagram/BreastCancerTreeDiagram.pdf",
+        "bytes": 4535,
+        "sha256": "9a3f8b09b58046918bc5fc5788b0bd1cd4b6144949bf0805103384dc11af2aa6",
+        "derivation": "exact_declared_content_stream_substitution"
+      },
+      "english_witnesses": {
+        "r": "source-en/BreastCancerTreeDiagram/BreastCancerTreeDiagram.R",
+        "pdf": "source-en/BreastCancerTreeDiagram/BreastCancerTreeDiagram.pdf"
+      },
+      "visible_label_map": [
+        {
+          "source": "Truth",
+          "id_ID": "Kondisi"
+        },
+        {
+          "source": "Mammogram",
+          "id_ID": "Mamogram"
+        },
+        {
+          "source": "cancer, 0.0035",
+          "id_ID": "kanker, 0.0035"
+        },
+        {
+          "source": "positive, 0.89",
+          "id_ID": "positif, 0.89"
+        },
+        {
+          "source": "negative, 0.11",
+          "id_ID": "negatif, 0.11"
+        },
+        {
+          "source": "no cancer, 0.9965",
+          "id_ID": "tanpa kanker, 0.9965"
+        },
+        {
+          "source": "positive, 0.07",
+          "id_ID": "positif, 0.07"
+        },
+        {
+          "source": "negative, 0.93",
+          "id_ID": "negatif, 0.93"
+        }
+      ],
+      "numeric_tokens_preserved_as_multiset": true,
+      "page_geometry_preserved": true,
+      "render_dimensions_preserved": true,
+      "render_sha256": {
+        "source": "f187ddde520644161d39b99b869f98d25dfd22d839bcfae010ebd017d98efb1e",
+        "id_ID": "181d859bcb945cff8733d25e21a00fb70f70842a75d3ee3b4593715aee4081bf"
+      },
+      "r_dependencies": {
+        "package": "openintro",
+        "version": "not pinned by upstream producer and unavailable locally",
+        "symbols": [
+          "COL",
+          "treeDiag",
+          "myPDF"
+        ],
+        "base_graphics": [
+          "pdf",
+          "dev.off"
+        ],
+        "data_files_read": []
+      },
+      "data_provenance": "Probabilities are hard-coded. Adjacent `Mammogram Research.txt` attributes 89% sensitivity and a 7.4% false-positive figure to a legacy Breastcancer.org page, and 0.35% annual prevalence to PMC1173421. The committed figure/textbook use 7%, not 7.4%; this is an explicit rounding/source-note discrepancy, not a downloaded dataset.",
+      "rights": {
+        "classification": "CC-BY-SA-3.0-repository-declaration",
+        "decision": "include_subject_to_attribution_and_brand_exclusion",
+        "basis": "Pinned README.md plus LICENSE.md; no external-photo override applies to these generated diagrams.",
+        "derivative_notice": "Indonesian label localization; retain OpenIntro attribution and CC BY-SA 3.0 notice."
+      }
+    },
+    {
+      "asset_id": "photoClassifyVenn",
+      "repository_relative_directory": "ch_probability/figures/photoClassifyVenn",
+      "source_and_current_identical": true,
+      "source_r": {
+        "bytes": 773,
+        "sha256": "06fe1ac62cbe09c1a125f931559ef8c05a162e7ab83141b5cc57be421be852aa"
+      },
+      "source_pdf": {
+        "bytes": 4802,
+        "sha256": "2451736277dca3a1852e2d3b5c9b34ff7d75552f619f183f6d47f26647fef5c0"
+      },
+      "candidate_r": {
+        "path": "id-ID/photoClassifyVenn/photoClassifyVenn.R",
+        "bytes": 772,
+        "sha256": "1e8f237197949da8918f179053e8bf254405e0e267a401d72baf18312b672262",
+        "execution_status": "not_executed_Rscript_absent",
+        "static_syntax_sanity": true
+      },
+      "candidate_pdf": {
+        "path": "id-ID/photoClassifyVenn/photoClassifyVenn.pdf",
+        "bytes": 4915,
+        "sha256": "20e66f0e77f992e6ef9f3f3ac27875b843abfee4762e3e71721e80e41c42b65e",
+        "derivation": "exact_declared_content_stream_substitution"
+      },
+      "english_witnesses": {
+        "r": "source-en/photoClassifyVenn/photoClassifyVenn.R",
+        "pdf": "source-en/photoClassifyVenn/photoClassifyVenn.pdf"
+      },
+      "visible_label_map": [
+        {
+          "source": "ML Predicts Fashion",
+          "id_ID": "ML memprediksi busana"
+        },
+        {
+          "source": "Fashion Photos",
+          "id_ID": "Foto busana"
+        },
+        {
+          "source": "Neither: 0.82",
+          "id_ID": "Bukan keduanya: 0.82"
+        }
+      ],
+      "numeric_tokens_preserved_as_multiset": true,
+      "page_geometry_preserved": true,
+      "render_dimensions_preserved": true,
+      "render_sha256": {
+        "source": "88445d13bc9d848ffaf4ddb58e6321f8ddae37caab99926bc229675b14621c84",
+        "id_ID": "3750ed9a06cb1856c641ff31b355b632566844779b33a1291ba04f4ff0552de8"
+      },
+      "r_dependencies": {
+        "package": "openintro",
+        "version": "not pinned by upstream producer and unavailable locally",
+        "symbols": [
+          "COL"
+        ],
+        "base_graphics": [
+          "pdf",
+          "par",
+          "plot",
+          "rect",
+          "text",
+          "dev.off"
+        ],
+        "data_files_read": []
+      },
+      "data_provenance": "Probabilities are hard-coded in the producer. The adjacent TeX names the openintro photo_classify dataset and records `library(openintro); table(photo_classify)` as the computation witness; the R figure itself reads no dataset.",
+      "rights": {
+        "classification": "CC-BY-SA-3.0-repository-declaration",
+        "decision": "include_subject_to_attribution_and_brand_exclusion",
+        "basis": "Pinned README.md plus LICENSE.md; no external-photo override applies to these generated diagrams.",
+        "derivative_notice": "Indonesian label localization; retain OpenIntro attribution and CC BY-SA 3.0 notice."
+      }
+    },
+    {
+      "asset_id": "smallpoxTreeDiagram",
+      "repository_relative_directory": "ch_probability/figures/smallpoxTreeDiagram",
+      "source_and_current_identical": true,
+      "source_r": {
+        "bytes": 402,
+        "sha256": "44fb9930c356e4385602719680880f368f675488068864d9cdb0c209d73e0a85"
+      },
+      "source_pdf": {
+        "bytes": 4445,
+        "sha256": "e2b2e01b64f9fe2da54ba5e0b29735dc8dd9b4c4b3c2641e028c6ac863b673f6"
+      },
+      "candidate_r": {
+        "path": "id-ID/smallpoxTreeDiagram/smallpoxTreeDiagram.R",
+        "bytes": 407,
+        "sha256": "574ea7965fbbada2190fdd77f8359fc355ece782e9ab2c18d94aa070561cc5b1",
+        "execution_status": "not_executed_Rscript_absent",
+        "static_syntax_sanity": true
+      },
+      "candidate_pdf": {
+        "path": "id-ID/smallpoxTreeDiagram/smallpoxTreeDiagram.pdf",
+        "bytes": 4545,
+        "sha256": "f90336e19eeed6a84c7be89c3e5a315ddc994729402d68bdaef71548b80b3b67",
+        "derivation": "exact_declared_content_stream_substitution"
+      },
+      "english_witnesses": {
+        "r": "source-en/smallpoxTreeDiagram/smallpoxTreeDiagram.R",
+        "pdf": "source-en/smallpoxTreeDiagram/smallpoxTreeDiagram.pdf"
+      },
+      "visible_label_map": [
+        {
+          "source": "Inoculated",
+          "id_ID": "Inokulasi"
+        },
+        {
+          "source": "Result",
+          "id_ID": "Hasil"
+        },
+        {
+          "source": "yes, 0.0392",
+          "id_ID": "ya, 0.0392"
+        },
+        {
+          "source": "lived, 0.9754",
+          "id_ID": "hidup, 0.9754"
+        },
+        {
+          "source": "died, 0.0246",
+          "id_ID": "meninggal, 0.0246"
+        },
+        {
+          "source": "no, 0.9608",
+          "id_ID": "tidak, 0.9608"
+        },
+        {
+          "source": "lived, 0.8589",
+          "id_ID": "hidup, 0.8589"
+        },
+        {
+          "source": "died, 0.1411",
+          "id_ID": "meninggal, 0.1411"
+        }
+      ],
+      "numeric_tokens_preserved_as_multiset": true,
+      "page_geometry_preserved": true,
+      "render_dimensions_preserved": true,
+      "render_sha256": {
+        "source": "cb46b33d98f3ef9a113c9024ba719d48c45da8366f1e3feae9cb1a85fb4d19fe",
+        "id_ID": "a55a83fbb003ab22df280558de19692edf194d1a28f0dafa8c8bd65069413f18"
+      },
+      "r_dependencies": {
+        "package": "openintro",
+        "version": "not pinned by upstream producer and unavailable locally",
+        "symbols": [
+          "COL",
+          "treeDiag",
+          "myPDF"
+        ],
+        "base_graphics": [
+          "pdf",
+          "dev.off"
+        ],
+        "data_files_read": []
+      },
+      "data_provenance": "All probabilities are hard-coded from the textbook's smallpox contingency table: 6,224 Boston residents exposed in 1721 (244 inoculated, 5,980 not inoculated; lived/died counts 238/6 and 5,136/844). The producer reads no dataset file.",
+      "rights": {
+        "classification": "CC-BY-SA-3.0-repository-declaration",
+        "decision": "include_subject_to_attribution_and_brand_exclusion",
+        "basis": "Pinned README.md plus LICENSE.md; no external-photo override applies to these generated diagrams.",
+        "derivative_notice": "Indonesian label localization; retain OpenIntro attribution and CC BY-SA 3.0 notice."
+      }
+    },
+    {
+      "asset_id": "testTree",
+      "repository_relative_directory": "ch_probability/figures/testTree",
+      "source_and_current_identical": true,
+      "source_r": {
+        "bytes": 375,
+        "sha256": "b66dfbf8cdcfd84ec0b592ee51911959aabaf9b2c2d9a608d3c366450dead5fc"
+      },
+      "source_pdf": {
+        "bytes": 4412,
+        "sha256": "ee145ace8aa8d524aea1f7685745b37420cc3aee5d3e6ec70b1ea0ed2c30b60c"
+      },
+      "candidate_r": {
+        "path": "id-ID/testTree/testTree.R",
+        "bytes": 373,
+        "sha256": "f743865b363fbaed2b1ac7242e47aafbd538f602dc15bbfe4918604c0db6cf85",
+        "execution_status": "not_executed_Rscript_absent",
+        "static_syntax_sanity": true
+      },
+      "candidate_pdf": {
+        "path": "id-ID/testTree/testTree.pdf",
+        "bytes": 4507,
+        "sha256": "98fcd70f217945178ca7b791932618a41f84ddaa568972da1f9659e141ccaad3",
+        "derivation": "exact_declared_content_stream_substitution"
+      },
+      "english_witnesses": {
+        "r": "source-en/testTree/testTree.R",
+        "pdf": "source-en/testTree/testTree.pdf"
+      },
+      "visible_label_map": [
+        {
+          "source": "Midterm",
+          "id_ID": "UTS"
+        },
+        {
+          "source": "Final",
+          "id_ID": "UAS"
+        },
+        {
+          "source": "other, 0.53",
+          "id_ID": "lainnya, 0.53"
+        },
+        {
+          "source": "other, 0.87",
+          "id_ID": "lainnya, 0.87"
+        },
+        {
+          "source": "other, 0.89",
+          "id_ID": "lainnya, 0.89"
+        }
+      ],
+      "numeric_tokens_preserved_as_multiset": true,
+      "page_geometry_preserved": true,
+      "render_dimensions_preserved": true,
+      "render_sha256": {
+        "source": "2bf2f99ea81c8862492acb103c5cde3d068dc7168da8c2271180f7a9d98cad16",
+        "id_ID": "fc8857b89f4829bd4c0df6763139f60f1cc900a1038828fadf82ef8d42f8cb66"
+      },
+      "r_dependencies": {
+        "package": "openintro",
+        "version": "not pinned by upstream producer and unavailable locally",
+        "symbols": [
+          "COL",
+          "treeDiag",
+          "myPDF"
+        ],
+        "base_graphics": [
+          "pdf",
+          "dev.off"
+        ],
+        "data_files_read": []
+      },
+      "data_provenance": "The four marginal/conditional probabilities are hard-coded from the adjacent textbook example about UTS/UAS grades; no external or package dataset is read.",
+      "rights": {
+        "classification": "CC-BY-SA-3.0-repository-declaration",
+        "decision": "include_subject_to_attribution_and_brand_exclusion",
+        "basis": "Pinned README.md plus LICENSE.md; no external-photo override applies to these generated diagrams.",
+        "derivative_notice": "Indonesian label localization; retain OpenIntro attribution and CC BY-SA 3.0 notice."
+      }
+    },
+    {
+      "asset_id": "treeDiagramAndPass",
+      "repository_relative_directory": "ch_probability/figures/treeDiagramAndPass",
+      "source_and_current_identical": true,
+      "source_r": {
+        "bytes": 417,
+        "sha256": "2d857ded7ad8d8de745c28635f663eea4a10360b336c9fca36880324d20e9198"
+      },
+      "source_pdf": {
+        "bytes": 4484,
+        "sha256": "28565782d67daa3b68290c555859dddc53fc5caf243cdcef36824718c22439c5"
+      },
+      "candidate_r": {
+        "path": "id-ID/treeDiagramAndPass/treeDiagramAndPass.R",
+        "bytes": 423,
+        "sha256": "87424b1ffd3fedbf3491b60420b6da6afc48f93988a5ee9e0d244d5dd0ee0a6f",
+        "execution_status": "not_executed_Rscript_absent",
+        "static_syntax_sanity": true
+      },
+      "candidate_pdf": {
+        "path": "id-ID/treeDiagramAndPass/treeDiagramAndPass.pdf",
+        "bytes": 4566,
+        "sha256": "779ab696fcaedab81cf93f1cac0e358b5d2718aee4c15f15811be25d8495c5f8",
+        "derivation": "exact_declared_content_stream_substitution"
+      },
+      "english_witnesses": {
+        "r": "source-en/treeDiagramAndPass/treeDiagramAndPass.R",
+        "pdf": "source-en/treeDiagramAndPass/treeDiagramAndPass.pdf"
+      },
+      "visible_label_map": [
+        {
+          "source": "[blank leading line]",
+          "id_ID": "[blank leading line preserved]"
+        },
+        {
+          "source": "Able to construct",
+          "id_ID": "Mampu membuat"
+        },
+        {
+          "source": "tree diagrams",
+          "id_ID": "diagram pohon"
+        },
+        {
+          "source": "Pass class",
+          "id_ID": "Lulus mata kuliah"
+        },
+        {
+          "source": "yes, 0.78",
+          "id_ID": "ya, 0.78"
+        },
+        {
+          "source": "pass, 0.97",
+          "id_ID": "lulus, 0.97"
+        },
+        {
+          "source": "fail, 0.03",
+          "id_ID": "gagal, 0.03"
+        },
+        {
+          "source": "no, 0.22",
+          "id_ID": "tidak, 0.22"
+        },
+        {
+          "source": "pass, 0.57",
+          "id_ID": "lulus, 0.57"
+        },
+        {
+          "source": "fail, 0.43",
+          "id_ID": "gagal, 0.43"
+        }
+      ],
+      "numeric_tokens_preserved_as_multiset": true,
+      "page_geometry_preserved": true,
+      "render_dimensions_preserved": true,
+      "render_sha256": {
+        "source": "c3769de19d6ba22be41336c7bb2fb84bda5c714393f418ca291d07fbfa8769c4",
+        "id_ID": "7de524737851c1370f6911400b16bcfa2e8d6571fa26025f2c057d04cd8b4c41"
+      },
+      "r_dependencies": {
+        "package": "openintro",
+        "version": "not pinned by upstream producer and unavailable locally",
+        "symbols": [
+          "COL",
+          "treeDiag",
+          "myPDF"
+        ],
+        "base_graphics": [
+          "pdf",
+          "dev.off"
+        ],
+        "data_files_read": []
+      },
+      "data_provenance": "All probabilities are hard-coded from the adjacent guided-practice scenario about ability to construct tree diagrams and course completion; no dataset is read.",
+      "rights": {
+        "classification": "CC-BY-SA-3.0-repository-declaration",
+        "decision": "include_subject_to_attribution_and_brand_exclusion",
+        "basis": "Pinned README.md plus LICENSE.md; no external-photo override applies to these generated diagrams.",
+        "derivative_notice": "Indonesian label localization; retain OpenIntro attribution and CC BY-SA 3.0 notice."
+      }
+    },
+    {
+      "asset_id": "treeDiagramGarage",
+      "repository_relative_directory": "ch_probability/figures/treeDiagramGarage",
+      "source_and_current_identical": true,
+      "source_r": {
+        "bytes": 453,
+        "sha256": "bb6d4b4ac8e4f9205c78804a13c5f152991b6ddcfcd8898fe7a9cd7948a24780"
+      },
+      "source_pdf": {
+        "bytes": 4578,
+        "sha256": "f4368ee5169b37a6e83d73348f35a05f488c2985017d4b8736e7b0face1459dc"
+      },
+      "candidate_r": {
+        "path": "id-ID/treeDiagramGarage/treeDiagramGarage.R",
+        "bytes": 458,
+        "sha256": "5c9b9624236b6028cac0f121675d032f2b7a7a08c3c8bf9a5b001c15d0776962",
+        "execution_status": "not_executed_Rscript_absent",
+        "static_syntax_sanity": true
+      },
+      "candidate_pdf": {
+        "path": "id-ID/treeDiagramGarage/treeDiagramGarage.pdf",
+        "bytes": 4660,
+        "sha256": "8c3291a804fbe3af57bca026905fec1dc8ea04189b5994899c8153b6f5d85d3b",
+        "derivation": "exact_declared_content_stream_substitution"
+      },
+      "english_witnesses": {
+        "r": "source-en/treeDiagramGarage/treeDiagramGarage.R",
+        "pdf": "source-en/treeDiagramGarage/treeDiagramGarage.pdf"
+      },
+      "visible_label_map": [
+        {
+          "source": "Event",
+          "id_ID": "Acara"
+        },
+        {
+          "source": "Garage full",
+          "id_ID": "Garasi penuh"
+        },
+        {
+          "source": "Academic, 0.35",
+          "id_ID": "Akademik, 0.35"
+        },
+        {
+          "source": "Full, 0.25",
+          "id_ID": "Penuh, 0.25"
+        },
+        {
+          "source": "Spaces Available, 0.75",
+          "id_ID": "Tempat tersedia, 0.75"
+        },
+        {
+          "source": "Sporting, 0.20",
+          "id_ID": "Olahraga, 0.20"
+        },
+        {
+          "source": "Full, 0.7",
+          "id_ID": "Penuh, 0.7"
+        },
+        {
+          "source": "Spaces Available, 0.3",
+          "id_ID": "Tempat tersedia, 0.3"
+        },
+        {
+          "source": "None, 0.45",
+          "id_ID": "Tidak ada, 0.45"
+        },
+        {
+          "source": "Full, 0.05",
+          "id_ID": "Penuh, 0.05"
+        },
+        {
+          "source": "Spaces Available, 0.95",
+          "id_ID": "Tempat tersedia, 0.95"
+        }
+      ],
+      "numeric_tokens_preserved_as_multiset": true,
+      "page_geometry_preserved": true,
+      "render_dimensions_preserved": true,
+      "render_sha256": {
+        "source": "123640691b3055c1d9a47cc8e3f8b9af8dadb996c0480e595726c192854d841b",
+        "id_ID": "7069da835b965a5dac6fb9bbc4431caa9d8090be7be67aecbb970824c4374c7a"
+      },
+      "r_dependencies": {
+        "package": "openintro",
+        "version": "not pinned by upstream producer and unavailable locally",
+        "symbols": [
+          "COL",
+          "treeDiag",
+          "myPDF"
+        ],
+        "base_graphics": [
+          "pdf",
+          "dev.off"
+        ],
+        "data_files_read": []
+      },
+      "data_provenance": "All probabilities are hard-coded from the adjacent textbook parking-garage guided practice; no dataset is read.",
+      "rights": {
+        "classification": "CC-BY-SA-3.0-repository-declaration",
+        "decision": "include_subject_to_attribution_and_brand_exclusion",
+        "basis": "Pinned README.md plus LICENSE.md; no external-photo override applies to these generated diagrams.",
+        "derivative_notice": "Indonesian label localization; retain OpenIntro attribution and CC BY-SA 3.0 notice."
+      }
+    },
+    {
+      "asset_id": "tree_drawing_box_plots",
+      "repository_relative_directory": "ch_probability/figures/eoce/tree_drawing_box_plots",
+      "source_and_current_identical": true,
+      "source_r": {
+        "bytes": 443,
+        "sha256": "fbb3f706bd596a1f0153a049c7ef7c3285996ae3b7dc1c772c2f8145db3813e9"
+      },
+      "source_pdf": {
+        "bytes": 4454,
+        "sha256": "8ddf9bc83193c4196e81a9a729c9183829da00f147baec38ed900b1e06ad7245"
+      },
+      "candidate_r": {
+        "path": "id-ID/eoce/tree_drawing_box_plots/tree_drawing_box_plots.R",
+        "bytes": 347,
+        "sha256": "21a230621e091583a83af660ea87912bf3eb5cfd64259bb11f11151cb99e0371",
+        "execution_status": "not_executed_Rscript_absent",
+        "static_syntax_sanity": true
+      },
+      "candidate_pdf": {
+        "path": "id-ID/eoce/tree_drawing_box_plots/tree_drawing_box_plots.pdf",
+        "bytes": 4545,
+        "sha256": "131619ded9f47c00680bf9e0a26ecac1be12c29fa63b43b005245d6cd1d7c694",
+        "derivation": "exact_declared_content_stream_substitution"
+      },
+      "english_witnesses": {
+        "r": "source-en/eoce/tree_drawing_box_plots/tree_drawing_box_plots.R",
+        "pdf": "source-en/eoce/tree_drawing_box_plots/tree_drawing_box_plots.pdf"
+      },
+      "visible_label_map": [
+        {
+          "source": "[blank leading line]",
+          "id_ID": "[blank leading line preserved]"
+        },
+        {
+          "source": "Can construct",
+          "id_ID": "Dapat membuat"
+        },
+        {
+          "source": "box plots?",
+          "id_ID": "diagram kotak?"
+        },
+        {
+          "source": "Passed?",
+          "id_ID": "Lulus?"
+        },
+        {
+          "source": "yes, 0.8",
+          "id_ID": "ya, 0.8"
+        },
+        {
+          "source": "Yes, 0.86",
+          "id_ID": "Ya, 0.86"
+        },
+        {
+          "source": "No, 0.14",
+          "id_ID": "Tidak, 0.14"
+        },
+        {
+          "source": "no, 0.2",
+          "id_ID": "tidak, 0.2"
+        },
+        {
+          "source": "Yes, 0.65",
+          "id_ID": "Ya, 0.65"
+        },
+        {
+          "source": "No, 0.35",
+          "id_ID": "Tidak, 0.35"
+        }
+      ],
+      "numeric_tokens_preserved_as_multiset": true,
+      "page_geometry_preserved": true,
+      "render_dimensions_preserved": true,
+      "render_sha256": {
+        "source": "d2bb3b3e81529201990b607012788bd7ecf75669646e9fbccbb0dcb4822375cb",
+        "id_ID": "e980f2caccd7db6652e7518b06cc244d03e7cb6d333696d23b58860403e3172a"
+      },
+      "r_dependencies": {
+        "package": "openintro",
+        "version": "not pinned by upstream producer and unavailable locally",
+        "symbols": [
+          "COL",
+          "treeDiag"
+        ],
+        "base_graphics": [
+          "pdf",
+          "dev.off"
+        ],
+        "data_files_read": []
+      },
+      "data_provenance": "All probabilities are hard-coded from end-of-section exercise 19; no dataset is read.",
+      "rights": {
+        "classification": "CC-BY-SA-3.0-repository-declaration",
+        "decision": "include_subject_to_attribution_and_brand_exclusion",
+        "basis": "Pinned README.md plus LICENSE.md; no external-photo override applies to these generated diagrams.",
+        "derivative_notice": "Indonesian label localization; retain OpenIntro attribution and CC BY-SA 3.0 notice."
+      }
+    },
+    {
+      "asset_id": "tree_lupus",
+      "repository_relative_directory": "ch_probability/figures/eoce/tree_lupus",
+      "source_and_current_identical": true,
+      "source_r": {
+        "bytes": 436,
+        "sha256": "a9d8223c48c0977c431e08946a0f91cf01097d95b24fc22d685f376fca5cb912"
+      },
+      "source_pdf": {
+        "bytes": 4424,
+        "sha256": "6eec693d5df94876f304865ea7c90935952b2dba9ed24d750b6a0fec7de92185"
+      },
+      "candidate_r": {
+        "path": "id-ID/eoce/tree_lupus/tree_lupus.R",
+        "bytes": 335,
+        "sha256": "91fbbde93931f8f90b9d5ed39b9b78a6dac8bd777fafa05822ee2b78b283915c",
+        "execution_status": "not_executed_Rscript_absent",
+        "static_syntax_sanity": true
+      },
+      "candidate_pdf": {
+        "path": "id-ID/eoce/tree_lupus/tree_lupus.pdf",
+        "bytes": 4514,
+        "sha256": "597bfe0665e7058af2683df04dabece0d5477c14c00374291e22889fee5ad002",
+        "derivation": "exact_declared_content_stream_substitution"
+      },
+      "english_witnesses": {
+        "r": "source-en/eoce/tree_lupus/tree_lupus.R",
+        "pdf": "source-en/eoce/tree_lupus/tree_lupus.pdf"
+      },
+      "visible_label_map": [
+        {
+          "source": "Result",
+          "id_ID": "Hasil"
+        },
+        {
+          "source": "yes, 0.02",
+          "id_ID": "ya, 0.02"
+        },
+        {
+          "source": "positive, 0.98",
+          "id_ID": "positif, 0.98"
+        },
+        {
+          "source": "negative, 0.02",
+          "id_ID": "negatif, 0.02"
+        },
+        {
+          "source": "no, 0.98",
+          "id_ID": "tidak, 0.98"
+        },
+        {
+          "source": "positive, 0.26",
+          "id_ID": "positif, 0.26"
+        },
+        {
+          "source": "negative, 0.74",
+          "id_ID": "negatif, 0.74"
+        }
+      ],
+      "numeric_tokens_preserved_as_multiset": true,
+      "page_geometry_preserved": true,
+      "render_dimensions_preserved": true,
+      "render_sha256": {
+        "source": "948d5d6aa83338d1b1726ba99af0e9c967481455e163382e6c2739f0e9f664ff",
+        "id_ID": "0a75e397dde6cfbf0eba9133a062b0b855c1aa5d878238848a6b6b0930407d81"
+      },
+      "r_dependencies": {
+        "package": "openintro",
+        "version": "not pinned by upstream producer and unavailable locally",
+        "symbols": [
+          "COL",
+          "treeDiag"
+        ],
+        "base_graphics": [
+          "pdf",
+          "dev.off"
+        ],
+        "data_files_read": []
+      },
+      "data_provenance": "All probabilities are hard-coded from end-of-section exercise 21; no dataset is read.",
+      "rights": {
+        "classification": "CC-BY-SA-3.0-repository-declaration",
+        "decision": "include_subject_to_attribution_and_brand_exclusion",
+        "basis": "Pinned README.md plus LICENSE.md; no external-photo override applies to these generated diagrams.",
+        "derivative_notice": "Indonesian label localization; retain OpenIntro attribution and CC BY-SA 3.0 notice."
+      }
+    }
+  ],
+  "controlled_vocabulary": {
+    "terms": [
+      {
+        "source_en": "conditional probability",
+        "id_ID": "peluang bersyarat",
+        "scope": "concept"
+      },
+      {
+        "source_en": "marginal probability",
+        "id_ID": "peluang marginal",
+        "scope": "concept"
+      },
+      {
+        "source_en": "joint probability",
+        "id_ID": "peluang bersama",
+        "scope": "concept and alt text"
+      },
+      {
+        "source_en": "tree diagram",
+        "id_ID": "diagram pohon",
+        "scope": "concept and visible label"
+      },
+      {
+        "source_en": "Bayes' Theorem",
+        "id_ID": "Teorema Bayes",
+        "scope": "concept"
+      },
+      {
+        "source_en": "primary branch",
+        "id_ID": "cabang utama",
+        "scope": "alt text"
+      },
+      {
+        "source_en": "secondary branch",
+        "id_ID": "cabang sekunder",
+        "scope": "alt text"
+      },
+      {
+        "source_en": "Midterm",
+        "id_ID": "UTS",
+        "scope": "visible label; underlying variable identity remains midterm"
+      },
+      {
+        "source_en": "Final",
+        "id_ID": "UAS",
+        "scope": "visible label; underlying variable identity remains final"
+      },
+      {
+        "source_en": "Pass class",
+        "id_ID": "Lulus mata kuliah",
+        "scope": "visible label"
+      },
+      {
+        "source_en": "yes / no",
+        "id_ID": "ya / tidak",
+        "scope": "visible outcomes"
+      },
+      {
+        "source_en": "Result",
+        "id_ID": "Hasil",
+        "scope": "visible label"
+      }
+    ],
+    "full_visible_label_table": {
+      "path": "R011-B010_LABEL_VOCABULARY.tsv",
+      "bytes": 3794,
+      "sha256": "917e34301686ff9324fc67cc485904f8db10e6c25140681bdae31326219f4f2b"
+    }
+  },
+  "research_note": {
+    "path": "ch_probability/figures/BreastCancerTreeDiagram/Mammogram Research.txt",
+    "source_and_current_identical": true,
+    "bytes": 1093,
+    "sha256": "f9e6745d04ab99f05f48cf9d408a97dc573a38195c8e16c2ff021f7c3dbd9964",
+    "witness": "source-en/BreastCancerTreeDiagram/Mammogram Research.txt",
+    "provenance_summary": "id-ID/BreastCancerTreeDiagram/Mammogram Research.provenance-id.md",
+    "rights": {
+      "classification": "CC-BY-SA-3.0-repository-declaration",
+      "decision": "include_subject_to_attribution_and_brand_exclusion",
+      "basis": "Pinned README.md plus LICENSE.md; no external-photo override applies to these generated diagrams.",
+      "derivative_notice": "Indonesian label localization; retain OpenIntro attribution and CC BY-SA 3.0 notice."
+    },
+    "source_quality_flags": [
+      "legacy HTTP links are research-note pointers rather than bundled evidence",
+      "7.4% false-positive statement is rounded to 7% in producer and reader text",
+      "source-note typo `resulte` preserved in witness"
+    ]
+  },
+  "tex_sources": {
+    "ch_probability/TeX/ch_probability.tex": {
+      "authority": {
+        "bytes": 132799,
+        "sha256": "4f07fcf0e71e52bc99657835d5cced47b10ce9fc66b23dce156d400840690361"
+      },
+      "current": {
+        "bytes": 133742,
+        "sha256": "5304291d9a89e1490d9c1d973cbce4cfe8e8000d412e004131f3e299bb0f8379"
+      }
+    },
+    "extraTeX/eoceSolutions/eoceSolutions.tex": {
+      "authority": {
+        "bytes": 106045,
+        "sha256": "6c4e01376db4c023cc7b3f9949490e57220ef1cb831c580da71efde6ce723268"
+      },
+      "current": {
+        "bytes": 108263,
+        "sha256": "30466c20b8e9b6fe2db9f13cec05e00e3a114b4148cd5af9d6125cea074e1612"
+      }
+    }
+  },
+  "alt_text_mapping": {
+    "path": "tex/R011-B010_ALT_TEXT_MAPPING.json",
+    "bytes": 12964,
+    "sha256": "7003ba04e4e4e658e3291b4fb01c4996b317b779eaabc65c3570842cdecc8803",
+    "candidate_tex_path": "tex/R011-B010_ALT_TEXT_CANDIDATES.tex",
+    "candidate_tex_bytes": 4348,
+    "candidate_tex_sha256": "33dd8383d0413f515fdf0aa846af1c574b2c917e0eae9575463a7b9a8f3d7eb8"
+  },
+  "toolchain": {
+    "builder": {
+      "path": "build_b010_assets.py",
+      "bytes": 53148,
+      "sha256": "6e35f370c4bb98813774ec53818c67016a2a454af2a598b5f7288d212283815d"
+    },
+    "pdf_derivation": "pikepdf 10.12.0",
+    "text_extraction": "pdftotext",
+    "rendering": "pdftoppm 180 dpi",
+    "rscript": "absent; candidate R scripts statically prepared but not executed"
+  },
+  "rights_closure": {
+    "all_scoped_repository_components": {
+      "classification": "CC-BY-SA-3.0-repository-declaration",
+      "decision": "include_subject_to_attribution_and_brand_exclusion",
+      "basis": "Pinned README.md plus LICENSE.md; no external-photo override applies to these generated diagrams.",
+      "derivative_notice": "Indonesian label localization; retain OpenIntro attribution and CC BY-SA 3.0 notice."
+    },
+    "openintro_R_package": "External build dependency, not bundled; version and exact component license are not pinned by the figure producers.",
+    "external_research_links": "Cited as provenance pointers only; no external page or dataset bytes are redistributed."
+  },
+  "blockers": [
+    "Rscript and the openintro R package are absent, so localized producer replay remains unverified.",
+    "Standalone PDFs are untagged; translated surrounding TeX alternative text must remain the accessibility layer.",
+    "Mammogram Research.txt has legacy links and a 7.4%-versus-7% discrepancy; preserve the committed 7% math unless editorial source revalidation is separately authorized."
+  ]
+}

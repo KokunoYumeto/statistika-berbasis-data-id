@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Jika Anda menggunakan edisi kerja parsial ini, sitasikan edisi turunan dan karya sumbernya."
+title: "Statistika Berbasis Data - Edisi Kerja Bahasa Indonesia (R011-B010: Bagian 3.2 Peluang bersyarat)"
+type: book
+authors:
+  - family-names: Diez
+    given-names: David M.
+  - family-names: Çetinkaya-Rundel
+    given-names: Mine
+  - family-names: Barr
+    given-names: Christopher D.
+version: "2026.08.23.1-R011-B010"
+date-released: 2026-08-23
+license: CC-BY-SA-3.0
+repository-code: "https://github.com/KokunoYumeto/statistika-berbasis-data-id"
+url: "https://doi.org/10.5281/zenodo.22059801"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22059801"
+    description: "Garis keturunan konsep Zenodo; versi B010 belum dinyatakan terbit sampai tanda terima publik dan pembacaan balik tersedia"
+abstract: "Edisi kerja yang secara eksplisit belum lengkap: Bagian 3.2 Peluang bersyarat, 15 latihan terpandu, latihan akhir bab 13-22, jawaban publik 13/15/17/19/21, delapan pasangan aset terlokalisasi, sumber editable, dan backend modular Bahasa Indonesia."
+notes: "Karya turunan dari OpenIntro Statistics oleh David M. Diez, Mine Çetinkaya-Rundel, dan Christopher D. Barr. Kontributor edisi Bahasa Indonesia: Codex, atas permintaan pengguna. Identifikasi model produksi: OpenAI Codex gpt-5.6-sol, Ultra. Kredit sumber dan kontributor manusia dipertahankan."

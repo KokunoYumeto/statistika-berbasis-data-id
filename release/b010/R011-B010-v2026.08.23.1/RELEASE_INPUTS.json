@@ -1,0 +1,289 @@
+{
+    "$schema": "r011-b010-release-inputs/v1",
+    "accepted_v1": {
+        "build_receipt": {
+            "bytes": 13089,
+            "exclusion_reason": "contains absolute local toolchain and render paths; verified internally only",
+            "path": "qa/b010-build/final/CANDIDATE_BUILD_QA_B010.json",
+            "public_payload": false,
+            "required_fields": {
+                "$schema": "r011-b010-candidate-build-qa/v1",
+                "boundary_id": "R011-B010",
+                "candidate_artifact.bytes": 22026372,
+                "candidate_artifact.sha256": "cfeed2f4bd124edef8ef2c6864ddf8375ee09470977492d007160f8a450a1b6b",
+                "canonical_mutation": false,
+                "determinism.byte_identical": true,
+                "status": "PASS_ISOLATED_DETERMINISTIC_BUILD"
+            },
+            "sha256": "ad44b741422f7318e194898f6509a47f3357b76b7deae8e8946b7f99475e11b7"
+        },
+        "candidate_pdf": {
+            "bytes": 22026372,
+            "pages": 426,
+            "path": "qa/b010-build/final/main.pdf",
+            "sha256": "cfeed2f4bd124edef8ef2c6864ddf8375ee09470977492d007160f8a450a1b6b"
+        },
+        "source_manifest": {
+            "bytes": 175582,
+            "path": "qa/b010-build/R011-B010_SOURCE_MANIFEST.tsv",
+            "required_fields": null,
+            "sha256": "f04c15b52cf6fd170921d87612c6b040c64c165505241f6a9694ca70a2166c78"
+        },
+        "source_qa": {
+            "bytes": 9189,
+            "exclusion_reason": "contains absolute local build paths; verified internally only",
+            "path": "qa/b010-build/R011-B010_SOURCE_QA.json",
+            "public_payload": false,
+            "required_fields": {
+                "$schema": "r011-b010-source-qa/v1",
+                "boundary_id": "R011-B010",
+                "status": "PASS_ISOLATED_OVERLAY_CLOSURE"
+            },
+            "sha256": "55278e10495863e9e386269ba57f659a1b6e9f3000dcb063b4a30c59dc6cf4ab"
+        },
+        "source_snapshot": {
+            "expected_bytes": 41312464,
+            "expected_files": 1206,
+            "manifest_bytes": 175582,
+            "manifest_path": "qa/b010-build/R011-B010_SOURCE_MANIFEST.tsv",
+            "manifest_sha256": "f04c15b52cf6fd170921d87612c6b040c64c165505241f6a9694ca70a2166c78",
+            "root": "qa/b010-build/source-snapshot-b010"
+        },
+        "terminology_qa": {
+            "bytes": 11720,
+            "path": "qa/b010-terminology/R011-B010_PROBABILITY_TERMINOLOGY_QA.json",
+            "required_fields": {
+                "$schema": "interlanguage.terminology-field-usage-qa",
+                "boundary_id": "R011-B010",
+                "status": "passed_decisions_propagated_to_candidate"
+            },
+            "sha256": "3239cbe0773945808f1fad2aea8eae8492ce467c4a21bb1826c39f713aa99006"
+        },
+        "translation_qa": {
+            "bytes": 5459,
+            "path": "qa/b010-translation/R011-B010_FINAL_TRANSLATION_QA.json",
+            "required_fields": {
+                "$schema": "interlanguage.translation-boundary-qa",
+                "boundary_id": "R011-B010",
+                "production_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+                "status": "PASS_FINAL_CANDIDATE"
+            },
+            "sha256": "8bb23c596d06ba78881ea63e7c83930249b6d5fe4dc604c5ba218c29bf44a244"
+        },
+        "visual_audit": {
+            "bytes": 3621,
+            "path": "qa/b010-visual/R011-B010_VISUAL_QA.json",
+            "required_fields": {
+                "$schema": "interlanguage.reader-visual-qa",
+                "boundary_id": "R011-B010",
+                "candidate.sha256": "cfeed2f4bd124edef8ef2c6864ddf8375ee09470977492d007160f8a450a1b6b",
+                "status": "PASS"
+            },
+            "sha256": "c1bae04c23a919e087e317f0ef25beb58897d8025c509bd273d6cf8a20bec6e0"
+        }
+    },
+    "authority": {
+        "authors": [
+            "David M. Diez",
+            "Mine Çetinkaya-Rundel",
+            "Christopher D. Barr"
+        ],
+        "commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+        "derivative_title": "Statistika Berbasis Data",
+        "reader": "https://www.openintro.org/book/os/",
+        "repository": "https://github.com/OpenIntroStat/openintro-statistics",
+        "title": "OpenIntro Statistics, Fourth Edition",
+        "tree": "d61cc601e7d97759ce805900520f784d02a0489e"
+    },
+    "boundary_id": "R011-B010",
+    "coverage": {
+        "completion_state": "partial",
+        "eoc_exercises": "Semua latihan 13-22 dipertahankan; hanya jawaban publik 13/15/17/19/21 yang disertakan.",
+        "localized_figure_pairs": 8,
+        "o001_gaps": [
+            14,
+            16,
+            18,
+            20,
+            22
+        ],
+        "restricted_solutions": "Tidak ada solusi instruktur terbatas yang diakses, direkonstruksi, atau dinyatakan sebagai solusi sumber.",
+        "short": "Bagian 3.2 Peluang bersyarat lengkap dalam urutan sumber; 15 latihan terpandu; EoCE 13-22; jawaban publik 13/15/17/19/21; delapan pasangan aset terlokalisasi; O001 14/16/18/20/22.",
+        "untranslated_suffix": "Materi mulai Bagian 3.3 / label smallPop tetap merupakan saksi sumber berbahasa Inggris dan bukan terjemahan yang diterima."
+    },
+    "destinations": {
+        "figshare": {
+            "article_id": 33314727,
+            "collection_id": 8668413,
+            "fallback_mode": "truthful_route_status_if_fixed_article_or_account_unavailable_never_create_duplicate",
+            "max_item_bytes": 500000000,
+            "max_project_bytes": 20000000000,
+            "prior_article_doi": "10.6084/m9.figshare.33314727.v4",
+            "project_id": 280296
+        },
+        "github": {
+            "default_branch": "main",
+            "owner": "KokunoYumeto",
+            "prerelease": true,
+            "repository": "statistika-berbasis-data-id",
+            "tag": "r011-b010-2026.08.23.1",
+            "tree_mode": "exact_fresh_tree_from_bounded_allowlist"
+        },
+        "zenodo": {
+            "concept_doi": "10.5281/zenodo.22059801",
+            "concept_record_id": 22059801,
+            "prior_record_id": 22071153,
+            "prior_version": "2026.08.23.1-R011-B009"
+        }
+    },
+    "evidence_inputs": {
+        "asset_closure": {
+            "bytes": 31779,
+            "path": "scratch/b010-assets/R011-B010_ASSET_CODE_DATA_CLOSURE.json",
+            "role": "eight localized figure-pair rights and code/data closure",
+            "sha256": "2973f77f113a0a0933c3203faa050469ecd2dc7dd3ea7fdbbd1793f2b5be7c22"
+        },
+        "asset_inventory": {
+            "bytes": 2648,
+            "path": "scratch/b010-assets/R011-B010_ASSET_INVENTORY.tsv",
+            "role": "localized asset inventory",
+            "sha256": "2d5ba4a1473b74790467b556faba2ebcbb59381e496033d923816ebf652973a9"
+        },
+        "asset_qa": {
+            "bytes": 2441,
+            "path": "scratch/b010-assets/receipts/R011-B010_ASSET_QA_RECEIPT.json",
+            "role": "localized asset machine QA",
+            "sha256": "89ce02a1c30bc454c9637e9afe1f362c88fb32188041a8553414723e81d76c98"
+        },
+        "asset_visual_review": {
+            "bytes": 1524,
+            "path": "scratch/b010-assets/receipts/R011-B010_MANUAL_VISUAL_REVIEW.json",
+            "role": "localized asset visual review",
+            "sha256": "c987c3f0ced5ee11f6747d5c5bb02dafcfbd2609d509ea979926fb0a0cce8dd3"
+        }
+    },
+    "license": "CC BY-SA 3.0 Unported",
+    "license_id": "cc-by-sa-3.0",
+    "model_identification": "OpenAI Codex gpt-5.6-sol, Ultra",
+    "ordered_release_assets": [
+        "00_STATISTIKA_BERBASIS_DATA_ID_R011-B010_WORKING_READER.pdf",
+        "01_STATISTIKA_BERBASIS_DATA_ID_R011-B010_EDITABLE_SOURCE.zip",
+        "02_STATISTIKA_BERBASIS_DATA_ID_R011-B010_MODULAR_BACKEND.zip",
+        "CITATION.cff",
+        "LICENSES_AND_ATTRIBUTION.md",
+        "README_RELEASE.md",
+        "RELEASE_MANIFEST.json",
+        "SHA256SUMS.txt",
+        "ZENODO_METADATA.json"
+    ],
+    "publication_rules": {
+        "anonymous_byte_readback_required": true,
+        "case_insensitive_private_name_scan_required": true,
+        "exact_model_string_required": true,
+        "execute_requires_all_terminal_inputs": true,
+        "no_upstream_contact": true,
+        "no_user_first_name": true,
+        "preserve_full_credits": true,
+        "reader_first": true,
+        "remote_collision_check_required": true,
+        "restricted_terminology_witnesses_excluded": true,
+        "scan_every_zip_member_required": true
+    },
+    "release_date": "2026-08-23",
+    "release_id": "R011-B010-v2026.08.23.1",
+    "status": "READY_FOR_PACKAGING",
+    "terminal_inputs": {
+        "admission_guard": {
+            "bytes": 62279,
+            "exclusion_reason": "contains a local profile identifier; exact internal terminal identity retained while executable bytes are excluded from every public payload",
+            "path": "scripts/admit_b010.py",
+            "public_payload": false,
+            "required": true,
+            "required_fields": null,
+            "role": "guarded atomic B010 admission tool",
+            "sha256": "11a4073cc94cf8eaf980d23b68acf87afbc2c08b546ab79012f92225aca8222a"
+        },
+        "admission_receipt": {
+            "bytes": 7876,
+            "path": "qa/b010-admission/R011-B010_ADMISSION_TRANSACTION_JOURNAL.json",
+            "public_payload": false,
+            "required": true,
+            "required_fields": {
+                "$schema": "r011-b010-admission-transaction-journal/v1",
+                "boundary_id": "R011-B010",
+                "status": "committed_exact_post_admission_replay"
+            },
+            "role": "guarded B010 canonical admission transaction receipt",
+            "sha256": "7fd2885b5c4ac75b6d655bc26b0e7d0d56732c40af53278a18b846a855a1ae7f"
+        },
+        "backend_inventory": {
+            "bytes": 57019944,
+            "file_count": 233,
+            "identity_kind": "directory-inventory-tsv-sha256/v1",
+            "path": "backend/exports",
+            "public_payload": false,
+            "required": true,
+            "role": "exact admitted B010 backend file inventory",
+            "sha256": "f8c1a620e89aae052a0a1efc1479aefd527ad1b4ea7d3a422b52fbd6132ab180"
+        },
+        "backend_manifest": {
+            "bytes": 45076,
+            "path": "backend/exports/manifest.json",
+            "public_payload": false,
+            "required": true,
+            "required_fields": null,
+            "role": "admitted B010 modular backend manifest",
+            "sha256": "6a3fcfa70c7199c2403137e72e346695d04d25d895cebbd7ecb02b6a814b1f88"
+        },
+        "backend_validation_receipt": {
+            "bytes": 36690,
+            "path": "qa/b010-backend-final/BACKEND_VALIDATION_RECEIPT_R011-B010.json",
+            "public_payload": true,
+            "required": true,
+            "required_fields": {
+                "$schema": "r011-b010-backend-validation/v1",
+                "boundary_id": "R011-B010",
+                "status": "PASS_READY_ISOLATED_DETERMINISTIC_REPLAY"
+            },
+            "role": "isolated B010 backend validation receipt",
+            "sha256": "9f35976e9a8d7a2ebe0919f9f9c7f615ff898469e8c59d2991880499addf94e6"
+        },
+        "boundary_receipt": {
+            "bytes": 19262,
+            "path": "qa/R011-B010_BOUNDARY_RECEIPT.json",
+            "public_payload": true,
+            "required": true,
+            "required_fields": {
+                "$schema": "r011-b010-boundary-receipt/v1",
+                "boundary_id": "R011-B010",
+                "status": "admitted_exact_pdf_source_assets_and_backend"
+            },
+            "role": "terminal B010 boundary receipt",
+            "sha256": "0c61c3e6f3e67480d97bd86eefc4e100b0f27dc6c974eebe0c132f02938faf29"
+        },
+        "post_admission_verification": {
+            "bytes": 1704,
+            "path": "qa/b010-admission/R011-B010_POST_ADMISSION_VERIFICATION.json",
+            "public_payload": true,
+            "required": true,
+            "required_fields": {
+                "$schema": "r011-b010-post-admission-verification/v1",
+                "boundary_id": "R011-B010",
+                "status": "PASS_VERIFIED_ADMITTED_EXACT"
+            },
+            "role": "B010 exact post-admission readback receipt",
+            "sha256": "50e36e3e391084e5353761d41d58ec2e45c18d2534175b3356bc8183dcba493c"
+        },
+        "promoted_pdf": {
+            "bytes": 22026372,
+            "path": "output/pdf/statistika-berbasis-data-batas-R011-B010.pdf",
+            "public_payload": true,
+            "required": true,
+            "required_fields": null,
+            "role": "admitted B010 reader; exact accepted candidate",
+            "sha256": "cfeed2f4bd124edef8ef2c6864ddf8375ee09470977492d007160f8a450a1b6b"
+        }
+    },
+    "version": "2026.08.23.1-R011-B010",
+    "version_label": "v2026.08.23.1"
+}

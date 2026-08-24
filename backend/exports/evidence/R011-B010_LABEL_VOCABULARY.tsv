@@ -1,0 +1,75 @@
+source_en	id_ID	scope
+conditional probability	peluang bersyarat	concept
+marginal probability	peluang marginal	concept
+joint probability	peluang bersama	concept and alt text
+tree diagram	diagram pohon	concept and visible label
+Bayes' Theorem	Teorema Bayes	concept
+primary branch	cabang utama	alt text
+secondary branch	cabang sekunder	alt text
+Midterm	UTS	visible label; underlying variable identity remains midterm
+Final	UAS	visible label; underlying variable identity remains final
+Pass class	Lulus mata kuliah	visible label
+yes / no	ya / tidak	visible outcomes
+Result	Hasil	visible label
+Truth	Kondisi	figure:BreastCancerTreeDiagram
+Mammogram	Mamogram	figure:BreastCancerTreeDiagram
+cancer, 0.0035	kanker, 0.0035	figure:BreastCancerTreeDiagram
+positive, 0.89	positif, 0.89	figure:BreastCancerTreeDiagram
+negative, 0.11	negatif, 0.11	figure:BreastCancerTreeDiagram
+no cancer, 0.9965	tanpa kanker, 0.9965	figure:BreastCancerTreeDiagram
+positive, 0.07	positif, 0.07	figure:BreastCancerTreeDiagram
+negative, 0.93	negatif, 0.93	figure:BreastCancerTreeDiagram
+ML Predicts Fashion	ML memprediksi busana	figure:photoClassifyVenn
+Fashion Photos	Foto busana	figure:photoClassifyVenn
+Neither: 0.82	Bukan keduanya: 0.82	figure:photoClassifyVenn
+Inoculated	Inokulasi	figure:smallpoxTreeDiagram
+Result	Hasil	figure:smallpoxTreeDiagram
+yes, 0.0392	ya, 0.0392	figure:smallpoxTreeDiagram
+lived, 0.9754	hidup, 0.9754	figure:smallpoxTreeDiagram
+died, 0.0246	meninggal, 0.0246	figure:smallpoxTreeDiagram
+no, 0.9608	tidak, 0.9608	figure:smallpoxTreeDiagram
+lived, 0.8589	hidup, 0.8589	figure:smallpoxTreeDiagram
+died, 0.1411	meninggal, 0.1411	figure:smallpoxTreeDiagram
+Midterm	UTS	figure:testTree
+Final	UAS	figure:testTree
+other, 0.53	lainnya, 0.53	figure:testTree
+other, 0.87	lainnya, 0.87	figure:testTree
+other, 0.89	lainnya, 0.89	figure:testTree
+[blank leading line]	[blank leading line preserved]	figure:treeDiagramAndPass
+Able to construct	Mampu membuat	figure:treeDiagramAndPass
+tree diagrams	diagram pohon	figure:treeDiagramAndPass
+Pass class	Lulus mata kuliah	figure:treeDiagramAndPass
+yes, 0.78	ya, 0.78	figure:treeDiagramAndPass
+pass, 0.97	lulus, 0.97	figure:treeDiagramAndPass
+fail, 0.03	gagal, 0.03	figure:treeDiagramAndPass
+no, 0.22	tidak, 0.22	figure:treeDiagramAndPass
+pass, 0.57	lulus, 0.57	figure:treeDiagramAndPass
+fail, 0.43	gagal, 0.43	figure:treeDiagramAndPass
+Event	Acara	figure:treeDiagramGarage
+Garage full	Garasi penuh	figure:treeDiagramGarage
+Academic, 0.35	Akademik, 0.35	figure:treeDiagramGarage
+Full, 0.25	Penuh, 0.25	figure:treeDiagramGarage
+Spaces Available, 0.75	Tempat tersedia, 0.75	figure:treeDiagramGarage
+Sporting, 0.20	Olahraga, 0.20	figure:treeDiagramGarage
+Full, 0.7	Penuh, 0.7	figure:treeDiagramGarage
+Spaces Available, 0.3	Tempat tersedia, 0.3	figure:treeDiagramGarage
+None, 0.45	Tidak ada, 0.45	figure:treeDiagramGarage
+Full, 0.05	Penuh, 0.05	figure:treeDiagramGarage
+Spaces Available, 0.95	Tempat tersedia, 0.95	figure:treeDiagramGarage
+[blank leading line]	[blank leading line preserved]	figure:tree_drawing_box_plots
+Can construct	Dapat membuat	figure:tree_drawing_box_plots
+box plots?	diagram kotak?	figure:tree_drawing_box_plots
+Passed?	Lulus?	figure:tree_drawing_box_plots
+yes, 0.8	ya, 0.8	figure:tree_drawing_box_plots
+Yes, 0.86	Ya, 0.86	figure:tree_drawing_box_plots
+No, 0.14	Tidak, 0.14	figure:tree_drawing_box_plots
+no, 0.2	tidak, 0.2	figure:tree_drawing_box_plots
+Yes, 0.65	Ya, 0.65	figure:tree_drawing_box_plots
+No, 0.35	Tidak, 0.35	figure:tree_drawing_box_plots
+Result	Hasil	figure:tree_lupus
+yes, 0.02	ya, 0.02	figure:tree_lupus
+positive, 0.98	positif, 0.98	figure:tree_lupus
+negative, 0.02	negatif, 0.02	figure:tree_lupus
+no, 0.98	tidak, 0.98	figure:tree_lupus
+positive, 0.26	positif, 0.26	figure:tree_lupus
+negative, 0.74	negatif, 0.74	figure:tree_lupus
