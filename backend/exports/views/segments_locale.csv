@@ -1,4 +1,17 @@
 segment_id,unit_id,order,segment_kind,source_locale,source_path,line_start,line_end,source_sha256,target_locale,target_path,target_line_start,target_line_end,target_sha256,translation_state,target_text,rights_component_ids
+00717e09-802e-53f4-beff-091bb217f7f5,344ca417-7092-5232-ab72-0164a216562c,24,guided_exercise,en,ch_distributions/TeX/ch_distributions.tex,499,506,2ebe84da2f43a887c3c6ad34c3e3cab2f832d54d802b1c7557689c447361c611,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,485,492,ed97140dbc0595a2ee612cda528eb570052c68bd0f6253bd7eb6020a91fbd049,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+Gunakan hasil Contoh~\ref{edwardSatBelow\edwardsat{}}
+untuk menghitung proporsi peserta SAT yang memperoleh skor
+lebih tinggi daripada Edward.
+Gambarlah pula situasi yang baru.\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+008d8b1f-ba8f-5ba2-8cad-ff260f2d91aa,65dd86ad-b36e-5085-8f75-63758b49bab9,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,663,666,42b38fa01b0fc97e64a1c1574a620b267d4d1e5b0cfdfba9b5dc4e709bacd836,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,711,714,007d2b4d53c40b61a4b9fc91ef81a8790b8de23b94247a1f9a250cb7304c4bb2,language_reviewed,"% 5
+
+\eocesol{(a)~$Z = 0.84$, yang bersesuaian dengan skor sekitar 159 pada QR.
+(b)~$Z = -0.52$, yang bersesuaian dengan skor sekitar 147 pada VR.}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 00d13211-5a64-5c4f-a8fd-4ef9760a9a26,48d76130-cdf3-5c50-aecb-e80b5c96ded3,1,exercise,en,ch_intro_to_data/TeX/experiments.tex,5,17,b345834578c33c0eacde4487984e9b6884691c1c3cdfbd53d8705cea6733da65,id-ID,repo/ch_intro_to_data/TeX/experiments.tex,5,18,a37f199514745d6a17dc970776b7f386b35f71a0d2d160f62c473f85ca29e8f1,translated,"\eoce{\qt{Kondisi pencahayaan dan kinerja ujian\label{light_exam_performance}} Sebuah studi 
 dirancang untuk menguji pengaruh kondisi pencahayaan terhadap kinerja ujian mahasiswa. 
 Peneliti menduga bahwa kondisi pencahayaan dapat memberikan pengaruh yang berbeda pada 
@@ -158,6 +171,14 @@ Kita tertarik pada probabilitas memperoleh \resp{1}, \resp{4}, atau \resp{5}. (a
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+08630e5f-8196-5e38-8190-84cb9cdce371,a067a93b-4d57-52cd-aed6-d6a6dfc3d061,35,guided_exercise,en,ch_distributions/TeX/ch_distributions.tex,613,619,de8e3e690d688eedcb14258e0351d7cba05103625eecd312beae85c9c211d6be,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,600,606,c55eaf937ad36f9915f8f3fbf2d102db95bc781b363220c2ba23fa3beb1c4b85,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+Skor SAT mengikuti $N(\satmean{}, \satsd{})$.\footnotemark{} \\
+(a) Berapakah skor SAT pada persentil ke-$95$? \\
+(b) Berapakah skor SAT pada persentil ke-$97.5$?
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 091354a3-1aba-5166-a107-7b5c9259e95b,0f31ef05-8651-5e86-9185-b5d10b8fda5d,1,exercise,en,ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,21,39,b13ab622097680e2e24c23195a0bf260f0f0fb6414ddc75e590ffe2b28e45ea1,id-ID,repo/ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,21,39,24c5614f651062640fca6473d23ddc464d17f40f55dff157c729b21d626958e7,translated,"\eoce{\qt{Kecurangan: cakupan inferensi\label{scope_cheaters}} 
 Latihan~\ref{study_components_cheaters} memperkenalkan studi tentang hubungan 
 antara kejujuran, usia, dan pengendalian diri. Para peneliti melakukan eksperimen 
@@ -185,6 +206,31 @@ Total waktu perjalanan mingguannya adalah jumlah kelima nilai harian:
 W = X_1 + X_2 + X_3 + X_4 + X_5
 \end{align*}
 Menguraikan waktu perjalanan mingguan $W$ menjadi beberapa bagian menyediakan kerangka untuk memahami setiap sumber keacakan dan berguna dalam memodelkan $W$.
+\end{nexample}
+\end{examplewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+0a651e16-2940-5e94-93b2-d4a3fdd1b76d,639cadbc-fcd7-5533-a0eb-4a3848291573,23,worked_example,en,ch_distributions/TeX/ch_distributions.tex,474,497,8805deb5ffe614323e9210e8dbcf7583d109bed78aa93200976245781a87a9c1,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,460,483,311629602f97e7ff2559cfa254c98bbe02eb733247fe8c6934908c5dd35c379e,language_reviewed,"\begin{examplewrap}
+\begin{nexample}{Edward memperoleh skor SAT sebesar \edwardsat{}.
+    Berapa persentilnya?}
+  \label{edwardSatBelow\edwardsat{}}%
+  Pertama, kita perlu menggambar situasinya.
+  \indexthis{Persentil}{percentile} Edward adalah proporsi peserta
+  yang tidak mencapai skor setinggi \edwardsat{}.
+  Skor-skor ini berada di sebelah kiri \edwardsat{}.
+\begin{center}
+\Figure[Distribusi normal dengan rata-rata 1100 dan simpangan baku 200 diarsir dari kiri sampai sebuah garis vertikal yang terletak sedikit di bawah rata-rata distribusi, pada skor 1030.]{0.3}{satBelow1030}
+\end{center}
+Dengan menentukan rata-rata $\mu=\satmean{}$, simpangan baku
+$\sigma=\satsd{}$, dan nilai batas untuk luas ekor $x=\edwardsat{}$,
+kita dapat menghitung skor-Z dengan mudah:
+\begin{align*}
+Z
+  = \frac{x - \mu}{\sigma}
+  = \frac{\edwardsat{} - \satmean{}}{\satsd{}}
+  = \edwardsatz{}
+\end{align*}
+Dengan perangkat lunak statistika, kita memperoleh luas ekor 0.3632.
+Edward berada pada persentil ke-$36$.
 \end{nexample}
 \end{examplewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
@@ -358,6 +404,10 @@ Kotak pada diagram kotak berpusat pada 10 dan membentang dari sekitar 5 hingga 1
 }{}
 
 % 14
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+12683c2f-0cae-58c5-b76a-ed45f985dc24,d7d6af21-484d-5fac-a84f-e07c7e5a7141,36,guided_inline_answer,en,ch_distributions/TeX/ch_distributions.tex,620,622,12e8e66bcd59ceccac07772a652e5a337eb6b155f718f6d907465169c3f7ad29,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,607,609,1387e6e8b90b6703048e0ae492ff395ef4456c76b593379e9f918469e3592801,language_reviewed,"\footnotetext{Jawaban singkat:
+  (a) $Z_{95} = 1.6449 \to 1429$ skor SAT.
+  (b) $Z_{97.5} = 1.96 \to 1492$ skor SAT.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 12f1cb3a-92ed-5dce-8905-e336b631871f,a10d1176-5b95-56e2-8941-573322a79e39,1,table_and_caption,en,ch_intro_to_data/TeX/ch_intro_to_data.tex,84,99,105024147d974675ea6023773247b9fc166735c4868218385064f3fe9448eaa5,id-ID,repo/ch_intro_to_data/TeX/ch_intro_to_data.tex,84,99,8ac829022a718502f431fe19ca1136890764fa2dc2dd50670d01dbea48d01645,translated,"\begin{figure}[h]
 \centering
@@ -827,6 +877,16 @@ bahasa Inggris di rumah?
 orang tersebut berbicara bahasa asing di rumah?
 \end{parts}
 }{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+1d82f193-6a3a-584f-8ec1-22f3b30c0e5d,06b28e64-c231-50b0-b1f6-648ba4ba5102,48,section_prose,en,ch_distributions/TeX/ch_distributions.tex,720,729,33b73de453847d86873930872d15457f006be03ec89481db1fec5cb0af441e43,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,710,718,1b7fd5fc26dca13d226b16fa57ac18086fa3e9dc9af963a214c5e3f0eb3e6777,language_reviewed,"
+Variabel acak normal mungkin saja berada 4,~5, atau bahkan lebih banyak
+simpangan baku dari rata-rata.
+Namun, kejadian semacam ini sangat jarang jika datanya hampir normal.
+Peluang berada lebih dari 4 simpangan baku dari rata-rata adalah
+sekitar 1 dari 15,000.
+Untuk 5 dan 6 simpangan baku, peluangnya masing-masing sekitar
+1 dari 2 juta dan 1 dari 500 juta.
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 1da15654-a1b4-5231-9b66-397a6a566d75,42d71cb2-708a-5c1c-bdc6-5d86d05d2841,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,84,89,67c0396a63f33062aa1b64322c65043778fc8a6d18e65acb9b9ecb5e7788f556,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,91,96,4f0de60a4f2dac75391c1e14f8603586ebe62c3eac4254e95f723e23d73e602b,translated,"% 17
 
 \eocesol{(a)~Observasi.
@@ -1505,6 +1565,25 @@ Jika ada 15 orang yang dapat ditanya dan semuanya hadir di kelas, peluangnya ada
 \end{nexample}
 \end{examplewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+2d07ed98-aa13-5235-a318-880764d92e7b,629fb7c3-6d1a-5ba3-beac-8c54c1ef802a,43,guided_exercise,en,ch_distributions/TeX/ch_distributions.tex,678,684,bac625c6ac0f0a33aad3fb25cba4a248bcc6c2ffd8b75212173aa345ea36699a,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,664,670,d7c80c3c733efa189cf88d632f385b483eb301eaee1a22fb774441335d83cff6,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+Tinggi badan laki-laki dewasa mengikuti $N(70.0$''$, 3.3$''$)$.
+Berapa persen laki-laki dewasa yang tingginya antara 5'5''
+dan 5'7''?\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+2dd26a1c-224f-5616-bfaa-3773462e7638,32f6a4ad-4722-58e6-aee3-141ffb9feefd,1,end-of-section-exercise,en,ch_distributions/TeX/normal_distribution.tex,173,184,7cace23049c887bf1f313df2b4c98fdb7f205b81f0d674c4ae2120380f0b5f5e,id-ID,repo/ch_distributions/TeX/normal_distribution.tex,182,192,b7c02ebbb0099b62b8e08623d2440822c861838ae486cd8988b92afca74e801b,language_reviewed,"% 10
+
+\eoce{\qt{Cari simpangan baku\label{find_sd_cholesterol}}
+Kadar kolesterol perempuan berusia 20 sampai 34 tahun mengikuti
+distribusi yang mendekati normal dengan rata-rata 185 miligram
+per desiliter (mg/dl).
+Perempuan dengan kadar kolesterol di atas 220 mg/dl dianggap memiliki
+kolesterol tinggi, dan sekitar 18.5\% perempuan termasuk dalam kategori ini.
+Berapa simpangan baku distribusi kadar kolesterol perempuan
+berusia 20 sampai~34 tahun?
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 2e30c12a-f861-50fd-8ff3-6ed43198dbe8,21fbf5c8-a2e1-5fba-9685-5f0b02eadb01,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,470,480,c2d4cfaf352248dbcd0df21b38ac1cfb643d219785645724da326a5effa4e178,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,50,60,36de60b84f790e746346967a8884347ab957272ef8eaa9f8e3a9e591e4faed59,language_reviewed,"% 11
 \eocesol{(a)~$0.16 + 0.09 = 0.25$.
 (b)~$0.17 + 0.09 = 0.26$.
@@ -1575,6 +1654,16 @@ Contoh~\ref{threeDice} mengilustrasikan apa yang disebut Aturan Perkalian untuk 
 (b)~Tidak ada ciri yang tampak pada diagram lingkaran tetapi tidak tampak pada diagram batang.
 (c)~Pada umumnya kami lebih memilih diagram batang karena grafik ini juga memperlihatkan frekuensi relatif setiap kategori.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+2f9e8c04-df44-5b1a-96bb-33b2399d9a9a,fe84e23b-c6b8-5401-95b2-a0665289df64,1,chapter_title_hierarchy,en,ch_distributions/TeX/ch_distributions.tex,1,10,2b25a53bbcfeefadab51acf2b4033d3f0bd5ffb418638c5224e572401415da6a,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,1,10,bd220217d6d07c161b7dade52cc7c3ab8d0fe0c0c02f43bdc7d8472ca3ce3ebb,language_reviewed,"\begin{chapterpage}{Distribusi variabel acak}
+  \chaptertitle[30]{Distribusi \titlebreak{} variabel acak}
+  \label{ch_distributions}
+  \chaptersection{normalDist}
+  %\chaptersection{assessingNormal}
+  \chaptersection{geomDist}
+  \chaptersection{binomialModel}
+  \chaptersection{negativeBinomial}
+  \chaptersection{poisson}
+\end{chapterpage}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 329fa693-385a-509f-b5fa-db340f86818e,9cdd5f10-ce1d-5869-965a-71b7aee9c5de,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,425,434,3a3d724b376ec9f522a7262672b1391cb571670b6c99c9756671a558f2634b46,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,12,19,6c2c938547ebd39759d6bdab7a4850d4ddea57408fe0d337dab05f03b60c0fd1,language_reviewed,"% 3
 \eocesol{(a)~10 lemparan. Lebih sedikit lemparan berarti proporsi kepala dalam sampel lebih bervariasi,
 sehingga peluang memperoleh setidaknya 60\% kepala lebih besar.
@@ -1659,10 +1748,39 @@ Pertimbangkan kembali dua lelang Elena dari Latihan Terbimbing~\ref{elenaIsSelli
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+37101c10-ce14-52a4-8acc-7ccd88a2b52f,6121594f-e270-53e1-a021-2a810e62b4ba,8,guided_inline_answer,en,ch_distributions/TeX/ch_distributions.tex,236,240,9200be1ec619a2b603be7b55b1bc0077f4affbaf4a0ec0908e39f14bfd6afb96,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,234,238,9200be1ec619a2b603be7b55b1bc0077f4affbaf4a0ec0908e39f14bfd6afb96,language_reviewed,"\footnotetext{$Z_{Tom}
+  = \frac{x_{\text{Tom}} - \mu_{\text{ACT}}}
+      {\sigma_{\text{ACT}}}
+  = \frac{\tomsatscore{} - \actmean{}}{\actsd{}}
+  = \tomsatzscore{}$}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 37ac6144-579d-537d-8182-abaadc755a16,a485ca16-e7af-5fc9-a661-2481b3a87b29,14,section_prose,en,ch_probability/TeX/ch_probability.tex,1935,1937,1986b718c382e5072f7ab9569e16b9e786aba0e9cd00038fb010228a6878eb05,id-ID,repo/ch_probability/TeX/ch_probability.tex,1924,1926,1986b718c382e5072f7ab9569e16b9e786aba0e9cd00038fb010228a6878eb05,language_reviewed,"
 \D{\newpage}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+37dc2b9b-82ac-5a93-a88a-3238e3bc4e8f,06d0028a-6f3f-5cb3-a105-930947432f02,42,guided_inline_answer,en,ch_distributions/TeX/ch_distributions.tex,670,676,4d9ca6f0257ffb1d51348653c3e0f12a07b443d735732bfbb44f5276525d4d18,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,656,662,1d82da1e85f3db34dd027acbee9996a16b00f57b8365c9fb309ed3f0d8cbb550,language_reviewed,"\footnotetext{Berikut solusi ringkasnya.
+  (Pastikan Anda menggambar situasinya!)
+  Pertama, cari persentase peserta yang memperoleh skor di bawah
+  \satmean{} dan persentase yang memperoleh skor di atas 1400:
+  $Z_{\satmean{}} = 0.00 \to 0.5000$ (luas di bawah),
+  $Z_{1400} = 1.5 \to 0.0668$ (luas di atas).
+  Jawaban akhir: $1.0000 - 0.5000 - 0.0668 = 0.4332$.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+387ba6e6-1f83-5f8d-84bd-7064f6962944,c9675607-6a6b-56c9-9de1-6acc78b8b946,44,guided_inline_answer,en,ch_distributions/TeX/ch_distributions.tex,685,688,5e416b25b4de1a9d06eb2e43479fe3e89c2c33d3afa2d8814961845cc0161334,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,671,674,cfd9026193d08a122d19019f1c3932746778f2dbd9be6c4e6da02d56cea240a3,language_reviewed,"\footnotetext{5'5'' adalah 65 inci ($Z = -1.52$).
+  5'7'' adalah 67 inci ($Z = -0.91$).
+  Solusi numerik: $1.000 - 0.0643 - 0.8186 = 0.1171$,
+  yaitu 11.71\%.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+398b2a34-ca07-5cd3-9457-a9dace0dc9ac,f903f31b-64f3-5a74-912c-84de9404e8e6,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,631,640,8408c62242b6c2bc0496a087275423aae3442e9d0291ac295ac67462925ff8e2,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,679,688,2e675b4ef5bfa6ef5d68ddc562178204c922c912a212097550d2880733b1d2f7,language_reviewed,"% 1
+
+\eocesol{(a)~8.85\%.
+(b)~6.94\%.
+(c)~58.86\%.
+(d)~4.56\%. \\
+\FigureFullPath[Distribusi normal yang berpusat di 0 ditampilkan dengan ekor kiri kecil pada dan di bawah lokasi berlabel -1.35 diberi arsiran.]{0.23}{ch_distributions/figures/eoce/area_under_curve_1/zltNeg}
+\FigureFullPath[Distribusi normal yang berpusat di 0 ditampilkan dengan ekor kanan kecil pada dan di atas lokasi berlabel 1.48 diberi arsiran.]{0.23}{ch_distributions/figures/eoce/area_under_curve_1/zgtPos}
+\FigureFullPath[Distribusi normal yang berpusat di 0 ditampilkan dengan daerah tengah diberi arsiran. Ekor kiri yang besar sampai sedikit di bawah rata-rata dan ekor kanan yang kecil tetap tidak diarsir.]{0.23}{ch_distributions/figures/eoce/area_under_curve_1/zBet}
+\FigureFullPath[Distribusi normal yang berpusat di nol ditampilkan dengan kedua ekor di bawah -2 dan di atas 2 diberi arsiran.]{0.23}{ch_distributions/figures/eoce/area_under_curve_1/zgtAbs}}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 3994e449-3e1a-5603-a654-c900d15f9bc2,55052df6-d488-53ed-8f4c-e0bb4a894836,4,subsection_prose,en,ch_probability/TeX/ch_probability.tex,530,531,bec57d070f03f2b9335906f25615bcf7f5e061e80f45029c97c3d82249ad849b,id-ID,repo/ch_probability/TeX/ch_probability.tex,528,529,4cb38ea57de617dc897a70e916a4c023351b349e60fc66bf1c6fe781525c99c3,language_reviewed,"\footnotetext{(a)~Komplemen $A$: jumlahnya sama dengan \resp{12}. (b)~$P(A^c) = 1/36$. (c)~Gunakan probabilitas komplemen dari bagian (b), $P(A^c) = 1/36$, dan persamaan komplemen: $P($kurang dari \resp{12}$) = 1 - P($\resp{12}$) = 1 - 1/36 = 35/36$.}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
@@ -1859,6 +1977,17 @@ Peluang ini adalah nol. Seseorang mungkin memiliki tinggi yang mendekati \resp{1
 \end{nexample}
 \end{examplewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+3c9a9cbc-f6cd-51de-8f64-45d9497c0fbc,cbfa87a1-f36b-5b90-88e1-90e29fdee98b,49,guided_exercise,en,ch_distributions/TeX/ch_distributions.tex,730,738,407ba367be6dc623307676f82d0aca96bbaa96e64a96b552223df1fb68bac3d9,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,719,728,8b91068e0cc6b1dffc72794a6615b71e62b19ea9dd5858e08be64b7b7994443c,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+Distribusi skor SAT dapat dihampiri dengan baik oleh model normal
+dengan rata-rata $\mu = \satmean{}$ dan simpangan baku
+$\sigma = \satsd{}$.\footnotemark{} \\
+(a) Kira-kira berapa persen peserta ujian yang memperoleh skor
+    antara 700 dan 1500? \\
+(b) Berapa persen yang memperoleh skor antara \satmean{} dan 1500?
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 3d15531f-ace6-5b99-b115-a57fef724bdb,3b45c972-4f12-577c-b7de-d173ab1640e3,6,subsection_prose,en,ch_probability/TeX/ch_probability.tex,267,275,92ebda0472887fda36d96152baaa0e06b12c1a8223c90259c5ca85b87f274418,id-ID,repo/ch_probability/TeX/ch_probability.tex,267,275,6e53bc9311059ecca302014d00e96f610ff9f91481f2d96927285e76cf116cc1,language_reviewed,"\footnotetext{Karena $B$ dan $D$ adalah peristiwa yang saling lepas, gunakan Aturan Penjumlahan: $P(B$ atau $D) = P(B) + P(D) = \frac{1}{3} + \frac{1}{3} = \frac{2}{3}$.}
 
 \index{event|)}
@@ -1868,6 +1997,16 @@ Peluang ini adalah nol. Seseorang mungkin memiliki tinggi yang mendekati \resp{1
 
 \D{\newpage}
 
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+3d43e833-aba0-5025-96dd-ccd9e0f4019a,98298447-2c5d-5aa9-9e52-552c61c4e232,27,guided_exercise,en,ch_distributions/TeX/ch_distributions.tex,520,528,775fb3bb6266c62856bbd19d434a19871cdf25ccd073b0e120c70e1e2db7e671,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,507,515,326fa802614fa114dfd71c386a329696ce7188090ebf4b0271c7526587d06df3,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+Stuart memperoleh skor SAT sebesar \stuartsat{}.
+Gambarlah situasi untuk setiap bagian. \\
+(a)~Berapa persentilnya? \\
+(b)~Berapa persen peserta SAT yang memperoleh skor lebih tinggi
+  daripada Stuart?\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 3e11341f-e6a5-55d3-b66f-6f32e62e99aa,f08664a6-4f0f-5605-8552-c11ddaf76f5c,21,guided_exercise,en,ch_probability/TeX/ch_probability.tex,1248,1253,8dd32cb7d94e09d024c39b4f1b73a80459cb2a0c13a8c744751efbc7551cef6e,id-ID,repo/ch_probability/TeX/ch_probability.tex,1247,1252,5ae8cef48bb5370a83f3434612efd0e575369314895e1050a7dc252f1d2a539b,language_reviewed,"\begin{exercisewrap}
 \begin{nexercise}
@@ -1895,6 +2034,10 @@ dihasilkan tidak terduga.)}
 \begin{multicols}{2}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+3f2cc9ae-68e6-53ee-88f3-d5f173cde585,d928dbf2-fc69-531e-8b15-3bc89d446671,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,668,671,1ba1914e0ab71d354eac3edcff24b2d27b234a3643bf9fdd572da53e5ba828f6,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,716,719,2b8b914f3d38faa3819fcaeab3c693ebb3273d49f44bbf8083d37623c8df8534,language_reviewed,"% 7
+
+\eocesol{(a)~$Z = 1.2$, $P(Z > 1.2) = 0.1151$. \\
+(b)~$Z= -1.28 \to 70.6\degree$F atau lebih rendah.}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 3fb95d59-f8cc-599c-bb4f-23813aa4d9da,08a0e42f-434e-5621-ad7a-49c7c1f63adf,1,subsection-prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,2439,2579,df305002d9070a2c71ee17e2748e1f8ed4a396f007878219c27c4f33de114217,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,2364,2498,a852a285f8fac75de94f43490e889a4240e2268f6c194a2ef2c24d125b016d88,language_reviewed,"\subsection{Memeriksa independensi}
 
 Kita menghitung satu perbedaan yang mungkin terjadi di bawah
@@ -2283,6 +2426,25 @@ yang menarik.
 \end{examplewrap}
 
 \begin{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+43418a96-a2fc-57e4-8573-c0a204485cd0,cc254ba3-18cd-571a-a35d-203444b7dfca,2,guided_exercise,en,ch_distributions/TeX/ch_distributions.tex,114,131,b2d9ef939ba34ca41118ccfd3175bf7326ff6729aff80588f69a5a67937c7a0b,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,111,128,b441b5224e278aea20cfea91858e977ff46e83ecd7e54cee19625eeda62a9619,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+Tuliskan notasi ringkas untuk distribusi normal
+dengan\footnotemark{} \\
+%\begin{enumerate}[(a)]
+%\setlength{\itemsep}{0mm}
+%\item
+(a)
+    rata-rata~5 dan simpangan baku~3, \\
+%\item
+(b)
+    rata-rata~-100 dan simpangan baku~10, serta \\
+%\item
+(c)
+    rata-rata~2 dan simpangan baku~9.
+%\end{enumerate}
+\end{nexercise}
+\end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 44862382-4d5d-5d41-8aed-6bb5dd2a110e,9723bec2-d07b-5e14-996f-2416bcef0f22,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,248,253,d8adfffd0ecff5baf7d3bd91c31d57886174f48b37da96db1bdfeb5ea4236790,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,262,267,982b3b7b0ade49eb93f790724ea990994c191068151b6b9fc0ff554e5e631973,translated,"% 3
 
@@ -2765,6 +2927,17 @@ Toko buku tersebut juga menawarkan buku teks kimia seharga \$159 dan buku pendam
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+49d5a90a-8698-5c48-b2d1-94b5599a972d,06b28e64-c231-50b0-b1f6-648ba4ba5102,14,section_prose,en,ch_distributions/TeX/ch_distributions.tex,288,299,df76437114319273ac0c916454bcf37ce436447a7abc39a7b430cc548bf09a8a,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,286,295,ecf0f376eaa8004e3bc465477c3276caea80516b6fe39bb53c1b48f52aab9bd6,language_reviewed,"
+Kita dapat menggunakan skor-Z untuk mengenali secara kasar
+pengamatan mana yang lebih tak lazim daripada yang lain.
+Pengamatan $x_1$ disebut lebih tak lazim daripada pengamatan lain $x_2$
+jika nilai mutlak skor-Z-nya lebih besar daripada nilai mutlak
+skor-Z pengamatan lainnya: $|Z_1| > |Z_2|$.
+Teknik ini sangat informatif ketika distribusinya simetris.
+
+%\D{\newpage}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 4a461cc5-57b3-5771-9b88-c4b7f9e26915,c9faaa37-1ac5-54ae-b62f-1556d2b63374,4,prose,en,ch_intro_to_data/TeX/ch_intro_to_data.tex,107,123,101802fff512c8aa3ffe47804085e1e61701558d932312be1b3ef8d525065932,id-ID,repo/ch_intro_to_data/TeX/ch_intro_to_data.tex,107,123,63427073430c4abc39777dd9af721cd2bb2ce3608461ff0e6e14ab485a675a22,translated,"Kita dapat menghitung statistik ringkasan dari tabel tersebut.
 Sebuah \term{statistik ringkasan}%
 \index{statistik|seealso{statistik ringkasan}}
@@ -2989,10 +3162,103 @@ Para peneliti mengalokasikan secara acak 224 pasien ke kelompok perlakuan dan 22
 
 Para peneliti mempelajari efek stent pada dua waktu: 30~hari setelah pendaftaran dan 365~hari setelah pendaftaran. Hasil untuk 5 pasien dirangkum dalam Gambar~\ref{stentStudyResultsDF}. Luaran pasien dicatat sebagai ``strok'' atau ``tidak ada kejadian'', yang menunjukkan apakah pasien mengalami strok hingga akhir suatu periode waktu.
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+4d62d020-248d-561e-8a07-3e51f95144ed,459e891a-fb72-5baf-83dd-928d5b3a1c81,18,worked_example,en,ch_distributions/TeX/ch_distributions.tex,404,444,5018ed468ed0d40c51dc3f3503904344354131848f99b806ad88c767059109c1,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,392,430,20c1cde63774c50f98acbabe9ccf880276866e13d90d76d6bf2b19714a9fec6e,language_reviewed,"\begin{examplewrap}
+\begin{nexample}{Shannon dipilih secara acak dari para peserta SAT,
+    dan tidak ada informasi tentang kemampuannya dalam SAT.
+    Berapa peluang Shannon memperoleh skor sekurang-kurangnya
+    \shannonsat{} pada SAT?}
+  \label{satAbove1190Exam}%
+  Pertama, selalu gambar dan beri keterangan pada kurva normal.
+  (Gambar tidak harus tepat agar tetap berguna.)
+  Kita tertarik pada peluang bahwa skornya melebihi \shannonsat{},
+  sehingga kita mengarsir ekor atas berikut:
+  \begin{center}
+  \Figure[Ditampilkan sebuah distribusi normal dengan rata-rata 1100 dan simpangan baku 200. Daerah di bawah distribusi untuk nilai horizontal yang lebih besar dari 1190 diberi arsiran.]{0.4}{satAbove1190}
+  \end{center}
+  Gambar tersebut menampilkan rata-rata dan nilai-nilai yang terletak
+  2~simpangan baku di atas dan di bawah rata-rata.
+  Cara termudah untuk mencari luas berarsir di bawah kurva menggunakan
+  skor-Z dari nilai batas.
+  Dengan $\mu = \satmean{}$, $\sigma = \satsd{}$,
+  dan nilai batas $x = \shannonsat{}$, skor-Z dihitung sebagai
+  \begin{align*}
+  Z = \frac{x - \mu}{\sigma}
+    = \frac{\shannonsat{} - \satmean{}}{\satsd{}}
+    = \frac{90}{\satsd{}}
+    = \shannonsatz{}
+  \end{align*}
+  Dengan perangkat lunak statistika (atau metode lain yang dipilih),
+  kita memperoleh luas di sebelah kiri $Z = \shannonsatz{}$ sebesar 0.6736.
+  %This is Shannon's \term{percentile},
+  %which is the fraction of folks who scored below her score
+  %of \shannonsat{}.
+  Untuk mencari luas \emph{di atas} $Z = \shannonsatz{}$,
+  kita menghitung satu dikurangi luas ekor bawah:
+  \begin{center}
+  \Figure[Ditampilkan sebuah distribusi normal yang seluruh daerahnya diarsir, lalu tanda “dikurangi”, kemudian distribusi normal yang sebagian besar daerahnya diarsir sampai sedikit di atas rata-rata, lalu tanda sama dengan, dan akhirnya distribusi normal dengan daerah ekor atas diarsir. Di atas gambar-gambar tersebut tertulis “1.0000 dikurangi 0.6736 sama dengan 0.3264”. Visualisasi ini menunjukkan bahwa luas ekor atas distribusi normal dapat dipandang sebagai seluruh luas di bawah distribusi (yang bernilai 1) dikurangi luas di sebelah kiri sehingga tersisa luas di sebelah kanan.]{0.4}{subtractingArea}
+  \end{center}
+  Peluang Shannon memperoleh skor SAT sekurang-kurangnya 1190
+  adalah 0.3264.
+\end{nexample}
+\end{examplewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+4ef30266-07ba-504a-872c-8c67f9f384e4,c165bb3d-ed32-5d1b-9183-8477844acdf8,40,worked_example,en,ch_distributions/TeX/ch_distributions.tex,640,661,7e370118159e6e0dfc7097a20a1285011dcbdc9a3d5ceba8a746c7e8b3ba3da2,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,627,647,50d265bd0643753cfa28aabaf97e907dc422d7fe120c0eb4055431f0c8cfc025,language_reviewed,"\begin{examplewrap}
+\begin{nexample}{Berapa peluang bahwa laki-laki dewasa yang dipilih
+    secara acak memiliki tinggi antara 5'9'' dan 6'2''?}
+  Tinggi tersebut bersesuaian dengan 69 inci dan 74 inci.
+  Pertama, gambar situasinya.
+  Daerah yang ditanyakan bukan lagi ekor atas atau ekor bawah.\vspace{-2mm}
+  \begin{center}
+  \Figure[Ditampilkan distribusi normal dengan rata-rata 70 dan simpangan baku 3.3. Daerah dari nilai yang sedikit di bawah rata-rata (69) sampai nilai yang lebih jauh pada ekor kanan (74) diberi arsiran.]{0.35}{between59And62}\vspace{-2mm}
+  \end{center}
+  Luas total di bawah kurva adalah~1.
+  Jika kita mencari luas kedua ekor yang tidak diarsir
+  (dari Latihan Terpandu~\ref{more74Less69}, luasnya masing-masing
+  $0.3821$ dan $0.1131$), kita dapat mencari luas bagian tengah:
+  \vspace{-2mm}
+  \begin{center}
+  \Figure[Ditampilkan perhitungan berbentuk grafik: seluruh distribusi (1.0000) dikurangi ekor bawah (0.3821) dan ekor atas kecil (0.1131), sehingga tersisa distribusi normal dengan hanya satu ruas berarsir, dari sedikit di bawah rata-rata sampai agak di atas rata-rata. Luas berarsir terakhir diberi label 0.5048.]{0.55}{subtracting2Areas}\vspace{-2mm}
+  \end{center}
+  Jadi, peluang tinggi badan berada antara 5'9'' dan 6'2''
+  adalah 0.5048.
+\end{nexample}
+\end{examplewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+50833279-9acb-5ff4-93ed-76357596ecec,cb0a3987-5b1c-53b1-b5d0-ed9e956d1253,46,guided_exercise,en,ch_distributions/TeX/ch_distributions.tex,704,715,26f99e33a9638c73b2efdb157dcf9f253b3ee48f9d558e4601922cf674e69e19,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,694,705,b7e35dd6e5acdb9e366c2a8837933c94423bccc460aac90f6454d60e0350f61c,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+Gunakan perangkat lunak, kalkulator, atau tabel peluang untuk
+mengonfirmasi bahwa sekitar 68\%, 95\%, dan 99.7\% pengamatan
+masing-masing berada dalam jarak 1, 2, dan 3 simpangan baku
+dari rata-rata pada distribusi normal.
+Sebagai contoh, carilah dahulu luas antara $Z=-1$ dan $Z=1$,
+yang seharusnya sekitar 0.68.
+Demikian pula, luas antara $Z=-2$ dan $Z=2$ seharusnya sekitar 0.95.
+\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 50b68cce-ce51-5a65-9f22-0d3a6ef0a151,47a4fe12-f3c0-587a-b879-47adb3ee9dc9,29,subsection_prose,en,ch_probability/TeX/ch_probability.tex,1312,1316,6bd13ae478f1d48527793e2f3d24842dec99128c3d1b47df6aab91fc186fa156,id-ID,repo/ch_probability/TeX/ch_probability.tex,1311,1315,40bbfc58b27b1365f592ee7d8224d7d2e1ee48f22b99888e6d8a8f651ca256a0,language_reviewed,"\footnotetext{Ia lupa bahwa putaran rolet berikutnya independen dari putaran-putaran sebelumnya. Kasino memang menggunakan praktik ini: mereka menampilkan beberapa hasil terakhir dari berbagai permainan taruhan untuk mengecoh penjudi yang tidak waspada agar percaya bahwa peluang berpihak kepada mereka. Kekeliruan ini disebut \term{sesat pikir penjudi}.}
 
 
 \D{\newpage}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+510cea33-7bf4-564d-9e80-418bee6a61b8,06b28e64-c231-50b0-b1f6-648ba4ba5102,4,section_prose,en,ch_distributions/TeX/ch_distributions.tex,135,151,b6865d75f16585254566a8a84f79dacbeed757e2b05b23ce8de785dd7d68b383,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,132,148,9b6d113d1cef85112b47f20c4b5d80ba015caf5a155a7ffae517f1d14b2fb8f0,language_reviewed,"
+
+\subsection{Standardisasi dengan skor-Z}
+
+\noindent%
+Kita sering ingin menempatkan data pada skala baku agar
+perbandingan menjadi lebih masuk akal.
+
+\newcommand{\satmean}{1100}
+\newcommand{\satsd}{200}
+\newcommand{\actmean}{21}
+\newcommand{\actsd}{6}
+\newcommand{\annsatscore}{1300}
+\newcommand{\annsatzscore}{1}
+\newcommand{\tomsatscore}{24}
+\newcommand{\tomsatzscore}{0.5}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 52382686-5e03-53e5-b5aa-802fc32c2bac,9c909fc2-49b5-5c03-a79f-ac7984a56db5,1,end-of-section-exercise,en,ch_probability/TeX/conditional_probability.tex,204,215,67fffd26b80df7ce6a210400efb6db2b78fa5134cbed54bfdc5a09714476bd0e,id-ID,repo/ch_probability/TeX/conditional_probability.tex,203,214,ce4a45377991d0c1d5caf0138d7ac4dfd8f754257bf9b14eeae8c61f8c97c6ad,language_reviewed,"% 21
@@ -3012,6 +3278,10 @@ ini? Gunakan peluang yang sesuai untuk mendukung jawaban Anda.
 (a) Hitung $P(D^c) = P($memperoleh \resp{1}, \resp{4}, \resp{5}, atau \resp{6}$)$. (b) Berapakah $P(D) + P(D^c)$?\footnotemark
 \end{nexercise}
 \end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+526ff122-783c-5259-8cb5-1de065af9a09,3b7fdf55-1e4b-513f-a512-186722424360,16,guided_inline_answer,en,ch_distributions/TeX/ch_distributions.tex,306,308,93f9c2ef4efded1c590e89e5bef242d7561330fd990c3e57fc5adcf949886f08,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,302,304,5dd27febd2621f6a71395f33aef9a6748d39fb7725f821fc73e4a5235ccf9e6e,language_reviewed,"\footnotetext{Karena \emph{nilai mutlak} skor-Z pengamatan kedua
+  lebih besar daripada pengamatan pertama, pengamatan kedua
+  memiliki panjang kepala yang lebih tak lazim.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 52e9cbc2-31e0-530f-8398-15c06eaa3a7d,79b67f35-3460-585e-b91d-f1c7f8a7662f,1,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,1344,1460,4766d658e8d9f2abe88159242b5dd48ec92c7f8febc7cd3aeb8353064597067e,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,1289,1405,cb52af4134ae828b0ad34c6512aa67a55d2ef555dc1af4306d2e60303529c875,translated,"\subsection{Tabel kontingensi dan diagram batang}
 
@@ -3203,6 +3473,35 @@ tahun 2005--2009. Sampel ini terdiri atas 59\% laki-laki dan 41\% perempuan. \fo
   \end{minipage}}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+557f931b-7b25-5cbf-a3ef-20967e2b49a9,5151b558-df07-5de2-a9fd-f0f6772a1a86,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,642,661,da505c76d6676fbe9659f45b736e15f2018624f508dcea852c8c9e4199e6014d,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,690,709,3c17b4d68048655b4322fbae5fbe7e0fd1ae80ddbd9dd053ca2f67256c000770,language_reviewed,"% 3
+
+\eocesol{(a)~Verbal: $N(\mu = 151, \sigma = 7)$, Kuantitatif: $N(\mu = 153, \sigma = 7.67)$.
+(b)~$Z_{VR} = 1.29$, $Z_{QR} = 0.52$. \\
+\FigureFullPath[Ditampilkan sebuah distribusi normal dengan 2 garis vertikal yang diberi tanda khusus. Garis pertama terletak sedikit di atas rata-rata distribusi pada Z sama dengan 0.52 dan diberi label “QR” untuk Penalaran Kuantitatif. Garis kedua terletak lebih jauh di atas rata-rata pada Z sama dengan 1.29 dan diberi label “VR” untuk Penalaran Verbal.]{0.3}{ch_distributions/figures/eoce/GRE_intro/gre_intro.pdf} \\
+(c)~Skornya berada 1.29 simpangan baku di atas rata-rata pada bagian
+Penalaran Verbal dan 0.52 simpangan baku di atas rata-rata pada bagian
+Penalaran Kuantitatif.
+(d)~Ia berprestasi lebih baik pada bagian Penalaran Verbal karena skor-Z-nya
+lebih tinggi pada bagian tersebut.
+(e)~$Perc_{VR} = 0.9007 \approx 90\%$, $Perc_{QR} = 0.6990 \approx 70\%$.
+(f)~$100\% - 90\% = 10\%$ memperoleh skor lebih tinggi daripadanya pada VR,
+dan $100\% - 70\% = 30\%$ memperoleh skor lebih tinggi daripadanya pada QR.
+(g)~Kita tidak dapat membandingkan skor mentah karena kedua bagian menggunakan
+skala yang berbeda. Perbandingan skor persentil lebih tepat ketika membandingkan
+kinerjanya dengan peserta lain.
+(h)~Jawaban bagian (b)--(c) tidak berubah karena skor-Z dapat dihitung untuk
+distribusi yang tidak normal. Namun, kita tidak dapat menjawab bagian~(d)--(f)
+karena tanpa model normal kita tidak dapat menggunakan tabel peluang normal
+untuk menghitung peluang dan persentil.}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+55f79d9c-cdac-5b88-98b4-a6ab53d37bdb,06b28e64-c231-50b0-b1f6-648ba4ba5102,32,section_prose,en,ch_distributions/TeX/ch_distributions.tex,554,561,29cc45df0f374cf5d15e7084e06f1f539d60e1fdc2fe020c9cd9e99c443e092d,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,541,548,770ae7a783a83a9d4d1a176dd23f7a25462281bc803182435af8aa602f5849c2,language_reviewed,"
+\D{\newpage}
+
+Beberapa soal terakhir berfokus pada pencarian persentil (ekor bawah)
+atau ekor atas untuk suatu pengamatan tertentu.
+Bagaimana jika Anda ingin mengetahui pengamatan yang bersesuaian
+dengan persentil tertentu?
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 5623583c-258f-50a2-af9a-aeed766142b9,f737466c-6fe9-55d9-b2b4-09ec9a1f5afe,19,guided_inline_answer,en,ch_probability/TeX/ch_probability.tex,1963,1963,eb1d4220aaccb269df96b3ff9bcad73b3fe15744134eaa066ef9aaa44d2624bc,id-ID,repo/ch_probability/TeX/ch_probability.tex,1952,1952,c7b52e1c4b101bd17c62cbdde7e0da26af87966509c5d4c225ba1dd1ff925438,language_reviewed,"\footnotetext{$E(X-Y) = E(X) - E(Y) = 175 - 23 = \$152$. Elena diperkirakan akan memperoleh sekitar \$152.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 563fa6b8-edde-5b8d-9b60-984c6a23797a,3c6361cd-2b66-5dcf-9ae1-6f9525f9dce4,23,worked_example,en,ch_probability/TeX/ch_probability.tex,2002,2023,2ba6e992320c756789d2dac2d4ab1278c873573a02d32e04300b3e56836f896f,id-ID,repo/ch_probability/TeX/ch_probability.tex,1991,2012,337ba636373e46c63beb6f30b5ba6364fe8cfc046f853ba239df8b0c5055aa2d,language_reviewed,"\begin{examplewrap}
@@ -3308,6 +3607,37 @@ Tiga orang dipilih secara acak.\footnotemark \vspace{-1.5mm}
 Misalkan tinggi seseorang dibulatkan ke sentimeter terdekat. Apakah ada peluang bahwa tinggi \textbf{terukur} seseorang yang dipilih secara acak adalah \resp{180} cm?\footnotemark
 \end{nexercise}
 \end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+58b585bb-bdb6-5898-9f51-a298a4de137e,9bb49659-c8ce-5cfd-a765-f5d9e014340a,33,worked_example,en,ch_distributions/TeX/ch_distributions.tex,562,590,39f689517f8607eb5348f9b7d5645cd0e5b66ac23381f6269d0467cfa75a59a0,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,549,578,f99256e813dc96807aec8e0758694c03243ad74b86de0a19dbf793f747f5fe89,language_reviewed,"\begin{examplewrap}
+\begin{nexample}{Tinggi Erik berada pada persentil ke-$40$.
+    Berapakah tinggi Erik?}\label{normalExam40Perc}
+  Seperti biasa, gambar dahulu situasinya.\vspace{-4mm}
+  \begin{center}
+  \Figure[Ditampilkan sebuah distribusi normal untuk tinggi badan laki-laki dewasa dengan rata-rata 70 inci dan simpangan baku 3.3 inci. Daerah dari kiri sampai suatu nilai sedikit di bawah rata-rata diarsir dan diberi label 40\% (0.40).]{0.3}{height40Perc}\vspace{-1mm}
+  \end{center}
+  Dalam kasus ini, peluang ekor bawah diketahui (0.40) dan dapat
+  diarsir pada diagram.
+  Kita ingin mencari pengamatan yang bersesuaian dengan nilai tersebut.
+  Sebagai langkah awal, kita menentukan skor-Z yang bersesuaian
+  dengan persentil ke-$40$.
+  Dengan perangkat lunak, kita memperoleh skor-Z yang bersesuaian,
+  yaitu sekitar -0.25.
+
+  Setelah mengetahui $Z_{Erik} = -0.25$ serta parameter populasi
+  $\mu = 70$ dan $\sigma = 3.3$ inci, kita dapat menyusun rumus skor-Z
+  untuk menentukan tinggi Erik yang belum diketahui, yang diberi label
+  $x_{_{\text{Erik}}}$:
+  \begin{align*}
+  -0.25
+    = Z_{_{\text{Erik}}}
+    = \frac{x_{_{\text{Erik}}} - \mu}{\sigma}
+    = \frac{x_{_{\text{Erik}}} - 70}{3.3}
+  \end{align*}
+  Dengan menyelesaikan persamaan untuk $x_{_{\text{Erik}}}$,
+  diperoleh tinggi 69.18 inci.
+  Jadi, tinggi Erik sekitar 5'9''.
+\end{nexample}
+\end{examplewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 58c3e2ce-d4c7-5977-a38e-24292984be68,aa0c130d-cb84-5a06-b650-6dc25cefd73c,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,123,134,c799f55c424658e8fd91e42963be2e5f13b776cbf60296c918baa34e5bb15ec0,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,131,145,bd49b4f687003679754bb33a817f87af6180c0b8eb7c4b85ddef9656f9c54671,translated,"% 25
 
@@ -4187,6 +4517,10 @@ hasilnya merupakan variabel numerik kontinu.
 \index{data!US adult heights|(}
 \index{hollow histogram|(}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+5ed3d91c-c665-51e4-9b0b-e698901f6433,06b28e64-c231-50b0-b1f6-648ba4ba5102,37,section_prose,en,ch_distributions/TeX/ch_distributions.tex,623,625,1986b718c382e5072f7ab9569e16b9e786aba0e9cd00038fb010228a6878eb05,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,610,612,1986b718c382e5072f7ab9569e16b9e786aba0e9cd00038fb010228a6878eb05,language_reviewed,"
+\D{\newpage}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 5f2289c9-2f21-570c-8d7e-aa09bbab4e65,7fb6fb37-23be-57f3-af92-f7f18dbb1210,31,chapter-review-exercise,en,ch_summarizing_data/TeX/review_exercises.tex,63,99,5110f2362dd0499625852be0afc7ee8be3698909f641530a47307fab0cf249f4,id-ID,repo/ch_summarizing_data/TeX/review_exercises.tex,75,122,bc32a108a71cfe4013033847ef334e4343879c65610afa9b7c7815efdf843315,language_reviewed,"% 31
 
 \eoce{\qt{Pemenang Oscar\label{oscar_winners}} Penghargaan Oscar untuk kategori
@@ -4279,6 +4613,27 @@ Hal-hal yang kita anggap sebagai proses acak belum tentu benar-benar acak; mungk
 \index{random process|)}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+610082b9-5fa8-5a95-bdde-e8c870f034b3,61986d2d-c58a-50dc-9ff1-bb4acb330395,39,guided_inline_answer,en,ch_distributions/TeX/ch_distributions.tex,635,638,b7c970b7307df7f8ced6cbb1bbfcd0340829b9d6ea790f17eef5ee7010df1dd8,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,622,625,ceb814b22f258a2a7c9ef6139cdd4920dffb458bfc0a24f13bbe7a783b368bac,language_reviewed,"\footnotetext{Jawaban singkat:
+  (a) $Z = 1.21 \to 0.8869$, kemudian kurangi nilai ini
+      dari 1 untuk memperoleh 0.1131.
+  (b) $Z = -0.30 \to 0.3821$.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+6103b36f-6b93-5fe1-b3a1-9cbf1648870f,06b28e64-c231-50b0-b1f6-648ba4ba5102,19,section_prose,en,ch_distributions/TeX/ch_distributions.tex,445,455,bea1fcf48077b3f1400f7002b8ac6df397c9ddc33f98c4d196784c80efefd15b,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,431,441,1ee5b14baf66c5c975409bed84e0ccda9cf35c6c6fc8a9c698b2e06668834922,language_reviewed,"
+\begin{onebox}{Selalu gambar terlebih dahulu,
+    lalu cari skor-Z}
+  Dalam setiap situasi peluang normal,
+  \emph{selalu, selalu, selalu} gambar dan beri keterangan pada
+  kurva normal, kemudian arsir daerah yang ditanyakan.
+  Gambar tersebut akan memberikan perkiraan peluang.
+  Setelah menggambar situasinya, tentukan skor-Z untuk nilai
+  yang ditanyakan.
+\end{onebox}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+640b2dd8-2f72-57a5-8642-2ac2731d26f3,06b28e64-c231-50b0-b1f6-648ba4ba5102,51,section_prose,en,ch_distributions/TeX/ch_distributions.tex,748,750,2b0793ffeab0f1718cbd3f20feb1b9fae93ee4a92a0c43f7f284097b121e9986,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,738,740,25a108865fe2ea611f631c9b0bcdac836e25285c225c958043d25b8e750726f6,language_reviewed,"
+
+{\input{ch_distributions/TeX/normal_distribution.tex}}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 6530339a-4682-5055-8abb-ca4b594ef384,8be7cb0a-0a23-54f6-99da-04899215d5a2,1,copyright_page,en,extraTeX/preamble/copyright_derivative.tex,1,8,3c473391733db54bf15ebd67fa77e35eaf461e0c68c33ee7c51295ca1331762d,id-ID,repo/extraTeX/preamble/copyright_derivative.tex,1,36,225e9e4c2209bbb80e98adbfdb5ff8fc8722607607d234f48073b2acbc504f1e,translated,"\chapter*{}
 \vfill
 
@@ -4324,6 +4679,22 @@ tunduk pada lisensi dan atribusi komponennya masing-masing.
 \begin{multicols}{2}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+65c09089-27cc-5999-b0de-a84215b488f4,fcafe26d-8205-5874-a682-7273120b5c64,1,end-of-section-exercise,en,ch_distributions/TeX/normal_distribution.tex,137,151,97a7414db8d7fc0b68facb68279ee432e14d397cf991bc7eb58c4baeb7d0c108,id-ID,repo/ch_distributions/TeX/normal_distribution.tex,143,158,9205ae9455e3aa1208f2f012399632188019c60cd70ba7c7833f43167134ad80,language_reviewed,"% 8
+
+\eoce{\qt{CAPM\label{CAPM}} Capital Asset Pricing Model (CAPM) adalah model
+keuangan yang mengasumsikan imbal hasil suatu portofolio berdistribusi normal.
+Misalkan suatu portofolio memiliki imbal hasil tahunan rata-rata 14.7\%
+(yakni keuntungan rata-rata 14.7\%) dengan simpangan baku 33\%.
+Imbal hasil 0\% berarti nilai portofolio tidak berubah, imbal hasil negatif
+berarti portofolio merugi, dan imbal hasil positif berarti portofolio
+memperoleh keuntungan.
+\begin{parts}
+\item Dalam berapa persen tahun portofolio ini merugi, yakni memiliki
+imbal hasil kurang dari 0\%?
+\item Berapa batas untuk 15\% imbal hasil tahunan tertinggi pada
+portofolio ini?
+\end{parts}
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 672b19e7-d7a2-5de7-80c8-f8a31e1a8706,44b85273-e757-59b5-85c9-11547f246ae1,1,end-of-section-exercise,en,ch_probability/TeX/conditional_probability.tex,177,188,6d46fdbc1b573321045b291ba42442bcc602a1b4adc17a5371d93a84208d0ed8,id-ID,repo/ch_probability/TeX/conditional_probability.tex,177,188,bd8edb2d17ee0b6728d8cc7133085b697467fa031c7e0198428dc333d721ea8a,language_reviewed,"% 19
 
 \eoce{\qt{Membuat diagram kotak\label{tree_drawing_box_plots}} Setelah mengikuti mata
@@ -4336,6 +4707,94 @@ Di antara mahasiswa yang dapat membuat diagram kotak, 86\% lulus, sedangkan hany
 bahwa mahasiswa tersebut lulus.
 \end{parts}
 }{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+677112cf-10e2-5d55-bce1-245f1301bc1f,06b28e64-c231-50b0-b1f6-648ba4ba5102,17,section_prose,en,ch_distributions/TeX/ch_distributions.tex,309,403,7177fdf52759c710233703be05be6c6e3242f746d6e92167b8c7a1ad9cb8d885,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,305,391,1a0c37b6639cf25cdea583f29002536c816f1e26d18d8e2e008699141029252d,language_reviewed,"
+\subsection{Mencari luas ekor}
+
+Dalam statistika, kemampuan menentukan luas ekor suatu distribusi
+sangatlah berguna.
+Sebagai contoh, berapa proporsi peserta yang memperoleh skor SAT
+di bawah skor Ann sebesar 1300?
+Nilai ini sama dengan \termsub{persentil}{percentile} Ann, yaitu
+persentase peserta yang skornya lebih rendah daripada skor Ann.
+Kita dapat memvisualisasikan luas ekor tersebut dengan kurva dan
+arsiran seperti pada Gambar~\ref{satBelow1300}.
+
+\begin{figure}[h]
+  \centering
+  \Figure[Ditampilkan sebuah distribusi normal dengan rata-rata 1100 dan simpangan baku 200. Distribusi diarsir di sebelah kiri nilai 1300; dengan kata lain, daerah yang dibatasi oleh sumbu horizontal, kurva berbentuk lonceng sampai nilai horizontal 1300, dan garis vertikal pada 1300 diberi arsiran.]{0.45}{satBelow1300}
+  \caption{Luas di sebelah kiri $Z$ merepresentasikan proporsi peserta
+      yang memperoleh skor lebih rendah daripada Ann.}
+  \label{satBelow1300}
+\end{figure}
+
+Ada banyak teknik untuk melakukan perhitungan ini; kita akan membahas
+tiga pilihan.
+\begin{enumerate}
+\item
+    Pendekatan yang paling umum dalam praktik adalah menggunakan
+    perangkat lunak statistika.
+    Sebagai contoh, dalam program \R{}, kita dapat mencari luas
+    pada Gambar~\ref{satBelow1300} dengan perintah berikut.
+    Perintah ini menerima skor-Z dan mengembalikan luas ekor bawah: \\
+    {\color{white}.....}%
+        \texttt{> pnorm(1)} \\
+    {\color{white}.....}%
+        \texttt{[1] 0.8413447} \\
+    Menurut perhitungan ini, daerah berarsir di bawah 1300
+    merepresentasikan proporsi 0.841 (84.1\%) peserta SAT
+    yang memiliki skor-Z di bawah $Z = 1$.
+    Secara lebih umum, kita juga dapat menetapkan nilai batas secara
+    eksplisit jika rata-rata dan simpangan bakunya turut diberikan: \\
+    {\color{white}.....}%
+        \texttt{> pnorm(1300, mean = 1100, sd = 200)} \\
+    {\color{white}.....}%
+        \texttt{[1] 0.8413447} %\\
+    %\Add{More examples for using \R{} are provided
+    %  at the end of the section.}
+
+
+    Ada banyak pilihan perangkat lunak lain, seperti Python atau SAS;
+    bahkan program lembar kerja seperti Excel dan Google Sheets
+    mendukung perhitungan ini.
+\item
+    Strategi yang umum digunakan di kelas adalah memakai kalkulator
+    grafik, misalnya kalkulator TI atau Casio.
+    Kalkulator-kalkulator ini memerlukan serangkaian penekanan tombol
+    yang tidak mudah dijelaskan secara ringkas.
+    Petunjuk penggunaan kalkulator tersebut untuk mencari luas ekor
+    distribusi normal tersedia di pustaka video OpenIntro:
+    \begin{center}
+    \oiRedirect{textbook-openintro_videos}
+        {www.openintro.org/videos}
+    \end{center}
+\item
+    Pilihan terakhir untuk mencari luas ekor adalah menggunakan
+    \termsub{tabel peluang}{probability table}; tabel semacam ini
+    kadang digunakan di kelas, tetapi jarang digunakan dalam praktik.
+    Lampiran~\ref{normalProbabilityTable} memuat tabel tersebut
+    beserta panduan penggunaannya.
+\end{enumerate}
+Dalam bagian ini, kita akan menyelesaikan soal distribusi normal
+dengan selalu mencari skor-Z terlebih dahulu.
+Alasannya, mulai Bab~\ref{ch_foundations_for_inf} kita akan menjumpai
+konsep yang sangat serupa, yaitu
+\indexthis{statistik uji}{test statistic}; dalam banyak keadaan,
+statistik uji setara dengan skor-Z.
+
+%No matter the approach you choose,
+%try the Guided Practice exercises in this section
+%using your preferred method.
+
+\subsection{Contoh peluang normal}
+\label{normal_probability_examples}
+
+\noindent%
+Skor total SAT dapat dihampiri dengan baik oleh model normal
+$N(\mu = \satmean{}, \sigma = \satsd{})$.
+
+\newcommand{\shannonsat}{1190}
+\newcommand{\shannonsatz}{0.45}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 68138640-5539-5a89-80d4-785b043887c7,3f62bfe2-5a2e-5441-86ab-c703b5da5e32,32,chapter-review-exercise,en,ch_summarizing_data/TeX/review_exercises.tex,100,107,af875b273324ae74554dc8bbc9787632701be106e91768c906368ca45f85313c,id-ID,repo/ch_summarizing_data/TeX/review_exercises.tex,123,130,9eb3100214da0831f7dd6fd872adefc7646fdcfafc92b4aa92251bee7df5a687,language_reviewed,"% 32
 
 \eoce{\qt{Nilai ujian\label{dist_shape_exam_scores}} Rerata nilai sebuah
@@ -4428,6 +4887,17 @@ pindahkan 26.3\% $\to$ 35\%
 
 \begin{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+6a6bba9f-96f4-5e70-b2d7-721bb84777be,06b28e64-c231-50b0-b1f6-648ba4ba5102,26,section_prose,en,ch_distributions/TeX/ch_distributions.tex,510,519,ddff568cdf8a3bd18d1b6a02a80f7b8b6c5b8a0838587917f4f29d9ccaf2d640,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,497,506,e8fe03b909554e0eab3db27cb1cc00c50639f96b3f15f1603cc893803d98b52b,language_reviewed,"
+\begin{onebox}{Mencari luas di sebelah kanan}
+  Ketika diberi skor-Z, banyak program perangkat lunak mengembalikan
+  luas di sebelah kiri.
+  Jika Anda memerlukan luas di sebelah kanan, cari dahulu luas
+  di sebelah kiri lalu kurangi nilai tersebut dari satu.
+\end{onebox}
+
+\newcommand{\stuartsat}{1500}
+\newcommand{\stuarsatz}{2}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 6b8aec39-e680-52f7-8af3-f098da6839d7,4a67928d-9842-5598-8a98-8360b6b3ab69,2,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,1259,1322,1b6a99fa01090a791f80ec97199b6865d6ac8b12dcb091bc8aefd5448ee9b550,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,1201,1267,c5db2f8b0d5bf3b4f53ef49d729d0fdc9423061608ce27860effec9d3a03be2c,translated,"\end{exercisewrap}
 \footnotetext{Catatan: jawaban dapat bervariasi.
   Ada kesesuaian tertentu antara pendapatan tinggi dan kawasan
@@ -4498,6 +4968,34 @@ pindahkan 26.3\% $\to$ 35\%
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 6cb895a1-c258-5476-8a18-1e995f13e480,c9faaa37-1ac5-54ae-b62f-1556d2b63374,3,prose,en,ch_intro_to_data/TeX/ch_intro_to_data.tex,82,82,db57f961aa91635456a9abd409541651a94649144e68f800966307027d572049,id-ID,repo/ch_intro_to_data/TeX/ch_intro_to_data.tex,82,82,0d7581e1ecf01a2adbe48f45c892fcd7a39013bcedb7b2649cbbcbe67f413254,translated,"Menelaah data setiap pasien satu per satu merupakan cara yang panjang dan rumit untuk menjawab pertanyaan penelitian semula. Sebaliknya, analisis data statistik memungkinkan kita menelaah seluruh data sekaligus. Gambar~\ref{stentStudyResults} merangkum data mentah dengan cara yang lebih berguna. Dari tabel ini, kita dapat dengan cepat melihat apa yang terjadi selama penelitian. Misalnya, untuk menentukan jumlah pasien dalam kelompok perlakuan yang mengalami strok dalam 30 hari, kita melihat sisi kiri tabel pada perpotongan baris perlakuan dan kolom strok: 33.
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+6e4ae9c6-edfd-5c1c-b0ec-d9631637ceaf,dd289e93-9169-54e4-8f43-9e34a22da880,1,end-of-section-exercise,en,ch_distributions/TeX/normal_distribution.tex,33,56,a225b3e5c5737a3e0b991d6b7de29629c46f3816419f82bf9b6aa1f77288e982,id-ID,repo/ch_distributions/TeX/normal_distribution.tex,33,60,e97c4598bc7ed8fcf67f5a7ebd0b697425182299791d99cdaee6f5d34be27041,language_reviewed,"% 3
+
+\eoce{\qt{Skor GRE, Bagian I\label{GRE_intro}} Sophia mengikuti Graduate Record
+Examination (GRE) dan memperoleh skor 160 pada bagian Penalaran Verbal
+(Verbal Reasoning, VR) serta 157 pada bagian Penalaran Kuantitatif
+(Quantitative Reasoning, QR). Rata-rata skor bagian Penalaran Verbal untuk
+seluruh peserta ujian adalah 151 dengan simpangan baku 7, sedangkan rata-rata
+skor Penalaran Kuantitatif adalah 153 dengan simpangan baku 7.67.
+Anggap kedua distribusi hampir normal.
+\begin{parts}
+\item Tuliskan notasi ringkas untuk kedua distribusi normal ini.
+\item Berapa skor-Z Sophia pada bagian Penalaran Verbal? Pada bagian
+Penalaran Kuantitatif? Gambarlah kurva distribusi normal baku dan tandai
+kedua skor-Z tersebut.
+\item Apa yang ditunjukkan oleh kedua skor-Z ini?
+\item Dibandingkan dengan peserta lain, pada bagian mana ia berprestasi
+lebih baik?
+\item Carilah persentil skornya untuk kedua bagian ujian.
+\item Berapa persen peserta ujian yang memperoleh skor lebih tinggi
+daripada Sophia pada bagian Penalaran Verbal? Pada bagian Penalaran
+Kuantitatif?
+\item Jelaskan mengapa hanya membandingkan skor mentah dari kedua bagian
+dapat menghasilkan kesimpulan yang keliru tentang bagian mana yang
+dikerjakan seorang peserta dengan lebih baik.
+\item Jika distribusi skor pada kedua bagian ujian tidak hampir normal,
+apakah jawaban Anda untuk bagian (b)--(f) akan berubah? Jelaskan alasan Anda.
+\end{parts}
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 6e89aa8f-597a-5fc7-8796-225c07e3125f,b82173dd-a963-514b-8628-cd6c9d97f633,1,exercise,en,ch_intro_to_data/TeX/review_exercises.tex,230,274,da5922346a086758e2956b351cc63843c47b584153610927df0823e8e367b070,id-ID,repo/ch_intro_to_data/TeX/review_exercises.tex,208,246,67007cab898f4e66405823dcc6adf4bebef9dc0d3b8cc2e646df7de59849b4c4,translated,"\eoce{\qt{Stanford Open Policing\label{stanford_open_policing}}
 Proyek Stanford Open Policing menghimpun, menganalisis, dan menerbitkan catatan
 pemberhentian lalu lintas oleh penegak hukum di seluruh Amerika Serikat untuk membantu
@@ -4673,6 +5171,13 @@ Sekitar 20 mahasiswa tidak akan membeli satu pun buku (total 0 buku), sekitar 55
 \end{nexample}
 \end{examplewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+728dc61a-d943-514e-8d9b-72a8896524b1,06b28e64-c231-50b0-b1f6-648ba4ba5102,9,section_prose,en,ch_distributions/TeX/ch_distributions.tex,241,246,cae7c5aea09dcba100064b2480a76e54a60a787fc1a60875293e5e5b8a8414b7,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,239,244,fdc38997390e6557a1d0c795acacc5597bb1c6f46150816a668d9b03c04c84da,language_reviewed,"
+Pengamatan di atas rata-rata selalu memiliki skor-Z positif,
+sedangkan pengamatan di bawah rata-rata selalu memiliki skor-Z negatif.
+Jika suatu pengamatan sama dengan rata-rata, misalnya skor SAT
+sebesar \satmean{}, skor-Z-nya adalah $0$.
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 72c2706b-4294-565c-9d43-fff51aef3f72,8953f299-909a-5500-9c5f-46b560e50081,2,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,775,818,a0839122ec9efc5011226dfc6c729ee6b09f8c60a4ff25325130385dddb6f160,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,750,787,536621a231d03b976a254286ee2c13911221f08070a7c2f913bae13756d44ed4,translated,"\end{exercisewrap}
 \footnotetext{Gambar~\ref{severalDiffDistWithSdOf1}
   menunjukkan tiga distribusi yang tampak sangat berbeda, tetapi
@@ -4753,6 +5258,22 @@ Jika dadu pertama menunjukkan \resp{1} pada $16.\bar{6}$\% lemparan dan pada $1/
 \D{\newpage}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+72ff21f5-0bf8-5352-a85d-48271e675bd2,06b28e64-c231-50b0-b1f6-648ba4ba5102,29,section_prose,en,ch_distributions/TeX/ch_distributions.tex,534,538,adacf74db81b39775c64138ec607c9fb22068d96ebbff385da0a1caa91e5ef59,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,521,525,3d2ef1a2d43039723c4d6be21ee8c94489e67dcf1c681a0222a512580ba231f3,language_reviewed,"
+Berdasarkan sampel 100 laki-laki, tinggi badan laki-laki dewasa
+di AS hampir berdistribusi normal dengan rata-rata 70.0''
+dan simpangan baku 3.3''.
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+732ff60d-b7e7-53ae-b5cc-8e4755803359,7f58e57a-0155-5ff2-b66a-00cb3f12d3f7,38,guided_exercise,en,ch_distributions/TeX/ch_distributions.tex,626,634,8a6aa7687f1ebcdfdf2ab34211ed3726b98e472259b6c484e4f3c99cbbd463da,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,613,621,52f7681f30b45bfc90ed50981cf3bfee9cb9b312d23f640142c37e2f4612a867,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}\label{more74Less69}
+Tinggi badan laki-laki dewasa mengikuti $N(70.0$''$, 3.3$''$)$.\footnotemark{} \\
+(a)~Berapa peluang bahwa laki-laki dewasa yang dipilih secara acak
+    memiliki tinggi sekurang-kurangnya 6'2'' (74 inci)? \\
+(b)~Berapa peluang bahwa seorang laki-laki dewasa memiliki tinggi
+    kurang dari 5'9'' (69 inci)?
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 73a59424-0225-589c-95d0-0904da0fec3d,8f0807ed-49cf-58cd-829e-096e53f1df1c,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,91,95,d81168df6a0dd3cada0f020a24891fcf4feb5ffb83a15db26874aaa302ff0465,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,98,103,9a9e44864b4b25db8ff94778632d79e809f2cd8a08841dfc23e5b1c7459a141d,translated,"% 19
 
 \eocesol{(a)~Studi observasional.
@@ -4760,6 +5281,20 @@ Jika dadu pertama menunjukkan \resp{1} pada $16.\bar{6}$\% lemparan dan pada $1/
 tetap mahasiswa, misalnya 10 orang, dari setiap kelas praktikum sehingga 
 ukuran sampel totalnya 40 mahasiswa.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+73bd127f-d633-560b-afd5-93cbc96f7025,d8040b85-cd7c-57ac-bbd6-968a98ce606c,1,end-of-section-exercise,en,ch_distributions/TeX/normal_distribution.tex,109,121,67d6cfc7df1646d6a9d2366bbbb234af522331db4e31a69b35b181baf8d066c9,id-ID,repo/ch_distributions/TeX/normal_distribution.tex,115,128,3337dd61ccce288184e86960f5975049ae70462bc25a9e437f961e65eb4681d3,language_reviewed,"% 6
+
+\eoce{\qt{Waktu triatlon, Bagian II\label{triathlon_times_cutoffs}} Pada
+Latihan~\ref{triathlon_times_intro}, kita melihat dua distribusi waktu
+triatlon: $N(\mu=4313, \sigma=583)$ untuk
+\emph{Laki-laki, Usia 30--34} dan $N(\mu=5261, \sigma=807)$ untuk kelompok
+\emph{Perempuan, Usia 25--29}. Waktu dinyatakan dalam detik.
+Gunakan informasi ini untuk menghitung setiap nilai berikut:
+\begin{parts}
+\item Batas waktu bagi 5\% atlet tercepat dalam kelompok laki-laki,
+yakni atlet dengan 5\% waktu penyelesaian tersingkat.
+\item Batas waktu bagi 10\% atlet paling lambat dalam kelompok perempuan.
+\end{parts}
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 73d2ee49-a52f-5aca-b636-8f5e77891bd0,a1268a25-f69a-531a-976d-441e5c4c5663,1,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,1970,2002,5c4e751db01919eda2978fef8e2fe9f785970bf457f8f5fb842026c58384123b,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,1904,1935,1cc08c041c90b31774cdf7a526f752514ed401aa439cead8368143204cf0a35d,translated,"\subsection{Satu-satunya diagram lingkaran dalam buku ini}
 
 Sebuah \term{diagram lingkaran} ditampilkan pada
@@ -5029,6 +5564,34 @@ kanan. Jika Anda ingin memahami besar pinjaman yang tipikal,
 apakah rata-rata atau median yang lebih relevan?\footnotemark
 \end{nexercise}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+810e6a8b-4086-5684-9f9b-2c86fd6d2dd0,dc0dda1c-ca8e-5b10-b5b0-076069954a69,41,guided_exercise,en,ch_distributions/TeX/ch_distributions.tex,663,669,79fee0b5f5437e59274c65e857074f77b4db74947711c4a7099e7016a66a3976,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,649,655,3ad5a1b1d2876dafa828065c54d48d8abbd073be0d91c719135f0f73ecbc1974,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+Skor SAT mengikuti $N(\satmean{}, \satsd{})$.
+Berapa persen peserta SAT yang memperoleh skor antara \satmean{}
+dan 1400?\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+82d034d9-38ba-5a44-9c9c-8a9c1108321c,06b28e64-c231-50b0-b1f6-648ba4ba5102,45,section_prose,en,ch_distributions/TeX/ch_distributions.tex,689,703,ccedd14956035c9b0433487e0fc8a12a38a5562f4fabad99980813996eabbe38,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,675,693,226a9b33bf2479f951c2fc8c1ec9f11212181cb7014b429c07cd5810c801cf91,language_reviewed,"
+\D{\newpage}
+
+\subsection{Kaidah 68-95-99.7}
+
+Di sini kita memperkenalkan kaidah praktis untuk peluang bahwa
+suatu nilai berada dalam jarak 1, 2, dan 3 simpangan baku dari
+rata-rata pada distribusi normal.
+Kaidah ini berguna dalam beragam situasi praktis, terutama ketika
+kita ingin membuat perkiraan cepat tanpa kalkulator atau tabel-Z.
+
+\begin{figure}[hht]
+\centering
+\Figure[Ditampilkan sebuah distribusi normal. Daerah tengah, dari satu simpangan baku di bawah rata-rata sampai satu simpangan baku di atas rata-rata, diarsir biru dan diberi label 68\%. Daerah yang lebih jauh, dari dua simpangan baku di bawah rata-rata sampai dua simpangan baku di atas rata-rata, diarsir hijau selain bagian yang telah diarsir biru dan diberi label 95\%. Daerah yang lebih jauh lagi, dari tiga simpangan baku di bawah rata-rata sampai tiga simpangan baku di atas rata-rata, diarsir kuning selain bagian yang telah diarsir hijau atau biru dan diberi label 99.7\%. Persentase 68\%, 95\%, dan 99.7\% tersebut merepresentasikan bagian luas di bawah distribusi normal yang terletak dalam 1, 2, dan 3 simpangan baku dari rata-rata.]{0.63}{6895997}
+\caption{Peluang berada dalam jarak 1, 2, dan 3 simpangan baku
+  dari rata-rata pada distribusi normal.}
+\label{6895997}
+\end{figure}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 82da058a-6a21-550b-b057-15a85c302161,0bdb3ffe-12b6-5636-830d-79197bfc7f65,11,guided_exercise,en,ch_probability/TeX/ch_probability.tex,1689,1693,52c0bbb6db2ea55911ab035b17c05840638424e02987ad9af83522e4b0232d1a,id-ID,repo/ch_probability/TeX/ch_probability.tex,1678,1682,0ece475659bdcb0239d5238f1cca1fea169008c5102d4d7a1a19d7edc0ef0fdf,language_reviewed,"\begin{exercisewrap}
 \begin{nexercise} \label{raffleOf30TicketsWWOReplacement}
 Departemen Anda mengadakan undian berhadiah. Mereka menjual 30 tiket dan menyediakan tujuh hadiah. (a) Tiket-tiket tersebut dimasukkan ke dalam topi dan satu tiket diundi untuk setiap hadiah. Tiket diambil tanpa pengembalian, yaitu tiket yang terpilih tidak dimasukkan kembali ke dalam topi. Berapakah peluang memenangkan hadiah jika Anda membeli satu tiket? (b)~Bagaimana jika tiket diambil dengan pengembalian?\footnotemark
@@ -5281,6 +5844,13 @@ atau turun sekitar 0.1 jam dari tahun ke tahun, tetapi relatif stabil hingga
 1999, tahun terakhir yang datanya ditampilkan.]{0.6}{eoce/marathon_winners}{marathon_winners_time_series} \\
 \end{center}
 }{}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+8542d959-c7b9-58b9-a5c7-bfbac29e05bc,ed948d53-4bf3-5f61-98cd-e46e8ec0d66c,15,guided_exercise,en,ch_distributions/TeX/ch_distributions.tex,300,305,dd1ef316099d25e8400a91307ee1f673b09a276655c301536442c7d7142d7b4f,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,296,301,1e3d774b912c6552b072f0cc240a5d1ca5445d67458731863a475ce4e54e3bb2,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+Manakah di antara pengamatan pada Latihan Terpandu~\ref{headLZScore}
+yang lebih tak lazim?\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 873ad0f2-99d9-5829-b74d-210a9a962dd4,76494447-2b5b-55a0-acf9-028b903fa8cb,1,exercise,en,ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,118,131,342c9fbbb706ee7ad1c9d425616bb5ce797193008e8b5647ca849b8dd0cfa4e5,id-ID,repo/ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,115,128,a866b20e2c061e4f9f33951a438be37527cd3a6ab950e4c69601165dd9929276,translated,"\eoce{\qt{Kepuasan mata kuliah antarkelompok\label{course_satisfaction_sections}} 
 Sebuah kelas besar di perguruan tinggi memiliki 160 mahasiswa. Seluruh 
@@ -5676,6 +6246,41 @@ diskret atau kontinu. Jika kategoris, nyatakan apakah variabel tersebut ordinal.
 
 % 5
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+8e80dbfc-18ab-5b84-9ac4-9f08e6091515,1ad40585-271d-5674-b80f-37c8e8f3d4ad,1,end-of-section-exercise,en,ch_distributions/TeX/normal_distribution.tex,58,91,81b97ddec064becf7a87cbefac8877f3cdb8cfa3091e4097074f08b533d52700,id-ID,repo/ch_distributions/TeX/normal_distribution.tex,62,96,bcad7f614dcf84f3f41e45236ed6765fc60226320ddb27035399f7df0e3c00fd,language_reviewed,"% 4
+
+\eoce{\qt{Waktu triatlon, Bagian I\label{triathlon_times_intro}} Dalam triatlon,
+peserta biasanya ditempatkan dalam kelompok usia dan gender. Leo dan Mary,
+yang berteman, sama-sama menyelesaikan Hermosa Beach Triathlon. Leo
+bertanding dalam kelompok \textit{Laki-laki, Usia 30--34}, sedangkan Mary
+bertanding dalam kelompok \textit{Perempuan, Usia 25--29}. Leo menyelesaikan
+perlombaan dalam 1:22:28 (4948 detik), sedangkan Mary menyelesaikannya dalam
+1:31:53 (5513 detik). Leo jelas finis lebih cepat, tetapi mereka ingin tahu
+bagaimana hasil mereka jika dibandingkan dengan kelompok masing-masing.
+Dapatkah Anda membantu mereka? Berikut beberapa informasi tentang kinerja
+kedua kelompok:
+\begin{itemize}
+\setlength{\itemsep}{0mm}
+\item Waktu finis kelompok \textit{Laki-laki, Usia 30--34} memiliki rata-rata
+4313 detik dengan simpangan baku 583 detik.
+\item Waktu finis kelompok \textit{Perempuan, Usia 25--29} memiliki rata-rata
+5261 detik dengan simpangan baku 807 detik.
+\item Distribusi waktu finis kedua kelompok mendekati distribusi normal.
+\end{itemize}
+Ingat: kinerja yang lebih baik bersesuaian dengan waktu finis yang lebih cepat.
+\begin{parts}
+\item Tuliskan notasi ringkas untuk kedua distribusi normal ini.
+\item Berapa skor-Z waktu finis Leo dan Mary? Apa yang ditunjukkan
+oleh skor-Z tersebut?
+\item Siapa yang memiliki peringkat lebih baik dalam kelompoknya,
+Leo atau Mary? Jelaskan alasan Anda.
+\item Berapa persen peserta triatlon dalam kelompok Leo yang finis
+lebih lambat daripada Leo?
+\item Berapa persen peserta triatlon dalam kelompok Mary yang finis
+lebih lambat daripada Mary?
+\item Jika distribusi waktu finis tidak hampir normal, apakah jawaban Anda
+untuk bagian (b)--(e) akan berubah? Jelaskan alasan Anda.
+\end{parts}
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 8fa589c0-57e6-5548-8cef-8c9b96841a97,0c5a6a38-7e7c-5ca9-91cb-d65cbe872021,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,278,288,40daef3d2ad980400447e3bd6fdb563aa340c29787b9596af27bfeacfcab49f0,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,293,303,e17a303a990287ed0e7369855b9b6524cb83ec4499b25f45b8d50eb45d0af551,translated,"% 11
 
 \eocesol{(a)~Sekitar 30.
@@ -6025,6 +6630,15 @@ atribut tersebut?\footnotemark
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+99e97adc-81a2-5409-b784-38c16299347b,c7c4da4e-590e-5fef-a18d-7d58f8f7d78c,12,guided_exercise,en,ch_distributions/TeX/ch_distributions.tex,273,280,4f488791294dca3bfc8840f8731fa908c56a57b1e764b4098a3e994147c517d4,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,271,278,6164612aecf7c9fe5509f5cdc465014896ff8c17d6a230bc25f9dbafcdc4698b,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise} \label{headLZScore}
+Panjang kepala posum ekor sikat mengikuti distribusi normal
+dengan rata-rata 92.6 mm dan simpangan baku 3.6 mm.
+Hitung skor-Z untuk posum dengan panjang kepala 95.4 mm
+dan 85.8~mm.\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 99f8c42c-33e3-534c-8107-87397904a03a,c3157d89-9939-5e00-8270-80b6ad9e0f89,1,end-of-section-exercise,en,ch_probability/TeX/conditional_probability.tex,21,26,31cdf01541850c0060a8f6d0fbfa13dcfbb35e279144af66418e650a2e035ab1,id-ID,repo/ch_probability/TeX/conditional_probability.tex,21,27,f1a8364148a988e7aea0bb15524132f0990392f7389da39b46eafe0598e690a8,language_reviewed,"% 14
 
 \eoce{\qt{Selai kacang \& jeli\label{pbj}} Misalkan 80\% orang menyukai selai
@@ -6128,6 +6742,19 @@ jack, queen, atau king), ia memenangkan \$3. Untuk setiap as, ia memenangkan \$5
 }{}
 
 \D{\newpage}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+9f3ec766-906e-572b-aa07-65b02cebee53,3226c6e0-99a2-55b4-99f0-b0e97b708f07,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,673,683,af252443ef58b84bb36aad6bc84d55dfb7c12d78b49fb4afe44f00a0354237c7,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,721,733,e2a60108890c44feabeaec885b13275f5cb870882a45702a1f8424c77a28f358,language_reviewed,"% 9
+
+\eocesol{(a)~$N(25, 2.78)$.
+(b)~$Z = 1.08$, $P(Z > 1.08) = 0.1401$.
+(c)~Jawabannya sangat berdekatan karena yang berubah hanyalah satuan.
+(Jawabannya sedikit berbeda karena 28\degree C sama dengan 82.4\degree F,
+bukan tepat 83\degree F.)
+(d)~Karena $IQR = Q3 - Q1$, pertama-tama kita perlu mencari $Q3$ dan $Q1$,
+kemudian menghitung selisihnya. Ingat bahwa $Q3$ adalah persentil ke-$75$
+dan $Q1$ adalah persentil ke-$25$ suatu distribusi.
+Dengan kuantil yang belum dibulatkan, Q1 = 23.1264\degree C,
+Q3 = 26.8736\degree C, sehingga IQR = 3.7472\degree C,
+atau sekitar 3.75\degree C.}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 9f4d825a-acce-5209-8b35-0e9deac3efdd,b51285a0-3bfa-55b0-ba7d-2acaf50d4339,3,guided_exercise,en,ch_probability/TeX/ch_probability.tex,1732,1736,13f861284e475713d0fb19dfd09cd810e28fcf5ef83248c66ef3a415f6726aa4,id-ID,repo/ch_probability/TeX/ch_probability.tex,1721,1725,2edfd96636e5611859947fc48159258e0ee62bd03c9978bc777086bf6b28680e,language_reviewed,"\begin{exercisewrap}
 \begin{nexercise}
 Apakah Anda akan terkejut jika toko buku tersebut menjual sedikit lebih banyak atau lebih sedikit daripada 105 buku?\footnotemark
@@ -6318,6 +6945,15 @@ berikut? Jelaskan penalaran Anda.
 \end{parts}
 }{}
 
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+a1c78c1a-ef41-5135-8a92-513500ddbada,7cb7707e-3d93-56dc-8117-c4d5dfbc9e3c,30,guided_exercise,en,ch_distributions/TeX/ch_distributions.tex,539,546,edfd8f8510b78d653d56bc3593dfd1ac583d243871dbf83230c36c1401872ab9,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,526,533,e1296bb1c0ab221bc07771d75c7023d13026ac6706f0a7f1a48d2d4fbc67b0d5,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+Mike memiliki tinggi 5'7'' dan Jose 6'4'', dan keduanya tinggal di AS. \\
+(a) Berapa persentil tinggi badan Mike? \\
+(b) Berapa persentil tinggi badan Jose? \\
+Gambarlah pula satu situasi untuk setiap bagian.\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 a39b706d-b249-56b0-abcd-4580e64b5bf4,8759fdd7-08ec-51f2-8f2d-655e40548142,29,public-appendix-answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,383,389,7b5373c2deaec77245c873efad5b579d036c684b587d2ab0668f13a1c715b51b,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,409,415,12e0601e6a6e9ade32483c5febb3c344afa73467de1b5821db16b686ea1ffa3e,language_reviewed,"% 29
 
@@ -6545,6 +7181,12 @@ berdampingan dengan lahan pertaniannya sehingga perjalanan mereka ke tempat kerj
 hal ini dapat menjelaskan mengapa waktu perjalanan rata-rata di county-county tersebut 
 relatif rendah.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+a67eaba6-22c4-5106-a5b7-19edd963b350,dd2e967a-369f-50ed-845a-6c3c019eda1d,28,guided_inline_answer,en,ch_distributions/TeX/ch_distributions.tex,529,533,ea3af1d5e7b7af581e0ff23097a651d89c3aed1631dccf0c5970ebd8814b080e,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,516,520,60e0671ea86bf76c689691512df5bdc379c0906b7828bead10e18cbac34d5095,language_reviewed,"\footnotetext{Gambarnya kami serahkan kepada Anda.
+  (a) $Z = \frac{\stuartsat{} - \satmean{}}{\satsd{}}
+         = \stuarsatz{}
+         \to 0.9772$.
+  (b) $1 - 0.9772 = 0.0228$.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 a6a96e76-dec6-523b-8fa5-a0fa9ea3fc0a,97422792-2010-5ea8-9616-b1f55c20cdf6,29,chapter-review-exercise,en,ch_summarizing_data/TeX/review_exercises.tex,40,49,05fb6bedc4a08201e7469359d2ee2859b621972ebc9be29b01a916a92e24bd55,id-ID,repo/ch_summarizing_data/TeX/review_exercises.tex,51,60,6d8157c44563d5730db7677e24faea93e46b3146bc45a14ddff73d89ebe07786,language_reviewed,"% 29
 
 \eoce{\qt{Penonton televisi\label{dist_shape_TV_watchers}} Para siswa dalam
@@ -6612,6 +7254,13 @@ abfbcf57-b2a6-51ca-b613-769df693c412,b23f3ca2-973a-561f-8d7b-0808ca9315e8,2,subs
   akan berada di luar garis kumis.}
 
 \begin{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+ac9c35c7-d890-5d7d-9a85-7b9d48601f65,06b28e64-c231-50b0-b1f6-648ba4ba5102,22,section_prose,en,ch_distributions/TeX/ch_distributions.tex,468,473,04dcfcfcf1399af2979f7b7569aaf71d2f2bbbeaccb66e61e5a1da41663753be,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,454,459,04dcfcfcf1399af2979f7b7569aaf71d2f2bbbeaccb66e61e5a1da41663753be,language_reviewed,"
+\D{\newpage}
+
+\newcommand{\edwardsat}{1030}
+\newcommand{\edwardsatz}{-0.35}
+\newcommand{\edwardsatlower}{0.3632}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 ad2253d6-c9b7-56ba-a615-60eba36565bc,89852718-cd3e-517e-95ba-7daea0c05661,9,worked_example,en,ch_probability/TeX/ch_probability.tex,1862,1893,00663cf4c0922337cb8fc0df68d3097e194326fc5d093603183f7255ac986616,id-ID,repo/ch_probability/TeX/ch_probability.tex,1851,1882,7372b83bd3700b6b072b00c5b05b7635b9daaf21cf09e3b486cdcb62d8703de8,language_reviewed,"\begin{examplewrap}
 \begin{nexample}{Hitung nilai harapan, varians, dan simpangan baku $X$, yaitu pendapatan toko buku dari satu mahasiswa statistika.}
@@ -6879,6 +7528,20 @@ Apakah Anda akan terkejut jika waktu perjalanan mingguan John tidak tepat 90 men
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+af79596c-f2d5-5545-bdfa-e0626c52519b,c4fe4817-381d-5a07-a3c3-8280a906eed9,1,end-of-section-exercise,en,ch_distributions/TeX/normal_distribution.tex,3,16,e85a1aba9ebd40c611f6196d215a7d03c857cb67467fb09ca674d7ac83b0732a,id-ID,repo/ch_distributions/TeX/normal_distribution.tex,3,16,bb4c60058ee2c26e97ffd5b5d8ef1fb1483d58af30b25501e354d07da73336ff,language_reviewed,"% 1
+
+\eoce{\qt{Luas di bawah kurva, Bagian I\label{area_under_curve_1}} Berapa persen
+dari distribusi normal baku $N(\mu=0, \sigma=1)$ yang terdapat pada setiap
+daerah berikut? Pastikan Anda menggambar grafik. \vspace{-3mm}
+\begin{multicols}{4}
+\begin{parts}
+\item $Z < -1.35$
+\item $Z > 1.48$
+\item $-0.4 < Z < 1.5$
+\item $|Z| > 2$
+\end{parts}
+\end{multicols}
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 b0672da2-86cd-5366-9e74-7dca23e91f74,02f6e6bb-cb13-52fa-bcd9-7183093cea93,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,25,32,2e9647e54554ed4598e1de227ed8cbe069c235e0da10ff0a2aa7fb063b351120,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,25,33,073a9df0ef6e5bf2571b92549904faf77992d23bc6b9efea84a60b1102c81684,translated,"% 3
 
 \eocesol{(a)~``Apakah ada hubungan antara paparan polusi udara dan kelahiran prematur?''
@@ -7079,6 +7742,73 @@ adalah~1.\footnotemark
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+b89a4cf1-5b2d-5d98-a2f5-5767ecfc6d06,0a016c30-8bee-5a38-9d9b-fab58e544005,25,guided_inline_answer,en,ch_distributions/TeX/ch_distributions.tex,507,509,7427e8b5c63a6a96a48a61771542d36cbf849397f672d6867085a6ebf694578a,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,493,496,474b3c760bfeb35315a434d08df335c978291d008d40b4e83f427ab06cd520f5,language_reviewed,"\footnotetext{Jika Edward memperoleh skor lebih tinggi daripada 36\%
+  peserta SAT, sekitar 64\% peserta tentu memperoleh skor lebih tinggi
+  daripada Edward. \\
+  \Figures[Ditampilkan dua distribusi normal dengan rata-rata 1100 dan simpangan baku 200. Distribusi pertama diarsir di sebelah kiri skor 1030, sedangkan distribusi kedua diarsir di sebelah kanan skor 1030.]{0.25}{satBelow1030}{satAbove1030}}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+b8c3192e-f942-5a6b-aa52-5aeafc9867c8,06b28e64-c231-50b0-b1f6-648ba4ba5102,6,section_prose,en,ch_distributions/TeX/ch_distributions.tex,171,229,0227a2bffec8c8b105e626ec9f056757ea7d1a7197c6741d1358f0b2e4f7f2ed,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,167,227,6bf521534efbb10f5f5bbed63df42aaccd84372be705899c70b66cbf2f2d87b3,language_reviewed,"
+\begin{figure}[h]
+\centering
+\begin{tabular}{l r r}
+  \hline
+  & SAT & ACT \\
+  \hline
+  Rata-rata \hspace{0.3cm} & \satmean{} & \actmean{} \\
+  Simpangan baku & \satsd{} & \actsd{} \\
+  \hline
+\end{tabular}
+\caption{Rata-rata dan simpangan baku untuk SAT dan ACT.}
+\label{satACTstats}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \Figure[Skor Ann dan Tom ditampilkan pada distribusi SAT dan ACT, yang masing-masing digambarkan sebagai distribusi normal. Distribusi SAT memiliki rata-rata 1100 dan simpangan baku 200, sedangkan distribusi ACT memiliki rata-rata 21 dan simpangan baku 6. Skor SAT Ann adalah 1300 dan skor ACT Tom adalah 24. Berdasarkan posisi mereka pada grafik masing-masing, tampak bahwa nilai relatif Ann pada distribusi SAT lebih tinggi daripada nilai relatif Tom pada distribusi ACT.]{0.6}{satActNormals}
+  \caption{Skor Ann dan Tom pada distribusi SAT dan ACT.}
+  \label{satActNormals}
+\end{figure}
+
+\begingroup
+\looseness=-1
+Contoh~\ref{actSAT} menggunakan teknik standardisasi yang disebut
+skor-Z. Metode ini paling sering digunakan untuk pengamatan yang
+hampir normal, tetapi dapat digunakan pada distribusi apa pun.
+\termsub{Skor-Z}{Z-score}\index{Z@$Z$} suatu pengamatan menyatakan
+berapa simpangan baku letak pengamatan tersebut
+di atas atau di bawah rata-rata.
+Jika pengamatan berada satu simpangan baku di atas rata-rata,
+skor-Z-nya adalah~1.
+Jika pengamatan berada 1.5 simpangan baku \emph{di bawah} rata-rata,
+skor-Z-nya adalah -1.5.
+Jika $x$ merupakan pengamatan dari distribusi $N(\mu, \sigma)$,
+secara matematis kita mendefinisikan skor-Z sebagai
+\par
+\endgroup
+\begin{align*}
+Z = \frac{x - \mu}{\sigma}
+\end{align*}
+Dengan $\mu_{SAT} = \satmean{}$, $\sigma_{SAT} = \satsd{}$,
+dan $x_{_{\text{Ann}}} = \annsatscore{}$, kita memperoleh skor-Z Ann:
+\begin{align*}
+Z_{_{\text{Ann}}}
+  = \frac{x_{_{\text{Ann}}} - \mu_{_{\text{SAT}}}}
+      {\sigma_{_{\text{SAT}}}}
+  = \frac{\annsatscore{} - \satmean{}}{\satsd{}}
+  = \annsatzscore{}
+\end{align*}
+
+\begin{onebox}{Skor-Z}
+  Skor-Z suatu pengamatan menyatakan berapa simpangan baku letak
+  pengamatan tersebut di atas atau di bawah rata-rata.
+  Kita menghitung skor-Z untuk pengamatan $x$ yang mengikuti distribusi
+  dengan rata-rata $\mu$ dan simpangan baku $\sigma$ menggunakan
+  \begin{align*}
+  Z = \frac{x - \mu}{\sigma}
+  \end{align*}
+\end{onebox}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 b944f56b-9f55-5f6d-814e-fb9e24c252ff,09615ad9-b250-53c0-9814-d60b7f700fc3,1,exercise,en,ch_summarizing_data/TeX/examining_numerical_data.tex,299,314,b844cf9a625468409c303f1740b0c9e1b084b02d771c67585a24a15d68d0aee5,id-ID,repo/ch_summarizing_data/TeX/examining_numerical_data.tex,303,319,cc6bbdf8647c62971f123febcc0d6b6bc6f2b084a315af99c959b1135538a9d1,language_reviewed,"\eoce{\qt{Waktu perjalanan ke tempat kerja\label{county_commute_times}} Sensus Amerika Serikat 
 mengumpulkan data tentang waktu yang dibutuhkan penduduk Amerika untuk bepergian ke tempat 
 kerja, selain banyak variabel lain. Histogram di bawah ini menunjukkan distribusi waktu 
@@ -7254,6 +7984,26 @@ setelah hari kerja biasa.
 
 % 18
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+bea1e68a-bcea-57b8-980c-c3c2ac99c0ab,41489e88-acb0-527b-9e3d-5d71845baf15,34,worked_example,en,ch_distributions/TeX/ch_distributions.tex,592,611,a3efe897ce51c54d8f79622041ca1a16a9e34ec832fd592223b0502b53ae2814,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,580,598,9e3074fa969c420166109c41be9631fdfc0479169ce19e214887e98604e47785,language_reviewed,"\begin{examplewrap}
+\begin{nexample}{Berapa tinggi laki-laki dewasa pada
+    persentil ke-$82$?}
+  Sekali lagi, kita menggambar situasinya terlebih dahulu.\vspace{-3mm}
+  \begin{center}
+  \Figure[Distribusi normal dengan rata-rata 70 dan simpangan baku 3.3 diarsir dari kiri sampai sebuah garis vertikal yang terletak sedikit di atas rata-rata distribusi. Luas berarsir di sebelah kiri garis vertikal diberi label “82\% (0.82)” dan ekor atas yang tidak diarsir diberi label “18\% (0.18)”.]{0.28}{height82Perc}\vspace{-1mm}
+  \end{center}
+  Berikutnya, kita ingin mencari skor-Z pada persentil ke-$82$.
+  Nilainya positif dan dapat diperoleh dengan perangkat lunak sebagai
+  $Z = 0.92$.
+  Terakhir, tinggi $x$ dicari menggunakan rumus skor-Z dengan rata-rata
+  $\mu$, simpangan baku $\sigma$, dan skor-Z $Z = 0.92$ yang diketahui:
+  \begin{align*}
+  0.92 = Z = \frac{x-\mu}{\sigma} = \frac{x - 70}{3.3}
+  \end{align*}
+  Hasilnya adalah 73.04 inci, atau sekitar 6'1'', sebagai tinggi
+  pada persentil ke-$82$.
+\end{nexample}
+\end{examplewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 bf480b62-6d56-50f6-a12f-4c22738f7bea,3024a3df-ad69-5255-943d-d2911908a101,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,54,63,482043ebff7ac64fdd2deeb5610f66c5584cea9f1c384a7e8356ed31ff7159c4,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,58,67,c285f447af9270d3fafbeab085017c6feb1efe5ab2f734f9a16973672febd18b,translated,"% 11
 
 \eocesol{(a)~Status kepemilikan bandara (publik/privat),
@@ -7287,6 +8037,96 @@ Ia menyimpulkan bahwa berlari menurunkan risiko masalah sendi.
 }{}
 
 % 40
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+bf7b03a1-321f-5613-b5ca-61c4cf3c064c,06b28e64-c231-50b0-b1f6-648ba4ba5102,1,section_prose,en,ch_distributions/TeX/ch_distributions.tex,24,113,e6e650da9ebf4d0ca658f6d6586816a62c1510449535fd831ce809c81b6f8d2e,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,22,110,36e9161b0528b04a403ecf03a1ecc8138ea5f841c5cc1b5115a009f2f152137e,language_reviewed,"%_________________
+\section{Distribusi normal}
+\label{normalDist}
+
+\index{distribution!normal|(}
+\index{normal distribution|(}
+
+Di antara semua distribusi yang kita jumpai dalam praktik,
+ada satu yang jauh lebih umum daripada yang lain.
+Kurva lonceng yang simetris dan unimodal muncul di mana-mana
+dalam statistika.
+Bahkan, kurva ini begitu umum sehingga orang sering menyebutnya
+\termsub{kurva normal}{normal distribution} atau
+\termsub{distribusi normal}{normal distribution}\index{distribution!normal|textbf}%
+,\footnote{Distribusi ini juga diperkenalkan sebagai distribusi Gaussian,
+  dari nama Carl Friedrich Gauss, orang pertama yang memformalkan
+  bentuk matematisnya.}
+seperti yang ditampilkan pada Gambar~\ref{simpleNormal}.
+Variabel seperti skor SAT dan tinggi badan laki-laki dewasa di AS
+mendekati distribusi normal.
+
+\begin{figure}[h]
+  \centering
+  \Figure[Ditampilkan sebuah kurva berbentuk lonceng yang simetris terhadap pusatnya. Inilah distribusi normal. Dari kiri, kurva bermula rendah dan perlahan terangkat dari sumbu horizontal, lalu menanjak lebih curam sebelum kenaikannya melambat dan kurva mendatar di puncak. Dari puncak, kurva mula-mula menurun perlahan, kemudian lebih curam, lalu berangsur mendatar saat mendekati sumbu horizontal. Bentuk distribusi normal yang menyerupai lonceng ini dimiliki banyak distribusi yang akan kita jumpai di sepanjang buku. Selanjutnya, ingatlah bentuk lonceng ini setiap kali distribusi normal dibahas.]{0.5}{simpleNormal}
+  \caption{Sebuah kurva normal.}
+  \label{simpleNormal}
+\end{figure}
+
+\begin{onebox}{Fakta tentang distribusi normal}
+  Banyak variabel hampir mengikuti distribusi normal, tetapi tidak ada
+  yang tepat mengikuti distribusi normal.
+  Jadi, meskipun tidak sempurna untuk satu pun masalah tertentu,
+  distribusi normal sangat berguna untuk beragam masalah.
+  Kita akan menggunakannya dalam eksplorasi data dan untuk menyelesaikan
+  berbagai masalah penting dalam statistika.
+\end{onebox}
+
+
+\subsection{Model distribusi normal}
+
+\termsub{Distribusi normal}{normal distribution} selalu menggambarkan
+kurva berbentuk lonceng yang simetris dan unimodal.
+Namun, tampilan kurva-kurva tersebut dapat berbeda bergantung pada
+rincian modelnya.
+Secara khusus, model distribusi normal dapat disesuaikan dengan
+dua parameter: rata-rata dan simpangan baku.
+Seperti yang mungkin Anda duga, perubahan rata-rata menggeser
+kurva lonceng ke kiri atau ke kanan, sedangkan perubahan simpangan baku
+meregangkan atau menyempitkan kurva.
+Panel kiri Gambar~\ref{twoSampleNormals} menampilkan distribusi normal
+dengan rata-rata $0$ dan simpangan baku $1$, sedangkan panel kanan
+menampilkan distribusi normal dengan rata-rata $19$ dan simpangan baku $4$.
+Gambar~\ref{twoSampleNormalsStacked} menampilkan kedua distribusi ini
+pada sumbu yang sama.
+
+\begin{figure}[h]
+  \centering
+  \Figure[Ditampilkan dua distribusi normal. Distribusi pertama berpusat di 0 dan memiliki simpangan baku 1; kedua ekornya praktis tidak dapat dibedakan dari tinggi 0 untuk nilai yang lebih kecil dari -3 atau lebih besar dari positif 3. Distribusi normal kedua berpusat di 19 dan memiliki simpangan baku 4; tinggi distribusinya tidak dapat dibedakan dari 0 ketika jaraknya dari rata-rata lebih dari 3 simpangan baku.]{0.7}{twoSampleNormals}
+  \caption{Kedua kurva merepresentasikan distribusi normal.
+      Namun, pusat dan sebarannya berbeda.}
+  \label{twoSampleNormals}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  \Figure[Ditampilkan dua distribusi normal pada grafik yang sama. Distribusi pertama memiliki rata-rata 0 dan simpangan baku 1. Distribusi kedua memiliki rata-rata 19 dan simpangan baku 4. Salah satu sifat penting yang terlihat pada grafik ialah bahwa, karena setiap distribusi harus memiliki luas 1, distribusi normal dengan simpangan baku 1 tampak jauh lebih sempit sekaligus jauh lebih tinggi daripada distribusi kedua yang memiliki simpangan baku 4.]{0.6}{twoSampleNormalsStacked}
+  \caption{Distribusi normal pada
+      Gambar~\ref{twoSampleNormals}, tetapi digambar bersama-sama
+      dengan skala yang sama.}
+  \label{twoSampleNormalsStacked}
+\end{figure}
+
+Jika suatu distribusi normal memiliki rata-rata $\mu$ dan simpangan baku
+$\sigma$, kita dapat menuliskan distribusinya sebagai $N(\mu, \sigma)$.
+Kedua distribusi pada Gambar~\ref{twoSampleNormalsStacked}
+dapat dituliskan sebagai
+\begin{align*}
+N(\mu=0,\sigma=1)
+  \quad \text{dan} \quad
+  N(\mu=19,\sigma=4)
+\end{align*}
+Karena rata-rata dan simpangan baku menggambarkan suatu distribusi normal
+secara tepat, keduanya disebut
+\termsub{parameter}{parameter} distribusi tersebut.
+Distribusi normal dengan rata-rata $\mu = 0$ dan
+simpangan baku $\sigma = 1$ disebut
+\termsub{distribusi normal baku}{standard normal distribution}%
+\index{normal distribution!standard|textbf}.
+
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 bf824794-2b9b-5736-8525-7da70037b51d,a485ca16-e7af-5fc9-a661-2481b3a87b29,1,section_prose,en,ch_probability/TeX/ch_probability.tex,1713,1725,f3839c01a6a1cd812803cfccd004548b6203c02590b4377eead5b425289539f3,id-ID,repo/ch_probability/TeX/ch_probability.tex,1702,1714,e0423976d5b8db6594e4e39e3b6c0493a57773b8b0efc680cd2fd9b8b8705fb1,language_reviewed,"\section{Variabel acak}
 \label{randomVariablesSection}
@@ -7366,6 +8206,18 @@ c116651f-eaa4-5022-be70-32faca3a5baf,a1826e03-0981-5650-8830-88dc2ad8b719,24,sub
 %\D{\newpage}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+c1217b4b-f5ca-536b-aedb-9d4bd507a9cb,4ea6818e-d117-54fc-82d2-a1c20a3530fe,1,end-of-section-exercise,en,ch_distributions/TeX/normal_distribution.tex,123,135,25cf8f446ecf9f05cc4250732cc5f95d3657283c13e83212b951a58b46e3698c,id-ID,repo/ch_distributions/TeX/normal_distribution.tex,130,141,dd275b532972e0b283c374222503e15b623f0367bf526fc6c901aab620ca27c8,language_reviewed,"% 7
+
+\eoce{\qt{Cuaca LA, Bagian I\label{la_weather_intro}} Rata-rata suhu maksimum
+harian pada bulan Juni di LA adalah 77\degree F dengan simpangan baku
+5\degree F. Anggap suhu pada bulan Juni mendekati distribusi normal.
+\begin{parts}
+\item Berapa peluang mengamati suhu 83\degree F atau lebih tinggi di LA
+pada suatu hari yang dipilih secara acak pada bulan Juni?
+\item Seberapa rendah suhu pada 10\% hari terdingin (hari dengan suhu
+maksimum terendah) selama bulan Juni di LA?
+\end{parts}
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 c23f1f70-e3d0-5a0c-8249-f39622580ca2,1f6d8544-36eb-5bde-8d51-027d2e219020,1,guided_exercise,en,ch_probability/TeX/ch_probability.tex,351,361,e2f4852ae3ce9988826c0940181a70419862d4cd5b00fdd2eb60b54c622c06a7,id-ID,repo/ch_probability/TeX/ch_probability.tex,351,361,92762793754aa229832c7609ead6d1b4c8e220388b63b978b90f7934f5c3dce6,language_reviewed,"\begin{exercisewrap}
 \begin{nexercise}\label{emailSpamNumberVennExer}
 % library(openintro); d <- loans_full_schema; table(d[,c(""application_type"", ""homeownership"")]); table(d[,c(""application_type"")]); table(d[,c(""homeownership"")])
@@ -7537,6 +8389,10 @@ c936abd8-f3a6-5b0f-854b-a4196922a57f,21aa41a3-f252-5c54-b452-fd9202cb75ee,1,chap
 
 %%%%%
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+c99e298f-7a22-5702-abb5-390349628e74,45833f28-f654-5405-82e7-9c02eb08e5b7,3,guided_inline_answer,en,ch_distributions/TeX/ch_distributions.tex,132,134,b9fc4cc81089efd853e79fedf7c3f10f0698b1d39e325f2f40f63e391a10f79a,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,129,131,b9fc4cc81089efd853e79fedf7c3f10f0698b1d39e325f2f40f63e391a10f79a,language_reviewed,"\footnotetext{(a)~$N(\mu=5,\sigma=3)$.
+  (b)~$N(\mu=-100, \sigma=10)$.
+  (c)~$N(\mu=2, \sigma=9)$.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 cac46d7a-c618-5be1-b426-a1e784c28eb3,dcd87770-5428-5ca2-8375-09e2744b09a7,1,exercise,en,ch_summarizing_data/TeX/considering_categorical_data.tex,61,72,cc64d113af0958104d809be4a980058817ec962a8f10f5c35162752d87713163,id-ID,repo/ch_summarizing_data/TeX/considering_categorical_data.tex,63,76,60e4e3cb7384363d3b69d33ce129625d1a48d1a5cfa6e7e6d46180246f247049,translated,"\eoce{\qt{Pandangan tentang DREAM Act\label{dream_act_mosaic}} Sampel acak pemilih
 terdaftar di Tampa, Florida, ditanya apakah mereka mendukung DREAM Act,
 sebuah rancangan undang-undang yang akan menyediakan jalur menuju kewarganegaraan
@@ -7552,6 +8408,27 @@ ideologi politik tampak saling independen? Jelaskan alasan Anda.
 
 % 24
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+caee506e-a419-5e9e-9d48-7eada327949b,c8bb4f4f-70e9-5dee-bf08-95b85355e0f0,1,end-of-section-exercise,en,ch_distributions/TeX/normal_distribution.tex,153,171,89119419049260a944f3fab8c8e9445826e32472523a5d8f4ddc171cafc01974,id-ID,repo/ch_distributions/TeX/normal_distribution.tex,160,180,10d6006e12bfc11959c2fcdb862b21fd196a04e8413e35627546130efdef5693,language_reviewed,"% 9
+
+\eoce{\qt{Cuaca LA, Bagian II\label{la_weather_unit_change}}
+Latihan~\ref{la_weather_intro} menyatakan bahwa rata-rata suhu maksimum
+harian pada bulan Juni di LA adalah 77\degree F dengan simpangan baku
+5\degree F, dan suhu tersebut dapat diasumsikan mengikuti distribusi normal.
+Kita menggunakan persamaan berikut untuk mengubah \degree F (Fahrenheit)
+menjadi \degree C (Celsius):
+\[ C = (F - 32) \times \frac{5}{9}. \]
+\begin{parts}
+\item Tuliskan model peluang untuk distribusi suhu dalam \degree C
+pada bulan Juni di LA.
+\item Berapa peluang mengamati suhu 28\degree C (yang kira-kira
+bersesuaian dengan 83\degree F) atau lebih tinggi pada bulan Juni di LA?
+Hitung menggunakan model \degree C dari bagian (a).
+\item Apakah Anda memperoleh jawaban yang sama atau berbeda pada bagian (b)
+soal ini dan bagian (a) Latihan~\ref{la_weather_intro}? Apakah Anda terkejut?
+Jelaskan.
+\item Perkirakan IQR suhu (dalam \degree C) pada bulan Juni di LA.
+\end{parts}
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 cb66d0f0-88e5-5c7e-9c44-55dd6205470a,1abc8a2f-fff1-5a7e-9e46-948375210665,1,end-of-section-exercise,en,ch_probability/TeX/defining_probability.tex,50,63,977ebe301fed61467d377d4bf62e7418806d58984b7868e6d0d37841b1df8f10,id-ID,repo/ch_probability/TeX/defining_probability.tex,47,60,dfef240e72cb72019dbe1c45e0fbec9c83f5ba75558bca3ba8d441721453e175,language_reviewed,"% 3
 
 \eoce{\qt{Empat permainan, satu pemenang\label{four_games_one_winner}} Berikut empat
@@ -7755,10 +8632,44 @@ Berdasarkan peluang yang dihitung di atas, apakah inokulasi tampaknya efektif me
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+d1b4b26b-ba4f-5d2b-b032-74410e51e49b,855224d9-3d86-54f4-96a9-9f4d335ced40,5,worked_example,en,ch_distributions/TeX/ch_distributions.tex,152,170,c151e20cd82be29bd3e06457506e478570c72de961c7b88dc24a022a5a110f01,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,149,166,8dab40cfde92a367c48bf8e9efea7af0fd1c39ee526b9aae05c9bf5212fcd7f6,language_reviewed,"\begin{examplewrap}
+\begin{nexample}{Tabel~\vref{satACTstats} menampilkan rata-rata
+    dan simpangan baku skor total pada SAT dan ACT.
+    Distribusi skor SAT dan ACT sama-sama hampir normal.
+    Misalkan Ann memperoleh skor \annsatscore{} pada SAT dan Tom
+    memperoleh skor \tomsatscore{} pada ACT.
+    Siapa yang memperoleh hasil relatif lebih baik?}
+  \label{actSAT}%
+  Kita menggunakan simpangan baku sebagai panduan.
+  Skor SAT Ann berada \annsatzscore{} simpangan baku di atas rata-rata:
+  $\satmean{} + \satsd{} = \annsatscore{}$.
+  Skor ACT Tom berada \tomsatzscore{} simpangan baku di atas rata-rata:
+  $\actmean{} + \tomsatzscore{} \times \actsd{} = \tomsatscore{}$.
+  Pada Gambar~\ref{satActNormals}, kita dapat melihat bahwa,
+  dibandingkan dengan peserta lain, Ann cenderung berprestasi lebih baik
+  daripada Tom; jadi skor relatif Ann lebih baik.
+\end{nexample}
+\end{examplewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+d2a98b2a-559f-5707-8abd-5379779cd581,38673b10-92db-56ab-a7f9-c5e940f019d2,7,guided_exercise,en,ch_distributions/TeX/ch_distributions.tex,230,235,2b128c1d7ca49015c286d32fd2d37116dffe79474a83ee4a0b21a5f3a63702be,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,228,233,0c84e4c88578c5195e7b719f706969ff2aa0e22574188972cc80c8dc4b6e74b3,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+Gunakan skor ACT Tom, \tomsatscore{}, bersama rata-rata dan
+simpangan baku ACT untuk mencari skor-Z-nya.\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 d4918324-9121-5cd6-ab61-caba223bbbd0,52bf0186-4674-569a-b8c7-783489172959,2,subsection_prose,en,ch_probability/TeX/ch_probability.tex,604,607,e2b034a999ea3b0e047df51e80951e3fdee9a35517ced497a8957263e4b87624,id-ID,repo/ch_probability/TeX/ch_probability.tex,601,604,5c1ca57047d14a8e9a1e99cbaf033b8744512d765a4b2027260cfde98c6fa895,language_reviewed,"\footnotetext{(a) Probabilitas orang pertama kidal adalah $0.09$, sama dengan orang kedua. Kita menerapkan Aturan Perkalian untuk proses independen untuk menentukan probabilitas keduanya kidal: $0.09\times 0.09 = 0.0081$.
 
 (b) Wajar untuk menganggap proporsi orang ambidekster (dapat menggunakan tangan kanan dan kiri) mendekati 0, sehingga $P($tidak kidal$)=1-0.09=0.91$. Dengan penalaran yang sama seperti bagian~(a), probabilitas keduanya tidak kidal adalah $0.91\times 0.91 = 0.8281$.}
 
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+d51842b5-d379-5c46-a969-c8b011897eb6,4bb6fac6-62dd-5bc8-ad6b-61b9676e88b5,13,guided_inline_answer,en,ch_distributions/TeX/ch_distributions.tex,281,287,a34e6ab8793e7328fcbc0e1bc5b83d11ba879932c978dc059e2123d18bb8e4af,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,279,285,597d540f935842834c986d9820a5cb827b93cadb0aab345d14446f9779085d5d,language_reviewed,"\footnotetext{Untuk $x_1=95.4$ mm:
+    $Z_1
+      = \frac{x_1 - \mu}{\sigma}
+      = \frac{95.4 - 92.6}{3.6}
+      = 0.78$.
+    Untuk $x_2=85.8$ mm:
+    $Z_2 = \frac{85.8 - 92.6}{3.6} = -1.89$.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 d51bcbb3-0f29-5b96-8c36-c129798a4bdb,748801d5-dff8-5970-9094-9b6e46cc74b3,37,subsection_prose,en,ch_probability/TeX/ch_probability.tex,1586,1592,8a3380c5980a498bd067582d4dd107a20442a899a6879c007a8e147ed91ffa29,id-ID,repo/ch_probability/TeX/ch_probability.tex,1580,1586,7c7389864b55badc9ab9b595250a63cef3df4b1638f39bfb2af277a000dd9857,language_reviewed,"\footnotetext{Jawaban singkat:
 \begin{align*}
@@ -7768,6 +8679,22 @@ P(A_2 | B) &= \frac{P(B | A_2) P(A_2)}{P(B | A_1) P(A_1) + P(B | A_2) P(A_2) + P
 \end{align*}}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+d5fb116d-a659-54e3-905b-4e795bd7a16d,de412d8d-c743-5910-aec4-762aaa8f1a89,1,end-of-section-exercise,en,ch_distributions/TeX/normal_distribution.tex,93,107,dc5d754776683667f82d61cca60c6d42134f09f22f0f27f1d337a16c4082b6b6,id-ID,repo/ch_distributions/TeX/normal_distribution.tex,98,113,cd9850867b25df8378693ff4c963a4f16dbd8d0481b061ee4800e893a8ca95be,language_reviewed,"% 5
+
+\eoce{\qt{Skor GRE, Bagian II\label{GRE_cutoffs}} Pada
+Latihan~\ref{GRE_intro}, kita melihat dua distribusi skor GRE:
+$N(\mu=151, \sigma=7)$ untuk bagian verbal dan
+$N(\mu=153, \sigma=7.67)$ untuk bagian kuantitatif. Gunakan informasi ini
+untuk menghitung setiap nilai berikut:
+\begin{parts}
+\item Skor seorang peserta yang berada pada persentil ke-$80$
+di bagian Penalaran Kuantitatif.
+\item Skor seorang peserta yang memperoleh hasil lebih buruk daripada
+70\% peserta ujian di bagian Penalaran Verbal.
+\end{parts}
+}{}
+
+\D{\newpage}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 d612cb03-ae6d-5f11-b06a-8b7df927bcb5,a485ca16-e7af-5fc9-a661-2481b3a87b29,22,section_prose,en,ch_probability/TeX/ch_probability.tex,1971,2001,70908560e5852b0c7f0b26970694e8106b99a2e0010bc67b05434039e0a22cab,id-ID,repo/ch_probability/TeX/ch_probability.tex,1960,1990,b5dd4383d8b2cd0bc6b060bb390498c48bc69a08cf38b31625ecc016a8c4aa85,language_reviewed,"
 Dua konsep penting mengenai kombinasi variabel acak telah diperkenalkan. Pertama, suatu nilai akhir terkadang dapat dinyatakan dalam persamaan sebagai jumlah bagian-bagiannya. Kedua, secara intuitif, memasukkan nilai rata-rata setiap bagian ke dalam persamaan ini akan memberikan nilai total rata-rata yang kita harapkan. Poin kedua ini perlu diperjelas -- hal tersebut dijamin benar untuk apa yang disebut \emph{kombinasi linear variabel acak}.
 
@@ -8406,6 +9333,16 @@ Peluang bahwa orang yang dipilih secara acak memiliki tinggi antara \resp{180} d
 \end{figure}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+d8c97a53-c424-5f4d-a87d-ef0453230fd4,59be9434-bd25-56d6-a333-e201b801b459,20,guided_exercise,en,ch_distributions/TeX/ch_distributions.tex,456,464,fe6e28ca9cfb968b9265cd15230c3196aa2701390bd68458fcf83e596d435a3b,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,442,450,ca0c421d101df72469a1db0957de0f2007b9b1cab2ab03e19de0156d304a5a07,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+Jika peluang Shannon memperoleh skor sekurang-kurangnya \shannonsat{}
+adalah 0.3264, berapa peluang ia memperoleh skor kurang dari
+\shannonsat{}?
+Gambarlah kurva normal untuk latihan ini dan arsir daerah bawah,
+bukan daerah atas.\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 d97c1bde-ae77-5b6f-8dbd-a580d428546f,8a23e856-49af-570b-8460-82f99ced2ef0,1,exercise,en,ch_summarizing_data/TeX/examining_numerical_data.tex,153,177,4d4f544e337f989b295889b7de73345bd542c8b694a8d1e3244b1bcf0b287a8d,id-ID,repo/ch_summarizing_data/TeX/examining_numerical_data.tex,158,183,8495b3c6520a8b02901171c2093a05845d9cb05dabf256c1baa893ae4d80b708,language_reviewed,"\eoce{\qt{Kualitas udara\label{air_quality_durham}} Kualitas udara harian diukur dengan indeks 
 kualitas udara (AQI) yang dilaporkan oleh Badan Perlindungan Lingkungan Amerika Serikat. Indeks 
 ini melaporkan tingkat pencemaran dan dampak kesehatan terkait yang mungkin perlu diperhatikan. 
@@ -8432,6 +9369,29 @@ sangat tinggi? Jelaskan alasan Anda.
 }{}
 
 % 12
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+d9bb440a-5ba3-5742-97e8-1857ba1ebd39,e3e37560-cc04-5880-9a05-06af8a1a18f0,47,guided_inline_answer,en,ch_distributions/TeX/ch_distributions.tex,716,719,cf0cfad801e0436216533ec3bb71be0a147dfd6aef3e802c141fc500dd06c73f,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,706,709,f4917a8e23e7141ded4b824e91b452f3dc6f6a4eaedf90ee7fc643194a210680,language_reviewed,"\footnotetext{Gambarlah situasinya terlebih dahulu.
+  Dengan perangkat lunak, kita memperoleh 0.6827 dalam 1~simpangan baku,
+  0.9545 dalam 2~simpangan baku,
+  dan 0.9973 dalam 3~simpangan baku.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+d9e02554-bd27-5e95-9a32-f63521bdbb52,1d131c22-c198-53f3-89b9-289ec3f15742,1,end-of-section-exercise,en,ch_distributions/TeX/normal_distribution.tex,18,31,d21b6ebeed1ba8122b38fc7a9a201d00a17dbc25c73837877fd36c21223bf214,id-ID,repo/ch_distributions/TeX/normal_distribution.tex,18,31,3bb17445bf4b4d2ff4def832d126503448cc48071669855b652f7da080aec4ce,language_reviewed,"% 2
+
+\eoce{\qt{Luas di bawah kurva, Bagian II\label{area_under_curve_2}} Berapa persen
+dari distribusi normal baku $N(\mu=0, \sigma=1)$ yang terdapat pada setiap
+daerah berikut? Pastikan Anda menggambar grafik. \vspace{-3mm}
+\begin{multicols}{4}
+\begin{parts}
+\item $Z > -1.13$
+\item $Z < 0.18$
+\item $Z > 8$
+\item $|Z| < 0.5$
+\end{parts}
+\end{multicols}
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+da9488cb-d432-54a6-bd6c-8ac7ca10eca0,70f34cf6-8094-557c-aa8c-9c95a3542dbe,21,guided_inline_answer,en,ch_distributions/TeX/ch_distributions.tex,465,467,73a1f37eac5f182d3397739dae4f40a24e8733f52e7ff31220ecfdcf61a625bb,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,451,453,28f830ffc24091fb8f86a780e98303c01de851c2ea2bffbcea561b6f3145072b,language_reviewed,"\footnotetext{Kita telah memperoleh peluang ini pada
+  Contoh~\ref{satAbove1190Exam}: 0.6736. \\
+  \Figures[Sebuah distribusi normal dengan rata-rata 1100 dan simpangan baku 200 diarsir dari kiri sampai sebuah garis vertikal yang terletak sedikit di atas rata-rata distribusi.]{0.35}{subtractingArea}{subtracted}}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 db2f7e01-3198-5996-80d3-69fac80e7e45,934f478e-1372-5c73-9c65-90094a7a5d9a,1,end-of-section-exercise,en,ch_probability/TeX/conditional_probability.tex,28,68,fe7f26a7e90a858ff29c7d37140ae689675a7dc50c28ede05644521cceb3cd06,id-ID,repo/ch_probability/TeX/conditional_probability.tex,29,69,d24a1a4da55c43b7570f610f404bd5d53f8b16b053683895da3def6c4fb4cfa4,language_reviewed,"% 15
 
@@ -8474,6 +9434,14 @@ bahwa bumi sedang memanas?
 }{}
 
 \D{\newpage}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+db4d49fa-f2e1-5aaf-b0f7-d22696f81da5,7178d9fa-ae2b-54d9-859b-d089f4eb1e31,31,guided_inline_answer,en,ch_distributions/TeX/ch_distributions.tex,547,553,6cc67b147ffa4bd3adfb3b92cda19961fdeaa2e95ab2cf43f58610e1a289b283,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,534,540,be68ad96b6ee714bc43439e6dddc4743d052b161d0833d84e923dca471dea95e,language_reviewed,"\footnotetext{Ubah dahulu tinggi badan menjadi inci:
+  67 dan 76 inci.
+  Gambar-gambarnya ditampilkan di bawah. \\
+  (a) $Z_{\text{Mike}} = \frac{67 - 70}{3.3} = -0.91\ \to\ 0.1814$.
+  (b) $Z_{\text{Jose}} = \frac{76 - 70}{3.3} = 1.82\ \to\ 0.9656$.
+  \\
+  \Figure[Ditampilkan dua grafik. Grafik pertama diberi label “Mike” dan menampilkan distribusi normal dengan rata-rata 70 serta ekor kiri di bawah 67 diarsir. Grafik kedua diberi label “Jose” dan menampilkan distribusi normal dengan rata-rata 70 serta sebagian besar distribusi sampai nilai 76 diarsir.]{0.45}{mikeAndJosePercentiles}}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 db53ac95-742a-5db3-9da3-e89ac011c55d,a36d034f-f5c1-5f04-89ac-c4f4a6cd046d,3,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,1081,1094,92cc0963695e4b42a33a225aaff6d1641fe3e55f915b5346664822aaf7806d0f,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,1029,1041,31d9c041cceb5574edb61f7fa1bb70026a57d89b0ef0c43c31b1b66a1930e615,translated,"\end{exercisewrap}
 \footnotetext{Jawaban dapat bervariasi!
   Jika kita hanya ingin memahami seperti apa satu pinjaman yang
@@ -8767,6 +9735,13 @@ Perhitungan dalam Contoh~\ref{sdOfJohnsCommuteWeeklyTime} bergantung pada asumsi
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+e74f78c4-300d-582b-8d70-9210ca45f803,fe84e23b-c6b8-5401-95b2-a0665289df64,2,chapter_intro,en,ch_distributions/TeX/ch_distributions.tex,14,22,781b3e57be2d2a1c5fc9a8078f3dfec7c57d3ae9041e1c6463460f81c887c13e,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,14,20,36e62e5ea93fc10f5dca82b7ff0dbf69496e36702b9e56b9f980c79705490aa3,language_reviewed,"\chapterintro{Dalam bab ini,
+  kita membahas berbagai distribusi yang sering dijumpai
+  dalam analisis data atau inferensi statistika.
+  Kita mulai dengan distribusi normal pada bagian pertama,
+  yang kerap digunakan dalam bab-bab selanjutnya.
+  Bagian-bagian lainnya sesekali akan dirujuk,
+  tetapi dapat dianggap sebagai materi opsional dalam buku ini.}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 e7bbb557-7b45-55c1-b0d4-53312770c44e,ca6367c4-15b1-502f-9fa9-3f7229c912ee,1,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,73,139,3f9400174e78120d7c1d59279e1853b5465bb6de74247efacbbc7764449d39b0,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,73,138,080c604c07c3965af8c341d6adef4ac6edb352d1f3a6bd492919fa7cd5b73515,translated,"\subsection{Diagram pencar untuk data berpasangan}
 \label{scatterPlots}
 
@@ -8872,6 +9847,23 @@ dan simpangan baku total hasil bersih taruhan Anda?
 tingkat risiko kedua permainan tersebut?
 \end{parts}
 }{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+ea89d7ae-8502-5155-8adc-79f8431621c2,a303d853-efe3-507d-afe8-c73d2b08a4d7,10,guided_exercise,en,ch_distributions/TeX/ch_distributions.tex,247,262,181276a877136e826372c0136b7308f10415c3c0eb90ac017f498109df7a1779,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,245,260,6c7d13a5eeb3be88ca670915b657544592875d56b1a5d79dc989eb4bb584a84e,language_reviewed,"\begin{exercisewrap}
+\begin{nexercise}
+Misalkan $X$ merepresentasikan variabel acak dari
+$N(\mu=3, \sigma=2)$ dan kita mengamati $x=5.19$. \\
+%\begin{enumerate}[(a)]
+%\setlength{\itemsep}{0mm}
+%\item
+(a)
+    Carilah skor-Z untuk $x$. \\
+%\item
+(b)
+    Gunakan skor-Z untuk menentukan berapa simpangan baku posisi $x$
+    di atas atau di bawah rata-rata.\footnotemark{}
+%\end{enumerate}
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 eaa89f38-1dc1-52ed-8df2-83f4d30105a3,193a93a2-5f42-56b5-a579-7a4c8b028e6d,1,section_lead,en,ch_probability/TeX/ch_probability.tex,691,702,cc8068a763ecb966b72eb6cbcdf6b4281ea8adbda3692c2939c9ee623de3133b,id-ID,repo/ch_probability/TeX/ch_probability.tex,691,702,5080b9b581d2d954b93022bc01c249472603e9f90c651ca437e2fd34cf0f658a,language_reviewed,"\section{Peluang bersyarat}
 \label{conditionalProbabilitySection}
 
@@ -9200,6 +10192,16 @@ f0a39f9e-82ec-5b2b-afe4-69c440b8db46,a1826e03-0981-5650-8830-88dc2ad8b719,20,sub
 %\D{\newpage}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+f2b64d34-0ccb-571d-9c30-51caf10ab5f2,092171e3-1b7f-5af2-96d9-b3547033f668,50,guided_inline_answer,en,ch_distributions/TeX/ch_distributions.tex,739,747,d40adff55e9a7c414cf1391e7ae4d1dec871cd9d2851662eb54ccbf2ddd90168,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,729,737,81b08593045412703c0b2c6cb29c637bc10d25522f08830cca1489844f4d28e3,language_reviewed,"\footnotetext{(a) 700 dan 1500 berada dua simpangan baku
+  di bawah dan di atas rata-rata, sehingga sekitar 95\% peserta ujian
+  memperoleh skor antara 700 dan 1500.
+  (b)~Kita telah menemukan bahwa rentang 700 sampai 1500 mencakup
+  sekitar 95\% peserta ujian.
+  Para peserta ini terbagi sama banyak oleh pusat distribusi,
+  yaitu \satmean{}, sehingga
+  $\frac{95\%}{2} = 47.5\%$ dari seluruh peserta ujian
+  memperoleh skor antara \satmean{} dan 1500.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 f362ccb2-d47f-5b10-958a-cf68b6a7a7cf,47687132-fc76-5fdf-b8dd-3eb2def70a0b,1,exercise,en,ch_summarizing_data/TeX/examining_numerical_data.tex,85,95,54f8c1786cb634336e889ad60cdfcfacfd55b008ee0759af5f574fb303507c0d,id-ID,repo/ch_summarizing_data/TeX/examining_numerical_data.tex,89,99,19a298aa9d1af52e25a8d6e9c399182ddaf89abebb9222a36941384a7e1bfa35,translated,"\eoce{\qt{Hari libur di lokasi pertambangan\label{days_off_mining}} Para pekerja di sebuah 
 lokasi pertambangan menerima rata-rata 35 hari cuti berbayar, lebih rendah daripada rata-rata 
 nasional. Manajer lokasi tersebut mendapat tekanan dari serikat pekerja setempat untuk menambah 
@@ -9276,6 +10278,16 @@ dianggap mewakili populasi sasaran, hasilnya dapat digeneralisasikan ke
 kelahiran dalam cakupan itu. Namun, karena studi ini bersifat
 observasional, temuannya tidak dapat digunakan untuk menetapkan hubungan 
 kausal.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+f510c603-1180-505f-9452-4e9ac90f5db8,596da6d2-a29c-5988-8c0f-afeb014b202a,11,guided_inline_answer,en,ch_distributions/TeX/ch_distributions.tex,263,271,9f6f29c0e890c4f9731869133dac4d9dd9136423b574f862447e4035c86f500f,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,261,269,586f1b3a6ec82f71c83cd6390a4559f462fe2faa2962e8a8b35b84d4aacd3cda,language_reviewed,"\footnotetext{(a) Skor-Z-nya diberikan oleh
+    $Z
+      = \frac{x-\mu}{\sigma}
+      = \frac{5.19 - 3}{2}
+      = 2.19/2
+      = 1.095$.
+    (b)~Pengamatan $x$ berada 1.095 simpangan baku
+    \emph{di atas} rata-rata.
+    Kita tahu pengamatan itu berada di atas rata-rata karena $Z$ positif.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 f72d418b-1f13-55f4-8a0d-c8bed9befa6b,55052df6-d488-53ed-8f4c-e0bb4a894836,1,subsection_prose,en,ch_probability/TeX/ch_probability.tex,470,485,577c70655223fcc2289bbb0f95b8537157199062c0f7f2f3102029f2e116c3d2,id-ID,repo/ch_probability/TeX/ch_probability.tex,470,485,419dfade4f8de840a544230ee3b519a85f6424da5c39b9b67898c4c8aa0347bb,language_reviewed,"\subsection{Komplemen suatu peristiwa}
 

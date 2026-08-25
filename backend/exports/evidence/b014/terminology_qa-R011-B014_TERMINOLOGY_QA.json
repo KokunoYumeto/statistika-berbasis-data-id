@@ -1,0 +1,68 @@
+{
+  "$schema": "interlanguage.r011-b014-terminology-qa/v1",
+  "boundary_id": "R011-B014",
+  "decision_count": 13,
+  "decisions": {
+    "bytes": 2887,
+    "path": "qa/b014-terminology/R011-B014_CONTROLLED_TERMS.tsv",
+    "sha256": "0b0a8fd99031106983ce0de8be7b3926defdc4e3cad31038ab9eefb38272397d"
+  },
+  "direct_reused_witness_counts": {
+    "probability_witness": {
+      "distribusi normal": 15,
+      "distribusi normal baku": 1,
+      "distribusi normal standar": 2,
+      "persentil": 3
+    },
+    "statistics_witness": {
+      "distribusi normal": 43,
+      "distribusi normal baku": 8,
+      "persentil": 16
+    }
+  },
+  "instruction_handling": "Reused the established same-field Indonesian witnesses and admitted controlled terminology; no web or arXiv research was repeated.",
+  "key_controls": {
+    "Z-score": "skor-Z",
+    "distribution of random variables": "distribusi variabel acak",
+    "mean": "rata-rata",
+    "normal distribution": "distribusi normal",
+    "percentile": "persentil",
+    "probability table": "tabel peluang",
+    "standard deviation": "simpangan baku",
+    "standard normal distribution": "distribusi normal baku",
+    "tail area": "luas ekor",
+    "test statistic": "statistik uji"
+  },
+  "network_used": false,
+  "ordinal_style": "persentil ke-n; English ordinal suffixes inside math were removed without changing numeric values",
+  "production_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "reused_evidence": {
+    "admitted_terminology_view": {
+      "bytes": 29727,
+      "path": "backend/exports/views/terminology.csv",
+      "sha256": "f3ea261c6ecabe9a56a90d61c8343661083720846097ed04ac4b0f746d09f4f9"
+    },
+    "b012_controlled_terms": {
+      "bytes": 2343,
+      "path": "qa/b012-terminology/R011-B012_CONTROLLED_TERMS.tsv",
+      "sha256": "50574600ce8397a31e3be124e84d0e85565f2aa033c93ed9612ee1a57e05c713"
+    },
+    "b012_terminology_qa": {
+      "bytes": 6408,
+      "path": "qa/b012-terminology/R011-B012_TERMINOLOGY_QA.json",
+      "sha256": "6a209eedb8e01949a0d77b16b8af348c1216ee20f34782ec6b87fde2093f22f7"
+    },
+    "probability_witness_text": {
+      "bytes": 386031,
+      "path": "scratch/b011-terminology/teori_peluang_ansori_fajriah_suryaningsih_2021.txt",
+      "sha256": "9b166a905c99a321eef25e2cc6932a5573037ae9441a866282d08154cd491707"
+    },
+    "statistics_witness_text": {
+      "bytes": 201466,
+      "path": "qa/terminology/fallback-statistika-dasar-2017/Buku_Ajar_Statistika_Dasar_Cindy_Cahyaning_Astuti_2017.txt",
+      "sha256": "f0e15d276e1e27c99d805ad8977dcf40d49165a76b970cfbce2897642dfe41af"
+    }
+  },
+  "status": "PASS_REUSED_ESTABLISHED_FIELD_EVIDENCE_NO_NEW_RESEARCH",
+  "witness_rights": "Internal terminology evidence only; copyrighted witness bytes remain excluded from public release payloads."
+}

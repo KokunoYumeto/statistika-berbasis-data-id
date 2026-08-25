@@ -1,0 +1,13 @@
+# R011-B014 publication checklist
+
+This workflow remains inert until the separate guarded B014 admission and post-admission replay pass, every terminal identity is exact, and `RELEASE_INPUTS.json` says `READY_FOR_PACKAGING`. It targets only Zenodo concept `10.5281/zenodo.22059801`, fixed Figshare article `33314727` in project `280296` / collection `8668413`, and GitHub repository `KokunoYumeto/statistika-berbasis-data-id`. No upstream contact occurs.
+
+1. Admission: independently validate the exact candidate reader, 21 byte-identical source PDFs, 16 source R producers, source overlays, isolated B014 backend append, and all admission/control receipts. Promote only through the separate rollback-protected admission tool.
+2. Bind: `python -B scripts/bind_release_inputs_b014.py --check`, then `--bind` only after admission is exact. The binder alone may replace the fixed unresolved contract.
+3. Package: run `python -B scripts/package_release_b014.py --self-check`, then `--package`. The package is reader-first, deterministic, privacy-scanned, rights-aware, and excludes restricted witnesses, absolute-profile receipts, `.Rhistory`, caches, and `earacupuncture.pdf`.
+4. Zenodo: preserve the existing concept lineage after collision checks; upload the exact nine ordered assets, publish, and anonymously stream-read every byte.
+5. Figshare: inspect/update only fixed article `33314727`. If the account/article route remains unavailable, write a truthful non-mutating route-status receipt; never create a replacement or duplicate item.
+6. GitHub: require Zenodo plus the Figshare receipt/status, create an exact fresh tree from the bounded allowlist with the adaptive hierarchical tree algorithm, use the current branch head only as commit parent, create tag `r011-b014-2026.08.25.1`, attach the exact assets, and anonymously verify tree, raw bytes, and assets. No local Git command is part of this workflow.
+7. Finalize: `python -B scripts/finalize_publication_b014.py --finalize` only after all public receipts prove anonymous byte readback. Advance the instructional cursor to `repo/ch_distributions/TeX/ch_distributions.tex#geomDist` while keeping the corpus truthfully marked belum lengkap.
+
+The accepted B014 scope is the Chapter 4 opening and complete Section 4.1, *Distribusi normal*: 6 examples, 15 guided exercises with 15 inline public answers, EoCE 1-10, public answers 1/3/5/7/9, O001 gaps 2/4/6/8/10, 21 byte-identical source PDFs, and 16 source R producers. Production model: **OpenAI Codex gpt-5.6-sol, Ultra**. Text/translation license: **CC BY-SA 3.0 Unported**, subject to component-specific rights.

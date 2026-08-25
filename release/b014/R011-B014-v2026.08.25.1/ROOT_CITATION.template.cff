@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Jika Anda menggunakan edisi kerja parsial ini, sitasikan edisi turunan dan karya sumbernya."
+title: "Statistika Berbasis Data - Edisi Kerja Bahasa Indonesia (R011-B014: Bagian 4.1 Distribusi normal)"
+type: book
+authors:
+  - family-names: Diez
+    given-names: David M.
+  - family-names: Çetinkaya-Rundel
+    given-names: Mine
+  - family-names: Barr
+    given-names: Christopher D.
+version: "2026.08.25.1-R011-B014"
+date-released: 2026-08-25
+license: CC-BY-SA-3.0
+repository-code: "https://github.com/KokunoYumeto/statistika-berbasis-data-id"
+url: "https://doi.org/10.5281/zenodo.22059801"
+abstract: "Edisi kerja yang belum lengkap: pembuka Bab 4 dan Bagian 4.1 Distribusi normal, 6 contoh, 15 latihan terpandu dan jawaban inline, EoCE 1-10, jawaban publik 1/3/5/7/9, celah O001 2/4/6/8/10, 21 gambar PDF sumber, 16 produsen R sumber, sumber editable, dan backend modular Bahasa Indonesia."
+notes: "Karya turunan dari OpenIntro Statistics oleh David M. Diez, Mine Çetinkaya-Rundel, dan Christopher D. Barr. Kontributor: Codex, atas permintaan pengguna. Model: OpenAI Codex gpt-5.6-sol, Ultra."

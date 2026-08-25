@@ -1,0 +1,64 @@
+{
+  "$schema": "interlanguage.r011-b014-source-asset-visual-qa/v1",
+  "boundary_id": "R011-B014",
+  "production_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "recorded_date": "2026-08-25",
+  "source_asset_closure": {
+    "path": "qa/b014-assets/R011-B014_ASSET_CLOSURE.json",
+    "bytes": 26340,
+    "sha256": "cbdf49edb7a528dcc56d8eadfcd14ac3a0056e756d503949bfdee1886cd364c4"
+  },
+  "inspection": {
+    "source_pdf_count": 21,
+    "rendered_pdf_count": 21,
+    "render_resolution_dpi": 180,
+    "primary_renderer": "pdftoppm 24.04.0",
+    "review_surface": "three contact sheets inspected at original image detail",
+    "targeted_cross_check": {
+      "asset": "ch_distributions/figures/6895997/6895997.pdf",
+      "renderer": "MuPDF mutool draw",
+      "resolution_dpi": 180,
+      "result": "Greek mu and sigma labels, percentages, arrows, fills, axes, and curve render correctly"
+    }
+  },
+  "reviewed_assets": [
+    "simpleNormal.pdf",
+    "twoSampleNormals.pdf",
+    "twoSampleNormalsStacked.pdf",
+    "satActNormals.pdf",
+    "satBelow1300.pdf",
+    "satAbove1190.pdf",
+    "subtractingArea.pdf",
+    "subtracted.pdf",
+    "satBelow1030.pdf",
+    "satAbove1030.pdf",
+    "mikeAndJosePercentiles.pdf",
+    "height40Perc.pdf",
+    "height82Perc.pdf",
+    "between59And62.pdf",
+    "subtracting2Areas.pdf",
+    "6895997.pdf",
+    "zltNeg.pdf",
+    "zgtPos.pdf",
+    "zBet.pdf",
+    "zgtAbs.pdf",
+    "gre_intro.pdf"
+  ],
+  "visual_results": {
+    "blank_or_corrupt_assets": 0,
+    "clipped_reader_content": 0,
+    "translatable_graphical_prose": 0,
+    "localized_pdf_derivatives_required": 0,
+    "reader_visible_non_numeric_tokens": "mathematical variables/symbols; proper names Ann, Tom, Mike, Jose; official GRE abbreviations QR and VR",
+    "localized_accessibility": "complete Indonesian alt text is supplied by the B014 TeX fragment for every referenced figure",
+    "disposition": "reuse all 21 source PDFs byte-identically"
+  },
+  "font_observation": {
+    "asset": "6895997.pdf",
+    "pdffonts_result": "source PDF uses unembedded Helvetica and Symbol Type 1 fonts",
+    "classification": "inherited source portability characteristic, not a translation or graphical-content defect",
+    "cross_renderer_result": "MuPDF renders the intended mu and sigma glyphs correctly"
+  },
+  "temporary_render_policy": "review renders and contact sheets are task-local transient files and are not candidate or release artifacts",
+  "status": "PASS_ALL_DIRECT_SOURCE_ASSETS_VISUALLY_READABLE_NO_LOCALIZED_PDF_DERIVATIVES_REQUIRED"
+}

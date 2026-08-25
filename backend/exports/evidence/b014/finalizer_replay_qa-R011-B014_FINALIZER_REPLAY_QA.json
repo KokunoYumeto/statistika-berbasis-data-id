@@ -1,0 +1,52 @@
+{
+  "$schema": "interlanguage.r011-b014-finalizer-replay-qa/v1",
+  "boundary_id": "R011-B014",
+  "production_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "command": "PYTHONDONTWRITEBYTECODE=1 python -B qa/b014-translation/finalize_b014_candidate.py",
+  "consecutive_completed_runs": 2,
+  "outputs_byte_identical": true,
+  "outputs": [
+    {
+      "path": "scratch/b014-candidate/ch_distributions_B014_source.tex",
+      "bytes": 92782,
+      "sha256": "469f843a2713b0787a069d711d81e3bc72ed5bd49c95f03197e720c53a3e3448"
+    },
+    {
+      "path": "scratch/b014-candidate/eoceSolutions_B014_source.tex",
+      "bytes": 109275,
+      "sha256": "2bc93b1bea5dfa79d5b1757a02874bfcb856b8b6ba1a71e66551e85c6a1f5672"
+    },
+    {
+      "path": "scratch/b014-candidate/preface_B014_source.tex",
+      "bytes": 10080,
+      "sha256": "e2d3dc856591ed58a4a46e5573f694fe92f9b7f65ef428da5997fa1b7a336fb9"
+    },
+    {
+      "path": "qa/b014-assets/R011-B014_ASSET_CLOSURE.json",
+      "bytes": 26340,
+      "sha256": "cbdf49edb7a528dcc56d8eadfcd14ac3a0056e756d503949bfdee1886cd364c4"
+    },
+    {
+      "path": "qa/b014-source/R011-B014_SOURCE_CLOSURE.json",
+      "bytes": 14083,
+      "sha256": "661e86d038696e24321f4db0de4b816d79893d9bb0df401acab48d9eaf67228b"
+    },
+    {
+      "path": "qa/b014-terminology/R011-B014_TERMINOLOGY_QA.json",
+      "bytes": 2782,
+      "sha256": "70fefa8a3ba23b45a63617139e911518807e4f98d0532b3dd19c9feca2802dab"
+    },
+    {
+      "path": "qa/b014-translation/R011-B014_FINAL_TRANSLATION_QA.json",
+      "bytes": 14895,
+      "sha256": "68101ba743e2cd68f62309b545fbed795cd060a898daeb3af6abcc820301025a"
+    },
+    {
+      "path": "scratch/b014-candidate/R011-B014_TRANSLATION_CANDIDATE_RECEIPT.json",
+      "bytes": 6814,
+      "sha256": "e4e920cc02203c021de2390ab0a08e32005babc8968521d0022aa450804fe5d8"
+    }
+  ],
+  "python_bytecode_cache_disabled": true,
+  "status": "PASS_TWO_CONSECUTIVE_FINALIZER_RUNS_BYTE_IDENTICAL"
+}

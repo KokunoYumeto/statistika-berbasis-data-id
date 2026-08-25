@@ -1,0 +1,277 @@
+\chapter*{{\color{oiB}Prakata}}
+\markboth{\MakeUppercase{Prakata}}{}
+%\chaptertext{}
+%\sectiontext{}
+
+\noindent%
+OpenIntro Statistics mencakup materi mata kuliah statistika tingkat pengantar
+dan menyajikan pengantar statistika terapan yang ketat secara ilmiah,
+jelas, ringkas, dan mudah dipahami.
+Buku ini ditulis terutama untuk jenjang sarjana,
+tetapi juga banyak digunakan di sekolah menengah dan program pascasarjana.
+\vspace{3mm}
+
+Selain membangun landasan pemikiran dan metode statistika,
+kami berharap pembaca memperoleh tiga gagasan berikut
+dari buku ini.\vspace{-1mm}
+\begin{itemize}
+\setlength{\itemsep}{0mm}
+\item
+    Statistika adalah bidang terapan dengan cakupan
+    penerapan praktis yang luas.
+\item
+    Anda tidak harus menjadi ahli matematika untuk belajar
+    dari data nyata yang menarik.
+\item
+    Data sering kali tidak rapi, dan alat statistika tidak sempurna.
+    Namun, jika memahami kekuatan dan keterbatasan alat-alat tersebut,
+    Anda dapat menggunakannya untuk mempelajari dunia.
+\end{itemize}
+
+
+%\subsection*{Is this a data science book?}
+%
+%\noindent%
+%Short answer: yes.
+%Long answer: it depends what you mean by \term{data science},
+%since two types of data scientists have emerged.
+%\vspace{3mm}
+%
+%\noindent%
+%Type~A data scientists focus on \emph{analysis},
+%such as exploratory data analysis, inference,
+%model building, and other related topics.
+%Type~B data scientists focus on \emph{building},
+%typically in the form of machine learning models
+%or other systems.
+%As you might expect, these two types share many skills,
+%though their main focuses differ.
+%This book focuses on skills most commonly used by
+%Type~A data scientists.
+%For more thoughts, please check out the following page:
+%\begin{center}
+%\oiRedirect{data_science_types}{{\color{red}BROKEN}}
+%\end{center}
+%\vspace{3mm}
+%
+%\noindent%
+
+
+\subsection*{{\color{oiB}Ikhtisar buku ajar}}
+
+\noindent%
+Bab-bab dalam buku ini adalah sebagai berikut:%\vspace{2mm}
+\begin{description}
+\setlength{\itemsep}{0mm}
+\item[1. Pengantar data.]
+    Struktur data, variabel,
+    dan teknik dasar pengumpulan data.
+\item[2. Meringkas data.]
+    Ringkasan data, grafik,
+    dan pengantar singkat inferensi menggunakan pengacakan.
+\item[3. Probabilitas.]
+    Prinsip-prinsip dasar probabilitas.
+    %This chapter is not required for the later chapters.
+\item[4. Distribusi variabel acak.]
+    Model normal dan distribusi penting lainnya.
+\item[5. Dasar-dasar inferensi.]
+    %Introduction to uncertainty in point estimates,
+    %confidence intervals, and hypothesis tests.
+    Gagasan umum statistika inferensial dalam konteks
+    pendugaan proporsi populasi.
+\item[6. Inferensi untuk data kategoris.]
+    Inferensi untuk proporsi dan tabel dengan menggunakan distribusi
+    normal dan khi-kuadrat.
+\item[7. Inferensi untuk data numerik.]
+    Inferensi untuk rata-rata satu atau dua sampel dengan menggunakan
+    distribusi~\mbox{$t$},
+    daya statistik untuk membandingkan dua kelompok,
+    serta perbandingan banyak rata-rata
+    menggunakan ANOVA.
+\item[8. Pengantar regresi linear.]
+    Regresi untuk hasil numerik dengan satu variabel prediktor.
+    Sebagian besar bab ini dapat dipelajari setelah
+    Bab~\ref{introductionToData}.
+\item[9. Regresi berganda dan logistik.]
+    Regresi untuk data numerik dan kategoris
+    dengan menggunakan banyak prediktor. %for an accelerated course.
+\end{description}
+
+
+%\newpage
+
+\noindent%
+Struktur \emph{OpenIntro Statistics} memberi keleluasaan
+dalam memilih dan mengurutkan topik.
+Jika tujuan utama Anda adalah mempelajari regresi berganda
+(Bab~\ref{ch_regr_mult_and_log})
+secepat mungkin, prasyarat yang ideal adalah sebagai berikut:
+\begin{itemize}
+\setlength{\itemsep}{0mm}
+\item Bab~\ref{ch_intro_to_data} dan
+    Bagian~\ref{numericalData}--\ref{caseStudyMalariaVaccine}
+    untuk memperoleh
+    pengantar yang kokoh tentang struktur data dan ringkasan
+    statistika yang digunakan di seluruh buku.
+\item Bagian~\ref{normalDist}
+    untuk memperoleh pemahaman yang kokoh tentang distribusi normal.
+\item Bab~\ref{ch_foundations_for_inf}
+    untuk membangun perangkat inti inferensi.
+%\item Section~\ref{oneSampleMeansWithTDistribution}
+%    and Chapter~\ref{ch_regr_simple_linear}
+%    provide required for multiple regression with a numerical
+%    outcome.
+%    For the remaining chapters, they could be tackled in
+%    almost any order, with the exception that
+%    
+%    
+%    come before Chapter~\ref{ch_regr_mult_and_log}.
+\item Bagian~\ref{oneSampleMeansWithTDistribution}
+    untuk membangun landasan pemahaman tentang distribusi~$t$.
+\item Bab~\ref{ch_regr_simple_linear}
+    untuk membangun gagasan dan prinsip regresi
+    dengan satu prediktor.
+%    introduce the 
+%    which introduces the $t$-distribution, should come before
+%    Section~\ref{oneSampleMeansWithTDistribution}
+%Chapters~\ref{ch_inference_for_props}-\ref{ch_regr_mult_and_log},
+%    could be tackled in
+%    almost any order, with the exception that
+%    Section~\ref{oneSampleMeansWithTDistribution}
+%    and Chapter~\ref{ch_regr_simple_linear}
+%    come before Chapter~\ref{ch_regr_mult_and_log}.
+%\item Sections~\ref{ch_inference_for_props}
+%    and~\ref{} are recommended before logistic regression.
+\end{itemize}
+%One conspicuously missing topic from the list above is the
+%chapter on Probability.
+%While useful for a deeper understanding of the calculations,
+%especially for anyone looking to take a second course in
+%statistics, it is not required reading when the focus is on
+%applied data analysis.
+
+
+\subsection*{{\color{oiB}Contoh dan latihan}}
+%, and appendices}
+
+\noindent%
+Contoh disediakan untuk membangun pemahaman tentang cara
+menerapkan metode.
+
+\begin{examplewrap}
+\begin{nexample}{Ini adalah sebuah contoh.
+    Jika pertanyaan diajukan di sini, di mana jawabannya dapat ditemukan?}
+  Jawabannya dapat ditemukan di sini, pada bagian penyelesaian
+  dalam contoh tersebut!
+\end{nexample}
+\end{examplewrap}
+
+\noindent%
+Jika kami menilai bahwa pembaca sudah siap mencoba menentukan
+sendiri penyelesaian suatu contoh, kami menyajikannya sebagai Latihan Terbimbing.
+
+\begin{exercisewrap}
+\begin{nexercise}
+Pembaca dapat memeriksa atau mempelajari jawaban setiap soal Latihan Terbimbing
+dengan membaca penyelesaian lengkap dalam catatan kaki.\footnotemark{}
+%Readers are strongly encouraged to attempt these practice problems.
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Soal Latihan Terbimbing dirancang untuk mengembangkan
+  cara berpikir Anda. Anda dapat memeriksa jawaban dengan membaca
+  penyelesaian dalam catatan kaki pada setiap Latihan Terbimbing.}
+
+\noindent%
+Latihan juga disediakan pada akhir setiap bagian,
+bersama latihan ulasan pada akhir setiap bab.
+Penyelesaian untuk latihan bernomor ganjil diberikan dalam
+Lampiran~\ref{eoceSolutions}.
+%Probability tables for the normal, $t$,
+%and chi-square distributions are in
+%Appendix~\ref{distributionTables}.
+
+
+\subsection*{{\color{oiB}Sumber daya tambahan}}
+
+Ikhtisar video, salindia, laboratorium perangkat lunak statistika,
+himpunan data yang digunakan dalam buku ajar,
+dan banyak sumber daya lainnya tersedia dengan mudah di\\[-5mm]
+\begin{center}
+\oiRedirect{os}
+    {\color{black}\textbf{openintro.org/os}}
+\end{center}
+%Data sets for this textbook are available on the website
+%and in a companion R package.\footnote{Diez DM,
+%    Barr CD, \c{C}etinkaya-Rundel M. 2015.
+%    \texttt{openintro}: OpenIntro data sets and supplement
+%    functions.
+%    \oiRedirect{textbook-github_openintro}
+%        {github.com/OpenIntroOrg/openintro-r-package}.}
+%All of these resources are free and may be used with
+%or without this textbook as a companion.
+Kami juga telah mempermudah akses ke data dalam buku ini
+dengan menambahkan Lampiran~\ref{appendix_data},
+yang memberikan informasi tambahan untuk setiap himpunan data
+dalam teks utama dan merupakan bagian baru pada Edisi Keempat.
+Panduan daring untuk setiap himpunan data tersebut juga tersedia di
+\oiRedirect{data}
+    {\color{black}\textbf{openintro.org/data}}
+dan melalui
+\oiRedirect{textbook-github_openintro}
+    {paket pendamping R}.
+% Official:
+% http://www.openintro.org/package/openintro
+% Currently redirect it to:
+% http://openintrostat.github.io/openintro-r-package/
+\vspace{3mm}
+
+\noindent%
+Kami menghargai semua umpan balik serta laporan kesalahan ketik
+yang disampaikan melalui situs web.
+Tautan singkat untuk melaporkan kesalahan ketik baru atau meninjau
+kesalahan ketik yang telah diketahui adalah
+\oiRedirect{os_typos}
+    {\color{black}\textbf{openintro.org/os/typos}}. \vspace{3mm}
+
+\noindent%
+Bagi pembaca yang berfokus pada statistika di tingkat sekolah menengah,
+pertimbangkan
+\oiRedirect{textbook-books}
+    {\emph{Advanced High School Statistics}},
+yakni versi \emph{OpenIntro Statistics} yang telah
+disesuaikan secara ekstensif oleh \oiRedirect{people}{Leah Dorazio}
+untuk pelajaran sekolah menengah dan
+AP\textsuperscript{\textregistered} Statistics.
+
+
+\subsection*{{\color{oiB}Ucapan terima kasih}}
+Proyek ini tidak akan terwujud tanpa semangat dan
+dedikasi banyak orang selain mereka yang tercantum sebagai penulis.
+Para penulis mengucapkan terima kasih kepada
+\oiRedirect{textbook-openintro_about}{Staf OpenIntro}
+atas keterlibatan dan kontribusi mereka yang berkelanjutan.
+Kami~juga sangat berterima kasih kepada ratusan mahasiswa, siswa,
+dan pengajar yang telah memberikan umpan balik berharga
+sejak kami pertama kali mengunggah materi buku ini pada~2009. \vspace{3mm}
+
+\noindent%
+Kami juga berterima kasih kepada banyak pengajar yang membantu meninjau
+edisi ini, termasuk
+Laura Acion,
+\oiRedirect{matthew_e_aiello-lammens}
+    {Matthew E. Aiello-Lammens},
+\oiRedirect{jonathan_akin}{Jonathan Akin},
+Stacey C. Behrensmeyer,
+Juan Gomez,
+Jo Hardin,
+\oiRedirect{nicholas_horton}{Nicholas Horton},
+\oiRedirect{danish_khan}{Danish Khan},
+\oiRedirect{peter_hm_klaren}{Peter H.M. Klaren},
+Jesse Mostipak,
+Jon C. New,
+Mario Orsi,
+Steve Phelps,
+dan David Rockoff.
+Kami menghargai semua umpan balik mereka, yang membantu
+menyempurnakan teks ini secara berarti dan meningkatkan
+kualitas buku ini secara substansial.

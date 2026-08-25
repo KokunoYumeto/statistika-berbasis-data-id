@@ -1,0 +1,303 @@
+{
+  "$schema": "interlanguage.r011-b014-visual-qa/v1",
+  "boundary_id": "R011-B014",
+  "status": "PASS_ZERO_VISUAL_DEFECTS_IN_BOUNDARY_AND_TRANSITION_WINDOWS",
+  "result": "passed",
+  "recorded_at": "2026-08-25T03:57:13+02:00",
+  "production_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "scope": "Original-detail inspection of every PNG required by the exact terminal B014 build receipt: title/rights/preface context, localized Chapter 4 opening, complete Section 4.1, EoCE 1-10, public answers 1/3/5/7/9, and both boundary transitions.",
+  "build_receipt": {
+    "path": "qa/b014-build/final/CANDIDATE_BUILD_QA_B014.json",
+    "bytes": 18580,
+    "sha256": "57ccdc47914c8a1156341e902f731f75ff721cb8b4d471d14b94d0510a14574c",
+    "status": "PASS_ISOLATED_TWO_REPLAY_DETERMINISTIC_BUILD_VISUAL_AUDIT_PENDING"
+  },
+  "candidate_pdf": {
+    "path": "qa/b014-build/final/main.pdf",
+    "bytes": 22031713,
+    "sha256": "5c250454662e4bfb54c4fae057ced4ffdaa7cda02e4a8fe3e08f2be81fe6f182",
+    "pages": 427
+  },
+  "render_configuration": {
+    "format": "PNG",
+    "resolution_dpi": 180,
+    "inspection_detail": "original",
+    "directory": "qa/b014-build/review-render"
+  },
+  "inspected_pages": [
+    {
+      "bytes": 69379,
+      "page": 1,
+      "path": "qa/b014-build/review-render/page-0001-001.png",
+      "sha256": "bbb94a8956a448356aea7def88a27ce5c2b70e8a1a899d20dfdb59c09d5b8d0b",
+      "role": "localized title page and contributor/model-provenance surface",
+      "verdict": "PASS",
+      "finding": "Title, subtitle, original-author credits, Codex contributor credit, and user-request attribution are centered, balanced, legible, and unclipped."
+    },
+    {
+      "bytes": 170123,
+      "page": 2,
+      "path": "qa/b014-build/review-render/page-0002-002.png",
+      "sha256": "987302cb96895809e8e8a27560418426b1757c6f79c7d2b2790ab995948ca5a6",
+      "role": "rights, attribution, derivative naming, and pinned-source surface",
+      "verdict": "PASS",
+      "finding": "The derivative-work notice, CC BY-SA statement, pinned commit, source link, brand exclusion, and component-rights note are readable and wholly inside the page."
+    },
+    {
+      "bytes": 340609,
+      "page": 5,
+      "path": "qa/b014-build/review-render/page-0005-005.png",
+      "sha256": "be6a9f5314c1bd490494bc015c94e25baf13db2248c3579fa44088251db2fd67",
+      "role": "localized preface and chapter outline",
+      "verdict": "PASS",
+      "finding": "Heading hierarchy, body, bullets, chapter outline, margins, and page number are balanced and free of collisions or truncation."
+    },
+    {
+      "bytes": 434161,
+      "page": 6,
+      "path": "qa/b014-build/review-render/page-0006-006.png",
+      "sha256": "b73f337dcae4f9e35b6237181661fac2b8aaa127a6c7d62b065ca10f67df23d0",
+      "role": "localized preface continuation and example/exercise conventions",
+      "verdict": "PASS",
+      "finding": "Examples, guided-exercise callouts, resource links, acknowledgements, headers, footnotes, and page fill are readable with no overlap or broken glyphs."
+    },
+    {
+      "bytes": 70758,
+      "page": 135,
+      "path": "qa/b014-build/review-render/page-0135-135.png",
+      "sha256": "d228e445a0ac98df55a178c99040f3ebe764b53f58e7756d56f096182cc9eef5",
+      "role": "localized Chapter 4 title page",
+      "verdict": "PASS",
+      "finding": "The chapter number and Indonesian title are intentionally spacious, aligned inside the full-page design, and no longer split the phrase 'variabel acak'; inherited English names for later untranslated sections remain clearly outside B014 scope."
+    },
+    {
+      "bytes": 104080,
+      "page": 136,
+      "path": "qa/b014-build/review-render/page-0136-136.png",
+      "sha256": "516b2725bc8c956776f6477f1c9924e42431ba320aaefbcf9259160f793f07f5",
+      "role": "localized Chapter 4 introduction and resource callout",
+      "verdict": "PASS",
+      "finding": "The source design's deliberately spacious chapter-introduction layout is centered and balanced; Indonesian prose, rules, icons, resource note, URL, and page number are sharp and unobstructed."
+    },
+    {
+      "bytes": 311307,
+      "page": 137,
+      "path": "qa/b014-build/review-render/page-0137-137.png",
+      "sha256": "600e8619e8feff38abbead713c64250d2e516242ab6beb57a867aa2dfac8b4d7",
+      "role": "Section 4.1 opening and normal-model subsection",
+      "verdict": "PASS",
+      "finding": "Section banner, localized prose, figures, captions, callout, subsection heading, equations, Carl Friedrich Gauss footnote, and margins are clean and fully visible."
+    },
+    {
+      "bytes": 311777,
+      "page": 138,
+      "path": "qa/b014-build/review-render/page-0138-138.png",
+      "sha256": "cfa941da3ec4a4d6761268a5f9bb538cad29c79e710ee41d6fad7e19fcc54d53",
+      "role": "normal-model continuation and Z-score subsection",
+      "verdict": "PASS",
+      "finding": "Figures, formulae, guided exercise, subsection transition, example callout, table, and inline footnote remain aligned and unclipped. The paragraph-local reflow keeps the complete phrase 'secara matematis kita mendefinisikan skor-Z sebagai' together before the page break instead of stranding its final word after Figure 4.5."
+    },
+    {
+      "bytes": 251603,
+      "page": 139,
+      "path": "qa/b014-build/review-render/page-0139-139.png",
+      "sha256": "51cd99c7675f28460188b035affd7c6da14616802cd004c629e9befc3f8db135",
+      "role": "Z-score worked material and guided exercises",
+      "verdict": "PASS",
+      "finding": "The page begins cleanly with the stacked SAT/ACT Figure 4.5, followed by the Z-score formula, fact box, guided exercises, footnotes, header, and page number; no sentence fragment is stranded around the float and no collision is present."
+    },
+    {
+      "bytes": 382069,
+      "page": 140,
+      "path": "qa/b014-build/review-render/page-0140-140.png",
+      "sha256": "37acd030abd0ff4ad5eef738b3f582c0ab78f8db16b3efe0b4c35eb13cd12830",
+      "role": "tail-area subsection and software/table methods",
+      "verdict": "PASS",
+      "finding": "Tail-area figure, localized caption, R literals, numbered methods, URL, footnotes, and text block fill the page coherently with no clipping."
+    },
+    {
+      "bytes": 305834,
+      "page": 141,
+      "path": "qa/b014-build/review-render/page-0141-141.png",
+      "sha256": "cd9cd7a877b46de828b023ae9d9b4f012ff5580a90d6d004f9ccae177c8fc9c0",
+      "role": "critical localized reflow witness and normal-probability subsection",
+      "verdict": "PASS",
+      "finding": "The prior three-line orphan-page defect is eliminated: the closing tail-area paragraph now flows directly into subsection 4.1.4, Example 4.7, its figures/equations, callout, and Guided Exercise 4.8; the page is readable, full, and collision-free."
+    },
+    {
+      "bytes": 308399,
+      "page": 142,
+      "path": "qa/b014-build/review-render/page-0142-142.png",
+      "sha256": "824d1e485bacf8353ef3f8ed273300c178016df45c03be0984131ed4a249a69c",
+      "role": "normal-probability worked and guided exercises",
+      "verdict": "PASS",
+      "finding": "Examples and guided exercises, shaded figures, equations, footnotes, and callout boundaries remain aligned and within the page."
+    },
+    {
+      "bytes": 309917,
+      "page": 143,
+      "path": "qa/b014-build/review-render/page-0143-143.png",
+      "sha256": "2dbab96dcc8cae4bf126ddd9300286c373a599a153519b9df27a0029390279ae",
+      "role": "percentile worked examples and guided exercises",
+      "verdict": "PASS",
+      "finding": "Both percentile examples, diagrams, equations, guided exercise, inline answers, and footer material are sharp and do not overlap."
+    },
+    {
+      "bytes": 283777,
+      "page": 144,
+      "path": "qa/b014-build/review-render/page-0144-144.png",
+      "sha256": "94bbf6042a091a43573439f09de894cf64c0f9d9b3390a72d2c274c1c076a6ff",
+      "role": "interval-probability worked and guided exercises",
+      "verdict": "PASS",
+      "finding": "The guided and worked probability exercises, composite shaded-area graphic, inline solutions, and page-fill transition are legible and balanced."
+    },
+    {
+      "bytes": 302219,
+      "page": 145,
+      "path": "qa/b014-build/review-render/page-0145-145.png",
+      "sha256": "6c2e735603069b2b8e0b2fdd2f9dafa3a3a6e93e9229f69cacc9ffd991b36d3c",
+      "role": "68-95-99.7 rule and Section 4.1 instructional ending",
+      "verdict": "PASS",
+      "finding": "Subsection heading, 68-95-99.7 figure, caption, guided exercises, inline public answers, and intentional end-of-instruction whitespace render cleanly."
+    },
+    {
+      "bytes": 505642,
+      "page": 146,
+      "path": "qa/b014-build/review-render/page-0146-146.png",
+      "sha256": "1f28e57b5a51d9c0aa829c49580c847261cf22fbcac51a8fc5a2cb44fb49d6a6",
+      "role": "Section 4.1 EoCE exercises 1-5",
+      "verdict": "PASS",
+      "finding": "The localized EoCE heading and exercises 4.1-4.5 retain hierarchy, multi-part indentation, mathematical notation, and source order without clipping."
+    },
+    {
+      "bytes": 353571,
+      "page": 147,
+      "path": "qa/b014-build/review-render/page-0147-147.png",
+      "sha256": "27c198c2c82a207a78b709a30af4d31762eab941ef7f46dde98f79b769574403",
+      "role": "Section 4.1 EoCE exercises 6-10",
+      "verdict": "PASS",
+      "finding": "Localized EoCE exercises 4.6-4.10, degree symbols, displayed conversion formula, and paragraph flow are legible and unobstructed."
+    },
+    {
+      "bytes": 380005,
+      "page": 148,
+      "path": "qa/b014-build/review-render/page-0148-148.png",
+      "sha256": "0246a63db8521557bdb43dd04e0b83d931c5132bf79be9c6482b72786bf8ef36",
+      "role": "Section 4.2 transition beyond B014 coverage",
+      "verdict": "PASS",
+      "finding": "The transition to the declared untranslated Section 4.2 suffix is intact; English is beyond B014 coverage, and the banner, prose, formulae, and box render cleanly."
+    },
+    {
+      "bytes": 319203,
+      "page": 149,
+      "path": "qa/b014-build/review-render/page-0149-149.png",
+      "sha256": "9c78b7ae9f37797d13f8a2cb4a52b32a637c9f94c63b506feacb75c9ed2b6e19",
+      "role": "inherited Section 4.2 continuation beyond B014 coverage",
+      "verdict": "PASS",
+      "finding": "The inherited next-section example, displayed equations, chart, caption, page header, and margins are wholly visible; this page verifies transition continuity only."
+    },
+    {
+      "bytes": 609952,
+      "page": 392,
+      "path": "qa/b014-build/review-render/page-0392-392.png",
+      "sha256": "fdebdfd4704e44f69a0e3006333f8f0fd5255acedbaf325e59b39c17af616198",
+      "role": "answer appendix immediately preceding the B014 answer boundary",
+      "verdict": "PASS",
+      "finding": "The two-column answer appendix preceding the B014 overlay remains aligned, readable, and continuous into the next page with no crop or overlap."
+    },
+    {
+      "bytes": 562998,
+      "page": 393,
+      "path": "qa/b014-build/review-render/page-0393-393.png",
+      "sha256": "0d250bdf046fcd0acefd81bf2a3aa130302670312a668aecad3c4e01dfbee64f",
+      "role": "B014 public answers 1, 3, 5, 7, and 9 including corrected IQR",
+      "verdict": "PASS",
+      "finding": "The localized Chapter 4 answer heading and public answers 1, 3, 5, 7, and 9 are in source order; diagrams and columns are clean, and answer 9(d) visibly states Q1=23.1264 C, Q3=26.8736 C, IQR=3.7472 C, about 3.75 C."
+    },
+    {
+      "bytes": 169049,
+      "page": 394,
+      "path": "qa/b014-build/review-render/page-0394-394.png",
+      "sha256": "a437c6b7bb721d809e6b40c90f1743c6cc0c0997a47630b7b0c2e401cb90dec0",
+      "role": "inherited answer continuation beyond B014 coverage",
+      "verdict": "PASS",
+      "finding": "Inherited later Chapter 4 answers are sharp and aligned. The remaining whitespace is the structural transition before the following answer chapter, not an unintended blank or orphan page."
+    }
+  ],
+  "inspection": {
+    "pages_requested": 22,
+    "pages_inspected": 22,
+    "all_listed_render_identities_exact": true,
+    "centering_and_page_fill": "PASS",
+    "clipping": "NONE",
+    "overlap": "NONE",
+    "typography_and_glyph_legibility": "PASS",
+    "localized_labels_figures_and_captions": "PASS",
+    "equations_tables_code_and_degree_symbols": "PASS",
+    "headers_footers_and_page_numbers": "PASS",
+    "section_eoce_and_answer_placement": "PASS",
+    "transition_pages": "PASS",
+    "critical_reflow_pages_138_139": "PASS_PRIOR_FLOAT_SENTENCE_SPLIT_ELIMINATED",
+    "critical_reflow_page_141": "PASS_PRIOR_ORPHAN_PAGE_ELIMINATED",
+    "corrected_public_answer_9d_page_393": "PASS_VISIBLE_APPROXIMATELY_3_75_C",
+    "blank_or_effectively_blank_unintended_pages": 0,
+    "remaining_findings_by_severity": {
+      "blocking": 0,
+      "major": 0,
+      "minor": 0
+    }
+  },
+  "independent_secondary_audit": {
+    "status": "PASS",
+    "mode": "read_only_independent_original_detail_visual_review",
+    "pages_inspected": [
+      1,
+      2,
+      5,
+      6,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      392,
+      393,
+      394
+    ],
+    "render_source": "Exact 180 dpi PNGs regenerated directly from the terminal candidate PDF and verified against every render identity in the build receipt.",
+    "targeted_confirmations": [
+      "Page 138 ends with the intact phrase 'mendefinisikan skor-Z sebagai'; page 139 has no orphan 'sebagai' and proceeds cleanly from Figure 4.5 to the Z definition.",
+      "Page 141 remains fully populated and contains no unintended blank-page regression.",
+      "Page 393 visibly gives Q1=23.1264 C, Q3=26.8736 C, IQR=3.7472 C, and approximately 3.75 C for public answer 4.9(d)."
+    ],
+    "defects": []
+  },
+  "issues": [],
+  "boundary_notes": [
+    "B014 translated coverage ends after Section 4.1 EoCE 4.10 and public answer 4.9; missing public answers 2, 4, 6, 8, and 10 remain explicit O001 companion gaps.",
+    "English on pages 148-149 and inherited answers following public answer 4.9 is beyond B014 coverage and is not counted as residue within the translated boundary.",
+    "Page 136 uses the source book's intentional chapter-introduction design; page 394 contains a structurally motivated answer-chapter transition. Neither is an unintended blank page or strands a translated fragment.",
+    "B014-LA001 removes only the inherited digital forced break before subsection 4.1.4. Page 141 proves the resulting flow; prose, mathematics, identifiers, references, exercises, answers, assets, hierarchy, and order remain unchanged.",
+    "B014-LA002 applies a paragraph-local TeX looseness adjustment only to the Z-score definition paragraph. Pages 138-139 prove that the complete sentence now precedes Figure 4.5 without changing its words, mathematics, identifiers, references, figures, or source order.",
+    "No restricted instructor solutions were accessed or invented."
+  ],
+  "canonical_source_mutated": false,
+  "backend_mutated": false,
+  "controls_mutated": false,
+  "release_mutated": false,
+  "git_used": false,
+  "network_used": false,
+  "publication_performed": false,
+  "admission_authorized": true,
+  "next_gate": "Bind this visual receipt into the deterministic B014 backend append and guarded admission transaction."
+}
