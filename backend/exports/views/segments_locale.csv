@@ -12,6 +12,10 @@ Gambarlah pula situasi yang baru.\footnotemark{}
 
 \eocesol{(a)~$Z = 0.84$, yang bersesuaian dengan skor sekitar 159 pada QR.
 (b)~$Z = -0.52$, yang bersesuaian dengan skor sekitar 147 pada VR.}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+0094c34f-382b-51e0-bc2f-7eb043a8b37d,bac586bc-5065-5e98-a3ae-8376ff0851ac,9,section_prose,en,ch_distributions/TeX/ch_distributions.tex,1216,1218,1986b718c382e5072f7ab9569e16b9e786aba0e9cd00038fb010228a6878eb05,id-ID,qa/b015-build/source-snapshot-b015/ch_distributions/TeX/ch_distributions.tex,1209,1211,1986b718c382e5072f7ab9569e16b9e786aba0e9cd00038fb010228a6878eb05,visually_checked,"
+\D{\newpage}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 00d13211-5a64-5c4f-a8fd-4ef9760a9a26,48d76130-cdf3-5c50-aecb-e80b5c96ded3,1,exercise,en,ch_intro_to_data/TeX/experiments.tex,5,17,b345834578c33c0eacde4487984e9b6884691c1c3cdfbd53d8705cea6733da65,id-ID,repo/ch_intro_to_data/TeX/experiments.tex,5,18,a37f199514745d6a17dc970776b7f386b35f71a0d2d160f62c473f85ca29e8f1,translated,"\eoce{\qt{Kondisi pencahayaan dan kinerja ujian\label{light_exam_performance}} Sebuah studi 
 dirancang untuk menguji pengaruh kondisi pencahayaan terhadap kinerja ujian mahasiswa. 
 Peneliti menduga bahwa kondisi pencahayaan dapat memberikan pengaruh yang berbeda pada 
@@ -347,6 +351,25 @@ dapat ditarik dari studi ini?
   $E(\$6000\times X + \$2000\times Y) =
     \$6000\times 0.020 + \$2000\times 0.002 = \$124$.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+105703bd-15b0-5035-b578-f23f95a86f85,ae99b71c-708a-5037-863c-1a64f98f58e1,12,exercise,en,ch_distributions/TeX/geometric_distribution.tex,13,29,ad8b9e6211213dcb03bb31c9bd55eb8021e0ffe72f9199d06ddb690d29661e58,id-ID,qa/b015-build/source-snapshot-b015/ch_distributions/TeX/geometric_distribution.tex,14,32,c4820bbf4b0a64069e562f86be1447bb4c48bbc083b7128331dda7c1ccf76603,visually_checked,"% 12
+
+\eoce{\qt{Dengan dan tanpa pengembalian\label{with_without_replacement}}
+Dalam situasi-situasi berikut, asumsikan bahwa separuh populasi yang
+disebutkan adalah laki-laki dan separuh lainnya perempuan.
+\begin{parts}
+\item Misalkan Anda mengambil sampel dari sebuah ruangan yang berisi 10
+orang. Berapa peluang terpilihnya dua perempuan berturut-turut jika
+pengambilan dilakukan dengan pengembalian? Berapa peluangnya jika
+pengambilan dilakukan tanpa pengembalian?
+\item Sekarang, misalkan Anda mengambil sampel dari sebuah stadion yang
+berisi 10.000 orang. Berapa peluang terpilihnya dua perempuan berturut-turut
+jika pengambilan dilakukan dengan pengembalian? Berapa peluangnya jika
+pengambilan dilakukan tanpa pengembalian?
+\item Kita sering memperlakukan orang-orang yang diambil sebagai sampel
+dari populasi besar sebagai saling independen. Berdasarkan temuan Anda pada
+bagian~(a) dan~(b), jelaskan apakah asumsi ini masuk akal.
+\end{parts}
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 108c3bbe-0121-548f-96a5-cf57a07f3b4d,ddef022a-a3f0-5688-8a76-0b52859c00ba,1,end-of-section-exercise,en,ch_probability/TeX/defining_probability.tex,3,15,750b07eba103971068841389388643dc917fa1476ab47a60afb09f23190ccec3,id-ID,repo/ch_probability/TeX/defining_probability.tex,3,15,a485553a94a4c997c38a2ef88dab135e56772629a4261ea71397676c15884627,language_reviewed,"% 1
 
 \eoce{\qt{Benar atau salah\label{tf_prob_definitions}} Tentukan apakah pernyataan berikut
@@ -1595,6 +1618,61 @@ orang lain yang tingkat pendidikannya sebanding. Apakah asumsi kedua pada bagian
 silakan Anda pertimbangkan.}
 
 \end{multicols}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+2e5bd617-b7e1-5a49-acb8-d1b170d1299d,bac586bc-5065-5e98-a3ae-8376ff0851ac,3,section_prose,en,ch_distributions/TeX/ch_distributions.tex,1120,1165,ec0b3e1063135ea3c2b78748003b1260610db509e209ebac6e5a4fb8a7712e75,id-ID,qa/b015-build/source-snapshot-b015/ch_distributions/TeX/ch_distributions.tex,1107,1160,8889849e9a42ef6f53d46b6de5270d238021aaaeef58fc5ed071f774457137c7,visually_checked,"
+Contoh~\ref{waitForDeductible} mengilustrasikan
+\termsub{distribusi geometrik}{distribution!geometric}, yang menggambarkan
+waktu tunggu hingga sukses untuk variabel acak Bernoulli yang
+\termsub{saling independen dan berdistribusi identik (iid)}{independent and identically distributed (iid)}.
+Dalam kasus ini, aspek \emph{independensi} hanya berarti
+bahwa setiap orang dalam contoh tidak saling memengaruhi, sedangkan
+\emph{identik} berarti bahwa masing-masing memiliki peluang sukses yang
+sama.
+
+Distribusi geometrik dari Contoh~\ref{waitForDeductible} ditampilkan pada
+Gambar~\ref{geometricDist70}. Secara umum, peluang-peluang pada distribusi
+geometrik menurun dengan cepat \termsub{secara eksponensial}{exponentially}.
+
+\begin{figure}[h]
+  \centering
+  \Figure[Ditampilkan distribusi peluang ``Jumlah Percobaan hingga Sukses untuk p = 0.7'' dalam bentuk diagram batang. Nilai yang ditampilkan adalah 1, 2, 3, 4, 5, 6, 7, dan 8. Peluangnya masing-masing sekitar 0.7, 0.21, 0.07, 0.02, dan 0.01; untuk nilai 6, 7, dan 8, tinggi batang hampir tidak dapat dibedakan.]{0.8}{geometricDist70}
+  \caption{Distribusi geometrik ketika peluang sukses adalah
+      $p = \insureSprob{}$.}
+  \label{geometricDist70}
+\end{figure}
+
+Teks ini tidak menurunkan rumus rata-rata (nilai harapan) banyaknya
+percobaan yang diperlukan untuk menemukan sukses pertama, ataupun rumus
+simpangan baku dan varians distribusi ini. Namun, kita menyajikan rumus
+umum untuk ketiganya.
+
+\begin{onebox}{Distribusi geometrik}
+  \index{distribution!geometric|textbf}%
+  Jika peluang sukses dalam satu percobaan adalah $p$ dan peluang gagal
+  adalah $1-p$, peluang bahwa sukses pertama ditemukan pada percobaan
+  ke-$n$ diberikan oleh\vspace{-1.5mm}
+  \begin{align*}
+  (1-p)^{n-1}p
+  \end{align*}
+  Rata-rata (yakni nilai harapan), varians, dan simpangan baku waktu
+  tunggu ini diberikan oleh
+  \begin{align*}
+  \mu &= \frac{1}{p}
+      &\sigma^2 &=\frac{1-p}{p^2}
+      &\sigma &= \sqrt{\frac{1-p}{p^2}}
+  \end{align*}
+\end{onebox}
+
+Bukan kebetulan bahwa kita menggunakan simbol $\mu$ untuk rata-rata
+sekaligus nilai harapan. Rata-rata dan nilai harapan adalah hal yang sama.
+
+Dalam distribusi geometrik, rata-rata banyaknya percobaan yang diperlukan
+untuk memperoleh sukses adalah $1/p$. Hasil matematis ini sesuai dengan
+intuisi. Jika peluang sukses tinggi (misalnya 0.8), biasanya kita tidak
+menunggu lama untuk memperoleh sukses: rata-rata $1/0.8 = 1.25$ percobaan.
+Jika peluang sukses rendah (misalnya 0.1), kita memperkirakan perlu
+mengamati banyak percobaan sebelum melihat sukses: $1/0.1 = 10$ percobaan.
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 2e86549f-fc85-5fcd-a6c3-fe51fb6c5a1b,a485ca16-e7af-5fc9-a661-2481b3a87b29,25,section_prose,en,ch_probability/TeX/ch_probability.tex,2033,2033,eb9d32c6b5b46e7bca0e39ab1f03cb2afaff541032c813e63e314860a6a5c01a,id-ID,repo/ch_probability/TeX/ch_probability.tex,2022,2022,eb9d32c6b5b46e7bca0e39ab1f03cb2afaff541032c813e63e314860a6a5c01a,language_reviewed,"% library(openintro); d <- stocks_18; cols <- 2:4; apply(d[, cols], 2, mean); apply(d[, cols], 2, sd)
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 2ec2c0ba-2564-5d63-ba5f-4d82e40293cd,b4950b8d-fc43-509b-ae57-5e5466047f82,12,guided_exercise,en,ch_probability/TeX/ch_probability.tex,1174,1178,2cdf36f5309b8f00bd159de9dc361c27e0a410f71858afe70fccba45dedc2926,id-ID,repo/ch_probability/TeX/ch_probability.tex,1173,1177,a5051d4f9dbe81d5f335579f3bf0f622bb0317f2085fddaadeab8077d7197964,language_reviewed,"\begin{exercisewrap}
@@ -1715,6 +1793,20 @@ estimasikan nilai-nilai berikut untuk
 (c) IQR.\footnotemark{}
 \end{nexercise}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+33df6b82-9fd3-569d-8830-065d549de8af,70513049-5725-57fb-a5c9-ffede960b3bf,13,exercise,en,ch_distributions/TeX/geometric_distribution.tex,31,44,74e6f69db893c8244eaa6e0d8aed3f6e1f4365da4a8e759090bcc11bd81bdf13,id-ID,qa/b015-build/source-snapshot-b015/ch_distributions/TeX/geometric_distribution.tex,34,47,b24dd26d61a62dc75ffe77b5a1700590b0a7d6d3b0cb3b074e52ac66357f99e5,visually_checked,"% 13
+
+\eoce{\qt{Warna mata, Bagian I\label{eye_color_geometric}} Sepasang suami
+istri sama-sama bermata cokelat, tetapi membawa gen yang memungkinkan anak
+mereka bermata cokelat (peluang 0.75), biru (0.125), atau hijau (0.125).
+\begin{parts}
+\item Berapa peluang bahwa anak pertama mereka yang bermata biru adalah
+anak ketiga? Asumsikan bahwa warna mata setiap anak saling independen.
+\item Secara rata-rata, berapa banyak anak yang akan dimiliki pasangan
+tersebut hingga memperoleh anak bermata biru pertama? Berapa simpangan baku
+banyaknya anak yang diperkirakan akan mereka miliki hingga anak bermata
+biru pertama lahir?
+\end{parts}
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 344a724b-37d5-5de0-9c7f-8f530c72f9b0,ec3b569a-6059-551c-9ddb-937edfb55960,1,exercise,en,ch_intro_to_data/TeX/review_exercises.tex,138,158,304a7ce816b26ff231ccfe4fe78399c91db0f8cfecc13923636ed77c548a6ec7,id-ID,repo/ch_intro_to_data/TeX/review_exercises.tex,132,152,e6e2c075ac231a4cbd45d55ea9fcab5feb88d04f8ff174ac5403d148392ad7d3,translated,"\eoce{\qt{Pendapatan dan pendidikan di county Amerika Serikat\label{income_education_county}}
 Diagram pencar di bawah ini menunjukkan hubungan antara pendapatan per kapita
 (dalam ribuan dolar) dan persentase penduduk yang memiliki gelar sarjana di
@@ -3012,6 +3104,14 @@ secara setara.
 
 % 21
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+4b54f674-1b07-5953-9a9f-f442060325fc,15f81b0c-78ca-5960-91c0-843fee978ca9,7,guided_exercise,en,ch_distributions/TeX/ch_distributions.tex,1203,1208,029485b53a03825f385e7bb54b14c05beb3ef76474440d4784d442a2b4078f2b,id-ID,qa/b015-build/source-snapshot-b015/ch_distributions/TeX/ch_distributions.tex,1195,1201,3ffdb0b69757c8654bfa5aa39f6ebcd697ed1653e8f9eafd1fb7b912cd6abd85,visually_checked,"\begin{exercisewrap}
+\begin{nexercise}
+Tentukan cara yang lebih cerdik untuk menyelesaikan
+Contoh~\ref{insureFirstSuccessInLT4}. Tunjukkan bahwa Anda memperoleh hasil
+yang sama.\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 4b791333-be12-5551-8066-5eefa52f93a3,8953f299-909a-5500-9c5f-46b560e50081,1,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,650,764,cb16cc46921971e35273d180159458d58426f6c4356ae2b01b47427df2e0de14,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,633,741,7b73fb49eb70a62fdb7f6b98a6d7c946343fbc63e44017951e12f16d387b7eff,language_reviewed,"\subsection{Varians dan simpangan baku}
 \label{variability}
 
@@ -3473,6 +3573,16 @@ tahun 2005--2009. Sampel ini terdiri atas 59\% laki-laki dan 41\% perempuan. \fo
   \end{minipage}}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+557be1fe-acd6-572e-bf82-da4a865719cb,a36ab1c7-bd48-56b4-9fad-0b6b45f6639a,15,exercise,en,ch_distributions/TeX/geometric_distribution.tex,69,79,018d1b06637405dc769cb8a27512525bc940e2321d6599d6b0f7b1ed865b8f82,id-ID,qa/b015-build/source-snapshot-b015/ch_distributions/TeX/geometric_distribution.tex,72,81,24c369589a60d353070468b335ea1b56b13ec7d4983c362521047babbcc13d23,visually_checked,"% 15
+
+\eoce{\qt{Bernoulli, rata-rata\label{bernoulli_mean_derivation}}
+Gunakan aturan peluang dari
+Bagian~\ref{randomVariablesSection}
+untuk menurunkan rata-rata variabel acak Bernoulli, yaitu variabel acak
+$X$ yang bernilai 1 dengan peluang $p$ dan bernilai 0 dengan peluang
+$1 - p$. Dengan kata lain, hitung nilai harapan variabel acak Bernoulli
+umum.
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 557f931b-7b25-5cbf-a3ef-20967e2b49a9,5151b558-df07-5de2-a9fd-f0f6772a1a86,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,642,661,da505c76d6676fbe9659f45b736e15f2018624f508dcea852c8c9e4199e6014d,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,690,709,3c17b4d68048655b4322fbae5fbe7e0fd1ae80ddbd9dd053ca2f67256c000770,language_reviewed,"% 3
 
 \eocesol{(a)~Verbal: $N(\mu = 151, \sigma = 7)$, Kuantitatif: $N(\mu = 153, \sigma = 7.67)$.
@@ -5264,6 +5374,16 @@ di AS hampir berdistribusi normal dengan rata-rata 70.0''
 dan simpangan baku 3.3''.
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+730ee42f-6fca-5bc3-ab43-75088bc4a012,b3aa5c90-7b32-5b0d-bf2b-0adf367b2a9c,16,exercise,en,ch_distributions/TeX/geometric_distribution.tex,81,91,9419f67f8bd0d208634db7455acf161d6ac0624df68cc3b9201a704eaf2426a7,id-ID,qa/b015-build/source-snapshot-b015/ch_distributions/TeX/geometric_distribution.tex,83,92,a6a1818fb9e6a8ee954c402f23a59678575defb6840240349d282573b0d8b584,visually_checked,"% 16
+
+\eoce{\qt{Bernoulli, simpangan baku\label{bernoulli_sd_derivation}}
+Gunakan aturan peluang dari
+Bagian~\ref{randomVariablesSection}
+untuk menurunkan simpangan baku variabel acak Bernoulli, yaitu variabel
+acak $X$ yang bernilai 1 dengan peluang $p$ dan bernilai 0 dengan peluang
+$1 - p$. Dengan kata lain, hitung akar kuadrat varians variabel acak
+Bernoulli umum.
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 732ff60d-b7e7-53ae-b5cc-8e4755803359,7f58e57a-0155-5ff2-b66a-00cb3f12d3f7,38,guided_exercise,en,ch_distributions/TeX/ch_distributions.tex,626,634,8a6aa7687f1ebcdfdf2ab34211ed3726b98e472259b6c484e4f3c99cbbd463da,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,613,621,52f7681f30b45bfc90ed50981cf3bfee9cb9b312d23f640142c37e2f4612a867,language_reviewed,"\begin{exercisewrap}
 \begin{nexercise}\label{more74Less69}
 Tinggi badan laki-laki dewasa mengikuti $N(70.0$''$, 3.3$''$)$.\footnotemark{} \\
@@ -5360,6 +5480,23 @@ skenario memiliki peluang yang sama?
 (d)~Positif; ketika popularitas suatu nama untuk anjing meningkat,
 popularitas nama tersebut untuk kucing juga cenderung meningkat.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""bad63bfb-9cf6-5f60-bbe6-9e93ae431ce0"",""67382a1e-7768-5d98-9912-2c3a848ce7a1""]"
+77b8e9d6-3bec-54ef-9e60-b4efd402c3cc,5ce85000-9096-5709-83d6-f50340f178c8,10,worked_example,en,ch_distributions/TeX/ch_distributions.tex,1219,1237,a2e4d5faf11fbdccc3d5cb274497154933efb30bee2045971d9a9379135c9a74,id-ID,qa/b015-build/source-snapshot-b015/ch_distributions/TeX/ch_distributions.tex,1212,1227,01a1ef8b647fe30ea561908f0c9182bf03aab9ffc14167888feaac402338e555,visually_checked,"\begin{examplewrap}
+\begin{nexample}{Misalkan sebuah perusahaan asuransi mobil telah
+    menentukan bahwa 88\% pengemudinya tidak melampaui batas risiko sendiri
+    pada suatu tahun. Jika seorang pegawai perusahaan memilih berkas
+    pengemudi secara acak sampai menemukan satu pengemudi yang tidak
+    melampaui batas risiko sendiri, berapa banyak berkas pengemudi yang
+    diperkirakan perlu diperiksa pegawai tersebut? Berapa simpangan baku
+    banyaknya berkas pengemudi yang harus dipilih?}
+  \label{carInsure08DrawOne}%
+  Dalam contoh ini, sukses kembali didefinisikan sebagai keadaan ketika
+  seseorang tidak melampaui batas risiko sendiri pada polisnya, yang memiliki
+  peluang $p = 0.88$. Banyaknya orang yang diperkirakan perlu diperiksa
+  adalah $1 / p = 1 / 0.88 = 1.14$, dan simpangan bakunya adalah
+  $\sqrt{(1-p)/p^2} = 0.39$.
+\end{nexample}
+\end{examplewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 77ff833f-cfc9-5352-975d-83064c0e89da,a36d034f-f5c1-5f04-89ac-c4f4a6cd046d,2,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,1047,1072,ba99595908c33ab1e7e8479808885e16024ad40abb93f86c4b82fe46938b1994,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,999,1022,c91f7c640f36aa2aece33c82324ea2b17b8ac810d6c51f9847209ec01eedbe36,translated,"\end{exercisewrap}
 \footnotetext{(a)~Rata-rata lebih terpengaruh.
   (b)~Simpangan baku lebih terpengaruh.
@@ -5557,6 +5694,15 @@ acak lalu memakainya. Tentukan peluang bahwa Anda akhirnya mengenakan
 \item sepasang kaus kaki dengan warna yang sama
 \end{parts}
 }{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+8012a563-8d50-5f79-88b7-bab635e71d7a,d54ef572-eed1-5a73-be6c-e070a4d06c9a,11,guided_exercise,en,ch_distributions/TeX/ch_distributions.tex,1239,1246,8f74e6593883c2290923e637b09d76df2ade1ca479554f4fa7debc4113981283,id-ID,qa/b015-build/source-snapshot-b015/ch_distributions/TeX/ch_distributions.tex,1229,1236,2d1bc29ddc49aa76aa992b88f17b5d81d894ba4092a3398d7d8c99b88cccf7a9,visually_checked,"\begin{exercisewrap}
+\begin{nexercise}
+Berdasarkan hasil dari Contoh~\ref{carInsure08DrawOne}, yaitu
+$\mu = 1.14$ dan $\sigma = 0.39$, apakah model normal tepat digunakan
+untuk mencari proporsi eksperimen yang berakhir dalam 3 percobaan atau
+kurang?\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 80910c29-f9d3-56c2-a034-77c844cdcdd0,9dc09770-ae18-5fa5-95d7-a5f0ef2d2e3d,1,guided_exercise,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,1073,1080,ef0272e35a5aae0d2e56e53ce008e0842df92098c2e7a6c68008a5c66d2ac9e4,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,1023,1028,53bb571397df16aaa343a0ea5b8a4dec6a3471c98b09b6cb52647e823fa89322,translated,"\begin{nexercise}
 Distribusi jumlah pinjaman dalam kumpulan data \data{loan50}
 menceng kanan, dengan beberapa pinjaman besar berada jauh di ekor
@@ -6119,6 +6265,15 @@ Pecahan ini sama dengan proporsi luas histogram yang berada dalam rentang \resp{
 \end{nexample}
 \end{examplewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+8d96e583-89c3-551f-9a0e-f8cc68e2dffb,dafcfd7a-1717-518c-82c1-58934e4d2c61,4,guided_exercise,en,ch_distributions/TeX/ch_distributions.tex,1166,1174,b0bf340a5c587a94c916946ec35d0f97bd3e212cb4f0694f3eebe8432c056652,id-ID,qa/b015-build/source-snapshot-b015/ch_distributions/TeX/ch_distributions.tex,1161,1168,53166657941ab15a93ecb6412ef1dfc2656a7dbf83082714d9840c488a6415f7,visually_checked,"\begin{exercisewrap}
+\begin{nexercise}
+Peluang bahwa suatu kasus tidak melampaui batas risiko sendiri adalah
+\insureSprob{}. Jika kita memeriksa kasus satu demi satu sampai menemukan
+seseorang yang tidak mencapai batas risiko sendiri, berapa banyak kasus
+yang diperkirakan perlu kita periksa?\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 8d98b33e-2b6c-5af6-921d-64bae260c430,55052df6-d488-53ed-8f4c-e0bb4a894836,3,subsection_prose,en,ch_probability/TeX/ch_probability.tex,498,524,2e899748471ec796b84e8f40e617965432ab709346d800ce184553320c194b60,id-ID,repo/ch_probability/TeX/ch_probability.tex,498,522,106717b94f5d56b022d345040157fd33c0783e677f124fbc88468c487e4fc1ed,language_reviewed,"\footnotetext{Jawaban singkat: (a)~$A^c=\{$\resp{3}, \resp{4}, \resp{5}, \resp{6}$\}$ dan $B^c=\{$\resp{1}, \resp{2}, \resp{3}, \resp{5}$\}$. (b)~Karena setiap hasil saling lepas, jumlahkan probabilitas hasil individual untuk memperoleh $P(A^c)=2/3$ dan $P(B^c)=2/3$. (c)~$A$~dan~$A^c$ saling lepas, demikian pula $B$~dan~$B^c$. Oleh karena itu, $P(A) + P(A^c) = 1$ dan $P(B) + P(B^c) = 1$.}
 
 \D{\newpage}
@@ -6568,6 +6723,10 @@ dan kram otot?
 
 % 37
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+987109ea-b2c9-5bd5-a399-934028127631,acd31088-8346-57e3-a6dc-562675641aa4,5,guided_inline_answer,en,ch_distributions/TeX/ch_distributions.tex,1175,1177,b9d6f02587c1ac783142af700c0768d0884ae4d1fc6323e6ea6c7b21ca0197ab,id-ID,qa/b015-build/source-snapshot-b015/ch_distributions/TeX/ch_distributions.tex,1169,1171,ca4d9ebf873695e18792439130094cd5b7430e04468d26afb4a5e481d6c165ee,visually_checked,"\footnotetext{Kita memperkirakan perlu memeriksa sekitar
+    $1 / \insureSprob{} \approx \insureGeomMean{}$
+    orang untuk menemukan sukses pertama.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 98987b7a-b786-5df3-b312-4107c0140529,c008ad85-0b9e-5a0c-bd8a-16e3520c8c96,1,exercise,en,ch_intro_to_data/TeX/experiments.tex,19,48,1057bf3ecd60ba1ea88c57334c00eb1483bf27e1b5507eb349a5e5d599ae6a06,id-ID,repo/ch_intro_to_data/TeX/experiments.tex,20,47,37389d563758b1b2072f075b3de78bb6297b6e0138ecbfb56bed1aaad297eb9a,translated,"\eoce{\qt{Suplemen vitamin\label{vitamin_supplement}}
 Untuk menilai efektivitas konsumsi vitamin C dosis tinggi dalam mengurangi durasi selesma, 
 para peneliti merekrut 400 sukarelawan sehat dari kalangan staf dan mahasiswa di sebuah 
@@ -6955,6 +7114,14 @@ Gambarlah pula satu situasi untuk setiap bagian.\footnotemark{}
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+a2c84abb-ffcb-5374-8619-deeca4b046c4,707e8d53-4207-52a4-a923-b2d4cf2c30f2,8,guided_inline_answer,en,ch_distributions/TeX/ch_distributions.tex,1209,1215,c34328853252b313323be6bab92f9fb5df471ec4d8cb412f082e8c1b75ce8c98,id-ID,qa/b015-build/source-snapshot-b015/ch_distributions/TeX/ch_distributions.tex,1202,1208,cd8d3ec2b5c0a19ca2bb356f4dde73ab454062ddcaa062d3b6788cd49d911746,visually_checked,"\footnotetext{Pertama, cari peluang komplemennya:
+  $P($tidak ada sukses dalam 3~percobaan pertama$)
+      = \insureFprob{}^3 = \insureCDistCComplement{}$.
+  Selanjutnya, hitung satu dikurangi peluang tersebut:
+  $1 - P($tidak ada sukses dalam 3 percobaan$)
+      = 1 - \insureCDistCComplement{}
+      = \insureCDistC{}$.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 a39b706d-b249-56b0-abcd-4580e64b5bf4,8759fdd7-08ec-51f2-8f2d-655e40548142,29,public-appendix-answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,383,389,7b5373c2deaec77245c873efad5b579d036c684b587d2ab0668f13a1c715b51b,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,409,415,12e0601e6a6e9ade32483c5febb3c344afa73467de1b5821db16b686ea1ffa3e,language_reviewed,"% 29
 
 \eocesol{Tidak. Kita memperkirakan distribusi ini menceng ke kanan karena dua
@@ -7076,6 +7243,19 @@ ke populasi secara luas.
 menerima pendanaan. Apakah Anda memiliki keberatan terhadap usulan studi tersebut?
 \end{parts}
 }{}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+a44bb182-0a90-538d-b80a-d76e10cf0653,bac586bc-5065-5e98-a3ae-8376ff0851ac,13,section_prose,en,ch_distributions/TeX/ch_distributions.tex,1250,1267,b89665a52d7fa5efd23b35240d6caec419cb51c3fb8ade6c2e1cd0763d03f66b,id-ID,qa/b015-build/source-snapshot-b015/ch_distributions/TeX/ch_distributions.tex,1239,1250,7ffa86298b6e021dcc523611f6b7ca393a02fd8573d5af662e45d2153fef766e,visually_checked,"
+Asumsi independensi sangat penting agar distribusi geometrik dapat
+menggambarkan suatu skenario secara akurat. Secara matematis, ketika
+membangun peluang sukses pada percobaan ke-$n$, kita harus menggunakan
+Aturan Perkalian untuk proses yang saling independen. Tidak mudah
+menggeneralisasi model geometrik untuk percobaan-percobaan yang saling
+dependen.
+
+\index{distribution!geometric|)}
+
+
+{\input{ch_distributions/TeX/geometric_distribution.tex}}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 a4f4132c-8c6f-57c8-8d9e-678314c99fe7,5d52d2c3-518e-5fb4-9993-fc3cb99829f2,11,subsection_prose,en,ch_probability/TeX/ch_probability.tex,1131,1173,4fa1c8caa70ce0cedb3061f33d48cca75a980a00a91fde7ccc6a77c5734abd02,id-ID,repo/ch_probability/TeX/ch_probability.tex,1130,1172,7e35fa1ba814527523d4b860fee85ae549f529b6a07989a749d5e59212f78357,language_reviewed,"\subsection{Cacar di Boston, 1721}
 
@@ -7733,6 +7913,17 @@ b7159090-5a69-5ee4-872e-da8d859ee1fc,5d52d2c3-518e-5fb4-9993-fc3cb99829f2,17,sub
 
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+b790cae6-d5be-5d17-93f1-952b886c3cf3,0cd262c5-1000-5fbf-91c2-29deaf32230a,11,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,685,694,0c1bd2f6fa2ff13a29417bb1d8e4aa6e35f9b112a2b07d4b4f15ff788f72be69,id-ID,qa/b015-build/source-snapshot-b015/extraTeX/eoceSolutions/eoceSolutions.tex,735,745,4a21ac548d36471d49caf8b6b9f86756df6dc5711807768cb4801debcd9ca426,visually_checked,"% 11
+
+\eocesol{(a)~Tidak. Kartu-kartu tersebut tidak saling independen. Sebagai
+contoh, jika kartu pertama adalah as keriting, kartu kedua tidak mungkin
+merupakan as keriting. Selain itu, terdapat banyak kategori hasil yang
+mungkin sehingga kategori-kategori tersebut perlu disederhanakan.
+(b)~Tidak. Ada enam hasil yang sedang dipertimbangkan. Distribusi Bernoulli
+hanya mengizinkan dua hasil atau kategori. Perhatikan bahwa lemparan dadu
+dapat menjadi percobaan Bernoulli jika kita menyederhanakannya menjadi dua
+hasil, misalnya keluar angka 6 dan tidak keluar angka 6. Namun, rincian
+semacam itu perlu ditetapkan.}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 b7f83439-ecc8-5c80-93e9-3b0c9f1fb9bb,22ba93e5-b0f2-5807-bb3d-7c9459db5451,4,guided_exercise,en,ch_probability/TeX/ch_probability.tex,916,923,db19eed99e3531f18938d805ae341472c7aacc249a8d9e7799332d7ecc4b520f,id-ID,repo/ch_probability/TeX/ch_probability.tex,916,923,010ea61510b2201dc1c0090559ea2647a459dacb89d4eddd1d417631b76d0a97,language_reviewed,"\begin{exercisewrap}
 \begin{nexercise}
 Verifikasikan bahwa Gambar~\ref{photoClassifyDistribution} menyatakan
@@ -8218,6 +8409,10 @@ pada suatu hari yang dipilih secara acak pada bulan Juni?
 maksimum terendah) selama bulan Juni di LA?
 \end{parts}
 }{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+c13d8c13-a3aa-5c7d-ada1-bc180500fdac,e55434e8-058a-5e60-919a-a1335c091256,13,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,696,699,2a5e914d4dcff7196e5c977e8271e21c0ebddbaa703263d3fbf86783eb552c84,id-ID,qa/b015-build/source-snapshot-b015/extraTeX/eoceSolutions/eoceSolutions.tex,747,750,2a5e914d4dcff7196e5c977e8271e21c0ebddbaa703263d3fbf86783eb552c84,visually_checked,"% 13
+
+\eocesol{(a)~$0.875^2\times 0.125 = 0.096$.
+(b)~$\mu=8$, $\sigma=7.48$.}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 c23f1f70-e3d0-5a0c-8249-f39622580ca2,1f6d8544-36eb-5bde-8d51-027d2e219020,1,guided_exercise,en,ch_probability/TeX/ch_probability.tex,351,361,e2f4852ae3ce9988826c0940181a70419862d4cd5b00fdd2eb60b54c622c06a7,id-ID,repo/ch_probability/TeX/ch_probability.tex,351,361,92762793754aa229832c7609ead6d1b4c8e220388b63b978b90f7934f5c3dce6,language_reviewed,"\begin{exercisewrap}
 \begin{nexercise}\label{emailSpamNumberVennExer}
 % library(openintro); d <- loans_full_schema; table(d[,c(""application_type"", ""homeownership"")]); table(d[,c(""application_type"")]); table(d[,c(""homeownership"")])
@@ -8598,6 +8793,12 @@ teramati), atau parameter populasi.
 
 % 19
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+cea5d746-3331-5274-84a4-1c6c7bbf721a,a4e73da4-905d-55ee-8d61-b70d34d02530,15,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,701,705,81cbb8d1e57fc2344ffeec5480b6735342fa51caea6d1cf0fe74a5b5dbcf68e3,id-ID,qa/b015-build/source-snapshot-b015/extraTeX/eoceSolutions/eoceSolutions.tex,752,757,aa37a7fb825588e3120d86cf1cd2727e8c56bbf90ebcab1c237873b3223842a4,visually_checked,"% 15
+
+\eocesol{Jika ${p}$ adalah peluang sukses, rata-rata variabel acak Bernoulli
+$X$ diberikan oleh \\
+$\mu = E[X] = P(X = 0) \times 0 + P(X = 1) \times 1$ \\
+$= (1 - p) \times 0 + p\times 1 = 0 + p = p$}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 cffb2141-10c4-5b98-8a61-76af53570c53,2b26a40e-e53d-5697-9e81-9dd25b95261f,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,197,208,147fa0ec81bbe2912ed23f53d65655ac38e430315e10584bc2e2e4f99464e5b5,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,209,220,037b37e9f1e5420748132fd6587b1b6d50797279fbb738a3ae494f11e5cfba80,translated,"% 39
 
 \eocesol{(a)~Orang yang tidak merespons mungkin akan memberikan jawaban berbeda
@@ -8678,6 +8879,41 @@ P(A_2 | B) &= \frac{P(B | A_2) P(A_2)}{P(B | A_1) P(A_1) + P(B | A_2) P(A_2) + P
 		&= 0.35
 \end{align*}}
 
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+d526505a-e9a5-5bdd-86a1-cb388c0743ae,ff94854d-cd16-57a9-90c8-520fb59f380d,2,worked_example,en,ch_distributions/TeX/ch_distributions.tex,1081,1119,aecefab26fd5c9c4c1b683e2cb2a8f8bd4f8747fbc3274675775851f0c3ecc8b,id-ID,qa/b015-build/source-snapshot-b015/ch_distributions/TeX/ch_distributions.tex,1073,1106,568c827a76f9b40071b782e96781b753aebe78a1c3b397df15ead7aa2c433338,visually_checked,"\begin{examplewrap}
+\begin{nexample}{Misalkan kita bekerja di perusahaan asuransi dan
+    memerlukan satu kasus orang yang tidak melampaui batas risiko sendiri
+    sebagai studi kasus. Jika peluang seseorang tidak melampaui batas
+    risiko sendiri adalah \insureSprob{} dan kita memilih orang secara acak,
+    berapa peluang bahwa orang pertama tidak melampaui batas risiko sendiri,
+    yakni menjadi sukses? Bagaimana dengan orang kedua? Orang ketiga?
+    Bagaimana jika kita memilih $n - 1$ kasus sebelum menemukan sukses
+    pertama, yakni sukses pertama ditemukan pada orang ke-$n$?
+    (Jika sukses pertama ditemukan pada orang kelima, kita menyatakan
+    $n=5$.)}
+  \label{waitForDeductible}%
+  Peluang bahwa kita berhenti setelah orang pertama sama dengan peluang
+  orang pertama tidak mencapai batas risiko sendiri:~\insureSprob{}.
+  Peluang bahwa orang kedua merupakan orang pertama yang tidak mencapai
+  batas risiko sendiri adalah
+  \begin{align*}
+  &P(\text{orang kedua menjadi sukses pertama}) \\
+  &\quad
+    = P(\text{orang pertama gagal, orang kedua sukses})
+    = (\insureFprob{})(\insureSprob{})
+    = \insureDistB{}
+  \end{align*}
+  Demikian pula, peluang bahwa sukses pertama ditemukan pada kasus ketiga
+  adalah $(\insureFprob{})(\insureFprob{})(\insureSprob{})
+    = \insureDistC$.
+
+  Jika sukses pertama ditemukan pada orang ke-$n$, terdapat $n-1$
+  kegagalan yang diikuti 1 sukses. Urutan ini bersesuaian dengan peluang
+  $(\insureFprob{})^{n-1}(\insureSprob{})$.
+  Nilai ini sama dengan
+  $(1-\insureSprob{})^{n-1}(\insureSprob{})$.
+\end{nexample}
+\end{examplewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 d5fb116d-a659-54e3-905b-4e795bd7a16d,de412d8d-c743-5910-aec4-762aaa8f1a89,1,end-of-section-exercise,en,ch_distributions/TeX/normal_distribution.tex,93,107,dc5d754776683667f82d61cca60c6d42134f09f22f0f27f1d337a16c4082b6b6,id-ID,repo/ch_distributions/TeX/normal_distribution.tex,98,113,cd9850867b25df8378693ff4c963a4f16dbd8d0481b061ee4800e893a8ca95be,language_reviewed,"% 5
 
@@ -9633,6 +9869,28 @@ P(A | B) = 1 - P(A^c | B)
 \end{onebox}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+e17153d3-a0a0-5e5f-815f-4a28e904403b,298c8a6d-ef49-5d05-a237-724ee9e76461,6,worked_example,en,ch_distributions/TeX/ch_distributions.tex,1179,1201,90c7e163c94d296232b9243b19f0adfe979e625f820bf512d416d21f4234e976,id-ID,qa/b015-build/source-snapshot-b015/ch_distributions/TeX/ch_distributions.tex,1173,1193,9008afe34258a29d5e03e2ab3fc74573efafdef8f8767702a4fdb067ed84d032,visually_checked,"\begin{examplewrap}
+\begin{nexample}{Berapa peluang bahwa kita menemukan sukses pertama
+    di antara tiga kasus pertama?}
+  \label{insureFirstSuccessInLT4}%
+  Sukses pertama dapat ditemukan pada kasus pertama ($n=1$), kedua
+  ($n=2$), atau ketiga ($n=3$). Ketiganya merupakan hasil yang saling
+  lepas. Karena orang-orang dalam sampel dipilih secara acak dari populasi
+  besar, pemilihan mereka saling independen. Kita menghitung peluang
+  setiap kasus lalu menjumlahkan hasil-hasil yang terpisah tersebut:
+  \begin{align*}
+  &P(n=1, 2, \text{ atau }3) \\
+    & \quad = P(n=1)+P(n=2)+P(n=3) \\
+    & \quad = (\insureFprob{})^{1-1}(\insureSprob{})
+        + (\insureFprob{})^{2-1}(\insureSprob{})
+        + (\insureFprob{})^{3-1}(\insureSprob{}) \\
+    & \quad = \insureCDistC{}
+  \end{align*}
+  Peluang bahwa kita menemukan kasus yang sukses dalam tiga kasus pertama
+  adalah \insureCDistC{}.
+\end{nexample}
+\end{examplewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 e1c74ee9-395b-596f-bd77-fb71fc4c1f8c,748801d5-dff8-5970-9094-9b6e46cc74b3,35,subsection_prose,en,ch_probability/TeX/ch_probability.tex,1555,1580,fbd441a4e3951d4598dd1c625789ad6c7d59108e5ee60dc868c709566424850e,id-ID,repo/ch_probability/TeX/ch_probability.tex,1549,1574,4ce3824b339faff2e5962f39fc507ecbcaaf0296572416a64025e14427858e5b,language_reviewed,"\footnotetext{\begin{minipage}[t]{0.27\linewidth}
 Diagram pohon dengan tiga cabang utama ditampilkan di sebelah kanan. Selanjutnya, kita menentukan dua peluang dari diagram tersebut. (1) Peluang bahwa ada acara olahraga dan gedung parkir penuh: 0,14. (2) Peluang gedung parkir penuh: $0.0875 + 0.14 + 0.0225 = 0.25$. Jawabannya adalah rasio kedua peluang tersebut: $\frac{0.14}{0.25} = 0.56$. Jika gedung parkir penuh, peluang bahwa ada acara olahraga adalah 56\%. \vspace{0.1mm} \\\ 
 \end{minipage}
@@ -9918,6 +10176,13 @@ variabel tersebut? Daftarkan level (kategori) yang bersesuaian.
 
 % 10
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""143d3528-ba59-5a42-8932-7a2770216b5b""]"
+ead53166-6751-5680-86a9-1580b0b47e03,ef3f389e-1bb3-51c4-a677-2e408c047cbd,1,data_appendix_entry,en,extraTeX/data/data.tex,272,276,5c6a4e42e4ba380d3b121a52d8298ebf550b0e2d0ae977389f0f98edbe2a0716,id-ID,qa/b015-build/source-snapshot-b015/extraTeX/data/data.tex,272,277,20acc17df7ee9dfe7f3b747aabc08cd5003a14f1ef126c479e7617fbd877a489,visually_checked,"\item[\ref{geomDist}]
+    \datawrap{Melampaui batas risiko sendiri asuransi}
+    Statistik ini dibuat untuk keperluan ilustrasi, tetapi nilainya mungkin
+    dijumpai pada program asuransi dengan batas risiko sendiri yang rendah.
+
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 eb293ee2-f92a-5a6b-8654-ead45b33cfdf,4fa0fd7b-9cac-53c7-a0f1-1fdbeaa2b52d,1,end-of-section-exercise,en,ch_probability/TeX/random_variables.tex,71,85,2383e4959567286fbd9d1731e24f4f384de0ea68387b770a5057ec8558130290,id-ID,repo/ch_probability/TeX/random_variables.tex,73,87,c6cfd828ef46941e2d3b9f892c5a8c928132a69b1022167dca0b37b023e57a50,language_reviewed,"% 34
 
 \eoce{\qt{Biaya bagasi\label{baggage_fees}} Sebuah maskapai mengenakan 
@@ -10111,6 +10376,9 @@ eea55044-2d76-5488-a68f-c24eba5b0a61,39d7b86b-a323-5f6b-ae99-66f0fa044450,1,publ
 \eocesol{$P(^1$legging, $^2$jins, $^3$jins$) = \frac{5}{24} \times \frac{7}{23} \times \frac{6}{22} = 0.0173$. 
 Namun, mahasiswa yang mengenakan legging dapat terpilih pada urutan ke-2 atau ke-3; masing-masing 
 urutan ini memiliki peluang yang sama, sehingga $3 \times 0.0173 = 0.0519$.}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+eebb0d2f-ef80-55ac-a7a0-94019a62f089,f24fe97d-8e9f-509e-a048-8078ebdc0475,12,guided_inline_answer,en,ch_distributions/TeX/ch_distributions.tex,1247,1249,37153b13291748064f84f6529eaf8a76f949815ae0ae04a2d621b1309b974e82,id-ID,qa/b015-build/source-snapshot-b015/ch_distributions/TeX/ch_distributions.tex,1237,1238,c3e3d23ce0c7688fa462ba83e67fbaa7896dea06e621f1a90e957438570cd33f,visually_checked,"\footnotetext{Tidak. Distribusi geometrik selalu menceng kanan dan tidak
+  pernah dapat didekati dengan baik oleh model normal.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 eecf72a9-4c55-5241-9df8-47f8b30c7b3e,bafc762b-769e-5379-a396-6eb4dbfd7857,1,public_inline_answer,en,ch_intro_to_data/TeX/ch_intro_to_data.tex,105,105,090d976957d8c399446bd254367e374ad21aa68dc34567d3c157cd718e35b155,id-ID,repo/ch_intro_to_data/TeX/ch_intro_to_data.tex,105,105,bbdb2aad861f5519ff127602acb163c8c94d5f573f2c62f6e9ea22ce3b5c1c7d,translated,"\end{exercisewrap}\footnotetext{Proporsi dari 224 pasien yang mengalami strok dalam 365 hari: $45/224 = 0.20$.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 ef28f590-841d-5c71-9e87-d5e2879e6369,c0bd2c0d-1734-5635-9b83-fea31490ec87,1,exercise,en,ch_summarizing_data/TeX/examining_numerical_data.tex,58,72,d0b5f466e368ab50f1f1897ae2db3d07b4f5bfa0a2c4e4511b20dae83f3609f7,id-ID,repo/ch_summarizing_data/TeX/examining_numerical_data.tex,61,75,93264d0534b651708b05b633bcff03c549a08c08877feac1175802f2eb33628f,translated,"\eoce{\qt{Parameter dan statistik\label{parameters_stats}} Tentukan nilai mana yang merupakan 
@@ -10202,6 +10470,16 @@ f2b64d34-0ccb-571d-9c30-51caf10ab5f2,092171e3-1b7f-5af2-96d9-b3547033f668,50,gui
   $\frac{95\%}{2} = 47.5\%$ dari seluruh peserta ujian
   memperoleh skor antara \satmean{} dan 1500.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+f35b5b23-c1ea-5d90-aa99-04b2bc7539bf,df2cb1a0-6948-5a10-9ac8-5ca2b34de74b,11,exercise,en,ch_distributions/TeX/geometric_distribution.tex,3,11,3e1976514e8cbc1dbb990e8f5f600beedb6615155315fdf76199cc1a1373df8c,id-ID,qa/b015-build/source-snapshot-b015/ch_distributions/TeX/geometric_distribution.tex,3,12,5ec9bf12d9ffb3d35ddaffa3593e236944f763cc72997f506eb0a41e0a7fde9a,visually_checked,"% 11
+
+\eoce{\qtq{Apakah ini Bernoulli\label{is_it_bernouilli}} Tentukan apakah
+setiap percobaan dapat dianggap sebagai percobaan Bernoulli yang saling
+independen dalam situasi-situasi berikut.
+\begin{parts}
+\item Kartu-kartu yang dibagikan dalam satu tangan permainan poker.
+\item Hasil setiap lemparan dadu.
+\end{parts}
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 f362ccb2-d47f-5b10-958a-cf68b6a7a7cf,47687132-fc76-5fdf-b8dd-3eb2def70a0b,1,exercise,en,ch_summarizing_data/TeX/examining_numerical_data.tex,85,95,54f8c1786cb634336e889ad60cdfcfacfd55b008ee0759af5f574fb303507c0d,id-ID,repo/ch_summarizing_data/TeX/examining_numerical_data.tex,89,99,19a298aa9d1af52e25a8d6e9c399182ddaf89abebb9222a36941384a7e1bfa35,translated,"\eoce{\qt{Hari libur di lokasi pertambangan\label{days_off_mining}} Para pekerja di sebuah 
 lokasi pertambangan menerima rata-rata 35 hari cuti berbayar, lebih rendah daripada rata-rata 
 nasional. Manajer lokasi tersebut mendapat tekanan dari serikat pekerja setempat untuk menambah 
@@ -10611,6 +10889,119 @@ Jadi, toko buku tersebut diperkirakan memperoleh sekitar $\$7,535 + \$4,250 = \$
 \end{nexample}
 \end{examplewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+fb2a1da0-e33c-5a83-a21a-17edae488d26,bac586bc-5065-5e98-a3ae-8376ff0851ac,1,section_prose,en,ch_distributions/TeX/ch_distributions.tex,971,1080,e3ab7f8de6a51e2eb66182bf9d7bf0d498ec5240d88e3da1afa25999d2c7d233,id-ID,qa/b015-build/source-snapshot-b015/ch_distributions/TeX/ch_distributions.tex,961,1072,ecb30fd7bf2cf09a9ea49433a2ee53d1cd689841f435de4bd2bd01673af44227,visually_checked,"\section{Distribusi geometrik}
+\label{geomDist}
+
+Berapa kali, menurut perkiraan kita, sebuah koin perlu dilempar sampai
+muncul sisi \resp{kepala}? Atau berapa kali sebuah dadu perlu dilempar
+sampai kita memperoleh \resp{1}? Pertanyaan-pertanyaan ini dapat dijawab
+dengan distribusi geometrik. Pertama-tama, kita memformalkan setiap
+percobaan--seperti satu lemparan koin atau dadu--dengan distribusi
+Bernoulli. Kemudian, kita menggabungkannya dengan perangkat peluang dari
+Bab~\ref{probability} untuk membangun distribusi geometrik.
+
+\subsection{Distribusi Bernoulli}
+\label{bernoulli}
+
+\newcommand{\insureSprob}{0.7}
+\newcommand{\insureSperc}{70\%}
+\newcommand{\insureFprob}{0.3}
+\newcommand{\insureFperc}{30\%}
+\newcommand{\insureDistA}{0.7}
+\newcommand{\insureDistB}{0.21}
+\newcommand{\insureDistC}{0.063}
+\newcommand{\insureDistD}{0.019}
+\newcommand{\insureDistE}{0.006}
+\newcommand{\insureCDistA}{0.7}
+\newcommand{\insureCDistB}{0.91}
+\newcommand{\insureCDistC}{0.973}
+\newcommand{\insureCDistCComplement}{0.027}
+\newcommand{\insureCDistD}{0.992}
+\newcommand{\insureCDistE}{0.998}
+\newcommand{\insureGeomMean}{1.43}
+
+\index{distribution!Bernoulli|(}
+
+Banyak program asuransi kesehatan di Amerika Serikat menerapkan
+risiko sendiri (\emph{deductible}). Dalam skema ini, tertanggung menanggung
+biaya hingga batas risiko sendiri; biaya di atas batas itu kemudian dibagi
+antara tertanggung dan perusahaan asuransi selama sisa tahun berjalan.
+
+Misalkan sebuah perusahaan asuransi kesehatan mendapati bahwa
+\insureSperc{} orang yang diasuransikannya tetap berada di bawah batas
+risiko sendiri pada suatu tahun. Setiap orang tersebut dapat dipandang sebagai
+satu \termsub{percobaan}{trial}. Kita memberi label
+\termsub{sukses}{success} kepada seseorang jika biaya layanan kesehatannya
+tidak melampaui batas risiko sendiri. Kita memberi label
+\termsub{gagal}{failure} jika biaya orang tersebut melampaui batas risiko
+sendiri pada tahun itu. Karena 70\% orang tidak mencapai batas risiko
+sendiri, kita menyatakan \termsub{peluang sukses}{probability of a success}
+sebagai $p = \insureSprob{}$. Peluang gagal kadang-kadang dinyatakan dengan
+$q = 1 - p$, yang bernilai \insureFprob{} pada contoh asuransi ini.
+
+Jika sebuah percobaan hanya memiliki dua hasil yang mungkin, yang sering
+diberi label \resp{sukses} atau \resp{gagal}, percobaan itu disebut
+\termsub{variabel acak Bernoulli}{distribution!Bernoulli}.
+Kita memilih untuk memberi label ``sukses'' kepada orang yang tidak
+mencapai batas risiko sendiri dan ``gagal'' kepada semua orang lainnya.
+Namun, kedua label tersebut dapat saja kita pertukarkan. Kerangka
+matematis yang akan kita bangun tidak bergantung pada hasil mana yang
+diberi label sukses dan mana yang diberi label gagal, asalkan kita
+konsisten.
+
+Variabel acak Bernoulli sering dinyatakan dengan \resp{1} untuk sukses
+dan \resp{0} untuk gagal. Selain memudahkan pemasukan data, pelabelan ini
+juga praktis secara matematis. Misalkan kita mengamati sepuluh percobaan:
+\begin{center}
+\resp{1} \resp{1} \resp{1} \resp{0} \resp{1} \resp{0} \resp{0} \resp{1} \resp{1} \resp{0}
+\end{center}
+Maka \termsub{proporsi sampel}{sample proportion}, $\hat{p}$, adalah
+rata-rata sampel pengamatan-pengamatan tersebut:
+\begin{align*}
+\hat{p} = \frac{\text{\# sukses}}{\text{\# percobaan}}
+    = \frac{1+1+1+0+1+0+0+1+1+0}{10} = 0.6
+\end{align*}%
+Kajian matematis terhadap variabel acak Bernoulli ini masih dapat
+diperluas.
+%\Comment{Maybe the next footnote should instead be an EOCE?}
+Karena \resp{0} dan \resp{1} merupakan hasil numerik, kita dapat
+mendefinisikan {rata-rata} dan {simpangan baku} variabel acak Bernoulli.
+(Lihat Latihan~\ref{bernoulli_mean_derivation}
+dan~\ref{bernoulli_sd_derivation}.)
+
+\begin{onebox}{Variabel acak Bernoulli}
+%  A Bernoulli random variable has exactly two possible
+%  outcomes, often labeled \resp{1} for the ``success''
+%  outcome and \resp{0} for the ``failure'' outcome.\vspace{3mm}
+  Jika $X$ adalah variabel acak yang bernilai 1 dengan
+  peluang sukses $p$ dan bernilai 0 dengan peluang $1-p$,
+  maka $X$ adalah variabel acak Bernoulli dengan rata-rata
+  dan simpangan baku
+  \begin{align*}
+  \mu &= p
+      &\sigma&= \sqrt{p(1-p)}
+  \end{align*}
+\end{onebox}
+
+Secara umum, variabel acak Bernoulli berguna jika dipandang sebagai proses
+acak yang hanya memiliki dua hasil: sukses atau gagal. Selanjutnya, kita
+membangun kerangka matematis menggunakan label numerik \resp{1} dan
+\resp{0}, masing-masing untuk sukses dan gagal.
+
+\index{distribution!Bernoulli|)}
+
+
+\D{\newpage}
+
+\subsection{Distribusi geometrik}
+
+\index{distribution!geometric|(}
+
+\termsub{Distribusi geometrik}{distribution!geometric} digunakan untuk
+menggambarkan berapa banyak percobaan yang diperlukan sampai suatu sukses
+diamati. Mari kita awali dengan sebuah contoh.
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 fb869ea6-5b73-59f3-8049-f102985c9dee,993641eb-cf5b-50e6-9840-92d99ada6efe,5,subsection_prose,en,ch_probability/TeX/ch_probability.tex,924,946,f6cfcb9e5ae391ab92f8975c7861584ad81794e66dd5cd5e15e9e80a43531235,id-ID,repo/ch_probability/TeX/ch_probability.tex,924,944,6ca7eae36c5ae42674de5ce9e01a7b7cf0b8a07523923f2276ea2856b9fd689a,language_reviewed,"\footnotetext{Keempat kombinasi hasil tersebut saling lepas,
    semua peluangnya memang tak negatif, dan jumlah
    peluangnya adalah $0.1081 + 0.0121 + 0.0615 + 0.8183 = 1.00$.}
@@ -10702,6 +11093,28 @@ Misalkan $X$ dan $Y$ menyatakan hasil pelemparan dua dadu.\footnotemark
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+fe4f55a4-dc73-55cc-bf88-346584b28d57,9608a696-6681-5299-bb35-eb0263f75a97,14,exercise,en,ch_distributions/TeX/geometric_distribution.tex,46,67,0b732049d86f9efe9287d0459d70df0f3b0fb1ce4e8ae93a741fdff0eeff8dbc,id-ID,qa/b015-build/source-snapshot-b015/ch_distributions/TeX/geometric_distribution.tex,49,70,d2f6b301db865ed8d3b5798813ec31dd5212a6fb661214e61fb1bd13c7a31fb1,visually_checked,"% 14
+
+\eoce{\qt{Tingkat cacat\label{defective_rate}} Sebuah mesin yang memproduksi
+transistor jenis khusus (salah satu komponen komputer) memiliki tingkat
+cacat 2\%. Produksi dianggap sebagai proses acak dan setiap transistor
+saling independen.
+\begin{parts}
+\item Berapa peluang bahwa transistor ke-$10$ yang diproduksi adalah
+transistor cacat pertama?
+\item Berapa peluang bahwa mesin tersebut tidak menghasilkan transistor
+cacat dalam satu kelompok produksi yang terdiri atas 100 transistor?
+\item Secara rata-rata, berapa banyak transistor yang diperkirakan akan
+diproduksi hingga muncul transistor cacat pertama? Berapa simpangan bakunya?
+\item Mesin lain yang juga memproduksi transistor memiliki tingkat cacat
+5\%, dan setiap transistor diproduksi secara independen dari yang lain.
+Secara rata-rata, berapa banyak transistor yang diperkirakan akan diproduksi
+mesin ini hingga muncul transistor cacat pertama? Berapa simpangan bakunya?
+\item Berdasarkan jawaban Anda pada bagian (c) dan (d), bagaimana peningkatan
+peluang suatu peristiwa memengaruhi rata-rata dan simpangan baku waktu
+tunggu hingga sukses?
+\end{parts}
+}{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 fe7c5541-b477-52ac-abcb-9150525e8925,3c13e4ec-802d-5481-9f06-1accf29c1e35,34,guided_inline_answer,en,ch_probability/TeX/ch_probability.tex,2176,2184,9658a555ad53b10b2596912d1b20c06c74943e698fe9576755159510bcb5acbf,id-ID,repo/ch_probability/TeX/ch_probability.tex,2165,2173,5c4f0625f0b7b625403443b2179377adddef5e910280370606b1fd7d96cb6132,language_reviewed,"\footnotetext{Persamaan untuk Elena dapat ditulis sebagai
 \begin{align*}
 (1)\times X + (-1)\times Y

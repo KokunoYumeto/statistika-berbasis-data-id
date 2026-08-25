@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Jika Anda menggunakan edisi kerja parsial ini, sitasikan edisi turunan dan karya sumbernya."
+title: "Statistika Berbasis Data - Edisi Kerja Bahasa Indonesia (R011-B015: Bagian 4.2 Distribusi geometrik)"
+type: book
+authors:
+  - family-names: Diez
+    given-names: David M.
+  - family-names: Çetinkaya-Rundel
+    given-names: Mine
+  - family-names: Barr
+    given-names: Christopher D.
+version: "2026.08.25.2-R011-B015"
+date-released: 2026-08-25
+license: CC-BY-SA-3.0
+repository-code: "https://github.com/KokunoYumeto/statistika-berbasis-data-id"
+url: "https://doi.org/10.5281/zenodo.22059801"
+abstract: "Edisi kerja yang belum lengkap: Bagian 4.2 Distribusi geometrik, 2 subbagian, 3 contoh, 3 latihan terpandu dan jawaban inline, EoCE 11-16, jawaban publik 11/13/15, celah O001 12/14/16, satu entri lampiran data, satu gambar PDF/produsen R berlabel Bahasa Indonesia, sumber editable, dan backend modular Bahasa Indonesia."
+notes: "Karya turunan dari OpenIntro Statistics oleh David M. Diez, Mine Çetinkaya-Rundel, dan Christopher D. Barr. Kontributor: Codex, atas permintaan pengguna. Model: OpenAI Codex gpt-5.6-sol, Ultra."

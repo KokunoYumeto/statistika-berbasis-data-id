@@ -1,0 +1,27 @@
+source_term	preferred_id-ID	accepted_synonyms	evidence	use_in_B015
+geometric distribution	distribusi geometrik	distribusi geometri	The established Indonesian probability witness uses both “Distribusi Geometri” and “distribusi geometrik”; the adjectival form matches the admitted edition style for named distributions.	Use distribusi geometrik in headings and prose; retain the English index key.
+Bernoulli distribution	distribusi Bernoulli	-	The established probability witness has the heading “Distribusi Bernoulli”.	Use distribusi Bernoulli.
+Bernoulli random variable	variabel acak Bernoulli	variabel Bernoulli	The existing B012 control fixes random variable as variabel acak; the field witness uses variabel Bernoulli.	Use variabel acak Bernoulli for full precision.
+Bernoulli trial	percobaan Bernoulli	trial Bernoulli	The field witness uses percobaan for trial and also records trial Bernoulli.	Use percobaan Bernoulli.
+trial	percobaan	eksperimen	The established statistics and probability witnesses repeatedly use percobaan; eksperimen remains appropriate only where the source says experiment.	Use percobaan.
+success	sukses	berhasil; keberhasilan	The probability witness explicitly labels the two Bernoulli outcomes sukses and gagal.	Use sukses as the technical outcome label; inflect naturally in prose only when needed.
+failure	gagal	kegagalan	The probability witness explicitly labels the two Bernoulli outcomes sukses and gagal.	Use gagal as the technical outcome label.
+probability of success	peluang sukses	peluang keberhasilan	The admitted control fixes probability as peluang; the field witness uses peluang mendapatkan sukses.	Use peluang sukses.
+probability distribution	distribusi peluang	distribusi probabilitas	B012 controls the random-variable sense as distribusi peluang.	Use distribusi peluang when the generic phrase occurs.
+random variable	variabel acak	peubah acak; variabel random	B012 controlled terminology.	Use variabel acak.
+sample proportion	proporsi sampel	-	Current admitted terminology view.	Use proporsi sampel and preserve hat-p.
+expected value	nilai harapan	ekspektasi	B012 control and the established witness heading “Nilai Harapan”.	Use nilai harapan.
+mean	rata-rata	rerata; rataan	Admitted terminology and B014 control.	Use rata-rata; preserve mu.
+variance	varians	variansi	B012 control.	Use varians; preserve sigma squared.
+standard deviation	simpangan baku	deviasi standar	B012 and B014 controls.	Use simpangan baku; preserve sigma.
+independent	saling independen	saling bebas	Admitted probability control.	Use saling independen.
+independent and identically distributed (iid)	saling independen dan berdistribusi identik (iid)	independen dan terdistribusi identik	Built from the admitted independent control and natural Indonesian distribution syntax.	Use the preferred phrase; retain iid and the English index key.
+disjoint	saling lepas	-	Admitted probability control.	Use saling lepas.
+complement	komplemen	-	Admitted probability control.	Use komplemen.
+random process	proses acak	-	Admitted probability control.	Use proses acak.
+exponentially	secara eksponensial	-	Standard transparent mathematical formation and B015 field-evidence recommendation.	Use secara eksponensial; retain the English index key.
+with replacement	dengan pengembalian	-	Admitted probability control.	Use dengan pengembalian.
+without replacement	tanpa pengembalian	-	Admitted probability control.	Use tanpa pengembalian.
+right skewed	menceng kanan	menceng ke kanan	Admitted distribution-shape control.	Use menceng kanan.
+defective rate	tingkat cacat	tingkat produk cacat	Established field usage and B015 terminology reconnaissance.	Use tingkat cacat.
+deductible	risiko sendiri (deductible)	deduktibel	No admitted or field-witness control exists; risiko sendiri is the provisional Indonesian insurance term and the English source term prevents ambiguity.	Introduce risiko sendiri (\emph{deductible}) once, then use batas risiko sendiri.

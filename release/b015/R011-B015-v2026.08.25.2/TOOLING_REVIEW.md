@@ -1,0 +1,7 @@
+# R011-B015 release/admission tooling review
+
+Status: inert B015 release scaffold prepared; admission, packaging, and publication remain gated by exact backend/admission input binding and deterministic package verification.
+
+The accepted candidate side is bound to the deterministic 427-page reader (`ea623a2b9139e28c7f3ba2604e48460b8e545f3324b4ea8b8a540ee9beeb8531`), the zero-defect B015 visual receipt, the exact B015 source snapshot, and the deterministic localized `geometricDist70` PDF/R pair. The live B014 backend head remains the input authority, but no B015 backend, admission, promoted-reader, or public identity is guessed or prebound. Release binding fails closed unless the separate backend binding, boundary receipt, journal, post-admission receipt, checkpoint, cursor, live backend, promoted reader, and localized asset pair all match exact terminal evidence.
+
+The public route is limited to existing Zenodo concept `10.5281/zenodo.22059801`, one B015 attempt against fixed Figshare article `33314727`, and GitHub `KokunoYumeto/statistika-berbasis-data-id` tag `r011-b015-2026.08.25.2`. Figshare must persist either a verified publication receipt or one truthful terminal unavailability record and must never create a duplicate. GitHub uses the proven adaptive hierarchical exact-fresh-tree algorithm and no local Git command. Reader-first order, full source credits, **CC BY-SA 3.0**, component-rights overrides, model **OpenAI Codex gpt-5.6-sol, Ultra**, privacy exclusions, anonymous public-byte readback, and no upstream contact are mandatory.

@@ -1,0 +1,265 @@
+{
+  "$schema": "interlanguage.r011-b015-visual-qa/v1",
+  "boundary_id": "R011-B015",
+  "status": "PASS_ZERO_VISUAL_DEFECTS_IN_BOUNDARY_ASSET_AND_TRANSITION_WINDOWS",
+  "result": "passed",
+  "recorded_at": "2026-08-25T16:12:42+02:00",
+  "production_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "scope": "Primary and independent original-detail inspection of all 14 exact B015 reader renders plus the source/localized geometric-distribution figure pair.",
+  "build_receipt": {
+    "path": "qa/b015-build/final/CANDIDATE_BUILD_QA_B015.json",
+    "bytes": 18552,
+    "sha256": "037d367c2c431b898b81175feb248f5799e5011931ec508e062a2b58cee72809",
+    "status": "PASS_ISOLATED_TWO_REPLAY_DETERMINISTIC_BUILD_ZERO_VISUAL_DEFECTS"
+  },
+  "candidate_pdf": {
+    "path": "qa/b015-build/final/main.pdf",
+    "bytes": 22031786,
+    "sha256": "ea623a2b9139e28c7f3ba2604e48460b8e545f3324b4ea8b8a540ee9beeb8531",
+    "pages": 427
+  },
+  "localized_asset": {
+    "qa": {
+      "path": "qa/b015-assets/R011-B015_LOCALIZED_FIGURE_QA.json",
+      "bytes": 4732,
+      "sha256": "4e5dfe07d6109ce0e907de07ca35e232c8be48bd99d7e446770dceba8f640c3a"
+    },
+    "pdf": {
+      "path": "qa/b015-assets/final/geometricDist70.pdf",
+      "bytes": 4577,
+      "sha256": "4244a3583b361c8739ef85c1add97d9eeab932b58a7fffa56c20945bdf4a72ea"
+    },
+    "r_source": {
+      "path": "qa/b015-assets/geometricDist70_id-ID.R",
+      "bytes": 659,
+      "sha256": "d0ea6cc5d3ce138e6bae602f49a72119b04dfbc8fc0b0037a8fc94663afb7244"
+    },
+    "comparison_renders": [
+      {
+        "path": "qa/b015-assets/review-render/geometricDist70-source-en.png",
+        "bytes": 28533,
+        "sha256": "c1d1456b6216d0e18e3b0b536df5aaf725b22580f1740d872082fb5baf9af893"
+      },
+      {
+        "path": "qa/b015-assets/review-render/geometricDist70-id-ID.png",
+        "bytes": 28958,
+        "sha256": "42eb5a4bbe4b8b1eca325947bc964228e96578ddb7135dffca6e92a8a364f288"
+      }
+    ]
+  },
+  "render_configuration": {
+    "format": "PNG",
+    "resolution_dpi": 180,
+    "inspection_detail": "original",
+    "directory": "qa/b015-build/review-render"
+  },
+  "inspected_pages": [
+    {
+      "bytes": 353571,
+      "page": 147,
+      "path": "qa/b015-build/review-render/page-0147-147.png",
+      "sha256": "27c198c2c82a207a78b709a30af4d31762eab941ef7f46dde98f79b769574403",
+      "role": "inherited Section 4.1 EoCE boundary immediately before B015",
+      "primary_verdict": "PASS",
+      "independent_verdict": "PASS",
+      "finding": "The prior Section 4.1 exercise boundary remains sharp, aligned, and free of clipping or overlap."
+    },
+    {
+      "bytes": 403215,
+      "page": 148,
+      "path": "qa/b015-build/review-render/page-0148-148.png",
+      "sha256": "16de827aab7b2922f1210e9b481e43304fd258ea25549ec75b162c4898730c00",
+      "role": "Section 4.2 opening and Bernoulli-distribution subsection",
+      "primary_verdict": "PASS",
+      "independent_verdict": "PASS",
+      "finding": "Section 4.2 and subsection 4.2.1 headings, Indonesian prose, equations, and the Bernoulli box are aligned and fully legible."
+    },
+    {
+      "bytes": 349607,
+      "page": 149,
+      "path": "qa/b015-build/review-render/page-0149-149.png",
+      "sha256": "d0101ff8e18cb995ff0d3706e431a182fb22829ad13c3ba8aba2aae469b7a775",
+      "role": "geometric-distribution subsection, Example 4.22, and localized figure",
+      "primary_verdict": "PASS",
+      "independent_verdict": "PASS",
+      "finding": "Subsection 4.2.2, Example 4.22, formulas, localized geometric-distribution figure, caption, and surrounding prose fit cleanly with no collision."
+    },
+    {
+      "bytes": 319807,
+      "page": 150,
+      "path": "qa/b015-build/review-render/page-0150-150.png",
+      "sha256": "d9bad050c81f56dafe20544225469ee998e03a8f1114b1b4228363e3ac7293e5",
+      "role": "geometric formula, worked examples, guided exercises, and footnotes",
+      "primary_verdict": "PASS",
+      "independent_verdict": "PASS",
+      "finding": "The geometric formula box, examples, guided exercises, equations, answer callouts, and footnotes are intact and readable."
+    },
+    {
+      "bytes": 206018,
+      "page": 151,
+      "path": "qa/b015-build/review-render/page-0151-151.png",
+      "sha256": "9e2afb6dfb8c2286fa93b99d8f30c69252acfd47d28ef427166fa5d6db630931",
+      "role": "Section 4.2 instructional ending with Example 4.26 and Guided Exercise 4.27",
+      "primary_verdict": "PASS",
+      "independent_verdict": "PASS",
+      "finding": "Example 4.26 and Guided Exercise 4.27 render correctly; the lower whitespace is the ordinary end-of-section boundary before the exercises."
+    },
+    {
+      "bytes": 416394,
+      "page": 152,
+      "path": "qa/b015-build/review-render/page-0152-152.png",
+      "sha256": "38955cf8c7527403d1e5f1e59c15310802668ea478aa5dda7696b1dd4fba0f22",
+      "role": "Section 4.2 EoCE exercises 11-16",
+      "primary_verdict": "PASS",
+      "independent_verdict": "PASS",
+      "finding": "Exercises 4.11-4.16 are complete, well filled, and readable; the localized ordinal 'ke-10' is intact."
+    },
+    {
+      "bytes": 349865,
+      "page": 153,
+      "path": "qa/b015-build/review-render/page-0153-153.png",
+      "sha256": "75e7ff81ce3c00a907fb49b3c975b87eaef6adc3e8bda5f3dffef4f098fa4eba",
+      "role": "transition into untranslated Section 4.3 beyond B015 coverage",
+      "primary_verdict": "PASS",
+      "independent_verdict": "PASS",
+      "finding": "The transition into the declared untranslated Section 4.3 is clean; English here is outside B015 coverage."
+    },
+    {
+      "bytes": 261467,
+      "page": 154,
+      "path": "qa/b015-build/review-render/page-0154-154.png",
+      "sha256": "67bfeb4a262669bd128aaa884e09d55ce84d37b395cff08792b200813578ce66",
+      "role": "untranslated Section 4.3 continuation beyond B015 coverage",
+      "primary_verdict": "PASS",
+      "independent_verdict": "PASS",
+      "finding": "The inherited Section 4.3 continuation is wholly visible and undamaged; it is inspected only as a transition witness."
+    },
+    {
+      "bytes": 609952,
+      "page": 392,
+      "path": "qa/b015-build/review-render/page-0392-392.png",
+      "sha256": "fdebdfd4704e44f69a0e3006333f8f0fd5255acedbaf325e59b39c17af616198",
+      "role": "public-answer appendix boundary immediately before B015 answers",
+      "primary_verdict": "PASS",
+      "independent_verdict": "PASS",
+      "finding": "The preceding two-column answer page is dense but readable; figures, prose, headers, and columns do not collide."
+    },
+    {
+      "bytes": 556875,
+      "page": 393,
+      "path": "qa/b015-build/review-render/page-0393-393.png",
+      "sha256": "ddf6b127cb71c8f57261a1f8fe249466a69ee5b7be8b7fb6f191a6f6edcc27a3",
+      "role": "B015 public answers 11, 13, and 15 with transition to answer 17",
+      "primary_verdict": "PASS",
+      "independent_verdict": "PASS",
+      "finding": "Public answers 4.11, 4.13, and 4.15 are legible, naturally phrased, correctly aligned, and contained in their column; English resumes at 4.17 as expected."
+    },
+    {
+      "bytes": 196023,
+      "page": 394,
+      "path": "qa/b015-build/review-render/page-0394-394.png",
+      "sha256": "78539db334f36d483b6f677682f498c2d9cbe8b911064e8249786ebf9b89965a",
+      "role": "untranslated later answers beyond B015 coverage",
+      "primary_verdict": "PASS",
+      "independent_verdict": "PASS",
+      "finding": "The untranslated answer continuation is intact; the large lower whitespace is the normal Chapter 4 answer boundary."
+    },
+    {
+      "bytes": 383085,
+      "page": 408,
+      "path": "qa/b015-build/review-render/page-0408-408.png",
+      "sha256": "5d4c264ace8c24b96b77ec12161be8c6c46bdd92f0300f0ff2f21b707a5cb40f",
+      "role": "data-appendix opening immediately before the B015 data entry",
+      "primary_verdict": "PASS",
+      "independent_verdict": "PASS",
+      "finding": "The data-appendix opening is visually intact; surrounding untranslated entries are outside B015 coverage."
+    },
+    {
+      "bytes": 483242,
+      "page": 409,
+      "path": "qa/b015-build/review-render/page-0409-409.png",
+      "sha256": "3daf8bf85d1daafc5b022bb2e59120ba2b2b2b827e2d23e6d32b3df99deaf03d",
+      "role": "B015 Section 4.2 data entry and transition into Section 4.3 data entries",
+      "primary_verdict": "PASS",
+      "independent_verdict": "PASS",
+      "finding": "The localized Section 4.2 data entry is readable and visually intact; adjacent Section 4.3 English is the expected boundary."
+    },
+    {
+      "bytes": 476251,
+      "page": 410,
+      "path": "qa/b015-build/review-render/page-0410-410.png",
+      "sha256": "8aa55b72f1788a32665ed365ef633e86e3287be43aaa669fa01c8a0c27907678",
+      "role": "post-boundary data-appendix continuation beyond B015 coverage",
+      "primary_verdict": "PASS",
+      "independent_verdict": "PASS",
+      "finding": "The post-boundary data continuation is legible and shows no layout regression."
+    }
+  ],
+  "inspection": {
+    "pages_requested": 14,
+    "pages_inspected_by_primary_auditor": 14,
+    "pages_inspected_by_independent_auditor": 14,
+    "all_listed_render_identities_exact": true,
+    "centering_and_page_fill": "PASS",
+    "clipping": "NONE",
+    "overlap": "NONE",
+    "typography_and_glyph_legibility": "PASS",
+    "localized_figure_labels_caption_and_geometry": "PASS",
+    "equations_boxes_footnotes_and_ordinals": "PASS",
+    "section_eoce_answer_and_data_placement": "PASS",
+    "transition_pages": "PASS",
+    "intentional_section_end_whitespace_page_151": "PASS_NOT_A_DEFECT",
+    "intentional_answer_boundary_whitespace_page_394": "PASS_NOT_A_DEFECT",
+    "blank_or_effectively_blank_unintended_pages": 0,
+    "remaining_findings_by_severity": {
+      "blocking": 0,
+      "major": 0,
+      "minor": 0
+    }
+  },
+  "independent_secondary_audit": {
+    "status": "PASS",
+    "mode": "read_only_independent_original_detail_visual_review",
+    "pages_inspected": [
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      392,
+      393,
+      394,
+      408,
+      409,
+      410
+    ],
+    "figure_pair_inspected": true,
+    "targeted_confirmations": [
+      "Page 149 shows the Indonesian labels 'Peluang' and 'Jumlah Percobaan hingga Sukses untuk p = 0.7' centered, uncut, and clear of axes and ticks.",
+      "Page 152 contains complete EoCE 4.11-4.16 and the localized ordinal 'ke-10'.",
+      "Page 393 contains localized public answers 4.11, 4.13, and 4.15; English resumes at 4.17 outside B015 coverage.",
+      "Page 409 contains the localized Section 4.2 data entry and transitions cleanly to untranslated Section 4.3 entries."
+    ],
+    "defects": []
+  },
+  "issues": [],
+  "boundary_notes": [
+    "B015 coverage is complete Section 4.2, EoCE 4.11-4.16, public answers 4.11/4.13/4.15, O001 companion gaps 4.12/4.14/4.16, and the directly referenced Section 4.2 data entry.",
+    "English on pages 153-154, from public answer 4.17 onward, and in adjacent Section 4.3 data entries is beyond B015 coverage and is not counted as source-language residue within the translated boundary.",
+    "Page 151 and page 394 contain structurally motivated end-of-section/end-of-answer whitespace; neither strands a translated fragment or indicates failed reflow.",
+    "The localized figure changes only its two reader-visible English strings; vector drawing count, numeric multiset, axes, bars, proportions, and MediaBox remain unchanged.",
+    "No restricted instructor solutions were accessed or invented."
+  ],
+  "canonical_source_mutated": false,
+  "backend_mutated": false,
+  "controls_mutated": false,
+  "release_mutated": false,
+  "git_used": false,
+  "network_used": false,
+  "publication_performed": false,
+  "admission_authorized": true,
+  "next_gate": "Bind this visual receipt into two deterministic B015 backend append stages and the guarded B015 admission transaction."
+}

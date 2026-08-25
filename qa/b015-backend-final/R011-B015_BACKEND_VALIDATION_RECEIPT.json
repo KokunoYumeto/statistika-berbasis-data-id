@@ -1,0 +1,158 @@
+{
+  "$schema": "interlanguage.r011-b015-backend-validation-receipt/v1",
+  "boundary_id": "R011-B015",
+  "status": "PASS_B015_FINAL_ISOLATED_BACKEND_VALIDATED_TWICE",
+  "recorded_at": "2026-08-25T16:28:42+02:00",
+  "production_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "base": {
+    "boundary_id": "R011-B014",
+    "record_count": 5213,
+    "manifest": {
+      "path": "backend/exports/manifest.json",
+      "bytes": 68471,
+      "sha256": "3167da0d4f06973d81f2f58c7885cfb7ceb70604631f1e95b7ddc48afa4d845b"
+    },
+    "inventory": {
+      "identity_kind": "directory-inventory-tsv-sha256/v1",
+      "files": 339,
+      "bytes": 151666115,
+      "sha256": "cf9d03c0f0f08c5374ae8b24592b48e43689ebb926596e8552d9f80f7ac92d9d"
+    },
+    "records_preserved_canonical_bytes": 5213
+  },
+  "terminal_contract": {
+    "path": "qa/b015-backend-prep/R011-B015_TERMINAL_INPUTS.json",
+    "bytes": 4434,
+    "sha256": "63d08fe7bbc6184bc5f64b64ca0edda9af36db72dc09e202f949f03914da4f26",
+    "status": "READY_TERMINAL_INPUTS"
+  },
+  "tools": {
+    "generator": {
+      "path": "scripts/generate_backend_b015.py",
+      "bytes": 92291,
+      "sha256": "f6dc046c70966fb9b3d08d602fe3c3815beab13baf266dadb8c940b26e33795f"
+    },
+    "validator": {
+      "path": "scripts/validate_backend_b015.py",
+      "bytes": 1563,
+      "sha256": "531d2d713c616996249e0985a595c8c074158eb07ad7a1a11e30c9297bde15e3"
+    }
+  },
+  "runs": [
+    {
+      "path": "qa/b015-backend-final/run-a",
+      "generation_status": "PASS_B015_FINAL_ISOLATED_BACKEND",
+      "validation_status": "PASS_B015_FINAL_VALIDATED_ON_DISK",
+      "validator_status": "PASS_B015_INDEPENDENT_STAGE_VALIDATOR",
+      "inventory": {
+        "identity_kind": "directory-inventory-tsv-sha256/v1",
+        "files": 376,
+        "bytes": 175267831,
+        "sha256": "76f7fa8bdc3ceca284f5c3809c3427a3516c6cce77ede9604bfb21336fafd298"
+      },
+      "manifest": {
+        "path": "qa/b015-backend-final/run-a/manifest.json",
+        "bytes": 72072,
+        "sha256": "9ae96e1d7df724d57c8515474629b4ac8e382c8d0129bcb11591c419d988d88f"
+      }
+    },
+    {
+      "path": "qa/b015-backend-final/run-b",
+      "generation_status": "PASS_B015_FINAL_ISOLATED_BACKEND",
+      "validation_status": "PASS_B015_FINAL_VALIDATED_ON_DISK",
+      "validator_status": "PASS_B015_INDEPENDENT_STAGE_VALIDATOR",
+      "inventory": {
+        "identity_kind": "directory-inventory-tsv-sha256/v1",
+        "files": 376,
+        "bytes": 175267831,
+        "sha256": "76f7fa8bdc3ceca284f5c3809c3427a3516c6cce77ede9604bfb21336fafd298"
+      },
+      "manifest": {
+        "path": "qa/b015-backend-final/run-b/manifest.json",
+        "bytes": 72072,
+        "sha256": "9ae96e1d7df724d57c8515474629b4ac8e382c8d0129bcb11591c419d988d88f"
+      }
+    }
+  ],
+  "determinism": {
+    "comparison_status": "PASS_B015_INDEPENDENT_STAGES_BYTE_IDENTICAL",
+    "independent_run_inventories_exact": true,
+    "independent_run_files_byte_identical": true,
+    "files_compared": 376,
+    "manifest_bytes_exact": true,
+    "on_disk_validator_passes": 2,
+    "jsonl_csv_views_replayed": true,
+    "schema_validated_new_records": 377,
+    "required_view_count": 10
+  },
+  "records": {
+    "base_record_count": 5213,
+    "new_record_count": 377,
+    "final_record_count": 5590,
+    "new_record_counts": {
+      "artifacts": 37,
+      "assets": 4,
+      "concepts": 13,
+      "corrections": 5,
+      "courses": 0,
+      "editions": 0,
+      "localizations": 23,
+      "programs": 0,
+      "qa_events": 13,
+      "relations": 207,
+      "resources": 0,
+      "rights": 1,
+      "segments": 23,
+      "terms": 26,
+      "units": 25
+    },
+    "final_record_counts": {
+      "artifacts": 358,
+      "assets": 349,
+      "concepts": 203,
+      "corrections": 125,
+      "courses": 1,
+      "editions": 1,
+      "localizations": 489,
+      "programs": 1,
+      "qa_events": 177,
+      "relations": 2653,
+      "resources": 1,
+      "rights": 41,
+      "segments": 489,
+      "terms": 216,
+      "units": 486
+    }
+  },
+  "semantic_closure": {
+    "units": 25,
+    "segments": 23,
+    "localizations": 23,
+    "assets": 4,
+    "concepts": 13,
+    "terms": 26,
+    "source_corrections": 5,
+    "section": "geomDist",
+    "subsections": 2,
+    "worked_examples": 3,
+    "guided_exercises": 3,
+    "guided_inline_answers": 3,
+    "eoce_exercises": [11, 12, 13, 14, 15, 16],
+    "public_answers": [11, 13, 15],
+    "o001_companion_gap_units": [12, 14, 16],
+    "data_appendix_entries": 1,
+    "localized_asset_pairs": 1,
+    "restricted_solutions_accessed_or_invented": false,
+    "next_source_anchor": "binomialModel",
+    "next_source_line": 1268
+  },
+  "selected_admission_stage": "qa/b015-backend-final/run-a",
+  "live_backend_mutated": false,
+  "canonical_source_mutated": false,
+  "controls_mutated": false,
+  "release_mutated": false,
+  "git_used": false,
+  "network_used": false,
+  "publication_performed": false,
+  "upstream_contact": false
+}
