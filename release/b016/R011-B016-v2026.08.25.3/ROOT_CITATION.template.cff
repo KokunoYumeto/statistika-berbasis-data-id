@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Jika Anda menggunakan edisi kerja parsial ini, sitasikan edisi turunan dan karya sumbernya."
+title: "Statistika Berbasis Data - Edisi Kerja Bahasa Indonesia (R011-B016: Bagian 4.3 Distribusi binomial)"
+type: book
+authors:
+  - family-names: Diez
+    given-names: David M.
+  - family-names: Çetinkaya-Rundel
+    given-names: Mine
+  - family-names: Barr
+    given-names: Christopher D.
+version: "2026.08.25.3-R011-B016"
+date-released: 2026-08-25
+license: CC-BY-SA-3.0
+repository-code: "https://github.com/KokunoYumeto/statistika-berbasis-data-id"
+url: "https://doi.org/10.5281/zenodo.22059801"
+abstract: "Rilis parsial Bagian 4.3 Distribusi binomial: 3 subbagian, 4 contoh, 10 latihan terpandu dan 10 jawaban inline, EoCE 17-26, jawaban publik 17/19/21/23/25, celah O001 18/20/22/24/26, tiga entri lampiran data, dua pasangan gambar PDF/produsen R netral-lokal, foto dreidel CC BY 2.0, sumber editable, dan backend modular."
+notes: "Karya turunan dari OpenIntro Statistics oleh David M. Diez, Mine Çetinkaya-Rundel, dan Christopher D. Barr. Kontributor edisi Bahasa Indonesia: Codex, atas permintaan pengguna. Model: OpenAI Codex gpt-5.6-sol, Ultra. Teks dan terjemahan: CC BY-SA 3.0 Unported; hak komponen dipertahankan."

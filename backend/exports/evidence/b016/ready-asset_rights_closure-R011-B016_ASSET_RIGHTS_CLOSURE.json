@@ -1,0 +1,174 @@
+{
+  "$schema": "interlanguage.r011-b016-asset-rights-closure/v1",
+  "asset_manifest": {
+    "bytes": 6109,
+    "path": "qa/b016-assets/R011-B016_ASSET_MANIFEST.csv",
+    "sha256": "0055e1db8efaf6178097e09dde69040acb0f65514b7a3ce6f2aeaa505a86a811"
+  },
+  "authority": {
+    "commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "tree": "d61cc601e7d97759ce805900520f784d02a0489e"
+  },
+  "boundary_id": "R011-B016",
+  "closure_counts": {
+    "adjacent_r_producers": 2,
+    "authority_live_pairs_verified": 5,
+    "direct_reader_assets": 3,
+    "external_dataset_reads_by_r_producers": 0,
+    "external_package_archives": 1
+  },
+  "direct_pdf_inspection": {
+    "fourBinomialModelsShowingApproxToNormal": {
+      "bytes": 5957,
+      "encrypted": false,
+      "extracted_text_normalized": "n = 10 0 2 4 6 n = 30 0 2 4 6 8 10 n = 100 0 5 10 15 20 n = 300 10 20 30 40 50",
+      "localization_decision": "Reuse byte-exact. No English lexical content appears in the PDF; translate the TeX alt text and caption only.",
+      "media_box_points": [
+        0.0,
+        0.0,
+        396.0,
+        295.0
+      ],
+      "pages": 1,
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_distributions/figures/fourBinomialModelsShowingApproxToNormal/fourBinomialModelsShowingApproxToNormal.pdf",
+      "sha256": "a8224e53f7961fd869932d050902cbb081e03b74746f4f839af6b466912a9736",
+      "visual_review": "PASS: four distinct hollow histograms are complete, sharp, centered, and unclipped; all visible labels are numeric or n = value."
+    },
+    "normApproxToBinomFail": {
+      "bytes": 29317,
+      "encrypted": false,
+      "extracted_text_normalized": "40 50 60 70 80",
+      "localization_decision": "Reuse byte-exact. No English lexical content appears in the PDF; translate the TeX alt text and caption only.",
+      "media_box_points": [
+        0.0,
+        0.0,
+        540.0,
+        187.0
+      ],
+      "pages": 1,
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_distributions/figures/normApproxToBinomFail/normApproxToBinomFail.pdf",
+      "sha256": "a9eb12774094b1e7e30a16ac69539b56af6d8a0bc803104637babf44b275af03",
+      "visual_review": "PASS: normal curve, shaded interval, red outline, axes, and tick labels are complete, sharp, centered, and unclipped."
+    }
+  },
+  "dreidel_photo": {
+    "bytes": 377280,
+    "creator": "Staccabees",
+    "disposition": "Include unchanged and retain visible creator, source, crop notice, and CC BY 2.0 license link; do not relabel the photo as CC BY-SA.",
+    "format": "JPEG",
+    "height_pixels": 789,
+    "license": "CC BY 2.0",
+    "license_redirect_id": "textbook-CC_BY_2",
+    "mode": "RGB",
+    "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_distributions/figures/eoce/dreidel/dreidel.jpg",
+    "sha256": "4f86ab4609fa8e8e484095449da09fb344c88578de1ebc61b3e19e7eb3e30099",
+    "source_display": "http://flic.kr/p/7gLZTf",
+    "source_redirect_id": "textbook-flickr_staccabees_dreidels",
+    "transformation_disclosed_by_source": "cropped",
+    "visual_review": "PASS: two wooden dreidels are sharp and fully framed; no English prose is embedded in the image.",
+    "width_pixels": 1203
+  },
+  "exclusions": [
+    "No restricted instructor solutions were sought, read, or copied.",
+    "No external website, article, or report bytes are bundled.",
+    "No OpenIntro logo or other derivative-branding asset is in this boundary.",
+    "No localized replacement is required for either direct PDF because both are locale-neutral."
+  ],
+  "network_used": false,
+  "openintro_package_dependency": {
+    "archive": {
+      "bytes": 21248412,
+      "path": "authority/external/r-packages/openintro-48793d9645e0da033daaca1c1a19a051533d79d2/openintro-48793d9645e0da033daaca1c1a19a051533d79d2.tar.gz",
+      "sha256": "e8b9526364e70ca59d945fc83eadfd1d25eb784e3190429637f96bfe72b6dc99"
+    },
+    "authority_manifest": {
+      "bytes": 2572,
+      "path": "authority/external/r-packages/openintro-48793d9645e0da033daaca1c1a19a051533d79d2/AUTHORITY_MANIFEST.json",
+      "sha256": "c4b980f73c19e51c09b3843330a3fc4121dcfa0e74c91cf068ff4827f40da9f1"
+    },
+    "commit": "48793d9645e0da033daaca1c1a19a051533d79d2",
+    "internal_members": {
+      "COL": {
+        "bytes": 440,
+        "member": "openintro-48793d9645e0da033daaca1c1a19a051533d79d2/data/COL.rda",
+        "sha256": "51d60038e025a577959b6e89eec03ee92d04ea58038d2084bf19814df80f3be3"
+      },
+      "myPDF": {
+        "bytes": 1776,
+        "member": "openintro-48793d9645e0da033daaca1c1a19a051533d79d2/R/myPDF.R",
+        "sha256": "b9e1b1561e2a0f3d6ddc86b033b31d14200d9974dee49ee1db20ee56cb319700"
+      }
+    },
+    "license": "GPL-3",
+    "redistribution_in_b016_reader": false
+  },
+  "production_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "r_generator_semantics": {
+    "fourBinomialModelsShowingApproxToNormal": {
+      "base_r_functions": [
+        "dbinom",
+        "plot",
+        "axis",
+        "abline"
+      ],
+      "external_or_local_dataset_reads": 0,
+      "numeric_inputs": {
+        "k": "-50:500",
+        "n": [
+          10,
+          30,
+          100,
+          300
+        ],
+        "p": 0.1
+      },
+      "openintro_roles": [
+        "COL palette",
+        "myPDF helper"
+      ],
+      "output_geometry_inches": {
+        "height": 4.1,
+        "width": 5.5
+      }
+    },
+    "normApproxToBinomFail": {
+      "base_r_functions": [
+        "dnorm",
+        "dbinom",
+        "plot",
+        "polygon",
+        "axis",
+        "abline"
+      ],
+      "derived_values": {
+        "mean": 60,
+        "sd_formula": "sqrt(n*p*(1-p))"
+      },
+      "external_or_local_dataset_reads": 0,
+      "numeric_inputs": {
+        "k": "0:400",
+        "n": 400,
+        "p": 0.15,
+        "x1": 49,
+        "x2": 51
+      },
+      "openintro_roles": [
+        "COL palette",
+        "myPDF helper"
+      ],
+      "output_geometry_inches": {
+        "height": 2.6,
+        "width": 7.5
+      }
+    }
+  },
+  "rights_decisions": {
+    "book_text_and_repository_generated_figures": "CC BY-SA 3.0 Unported",
+    "branding": "Do not use OpenIntro name, logo, or marks as derivative branding; retain nominative source attribution only.",
+    "dreidel_photo": "separately governed CC BY 2.0 component",
+    "external_fact_sources": "SAMHSA, Boston Children's Hospital, Gallup, and CDC are citation-only sources. Preserve citations/redirect IDs; no external source bytes are bundled.",
+    "indonesian_derivative": "CC BY-SA 3.0 Unported with attribution and change notice",
+    "openintro_r_package": "separately governed GPL-3 build dependency; not reader payload"
+  },
+  "status": "PASS_EXACT_ASSET_IDENTITY_RIGHTS_AND_REUSE_DECISIONS_CLOSED"
+}

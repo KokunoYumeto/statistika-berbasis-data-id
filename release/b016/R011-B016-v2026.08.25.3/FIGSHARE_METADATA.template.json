@@ -1,0 +1,24 @@
+{
+  "$schema": "r011-b016-figshare-metadata-template/v1",
+  "article_id": 33314727,
+  "boundary_id": "R011-B016",
+  "collection_id": 8668413,
+  "description": "Edisi kerja parsial/belum lengkap. Bagian 4.3 Distribusi binomial lengkap dalam urutan sumber: 3 subbagian, 4 contoh, 10 latihan terpandu beserta 10 jawaban publik inline, EoCE 17-26, jawaban publik 17/19/21/23/25, celah O001 18/20/22/24/26, tiga entri lampiran data, dua pasangan gambar PDF/produsen R yang netral-lokal, serta foto dreidel oleh Staccabees yang tetap CC BY 2.0 dengan atribusi tampak. Karya turunan dari OpenIntro Statistics oleh David M. Diez, Mine Çetinkaya-Rundel, dan Christopher D. Barr. Teks/terjemahan: CC BY-SA 3.0 Unported; foto dreidel tetap CC BY 2.0. Model: OpenAI Codex gpt-5.6-sol, Ultra.",
+  "expected_article_doi": "10.6084/m9.figshare.33314727.v5",
+  "expected_article_version": 5,
+  "hosted_route_license": "CC BY-SA 3.0",
+  "keywords": [
+    "statistika",
+    "distribusi binomial",
+    "Bahasa Indonesia",
+    "open textbook",
+    "R011",
+    "partial release"
+  ],
+  "link_only_route_license": "CC0 metadata pointers; linked Zenodo bytes retain their own rights",
+  "project_id": 280296,
+  "release_id": "R011-B016-v2026.08.25.3",
+  "title": "Statistika Berbasis Data - Edisi Kerja Bahasa Indonesia (R011-B016: Bagian 4.3 Distribusi binomial)",
+  "unavailable_route": "make one atomic B016 attempt, write a truthful non-mutating route-status receipt, and never create a duplicate article",
+  "zenodo_concept_doi": "10.5281/zenodo.22059801"
+}
