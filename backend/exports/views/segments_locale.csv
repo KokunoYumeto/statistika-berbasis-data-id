@@ -35,6 +35,58 @@ atas, dan tanpa pencahayaan dari atas (hanya menggunakan lampu meja).
 
 % 30
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+014b634e-66d6-58a3-876e-6f5f839b0d92,ca0df825-ca52-52be-a3e6-0c3090edaa4c,10,section_prose,en,ch_distributions/TeX/ch_distributions.tex,1992,2042,617a27133069f670e83dbb59dd5d8a20cdaf7ef39913786fd4b7205a938f8aca,id-ID,scratch/b017-build-candidate/source-snapshot-b017/ch_distributions/TeX/ch_distributions.tex,1924,1974,7a64402c401987c69c9a7375692cf7c11e87c3d8a179c3d827c49a99253370f1,visually_checked,"
+
+\D{\newpage}
+
+Jika peluang Brian berhasil mencetak field goal dari jarak 35 yard adalah $p=0.8$, berapa peluang bahwa Brian memerlukan tepat enam percobaan untuk mencetak field goal keempatnya? Kita dapat menuliskannya sebagai
+{\small\begin{align*}
+&P(\text{Brian memerlukan enam percobaan untuk mencetak empat field goal}) \\
+& \quad = P(\text{Brian mencetak field goal pada tiga dari lima percobaan pertamanya dan pada percobaan keenam}) \\
+& \quad = P(\text{urutan ke-$1$ ATAU urutan ke-$2$ ATAU ... ATAU urutan ke-$10$})
+\end{align*}
+}dengan urutan-urutan yang berasal dari Gambar~\ref{successFailureOrdersForBriansFieldGoals}. Peluang terakhir ini dapat kita uraikan menjadi jumlah sepuluh kemungkinan yang saling lepas:
+{\small\begin{align*}
+&P(\text{urutan ke-$1$ ATAU urutan ke-$2$ ATAU ... ATAU urutan ke-$10$}) \\
+&\quad = P(\text{urutan ke-$1$}) + P(\text{urutan ke-$2$}) + \cdots + P(\text{urutan ke-$10$})
+\end{align*}
+}Peluang urutan pertama telah diperoleh dalam Latihan Terbimbing~\ref{probOfEachSeqOfSixTriesToGetFourSuccesses} sebagai 0.0164, dan setiap urutan lainnya memiliki peluang yang sama. Karena masing-masing dari sepuluh urutan tersebut memiliki peluang yang sama, peluang totalnya adalah sepuluh kali peluang satu urutan.
+
+Cara menghitung peluang binomial negatif ini serupa dengan cara menyelesaikan persoalan binomial pada Bagian~\ref{binomialModel}. Peluang tersebut diuraikan menjadi dua bagian:
+\begin{align*}
+&P(\text{Brian memerlukan enam percobaan untuk mencetak empat field goal}) \\
+&= [\text{Banyaknya urutan yang mungkin}] \times P(\text{Satu urutan})
+\end{align*}
+Kita menelaah setiap bagian secara terpisah, lalu mengalikannya untuk memperoleh hasil akhir.
+
+Mula-mula kita menentukan peluang satu urutan. Salah satu kasus khusus adalah mengamati semua hasil gagal terlebih dahulu (sebanyak $n-k$), kemudian diikuti oleh $k$ hasil sukses:
+\begin{align*}
+&P(\text{Satu urutan}) \\
+&= P(\text{$n-k$ hasil gagal, kemudian $k$ hasil sukses}) \\
+&= (1-p)^{n-k} p^{k}
+\end{align*}
+
+\D{\newpage}
+
+Kita juga harus menentukan banyaknya urutan untuk kasus umum. Di atas, kita memperoleh sepuluh urutan ketika sukses keempat terjadi pada percobaan keenam. Urutan-urutan ini diperoleh dengan menetapkan pengamatan terakhir sebagai sukses dan mencari semua cara menyusun pengamatan lainnya. Dengan kata lain, ada berapa cara menyusun $k-1$ sukses dalam $n-1$ percobaan? Jumlah ini dapat diperoleh menggunakan koefisien $n$ pilih $k$, tetapi untuk $n-1$ dan $k-1$:
+\begin{align*}
+{n-1 \choose k-1} = \frac{(n-1)!}{(k-1)! \left((n-1) - (k-1)\right)!} = \frac{(n-1)!}{(k-1)! \left(n - k\right)!}
+\end{align*}
+Inilah banyaknya cara berbeda untuk mengurutkan $k-1$ sukses dan $n-k$ gagal dalam $n-1$ percobaan. Jika notasi faktorial (tanda seru) belum Anda kenal, lihat halaman~\pageref{factorial_defined}.
+
+\begin{onebox}{Distribusi binomial negatif}
+  Distribusi binomial negatif menggambarkan
+  peluang mengamati sukses ke-$k$ pada
+  percobaan ke-$n$, ketika semua percobaan saling independen:
+  \begin{align*}
+  P(\text{sukses ke-$k$ pada percobaan ke-$n$})
+      = {n-1 \choose k-1} p^{k}(1-p)^{n-k}
+  \end{align*}
+  Nilai $p$ menyatakan peluang bahwa
+  satu percobaan menghasilkan sukses.
+\end{onebox}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""69574f5b-e113-5529-9d72-6ebfd1501a86""]"
 01ce8b42-afa1-5960-902a-7c0763069db3,17acf038-9821-5e3d-9ffa-1526fab12218,2,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,535,542,e601613cac2b10c1407262f59658ba12260a79db76a6bcd9014b705b8f7a19aa,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,526,532,d6d4e7541c8d488d861e83997ca6f95332dcb9c81f5693123fed1bb527f1a6d5,translated,"\end{exercisewrap}
 \footnotetext{Kemencengan terlihat pada ketiga diagram, meskipun
   diagram titik datar adalah yang paling kurang membantu.
@@ -53,6 +105,11 @@ pengamatan yang berada di luar garis kumis.}
   menceng menjadi distribusi yang cukup menyerupai distribusi normal pada
   histogram berongga terakhir.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""d79c0e4f-9e37-5e77-9080-34fed0852af2""]"
+0382e4f8-2e1c-5cc6-b130-891c7df9f542,f4f4baa2-687f-5581-a0d8-2d14177feef9,2,worked_example,en,ch_distributions/TeX/ch_distributions.tex,1934,1938,29f10ddf02aec995428fcb5f844f5d8a17fdbf1034d4567a710312c7360787ed,id-ID,scratch/b017-build-candidate/source-snapshot-b017/ch_distributions/TeX/ch_distributions.tex,1866,1870,a0d478afd929b1461cc57a7ee06b830d266d2f457365b1ea99ea1411459b0b59,visually_checked,"\begin{examplewrap}
+\begin{nexample}{Setiap hari, seorang pelatih sepak bola Amerika di sekolah menengah memberi tahu penendang andalannya, Brian, bahwa ia boleh pulang setelah berhasil mencetak empat field goal dari jarak 35 yard. Misalkan setiap tendangan memiliki peluang sukses $p$. Jika $p$ kecil -- misalnya mendekati 0.1 -- apakah kita memperkirakan Brian akan memerlukan banyak percobaan sebelum berhasil mencetak field goal keempatnya?}
+Kita menunggu sukses keempat ($k=4$). Jika peluang sukses ($p$) kecil, banyaknya percobaan ($n$) kemungkinan besar akan besar. Artinya, Brian lebih mungkin memerlukan banyak percobaan sebelum memperoleh $k=4$ sukses. Dengan kata lain, peluang bahwa $n$ kecil juga rendah.
+\end{nexample}
+\end{examplewrap}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""69574f5b-e113-5529-9d72-6ebfd1501a86""]"
 038811d4-b11b-5e0e-8875-a232698193c1,bc95a131-dfa7-5a47-a97e-d119bb3e0379,7,worked_example,en,ch_probability/TeX/ch_probability.tex,1668,1678,3cf3ad328ec0fc5ec25344ed26adeb0b49c39759ecd1392f55952d7f56ab1fcc,id-ID,repo/ch_probability/TeX/ch_probability.tex,1657,1667,324a2f53ac4a32d7115d551e7638cf41fe5395f46ae525d5432bef9f51de1c8f,language_reviewed,"\begin{examplewrap}
 \begin{nexample}{Misalkan dosen memilih secara acak tanpa memperhatikan siapa yang sudah dipilih, yaitu mahasiswa dapat dipilih lebih dari sekali. Berapakah peluang Anda tidak terpilih untuk ketiga pertanyaan tersebut?}\label{3wRep}
 Pemilihan-pemilihan tersebut saling independen, dan peluang tidak terpilih untuk satu pertanyaan adalah $14/15$. Jadi, kita dapat menggunakan Aturan Perkalian untuk proses yang saling independen.
@@ -283,6 +340,14 @@ Peristiwa $A=\{$\resp{1}, \resp{2}$\}$ dan $B=\{$\resp{4}, \resp{6}$\}$ ditunjuk
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+0ca381b2-233b-508e-a35b-1b1849b94471,ca0df825-ca52-52be-a3e6-0c3090edaa4c,1,section_prose,en,ch_distributions/TeX/ch_distributions.tex,1927,1933,9f4dd3485a77438c663f70b7771a0629d7573cd2d8a7eafac92230aad08ee376,id-ID,scratch/b017-build-candidate/source-snapshot-b017/ch_distributions/TeX/ch_distributions.tex,1859,1865,33eb30b94c8594d9889bb79c1644e03f5693f49074cd988e8876caef3e2fad6d,visually_checked,"\section{Distribusi binomial negatif}
+\label{negativeBinomial}
+
+\index{distribution!negative binomial|(}
+
+Distribusi geometrik menggambarkan peluang mengamati sukses pertama pada percobaan ke-$n$. \termsub{distribusi binomial negatif}{distribution!negative binomial} lebih umum: distribusi ini menggambarkan peluang mengamati sukses ke-$k$ pada percobaan ke-$n$.
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""69574f5b-e113-5529-9d72-6ebfd1501a86""]"
 0cb607e1-ee87-5d63-97cb-b8a8bf85c7fb,8c1f82f6-34a3-53be-9da6-0fa74df91111,1,exercise,en,ch_summarizing_data/TeX/examining_numerical_data.tex,316,335,98504cc6b5f60249f899a9cb458f880dfda96a0cee2310628cb805a5c3e1242e,id-ID,repo/ch_summarizing_data/TeX/examining_numerical_data.tex,321,339,ad3c73b3bccbd9f0aed161d13e9590d76c8cc55c2734098ffbe0b5058dae5603,language_reviewed,"\eoce{\qt{Populasi Hispanik\label{county_hispanic_pop}} Sensus Amerika Serikat mengumpulkan 
 data tentang ras dan etnis penduduk Amerika, selain banyak variabel lain. Histogram di bawah 
 ini menunjukkan distribusi persentase penduduk Hispanik di 3,142 county di Amerika Serikat 
@@ -742,6 +807,19 @@ Setelah mengikuti mata kuliah statistika pengantar, 78\% mahasiswa dapat menyusu
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+1b0bc09a-aeeb-5e95-8b78-c62b5c1c775a,ca0df825-ca52-52be-a3e6-0c3090edaa4c,16,section_prose,en,ch_distributions/TeX/ch_distributions.tex,2071,2082,329345ad7ec7d34191bba76defd6a45189d6e697407039cafa52bd9e5e1a0471,id-ID,scratch/b017-build-candidate/source-snapshot-b017/ch_distributions/TeX/ch_distributions.tex,2003,2014,0686c2e7c23e74ddce01be5e725768217dcc674ac0c9290e2afc5f98ff0b62aa,visually_checked,"
+
+\D{\newpage}
+
+\begin{onebox}{Binomial versus binomial negatif}
+  Dalam kasus binomial, kita biasanya memiliki jumlah percobaan
+  yang tetap dan meninjau banyaknya sukses.
+  Dalam kasus binomial negatif, kita menelaah berapa banyak percobaan
+  yang diperlukan untuk mengamati jumlah sukses yang tetap dan
+  mensyaratkan bahwa pengamatan terakhir berupa sukses.
+\end{onebox}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""69574f5b-e113-5529-9d72-6ebfd1501a86""]"
 1bad614c-c211-5fa3-a42b-ab6c8944ab07,fc3d849c-7c46-5c07-8ca2-c458b8032805,1,guided_exercise,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,1040,1046,3751186aa1879453bdb11c0d03f2d31bb10ac94ccdb05cd7d2f9572b38c49569,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,992,998,290567013e042bf6357ea8c615b12fbc574154930d8de78c7789350ebb6337fb,translated,"\begin{nexercise} \label{interestRateWhichIsMoreRobust}
 (a)~Manakah yang lebih dipengaruhi pengamatan ekstrem,
 rata-rata atau median?
@@ -980,6 +1058,7 @@ bahasa Inggris di rumah?
 orang tersebut berbicara bahasa asing di rumah?
 \end{parts}
 }{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+1cf3cc4c-f5b2-5a26-ab08-4ae05ebe1259,781408f6-5e1c-57f5-ac70-34806b6d7b5a,18,guided_inline_answer,en,ch_distributions/TeX/ch_distributions.tex,2099,2099,60f07f54b366d88c87f5b45e7d0ca6d644df39884cbc2d4606cae4e07e717305,id-ID,scratch/b017-build-candidate/source-snapshot-b017/ch_distributions/TeX/ch_distributions.tex,2031,2031,814a856c1068e91a5cdbb7b7eaec90cdc3d3bd74884b647b1ab36c4a654135b2,visually_checked,"\footnotetext{Pada setiap bagian, $p=0.7$. (a) Jumlah hari tetap, jadi kasus ini binomial. Parameternya adalah $k=3$ dan $n=7$: 0.097. (b) ``Sukses'' terakhir (menerima pasien serangan jantung) ditetapkan pada hari terakhir, sehingga kita harus menerapkan distribusi binomial negatif. Parameternya adalah $k=2$, $n=4$: 0.132. (c) Persoalan ini merupakan kasus binomial negatif dengan $k=1$ dan $n=5$: 0.006. Perhatikan bahwa kasus binomial negatif ketika $k=1$ sama dengan menggunakan distribusi geometrik.}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""69574f5b-e113-5529-9d72-6ebfd1501a86""]"
 1d82f193-6a3a-584f-8ec1-22f3b30c0e5d,06b28e64-c231-50b0-b1f6-648ba4ba5102,48,section_prose,en,ch_distributions/TeX/ch_distributions.tex,720,729,33b73de453847d86873930872d15457f006be03ec89481db1fec5cb0af441e43,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,710,718,1b7fd5fc26dca13d226b16fa57ac18086fa3e9dc9af963a214c5e3f0eb3e6777,language_reviewed,"
 Variabel acak normal mungkin saja berada 4,~5, atau bahkan lebih banyak
 simpangan baku dari rata-rata.
@@ -1062,6 +1141,10 @@ pusat distribusi paling tepat dideskripsikan dengan median dan variabilitasnya d
 (c)~Distribusi tinggi badan laki-laki kemungkinan simetris. Oleh karena itu, pusat distribusi 
 paling tepat dideskripsikan dengan rata-rata dan variabilitasnya dengan simpangan baku.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+1ea232c6-91f5-57bc-9d57-f8b7a65dcab4,c7fc44bd-7649-5b88-85f9-2a1cfaf0ef67,9,guided_inline_answer,en,ch_distributions/TeX/ch_distributions.tex,1989,1992,0df13c3fd16046130a85ee69da3296e26e9f34471db79784007b49f38f648d8e,id-ID,scratch/b017-build-candidate/source-snapshot-b017/ch_distributions/TeX/ch_distributions.tex,1921,1924,784b7854b029b724c54434026fa5121e3f2a4bcdeaf81e9cad245b3771ac933d,visually_checked,"\footnotetext{Urutan pertama:
+  $0.2 \times 0.2 \times 0.8 \times
+      0.8 \times 0.8 \times 0.8
+    = 0.0164$.}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""69574f5b-e113-5529-9d72-6ebfd1501a86""]"
 1edd34ca-6684-51d5-9bdb-0a5837313fa7,815b7409-9f56-55aa-961e-00747573787c,123,exercise,en,ch_distributions/TeX/binomial_distribution.tex,131,152,076b411ee66c55d222a45c8f4a785be5c0de0186f8d0e13c22485ec27005e6d3,id-ID,qa/b016-build/source-snapshot-b016/ch_distributions/TeX/binomial_distribution.tex,132,153,21638ea3416ebc82f8e8c4b7dc785d28bd29b0550914f6e0dd1b56fb161538c6,visually_checked,"% 23
 
 \eoce{\qt{Warna mata, Bagian II\label{eye_color_binomial}}
@@ -1724,6 +1807,19 @@ mengonsumsi minuman beralkohol? Bagaimana peluang ini berkaitan dengan jawaban
 Anda pada bagian (b)?
 \end{parts}
 }{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""d79c0e4f-9e37-5e77-9080-34fed0852af2""]"
+27e768b2-05e3-572a-bc89-ef43151f85ee,fe0a4860-01ea-5953-bf55-03d8bc856c99,127,exercise,en,ch_distributions/TeX/negative_binomial_distribution.tex,3,15,5df86a828efdc2c7234efe3435385d2560f7e24cb873bf3674e660d1a45603c0,id-ID,scratch/b017-build-candidate/source-snapshot-b017/ch_distributions/TeX/negative_binomial_distribution.tex,3,14,147db03aa41e961153a32cfec10178bd1babec92001ae5ea916c9de19a5ed1dd,visually_checked,"% 27
+
+\eoce{\qt{Melempar dadu\label{roll_die}} Hitung peluang-peluang
+berikut dan tentukan model distribusi peluang yang tepat untuk setiap
+kasus. Anda melempar sebuah dadu seimbang 5 kali. Berapa peluang memperoleh
+\begin{parts}
+\item angka 6 pertama pada lemparan kelima?
+\item tepat tiga angka 6?
+\item angka 6 ketiga pada lemparan kelima?
+\end{parts}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""69574f5b-e113-5529-9d72-6ebfd1501a86""]"
 281c895a-66ed-5b31-85d6-56c4af55187e,91fc3301-cb1f-55c9-be90-4bcb58dca050,1,exercise,en,ch_summarizing_data/TeX/examining_numerical_data.tex,5,23,c7d06cce7704eb12347c8e16be9a65f3e4bfb4121b57c06d3099fd404a3196c3,id-ID,repo/ch_summarizing_data/TeX/examining_numerical_data.tex,8,26,fc93b73812d9ea3c4666aa4121f1c3f9fabcc56bb601771e63ad3df56047a9f7,translated,"\eoce{\qt{Rentang hidup mamalia\label{mammal_life_spans}} Data rentang hidup (dalam 
 tahun) dan masa kehamilan (dalam hari) dikumpulkan untuk 62 mamalia. Diagram pencar rentang 
 hidup terhadap masa kehamilan ditampilkan di bawah ini. \footfullcite{Allison+Cicchetti:1975}
@@ -1778,6 +1874,19 @@ Jika ada 15 orang yang dapat ditanya dan semuanya hadir di kelas, peluangnya ada
 \end{nexample}
 \end{examplewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""b8ee2bc6-8b07-51f4-8124-2fd462cd606b""]"
+2cf1589c-5253-5bd1-8787-60eb1dd3905c,ca0df825-ca52-52be-a3e6-0c3090edaa4c,19,section_prose,en,ch_distributions/TeX/ch_distributions.tex,2099,2110,ba34a287bbd0f577162420281e5da5398a0607d4e893564bbd745495c60bb673,id-ID,scratch/b017-build-candidate/source-snapshot-b017/ch_distributions/TeX/ch_distributions.tex,2031,2042,ba34a287bbd0f577162420281e5da5398a0607d4e893564bbd745495c60bb673,visually_checked,"
+
+\index{distribution!negative binomial|)}
+
+
+{\input{ch_distributions/TeX/negative_binomial_distribution.tex}}
+
+
+
+
+
+%_________________
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""69574f5b-e113-5529-9d72-6ebfd1501a86""]"
 2d07ed98-aa13-5235-a318-880764d92e7b,629fb7c3-6d1a-5ba3-beac-8c54c1ef802a,43,guided_exercise,en,ch_distributions/TeX/ch_distributions.tex,678,684,bac625c6ac0f0a33aad3fb25cba4a248bcc6c2ffd8b75212173aa345ea36699a,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,664,670,d7c80c3c733efa189cf88d632f385b483eb301eaee1a22fb774441335d83cff6,language_reviewed,"\begin{exercisewrap}
 \begin{nexercise}
 Tinggi badan laki-laki dewasa mengikuti $N(70.0$''$, 3.3$''$)$.
@@ -3597,6 +3706,13 @@ Yunani \emph{sigma}.
 
 \begin{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+4c834c05-62ae-549f-8e1d-1cf6b76001ae,09ee98f6-b664-51bb-b049-8de2a75f380c,229,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,756,761,97f83aa936d9adf5d3a6d8aee34dbe59d3920c6693784523b9570d1a1360ec1c,id-ID,scratch/b017-build-candidate/source-snapshot-b017/extraTeX/eoceSolutions/eoceSolutions.tex,814,819,37b10eeb9ffe30fa2f4b6ae4e983020ffafd3c84d4feae5d9764ed21701c65c9,visually_checked,"% 29
+
+\eocesol{(a)~Binomial negatif dengan $n=4$ dan $p=0.55$, dengan sukses didefinisikan sebagai siswa perempuan. Kasus binomial negatif tepat digunakan karena hasil percobaan terakhir ditetapkan, sedangkan urutan 3 percobaan pertama tidak diketahui.
+(b)~0.1838.
+(c)~${3 \choose 1} = 3$.
+(d)~Dalam model binomial tidak ada pembatasan pada hasil percobaan terakhir. Dalam model binomial negatif, hasil percobaan terakhir ditetapkan. Oleh karena itu, kita memperhatikan banyaknya cara mengurutkan $k - 1$ sukses lainnya dalam $n - 1$ percobaan pertama.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""69574f5b-e113-5529-9d72-6ebfd1501a86""]"
 4cc86dfd-b7ac-5f57-b267-29e7cf50dffb,8cd11f37-e330-56f8-96c4-18968b901319,1,guided_exercise,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,528,534,1643e9fa6bf7a1848555cd6eb4268e1c77f33509b14b77241e70e51c963f16b9,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,519,525,2bdd211218423fc482cdf9e376e1527e71cedd2928a82cb4485fcf6a176d5483,translated,"\begin{nexercise}
 Perhatikan diagram titik dalam
 Gambar~\ref{loan_int_rate_dot_plot}
@@ -3620,6 +3736,18 @@ Setiap bagian dapat merujuk pada lebih dari satu diagram.
 
 % 3
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+4d46574c-7dd6-5332-8d22-455c82f2196d,ca0df825-ca52-52be-a3e6-0c3090edaa4c,3,section_prose,en,ch_distributions/TeX/ch_distributions.tex,1938,1948,2e5c34352c25f2149d747f9bac7f82c28aa13eab154087278bca87306cd0dd49,id-ID,scratch/b017-build-candidate/source-snapshot-b017/ch_distributions/TeX/ch_distributions.tex,1870,1880,cb046c1d7c5773ba6660b27aba450ecf9b749c62c86717e03c4e6211655df20c,visually_checked,"
+
+Untuk mengenali kasus binomial negatif, kita memeriksa empat syarat. Tiga syarat pertama sama dengan syarat pada distribusi binomial.
+
+\begin{onebox}{Apakah kasusnya binomial negatif? Empat syarat yang perlu diperiksa}
+(1) Percobaan-percobaan tersebut saling independen. \\
+(2) Hasil setiap percobaan dapat diklasifikasikan sebagai sukses atau gagal. \\
+(3) Peluang sukses ($p$) sama untuk setiap percobaan. \\
+(4) Percobaan terakhir harus menghasilkan sukses.
+\end{onebox}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""69574f5b-e113-5529-9d72-6ebfd1501a86""]"
 4d5fa75b-1b47-5ae0-8ee5-fc22f58cb8b5,c9faaa37-1ac5-54ae-b62f-1556d2b63374,2,prose,en,ch_intro_to_data/TeX/ch_intro_to_data.tex,46,61,ff09352d5c69644bf58ca3302ca8f5be71760f0c9e0de273a18c112a5d52dd0f,id-ID,repo/ch_intro_to_data/TeX/ch_intro_to_data.tex,46,61,e3916e3bdd1bedb34c914bd5fa105617e62e7b192f22a624d4be9e85ab8ae2e0,translated,"Bagian~\ref{basicExampleOfStentsAndStrokes} memperkenalkan tantangan klasik dalam statistika: mengevaluasi efektivitas suatu penanganan medis. Istilah-istilah dalam bagian ini, dan bahkan sebagian besar isi bab ini, akan dibahas kembali nanti. Untuk saat ini, tujuannya hanyalah memperoleh gambaran tentang peran statistika dalam praktik.
 
 Dalam bagian ini kita akan meninjau sebuah eksperimen yang mengkaji efektivitas stent dalam menangani pasien yang berisiko mengalami strok.
@@ -4016,6 +4144,11 @@ Bagaimana jika Anda ingin mengetahui pengamatan yang bersesuaian
 dengan persentil tertentu?
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""5013dc5b-3a29-5516-9948-98c064aa43e8""]"
+55f837b1-828c-57f8-91d6-dc854b2a91f7,17f39bfa-676a-5791-a645-00d4d93b3996,4,guided_exercise,en,ch_distributions/TeX/ch_distributions.tex,1949,1953,71b811e9c886f5165d5b324537b0d22883e48882dd95c2cd130d23dac77ce1bc,id-ID,scratch/b017-build-candidate/source-snapshot-b017/ch_distributions/TeX/ch_distributions.tex,1881,1885,42bf0a03b2d99226ebeebcc1d214dc067b420e094dbef9f7bdc756449a5995e4,visually_checked,"\begin{exercisewrap}
+\begin{nexercise}
+Misalkan Brian berlatih dengan sangat tekun dan setiap field goal dari jarak 35 yard yang ditendangnya memiliki peluang sukses $p=0.8$. Tebaklah berapa banyak percobaan yang ia perlukan sebelum mencetak field goal keempatnya.\footnotemark
+\end{nexercise}
+\end{exercisewrap}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""69574f5b-e113-5529-9d72-6ebfd1501a86""]"
 5623583c-258f-50a2-af9a-aeed766142b9,f737466c-6fe9-55d9-b2b4-09ec9a1f5afe,19,guided_inline_answer,en,ch_probability/TeX/ch_probability.tex,1963,1963,eb1d4220aaccb269df96b3ff9bcad73b3fe15744134eaa066ef9aaa44d2624bc,id-ID,repo/ch_probability/TeX/ch_probability.tex,1952,1952,c7b52e1c4b101bd17c62cbdde7e0da26af87966509c5d4c225ba1dd1ff925438,language_reviewed,"\footnotetext{$E(X-Y) = E(X) - E(Y) = 175 - 23 = \$152$. Elena diperkirakan akan memperoleh sekitar \$152.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""f5cfd01e-9712-58ec-ac48-481f923814c1""]"
 563fa6b8-edde-5b8d-9b60-984c6a23797a,3c6361cd-2b66-5dcf-9ae1-6f9525f9dce4,23,worked_example,en,ch_probability/TeX/ch_probability.tex,2002,2023,2ba6e992320c756789d2dac2d4ab1278c873573a02d32e04300b3e56836f896f,id-ID,repo/ch_probability/TeX/ch_probability.tex,1991,2012,337ba636373e46c63beb6f30b5ba6364fe8cfc046f853ba239df8b0c5055aa2d,language_reviewed,"\begin{examplewrap}
@@ -5039,6 +5172,7 @@ gejala lebih tinggi?
 \end{parts}
 }{}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+5cde3c6a-bffc-515a-ba45-13c29421a3c4,12341578-0422-501d-bbd6-0af5ec1d629c,5,guided_inline_answer,en,ch_distributions/TeX/ch_distributions.tex,1954,1954,8b47b03c9612e404ae84f6a7ccd8cc51699ccb39bbf560dfaa898f1c63139cfe,id-ID,scratch/b017-build-candidate/source-snapshot-b017/ch_distributions/TeX/ch_distributions.tex,1886,1886,78079f53845aeee7e82014ded279e41b3ac7c643ded687f574be34a6ba1efe6b,visually_checked,"\footnotetext{Salah satu jawaban yang mungkin: karena setiap percobaan field goal Brian kemungkinan besar sukses, ia akan memerlukan sekurang-kurangnya 4 percobaan, tetapi mungkin tidak lebih dari 6 atau 7.}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""69574f5b-e113-5529-9d72-6ebfd1501a86""]"
 5e27f860-db74-5559-9dd8-dcd2a60c752b,3a67e1e4-7d18-5753-bbc0-ac47d9ac4fb2,1,title_page_source,en,extraTeX/preamble/title_derivative.tex,1,21,e187e431e2fad382442b631a3ca6b8f74bf783abb9f82ad64502529a071aaf47,id-ID,repo/extraTeX/preamble/title_derivative.tex,1,16,1b5da4df4b12cf7428b1873143868082cc89df0336f480cff65b68e44424fc15,translated,"
 % Pedoman atribusi dan penamaan karya turunan:
 % https://github.com/OpenIntroStat/openintro-statistics/blob/master/LICENSE.md
@@ -5195,6 +5329,23 @@ Hal-hal yang kita anggap sebagai proses acak belum tentu benar-benar acak; mungk
 \end{onebox}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""5013dc5b-3a29-5516-9948-98c064aa43e8""]"
+64059814-b42e-5a9b-ad1f-1831836c901d,20bfd563-f8ed-52a2-a149-968729bbfd64,130,exercise,en,ch_distributions/TeX/negative_binomial_distribution.tex,54,70,6af0cbaaf8babf912fd491077170ed73054ffdc9ff1f5b7f33facb251ff95125,id-ID,scratch/b017-build-candidate/source-snapshot-b017/ch_distributions/TeX/negative_binomial_distribution.tex,55,70,8ed46513fe601f4859458fd934fc61e5a2960b11baebcde2a10fab6762be697e,visually_checked,"% 30
+
+\eoce{\qt{Servis dalam bola voli\label{serving_volleyball}} Seorang pemain
+bola voli yang kurang terampil memiliki peluang 15\% untuk melakukan servis yang masuk, yaitu
+memukul bola agar melintasi net dengan lintasan sedemikian rupa sehingga bola akan
+jatuh di lapangan tim lawan. Misalkan servis-servisnya saling independen.
+\begin{parts}
+\item Berapa peluang bahwa pada percobaan ke-$10$ ia akan melakukan
+servis suksesnya yang ke-$3$?
+\item Misalkan ia telah melakukan dua servis sukses dalam sembilan percobaan. Berapa
+peluang bahwa servisnya yang ke-$10$ akan sukses?
+\item Meskipun bagian (a) dan (b) membahas skenario yang sama,
+peluang yang Anda hitung seharusnya berbeda. Dapatkah Anda menjelaskan penyebab
+perbedaan ini?
+\end{parts}
+}{}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""69574f5b-e113-5529-9d72-6ebfd1501a86""]"
 640b2dd8-2f72-57a5-8642-2ac2731d26f3,06b28e64-c231-50b0-b1f6-648ba4ba5102,51,section_prose,en,ch_distributions/TeX/ch_distributions.tex,748,750,2b0793ffeab0f1718cbd3f20feb1b9fae93ee4a92a0c43f7f284097b121e9986,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,738,740,25a108865fe2ea611f631c9b0bcdac836e25285c225c958043d25b8e750726f6,language_reviewed,"
 
 {\input{ch_distributions/TeX/normal_distribution.tex}}
@@ -5989,6 +6140,22 @@ popularitas nama tersebut untuk kucing juga cenderung meningkat.}
 \end{nexample}
 \end{examplewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""586d1610-5f32-5232-ba50-6e2a04daf45a""]"
+77b97832-4149-51f6-99ff-fcb08c3ed659,84c758c7-8306-5408-860d-3f73b46906dd,17,guided_exercise,en,ch_distributions/TeX/ch_distributions.tex,2083,2098,66cf114b0b079ccc6f1cf549521606d9a9bcc91c70bfa06caf4e320cad17df74,id-ID,scratch/b017-build-candidate/source-snapshot-b017/ch_distributions/TeX/ch_distributions.tex,2015,2030,d8f624ece4b55fb6c7be51045822132e598cac0a9095b6496af9cf84ad49d590,visually_checked,"\begin{exercisewrap}
+\begin{nexercise}
+Pada 70\% hari, sebuah rumah sakit menerima setidaknya satu pasien serangan jantung. Pada 30\% hari, rumah sakit tersebut tidak menerima pasien serangan jantung. Tentukan apakah setiap kasus di bawah ini merupakan kasus binomial atau binomial negatif, lalu hitung peluangnya.\footnotemark
+\begin{enumerate}[(a)]
+\setlength{\itemsep}{0mm}
+\item Berapa peluang rumah sakit tersebut menerima
+    pasien serangan jantung pada tepat tiga hari minggu ini?
+
+\item Berapa peluang bahwa hari kedua dengan pasien
+    serangan jantung merupakan hari keempat dalam minggu ini?
+
+\item Berapa peluang bahwa hari kelima bulan depan
+    merupakan hari pertama dengan pasien serangan jantung?
+\end{enumerate}
+\end{nexercise}
+\end{exercisewrap}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""69574f5b-e113-5529-9d72-6ebfd1501a86""]"
 77ff833f-cfc9-5352-975d-83064c0e89da,a36d034f-f5c1-5f04-89ac-c4f4a6cd046d,2,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,1047,1072,ba99595908c33ab1e7e8479808885e16024ad40abb93f86c4b82fe46938b1994,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,999,1022,c91f7c640f36aa2aece33c82324ea2b17b8ac810d6c51f9847209ec01eedbe36,translated,"\end{exercisewrap}
 \footnotetext{(a)~Rata-rata lebih terpengaruh.
   (b)~Simpangan baku lebih terpengaruh.
@@ -6014,6 +6181,11 @@ menjadi penting dalam situasi tertentu.
 
 \begin{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+7863a613-eea9-5425-bf40-ea423a4b7d4e,e3501344-04cb-51aa-b41f-8cfcaba20b5e,14,guided_exercise,en,ch_distributions/TeX/ch_distributions.tex,2062,2066,54d7daa62924d32e4686fa3230cb10b4abf1669e3cef5e8f4c6c57c8e8f0968e,id-ID,scratch/b017-build-candidate/source-snapshot-b017/ch_distributions/TeX/ch_distributions.tex,1994,1998,dc34b41366c17f3efc9b7b220c213674ce62826cde38fe7086eef9aabb768f74,visually_checked,"\begin{exercisewrap}
+\begin{nexercise}
+Anggaplah percobaan-percobaan tendangan Brian saling independen. Berapa peluang bahwa Brian akan mencetak field goal keempatnya dalam lima percobaan pertama?\footnotemark
+\end{nexercise}
+\end{exercisewrap}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""69574f5b-e113-5529-9d72-6ebfd1501a86""]"
 787dd433-618a-52e9-9cc2-fcb69be5ca7e,f2d394a2-2958-5de5-9cd6-2a4cd0a365d7,1,exercise,en,ch_summarizing_data/TeX/examining_numerical_data.tex,213,228,6d5226de6fb3b18d0eb20d3fa71b1fb3b98cfa3b960b3f3da038de1dfe4cb334,id-ID,repo/ch_summarizing_data/TeX/examining_numerical_data.tex,219,233,31f7d81c4d6434a3be05c1ac1703c2a2441fc5d150c7ce81814ff1c4f3a1538e,translated,"\eoce{\qt{Distribusi dan statistik yang sesuai, Bagian I\label{dist_shape_pets_dist_height}} 
 Untuk setiap hal berikut, nyatakan apakah Anda memperkirakan distribusinya simetris, menceng 
 kanan, atau menceng kiri. Tentukan juga apakah rata-rata atau median paling tepat mewakili 
@@ -6116,6 +6288,31 @@ Distribusi apakah yang menyerupai histogram berongga terakhir?\footnotemark{}
 \D{\newpage}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""f5cfd01e-9712-58ec-ac48-481f923814c1""]"
+7c2cd1d8-f27e-54a0-b0c0-75137159e732,ca0df825-ca52-52be-a3e6-0c3090edaa4c,7,section_prose,en,ch_distributions/TeX/ch_distributions.tex,1960,1983,9720b1d1bd3d9d5544b47d1d350c4c0b9412ff65d3f3ba8e27bb3bcd97f2c170,id-ID,scratch/b017-build-candidate/source-snapshot-b017/ch_distributions/TeX/ch_distributions.tex,1892,1915,58b908eaf47101aba62f9a2d62ef5b7cc72896831ee879efacce07d11b09a96b,visually_checked,"
+
+\begin{figure}[ht]
+\newcommand{\succObs}[1]{{\color{oiB}$\stackrel{#1}{S}$}}
+\centering
+\begin{tabular}{c|c ccc cl | r}
+\multicolumn{8}{c}{\hspace{10mm}Percobaan Tendangan} \\
+& & 1 & 2 & 3 & 4 & \multicolumn{2}{l}{5\hfill6} \\
+\hline
+1&& $F$ & $F$ & \succObs{1} & \succObs{2} & \succObs{3} & \succObs{4} \\
+2&& $F$ & \succObs{1} & $F$ & \succObs{2} & \succObs{3} & \succObs{4} \\
+3&& $F$ & \succObs{1} & \succObs{2} & $F$ & \succObs{3} & \succObs{4} \\
+4&& $F$ & \succObs{1} & \succObs{2} & \succObs{3} & $F$ & \succObs{4} \\
+5&& \succObs{1} & $F$ & $F$ & \succObs{2} & \succObs{3} & \succObs{4} \\
+6&& \succObs{1} & $F$ & \succObs{2} & $F$ & \succObs{3} & \succObs{4} \\
+7&& \succObs{1} & $F$ & \succObs{2} & \succObs{3} & $F$ & \succObs{4} \\
+8&& \succObs{1} & \succObs{2} & $F$ & $F$ & \succObs{3} & \succObs{4} \\
+9&& \succObs{1} & \succObs{2} & $F$ & \succObs{3} & $F$ & \succObs{4} \\
+10&& \succObs{1} & \succObs{2} & \succObs{3} & $F$ & $F$ & \succObs{4} \\
+\end{tabular}
+\caption{Sepuluh urutan yang mungkin ketika tendangan sukses keempat terjadi pada percobaan keenam.}
+\label{successFailureOrdersForBriansFieldGoals}
+\end{figure}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""69574f5b-e113-5529-9d72-6ebfd1501a86""]"
 7d28502a-5033-5c7f-a9fa-e6b30ec9d083,265b4bc6-ed59-56e2-81bb-20efe8616c93,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,547,553,d4fff0d95b52b1836b68a49cf8d0889d1d4d7e53abfdee05b425282569e20916,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,596,602,337030e102ba5db47655628e880370db6b458b94813bdc9d705cb37dd32af853,language_reviewed,"% 29
 
 \eocesol{(a)~13.
@@ -6642,6 +6839,21 @@ Nilai harapan waktu total sama dengan jumlah nilai harapan waktu masing-masing. 
 \end{nexample}
 \end{examplewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""f5cfd01e-9712-58ec-ac48-481f923814c1""]"
+894c6c4b-ccde-5ad5-ac6e-1a5908d9a909,add18feb-7f00-5d88-9d5d-1aee4a19a118,128,exercise,en,ch_distributions/TeX/negative_binomial_distribution.tex,16,28,d124a618e2297b7a1f591b237db72a8768dc55d2525feee151726284f1a9f9b0,id-ID,scratch/b017-build-candidate/source-snapshot-b017/ch_distributions/TeX/negative_binomial_distribution.tex,15,28,cf71d44c9b0de16a39e3146cf0ca0638f6d167cd63d44a8540ea3d94e507a562,visually_checked,"% 28
+
+\eoce{\qt{Bermain dart\label{play_darts}} Hitung peluang-peluang berikut
+dan tentukan model distribusi peluang yang tepat untuk setiap kasus.
+Seorang pemain dart yang sangat terampil dapat mengenai pusat sasaran
+(lingkaran merah di tengah papan dart) dengan peluang 65\%. Berapa
+peluang ia
+\begin{parts}
+\item mengenai pusat sasaran untuk kali ke-$10$ pada percobaan ke-$15$?
+\item mengenai pusat sasaran 10 kali dalam 15 percobaan?
+\item mengenai pusat sasaran pertama kali pada percobaan ketiga?
+\end{parts}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""69574f5b-e113-5529-9d72-6ebfd1501a86""]"
 8955285c-18b1-545b-9b67-cf16e91a6a73,05ed1aa2-8201-50ff-8cb7-893d51314da9,1,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,1095,1206,1653939f7f859a5acc1e75ba9d32d156582df58c7c52330b439927c16d6ea500,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,1042,1149,11985310f1752ec03eef94339d1dec5e1a8d816d23b2dad8d871ade3c2df5087,language_reviewed,"\subsection{Mentransformasi data (topik khusus)}
 \label{transformingDataSubsection}
 
@@ -7378,6 +7590,11 @@ atribut tersebut?\footnotemark
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+9957ea78-c5f7-56d2-9cda-72283e0e6bcb,713edabd-9c32-538c-875f-5d10479549ed,6,worked_example,en,ch_distributions/TeX/ch_distributions.tex,1956,1960,ef39e5d238a4eb5cb81e54e3c64bb7c8009f7fed4b356abf23d7b082fe71c193,id-ID,scratch/b017-build-candidate/source-snapshot-b017/ch_distributions/TeX/ch_distributions.tex,1888,1892,92274ac3d052d4ee1f199caf99a833bc4a13041fa5fbcdaa3d026f8da3920ab9,visually_checked,"\begin{examplewrap}
+\begin{nexample}{Dalam latihan kemarin, Brian hanya memerlukan 6 percobaan untuk mencetak field goal keempatnya. Tuliskan setiap urutan tendangan yang mungkin.} \label{eachSeqOfSixTriesToGetFourSuccesses}
+Karena Brian memerlukan enam percobaan untuk memperoleh sukses keempat, kita tahu tendangan terakhir pasti sukses. Dengan demikian, tersisa tiga tendangan sukses dan dua tendangan tidak sukses (yang kita sebut gagal) yang menyusun lima percobaan pertama. Pada tabel, $S$ menyatakan sukses dan $F$ menyatakan gagal. Ada sepuluh urutan yang mungkin untuk lima tendangan pertama tersebut, sebagaimana ditampilkan pada Gambar~\ref{successFailureOrdersForBriansFieldGoals}. Jika Brian memperoleh sukses keempatnya ($k=4$) pada percobaan keenam ($n=6$), urutan sukses dan gagalnya harus merupakan salah satu dari sepuluh urutan yang mungkin ini.
+\end{nexample}
+\end{examplewrap}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""69574f5b-e113-5529-9d72-6ebfd1501a86""]"
 99c51982-e9d0-5103-98eb-e1aba1786688,e3e697f7-00e7-5cce-8e2b-cee5b240a1a4,1,guided_exercise,en,ch_probability/TeX/ch_probability.tex,255,259,599a82c57526bc5ab071c324999e9731741acbf4069d9be9d35c5f6bd57687f9,id-ID,repo/ch_probability/TeX/ch_probability.tex,255,259,4ab0c1159f449ca0880d32cfc31b78184fae380caef76ef5b74d7bd6e34ca70d,language_reviewed,"\begin{exercisewrap}
 \begin{nexercise} \label{exerExaminingDisjointSetsABD}
 (a) Dengan menggunakan Gambar~\ref{disjointSets} sebagai acuan, hasil apa yang direpresentasikan oleh peristiwa $D$? (b) Apakah peristiwa $B$ dan $D$ saling lepas? (c) Apakah peristiwa $A$ dan $D$ saling lepas?\footnotemark
@@ -7991,6 +8208,7 @@ Distribusi probabilitas jumlah dua dadu ditampilkan pada Gambar~\ref{diceProb} d
 Pada diagram batang ini, tinggi batang merepresentasikan probabilitas hasil. Jika hasilnya numerik dan diskret, biasanya (secara visual) nyaman membuat diagram batang yang menyerupai histogram, seperti pada jumlah dua dadu. Contoh lain penempatan batang pada lokasi masing-masing ditunjukkan pada Gambar~\ref{bookCostDist} di halaman~\pageref{bookCostDist}.
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+a59bbfce-a63d-5c28-ab61-897795cbf1f9,233b3535-6d53-5304-af66-4216d50f51ab,13,guided_inline_answer,en,ch_distributions/TeX/ch_distributions.tex,2060,2060,c7cc145ad84224e242092b85aba6d142e62e1fcf5aa063e5dde470fae1858fce,id-ID,scratch/b017-build-candidate/source-snapshot-b017/ch_distributions/TeX/ch_distributions.tex,1992,1992,b0ded72dd18c4640627cc7737a56c3817b76ce948a766b22a1e69dd9ba7ce2e5,visually_checked,"\footnotetext{Jawaban dapat bervariasi. Kita tidak dapat menyimpulkan secara pasti bahwa percobaan-percobaan tersebut saling independen ataupun tidak. Namun, banyak tinjauan statistik atas performa atletik menunjukkan bahwa percobaan semacam ini nyaris saling independen.}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""69574f5b-e113-5529-9d72-6ebfd1501a86""]"
 a5a325a6-e57c-58a5-848e-f280859141b0,3b45c972-4f12-577c-b7de-d173ab1640e3,5,subsection_prose,en,ch_probability/TeX/ch_probability.tex,260,261,e106a4ca40d6fe15465c774139e9ef51bb6c643048887095e61618c0c77f9a56,id-ID,repo/ch_probability/TeX/ch_probability.tex,260,261,decb99869160b70901056c0e44ca97ff155784fa199b415e155d827474031041,language_reviewed,"\footnotetext{(a)~Hasil \resp{2} dan \resp{3}. (b)~Ya, peristiwa $B$ dan $D$ saling lepas karena tidak memiliki hasil yang sama. (c)~Peristiwa $A$ dan $D$ memiliki hasil yang sama, yaitu \resp{2}, sehingga tidak saling lepas.}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
@@ -9335,10 +9553,20 @@ c936abd8-f3a6-5b0f-854b-a4196922a57f,21aa41a3-f252-5c54-b452-fd9202cb75ee,1,chap
 
 %%%%%
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+c94ed7a0-be3d-5c69-acd5-4f1b3d01537d,16cb0b43-b43a-5f35-b86f-14f31c798e70,15,guided_inline_answer,en,ch_distributions/TeX/ch_distributions.tex,2067,2071,c59521bf77bec69d6dc6cc448d200424f1d0f0950a713fa0699eb3ead371ee58,id-ID,scratch/b017-build-candidate/source-snapshot-b017/ch_distributions/TeX/ch_distributions.tex,1999,2003,fda713f7aa0a15a8bfa4a05d0ff32b622e1f7d3fa4995c36404b894d723153e3,visually_checked,"\footnotetext{Jika field goal keempatnya ($k=4$) terjadi dalam lima percobaan pertama, Brian memerlukan empat atau lima percobaan ($n=4$ atau $n=5$). Dari uraian sebelumnya, kita memiliki $p=0.8$. Gunakan distribusi binomial negatif untuk menghitung peluang $n = 4$ percobaan dan $n=5$ percobaan, lalu jumlahkan kedua peluang tersebut:
+\begin{align*}
+& P(n=4\text{ ATAU }n=5) = P(n=4) + P(n=5) \\
+&\quad = {4-1 \choose 4-1} 0.8^4 + {5-1 \choose 4-1} (0.8)^4(1-0.8) = 1\times 0.41 + 4\times 0.082 = 0.41 + 0.33 = 0.74
+\end{align*}}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""69574f5b-e113-5529-9d72-6ebfd1501a86""]"
 c99e298f-7a22-5702-abb5-390349628e74,45833f28-f654-5405-82e7-9c02eb08e5b7,3,guided_inline_answer,en,ch_distributions/TeX/ch_distributions.tex,132,134,b9fc4cc81089efd853e79fedf7c3f10f0698b1d39e325f2f40f63e391a10f79a,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,129,131,b9fc4cc81089efd853e79fedf7c3f10f0698b1d39e325f2f40f63e391a10f79a,language_reviewed,"\footnotetext{(a)~$N(\mu=5,\sigma=3)$.
   (b)~$N(\mu=-100, \sigma=10)$.
   (c)~$N(\mu=2, \sigma=9)$.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""5013dc5b-3a29-5516-9948-98c064aa43e8""]"
+ca998b5a-23cb-5ed9-8e74-8175fb8cb481,0e393b3e-d85a-5b59-889a-64d03062fba2,12,guided_exercise,en,ch_distributions/TeX/ch_distributions.tex,2055,2059,f8162a66808d02f6b0ce8bcb72ca5880fea3ceb5b69ed183bc43c68feeb2d096,id-ID,scratch/b017-build-candidate/source-snapshot-b017/ch_distributions/TeX/ch_distributions.tex,1987,1991,b7fead3eac768e681678ee482eef6ca61085a52d22b20ea4a9f43a7f2861d6fb,visually_checked,"\begin{exercisewrap}
+\begin{nexercise}
+Distribusi binomial negatif mensyaratkan percobaan-percobaan tendangan Brian saling independen. Menurut Anda, apakah masuk akal untuk menganggap percobaan-percobaan tendangan Brian saling independen?\footnotemark
+\end{nexercise}
+\end{exercisewrap}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""69574f5b-e113-5529-9d72-6ebfd1501a86""]"
 cac46d7a-c618-5be1-b426-a1e784c28eb3,dcd87770-5428-5ca2-8375-09e2744b09a7,1,exercise,en,ch_summarizing_data/TeX/considering_categorical_data.tex,61,72,cc64d113af0958104d809be4a980058817ec962a8f10f5c35162752d87713163,id-ID,repo/ch_summarizing_data/TeX/considering_categorical_data.tex,63,76,60e4e3cb7384363d3b69d33ce129625d1a48d1a5cfa6e7e6d46180246f247049,translated,"\eoce{\qt{Pandangan tentang DREAM Act\label{dream_act_mosaic}} Sampel acak pemilih
 terdaftar di Tampa, Florida, ditanya apakah mereka mendukung DREAM Act,
 sebuah rancangan undang-undang yang akan menyediakan jalur menuju kewarganegaraan
@@ -9619,6 +9847,11 @@ d03947f2-a3cc-57a3-9974-13c7bb411da3,a4fa26d3-f74e-5ad7-8fd2-444728913b98,2,work
 \end{nexample}
 \end{examplewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""b410ecf6-7942-5337-9e18-e09c9e84783d""]"
+d134f924-d0ed-5cf0-815a-0f68980991cf,443bc236-2bd5-5032-b493-b583aeb5e13e,8,guided_exercise,en,ch_distributions/TeX/ch_distributions.tex,1984,1988,6bcfb941565ffe4687413db44ef6c8740285057cf6cf78f714f03718f61709e9,id-ID,scratch/b017-build-candidate/source-snapshot-b017/ch_distributions/TeX/ch_distributions.tex,1916,1920,4fd62b3c6c3cbcbe84c7df719706f96ab64c4057639c7874dc98485f77570885,visually_checked,"\begin{exercisewrap}
+\begin{nexercise} \label{probOfEachSeqOfSixTriesToGetFourSuccesses}
+Setiap urutan pada Gambar~\ref{successFailureOrdersForBriansFieldGoals} memiliki tepat dua hasil gagal dan empat hasil sukses, dengan percobaan terakhir selalu sukses. Jika peluang sukses adalah $p=0.8$, carilah peluang urutan pertama.\footnotemark
+\end{nexercise}
+\end{exercisewrap}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""69574f5b-e113-5529-9d72-6ebfd1501a86""]"
 d1972b26-4dfa-54b7-b208-33c6a4c28530,13907cdd-4711-558a-a9d8-3ea52d989703,23,guided_exercise,en,ch_probability/TeX/ch_probability.tex,1268,1272,058fcaeaa453c6b4248de6124c0de4f174a8b83fdd706b4f1d082924f707b28e,id-ID,repo/ch_probability/TeX/ch_probability.tex,1267,1271,27865f4d22bc7dc5e249cc40fac07addc80ea7d0b85069aa863ebaea854e4d60,language_reviewed,"\begin{exercisewrap}
 \begin{nexercise}
 Berdasarkan peluang yang dihitung di atas, apakah inokulasi tampaknya efektif mengurangi risiko kematian akibat cacar?\footnotemark
@@ -10711,6 +10944,17 @@ e17153d3-a0a0-5e5f-815f-4a28e904403b,298c8a6d-ef49-5d05-a237-724ee9e76461,6,work
 \end{nexample}
 \end{examplewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""586d1610-5f32-5232-ba50-6e2a04daf45a""]"
+e1b303ab-b16f-5a77-b2cf-dd5629f5674c,19e6fcc1-4419-54f9-ac03-9e85a2c49606,11,worked_example,en,ch_distributions/TeX/ch_distributions.tex,2043,2053,7cdaabb06b105ed4001eceb4e2b490664aab65deb3c05d14cec704fe45a4ba3c,id-ID,scratch/b017-build-candidate/source-snapshot-b017/ch_distributions/TeX/ch_distributions.tex,1975,1985,2f35aba5ce2dc39e69ad285e490b1a7e44b4fedc8d063f0a11f9a414e1dd4ff5,visually_checked,"\begin{examplewrap}
+\begin{nexample}{Tunjukkan dengan menggunakan rumus distribusi binomial negatif bahwa peluang Brian mencetak field goal keempatnya pada percobaan keenam adalah 0.164.}
+Peluang sukses dalam satu percobaan adalah $p=0.8$, banyaknya sukses adalah $k=4$, dan banyaknya percobaan yang diperlukan dalam skenario ini adalah $n=6$.
+\begin{align*}
+{n-1 \choose k-1}p^k(1-p)^{n-k}\ 
+	=\ \frac{5!}{3!2!} (0.8)^4 (0.2)^2\ 
+	=\ 10\times 0.0164\ 
+	=\ 0.164
+\end{align*}
+\end{nexample}
+\end{examplewrap}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""69574f5b-e113-5529-9d72-6ebfd1501a86""]"
 e1c74ee9-395b-596f-bd77-fb71fc4c1f8c,748801d5-dff8-5970-9094-9b6e46cc74b3,35,subsection_prose,en,ch_probability/TeX/ch_probability.tex,1555,1580,fbd441a4e3951d4598dd1c625789ad6c7d59108e5ee60dc868c709566424850e,id-ID,repo/ch_probability/TeX/ch_probability.tex,1549,1574,4ce3824b339faff2e5962f39fc507ecbcaaf0296572416a64025e14427858e5b,language_reviewed,"\footnotetext{\begin{minipage}[t]{0.27\linewidth}
 Diagram pohon dengan tiga cabang utama ditampilkan di sebelah kanan. Selanjutnya, kita menentukan dua peluang dari diagram tersebut. (1) Peluang bahwa ada acara olahraga dan gedung parkir penuh: 0,14. (2) Peluang gedung parkir penuh: $0.0875 + 0.14 + 0.0225 = 0.25$. Jawabannya adalah rasio kedua peluang tersebut: $\frac{0.14}{0.25} = 0.56$. Jika gedung parkir penuh, peluang bahwa ada acara olahraga adalah 56\%. \vspace{0.1mm} \\\ 
 \end{minipage}
@@ -10775,6 +11019,40 @@ P(A\text{ atau }B) = P(A) + P(B) = 1/3 + 1/3 = 2/3
 \end{align*}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+e5144826-d149-532c-a3ed-15f6b92df38f,a8faf5b0-451c-5cc3-b492-052fc857d718,129,exercise,en,ch_distributions/TeX/negative_binomial_distribution.tex,29,53,8a4208a0d07efc07b6c4a66ff98bbd550f40d2ca45a06e9c8a267e0000caf695,id-ID,scratch/b017-build-candidate/source-snapshot-b017/ch_distributions/TeX/negative_binomial_distribution.tex,29,54,f325a5cdf5a184436bacf25643e92b60da26148b9812bd0a0c10889f40d4e764,visually_checked,"% 29
+
+\eoce{\qt{Pengambilan sampel di sekolah\label{sampling_at_school}} Untuk proyek
+mata kuliah sosiologi, Anda diminta melakukan survei terhadap 20 siswa
+di sekolah Anda. Anda
+memutuskan untuk berdiri di luar kafetaria asrama pada suatu malam dan melakukan
+survei terhadap sampel acak 20 siswa yang keluar dari kafetaria seusai makan malam.
+Penghuni asrama Anda terdiri atas 45\% laki-laki dan 55\% perempuan.
+\begin{parts}
+\item Model peluang mana yang paling tepat untuk menghitung
+peluang bahwa responden ke-$4$ merupakan responden perempuan ke-$2$?
+Jelaskan.
+\item Hitung peluang pada bagian (a).
+\item Berikut adalah tiga skenario ketika responden ke-$4$
+merupakan responden perempuan ke-$2$ (dengan $M$ menyatakan laki-laki dan $F$ menyatakan perempuan):
+\[ \{M, M, F, F\}, \{M, F, M, F\}, \{F, M, M, F\} \]
+Kesamaan di antara skenario-skenario ini adalah bahwa responden pada percobaan terakhir selalu
+perempuan. Dalam tiga percobaan pertama terdapat 2 laki-laki dan 1 perempuan. Gunakan
+koefisien binomial untuk mengonfirmasi bahwa ada 3 cara mengurutkan 2 laki-laki dan
+1 perempuan.
+\item Gunakan temuan pada bagian (c) untuk menjelaskan mengapa koefisien
+dalam rumus distribusi binomial negatif adalah ${n-1 \choose k-1}$, sedangkan
+koefisien binomial adalah ${n \choose k}$.
+\end{parts}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""69574f5b-e113-5529-9d72-6ebfd1501a86""]"
+e51f1d00-3a14-551d-85aa-0327eb6f535d,146072d1-594b-50f7-a8b6-60b6fe65fa75,227,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,750,755,c20b379a5845a084d97604f6f1fb75dc8d3c4812dd6e451391361160173bb5c2,id-ID,scratch/b017-build-candidate/source-snapshot-b017/extraTeX/eoceSolutions/eoceSolutions.tex,808,813,f3727a2ba9829af4923f6276611a732df42e889fd8247d05cc2fa6bd42474262,visually_checked,"% 27
+
+\eocesol{(a)~Geometrik, 0.0804.
+(b)~Binomial, 0.0322.
+(c)~Binomial negatif, 0.0193.}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""69574f5b-e113-5529-9d72-6ebfd1501a86""]"
 e561524c-6dc7-5f3f-ba66-6310d2ca7110,008a3bd4-069a-5cc2-bea8-bf1d9a41d834,1,exercise,en,ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,258,267,a8977aa3f9315964551e4574ecf7f4cc30a57730c3494a31b94be8b9351e3cf5,id-ID,repo/ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,254,272,95b4f2222911be077d4dff3e5ff7cd769ca446f047278244105fad0b38217f82,translated,"\eoce{\qt{Strategi pengambilan sampel\label{sampling_strategies}} Seorang mahasiswa 
 statistika ingin mengetahui hubungan antara waktu yang dihabiskan siswa di situs 
 jejaring sosial dan kinerja mereka di sekolah, lalu memutuskan untuk melakukan 

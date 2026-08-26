@@ -1,0 +1,391 @@
+{
+  "authority": {
+    "branch_observed": "master",
+    "commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "reader_witness": "https://www.openintro.org/book/os/",
+    "repository": "https://github.com/OpenIntroStat/openintro-statistics",
+    "tree_sha1": "d61cc601e7d97759ce805900520f784d02a0489e"
+  },
+  "boundary": {
+    "id": "R011-B017",
+    "next_cursor": {
+      "label": "poisson",
+      "line": 2111,
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_distributions/TeX/ch_distributions.tex",
+      "section": "Poisson distribution",
+      "section_label_line": 2112
+    },
+    "section": "Negative binomial distribution",
+    "section_label": "negativeBinomial",
+    "source_end_line_including_separator": 2110,
+    "source_end_line_substantive": 2104,
+    "source_start_line": 1927
+  },
+  "component_closure": {
+    "code": {
+      "count": 0,
+      "findings": "No R or other executable code is referenced or embedded in this boundary."
+    },
+    "component_rights_questions": [],
+    "data": {
+      "count": 0,
+      "findings": "No dataset or data file is referenced by this boundary."
+    },
+    "external_assets": {
+      "count": 0,
+      "findings": "No external figure, photograph, media file, font, citation, or bibliography entry is referenced by this boundary."
+    },
+    "inline_assets": [
+      {
+        "description": "Authored TeX tabular figure enumerating the ten success/failure sequences for Brian's field-goal attempts.",
+        "kind": "inline_tex_table_figure",
+        "label": "successFailureOrdersForBriansFieldGoals",
+        "line_end": 1982,
+        "line_start": 1962,
+        "rights_resolution": "CC-BY-SA-3.0-repository-declaration",
+        "source_path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_distributions/TeX/ch_distributions.tex"
+      }
+    ],
+    "rights": {
+      "authored_generated_boundary": "authored",
+      "brand_exclusion": "Preserve the inherited OpenIntro attribution and branding/naming exclusion; do not imply upstream endorsement.",
+      "component_kind": "text_source",
+      "new_component_specific_question": false,
+      "publication_disposition": "include_subject_to_attribution_and_brand_exclusion",
+      "rights_evidence": "README.md plus LICENSE.md; external-photo overrides take precedence.",
+      "rights_resolution": "CC-BY-SA-3.0-repository-declaration"
+    }
+  },
+  "correction_candidates": [
+    {
+      "candidate": "Replace 'each of the possible sequence' with plural wording such as 'each of the possible sequences' or 'all possible sequences'.",
+      "confidence": "high",
+      "line": 1957,
+      "source_text": "each of the possible sequence",
+      "status": "unadmitted_candidate",
+      "type": "grammar_number_agreement"
+    },
+    {
+      "candidate": "Replace 'each of the ten sequence has' with 'each of the ten sequences has'.",
+      "confidence": "high",
+      "line": 2007,
+      "source_text": "each of the ten sequence has",
+      "status": "unadmitted_candidate",
+      "type": "grammar_number_agreement"
+    },
+    {
+      "candidate": "Replace 'each of Brian's kick attempts are independent' with singular-agreement wording such as 'each of Brian's kick attempts is independent'.",
+      "confidence": "high",
+      "line": 2057,
+      "source_text": "each of Brian's kick attempts are independent",
+      "status": "unadmitted_candidate",
+      "type": "grammar_subject_verb_agreement"
+    },
+    {
+      "candidate": "Replace 'many statistical reviews of athletic performance suggests' with 'many statistical reviews of athletic performance suggest'.",
+      "confidence": "high",
+      "line": 2060,
+      "source_text": "many statistical reviews of athletic performance suggests",
+      "status": "unadmitted_candidate",
+      "type": "grammar_subject_verb_agreement"
+    },
+    {
+      "candidate": "Insert 'the' in 'lead to the 4th person you survey being the 2nd female'.",
+      "confidence": "high",
+      "line": 41,
+      "source_path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_distributions/TeX/negative_binomial_distribution.tex",
+      "source_text": "lead to 4th person you survey being the 2nd female",
+      "status": "unadmitted_candidate",
+      "type": "grammar_missing_article"
+    }
+  ],
+  "eoce_closure": {
+    "counts": {
+      "exercises": 4,
+      "o001_gap_exercises": 2,
+      "o001_gap_parts": 6,
+      "parts": 13,
+      "public_answer_exercises": 2,
+      "public_answer_parts": 7
+    },
+    "exercises": [
+      {
+        "exercise_number": 27,
+        "label": "roll_die",
+        "line_end": 14,
+        "line_start": 5,
+        "parts": 3,
+        "public_answer": {
+          "line_end": 754,
+          "line_start": 750,
+          "present": true,
+          "source_path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/extraTeX/eoceSolutions/eoceSolutions.tex"
+        },
+        "title": "Rolling a die"
+      },
+      {
+        "exercise_number": 28,
+        "label": "play_darts",
+        "line_end": 27,
+        "line_start": 18,
+        "o001_gap": true,
+        "parts": 3,
+        "public_answer": {
+          "present": false
+        },
+        "title": "Playing darts"
+      },
+      {
+        "exercise_number": 29,
+        "label": "sampling_at_school",
+        "line_end": 52,
+        "line_start": 31,
+        "parts": 4,
+        "public_answer": {
+          "line_end": 761,
+          "line_start": 756,
+          "present": true,
+          "source_path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/extraTeX/eoceSolutions/eoceSolutions.tex"
+        },
+        "title": "Sampling at school"
+      },
+      {
+        "exercise_number": 30,
+        "label": "serving_volleyball",
+        "line_end": 70,
+        "line_start": 56,
+        "o001_gap": true,
+        "parts": 3,
+        "public_answer": {
+          "present": false
+        },
+        "title": "Serving in volleyball"
+      }
+    ],
+    "policy": "Translate all four exercises and the two linked public odd-numbered answers. Preserve exercises 28 and 30 as O001 mastery gaps; do not invent or attribute upstream solutions."
+  },
+  "no_upstream_contact": true,
+  "production_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "reflow_sensitive_lines": [
+    {
+      "directive": "\\D{\\newpage}",
+      "line": 1994
+    },
+    {
+      "directive": "\\D{\\newpage}",
+      "line": 2023
+    },
+    {
+      "directive": "\\D{\\newpage}",
+      "line": 2073
+    }
+  ],
+  "schema": "interlanguage.r011-boundary-blueprint",
+  "schema_version": "1.0.0",
+  "source_files": [
+    {
+      "bytes": 91188,
+      "content": {
+        "boxes": [
+          {
+            "line_end": 1947,
+            "line_start": 1942,
+            "title": "Is it negative binomial? Four conditions to check"
+          },
+          {
+            "line_end": 2041,
+            "line_start": 2031,
+            "title": "Negative binomial distribution"
+          },
+          {
+            "line_end": 2081,
+            "line_start": 2075,
+            "title": "Binomial versus negative binomial"
+          }
+        ],
+        "counts": {
+          "boxes": 3,
+          "forced_display_page_breaks": 3,
+          "guided_exercises": 5,
+          "guided_public_footnote_answers": 5,
+          "inline_figures": 1,
+          "subsections": 0,
+          "worked_examples": 3
+        },
+        "guided_exercises": [
+          {
+            "answer_line_end": 1954,
+            "answer_line_start": 1954,
+            "exercise_line_end": 1953,
+            "exercise_line_start": 1949,
+            "public_answer_present": true
+          },
+          {
+            "answer_line_end": 1992,
+            "answer_line_start": 1989,
+            "exercise_line_end": 1988,
+            "exercise_line_start": 1984,
+            "label": "probOfEachSeqOfSixTriesToGetFourSuccesses",
+            "public_answer_present": true
+          },
+          {
+            "answer_line_end": 2060,
+            "answer_line_start": 2060,
+            "exercise_line_end": 2059,
+            "exercise_line_start": 2055,
+            "public_answer_present": true
+          },
+          {
+            "answer_line_end": 2071,
+            "answer_line_start": 2067,
+            "exercise_line_end": 2066,
+            "exercise_line_start": 2062,
+            "public_answer_present": true
+          },
+          {
+            "answer_line_end": 2099,
+            "answer_line_start": 2099,
+            "exercise_line_end": 2098,
+            "exercise_line_start": 2083,
+            "parts": 3,
+            "public_answer_present": true
+          }
+        ],
+        "index_lines": {
+          "close": 2101,
+          "open": 1930
+        },
+        "input": {
+          "line": 2104,
+          "path": "ch_distributions/TeX/negative_binomial_distribution.tex"
+        },
+        "labels": [
+          {
+            "label": "negativeBinomial",
+            "line": 1928,
+            "role": "section"
+          },
+          {
+            "label": "eachSeqOfSixTriesToGetFourSuccesses",
+            "line": 1957,
+            "role": "worked_example"
+          },
+          {
+            "label": "successFailureOrdersForBriansFieldGoals",
+            "line": 1981,
+            "role": "inline_figure"
+          },
+          {
+            "label": "probOfEachSeqOfSixTriesToGetFourSuccesses",
+            "line": 1985,
+            "role": "guided_exercise"
+          }
+        ],
+        "references": [
+          {
+            "label": "successFailureOrdersForBriansFieldGoals",
+            "lines": [
+              1958,
+              1986,
+              2002
+            ]
+          },
+          {
+            "label": "probOfEachSeqOfSixTriesToGetFourSuccesses",
+            "lines": [
+              2007
+            ]
+          },
+          {
+            "label": "binomialModel",
+            "lines": [
+              2009
+            ]
+          },
+          {
+            "label": "factorial_defined",
+            "lines": [
+              2029
+            ]
+          }
+        ],
+        "worked_examples": [
+          {
+            "line_end": 1938,
+            "line_start": 1934
+          },
+          {
+            "label": "eachSeqOfSixTriesToGetFourSuccesses",
+            "line_end": 1960,
+            "line_start": 1956
+          },
+          {
+            "line_end": 2053,
+            "line_start": 2043
+          }
+        ]
+      },
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_distributions/TeX/ch_distributions.tex",
+      "sha256": "71e4985a1bf31e9dd6897ec2bd246b3b2f8cd62ab55524a5b1bfe791e613a3a9",
+      "spans": [
+        {
+          "kind": "section_substantive",
+          "line_end": 2104,
+          "line_start": 1927
+        },
+        {
+          "kind": "section_with_separator",
+          "line_end": 2110,
+          "line_start": 1927
+        }
+      ]
+    },
+    {
+      "bytes": 2860,
+      "counts": {
+        "exercises": 4,
+        "labels": 4,
+        "parts": 13
+      },
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_distributions/TeX/negative_binomial_distribution.tex",
+      "sha256": "4d6bf067db161507dbe9555a1d31ae0c220152d00ff8d1ac62800adafa7571a1",
+      "spans": [
+        {
+          "kind": "complete_eoce_file",
+          "line_end": 70,
+          "line_start": 1
+        }
+      ]
+    },
+    {
+      "bytes": 106045,
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/extraTeX/eoceSolutions/eoceSolutions.tex",
+      "sha256": "6c4e01376db4c023cc7b3f9949490e57220ef1cb831c580da71efde6ce723268",
+      "spans": [
+        {
+          "exercise_number": 27,
+          "kind": "public_answer",
+          "line_end": 754,
+          "line_start": 750
+        },
+        {
+          "exercise_number": 29,
+          "kind": "public_answer",
+          "line_end": 761,
+          "line_start": 756
+        }
+      ]
+    }
+  ],
+  "status": "READY_FOR_TRANSLATION",
+  "terminology_scope": [
+    "negative binomial distribution",
+    "independent trials",
+    "success",
+    "failure",
+    "binomial coefficient",
+    "fixed number of successes",
+    "fixed number of trials",
+    "geometric distribution"
+  ]
+}

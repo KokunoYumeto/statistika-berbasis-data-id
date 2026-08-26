@@ -3,6 +3,7 @@ id,affected_id,category,summary,disposition,confidence,status
 027ad406-4211-5e04-b264-a211d8e038c0,ef25e2c4-b83a-58be-bfaa-8fe6b5fa5d63,source_grammar,Public answer 17(d) contains the malformed phrase `a dating choices`.,applied_in_isolated_b010_candidate,high,active
 02f1c778-f02e-5fa2-8609-860e5c9bc088,a485ca16-e7af-5fc9-a661-2481b3a87b29,source_accessibility,Accessibility text repeats height where the intended location is at $137.,applied_in_terminal_b012_candidate,high,active
 038e919d-6132-527b-8e0e-462ee1837518,ef7f55d2-6426-5c6b-a525-29e747da8d0b,page_flow,,,high,active
+05d3e4ae-2b62-51d0-9a52-83c2732e8cde,a8faf5b0-451c-5cc3-b492-052fc857d718,grammar_missing_article,B017-C006: high-confidence upstream copyedit candidate,recorded_not_applied_to_authority,high,active
 06c8e6ba-b292-59fd-ae1c-75265e77422e,06b28e64-c231-50b0-b1f6-648ba4ba5102,source_correction,B014-SC006: the heights of male adults in the US is nearly normal,applied_in_terminal_b014_candidate,high,active
 084d4201-d8b1-54a8-a46e-0b827d501671,5172495b-cd2b-5f34-b695-29ce4bc07662,prose_grammar,,,high,active
 088ee0b9-7833-55ff-b938-6aa4b0400795,ef7f55d2-6426-5c6b-a525-29e747da8d0b,placebo_causation,,,high,active
@@ -65,6 +66,7 @@ id,affected_id,category,summary,disposition,confidence,status
 80e46e51-acc3-5334-8d7b-0cbe02a72d34,49ca843c-e79c-5858-96ba-34396dd18ae6,component_rights,,,high,active
 81470fb8-b008-5073-9278-35aff1fcb141,aa0c130d-cb84-5a06-b650-6dc25cefd73c,answer_generalization,,,high,active
 81b6a3db-1c00-5ebc-8b44-ef5eccc809f3,38d29400-2764-5109-a7fd-d245c7e52b17,sampling_definition,,,high,active
+845da5b8-c031-5c7f-9314-6c8ba28900a4,ca0df825-ca52-52be-a3e6-0c3090edaa4c,grammar_subject_verb_agreement,B017-C005: high-confidence upstream copyedit candidate,recorded_not_applied_to_authority,high,active
 890b1089-827e-517f-952d-002eaa81f1aa,a766f9cd-f941-5953-b2d9-9d5f0b9a8764,localization_accessibility,"The twelve not_picked strings inside the resp macro are reader-visible texttt output, not opaque identifiers.",applied_before_terminal_b011_translation_gate,high,active
 8ac4eb09-f136-550c-a3f5-b6e8385325ab,f03bc0fc-6c96-5db2-8d50-46b2ac141f2b,accessibility_semantics,"The 0.0689 leaf is Midterm=A and Final=Other, but the source alt text describes other-and-other.",applied_in_isolated_b010_candidate,high,active
 8d40d947-eeca-570c-a75c-3a6a3b551ec3,c30ed712-53d9-5d5c-9e77-fc405aee5528,accessibility_marker_accuracy,State the first-year exception and identify crosses for women and points for men.,hold_until_corpus_complete_then_deduplicate,high,active
@@ -86,6 +88,7 @@ aaa77265-1112-55f9-a951-023fdf75d4d5,5418b4f9-77ac-546a-b7e2-5bc1c3fb75ca,compon
 ab21ae72-3dc6-5829-a67c-2893ca9c7f80,06b28e64-c231-50b0-b1f6-648ba4ba5102,source_correction,B014-SC004: shaded for horizontal values larger than 1300,applied_in_terminal_b014_candidate,high,active
 abaa1f62-35cb-56e7-ab53-1333804c6b19,d6274bc8-d45e-51f1-91e8-38da3bbe4007,answer_bias,,,high,active
 ad416add-5b05-5f22-8519-0df8fe110e70,06b28e64-c231-50b0-b1f6-648ba4ba5102,source_correction,B014-SC005: This area is labeled as 40% (0.40),applied_in_terminal_b014_candidate,high,active
+ad75ad41-c1d9-53b4-80bc-5bb17966090d,ca0df825-ca52-52be-a3e6-0c3090edaa4c,grammar_subject_verb_agreement,B017-C002: high-confidence upstream copyedit candidate,recorded_not_applied_to_authority,high,active
 ae0d26be-447f-5c37-a2da-ad5e291d4eab,6c1dd36c-f3f2-5b99-b629-a5100d9fbb85,source_correction,B016-SC001: explicit derivative-scoped source correction,applied_in_terminal_b016_candidate,high,active
 aebfa726-cf60-5d94-99cb-1f9284789c13,58d63c22-9830-547d-a469-86fab9cb6f5d,attribution,,,high,active
 aff9275f-3d9a-5670-b842-f58f8fdd8b5a,9e0d4468-5410-57f5-a63f-64d449369bb9,generated_figure_allocation,,,high,active
@@ -93,6 +96,7 @@ b1edac0d-58f6-569c-a6e2-8af925929f85,d6274bc8-d45e-51f1-91e8-38da3bbe4007,answer
 b384d657-c490-51c5-b654-c4301bcfd81d,f03bc0fc-6c96-5db2-8d50-46b2ac141f2b,source_identifier,"The footnote names var{outcome}, but the defined data variable is var{result}.",applied_in_isolated_b010_candidate,high,active
 b4d9cb30-b224-5b6f-ae07-0b77047eba62,38d29400-2764-5109-a7fd-d245c7e52b17,component_rights,,,high,active
 b642518e-29bb-5956-9da7-6255124eb478,affe87a9-0bfc-5ab3-9232-48b74cfd45dc,variable_inventory,,,high,active
+b75ead67-152e-5c89-9dbe-5e2aa87c10a0,ca0df825-ca52-52be-a3e6-0c3090edaa4c,grammar_number_agreement,B017-C001: high-confidence upstream copyedit candidate,recorded_not_applied_to_authority,high,active
 b8fbb49c-1fa0-52b7-98d8-d084de30600f,8b9932bf-3164-5e36-a64a-304ae1894c90,spatial_reference,,,high,active
 ba91278d-5d5f-5b3a-a8d7-1efb8edc6a0e,b4cd26a2-3443-5b4d-9a38-f2d9766ae10a,accessibility_grammar,,,high,active
 ba9a1557-65a1-5584-83ee-8c2a6f5b7be0,4a0f5bef-95db-5c6c-ae94-097778cff15d,layout_reflow_float_and_exercise_header,,,high,active
@@ -100,12 +104,14 @@ c0c83b62-d073-5b03-946b-2bdcf349c676,06b28e64-c231-50b0-b1f6-648ba4ba5102,source
 c208b5ac-52d7-538c-8401-7ad6a8a25f41,8b9932bf-3164-5e36-a64a-304ae1894c90,accessibility_mismatch,,,high,active
 c2fd6c01-237b-51ce-9663-3ac44783b2e4,a132efe2-d782-5317-859e-6b0fd4cab424,answer_terminology_mismatch,,,high,active
 c3212242-374d-5fa8-8b2e-30e50fb99528,4c8457ff-0769-59f0-9a0d-040a50fb107c,source_accessibility,B013-SC003: fourth bin height 25,applied_in_terminal_b013_candidate,high,active
+c324f35f-682e-5e9a-a48c-dded1a0031cb,ca0df825-ca52-52be-a3e6-0c3090edaa4c,grammar_subject_verb_agreement,B017-C004: high-confidence upstream copyedit candidate,recorded_not_applied_to_authority,high,active
 c3720413-ab3d-5ecd-9e2f-6b3bfa4dacd1,17acf038-9821-5e3d-9ffa-1526fab12218,variable_mismatch,,,high,active
 c55eef80-c64e-5a6e-aaf7-08a7f0bdfce2,bac586bc-5065-5e98-a3ae-8376ff0851ac,source_correction,B015-SC001: explicit derivative-scoped source correction,applied_in_terminal_b015_candidate,high,active
 c6243fde-2d91-5b85-ac86-874913c8207a,05ed1aa2-8201-50ff-8cb7-893d51314da9,accessibility_grammar,,,high,active
 caf11286-f797-5346-8cab-f2330eb9974d,0d9c327c-fe75-55f7-a4e4-35bec165ffe1,source_cross_reference,"Public answer 13(c) says 0.21 was computed under independence in part (a), but it is computed in part (b-i).",applied_in_isolated_b010_candidate,high,active
 cb44d141-4fff-5209-a574-d8d6c8c3b266,472bec5c-8b39-5aaa-846f-e89ddd224353,public_answer_numeric_mismatch,,,high,active
 cbc79aac-b4f8-53a9-9ce9-829e7c47e95e,e6ac9457-94fd-5c0e-9e5d-64019cffef9a,accessibility_category_mapping,,,high,active
+d0131d21-abda-57d9-82c8-a7333ba7171e,ca0df825-ca52-52be-a3e6-0c3090edaa4c,grammar_number_agreement,B017-C003: high-confidence upstream copyedit candidate,recorded_not_applied_to_authority,high,active
 d0b81f87-f267-5553-9031-14db536bc3ae,49928af2-5b48-5390-8a64-218e71c10a1a,answer_scope,,,high,active
 d249bb13-aae8-521c-9b28-e05c291c400b,38d29400-2764-5109-a7fd-d245c7e52b17,caption_punctuation,,,high,active
 d492cfbb-f14f-5877-9081-81ab4e32ccbc,089a1c0f-be6b-55c7-889c-45c6aa156692,accessibility_numeric_accuracy,Describe all 12 bins with counts/224 and the verified two-decimal heights.,hold_until_corpus_complete_then_deduplicate,high,active
@@ -114,9 +120,11 @@ d8e6ebb5-202c-5b3c-aa4b-26fe966af32a,7fb6fb37-23be-57f3-af92-f7f18dbb1210,access
 d9c49c61-5c72-56d4-af35-420d2f80fbd0,60a2cb71-2aa1-5917-9379-f7f55474c01a,prose_grammar,,,high,active
 da280165-8428-56f3-bb6e-8275404df5e4,06b28e64-c231-50b0-b1f6-648ba4ba5102,source_correction,B014-SC003: much narrower and but also much taller,applied_in_terminal_b014_candidate,high,active
 dbc2cf88-5ac5-5319-81c0-dc15398bae92,ef7f55d2-6426-5c6b-a525-29e747da8d0b,randomization_scope,,,high,active
+dedb607e-4b35-5f88-a92a-a0c83cdecd20,09ee98f6-b664-51bb-b049-8de2a75f380c,grammar_nominal_construction,B017-C007: high-confidence upstream copyedit candidate,recorded_not_applied_to_authority,high,active
 dfbd0f8f-d53c-5fdd-ae9c-6ce5ec80424f,a36d034f-f5c1-5f04-89ac-c4f4a6cd046d,semantic_tex_macro,,,high,active
 e0a60249-c83e-5140-bfc6-0fcaead40a94,06b28e64-c231-50b0-b1f6-648ba4ba5102,source_correction,B014-SC002: an it is the shape,applied_in_terminal_b014_candidate,high,active
 e29bb9f1-94f5-507a-8610-b23431aea689,5d52d2c3-518e-5fb4-9993-fc3cb99829f2,source_typo,The source says `my have a value`.,applied_in_isolated_b010_candidate,high,active
+e2eab8f6-42dd-544f-9d15-669db1159b39,ca0df825-ca52-52be-a3e6-0c3090edaa4c,copyedit_compound_modifier_hyphenation,B017-C008: high-confidence upstream copyedit candidate,recorded_not_applied_to_authority,high,active
 e4a078c9-b583-5429-a1bd-db333a70a187,47a4fe12-f3c0-587a-b879-47adb3ee9dc9,source_grammar,The source says `independence processes`.,applied_in_isolated_b010_candidate,high,active
 e53d742b-757b-50c3-85be-584d662408fb,a485ca16-e7af-5fc9-a661-2481b3a87b29,source_accessibility,Malformed phrase listed on in the total on the last line.,applied_in_terminal_b012_candidate,high,active
 e5ae681e-52ca-548b-aef2-4023d49c40b1,38d29400-2764-5109-a7fd-d245c7e52b17,figure_description_accuracy,,,high,active

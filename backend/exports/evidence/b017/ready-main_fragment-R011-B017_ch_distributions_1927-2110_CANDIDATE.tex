@@ -1,0 +1,184 @@
+\section{Distribusi binomial negatif}
+\label{negativeBinomial}
+
+\index{distribution!negative binomial|(}
+
+Distribusi geometrik menggambarkan peluang mengamati sukses pertama pada percobaan ke-$n$. \termsub{distribusi binomial negatif}{distribution!negative binomial} lebih umum: distribusi ini menggambarkan peluang mengamati sukses ke-$k$ pada percobaan ke-$n$.
+
+\begin{examplewrap}
+\begin{nexample}{Setiap hari, seorang pelatih sepak bola Amerika di sekolah menengah memberi tahu penendang andalannya, Brian, bahwa ia boleh pulang setelah berhasil mencetak empat field goal dari jarak 35 yard. Misalkan setiap tendangan memiliki peluang sukses $p$. Jika $p$ kecil -- misalnya mendekati 0.1 -- apakah kita memperkirakan Brian akan memerlukan banyak percobaan sebelum berhasil mencetak field goal keempatnya?}
+Kita menunggu sukses keempat ($k=4$). Jika peluang sukses ($p$) kecil, banyaknya percobaan ($n$) kemungkinan besar akan besar. Artinya, Brian lebih mungkin memerlukan banyak percobaan sebelum memperoleh $k=4$ sukses. Dengan kata lain, peluang bahwa $n$ kecil juga rendah.
+\end{nexample}
+\end{examplewrap}
+
+Untuk mengenali kasus binomial negatif, kita memeriksa empat syarat. Tiga syarat pertama sama dengan syarat pada distribusi binomial.
+
+\begin{onebox}{Apakah kasusnya binomial negatif? Empat syarat yang perlu diperiksa}
+(1) Percobaan-percobaan tersebut saling independen. \\
+(2) Hasil setiap percobaan dapat diklasifikasikan sebagai sukses atau gagal. \\
+(3) Peluang sukses ($p$) sama untuk setiap percobaan. \\
+(4) Percobaan terakhir harus menghasilkan sukses.
+\end{onebox}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Misalkan Brian berlatih dengan sangat tekun dan setiap field goal dari jarak 35 yard yang ditendangnya memiliki peluang sukses $p=0.8$. Tebaklah berapa banyak percobaan yang ia perlukan sebelum mencetak field goal keempatnya.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Salah satu jawaban yang mungkin: karena setiap percobaan field goal Brian kemungkinan besar sukses, ia akan memerlukan sekurang-kurangnya 4 percobaan, tetapi mungkin tidak lebih dari 6 atau 7.}
+
+\begin{examplewrap}
+\begin{nexample}{Dalam latihan kemarin, Brian hanya memerlukan 6 percobaan untuk mencetak field goal keempatnya. Tuliskan setiap urutan tendangan yang mungkin.} \label{eachSeqOfSixTriesToGetFourSuccesses}
+Karena Brian memerlukan enam percobaan untuk memperoleh sukses keempat, kita tahu tendangan terakhir pasti sukses. Dengan demikian, tersisa tiga tendangan sukses dan dua tendangan tidak sukses (yang kita sebut gagal) yang menyusun lima percobaan pertama. Pada tabel, $S$ menyatakan sukses dan $F$ menyatakan gagal. Ada sepuluh urutan yang mungkin untuk lima tendangan pertama tersebut, sebagaimana ditampilkan pada Gambar~\ref{successFailureOrdersForBriansFieldGoals}. Jika Brian memperoleh sukses keempatnya ($k=4$) pada percobaan keenam ($n=6$), urutan sukses dan gagalnya harus merupakan salah satu dari sepuluh urutan yang mungkin ini.
+\end{nexample}
+\end{examplewrap}
+
+\begin{figure}[ht]
+\newcommand{\succObs}[1]{{\color{oiB}$\stackrel{#1}{S}$}}
+\centering
+\begin{tabular}{c|c ccc cl | r}
+\multicolumn{8}{c}{\hspace{10mm}Percobaan Tendangan} \\
+& & 1 & 2 & 3 & 4 & \multicolumn{2}{l}{5\hfill6} \\
+\hline
+1&& $F$ & $F$ & \succObs{1} & \succObs{2} & \succObs{3} & \succObs{4} \\
+2&& $F$ & \succObs{1} & $F$ & \succObs{2} & \succObs{3} & \succObs{4} \\
+3&& $F$ & \succObs{1} & \succObs{2} & $F$ & \succObs{3} & \succObs{4} \\
+4&& $F$ & \succObs{1} & \succObs{2} & \succObs{3} & $F$ & \succObs{4} \\
+5&& \succObs{1} & $F$ & $F$ & \succObs{2} & \succObs{3} & \succObs{4} \\
+6&& \succObs{1} & $F$ & \succObs{2} & $F$ & \succObs{3} & \succObs{4} \\
+7&& \succObs{1} & $F$ & \succObs{2} & \succObs{3} & $F$ & \succObs{4} \\
+8&& \succObs{1} & \succObs{2} & $F$ & $F$ & \succObs{3} & \succObs{4} \\
+9&& \succObs{1} & \succObs{2} & $F$ & \succObs{3} & $F$ & \succObs{4} \\
+10&& \succObs{1} & \succObs{2} & \succObs{3} & $F$ & $F$ & \succObs{4} \\
+\end{tabular}
+\caption{Sepuluh urutan yang mungkin ketika tendangan sukses keempat terjadi pada percobaan keenam.}
+\label{successFailureOrdersForBriansFieldGoals}
+\end{figure}
+
+\begin{exercisewrap}
+\begin{nexercise} \label{probOfEachSeqOfSixTriesToGetFourSuccesses}
+Setiap urutan pada Gambar~\ref{successFailureOrdersForBriansFieldGoals} memiliki tepat dua hasil gagal dan empat hasil sukses, dengan percobaan terakhir selalu sukses. Jika peluang sukses adalah $p=0.8$, carilah peluang urutan pertama.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Urutan pertama:
+  $0.2 \times 0.2 \times 0.8 \times
+      0.8 \times 0.8 \times 0.8
+    = 0.0164$.}
+
+\D{\newpage}
+
+Jika peluang Brian berhasil mencetak field goal dari jarak 35 yard adalah $p=0.8$, berapa peluang bahwa Brian memerlukan tepat enam percobaan untuk mencetak field goal keempatnya? Kita dapat menuliskannya sebagai
+{\small\begin{align*}
+&P(\text{Brian memerlukan enam percobaan untuk mencetak empat field goal}) \\
+& \quad = P(\text{Brian mencetak field goal pada tiga dari lima percobaan pertamanya dan pada percobaan keenam}) \\
+& \quad = P(\text{urutan ke-$1$ ATAU urutan ke-$2$ ATAU ... ATAU urutan ke-$10$})
+\end{align*}
+}dengan urutan-urutan yang berasal dari Gambar~\ref{successFailureOrdersForBriansFieldGoals}. Peluang terakhir ini dapat kita uraikan menjadi jumlah sepuluh kemungkinan yang saling lepas:
+{\small\begin{align*}
+&P(\text{urutan ke-$1$ ATAU urutan ke-$2$ ATAU ... ATAU urutan ke-$10$}) \\
+&\quad = P(\text{urutan ke-$1$}) + P(\text{urutan ke-$2$}) + \cdots + P(\text{urutan ke-$10$})
+\end{align*}
+}Peluang urutan pertama telah diperoleh dalam Latihan Terbimbing~\ref{probOfEachSeqOfSixTriesToGetFourSuccesses} sebagai 0.0164, dan setiap urutan lainnya memiliki peluang yang sama. Karena masing-masing dari sepuluh urutan tersebut memiliki peluang yang sama, peluang totalnya adalah sepuluh kali peluang satu urutan.
+
+Cara menghitung peluang binomial negatif ini serupa dengan cara menyelesaikan persoalan binomial pada Bagian~\ref{binomialModel}. Peluang tersebut diuraikan menjadi dua bagian:
+\begin{align*}
+&P(\text{Brian memerlukan enam percobaan untuk mencetak empat field goal}) \\
+&= [\text{Banyaknya urutan yang mungkin}] \times P(\text{Satu urutan})
+\end{align*}
+Kita menelaah setiap bagian secara terpisah, lalu mengalikannya untuk memperoleh hasil akhir.
+
+Mula-mula kita menentukan peluang satu urutan. Salah satu kasus khusus adalah mengamati semua hasil gagal terlebih dahulu (sebanyak $n-k$), kemudian diikuti oleh $k$ hasil sukses:
+\begin{align*}
+&P(\text{Satu urutan}) \\
+&= P(\text{$n-k$ hasil gagal, kemudian $k$ hasil sukses}) \\
+&= (1-p)^{n-k} p^{k}
+\end{align*}
+
+\D{\newpage}
+
+Kita juga harus menentukan banyaknya urutan untuk kasus umum. Di atas, kita memperoleh sepuluh urutan ketika sukses keempat terjadi pada percobaan keenam. Urutan-urutan ini diperoleh dengan menetapkan pengamatan terakhir sebagai sukses dan mencari semua cara menyusun pengamatan lainnya. Dengan kata lain, ada berapa cara menyusun $k-1$ sukses dalam $n-1$ percobaan? Jumlah ini dapat diperoleh menggunakan koefisien $n$ pilih $k$, tetapi untuk $n-1$ dan $k-1$:
+\begin{align*}
+{n-1 \choose k-1} = \frac{(n-1)!}{(k-1)! \left((n-1) - (k-1)\right)!} = \frac{(n-1)!}{(k-1)! \left(n - k\right)!}
+\end{align*}
+Inilah banyaknya cara berbeda untuk mengurutkan $k-1$ sukses dan $n-k$ gagal dalam $n-1$ percobaan. Jika notasi faktorial (tanda seru) belum Anda kenal, lihat halaman~\pageref{factorial_defined}.
+
+\begin{onebox}{Distribusi binomial negatif}
+  Distribusi binomial negatif menggambarkan
+  peluang mengamati sukses ke-$k$ pada
+  percobaan ke-$n$, ketika semua percobaan saling independen:
+  \begin{align*}
+  P(\text{sukses ke-$k$ pada percobaan ke-$n$})
+      = {n-1 \choose k-1} p^{k}(1-p)^{n-k}
+  \end{align*}
+  Nilai $p$ menyatakan peluang bahwa
+  satu percobaan menghasilkan sukses.
+\end{onebox}
+
+\begin{examplewrap}
+\begin{nexample}{Tunjukkan dengan menggunakan rumus distribusi binomial negatif bahwa peluang Brian mencetak field goal keempatnya pada percobaan keenam adalah 0.164.}
+Peluang sukses dalam satu percobaan adalah $p=0.8$, banyaknya sukses adalah $k=4$, dan banyaknya percobaan yang diperlukan dalam skenario ini adalah $n=6$.
+\begin{align*}
+{n-1 \choose k-1}p^k(1-p)^{n-k}\ 
+	=\ \frac{5!}{3!2!} (0.8)^4 (0.2)^2\ 
+	=\ 10\times 0.0164\ 
+	=\ 0.164
+\end{align*}
+\end{nexample}
+\end{examplewrap}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Distribusi binomial negatif mensyaratkan percobaan-percobaan tendangan Brian saling independen. Menurut Anda, apakah masuk akal untuk menganggap percobaan-percobaan tendangan Brian saling independen?\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Jawaban dapat bervariasi. Kita tidak dapat menyimpulkan secara pasti bahwa percobaan-percobaan tersebut saling independen ataupun tidak. Namun, banyak tinjauan statistik atas performa atletik menunjukkan bahwa percobaan semacam ini nyaris saling independen.}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Anggaplah percobaan-percobaan tendangan Brian saling independen. Berapa peluang bahwa Brian akan mencetak field goal keempatnya dalam lima percobaan pertama?\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Jika field goal keempatnya ($k=4$) terjadi dalam lima percobaan pertama, Brian memerlukan empat atau lima percobaan ($n=4$ atau $n=5$). Dari uraian sebelumnya, kita memiliki $p=0.8$. Gunakan distribusi binomial negatif untuk menghitung peluang $n = 4$ percobaan dan $n=5$ percobaan, lalu jumlahkan kedua peluang tersebut:
+\begin{align*}
+& P(n=4\text{ ATAU }n=5) = P(n=4) + P(n=5) \\
+&\quad = {4-1 \choose 4-1} 0.8^4 + {5-1 \choose 4-1} (0.8)^4(1-0.8) = 1\times 0.41 + 4\times 0.082 = 0.41 + 0.33 = 0.74
+\end{align*}}
+
+\D{\newpage}
+
+\begin{onebox}{Binomial versus binomial negatif}
+  Dalam kasus binomial, kita biasanya memiliki jumlah percobaan
+  yang tetap dan meninjau banyaknya sukses.
+  Dalam kasus binomial negatif, kita menelaah berapa banyak percobaan
+  yang diperlukan untuk mengamati jumlah sukses yang tetap dan
+  mensyaratkan bahwa pengamatan terakhir berupa sukses.
+\end{onebox}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Pada 70\% hari, sebuah rumah sakit menerima setidaknya satu pasien serangan jantung. Pada 30\% hari, rumah sakit tersebut tidak menerima pasien serangan jantung. Tentukan apakah setiap kasus di bawah ini merupakan kasus binomial atau binomial negatif, lalu hitung peluangnya.\footnotemark
+\begin{enumerate}[(a)]
+\setlength{\itemsep}{0mm}
+\item Berapa peluang rumah sakit tersebut menerima
+    pasien serangan jantung pada tepat tiga hari minggu ini?
+
+\item Berapa peluang bahwa hari kedua dengan pasien
+    serangan jantung merupakan hari keempat dalam minggu ini?
+
+\item Berapa peluang bahwa hari kelima bulan depan
+    merupakan hari pertama dengan pasien serangan jantung?
+\end{enumerate}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Pada setiap bagian, $p=0.7$. (a) Jumlah hari tetap, jadi kasus ini binomial. Parameternya adalah $k=3$ dan $n=7$: 0.097. (b) ``Sukses'' terakhir (menerima pasien serangan jantung) ditetapkan pada hari terakhir, sehingga kita harus menerapkan distribusi binomial negatif. Parameternya adalah $k=2$, $n=4$: 0.132. (c) Persoalan ini merupakan kasus binomial negatif dengan $k=1$ dan $n=5$: 0.006. Perhatikan bahwa kasus binomial negatif ketika $k=1$ sama dengan menggunakan distribusi geometrik.}
+
+\index{distribution!negative binomial|)}
+
+
+{\input{ch_distributions/TeX/negative_binomial_distribution.tex}}
+
+
+
+
+
+%_________________
