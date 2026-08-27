@@ -1,0 +1,84 @@
+{
+  "$schema": "interlanguage.r011-b018-reader-correction-receipt/v1",
+  "boundary_id": "R011-B018",
+  "status": "PASS_FALSE_MIXED_LANGUAGE_READER_SUPERSEDED_BY_BOUNDARY_CLEAN_PARTIAL_READER",
+  "correction_date": "2026-08-27",
+  "production_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "superseded_reader": {
+    "path": "output/pdf/statistika-berbasis-data-batas-R011-B018.pdf",
+    "historical_evidence_path": "qa/b018-build/final/main.pdf",
+    "pages": 428,
+    "bytes": 22033342,
+    "sha256": "27a6b73550e2f26276a7e58dcb35bfc97a0bc2322cea028e38684b251f444802",
+    "superseded": true,
+    "learner_reader_eligible": false,
+    "reason": "This full-source rendering contained untranslated English review exercises and the untranslated source tail, so it was not a truthful Indonesian learner reader and must not be packaged, published, or counted as Indonesian output."
+  },
+  "learner_reader": {
+    "path": "output/pdf/statistika-berbasis-data-batas-R011-B018.pdf",
+    "pages": 176,
+    "bytes": 9981855,
+    "sha256": "f6c0f27bbe2a5e20d07a7e15b6ecb6d99787f7fcc412d0fe9098629d3433efe8",
+    "boundary_clean": true,
+    "coverage": {
+      "through": "Indonesian front matter and Chapters 1-4 through Chapter 4 Section 4.5 / Distribusi Poisson",
+      "answer_appendix": "Curated accepted upstream-public answers through Chapter 3 answer 37 and Chapter 4 answer 33",
+      "untranslated_instructional_or_exercise_prose_pages": 0,
+      "all_pages_adjudicated": true
+    }
+  },
+  "source_closure": {
+    "path": "qa/b018-build/source-snapshot-b018",
+    "contains_untranslated_source": true,
+    "counts_as_learner_output": false,
+    "purpose": "Exact source, asset, and deterministic-build reproducibility closure; untranslated source bytes are retained only as source evidence and future translation input."
+  },
+  "qa": {
+    "build": {
+      "path": "qa/b018-reader-correction/R011-B018_BOUNDARY_CLEAN_BUILD_QA.json",
+      "bytes": 6859,
+      "sha256": "5eeeaab53f993bcc01619da02e2a681c2791109fb960b87b00f7523cf3790eea",
+      "status": "PASS_TWO_REPLAY_DETERMINISTIC_BOUNDARY_CLEAN_BUILD_LANGUAGE_AND_VISUAL_QA_PENDING",
+      "deterministic_pdf_replay_passed": true,
+      "pending_language_and_visual_gates_discharged_by_separate_bound_receipts": true
+    },
+    "pagewise_language": {
+      "path": "qa/b018-reader-correction/R011-B018_PAGEWISE_LANGUAGE_QA.json",
+      "bytes": 77798,
+      "sha256": "bf26f469668a1cf545c824a01f9685037c3e12b59da34d72ce8186b52c126a97",
+      "status": "PASS_ALL_176_PAGES_ADJUDICATED_NO_UNTRANSLATED_INSTRUCTIONAL_OR_EXERCISE_PROSE"
+    },
+    "visual": {
+      "path": "qa/b018-reader-correction/R011-B018_VISUAL_QA.json",
+      "bytes": 51482,
+      "sha256": "5d72a6eecf581fca9914317c87ebb70280c7c01dfa50356885b450453dcdee5f",
+      "status": "PASS_ALL_176_PAGES_VISUALLY_INSPECTED_ZERO_DEFECTS"
+    },
+    "combined_status": "PASS_DETERMINISTIC_BUILD_PAGEWISE_LANGUAGE_AND_WHOLE_READER_VISUAL_QA"
+  },
+  "claims": {
+    "learner_reader_total_pages": 176,
+    "accepted_indonesian_reader_pages": 176,
+    "untranslated_instructional_or_exercise_prose_pages": 0,
+    "all_pages_adjudicated": true,
+    "visual_defect_count": 0,
+    "full_source_closure_contains_untranslated_source": true,
+    "source_closure_counted_as_learner_output": false,
+    "page_count_is_artifact_extent_not_translation_progress": true
+  },
+  "immutable_historical_evidence_preserved": [
+    "qa/b018-build/final/main.pdf",
+    "qa/R011-B018_BOUNDARY_RECEIPT.json",
+    "qa/b018-admission/R011-B018_ADMISSION_TRANSACTION_JOURNAL.json",
+    "qa/b018-admission/R011-B018_POST_ADMISSION_VERIFICATION.json"
+  ],
+  "publication": {
+    "published": false,
+    "latest_verified_public_boundary": "R011-B017",
+    "replacement_release_contract": "release/b018/R011-B018-v2026.08.27.1/RELEASE_INPUTS.json",
+    "old_release_prep_contract": "qa/b018-release-prep/R011-B018_RELEASE_INPUTS.json",
+    "old_release_prep_contract_superseded": true
+  },
+  "upstream_contacted": false,
+  "git_used": false
+}

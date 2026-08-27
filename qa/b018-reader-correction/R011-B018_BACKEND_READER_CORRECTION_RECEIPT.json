@@ -1,0 +1,164 @@
+{
+  "$schema": "interlanguage.r011-b018-reader-backend-correction-receipt/v1",
+  "boundary_id": "R011-B018",
+  "status": "PASS_ADMITTED_REPLAY_PROOF_B018_READER_BACKEND_CORRECTION",
+  "recorded_at": "2026-08-27T20:00:00+02:00",
+  "production_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "base": {
+    "manifest": {
+      "path": "backend/exports/manifest.json",
+      "bytes": 98256,
+      "sha256": "68dadcbf2b8f987c3253a84e634c9c56542effc46834c48ececc65fd8f1c5a5e"
+    },
+    "record_count": 6714,
+    "record_counts": {
+      "artifacts": 483,
+      "assets": 357,
+      "concepts": 232,
+      "corrections": 139,
+      "courses": 1,
+      "editions": 1,
+      "localizations": 574,
+      "programs": 1,
+      "qa_events": 216,
+      "relations": 3257,
+      "resources": 1,
+      "rights": 45,
+      "segments": 574,
+      "terms": 264,
+      "units": 569
+    }
+  },
+  "inputs": {
+    "reader_pdf": {
+      "path": "output/pdf/statistika-berbasis-data-batas-R011-B018.pdf",
+      "bytes": 9981855,
+      "sha256": "f6c0f27bbe2a5e20d07a7e15b6ecb6d99787f7fcc412d0fe9098629d3433efe8"
+    },
+    "build_qa": {
+      "path": "qa/b018-reader-correction/R011-B018_BOUNDARY_CLEAN_BUILD_QA.json",
+      "bytes": 6859,
+      "sha256": "5eeeaab53f993bcc01619da02e2a681c2791109fb960b87b00f7523cf3790eea"
+    },
+    "correction_receipt": {
+      "path": "qa/b018-reader-correction/R011-B018_READER_CORRECTION_RECEIPT.json",
+      "bytes": 4023,
+      "sha256": "cb1f1be38c4d45e66c3fe9550a245cc6a86ec0a2d074814bdfecb745ad3424fa"
+    },
+    "language_qa": {
+      "path": "qa/b018-reader-correction/R011-B018_PAGEWISE_LANGUAGE_QA.json",
+      "bytes": 77798,
+      "sha256": "bf26f469668a1cf545c824a01f9685037c3e12b59da34d72ce8186b52c126a97"
+    },
+    "visual_qa": {
+      "path": "qa/b018-reader-correction/R011-B018_VISUAL_QA.json",
+      "bytes": 51482,
+      "sha256": "5d72a6eecf581fca9914317c87ebb70280c7c01dfa50356885b450453dcdee5f"
+    }
+  },
+  "tool": {
+    "path": "scripts/correct_backend_b018_reader.py",
+    "bytes": 51014,
+    "sha256": "7626fa913ec225c27b0286d0ca49f3e32a08e6045dfbe2a927f5ff9f4be3e215"
+  },
+  "old_reader": {
+    "id": "2e332639-9f15-599f-8d3e-6bf805c99085",
+    "stable_key": "r011/artifact/b018/terminal/reader_pdf",
+    "bytes": 22033342,
+    "sha256": "27a6b73550e2f26276a7e58dcb35bfc97a0bc2322cea028e38684b251f444802",
+    "pages": 428,
+    "evidence_copy_path": "evidence/b018/terminal-reader_pdf-main.pdf",
+    "status": "superseded",
+    "learner_reader_eligible": false,
+    "evidence_bytes_preserved": true
+  },
+  "active_reader": {
+    "id": "74bfd09d-836d-5867-b318-7a9d6452ccd1",
+    "stable_key": "r011/artifact/b018/learner-reader-boundary-clean/v1",
+    "path": "output/pdf/statistika-berbasis-data-batas-R011-B018.pdf",
+    "bytes": 9981855,
+    "sha256": "f6c0f27bbe2a5e20d07a7e15b6ecb6d99787f7fcc412d0fe9098629d3433efe8",
+    "pages": 176,
+    "accepted_indonesian_reader_pages": 176,
+    "untranslated_instructional_or_exercise_prose_pages": 0
+  },
+  "records": {
+    "added": {
+      "artifacts": 5,
+      "qa_events": 3,
+      "relations": 9
+    },
+    "mutated_historical_artifact_records": 1,
+    "record_count": 6731,
+    "record_counts": {
+      "artifacts": 488,
+      "assets": 357,
+      "concepts": 232,
+      "corrections": 139,
+      "courses": 1,
+      "editions": 1,
+      "localizations": 574,
+      "programs": 1,
+      "qa_events": 219,
+      "relations": 3266,
+      "resources": 1,
+      "rights": 45,
+      "segments": 574,
+      "terms": 264,
+      "units": 569
+    }
+  },
+  "determinism": {
+    "independent_delta_runs": 2,
+    "independent_delta_runs_byte_identical": true,
+    "delta_inventory": {
+      "identity_kind": "directory-inventory-tsv-sha256/v1",
+      "files": 12,
+      "bytes": 5655312,
+      "sha256": "80e826ac2e80503a1638ac0e4fce9dded63c04d3dbf8a29e9bfb75a3ef8f0f20"
+    },
+    "manifest": {
+      "path": "backend/exports/manifest.json",
+      "bytes": 102004,
+      "sha256": "c40cf2d11fe566220f6454bb47f24045c8863fff99c5f81b63e3536c78980821"
+    },
+    "backend_inventory": {
+      "identity_kind": "directory-inventory-tsv-sha256/v1",
+      "files": 505,
+      "bytes": 268836351,
+      "sha256": "25cf44654ee52491ead192aa821818e8c2404ae6cd1462988ec7b999d372d0d4"
+    },
+    "canonical_json_replay": true,
+    "stable_uuid_v5_replay": true,
+    "changed_and_new_records_schema_valid": true,
+    "changed_and_new_records_schema_validated": 18,
+    "unrelated_admitted_records_rewritten_for_legacy_schema_debt": false,
+    "referential_integrity": true,
+    "csv_views_regenerated": [
+      "views/artifacts.csv",
+      "views/qa_build_events.csv",
+      "views/relations.csv"
+    ],
+    "identity_map_regenerated": true,
+    "manifest_written_last": true,
+    "old_428_page_evidence_copy_unchanged": true
+  },
+  "claims": {
+    "learner_reader_pages": 176,
+    "accepted_indonesian_reader_pages": 176,
+    "untranslated_instructional_or_exercise_prose_pages": 0,
+    "full_source_closure_contains_untranslated_source": true,
+    "full_source_closure_counted_as_learner_output": false
+  },
+  "transaction": {
+    "preimages": "qa/b018-reader-correction/backend-preimages/PREIMAGE_MANIFEST.json",
+    "journal": "qa/b018-reader-correction/R011-B018_BACKEND_READER_CORRECTION_JOURNAL.json",
+    "rollback_exact": true,
+    "deleted_paths": []
+  },
+  "git_used": false,
+  "network_used": false,
+  "credentials_inspected": false,
+  "publication_performed": false,
+  "upstream_contact": false
+}

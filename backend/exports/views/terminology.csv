@@ -11,6 +11,7 @@ id,concept_id,source_term,target_term,locale,variants,rejected_forms,scope,regis
 09060896-d098-533f-8671-26f7e18587e3,7131b35d-75bf-50f1-b84f-097a1a701603,infection rate,tingkat infeksi,id-ID,[],[],clinical outcome,academic,structurally_verified
 0997154d-ea25-5c11-b1b6-d5eb4ab83016,95daced2-807a-5d48-afd8-5f09ba02c109,variable,variabel,id-ID,[],[],data structure,academic,draft
 0a080577-04bc-53db-bdb4-43407e37de02,e9a6e4cc-caba-5bad-9309-d2886cfd92a0,contingency table,tabel kontingensi,id-ID,[],[],categorical data summary,academic,translated
+0a328ab1-70b0-5d1a-8903-fdf36b7a6e18,1d7d9fe4-d2c0-59b6-b1bf-d611ddee54b6,exponential family,keluarga eksponensial,id-ID,[],[],confirmed future generalized-linear-model terminology control,academic,language_reviewed
 0a770ce4-6a21-5c03-956c-b7b276428843,7ad0d4c2-d0c4-58cb-9125-663ee48ad159,outlier,pencilan,id-ID,[],[],descriptive statistics,academic,translated
 0ab25d83-8449-54c6-90f3-bcea3b47850d,fc6851d4-6875-5227-bfdb-3afaa8eae19f,success,sukses,id-ID,"[""berhasil"",""keberhasilan""]",[],statistics / Chapter 4 Section 4.4,academic,language_reviewed
 0ab32758-1997-5764-b1d9-741de9a93012,f8a6b8b8-6f26-54a7-b2de-52bb51b75e33,ordinal variable,variabel ordinal,id-ID,[],[],ordered categorical variable,academic,draft
@@ -47,6 +48,7 @@ id,concept_id,source_term,target_term,locale,variants,rejected_forms,scope,regis
 30984b12-1b95-594b-b191-2d6f765fc25f,1a6cc19b-f238-53ec-bccd-bcf62581ddf7,probability distribution,distribusi probabilitas,id-ID,"[""distribusi peluang""]",[],probability / Chapter 3 Section 3.2,academic,language_reviewed
 30e27146-5557-57a4-9dc7-cb5028ea0d36,b95722e8-ab2b-5b26-9f71-c3d079805c9e,fixed number of successes,jumlah sukses yang tetap,id-ID,"[""banyak sukses tetap""]",[],statistics / Chapter 4 Section 4.4,academic,language_reviewed
 31082fff-22c0-5d60-90bd-ed7ed9ced310,ac2a4487-23dc-53d8-b610-b7e17d9287b0,standard deviation,simpangan baku,id-ID,"[""deviasi standar""]",[],probability / Chapter 3 Section 3.4,academic,language_reviewed
+31e33b36-1eee-5c36-a67f-a3be5b2a10dd,3ee4acb8-ee7f-51da-be6d-68438b09521d,independent,saling independen,id-ID,"[""saling bebas""]",[],statistics / Chapter 4 Section 4.5,academic,language_reviewed
 3206c0c4-6508-51df-96df-d70381242bf5,c67dba19-84f0-5b64-b955-58d15000bd0d,random process,proses acak,id-ID,[],[],probability / Chapter 3,academic,language_reviewed
 32e37e3a-8a98-58e9-91c4-6cec06c85833,04bbd70c-62b1-5644-9709-ea1ac3e2d6bd,independent trials,percobaan yang saling independen,id-ID,"[""percobaan saling bebas""]",[],statistics / Chapter 4 Section 4.3,academic,language_reviewed
 3379d19f-bd6f-544a-be6a-e01a2a18da2d,744f1908-fee6-5f95-957e-eed201c22687,categorical data,data kategoris,id-ID,[],[],data type,academic,translated
@@ -58,9 +60,11 @@ id,concept_id,source_term,target_term,locale,variants,rejected_forms,scope,regis
 392aeb23-cf81-5fb1-b49e-eb4f8bc4f6e8,e61e362e-581d-5714-997f-4aa90b687440,probability of success,peluang sukses,id-ID,"[""peluang keberhasilan""]",[],statistics / Chapter 4 Section 4.2,academic,language_reviewed
 3c73daa6-a706-5da0-92ff-c2a49589ef14,9e9ea1cf-0d5d-5db9-a084-9452e9de2a79,nonresponse bias,bias nonrespons,id-ID,[],[],sampling and study design,academic,draft
 3d981594-e526-55b7-ae84-b9732ce45331,2ba94c3f-c1a6-5a03-b893-c50de2cc16e8,complement,komplemen,id-ID,[],[],probability / Chapter 3,academic,language_reviewed
+3eb3556b-14b6-5f91-ac1c-f7aa9097fd10,48c23f67-64c9-5732-9cc1-1e9caae466b8,event,peristiwa,id-ID,"[""kejadian""]",[],statistics / Chapter 4 Section 4.5,academic,language_reviewed
 3efb70b1-68e9-5495-b1b3-7e4695351804,94a6e094-21f4-554c-8620-041fcacbbf33,bias,bias,id-ID,[],[],sampling and study design,academic,draft
 3f42f00d-8d98-51a5-a6c7-a62eedec096f,11a73379-6e22-527e-9bee-2665933bbf0a,failure,gagal,id-ID,"[""kegagalan""]",[],statistics / Chapter 4 Section 4.2,academic,language_reviewed
 409abc70-ac52-5542-b8ce-1c8d454aa8f2,6e9a38b9-583e-59bd-92c0-d5996673d712,variance,varians,id-ID,"[""variansi""]",[],probability / Chapter 3 Section 3.4,academic,language_reviewed
+41ec91bb-fd46-51f0-9848-3d724cbab184,46f92235-c8d4-52cd-a423-4f8694d2624f,link function,fungsi hubung,id-ID,[],[],confirmed future generalized-linear-model terminology control,academic,language_reviewed
 448b58dc-ad89-509a-890f-b0d68a8858c7,6e9a38b9-583e-59bd-92c0-d5996673d712,variance,varians,id-ID,"[""variansi""]",[],statistics / Chapter 4 Section 4.2,academic,language_reviewed
 4546c9ea-be2b-5cfa-8d03-648d16b80207,3e1a17b0-923b-58e8-aef7-c71954373c12,side-by-side box plot,diagram kotak berdampingan,id-ID,[],[],data visualization,academic,translated
 4564597e-c55a-5686-b8d7-08b238dccf35,eb5160bc-0f69-5c20-914c-03003d1884f3,combination,kombinasi,id-ID,[],[],statistics / Chapter 4 Section 4.3,academic,language_reviewed
@@ -69,6 +73,7 @@ id,concept_id,source_term,target_term,locale,variants,rejected_forms,scope,regis
 49d4bd87-be0e-57ff-baaa-44a017a6a3d0,a4f55b03-c86d-5c82-a0fc-02bfac461202,factorial,faktorial,id-ID,[],[],statistics / Chapter 4 Section 4.3,academic,language_reviewed
 4c37b482-cca1-50b7-952a-8e5cc4d3b38b,7cddef10-0879-5b02-9632-f5566ac06eb8,blinding,penyamaran,id-ID,[],[],experimental design,academic,draft
 4cfdda7d-3835-523d-8f5a-4cf398232fe3,3ee4acb8-ee7f-51da-be6d-68438b09521d,independent,saling independen,id-ID,"[""saling bebas""]",[],statistics / Chapter 4 Section 4.2,academic,language_reviewed
+4d13c5ee-d4b8-501c-b195-d07ff26190ba,bbfa7b30-c8bc-546d-9f82-b4e8276f8459,right skewed,menceng kanan,id-ID,"[""miring ke kanan""]",[],statistics / Chapter 4 Section 4.5,academic,language_reviewed
 4d980527-ca0e-557a-a281-6c4c827f4884,91ffcb2d-2cb3-5908-bbff-8fa800c3be02,factor,faktor,id-ID,[],[],experimental design,academic,draft
 4f55d337-8ea1-5765-a97e-5c3f366dc367,1c87b461-e810-5347-bdcb-a569dd413433,probability distribution,distribusi probabilitas,id-ID,[],[],probability / Chapter 3,academic,language_reviewed
 4f823135-2b88-5d0d-810a-cdc17efefa6f,3ee4acb8-ee7f-51da-be6d-68438b09521d,independent,saling independen,id-ID,[],[],relationship between variables,academic,translated
@@ -110,6 +115,7 @@ id,concept_id,source_term,target_term,locale,variants,rejected_forms,scope,regis
 6dc6c21b-9efc-5fda-a2dd-b565559d7184,e925381c-407a-5907-a2f7-fcce2ea052f1,column proportion,proporsi kolom,id-ID,[],[],contingency table,academic,translated
 718d1034-b224-5046-912d-653350a48744,972c6da8-d06c-556d-b0dd-ac4485450eff,standard deviation,simpangan baku,id-ID,"[""deviasi standar""]",[],statistics / Chapter 4 Section 4.1,academic,language_reviewed
 726b9a1f-0ccf-5dd6-bb64-b6449b722075,d1db6444-a2a0-53bc-add5-e9d5991d65b2,histogram,histogram,id-ID,[],[],data visualization,academic,translated
+75685007-3d8b-5555-a0de-2e11114d50d3,a7898300-d72c-5848-8381-61d16c8cbabe,generalized linear model,model linear terampat,id-ID,[],[],statistics / Chapter 4 Section 4.5,academic,language_reviewed
 75ce28b0-5f11-5993-8c30-b3ca3e096598,18f2f74b-b41f-5b82-a1e4-87b4832fa375,proportion,proporsi,id-ID,[],[],quantitative,academic,draft
 761874e8-d97a-5703-b2b9-26f852f5f19a,c2e99a3e-a345-518a-bb72-b1e988f449c2,sample size,ukuran sampel,id-ID,[],[],statistics / Chapter 4 Section 4.3,academic,language_reviewed
 77090c32-2ca4-5d0d-b2cf-4647e7cd8bc3,0a8b2cb4-789e-5bb5-b768-173e8b01a897,tail area,luas ekor,id-ID,"[""luas daerah ekor""]",[],statistics / Chapter 4 Section 4.1,academic,language_reviewed
@@ -129,6 +135,7 @@ id,concept_id,source_term,target_term,locale,variants,rejected_forms,scope,regis
 89b88e44-05db-5d66-ab33-ba624855eed7,5594ac04-c075-52ae-b2ea-7374ea43221a,sample,sampel,id-ID,[],[],sampling and study design,academic,draft
 8a8cc522-7df7-5514-bceb-e1cf6fd32a0f,ec5b7564-4a11-5f13-a079-e4729447462a,probability distribution,distribusi peluang,id-ID,"[""distribusi probabilitas""]",[],probability / Chapter 3 Section 3.4,academic,language_reviewed
 8c09d6ee-190e-5564-812d-1d4fd87ac3c1,2c25f8a0-57ca-5170-8226-10347de83596,robust statistic,statistik robust,id-ID,[],[],descriptive statistics,academic,translated
+8c4b5246-4573-5776-8257-a72bc95535b3,17a4a646-5862-55fd-bd56-170bd0185cff,probability,peluang,id-ID,"[""probabilitas""]",[],statistics / Chapter 4 Section 4.5,academic,language_reviewed
 8d28ac25-8464-5802-a620-c4c09be82c97,e61e362e-581d-5714-997f-4aa90b687440,probability of success,peluang sukses,id-ID,"[""peluang keberhasilan""]",[],statistics / Chapter 4 Section 4.3,academic,language_reviewed
 8d290ae4-5cac-5c14-9dd0-269ff207082f,e90ef72c-b9d3-5e62-8048-055e3b8fa020,nonlinear,nonlinear,id-ID,[],[],relationship,academic,translated
 8dc27efa-c8c2-5f21-a9c1-a0fbdbb53fc3,c36cb250-e58e-588e-8947-369ad6ed199a,random noise,derau acak,id-ID,[],[],statistical variation,academic,structurally_verified
@@ -162,6 +169,7 @@ a63b9a4f-41a4-56db-8ac9-31b46a762fbf,4cc64020-3c03-541e-b69a-794f4a04b00c,joint 
 a67d295c-efa5-58d6-a151-9a5474a48ada,0b69cd38-cf6f-5cca-a5ec-2e1b5f80d131,General Addition Rule,Aturan Penjumlahan Umum,id-ID,[],[],probability / Chapter 3,academic,language_reviewed
 a6d85367-f698-54eb-a870-63ff68779b2b,716fc072-1834-5267-8577-8d9a1dfc3c06,randomization,pengacakan,id-ID,[],[],experimental design,academic,draft
 a6ee5cbf-d2ff-5403-ae13-47026a67d819,4ddda568-9dcf-5e00-915c-0a7a2c962ee4,outcome,hasil,id-ID,[],[],probability / Chapter 3,academic,language_reviewed
+a714fe19-ea16-5aa9-b7a0-034eb176efa1,3ee05ce5-34a2-50e0-8414-5488d45e4e15,mean,rata-rata,id-ID,"[""rerata""]",[],statistics / Chapter 4 Section 4.5,academic,language_reviewed
 a71ffb75-8153-5ad8-9575-82135aac2ef0,32f0d81e-fba0-53df-83bf-b17fe4746090,row proportion,proporsi baris,id-ID,[],[],contingency table,academic,translated
 a7652b85-3ecd-5cab-9aac-0df26b0ed27a,c83e824f-46d2-5e04-8b02-024e7508e6cb,distribution shape,bentuk distribusi,id-ID,[],[],chapter review exercises 2.27-2.34,academic,structurally_verified
 a8021580-3fbd-560b-a314-8c7ba8bf1eef,359dcdb7-6b69-5b84-b153-bf01d8ac12e9,probability table,tabel peluang,id-ID,"[""tabel probabilitas""]",[],statistics / Chapter 4 Section 4.1,academic,language_reviewed
@@ -172,6 +180,8 @@ acd9e6dc-2c82-5aa9-b854-99b40a9c92ad,6935d7b2-c75d-581a-9d05-61fe84151ba0,column
 ae358701-4d1e-5346-ba6e-b8b1b888e74d,5119897f-50c1-54cf-83e0-9b594a25483b,binomial distribution,distribusi binomial,id-ID,[],[],statistics / Chapter 4 Section 4.3,academic,language_reviewed
 b01b3909-c30c-54f4-9c60-6d96c5b1c90c,45f8d3c0-ce2a-524f-a354-101d0e34e1f7,joint probability distribution,distribusi peluang bersama,id-ID,"[""distribusi peluang gabungan""]",[],probability / Chapter 3 Section 3.2,academic,language_reviewed
 b0328378-7795-54d4-8423-884d4ef9c869,534b83d0-a5d0-573a-987d-f2e6634f18ed,left skewed,menceng kiri,id-ID,[],[],distribution shape,academic,translated
+b1674539-e749-5417-bc53-87348a2e4d17,932ab370-d921-578f-ab99-902c0afadc36,natural logarithm,logaritma natural,id-ID,"[""logaritma alami""]",[],statistics / Chapter 4 Section 4.5,academic,language_reviewed
+b3615376-312c-580e-8285-c15753206628,16dc5f08-2909-55e7-ab40-0cbd4769742e,Poisson distribution,distribusi Poisson,id-ID,[],[],statistics / Chapter 4 Section 4.5,academic,language_reviewed
 b37a13fb-8a0f-5800-ab25-c8afda22b415,d9cc1f8f-d0ad-5e77-ab4b-1eff72b55d37,alternative model,model alternatif,id-ID,[],[],hypothesis model,academic,structurally_verified
 b6487fca-4d4c-5629-b561-83c08acaa3f4,f045a4b9-4455-5914-b73f-37665f444c58,linear combination,kombinasi linear,id-ID,[],[],probability / Chapter 3 Section 3.4,academic,language_reviewed
 b7b48c9f-ed73-5176-b9e5-26c8477038b6,9b5db75e-8fef-548a-b593-8e264a65087b,hollow histogram,histogram berongga,id-ID,[],[],data visualization,academic,translated
@@ -201,6 +211,7 @@ ce71dd80-b8dd-589f-9bfd-3e8f7f16972b,af5dd421-170b-510e-bd64-753607e825c7,experi
 cef643e1-1290-5e76-8fd1-773a54e80464,2ba94c3f-c1a6-5a03-b893-c50de2cc16e8,complement,komplemen,id-ID,[],[],statistics / Chapter 4 Section 4.2,academic,language_reviewed
 cf4ef6c0-92a7-5c0d-9160-0569e0bf025b,03b93084-0bd0-5fab-9e87-fcf05de1aeb8,sample mean,rata-rata sampel,id-ID,[],[],descriptive statistics,academic,translated
 d02e7a43-d27b-5833-ac79-630cba379c94,dd06bd38-e40b-5f06-915c-388e7446908e,logarithm,logaritma,id-ID,[],[],data transformation,academic,translated
+d03ab322-ac1a-51e9-adee-128479814a76,058a866f-4471-51a5-bd70-0a298261e3e8,linear predictor,prediktor linear,id-ID,[],[],confirmed future generalized-linear-model terminology control,academic,language_reviewed
 d063e2d8-2aeb-557b-88f1-7f60aa18134d,6dc1889e-633f-5de2-b357-59e54d74ca28,deductible,risiko sendiri (deductible),id-ID,"[""deduktibel""]",[],statistics / Chapter 4 Section 4.2,academic,language_reviewed
 d08aa434-e0fb-5f6b-aef9-69b5a2f01f62,622243a1-bf6e-57cc-a60c-026bf145c09d,intensity map,peta intensitas,id-ID,[],[],data visualization,academic,translated
 d1123c1b-3c43-5973-b7f9-4165a0f91670,c5cd16ce-1e9d-5d41-a4d1-fd86b860f467,median,median,id-ID,[],[],descriptive statistics,academic,translated
@@ -221,6 +232,7 @@ dd9b56cc-6f0c-5fe6-b379-e4f622410a34,c5109902-f56d-56a5-919f-e24c141240c0,varian
 ddd74dfb-69bf-5bc0-b0ee-bfc3698baced,60118143-ba25-5c96-9c5f-3fa84995cad5,average,rerata,id-ID,[],[],descriptive statistics synonym,academic,translated
 df9ddca9-49d8-509a-887c-e4d18f7ab6ce,c9b35017-fec8-5e4b-8685-2f4536317b22,heart transplant,transplantasi jantung,id-ID,[],[],Stanford study,academic,structurally_verified
 e0d3431f-7aec-5f7c-9602-6fab43133470,28855bd1-c6a3-5db7-ab73-c0cc4aeb9fae,side-by-side bar plot,diagram batang berdampingan,id-ID,[],[],data visualization,academic,translated
+e454d6d1-a895-54a9-b27b-35e7131fb6d9,aede4f25-48ad-5f80-ba97-51740987ba5c,standard deviation,simpangan baku,id-ID,"[""deviasi standar""]",[],statistics / Chapter 4 Section 4.5,academic,language_reviewed
 e5a6a9b4-0c7b-50eb-a244-5b5b7a90dc53,b3091050-234a-5e25-9b35-62e087b0a405,blocking,pemblokan,id-ID,[],[],experimental design,academic,draft
 e6337ba4-0c66-5333-a648-006841f7d638,3e0ca2a1-19a6-57b9-bfbf-1b8048536dbe,paired data,data berpasangan,id-ID,[],[],data structure,academic,translated
 e8b1ab00-49c4-58e4-b5f3-5e9ab45da64e,d42ddb11-e234-529d-9237-b2891c350f7a,fixed number of trials,jumlah percobaan yang tetap,id-ID,"[""banyak percobaan tetap""]",[],statistics / Chapter 4 Section 4.4,academic,language_reviewed
@@ -231,6 +243,7 @@ eac9ad9b-507e-5477-a53b-f8307ee5ad49,17a4a646-5862-55fd-bd56-170bd0185cff,probab
 ec4d5b6f-0429-5922-b867-2f7bfca2b73b,11a73379-6e22-527e-9bee-2665933bbf0a,failure,gagal,id-ID,"[""kegagalan""]",[],statistics / Chapter 4 Section 4.3,academic,language_reviewed
 ed011d0f-f18f-577c-8512-8f9ede95beec,6a2820ac-4717-5f6b-8357-dfd73437d90e,replication,replikasi,id-ID,[],[],experimental design,academic,draft
 ed2791c2-1cbf-5f9f-ac31-f2a124d5f08d,538cb94d-65ba-51eb-8960-58e221b90da5,random variable,variabel acak,id-ID,"[""peubah acak"",""variabel random""]",[],statistics / Chapter 4 Section 4.2,academic,language_reviewed
+ee600383-fb9d-5419-be1d-45ff659b2f27,e8afef37-1e11-50ff-b234-c2620ee1f5f7,rate,laju,id-ID,"[""tingkat""]",[],statistics / Chapter 4 Section 4.5,academic,language_reviewed
 ef09cbd7-ca24-5ebe-9434-617c107c0282,d02ad5e2-bbe4-5912-b181-e8123916d48e,deviation,simpangan,id-ID,[],[],descriptive statistics,academic,translated
 ef9b1acf-927c-5316-936b-d2006b1649eb,9dd517c1-72ad-5989-9bb7-a20d3b6a5022,Bernoulli trial,percobaan Bernoulli,id-ID,"[""trial Bernoulli""]",[],statistics / Chapter 4 Section 4.2,academic,language_reviewed
 f0202891-e934-54dd-9d00-bb6332e03096,dc1c92e5-7eb1-5000-b1bc-89c2d3151ddd,without replacement,tanpa pengembalian,id-ID,[],[],statistics / Chapter 4 Section 4.2,academic,language_reviewed

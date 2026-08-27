@@ -9,7 +9,3 @@ PDF deterministik: 176 halaman, 9981855 byte, SHA-256 `f6c0f27bbe2a5e20d07a7e15b
 Arsip sumber lengkap disertakan untuk reproduksibilitas dan masih memuat materi sumber berbahasa Inggris setelah batas. Arsip sumber bukan keluaran pembelajar dan tidak dihitung sebagai kemajuan terjemahan. Cursor berikutnya: `repo/ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex:1`, label `foundationsForInference` pada baris 3.
 
 Karya turunan Bahasa Indonesia dari *OpenIntro Statistics*, Edisi Keempat, oleh David M. Diez, Mine Çetinkaya-Rundel, dan Christopher D. Barr. Kontributor: Codex, atas permintaan pengguna. Model: **OpenAI Codex gpt-5.6-sol, Ultra**. No upstream contact was performed.
-
-## Repositori publik
-
-- Zenodo: <https://zenodo.org/records/22133317>

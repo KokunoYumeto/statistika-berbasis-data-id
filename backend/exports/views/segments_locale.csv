@@ -2082,6 +2082,31 @@ Contoh~\ref{threeDice} mengilustrasikan apa yang disebut Aturan Perkalian untuk 
   \chaptersection{negativeBinomial}
   \chaptersection{poisson}
 \end{chapterpage}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""5013dc5b-3a29-5516-9948-98c064aa43e8""]"
+30469567-930b-544d-bfbc-2159bc0f837b,aa5cb6c8-d476-55b8-9f52-8356e0a9e26b,134,exercise,en,ch_distributions/TeX/poisson_distribution.tex,63,86,c574ade63499923b9d112e9930629107b027f94caaaa5e64b8fd9072a5eec210,id-ID,scratch/b018-build-candidate/source-snapshot-b018/ch_distributions/TeX/poisson_distribution.tex,63,86,9f1b3ccd4ea8d3e49c4390e40e3319e5dcf5cda1c4e0341106c67edf24694938,visually_checked,"% 34
+
+\eoce{\qt{Bagasi hilang\label{lost_baggage}}
+Sesekali, sebuah maskapai kehilangan bagasi.
+Misalkan sebuah maskapai kecil mendapati bahwa banyaknya
+bagasi yang hilang setiap hari kerja dapat dimodelkan dengan cukup baik menggunakan
+model Poisson dengan rata-rata 2.2 bagasi.
+\begin{parts}
+\item
+    Berapakah peluang bahwa maskapai tersebut
+    tidak akan kehilangan bagasi pada Senin depan?
+\item
+    Berapakah peluang bahwa maskapai tersebut
+    akan kehilangan 0, 1, atau 2 bagasi pada Senin depan?
+\item
+    Misalkan maskapai tersebut berkembang selama
+    3 tahun berikutnya sehingga jumlah penerbangannya menjadi dua kali lipat,
+    dan direktur utamanya bertanya apakah
+    mereka masih wajar melanjutkan penggunaan
+    model Poisson dengan rata-rata~2.2.
+    Rekomendasi apakah yang tepat?
+    Jelaskan.
+\end{parts}
+}{}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""5c6f7ab4-aec9-55ec-9259-e81faf2ff939""]"
 329fa693-385a-509f-b5fa-db340f86818e,9cdd5f10-ce1d-5869-965a-71b7aee9c5de,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,425,434,3a3d724b376ec9f522a7262672b1391cb571670b6c99c9756671a558f2634b46,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,12,19,6c2c938547ebd39759d6bdab7a4850d4ddea57408fe0d337dab05f03b60c0fd1,language_reviewed,"% 3
 \eocesol{(a)~10 lemparan. Lebih sedikit lemparan berarti proporsi kepala dalam sampel lebih bervariasi,
 sehingga peluang memperoleh setidaknya 60\% kepala lebih besar.
@@ -2179,6 +2204,29 @@ yang tidak biasa, jika ada.
 
 % 41
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""965b18a2-8bea-5a5c-9012-129137cfb727"",""358ce2a1-ab16-5858-8236-9d6bc6abe31a""]"
+34586241-16bc-5528-891e-2bc7e951e722,055411dc-665f-5645-bfc3-7859641c3482,2,worked_example,en,ch_distributions/TeX/ch_distributions.tex,2116,2139,cfe5f1bc2deaac9746f85853e5b58ea8a8392d42d69ade4df4f2d6f7253270f4,id-ID,scratch/b018-build-candidate/source-snapshot-b018/ch_distributions/TeX/ch_distributions.tex,2048,2070,12d2c555a060c01dd179549baf0044aedea2e0a2275a443fd50e7da6bfc65bce,visually_checked,"\begin{examplewrap}
+\begin{nexample}{Kota New York memiliki sekitar 8 juta penduduk.
+    Berapa orang yang diperkirakan akan dirawat di rumah sakit
+    akibat infark miokard akut (acute myocardial infarction, AMI), yaitu serangan jantung,
+    setiap hari?
+    Menurut catatan historis, jumlah rata-ratanya
+    sekitar 4.4 orang.
+    Namun, kita juga ingin mengetahui perkiraan
+    distribusi banyaknya kasus.
+    Seperti apakah histogram banyaknya kasus AMI
+    per hari jika jumlah hariannya dicatat selama
+    satu tahun penuh?}
+  \label{amiIncidencesEachDayOver1YearInNYCExample}%
+  Histogram banyaknya kasus AMI selama 365 hari
+  di Kota New York ditampilkan pada
+  Gambar~\ref{amiIncidencesOver100Days}.\footnotemark{}
+  Rata-rata sampel (4.38) serupa dengan rata-rata historis
+  sebesar~4.4.
+  Simpangan baku sampel sekitar 2, dan histogram
+  menunjukkan bahwa sekitar 70\% data berada di antara 2.4 dan~6.4.
+  Bentuk distribusinya unimodal dan menceng kanan.
+\end{nexample}
+\end{examplewrap}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""5c6f7ab4-aec9-55ec-9259-e81faf2ff939""]"
 361876a0-0c09-5033-b927-7a89582e7cd2,168bbda2-828e-5071-9433-7c4c114136ba,1,guided_exercise,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,256,259,0c55a8f7a9820014053429f8a1759ae934aa842685ca1f559e5d8e0189f081b5,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,253,256,736e327baa796e535187f5a62ec648d3e261b02029dc2f68753616e5489530f0,translated,"\begin{nexercise}
 Berapakah $n$ dalam sampel pinjaman
 ini?\footnotemark{}
@@ -2501,6 +2549,14 @@ Gambarlah situasi untuk setiap bagian. \\
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""5013dc5b-3a29-5516-9948-98c064aa43e8""]"
+3dc76ac8-e8eb-51cb-962f-0e844b37adaf,f99edd5f-6026-5838-ba73-8d1c360754ca,231,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,767,773,4ff6329eebe8db367a9ef3fb8c658216b44da9694cac694088513d912565c572,id-ID,scratch/b018-build-candidate/source-snapshot-b018/extraTeX/eoceSolutions/eoceSolutions.tex,825,831,b933e77db5e897d20489f8a1769a9e18809e95dc30b99cd53c51b1ed538cbc8f,visually_checked,"% 31
+
+\eocesol{(a)~Poisson dengan $\lambda=75$.
+(b)~$\mu=\lambda=75$, $\sigma=\sqrt{\lambda} = 8.66$.
+(c)~$Z=-1.73$. Karena 60 berada dalam jarak 2 simpangan baku dari rata-rata, nilai ini secara umum tidak akan dianggap tidak biasa. Perhatikan bahwa kita sering menggunakan kaidah praktis ini bahkan ketika model normal tidak berlaku.
+(d)~Dengan menggunakan distribusi Poisson dengan $\lambda = 75$: 0.0402.}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""5c6f7ab4-aec9-55ec-9259-e81faf2ff939""]"
 3e11341f-e6a5-55d3-b66f-6f32e62e99aa,f08664a6-4f0f-5605-8552-c11ddaf76f5c,21,guided_exercise,en,ch_probability/TeX/ch_probability.tex,1248,1253,8dd32cb7d94e09d024c39b4f1b73a80459cb2a0c13a8c744751efbc7551cef6e,id-ID,repo/ch_probability/TeX/ch_probability.tex,1247,1252,5ae8cef48bb5370a83f3434612efd0e575369314895e1050a7dc252f1d2a539b,language_reviewed,"\begin{exercisewrap}
 \begin{nexercise}
 Jika 97,54\% orang yang diinokulasi tetap hidup,
@@ -2523,6 +2579,46 @@ dihasilkan tidak terduga.)}
 \end{multicols}
 \begin{multicols}{2}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+3e75adf0-82b1-5584-aef2-d087fdfc9acc,6240cbdc-102b-5a9c-a0f6-fe55a7e9aa6e,131,exercise,en,ch_distributions/TeX/poisson_distribution.tex,3,21,6d062d7e1da6ac3b674fbd5ba7cc8fef32fd5d74dc0563a9a5a7b3ca38e43f56,id-ID,scratch/b018-build-candidate/source-snapshot-b018/ch_distributions/TeX/poisson_distribution.tex,3,21,24fd6b7e0705cdaab5b09a820856e774e65f7e15d8b8e845af531ea16b7e393b,visually_checked,"% 31
+
+\eoce{\qt{Pelanggan kedai kopi\label{coffee_shop_customers}} Sebuah kedai kopi
+melayani rata-rata 75 pelanggan per jam pada jam sibuk pagi hari.
+\begin{parts}
+\item
+  Distribusi manakah yang telah kita pelajari yang paling tepat
+  untuk menghitung peluang datangnya sejumlah tertentu pelanggan
+  dalam waktu satu jam
+  pada waktu seperti ini?
+\item Berapakah rata-rata dan simpangan baku banyaknya pelanggan yang
+dilayani kedai kopi ini dalam satu jam pada waktu seperti ini?
+\item Apakah kedatangan hanya 60 pelanggan ke kedai kopi ini dalam
+satu jam pada waktu seperti ini dapat dianggap sangat rendah hingga tidak biasa?
+\item Hitunglah peluang bahwa kedai kopi ini melayani 70 pelanggan dalam
+satu jam pada waktu seperti ini.
+\end{parts}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""5c6f7ab4-aec9-55ec-9259-e81faf2ff939""]"
+3ed9e4ce-a7b5-5ed8-ad23-a83452588657,f5b3cfaa-84c4-5c35-bb2f-c6fde639a960,233,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,774,792,48af979aceef31e07ff68943a5a3bf83c68665c446e323a2e571bfb7b331c494,id-ID,scratch/b018-build-candidate/source-snapshot-b018/extraTeX/eoceSolutions/eoceSolutions.tex,832,850,e1ccdf1af86f23a978bd73e62bf2d074713a030e210cbfc9d19da028cdfcd8de,visually_checked,"% 33
+
+\eocesol{(a)~$\frac{\lambda^k \times e^{-\lambda}}{k!}
+      = \frac{6.5^5 \times e^{-6.5}}{5!}
+      = 0.1454$ \\
+(b)~Peluangnya adalah
+    $0.0015 + 0.0098 + 0.0318 = 0.0431$
+    (0.0430 jika tidak ada galat pembulatan). \\
+(c)~Rata-rata banyaknya orang per mobil adalah $11.7 / 6.5 = 1.8$,
+    yang berarti orang-orang datang dalam kelompok-kelompok kecil.
+    Artinya, jika satu orang datang, ada kemungkinan
+    ia membawa satu atau lebih orang lain di dalam
+    kendaraannya.
+    Ini berarti setiap individu (orang) tidak saling independen,
+    meskipun kedatangan mobil saling independen,
+    sehingga salah satu asumsi inti distribusi Poisson
+    tidak terpenuhi.
+    Dengan demikian, banyaknya orang yang datang antara
+    pukul 14.00 dan 15.00 tidak akan mengikuti distribusi Poisson.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""5c6f7ab4-aec9-55ec-9259-e81faf2ff939""]"
 3ee81614-3cf1-50e0-9028-964afb6413b9,b54e8af5-3f26-50bf-b6fa-38d4fa703cad,1,answer_heading,en,extraTeX/eoceSolutions/eoceSolutions.tex,412,418,0113e5bfc4a6c176d6de549e5ee89faa877de19b61e809934487fb5e3d9d518a,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,4,6,b795077b74c523cdde844f7daa2d200502116e1f06263c620506ef3e0c5b263a,language_reviewed,"\eocesolch{Probabilitas}
 \begin{multicols}{2}
 
@@ -4037,6 +4133,75 @@ Apakah model binomial tepat? Berapa peluang bahwa\footnotemark{}
 
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+535f88c1-95a4-52e8-949c-a2f518470c79,2ffcfeef-a30d-5f61-943c-e0004b8e792c,3,section_prose,en,ch_distributions/TeX/ch_distributions.tex,2139,2206,fd67223d7f64d344113ca9fb8797522ad098a0d66f48fc0701580942cb2ddbd8,id-ID,scratch/b018-build-candidate/source-snapshot-b018/ch_distributions/TeX/ch_distributions.tex,2070,2137,e036812299d8fa019bda6f71a3f8f7052b9075776e369fccbeb71a963a61837b,visually_checked,"
+\footnotetext{Data ini disimulasikan. Dalam praktik, kita perlu memeriksa adanya hubungan di antara hari-hari yang berurutan.}
+
+\begin{figure}[h]
+  \centering
+  \Figure[Sebuah histogram ditampilkan untuk ``Peristiwa AMI (per Hari)''. Ada 11 nilai bukan nol yang ditampilkan: frekuensi sekitar 15 pada nilai 1, frekuensi 50 pada nilai 2, 70 pada 3, 85 pada 4, 55 pada 5, 45 pada 6, 25 pada 7, 20 pada 8, 5 pada 9, 5 pada 10, dan frekuensi sekitar 2 pada 11.]{0.6}{amiIncidencesOver100Days}
+  \caption{Histogram banyaknya kasus AMI
+      pada 365 hari yang berbeda di Kota New York.}
+  \label{amiIncidencesOver100Days}
+\end{figure}
+
+\termsub{Distribusi Poisson}{distribution!Poisson} sering berguna untuk memperkirakan banyaknya peristiwa dalam suatu populasi besar selama satu satuan waktu. Sebagai contoh, perhatikan setiap peristiwa berikut:
+\begin{itemize}
+\setlength{\itemsep}{0mm}
+\item mengalami serangan jantung,
+\item menikah, dan
+\item tersambar petir.
+\end{itemize}
+Distribusi Poisson membantu kita menggambarkan banyaknya peristiwa semacam itu yang akan terjadi dalam sehari pada suatu populasi tertentu yang tetap jika individu-individu dalam populasi tersebut saling independen. Distribusi Poisson juga dapat digunakan untuk satuan waktu lain, seperti satu jam atau satu~minggu.
+
+Histogram pada Gambar~\ref{amiIncidencesOver100Days} menghampiri distribusi Poisson dengan laju 4.4. \term{Laju} suatu distribusi Poisson adalah rata-rata banyaknya peristiwa dalam populasi yang relatif tetap per satuan waktu. Pada Contoh~\ref{amiIncidencesEachDayOver1YearInNYCExample}, satuan waktunya adalah satu hari, populasinya adalah seluruh penduduk Kota New York, dan laju historisnya adalah 4.4. Parameter distribusi Poisson adalah lajunya -- yaitu banyaknya peristiwa yang kita harapkan akan teramati -- dan biasanya dilambangkan dengan $\lambda$\index{Greek!lambda@lambda ($\lambda$)}
+(huruf Yunani \emph{lambda}) atau $\mu$. Dengan menggunakan laju tersebut, kita dapat menggambarkan peluang mengamati tepat $k$ peristiwa dalam satu satuan waktu.
+
+\D{\newpage}
+
+\begin{onebox}{Distribusi Poisson}
+  Misalkan kita mengamati kemunculan peristiwa dan banyaknya
+  peristiwa yang teramati mengikuti distribusi Poisson
+  dengan laju $\lambda$.
+  Maka
+  \begin{align*}
+  P(\text{mengamati $k$ peristiwa})
+      = \frac{\lambda^{k} e^{-\lambda}}{k!}
+  \end{align*}
+  dengan $k$ dapat bernilai 0, 1, 2, dan seterusnya,
+  serta $k!$ menyatakan $k$-faktorial, sebagaimana dijelaskan pada
+  halaman~\pageref{factorial_defined}.
+  Huruf $e\approx2.718$ adalah basis logaritma
+  natural.
+  Rata-rata dan simpangan baku distribusi ini
+  masing-masing adalah $\lambda$ dan $\sqrt{\lambda}$.
+\end{onebox}
+
+Pembahasan yang ketat mengenai syarat-syarat distribusi Poisson akan kita tunda hingga mata kuliah berikutnya. Namun, beberapa pedoman sederhana berikut dapat digunakan untuk penilaian awal mengenai ketepatan model Poisson.
+
+Suatu variabel acak dapat mengikuti distribusi Poisson jika kita memperhatikan banyaknya peristiwa, populasi yang menghasilkan peristiwa tersebut besar, dan setiap peristiwa terjadi secara independen satu sama lain.
+
+Bahkan ketika peristiwa-peristiwa tersebut sebenarnya tidak independen --
+misalnya, hari Sabtu dan Minggu sangat
+populer untuk pernikahan --
+model Poisson terkadang masih cukup tepat
+jika kita membolehkan lajunya berbeda untuk waktu yang
+berbeda.
+Dalam contoh pernikahan, lajunya akan dimodelkan
+lebih tinggi pada akhir pekan daripada pada hari kerja.
+Gagasan memodelkan laju distribusi Poisson
+sebagai fungsi dari variabel kedua, seperti hari dalam sepekan, menjadi
+dasar bagi sejumlah metode lanjutan
+yang termasuk dalam ranah \termsub{model linear terampat}
+    {generalized linear model}.
+Pada Bab~\ref{linRegrForTwoVar}
+dan~\ref{multipleAndLogisticRegression},
+kita akan membahas dasar-dasar model linear.
+
+\index{distribution!Poisson|)}
+
+
+{\input{ch_distributions/TeX/poisson_distribution.tex}}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""5c6f7ab4-aec9-55ec-9259-e81faf2ff939""]"
 536b157c-7296-5ea5-8eae-dae62a806746,0ae4d0a7-e336-5050-9c0f-81ec643541a2,1,end-of-section-exercise,en,ch_probability/TeX/continuous_distributions.tex,24,65,9ccd9a0aeee5638d2a5043d7f6a27fbf246c2fb28fe11f4796770d048df9d057,id-ID,repo/ch_probability/TeX/continuous_distributions.tex,24,64,ca55e710425d68843752efd3ed8040659113b3672c6028bb8e8f724cd5e2995e,language_reviewed,"% 38
 
 \eoce{\qt{Pendapatan dan gender\label{income_gender}} Tabel frekuensi relatif
@@ -5329,6 +5494,32 @@ Hal-hal yang kita anggap sebagai proses acak belum tentu benar-benar acak; mungk
 \end{onebox}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""5013dc5b-3a29-5516-9948-98c064aa43e8""]"
+63de73cb-5e86-5025-9f63-623ffae48a3f,ac2eadec-b632-5fad-ab1f-e392e30ab0a1,133,exercise,en,ch_distributions/TeX/poisson_distribution.tex,38,62,80a15353cd44d5cd454c9cd4a36a980e4b77218da183da22d7a065268c8c47e0,id-ID,scratch/b018-build-candidate/source-snapshot-b018/ch_distributions/TeX/poisson_distribution.tex,38,62,e1fce0d6fda68670ddbde19e4b44f29f1f70ccac0a00e39d0375b889306b8e86,visually_checked,"% 33
+
+\eoce{\qtq{Berapa banyak mobil yang datang\label{cars_in_parking_lot}}
+Pada hari Senin hingga Kamis yang bukan hari libur,
+rata-rata banyaknya kendaraan yang mengunjungi sebuah
+toko antara pukul 14.00 dan 15.00 setiap sore adalah 6.5,
+dan banyaknya mobil yang datang pada suatu hari
+mengikuti distribusi Poisson.
+\begin{parts}
+\item
+    Berapakah peluang bahwa tepat
+    5 mobil akan datang pada Senin depan?
+\item
+    Berapakah peluang bahwa
+    0, 1, atau 2 mobil akan datang pada Senin depan
+    antara pukul 14.00 dan 15.00?
+\item
+    Rata-rata ada 11.7 orang yang datang
+    dengan kendaraan pada jam yang sama.
+    Apakah banyaknya orang yang datang
+    dengan mobil selama satu jam tersebut juga kemungkinan mengikuti distribusi Poisson?
+    Jelaskan.
+\end{parts}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""5c6f7ab4-aec9-55ec-9259-e81faf2ff939""]"
 64059814-b42e-5a9b-ad1f-1831836c901d,20bfd563-f8ed-52a2-a149-968729bbfd64,130,exercise,en,ch_distributions/TeX/negative_binomial_distribution.tex,54,70,6af0cbaaf8babf912fd491077170ed73054ffdc9ff1f5b7f33facb251ff95125,id-ID,scratch/b017-build-candidate/source-snapshot-b017/ch_distributions/TeX/negative_binomial_distribution.tex,55,70,8ed46513fe601f4859458fd934fc61e5a2960b11baebcde2a10fab6762be697e,visually_checked,"% 30
 
 \eoce{\qt{Servis dalam bola voli\label{serving_volleyball}} Seorang pemain
@@ -9617,6 +9808,23 @@ Biaya bermain setiap permainan adalah \$1. Jelaskan penalaran Anda.
 \item Jika proporsi kepala lebih kecil dari 0.30, Anda menang \$1.
 \end{parts}
 }{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+cc415551-6b2c-51bc-b294-d49881907075,28a41791-05d7-51f4-94c1-9d49de31cfb9,132,exercise,en,ch_distributions/TeX/poisson_distribution.tex,22,37,586c3f9a7a15422efd2857c102beacc30aebc47d4ebbb5f1081c94fdae659609,id-ID,scratch/b018-build-candidate/source-snapshot-b018/ch_distributions/TeX/poisson_distribution.tex,22,37,c7db1e32e8920873e270003e5b687e18662db438f693a06225ab91b9b9e1d712,visually_checked,"% 32
+
+\eoce{\qt{Salah ketik seorang stenografer\label{stenographer_typos}} Seorang stenografer
+pengadilan yang sangat terampil rata-rata membuat satu salah ketik per jam.
+\begin{parts}
+\item Distribusi peluang manakah yang paling tepat untuk menghitung
+peluang bahwa stenografer ini membuat sejumlah tertentu salah ketik dalam satu jam?
+\item Berapakah rata-rata dan simpangan baku banyaknya salah ketik
+yang dibuat stenografer ini dalam satu jam?
+\item Apakah akan dianggap tidak biasa jika stenografer ini membuat 4 salah ketik dalam
+satu jam tertentu?
+\item Hitunglah peluang bahwa stenografer ini membuat paling banyak 2 salah ketik
+dalam satu jam tertentu.
+\end{parts}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""5c6f7ab4-aec9-55ec-9259-e81faf2ff939""]"
 cc641c66-2767-5630-8ac6-184363fd6f8e,17acf038-9821-5e3d-9ffa-1526fab12218,3,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,548,627,b3cb8d41d73fb7d8199cc158626ced1e9df851a9121960d00091d3c52e9c11b9,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,537,612,c057d9459321ff4e1b961cb636ae4fedcefd0fa0d26c547cae79e23c0373a200,language_reviewed,"\end{exercisewrap}
 \footnotetext{Suku bunga setiap pinjaman secara individual.}
 
@@ -10982,6 +11190,12 @@ Berdasarkan informasi bahwa gedung parkir penuh, peluang bahwa acara olahraga se
 \D{\newpage}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+e404dff7-dda5-5b2d-96d5-89c475dcfd92,2ffcfeef-a30d-5f61-943c-e0004b8e792c,1,section_prose,en,ch_distributions/TeX/ch_distributions.tex,2111,2115,7d5a1fd6635f5387e268de39c14ef6790e3dfcf23d9d8a9b088dcd40f9508df1,id-ID,scratch/b018-build-candidate/source-snapshot-b018/ch_distributions/TeX/ch_distributions.tex,2043,2047,db9277964d9a4de96c380eac151eba9c412529e7d32624a3c536ecd1a21b9fbc,visually_checked,"\section{Distribusi Poisson}
+\label{poisson}
+
+\index{distribution!Poisson|(}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""5c6f7ab4-aec9-55ec-9259-e81faf2ff939""]"
 e447b0f8-2587-54e0-8930-512638b373a7,3b45c972-4f12-577c-b7de-d173ab1640e3,2,subsection_prose,en,ch_probability/TeX/ch_probability.tex,189,191,0546289ce873747ce98ea5c3607990e4fae91ced13bec85ed93339705f1bba56,id-ID,repo/ch_probability/TeX/ch_probability.tex,189,191,b2bb5459828e2323b7267bbc3fb61b4720a874674654968aed6a304258e7d62d,language_reviewed,"\footnotetext{(a) Proses acaknya adalah lemparan dadu, dan paling banyak satu dari hasil tersebut yang dapat muncul. Jadi, hasil-hasil itu saling lepas. (b)~$P($\resp{1} atau \resp{4} atau \resp{5}$) = P($\resp{1}$)+P($\resp{4}$)+P($\resp{5}$) = \frac{1}{6} + \frac{1}{6} + \frac{1}{6} = \frac{3}{6} = \frac{1}{2}$}
 
 \index{data!loans|(}
