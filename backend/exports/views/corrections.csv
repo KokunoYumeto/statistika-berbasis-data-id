@@ -7,6 +7,7 @@ id,affected_id,category,summary,disposition,confidence,status
 06c8e6ba-b292-59fd-ae1c-75265e77422e,06b28e64-c231-50b0-b1f6-648ba4ba5102,source_correction,B014-SC006: the heights of male adults in the US is nearly normal,applied_in_terminal_b014_candidate,high,active
 084d4201-d8b1-54a8-a46e-0b827d501671,5172495b-cd2b-5f34-b695-29ce4bc07662,prose_grammar,,,high,active
 088ee0b9-7833-55ff-b938-6aa4b0400795,ef7f55d2-6426-5c6b-a525-29e747da8d0b,placebo_causation,,,high,active
+0979c4d8-b360-565c-a46f-36443b5b3861,18b41b7a-5d41-55c2-ac5d-22a7da096c0d,stale_dormant_comment,,,high,active
 0c5a474b-68e3-5fc9-98b9-4ab40411d821,a766f9cd-f941-5953-b2d9-9d5f0b9a8764,layout_pagination,The default 4 mm pre-exercise spacing forced only EoCE 28(a)-(b) onto an otherwise empty continuation page.,applied_before_terminal_b011_translation_gate,high,active
 0cb9964d-2ff4-5b17-92c1-b4d1f72b3ab4,06b28e64-c231-50b0-b1f6-648ba4ba5102,source_correction,B014-SC009: ch_distributions/figures/eoce/GRE_intro/GRE_intro.pdf,applied_in_terminal_b014_candidate,high,active
 0f64dce5-24a1-550b-a0ef-197dd2be431b,91fc3301-cb1f-55c9-be90-4bcb58dca050,accessibility_point_count,,,high,active
@@ -50,6 +51,7 @@ id,affected_id,category,summary,disposition,confidence,status
 45a19c91-56c5-5dbb-912f-780da23b8061,9cf167d5-4320-5a32-b56f-605c6e7ff489,index_mapping,,,high,active
 4832583b-daab-51d9-b3c2-a7fcc2e9034f,bac586bc-5065-5e98-a3ae-8376ff0851ac,source_correction,B015-SC004: explicit derivative-scoped source correction,applied_in_terminal_b015_candidate,high,active
 4b50c4d5-5c83-5435-84ff-ee0c15db45b2,f5fb316e-6dd4-51e6-9e06-34ebb0d2fab2,numeric_consistency,,,high,active
+4bf31c3c-2473-5e9d-bdbc-b5101d270cc9,f44791a4-a5eb-5160-afaa-61c221f6293b,grammatical_typo,,,high,active
 4d2a4836-2e91-56fc-93e8-dedb8e27a255,a485ca16-e7af-5fc9-a661-2481b3a87b29,source_accessibility,Accessibility text contains the typo The the dot plot.,applied_in_terminal_b012_candidate,high,active
 4ee59633-83dd-52ae-9949-f7c77323a226,6e4e8c2c-e78c-58d3-afef-7c55af54eb37,source_grammar,The source phrase `represents a classifier a sample` is malformed.,applied_in_isolated_b010_candidate,high,active
 4f3b7e46-2b80-53ad-b797-78b9d5be2704,9e0d4468-5410-57f5-a63f-64d449369bb9,generated_figure_font_portability,,,high,active
@@ -63,6 +65,7 @@ id,affected_id,category,summary,disposition,confidence,status
 5b0fb447-56a3-5336-b5d0-eb4230043731,06b28e64-c231-50b0-b1f6-648ba4ba5102,source_correction,B014-SC007: it can be assumed that they to follow a normal distribution,applied_in_terminal_b014_candidate,high,active
 5c0539c3-f99d-5106-9f7a-01d7a80d17fa,4c8457ff-0769-59f0-9a0d-040a50fb107c,source_accessibility,B013-SC001: The difference in appears will first be discussed,applied_in_terminal_b013_candidate,high,active
 5cfb6ea5-1ac3-5696-8894-33902d3303ef,1c22723c-f2d0-5445-bccd-2c220201d232,producer_text_inconsistency,,,high,active
+5e52953d-5c51-5921-81f8-97cd5ffdda60,d2b0d97b-fb59-5cdf-9170-ae1cdeea3398,missing_identifier,,,high,active
 6656c8c6-a66c-50ff-b275-ed018b554ac4,e6ac9457-94fd-5c0e-9e5d-64019cffef9a,layout_reflow_section_break,,,high,active
 73f47817-a29e-5574-9a29-c9371044c61f,4ad79ac2-b6ea-5eb3-86f4-298962d0bb50,public_answer_category_misalignment,,,high,active
 7792c8af-f392-53a9-a5ee-901a0358ed1f,c526fa55-62c1-5a35-bb8d-40abfc2fc3d8,public_answer_design_contradiction,,,high,active
@@ -98,6 +101,7 @@ aebfa726-cf60-5d94-99cb-1f9284789c13,58d63c22-9830-547d-a469-86fab9cb6f5d,attrib
 aff9275f-3d9a-5670-b842-f58f8fdd8b5a,9e0d4468-5410-57f5-a63f-64d449369bb9,generated_figure_allocation,,,high,active
 b1edac0d-58f6-569c-a6e2-8af925929f85,d6274bc8-d45e-51f1-91e8-38da3bbe4007,answer_prose,,,high,active
 b384d657-c490-51c5-b654-c4301bcfd81d,f03bc0fc-6c96-5db2-8d50-46b2ac141f2b,source_identifier,"The footnote names var{outcome}, but the defined data variable is var{result}.",applied_in_isolated_b010_candidate,high,active
+b4529f9f-06fd-58cd-8d0a-ae8979953049,67a193b9-bacc-52c3-ba96-17f706246d41,index_range_imbalance,,,high,active
 b4d9cb30-b224-5b6f-ae07-0b77047eba62,38d29400-2764-5109-a7fd-d245c7e52b17,component_rights,,,high,active
 b642518e-29bb-5956-9da7-6255124eb478,affe87a9-0bfc-5ab3-9232-48b74cfd45dc,variable_inventory,,,high,active
 b75ead67-152e-5c89-9dbe-5e2aa87c10a0,ca0df825-ca52-52be-a3e6-0c3090edaa4c,grammar_number_agreement,B017-C001: high-confidence upstream copyedit candidate,recorded_not_applied_to_authority,high,active
@@ -135,6 +139,8 @@ e53d742b-757b-50c3-85be-584d662408fb,a485ca16-e7af-5fc9-a661-2481b3a87b29,source
 e5ae681e-52ca-548b-aef2-4023d49c40b1,38d29400-2764-5109-a7fd-d245c7e52b17,figure_description_accuracy,,,high,active
 eb6ea6fa-3280-5b9b-bdbd-3e01489e6488,b9823605-b359-533a-9cb9-84628fa32225,latex_grouping,,,high,active
 ef75233d-3e47-5745-944f-60c17ef23689,f9059826-6e10-5027-acd8-165acd75fa93,terminology_field_usage,,,high,active
+f0464435-1505-54d2-8043-71ea4ab33528,67a193b9-bacc-52c3-ba96-17f706246d41,grammatical_typo,,,high,active
+f2c587b3-7d4a-5ee0-aabe-3920f266c8e7,d82f2f00-344a-5fea-a0f0-fce650e00806,publication_state_semantics,,clarified_in_backend_QA_controls_and_checkpoint; published_package_bytes_unchanged,high,active
 f37d9469-6522-51a4-b13a-aa4a9263617b,be9d7454-a37d-597d-8b35-e25c50236f78,public_answer_omission,,,high,active
 f6901230-2c1c-5fcc-9281-75b01448e7fa,38d29400-2764-5109-a7fd-d245c7e52b17,sampling_method_semantics,,,high,active
 f9383249-1d5d-58f0-9155-86786f242ec3,9cf167d5-4320-5a32-b56f-605c6e7ff489,index_mapping,,,high,active

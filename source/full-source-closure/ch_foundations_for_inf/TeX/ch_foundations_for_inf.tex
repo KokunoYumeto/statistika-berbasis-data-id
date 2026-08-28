@@ -4,7 +4,7 @@
   \label{ch_foundations_for_inf}
   \chaptersection{pointEstimates}
   \chaptersection{confidenceIntervals}
-% Boundary-clean reader omits navigation to the excluded hypothesis-testing section.
+  \chaptersection{hypothesisTesting}
 \end{chapterpage}
 \renewcommand{\chapterfolder}{ch_foundations_for_inf}
 
@@ -1498,3 +1498,1398 @@ akan berada antara 87.1\% dan 90.3\%?\footnotemark{}
 
 
 %__________________
+
+\section{Uji hipotesis untuk suatu proporsi}
+\label{hypothesisTesting}
+
+\index{uji hipotesis|(}
+
+Pertanyaan berikut berasal dari sebuah buku yang ditulis oleh
+Hans Rosling, Anna Rosling R{\"o}nnlund, dan Ola Rosling
+yang berjudul \emph{\oiRedirect{amazon_factfulness}{Factfulness}}:
+\begin{quote}
+  {\em Berapa banyak anak berusia 1~tahun di dunia saat ini
+  yang telah divaksinasi terhadap suatu penyakit:
+  \begin{enumerate}[a.]
+  \setlength{\itemsep}{0mm}
+  \item 20\%
+  \item 50\%
+  \item 80\%
+  \end{enumerate}}
+\end{quote}
+Tuliskan jawaban (atau tebakan) Anda,
+dan setelah siap, lihat jawabannya dalam
+catatan kaki.\footnote{Jawaban yang benar adalah (c):
+  80\% anak berusia 1~tahun di dunia telah divaksinasi
+  terhadap suatu penyakit.}
+
+Dalam bagian ini,
+kita akan menyelidiki bagaimana lulusan program sarjana
+4~tahun menjawab pertanyaan ini dan pertanyaan lain tentang kesehatan dunia
+sembari mempelajari uji hipotesis, yaitu
+kerangka yang digunakan untuk mengevaluasi secara ketat
+gagasan dan klaim yang saling bersaing.
+
+\newcommand{\roslingAsize}{50}
+\newcommand{\roslingAprop}{0.24}
+\newcommand{\roslingApropcomplement}{0.76}
+\newcommand{\roslingApercent}{24}
+\newcommand{\roslingApercentcomplement}{76}
+\newcommand{\roslingAcount}{12}
+\newcommand{\roslingAcountcomplement}{38}
+\newcommand{\roslingAse}{0.060}
+% n <- 50; x <- 12; (p <- x/n); (se <- sqrt(p * (1 - p) / n)); p + c(-1, 1) * 1.96 * se
+
+%There's an adage in United States financial markets that
+%it is better to get out of investments during the six ``summer''
+%months: \emph{sell in May and go away!}\footnote{Summer in the
+%northern hemisphere, anyways. \rotatebox[origin=c]{180}{(Hello
+%Australia!)}} While this clever saying does rhyme, that doesn't
+%mean it is sound financial advice. Let's investigate.
+
+%so is this is a pretty strong statement, since the stock
+%market has a very strong historical trend of moving upwards.
+%
+%To test this theory, we've retrieved the 
+%
+%If this adage holds meaning, we would expect that about half of the time the market would be in decline each year. Of course, we also would care to learn if it happens to be up more often than not, so we will also check that!
+
+%Finance is a field where a lot of money can be made or lost. We're going to explore a few topics in relation to the US stock market and 
+
+%The United States stock market moves down and up in unpredictable ways, and it can be useful to look for small inconsistencies in the market behavior that can be leveraged for minor gains. We will test three theories about the stock market in this section:
+
+%\item We might wonder whether the stock market is more likely to go up or down in any given day. Of course, the average return each day has been historically positive, and so this exploration will allow us to better understand if that is also reflected in the fraction of days that are up.
+%\item Each week there is a 65.5 hours window from the time the market closes on Friday to when it opens on the weekdays. That's a lot of time for good news and bad news that can affect the returns on Mondays. We'll see whether we 
+
+%The market has the same chance of going up or down on any given day of the week. For example, we would be interested to learn if the stock market goes up a little more often on, say, Fridays, that could be useful for 
+
+
+\subsection{Kerangka uji hipotesis}
+
+Kita ingin memahami seberapa jauh pengetahuan orang
+tentang kesehatan dan pembangunan dunia.
+Jika kita mengambil sebuah pertanyaan pilihan ganda
+tentang kesehatan dunia, kita mungkin ingin mengetahui apakah
+\begin{description}
+\item[$\mathbf{H_0}$:]
+    Orang tidak pernah mempelajari topik-topik khusus ini dan
+    jawaban mereka semata-mata setara dengan tebakan acak.
+\item[$\mathbf{H_A}$:]
+    Orang memiliki pengetahuan yang membantu mereka menjawab lebih baik
+    daripada tebakan acak, atau barangkali mereka memiliki pengetahuan keliru
+    yang justru membuat mereka menjawab lebih buruk daripada tebakan acak.
+\end{description}
+Gagasan-gagasan yang saling bersaing ini disebut \term{hipotesis}.
+Kita menyebut $H_0$ sebagai hipotesis nol dan $H_A$ sebagai hipotesis
+alternatif.
+Jika terdapat subskrip 0 seperti pada $H_0$,
+ilmuwan data membacanya sebagai ``nol''
+(misalnya, $H_0$ dibaca ``H-nol'').
+
+\begin{onebox}{Hipotesis nol dan alternatif}
+  \term{Hipotesis nol ($H_0$)} sering merepresentasikan
+  sudut pandang skeptis atau klaim yang hendak diuji.
+  \term{Hipotesis alternatif ($H_A$)} merepresentasikan
+  klaim alternatif yang sedang dipertimbangkan dan sering
+  direpresentasikan oleh rentang nilai parameter yang mungkin.
+  \stdvspace{}
+  
+  Tugas kita sebagai ilmuwan data adalah memainkan peran seorang skeptis:
+  sebelum menerima hipotesis alternatif, kita perlu
+  melihat bukti kuat yang mendukungnya.
+\end{onebox}
+
+Hipotesis nol sering merepresentasikan posisi skeptis
+atau sudut pandang ``tidak ada perbedaan''.
+Dalam contoh pertama, kita akan mempertimbangkan apakah
+orang pada umumnya menjawab secara berbeda dari tebakan acak
+pada pertanyaan keluarga Rosling tentang vaksinasi bayi.
+
+Hipotesis alternatif umumnya merepresentasikan sudut pandang yang baru
+atau lebih kuat. Dalam kasus pertanyaan
+tentang vaksinasi bayi,
+tentu menarik untuk mengetahui apakah
+orang menjawab lebih baik daripada tebakan acak, karena hal itu
+berarti orang pada umumnya mengetahui sesuatu tentang
+statistik kesehatan dunia.
+Juga akan sangat menarik jika kita mengetahui
+bahwa orang menjawab \emph{lebih buruk} daripada tebakan acak,
+yang menyiratkan bahwa orang memercayai
+informasi yang keliru tentang kesehatan dunia.
+
+Kerangka uji hipotesis merupakan alat yang sangat umum, dan kita sering menggunakannya tanpa berpikir panjang. Jika seseorang membuat klaim yang agak sulit dipercaya, mula-mula kita bersikap skeptis. Namun, jika~terdapat bukti yang cukup untuk mendukung klaim tersebut, kita mengesampingkan sikap skeptis dan menolak hipotesis nol untuk memilih hipotesis alternatif. Ciri-ciri khas uji hipotesis juga ditemukan dalam sistem peradilan AS. 
+
+% Boundary-clean reader removes a legacy forced page break.
+
+\begin{exercisewrap}
+\begin{nexercise} \label{hypTestCourtExample}
+Pengadilan AS mempertimbangkan dua kemungkinan klaim tentang seorang terdakwa: ia tidak bersalah atau bersalah. Jika kita menyusun klaim-klaim ini dalam kerangka hipotesis, manakah yang menjadi hipotesis nol dan manakah yang menjadi hipotesis alternatif?\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Juri mempertimbangkan apakah bukti begitu
+    meyakinkan (kuat) sehingga tidak ada keraguan yang wajar
+    bahwa terdakwa bersalah;
+    dalam hal ini, juri menolak anggapan bahwa terdakwa tidak bersalah
+    (hipotesis nol) dan menyimpulkan bahwa terdakwa
+    bersalah (hipotesis alternatif).}
+
+Para juri memeriksa bukti untuk melihat apakah bukti tersebut secara meyakinkan
+menunjukkan bahwa terdakwa bersalah.
+Walaupun para juri pada akhirnya tidak yakin, di luar keraguan yang wajar,
+bahwa terdakwa bersalah, hal ini tidak berarti mereka percaya bahwa
+terdakwa tidak bersalah.
+Hal yang sama juga berlaku dalam uji hipotesis:
+\emph{walaupun kita gagal menolak hipotesis nol,
+kita biasanya tidak menerima hipotesis nol sebagai benar}.
+Kegagalan menemukan bukti kuat bagi hipotesis
+alternatif tidak setara dengan menerima
+hipotesis nol.
+
+Saat mempertimbangkan pertanyaan keluarga Rosling tentang vaksinasi bayi,
+hipotesis nol merepresentasikan gagasan bahwa orang-orang
+yang akan kita pertimbangkan -- orang dewasa berpendidikan perguruan tinggi --
+memiliki ketepatan yang sama dengan tebakan acak.
+Artinya, proporsi
+$p$ dari responden yang memilih
+jawaban yang benar, yaitu bahwa 80\% anak berusia 1~tahun telah divaksinasi
+terhadap suatu penyakit, adalah sekitar 33.3\%
+(atau 1 dari 3 jika ingin sepenuhnya tepat).
+Hipotesis alternatif menyatakan bahwa proporsi ini bernilai
+selain 33.3\%. Meskipun menuliskan hipotesis-hipotesis ini
+dengan kata-kata membantu, menuliskannya dengan notasi matematis
+juga dapat berguna:
+\begin{description}
+\item[$H_0$:] $p = 0.333$
+\item[$H_A$:] $p \neq 0.333$
+\end{description}
+Dalam susunan hipotesis ini, kita ingin menarik kesimpulan tentang
+parameter populasi $p$. Nilai pembanding bagi
+parameter tersebut disebut \term{nilai nol}, yang dalam
+kasus ini adalah 0.333. Nilai nol lazim diberi label dengan
+simbol yang sama seperti parameter, tetapi dengan subskrip~`0'.
+Dengan demikian, dalam kasus ini, nilai nol adalah $p_0 = 0.333$
+(dibaca ``p-nol sama dengan 0.333'').
+
+\begin{examplewrap}
+\begin{nexample}{Mungkin tampak mustahil bahwa
+    proporsi orang yang memberikan jawaban benar
+    adalah \emph{tepat} 33.3\%. Jika kita tidak mempercayai
+    hipotesis nol, haruskah kita langsung menolaknya?}
+  Tidak. Walaupun kita mungkin tidak menerima gagasan bahwa
+  proporsi tersebut tepat 33.3\%, kerangka uji hipotesis
+  mengharuskan adanya bukti kuat sebelum
+  kita menolak hipotesis nol dan menarik kesimpulan
+  yang lebih menarik.
+
+  Lagi pula, walaupun kita tidak percaya bahwa proporsi tersebut
+  \emph{tepat} 33.3\%, hal itu tidak benar-benar memberi tahu kita sesuatu
+  yang berguna! Kita masih akan menghadapi pertanyaan awal:
+  apakah orang menjawab lebih baik atau lebih buruk daripada tebakan acak pada
+  pertanyaan keluarga Rosling?
+  Tanpa data yang secara kuat
+  menunjuk ke salah satu arah, menolak $H_0$
+  tidak menarik sekaligus tidak berguna.
+\end{nexample}
+\end{examplewrap}
+
+\begin{exercisewrap}
+\begin{nexercise}
+  Contoh lain situasi uji hipotesis di dunia nyata
+  adalah mengevaluasi apakah obat baru lebih baik atau lebih buruk
+  daripada obat yang sudah ada dalam mengobati penyakit tertentu.
+  Apa yang sebaiknya kita gunakan sebagai hipotesis nol dan hipotesis alternatif dalam
+  kasus ini?\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Hipotesis nol ($H_0$) dalam kasus ini adalah
+    pernyataan \emph{tidak ada perbedaan}: kedua obat sama-sama
+    efektif. Hipotesis alternatif ($H_A$) menyatakan bahwa
+    obat baru berkinerja berbeda dari obat sebelumnya,
+    yaitu kinerjanya dapat lebih baik atau lebih buruk.}
+
+
+% Boundary-clean reader removes a legacy forced page break.
+\subsection{Menguji hipotesis menggunakan interval kepercayaan}
+\label{utilizingOurCI}
+
+Kita akan menggunakan kumpulan data \data{rosling\us{}responses}
+untuk mengevaluasi
+uji hipotesis tentang apakah proporsi orang dewasa berpendidikan perguruan tinggi
+yang menjawab benar pertanyaan tentang vaksinasi bayi berbeda
+dari 33.3\%.
+Kumpulan data ini merangkum jawaban dari \roslingAsize{}
+orang dewasa berpendidikan perguruan tinggi.
+Dari \roslingAsize{} orang dewasa tersebut, \roslingApercent{}\%~responden
+menjawab dengan benar bahwa 80\% anak berusia 1~tahun
+telah divaksinasi terhadap suatu penyakit.
+
+Hingga saat ini, pembahasan kita masih bersifat filosofis.
+Namun, setelah memiliki data, kita dapat bertanya:
+apakah data tersebut memberikan bukti kuat bahwa proporsi
+seluruh orang dewasa berpendidikan perguruan tinggi yang akan menjawab
+pertanyaan ini dengan benar berbeda dari 33.3\%?
+
+Kita telah mempelajari dalam Bagian~\ref{pointEstimates} bahwa terdapat
+fluktuasi dari satu sampel ke sampel lainnya, dan kecil kemungkinannya
+proporsi sampel kita, $\hat{p}$,
+akan tepat sama dengan $p$, tetapi kita ingin menarik
+kesimpulan tentang~$p$.
+Kita~masih memiliki kekhawatiran:
+apakah penyimpangan sebesar \roslingApercent{}\%
+dari 33.3\% ini semata-mata disebabkan oleh kebetulan,
+atau~apakah data tersebut memberikan bukti kuat bahwa
+proporsi populasi berbeda dari 33.3\%?
+
+Dalam Bagian~\ref{confidenceIntervals}, kita mempelajari cara
+mengukur ketidakpastian dalam estimasi kita menggunakan interval
+kepercayaan. 
+Metode yang sama untuk mengukur variabilitas dapat berguna
+dalam uji hipotesis.
+
+\begin{examplewrap}
+\begin{nexample}{Periksalah apakah masuk akal untuk membuat
+    interval kepercayaan bagi $p$ menggunakan data sampel, dan
+    jika ya, buatlah interval kepercayaan 95\%.}
+  Syarat-syarat agar $\hat{p}$ mendekati distribusi normal
+  terpenuhi: data berasal dari sampel acak sederhana (memenuhi
+  independensi), dan $n\hat{p} = \roslingAcount$ serta
+  $n(1 - \hat{p}) = \roslingAcountcomplement$ keduanya
+  sekurang-kurangnya 10 (syarat sukses--gagal).
+
+  Untuk membuat interval kepercayaan, kita perlu mengidentifikasi
+  estimasi titik ($\hat{p} = \roslingAprop$),
+  nilai kritis untuk
+  tingkat kepercayaan 95\% ($z^{\star} = 1.96$), dan galat
+  baku $\hat{p}$
+  ($SE_{\hat{p}} = \sqrt{\hat{p}(1 - \hat{p}) / n} = \roslingAse$).
+  Dengan komponen-komponen tersebut, interval kepercayaan bagi $p$ dapat
+  dibuat:
+  \begin{align*}
+    &\hat{p} \pm z^{\star} \times SE_{\hat{p}} \\
+    &\roslingAprop \pm 1.96 \times \roslingAse \\
+    &(0.122, 0.358)
+  \end{align*}
+  Kita yakin 95\% bahwa proporsi seluruh
+  orang dewasa berpendidikan perguruan tinggi yang menjawab benar
+  pertanyaan khusus tentang vaksinasi bayi ini berada di antara
+  12.2\% dan 35.8\%.
+\end{nexample}
+\end{examplewrap}
+%At a first glance, it looks like it might be. After all,
+%36\% isn't that close to 50\%, so maybe this data constitutes
+%\emph{strong evidence}. We need to 
+
+Karena nilai nol dalam uji hipotesis adalah $p_0 = 0.333$,
+yang berada di dalam rentang nilai masuk akal dari
+interval kepercayaan, kita tidak dapat mengatakan bahwa nilai nol tersebut
+tidak masuk akal.\footnote{Dapat dikatakan bahwa metode ini sedikit kurang tepat.
+  Seperti yang akan kita lihat beberapa halaman lagi, galat baku sering
+  dihitung dengan cara yang sedikit berbeda dalam konteks uji hipotesis
+  untuk suatu proporsi.}
+Artinya, data tidak memberikan bukti yang cukup untuk menyatakan
+bahwa kinerja orang dewasa berpendidikan
+perguruan tinggi berbeda dari tebakan acak,
+dan kita tidak menolak hipotesis nol,~$H_0$.
+
+\begin{examplewrap}
+\begin{nexample}{Jelaskan mengapa kita tidak dapat menyimpulkan bahwa
+    orang dewasa berpendidikan perguruan tinggi sekadar menebak pada
+    pertanyaan tentang vaksinasi bayi.}
+  Walaupun kita gagal menolak $H_0$, hal itu tidak
+  selalu berarti bahwa hipotesis nol benar.
+  Mungkin saja memang terdapat perbedaan,
+  tetapi kita tidak dapat mendeteksinya dengan
+  sampel yang relatif kecil, yaitu~\roslingAsize{}.
+
+%  Second, we are only evaluating the proportion,
+%  and if the population proportion is 0.333,
+%  there are still multiple ways to arrive at that proportion.
+%  For example,
+%  perhaps some adults guessed but others did not.
+%  And of those who didn't guess,
+%  their past knowledge simply wasn't very useful on this
+%  question and so most of them still got it wrong.
+\end{nexample}
+\end{examplewrap}
+
+\begin{onebox}{Negasi ganda terkadang dapat digunakan dalam statistika}
+  Dalam banyak penjelasan statistik, kita menggunakan negasi ganda.
+  Sebagai contoh, kita mungkin mengatakan bahwa hipotesis nol
+  \emph{tidak dapat dianggap tidak masuk akal} atau bahwa kita \emph{gagal menolak}
+  hipotesis nol.
+  Negasi ganda digunakan untuk menyampaikan bahwa walaupun kita
+  tidak menolak suatu posisi, kita juga tidak mengatakan bahwa posisi tersebut
+  benar.
+\end{onebox}
+
+\begin{exercisewrap}
+\begin{nexercise}\label{roslingB_hypothesis_setup}%
+Mari kita beralih ke pertanyaan kedua yang diajukan keluarga Rosling:
+\begin{quote}{\em
+  Saat ini terdapat 2 miliar anak berusia
+  0--15 tahun di dunia; menurut Perserikatan Bangsa-Bangsa,
+  berapa banyak anak yang akan ada pada tahun 2100?
+  \begin{enumerate}[a.]
+  \setlength{\itemsep}{0mm}
+  \item 4 miliar.
+  \item 3 miliar.
+  \item 2 miliar.
+  \end{enumerate}
+}\end{quote}
+Susunlah hipotesis yang sesuai untuk mengevaluasi apakah
+orang dewasa berpendidikan perguruan tinggi lebih baik daripada tebakan acak
+dalam menjawab pertanyaan ini.
+Cobalah juga menebak jawaban yang benar sebelum memeriksa
+jawaban dalam catatan kaki!\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{%
+Hipotesis yang sesuai adalah:
+
+$H_0$: proporsi yang menjawab dengan benar sama
+dengan tebakan acak: 1 dari 3, atau $p = 0.333$.
+
+$H_A$: proporsi yang menjawab dengan benar berbeda
+dari tebakan acak, $p \neq 0.333$.
+
+Jawaban yang benar untuk pertanyaan tersebut adalah 2~miliar.
+Walaupun populasi dunia diproyeksikan meningkat,
+usia rata-rata juga diperkirakan meningkat.
+Artinya, sebagian besar pertumbuhan populasi akan
+terjadi pada kelompok usia yang lebih tua, yang berarti penduduk di
+banyak bagian dunia diproyeksikan hidup lebih lama pada masa mendatang.}
+
+% n <- 228; x <- 39; p <- x / n; n; p; 1 - p; x; n - x; sqrt(p*(1-p)/n)
+\newcommand{\roslingBsize}{228}
+\newcommand{\roslingBprop}{0.149}
+\newcommand{\roslingBpropcomplement}{0.851}
+\newcommand{\roslingBpercent}{14.9\%}
+\newcommand{\roslingBpercentcomplement}{85.1\%}
+\newcommand{\roslingBcount}{34}
+\newcommand{\roslingBcountcomplement}{194}
+\newcommand{\roslingBse}{0.024}
+% n <- 228; x <- 34; (p <- x/n); (se <- sqrt(p * (1 - p) / n)); p + c(-1, 1) * 1.96 * se
+
+\begin{exercisewrap}
+\begin{nexercise}\label{roslingB_normality}%
+Kali ini kita mengambil sampel yang lebih besar, yaitu
+\roslingBsize{} orang dewasa berpendidikan perguruan tinggi;
+\roslingBcount{} orang (\roslingBpercent{}) memilih jawaban yang benar
+untuk pertanyaan dalam Latihan
+Terpandu~\ref{roslingB_hypothesis_setup}: 2~miliar.
+Dapatkah kita memodelkan proporsi sampel menggunakan distribusi normal
+dan membuat interval kepercayaan?\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Kita memeriksa kedua syarat, dan keduanya terpenuhi,
+sehingga masuk akal untuk menggunakan
+distribusi normal bagi $\hat{p}$: \\
+\textbf{Independensi.} Karena data berasal dari sampel
+    acak sederhana, observasi-observasinya saling independen. \\
+\textbf{Sukses--gagal.} Kita akan menggunakan $\hat{p}$ sebagai pengganti $p$
+    untuk memeriksa: $n\hat{p} = \roslingBcount$
+    dan $n(1 - \hat{p}) = \roslingBcountcomplement$.
+    Keduanya lebih besar dari 10, sehingga syarat sukses--gagal
+    terpenuhi.}
+
+\begin{examplewrap}
+\begin{nexample}{Hitunglah interval kepercayaan 95\% bagi
+    proporsi orang dewasa berpendidikan perguruan tinggi yang menjawab
+    pertanyaan tentang jumlah anak pada tahun 2100 dengan benar, dan evaluasilah
+    hipotesis dalam Latihan
+    Terpandu~\ref{roslingB_hypothesis_setup}.}
+  Untuk menghitung galat baku, kita sekali lagi akan menggunakan
+  $\hat{p}$
+  sebagai pengganti $p$ dalam perhitungan:
+  \begin{align*}
+  SE_{\hat{p}}
+      = \sqrt{\frac{\hat{p}(1 - \hat{p})}{n}}
+      = \sqrt{\frac{\roslingBprop{}(1 - \roslingBprop{})}
+          {\roslingBsize{}}}
+      = \roslingBse{}
+  \end{align*}
+  Dalam Latihan Terpandu~\ref{roslingB_normality},
+  kita mendapati bahwa $\hat{p}$ dapat dimodelkan menggunakan
+  distribusi normal,
+  yang memastikan bahwa interval kepercayaan 95\% dapat
+  dibuat secara akurat sebagai
+  \begin{align*}
+  \hat{p}~\pm~z^{\star} \times SE
+  \quad\to\quad
+  \roslingBprop{}~\pm~1.96 \times \roslingBse{}
+  \quad\to\quad
+  (0.103, 0.195)
+  \end{align*}
+  Karena nilai nol, $p_0 = 0.333$, tidak berada dalam
+  interval kepercayaan, proporsi populasi sebesar 0.333
+  tidak masuk akal dan kita menolak hipotesis nol.
+  Artinya, data memberikan bukti yang signifikan secara statistik
+  bahwa proporsi sebenarnya dari orang dewasa berpendidikan perguruan tinggi
+  yang menjawab benar pertanyaan tentang jumlah anak pada tahun 2100
+  berbeda dari tebakan acak. Karena seluruh
+  interval kepercayaan 95\%
+  berada di bawah 0.333, kita dapat menyimpulkan bahwa orang dewasa
+  berpendidikan perguruan tinggi menjawab \emph{lebih buruk} daripada tebakan acak
+  pada pertanyaan ini.
+
+  Satu pertimbangan yang tidak kentara adalah bahwa kita menggunakan
+  interval kepercayaan 95\%.
+  Bagaimana jika kita menggunakan tingkat kepercayaan 99\%?
+  Atau bahkan tingkat kepercayaan 99.9\%?
+  Kita mungkin sampai pada kesimpulan yang berbeda
+  jika menggunakan tingkat kepercayaan yang berbeda.
+  Karena itu, ketika menarik kesimpulan berdasarkan
+  interval kepercayaan, kita juga harus memastikan
+  tingkat kepercayaan yang digunakan dinyatakan dengan jelas.
+\end{nexample}
+\end{examplewrap}
+
+Kinerja yang lebih buruk daripada tebakan acak pada
+pertanyaan terakhir ini bukanlah kebetulan:
+ada banyak pertanyaan sejenis tentang kesehatan dunia yang dijawab orang
+lebih buruk daripada tebakan acak.
+Secara umum, jawaban-jawaban tersebut menunjukkan bahwa orang cenderung
+lebih pesimistis terhadap kemajuan daripada kenyataan yang ada.
+Topik ini dibahas jauh lebih terperinci dalam
+buku keluarga Rosling,
+\emph{\oiRedirect{amazon_factfulness}{Factfulness}}.
+
+
+% Boundary-clean reader removes a legacy forced page break.
+
+\subsection{Galat keputusan}
+
+\index{uji hipotesis!galat keputusan|(}
+
+Uji hipotesis tidaklah sempurna: berdasarkan data, kita dapat membuat
+keputusan yang keliru dalam suatu uji hipotesis statistik.
+Sebagai contoh, dalam sistem peradilan, orang yang tidak bersalah
+terkadang dinyatakan bersalah secara keliru dan orang yang bersalah terkadang dibebaskan.
+%Unfortunately, we never truly know if $H_0$ or $H_A$ holds true.
+Satu perbedaan penting pada uji hipotesis statistik adalah bahwa
+kita memiliki alat yang diperlukan untuk mengukur secara probabilistik seberapa
+sering kita membuat galat dalam kesimpulan.
+
+Ingat bahwa ada dua hipotesis yang saling bersaing:
+hipotesis nol dan hipotesis alternatif.
+Dalam uji hipotesis, kita membuat pernyataan tentang hipotesis mana yang mungkin
+benar, tetapi pilihan kita bisa keliru. Ada empat kemungkinan
+skenario, yang dirangkum dalam Gambar~\ref{fourHTScenarios}.
+
+\begin{figure}[ht]
+\centering
+\begin{tabular}{l l c c}
+& & \multicolumn{2}{c}{\textbf{Kesimpulan uji}} \\
+\cline{3-4}
+\vspace{-3.7mm} \\
+& & jangan menolak $H_0$ & tolak $H_0$ untuk memilih $H_A$ \\
+\cline{2-4}
+\vspace{-3.7mm} \\
+& $H_0$ benar &
+    tepat &  \highlight{Galat Tipe~1} \\
+\raisebox{1.5ex}{\textbf{Kenyataan}} & $H_A$ benar &
+    \highlight{Galat Tipe~2} & tepat \\
+\cline{2-4}
+\end{tabular}
+\caption{Empat skenario berbeda dalam uji hipotesis.}
+\label{fourHTScenarios}
+\end{figure}
+
+\term{Galat Tipe~1} adalah penolakan hipotesis nol ketika
+$H_0$ sebenarnya benar.
+\term{Galat Tipe~2} adalah kegagalan
+menolak hipotesis nol ketika hipotesis alternatif sebenarnya
+benar.
+
+\begin{exercisewrap}
+\begin{nexercise} \label{whatAreTheErrorTypesInUSCourts}
+Di pengadilan AS, terdakwa dapat tidak bersalah ($H_0$) atau
+bersalah ($H_A$).
+Apa yang direpresentasikan oleh Galat Tipe~1 dalam konteks ini?
+Apa yang direpresentasikan oleh Galat Tipe~2?
+Gambar~\ref{fourHTScenarios} mungkin berguna.\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Jika
+  pengadilan membuat Galat Tipe~1, artinya terdakwa
+  tidak bersalah ($H_0$ benar) tetapi dinyatakan bersalah secara keliru.
+  Perhatikan bahwa Galat Tipe~1 hanya mungkin terjadi jika kita menolak
+  hipotesis nol.
+
+  Galat Tipe~2 berarti pengadilan gagal menolak $H_0$
+  (yaitu gagal memvonis terdakwa) padahal terdakwa tersebut
+  sebenarnya bersalah ($H_A$ benar).
+  Perhatikan bahwa Galat Tipe~2 hanya mungkin terjadi jika kita
+  gagal menolak hipotesis nol.}
+
+\begin{examplewrap}
+\begin{nexample}{Bagaimana kita dapat menurunkan tingkat Galat Tipe~1
+    di pengadilan AS?
+    Apa pengaruhnya terhadap tingkat Galat Tipe~2?}
+    \label{howToReduceType1ErrorsInUSCourts}%
+  Untuk menurunkan tingkat Galat Tipe~1, kita dapat
+  menaikkan standar untuk menjatuhkan vonis bersalah dari
+  ``di luar keraguan yang wajar'' menjadi
+  ``di luar keraguan apa pun yang dapat dibayangkan'' agar lebih sedikit orang
+  dijatuhi vonis bersalah secara keliru. Namun, hal ini juga akan membuat
+  penjatuhan vonis bersalah kepada orang yang memang
+  bersalah menjadi lebih sulit, sehingga kita akan membuat lebih banyak Galat Tipe~2.
+\end{nexample}
+\end{examplewrap}
+
+\begin{exercisewrap}
+\begin{nexercise} \label{howToReduceType2ErrorsInUSCourts}
+Bagaimana kita dapat menurunkan tingkat Galat Tipe~2 di pengadilan AS?
+Apa pengaruhnya terhadap tingkat Galat Tipe~1?
+\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Untuk menurunkan tingkat Galat Tipe~2, kita ingin
+  memvonis lebih banyak orang yang bersalah. Kita dapat menurunkan
+  standar untuk menjatuhkan vonis bersalah dari ``di luar keraguan yang wajar''
+  menjadi ``di luar sedikit keraguan''. Menurunkan ambang untuk
+  menjatuhkan vonis bersalah juga akan menghasilkan lebih banyak vonis yang keliru,
+  sehingga meningkatkan tingkat Galat Tipe~1.}
+
+\index{uji hipotesis!galat keputusan|)}
+
+Latihan~\ref{whatAreTheErrorTypesInUSCourts}-\ref{howToReduceType2ErrorsInUSCourts} memberikan
+pelajaran penting: jika kita mengurangi frekuensi terjadinya
+satu jenis galat, biasanya kita akan lebih sering membuat
+jenis galat lainnya.
+
+Uji hipotesis dibangun di seputar tindakan menolak atau gagal
+menolak hipotesis nol.
+Artinya, kita tidak menolak $H_0$ kecuali jika terdapat bukti kuat.
+Namun, apa sebenarnya arti \emph{bukti kuat}?
+Sebagai aturan praktis umum, dalam kasus-kasus ketika hipotesis nol
+sebenarnya benar, kita tidak ingin secara keliru
+menolak $H_0$ pada lebih dari 5\% kasus.
+Hal ini bersesuaian dengan \term{tingkat signifikansi}%
+\index{uji hipotesis!tingkat signifikansi} sebesar 0.05.
+Artinya, jika hipotesis nol benar,
+tingkat signifikansi menunjukkan seberapa sering
+data membuat kita secara keliru menolak $H_0$.
+Kita sering menuliskan tingkat signifikansi menggunakan $\alpha$
+(huruf Yunani \emph{alfa}\index{Yunani!alfa@alfa ($\alpha$)}):
+$\alpha = 0.05$.
+Kita membahas kesesuaian berbagai tingkat signifikansi
+dalam Bagian~\ref{significanceLevel}.
+
+% Boundary-clean reader removes a legacy forced page break.
+
+Jika kita menggunakan interval kepercayaan 95\% untuk mengevaluasi
+uji hipotesis dan hipotesis nol kebetulan benar,
+kita akan membuat galat setiap kali estimasi titik berada
+sekurang-kurangnya 1.96 galat baku dari parameter
+populasi.
+Hal ini terjadi pada sekitar 5\% kasus (2.5\% pada tiap ekor).
+Demikian pula, menggunakan interval kepercayaan 99\% untuk mengevaluasi
+hipotesis setara dengan tingkat signifikansi
+$\alpha = 0.01$.
+
+Interval kepercayaan sangat membantu dalam menentukan
+apakah hipotesis nol perlu ditolak atau tidak.
+Namun, pendekatan interval kepercayaan tidak selalu
+dapat diterapkan.
+Dalam beberapa bagian, kita akan menjumpai situasi ketika
+interval kepercayaan tidak dapat dibuat.
+Sebagai contoh, jika kita ingin mengevaluasi hipotesis
+bahwa beberapa proporsi sama, tidak jelas bagaimana
+cara membuat dan membandingkan banyak interval kepercayaan
+sekaligus.
+
+Selanjutnya kita akan memperkenalkan statistik yang disebut \emph{nilai-p}
+untuk membantu memperluas perangkat statistika kita, yang akan
+memungkinkan kita memahami kekuatan bukti dengan lebih baik sekaligus
+bekerja dengan skenario data yang lebih kompleks dalam
+bagian-bagian selanjutnya.
+\subsection{Pengujian formal menggunakan nilai-p}
+
+\label{pValue}
+
+\index{uji hipotesis!nilai-p|(}
+
+Nilai-p merupakan cara untuk mengukur kekuatan
+bukti yang menentang hipotesis nol dan mendukung
+hipotesis alternatif.
+Uji hipotesis statistik biasanya menggunakan
+metode nilai-p alih-alih mengambil keputusan berdasarkan
+interval kepercayaan.
+
+\begin{onebox}{nilai-p}
+  \term{Nilai-p}\index{uji hipotesis!nilai-p|textbf}
+  adalah probabilitas mengamati data yang sekurang-kurangnya sama kuatnya
+  dengan data kita saat ini dalam mendukung hipotesis alternatif,
+  jika hipotesis nol benar. Kita biasanya menggunakan statistik
+  ringkasan data, dalam bagian ini proporsi sampel,
+  untuk membantu menghitung nilai-p dan mengevaluasi hipotesis.
+\end{onebox}
+
+%To apply the normal distribution framework in the context of a hypothesis test for a proportion, the independence and success-failure conditions must be satisfied. In a hypothesis test, the success-failure condition is checked using the null proportion: we verify $np_0$ and $n(1-p_0)$ are at least 10, where $p_0$ is the null value.
+
+\index{data!coal power support@dukungan terhadap energi batu bara|(}
+
+\newcommand{\pewcoalpollsize}{1000}
+\newcommand{\pewcoalpollprop}{0.37}
+\newcommand{\pewcoalpollpropcomplement}{0.63}
+\newcommand{\pewcoalpollpercent}{37\%}
+\newcommand{\pewcoalpollpercentcomplement}{63\%}
+\newcommand{\pewcoalpollcount}{370}
+\newcommand{\pewcoalpollcountcomplement}{630}
+\newcommand{\pewcoalpollse}{0.0153}
+\newcommand{\pewcoalpollnullvalue}{0.5}
+\newcommand{\pewcoalpollnullse}{0.016}
+
+\begin{examplewrap}
+\begin{nexample}{Pew Research menanyai sampel acak sebanyak
+    \pewcoalpollsize{} orang dewasa
+    Amerika apakah mereka mendukung peningkatan penggunaan batu bara untuk
+    menghasilkan energi.
+    Susun hipotesis untuk mengevaluasi apakah
+    mayoritas orang dewasa Amerika mendukung atau menentang
+    peningkatan penggunaan batu bara.}
+  Hasil yang tidak menarik adalah tidak adanya mayoritas di kedua pihak:
+  separuh orang Amerika mendukung dan separuh lainnya menentang perluasan
+  penggunaan batu bara untuk menghasilkan energi. Hipotesis alternatifnya
+  adalah terdapat mayoritas yang mendukung atau menentang
+  (walaupun kita tidak tahu yang mana!) perluasan
+  penggunaan batu bara. Jika $p$ merepresentasikan proporsi yang mendukung, maka
+  kita dapat menuliskan hipotesis sebagai
+  \begin{description}
+    \item[$H_0$:] $p = 0.5$
+    \item[$H_A$:] $p \neq 0.5$
+  \end{description}
+  Dalam kasus ini, nilai nolnya adalah $p_0 = 0.5$.
+\end{nexample}
+\end{examplewrap}
+
+%\begin{examplewrap}
+%\begin{nexample}{Suppose the null value, $p_0 = 0.5$,
+%    was the actual level of support for coal usage.
+%    Describe how we could simulate a survey of
+%    \pewcoalpollsize{} responses when $p_0 = 0.5$.}
+%  \label{simOnePropExample}%
+%  If we pick a random person to participate in the survey,
+%  then \emph{under the null hypothesis},
+%  the chances they would support coal usage is $p_0 = 0.5$.
+%  If this were true, then it's the same as flipping a fair coin.
+%  That is, we can simulate an individual person's response by
+%  flipping a coin;
+%  if it's heads, we say \resp{support},
+%  and if it's tails, \resp{oppose}.
+%  To simulate \pewcoalpollsize{} independent responses,
+%  we can flip the coin a total of 1000 times and compute the
+%  fraction of instances that were heads as the observed
+%  proportion.
+%  We did this and observed 487 heads for a proportion
+%  of $\hat{p}_{\text{sim, 1}} = 0.487$.
+%\end{nexample}
+%\end{examplewrap}
+%
+%Example~\ref{simOnePropExample} described how we could
+%simulate a survey result under the null hypothesis that
+%the population proportion is equal to $p_0$.
+%In this way, we check what kind of sample observations
+%we might expect to see \emph{if the null hypothesis were true}.
+%Of course, a single simulation is interesting, but not that
+%informative.
+%If we run the simulation again, we get a value of
+%$\hat{p}_{\text{sim, 2}} = 0.502$.
+%And again: $\hat{p}_{\text{sim, 3}} = 0.523$.
+%We can do this many times on a computer,
+%just like we did for a population proportion of 0.88
+%in Section~\ref{pointEstimates}.
+%The results of 5,000 simulated surveys are summarized
+%in a histogram in Figure~\ref{sampling_5k_prop_50p}.
+%
+%\begin{figure}[h]
+%  \centering
+%  \Figure{0.8}{sampling_5k_prop_50p}
+%  \caption{
+%      Simulated surveys proportion
+%      \emph{if} the population proportion
+%      were equal to the null value, $p_0 = 0.5$.
+%      All 5,000 simulated sample proportions
+%      lie between 0.44 and 0.56.}
+%  \label{sampling_5k_prop_50p}
+%\end{figure}
+%
+%\begin{examplewrap}
+%\begin{nexample}{The actual Pew Research survey found that
+%    \pewcoalpollpercent{} of the \pewcoalpollsize{}
+%    respondents supported increasing the use of coal.
+%    Use Figure~\ref{sampling_5k_prop_50p}
+%    to estimate how frequently we might observe a proportion
+%    of \pewcoalpollprop{} if the null hypothesis that
+%    the population proportion is 0.5 were actually true.
+%    What might you conclude from this finding?}
+%  Not one of the 5,000 simulations yielded a sample proportion
+%  of \pewcoalpollpercent{} or further from 0.5.
+%  That is, \emph{if} the actually population proportion is
+%  actually 0.5, then we observed something so rare that we
+%  wouldn't necessarily see it if we repeated the process
+%  5,000 times.
+%  Ultimately, the observed sample result is nearly
+%  impossible (extremely improbable!) if we believe that
+%  the population proportion is 0.5.
+%  This evidence casts significant doubt on the notion that
+%  $p = 0.5$, and we should reject the null hypothesis,~$H_0$.
+%\end{nexample}
+%\end{examplewrap}
+
+Saat mengevaluasi hipotesis untuk proporsi menggunakan
+metode nilai-p,
+kita akan sedikit mengubah cara memeriksa syarat sukses--gagal
+dan menghitung galat baku untuk
+kasus proporsi tunggal.
+Perubahan ini tidak drastis, tetapi perhatikan dengan saksama
+bagaimana kita menggunakan nilai nol, $p_0$.
+
+\begin{examplewrap}
+\begin{nexample}{Sampel Pew Research menunjukkan bahwa
+    \pewcoalpollpercent{}
+    orang dewasa Amerika mendukung peningkatan penggunaan batu bara.
+    Sekarang kita bertanya-tanya, apakah \pewcoalpollpercent{} merepresentasikan
+    perbedaan nyata dari hipotesis nol sebesar 50\%?
+    Seperti apa distribusi sampling dari $\hat{p}$
+    jika hipotesis nol benar?}
+  Jika hipotesis nol benar, proporsi populasi
+  akan sama dengan nilai nol, 0.5.
+  Kita~sebelumnya telah mempelajari bahwa
+  distribusi sampling dari $\hat{p}$ akan normal ketika
+  dua syarat~terpenuhi:
+  \begin{description}
+    \item[Independensi.]
+        Jajak pendapat tersebut didasarkan pada sampel acak sederhana,
+        sehingga independensi terpenuhi.
+    \item[Sukses--gagal.]
+        Berdasarkan ukuran sampel jajak pendapat sebesar
+        $n = \pewcoalpollsize{}$,
+        syarat sukses--gagal terpenuhi, karena
+        \begin{align*}
+        np ~ \stackrel{H_0}{=}
+            ~ \pewcoalpollsize{} \times \pewcoalpollnullvalue{}
+            = 500
+        \qquad\qquad
+        n (1 - p) ~ \stackrel{H_0}{=}
+            ~ \pewcoalpollsize{} \times
+                (1 - \pewcoalpollnullvalue{})
+            = 500
+        \end{align*}
+        keduanya sekurang-kurangnya 10.
+        Perhatikan bahwa syarat sukses--gagal diperiksa
+        menggunakan nilai nol, $p_0 = 0.5$;
+        inilah perbedaan prosedural pertama dari
+        interval kepercayaan.
+  \end{description}
+  Jika hipotesis nol benar, distribusi sampling
+  menunjukkan bahwa proporsi sampel berdasarkan
+  $n = \pewcoalpollsize{}$ pengamatan
+  akan berdistribusi normal. Selanjutnya, kita dapat menghitung galat
+  baku, dan kembali menggunakan nilai nol $p_0 = 0.5$ dalam
+  perhitungan:
+  \begin{align*}
+  SE_{\hat{p}}
+    = \sqrt{\frac{p (1 - p)}{n}}
+    \quad \stackrel{H_0}{=} \quad
+        \sqrt{\frac{\pewcoalpollnullvalue{} \times
+            (1 - \pewcoalpollnullvalue{})}{\pewcoalpollsize{}}}
+    = \pewcoalpollnullse{}
+  \end{align*}
+  Ini menandai perbedaan prosedural lainnya dari interval
+  kepercayaan: karena distribusi sampling ditentukan
+  di bawah proporsi nol, nilai nol $p_0$ digunakan sebagai
+  proporsi dalam perhitungan, bukan $\hat{p}$.
+
+  Pada akhirnya, jika hipotesis nol benar, maka proporsi
+  sampel seharusnya mengikuti distribusi normal dengan rata-rata
+  \pewcoalpollnullvalue{}
+  dan galat baku \pewcoalpollnullse{}.
+  Distribusi ini ditunjukkan dalam
+  Gambar~\ref{normal_dist_mean_500_se_016}.
+\end{nexample}
+\end{examplewrap}
+
+\begin{figure}[h]
+  \centering
+  \Figure[Sebuah distribusi normal berpusat di 0.5 dengan simpangan baku 0.016 ditampilkan. Selain itu, sebuah anotasi terletak di 0.37 dan menyatakan, "p-topi teramati sama dengan 0.37".]{0.7}{normal_dist_mean_500_se_016}
+  \caption{
+      Jika hipotesis nol benar,
+      distribusi normal ini menggambarkan
+      distribusi $\hat{p}$.}
+  \label{normal_dist_mean_500_se_016}
+\end{figure}
+
+\begin{onebox}{Memeriksa syarat sukses--gagal dan menghitung
+      $\mathbf{SE_{\hat{p}}}$
+      untuk suatu uji hipotesis}
+  Saat menggunakan metode nilai-p untuk mengevaluasi suatu uji hipotesis,
+  kita memeriksa syarat-syarat untuk $\hat{p}$ dan menghitung
+  galat baku menggunakan nilai nol, $p_0$, alih-alih menggunakan
+  proporsi sampel. \stdvspace{}
+
+  Dalam uji hipotesis dengan nilai-p, kita mengandaikan
+  hipotesis nol benar,
+  yaitu cara berpikir yang berbeda dari ketika kita menghitung
+  interval kepercayaan.
+  Inilah sebabnya kita menggunakan $p_0$, bukan $\hat{p}$,
+  saat memeriksa syarat dan menghitung galat baku
+  dalam konteks ini.
+\end{onebox}
+
+Ketika kita mengidentifikasi distribusi sampling di bawah hipotesis nol,
+distribusi itu memiliki nama khusus: \term{distribusi nol}.
+Nilai-p merepresentasikan probabilitas memperoleh nilai $\hat{p}$ yang teramati,
+atau nilai $\hat{p}$ yang lebih ekstrem,
+jika hipotesis nol benar.
+Untuk mencari nilai-p, biasanya kita terlebih dahulu mencari distribusi nol,
+lalu mencari luas ekor pada distribusi itu yang bersesuaian
+dengan estimasi titik kita.
+%In some cases, as in this particular instance,
+%the null distribution is a normal distribution.
+
+\begin{examplewrap}
+\begin{nexample}{Jika hipotesis nol benar,
+    tentukan peluang memperoleh $\hat{p}$ yang setidaknya
+    sama jauhnya di ekor distribusi nol dengan \pewcoalpollprop{},
+    yaitu distribusi normal dengan rata-rata
+    $\mu = \pewcoalpollnullvalue{}$
+    dan $SE = \pewcoalpollnullse{}$.}
+%  When we compute the p-value, we think about the chance
+%  of our observation, if the null hypothesis were true.
+%
+  Ini adalah soal probabilitas normal dengan
+  $x = \pewcoalpollprop{}$.
+  Pertama, kita menggambar grafik sederhana untuk merepresentasikan situasinya,
+  serupa dengan yang ditunjukkan dalam
+  Gambar~\ref{normal_dist_mean_500_se_016}.
+  Karena $\hat{p}$ terletak sangat jauh di ekor, kita tahu bahwa
+  luas ekornya akan sangat kecil. Untuk mencarinya, mula-mula
+  kita menghitung skor-Z menggunakan rata-rata 0.5 dan
+  galat baku \pewcoalpollnullse{}:
+  \begin{align*}
+  Z = \frac{\pewcoalpollprop{} - 0.5}{\pewcoalpollnullse{}} = -8.125 
+  \end{align*}
+  Kita dapat menggunakan perangkat lunak untuk mencari luas ekor:
+  $2.2 \times 10^{-16}$
+  (0.00000000000000022).
+  Jika menggunakan tabel probabilitas normal dalam
+  Lampiran~\ref{normalProbabilityTable},
+  kita akan mendapati bahwa $Z = -8.125$ berada di luar tabel,
+  sehingga kita menggunakan luas terkecil yang tercantum: 0.0002.
+
+  Nilai-nilai potensial $\hat{p}$ di atas
+  \pewcoalpollpropcomplement{} pada ekor atas, yang ditunjukkan
+  dalam Gambar~\ref{normal_dist_mean_500_se_016_with_upper},
+  juga merepresentasikan pengamatan yang setidaknya sama ekstremnya dengan
+  nilai teramati \pewcoalpollprop{}.
+  Untuk memperhitungkan nilai-nilai yang juga lebih
+  ekstrem dalam susunan hipotesis ini,
+  kita menggandakan luas ekor bawah untuk memperoleh estimasi
+  nilai-p: $4.4 \times 10^{-16}$
+  (atau jika menggunakan metode tabel, 0.0004).
+
+  Nilai-p merepresentasikan probabilitas mengamati
+  proporsi sampel seekstrem itu secara kebetulan, jika hipotesis nol
+  benar.
+\end{nexample}
+\end{examplewrap}
+
+\begin{figure}[h]
+  \centering
+  \Figures[Sebuah distribusi normal berpusat di 0.5 dengan simpangan baku 0.016 ditampilkan. Selain itu, luas ekor di bawah 0.37 dan di atas 0.63 ditonjolkan -- wilayah di bawah distribusi normal itu hampir nol. Dua anotasi juga tampak. Pertama, anotasi yang terletak di 0.37 menyatakan, "Luas ekor untuk p-topi". Kedua, anotasi yang terletak di 0.68 menyatakan, "Sama langkanya jika H-nol (hipotesis nol) benar".]{0.7}{normal_dist_mean_500_se_016}
+      {normal_dist_mean_500_se_016_with_upper}
+  \caption{
+      Jika $H_0$ benar, maka nilai-nilai di atas
+      \pewcoalpollpropcomplement{} sama
+      langkanya dengan nilai-nilai di bawah \pewcoalpollprop{}.}
+  \label{normal_dist_mean_500_se_016_with_upper}
+\end{figure}
+
+
+
+
+\begin{examplewrap}
+\begin{nexample}{Bagaimana kita seharusnya mengevaluasi hipotesis menggunakan
+    nilai-p sebesar $4.4 \times 10^{-16}$?
+    Gunakan tingkat signifikansi baku $\alpha = 0.05$.}
+  Jika hipotesis nol benar, hanya ada peluang yang luar biasa
+  kecil untuk mengamati penyimpangan
+  $\hat{p}$ dari 0.5
+  yang seekstrem itu.
+  Ini berarti salah satu dari hal berikut harus benar:
+  \begin{enumerate}
+    \item Hipotesis nol benar, dan secara kebetulan kita
+        mengamati sesuatu yang begitu ekstrem sehingga hanya terjadi
+        sekitar satu kali dalam 23 kuadriliun percobaan
+        (1~kuadriliun = 1~juta $\times$ 1~miliar).
+    \item Hipotesis alternatif benar,
+        yang akan konsisten
+        dengan pengamatan proporsi sampel yang jauh dari 0.5.
+  \end{enumerate}
+  Skenario pertama sangat tidak masuk akal,
+  sedangkan skenario kedua tampak jauh lebih masuk akal.
+
+  Secara formal, ketika mengevaluasi suatu uji hipotesis,
+  kita membandingkan nilai-p dengan tingkat signifikansi,
+  yang dalam kasus ini adalah $\alpha = 0.05$.
+  Karena nilai-p lebih kecil daripada $\alpha$,
+  kita menolak hipotesis nol.
+  Artinya, data memberikan bukti kuat yang menentang $H_0$.
+  Data menunjukkan arah perbedaannya:
+  mayoritas orang Amerika tidak mendukung
+  perluasan penggunaan energi berbahan bakar batu bara.
+\end{nexample}
+\end{examplewrap}
+
+\index{data!coal power support@dukungan terhadap energi batu bara|)}
+
+\begin{onebox}{Bandingkan nilai-p dengan $\pmb{\alpha}$ untuk
+      mengevaluasi $\pmb{H_0}$}
+  Ketika nilai-p lebih kecil daripada tingkat signifikansi, $\alpha$,
+  tolak $H_0$. Kita akan melaporkan kesimpulan bahwa data memberikan
+  bukti kuat yang mendukung hipotesis alternatif. \\[2mm]
+  Ketika nilai-p lebih besar daripada $\alpha$, jangan tolak $H_0$,
+  dan laporkan bahwa kita tidak memiliki bukti yang cukup untuk menolak
+  hipotesis nol. \\[2mm]
+  Dalam kedua kasus tersebut, penting untuk menjelaskan kesimpulan
+  dalam konteks data.
+\end{onebox}
+
+
+
+
+
+
+\index{data!nuclear arms reduction@pengurangan senjata nuklir|(}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Apakah mayoritas orang Amerika mendukung atau menentang pengurangan
+senjata nuklir? Susun hipotesis untuk mengevaluasi
+pertanyaan ini.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Kita ingin mengetahui apakah mayoritas
+  mendukung atau menentang, atau apakah proporsi keduanya sama.
+  Jika $p$ adalah proporsi orang Amerika yang mendukung pengurangan
+  senjata nuklir, maka
+  $H_0$: $p = 0.50$ dan $H_A$: $p \neq 0.50$.}
+
+\newcommand{\gallupnucleararmspollsize}{1028}
+\newcommand{\gallupnucleararmspollprop}{0.56}
+\newcommand{\gallupnucleararmspollpropcomplement}{0.44}
+\newcommand{\gallupnucleararmspollpercent}{56}
+\newcommand{\gallupnucleararmspollpercentcomplement}{44}
+\newcommand{\gallupnucleararmspollnullcount}{514}
+\newcommand{\gallupnucleararmspollse}{0.0155}
+\newcommand{\gallupnucleararmspollnullvalue}{0.5}
+\newcommand{\gallupnucleararmspollnullse}{0.0156}
+
+\begin{examplewrap}
+\begin{nexample}{Sampel acak sederhana dari
+    \gallupnucleararmspollsize{} orang dewasa AS
+    pada Maret 2013 menunjukkan bahwa
+    \gallupnucleararmspollpercent{}\% mendukung pengurangan
+    senjata nuklir.
+    Apakah ini memberikan bukti meyakinkan bahwa mayoritas
+    orang Amerika mendukung pengurangan senjata nuklir pada
+    tingkat signifikansi 5\%?} \label{NuclearArmsInferenceExample}
+  Pertama, periksa syarat-syaratnya:
+  \begin{description}
+  \item[Independensi.] Jajak pendapat tersebut menggunakan sampel acak sederhana
+      dari orang dewasa AS, yang berarti pengamatannya independen.
+  \item[Sukses--gagal.] Dalam uji hipotesis satu proporsi,
+      syarat ini diperiksa menggunakan proporsi nol,
+      yaitu $p_0 = \gallupnucleararmspollnullvalue{}$
+      dalam konteks ini:
+      $n p_0 = n (1 - p_0)
+          = \gallupnucleararmspollsize{} \times
+              \gallupnucleararmspollnullvalue{}
+          = \gallupnucleararmspollnullcount{} \geq 10$.
+  \end{description}
+  Setelah syarat-syarat ini diverifikasi,
+  kita dapat memodelkan $\hat{p}$ menggunakan model normal.
+
+  Selanjutnya, galat baku dapat dihitung.
+  Nilai nol $p_0$ kembali digunakan di sini,
+  karena ini adalah uji hipotesis untuk satu proporsi.
+  \begin{align*}
+  SE_{\hat{p}}
+      = \sqrt{\frac{p_0 (1 - p_0)}{n}}
+      = \sqrt{\frac{\gallupnucleararmspollnullvalue{}
+          (1 - \gallupnucleararmspollnullvalue{})}
+          {\gallupnucleararmspollsize{}}}
+      = \gallupnucleararmspollnullse{}
+  \end{align*}
+  Berdasarkan model normal, statistik uji dapat
+  dihitung sebagai skor-Z dari estimasi titik:
+  \begin{align*}
+  Z = \frac{\text{estimasi titik} - \text{nilai nol}}{SE}
+      = \frac{\gallupnucleararmspollprop{} - 0.50}
+          {\gallupnucleararmspollnullse{}}
+      = 3.85
+  \end{align*}
+  Umumnya, menggambar distribusi nol dan
+  luas ekor yang diperlukan akan membantu dalam menghitung nilai-p:
+  \begin{center}
+  \Figures[Sebuah distribusi normal berpusat di 0.5 ditampilkan, dengan simpangan baku sekitar 0.0156. Dua ekor yang terletak beberapa simpangan baku dari pusat ditonjolkan. Ekor pertama, pada dan di atas 0.56, diberi anotasi "ekor atas". Ekor kedua, yang tampak berada pada dan di bawah 0.44, diberi anotasi "ekor bawah".]{0.48}{nuclearArmsReduction}{nuclearArmsReductionPValue}
+  \end{center}
+  Luas ekor atas sekitar 0.0001,
+  dan kita menggandakan luas ekor ini untuk memperoleh nilai-p: 0.0002.
+  Karena nilai-p lebih kecil daripada 0.05, kita menolak $H_0$.
+  Jajak pendapat tersebut memberikan bukti meyakinkan bahwa mayoritas
+  orang Amerika mendukung upaya pengurangan senjata nuklir
+  pada Maret 2013.
+\end{nexample}
+\end{examplewrap}
+
+\index{data!nuclear arms reduction@pengurangan senjata nuklir|)}
+
+% Boundary-clean reader removes a legacy forced page break.
+
+\newcommand{\oneprophtsummary}{
+\begin{onebox}{Uji hipotesis untuk satu proporsi}
+  Setelah menentukan bahwa uji hipotesis satu proporsi merupakan
+  prosedur yang tepat, ada empat langkah untuk menyelesaikan
+  uji tersebut:
+  \begin{description}
+  \item[Persiapkan.]
+      Identifikasi parameter yang menjadi perhatian,
+      cantumkan hipotesis,
+      identifikasi tingkat signifikansi,
+      serta identifikasi $\hat{p}$ dan $n$.
+  \item[Periksa.]
+      Verifikasi syarat-syarat
+      untuk memastikan $\hat{p}$ mendekati normal di bawah $H_0$.
+      Untuk uji hipotesis satu proporsi, gunakan nilai
+      nol untuk memeriksa syarat sukses--gagal.
+  \item[Hitung.]
+      Jika syarat-syarat terpenuhi, hitung galat
+      baku, kembali menggunakan $p_0$, hitung skor-Z,
+      dan identifikasi nilai-p.
+  \item[Simpulkan.]
+      Evaluasi uji hipotesis dengan membandingkan nilai-p
+      dengan $\alpha$, dan berikan kesimpulan dalam konteks
+      masalah.
+  \end{description}
+\end{onebox}
+}
+\oneprophtsummary{}
+
+\CalculatorVideos{hypothesis tests for a single proportion}
+
+
+\subsection{Memilih tingkat signifikansi}
+\label{significanceLevel}
+
+\index{uji hipotesis!tingkat signifikansi|(}
+\index{tingkat signifikansi|(}
+
+Memilih tingkat signifikansi untuk suatu uji penting dalam
+banyak konteks, dan tingkat tradisionalnya adalah $\alpha = 0.05$.
+Namun, menyesuaikan tingkat signifikansi berdasarkan
+penerapannya dapat bermanfaat. Kita dapat memilih tingkat yang
+lebih kecil atau lebih besar daripada 0.05, bergantung pada konsekuensi
+kesimpulan apa pun yang dicapai dari uji tersebut.
+
+Jika galat Tipe~1 berbahaya atau menimbulkan biaya yang sangat besar,
+kita sebaiknya memilih tingkat signifikansi kecil (mis. 0.01).
+Dalam skenario ini, kita ingin sangat berhati-hati dalam
+menolak hipotesis nol, sehingga kita menuntut bukti sangat kuat
+yang mendukung $H_A$ sebelum menolak $H_0$.
+
+Jika galat Tipe~2 relatif lebih berbahaya atau jauh lebih
+mahal daripada galat Tipe~1, kita mungkin memilih tingkat
+signifikansi yang lebih tinggi (mis. 0.10). Di sini kita ingin berhati-hati
+agar tidak gagal menolak $H_0$ ketika hipotesis alternatif
+sebenarnya benar.
+
+Selain itu, jika biaya pengumpulan data kecil dibandingkan
+dengan biaya galat Tipe~2, mengumpulkan lebih banyak data
+juga dapat menjadi strategi yang baik.
+Dengan strategi ini, galat Tipe~2 dapat dikurangi
+tanpa memengaruhi tingkat galat Tipe~1.
+Tentu saja, mengumpulkan data tambahan sering kali mahal,
+sehingga~biasanya perlu mempertimbangkan analisis biaya--manfaat.
+%We'll discuss this topic a bit more in
+%Sections~\ref{} and~\ref{}.
+%\Comment{Fix this reference.}
+
+\newcommand{\doorhingeflawrate}{0.2}
+
+\begin{examplewrap}
+\begin{nexample}{Sebuah produsen mobil sedang mempertimbangkan beralih
+    ke peralatan baru berkualitas lebih tinggi yang membuat
+    engsel pintu kendaraan.
+    Mereka memperkirakan akan menghemat uang dalam jangka panjang
+    jika tingkat kecacatan engsel yang dihasilkan mesin baru ini kurang dari
+    \doorhingeflawrate{}\%.
+    Namun, jika tingkat kecacatan engsel lebih dari
+    \doorhingeflawrate{}\%,
+    tingkat pengembalian investasi dari peralatan baru
+    tidak akan cukup baik,
+    dan mereka akan merugi.
+    Adakah alasan yang baik untuk mengubah tingkat signifikansi
+    dalam uji hipotesis seperti itu?}
+  Hipotesis nolnya adalah tingkat kecacatan
+  engsel sebesar \doorhingeflawrate{}\%,
+  sedangkan hipotesis alternatifnya adalah tingkat tersebut
+  berbeda dari \doorhingeflawrate{}\%.
+  Keputusan ini hanyalah salah satu dari banyak keputusan yang berdampak kecil
+  terhadap mobil dan perusahaan.
+  Tingkat signifikansi 0.05 tampak wajar karena
+  baik galat Tipe~1 maupun Tipe~2 tidak semestinya berbahaya
+  atau (secara relatif) jauh lebih mahal.
+\end{nexample}
+\end{examplewrap}
+
+\begin{examplewrap}
+\begin{nexample}{Produsen mobil yang sama sedang mempertimbangkan
+    pemasok yang sedikit lebih mahal untuk suku cadang terkait
+    keselamatan, bukan engsel pintu.
+    Jika daya tahan komponen
+    keselamatan ini terbukti lebih baik daripada milik
+    pemasok saat ini, mereka akan berganti produsen.
+    Adakah alasan yang baik untuk mengubah tingkat signifikansi
+    dalam evaluasi seperti itu?}
+  Hipotesis nolnya adalah suku cadang dari kedua pemasok
+  sama andalnya. Karena persoalan ini menyangkut keselamatan,
+  perusahaan mobil sebaiknya bersedia beralih ke produsen yang sedikit
+  lebih mahal (menolak $H_0$), sekalipun
+  bukti peningkatan keselamatannya hanya berkekuatan sedang.
+  Tingkat signifikansi yang sedikit lebih besar,
+  seperti $\alpha=0.10$, mungkin tepat.
+\end{nexample}
+\end{examplewrap}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Sebuah komponen di dalam mesin sangat mahal untuk diganti.
+Namun, mesin biasanya tetap berfungsi dengan baik meskipun
+komponen ini rusak, sehingga komponen tersebut hanya diganti jika kita
+sangat yakin bahwa komponen itu rusak berdasarkan serangkaian
+pengukuran.
+Identifikasi hipotesis yang tepat untuk uji ini
+(dalam bahasa biasa) dan sarankan tingkat signifikansi
+yang tepat.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Di sini
+  hipotesis nolnya adalah komponen tersebut tidak rusak,
+  dan hipotesis alternatifnya adalah komponen itu rusak.
+  Jika kita tidak memiliki bukti yang cukup untuk menolak $H_0$,
+  kita tidak akan mengganti komponen tersebut.
+  Tampaknya kegagalan memperbaiki komponen jika komponen itu rusak
+  ($H_0$ salah, $H_A$ benar) tidak terlalu bermasalah,
+  sedangkan mengganti komponen itu mahal.
+  Oleh karena itu, kita harus menuntut bukti yang sangat kuat untuk menentang
+  $H_0$ sebelum mengganti komponen tersebut.
+  Pilih tingkat signifikansi kecil, seperti $\alpha=0.01$.}
+
+\begin{onebox}{Mengapa 0.05 menjadi nilai bawaan?}
+  Ambang $\alpha = 0.05$ paling umum digunakan. Namun, mengapa?
+  Mungkin tingkat bakunya seharusnya lebih kecil, atau barangkali lebih besar.
+  Jika Anda sedikit bingung, berarti Anda membacanya dengan
+  lebih kritis -- bagus!
+  Kami telah membuat kegiatan 5 menit untuk membantu menjelaskan \emph{mengapa 0.05}:
+  \begin{center}
+  \oiRedirect{textbook-why05}{www.openintro.org/why05}
+  \end{center}
+\end{onebox}
+
+
+\index{tingkat signifikansi|)}
+\index{uji hipotesis!tingkat signifikansi|)}
+\index{uji hipotesis!nilai-p|)}
+
+
+\subsection{Signifikansi statistik versus signifikansi praktis}
+
+Ketika ukuran sampel menjadi lebih besar,
+estimasi titik menjadi lebih presisi dan setiap perbedaan nyata
+antara rata-rata dan nilai nol menjadi lebih mudah dideteksi dan dikenali.
+Bahkan perbedaan yang sangat kecil mungkin akan terdeteksi jika kita mengambil
+sampel yang cukup besar.
+Terkadang peneliti mengambil sampel sedemikian besar sehingga bahkan
+perbedaan yang paling tipis pun terdeteksi, termasuk perbedaan yang
+tidak memiliki nilai praktis.
+Dalam kasus seperti itu, kita tetap mengatakan bahwa perbedaannya
+\term{signifikan secara statistik},
+tetapi tidak \term{signifikan secara praktis}.
+Sebagai contoh, sebuah eksperimen daring mungkin menemukan bahwa menempatkan
+iklan tambahan pada situs web ulasan film secara
+signifikan meningkatkan jumlah penonton acara TV sebesar 0.001\%,
+tetapi peningkatan ini mungkin tidak memiliki nilai praktis apa pun.
+
+%Statistically significant differences are sometimes
+%so minor that they are not practically relevant.
+%This is especially important to research:
+%if we conduct a study, we want to focus on finding
+%a meaningful result.
+%We don't want to spend lots of money finding results
+%that hold no practical value.
+
+Salah satu peran ilmuwan data dalam melakukan studi sering kali
+mencakup perencanaan ukuran studi.
+Ilmuwan data tersebut mungkin terlebih dahulu berkonsultasi dengan pakar atau literatur
+ilmiah untuk mempelajari perbedaan bermakna terkecil
+dari nilai nol.
+Ia juga akan memperoleh informasi lain,
+seperti estimasi yang sangat kasar untuk proporsi sebenarnya $p$,
+agar ia dapat memperkirakan galat baku secara kasar.
+Dari sini, ia dapat menyarankan ukuran sampel yang cukup
+besar sehingga, jika memang ada perbedaan nyata yang bermakna,
+kita dapat mendeteksinya.
+Walaupun ukuran sampel yang lebih besar tetap dapat digunakan,
+perhitungan ini sangat membantu ketika mempertimbangkan
+biaya atau potensi risiko, seperti kemungkinan dampak kesehatan
+terhadap relawan dalam studi medis.
+
+
+% Boundary-clean reader removes a legacy forced page break.
+
+\subsection{Uji hipotesis satu sisi (topik khusus)}
+
+Sejauh ini kita hanya mempertimbangkan apa yang disebut \term{uji
+hipotesis dua sisi}, yaitu ketika kita berkepentingan mendeteksi apakah $p$
+berada di atas atau di bawah suatu nilai nol $p_0$.
+Ada jenis uji hipotesis kedua yang disebut
+\term{uji hipotesis satu sisi}.
+Untuk uji hipotesis satu sisi,
+hipotesisnya mengambil salah satu bentuk berikut:
+\begin{enumerate}
+\item Hanya ada manfaat dalam mendeteksi apakah parameter
+    populasi \emph{kurang dari} suatu nilai~$p_0$.
+    Dalam~kasus ini, hipotesis alternatif ditulis
+    sebagai $p < p_0$ untuk suatu nilai nol $p_0$.
+\item Hanya ada manfaat dalam mendeteksi apakah parameter
+    populasi \emph{lebih dari} suatu nilai~$p_0$:
+    Dalam~kasus ini, hipotesis alternatif ditulis
+    sebagai $p > p_0$.
+\end{enumerate}
+Walaupun kita menyesuaikan bentuk hipotesis alternatif,
+kita tetap menuliskan hipotesis nol menggunakan tanda sama dengan
+dalam kasus uji hipotesis satu sisi.
+
+Dalam seluruh prosedur uji hipotesis,
+hanya ada satu perbedaan dalam mengevaluasi uji hipotesis
+satu sisi dibandingkan uji hipotesis dua sisi:
+cara menghitung nilai-p.
+Dalam uji hipotesis satu sisi, kita menghitung nilai-p sebagai
+luas ekor \emph{hanya pada arah hipotesis
+alternatif}, yang berarti nilai-p direpresentasikan oleh satu
+luas ekor. Di sinilah letak alasan mengapa uji satu sisi
+terkadang menarik: jika kita tidak perlu menggandakan
+luas ekor untuk memperoleh nilai-p, maka nilai-p menjadi
+lebih kecil dan ambang bukti yang diperlukan untuk mengidentifikasi
+temuan menarik pada arah
+hipotesis alternatif pun menurun.
+Namun, uji satu sisi bukannya tanpa kelemahan:
+harga mahal yang harus dibayar adalah bahwa setiap temuan menarik
+pada arah berlawanan harus diabaikan.
+
+\begin{examplewrap}
+\begin{nexample}{
+    Dalam Bagian~\ref{basicExampleOfStentsAndStrokes},
+    kita menjumpai contoh ketika dokter ingin
+    menentukan apakah stent akan membantu orang yang
+    berisiko tinggi mengalami strok.
+    Para peneliti percaya bahwa stent akan membantu.
+    Sayangnya, data menunjukkan kebalikannya:
+    keadaan pasien yang menerima stent justru lebih buruk.
+    Mengapa penggunaan uji dua sisi sangat penting dalam
+    konteks ini?}
+    \label{basicExampleOfStentsAndStrokesOneSided}
+  Sebelum studi, para peneliti memiliki alasan untuk percaya
+  bahwa stent akan membantu pasien karena penelitian yang ada
+  menunjukkan stent membantu pasien yang mengalami serangan jantung.
+  Tentu saja, menggunakan uji satu sisi dalam situasi ini
+  akan sangat menggoda, dan seandainya mereka melakukannya,
+  mereka akan membatasi kemampuan untuk mengidentifikasi
+  potensi bahaya bagi pasien.
+\end{nexample}
+\end{examplewrap}
+
+Contoh~\ref{basicExampleOfStentsAndStrokesOneSided}
+menyoroti bahwa penggunaan hipotesis satu sisi menimbulkan
+risiko mengabaikan data yang mendukung kesimpulan
+berlawanan.
+Kita dapat membuat kesalahan serupa ketika meninjau
+data pertanyaan keluarga Rosling dalam bagian ini;
+jika kita beranggapan sebelumnya bahwa
+orang berpendidikan perguruan tinggi tidak mungkin berkinerja lebih buruk daripada
+tebakan acak, lalu karena itu menggunakan uji satu sisi,
+kita akan melewatkan temuan yang sangat menarik
+bahwa banyak orang memiliki pengetahuan yang keliru tentang
+kesehatan masyarakat global.
+%Here are a few other situations where it has been,
+%or would have been, very useful to have an open mind
+%and consider the contrarian view:
+%\begin{itemize}
+%\item The 2008 financial crisis. There were warning signs,
+%    but few people recognized them.
+%    In fact, some financial firms essentially bought into
+%    the notion that housing prices could only rise, not fall.
+%\item 
+%    
+%\end{itemize}
+
+Kapan uji satu sisi mungkin tepat digunakan?
+\emph{Sangat jarang.}
+Jika Anda pernah mempertimbangkan penggunaan
+uji satu sisi, jawablah pertanyaan berikut dengan saksama:
+\begin{quote}{\em
+  Apa yang akan saya, atau orang lain, simpulkan jika data kebetulan
+  menunjukkan arah yang jelas berlawanan dengan
+  hipotesis alternatif saya?
+}\end{quote}
+Jika Anda atau orang lain akan memperoleh manfaat dari penarikan
+kesimpulan tentang data yang menunjukkan arah berlawanan
+dengan uji satu sisi, maka sebenarnya uji hipotesis
+dua sisi yang harus digunakan.
+Pertimbangan ini dapat bersifat halus, jadi berhati-hatilah.
+Kita hanya akan menerapkan uji dua sisi dalam bagian-bagian selanjutnya
+dari buku ini.
+
+\begin{examplewrap}
+\begin{nexample}{
+    Mengapa kita tidak dapat begitu saja menjalankan uji satu sisi
+    yang searah dengan data?}
+  Kita telah membangun kerangka yang cermat untuk
+  mengendalikan galat Tipe~1, yaitu
+  tingkat signifikansi $\alpha$ dalam suatu uji hipotesis.
+  Kita akan menggunakan $\alpha = 0.05$ di bawah ini agar
+  semuanya tetap sederhana.
+
+  Bayangkan kita dapat memilih uji satu sisi setelah
+  melihat data. Apa masalahnya?
+  \begin{itemize}
+  \item Jika $\hat{p}$ \emph{lebih kecil} daripada
+      nilai nol,
+      maka uji satu sisi dengan $p < p_0$ akan
+      berarti bahwa setiap pengamatan dalam
+      ekor \emph{bawah} sebesar 5\% dari distribusi nol
+      akan membuat kita menolak $H_0$.
+  \item Jika $\hat{p}$ \emph{lebih besar} daripada
+      nilai nol,
+      maka uji satu sisi dengan $p > p_0$ akan
+      berarti bahwa setiap pengamatan dalam
+      ekor \emph{atas} sebesar 5\% dari distribusi nol
+      akan membuat kita menolak $H_0$.
+  \end{itemize}
+  Maka, jika $H_0$ benar, ada peluang 10\% untuk
+  berada di salah satu dari kedua ekor, sehingga galat pengujian kita
+  sebenarnya adalah $\alpha = 0.10$, bukan 0.05.
+  Artinya,
+  ketidakcermatan dalam menentukan kapan menggunakan uji satu sisi
+  secara efektif merusak metode yang dengan susah payah telah kita
+  kembangkan dan gunakan.
+\end{nexample}
+\end{examplewrap}
+
+\index{uji hipotesis|)}
+
+
+{\input{ch_foundations_for_inf/TeX/hypothesis_testing.tex}}

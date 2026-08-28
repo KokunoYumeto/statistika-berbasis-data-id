@@ -1,0 +1,165 @@
+{
+  "$schema": "interlanguage.r011-b021-translation-audit/v1",
+  "boundary": "R011-B021",
+  "status": "PASS_TRANSLATION_AND_PROTECTED_TEX_CLOSURE",
+  "production_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "authority": {
+    "repository": "https://github.com/OpenIntroStat/openintro-statistics",
+    "commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex",
+    "file_bytes": 118798,
+    "file_sha256": "03f758a772f24f4ba3a96157eba2a4fcf43e70a2cda3c6d788a14b54e577999b"
+  },
+  "source_slice": {
+    "first_line": 1720,
+    "last_line": 2116,
+    "stop_before_line": 2117,
+    "logical_lines": 397,
+    "normalization": "Exact UTF-8 source bytes from line 1720 through the LF terminating line 2116; no BOM and LF line endings.",
+    "bytes_utf8": 15131,
+    "sha256": "e94b91a17c3a09cf0f3b88fdb487bf4eed2554814d1295c1ba29b089f5b8f86b"
+  },
+  "target": {
+    "path": "qa/b021-translation/staging/ch_foundations_for_inf_1720-2116.id.tex",
+    "logical_lines": 395,
+    "line_endings": "LF",
+    "terminal_lf": true,
+    "bytes_utf8": 16415,
+    "sha256": "07ce5e20e6e35a82311ac356e18cdb2ab491339227b23cfbddf92f46e13c331e",
+    "coverage": "Section 5.3 subsections Testing hypotheses using confidence intervals and Decision errors through the blank boundary immediately before Formal testing using p-values; includes all visible examples, guided exercises, footnote answers, the four-scenario table, indexes, and forward transition prose."
+  },
+  "protected_token_checks": {
+    "tex_control_sequence_order": {
+      "source_count": 242,
+      "target_count": 242,
+      "exact_sequence_equal": true,
+      "tokenizer": "\\\\(?:[A-Za-z@]+|.) includes both control words and control symbols"
+    },
+    "begin_end_environment_order": {
+      "source_count": 48,
+      "target_count": 48,
+      "exact_sequence_equal": true
+    },
+    "label_ref_cite_redirect_order": {
+      "source_count": 18,
+      "target_count": 18,
+      "exact_sequence_equal": true
+    },
+    "inline_math_span_order": {
+      "source_count": 48,
+      "target_count": 48,
+      "exact_sequence_equal": true
+    },
+    "numeric_literal_order": {
+      "source_count": 124,
+      "target_count": 124,
+      "exact_sequence_equal": true
+    },
+    "newcommand_definition_order": {
+      "source_count": 8,
+      "target_count": 8,
+      "exact_sequence_equal": true
+    },
+    "brace_balance": {
+      "source_open": 185,
+      "source_close": 185,
+      "target_open": 185,
+      "target_close": 185
+    },
+    "dormant_comment_lines": {
+      "source_count": 14,
+      "target_count": 14,
+      "exact_sequence_equal": true,
+      "policy": "Dormant commented-out English source and R calculation notes remain byte-text identical because they are not reader-visible and may encode upstream development history."
+    },
+    "active_reader_english_residue": {
+      "status": "PASS",
+      "review_scope": "All 395 target lines manually reviewed after heuristic common-English-token scan; comments, math, and protected identifiers adjudicated separately.",
+      "untranslated_fragments": [],
+      "allowed_non_Indonesian_tokens": [
+        "Rosling",
+        "Factfulness",
+        "amazon_factfulness",
+        "rosling_responses",
+        "SE, H_0, H_A, p, and TeX identifiers or macro keys"
+      ]
+    }
+  },
+  "terminology_decisions": [
+    {
+      "source": "hypothesis testing / null hypothesis / alternative hypothesis / null value",
+      "target": "uji hipotesis / hipotesis nol / hipotesis alternatif / nilai nol",
+      "decision": "Continue the established §5.3 terminology and preserve H_0, H_A, p_0, and all parameter notation exactly."
+    },
+    {
+      "source": "confidence interval / confidence level / critical value",
+      "target": "interval kepercayaan / tingkat kepercayaan / nilai kritis",
+      "decision": "Continue the terminology admitted in the preceding inference boundary; use interval consistently rather than selang."
+    },
+    {
+      "source": "Type 1 Error / Type 2 Error / decision errors",
+      "target": "Galat Tipe 1 / Galat Tipe 2 / galat keputusan",
+      "decision": "Use galat for inferential decision errors and preserve the numbered type distinction in prose, terms, exercises, footnotes, and the four-scenario table."
+    },
+    {
+      "source": "significance level / alpha",
+      "target": "tingkat signifikansi / alfa",
+      "decision": "Use the standard Indonesian statistical term while preserving the symbol alpha and every numeric level exactly."
+    },
+    {
+      "source": "p-value",
+      "target": "nilai-p",
+      "decision": "Introduce the compact Indonesian term in the transition sentence without creating a new math span; the formal definition lies beyond this slice."
+    },
+    {
+      "source": "success-failure condition",
+      "target": "syarat sukses--gagal",
+      "decision": "Use the controlled form present in the admitted and published B020 editable source."
+    }
+  ],
+  "source_defects": [
+    {
+      "lines": "1725-1727",
+      "source": "the hypothesis test evaluating whether college-educated adults who get the question ... correct is different from 33.3%",
+      "classification": "active-prose grammar and missing-head-noun defect",
+      "intended_reading": "whether the proportion of college-educated adults who answer correctly differs from 33.3%",
+      "translation_action": "Rendered the intended proportion comparison naturally; authority left unchanged."
+    },
+    {
+      "lines": "1797-1800",
+      "source": "the data do not provide sufficient evidence to reject the notion that the performance ... was different than random guessing, and we do not reject the null hypothesis",
+      "classification": "active-prose logical-negation defect",
+      "intended_reading": "the data do not provide sufficient evidence that performance differs from random guessing, so the null hypothesis is not rejected",
+      "translation_action": "Rendered the inferentially coherent intended reading; authority left unchanged."
+    },
+    {
+      "lines": "1870 and 1879",
+      "source": "Dormant R comments use x <- 39 and later x <- 34, while the active macro is roslingBcount = 34.",
+      "classification": "dormant-comment inconsistency",
+      "translation_action": "Preserved both dormant source comments byte-text identically; live formulas, macro values, and reader claims remain unchanged."
+    }
+  ],
+  "post_producer_corrections": [
+    {
+      "action": "Removed three unintended leading/repeated spaces in the translated table and transition paragraph; no semantic or protected-token byte changed.",
+      "result": "Typography normalized; all structural checks remain exact."
+    },
+    {
+      "action": "Replaced two staging-only berhasil-gagal variants with the admitted B020 term sukses--gagal after direct inspection of the published B020 editable-source ZIP.",
+      "result": "Controlled terminology now matches the actual prior release; all TeX, math, numeric, and structural tokens remain exact."
+    },
+    {
+      "action": "Independent review normalized estimasi titik, the 95% confidence sentence, and the Sukses--gagal heading to admitted B020 usage.",
+      "result": "Natural id-ID and controlled terminology now align with the published predecessor; protected-token streams remain exact."
+    }
+  ],
+  "scope_guards": {
+    "canonical_source_mutated": false,
+    "live_backend_mutated": false,
+    "build_or_control_artifacts_mutated": false,
+    "network_used": false,
+    "git_used": false,
+    "credentials_accessed": false,
+    "upstream_contact": false
+  }
+}

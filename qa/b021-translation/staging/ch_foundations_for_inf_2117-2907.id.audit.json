@@ -1,0 +1,146 @@
+{
+  "$schema": "interlanguage.r011-b021-translation-audit/v1",
+  "boundary": "R011-B021",
+  "chunk": "C",
+  "status": "PASS_TRANSLATION_AND_PROTECTED_TEX_CLOSURE",
+  "production_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "authority": {
+    "repository": "https://github.com/OpenIntroStat/openintro-statistics",
+    "commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex",
+    "file_bytes": 118798,
+    "file_sha256": "03f758a772f24f4ba3a96157eba2a4fcf43e70a2cda3c6d788a14b54e577999b"
+  },
+  "source_slice": {
+    "first_line": 2117,
+    "last_line": 2907,
+    "logical_lines": 791,
+    "normalization": "exact source lines joined with LF, without an added terminal LF",
+    "bytes_utf8": 31612,
+    "sha256": "59dcbd90fc52e240c911def3be6f8c84d221822899634f636de94a018997bad5",
+    "alternate_with_terminal_lf": {
+      "bytes_utf8": 31613,
+      "sha256": "17428cc47f22cc38c76f6dafd685c5933b8f277273ed37b602415aa959f5467a"
+    },
+    "hash_verified_before_translation": true
+  },
+  "target": {
+    "path": "qa/b021-translation/staging/ch_foundations_for_inf_2117-2907.id.tex",
+    "logical_lines": 789,
+    "line_endings": "LF",
+    "bytes_utf8": 32801,
+    "sha256": "e15e9f94628828892a60280301d11597b02cebd5b7046634bb38af6520c0edcb",
+    "coverage": "Subsection Formal testing using p-values through One-sided hypothesis tests, including the in-text exercises and public footnote answers, three active figure-call alt texts, and the final active hypothesis_testing.tex input command."
+  },
+  "protected_token_checks": {
+    "tex_control_sequence_order": {
+      "source_count": 380,
+      "target_count": 380,
+      "exact_sequence_equal": true,
+      "tokenizer": "\\\\(?:[A-Za-z@]+|.)"
+    },
+    "begin_end_environment_order": {
+      "source_count": 100,
+      "target_count": 100,
+      "exact_sequence_equal": true
+    },
+    "label_ref_cite_input_redirect_order": {
+      "source_count": 20,
+      "target_count": 20,
+      "exact_command_and_argument_sequence_equal": true
+    },
+    "numeric_literal_order": {
+      "source_count": 166,
+      "target_count": 166,
+      "exact_sequence_equal": true
+    },
+    "inline_math_span_order": {
+      "source_count": 105,
+      "target_count": 105,
+      "exact_sequence_equal": true
+    },
+    "display_math_blocks": {
+      "source_align_star_count": 5,
+      "target_align_star_count": 5,
+      "mathematical_structure_equal": true,
+      "localized_visible_text_exception": "In the fifth align* block only, \\text{point estimate} and \\text{null value} became \\text{estimasi titik} and \\text{nilai nol}; all surrounding TeX, symbols, and numbers are exact."
+    },
+    "newcommand_definition_order": {
+      "source_count": 21,
+      "target_count": 21,
+      "exact_macro_name_sequence_equal": true
+    },
+    "index_structure": {
+      "source_count": 12,
+      "target_count": 12,
+      "range_and_textbf_marker_sequence_equal": true,
+      "terms_localized": true,
+      "stable_data_sort_keys_retained_with_indonesian_display_aliases": true
+    },
+    "dormant_comment_lines": {
+      "source_count": 100,
+      "target_count": 100,
+      "exact_sequence_equal": true,
+      "policy": "Dormant commented-out source remains byte-text identical because it is not reader-visible and may encode upstream development history."
+    },
+    "brace_balance": {
+      "source_open": 353,
+      "source_close": 353,
+      "target_open": 353,
+      "target_close": 353
+    }
+  },
+  "language_qa": {
+    "status": "PASS_ACTIVE_READER_PROSE_REVIEWED",
+    "active_untranslated_instructional_prose": 0,
+    "active_figure_alt_texts_translated": 3,
+    "allowed_non_indonesian_or_protected_strings": [
+      "Pew Research",
+      "TeX labels, macro names, figure paths, and URL keys",
+      "English data index sort keys paired with Indonesian display aliases",
+      "CalculatorVideos{hypothesis tests for a single proportion}, retained as an established protected selector rather than reader prose"
+    ]
+  },
+  "terminology_decisions": [
+    "p-value -> nilai-p",
+    "hypothesis test/testing -> uji hipotesis",
+    "null distribution -> distribusi nol",
+    "test statistic -> statistik uji",
+    "significance level -> tingkat signifikansi",
+    "one-sided/two-sided hypothesis test -> uji hipotesis satu sisi/dua sisi",
+    "Type 1/Type 2 Error -> galat Tipe 1/galat Tipe 2",
+    "standard error -> galat baku",
+    "point estimate -> estimasi titik",
+    "success-failure condition -> syarat sukses--gagal"
+  ],
+  "source_defects": [
+    {
+      "lines": [2121, 2717, 2904],
+      "classification": "index range imbalance",
+      "evidence": "hypothesis testing!p-value|(: opened at line 2121 and never closed; the single broader hypothesis testing range opened at authority line 1512 is closed at both lines 2717 and 2904",
+      "translation_action": "Recorded the defect and preserved the same ordered range-marker structure under localized index terms; authority was not changed."
+    },
+    {
+      "lines": [2650, 2651],
+      "source": "while the alternative is that it the rate / is different than ...",
+      "classification": "active-prose duplicated-word grammar defect",
+      "intended_reading": "while the alternative is that the rate is different from ...",
+      "translation_action": "Translated the intended meaning naturally as 'sedangkan hipotesis alternatifnya adalah tingkat tersebut berbeda dari ...'; authority was not changed."
+    }
+  ],
+  "post_producer_corrections": [
+    {
+      "action": "Parent linguistic review refined the p-value definition, two figure descriptions, two captions, the null-distribution example prompt, and several literal constructions in the significance and one-sided-test prose.",
+      "result": "Reader-facing id-ID is more natural and accessible while ordered TeX controls, mathematics, numerics, identifiers, and source meaning remain unchanged."
+    }
+  ],
+  "scope_guards": {
+    "canonical_source_mutated": false,
+    "live_backend_mutated": false,
+    "build_control_or_public_artifacts_mutated": false,
+    "network_used": false,
+    "git_used": false,
+    "credentials_accessed": false,
+    "upstream_contact": false
+  }
+}
