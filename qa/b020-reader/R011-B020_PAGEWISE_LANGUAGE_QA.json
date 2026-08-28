@@ -1,9 +1,9 @@
 {
-  "$schema": "interlanguage.r011-b019-pagewise-language-qa/v1",
-  "boundary_id": "R011-B019",
-  "status": "PASS_ALL_190_PAGES_ADJUDICATED_NO_UNTRANSLATED_INSTRUCTIONAL_EXERCISE_OR_PUBLIC_ANSWER_PROSE",
-  "learner_reader_total_pages": 190,
-  "accepted_indonesian_reader_pages": 190,
+  "$schema": "interlanguage.r011-b020-pagewise-language-qa/v1",
+  "boundary_id": "R011-B020",
+  "status": "PASS_ALL_199_PAGES_ADJUDICATED_NO_UNTRANSLATED_INSTRUCTIONAL_EXERCISE_OR_PUBLIC_ANSWER_PROSE",
+  "learner_reader_total_pages": 199,
+  "accepted_indonesian_reader_pages": 199,
   "untranslated_instructional_or_exercise_prose_pages": 0,
   "all_pages_adjudicated": true,
   "full_source_closure_contains_untranslated_source": true,
@@ -15,17 +15,120 @@
       3,
       4,
       5,
-      6
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
     ],
     "public_answers_translated": [
       1,
       3,
-      5
+      5,
+      7,
+      9,
+      11,
+      13
     ],
     "o001_no_public_answer": [
       2,
       4,
-      6
+      6,
+      8,
+      10,
+      12,
+      14
+    ]
+  },
+  "structural_checks": {
+    "scope_statement_count": 1,
+    "section_5_2_heading_witness_count": 8,
+    "exercise_title_counts": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 1,
+      "14": 1
+    },
+    "translated_exercise_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "public_answer_label_counts_in_answer_section": {
+      "1": 1,
+      "2": 0,
+      "3": 1,
+      "4": 0,
+      "5": 1,
+      "6": 0,
+      "7": 1,
+      "8": 0,
+      "9": 1,
+      "10": 0,
+      "11": 1,
+      "12": 0,
+      "13": 1,
+      "14": 0
+    },
+    "public_answers_translated": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13
+    ],
+    "o001_no_public_answer": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14
+    ],
+    "excluded_section_5_3_tail_present": false
+  },
+  "build_binding": {
+    "pdf_page_count": 199,
+    "build_status": "PASS_TWO_REPLAY_DETERMINISTIC_BOUNDARY_CLEAN_BUILD_LANGUAGE_AND_VISUAL_QA_PENDING",
+    "determinism": {
+      "pdf_byte_identical": true,
+      "text_byte_identical": true,
+      "trailer_ids_equal": true
+    },
+    "included_scope": "Indonesian front matter and Chapters 1-4 through Section 4.5, plus Chapter 5 introduction and Sections 5.1-5.2 with exercises 1-14 and upstream-public answers 1, 3, 5, 7, 9, 11, and 13.",
+    "excluded_untranslated_scope": [
+      "Chapter 5 Section 5.3 onward",
+      "Chapter 5 answers 2, 4, 6, 8, 10, 12, and 14 (not present in the public source; O001 gaps)",
+      "Chapters 6-9",
+      "untranslated data/table/index appendices"
     ]
   },
   "allowed_english_residual_categories": [
@@ -62,7 +165,454 @@
     115,
     159
   ],
-  "avoidable_residual_counts": {
+  "heuristic_flag_evidence": [
+    {
+      "page": 11,
+      "english_tokens": 17,
+      "indonesian_tokens": 131,
+      "word_tokens": 496,
+      "line_score": 12,
+      "lines": [
+        {
+          "english": 8,
+          "indonesian": 0,
+          "text": "2 G. Allais et al. “Ear acupuncture in the treatment of migraine attacks: a randomized trial on the efficacy of"
+        },
+        {
+          "english": 4,
+          "indonesian": 0,
+          "text": "3 J.M. Garbutt et al. “Amoxicillin for Acute Rhinosinusitis: A Randomized Controlled Trial”. In: JAMA: The"
+        }
+      ],
+      "disposition": "PASS_PRESERVED_BIBLIOGRAPHIC_OR_SOURCE_TITLE"
+    },
+    {
+      "page": 19,
+      "english_tokens": 24,
+      "indonesian_tokens": 141,
+      "word_tokens": 554,
+      "line_score": 15,
+      "lines": [
+        {
+          "english": 4,
+          "indonesian": 0,
+          "text": "10 B. Ritz et al. “Effect of air pollution on preterm birth among children born in Southern California between 1989"
+        },
+        {
+          "english": 5,
+          "indonesian": 0,
+          "text": "11 J. McGowan. “Health Education: Does the Buteyko Institute Method make a difference?” In: Thorax 58 (2003)."
+        },
+        {
+          "english": 6,
+          "indonesian": 0,
+          "text": "12 Alessandro Bucciol and Marco Piovesan. “Luck or cheating? A field experiment on honesty with children”. In:"
+        }
+      ],
+      "disposition": "PASS_PRESERVED_BIBLIOGRAPHIC_OR_SOURCE_TITLE"
+    },
+    {
+      "page": 20,
+      "english_tokens": 34,
+      "indonesian_tokens": 153,
+      "word_tokens": 560,
+      "line_score": 14,
+      "lines": [
+        {
+          "english": 4,
+          "indonesian": 0,
+          "text": "2     Male      44    Single    £10,400 to £15,600      No           N/A          N/A"
+        },
+        {
+          "english": 3,
+          "indonesian": 0,
+          "text": "13 P.K. Piff et al. “Higher social class predicts increased unethical behavior”. In: Proceedings of the National"
+        },
+        {
+          "english": 7,
+          "indonesian": 0,
+          "text": "14 R.A Fisher. “The Use of Multiple Measurements in Taxonomic Problems”. In: Annals of Eugenics 7 (1936),"
+        }
+      ],
+      "disposition": "PASS_PRESERVED_LITERAL_DATA_CATEGORY_AND_BIBLIOGRAPHIC_TITLE"
+    },
+    {
+      "page": 31,
+      "english_tokens": 16,
+      "indonesian_tokens": 190,
+      "word_tokens": 615,
+      "line_score": 9,
+      "lines": [
+        {
+          "english": 4,
+          "indonesian": 0,
+          "text": "24 Justin Hepler and Dolores Albarracı́n. “Attitudes without objects - Evidence for a dispositional attitude, its"
+        },
+        {
+          "english": 5,
+          "indonesian": 0,
+          "text": "measurement, and its consequences”. In: Journal of personality and social psychology 104.6 (2013), p. 1060."
+        }
+      ],
+      "disposition": "PASS_PRESERVED_BIBLIOGRAPHIC_OR_SOURCE_TITLE"
+    },
+    {
+      "page": 32,
+      "english_tokens": 15,
+      "indonesian_tokens": 64,
+      "word_tokens": 296,
+      "line_score": 11,
+      "lines": [
+        {
+          "english": 4,
+          "indonesian": 0,
+          "text": "(a) Artikel berjudul Risks: Smokers Found More Prone to Dementia melaporkan hal-hal berikut.25"
+        },
+        {
+          "english": 4,
+          "indonesian": 0,
+          "text": "25 R.C. Rabin. “Risks: Smokers Found More Prone to Dementia”. In: New York Times (2010)."
+        },
+        {
+          "english": 3,
+          "indonesian": 0,
+          "text": "26 T. Parker-Pope. “The School Bully Is Sleepy”. In: New York Times (2011)."
+        }
+      ],
+      "disposition": "PASS_PRESERVED_BIBLIOGRAPHIC_OR_SOURCE_TITLE"
+    },
+    {
+      "page": 36,
+      "english_tokens": 11,
+      "indonesian_tokens": 173,
+      "word_tokens": 589,
+      "line_score": 6,
+      "lines": [
+        {
+          "english": 6,
+          "indonesian": 0,
+          "text": "32 C. Audera et al. “Mega-dose vitamin C in treatment of the common cold: a randomised controlled trial”. In:"
+        }
+      ],
+      "disposition": "PASS_PRESERVED_BIBLIOGRAPHIC_OR_SOURCE_TITLE"
+    },
+    {
+      "page": 37,
+      "english_tokens": 12,
+      "indonesian_tokens": 159,
+      "word_tokens": 504,
+      "line_score": 4,
+      "lines": [
+        {
+          "english": 4,
+          "indonesian": 0,
+          "text": "33 D.C. Nieman et al. “Chia seed does not promote weight loss or alter disease risk factors in overweight adults”."
+        }
+      ],
+      "disposition": "PASS_PRESERVED_BIBLIOGRAPHIC_OR_SOURCE_TITLE"
+    },
+    {
+      "page": 38,
+      "english_tokens": 13,
+      "indonesian_tokens": 144,
+      "word_tokens": 568,
+      "line_score": 7,
+      "lines": [
+        {
+          "english": 4,
+          "indonesian": 0,
+          "text": "34 Tamlin S Conner et al. “Let them eat fruit! The effect of fruit and vegetable consumption on psychological"
+        },
+        {
+          "english": 3,
+          "indonesian": 0,
+          "text": "well-being in young adults: A randomized controlled trial”. In: PloS one 12.2 (2017), e0171206."
+        }
+      ],
+      "disposition": "PASS_PRESERVED_BIBLIOGRAPHIC_OR_SOURCE_TITLE"
+    },
+    {
+      "page": 39,
+      "english_tokens": 16,
+      "indonesian_tokens": 100,
+      "word_tokens": 443,
+      "line_score": 8,
+      "lines": [
+        {
+          "english": 3,
+          "indonesian": 0,
+          "text": "35 Amy Orben and AK Baukney-Przybylski. “Screens, Teens and Psychological Well-Being: Evidence from three"
+        },
+        {
+          "english": 5,
+          "indonesian": 0,
+          "text": "36 Emma Pierson et al. “A large-scale analysis of racial disparities in police stops across the United States”. In:"
+        }
+      ],
+      "disposition": "PASS_PRESERVED_BIBLIOGRAPHIC_OR_SOURCE_TITLE"
+    },
+    {
+      "page": 56,
+      "english_tokens": 11,
+      "indonesian_tokens": 54,
+      "word_tokens": 231,
+      "line_score": 4,
+      "lines": [
+        {
+          "english": 4,
+          "indonesian": 0,
+          "text": "15 T. Allison and D.V. Cicchetti. “Sleep in mammals: ecological and constitutional correlates”. In: Arch. Hydrobiol"
+        }
+      ],
+      "disposition": "PASS_PRESERVED_BIBLIOGRAPHIC_OR_SOURCE_TITLE"
+    },
+    {
+      "page": 59,
+      "english_tokens": 6,
+      "indonesian_tokens": 25,
+      "word_tokens": 96,
+      "line_score": 2,
+      "lines": [
+        {
+          "english": 3,
+          "indonesian": 1,
+          "text": "17 Lars Backstrom. “Anatomy of Facebook”. In: Facebook Data Team’s Notes (2011)."
+        }
+      ],
+      "disposition": "PASS_PRESERVED_BIBLIOGRAPHIC_OR_SOURCE_TITLE"
+    },
+    {
+      "page": 71,
+      "english_tokens": 7,
+      "indonesian_tokens": 40,
+      "word_tokens": 214,
+      "line_score": 4,
+      "lines": [
+        {
+          "english": 5,
+          "indonesian": 1,
+          "text": "24 Public Policy Polling, Americans on College Degrees, Classic Literature, the Seasons, and More, data collected"
+        }
+      ],
+      "disposition": "PASS_PRESERVED_BIBLIOGRAPHIC_OR_SOURCE_TITLE"
+    },
+    {
+      "page": 76,
+      "english_tokens": 17,
+      "indonesian_tokens": 161,
+      "word_tokens": 502,
+      "line_score": 6,
+      "lines": [
+        {
+          "english": 3,
+          "indonesian": 0,
+          "text": "29 D.J. Graham et al. “Risk of acute myocardial infarction, stroke, heart failure, and death in elderly Medicare"
+        },
+        {
+          "english": 3,
+          "indonesian": 0,
+          "text": "patients treated with rosiglitazone or pioglitazone”. In: JAMA 304.4 (2010), p. 411. issn: 0098-7484."
+        }
+      ],
+      "disposition": "PASS_PRESERVED_BIBLIOGRAPHIC_OR_SOURCE_TITLE"
+    },
+    {
+      "page": 77,
+      "english_tokens": 6,
+      "indonesian_tokens": 112,
+      "word_tokens": 364,
+      "line_score": 4,
+      "lines": [
+        {
+          "english": 5,
+          "indonesian": 1,
+          "text": "30 B. Turnbull et al. “Survivorship of Heart Transplant Data”. In: Journal of the American Statistical Association"
+        }
+      ],
+      "disposition": "PASS_PRESERVED_BIBLIOGRAPHIC_OR_SOURCE_TITLE"
+    },
+    {
+      "page": 85,
+      "english_tokens": 10,
+      "indonesian_tokens": 124,
+      "word_tokens": 372,
+      "line_score": 3,
+      "lines": [
+        {
+          "english": 4,
+          "indonesian": 1,
+          "text": "P (A1 atau A2 ) = P (A1 ) + P (A2 )"
+        }
+      ],
+      "disposition": "PASS_MATHEMATICAL_SYMBOL_HEURISTIC_FALSE_POSITIVE"
+    },
+    {
+      "page": 86,
+      "english_tokens": 26,
+      "indonesian_tokens": 119,
+      "word_tokens": 385,
+      "line_score": 2,
+      "lines": [
+        {
+          "english": 3,
+          "indonesian": 1,
+          "text": "(a) Verifikasi bahwa probabilitas peristiwa A, P (A), adalah 1/3 menggunakan Aturan Penjumlahan."
+        }
+      ],
+      "disposition": "PASS_MATHEMATICAL_SYMBOL_HEURISTIC_FALSE_POSITIVE"
+    },
+    {
+      "page": 97,
+      "english_tokens": 17,
+      "indonesian_tokens": 98,
+      "word_tokens": 421,
+      "line_score": 6,
+      "lines": [
+        {
+          "english": 4,
+          "indonesian": 1,
+          "text": "21 Pew Research Center, With Voters Focused on Economy, Obama Lead Narrows, data collected between April"
+        },
+        {
+          "english": 3,
+          "indonesian": 0,
+          "text": "22 U.S. Census Bureau, 2010 American Community Survey 1-Year Estimates, Characteristics of People by Language"
+        }
+      ],
+      "disposition": "PASS_PRESERVED_BIBLIOGRAPHIC_OR_SOURCE_TITLE"
+    },
+    {
+      "page": 107,
+      "english_tokens": 30,
+      "indonesian_tokens": 83,
+      "word_tokens": 271,
+      "line_score": 2,
+      "lines": [
+        {
+          "english": 4,
+          "indonesian": 2,
+          "text": "= P (midterm = other dan final = A) + P (midterm = A dan final = A)"
+        }
+      ],
+      "disposition": "PASS_PRESERVED_LITERAL_DATASET_OR_CATEGORY_IDENTIFIER"
+    },
+    {
+      "page": 110,
+      "english_tokens": 14,
+      "indonesian_tokens": 112,
+      "word_tokens": 397,
+      "line_score": 4,
+      "lines": [
+        {
+          "english": 4,
+          "indonesian": 0,
+          "text": "P (B|A1 )P (A1 ) + P (B|A2 )P (A2 ) + · · · + P (B|Ak )P (Ak )"
+        }
+      ],
+      "disposition": "PASS_MATHEMATICAL_SYMBOL_HEURISTIC_FALSE_POSITIVE"
+    },
+    {
+      "page": 111,
+      "english_tokens": 19,
+      "indonesian_tokens": 61,
+      "word_tokens": 292,
+      "line_score": 12,
+      "lines": [
+        {
+          "english": 3,
+          "indonesian": 0,
+          "text": "P (A1 ) = 0.2                 P (A2 ) = 0.35                    P (A3 ) = 0.45"
+        },
+        {
+          "english": 3,
+          "indonesian": 0,
+          "text": "P (B|A1 ) = 0.7               P (B|A2 ) = 0.25                  P (B|A3 ) = 0.05"
+        },
+        {
+          "english": 6,
+          "indonesian": 0,
+          "text": "P (B|A1 )P (A1 ) + P (B|A2 )P (A2 ) + P (B|A3 )P (A3 )"
+        }
+      ],
+      "disposition": "PASS_MATHEMATICAL_SYMBOL_HEURISTIC_FALSE_POSITIVE"
+    },
+    {
+      "page": 112,
+      "english_tokens": 9,
+      "indonesian_tokens": 43,
+      "word_tokens": 160,
+      "line_score": 6,
+      "lines": [
+        {
+          "english": 6,
+          "indonesian": 0,
+          "text": "P (B|A1 )P (A1 ) + P (B|A2 )P (A2 ) + P (B|A3 )P (A3 )"
+        }
+      ],
+      "disposition": "PASS_MATHEMATICAL_SYMBOL_HEURISTIC_FALSE_POSITIVE"
+    },
+    {
+      "page": 113,
+      "english_tokens": 19,
+      "indonesian_tokens": 69,
+      "word_tokens": 334,
+      "line_score": 5,
+      "lines": [
+        {
+          "english": 6,
+          "indonesian": 1,
+          "text": "40 Pew Research Center, Majority of Republicans No Longer See Evidence of Global Warming, data collected on"
+        }
+      ],
+      "disposition": "PASS_PRESERVED_BIBLIOGRAPHIC_OR_SOURCE_TITLE"
+    },
+    {
+      "page": 114,
+      "english_tokens": 6,
+      "indonesian_tokens": 57,
+      "word_tokens": 298,
+      "line_score": 3,
+      "lines": [
+        {
+          "english": 4,
+          "indonesian": 1,
+          "text": "41 SurveyUSA, Results of SurveyUSA News Poll #17718, data collected on December 2, 2010."
+        }
+      ],
+      "disposition": "PASS_PRESERVED_BIBLIOGRAPHIC_OR_SOURCE_TITLE"
+    },
+    {
+      "page": 115,
+      "english_tokens": 10,
+      "indonesian_tokens": 120,
+      "word_tokens": 494,
+      "line_score": 7,
+      "lines": [
+        {
+          "english": 7,
+          "indonesian": 0,
+          "text": "42 B. Laeng et al. “Why do blue-eyed men prefer women with the same eye color?” In: Behavioral Ecology and"
+        }
+      ],
+      "disposition": "PASS_PRESERVED_BIBLIOGRAPHIC_OR_SOURCE_TITLE"
+    },
+    {
+      "page": 159,
+      "english_tokens": 11,
+      "indonesian_tokens": 159,
+      "word_tokens": 500,
+      "line_score": 5,
+      "lines": [
+        {
+          "english": 5,
+          "indonesian": 0,
+          "text": "31 SAMHSA, Office of Applied Studies, National Survey on Drug Use and Health, 2007 and 2008."
+        }
+      ],
+      "disposition": "PASS_PRESERVED_BIBLIOGRAPHIC_OR_SOURCE_TITLE"
+    }
+  ],
+  "avoidable_residual_and_excluded_scope_counts": {
     "standalone_ace": 0,
     "standalone_frequency": 0,
     "sample_proportions_axis": 0,
@@ -76,36 +626,70 @@
     "english_chapter_5_heading": 0,
     "english_section_5_1": 0,
     "english_central_limit_theorem": 0,
-    "excluded_section_5_2": 0,
-    "excluded_section_5_3": 0,
+    "english_section_5_2": 0,
+    "english_confidence_interval": 0,
+    "english_confidence_level": 0,
+    "english_margin_of_error": 0,
+    "english_critical_value": 0,
+    "english_point_estimate": 0,
+    "english_sampling_distribution": 0,
+    "english_chart_axis": 0,
+    "english_chart_95": 0,
+    "english_chart_99": 0,
+    "stale_solar_90_4": 0,
     "english_exercise_title_1": 0,
     "english_exercise_title_3": 0,
-    "english_exercise_title_4": 0
+    "english_exercise_title_4": 0,
+    "english_exercise_title_5": 0,
+    "english_exercise_title_6": 0,
+    "english_exercise_title_7": 0,
+    "english_exercise_title_8": 0,
+    "english_exercise_title_11": 0,
+    "english_exercise_title_12": 0,
+    "english_exercise_title_13": 0,
+    "english_exercise_title_14": 0,
+    "excluded_section_5_3_english": 0,
+    "excluded_section_5_3_indonesian": 0,
+    "excluded_section_5_3_opening_english": 0,
+    "excluded_section_5_3_opening_indonesian": 0,
+    "excluded_chapter_6": 0,
+    "excluded_chapter_7": 0,
+    "excluded_chapter_8": 0,
+    "excluded_chapter_9": 0
   },
   "localized_term_witness_counts": {
     "frekuensi": 35,
-    "proporsi_sampel": 22,
-    "dasar_dasar_inferensi": 11,
-    "section_5_1": 10,
-    "teorema_limit_pusat": 14,
-    "distribusi_sampling": 16,
-    "galat_baku": 20,
+    "proporsi_sampel": 27,
+    "dasar_dasar_inferensi": 15,
+    "section_5_1": 9,
+    "section_5_2": 8,
+    "interval_kepercayaan": 84,
+    "tingkat_kepercayaan": 17,
+    "batas_galat": 9,
+    "mencakup_parameter": 4,
+    "teorema_limit_pusat": 16,
+    "distribusi_sampling": 18,
+    "galat_baku": 45,
+    "chart_axis": 13,
+    "chart_95": 1,
+    "chart_99": 1,
+    "corrected_solar_90_3": 4,
     "provenance_model": 1
   },
   "learner_pdf": {
-    "path": "output/pdf/statistika-berbasis-data-batas-R011-B019.pdf",
-    "bytes": 10121910,
-    "sha256": "97d3524e413d33d091789b432861065535f84399f59a76e1cf365cfd494bd68b"
+    "path": "scratch/b020-boundary-clean-reader/final/main.pdf",
+    "bytes": 10207990,
+    "sha256": "edca0f9b731b43fe49e314b42bb0f6d2e4e5165ca26a8144a49d45c1111f10da"
   },
   "extracted_text": {
-    "path": "scratch/b019-boundary-clean-reader/final/main-final.txt",
-    "bytes": 598439,
-    "sha256": "1501221cf999a0b721041dcfaa22389f494f4a1eb263aac3dcbedb6834f92e5b"
+    "path": "scratch/b020-boundary-clean-reader/final/main-final.txt",
+    "bytes": 633428,
+    "sha256": "1ad5b79cee0acda2d74d0ec3768ac0c229c3cff34a9611bd981b11855101db91"
   },
   "build_qa": {
-    "path": "scratch/b019-boundary-clean-reader/final/R011-B019_BOUNDARY_CLEAN_BUILD_QA.json",
-    "bytes": 9731,
-    "sha256": "8d2456404033563652798626bdfbe18e6f61037d1d990b150773b8f5d6cc69b6"
+    "path": "scratch/b020-boundary-clean-reader/final/R011-B020_BOUNDARY_CLEAN_BUILD_QA.json",
+    "bytes": 9443,
+    "sha256": "6ae85f2fdfb27a381b89e0abbcd92e9bc80a9e7de9d41a8872e30aece3ed83d8"
   },
   "pages": [
     {
@@ -126,7 +710,7 @@
       "characters": 1137,
       "word_tokens": 152,
       "english_heuristic_tokens": 2,
-      "indonesian_heuristic_tokens": 33,
+      "indonesian_heuristic_tokens": 34,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -134,11 +718,11 @@
     },
     {
       "page": 3,
-      "text_sha256": "5768abc450a5370c2c47f2e14700b18594968a146bd534cdae791dfc80bff3ab",
-      "characters": 2723,
-      "word_tokens": 73,
-      "english_heuristic_tokens": 6,
-      "indonesian_heuristic_tokens": 31,
+      "text_sha256": "3c236ca521c318187f5f4c0951ddb5061e92348b163b0005fbddd815fe3e8206",
+      "characters": 2823,
+      "word_tokens": 78,
+      "english_heuristic_tokens": 7,
+      "indonesian_heuristic_tokens": 36,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -150,7 +734,7 @@
       "characters": 2505,
       "word_tokens": 300,
       "english_heuristic_tokens": 12,
-      "indonesian_heuristic_tokens": 108,
+      "indonesian_heuristic_tokens": 110,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -162,7 +746,7 @@
       "characters": 3299,
       "word_tokens": 427,
       "english_heuristic_tokens": 6,
-      "indonesian_heuristic_tokens": 128,
+      "indonesian_heuristic_tokens": 129,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -170,11 +754,11 @@
     },
     {
       "page": 6,
-      "text_sha256": "e6b8442b2219791920b4d7c4e2f1908eb78f7165fc183c3f7d6b20e92c5c256f",
-      "characters": 859,
-      "word_tokens": 98,
-      "english_heuristic_tokens": 0,
-      "indonesian_heuristic_tokens": 39,
+      "text_sha256": "2cd75830729731063d6038af9e13dd1b11de02e59ec5cb4df513f4cbffb34b81",
+      "characters": 1017,
+      "word_tokens": 114,
+      "english_heuristic_tokens": 1,
+      "indonesian_heuristic_tokens": 46,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -210,7 +794,7 @@
       "characters": 3888,
       "word_tokens": 403,
       "english_heuristic_tokens": 4,
-      "indonesian_heuristic_tokens": 134,
+      "indonesian_heuristic_tokens": 135,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -246,7 +830,7 @@
       "characters": 3816,
       "word_tokens": 341,
       "english_heuristic_tokens": 21,
-      "indonesian_heuristic_tokens": 106,
+      "indonesian_heuristic_tokens": 108,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -258,7 +842,7 @@
       "characters": 1896,
       "word_tokens": 233,
       "english_heuristic_tokens": 14,
-      "indonesian_heuristic_tokens": 98,
+      "indonesian_heuristic_tokens": 100,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -270,7 +854,7 @@
       "characters": 4321,
       "word_tokens": 228,
       "english_heuristic_tokens": 15,
-      "indonesian_heuristic_tokens": 45,
+      "indonesian_heuristic_tokens": 48,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -282,7 +866,7 @@
       "characters": 3808,
       "word_tokens": 424,
       "english_heuristic_tokens": 5,
-      "indonesian_heuristic_tokens": 147,
+      "indonesian_heuristic_tokens": 149,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -294,7 +878,7 @@
       "characters": 3594,
       "word_tokens": 341,
       "english_heuristic_tokens": 7,
-      "indonesian_heuristic_tokens": 108,
+      "indonesian_heuristic_tokens": 118,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -306,7 +890,7 @@
       "characters": 2708,
       "word_tokens": 287,
       "english_heuristic_tokens": 2,
-      "indonesian_heuristic_tokens": 105,
+      "indonesian_heuristic_tokens": 107,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -330,7 +914,7 @@
       "characters": 4372,
       "word_tokens": 554,
       "english_heuristic_tokens": 24,
-      "indonesian_heuristic_tokens": 137,
+      "indonesian_heuristic_tokens": 141,
       "heuristic_flagged": true,
       "flagged_line_count": 3,
       "disposition": "PASS_PRESERVED_BIBLIOGRAPHIC_OR_SOURCE_TITLE",
@@ -366,7 +950,7 @@
       "characters": 3601,
       "word_tokens": 419,
       "english_heuristic_tokens": 9,
-      "indonesian_heuristic_tokens": 141,
+      "indonesian_heuristic_tokens": 143,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -390,7 +974,7 @@
       "characters": 3018,
       "word_tokens": 320,
       "english_heuristic_tokens": 1,
-      "indonesian_heuristic_tokens": 122,
+      "indonesian_heuristic_tokens": 123,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -402,7 +986,7 @@
       "characters": 4145,
       "word_tokens": 469,
       "english_heuristic_tokens": 6,
-      "indonesian_heuristic_tokens": 144,
+      "indonesian_heuristic_tokens": 145,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -450,7 +1034,7 @@
       "characters": 4395,
       "word_tokens": 560,
       "english_heuristic_tokens": 9,
-      "indonesian_heuristic_tokens": 208,
+      "indonesian_heuristic_tokens": 211,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -462,7 +1046,7 @@
       "characters": 4757,
       "word_tokens": 480,
       "english_heuristic_tokens": 8,
-      "indonesian_heuristic_tokens": 157,
+      "indonesian_heuristic_tokens": 159,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -486,7 +1070,7 @@
       "characters": 2503,
       "word_tokens": 296,
       "english_heuristic_tokens": 15,
-      "indonesian_heuristic_tokens": 63,
+      "indonesian_heuristic_tokens": 64,
       "heuristic_flagged": true,
       "flagged_line_count": 3,
       "disposition": "PASS_PRESERVED_BIBLIOGRAPHIC_OR_SOURCE_TITLE",
@@ -534,7 +1118,7 @@
       "characters": 4822,
       "word_tokens": 589,
       "english_heuristic_tokens": 11,
-      "indonesian_heuristic_tokens": 171,
+      "indonesian_heuristic_tokens": 173,
       "heuristic_flagged": true,
       "flagged_line_count": 1,
       "disposition": "PASS_PRESERVED_BIBLIOGRAPHIC_OR_SOURCE_TITLE",
@@ -546,7 +1130,7 @@
       "characters": 3927,
       "word_tokens": 504,
       "english_heuristic_tokens": 12,
-      "indonesian_heuristic_tokens": 157,
+      "indonesian_heuristic_tokens": 159,
       "heuristic_flagged": true,
       "flagged_line_count": 1,
       "disposition": "PASS_PRESERVED_BIBLIOGRAPHIC_OR_SOURCE_TITLE",
@@ -570,7 +1154,7 @@
       "characters": 4878,
       "word_tokens": 443,
       "english_heuristic_tokens": 16,
-      "indonesian_heuristic_tokens": 97,
+      "indonesian_heuristic_tokens": 100,
       "heuristic_flagged": true,
       "flagged_line_count": 2,
       "disposition": "PASS_PRESERVED_BIBLIOGRAPHIC_OR_SOURCE_TITLE",
@@ -606,7 +1190,7 @@
       "characters": 2761,
       "word_tokens": 283,
       "english_heuristic_tokens": 11,
-      "indonesian_heuristic_tokens": 103,
+      "indonesian_heuristic_tokens": 105,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -618,7 +1202,7 @@
       "characters": 2434,
       "word_tokens": 205,
       "english_heuristic_tokens": 6,
-      "indonesian_heuristic_tokens": 67,
+      "indonesian_heuristic_tokens": 69,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -654,7 +1238,7 @@
       "characters": 3301,
       "word_tokens": 322,
       "english_heuristic_tokens": 18,
-      "indonesian_heuristic_tokens": 114,
+      "indonesian_heuristic_tokens": 119,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -690,7 +1274,7 @@
       "characters": 3357,
       "word_tokens": 379,
       "english_heuristic_tokens": 4,
-      "indonesian_heuristic_tokens": 158,
+      "indonesian_heuristic_tokens": 160,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -714,7 +1298,7 @@
       "characters": 3449,
       "word_tokens": 453,
       "english_heuristic_tokens": 21,
-      "indonesian_heuristic_tokens": 153,
+      "indonesian_heuristic_tokens": 156,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -738,7 +1322,7 @@
       "characters": 3125,
       "word_tokens": 307,
       "english_heuristic_tokens": 14,
-      "indonesian_heuristic_tokens": 110,
+      "indonesian_heuristic_tokens": 111,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -762,7 +1346,7 @@
       "characters": 3173,
       "word_tokens": 319,
       "english_heuristic_tokens": 7,
-      "indonesian_heuristic_tokens": 90,
+      "indonesian_heuristic_tokens": 104,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -774,7 +1358,7 @@
       "characters": 3829,
       "word_tokens": 231,
       "english_heuristic_tokens": 11,
-      "indonesian_heuristic_tokens": 52,
+      "indonesian_heuristic_tokens": 54,
       "heuristic_flagged": true,
       "flagged_line_count": 1,
       "disposition": "PASS_PRESERVED_BIBLIOGRAPHIC_OR_SOURCE_TITLE",
@@ -786,7 +1370,7 @@
       "characters": 3774,
       "word_tokens": 395,
       "english_heuristic_tokens": 4,
-      "indonesian_heuristic_tokens": 140,
+      "indonesian_heuristic_tokens": 143,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -798,7 +1382,7 @@
       "characters": 4702,
       "word_tokens": 239,
       "english_heuristic_tokens": 4,
-      "indonesian_heuristic_tokens": 74,
+      "indonesian_heuristic_tokens": 75,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -822,7 +1406,7 @@
       "characters": 3553,
       "word_tokens": 309,
       "english_heuristic_tokens": 4,
-      "indonesian_heuristic_tokens": 90,
+      "indonesian_heuristic_tokens": 91,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -978,7 +1562,7 @@
       "characters": 4017,
       "word_tokens": 514,
       "english_heuristic_tokens": 12,
-      "indonesian_heuristic_tokens": 182,
+      "indonesian_heuristic_tokens": 193,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -990,7 +1574,7 @@
       "characters": 3479,
       "word_tokens": 311,
       "english_heuristic_tokens": 4,
-      "indonesian_heuristic_tokens": 108,
+      "indonesian_heuristic_tokens": 113,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -1002,7 +1586,7 @@
       "characters": 3324,
       "word_tokens": 383,
       "english_heuristic_tokens": 6,
-      "indonesian_heuristic_tokens": 120,
+      "indonesian_heuristic_tokens": 123,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -1014,7 +1598,7 @@
       "characters": 4986,
       "word_tokens": 502,
       "english_heuristic_tokens": 17,
-      "indonesian_heuristic_tokens": 157,
+      "indonesian_heuristic_tokens": 161,
       "heuristic_flagged": true,
       "flagged_line_count": 2,
       "disposition": "PASS_PRESERVED_BIBLIOGRAPHIC_OR_SOURCE_TITLE",
@@ -1038,7 +1622,7 @@
       "characters": 3777,
       "word_tokens": 336,
       "english_heuristic_tokens": 5,
-      "indonesian_heuristic_tokens": 103,
+      "indonesian_heuristic_tokens": 104,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -1098,7 +1682,7 @@
       "characters": 2065,
       "word_tokens": 234,
       "english_heuristic_tokens": 0,
-      "indonesian_heuristic_tokens": 92,
+      "indonesian_heuristic_tokens": 93,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -1278,7 +1862,7 @@
       "characters": 3271,
       "word_tokens": 315,
       "english_heuristic_tokens": 9,
-      "indonesian_heuristic_tokens": 73,
+      "indonesian_heuristic_tokens": 74,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -1326,7 +1910,7 @@
       "characters": 3946,
       "word_tokens": 406,
       "english_heuristic_tokens": 8,
-      "indonesian_heuristic_tokens": 131,
+      "indonesian_heuristic_tokens": 132,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -1338,7 +1922,7 @@
       "characters": 3853,
       "word_tokens": 310,
       "english_heuristic_tokens": 15,
-      "indonesian_heuristic_tokens": 100,
+      "indonesian_heuristic_tokens": 102,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -1362,7 +1946,7 @@
       "characters": 3261,
       "word_tokens": 349,
       "english_heuristic_tokens": 5,
-      "indonesian_heuristic_tokens": 102,
+      "indonesian_heuristic_tokens": 104,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -1374,7 +1958,7 @@
       "characters": 3084,
       "word_tokens": 245,
       "english_heuristic_tokens": 6,
-      "indonesian_heuristic_tokens": 76,
+      "indonesian_heuristic_tokens": 77,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -1650,7 +2234,7 @@
       "characters": 2529,
       "word_tokens": 332,
       "english_heuristic_tokens": 4,
-      "indonesian_heuristic_tokens": 115,
+      "indonesian_heuristic_tokens": 116,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -1734,7 +2318,7 @@
       "characters": 2654,
       "word_tokens": 270,
       "english_heuristic_tokens": 4,
-      "indonesian_heuristic_tokens": 117,
+      "indonesian_heuristic_tokens": 118,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -1746,7 +2330,7 @@
       "characters": 2492,
       "word_tokens": 266,
       "english_heuristic_tokens": 3,
-      "indonesian_heuristic_tokens": 120,
+      "indonesian_heuristic_tokens": 121,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -1806,7 +2390,7 @@
       "characters": 3284,
       "word_tokens": 228,
       "english_heuristic_tokens": 2,
-      "indonesian_heuristic_tokens": 63,
+      "indonesian_heuristic_tokens": 64,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -1830,7 +2414,7 @@
       "characters": 2896,
       "word_tokens": 259,
       "english_heuristic_tokens": 3,
-      "indonesian_heuristic_tokens": 126,
+      "indonesian_heuristic_tokens": 127,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -1914,7 +2498,7 @@
       "characters": 3515,
       "word_tokens": 433,
       "english_heuristic_tokens": 5,
-      "indonesian_heuristic_tokens": 150,
+      "indonesian_heuristic_tokens": 153,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -1926,7 +2510,7 @@
       "characters": 3198,
       "word_tokens": 341,
       "english_heuristic_tokens": 4,
-      "indonesian_heuristic_tokens": 115,
+      "indonesian_heuristic_tokens": 116,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -1938,7 +2522,7 @@
       "characters": 2936,
       "word_tokens": 262,
       "english_heuristic_tokens": 0,
-      "indonesian_heuristic_tokens": 62,
+      "indonesian_heuristic_tokens": 63,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -1974,7 +2558,7 @@
       "characters": 3560,
       "word_tokens": 374,
       "english_heuristic_tokens": 4,
-      "indonesian_heuristic_tokens": 150,
+      "indonesian_heuristic_tokens": 152,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -1998,7 +2582,7 @@
       "characters": 2221,
       "word_tokens": 227,
       "english_heuristic_tokens": 3,
-      "indonesian_heuristic_tokens": 73,
+      "indonesian_heuristic_tokens": 76,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -2106,7 +2690,7 @@
       "characters": 2793,
       "word_tokens": 291,
       "english_heuristic_tokens": 2,
-      "indonesian_heuristic_tokens": 96,
+      "indonesian_heuristic_tokens": 97,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -2138,11 +2722,11 @@
     },
     {
       "page": 170,
-      "text_sha256": "0e13690414540ea52e5ed9a9d457bfe1bac4c59b2de53b68323b72cc1313e60a",
-      "characters": 130,
-      "word_tokens": 8,
-      "english_heuristic_tokens": 0,
-      "indonesian_heuristic_tokens": 5,
+      "text_sha256": "3caee125a79b7495654461a9cba86b6bd4e6832409ca13c5d2653fcae9e183d0",
+      "characters": 178,
+      "word_tokens": 13,
+      "english_heuristic_tokens": 1,
+      "indonesian_heuristic_tokens": 10,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -2150,11 +2734,11 @@
     },
     {
       "page": 171,
-      "text_sha256": "4e7484f691c4c692bd85e0776d86a915b3b0f44cb07ddba1412685ed15d67975",
-      "characters": 937,
+      "text_sha256": "dab1e1e4623a0609ce9b185ff21f4999d59a00ce2e9a113005aefe2322440017",
+      "characters": 941,
       "word_tokens": 108,
-      "english_heuristic_tokens": 0,
-      "indonesian_heuristic_tokens": 34,
+      "english_heuristic_tokens": 1,
+      "indonesian_heuristic_tokens": 36,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -2166,7 +2750,7 @@
       "characters": 4539,
       "word_tokens": 530,
       "english_heuristic_tokens": 3,
-      "indonesian_heuristic_tokens": 211,
+      "indonesian_heuristic_tokens": 219,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -2274,7 +2858,7 @@
       "characters": 3031,
       "word_tokens": 380,
       "english_heuristic_tokens": 1,
-      "indonesian_heuristic_tokens": 147,
+      "indonesian_heuristic_tokens": 150,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -2286,7 +2870,7 @@
       "characters": 4174,
       "word_tokens": 499,
       "english_heuristic_tokens": 7,
-      "indonesian_heuristic_tokens": 164,
+      "indonesian_heuristic_tokens": 174,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -2306,11 +2890,11 @@
     },
     {
       "page": 184,
-      "text_sha256": "e82e20e8aaa58e2436467a9456b2088dea26782b78e84990a4d8be80a3622cbb",
-      "characters": 4988,
-      "word_tokens": 492,
-      "english_heuristic_tokens": 13,
-      "indonesian_heuristic_tokens": 135,
+      "text_sha256": "c50fa1d5a55f6b5adf69c56c5a1ac3ce9316025c7902931957eb7f7b3a9232fe",
+      "characters": 3613,
+      "word_tokens": 389,
+      "english_heuristic_tokens": 19,
+      "indonesian_heuristic_tokens": 204,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -2318,11 +2902,11 @@
     },
     {
       "page": 185,
-      "text_sha256": "6976cc641acbc70d3847de74357003fb820ceb650c9abe0cadcf9c8fe06c67b4",
-      "characters": 6879,
-      "word_tokens": 727,
-      "english_heuristic_tokens": 9,
-      "indonesian_heuristic_tokens": 229,
+      "text_sha256": "a7f50c7e884b77bf802d4042122f295001ee3f830da2a974bc0de162e47cb64a",
+      "characters": 4321,
+      "word_tokens": 257,
+      "english_heuristic_tokens": 13,
+      "indonesian_heuristic_tokens": 126,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
@@ -2330,7 +2914,103 @@
     },
     {
       "page": 186,
-      "text_sha256": "c61ccbc393928ac0eb580d66de4a791f84cace9fa3de8147dac4c0302be07de2",
+      "text_sha256": "f7f600b37bccedc1590347d3af2004dc97069b0e2739adad186960cecdc1ee8b",
+      "characters": 3724,
+      "word_tokens": 400,
+      "english_heuristic_tokens": 19,
+      "indonesian_heuristic_tokens": 214,
+      "heuristic_flagged": false,
+      "flagged_line_count": 0,
+      "disposition": "PASS_INDONESIAN_READER_PAGE",
+      "untranslated_instructional_or_exercise_prose": false
+    },
+    {
+      "page": 187,
+      "text_sha256": "913e2fa6427751dd1ba141f890320d35c281f423f52f7ad1800c8742105f3245",
+      "characters": 2222,
+      "word_tokens": 228,
+      "english_heuristic_tokens": 9,
+      "indonesian_heuristic_tokens": 87,
+      "heuristic_flagged": false,
+      "flagged_line_count": 0,
+      "disposition": "PASS_INDONESIAN_READER_PAGE",
+      "untranslated_instructional_or_exercise_prose": false
+    },
+    {
+      "page": 188,
+      "text_sha256": "e8c2a41e866b4fd9c151900c1d097f4b0ccb069e92a76b200cd6552d996216cf",
+      "characters": 3627,
+      "word_tokens": 405,
+      "english_heuristic_tokens": 9,
+      "indonesian_heuristic_tokens": 133,
+      "heuristic_flagged": false,
+      "flagged_line_count": 0,
+      "disposition": "PASS_INDONESIAN_READER_PAGE",
+      "untranslated_instructional_or_exercise_prose": false
+    },
+    {
+      "page": 189,
+      "text_sha256": "1b9f7cf491bce63f63761c82dc7f320646d843814434992302510c1514a7e930",
+      "characters": 4114,
+      "word_tokens": 471,
+      "english_heuristic_tokens": 22,
+      "indonesian_heuristic_tokens": 190,
+      "heuristic_flagged": false,
+      "flagged_line_count": 0,
+      "disposition": "PASS_INDONESIAN_READER_PAGE",
+      "untranslated_instructional_or_exercise_prose": false
+    },
+    {
+      "page": 190,
+      "text_sha256": "fa3a88bd9a8a37a01fb508594208806855378817711df4024bcd48aef5c6c8d0",
+      "characters": 4560,
+      "word_tokens": 533,
+      "english_heuristic_tokens": 32,
+      "indonesian_heuristic_tokens": 228,
+      "heuristic_flagged": false,
+      "flagged_line_count": 0,
+      "disposition": "PASS_INDONESIAN_READER_PAGE",
+      "untranslated_instructional_or_exercise_prose": false
+    },
+    {
+      "page": 191,
+      "text_sha256": "43fa23f44a7bdc6b50cd03e29921d301df585a3e9e2934bd069349d9c246e319",
+      "characters": 3345,
+      "word_tokens": 424,
+      "english_heuristic_tokens": 19,
+      "indonesian_heuristic_tokens": 163,
+      "heuristic_flagged": false,
+      "flagged_line_count": 0,
+      "disposition": "PASS_INDONESIAN_READER_PAGE",
+      "untranslated_instructional_or_exercise_prose": false
+    },
+    {
+      "page": 192,
+      "text_sha256": "3ac7426ab422b2566b8b61386dc8d6183057b550c8988b170cb679e590cc72df",
+      "characters": 4988,
+      "word_tokens": 492,
+      "english_heuristic_tokens": 13,
+      "indonesian_heuristic_tokens": 136,
+      "heuristic_flagged": false,
+      "flagged_line_count": 0,
+      "disposition": "PASS_INDONESIAN_READER_PAGE",
+      "untranslated_instructional_or_exercise_prose": false
+    },
+    {
+      "page": 193,
+      "text_sha256": "ee8cae4bfd647129c3a40c1d4a374b363022a4e6a8f6dcbdd5166583bf23659c",
+      "characters": 6879,
+      "word_tokens": 727,
+      "english_heuristic_tokens": 9,
+      "indonesian_heuristic_tokens": 230,
+      "heuristic_flagged": false,
+      "flagged_line_count": 0,
+      "disposition": "PASS_INDONESIAN_READER_PAGE",
+      "untranslated_instructional_or_exercise_prose": false
+    },
+    {
+      "page": 194,
+      "text_sha256": "2ed427768d7509dbbfc65ff2b9284aff7278055e1f78d64ce4554263d285cadd",
       "characters": 6521,
       "word_tokens": 661,
       "english_heuristic_tokens": 13,
@@ -2341,32 +3021,32 @@
       "untranslated_instructional_or_exercise_prose": false
     },
     {
-      "page": 187,
-      "text_sha256": "81dea68c1ccfa383804aac4c132b745f8b9ed18876de36a61bb4887b627edf32",
+      "page": 195,
+      "text_sha256": "03e79d1d28f507be57a6f92d42ae181d7c795de6c28f4b83b2dd5a8e419d3166",
       "characters": 5793,
       "word_tokens": 611,
       "english_heuristic_tokens": 11,
-      "indonesian_heuristic_tokens": 195,
+      "indonesian_heuristic_tokens": 198,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
       "untranslated_instructional_or_exercise_prose": false
     },
     {
-      "page": 188,
-      "text_sha256": "6ea5d6c8f22cd4dfa324767cd955ae88e37b551a257378814743b015e17687dd",
+      "page": 196,
+      "text_sha256": "7d62453af704fe40e8a7a5a3cdc25f38cef28666ae7e4c29a064df7ef9617a02",
       "characters": 7050,
       "word_tokens": 475,
       "english_heuristic_tokens": 16,
-      "indonesian_heuristic_tokens": 139,
+      "indonesian_heuristic_tokens": 142,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",
       "untranslated_instructional_or_exercise_prose": false
     },
     {
-      "page": 189,
-      "text_sha256": "979222ea690ea2e47edc93be6f832608dc263275549e619ffe56302041712113",
+      "page": 197,
+      "text_sha256": "424e1377e0a0bf26a12f5d470c996e6ad23272b2d0ad1e44d59c8ca72c9aefd3",
       "characters": 7018,
       "word_tokens": 555,
       "english_heuristic_tokens": 18,
@@ -2377,12 +3057,24 @@
       "untranslated_instructional_or_exercise_prose": false
     },
     {
-      "page": 190,
-      "text_sha256": "5a8f72aba1519f883d5ac896de1b88c373c117a8cc4a28cc9073d253581bd3f1",
-      "characters": 5868,
-      "word_tokens": 475,
-      "english_heuristic_tokens": 10,
-      "indonesian_heuristic_tokens": 187,
+      "page": 198,
+      "text_sha256": "ec72484ac003941d14bc8089c05939702b2e5a5ab70d5e176b1ec72cc194fdc9",
+      "characters": 7858,
+      "word_tokens": 668,
+      "english_heuristic_tokens": 21,
+      "indonesian_heuristic_tokens": 280,
+      "heuristic_flagged": false,
+      "flagged_line_count": 0,
+      "disposition": "PASS_INDONESIAN_READER_PAGE",
+      "untranslated_instructional_or_exercise_prose": false
+    },
+    {
+      "page": 199,
+      "text_sha256": "48b30d60716504c34670e017d010e06a1e23ca026f2c54ef36ba783fb01e4493",
+      "characters": 2329,
+      "word_tokens": 179,
+      "english_heuristic_tokens": 8,
+      "indonesian_heuristic_tokens": 75,
       "heuristic_flagged": false,
       "flagged_line_count": 0,
       "disposition": "PASS_INDONESIAN_READER_PAGE",

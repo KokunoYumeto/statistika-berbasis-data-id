@@ -3,8 +3,8 @@
   \label{foundationsForInference}
   \label{ch_foundations_for_inf}
   \chaptersection{pointEstimates}
-% Boundary-clean reader omits navigation to the excluded later section.
-% Boundary-clean reader omits navigation to the excluded later section.
+  \chaptersection{confidenceIntervals}
+% Boundary-clean reader omits navigation to the excluded hypothesis-testing section.
 \end{chapterpage}
 \renewcommand{\chapterfolder}{ch_foundations_for_inf}
 
@@ -20,7 +20,7 @@
   gagasan menggunakan proporsi sampel untuk mengestimasi
   proporsi populasi.
   Selanjutnya, kita menyusun apa yang disebut
-  \emph{\hiddenterm{selang kepercayaan}}, yaitu suatu rentang
+  \emph{\hiddenterm{interval kepercayaan}}, yaitu suatu rentang
   nilai yang masuk akal dan mungkin memuat nilai populasi
   yang sebenarnya.
   Terakhir, kita memperkenalkan
@@ -899,3 +899,602 @@ latihan agar Anda mulai memikirkan
 bagaimana gagasan-gagasan ini dapat digeneralisasi.
 
 {\input{ch_foundations_for_inf/TeX/variability_in_estimates.tex}}
+
+\section{Interval kepercayaan untuk suatu proporsi}
+\label{confidenceIntervals}
+
+\index{interval kepercayaan|(}
+
+Proporsi sampel $\hat{p}$ memberikan satu nilai yang masuk akal
+untuk proporsi populasi $p$. Namun, proporsi sampel
+tidaklah sempurna dan memiliki suatu \emph{galat baku}
+yang terkait dengannya.
+Ketika menyatakan suatu estimasi untuk proporsi populasi,
+praktik yang lebih baik adalah memberikan suatu
+\emph{rentang nilai yang masuk akal}, bukan hanya memberikan
+estimasi titiknya.
+
+
+\subsection{Mencakup parameter populasi}
+
+Menggunakan estimasi titik saja ibarat menangkap ikan dengan tombak
+di danau yang keruh. Kita dapat melempar tombak ke tempat kita
+melihat seekor ikan, tetapi kemungkinan besar akan meleset. Sebaliknya,
+jika kita menebar jala di area tersebut, peluang kita untuk
+menangkap ikan itu cukup besar.
+Suatu \term{interval kepercayaan} ibarat menangkap ikan dengan jala,
+dan interval ini merepresentasikan rentang nilai yang masuk akal tempat
+parameter populasi kemungkinan berada.
+
+Jika kita melaporkan estimasi titik $\hat{p}$, kemungkinan besar
+kita tidak akan tepat mengenai proporsi populasi yang sebenarnya. Sebaliknya,
+jika kita melaporkan rentang nilai yang masuk akal,
+yang merepresentasikan suatu interval kepercayaan,
+kita memiliki peluang besar untuk mencakup parameter tersebut.
+
+\begin{exercisewrap}
+\begin{nexercise}
+Jika kita ingin sangat yakin bahwa interval kita mencakup proporsi
+populasi, apakah sebaiknya kita menggunakan interval yang lebih lebar
+atau interval yang lebih sempit?\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Jika kita ingin lebih
+    yakin akan menangkap ikan tersebut, kita dapat menggunakan
+    jala yang lebih lebar. Demikian pula, kita menggunakan interval kepercayaan
+    yang lebih lebar jika ingin lebih yakin bahwa interval itu mencakup
+    parameter tersebut.}
+
+\subsection{Menyusun interval kepercayaan 95\%}
+
+Proporsi sampel $\hat{p}$ merupakan nilai yang paling masuk akal
+bagi proporsi populasi, sehingga wajar untuk
+menyusun interval kepercayaan di sekitar estimasi titik ini.
+Galat baku\index{galat baku (SE)|textbf}
+memberikan pedoman mengenai seberapa
+lebar interval kepercayaan yang sebaiknya kita buat.
+
+Galat baku merepresentasikan simpangan baku
+dari estimasi titik, dan ketika syarat-syarat Teorema
+Limit Pusat terpenuhi,
+distribusi estimasi titik cukup mendekati distribusi normal.
+Dalam distribusi normal, 95\% data berada dalam jarak
+1.96~simpangan baku dari rata-rata.
+Dengan menggunakan prinsip ini, kita dapat menyusun interval kepercayaan
+yang membentang sejauh 1.96~galat baku dari proporsi sampel
+sehingga kita \termsub{yakin 95\%}
+    {confident@yakin!95\% confident@95\% yakin}\index{yakin|textbf}
+bahwa interval tersebut mencakup proporsi populasi:
+\begin{align*}
+\text{estimasi titik}\ &\pm\ 1.96 \times SE \\
+\hat{p}\ &\pm\ 1.96 \times \sqrt{\frac{p (1 - p)}{n}}
+%\label{95PercentConfidenceIntervalFormula}
+\end{align*}
+Namun, apa arti ``yakin 95\%''? Misalkan kita mengambil
+banyak sampel dan menyusun interval kepercayaan 95\% dari
+masing-masing sampel. Maka, sekitar 95\% dari interval-interval tersebut akan
+memuat parameter~$p$.
+Gambar~\ref{95PercentConfidenceInterval} menunjukkan
+proses pembuatan 25 interval dari 25 sampel
+dalam simulasi pada
+Bagian~\ref{simulationForUnderstandingVariabilitySection},
+dengan 24 interval kepercayaan yang dihasilkan memuat
+proporsi populasi simulasi sebesar
+$p = \pewsolarparprop{}$, sedangkan satu interval tidak memuatnya.
+
+% Boundary-clean reader removes a legacy forced page break.
+
+\begin{figure}
+  \centering
+  \Figure[Ditampilkan dua puluh lima estimasi titik dan interval kepercayaan dari simulasi pada Bagian~\ref{simulationForUnderstandingVariabilitySection}. Interval-interval ini ditampilkan relatif terhadap proporsi populasi p sama dengan \pewsolarparprop{}. Estimasi titik bervariasi di sekitar proporsi populasi sebenarnya sebesar 0.88, tetapi sebagian besar interval kepercayaannya mencakup nilai p sama dengan 0.88. Satu dari 25 interval tidak memiliki interval kepercayaan yang mencakup proporsi populasi, dan interval ini dicetak tebal. Kita dapat mengatakan bahwa interval kepercayaan ini tidak "mencakup" parameter p sama dengan 0.88.]{0.75}{95PercentConfidenceInterval}
+  \caption{Dua puluh lima estimasi titik dan interval kepercayaan
+      dari simulasi pada
+      Bagian~\ref{simulationForUnderstandingVariabilitySection}.
+      Interval-interval ini ditampilkan relatif terhadap proporsi
+      populasi $p = \pewsolarparprop{}$.
+      Hanya~1 dari~25 interval ini
+      yang tidak mencakup proporsi
+      populasi, dan interval tersebut dicetak tebal.}
+  \label{95PercentConfidenceInterval}
+\end{figure}
+
+\begin{examplewrap}
+\begin{nexample}{Pada Gambar~\ref{95PercentConfidenceInterval},
+satu interval tidak memuat $p = \pewsolarparprop{}$.
+Apakah hal ini menyiratkan bahwa proporsi populasi yang digunakan
+dalam simulasi tidak mungkin
+$p = \pewsolarparprop{}$?}
+Sebagaimana beberapa observasi secara alami
+berjarak lebih dari 1.96~simpangan baku
+dari rata-rata, beberapa estimasi titik akan berjarak lebih dari
+1.96~galat baku dari parameter yang menjadi perhatian.
+Interval kepercayaan hanya memberikan rentang nilai
+yang masuk akal.
+Meskipun berdasarkan data kita dapat mengatakan bahwa nilai-nilai lain tidak masuk akal,
+hal ini tidak berarti bahwa nilai-nilai tersebut mustahil.
+\end{nexample}
+\end{examplewrap}
+
+\begin{onebox}{Interval kepercayaan 95\% untuk suatu parameter}
+  \index{interval kepercayaan!95\%}
+  Ketika distribusi suatu estimasi titik memenuhi syarat untuk
+  menerapkan Teorema Limit Pusat dan
+  oleh karena itu cukup mendekati distribusi normal,
+  kita dapat menyusun interval kepercayaan 95\% sebagai
+  \begin{align*}
+  \text{estimasi titik} &\pm 1.96 \times SE
+  \end{align*}
+  % Interval kepercayaan ini hanya memperhitungkan galat sampling,
+  % bukan bias.
+\end{onebox}
+
+\begin{examplewrap}
+\begin{nexample}{Pada Bagian~\ref{pointEstimates} kita mempelajari
+    jajak pendapat Pew Research yang menunjukkan bahwa
+    \pewsolarpollpercent{} dari sampel acak berisi
+    \pewsolarpollsize{} orang dewasa Amerika
+    mendukung perluasan peran tenaga surya.
+    Hitung dan
+    maknai interval kepercayaan 95\% untuk proporsi
+    populasi.} \label{95p_ci_for_pew_solar_support}
+  Sebelumnya, kita telah memastikan bahwa $\hat{p}$ mengikuti distribusi
+  normal dan memiliki galat baku sebesar
+  $SE_{\hat{p}} = \pewsolarpollse{}$.
+  Untuk menghitung interval kepercayaan 95\%, substitusikan
+  estimasi titik $\hat{p} = \pewsolarpollprop{}$ dan
+  galat baku ke dalam rumus interval kepercayaan 95\%:
+  \begin{align*}
+  \hat{p} \pm 1.96 \times SE_{\hat{p}}
+  \quad\to\quad
+  \pewsolarpollprop{} \pm 1.96 \times \pewsolarpollse{}
+  \quad\to\quad
+  (0.8674, 0.9066)
+  \end{align*}
+  Kita yakin 95\% bahwa proporsi sebenarnya dari
+  orang dewasa Amerika yang mendukung perluasan tenaga surya berada
+  antara 86.7\% dan 90.7\%.
+  (Ketika melaporkan interval kepercayaan, lazim untuk membulatkan
+  ke poin persentase terdekat atau persepuluhan
+  poin persentase terdekat.)
+\end{nexample}
+\end{examplewrap}
+
+
+% Boundary-clean reader removes a legacy forced page break.
+
+\subsection{Mengubah tingkat kepercayaan}
+\label{changingTheConfidenceLevelSection}
+
+\index{interval kepercayaan!tingkat kepercayaan|(}
+
+Misalkan kita ingin mempertimbangkan interval kepercayaan dengan tingkat
+kepercayaan yang lebih tinggi daripada 95\%, misalnya tingkat
+kepercayaan~99\%. Ingat kembali analogi tentang upaya menangkap ikan:
+jika kita ingin lebih yakin bahwa ikan itu akan tertangkap, kita sebaiknya menggunakan
+jala yang lebih lebar. Untuk menghasilkan tingkat kepercayaan 99\%, kita juga harus memperlebar
+interval 95\% kita. Sebaliknya, jika kita menginginkan interval dengan tingkat
+kepercayaan yang lebih rendah, misalnya 90\%, kita dapat menggunakan interval yang sedikit lebih sempit
+daripada interval 95\% semula.
+
+Struktur interval kepercayaan 95\% memberikan pedoman untuk
+membuat interval dengan tingkat kepercayaan yang berbeda.
+Interval kepercayaan 95\% yang umum bagi estimasi titik
+yang mengikuti distribusi normal adalah
+\begin{eqnarray*}
+\text{estimasi titik}\ \pm\ 1.96 \times SE
+\end{eqnarray*}
+Interval ini memiliki tiga komponen: estimasi titik,
+``1.96'', dan galat baku. Pemilihan $1.96\times SE$
+didasarkan pada pencakupan 95\% data karena estimasi tersebut berada dalam jarak
+1.96 galat baku dari parameter sekitar 95\% dari waktu pengambilan sampel.
+Pemilihan 1.96 bersesuaian dengan tingkat kepercayaan 95\%.
+
+\begin{exercisewrap}
+\begin{nexercise} \label{leadInForMakingA99PercentCIExercise}
+Jika $X$ adalah variabel acak yang berdistribusi normal, berapakah
+peluang bahwa nilai $X$ berada
+dalam jarak 2.58~simpangan baku dari rata-rata?\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Hal ini setara dengan menanyakan seberapa sering
+    skor-Z lebih besar daripada -2.58 tetapi lebih kecil daripada 2.58.
+    Untuk melihat ilustrasinya, lihat Gambar~\ref{choosingZForCI}.
+    Untuk menentukan peluang ini, kita dapat menggunakan perangkat lunak statistik,
+    kalkulator, atau tabel untuk mencari nilai -2.58 dan 2.58 pada
+    distribusi normal: 0.0049 dan 0.9951.
+    Dengan demikian, terdapat peluang $0.9951-0.0049 \approx 0.99$
+    bahwa suatu variabel acak normal $X$ yang belum diobservasi
+    akan berada dalam jarak 2.58~simpangan baku dari $\mu$.}
+
+Latihan Terpandu~\ref{leadInForMakingA99PercentCIExercise} menunjukkan
+bahwa dalam 99\% kasus, variabel acak normal akan berada dalam jarak
+2.58~simpangan baku dari rata-rata.
+Untuk membuat interval kepercayaan 99\%, ubah 1.96 dalam rumus
+interval kepercayaan 95\% menjadi $2.58$.
+Dengan kata lain, rumus
+untuk interval kepercayaan 99\% adalah
+\begin{align*}
+\text{estimasi titik}\ \pm\ 2.58 \times SE
+%\label{99PercCIForProp}
+\end{align*}
+
+\begin{figure}[h]
+  \centering
+  \Figure[Ditampilkan distribusi normal baku; istilah "baku" menunjukkan bahwa distribusi normal tersebut berpusat di 0 dan memiliki simpangan baku 1. Bagian-bagian distribusi normal tersebut diarsir. Pertama, bagian tengah sebesar 95\% dari distribusi diarsir dengan warna biru tua dan dilengkapi anotasi "95\%, membentang dari -1.96 hingga 1.96". Ingatlah bahwa nilai 1.96 sangat dekat dengan aturan 68-95-99.7 untuk distribusi normal, yang menyatakan bahwa sekitar 95\% luas di bawah distribusi normal berada dalam jarak 2 simpangan baku dari rata-rata. Kedua, suatu daerah yang sedikit lebih lebar pada distribusi normal diarsir, dalam hal ini dari sekitar -2.5 hingga positif 2.5, dan dilengkapi anotasi "99\%, membentang dari -2.58 hingga 2.58". Nilai-nilai yang dijelaskan di sini---1.96 dan 2.58---masing-masing merupakan nilai kritis z-bintang yang kita gunakan untuk interval kepercayaan 95\% dan 99\%.]{}{choosingZForCI}
+  \caption{Luas antara -$z^{\star}$ dan $z^{\star}$ bertambah ketika
+      $z^{\star}$ membesar. Jika tingkat kepercayaannya 99\%,
+      kita memilih $z^{\star}$ sedemikian rupa sehingga 99\% dari suatu distribusi
+      normal berada di antara -$z^{\star}$ dan $z^{\star}$,
+      yang berarti 0.5\% berada
+      di ekor bawah dan 0.5\% di ekor atas:
+      $z^{\star}=2.58$.}
+\label{choosingZForCI}
+\index{interval kepercayaan!tingkat kepercayaan|)}
+\end{figure}
+
+% Boundary-clean reader removes a legacy forced page break.
+
+Pendekatan ini---menggunakan skor-Z dalam
+model normal untuk menghitung tingkat kepercayaan---
+tepat digunakan ketika suatu estimasi titik seperti $\hat{p}$
+berkaitan dengan distribusi normal.
+%Dalam konteks proporsi sampel, distribusi
+%normal dapat digunakan ketika observasi
+%sampel saling independen dan syarat sukses--gagal
+%terpenuhi ($np$ dan $n(1-p)$ keduanya sedikitnya 10).
+Untuk beberapa estimasi titik lainnya, model normal tidak cocok;
+dalam kasus-kasus ini, kita akan menggunakan distribusi alternatif yang lebih baik
+dalam merepresentasikan distribusi sampling.
+
+\begin{onebox}{Interval kepercayaan dengan tingkat kepercayaan apa pun}
+  Jika distribusi suatu estimasi titik cukup mendekati model normal
+  dan memiliki galat baku $SE$, maka interval kepercayaan
+  untuk parameter populasi adalah
+  \begin{align*}
+  \text{estimasi titik}\ \pm\ z^{\star} \times SE
+  \end{align*}
+  dengan $z^{\star}$ bersesuaian dengan tingkat
+  kepercayaan yang dipilih.
+\end{onebox}
+
+Gambar~\ref{choosingZForCI} mengilustrasikan cara menentukan
+$z^{\star}$ berdasarkan tingkat kepercayaan. Kita memilih $z^{\star}$
+sedemikian rupa sehingga luas antara -$z^{\star}$ dan $z^{\star}$ pada
+distribusi normal baku\index{distribusi normal baku}\index{distribusi normal!baku}\index{distribusi!normal!baku},
+$N(0, 1)$, bersesuaian dengan tingkat kepercayaan tersebut.
+
+\begin{onebox}{Batas galat}
+  \label{marginOfErrorTermBox}%
+  Dalam suatu interval kepercayaan, $z^{\star}\times SE$ disebut
+  \term{batas galat}.
+\end{onebox}
+
+\begin{examplewrap}
+\begin{nexample}{Gunakan data dalam
+    Contoh~\ref{95p_ci_for_pew_solar_support} untuk
+    membuat interval kepercayaan 90\% bagi proporsi orang dewasa Amerika
+    yang mendukung perluasan penggunaan tenaga surya.
+    Kita telah memastikan bahwa syarat kenormalan terpenuhi.}
+  Pertama, kita menentukan $z^{\star}$ sedemikian rupa sehingga 90\% distribusi berada
+  di antara -$z^{\star}$ dan $z^{\star}$ pada
+  \index{distribusi normal baku}%
+  \index{distribusi normal!baku}%
+  \index{distribusi!normal!baku}%
+  distribusi normal baku, $N(\mu = 0, \sigma = 1)$.
+  Kita dapat melakukannya dengan kalkulator grafik,
+  perangkat lunak statistik, atau tabel peluang dengan mencari
+  ekor atas sebesar 5\% (5\% lainnya berada di ekor bawah):
+  $z^{\star}=1.65$.
+  Interval kepercayaan 90\% kemudian dapat dihitung sebagai
+  \begin{align*}
+  \hat{p}\ \pm\ 1.6449 \times SE_{\hat{p}}
+      \quad\to\quad 0.887\ \pm\ 1.65 \times 0.0100
+      \quad\to\quad (0.8705, 0.9034)
+  \end{align*}
+  Artinya, kita yakin 90\% bahwa 87.1\% hingga 90.3\% orang dewasa
+  Amerika mendukung perluasan tenaga surya pada tahun 2018.
+\end{nexample}
+\end{examplewrap}
+
+\newcommand{\onepropconfintsummary}[0]{
+\begin{onebox}{Interval kepercayaan untuk satu proporsi}
+  Setelah Anda menentukan bahwa interval kepercayaan satu proporsi
+  akan berguna untuk suatu penerapan,
+  terdapat empat langkah untuk menyusun interval tersebut:
+  \begin{description}
+  \item[Persiapkan.]
+      Tentukan $\hat{p}$ dan $n$, serta tetapkan
+      tingkat kepercayaan yang ingin Anda gunakan.
+  \item[Periksa.]
+      Pastikan syarat-syaratnya terpenuhi sehingga $\hat{p}$
+      mendekati distribusi normal.
+      Untuk interval kepercayaan satu proporsi,
+      gunakan $\hat{p}$ sebagai pengganti $p$ untuk memeriksa
+      syarat sukses--gagal.
+  \item[Hitung.]
+      Jika syarat-syaratnya terpenuhi, hitung $SE$ menggunakan $\hat{p}$,
+      tentukan $z^{\star}$, dan susun intervalnya.
+  \item[Simpulkan.]
+      Maknai interval kepercayaan sesuai dengan konteks
+      masalahnya.
+  \end{description}
+\end{onebox}
+}
+\onepropconfintsummary{}
+
+
+% Boundary-clean reader removes a legacy forced page break.
+ 
+\subsection{Studi kasus lainnya}
+
+\index{data!Ebola poll@jajak pendapat Ebola|(}
+
+\newcommand{\wsjebolapollsize}{1042}
+\newcommand{\wsjebolapollsizecomma}{1,042}
+\newcommand{\wsjebolapollprop}{0.82}
+\newcommand{\wsjebolapollpropcomplement}{0.18}
+\newcommand{\wsjebolapollpercent}{82}
+\newcommand{\wsjebolapollpercentcomplement}{18}
+\newcommand{\wsjebolapollcount}{854}
+\newcommand{\wsjebolapollcountcomplement}{188}
+\newcommand{\wsjebolapollse}{0.012}
+
+
+Di Kota New York pada 23 Oktober 2014, seorang dokter yang baru saja
+merawat pasien Ebola di Guinea pergi ke rumah sakit karena mengalami demam ringan
+dan kemudian didiagnosis mengidap Ebola. Tidak lama setelah itu,
+sebuah jajak pendapat NBC~4 New York/The Wall Street Journal/Marist menemukan bahwa
+\wsjebolapollpercent{}\% warga New York mendukung ``karantina wajib selama 21 hari
+bagi siapa pun yang pernah melakukan kontak dengan seorang pasien
+Ebola''. Jajak pendapat ini memuat tanggapan
+dari \wsjebolapollsizecomma{} orang dewasa di New York antara
+26 dan~28 Oktober 2014.
+%\footnote{Survei ini, seperti survei-survei lain yang
+%  akan Anda lihat dalam buku ini, ...}
+%Kita mungkin menginginkan interval kepercayaan bagi proporsi orang dewasa
+%di New York yang mendukung karantina wajib bagi siapa pun yang pernah
+%melakukan kontak dengan seorang pasien Ebola.
+
+\begin{examplewrap}
+\begin{nexample}{Apa estimasi titik dalam kasus ini,
+    dan apakah masuk akal untuk
+    menggunakan distribusi normal guna memodelkan estimasi titik tersebut?}
+  Estimasi titiknya, berdasarkan sampel berukuran $n = \wsjebolapollsize{}$,
+  adalah $\hat{p} = \wsjebolapollprop{}$.
+  Untuk memeriksa apakah $\hat{p}$ dapat secara masuk akal
+  dimodelkan menggunakan distribusi normal, kita memeriksa independensi
+  (jajak pendapat didasarkan pada sampel acak sederhana) dan
+  syarat sukses--gagal
+  ($\wsjebolapollsize{} \times \hat{p} \approx \wsjebolapollcount{}$
+  dan $\wsjebolapollsize{} \times (1 - \hat{p})
+      \approx \wsjebolapollcountcomplement{}$,
+  keduanya jelas lebih besar dari~10).
+  Karena syarat-syarat tersebut terpenuhi, kita memperoleh kepastian
+  bahwa distribusi sampling dari $\hat{p}$ dapat secara
+  masuk akal dimodelkan menggunakan distribusi normal.
+\end{nexample}
+\end{examplewrap}
+
+\begin{examplewrap}
+\begin{nexample}{Estimasikan galat baku dari
+    $\hat{p} = \wsjebolapollprop{}$ pada survei Ebola.}
+  \label{seOfPropOfNYEbolaSurvey}%
+  Kita akan menggunakan pendekatan substitusi
+  $p \approx \hat{p} = \wsjebolapollprop{}$ untuk menghitung
+  galat baku:
+  \begin{align*}
+  SE_{\hat{p}}
+    = \sqrt{\frac{p(1-p)}{n}}
+    \approx \sqrt{\frac{\wsjebolapollprop{}
+        (1 - \wsjebolapollprop{})}{\wsjebolapollsize{}}}
+    = \wsjebolapollse{}
+  \end{align*}
+\end{nexample}
+\end{examplewrap}
+
+\begin{examplewrap}
+\begin{nexample}{Buatlah interval kepercayaan 95\% untuk $p$,
+    yaitu proporsi orang dewasa di New York yang mendukung karantina
+    bagi siapa pun yang pernah melakukan kontak dengan seorang pasien Ebola.}
+  \label{ex_ci_ny_ebola_quarantine}%
+  Dengan menggunakan galat baku $SE = 0.012$ dari
+  Contoh~\ref{seOfPropOfNYEbolaSurvey},
+  estimasi titik \wsjebolapollprop{}, dan $z^{\star} = 1.96$
+  untuk tingkat kepercayaan 95\%, interval kepercayaannya adalah
+  \begin{eqnarray*}
+  \text{estimasi titik} \ \pm\ z^{\star} \times SE
+    \quad\to\quad \wsjebolapollprop{} \ \pm\ 1.96\times \wsjebolapollse{}
+    \quad\to\quad (0.796, 0.844)
+  \end{eqnarray*}
+  Kita yakin 95\% bahwa proporsi orang dewasa di New York
+  pada Oktober 2014 yang mendukung karantina bagi siapa pun yang pernah
+  melakukan kontak dengan seorang pasien Ebola berada antara 0.796 dan 0.844.
+\index{data!Ebola poll@jajak pendapat Ebola|)}
+\end{nexample}
+\end{examplewrap}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Jawablah dua pertanyaan berikut tentang interval kepercayaan
+dari Contoh~\ref{ex_ci_ny_ebola_quarantine}:\footnotemark{}
+\begin{enumerate}[(a)]
+\item
+    Apa arti yakin 95\% dalam konteks ini?
+\item
+    Menurut Anda, apakah interval kepercayaan tersebut masih berlaku
+    bagi pendapat warga New York saat ini?
+\end{enumerate}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{(a)~Jika kita mengambil banyak sampel seperti ini dan menghitung
+  interval kepercayaan 95\% untuk masing-masing sampel, maka sekitar 95\% dari
+  interval tersebut akan mencakup proporsi sebenarnya dari orang dewasa di New York
+  yang mendukung karantina bagi siapa pun yang pernah
+  melakukan kontak dengan seorang pasien Ebola. \\
+  (b)~Belum tentu. Jajak pendapat tersebut dilakukan pada
+  saat terdapat kekhawatiran besar mengenai keselamatan publik.
+  Setelah orang-orang memiliki waktu untuk mengambil jarak,
+  pendapat mereka mungkin telah berubah.
+  Kita perlu menjalankan jajak pendapat baru jika ingin memperoleh
+  estimasi proporsi orang dewasa di New York saat ini yang
+  akan mendukung masa karantina semacam itu.}
+
+% Boundary-clean reader removes a legacy forced page break.
+
+\index{data!wind turbine survey@survei turbin angin|(}
+
+\newcommand{\pewwindpollsize}{\pewsolarpollsize}
+\newcommand{\pewwindpollprop}{0.848}
+\newcommand{\pewwindpollpropcomplement}{0.152}
+\newcommand{\pewwindpollpercent}{84.8}
+\newcommand{\pewwindpollpercentcomplement}{15.2}
+\newcommand{\pewwindpollcount}{848}
+\newcommand{\pewwindpollcountcomplement}{152}
+\newcommand{\pewwindpollse}{0.0114}
+
+\begin{exercisewrap}
+\begin{nexercise}
+\label{pew_wind_turbine_support_normal_dist_gp}%
+Dalam jajak pendapat Pew Research mengenai energi surya, mereka
+juga menanyakan bentuk-bentuk energi lainnya,
+dan \pewwindpollpercent{}\% dari \pewwindpollsize{}
+responden mendukung perluasan penggunaan
+turbin angin.\footnotemark{}
+\begin{enumerate}[(a)]
+\item
+    Apakah masuk akal untuk memodelkan proporsi
+    orang dewasa AS yang mendukung perluasan penggunaan turbin angin
+    menggunakan distribusi normal?
+\item
+    Buatlah interval kepercayaan 99\% bagi tingkat dukungan warga Amerika
+    terhadap perluasan penggunaan turbin angin untuk pembangkitan
+    listrik.
+\end{enumerate}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{(a)~Survei tersebut merupakan sampel acak
+  dan kedua hitungannya $\geq 10$
+  ($\pewwindpollsize{} \times \pewwindpollprop{}
+    = \pewwindpollcount{}$
+  dan $\pewwindpollsize{} \times \pewwindpollpropcomplement{}
+    = \pewwindpollcountcomplement$),
+  sehingga independensi dan syarat sukses--gagal
+  terpenuhi, dan
+  $\hat{p} = \pewwindpollprop{}$ dapat
+  dimodelkan menggunakan distribusi normal. \\
+  (b)~Latihan
+  Terpandu~\ref{pew_wind_turbine_support_normal_dist_gp}
+  mengonfirmasi bahwa distribusi $\hat{p}$ cukup mendekati
+  distribusi normal, sehingga kita dapat menggunakan rumus interval kepercayaan:
+  \begin{align*}
+  \text{estimasi titik} \pm z^{\star} \times SE
+  \end{align*}
+  Dalam kasus ini, estimasi titiknya adalah
+  $\hat{p} = \pewwindpollprop{}$.
+  Untuk interval kepercayaan 99\%, $z^{\star} = 2.58$.
+  Dengan menghitung galat baku:
+  $SE_{\hat{p}}
+    = \sqrt{\frac{\pewwindpollprop{}(1 - \pewwindpollprop{})}
+        {\pewwindpollsize{}}}
+    = \pewwindpollse{}$.
+  Terakhir, kita menghitung intervalnya sebagai
+  $\pewwindpollprop{} \pm 2.58 \times \pewwindpollse{}
+    \to (0.8186,   0.8774)$.
+  Penting juga untuk \emph{selalu} memberikan penafsiran
+  interval tersebut: kita yakin 99\% bahwa proporsi orang dewasa
+  Amerika yang mendukung perluasan penggunaan turbin
+  angin pada 2018 berada antara 81.9\% dan 87.7\%.}
+
+Kita juga dapat membuat interval kepercayaan untuk
+parameter lain, seperti rata-rata populasi.
+Dalam kasus-kasus ini, interval kepercayaan akan dihitung
+dengan cara yang serupa dengan interval untuk satu proporsi:
+estimasi titik ditambah/dikurangi suatu batas galat.
+Kita akan membahas perincian ini pada bab-bab selanjutnya.
+
+
+\subsection{Menafsirkan interval kepercayaan}
+\label{interpretingCIs}
+
+\index{interval kepercayaan!penafsiran|(}
+
+Dalam setiap contoh, kita menguraikan interval
+kepercayaan dengan menempatkannya dalam konteks data dan juga
+menggunakan bahasa yang cukup formal:
+\begin{description}
+  \item[Surya.] Kita yakin 90\% bahwa 87.1\% hingga 90.3\% dari
+      orang dewasa Amerika mendukung perluasan tenaga surya pada 2018.
+  \item[Ebola.] Kita yakin 95\% bahwa proporsi
+      orang dewasa di New York pada Oktober 2014 yang mendukung karantina
+      bagi siapa pun yang pernah melakukan kontak dengan seorang pasien Ebola
+      berada antara 0.796 dan 0.844.
+  \item[Turbin Angin.] Kita yakin 99\% bahwa proporsi
+      orang dewasa Amerika yang mendukung perluasan penggunaan
+      turbin angin berada antara 81.9\% dan 87.7\% pada 2018.
+\end{description}
+Pertama, perhatikan bahwa pernyataan-pernyataan tersebut selalu mengenai parameter
+populasi, yang mencakup \emph{semua} orang dewasa Amerika untuk
+jajak pendapat energi atau \emph{semua} orang dewasa di New York untuk jajak pendapat karantina.
+
+Kita juga menghindari kesalahan umum lainnya:
+bahasa yang \emph{keliru} mungkin mencoba menggambarkan interval kepercayaan
+seolah-olah mencakup parameter populasi dengan peluang tertentu.
+Memberikan penafsiran peluang merupakan kesalahan umum:
+meskipun memikirkannya sebagai peluang mungkin berguna,
+tingkat kepercayaan hanya mengukur seberapa masuk akal
+bahwa parameter berada dalam interval yang diberikan.
+
+Pertimbangan penting lainnya mengenai interval kepercayaan adalah bahwa interval tersebut
+\emph{hanya berkaitan dengan parameter populasi}.
+Interval kepercayaan tidak menyatakan apa pun tentang
+pengamatan individual atau estimasi titik.
+Interval kepercayaan hanya menyediakan rentang yang masuk akal bagi
+parameter populasi.
+
+\index{bias|(}
+Terakhir, ingatlah bahwa metode yang kita bahas hanya berlaku
+untuk galat pengambilan sampel, bukan untuk bias.
+Jika suatu set data dikumpulkan dengan cara yang cenderung
+secara sistematis menghasilkan estimasi yang terlalu rendah
+(atau terlalu tinggi) terhadap parameter populasi, teknik-teknik
+yang telah kita bahas tidak akan mengatasi masalah tersebut.
+Sebaliknya, kita mengandalkan prosedur pengumpulan data yang cermat untuk
+membantu mencegah bias dalam contoh-contoh yang telah kita bahas,
+yang merupakan praktik umum yang digunakan ilmuwan data
+untuk menanggulangi bias.
+\index{bias|)}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Pertimbangkan interval kepercayaan 90\% untuk survei
+energi surya: 87.1\% hingga 90.3\%.
+Jika~kita menjalankan survei tersebut kembali, dapatkah kita mengatakan bahwa kita
+yakin 90\% bahwa proporsi survei yang baru
+akan berada antara 87.1\% dan 90.3\%?\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{
+  Tidak, interval kepercayaan hanya menyediakan rentang nilai yang masuk akal
+  bagi suatu parameter,
+  bukan estimasi titik pada masa mendatang.}
+
+
+
+
+\index{data!wind turbine survey@survei turbin angin|)}
+\index{data!solar survey@survei energi surya|)}
+\index{interval kepercayaan!penafsiran|)}
+
+\CalculatorVideos{confidence intervals for a single proportion}
+
+\index{interval kepercayaan|)}
+
+
+{\input{ch_foundations_for_inf/TeX/confidence_intervals.tex}}
+
+
+
+
+
+
+%__________________

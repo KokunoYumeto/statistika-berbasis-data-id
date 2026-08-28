@@ -598,6 +598,28 @@ Jelaskan alasan Anda.
 \end{parts} 
 }{}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+0e0e365f-2315-566e-83d2-83464f8af3c4,d573685a-3c6f-54e0-bba9-f79f93fabd80,113,exercise,en,ch_foundations_for_inf/TeX/confidence_intervals.tex,127,147,9e5570cfa5e23e2a1cdaf6d26e9eb4325b22740f550b4015413c450e1ddc4541,id-ID,scratch/b020-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/confidence_intervals.tex,130,150,07910d40f7fa1fe9b5c2e576816dde5098007f1e30fb5c584443d8c3d369d3bb,visually_checked,"% 13
+
+\eoce{\qt{Pendaftaran situs web\label{website_registration_design_prop}}
+Sebuah situs web berupaya meningkatkan pendaftaran pengunjung pertama kali
+dengan menampilkan desain situs baru kepada 1\% dari para pengunjung tersebut.
+Dari 752 pengunjung yang diambil secara acak selama sebulan dan melihat
+desain baru itu, 64 orang mendaftar.
+\begin{parts}
+\item
+    Periksa setiap syarat yang diperlukan untuk membuat interval
+    kepercayaan.
+\item
+    Hitunglah galat bakunya.
+\item
+    Buat dan tafsirkan interval kepercayaan 90\% bagi
+    proporsi pengunjung pertama kali situs tersebut yang akan mendaftar
+    dengan desain baru
+    (dengan mengasumsikan perilaku pengunjung baru stabil dari waktu ke waktu).
+\end{parts}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""0af7d341-14fc-5fd0-a88a-6d753a22639e""]"
 0eab55c9-522a-5000-bd4a-a075c7f50ec5,40116ec4-9cb8-5f8f-95bb-1f397c042240,1,guided_exercise,en,ch_probability/TeX/ch_probability.tex,342,346,c4bc32c3e8cbee36fdf56089969a23f40d2a22ee69f848c97777453b48412be7,id-ID,repo/ch_probability/TeX/ch_probability.tex,342,346,d86cded09158ec5cbaccbc4611146059a630e00be5761f8fb6bf972b0afe698c,language_reviewed,"\begin{exercisewrap}
 \begin{nexercise}
 (a) Jika $A$ dan $B$ saling lepas, jelaskan mengapa hal ini berarti $P(A$ dan $B) = 0$. (b) Dengan menggunakan bagian (a), verifikasi bahwa Aturan Penjumlahan Umum menyederhana menjadi Aturan Penjumlahan untuk peristiwa saling lepas jika $A$ dan $B$ saling lepas.\footnotemark
@@ -813,6 +835,17 @@ Jumlah				& 46		& 405	&&	73	& 378 \\
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 13cc1cba-a4cb-5195-8a18-1e081753e1f3,b3e99a20-b89a-57f1-bde3-b30db27daa44,17,guided_inline_answer,en,ch_probability/TeX/ch_probability.tex,1956,1956,e577d7b7b7ff12a2763b124beba4a1baf769606256c9483993eff9827cb023bf,id-ID,repo/ch_probability/TeX/ch_probability.tex,1945,1945,750e5ae0c4df92a59b661b0d57dce7c565875e3534e0da005cbdbba4c4432e44,language_reviewed,"\footnotetext{Elena akan memperoleh $X$ dolar dari TV, tetapi membelanjakan $Y$ dolar untuk oven pemanggang: $X-Y$.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""f5cfd01e-9712-58ec-ac48-481f923814c1""]"
+1547bc61-607a-53e4-97f8-0cb3c3c86c9e,85bd3c0a-1ace-50da-a8bb-ad2cdfc09ce0,114,exercise,en,ch_foundations_for_inf/TeX/confidence_intervals.tex,148,157,e0d1e077537046b537701badc0ddae80d07bc98ab1a2603672f8fe0394de0738,id-ID,scratch/b020-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/confidence_intervals.tex,151,160,5b26352ac56f25d0841f041a5d335cd7d63bd16509bd92d176bf69827db4a844,visually_checked,"% 14
+
+\eoce{\qt{Kupon yang mendorong kunjungan\label{store_coupon_prop}}
+Sebuah toko mengambil sampel acak sebanyak 603 pembeli selama satu tahun
+dan mendapati bahwa 142 di antaranya berkunjung karena kupon
+yang mereka terima melalui pos.
+Buatlah interval kepercayaan 95\% bagi proporsi seluruh pembeli
+selama tahun tersebut yang berkunjung karena kupon yang mereka terima
+melalui pos.
+}{}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""0af7d341-14fc-5fd0-a88a-6d753a22639e""]"
 15c3c5bd-4d06-505d-9202-226ab8978bdc,e55b8aa8-632e-54f9-a1ea-667b2cafe96c,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,419,423,3100042341ee5310b369db161ccbcb4658fee1524cf255ca9d28a366450cd79e,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,7,10,83ddd11421344a8d59a56df3e21c2e3f287690ee75c3364a7c3240fb7afabc90,language_reviewed,"% 1
 \eocesol{(a)~Salah. Ini adalah percobaan independen.
 (b)~Salah. Ada kartu bergambar berwarna merah.
@@ -1405,6 +1438,22 @@ tidak biasa?
 \end{parts}
 }{}
 \vfill","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""d79c0e4f-9e37-5e77-9080-34fed0852af2""]"
+1f1383b4-6d9c-5b3a-b400-b9f1fb49c858,2a451cd9-a7be-5ff1-a20c-274acb707cc3,0,section_intro,en,ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,911,925,a4108348c3e1cf8c8185a3adbf4f4864ed829265bd4c5407bbf9097768475aa1,id-ID,scratch/b020-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,903,917,5fd8d36d89d99b64351247d71230e27ed5a5cf2aabf49bb3648f1ed603a57af7,visually_checked,"\section{Interval kepercayaan untuk suatu proporsi}
+\label{confidenceIntervals}
+
+\index{interval kepercayaan|(}
+
+Proporsi sampel $\hat{p}$ memberikan satu nilai yang masuk akal
+untuk proporsi populasi $p$. Namun, proporsi sampel
+tidaklah sempurna dan memiliki suatu \emph{galat baku}
+yang terkait dengannya.
+Ketika menyatakan suatu estimasi untuk proporsi populasi,
+praktik yang lebih baik adalah memberikan suatu
+\emph{rentang nilai yang masuk akal}, bukan hanya memberikan
+estimasi titiknya.
+
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""0af7d341-14fc-5fd0-a88a-6d753a22639e""]"
 1f74ab8d-0089-5f04-bad0-9aadcef964be,76ecd2e2-efd6-5cd9-b054-41be3101723f,1,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,1872,1969,7cdfa079a1e0b32b5d1b586b6938af72ab595adb7d6b239857a59f4546b77d70,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,1809,1903,ae506527a1aa36783824747945186c3390606667c240dde8c723421725240372,translated,"\subsection{Diagram mosaik}
 \label{mosaic_plots_subsection}
 
@@ -1501,6 +1550,32 @@ variabel yang sedang dipertimbangkan.
 
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+1f795d43-40d4-5fde-a462-798418bb5271,838597ac-4896-5995-b29e-ac7fa2cb23e7,213,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,1039,1063,f97bd68ac5ec61fc6e6683680ad9aa83cc8aa8476675a4545ee4eb1f049c0f91,id-ID,qa/b020-translation/staging/eoceSolutions_b020_public_odd.id.tex,44,68,cb9432f199df92c3376e766672929c939aef8193ebee26390fba99a277749bca,visually_checked,"% 13
+
+\eocesol{(a)~Para pengunjung berasal dari sampel acak sederhana,
+    sehingga independensi terpenuhi.
+    Syarat sukses--gagal juga terpenuhi,
+    dengan 64 dan $752 - 64 = 688$ keduanya di atas 10.
+    Oleh karena itu, kita dapat menggunakan distribusi normal untuk
+    memodelkan $\hat{p}$ dan membuat interval kepercayaan.
+(b)~Proporsi sampelnya adalah $\hat{p} = \frac{64}{752} = 0.085$.
+    Galat bakunya adalah
+    {\footnotesize\begin{align*}
+    SE
+      &= \sqrt{\frac{p (1 - p)}{n}}
+      \approx \sqrt{\frac{\hat{p} (1 - \hat{p})}{n}} \\
+      &= \sqrt{\frac{0.085 (1 - 0.085)}{752}}
+      = 0.010
+    \end{align*}}%
+(c)~Untuk interval kepercayaan 90\%,
+    gunakan $z^{\star} = 1.6449$.
+    Interval kepercayaannya adalah
+    $0.085 \pm 1.6449 \times 0.010 \to
+    (0.0683, 0.1017)$.
+    Kita yakin 90\% bahwa 6.83\% hingga 10.17\%
+    pengunjung pertama kali situs tersebut akan mendaftar menggunakan
+    desain baru.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""0af7d341-14fc-5fd0-a88a-6d753a22639e""]"
 206540fc-a716-5f87-9b8c-d83c6f80288b,145804b8-59c9-5118-aed9-6d21fa1ae97d,1,end-of-section-exercise,en,ch_probability/TeX/sampling_from_a_small_population.tex,80,88,07ec426167fe8049239fb789875e0792a793fefa2e246f951741a9a00ed2ec4b,id-ID,repo/ch_probability/TeX/sampling_from_a_small_population.tex,80,88,966cf38c04f3d605132c02fa30ff78e28eaf3bddba407bb65670da9ca47cecd7,language_reviewed,"% 27
 
 \eoce{\qt{Pakaian mahasiswa\label{student_outfits}} Di sebuah kelas yang terdiri atas 24 
@@ -1602,6 +1677,37 @@ pada Gambar~\ref{malaria_vaccine_20_exp_summary_rand_1}.
 \end{figure}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+23b6b67a-f452-5232-a53b-de8d15505efe,75ebc1c8-89f8-5aa8-adae-418b44c3a87c,1,instructional_prose,en,ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,926,955,97b0f3c7b036548ab9d7a0102010cc1cb3464420cfc40a57e690efda773238cf,id-ID,scratch/b020-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,918,947,eb3d16426a14f93cef2d8f7aecbb51657bc9bbc90b6b309fd7a9d3618933f9ce,visually_checked,"\subsection{Mencakup parameter populasi}
+
+Menggunakan estimasi titik saja ibarat menangkap ikan dengan tombak
+di danau yang keruh. Kita dapat melempar tombak ke tempat kita
+melihat seekor ikan, tetapi kemungkinan besar akan meleset. Sebaliknya,
+jika kita menebar jala di area tersebut, peluang kita untuk
+menangkap ikan itu cukup besar.
+Suatu \term{interval kepercayaan} ibarat menangkap ikan dengan jala,
+dan interval ini merepresentasikan rentang nilai yang masuk akal tempat
+parameter populasi kemungkinan berada.
+
+Jika kita melaporkan estimasi titik $\hat{p}$, kemungkinan besar
+kita tidak akan tepat mengenai proporsi populasi yang sebenarnya. Sebaliknya,
+jika kita melaporkan rentang nilai yang masuk akal,
+yang merepresentasikan suatu interval kepercayaan,
+kita memiliki peluang besar untuk mencakup parameter tersebut.
+
+\begin{exercisewrap}
+\begin{nexercise}
+Jika kita ingin sangat yakin bahwa interval kita mencakup proporsi
+populasi, apakah sebaiknya kita menggunakan interval yang lebih lebar
+atau interval yang lebih sempit?\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Jika kita ingin lebih
+    yakin akan menangkap ikan tersebut, kita dapat menggunakan
+    jala yang lebih lebar. Demikian pula, kita menggunakan interval kepercayaan
+    yang lebih lebar jika ingin lebih yakin bahwa interval itu mencakup
+    parameter tersebut.}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""0af7d341-14fc-5fd0-a88a-6d753a22639e""]"
 2496b362-b22b-5c02-865b-e10986433e52,dac6fdff-4280-52c2-aea6-9e5216510e11,23,guided_inline_answer,en,ch_distributions/TeX/ch_distributions.tex,1680,1690,f432b852575be9296765a29950c9c36d9d7875bacdb5b06107c716d380ee3e67,id-ID,qa/b016-build/source-snapshot-b016/ch_distributions/TeX/ch_distributions.tex,1637,1645,2edba7eb5972ad55127c657de8a408354f641178240a6ea19db7681123128c32,visually_checked,"\footnotetext{Untuk satu sukses dan $n-1$ kegagalan, terdapat tepat $n$
   posisi berbeda tempat kita dapat menaruh sukses. Jadi, terdapat $n$
   cara untuk menempatkan satu sukses dan $n-1$ kegagalan. Argumen serupa
@@ -2145,6 +2251,35 @@ populasi yang lebih luas.
 
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""2339d6ba-af30-5b38-86fe-8300dda0b66b""]"
+2afe4e94-dce8-5e3c-85f0-8a53a40f5804,7ae19261-f4cb-59d4-8a9d-9b102f65bc1c,112,exercise,en,ch_foundations_for_inf/TeX/confidence_intervals.tex,99,126,c452de8caec5000ee029f77c0c5f5a64d252a4e271bdcc0056a72a27af8cff61,id-ID,scratch/b020-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/confidence_intervals.tex,102,129,e2f74a0eac5a6f1b88f73b5849c294a8d1024a79a8ea553da8c96cdd0746be81,visually_checked,"% 12
+
+\eoce{\qt{Kesehatan mental\label{mental_health}}
+General Social Survey mengajukan pertanyaan:
+``Selama berapa hari dalam 30 hari terakhir kondisi 
+kesehatan mental Anda, yang mencakup stres, depresi,
+dan masalah emosi, tidak baik?""
+Berdasarkan tanggapan dari 1,151 penduduk AS,
+survei tersebut melaporkan interval kepercayaan 95\% sebesar
+3.40 hingga 4.24 hari pada 2010.
+\begin{parts}
+\item
+    Tafsirkan interval ini dalam konteks data.
+\item
+    Apa arti ``yakin 95\%""? Jelaskan dalam
+    konteks penerapannya.
+\item
+    Misalkan para peneliti berpendapat bahwa tingkat kepercayaan 99\%
+    akan lebih sesuai untuk interval ini.
+    Apakah interval yang baru ini akan lebih sempit atau lebih lebar daripada
+    interval kepercayaan 95\%?
+\item
+    Jika sebuah survei baru dilakukan terhadap 500 orang Amerika,
+    apakah menurut Anda galat baku estimasinya akan
+    lebih besar, lebih kecil, atau kurang lebih sama.
+\end{parts}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""0af7d341-14fc-5fd0-a88a-6d753a22639e""]"
 2b151983-28cb-5ce5-85b2-8037916ffff9,df0e47a5-e5a2-5a42-a83d-a8c0d10528d2,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,459,468,2292c98251ab0dca53007e745dd665bdfb3b7ead098f21149986c0da6c77130e,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,40,48,6eaa9a2a6747c145ba1456bd396d706f0e17e2f45c98fa2869802d63e8887fb7,language_reviewed,"% 9
 \eocesol{(a)~Jika kelas tidak dinilai berdasarkan kurva, keduanya independen. Jika dinilai
 berdasarkan kurva, keduanya tidak independen maupun saling lepas--kecuali pengajar hanya akan
@@ -3494,6 +3629,29 @@ Pada awalnya mungkin juga terdapat periode pertumbuhan eksponensial
 sebelum ukuran cawan petri mulai memperlambat pertumbuhan. \\
 \FigureFullPath[Sebuah grafik ditampilkan dengan sumbu horizontal ""waktu"" dan sumbu vertikal berlabel ""jumlah sel bakteri"". Sebuah kurva naik dengan curam di sisi kiri; ketika bergerak ke kanan, kenaikannya melambat hingga hampir berhenti ketika mencapai sisi kanan grafik.]{0.25}{ch_summarizing_data/figures/eoce/reproducing_bacteria/reproducing_bacteria_sketch}}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+451e01bb-c333-5029-b69b-0e056179571b,75bf42e8-7e18-5f6a-9e73-838f25cb78d6,109,exercise,en,ch_foundations_for_inf/TeX/confidence_intervals.tex,27,48,21721d13bb5ca3ec8327aa7e12e2a3be1ee92a0dc6eb5ede89a9c878a3b807b5,id-ID,scratch/b020-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/confidence_intervals.tex,30,51,83a824a7051ff3462f0a01c8776ebccc2e5c7cc23ba2c27251d2c5a640fb7456,visually_checked,"% 9
+
+\eoce{\qt{Penyakit kronis, Bagian II\label{chronic_illness_tf}} Pada 2013, Pew Research Foundation melaporkan bahwa 
+``45\% orang dewasa AS menyatakan bahwa mereka hidup dengan satu atau lebih penyakit 
+kronis'', dan galat baku untuk estimasi ini adalah 1.2\%. Tentukan apakah setiap 
+pernyataan berikut benar atau salah. Berikan penjelasan untuk membenarkan 
+setiap jawaban Anda.
+\begin{parts}
+\item Kita dapat mengatakan dengan pasti bahwa interval kepercayaan dari 
+Latihan~\ref{chronic_illness_intro} mencakup persentase sebenarnya dari orang dewasa AS yang 
+mengidap penyakit kronis.
+\item Jika kita mengulangi studi ini 1,000 kali dan membuat interval kepercayaan 95\% 
+untuk setiap studi, maka sekitar 950 dari interval kepercayaan tersebut 
+akan mencakup proporsi sebenarnya dari orang dewasa AS yang mengidap penyakit kronis.
+\item Jajak pendapat tersebut menyediakan bukti yang signifikan secara statistik (pada 
+tingkat $\alpha = 0.05$) bahwa persentase orang dewasa AS yang mengidap 
+penyakit kronis berada di bawah 50\%.
+\item Karena galat bakunya 1.2\%, hanya 1.2\% orang dalam studi tersebut 
+yang menyatakan ketidakpastian tentang jawaban mereka.
+\end{parts}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""0af7d341-14fc-5fd0-a88a-6d753a22639e""]"
 455f6d3d-9ca4-5423-8ca8-3715f0b7a5b6,51f8c9e8-d47d-503f-a0db-38a0564b62f2,2,subsection-prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,2267,2361,a735d10e60fd2608f439d0542e15ef1be2a651f5c62494b1e4a0ab853461bdf2,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,2195,2286,949456789f53dd5ed6a4de0aa753c99846437f70b09f47d61adf5135e324bd01,language_reviewed,"
 Dalam penelitian ini, proporsi pasien yang menunjukkan tanda-tanda
 infeksi lebih kecil pada kelompok yang menerima vaksin
@@ -3767,6 +3925,170 @@ manfaat, dari perlakuan tersebut di masa mendatang.
 
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""41e46d05-03d3-56bd-9f01-2e691bfe3e60""]"
+46e58a9a-9172-5499-be4d-14fa658d1d41,e7980cec-c849-5c30-aac2-a5305b8270d0,3,instructional_prose,en,ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,1073,1235,dd22afa10d0cb76085d535fc3283e08d2555874329277e5f48fe890aee6c54ac,id-ID,scratch/b020-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,1065,1227,6357456c6135426df61b3205742094b0d324466dbb1629da847c02febe46c3c3,visually_checked,"\subsection{Mengubah tingkat kepercayaan}
+\label{changingTheConfidenceLevelSection}
+
+\index{interval kepercayaan!tingkat kepercayaan|(}
+
+Misalkan kita ingin mempertimbangkan interval kepercayaan dengan tingkat
+kepercayaan yang lebih tinggi daripada 95\%, misalnya tingkat
+kepercayaan~99\%. Ingat kembali analogi tentang upaya menangkap ikan:
+jika kita ingin lebih yakin bahwa ikan itu akan tertangkap, kita sebaiknya menggunakan
+jala yang lebih lebar. Untuk menghasilkan tingkat kepercayaan 99\%, kita juga harus memperlebar
+interval 95\% kita. Sebaliknya, jika kita menginginkan interval dengan tingkat
+kepercayaan yang lebih rendah, misalnya 90\%, kita dapat menggunakan interval yang sedikit lebih sempit
+daripada interval 95\% semula.
+
+Struktur interval kepercayaan 95\% memberikan pedoman untuk
+membuat interval dengan tingkat kepercayaan yang berbeda.
+Interval kepercayaan 95\% yang umum bagi estimasi titik
+yang mengikuti distribusi normal adalah
+\begin{eqnarray*}
+\text{estimasi titik}\ \pm\ 1.96 \times SE
+\end{eqnarray*}
+Interval ini memiliki tiga komponen: estimasi titik,
+``1.96'', dan galat baku. Pemilihan $1.96\times SE$
+didasarkan pada pencakupan 95\% data karena estimasi tersebut berada dalam jarak
+1.96 galat baku dari parameter sekitar 95\% dari waktu pengambilan sampel.
+Pemilihan 1.96 bersesuaian dengan tingkat kepercayaan 95\%.
+
+\begin{exercisewrap}
+\begin{nexercise} \label{leadInForMakingA99PercentCIExercise}
+Jika $X$ adalah variabel acak yang berdistribusi normal, berapakah
+peluang bahwa nilai $X$ berada
+dalam jarak 2.58~simpangan baku dari rata-rata?\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Hal ini setara dengan menanyakan seberapa sering
+    skor-Z lebih besar daripada -2.58 tetapi lebih kecil daripada 2.58.
+    Untuk melihat ilustrasinya, lihat Gambar~\ref{choosingZForCI}.
+    Untuk menentukan peluang ini, kita dapat menggunakan perangkat lunak statistik,
+    kalkulator, atau tabel untuk mencari nilai -2.58 dan 2.58 pada
+    distribusi normal: 0.0049 dan 0.9951.
+    Dengan demikian, terdapat peluang $0.9951-0.0049 \approx 0.99$
+    bahwa suatu variabel acak normal $X$ yang belum diobservasi
+    akan berada dalam jarak 2.58~simpangan baku dari $\mu$.}
+
+Latihan Terpandu~\ref{leadInForMakingA99PercentCIExercise} menunjukkan
+bahwa dalam 99\% kasus, variabel acak normal akan berada dalam jarak
+2.58~simpangan baku dari rata-rata.
+Untuk membuat interval kepercayaan 99\%, ubah 1.96 dalam rumus
+interval kepercayaan 95\% menjadi $2.58$.
+Dengan kata lain, rumus
+untuk interval kepercayaan 99\% adalah
+\begin{align*}
+\text{estimasi titik}\ \pm\ 2.58 \times SE
+%\label{99PercCIForProp}
+\end{align*}
+
+\begin{figure}[h]
+  \centering
+  \Figure[Ditampilkan distribusi normal baku; istilah ""baku"" menunjukkan bahwa distribusi normal tersebut berpusat di 0 dan memiliki simpangan baku 1. Bagian-bagian distribusi normal tersebut diarsir. Pertama, bagian tengah sebesar 95\% dari distribusi diarsir dengan warna biru tua dan dilengkapi anotasi ""95\%, membentang dari -1.96 hingga 1.96"". Ingatlah bahwa nilai 1.96 sangat dekat dengan aturan 68-95-99.7 untuk distribusi normal, yang menyatakan bahwa sekitar 95\% luas di bawah distribusi normal berada dalam jarak 2 simpangan baku dari rata-rata. Kedua, suatu daerah yang sedikit lebih lebar pada distribusi normal diarsir, dalam hal ini dari sekitar -2.5 hingga positif 2.5, dan dilengkapi anotasi ""99\%, membentang dari -2.58 hingga 2.58"". Nilai-nilai yang dijelaskan di sini---1.96 dan 2.58---masing-masing merupakan nilai kritis z-bintang yang kita gunakan untuk interval kepercayaan 95\% dan 99\%.]{}{choosingZForCI}
+  \caption{Luas antara -$z^{\star}$ dan $z^{\star}$ bertambah ketika
+      $z^{\star}$ membesar. Jika tingkat kepercayaannya 99\%,
+      kita memilih $z^{\star}$ sedemikian rupa sehingga 99\% dari suatu distribusi
+      normal berada di antara -$z^{\star}$ dan $z^{\star}$,
+      yang berarti 0.5\% berada
+      di ekor bawah dan 0.5\% di ekor atas:
+      $z^{\star}=2.58$.}
+\label{choosingZForCI}
+\index{interval kepercayaan!tingkat kepercayaan|)}
+\end{figure}
+
+% Boundary-clean reader removes a legacy forced page break.
+
+Pendekatan ini---menggunakan skor-Z dalam
+model normal untuk menghitung tingkat kepercayaan---
+tepat digunakan ketika suatu estimasi titik seperti $\hat{p}$
+berkaitan dengan distribusi normal.
+%Dalam konteks proporsi sampel, distribusi
+%normal dapat digunakan ketika observasi
+%sampel saling independen dan syarat sukses--gagal
+%terpenuhi ($np$ dan $n(1-p)$ keduanya sedikitnya 10).
+Untuk beberapa estimasi titik lainnya, model normal tidak cocok;
+dalam kasus-kasus ini, kita akan menggunakan distribusi alternatif yang lebih baik
+dalam merepresentasikan distribusi sampling.
+
+\begin{onebox}{Interval kepercayaan dengan tingkat kepercayaan apa pun}
+  Jika distribusi suatu estimasi titik cukup mendekati model normal
+  dan memiliki galat baku $SE$, maka interval kepercayaan
+  untuk parameter populasi adalah
+  \begin{align*}
+  \text{estimasi titik}\ \pm\ z^{\star} \times SE
+  \end{align*}
+  dengan $z^{\star}$ bersesuaian dengan tingkat
+  kepercayaan yang dipilih.
+\end{onebox}
+
+Gambar~\ref{choosingZForCI} mengilustrasikan cara menentukan
+$z^{\star}$ berdasarkan tingkat kepercayaan. Kita memilih $z^{\star}$
+sedemikian rupa sehingga luas antara -$z^{\star}$ dan $z^{\star}$ pada
+distribusi normal baku\index{distribusi normal baku}\index{distribusi normal!baku}\index{distribusi!normal!baku},
+$N(0, 1)$, bersesuaian dengan tingkat kepercayaan tersebut.
+
+\begin{onebox}{Batas galat}
+  \label{marginOfErrorTermBox}%
+  Dalam suatu interval kepercayaan, $z^{\star}\times SE$ disebut
+  \term{batas galat}.
+\end{onebox}
+
+\begin{examplewrap}
+\begin{nexample}{Gunakan data dalam
+    Contoh~\ref{95p_ci_for_pew_solar_support} untuk
+    membuat interval kepercayaan 90\% bagi proporsi orang dewasa Amerika
+    yang mendukung perluasan penggunaan tenaga surya.
+    Kita telah memastikan bahwa syarat kenormalan terpenuhi.}
+  Pertama, kita menentukan $z^{\star}$ sedemikian rupa sehingga 90\% distribusi berada
+  di antara -$z^{\star}$ dan $z^{\star}$ pada
+  \index{distribusi normal baku}%
+  \index{distribusi normal!baku}%
+  \index{distribusi!normal!baku}%
+  distribusi normal baku, $N(\mu = 0, \sigma = 1)$.
+  Kita dapat melakukannya dengan kalkulator grafik,
+  perangkat lunak statistik, atau tabel peluang dengan mencari
+  ekor atas sebesar 5\% (5\% lainnya berada di ekor bawah):
+  $z^{\star}=1.65$.
+  Interval kepercayaan 90\% kemudian dapat dihitung sebagai
+  \begin{align*}
+  \hat{p}\ \pm\ 1.6449 \times SE_{\hat{p}}
+      \quad\to\quad 0.887\ \pm\ 1.65 \times 0.0100
+      \quad\to\quad (0.8705, 0.9034)
+  \end{align*}
+  Artinya, kita yakin 90\% bahwa 87.1\% hingga 90.3\% orang dewasa
+  Amerika mendukung perluasan tenaga surya pada tahun 2018.
+\end{nexample}
+\end{examplewrap}
+
+\newcommand{\onepropconfintsummary}[0]{
+\begin{onebox}{Interval kepercayaan untuk satu proporsi}
+  Setelah Anda menentukan bahwa interval kepercayaan satu proporsi
+  akan berguna untuk suatu penerapan,
+  terdapat empat langkah untuk menyusun interval tersebut:
+  \begin{description}
+  \item[Persiapkan.]
+      Tentukan $\hat{p}$ dan $n$, serta tetapkan
+      tingkat kepercayaan yang ingin Anda gunakan.
+  \item[Periksa.]
+      Pastikan syarat-syaratnya terpenuhi sehingga $\hat{p}$
+      mendekati distribusi normal.
+      Untuk interval kepercayaan satu proporsi,
+      gunakan $\hat{p}$ sebagai pengganti $p$ untuk memeriksa
+      syarat sukses--gagal.
+  \item[Hitung.]
+      Jika syarat-syaratnya terpenuhi, hitung $SE$ menggunakan $\hat{p}$,
+      tentukan $z^{\star}$, dan susun intervalnya.
+  \item[Simpulkan.]
+      Maknai interval kepercayaan sesuai dengan konteks
+      masalahnya.
+  \end{description}
+\end{onebox}
+}
+\onepropconfintsummary{}
+
+
+% Boundary-clean reader removes a legacy forced page break.
+ 
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""0af7d341-14fc-5fd0-a88a-6d753a22639e""]"
 46e8be66-a947-5a10-9a2d-8a663934c88a,b1193e47-cb89-5836-85ff-5fa2be7997ce,1,exercise,en,ch_intro_to_data/TeX/case_study_using_stents_to_prevent_strokes.tex,5,58,9e30e7c4d6bddeb924c8e836733cf9b8c06e54b37031cbacd4db8d2205cc7cce,id-ID,repo/ch_intro_to_data/TeX/case_study_using_stents_to_prevent_strokes.tex,5,55,0f3fe70081151edf6b50043b146d66aef76433905e076d6520317a7d49752138,translated,"\eoce{\qt{Migrain dan akupunktur,
     Bagian I\label{migraine_and_acupuncture_intro}}
 Migrain merupakan jenis sakit kepala yang sangat nyeri,
@@ -4327,6 +4649,133 @@ Para peneliti mempelajari efek stent pada dua waktu: 30~hari setelah pendaftaran
 \end{nexample}
 \end{examplewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""5013dc5b-3a29-5516-9948-98c064aa43e8""]"
+4fbe02c8-33a4-58ab-8405-b0fc3de9b398,3ffb0068-bcde-5a47-a9d7-842e3bc67c69,2,instructional_prose,en,ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,956,1072,f2ec979075316c4a3173d425352ce4182ddbeef038283292999a931f34a151f0,id-ID,scratch/b020-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,948,1064,bf7c1eaa8a8cc3a8fc342f00c1e6fa575ba7bed94f8ec87badebea01c6663c9c,visually_checked,"\subsection{Menyusun interval kepercayaan 95\%}
+
+Proporsi sampel $\hat{p}$ merupakan nilai yang paling masuk akal
+bagi proporsi populasi, sehingga wajar untuk
+menyusun interval kepercayaan di sekitar estimasi titik ini.
+Galat baku\index{galat baku (SE)|textbf}
+memberikan pedoman mengenai seberapa
+lebar interval kepercayaan yang sebaiknya kita buat.
+
+Galat baku merepresentasikan simpangan baku
+dari estimasi titik, dan ketika syarat-syarat Teorema
+Limit Pusat terpenuhi,
+distribusi estimasi titik cukup mendekati distribusi normal.
+Dalam distribusi normal, 95\% data berada dalam jarak
+1.96~simpangan baku dari rata-rata.
+Dengan menggunakan prinsip ini, kita dapat menyusun interval kepercayaan
+yang membentang sejauh 1.96~galat baku dari proporsi sampel
+sehingga kita \termsub{yakin 95\%}
+    {confident@yakin!95\% confident@95\% yakin}\index{yakin|textbf}
+bahwa interval tersebut mencakup proporsi populasi:
+\begin{align*}
+\text{estimasi titik}\ &\pm\ 1.96 \times SE \\
+\hat{p}\ &\pm\ 1.96 \times \sqrt{\frac{p (1 - p)}{n}}
+%\label{95PercentConfidenceIntervalFormula}
+\end{align*}
+Namun, apa arti ``yakin 95\%''? Misalkan kita mengambil
+banyak sampel dan menyusun interval kepercayaan 95\% dari
+masing-masing sampel. Maka, sekitar 95\% dari interval-interval tersebut akan
+memuat parameter~$p$.
+Gambar~\ref{95PercentConfidenceInterval} menunjukkan
+proses pembuatan 25 interval dari 25 sampel
+dalam simulasi pada
+Bagian~\ref{simulationForUnderstandingVariabilitySection},
+dengan 24 interval kepercayaan yang dihasilkan memuat
+proporsi populasi simulasi sebesar
+$p = \pewsolarparprop{}$, sedangkan satu interval tidak memuatnya.
+
+% Boundary-clean reader removes a legacy forced page break.
+
+\begin{figure}
+  \centering
+  \Figure[Ditampilkan dua puluh lima estimasi titik dan interval kepercayaan dari simulasi pada Bagian~\ref{simulationForUnderstandingVariabilitySection}. Interval-interval ini ditampilkan relatif terhadap proporsi populasi p sama dengan \pewsolarparprop{}. Estimasi titik bervariasi di sekitar proporsi populasi sebenarnya sebesar 0.88, tetapi sebagian besar interval kepercayaannya mencakup nilai p sama dengan 0.88. Satu dari 25 interval tidak memiliki interval kepercayaan yang mencakup proporsi populasi, dan interval ini dicetak tebal. Kita dapat mengatakan bahwa interval kepercayaan ini tidak ""mencakup"" parameter p sama dengan 0.88.]{0.75}{95PercentConfidenceInterval}
+  \caption{Dua puluh lima estimasi titik dan interval kepercayaan
+      dari simulasi pada
+      Bagian~\ref{simulationForUnderstandingVariabilitySection}.
+      Interval-interval ini ditampilkan relatif terhadap proporsi
+      populasi $p = \pewsolarparprop{}$.
+      Hanya~1 dari~25 interval ini
+      yang tidak mencakup proporsi
+      populasi, dan interval tersebut dicetak tebal.}
+  \label{95PercentConfidenceInterval}
+\end{figure}
+
+\begin{examplewrap}
+\begin{nexample}{Pada Gambar~\ref{95PercentConfidenceInterval},
+satu interval tidak memuat $p = \pewsolarparprop{}$.
+Apakah hal ini menyiratkan bahwa proporsi populasi yang digunakan
+dalam simulasi tidak mungkin
+$p = \pewsolarparprop{}$?}
+Sebagaimana beberapa observasi secara alami
+berjarak lebih dari 1.96~simpangan baku
+dari rata-rata, beberapa estimasi titik akan berjarak lebih dari
+1.96~galat baku dari parameter yang menjadi perhatian.
+Interval kepercayaan hanya memberikan rentang nilai
+yang masuk akal.
+Meskipun berdasarkan data kita dapat mengatakan bahwa nilai-nilai lain tidak masuk akal,
+hal ini tidak berarti bahwa nilai-nilai tersebut mustahil.
+\end{nexample}
+\end{examplewrap}
+
+\begin{onebox}{Interval kepercayaan 95\% untuk suatu parameter}
+  \index{interval kepercayaan!95\%}
+  Ketika distribusi suatu estimasi titik memenuhi syarat untuk
+  menerapkan Teorema Limit Pusat dan
+  oleh karena itu cukup mendekati distribusi normal,
+  kita dapat menyusun interval kepercayaan 95\% sebagai
+  \begin{align*}
+  \text{estimasi titik} &\pm 1.96 \times SE
+  \end{align*}
+  % Interval kepercayaan ini hanya memperhitungkan galat sampling,
+  % bukan bias.
+\end{onebox}
+
+\begin{examplewrap}
+\begin{nexample}{Pada Bagian~\ref{pointEstimates} kita mempelajari
+    jajak pendapat Pew Research yang menunjukkan bahwa
+    \pewsolarpollpercent{} dari sampel acak berisi
+    \pewsolarpollsize{} orang dewasa Amerika
+    mendukung perluasan peran tenaga surya.
+    Hitung dan
+    maknai interval kepercayaan 95\% untuk proporsi
+    populasi.} \label{95p_ci_for_pew_solar_support}
+  Sebelumnya, kita telah memastikan bahwa $\hat{p}$ mengikuti distribusi
+  normal dan memiliki galat baku sebesar
+  $SE_{\hat{p}} = \pewsolarpollse{}$.
+  Untuk menghitung interval kepercayaan 95\%, substitusikan
+  estimasi titik $\hat{p} = \pewsolarpollprop{}$ dan
+  galat baku ke dalam rumus interval kepercayaan 95\%:
+  \begin{align*}
+  \hat{p} \pm 1.96 \times SE_{\hat{p}}
+  \quad\to\quad
+  \pewsolarpollprop{} \pm 1.96 \times \pewsolarpollse{}
+  \quad\to\quad
+  (0.8674, 0.9066)
+  \end{align*}
+  Kita yakin 95\% bahwa proporsi sebenarnya dari
+  orang dewasa Amerika yang mendukung perluasan tenaga surya berada
+  antara 86.7\% dan 90.7\%.
+  (Ketika melaporkan interval kepercayaan, lazim untuk membulatkan
+  ke poin persentase terdekat atau persepuluhan
+  poin persentase terdekat.)
+\end{nexample}
+\end{examplewrap}
+
+
+% Boundary-clean reader removes a legacy forced page break.
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""0af7d341-14fc-5fd0-a88a-6d753a22639e""]"
+506ea072-b200-5422-807a-cc45ffd56083,a6d9f37c-6287-5b99-a49f-c409c5428f0c,6,source_wrapper,en,ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,1501,1508,a6b1c2d21ef0ec0125f84019466763191c96bf2d1ffee1054839e305f8b5285b,id-ID,scratch/b020-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,1493,1500,a6b1c2d21ef0ec0125f84019466763191c96bf2d1ffee1054839e305f8b5285b,visually_checked,"{\input{ch_foundations_for_inf/TeX/confidence_intervals.tex}}
+
+
+
+
+
+
+%__________________
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""0af7d341-14fc-5fd0-a88a-6d753a22639e""]"
 50833279-9acb-5ff4-93ed-76357596ecec,cb0a3987-5b1c-53b1-b5d0-ed9e956d1253,46,guided_exercise,en,ch_distributions/TeX/ch_distributions.tex,704,715,26f99e33a9638c73b2efdb157dcf9f253b3ee48f9d558e4601922cf674e69e19,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,694,705,b7e35dd6e5acdb9e366c2a8837933c94423bccc460aac90f6454d60e0350f61c,language_reviewed,"\begin{exercisewrap}
 \begin{nexercise}
 Gunakan perangkat lunak, kalkulator, atau tabel peluang untuk
@@ -6565,6 +7014,22 @@ baku banyaknya kasus yang tidak melampaui batas risiko sendiri?\footnotemark{}
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""d79c0e4f-9e37-5e77-9080-34fed0852af2""]"
+69fce425-b877-58ad-9277-2bb8d9542be2,f21fbe49-90fc-5353-bd01-d6b049e9f0b0,209,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,1006,1020,d79a68dc3146a58d6ad70d330dc73b45407ad430e09faa09ac05cbc8e214fe69,id-ID,qa/b020-translation/staging/eoceSolutions_b020_public_odd.id.tex,11,25,b3c23b7f80bd893abc7ed0f541f66119b27d530f729805e5d51289aaa0824696,visually_checked,"% 9
+
+\eocesol{(a)~Salah. Interval kepercayaan menyediakan rentang nilai yang masuk akal, dan 
+kadang-kadang nilai sebenarnya tidak tercakup. Interval kepercayaan 95\% ``tidak mencakup'' nilai sebenarnya dalam sekitar 5\% 
+kasus.
+(b)~Benar. Perhatikan bahwa uraian tersebut berfokus pada nilai populasi yang sebenarnya.
+(c)~Benar. Jika kita memeriksa interval kepercayaan 95\% yang dihitung dalam
+Latihan~\ref{chronic_illness_intro}, kita dapat melihat bahwa interval ini tidak mencakup 50\%.
+Hal ini 
+berarti bahwa dalam uji hipotesis, kita akan menolak hipotesis nol bahwa 
+proporsinya adalah~0.5.
+(d)~Salah. Galat baku menggambarkan ketidakpastian dalam estimasi keseluruhan 
+akibat fluktuasi alami karena keacakan, bukan ketidakpastian yang berkaitan 
+dengan tanggapan tiap individu.}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""0af7d341-14fc-5fd0-a88a-6d753a22639e""]"
 6a1f2736-c4d1-5c77-b8af-dd690c6c4782,02302d8f-e0e5-5bad-bf2a-e4258998fbe9,121,exercise,en,ch_distributions/TeX/binomial_distribution.tex,80,108,daaab40db97997ce7be9f9fdc3e4b310c6cf96447b944b994d1db7b79d5f5108,id-ID,qa/b016-build/source-snapshot-b016/ch_distributions/TeX/binomial_distribution.tex,82,109,5b1c53f5e3fc00065b0f532c7a6d0314730e0a4423e06c0be4858fa5348efada,visually_checked,"% 21
 
 \eoce{\qt{Permainan dreidel\label{dreidel}} Dreidel adalah gasing bersisi empat
@@ -6672,6 +7137,33 @@ dreidel tiga kali. Hitung peluang memperoleh
 
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+6bb71d28-82ba-5e87-99e7-91c7bc5a9b2d,c23ed346-283e-5a03-82f5-a004fc2217b5,111,exercise,en,ch_foundations_for_inf/TeX/confidence_intervals.tex,73,98,b76963bff6a264a4f424ce1022d6c6b603f7534554b42942294eb62f022e370a,id-ID,scratch/b020-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/confidence_intervals.tex,76,101,333bf06fd322e1a26feabb217f8f88a599beda3b93d3b622557ad1eaef8a8250,visually_checked,"% 11
+
+\eoce{\qt{Menunggu di IGD, Bagian I\label{er_wait_intro_prop_ok}} Seorang administrator rumah sakit 
+yang berharap dapat memperbaiki waktu tunggu memutuskan untuk mengestimasi rata-rata waktu 
+tunggu di instalasi gawat darurat rumah sakitnya. Ia mengambil sampel acak sederhana 
+yang terdiri atas 64 pasien dan menentukan waktu (dalam menit) sejak mereka 
+mendaftar di IGD hingga pertama kali diperiksa oleh seorang dokter. Interval kepercayaan 
+95\% berdasarkan sampel ini adalah (128 menit, 147 menit), 
+yang didasarkan pada model normal untuk rata-rata. Tentukan apakah 
+pernyataan-pernyataan berikut benar atau salah, dan jelaskan alasan Anda.
+\begin{parts}
+\item Kita yakin 95\% bahwa rata-rata waktu tunggu dari 64 pasien instalasi 
+gawat darurat ini berada antara 128 dan 147 menit.
+\item Kita yakin 95\% bahwa rata-rata waktu tunggu semua pasien di 
+instalasi gawat darurat rumah sakit ini berada antara 128 dan 147 menit.
+\item 95\% sampel acak memiliki rata-rata sampel antara 128 dan 147 menit.
+\item Interval kepercayaan 99\% akan lebih sempit daripada interval kepercayaan 
+95\% karena kita perlu lebih yakin terhadap estimasi kita.
+\item Batas galatnya adalah 9.5 dan rata-rata sampelnya adalah 137.5.
+\item Untuk memperkecil batas galat interval kepercayaan 95\% menjadi 
+separuh nilainya saat ini, kita perlu menggandakan ukuran sampel.
+(Petunjuk: batas galat bagi rata-rata berskala dengan cara yang sama terhadap ukuran sampel
+seperti batas galat bagi proporsi.)
+\end{parts}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""0af7d341-14fc-5fd0-a88a-6d753a22639e""]"
 6cb895a1-c258-5476-8a18-1e995f13e480,c9faaa37-1ac5-54ae-b62f-1556d2b63374,3,prose,en,ch_intro_to_data/TeX/ch_intro_to_data.tex,82,82,db57f961aa91635456a9abd409541651a94649144e68f800966307027d572049,id-ID,repo/ch_intro_to_data/TeX/ch_intro_to_data.tex,82,82,0d7581e1ecf01a2adbe48f45c892fcd7a39013bcedb7b2649cbbcbe67f413254,translated,"Menelaah data setiap pasien satu per satu merupakan cara yang panjang dan rumit untuk menjawab pertanyaan penelitian semula. Sebaliknya, analisis data statistik memungkinkan kita menelaah seluruh data sekaligus. Gambar~\ref{stentStudyResults} merangkum data mentah dengan cara yang lebih berguna. Dari tabel ini, kita dapat dengan cepat melihat apa yang terjadi selama penelitian. Misalnya, untuk menentukan jumlah pasien dalam kelompok perlakuan yang mengalami strok dalam 30 hari, kita melihat sisi kiri tabel pada perpotongan baris perlakuan dan kolom strok: 33.
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 6e4ae9c6-edfd-5c1c-b0ec-d9631637ceaf,dd289e93-9169-54e4-8f43-9e34a22da880,1,end-of-section-exercise,en,ch_distributions/TeX/normal_distribution.tex,33,56,a225b3e5c5737a3e0b991d6b7de29629c46f3816419f82bf9b6aa1f77288e982,id-ID,repo/ch_distributions/TeX/normal_distribution.tex,33,60,e97c4598bc7ed8fcf67f5a7ebd0b697425182299791d99cdaee6f5d34be27041,language_reviewed,"% 3
@@ -8444,6 +8936,84 @@ lebih lambat daripada Mary?
 untuk bagian (b)--(e) akan berubah? Jelaskan alasan Anda.
 \end{parts}
 }{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""5013dc5b-3a29-5516-9948-98c064aa43e8""]"
+8f7bb141-296c-582c-8c60-a0a8e323df8c,f5fb316e-6dd4-51e6-9e06-34ebb0d2fab2,5,instructional_prose,en,ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,1424,1500,35fd2e1b56dace8fb48b7c247a892145b1bcf1a4729daee2b0238ac515916623,id-ID,scratch/b020-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,1416,1492,fc9e841c07313d83ab10bf3ed06402e2949899a890a0043d6215d02100b73037,visually_checked,"\subsection{Menafsirkan interval kepercayaan}
+\label{interpretingCIs}
+
+\index{interval kepercayaan!penafsiran|(}
+
+Dalam setiap contoh, kita menguraikan interval
+kepercayaan dengan menempatkannya dalam konteks data dan juga
+menggunakan bahasa yang cukup formal:
+\begin{description}
+  \item[Surya.] Kita yakin 90\% bahwa 87.1\% hingga 90.3\% dari
+      orang dewasa Amerika mendukung perluasan tenaga surya pada 2018.
+  \item[Ebola.] Kita yakin 95\% bahwa proporsi
+      orang dewasa di New York pada Oktober 2014 yang mendukung karantina
+      bagi siapa pun yang pernah melakukan kontak dengan seorang pasien Ebola
+      berada antara 0.796 dan 0.844.
+  \item[Turbin Angin.] Kita yakin 99\% bahwa proporsi
+      orang dewasa Amerika yang mendukung perluasan penggunaan
+      turbin angin berada antara 81.9\% dan 87.7\% pada 2018.
+\end{description}
+Pertama, perhatikan bahwa pernyataan-pernyataan tersebut selalu mengenai parameter
+populasi, yang mencakup \emph{semua} orang dewasa Amerika untuk
+jajak pendapat energi atau \emph{semua} orang dewasa di New York untuk jajak pendapat karantina.
+
+Kita juga menghindari kesalahan umum lainnya:
+bahasa yang \emph{keliru} mungkin mencoba menggambarkan interval kepercayaan
+seolah-olah mencakup parameter populasi dengan peluang tertentu.
+Memberikan penafsiran peluang merupakan kesalahan umum:
+meskipun memikirkannya sebagai peluang mungkin berguna,
+tingkat kepercayaan hanya mengukur seberapa masuk akal
+bahwa parameter berada dalam interval yang diberikan.
+
+Pertimbangan penting lainnya mengenai interval kepercayaan adalah bahwa interval tersebut
+\emph{hanya berkaitan dengan parameter populasi}.
+Interval kepercayaan tidak menyatakan apa pun tentang
+pengamatan individual atau estimasi titik.
+Interval kepercayaan hanya menyediakan rentang yang masuk akal bagi
+parameter populasi.
+
+\index{bias|(}
+Terakhir, ingatlah bahwa metode yang kita bahas hanya berlaku
+untuk galat pengambilan sampel, bukan untuk bias.
+Jika suatu set data dikumpulkan dengan cara yang cenderung
+secara sistematis menghasilkan estimasi yang terlalu rendah
+(atau terlalu tinggi) terhadap parameter populasi, teknik-teknik
+yang telah kita bahas tidak akan mengatasi masalah tersebut.
+Sebaliknya, kita mengandalkan prosedur pengumpulan data yang cermat untuk
+membantu mencegah bias dalam contoh-contoh yang telah kita bahas,
+yang merupakan praktik umum yang digunakan ilmuwan data
+untuk menanggulangi bias.
+\index{bias|)}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Pertimbangkan interval kepercayaan 90\% untuk survei
+energi surya: 87.1\% hingga 90.3\%.
+Jika~kita menjalankan survei tersebut kembali, dapatkah kita mengatakan bahwa kita
+yakin 90\% bahwa proporsi survei yang baru
+akan berada antara 87.1\% dan 90.3\%?\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{
+  Tidak, interval kepercayaan hanya menyediakan rentang nilai yang masuk akal
+  bagi suatu parameter,
+  bukan estimasi titik pada masa mendatang.}
+
+
+
+
+\index{data!wind turbine survey@survei turbin angin|)}
+\index{data!solar survey@survei energi surya|)}
+\index{interval kepercayaan!penafsiran|)}
+
+\CalculatorVideos{confidence intervals for a single proportion}
+
+\index{interval kepercayaan|)}
+
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""0af7d341-14fc-5fd0-a88a-6d753a22639e""]"
 8fa589c0-57e6-5548-8cef-8c9b96841a97,0c5a6a38-7e7c-5ca9-91cb-d65cbe872021,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,278,288,40daef3d2ad980400447e3bd6fdb563aa340c29787b9596af27bfeacfcab49f0,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,293,303,e17a303a990287ed0e7369855b9b6524cb83ec4499b25f45b8d50eb45d0af551,translated,"% 11
 
 \eocesol{(a)~Sekitar 30.
@@ -8741,6 +9311,20 @@ dan kram otot?
     $1 / \insureSprob{} \approx \insureGeomMean{}$
     orang untuk menemukan sukses pertama.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""586d1610-5f32-5232-ba50-6e2a04daf45a""]"
+98951096-ab0f-5a1f-85a6-cb3f5b972d7b,4ed9ee7c-54bf-582b-afb9-ca61f17cab9b,107,exercise,en,ch_foundations_for_inf/TeX/confidence_intervals.tex,3,15,3b28fe915d480b1e6785b4fe3e0a5efdc1052f6009fdf74145067e33f0b20559,id-ID,scratch/b020-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/confidence_intervals.tex,6,18,637830cfcccaa8ca0c9e3b798de9c300ca470383cd419711ac3a247d835e15d2,visually_checked,"% 7
+
+\eoce{\qt{Penyakit kronis, Bagian I\label{chronic_illness_intro}} 
+Pada 2013, Pew Research Foundation melaporkan bahwa ``45\% orang dewasa AS menyatakan 
+bahwa mereka hidup dengan satu atau lebih penyakit kronis''.
+\footfullcite{data:pewdiagnosis:2013} Namun, nilai ini didasarkan pada suatu sampel, 
+sehingga nilai itu sendiri mungkin bukan estimasi yang sempurna bagi parameter populasi yang menjadi 
+perhatian. Studi tersebut melaporkan galat baku sekitar 1.2\%, dan model normal 
+dapat digunakan secara masuk akal dalam situasi ini. Buatlah interval kepercayaan 95\% bagi 
+proporsi orang dewasa AS yang hidup dengan satu atau lebih penyakit kronis. Selain itu, 
+tafsirkan interval kepercayaan tersebut dalam konteks studi.
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""0af7d341-14fc-5fd0-a88a-6d753a22639e""]"
 98987b7a-b786-5df3-b312-4107c0140529,c008ad85-0b9e-5a0c-bd8a-16e3520c8c96,1,exercise,en,ch_intro_to_data/TeX/experiments.tex,19,48,1057bf3ecd60ba1ea88c57334c00eb1483bf27e1b5507eb349a5e5d599ae6a06,id-ID,repo/ch_intro_to_data/TeX/experiments.tex,20,47,37389d563758b1b2072f075b3de78bb6297b6e0138ecbfb56bed1aaad297eb9a,translated,"\eoce{\qt{Suplemen vitamin\label{vitamin_supplement}}
 Untuk menilai efektivitas konsumsi vitamin C dosis tinggi dalam mengurangi durasi selesma, 
 para peneliti merekrut 400 sukarelawan sehat dari kalangan staf dan mahasiswa di sebuah 
@@ -8874,6 +9458,29 @@ curang memengaruhi kemungkinan mereka berbuat curang?''
 tegas agar tidak berbuat curang (kategoris), dan (5) apakah mereka berbuat
 curang (kategoris).}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+9c2cca15-b1c4-5ad4-81f5-b78ddc73addf,ed1e0ba8-1150-5aa3-a59b-c9cd6566c3d2,110,exercise,en,ch_foundations_for_inf/TeX/confidence_intervals.tex,49,70,507038d43dc680eea72e0d33028c619b60f262019e8c461545b64356345a399a,id-ID,scratch/b020-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/confidence_intervals.tex,52,73,cbaeba17e5b4b2302568a545037acce75f574c375e95a692149046a0110c7d70,visually_checked,"% 10
+
+\eoce{\qt{Pengguna Twitter dan berita, Bagian II\label{twitter_users_tf}} Sebuah jajak pendapat yang dilakukan pada 2013 menemukan bahwa 52\% 
+pengguna Twitter dewasa di AS mendapatkan setidaknya sebagian berita dari Twitter, dan galat baku 
+untuk estimasi ini adalah 2.4\%. Tentukan apakah setiap pernyataan berikut 
+benar atau salah. Berikan penjelasan untuk membenarkan setiap jawaban Anda.
+\begin{parts}
+\item Data tersebut menyediakan bukti yang signifikan secara statistik bahwa lebih dari separuh 
+pengguna Twitter dewasa di AS mendapatkan sebagian berita melalui Twitter. Gunakan tingkat signifikansi 
+$\alpha = 0.01$.
+(Bagian ini menggunakan konsep dari Bagian~\ref{hypothesisTesting} dan akan
+diperbaiki dalam edisi mendatang.)
+\item Karena galat bakunya 2.4\%, kita dapat menyimpulkan bahwa 97.6\% dari seluruh 
+pengguna Twitter dewasa di AS disertakan dalam studi tersebut.
+\item Jika ingin mengurangi galat baku estimasi, kita seharusnya mengumpulkan 
+lebih sedikit data.
+\item Jika kita membuat interval kepercayaan 90\% bagi persentase 
+pengguna Twitter dewasa di AS yang mendapatkan sebagian berita melalui Twitter, interval kepercayaan ini 
+akan lebih lebar daripada interval kepercayaan 99\% yang bersesuaian.
+\end{parts}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""0af7d341-14fc-5fd0-a88a-6d753a22639e""]"
 9c5e5263-f276-5067-80c0-e9c2b9fab617,23d3cfd6-9e74-5f22-82d3-3caa9881794d,1,guided_exercise,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,543,547,9d67cbd105cf9e7260d1935798f8851e63ec34fe117d6684e2e29376ca7dba0b,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,533,536,a8ce0715f078fc637e654e062b13b38d00c28a43d12804f1b576580a73c19eea,translated,"\begin{nexercise}
 Selain rata-rata (karena telah diberi label), apa yang dapat Anda
 lihat pada diagram titik tetapi tidak pada histogram?\footnotemark{}
@@ -9156,6 +9763,195 @@ kebisingan (tanpa kebisingan, kebisingan konstruksi, dan suara percakapan manusi
 (c)~Karena peneliti hendak memastikan bahwa laki-laki dan perempuan terwakili sama banyak 
 dalam setiap perlakuan, variabel jenis kelamin menjadi variabel pemblokan.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+a0f4c828-9970-5404-a310-a5b546aef347,2ea59a60-9439-5494-bf8a-fa62149e6416,4,instructional_prose,en,ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,1236,1423,6a2e0e42802b99e03d239e3b7d12998887b21cdc71f9a4bd5553f9adbc711eec,id-ID,scratch/b020-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,1228,1415,05f5b19bae5aabf590166b0282f736375ce9d892f9659a28cd4b6e657f1e2249,visually_checked,"\subsection{Studi kasus lainnya}
+
+\index{data!Ebola poll@jajak pendapat Ebola|(}
+
+\newcommand{\wsjebolapollsize}{1042}
+\newcommand{\wsjebolapollsizecomma}{1,042}
+\newcommand{\wsjebolapollprop}{0.82}
+\newcommand{\wsjebolapollpropcomplement}{0.18}
+\newcommand{\wsjebolapollpercent}{82}
+\newcommand{\wsjebolapollpercentcomplement}{18}
+\newcommand{\wsjebolapollcount}{854}
+\newcommand{\wsjebolapollcountcomplement}{188}
+\newcommand{\wsjebolapollse}{0.012}
+
+
+Di Kota New York pada 23 Oktober 2014, seorang dokter yang baru saja
+merawat pasien Ebola di Guinea pergi ke rumah sakit karena mengalami demam ringan
+dan kemudian didiagnosis mengidap Ebola. Tidak lama setelah itu,
+sebuah jajak pendapat NBC~4 New York/The Wall Street Journal/Marist menemukan bahwa
+\wsjebolapollpercent{}\% warga New York mendukung ``karantina wajib selama 21 hari
+bagi siapa pun yang pernah melakukan kontak dengan seorang pasien
+Ebola''. Jajak pendapat ini memuat tanggapan
+dari \wsjebolapollsizecomma{} orang dewasa di New York antara
+26 dan~28 Oktober 2014.
+%\footnote{Survei ini, seperti survei-survei lain yang
+%  akan Anda lihat dalam buku ini, ...}
+%Kita mungkin menginginkan interval kepercayaan bagi proporsi orang dewasa
+%di New York yang mendukung karantina wajib bagi siapa pun yang pernah
+%melakukan kontak dengan seorang pasien Ebola.
+
+\begin{examplewrap}
+\begin{nexample}{Apa estimasi titik dalam kasus ini,
+    dan apakah masuk akal untuk
+    menggunakan distribusi normal guna memodelkan estimasi titik tersebut?}
+  Estimasi titiknya, berdasarkan sampel berukuran $n = \wsjebolapollsize{}$,
+  adalah $\hat{p} = \wsjebolapollprop{}$.
+  Untuk memeriksa apakah $\hat{p}$ dapat secara masuk akal
+  dimodelkan menggunakan distribusi normal, kita memeriksa independensi
+  (jajak pendapat didasarkan pada sampel acak sederhana) dan
+  syarat sukses--gagal
+  ($\wsjebolapollsize{} \times \hat{p} \approx \wsjebolapollcount{}$
+  dan $\wsjebolapollsize{} \times (1 - \hat{p})
+      \approx \wsjebolapollcountcomplement{}$,
+  keduanya jelas lebih besar dari~10).
+  Karena syarat-syarat tersebut terpenuhi, kita memperoleh kepastian
+  bahwa distribusi sampling dari $\hat{p}$ dapat secara
+  masuk akal dimodelkan menggunakan distribusi normal.
+\end{nexample}
+\end{examplewrap}
+
+\begin{examplewrap}
+\begin{nexample}{Estimasikan galat baku dari
+    $\hat{p} = \wsjebolapollprop{}$ pada survei Ebola.}
+  \label{seOfPropOfNYEbolaSurvey}%
+  Kita akan menggunakan pendekatan substitusi
+  $p \approx \hat{p} = \wsjebolapollprop{}$ untuk menghitung
+  galat baku:
+  \begin{align*}
+  SE_{\hat{p}}
+    = \sqrt{\frac{p(1-p)}{n}}
+    \approx \sqrt{\frac{\wsjebolapollprop{}
+        (1 - \wsjebolapollprop{})}{\wsjebolapollsize{}}}
+    = \wsjebolapollse{}
+  \end{align*}
+\end{nexample}
+\end{examplewrap}
+
+\begin{examplewrap}
+\begin{nexample}{Buatlah interval kepercayaan 95\% untuk $p$,
+    yaitu proporsi orang dewasa di New York yang mendukung karantina
+    bagi siapa pun yang pernah melakukan kontak dengan seorang pasien Ebola.}
+  \label{ex_ci_ny_ebola_quarantine}%
+  Dengan menggunakan galat baku $SE = 0.012$ dari
+  Contoh~\ref{seOfPropOfNYEbolaSurvey},
+  estimasi titik \wsjebolapollprop{}, dan $z^{\star} = 1.96$
+  untuk tingkat kepercayaan 95\%, interval kepercayaannya adalah
+  \begin{eqnarray*}
+  \text{estimasi titik} \ \pm\ z^{\star} \times SE
+    \quad\to\quad \wsjebolapollprop{} \ \pm\ 1.96\times \wsjebolapollse{}
+    \quad\to\quad (0.796, 0.844)
+  \end{eqnarray*}
+  Kita yakin 95\% bahwa proporsi orang dewasa di New York
+  pada Oktober 2014 yang mendukung karantina bagi siapa pun yang pernah
+  melakukan kontak dengan seorang pasien Ebola berada antara 0.796 dan 0.844.
+\index{data!Ebola poll@jajak pendapat Ebola|)}
+\end{nexample}
+\end{examplewrap}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Jawablah dua pertanyaan berikut tentang interval kepercayaan
+dari Contoh~\ref{ex_ci_ny_ebola_quarantine}:\footnotemark{}
+\begin{enumerate}[(a)]
+\item
+    Apa arti yakin 95\% dalam konteks ini?
+\item
+    Menurut Anda, apakah interval kepercayaan tersebut masih berlaku
+    bagi pendapat warga New York saat ini?
+\end{enumerate}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{(a)~Jika kita mengambil banyak sampel seperti ini dan menghitung
+  interval kepercayaan 95\% untuk masing-masing sampel, maka sekitar 95\% dari
+  interval tersebut akan mencakup proporsi sebenarnya dari orang dewasa di New York
+  yang mendukung karantina bagi siapa pun yang pernah
+  melakukan kontak dengan seorang pasien Ebola. \\
+  (b)~Belum tentu. Jajak pendapat tersebut dilakukan pada
+  saat terdapat kekhawatiran besar mengenai keselamatan publik.
+  Setelah orang-orang memiliki waktu untuk mengambil jarak,
+  pendapat mereka mungkin telah berubah.
+  Kita perlu menjalankan jajak pendapat baru jika ingin memperoleh
+  estimasi proporsi orang dewasa di New York saat ini yang
+  akan mendukung masa karantina semacam itu.}
+
+% Boundary-clean reader removes a legacy forced page break.
+
+\index{data!wind turbine survey@survei turbin angin|(}
+
+\newcommand{\pewwindpollsize}{\pewsolarpollsize}
+\newcommand{\pewwindpollprop}{0.848}
+\newcommand{\pewwindpollpropcomplement}{0.152}
+\newcommand{\pewwindpollpercent}{84.8}
+\newcommand{\pewwindpollpercentcomplement}{15.2}
+\newcommand{\pewwindpollcount}{848}
+\newcommand{\pewwindpollcountcomplement}{152}
+\newcommand{\pewwindpollse}{0.0114}
+
+\begin{exercisewrap}
+\begin{nexercise}
+\label{pew_wind_turbine_support_normal_dist_gp}%
+Dalam jajak pendapat Pew Research mengenai energi surya, mereka
+juga menanyakan bentuk-bentuk energi lainnya,
+dan \pewwindpollpercent{}\% dari \pewwindpollsize{}
+responden mendukung perluasan penggunaan
+turbin angin.\footnotemark{}
+\begin{enumerate}[(a)]
+\item
+    Apakah masuk akal untuk memodelkan proporsi
+    orang dewasa AS yang mendukung perluasan penggunaan turbin angin
+    menggunakan distribusi normal?
+\item
+    Buatlah interval kepercayaan 99\% bagi tingkat dukungan warga Amerika
+    terhadap perluasan penggunaan turbin angin untuk pembangkitan
+    listrik.
+\end{enumerate}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{(a)~Survei tersebut merupakan sampel acak
+  dan kedua hitungannya $\geq 10$
+  ($\pewwindpollsize{} \times \pewwindpollprop{}
+    = \pewwindpollcount{}$
+  dan $\pewwindpollsize{} \times \pewwindpollpropcomplement{}
+    = \pewwindpollcountcomplement$),
+  sehingga independensi dan syarat sukses--gagal
+  terpenuhi, dan
+  $\hat{p} = \pewwindpollprop{}$ dapat
+  dimodelkan menggunakan distribusi normal. \\
+  (b)~Latihan
+  Terpandu~\ref{pew_wind_turbine_support_normal_dist_gp}
+  mengonfirmasi bahwa distribusi $\hat{p}$ cukup mendekati
+  distribusi normal, sehingga kita dapat menggunakan rumus interval kepercayaan:
+  \begin{align*}
+  \text{estimasi titik} \pm z^{\star} \times SE
+  \end{align*}
+  Dalam kasus ini, estimasi titiknya adalah
+  $\hat{p} = \pewwindpollprop{}$.
+  Untuk interval kepercayaan 99\%, $z^{\star} = 2.58$.
+  Dengan menghitung galat baku:
+  $SE_{\hat{p}}
+    = \sqrt{\frac{\pewwindpollprop{}(1 - \pewwindpollprop{})}
+        {\pewwindpollsize{}}}
+    = \pewwindpollse{}$.
+  Terakhir, kita menghitung intervalnya sebagai
+  $\pewwindpollprop{} \pm 2.58 \times \pewwindpollse{}
+    \to (0.8186,   0.8774)$.
+  Penting juga untuk \emph{selalu} memberikan penafsiran
+  interval tersebut: kita yakin 99\% bahwa proporsi orang dewasa
+  Amerika yang mendukung perluasan penggunaan turbin
+  angin pada 2018 berada antara 81.9\% dan 87.7\%.}
+
+Kita juga dapat membuat interval kepercayaan untuk
+parameter lain, seperti rata-rata populasi.
+Dalam kasus-kasus ini, interval kepercayaan akan dihitung
+dengan cara yang serupa dengan interval untuk satu proporsi:
+estimasi titik ditambah/dikurangi suatu batas galat.
+Kita akan membahas perincian ini pada bab-bab selanjutnya.
+
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""0af7d341-14fc-5fd0-a88a-6d753a22639e""]"
 a1977ea0-6145-5aa9-a9ac-59e541bcdc91,8d6c63f9-60c2-562b-84f3-86db59a7d01e,30,chapter-review-exercise,en,ch_summarizing_data/TeX/review_exercises.tex,50,62,86f63ee75e68ee5bcb3f27c0c1a52e26c462b90a0203d21025d7431e48132483,id-ID,repo/ch_summarizing_data/TeX/review_exercises.tex,61,74,191ddd4a3fd8045f299e8b04335fd8fe1c51cee189ee316f37cc47614ebd61c4,language_reviewed,"% 30
 
 \eoce{\qt{Statistik baru\label{new_stat}} Statistik
@@ -9876,6 +10672,17 @@ Tentukan probabilitas berikut untuk lemparan dua dadu:\footnotemark
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+b21f2b5d-8c9f-5c39-800a-4b45b9147b0c,20534028-bf75-5f73-b8fd-26400b3665d6,207,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,996,1005,46782e38c0f7921617a12ffba914ea65d237abf721b010587da6ad7ecd112fc4,id-ID,qa/b020-translation/staging/eoceSolutions_b020_public_odd.id.tex,1,10,5b190e9dd1c980e10fa5427a47cbb90d5b36b069644ff0658d207a33ad17bafe,visually_checked,"% 7
+
+\eocesol{Ingat bahwa rumus umumnya adalah $\text{estimasi titik} \pm z^{\star} \times SE$.
+Pertama, tentukan ketiga nilai yang berbeda. Estimasi titiknya adalah 45\%, 
+$z^{\star} = 1.96$ untuk tingkat kepercayaan 95\%, dan $SE = 1.2\%$. Kemudian, substitusikan 
+nilai-nilai tersebut ke dalam rumus:
+$ 45\% \pm 1.96 \times 1.2\% \quad\to\quad (42.6\%, 47.4\%) $
+Kita yakin 95\% bahwa proporsi orang dewasa AS yang hidup dengan satu atau lebih 
+penyakit kronis berada antara 42.6\% dan 47.4\%.}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""0af7d341-14fc-5fd0-a88a-6d753a22639e""]"
 b2f1703d-803c-5ccf-8ede-2a7b61dc9465,dd2c0635-0fd8-5cec-b7cb-9aefab4c0c43,1,guided_exercise,en,ch_probability/TeX/ch_probability.tex,599,603,430cf7bc4a7ab64997fbc500008b6adf9caeb343c8f23f59e130be3421381eef,id-ID,repo/ch_probability/TeX/ch_probability.tex,596,600,d24f9fcb25a8bf1d5138918e637d30e90e386c279a6ee2bf572b37d19fc2681b,language_reviewed,"\begin{exercisewrap}
 \begin{nexercise} \label{ex2Handedness}
 Sekitar 9\% orang kidal. Misalkan 2 orang dipilih secara acak dari populasi AS. Karena ukuran sampel 2 sangat kecil dibandingkan populasi, wajar untuk menganggap kedua orang ini independen. (a)~Berapa probabilitas keduanya kidal? (b)~Berapa probabilitas keduanya tidak kidal?\footnotemark
@@ -10545,6 +11352,18 @@ Dalam Latihan Terbimbing~\ref{exerExaminingDisjointSetsABD}, Anda mengonfirmasi 
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+c090094e-ae23-530b-84f7-e78df6447bb3,0ae36ce3-f957-500f-936c-0cd84b0d0091,108,exercise,en,ch_foundations_for_inf/TeX/confidence_intervals.tex,16,26,6e58ac6f7fddc378b3409e3547753d074907e1ce8d31dd54c536d6d21327b3ed,id-ID,scratch/b020-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/confidence_intervals.tex,19,29,47bf47e62231bb4f8655d4245ef8ca0c4a695a88163431231f99df087ff1d7aa,visually_checked,"% 8
+
+\eoce{\qt{Pengguna Twitter dan berita, Bagian I\label{twitter_users_intro}} 
+Sebuah jajak pendapat yang dilakukan pada 2013 menemukan bahwa 52\% pengguna Twitter dewasa di AS 
+mendapatkan setidaknya sebagian berita dari Twitter.\footfullcite{data:pewtwitternews:2013}. 
+Galat baku untuk estimasi ini adalah 2.4\%, dan distribusi normal 
+dapat digunakan untuk memodelkan proporsi sampel. Buatlah interval kepercayaan 
+99\% bagi proporsi pengguna Twitter dewasa di AS yang mendapatkan sebagian 
+berita dari Twitter, dan tafsirkan interval kepercayaan tersebut dalam konteksnya.
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""0af7d341-14fc-5fd0-a88a-6d753a22639e""]"
 c09da265-b413-5a84-9311-0f0890ec02d1,4c8457ff-0769-59f0-9a0d-040a50fb107c,3,section_prose,en,ch_probability/TeX/ch_probability.tex,2223,2231,25bb531b9cbb958903268e712c63ddbc01812ef686e5ed6f1141d059dd03d40d,id-ID,repo/ch_probability/TeX/ch_probability.tex,2212,2220,9e1e35c880d038ac1a5d7d583cc58e17cd9535985fbeeea36d935d70a51e9fd4,language_reviewed,"
 \begin{figure}[ht]
   \centering
@@ -12283,6 +13102,25 @@ e17153d3-a0a0-5e5f-815f-4a28e904403b,298c8a6d-ef49-5d05-a237-724ee9e76461,6,work
 \end{nexample}
 \end{examplewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""586d1610-5f32-5232-ba50-6e2a04daf45a""]"
+e18cda0e-a99e-5645-83e5-1ec26a3903e4,5d17ec5d-7412-5fa4-9f33-ebb01dd4e96e,211,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,1021,1038,dfcc3eb47fb3304d9a70c44afac0dc3afbf46d401d7b19c0b2136d26945073e8,id-ID,qa/b020-translation/staging/eoceSolutions_b020_public_odd.id.tex,26,43,d2746855d2ebea03a50aeabac757acd6c02935b7d4607d0b7a8f2d3952c6a3d5,visually_checked,"% 11
+
+\eocesol{(a)~Salah. Estimasi titik selalu berada dalam interval kepercayaan,
+dan ini merupakan penerapan interval kepercayaan yang tidak masuk akal pada estimasi titik
+(karena estimasi titik, berdasarkan konstruksinya, tercantum di dalam interval kepercayaan).
+(b)~Benar.
+(c)~Salah. Interval kepercayaan tersebut tidak berkaitan dengan rata-rata sampel.
+(d)~Salah. Agar lebih yakin bahwa kita mencakup parameter, kita memerlukan interval yang lebih 
+lebar. Bayangkan bahwa kita memerlukan jaring yang lebih besar agar lebih yakin dapat menangkap ikan di 
+danau yang keruh.
+(e)~Benar. Penjelasan opsional: Hal ini benar karena model normal digunakan untuk 
+memodelkan rata-rata sampel. Batas galat adalah separuh lebar interval, 
+dan rata-rata sampel adalah titik tengah interval.
+(f)~Salah. Dalam penghitungan galat baku, kita membagi simpangan 
+baku dengan akar kuadrat ukuran sampel. Untuk mengurangi SE (atau batas 
+galat) menjadi separuh, kita perlu mengambil sampel sebanyak $2^2 = 4$ kali jumlah orang dalam 
+sampel awal.}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""0af7d341-14fc-5fd0-a88a-6d753a22639e""]"
 e1b303ab-b16f-5a77-b2cf-dd5629f5674c,19e6fcc1-4419-54f9-ac03-9e85a2c49606,11,worked_example,en,ch_distributions/TeX/ch_distributions.tex,2043,2053,7cdaabb06b105ed4001eceb4e2b490664aab65deb3c05d14cec704fe45a4ba3c,id-ID,scratch/b017-build-candidate/source-snapshot-b017/ch_distributions/TeX/ch_distributions.tex,1975,1985,2f35aba5ce2dc39e69ad285e490b1a7e44b4fedc8d063f0a11f9a414e1dd4ff5,visually_checked,"\begin{examplewrap}
 \begin{nexample}{Tunjukkan dengan menggunakan rumus distribusi binomial negatif bahwa peluang Brian mencetak field goal keempatnya pada percobaan keenam adalah 0.164.}
 Peluang sukses dalam satu percobaan adalah $p=0.8$, banyaknya sukses adalah $k=4$, dan banyaknya percobaan yang diperlukan dalam skenario ini adalah $n=6$.

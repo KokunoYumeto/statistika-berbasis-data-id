@@ -35,6 +35,7 @@ id,affected_id,category,summary,disposition,confidence,status
 2e7ae2ff-038c-5c76-beb6-749df5fcfd58,bac586bc-5065-5e98-a3ae-8376ff0851ac,source_correction,B015-SC002: explicit derivative-scoped source correction,applied_in_terminal_b015_candidate,high,active
 2f73becc-e157-5bdf-9c26-28f8f7f8863c,d031fd92-364c-5922-9977-7d4f68b6f109,translation_spelling,,,high,active
 3025c792-7852-5e5c-b512-b58bd32985ed,4ad79ac2-b6ea-5eb3-86f4-298962d0bb50,layout_reflow_answer_break,,,high,active
+31b634d4-1109-5e35-8e71-f7d86a4bd55d,f5fb316e-6dd4-51e6-9e06-34ebb0d2fab2,grammatical_typo,,,high,active
 367bddb6-f5af-5643-9675-69824d1503af,06b28e64-c231-50b0-b1f6-648ba4ba5102,localized_layout_adaptation,B014-LA001: \D{\newpage},applied_in_terminal_b014_candidate,high,active
 38ab1e8b-ea0c-5a85-bb6c-e21ff1838adc,9cf167d5-4320-5a32-b56f-605c6e7ff489,prose_and_tex_punctuation,,,high,active
 390b4aff-09c1-56dc-a981-d6eddc63e103,76ecd2e2-efd6-5cd9-b054-41be3101723f,translation_directionality,,,high,active
@@ -48,6 +49,7 @@ id,affected_id,category,summary,disposition,confidence,status
 4346ec6d-5e36-57ed-b8b1-997dfa3a6f32,79b67f35-3460-585e-b91d-f1c7f8a7662f,translation_presentation_consistency,,,high,active
 45a19c91-56c5-5dbb-912f-780da23b8061,9cf167d5-4320-5a32-b56f-605c6e7ff489,index_mapping,,,high,active
 4832583b-daab-51d9-b3c2-a7fcc2e9034f,bac586bc-5065-5e98-a3ae-8376ff0851ac,source_correction,B015-SC004: explicit derivative-scoped source correction,applied_in_terminal_b015_candidate,high,active
+4b50c4d5-5c83-5435-84ff-ee0c15db45b2,f5fb316e-6dd4-51e6-9e06-34ebb0d2fab2,numeric_consistency,,,high,active
 4d2a4836-2e91-56fc-93e8-dedb8e27a255,a485ca16-e7af-5fc9-a661-2481b3a87b29,source_accessibility,Accessibility text contains the typo The the dot plot.,applied_in_terminal_b012_candidate,high,active
 4ee59633-83dd-52ae-9949-f7c77323a226,6e4e8c2c-e78c-58d3-afef-7c55af54eb37,source_grammar,The source phrase `represents a classifier a sample` is malformed.,applied_in_isolated_b010_candidate,high,active
 4f3b7e46-2b80-53ad-b797-78b9d5be2704,9e0d4468-5410-57f5-a63f-64d449369bb9,generated_figure_font_portability,,,high,active
@@ -83,6 +85,7 @@ id,affected_id,category,summary,disposition,confidence,status
 9fd4de0a-e488-5d3a-a671-0f452707e375,cda64c06-7961-5028-afbc-01956ce7d61c,layout_reflow_exercise_break,,,high,active
 a0902a70-b856-5d34-bf64-379a29184d90,b9823605-b359-533a-9cb9-84628fa32225,layout_reflow_answer_break,,,high,active
 a5f473f6-7eaf-558e-b795-0f2a6b9b54da,06b28e64-c231-50b0-b1f6-648ba4ba5102,source_correction,"B014-SC011: Q1 = 23.13, Q3 = 26.86, IQR = 26.86 - 23.13 = 3.73",applied_in_terminal_b014_candidate,high,active
+a63c4c75-ad22-5303-ac23-503f563b4916,e7980cec-c849-5c30-aac2-a5305b8270d0,typographic_duplication,,,high,active
 a804f0d4-d595-5aa8-beb2-010ec78535bc,5a337c31-cd63-530d-9f43-917e5cc22e7a,localization_language,Answer 25(d) used an awkward nominal phrase for removing a chip.,applied_before_terminal_b011_translation_gate,high,active
 a81f6e2c-93b4-56e2-b90b-05208231ea89,38d29400-2764-5109-a7fd-d245c7e52b17,component_attribution,,,high,active
 aaa77265-1112-55f9-a951-023fdf75d4d5,5418b4f9-77ac-546a-b7e2-5bc1c3fb75ca,component_rights,,,high,active
