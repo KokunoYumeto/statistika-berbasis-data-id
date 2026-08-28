@@ -11,7 +11,3 @@ Seluruh 190 halaman pembaca telah lulus pemeriksaan bahasa halaman-per-halaman d
 Kursor berikutnya: `repo/ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex:911`, label `confidenceIntervals` pada baris 912, Bagian 5.2 *Interval kepercayaan untuk suatu proporsi*.
 
 Karya turunan Bahasa Indonesia dari *OpenIntro Statistics*, Edisi Keempat, oleh David M. Diez, Mine Çetinkaya-Rundel, dan Christopher D. Barr. Kontributor: Codex, atas permintaan pengguna. Model: **OpenAI Codex gpt-5.6-sol, Ultra**. Tidak ada kontak hulu yang dilakukan.
-
-## Repositori publik
-
-- Zenodo: <https://zenodo.org/records/22135360>

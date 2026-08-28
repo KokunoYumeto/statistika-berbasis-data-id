@@ -275,7 +275,7 @@ Dalam Latihan Terbimbing~\ref{exerExaminingDisjointSetsABD}, Anda mengonfirmasi 
 
 \subsection{Probabilitas ketika peristiwa tidak saling lepas}
 
-Mari kita pertimbangkan perhitungan untuk dua peristiwa yang tidak saling lepas dalam konteks \indexthis{dek standar 52 kartu}{deck of cards}, yang ditampilkan pada Gambar~\ref{deckOfCards}. Jika Anda belum mengenal kartu dalam dek standar, lihat catatan kaki.\footnote{Ke-52 kartu dibagi menjadi empat \term{jenis}: $\clubsuit$ (keriting), {\color{redcards}$\diamondsuit$} (wajik), {\color{redcards}$\heartsuit$} (hati), dan $\spadesuit$ (sekop). Setiap jenis memiliki 13 kartu berlabel: \resp{2}, \resp{3}, ..., \resp{10}, \resp{J} (jack), \resp{Q} (queen), \resp{K} (king), dan \resp{A} (ace). Jadi, setiap kartu merupakan kombinasi unik antara jenis dan label, misalnya {\color{redcards}\resp{4$\heartsuit$}} dan \resp{J$\clubsuit$}. Ke-12 kartu berupa jack, queen, dan king disebut \termsub{\resp{kartu bergambar}}{face card}. Kartu berjenis {\color{redcards}$\diamondsuit$} atau {\color{redcards}$\heartsuit$} biasanya berwarna {\color{redcards}merah}, sedangkan dua jenis lainnya biasanya berwarna hitam.}
+Mari kita pertimbangkan perhitungan untuk dua peristiwa yang tidak saling lepas dalam konteks \indexthis{dek standar 52 kartu}{deck of cards}, yang ditampilkan pada Gambar~\ref{deckOfCards}. Jika Anda belum mengenal kartu dalam dek standar, lihat catatan kaki.\footnote{Ke-52 kartu dibagi menjadi empat \term{jenis}: $\clubsuit$ (keriting), {\color{redcards}$\diamondsuit$} (wajik), {\color{redcards}$\heartsuit$} (hati), dan $\spadesuit$ (sekop). Setiap jenis memiliki 13 kartu berlabel: \resp{2}, \resp{3}, ..., \resp{10}, \resp{J} (jack), \resp{Q} (queen), \resp{K} (king), dan \resp{A} (as). Jadi, setiap kartu merupakan kombinasi unik antara jenis dan label, misalnya {\color{redcards}\resp{4$\heartsuit$}} dan \resp{J$\clubsuit$}. Ke-12 kartu berupa jack, queen, dan king disebut \termsub{\resp{kartu bergambar}}{face card}. Kartu berjenis {\color{redcards}$\diamondsuit$} atau {\color{redcards}$\heartsuit$} biasanya berwarna {\color{redcards}merah}, sedangkan dua jenis lainnya biasanya berwarna hitam.}
 
 \begin{figure}[h]
 \centering
@@ -626,15 +626,15 @@ P(\text{kelima orang adalah \resp{RH}})
 
 (c)~Gunakan komplemen, $P($kelima orang \resp{RH}$)$, untuk menjawab pertanyaan ini:
 \begin{align*}
-P(\text{not all \resp{RH}})
-	= 1 - P(\text{all \resp{RH}})
+P(\text{tidak semua \resp{RH}})
+	= 1 - P(\text{semua \resp{RH}})
 	= 1 - 0.624 = 0.376
 \end{align*}}
 
-Misalkan variabel \var{handedness} dan
-\var{sex} independen,
-artinya mengetahui \var{sex} seseorang tidak memberikan informasi
-berguna tentang \var{handedness}-nya, dan sebaliknya.
+Misalkan variabel \var{dominansi tangan} dan
+\var{jenis kelamin} independen,
+artinya mengetahui \var{jenis kelamin} seseorang tidak memberikan informasi
+berguna tentang \var{dominansi tangan}-nya, dan sebaliknya.
 Kita dapat menghitung probabilitas orang yang dipilih secara acak
 tidak kidal dan perempuan\footnote{Proporsi aktual
   populasi AS yang \resp{perempuan} sekitar 50\%,
@@ -666,15 +666,15 @@ Kadang-kadang kita ingin tahu apakah suatu hasil memberikan informasi berguna te
 $P(A \text{ dan }B) = P(A) \times  P(B)$.
 
 \begin{examplewrap}
-\begin{nexample}{Jika kita mengocok dek kartu lalu mengambil satu kartu, apakah peristiwa kartu itu hati independen dari peristiwa kartu itu ace?}
-Probabilitas kartu itu hati adalah $1/4$ dan probabilitas kartu itu ace adalah $1/13$. Probabilitas kartu itu ace hati adalah $1/52$.
+\begin{nexample}{Jika kita mengocok dek kartu lalu mengambil satu kartu, apakah peristiwa kartu itu hati independen dari peristiwa kartu itu as?}
+Probabilitas kartu itu hati adalah $1/4$ dan probabilitas kartu itu as adalah $1/13$. Probabilitas kartu itu as hati adalah $1/52$.
 Kita memeriksa apakah $P(A \text{ dan }B) = P(A) \times  P(B)$
 terpenuhi:
 \begin{align*}
-P({\color{redcards}\heartsuit})\times P(\text{ace}) = \frac{1}{4}\times \frac{1}{13} = \frac{1}{52} 
-					= P({\color{redcards}\heartsuit}\text{ dan ace})
+P({\color{redcards}\heartsuit})\times P(\text{as}) = \frac{1}{4}\times \frac{1}{13} = \frac{1}{52} 
+					= P({\color{redcards}\heartsuit}\text{ dan as})
 \end{align*}
-Karena persamaan tersebut berlaku, peristiwa kartu itu hati dan peristiwa kartu itu ace merupakan peristiwa independen.
+Karena persamaan tersebut berlaku, peristiwa kartu itu hati dan peristiwa kartu itu as merupakan peristiwa independen.
 \end{nexample}
 \end{examplewrap}
 
@@ -2269,7 +2269,7 @@ Dalam Contoh~\ref{contDistProb}, kita menghitung proporsi individu dengan tinggi
 \end{align*}
 Kita menemukan jumlah orang dengan tinggi antara \resp{180} dan \resp{185} cm dengan menentukan proporsi luas histogram dalam rentang tersebut. Serupa dengan itu, kita dapat menggunakan luas daerah berarsir di bawah kurva untuk menemukan peluang (dengan bantuan komputer):
 \begin{align*}
-P(\text{\var{height} antara \resp{180} dan \resp{185}})
+P(\text{tinggi antara \resp{180} dan \resp{185}})
 	= \text{luas antara \resp{180} dan \resp{185}}
 	= 0.1157
 \end{align*}

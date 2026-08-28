@@ -1,35 +1,44 @@
 {
-  "schema_version": "r011-b018-visual-qa-v1",
-  "boundary_id": "R011-B018",
-  "status": "PASS_ALL_176_PAGES_VISUALLY_INSPECTED_ZERO_DEFECTS",
-  "page_count": 176,
+  "$schema": "interlanguage.r011-b019-visual-qa/v1",
+  "boundary_id": "R011-B019",
+  "status": "PASS_ALL_190_PAGES_VISUALLY_INSPECTED_ZERO_DEFECTS",
+  "page_count": 190,
   "defect_count": 0,
   "all_pages_inspected": true,
   "inspection_method": {
-    "all_pages": "nine ordered 5x4 contact sheets inspected end to end",
-    "key_pages": "eleven full-page raster inspections at original rendered resolution",
+    "all_pages": "ten ordered 4x5 contact sheets inspected end to end",
+    "key_pages": "eleven full-page raster inspections at original 612x792 rendered resolution",
     "checks": [
       "readable centered page geometry",
       "no clipping or overlap",
       "no accidental blank or duplicate pages",
-      "clean chapter and appendix boundaries",
-      "localized chart and terminology witnesses",
+      "clean chapter, exercise, and appendix boundaries",
+      "localized Chapter 5 chart-axis and terminology witnesses",
+      "natural reflow across former forced page break",
       "natural final-page termination"
     ]
   },
+  "render": {
+    "command": "pdftoppm -png -r 72",
+    "page_geometry_pixels": [
+      612,
+      792
+    ],
+    "poppler_missing_display_font_warnings": "Inherited vector-figure font aliases produced warnings; all rendered pages were visually checked and no missing, substituted-tofu, clipped, or unreadable glyph was found."
+  },
   "learner_pdf": {
-    "path": "output/pdf/statistika-berbasis-data-batas-R011-B018.pdf",
-    "bytes": 9981855,
-    "sha256": "f6c0f27bbe2a5e20d07a7e15b6ecb6d99787f7fcc412d0fe9098629d3433efe8"
+    "path": "output/pdf/statistika-berbasis-data-batas-R011-B019.pdf",
+    "bytes": 10121910,
+    "sha256": "97d3524e413d33d091789b432861065535f84399f59a76e1cf365cfd494bd68b"
   },
   "pagewise_language_qa": {
-    "path": "qa/b018-reader-correction/R011-B018_PAGEWISE_LANGUAGE_QA.json",
-    "bytes": 77798,
-    "sha256": "bf26f469668a1cf545c824a01f9685037c3e12b59da34d72ce8186b52c126a97"
+    "path": "qa/b019-reader/R011-B019_PAGEWISE_LANGUAGE_QA.json",
+    "bytes": 84512,
+    "sha256": "a370b7732a2c55dd4afa5fdd44837d8a88b82e1863d6454aecac629fefce565d"
   },
   "rendered_pages": [
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-001.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-001.png",
       "bytes": 22226,
       "sha256": "c0412bdfaa27cecfd5e1883ef8b3863492015988c90487257c69612e97db066e",
       "width": 612,
@@ -37,7 +46,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-002.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-002.png",
       "bytes": 50761,
       "sha256": "175abf5d4906dae2a52c96fb71b42ad82304134ec52563055673aca2f52dbaaf",
       "width": 612,
@@ -45,15 +54,15 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-003.png",
-      "bytes": 36923,
-      "sha256": "35d9c7a9bec64fcf19b1ef79f51403d6f68b6fd3418e737f52393696d019e132",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-003.png",
+      "bytes": 40936,
+      "sha256": "03ec27e4464eb163ed5e6c7bbadabaaa6ae386764c5003bf42c575427d3b9ef5",
       "width": 612,
       "height": 792,
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-004.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-004.png",
       "bytes": 100841,
       "sha256": "45ba0aebe48c926275fdaec9be0c9b6cf67e6fdb02bd3fcbcbd65efd24f11c9b",
       "width": 612,
@@ -61,23 +70,23 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-005.png",
-      "bytes": 129916,
-      "sha256": "706d3a839f47637fe26a9663c00a7ca4cc770c8e4ea6fc318e756e6b6b2ed2c3",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-005.png",
+      "bytes": 129565,
+      "sha256": "7b56ca4ee7ef3388b806a1ae1455748757c6823e14604d400447fac280caf673",
       "width": 612,
       "height": 792,
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-006.png",
-      "bytes": 20193,
-      "sha256": "e52c32aa729bc9e543c38d18206afb523e761340db7c34497ac2f08b8522ed72",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-006.png",
+      "bytes": 33589,
+      "sha256": "03f16be1a97b31bfa12375bc7cf42bfca1851d3651011b8e7fab6008c0be29b2",
       "width": 612,
       "height": 792,
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-007.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-007.png",
       "bytes": 24454,
       "sha256": "fa4aca5d93f894b4dfb56f4e33bc3f24abaadbd8656c4602c5828b4ace026cfb",
       "width": 612,
@@ -85,7 +94,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-008.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-008.png",
       "bytes": 45420,
       "sha256": "7d75118529051cfb42ff2f3429339836191a2bbaa1d857c20e8b71238f498bb5",
       "width": 612,
@@ -93,7 +102,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-009.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-009.png",
       "bytes": 119700,
       "sha256": "fb8a0fcfe7df3a33a07013cc6f9fdc5b4194a5979461405269e5e630a913649f",
       "width": 612,
@@ -101,7 +110,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-010.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-010.png",
       "bytes": 98607,
       "sha256": "999c594149c440710686be0252486af77cf4778da8daf0c40218762f2518df7d",
       "width": 612,
@@ -109,7 +118,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-011.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-011.png",
       "bytes": 120085,
       "sha256": "2a8db75c77de4ccc29f321865c35bfeafaaa22aa553326d2692b160fffa18ec4",
       "width": 612,
@@ -117,7 +126,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-012.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-012.png",
       "bytes": 113995,
       "sha256": "9aedf2023bc75e07ce8fac7e96493e1e570a96c159830b6ccaff6c3d01c3f19f",
       "width": 612,
@@ -125,7 +134,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-013.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-013.png",
       "bytes": 63179,
       "sha256": "0afb5883aa25a29dbdb31766749300981522981d8efcbc98fa0f35619bed5f5d",
       "width": 612,
@@ -133,7 +142,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-014.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-014.png",
       "bytes": 98506,
       "sha256": "2e776a8c65719ff0dbc81d20841822f98a10588cb6b11e9bd73fdc7703b647b6",
       "width": 612,
@@ -141,7 +150,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-015.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-015.png",
       "bytes": 124536,
       "sha256": "a8e9d0d6b2d13a28f9f95370d807c48fccc3c7c31fa2a883fc8a7f8678ecb190",
       "width": 612,
@@ -149,7 +158,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-016.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-016.png",
       "bytes": 125331,
       "sha256": "41cbc7e26f3ee0d75d5930f4b8104cb84639d0e12539b7b27f3accfb0731233a",
       "width": 612,
@@ -157,7 +166,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-017.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-017.png",
       "bytes": 119177,
       "sha256": "a4bc651babaf165cbf50154beaba8a7796f9952b4b2d5b1e63e3c3d37922e17b",
       "width": 612,
@@ -165,7 +174,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-018.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-018.png",
       "bytes": 121044,
       "sha256": "f9428ddc13a4063b1eb6795ddbeff751273669ba571e486337b835234ba438ad",
       "width": 612,
@@ -173,7 +182,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-019.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-019.png",
       "bytes": 124220,
       "sha256": "1f82dcf99e078afa7d96d503a2cb6a6841cd877f0069a2da4bf2b411823d59ec",
       "width": 612,
@@ -181,7 +190,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-020.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-020.png",
       "bytes": 164011,
       "sha256": "409748ac69a3675759539122ef83a573e14711314e1a9ff6bea3509081619865",
       "width": 612,
@@ -189,7 +198,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-021.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-021.png",
       "bytes": 169210,
       "sha256": "0137bef44dac176e3edc6caf47324ee5ef5f524e2422eafd157034f54d5d4b15",
       "width": 612,
@@ -197,7 +206,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-022.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-022.png",
       "bytes": 115873,
       "sha256": "b88d3caddbc2e74f2c701b3f72e957803798834b73e26e5ec49de603308eaabc",
       "width": 612,
@@ -205,7 +214,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-023.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-023.png",
       "bytes": 149108,
       "sha256": "238a6607bbb6ba173ad6027630de99fbf946e192205f92f017af4636e53b2638",
       "width": 612,
@@ -213,7 +222,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-024.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-024.png",
       "bytes": 120781,
       "sha256": "358df85e3f88b06dcb15bddc369a9a79b6ace75e88ea5cde55421f64171a1912",
       "width": 612,
@@ -221,7 +230,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-025.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-025.png",
       "bytes": 129703,
       "sha256": "f491bed5ef104f8a6a73d790b304279d8ed6d49723638d6d14d394f92d6a822b",
       "width": 612,
@@ -229,7 +238,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-026.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-026.png",
       "bytes": 146566,
       "sha256": "87bf9ae59c2cc705a8cfa80bfb06c48e0c466cb5c1e3f0a277daf9495079137e",
       "width": 612,
@@ -237,7 +246,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-027.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-027.png",
       "bytes": 52016,
       "sha256": "6c1294a525c641d1ae8c9928d77596de1545e22923576e58ad8c8bb3c7bfa3d4",
       "width": 612,
@@ -245,7 +254,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-028.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-028.png",
       "bytes": 85422,
       "sha256": "040d4bd9c6c27e0a2b7033273f2a96b3ce1746a65fc5a92ba8c33eee85152d34",
       "width": 612,
@@ -253,7 +262,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-029.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-029.png",
       "bytes": 136298,
       "sha256": "6456325284061e7d7a9e27b39e07ed0a6ec4959f527ce03a5c185b0455453be1",
       "width": 612,
@@ -261,7 +270,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-030.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-030.png",
       "bytes": 132255,
       "sha256": "648bd81b9668f788a7e2ceab49954f7622972ff649266c3c37893e6090b3680f",
       "width": 612,
@@ -269,7 +278,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-031.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-031.png",
       "bytes": 144116,
       "sha256": "43b890dc08e3138f11141d804d2a5a5d5b2c818ff5e10977407f2a5637d50b86",
       "width": 612,
@@ -277,7 +286,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-032.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-032.png",
       "bytes": 70742,
       "sha256": "ccc1806af76688eda628e648ecc6790614c60fc7988a54a57b088d5cf492e3ff",
       "width": 612,
@@ -285,7 +294,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-033.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-033.png",
       "bytes": 130137,
       "sha256": "b207b9059614e902b7d009bfc8197efe27bacd260bc23cb74838827993f4033f",
       "width": 612,
@@ -293,7 +302,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-034.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-034.png",
       "bytes": 65289,
       "sha256": "5db2a74c9bb67498b91b7e0715475c7bf5fc249f1d3151ab0ebb939dd44e0977",
       "width": 612,
@@ -301,7 +310,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-035.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-035.png",
       "bytes": 146142,
       "sha256": "178bcc37532ecc1c71f679951a9c62af7207f4d490817569cfe82f4e1595da43",
       "width": 612,
@@ -309,7 +318,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-036.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-036.png",
       "bytes": 137345,
       "sha256": "49a90a86cb65556f46574a2690e3df9391a5c44cbcede7cfb2a9f41120c3e486",
       "width": 612,
@@ -317,7 +326,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-037.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-037.png",
       "bytes": 130427,
       "sha256": "74eb18373cf8d2365ff4ba61156a151e33ff2d03df5c5cf84faac84c5accccfa",
       "width": 612,
@@ -325,7 +334,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-038.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-038.png",
       "bytes": 142211,
       "sha256": "27eab166d88f0d74e4a2e96ddeb77dc74cef73142dd3d92bdf61d824e6145170",
       "width": 612,
@@ -333,7 +342,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-039.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-039.png",
       "bytes": 124305,
       "sha256": "b97356dcb22e195a11e73dd2ba277ece327e9ddf5ded067a4745ef9e835e5fe4",
       "width": 612,
@@ -341,7 +350,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-040.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-040.png",
       "bytes": 21441,
       "sha256": "6c5c4a0c2e1290dca13e1989d98802dbe462028e47c78defe05a10c58e3354f1",
       "width": 612,
@@ -349,7 +358,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-041.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-041.png",
       "bytes": 49895,
       "sha256": "7ae7566c13cff8c38e2d4c12f90f7bfb8bef539e0056e25e9aea0d41a20f5a6e",
       "width": 612,
@@ -357,7 +366,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-042.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-042.png",
       "bytes": 98430,
       "sha256": "994a97605f9c3013c8a61b0e07f244f8449ee306c8001f6045e265d596d12d28",
       "width": 612,
@@ -365,7 +374,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-043.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-043.png",
       "bytes": 97481,
       "sha256": "9ec719d5c6b37c4e86137850912c0a7d04d1061f547265691482c4ce90851ccd",
       "width": 612,
@@ -373,7 +382,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-044.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-044.png",
       "bytes": 97701,
       "sha256": "ec25c788905aef9924fc61cabf01e13316301527accce2db5f3e27d396e50e6c",
       "width": 612,
@@ -381,15 +390,15 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-045.png",
-      "bytes": 100535,
-      "sha256": "e7940a230f7e3162517c8206db79b45e2ac7be99beffec40a069a9dd43836a73",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-045.png",
+      "bytes": 99076,
+      "sha256": "219fce84289733be9cea623184097acfbe033952e2aa4902711f2f7936a854e4",
       "width": 612,
       "height": 792,
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-046.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-046.png",
       "bytes": 106895,
       "sha256": "f29556dd2ce3fd0de9a0daca64580c47e547433ef48be4e4f3e0ced4712e1db1",
       "width": 612,
@@ -397,7 +406,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-047.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-047.png",
       "bytes": 129550,
       "sha256": "ba289ea061c1a8586b140c8557e6c700dca0a5c19e6589fdb3deed32b043452e",
       "width": 612,
@@ -405,7 +414,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-048.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-048.png",
       "bytes": 83308,
       "sha256": "a1dc227759fc513374e782418e2132f28812aa81bc668dc68deb8fc283ac2056",
       "width": 612,
@@ -413,7 +422,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-049.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-049.png",
       "bytes": 114012,
       "sha256": "c6b7d6d091411aa23b8a2481333e61b67ea0cc322b6da4d78cbb4f183693ddf0",
       "width": 612,
@@ -421,15 +430,15 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-050.png",
-      "bytes": 71142,
-      "sha256": "cbb1720fcdc40bfe0d0d1b63ec710881a26e46085447bf1dc0489e0a2f49e007",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-050.png",
+      "bytes": 69943,
+      "sha256": "b91b8111039e131fff160936a2e71f6a69f24d7f7432856eb904f7e5447e1308",
       "width": 612,
       "height": 792,
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-051.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-051.png",
       "bytes": 118921,
       "sha256": "5923b34abcac53be2b0ff839cef8d228cbcf955767aef51ca4485da8cfd42a26",
       "width": 612,
@@ -437,7 +446,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-052.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-052.png",
       "bytes": 93955,
       "sha256": "053d1980657edd223acbe3120070ff80c1cc3a852a0084c0ea68069717473d00",
       "width": 612,
@@ -445,7 +454,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-053.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-053.png",
       "bytes": 100373,
       "sha256": "37679d7dcef801554ad4b8c854c0492c9c8545fc20e2ca1b4069890b234f997e",
       "width": 612,
@@ -453,7 +462,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-054.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-054.png",
       "bytes": 77264,
       "sha256": "385c1d063d2b3f8624e27e1968eb1360a3289583f7c5286b607423135ac9e023",
       "width": 612,
@@ -461,7 +470,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-055.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-055.png",
       "bytes": 162154,
       "sha256": "df5c1f812516890e61e10116913be65c51cf9bc3807aa679bf5c3b19263eb9ef",
       "width": 612,
@@ -469,7 +478,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-056.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-056.png",
       "bytes": 155672,
       "sha256": "ffa86dc43087dddb2ce98eac24c6bf7aa5e725694604113e837a00652bfe3844",
       "width": 612,
@@ -477,7 +486,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-057.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-057.png",
       "bytes": 108485,
       "sha256": "10f372513105781080af5a30d16043a3cd56bcd382b5600de54fb69048ecf605",
       "width": 612,
@@ -485,7 +494,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-058.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-058.png",
       "bytes": 83042,
       "sha256": "b55a43c8231ed5f5ffa90d8f9a22d92a8a5fe78fd274896e4904ed66e06808ac",
       "width": 612,
@@ -493,7 +502,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-059.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-059.png",
       "bytes": 29310,
       "sha256": "6002bb4f1352d2cef6851ad64bbd846fb3cb72d4751faadb3976953ae3e0691f",
       "width": 612,
@@ -501,7 +510,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-060.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-060.png",
       "bytes": 90287,
       "sha256": "ac99aa462c26f46694851a72e9ec41bae4e08be93c5eb90393c5521678a6b5f3",
       "width": 612,
@@ -509,7 +518,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-061.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-061.png",
       "bytes": 122847,
       "sha256": "07c34b6d2324c64ff3d9804f08317add363927e94efe40d71054264c34340bdb",
       "width": 612,
@@ -517,7 +526,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-062.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-062.png",
       "bytes": 99768,
       "sha256": "911d3b08f9d6210cedab8ce9b2968056fe6840779ced772a43ea2d5fb5aa2505",
       "width": 612,
@@ -525,7 +534,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-063.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-063.png",
       "bytes": 102411,
       "sha256": "4fa24c374519a029c1f30f59d0db61950e023793d87ebfecbc39220cd4e19b74",
       "width": 612,
@@ -533,7 +542,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-064.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-064.png",
       "bytes": 100139,
       "sha256": "195d6c01ad82abf31b2ddbe41d758033bd2224d01eaad6e3474f4aeed5c5b606",
       "width": 612,
@@ -541,7 +550,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-065.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-065.png",
       "bytes": 129154,
       "sha256": "fe2f3fd06d6b0637d943348c4e816ea98129636264f0e6989d169283b35009db",
       "width": 612,
@@ -549,7 +558,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-066.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-066.png",
       "bytes": 85991,
       "sha256": "7b356092c7d51d565f506ba90f200cd02eace1d5cb859ec69ea6ae06117c7cb2",
       "width": 612,
@@ -557,7 +566,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-067.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-067.png",
       "bytes": 66711,
       "sha256": "517dd4da0e5b4bfd78941e23c01da7aab25525f2021000d2fee76be530a35c5b",
       "width": 612,
@@ -565,7 +574,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-068.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-068.png",
       "bytes": 59994,
       "sha256": "02bca03e5a0b4f10711cda1affb7a88083c06808eb67273ecf226ed70378d881",
       "width": 612,
@@ -573,7 +582,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-069.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-069.png",
       "bytes": 98639,
       "sha256": "7163dcce8345060ff673b1091ac1407a878262c0facfe7798ae2a44e40dbd3f0",
       "width": 612,
@@ -581,7 +590,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-070.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-070.png",
       "bytes": 117065,
       "sha256": "d4aa9485123bec05020ad8e81813346922e61c543d6b4b1280cc1a10bbd055ad",
       "width": 612,
@@ -589,7 +598,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-071.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-071.png",
       "bytes": 62946,
       "sha256": "fbc52c02dad86ab9e5b9b409cb5cb2a9dc7b61550ad621c635334e4a438f7978",
       "width": 612,
@@ -597,7 +606,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-072.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-072.png",
       "bytes": 99232,
       "sha256": "9671380935df2e444388dabea38c4784cd3b7417750fa3f5aaf04ff440a524fb",
       "width": 612,
@@ -605,7 +614,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-073.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-073.png",
       "bytes": 135363,
       "sha256": "afdacaeaad2b703fc3e67a66c3d062a01aceb2e59d322ba30b3fb6b8715c4ee5",
       "width": 612,
@@ -613,7 +622,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-074.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-074.png",
       "bytes": 99262,
       "sha256": "80222227784848f15a9c54ce700dbce13304d6f2c224198f0e77b10f3a88ecf3",
       "width": 612,
@@ -621,7 +630,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-075.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-075.png",
       "bytes": 107421,
       "sha256": "1b1b96de4a3fe103e65573343214029f42b849c8581d5d1acebe6a7ae2ad36af",
       "width": 612,
@@ -629,15 +638,15 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-076.png",
-      "bytes": 133187,
-      "sha256": "df19c5f7af91c1f3d6a0f71c139235373c3d8fc0258b3ffcc90c77399061bfce",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-076.png",
+      "bytes": 132229,
+      "sha256": "ac9774e1f6c9e5600a132d9dca477ac4279150e9e54afbc990bc15696f82a083",
       "width": 612,
       "height": 792,
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-077.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-077.png",
       "bytes": 103313,
       "sha256": "d69a76e86ef6dbaba2019b2f18c1b60fb8c25b25083d7face4a7d6f5e049fe58",
       "width": 612,
@@ -645,7 +654,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-078.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-078.png",
       "bytes": 100261,
       "sha256": "f83455ab8684224fc5de753f280ffbddf3315b91d745412a76bdbd494e57911b",
       "width": 612,
@@ -653,7 +662,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-079.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-079.png",
       "bytes": 70958,
       "sha256": "4413e0cd8f98e66de57e66169288dd42fe09655b31b99daeffefe2057b4ee57c",
       "width": 612,
@@ -661,7 +670,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-080.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-080.png",
       "bytes": 29842,
       "sha256": "a13f6e458f11e4933179a9670ffe8db6a2f6232ac12152e90b72ce122fa498fc",
       "width": 612,
@@ -669,7 +678,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-081.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-081.png",
       "bytes": 26415,
       "sha256": "8b5afb782f3a4319fc817fc683610fdf1a6f81a9763e42ab8c52dba6f18188f3",
       "width": 612,
@@ -677,7 +686,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-082.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-082.png",
       "bytes": 49782,
       "sha256": "eacb805cba6e4d91b7b9a80d6f3a452ba8d18560d5a8b8b139098d03d75cd091",
       "width": 612,
@@ -685,7 +694,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-083.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-083.png",
       "bytes": 93736,
       "sha256": "764403cdbf5511a1f85265467e33c8662f66d2253ee590a120e89e0f3dd6f49f",
       "width": 612,
@@ -693,7 +702,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-084.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-084.png",
       "bytes": 91819,
       "sha256": "c50c48ae76092be3c8f2c1f32dda09eb8674cf403e2900c714f4491cfaefd95c",
       "width": 612,
@@ -701,7 +710,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-085.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-085.png",
       "bytes": 106320,
       "sha256": "d430ccff52d4101204ccefe7ddfe8ff26ee28783662ced5a6a779d6777effa8a",
       "width": 612,
@@ -709,7 +718,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-086.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-086.png",
       "bytes": 115929,
       "sha256": "e14899149b723045a7918c70eb7e9a0751e1166eb030192073d44693905f90ae",
       "width": 612,
@@ -717,7 +726,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-087.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-087.png",
       "bytes": 19898,
       "sha256": "2dab6b2a8104a3672e09547eec753a9ade44c2458bbe93c4465b2fec936fe52e",
       "width": 612,
@@ -725,7 +734,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-088.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-088.png",
       "bytes": 112200,
       "sha256": "b6fa0fa495dfc104c1d64827c0c30bda5089ef4aa39f197dce1806d8f34bd613",
       "width": 612,
@@ -733,7 +742,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-089.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-089.png",
       "bytes": 103482,
       "sha256": "2249eff76afcc04d952679748a332a9f4bb388836f209aca3121b65e3177a629",
       "width": 612,
@@ -741,7 +750,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-090.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-090.png",
       "bytes": 82657,
       "sha256": "4ebb0aca06d815be33874d7ad1266250cd6878cb6304abfea4a960ce9565e0f2",
       "width": 612,
@@ -749,7 +758,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-091.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-091.png",
       "bytes": 92289,
       "sha256": "f338ef674cba954f8126794a47b061d8f4828e700a6674e317178566e75cabf8",
       "width": 612,
@@ -757,7 +766,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-092.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-092.png",
       "bytes": 110434,
       "sha256": "7bd9b866751d035c307f63c32a700d180d824f961b01b417edf5c6d5f123bae8",
       "width": 612,
@@ -765,7 +774,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-093.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-093.png",
       "bytes": 99611,
       "sha256": "14293ad4f1eb94057de5a01a5b4dcde60d9c59c6573947f1ec3e70e6e8115122",
       "width": 612,
@@ -773,7 +782,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-094.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-094.png",
       "bytes": 92026,
       "sha256": "b990d52e38d516d7597a406240dda45a4e1715fd3debf57e3428853cb2c2f6b4",
       "width": 612,
@@ -781,7 +790,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-095.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-095.png",
       "bytes": 26442,
       "sha256": "cfe8f1a62c6d024c72ee24b8f23f2b3f63ac04852bfbdc889852773d158e2a3e",
       "width": 612,
@@ -789,7 +798,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-096.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-096.png",
       "bytes": 117864,
       "sha256": "edd9fd9b72cb1863a1ef66a11f1013348ec060237c9a89e4963b1a42e964091a",
       "width": 612,
@@ -797,7 +806,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-097.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-097.png",
       "bytes": 107461,
       "sha256": "54d1e184f25fcc2449741321e4cc84106b72bb062220d4327e638b1f57dc7f53",
       "width": 612,
@@ -805,7 +814,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-098.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-098.png",
       "bytes": 79884,
       "sha256": "aadeab7669cfbb044b8a0ab2cd944264f1eb39a86b5fa23fb74eb001a5685f0f",
       "width": 612,
@@ -813,7 +822,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-099.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-099.png",
       "bytes": 88706,
       "sha256": "1a79d0e63b2a5dedfa68c88b63777d66a3c8a14ec340551b846ff9ed7f23782e",
       "width": 612,
@@ -821,7 +830,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-100.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-100.png",
       "bytes": 103408,
       "sha256": "b42dbf26b1065c923c27a55b6ed99cfb633da2d6d22ab51599ca38452e27bd82",
       "width": 612,
@@ -829,7 +838,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-101.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-101.png",
       "bytes": 111572,
       "sha256": "3e2f7bc21b0bf87661320b202d7872376c626392d60e196c9908430f1a4a1b68",
       "width": 612,
@@ -837,7 +846,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-102.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-102.png",
       "bytes": 120270,
       "sha256": "bae8f59565f23dfd4c2b4f454196bb7f54073ab5517a4a09e4792c1caa39357d",
       "width": 612,
@@ -845,7 +854,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-103.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-103.png",
       "bytes": 109204,
       "sha256": "c3017ec13859dcbc2e97c0b696c0ab49c08ac00cd4526492031c39202413de0b",
       "width": 612,
@@ -853,7 +862,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-104.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-104.png",
       "bytes": 111490,
       "sha256": "ac8a16285dbacbe537daf2b39defee5294e4e86572eb9758f2714f92ec23ac9e",
       "width": 612,
@@ -861,7 +870,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-105.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-105.png",
       "bytes": 105681,
       "sha256": "2591c046164f98f9d6b3f1dcc12f180a0eff9c669be52b015729f5437b0532a7",
       "width": 612,
@@ -869,7 +878,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-106.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-106.png",
       "bytes": 90011,
       "sha256": "0e9f4f191bf5db9a5c1cce56b840d71c7c7206e5c286cc55f277cb427f2ba95d",
       "width": 612,
@@ -877,7 +886,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-107.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-107.png",
       "bytes": 89867,
       "sha256": "f04d8683be77d7c7d8c2ed2aeffedbd5c1438879bc51ee76633d444fc1ff7c32",
       "width": 612,
@@ -885,7 +894,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-108.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-108.png",
       "bytes": 76204,
       "sha256": "b01d96a81751747edbe3fd44f79475245d0502396b06e8d0b912103ea4ed8e03",
       "width": 612,
@@ -893,7 +902,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-109.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-109.png",
       "bytes": 104806,
       "sha256": "1d5e55a53d6edb28e90142e51ec607a01b6f4b44deb862e3f883a82bb75de8c4",
       "width": 612,
@@ -901,7 +910,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-110.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-110.png",
       "bytes": 116095,
       "sha256": "b50b04079020a372d17a45ea28eaf826f10c3519d4d4d44da37f4a3e77b4dd96",
       "width": 612,
@@ -909,7 +918,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-111.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-111.png",
       "bytes": 95843,
       "sha256": "a96be0de50e78d6f8bd100b49cbb74f60c67cc9a2d6354d8dbe941fc0c6e78b7",
       "width": 612,
@@ -917,7 +926,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-112.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-112.png",
       "bytes": 54264,
       "sha256": "76937ab641a43127d3b7819784b48a079c1954e0be1f44aac60cc8789e2d6fac",
       "width": 612,
@@ -925,7 +934,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-113.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-113.png",
       "bytes": 92323,
       "sha256": "f7e0c54ca4cb201dfc190513c6afd0ddf4827290cb3d456e7c2a797e6032bb23",
       "width": 612,
@@ -933,7 +942,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-114.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-114.png",
       "bytes": 96277,
       "sha256": "6a8d6675254aaf2bc2ad64086fd9f9c6ad24a1afaa46ab44501051fd54fa93be",
       "width": 612,
@@ -941,7 +950,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-115.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-115.png",
       "bytes": 128567,
       "sha256": "74192747bb201d2d6b94caaafd8a153d9dad15bd2a0d68b372e4b01c0f0deba2",
       "width": 612,
@@ -949,7 +958,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-116.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-116.png",
       "bytes": 91786,
       "sha256": "92e85f3b4f761cfd95186a7f306f24e61c6c07022bc8688edad01626b81ff19c",
       "width": 612,
@@ -957,7 +966,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-117.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-117.png",
       "bytes": 122693,
       "sha256": "7c9c2c9f4e452002941849b9645eebb9b624db6c5f3fdefdebd1fbc4a75332ef",
       "width": 612,
@@ -965,7 +974,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-118.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-118.png",
       "bytes": 117844,
       "sha256": "6988b7588a5b5cffed11cbc2af9ff89699cd33f6ff993d727e23236dd22d7663",
       "width": 612,
@@ -973,7 +982,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-119.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-119.png",
       "bytes": 92006,
       "sha256": "f10a056268a414c9ed77c2d3b82f426c3adb6b82a8be98b3a3e4c661db5b9a25",
       "width": 612,
@@ -981,7 +990,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-120.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-120.png",
       "bytes": 74021,
       "sha256": "9337f2f3a25613c03dd3bc5c662e08bb10a29cb73908122d93ed8a72ebf1301a",
       "width": 612,
@@ -989,7 +998,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-121.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-121.png",
       "bytes": 66351,
       "sha256": "bad0b0266966a1673a9714bdd4230dd8f18b76cf44af7276aa106e5ee5083602",
       "width": 612,
@@ -997,7 +1006,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-122.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-122.png",
       "bytes": 89158,
       "sha256": "76b1f3e5f05a1f427b87979b6c3ed56d53e011ee986fdb0b9789c9d209f636f6",
       "width": 612,
@@ -1005,7 +1014,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-123.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-123.png",
       "bytes": 100007,
       "sha256": "e34be7c271ad89f1f47db6e6b692faa998dd6739fa7d0f760c639ef5e4075ac4",
       "width": 612,
@@ -1013,7 +1022,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-124.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-124.png",
       "bytes": 108563,
       "sha256": "3a8329baf2aad907e46adaeeb36e1a32613f4d73e70850bdf9e6486ff743eb89",
       "width": 612,
@@ -1021,7 +1030,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-125.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-125.png",
       "bytes": 100456,
       "sha256": "4b3a7dcb0261106ada21935b4685a13afa8b5595cb06e5afd5212d0ca7e0ff68",
       "width": 612,
@@ -1029,7 +1038,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-126.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-126.png",
       "bytes": 106213,
       "sha256": "d57f25d3151f17fd8342267bb2190743300928d35e04f805c3c64f75cb9d2dee",
       "width": 612,
@@ -1037,7 +1046,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-127.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-127.png",
       "bytes": 100957,
       "sha256": "00a339e0a460e22a59b246fd1e600ec941cf9bab87f5f982eff894ad876a9cec",
       "width": 612,
@@ -1045,7 +1054,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-128.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-128.png",
       "bytes": 88293,
       "sha256": "d27a4d8f1b4d68d82a7715f8baa06e95b9cbd49af7e0d2f2d518fd95584db431",
       "width": 612,
@@ -1053,7 +1062,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-129.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-129.png",
       "bytes": 78544,
       "sha256": "86ff04f49f68ee566f47acd01d9531aadbbab5f086f5b92422ec224a42ad88c8",
       "width": 612,
@@ -1061,7 +1070,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-130.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-130.png",
       "bytes": 75501,
       "sha256": "ba6650f4bb4cbc21ea79957189822c800c781501a9c0420c9cad9ab989d43d24",
       "width": 612,
@@ -1069,7 +1078,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-131.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-131.png",
       "bytes": 55075,
       "sha256": "97669c383c8fe2b2e6f35f9b5d99805771427b181240ec9bd03125a2468b5da1",
       "width": 612,
@@ -1077,7 +1086,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-132.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-132.png",
       "bytes": 96452,
       "sha256": "6157445c8e042990553f563e80793bb78be9dde30d129da5afafae47512dd380",
       "width": 612,
@@ -1085,7 +1094,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-133.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-133.png",
       "bytes": 76242,
       "sha256": "7ddcef607b8a87c17cfdbe0a6a0da64960450545cbed38e17613288186beae87",
       "width": 612,
@@ -1093,7 +1102,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-134.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-134.png",
       "bytes": 26376,
       "sha256": "0fea05de9e2265d15b7ca902bf242ca235bf91555fb7ce0db0d064445d3081bd",
       "width": 612,
@@ -1101,7 +1110,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-135.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-135.png",
       "bytes": 35876,
       "sha256": "93bc061e27fb33b3057cd2be618e10c446aca30335164d360cefc425c7012888",
       "width": 612,
@@ -1109,7 +1118,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-136.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-136.png",
       "bytes": 90540,
       "sha256": "8266306bc5f6d2f6aa6bc3fb1bfd474c3b3efb1fdc47a5e3a2a3fd3811d52e28",
       "width": 612,
@@ -1117,7 +1126,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-137.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-137.png",
       "bytes": 93239,
       "sha256": "2bb915f6108285d59e253ec8923631e96f88dd3084d88b2e24a5797d8ccc94be",
       "width": 612,
@@ -1125,7 +1134,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-138.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-138.png",
       "bytes": 76219,
       "sha256": "420ab7172299389ca9f438a02784f01a3c056710a8249fb7dbb67146ce51c886",
       "width": 612,
@@ -1133,7 +1142,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-139.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-139.png",
       "bytes": 114095,
       "sha256": "96a7c73fc792c20d74de6ee12ab3f79d8adb337126d8faf3844ce3beeb7c8f06",
       "width": 612,
@@ -1141,15 +1150,15 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-140.png",
-      "bytes": 93179,
-      "sha256": "a8c2ad908347bfdbc1b3a6972b53be4d81461174cf5b0f546ec3a40b8e8f930f",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-140.png",
+      "bytes": 92476,
+      "sha256": "f459ddc8fe0abfd5b2ef51f1915033b26844ff63dee25d84668aadd4679c76c9",
       "width": 612,
       "height": 792,
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-141.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-141.png",
       "bytes": 92800,
       "sha256": "d112a5836d66af485eec67eecc2aa945ce87638d4ef20efcc37332322bb88105",
       "width": 612,
@@ -1157,7 +1166,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-142.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-142.png",
       "bytes": 97152,
       "sha256": "b159cd6af0507c4a88e587722b6d3f1481382ab5bfc88d3d1229474f3b72f2d9",
       "width": 612,
@@ -1165,7 +1174,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-143.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-143.png",
       "bytes": 84539,
       "sha256": "f76fa2ec1d864c11e22ce1635a3ef4168e13f3daebc2528db6f77d45b8dccb3f",
       "width": 612,
@@ -1173,7 +1182,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-144.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-144.png",
       "bytes": 83460,
       "sha256": "4ebf7e6193f041722f55eafe9f29181ba3ba9547dce4f11b8bdfa798af95e4aa",
       "width": 612,
@@ -1181,7 +1190,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-145.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-145.png",
       "bytes": 133946,
       "sha256": "203276aeaf7896c9be3145cf487090c57f6c81c8aa727185e978eeded710ae20",
       "width": 612,
@@ -1189,7 +1198,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-146.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-146.png",
       "bytes": 99137,
       "sha256": "54145a411cfe861a5c21adda53fa5aff3487a45c517cefc40ba15cf8ef224bbc",
       "width": 612,
@@ -1197,7 +1206,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-147.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-147.png",
       "bytes": 111683,
       "sha256": "ca3b9bc5165d45a61c789de3dd0af038f53218809b1993131b9c5e6f82ea8e15",
       "width": 612,
@@ -1205,7 +1214,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-148.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-148.png",
       "bytes": 100652,
       "sha256": "460a9a7cd63f07547a1401a7a828299be22848161872119990e8739e57f069ca",
       "width": 612,
@@ -1213,7 +1222,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-149.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-149.png",
       "bytes": 93463,
       "sha256": "bfc152541b5d35aea238c41c5f32e3f327a39e5b13dfdaf82a15a9632ba168fb",
       "width": 612,
@@ -1221,7 +1230,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-150.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-150.png",
       "bytes": 57804,
       "sha256": "277eb4593311b6bd04effcc8da7c60278d4a17831e26de782d1d4341ec3edf58",
       "width": 612,
@@ -1229,7 +1238,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-151.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-151.png",
       "bytes": 110682,
       "sha256": "e3a5ea31c7b314e570aeab8bdd323789dc29b1ee6bdf08619409ceb780313818",
       "width": 612,
@@ -1237,7 +1246,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-152.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-152.png",
       "bytes": 111909,
       "sha256": "653eb11861cabeb21c6d9393cbfa353b966954de5f6447e9bc2afa1e2e39af5c",
       "width": 612,
@@ -1245,7 +1254,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-153.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-153.png",
       "bytes": 81138,
       "sha256": "9f2ef92f794f8f12c48e4f946f4399a40b6f161b7f06bc9ca4b6f7c459ba3578",
       "width": 612,
@@ -1253,7 +1262,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-154.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-154.png",
       "bytes": 113266,
       "sha256": "4cc5a97ba0f37ac3fb9063599395909f679317b7954343a9fdf221b151f636e8",
       "width": 612,
@@ -1261,7 +1270,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-155.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-155.png",
       "bytes": 115469,
       "sha256": "8250e767c801ba3988296857b0c59608ffeb631ae9ef495f5e00514d913abd6e",
       "width": 612,
@@ -1269,7 +1278,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-156.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-156.png",
       "bytes": 117767,
       "sha256": "dfda167208c5cf04b144bd37029acb604f37e57183de737214a5a1e1753405bd",
       "width": 612,
@@ -1277,7 +1286,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-157.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-157.png",
       "bytes": 62182,
       "sha256": "21a3397b9cf9a3d291356363c4582ff464f56fc66f2c5a7fe106a6144fb606f3",
       "width": 612,
@@ -1285,7 +1294,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-158.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-158.png",
       "bytes": 78039,
       "sha256": "b845ea3bfe9a2ad94b1d961b0073efcc297a528b206984836f57c4e7496c5913",
       "width": 612,
@@ -1293,7 +1302,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-159.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-159.png",
       "bytes": 136169,
       "sha256": "76eab2794579fb6f087b241a5d9c0abe2c8b87d0cd81afc9ec8ce4bced6934d5",
       "width": 612,
@@ -1301,7 +1310,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-160.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-160.png",
       "bytes": 69553,
       "sha256": "790f7a164e6b6c8aa274f6e054bfa8b48c8279766678d50cbb38d20e4f40ba26",
       "width": 612,
@@ -1309,7 +1318,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-161.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-161.png",
       "bytes": 80000,
       "sha256": "8eec53a10ceb2b63e8d612d2a79a68c425be2c35c3a62b17a170eaf3a3b252d5",
       "width": 612,
@@ -1317,7 +1326,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-162.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-162.png",
       "bytes": 117763,
       "sha256": "68824ee3693be10b1929f0dbb9b2d8ed918039792b4bf0e5865b85b5d62311a4",
       "width": 612,
@@ -1325,7 +1334,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-163.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-163.png",
       "bytes": 81835,
       "sha256": "de951bb7e8daa8333aa49f3ca3d53c8819eb3b2868fb253fc5579fce8f0475a9",
       "width": 612,
@@ -1333,7 +1342,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-164.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-164.png",
       "bytes": 101016,
       "sha256": "3be3b9052db31c217acff3a53a8c0e23d64d2cebca286b2b7472b1d21d951889",
       "width": 612,
@@ -1341,7 +1350,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-165.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-165.png",
       "bytes": 56307,
       "sha256": "8b8842e748c403e4e296a264dd65babed3bcb5edcf638abd167d4345058275d8",
       "width": 612,
@@ -1349,7 +1358,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-166.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-166.png",
       "bytes": 89054,
       "sha256": "65bc649cefa85888566faa84025dd18a30abe72ead132aa24d22c2a19d6437af",
       "width": 612,
@@ -1357,7 +1366,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-167.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-167.png",
       "bytes": 93218,
       "sha256": "ff76cb3563df9beb70c5010697e775fe4857273ab90a306e4a8d5661a440bfce",
       "width": 612,
@@ -1365,7 +1374,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-168.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-168.png",
       "bytes": 61056,
       "sha256": "d1758c176482574b5e75b263b756eb4ded48b0055ca8c89673545c41f478d8d8",
       "width": 612,
@@ -1373,7 +1382,7 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-169.png",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-169.png",
       "bytes": 91358,
       "sha256": "74095378b900b2a4f07abcadbc3745265c9a5792fbd6276f5f78fba92d387549",
       "width": 612,
@@ -1381,57 +1390,169 @@
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-170.png",
-      "bytes": 130107,
-      "sha256": "47ad5f92f66ed8164f6c4f5e6c4cc3a744199e3fc72798bdc4824d6a6792ed3c",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-170.png",
+      "bytes": 16972,
+      "sha256": "52adec57dabb2d75a8019a25eb16d9a9a804b2702bf3775a441b3681ad7e832b",
       "width": 612,
       "height": 792,
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-171.png",
-      "bytes": 155182,
-      "sha256": "ac92da7e56f121f37192c631c21faeeba26748d171f6968aa679e6ef08bbc4d0",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-171.png",
+      "bytes": 69883,
+      "sha256": "365059005c4e117e11e04f7a018d5634ab8b46c6e02428606e9d34ab8d9b3eec",
       "width": 612,
       "height": 792,
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-172.png",
-      "bytes": 157763,
-      "sha256": "ba1c7262df65306b31f9c30fed498d45cec7756d99989ece341dd910e2ff38ab",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-172.png",
+      "bytes": 149350,
+      "sha256": "8fdb5b3f54c3570dbe5deffbb01b6e3680dd841a4da8bdc2d81e27f0a38343c3",
       "width": 612,
       "height": 792,
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-173.png",
-      "bytes": 156544,
-      "sha256": "f1a68f6c83e3614497f35f49feefd58c51649a2f29674c063738ec8b1de57af1",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-173.png",
+      "bytes": 144143,
+      "sha256": "fb24373c9b3ab9f06193dc63e7555a56975e16919c758d7cb5aab1adb64dd5c9",
       "width": 612,
       "height": 792,
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-174.png",
-      "bytes": 149442,
-      "sha256": "0ca07b33d863bf58fdaada4eca4d1939861f3747b84f8c2377e409b6fc79c33b",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-174.png",
+      "bytes": 79764,
+      "sha256": "1773cbc16ad8380f03c32b1072f990839059ee41ea5b5fbb45a89a056cc75f7a",
       "width": 612,
       "height": 792,
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-175.png",
-      "bytes": 169436,
-      "sha256": "d0cdd71b0211818fae113a7903d279d0387cf0ba78bfdf0375e1790248d97de5",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-175.png",
+      "bytes": 103104,
+      "sha256": "d31a70f2fceea1f3cb13298e9672e62b01ac794e87b097027d2e28b59cd3fe61",
       "width": 612,
       "height": 792,
       "mode": "RGB"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-176.png",
-      "bytes": 48864,
-      "sha256": "5512843b9e4ae311f5d54fefa89acb5ba9be985c1c5656e8086c051564ed7f10",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-176.png",
+      "bytes": 46989,
+      "sha256": "bff45b7f3155179215a46479a7a88af9c57ba48ae799c09a2e6aa7b8e3dac3cf",
+      "width": 612,
+      "height": 792,
+      "mode": "RGB"
+    },
+    {
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-177.png",
+      "bytes": 98285,
+      "sha256": "da9a109ab291cc294083f321ad817e13bb68e4b77bffe0cef13ec0ab069f1585",
+      "width": 612,
+      "height": 792,
+      "mode": "RGB"
+    },
+    {
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-178.png",
+      "bytes": 111581,
+      "sha256": "4432ce3ba4697199793f4f8d60d7de10f4775102fd46955241212c6b0a43bf47",
+      "width": 612,
+      "height": 792,
+      "mode": "RGB"
+    },
+    {
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-179.png",
+      "bytes": 26021,
+      "sha256": "77e9604dbf052195019245233464a23ee875349b2433ab59ad447380583b248a",
+      "width": 612,
+      "height": 792,
+      "mode": "RGB"
+    },
+    {
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-180.png",
+      "bytes": 20887,
+      "sha256": "ec741f440dc5e7a3548710503a8a2937474e72bda9b5eef0e18152946653b2ad",
+      "width": 612,
+      "height": 792,
+      "mode": "RGB"
+    },
+    {
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-181.png",
+      "bytes": 99823,
+      "sha256": "e875f61df11da9af4ce4728950a74909f9d811b3149ba2e606fae8f37e621237",
+      "width": 612,
+      "height": 792,
+      "mode": "RGB"
+    },
+    {
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-182.png",
+      "bytes": 126646,
+      "sha256": "7e20f529716e3a479de0d2fd620f0f90910678d48b7c3bf7b4d65c456fe01c23",
+      "width": 612,
+      "height": 792,
+      "mode": "RGB"
+    },
+    {
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-183.png",
+      "bytes": 73174,
+      "sha256": "27205866fc42396739b5de7a6b1b05b368a429baf77a54c8f695cc29cabb05db",
+      "width": 612,
+      "height": 792,
+      "mode": "RGB"
+    },
+    {
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-184.png",
+      "bytes": 130117,
+      "sha256": "6dd00e0c3af77c3b381c0405986fb7c5f1577c8a5134c17696ed7cd7122bcf4a",
+      "width": 612,
+      "height": 792,
+      "mode": "RGB"
+    },
+    {
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-185.png",
+      "bytes": 155305,
+      "sha256": "8b478b451af00a08058fc811e825c330a8d9556834e55497f4dc1ed8c11f0688",
+      "width": 612,
+      "height": 792,
+      "mode": "RGB"
+    },
+    {
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-186.png",
+      "bytes": 157789,
+      "sha256": "4a81365d5b61ca1d4096528c6c2c46e5aa3f52961e5809aad8529bc10a6bef61",
+      "width": 612,
+      "height": 792,
+      "mode": "RGB"
+    },
+    {
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-187.png",
+      "bytes": 156558,
+      "sha256": "3e0fef873d397c08b062df9968397f2d48c5df351792e2eb3c88c31ddd5fa7c3",
+      "width": 612,
+      "height": 792,
+      "mode": "RGB"
+    },
+    {
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-188.png",
+      "bytes": 149419,
+      "sha256": "463753ff3c78de2df261f92026d0217e43d85562cbc8d4896e41c5fbf9765634",
+      "width": 612,
+      "height": 792,
+      "mode": "RGB"
+    },
+    {
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-189.png",
+      "bytes": 169439,
+      "sha256": "6b7d6ef0be4797784d71d0e224abca9636973e3154a994e2c3acc3eb4c235ad1",
+      "width": 612,
+      "height": 792,
+      "mode": "RGB"
+    },
+    {
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-190.png",
+      "bytes": 123298,
+      "sha256": "b60a898e4f64f8604da45f021d52297eabd5435550b1ee07c8bbbad431c21020",
       "width": 612,
       "height": 792,
       "mode": "RGB"
@@ -1439,11 +1560,11 @@
   ],
   "contact_sheets": [
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/contact-01.png",
-      "bytes": 1624280,
-      "sha256": "546eb933694f1f54d39ce2ef808df320f0398511c6da87cbfc6e1a07add0cf0b",
-      "width": 980,
-      "height": 1148,
+      "path": "tmp/pdfs/b019-boundary-clean-visual/contact-01.png",
+      "bytes": 3557082,
+      "sha256": "f61e6ebe1126e8772983bc15f8570380de0ead2e75ef9e5d895a38e8536859b3",
+      "width": 1264,
+      "height": 2270,
       "mode": "RGBA",
       "page_range": [
         1,
@@ -1451,11 +1572,11 @@
       ]
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/contact-02.png",
-      "bytes": 2064319,
-      "sha256": "fcf147fc3bc702db6ec84e118d760145ffa81815fac162ffefca3ad76311770e",
-      "width": 980,
-      "height": 1148,
+      "path": "tmp/pdfs/b019-boundary-clean-visual/contact-02.png",
+      "bytes": 4541376,
+      "sha256": "991439bdcf5450c0d3570defc3bb9b223fd86fff09397c235deb1572f9318aef",
+      "width": 1264,
+      "height": 2270,
       "mode": "RGBA",
       "page_range": [
         21,
@@ -1463,11 +1584,11 @@
       ]
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/contact-03.png",
-      "bytes": 1766922,
-      "sha256": "490538c6c326b4f8d6020103bcfbec8d4ec9344dff0893593c021a3a9c29fec4",
-      "width": 980,
-      "height": 1148,
+      "path": "tmp/pdfs/b019-boundary-clean-visual/contact-03.png",
+      "bytes": 3787359,
+      "sha256": "22a6ea4e9d36cef27ce8ea376d3a7aab12e2d58c924aa019a1abd3113116ea1c",
+      "width": 1264,
+      "height": 2270,
       "mode": "RGBA",
       "page_range": [
         41,
@@ -1475,11 +1596,11 @@
       ]
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/contact-04.png",
-      "bytes": 1756860,
-      "sha256": "142c7cccf874ba7bb4f8f138ba22c0281021b8834ddbcbdea5f3b48e159cd7cd",
-      "width": 980,
-      "height": 1148,
+      "path": "tmp/pdfs/b019-boundary-clean-visual/contact-04.png",
+      "bytes": 3783380,
+      "sha256": "cd02f9d59770c073dde348eee2411fed7d1289805caa803cb7c16847ecc6ec6e",
+      "width": 1264,
+      "height": 2270,
       "mode": "RGBA",
       "page_range": [
         61,
@@ -1487,11 +1608,11 @@
       ]
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/contact-05.png",
-      "bytes": 1569018,
-      "sha256": "7fec5f07ecd8fe1c0ae9f01a57e86dda6a4a2015a673f71615efaffb2eeff0da",
-      "width": 980,
-      "height": 1148,
+      "path": "tmp/pdfs/b019-boundary-clean-visual/contact-05.png",
+      "bytes": 3335256,
+      "sha256": "37be148968de44adc076f534f826b2896b059b312bf61dfdad8153a17c69873a",
+      "width": 1264,
+      "height": 2270,
       "mode": "RGBA",
       "page_range": [
         81,
@@ -1499,11 +1620,11 @@
       ]
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/contact-06.png",
-      "bytes": 1780553,
-      "sha256": "d2c90c089d7a3d202cf385541bf53b67ffa5a970b4832a9aceba641d4eb5db1a",
-      "width": 980,
-      "height": 1148,
+      "path": "tmp/pdfs/b019-boundary-clean-visual/contact-06.png",
+      "bytes": 3837046,
+      "sha256": "741ffc9146dfd21e8b9e239c16e16292dc66f04bf5092c46991ea0f11bbaea29",
+      "width": 1264,
+      "height": 2270,
       "mode": "RGBA",
       "page_range": [
         101,
@@ -1511,11 +1632,11 @@
       ]
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/contact-07.png",
-      "bytes": 1581901,
-      "sha256": "118e1f771a0f75ce2290faaca085026fbb037cafa16eeed31c408ee4637f0cbf",
-      "width": 980,
-      "height": 1148,
+      "path": "tmp/pdfs/b019-boundary-clean-visual/contact-07.png",
+      "bytes": 3339330,
+      "sha256": "b8c2a93b170453cd4841fcdfaad73209243c5eefdd18707edf2e091992401d30",
+      "width": 1264,
+      "height": 2270,
       "mode": "RGBA",
       "page_range": [
         121,
@@ -1523,11 +1644,11 @@
       ]
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/contact-08.png",
-      "bytes": 1764694,
-      "sha256": "26fe7f595685175d0684728cc7116deea66cfe6d29c30ba500973796972065bc",
-      "width": 980,
-      "height": 1148,
+      "path": "tmp/pdfs/b019-boundary-clean-visual/contact-08.png",
+      "bytes": 3787331,
+      "sha256": "cb09dcc458e6ff328c164f1c0d81c01eed53e4f23408c8054c78a1b70f932ca8",
+      "width": 1264,
+      "height": 2270,
       "mode": "RGBA",
       "page_range": [
         141,
@@ -1535,138 +1656,150 @@
       ]
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/contact-09.png",
-      "bytes": 1522872,
-      "sha256": "2460160a75ae996e651294fcda84856fd7def8691653f2abb7da5d896ba0eebf",
-      "width": 980,
-      "height": 1148,
+      "path": "tmp/pdfs/b019-boundary-clean-visual/contact-09.png",
+      "bytes": 3352999,
+      "sha256": "0c76dfa9bac58d6f17cece080986cbf7855cd733ad0a297ef61055c6983408f1",
+      "width": 1264,
+      "height": 2270,
       "mode": "RGBA",
       "page_range": [
         161,
-        176
+        180
+      ]
+    },
+    {
+      "path": "tmp/pdfs/b019-boundary-clean-visual/contact-10.png",
+      "bytes": 2614056,
+      "sha256": "f8abecf44b1a15d60bd67872cecfa3dcb3da40233dd30f85c3c3339f641f8177",
+      "width": 1264,
+      "height": 1494,
+      "mode": "RGBA",
+      "page_range": [
+        181,
+        190
       ]
     }
   ],
   "key_page_checks": [
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-003.png",
-      "bytes": 36923,
-      "sha256": "35d9c7a9bec64fcf19b1ef79f51403d6f68b6fd3418e737f52393696d019e132",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-003.png",
+      "bytes": 40936,
+      "sha256": "03ec27e4464eb163ed5e6c7bbadabaaa6ae386764c5003bf42c575427d3b9ef5",
       "width": 612,
       "height": 792,
       "mode": "RGB",
       "page": 3,
-      "purpose": "localized boundary-clean table of contents",
+      "purpose": "localized table of contents through Chapter 5 Section 5.1",
       "result": "PASS_NO_VISUAL_DEFECT"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-006.png",
-      "bytes": 20193,
-      "sha256": "e52c32aa729bc9e543c38d18206afb523e761340db7c34497ac2f08b8522ed72",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-006.png",
+      "bytes": 33589,
+      "sha256": "03f16be1a97b31bfa12375bc7cf42bfca1851d3651011b8e7fab6008c0be29b2",
       "width": 612,
       "height": 792,
       "mode": "RGB",
       "page": 6,
-      "purpose": "explicit partial-edition scope notice",
+      "purpose": "explicit partial-edition scope and provenance notice",
       "result": "PASS_NO_VISUAL_DEFECT"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-094.png",
-      "bytes": 92026,
-      "sha256": "b990d52e38d516d7597a406240dda45a4e1715fd3debf57e3428853cb2c2f6b4",
-      "width": 612,
-      "height": 792,
-      "mode": "RGB",
-      "page": 94,
-      "purpose": "localized handedness and sex terminology",
-      "result": "PASS_NO_VISUAL_DEFECT"
-    },
-    {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-095.png",
-      "bytes": 26442,
-      "sha256": "cfe8f1a62c6d024c72ee24b8f23f2b3f63ac04852bfbdc889852773d158e2a3e",
-      "width": 612,
-      "height": 792,
-      "mode": "RGB",
-      "page": 95,
-      "purpose": "localized playing-card term in worked example",
-      "result": "PASS_NO_VISUAL_DEFECT"
-    },
-    {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-096.png",
-      "bytes": 117864,
-      "sha256": "edd9fd9b72cb1863a1ef66a11f1013348ec060237c9a89e4963b1a42e964091a",
-      "width": 612,
-      "height": 792,
-      "mode": "RGB",
-      "page": 96,
-      "purpose": "localized playing-card term in exercises",
-      "result": "PASS_NO_VISUAL_DEFECT"
-    },
-    {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-130.png",
-      "bytes": 75501,
-      "sha256": "ba6650f4bb4cbc21ea79957189822c800c781501a9c0420c9cad9ab989d43d24",
-      "width": 612,
-      "height": 792,
-      "mode": "RGB",
-      "page": 130,
-      "purpose": "localized histogram figure labels and full-width reflow",
-      "result": "PASS_NO_VISUAL_DEFECT"
-    },
-    {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-133.png",
-      "bytes": 76242,
-      "sha256": "7ddcef607b8a87c17cfdbe0a6a0da64960450545cbed38e17613288186beae87",
-      "width": 612,
-      "height": 792,
-      "mode": "RGB",
-      "page": 133,
-      "purpose": "clean end of Chapter 3 accepted exercises",
-      "result": "PASS_NO_VISUAL_DEFECT"
-    },
-    {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-169.png",
-      "bytes": 91358,
-      "sha256": "74095378b900b2a4f07abcadbc3745265c9a5792fbd6276f5f78fba92d387549",
-      "width": 612,
-      "height": 792,
-      "mode": "RGB",
-      "page": 169,
-      "purpose": "clean end of Section 4.5 exercises",
-      "result": "PASS_NO_VISUAL_DEFECT"
-    },
-    {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-170.png",
-      "bytes": 130107,
-      "sha256": "47ad5f92f66ed8164f6c4f5e6c4cc3a744199e3fc72798bdc4824d6a6792ed3c",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-170.png",
+      "bytes": 16972,
+      "sha256": "52adec57dabb2d75a8019a25eb16d9a9a804b2702bf3775a441b3681ad7e832b",
       "width": 612,
       "height": 792,
       "mode": "RGB",
       "page": 170,
-      "purpose": "curated answer appendix begins",
+      "purpose": "clean Chapter 5 opener with no excluded-section navigation",
       "result": "PASS_NO_VISUAL_DEFECT"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-175.png",
-      "bytes": 169436,
-      "sha256": "d0cdd71b0211818fae113a7903d279d0387cf0ba78bfdf0375e1790248d97de5",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-174.png",
+      "bytes": 79764,
+      "sha256": "1773cbc16ad8380f03c32b1072f990839059ee41ea5b5fbb45a89a056cc75f7a",
       "width": 612,
       "height": 792,
       "mode": "RGB",
-      "page": 175,
-      "purpose": "Chapter 4 public-answer layout",
+      "page": 174,
+      "purpose": "localized sampling histogram axes and Teorema Limit Pusat",
       "result": "PASS_NO_VISUAL_DEFECT"
     },
     {
-      "path": "tmp/pdfs/b018-boundary-clean-visual/page-176.png",
-      "bytes": 48864,
-      "sha256": "5512843b9e4ae311f5d54fefa89acb5ba9be985c1c5656e8086c051564ed7f10",
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-179.png",
+      "bytes": 26021,
+      "sha256": "77e9604dbf052195019245233464a23ee875349b2433ab59ad447380583b248a",
       "width": 612,
       "height": 792,
       "mode": "RGB",
-      "page": 176,
-      "purpose": "natural final answer page and clean document end",
+      "page": 179,
+      "purpose": "first Central Limit Theorem figure grid",
+      "result": "PASS_NO_VISUAL_DEFECT"
+    },
+    {
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-180.png",
+      "bytes": 20887,
+      "sha256": "ec741f440dc5e7a3548710503a8a2937474e72bda9b5eef0e18152946653b2ad",
+      "width": 612,
+      "height": 792,
+      "mode": "RGB",
+      "page": 180,
+      "purpose": "second Central Limit Theorem figure grid",
+      "result": "PASS_NO_VISUAL_DEFECT"
+    },
+    {
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-181.png",
+      "bytes": 99823,
+      "sha256": "e875f61df11da9af4ce4728950a74909f9d811b3149ba2e606fae8f37e621237",
+      "width": 612,
+      "height": 792,
+      "mode": "RGB",
+      "page": 181,
+      "purpose": "reflowed continuation with legacy blank page removed",
+      "result": "PASS_NO_VISUAL_DEFECT"
+    },
+    {
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-182.png",
+      "bytes": 126646,
+      "sha256": "7e20f529716e3a479de0d2fd620f0f90910678d48b7c3bf7b4d65c456fe01c23",
+      "width": 612,
+      "height": 792,
+      "mode": "RGB",
+      "page": 182,
+      "purpose": "Chapter 5 exercises 1 through 4",
+      "result": "PASS_NO_VISUAL_DEFECT"
+    },
+    {
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-183.png",
+      "bytes": 73174,
+      "sha256": "27205866fc42396739b5de7a6b1b05b368a429baf77a54c8f695cc29cabb05db",
+      "width": 612,
+      "height": 792,
+      "mode": "RGB",
+      "page": 183,
+      "purpose": "Chapter 5 exercises 5 and 6",
+      "result": "PASS_NO_VISUAL_DEFECT"
+    },
+    {
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-184.png",
+      "bytes": 130117,
+      "sha256": "6dd00e0c3af77c3b381c0405986fb7c5f1577c8a5134c17696ed7cd7122bcf4a",
+      "width": 612,
+      "height": 792,
+      "mode": "RGB",
+      "page": 184,
+      "purpose": "curated public-answer appendix start",
+      "result": "PASS_NO_VISUAL_DEFECT"
+    },
+    {
+      "path": "tmp/pdfs/b019-boundary-clean-visual/page-190.png",
+      "bytes": 123298,
+      "sha256": "b60a898e4f64f8604da45f021d52297eabd5435550b1ee07c8bbbad431c21020",
+      "width": 612,
+      "height": 792,
+      "mode": "RGB",
+      "page": 190,
+      "purpose": "Chapter 5 public answers 1, 3, and 5 and clean document end",
       "result": "PASS_NO_VISUAL_DEFECT"
     }
   ],

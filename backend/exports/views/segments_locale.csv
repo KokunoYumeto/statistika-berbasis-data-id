@@ -122,6 +122,42 @@ Peluang Anda untuk tidak terpilih sedikit lebih besar dibandingkan ketika dosen 
 \end{nexample}
 \end{examplewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""b8ee2bc6-8b07-51f4-8124-2fd462cd606b""]"
+0496cb17-638a-55d6-a54a-648e2cae3334,8868dde0-1b24-50b5-b2db-6a015a22952c,103,exercise,en,ch_foundations_for_inf/TeX/variability_in_estimates.tex,40,74,05cc4965ae9d3d16328b0842d4b4962b7cdba8bb6bdf0fe78eb68aa66f03007e,id-ID,scratch/b019-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/variability_in_estimates.tex,27,61,f94ec03804b077dc9bc3a6b63f551a8fb8609f9d84957fa31a846b04f1bcef1e,visually_checked,"% 3
+
+\eoce{\qt{Pengendalian mutu\label{comp_chips_quality_ctrl_prop}}
+Sebagai bagian dari proses pengendalian mutu cip komputer,
+seorang insinyur di sebuah pabrik mengambil sampel acak 212 cip
+selama satu minggu produksi guna mengetahui proporsi cip
+yang mengalami cacat berat pada saat itu.
+Ia menemukan bahwa 27 cip mengalami cacat.
+\begin{parts}
+\item
+    Populasi apa yang dipertimbangkan dalam kumpulan data ini?
+\item
+    Parameter apa yang sedang diestimasi?
+\item\label{comp_chips_quality_ctrl_prop_pt_est}%
+    Berapakah estimasi titik untuk parameter tersebut?
+\item\label{comp_chips_quality_ctrl_prop_se_name}%
+    Apa nama statistik yang kita gunakan untuk mengukur
+    ketidakpastian estimasi titik?
+\item\label{comp_chips_quality_ctrl_prop_se_calc_w_pt_est}%
+    Hitung nilai dari
+    bagian~(\ref{comp_chips_quality_ctrl_prop_se_name})
+    untuk konteks ini.
+\item
+    Tingkat cacat historis adalah 10\%.
+    Apakah insinyur itu seharusnya terkejut oleh tingkat cacat
+    yang diamati selama minggu berjalan?
+\item
+    Misalkan nilai populasi yang sebenarnya diketahui sebesar 10\%.
+    Jika kita menggunakan proporsi ini untuk menghitung ulang nilai pada
+    bagian~(\ref{comp_chips_quality_ctrl_prop_se_calc_w_pt_est})
+    dengan menggunakan $p = 0.1$ sebagai pengganti $\hat{p}$,
+    apakah nilai yang dihasilkan banyak berubah?
+\end{parts}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""2339d6ba-af30-5b38-86fe-8300dda0b66b""]"
 04aafa45-424f-589d-8238-84708173800c,a7dbebca-d475-5f78-aa32-5a701b11f749,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,555,559,4b832ea13f7b39e00c39ba23a5b3c9f32b781d6018cf049ee47577bfb5e04658,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,604,608,a669ad1675959783f52e2ed78a4efd579d292c01e307e50d47ba66c4e122d1c1,language_reviewed,"% 31
 
 \eocesol{(a)~E(X) = 3.59. SD(X) = 9.64.
@@ -234,6 +270,164 @@ Elena menjual sebuah TV dalam lelang tunai dan juga bermaksud membeli oven peman
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""f5cfd01e-9712-58ec-ac48-481f923814c1""]"
+07450f73-81cf-5073-a90d-e8103f5b420d,af0a583f-f05d-5fa6-a0c6-a267347fca8d,1,instructional_prose,en,ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,102,257,84ffb0b33aa302e1b8779174f64291b0bd8331d8ce547104de51db1251d1e080,id-ID,scratch/b019-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,102,258,0569b8eaf8072b614a06a2c646a43b44fcc8bca87b0c0d1bcb73858b69fb539d,visually_checked,"\subsection{Estimasi titik dan galat}
+
+\index{point estimate@estimasi titik|(}
+
+Misalkan suatu jajak pendapat menunjukkan bahwa tingkat persetujuan
+terhadap Presiden AS adalah 45\%.
+Kita akan menganggap 45\% sebagai
+\term{estimasi titik}\index{estimate@estimasi} untuk tingkat persetujuan
+yang mungkin kita lihat seandainya kita mengumpulkan jawaban dari
+seluruh populasi.
+%\footnote{When we collect responses from the
+%  entire population, it is called a \term{census}.
+%  It is often expensive to conduct a census,
+%  which is why we often instead take a sample.}
+Proporsi jawaban dari seluruh populasi ini
+umumnya disebut \term{parameter}
+yang menjadi perhatian.
+Jika parameternya berupa proporsi,
+parameter tersebut sering dilambangkan dengan $p$,
+%We typically estimate the parameter by collecting
+%information from a sample of the population;
+%we compute the observed proportion in the sample;
+%also called a \term{point estimate},
+dan proporsi sampel sering kita sebut sebagai $\hat{p}$
+(dibaca \emph{p-hat}\footnote{Jangan tertukar dengan
+  \emph{phat}, istilah slang untuk sesuatu yang keren,
+  seperti buku ini.}).
+Kecuali jika kita mengumpulkan jawaban dari setiap individu dalam populasi,
+$p$ tetap tidak diketahui, dan kita menggunakan $\hat{p}$ sebagai estimasi bagi~$p$.
+Selisih yang kita amati antara hasil jajak pendapat dan
+parameter disebut \term{galat} estimasi tersebut.
+%There are other considerations that can influence
+%the error in a sample's estimate can be influenced
+%by other factors, too.
+%it is not the complete story.
+%For this reason, we will also find it convenient to track
+%the \term{sample size}, which is generally referred to using
+%the letter $n$.
+Secara umum, galat terdiri atas dua aspek:
+galat pengambilan sampel dan bias.
+%Throughout the rest of this section,
+%we discuss what a point estimate like
+%\pewsolarpollpercent{} represents
+%and the sampling uncertainty associated with such an estimate.
+%If we take a simple random sample of 1000 American adults
+%and ask them for their opinion about solar energy,
+%will we tend to get a result close to the
+%\pewsolarpollpercent{} value,
+%or might we see observations far from the truth?
+
+
+%
+%Suppose that we know that \pewsolarpollpercent{}
+%of American adults 
+%
+%American adults' attitudes towards different forms of energy.
+%They found that \pewsolarpollpercent{} of respondents
+%favored expanding
+%solar energy.
+%In this case, Pew Research worked to ensure
+%that the sample was representative.
+%However, a~natural question remains:
+%\begin{quote}
+%\em
+%If the poll was based on only a thousand people,
+%how reliable is it?
+%\end{quote}
+%If we took another poll, we wouldn't get the exact same answer.
+%Maybe we'd get 90\%, or perhaps even 80\%.
+%Ultimately, it's unlikely that the actual proportion of
+%Americans who support expanding solar energy is
+%\emph{exactly}~\pewsolarpollpercent{}, but the data suggest
+%the actual support is close to \pewsolarpollpercent{}.
+%This type of uncertainty --
+%the variability in the estimate from one sample to the next --
+%is called the \term{sampling error},
+%and it is a major focus throughout the rest of this book.
+
+%\footnote{Another major form
+%  of error is \term{bias}, which basically is a systematic
+%  tendency to over or under-estimate the true population value.
+%  For instance, if we took a political poll and undersampled
+%  one of the political parties, the sample would not be
+%  representative and would skew in a particular direction.}
+%Ultimately, it's unlikely that the actual proportion of Americans
+%who support expanding solar energy is \emph{exactly}
+%\pewsolarpollpercent{}, but the data suggest the actual
+%support is close to \pewsolarpollpercent{}.
+
+
+%The Pew Research poll is a point estimate
+%of the actual proportion
+%of American adults who support expanding solar energy.
+%This estimate of \pewsolarpollpercent{} is unlikely
+%to be perfect,
+%and it's quite possible for the population proportion
+%to be a little lower or a little higher than the
+%sample proportion.
+%The difference between a point estimate and
+%the parameter is called the estimate's \term{error}.
+
+\termsub{Galat pengambilan sampel}{sampling error},
+yang kadang-kadang disebut \emph{\hiddenterm{ketidakpastian pengambilan sampel}},
+menggambarkan seberapa besar suatu estimasi cenderung bervariasi dari
+satu sampel ke sampel berikutnya.
+Sebagai contoh, estimasi dari suatu sampel mungkin 1\% terlalu rendah,
+sedangkan pada sampel lain estimasinya mungkin 3\% terlalu tinggi.
+Banyak bagian dalam statistika, termasuk banyak bagian buku ini,
+berfokus pada pemahaman dan penguantifikasian galat pengambilan sampel,
+dan kita akan memanfaatkan ukuran sampel
+untuk membantu menguantifikasi galat ini;
+\term{ukuran sampel} sering direpresentasikan oleh huruf $n$.
+%Intuitively, a larger sample would tend to produce a more
+%accurate estimate than what we would
+%obtain from a smaller sample.
+%This is exactly the ref
+%estimate from a smaller sample,
+%and this is generally true.
+
+\termsub{Bias}{bias} menggambarkan kecenderungan sistematis
+untuk menghasilkan estimasi yang terlalu tinggi atau terlalu rendah
+dibandingkan nilai populasi yang sebenarnya.
+Sebagai contoh, jika kita melakukan jajak pendapat terhadap mahasiswa mengenai
+dukungan untuk stadion kampus yang baru, kemungkinan kita akan
+memperoleh estimasi yang bias atas tingkat dukungan mahasiswa
+terhadap stadion itu apabila pertanyaannya dirumuskan sebagai,
+\emph{Apakah Anda mendukung kampus Anda dengan menyetujui pendanaan
+  untuk stadion baru?}
+Kita berupaya meminimalkan bias melalui prosedur pengumpulan
+data yang dirancang dengan saksama, yang telah dibahas dalam
+Bab~\ref{ch_intro_to_data}
+dan menjadi pokok bahasan banyak buku lain.
+
+%While bias is an incredibly important topic,
+%it's forms are so varied that 
+%so vast and context-specific that we 
+
+%\begin{onebox}{Sampling error vs bias}
+%  \termsub{Sampling error}{sampling error} is uncertainty
+%  in a point estimate that happens naturally from one sample
+%  to the next.
+%  The methods we discuss are useful for understanding,
+%  quantifying, and working with sampling errors.
+%  \stdvspace{}
+%
+%  In contrast, another common form of error is \term{bias},
+%  which is a systematic tendency to over or under-estimate
+%  the true population value.
+%  For instance, if we took a political poll but our sample
+%  didn't include a roughly representative distribution of
+%  the political parties, the sample would likely skew
+%  in a particular direction and be biased.
+%\end{onebox}
+
+
+
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""2339d6ba-af30-5b38-86fe-8300dda0b66b""]"
 07a090fc-523e-58d4-8928-e100dec4eba3,dc9cb209-acef-58d0-93ae-2148de066e54,1,guided_exercise,en,ch_probability/TeX/ch_probability.tex,184,188,6022733a3c648ccc0745469d36352d933eee1f703162cab8ea4e7e4895e04fc2,id-ID,repo/ch_probability/TeX/ch_probability.tex,184,188,50540930bb6ee87e36af23347f3498346cb3cd5d673088e668b26dcd7461a5a2,language_reviewed,"\begin{exercisewrap}
 \begin{nexercise}
 Kita tertarik pada probabilitas memperoleh \resp{1}, \resp{4}, atau \resp{5}. (a) Jelaskan mengapa hasil \resp{1}, \resp{4}, dan \resp{5} saling lepas. (b) Terapkan Aturan Penjumlahan untuk hasil yang saling lepas guna menentukan $P($\resp{1} atau \resp{4} atau \resp{5}$)$.\footnotemark
@@ -268,6 +462,42 @@ temuannya dapat digunakan untuk menetapkan hubungan kausal.
 
 % 15
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+09980ad7-ff9a-52f9-9507-7af1d2f03420,0a3f7f55-f998-5dbf-a8fa-b4e9a54dd5c4,105,exercise,en,ch_foundations_for_inf/TeX/variability_in_estimates.tex,110,144,90a51127a69e0d6f763efe5369e8a5960a3ea51117b3d9c17f90941782b9d9d6,id-ID,scratch/b019-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/variability_in_estimates.tex,97,131,0510b9503ac6b7ef0a31ed349b94d061438a691366f8ad47607f1f2003824c5d,visually_checked,"% 5
+
+\eoce{\qt{Sampel air berulang\label{repeated_water_samples_prop}}
+Sebuah organisasi nirlaba ingin memahami proporsi rumah tangga yang
+memiliki kadar timbal tinggi dalam air minumnya.
+Mereka memperkirakan sedikitnya 5\% rumah memiliki kadar timbal tinggi,
+tetapi tidak lebih dari sekitar 30\%.
+Mereka mengambil sampel acak 800 rumah dan bekerja sama dengan para pemilik
+untuk memperoleh sampel air, lalu menghitung proporsi rumah tersebut
+yang memiliki kadar timbal tinggi.
+Mereka mengulangi proses ini 1.000 kali dan membentuk sebuah distribusi
+proporsi sampel.
+\begin{parts}
+\item
+    Apa nama distribusi ini?
+\item
+    Apakah Anda memperkirakan bentuk distribusi ini
+    simetris, menceng kanan, atau menceng kiri?
+    Jelaskan penalaran Anda.
+\item
+    Jika proporsi-proporsi tersebut tersebar di sekitar 8\%,
+    berapakah variabilitas distribusinya?
+\item
+    Apa nama formal nilai yang Anda hitung pada bagian~(c)?
+\item
+    Misalkan anggaran para peneliti dikurangi sehingga mereka hanya
+    mampu mengumpulkan 250 pengamatan per sampel, tetapi tetap dapat
+    mengumpulkan 1.000 sampel.
+    Mereka membentuk distribusi baru proporsi sampel.
+    Bagaimana perbandingan variabilitas distribusi baru ini
+    dengan variabilitas distribusi ketika setiap sampel
+    memuat 800 pengamatan?
+\end{parts}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""2339d6ba-af30-5b38-86fe-8300dda0b66b""]"
 0a0e3e2d-7350-5e5e-931a-b17c1426a51b,c1f5b86e-dc64-5744-836f-8877d2e9b42d,13,worked_example,en,ch_probability/TeX/ch_probability.tex,1926,1934,cffebe7b498427aa5ff321db51607a6997ccd6e9b01281ce1eb14538f19c30d3,id-ID,repo/ch_probability/TeX/ch_probability.tex,1915,1923,621c3e007a431f842df1578522c7b819d0cfaa70f21b70aa4c268292f31d42cc,language_reviewed,"\begin{examplewrap}
 \begin{nexample}{John pergi ke tempat kerja lima hari dalam seminggu. Kita akan menggunakan $X_1$ untuk menyatakan waktu perjalanannya pada hari Senin, $X_2$ untuk menyatakan waktu perjalanannya pada hari Selasa, dan seterusnya. Tuliskan persamaan menggunakan $X_1$, ..., $X_5$ yang menyatakan waktu perjalanannya selama seminggu, yang dilambangkan dengan $W$.}
 Total waktu perjalanan mingguannya adalah jumlah kelima nilai harian:
@@ -456,6 +686,14 @@ dek kartu penuh merupakan peristiwa yang saling eksklusif.
 merupakan peristiwa yang saling eksklusif.
 \end{parts}
 }{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+10a843d5-5ff5-5295-a916-e7179a4a29ec,84d15a12-586a-5000-b0c8-394304dcd573,201,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,929,939,8ee9cc4b38ee93eb2b0473c0accdbeadf0e4672c4d08ab53a75d86e8e6823391,id-ID,qa/b019-translation/staging/eoceSolutions_b019_prefix.id.tex,9,15,37a0a35ba7b6a715cc5347449f2f2554f2cb1281e644d3bbf074bc3a9dfe96d9,visually_checked,"% 1
+
+\eocesol{(a)~Rata-rata. Setiap mahasiswa melaporkan nilai numerik, yaitu banyaknya jam.
+(b)~Rata-rata. Setiap mahasiswa melaporkan suatu bilangan berupa persentase, dan persentase-persentase tersebut dapat dirata-ratakan.
+(c)~Proporsi. Setiap mahasiswa menjawab Ya atau Tidak, sehingga variabel ini bersifat kategoris dan kita menggunakan proporsi.
+(d)~Rata-rata. Setiap mahasiswa melaporkan suatu bilangan berupa persentase, seperti pada bagian~(b).
+(e)~Proporsi. Setiap mahasiswa melaporkan apakah ia memperkirakan akan memperoleh pekerjaan atau tidak, sehingga variabel ini bersifat kategoris dan kita menggunakan proporsi.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""2339d6ba-af30-5b38-86fe-8300dda0b66b""]"
 10ba747c-aab0-507f-9637-27e5c0cf4d8b,8fd6ebca-4ca4-55c1-89f8-d040729c3b3e,1,chapter_intro,en,ch_intro_to_data/TeX/ch_intro_to_data.tex,17,35,70b60753156622c657f83656e7b5fb69964e1bed674081eb67d37126e791fd67,id-ID,repo/ch_intro_to_data/TeX/ch_intro_to_data.tex,17,35,43a59c0e51e90fcdb2f8bd246b853a4d299dcaa58eaca5cdc0c9a036d8e53f25,translated,"\chapterintro{Para ilmuwan berupaya menjawab pertanyaan
   dengan menggunakan metode yang ketat dan pengamatan yang cermat.
   Pengamatan ini -- yang dihimpun, antara lain, dari catatan lapangan,
@@ -1840,6 +2078,73 @@ hidup terhadap masa kehamilan ditampilkan di bawah ini. \footfullcite{Allison+Ci
 
 % 2
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+29dacc45-dcb6-56cb-b119-08a62bfae94c,0c7e3eec-a33d-5c64-a81a-cb6ba33b7b1c,0,instructional_prose,en,ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,36,101,b06ae4fa86a64b57aadd1d5704b06c35500db414c45afb10867a4c4fa917bf4c,id-ID,scratch/b019-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,36,101,c804e944d005bca9ef78a36bc4b37081cb697e3642282891c0eb3b876a326647,visually_checked,"\section{Estimasi titik dan variabilitas sampling}
+\label{pointEstimates}
+
+\index{data!solar survey@survei energi surya|(}
+
+Perusahaan seperti Pew Research sering melakukan
+jajak pendapat untuk memahami keadaan opini publik
+atau pengetahuan mengenai banyak topik, termasuk politik,
+pemahaman ilmiah, pengenalan merek, dan lain-lain.
+%These polls typically reach a sample of 300 to
+%10,000 people.
+Tujuan akhir jajak pendapat pada umumnya ialah menggunakan
+jawaban responden untuk mengestimasi opini atau pengetahuan
+populasi yang lebih luas.
+
+%These polls are often based on 500 to 5000 people,
+%and a polling company such as Pew would use this sample
+%to estimate the opinions of the broader population.
+%For example, Pew frequently conducts a poll on about
+%1000 adults about their feelings about the direction
+%of their country.
+%In early 2019, they found that 
+%Through this and future sections,
+%we'll use some new notation and terminology:
+%\begin{itemize}
+%\item
+%    For all inference problems concerning proportions,
+%    the population proportion will be written as $p$.
+%    When discussing a population summary such as $p$,
+%    it is common to refer to the value as a population
+%    \term{parameter}.
+%    In the solar survey,
+%    $p$ represents the proportion of \emph{all}
+%    American adults who support solar energy.
+%\item Using Pew Research sample, we can estimate that the proportion
+%    of American adults who support expanding solar energy is
+%    somewhere near \pewsolarpollpercent{}.
+%    This is called the \term{sample proportion},
+%    and it gets a special label of $\hat{p}$
+%    (spoken as \emph{p-hat}).
+%\item The size of a sample will generally
+%    be denoted by $n$. In the case of this Pew Research poll,
+%    the \term{sample size} is $n = \pewsolarpollsize{}$.
+%\end{itemize}
+
+
+
+%In the United States, those 1000 adults would be used
+%to generalize out to a population of about \emph{250 million}
+%American adults.
+%A~natural question arises:
+%\begin{quote}
+%\em
+%If the poll was based on only a thousand people,
+%how reliable is it?
+%\end{quote}
+%For instance, if we took another poll,
+%we wouldn't get the exact same answer,
+%so how trustworthy is the result?
+%This is the topic of this first inference section,
+%where we hope to understand how variable estimates
+%are from one sample to the next,
+%which will give us an idea of how much trust we should
+%(or shouldn't) put into such polls.
+
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""2339d6ba-af30-5b38-86fe-8300dda0b66b""]"
 2b151983-28cb-5ce5-85b2-8037916ffff9,df0e47a5-e5a2-5a42-a83d-a8c0d10528d2,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,459,468,2292c98251ab0dca53007e745dd665bdfb3b7ead098f21149986c0da6c77130e,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,40,48,6eaa9a2a6747c145ba1456bd396d706f0e17e2f45c98fa2869802d63e8887fb7,language_reviewed,"% 9
 \eocesol{(a)~Jika kelas tidak dinilai berdasarkan kurva, keduanya independen. Jika dinilai
 berdasarkan kurva, keduanya tidak independen maupun saling lepas--kecuali pengajar hanya akan
@@ -2119,6 +2424,42 @@ ke rata-rata, 0.50.
   Walaupun saham cenderung naik dari waktu ke waktu, nilainya sering
   bergejolak dalam jangka pendek.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""f5cfd01e-9712-58ec-ac48-481f923814c1""]"
+32c2c6ae-1c7f-589f-9ddf-07c698193b9a,64294143-10b6-55bd-b6d1-765ffecaf3f0,104,exercise,en,ch_foundations_for_inf/TeX/variability_in_estimates.tex,75,109,d16c8eb5cdeda8dfde467ba14df575cdfac20ba8a722a80b4c2bef5027a2187e,id-ID,scratch/b019-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/variability_in_estimates.tex,62,96,8cbe6065b1f59ad59ec169a072929335562071074c229d26cd691a6588d71b53,visually_checked,"% 4
+
+\eoce{\qt{Pengeluaran tak terduga\label{us_emergency_expense_prop}}
+Dalam sampel acak yang terdiri atas 765 orang dewasa di Amerika Serikat, 322 orang mengatakan
+bahwa mereka tidak mampu menutup pengeluaran tak terduga sebesar \$400 tanpa meminjam
+uang atau berutang.
+% Ref: https://www.federalreserve.gov/publications/files/2017-report-economic-well-being-us-households-201805.pdf
+\begin{parts}
+\item
+    Populasi apa yang dipertimbangkan dalam kumpulan data ini?
+\item
+    Parameter apa yang sedang diestimasi?
+\item\label{us_emergency_expense_prop_pt_est}%
+    Berapakah estimasi titik untuk parameter tersebut?
+\item\label{us_emergency_expense_prop_se_name}%
+    Apa nama statistik yang kita gunakan untuk mengukur
+    ketidakpastian estimasi titik?
+\item\label{us_emergency_expense_prop_se_calc_w_pt_est}%
+    Hitung nilai dari
+    bagian~(\ref{us_emergency_expense_prop_se_name})
+    untuk konteks ini.
+\item
+    Seorang komentator berita kabel berpendapat bahwa nilainya sebenarnya 50\%.
+    Apakah ia seharusnya terkejut oleh data tersebut?
+\item
+    Misalkan nilai populasi yang sebenarnya diketahui sebesar 40\%.
+    Jika kita menggunakan proporsi ini untuk menghitung ulang nilai pada
+    bagian~(\ref{us_emergency_expense_prop_se_calc_w_pt_est})
+    dengan menggunakan $p = 0.4$ sebagai pengganti $\hat{p}$,
+    apakah nilai yang dihasilkan banyak berubah?
+\end{parts}
+}{}
+
+\D{\newpage}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""2339d6ba-af30-5b38-86fe-8300dda0b66b""]"
 3311d7cc-e15c-5dc7-9ada-04850668a968,fc0c0c57-060f-5b6e-a442-f74566a01ce8,1,end-of-section-exercise,en,ch_probability/TeX/sampling_from_a_small_population.tex,49,78,7f2ec37e92bcd9c9ddcd4c81057d3c1e3da901b87b4246f591d7ba772bfafd06,id-ID,repo/ch_probability/TeX/sampling_from_a_small_population.tex,49,78,4d858c071b2740067fe331302abab19982c625c884b37c7f291b07ac0e5c8e44,language_reviewed,"% 26
 
 \eoce{\qt{Buku di rak buku\label{books_on_shelf}} Tabel di bawah ini menunjukkan 
@@ -2227,6 +2568,34 @@ yang tidak biasa, jika ada.
   Bentuk distribusinya unimodal dan menceng kanan.
 \end{nexample}
 \end{examplewrap}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""5c6f7ab4-aec9-55ec-9259-e81faf2ff939""]"
+347f793d-3ec0-5e50-bd4e-0a1ca3770c67,e3488ac4-0157-5341-9320-f10052fcc8b5,205,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,977,990,c61ba11ad3af170cecf7cf2ce1b164f7eb0156f849613bfd93f63a42d1d1f050,id-ID,qa/b019-translation/staging/eoceSolutions_b019_prefix.id.tex,52,65,1ec4adc5bfd173f80e725bf56f9d441ab4659bb11dbacc6b42dfefa75bf3a403,visually_checked,"% 5
+
+\eocesol{(a)~Distribusi sampling.
+(b)~Jika proporsi populasi berada dalam rentang 5--30\%,
+    syarat sukses--gagal akan terpenuhi dan
+    distribusi sampling akan simetris.
+(c)~Kita menggunakan rumus galat baku:
+    $SE
+      = \sqrt{\frac{p (1 - p)}{n}}
+      = \sqrt{\frac{0.08 (1 - 0.08)}{800}}
+      = 0.0096$.
+(d)~Galat baku.
+(e)~Distribusi cenderung lebih bervariasi
+    ketika jumlah pengamatan per sampel lebih sedikit.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""2339d6ba-af30-5b38-86fe-8300dda0b66b""]"
+356f74e8-e22a-5b18-bb75-a61b82e1795c,0695707a-cdef-560a-8fdf-4fd21111e7a6,102,exercise,en,ch_foundations_for_inf/TeX/variability_in_estimates.tex,22,39,0fdeed95e8389ea53e825a3190d801d6c11b4fc99e88519240e2bf0671438012,id-ID,scratch/b019-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/variability_in_estimates.tex,15,26,e8865279c516f473b06b207c7065f5d9d4e9e42dd8d067a37923ccf867ab017c,visually_checked,"% 2
+
+\eoce{\qt{Identifikasi parameter, Bagian II\label{identify_parameter_2}} Untuk setiap situasi berikut, tentukan apakah parameter yang menjadi perhatian berupa rata-rata atau proporsi.
+\begin{parts}
+\item Sebuah jajak pendapat menunjukkan bahwa 64\% warga Amerika secara pribadi sangat mengkhawatirkan belanja pemerintah federal dan defisit anggaran.
+\item Sebuah survei melaporkan bahwa pendapatan dari siaran berita televisi lokal meningkat 17\% dalam kurun dua tahun, sedangkan pendapatan surat kabar menurun 6,4\% selama kurun tersebut.
+\item Dalam sebuah survei, siswa sekolah menengah dan mahasiswa ditanya apakah mereka menggunakan layanan geolokasi pada ponsel pintar.
+\item Dalam sebuah survei, pengguna ponsel pintar ditanya apakah mereka menggunakan layanan taksi berbasis web.
+\item Dalam sebuah survei, pengguna ponsel pintar ditanya berapa kali mereka menggunakan layanan taksi berbasis web selama setahun terakhir.
+\end{parts}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""2339d6ba-af30-5b38-86fe-8300dda0b66b""]"
 361876a0-0c09-5033-b927-7a89582e7cd2,168bbda2-828e-5071-9433-7c4c114136ba,1,guided_exercise,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,256,259,0c55a8f7a9820014053429f8a1759ae934aa842685ca1f559e5d8e0189f081b5,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,253,256,736e327baa796e535187f5a62ec648d3e261b02029dc2f68753616e5489530f0,translated,"\begin{nexercise}
 Berapakah $n$ dalam sampel pinjaman
 ini?\footnotemark{}
@@ -3450,6 +3819,34 @@ pasien yang bebas nyeri 24 jam setelah menerima akupunktur pada kedua kelompok?
 \end{parts}
 }{}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+4723f88b-b678-5da2-8827-3265811fcbe8,0509e303-4f2f-5281-93a6-a679df6057a4,6,instructional_prose,en,ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,875,903,af83eee281bf919b873bfc3493769ca911c4651cfea52bf9f81170b0403b953d,id-ID,scratch/b019-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,874,900,8547a48340398469e9b7224bca75a5471998a057c0bb9b0153ecdcf0a4539e48,visually_checked,"\subsection{Memperluas kerangka untuk statistik lain}
+
+Strategi menggunakan statistik sampel untuk mengestimasi
+suatu parameter cukup lazim, dan strategi ini dapat
+kita terapkan pada statistik lain selain proporsi.
+Sebagai contoh, jika kita ingin mengestimasi gaji rata-rata
+lulusan suatu perguruan tinggi, kita dapat
+menyurvei sampel acak lulusan baru;
+dalam contoh tersebut, kita menggunakan rata-rata sampel $\bar{x}$
+untuk mengestimasi rata-rata populasi~$\mu$ bagi seluruh lulusan.
+Sebagai contoh lain, jika kita ingin mengestimasi
+perbedaan harga produk di dua situs web,
+kita dapat mengambil sampel acak produk yang tersedia
+di kedua situs, memeriksa harga pada masing-masing situs,
+lalu menghitung selisih rata-ratanya;
+strategi ini tentu memberi kita gambaran
+tentang selisih sebenarnya melalui suatu estimasi titik.
+
+Walaupun bab ini menekankan konteks satu proporsi,
+di sepanjang buku ini kita akan menjumpai banyak konteks berbeda
+tempat metode-metode ini diterapkan.
+Prinsip dan gagasan umumnya tetap sama,
+meskipun rinciannya sedikit berubah.
+Kita juga menyisipkan beberapa konteks lain ke dalam
+latihan agar Anda mulai memikirkan
+bagaimana gagasan-gagasan ini dapat digeneralisasi.
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""2339d6ba-af30-5b38-86fe-8300dda0b66b""]"
 48d01b71-acb9-5fdd-8622-2ae426b91c5b,6e4e8c2c-e78c-58d3-afef-7c55af54eb37,2,subsection_prose,en,ch_probability/TeX/ch_probability.tex,703,814,7ca458f161fe0f63ab7956d7711d2315a68a0abd0799e9ab907bcce5d5f11236,id-ID,repo/ch_probability/TeX/ch_probability.tex,703,814,e933a5c14c3a1a16b459d7725e6c1a0fcb1353647e350cbff6c14708c36f486c,language_reviewed,"\subsection{Mengeksplorasi peluang dengan tabel kontingensi}
 
 \index{data!photo\_classify|(}
@@ -5466,6 +5863,168 @@ n            & 92
 
 %___________________________________________
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+60d48cf8-d4fd-5ad1-9900-1229b610a589,281387ee-54bd-55f8-8d4d-d8d31fd562b3,5,instructional_prose,en,ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,714,874,e6233ee04b72aea59b8d1f9dc9ed1082a6027ce2faaa0a0e0bc7a7b13baa1c59,id-ID,scratch/b019-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,713,873,ba9841ed477c1ebf18e0a03c0f00eddcd859226d1862f7cb568ed0b1e055e6d1,visually_checked,"\subsection{Rincian lebih lanjut tentang Teorema Limit Pusat}
+
+\noindent%
+Sejauh ini dalam bab ini, kita telah menerapkan Teorema Limit Pusat
+dalam banyak contoh:
+\begin{quote}{\em
+Jika observasi saling independen dan ukuran sampel
+cukup besar, distribusi $\hat{p}$ menyerupai
+distribusi normal dengan
+\begin{align*}
+  \mu_{\hat{p}} &= p
+  &SE_{\hat{p}} &= \sqrt{\frac{p (1 - p)}{n}}
+\end{align*}
+Ukuran sampel dianggap cukup besar
+jika $n p \geq 10$ dan $n (1 - p) \geq 10$.
+}\end{quote}
+Dalam bagian ini, kita akan menelaah syarat sukses--gagal
+dan berusaha memahami
+Teorema Limit Pusat dengan lebih baik.
+
+Salah satu pertanyaan yang menarik untuk dijawab adalah, \emph{apa yang terjadi jika
+$np < 10$ atau $n(1-p) < 10$?} Seperti yang kita lakukan di
+Bagian~\ref{simulationForUnderstandingVariabilitySection},
+kita dapat menyimulasikan pengambilan sampel dengan berbagai ukuran ketika,
+misalnya, proporsi sebenarnya adalah $p = 0.25$.
+Berikut adalah sampel berukuran~10:
+\begin{center}
+% paste(sample(c(""yes"", ""no""), 10, TRUE, c(.25, .75)), collapse = "", "")
+tidak, tidak, ya, ya, tidak, tidak, tidak, tidak, tidak, tidak
+\end{center}
+Dalam sampel ini, kita mengamati proporsi jawaban ya
+sebesar $\hat{p} = \frac{2}{10} = 0.2$. Kita dapat menyimulasikan banyak
+proporsi semacam itu untuk memahami distribusi sampling
+$\hat{p}$ ketika $n = 10$ dan $p = 0.25$, yang telah kita plot
+pada Gambar~\ref{sampling_10_prop_25p}
+berdampingan dengan distribusi normal yang memiliki
+rata-rata dan variabilitas yang sama.
+Distribusi-distribusi ini memiliki sejumlah perbedaan penting.
+
+\begin{figure}[h]
+   \centering
+   \Figure[Terdapat dua plot. Plot pertama adalah histogram dari 10.000 simulasi p-topi ketika ukuran sampel n sama dengan 10 dan proporsi populasi p sama dengan 0.25. Nilai yang mungkin adalah 0.0, 0.1, 0.2, dan seterusnya hingga 1.0, meskipun grafik hanya menampilkan nilai sampai 0.8. Distribusi berpusat sekitar 0.25 dan sedikit menceng ke kanan. Frekuensinya sekitar 500 untuk 0.0, 1900 untuk 0.1, 2800 untuk 0.2, 2400 untuk 0.3, 1500 untuk 0.4, 500 untuk 0.5, 100 untuk 0.6, sedangkan tinggi batang untuk nilai-nilai sisanya tidak dapat dibedakan secara visual dari nol. Plot kedua menampilkan distribusi normal yang berpusat di 0.25 dengan simpangan baku 0.137. Plot tersebut memiliki garis vertikal pada 0.0, yang memperjelas secara visual bahwa sebagian luas di bawah distribusi normal---sekitar 5\% dari luas tersebut---mewakili nilai di bawah 0.0.]{0.97}{sampling_10_prop_25p}
+   \caption{Kiri: simulasi $\hat{p}$ ketika ukuran sampel
+       adalah $n = 10$ dan proporsi populasi adalah $p = 0.25$.
+       Kanan: distribusi normal dengan rata-rata (0.25)
+       dan simpangan baku (0.137) yang sama.}
+   \label{sampling_10_prop_25p}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \Figures[Distribusi sampling ditampilkan untuk beberapa skenario parameter p dan n. Grafik disusun dalam kisi 5 baris yang mewakili proporsi 0.1, 0.2, 0.5, 0.8, dan 0.9 serta 2 kolom ukuran sampel n sama dengan 10 dan 25. Pada setiap grafik, distribusi berpusat pada proporsinya. Karena proporsi-proporsi ini didasarkan pada ukuran sampel yang relatif kecil, batang-batangnya tampak cukup diskret (berloncatan dari satu nilai ke nilai berikutnya), meskipun hal ini tidak begitu kentara untuk distribusi berdasarkan n sama dengan 25. Ketika proporsi sebenarnya mendekati batas bawah 0 atau batas atas 1, distribusi cenderung menceng menjauhi batas tersebut. Hal ini paling kentara pada distribusi yang mewakili proporsi lebih dekat ke salah satu batas dan pada ukuran sampel yang lebih kecil. Di antara 10 distribusi yang ditampilkan, satu distribusi tampak menonjol: sampel dengan p sama dengan 0.5 dan n sama dengan 25, yang menunjukkan distribusi berbentuk lonceng menyerupai distribusi normal, meskipun datanya masih agak diskret.]{}{clt_prop_grid}{clt_prop_grid_1}
+  \caption{Distribusi sampling untuk beberapa skenario
+      $p$ dan $n$. \\
+      Baris: $p = 0.10$, $p = 0.20$, $p = 0.50$,
+      $p = 0.80$, dan $p = 0.90$. \\
+      Kolom: $n = 10$ dan $n = 25$.}
+  \label{clt_prop_grid_1}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \Figures[Distribusi sampling ditampilkan untuk beberapa skenario parameter p dan n. Grafik disusun dalam kisi 5 baris yang mewakili proporsi 0.1, 0.2, 0.5, 0.8, dan 0.9 serta 3 kolom ukuran sampel n sama dengan 50, 100, dan 250. Dibandingkan dengan gambar sebelumnya, yang membahas skenario proporsi serupa tetapi dengan n sama dengan 10 dan 25, data pada grafik-grafik ini tampak kurang diskret---artinya, hampir kontinu. Hal ini paling jelas untuk ukuran sampel terbesar. Hampir semua grafik yang ditampilkan juga sangat menyerupai distribusi normal; dalam beberapa kasus dengan ukuran sampel yang lebih besar, kemiripannya begitu dekat sehingga tidak terdapat perbedaan visual yang berarti. Satu aspek yang kurang kentara---tetapi tetap ada---pada gambar sebelumnya dan berlanjut serta menjadi jauh lebih jelas pada gambar ini adalah bahwa distribusi proporsi sampel cenderung memiliki simpangan baku yang jauh lebih kecil untuk ukuran sampel yang lebih besar. Artinya, distribusi proporsi sampel untuk ukuran sampel yang lebih besar cenderung lebih sempit daripada distribusi untuk ukuran sampel yang lebih kecil. Selain itu, untuk suatu ukuran sampel tertentu, variabilitas pada grafik dengan proporsi p sama dengan 0.5 tampak paling besar dibandingkan proporsi lainnya; sifat ini terlihat pada distribusi untuk setiap ukuran sampel yang dibahas.]{}{clt_prop_grid}{clt_prop_grid_2}
+  \caption{Distribusi sampling untuk beberapa skenario
+      $p$ dan $n$. \\
+      Baris: $p = 0.10$, $p = 0.20$, $p = 0.50$,
+      $p = 0.80$, dan $p = 0.90$. \\
+      Kolom: $n = 50$, $n = 100$, dan $n = 250$.}
+  \label{clt_prop_grid_2}
+\end{figure}
+
+\begin{center}
+\begin{tabular}{lccc}
+\hline
+    &  Unimodal?  &  Halus?  &  Simetris? \\
+\hline
+Normal: $N(0.25, 0.14)$  &
+    \highlightO{Ya}  &
+    \highlightO{Ya}  &
+    \highlightO{Ya} \\
+$n = 10$, $p = 0.25$  &
+    \highlightO{Ya}  &
+    \highlightT{Tidak}  &
+    \highlightT{Tidak} \\
+\hline
+\end{tabular}
+\end{center}
+Perhatikan bahwa syarat sukses--gagal
+tidak terpenuhi ketika $n = 10$ dan $p = 0.25$:
+\begin{align*}
+n p = 10 \times 0.25 = 2.5 &&
+    n (1 - p) = 10 \times 0.75 = 7.5
+\end{align*}
+Distribusi sampling tunggal ini tidak membuktikan bahwa
+syarat sukses--gagal merupakan pedoman yang sempurna,
+tetapi kita mendapati bahwa pedoman itu dengan tepat
+menunjukkan bahwa distribusi normal mungkin tidak sesuai.
+
+Kita dapat melakukan beberapa simulasi tambahan,
+yang ditampilkan pada
+Gambar~\ref{clt_prop_grid_1}
+dan~\ref{clt_prop_grid_2},
+dan kita dapat melihat beberapa kecenderungan:
+\begin{enumerate}
+\item Jika $np$ atau $n(1 - p)$ bernilai kecil,
+    distribusinya lebih \term{diskret},
+    yaitu \emph{tidak kontinu}.
+\item Jika $np$ atau $n(1-p)$ lebih kecil dari~10,
+    kemencengan distribusinya lebih kentara.
+\item Semakin besar $np$ \emph{dan} $n(1 - p)$,
+    semakin bentuk distribusinya menyerupai distribusi normal.
+    Hal ini mungkin sedikit lebih sulit terlihat untuk ukuran
+    sampel yang lebih besar pada plot-plot ini karena variabilitasnya
+    juga menjadi jauh lebih kecil.
+\item Jika $np$ dan $n(1 - p)$ keduanya sangat besar,
+    sifat diskret distribusinya nyaris tidak terlihat,
+    dan bentuk distribusinya jauh lebih
+    menyerupai distribusi normal.
+\end{enumerate}
+
+% Boundary-clean reader removes a legacy forced page break.
+
+Sejauh ini, kita hanya berfokus pada kemencengan dan sifat diskret
+distribusi-distribusi tersebut.
+Kita belum membahas bagaimana rata-rata dan galat baku
+distribusi berubah.
+Luangkan waktu sejenak untuk melihat kembali grafik-grafiknya,
+dan perhatikan tiga hal berikut:
+\begin{enumerate}
+\item Pusat distribusi selalu berada pada
+    proporsi populasi, $p$, yang digunakan untuk
+    menghasilkan simulasi. Karena distribusi
+    sampling $\hat{p}$ selalu berpusat pada
+    parameter populasi $p$, ini berarti proporsi
+    sampel $\hat{p}$ bersifat \term{tak bias} ketika
+    data saling independen dan diambil dari
+    populasi semacam itu.
+\item Untuk suatu proporsi populasi $p$ tertentu,
+    variabilitas dalam distribusi sampling
+    berkurang ketika ukuran sampel~$n$ bertambah besar.
+    Hal ini kemungkinan sejalan dengan intuisi Anda:
+    estimasi berdasarkan ukuran sampel yang lebih besar
+    cenderung lebih akurat.
+\item Untuk suatu ukuran sampel tertentu, variabilitas
+    akan paling besar ketika $p = 0.5$. Perbedaannya
+    mungkin agak samar, jadi perhatikan dengan saksama.
+    Hal ini mencerminkan peran proporsi
+    $p$ dalam rumus galat baku:
+    $SE = \sqrt{\frac{p (1 - p)}{n}}$.
+    Galat baku paling besar ketika $p = 0.5$.
+\end{enumerate}
+
+Distribusi $\hat{p}$ tidak akan pernah tampak
+\emph{sepenuhnya} normal, karena $\hat{p}$ akan selalu
+mengambil nilai-nilai diskret ($x / n$).
+Ini selalu menyangkut tingkat kemiripan, dan kita akan menggunakan
+syarat sukses--gagal baku dengan nilai minimum
+10 untuk $np$ dan $n (1 - p)$ sebagai pedoman
+dalam buku ini.
+
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""2339d6ba-af30-5b38-86fe-8300dda0b66b""]"
 60eb256a-abb4-5370-ad68-01bde4361ab6,bb82be73-ea51-5c91-8039-bd102108c3c6,2,subsection_prose,en,ch_probability/TeX/ch_probability.tex,133,142,6ade8b83f7bb5f31aca5a4a35d71fbb6b094604455294752c7f8f6baaba2fb75,id-ID,repo/ch_probability/TeX/ch_probability.tex,133,142,99708b3ccd74d6034a2b58d9810dee597daefe6e8bfcff19b3c2a1efa1ddbef3,language_reviewed,"\footnotetext{Berikut empat contoh. (i) Apakah seseorang akan sakit bulan depan atau tidak merupakan proses yang tampak acak, dengan hasil \resp{sakit} dan \resp{tidak}. (ii) Kita dapat \emph{membangkitkan} proses acak dengan memilih seseorang secara acak lalu mengukur tinggi badannya. Hasil proses ini berupa bilangan positif. (iii) Apakah pasar saham naik atau turun minggu depan merupakan proses yang tampak acak, dengan hasil yang mungkin \resp{naik}, \resp{turun}, dan \resp{tidak\us{}berubah}. Sebagai alternatif, perubahan persentase pasar saham dapat digunakan sebagai hasil numerik. (iv) Apakah teman sekamar Anda mencuci piring malam ini juga mungkin tampak seperti proses acak, dengan hasil \resp{mencuci\us{}piring} dan \resp{meninggalkan\us{}piring}.}
 
 Hal-hal yang kita anggap sebagai proses acak belum tentu benar-benar acak; mungkin saja proses itu terlalu sulit dipahami secara tepat. Contoh keempat dalam jawaban catatan kaki Latihan Terbimbing~\ref{randomProcessExercise} mengisyaratkan bahwa perilaku teman sekamar adalah proses acak. Namun, meskipun perilaku teman sekamar tidak benar-benar acak, memodelkannya sebagai proses acak tetap dapat berguna.
@@ -5602,6 +6161,209 @@ imbal hasil kurang dari 0\%?
 portofolio ini?
 \end{parts}
 }{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""5013dc5b-3a29-5516-9948-98c064aa43e8""]"
+65f58662-7ba7-5188-9ff0-028c1c7676bb,cbbde962-0dd0-5290-be94-079bf7e24c52,2,instructional_prose,en,ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,258,461,f26d5dd6fe9b5021ac9f95e5268231f7445d2a69fea99a048688cc6219e5f2e8,id-ID,scratch/b019-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,259,460,db4bb3dce1cfddf60808f2ef5faa6f21faa4a4700872c98054e2b23fe950b66b,visually_checked,"\subsection{Memahami variabilitas estimasi titik}
+\label{simulationForUnderstandingVariabilitySection}
+
+\newcommand{\pewsolarpollsize}{1000}
+\newcommand{\pewsolarparprop}{0.88}
+\newcommand{\pewsolarparpropcomplement}{0.12}
+\newcommand{\pewsolarparpercent}{88\%}
+\newcommand{\pewsolarparpercentcomplement}{12\%}
+\newcommand{\pewsolarpollprop}{0.887}
+\newcommand{\pewsolarpollpropcomplement}{0.113}
+\newcommand{\pewsolarpollpercent}{88.7\%}
+\newcommand{\pewsolarpollpercentcomplement}{11.3\%}
+\newcommand{\pewsolarpollcount}{887}
+\newcommand{\pewsolarpollexpcount}{880}
+\newcommand{\pewsolarpollcountcomplement}{113}
+\newcommand{\pewsolarpollexpcountcomplement}{120}
+\newcommand{\pewsolarpollse}{0.010}
+
+Misalkan proporsi orang dewasa Amerika yang mendukung
+perluasan energi surya adalah $p = \pewsolarparprop{}$,
+yang merupakan parameter yang menjadi perhatian kita.\footnote{Kita belum
+  benar-benar melakukan sensus untuk mengukur nilai ini secara sempurna.
+  Namun, suatu sampel yang sangat besar menunjukkan bahwa tingkat
+  dukungan sebenarnya sekitar \pewsolarparpercent{}.}
+Jika kita melakukan jajak pendapat terhadap \pewsolarpollsize{} orang dewasa Amerika
+mengenai topik ini, estimasinya tidak akan sempurna,
+tetapi seberapa dekat proporsi sampel dalam jajak pendapat itu
+dengan \pewsolarparpercent{} menurut perkiraan kita?
+Kita ingin memahami, \emph{bagaimana
+proporsi sampel $\hat{p}$ berperilaku ketika proporsi populasi sejati
+adalah
+\pewsolarparprop{}}.\footnote{\pewsolarparpercent{}
+  jika ditulis sebagai proporsi adalah
+  \pewsolarparprop{}.
+  Beralih antara bentuk proporsi dan persen merupakan hal yang lazim.
+  Namun, rumus-rumus yang disajikan dalam buku ini selalu merujuk
+  pada proporsi, bukan persen.}
+Mari kita cari tahu!
+Kita dapat menyimulasikan jawaban yang akan diperoleh dari suatu sampel
+acak sederhana beranggotakan 1000 orang dewasa Amerika;
+hal ini hanya mungkin karena kita mengetahui bahwa dukungan sebenarnya
+terhadap perluasan energi surya adalah \pewsolarparprop{}.
+%
+%
+%We could
+%run the survey again to see how consistent the results
+%are, but who has the time and money for that? Instead,
+%we can investigate the properties of $\hat{p}$ using simulations.
+%
+%To simulate the sample, we'll suppose that the population
+%proportion is exactly \pewsolarpollpercent{}.
+%Now, we know
+%the population proportion isn't exactly \pewsolarpollpercent\%,
+%but we do expect it to be close, so this simulation will offer
+%us some insights about the property of $\hat{p}$.
+%If we took a random sample
+%from this population, how accurate would the point estimate be?
+Berikut cara kita dapat menyusun simulasi tersebut:
+%simulate it:
+\begin{enumerate}
+\item Pada 2018 terdapat sekitar 250 juta orang dewasa Amerika.
+    Pada 250 juta potong kertas, tuliskan nilai literal ``support'' (mendukung)
+    pada \pewsolarparpercent{} bagiannya dan ``not'' (tidak mendukung) pada
+    \pewsolarparpercentcomplement{} sisanya.
+\item Campurkan potongan-potongan kertas tersebut dan ambil \pewsolarpollsize{}
+    potong untuk mewakili sampel kita yang beranggotakan \pewsolarpollsize{}
+    orang dewasa Amerika.
+\item Hitung fraksi sampel yang bertuliskan ``support''.
+\end{enumerate}
+Adakah sukarelawan yang ingin menjalankan simulasi ini? Barangkali tidak. Menjalankan
+simulasi ini dengan 250 juta potong kertas akan menyita banyak waktu dan
+biaya, tetapi kita dapat menyimulasikannya
+dengan kode komputer; kami telah menulis program singkat pada
+Gambar~\ref{solarPollSimulationCodeR}
+bagi Anda yang ingin melihat seperti apa kode komputernya.
+Dalam simulasi ini, sampel menghasilkan estimasi titik
+$\hat{p}_1 = 0.894$. Kita mengetahui proporsi populasi
+untuk simulasi tersebut adalah $p = \pewsolarparprop{}$, sehingga kita mengetahui
+estimasi itu memiliki galat sebesar
+$0.894 - \pewsolarparprop{} = \text{+0.014}$.
+
+%\setlength\textwidth{\officialtextwidth-10mm}
+\begin{figure}[h]
+\texttt{\# 1.\ Buat sekumpulan 250 juta entri,
+dengan \pewsolarparpercent{} di antaranya bernilai ""support"" \\
+\#\ \ \ \ dan \pewsolarparpercentcomplement{} bernilai ""not"". \\
+pop\us{}size <- 250000000 \\
+possible\_entries <- c(rep(""support"", \pewsolarparprop{} * pop\us{}size), rep(""not"", \pewsolarparpropcomplement{} * pop\us{}size))
+\\[3mm]
+\# 2.\ Ambil sampel sebanyak \pewsolarpollsize{} entri tanpa pengembalian. \\
+sampled\_entries <- sample(possible\_entries, size = \pewsolarpollsize{}) \\[3mm]
+\# 3.\ Hitung p-hat:~tentukan jumlah entri yang bernilai ""support"",
+lalu bagi dengan \\
+\#\ \ \ \ ukuran sampel. \\
+sum(sampled\_entries == ""support"") / \pewsolarpollsize{}}
+\caption{Bagi Anda yang ingin tahu, inilah kode untuk
+    satu simulasi $\hat{p}$ menggunakan
+    perangkat lunak statistika bernama \R{}\index{R}.
+    Setiap baris yang diawali dengan \texttt{\#} merupakan
+    \term{komentar kode},
+    yang digunakan untuk menjelaskan dalam bahasa sehari-hari apa yang
+    dilakukan kode tersebut.
+    Kami menyediakan praktikum perangkat lunak dalam \R{} di
+    \oiRedirect{os}{openintro.org/book/os}
+    bagi siapa pun yang berminat mempelajari lebih lanjut.}
+\label{solarPollSimulationCodeR}
+\end{figure}
+% \setlength\textwidth{\officialtextwidth}
+
+Satu simulasi belum cukup untuk memperoleh gambaran yang baik mengenai
+distribusi estimasi yang mungkin kita harapkan dalam simulasi,
+sehingga kita perlu menjalankan lebih banyak simulasi.
+Dalam simulasi kedua,
+kita memperoleh $\hat{p}_2 = 0.885$, yang memiliki galat~+0.005.
+Dalam simulasi lain, $\hat{p}_3 = 0.878$ dengan galat -0.002.
+Dan dalam simulasi lainnya lagi,
+diperoleh estimasi $\hat{p}_4 = 0.859$ dengan galat -0.021.
+Dengan bantuan komputer, kami telah menjalankan simulasi sebanyak 10.000 kali
+dan membuat histogram hasil seluruh 10.000 simulasi tersebut
+pada Gambar~\ref{sampling_10k_prop_88p}. Distribusi
+proporsi sampel ini disebut
+\term{distribusi sampling}.
+Kita dapat mencirikan distribusi sampling ini sebagai berikut:
+\begin{description}
+\setlength{\itemsep}{0mm}
+\item[Pusat.]
+    Pusat distribusi adalah
+    $\bar{x}_{\hat{p}} = \pewsolarparprop{}0$,
+    yang sama dengan parameternya.
+    Perhatikan bahwa simulasi tersebut meniru suatu sampel acak sederhana
+    dari populasi, yakni strategi pengambilan sampel yang sederhana
+    yang membantu menghindari bias pengambilan sampel.
+%    That~is, we see that the sample proportion is an
+%    \termsub{unbiased estimate}{unbiased}
+%    of the population proportion.
+\item[Sebaran.]
+    Simpangan baku distribusi
+    adalah $s_{\hat{p}} = \pewsolarpollse{}$.
+    Ketika membahas
+    distribusi sampling atau variabilitas
+    suatu estimasi titik, kita biasanya menggunakan istilah
+    \termsub{galat baku}{standard error (SE)}
+    alih-alih \emph{simpangan baku},
+    dan notasi $SE_{\hat{p}}$ digunakan untuk galat baku
+    yang terkait dengan proporsi sampel.
+\item[Bentuk.]
+    Distribusi tersebut simetris dan berbentuk lonceng,
+    serta \emph{menyerupai distribusi normal}.
+\end{description}
+Temuan-temuan ini menggembirakan!
+Ketika proporsi
+populasi adalah $p = \pewsolarparprop{}$ dan ukuran sampel
+$n = \pewsolarpollsize{}$,
+proporsi sampel $\hat{p}$ cenderung memberikan
+estimasi yang cukup baik
+atas proporsi populasi.
+Kita juga mendapati hal yang menarik
+bahwa histogram tersebut menyerupai distribusi normal.
+
+\begin{figure}[h]
+   \centering
+   \Figure[Ditampilkan sebuah histogram untuk 10.000 proporsi sampel; setiap sampel diambil dari populasi yang proporsi populasinya adalah \pewsolarparprop{} dan ukuran sampelnya $n = \pewsolarpollsize{}$. Distribusinya berbentuk lonceng (tampak hampir normal), berpusat di 0,88, dan memiliki simpangan baku sekitar 0,01.]{0.8}{sampling_10k_prop_88p}
+   %\Figure{0.8}{sampling_10k_prop_887p}
+   \caption{Histogram dari 10.000 proporsi sampel,
+       dengan setiap sampel diambil dari suatu populasi
+       yang proporsi populasinya adalah
+       \pewsolarparprop{} dan ukuran sampelnya
+       $n = \pewsolarpollsize{}$.}
+   \label{sampling_10k_prop_88p}
+   %\label{sampling_10k_prop_887p}
+\end{figure}
+
+\begin{onebox}{Distribusi sampling
+    tidak pernah teramati, tetapi tetap kita bayangkan}
+  Dalam penerapan dunia nyata, kita tidak pernah benar-benar mengamati
+  distribusi sampling, tetapi tetap bermanfaat untuk selalu membayangkan
+  suatu estimasi titik sebagai sesuatu yang berasal dari distribusi
+  hipotetis tersebut.
+  \mbox{Pemahaman} atas distribusi sampling akan membantu kita
+  mencirikan dan memaknai estimasi-estimasi titik yang
+  benar-benar kita amati.
+\end{onebox}
+
+\begin{examplewrap}
+\begin{nexample}{Jika kita menggunakan ukuran sampel yang jauh lebih kecil, yaitu $n = 50$,
+menurut dugaan Anda, apakah galat baku $\hat{p}$ akan lebih besar
+atau lebih kecil daripada ketika kita menggunakan $n = \pewsolarpollsize{}$?}
+\label{smallerSampleWhatHappensToPropErrorExercise}
+Secara intuitif, tampaknya lebih banyak data lebih baik
+daripada lebih sedikit data, dan secara umum memang demikian! Galat tipikal
+ketika $p = \pewsolarparprop{}$ dan $n = 50$ akan lebih besar
+daripada galat yang kita harapkan ketika $n = \pewsolarpollsize{}$.
+\end{nexample}
+\end{examplewrap}
+
+%\noindent
+Contoh~\ref{smallerSampleWhatHappensToPropErrorExercise}
+menyoroti suatu sifat penting yang akan kita jumpai berulang kali:
+sampel yang lebih besar cenderung memberikan estimasi titik yang lebih presisi
+daripada sampel yang lebih kecil.
+
+\index{point estimate@estimasi titik|)}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""2339d6ba-af30-5b38-86fe-8300dda0b66b""]"
 672b19e7-d7a2-5de7-80c8-f8a31e1a8706,44b85273-e757-59b5-85c9-11547f246ae1,1,end-of-section-exercise,en,ch_probability/TeX/conditional_probability.tex,177,188,6d46fdbc1b573321045b291ba42442bcc602a1b4adc17a5371d93a84208d0ed8,id-ID,repo/ch_probability/TeX/conditional_probability.tex,177,188,bd8edb2d17ee0b6728d8cc7133085b697467fa031c7e0198428dc333d721ea8a,language_reviewed,"% 19
 
 \eoce{\qt{Membuat diagram kotak\label{tree_drawing_box_plots}} Setelah mengikuti mata
@@ -6463,6 +7225,71 @@ Distribusi apakah yang menyerupai histogram berongga terakhir?\footnotemark{}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""d79c0e4f-9e37-5e77-9080-34fed0852af2""]"
 7a9419d0-b631-51df-87ff-b3cad82b7621,f4e2f13b-d59e-5d4e-a7be-690e28ef9f2b,4,guided_inline_answer,en,ch_probability/TeX/ch_probability.tex,1737,1737,3c70d6225376093ba693f59906fc07232fca333582b9444a8740474dbe390690,id-ID,repo/ch_probability/TeX/ch_probability.tex,1726,1726,9b4a21dff605bbfc091be51aae3d7bf604e1561f37159608338e321bd69d1985,language_reviewed,"\footnotetext{Jika toko buku menjual sedikit lebih banyak atau sedikit lebih sedikit, hal ini seharusnya tidak mengejutkan. Semoga Bab~\ref{introductionToData} telah memperjelas bahwa data yang diamati memiliki variabilitas alami. Sebagai contoh, jika kita melempar koin 100 kali, sisi kepala biasanya tidak akan muncul tepat separuh dari seluruh lemparan, tetapi jumlahnya mungkin akan mendekati separuh.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""f5cfd01e-9712-58ec-ac48-481f923814c1""]"
+7af0ac90-ad3b-546e-94ba-f2ce314196eb,f7ad76c7-4a92-5d4c-8d2c-37af34e8edae,4,instructional_prose,en,ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,650,713,797a8ebbff9d84bc5111b843960041d6436f03ec80e402426a14647aecf2a417,id-ID,scratch/b019-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,649,712,263d867913f87cac66d1f6b55e7fa6c7ea1684f7751e06c3f58871c3ed23b1ed,visually_checked,"\subsection{Menerapkan Teorema Limit Pusat pada
+    situasi dunia nyata}
+\label{apply_clt_real_world_setting}
+
+Kita sebenarnya tidak mengetahui proporsi populasi
+kecuali jika kita melakukan jajak pendapat yang mahal terhadap semua individu
+dalam populasi tersebut.
+Nilai $p = 0.88$ yang kita gunakan sebelumnya didasarkan pada jajak pendapat
+Pew Research terhadap \pewsolarpollsize{}
+orang dewasa Amerika, yang menemukan bahwa
+$\hat{p} = \pewsolarpollprop{}$ dari mereka mendukung
+perluasan energi surya.
+Para peneliti mungkin bertanya-tanya:
+apakah proporsi sampel dari jajak pendapat tersebut kira-kira
+mengikuti distribusi normal?
+Kita dapat memeriksa syarat-syarat Teorema Limit Pusat:
+\begin{description}
+\item[Independensi.] Jajak pendapat tersebut menggunakan sampel acak sederhana dari
+    orang dewasa Amerika, yang berarti bahwa observasinya saling
+    independen.
+\item[Syarat sukses--gagal.] Untuk memeriksa syarat ini,
+    kita memerlukan proporsi populasi, $p$, untuk memastikan bahwa
+    $np$ dan $n(1-p)$ keduanya lebih besar dari 10.
+    Namun, kita sebenarnya tidak mengetahui $p$; justru
+    karena itulah pelaksana jajak pendapat mengambil sampel!
+    Dalam kasus seperti ini, kita sering menggunakan $\hat{p}$
+    sebagai pengganti terbaik yang tersedia untuk memeriksa syarat sukses--gagal:
+    \begin{align*}
+    n\hat{p}
+        &= \pewsolarpollsize{} \times \pewsolarpollprop{}
+        = \pewsolarpollcount{}
+    &n (1 - \hat{p})
+        &= \pewsolarpollsize{} \times (1 - \pewsolarpollprop{})
+        = \pewsolarpollcountcomplement{}
+    \end{align*}
+    Proporsi sampel $\hat{p}$ menjadi
+    pengganti yang masuk akal bagi $p$ dalam pemeriksaan ini,
+    dan setiap nilai pada kasus ini jauh melampaui batas minimum 10.
+\end{description}
+
+\term{Aproksimasi substitusi} yang menggunakan $\hat{p}$ untuk
+menggantikan $p$ ini juga berguna ketika menghitung galat baku
+proporsi sampel:
+\begin{align*}
+SE_{\hat{p}}
+    = \sqrt{\frac{p (1 - p)}{n}}
+    \approx \sqrt{\frac{\hat{p} (1 - \hat{p})}{n}}
+    = \sqrt{\frac{\pewsolarpollprop{}
+        (1 - \pewsolarpollprop{})}{\pewsolarpollsize{}}}
+    = \pewsolarpollse{}
+\end{align*}
+Teknik substitusi ini kadang-kadang
+disebut ``\hiddenterm{prinsip substitusi}''.
+Dalam kasus ini, perubahan $SE_{\hat{p}}$ tidak cukup besar untuk
+terlihat jika hanya menggunakan 3 tempat desimal,
+dibandingkan ketika sebelumnya kita menyelesaikan perhitungan dengan
+\pewsolarparprop{}.
+Galat baku hasil perhitungan cenderung cukup stabil
+meskipun proporsi yang teramati sedikit berbeda antara satu
+sampel dan sampel lainnya.
+
+
+\D{\newpage}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""2339d6ba-af30-5b38-86fe-8300dda0b66b""]"
 7b1ecc09-e625-5328-9987-8cda0ab14daf,fa211d70-60ff-56ba-aee4-b00a48d83ddf,14,guided_inline_answer,en,ch_probability/TeX/ch_probability.tex,1701,1701,87b33d5c4e1969d6a44fc34a25cb905cafbe600fe6e7a70abe53f96c726529ca,id-ID,repo/ch_probability/TeX/ch_probability.tex,1690,1690,7a43447c495741963e805d831017fb8c9ab4ccf90c30600bed0e2e0739eb2fe9,language_reviewed,"\footnotetext{Peluang memenangkan hadiah sekitar 10\% lebih besar jika pengambilan sampel dilakukan tanpa pengembalian. Namun, dengan prosedur pengambilan sampel ini, paling banyak hanya satu hadiah yang dapat dimenangkan.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""b8ee2bc6-8b07-51f4-8124-2fd462cd606b""]"
 7ba09482-96b7-53d1-8e41-f46b74e44456,a485ca16-e7af-5fc9-a661-2481b3a87b29,6,section_prose,en,ch_probability/TeX/ch_probability.tex,1752,1764,6f31199fa2dd710ef406f1bc4ea1874c20b3d2fcfa7f7f6c3bb29857be4c6fa3,id-ID,repo/ch_probability/TeX/ch_probability.tex,1741,1753,1d05bfbdcbc3370978a7176ed844061e8623fb6e7d207b82309e101841a01f13,language_reviewed,"
@@ -7205,6 +8032,195 @@ variabel respons?
 
 % 26
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""4e874c2a-7b14-5cbf-9d15-2a5a1a44dec9""]"
+8adaef82-c045-590c-9779-8090ff88c569,d37899fe-b91b-5bc6-a5d6-e3e7e600da19,3,instructional_prose,en,ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,462,649,2f0c9ace577f126215eba19d621a5971f064ec43b05719a8610d203bc20ac3f8,id-ID,scratch/b019-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,461,648,a1cd30ddfc2c883d39e501b4e746f4261f6315c1319430f2ff1854334d6522f0,visually_checked,"\subsection{Teorema Limit Pusat}
+
+Distribusi pada
+Gambar~\ref{sampling_10k_prop_88p} sangat menyerupai
+distribusi normal. Hal itu bukan anomali; melainkan hasil
+dari suatu prinsip umum yang disebut
+\index{Teorema Limit Pusat!proporsi|textbf}
+\term{Teorema Limit Pusat}.
+
+\begin{onebox}{Teorema Limit Pusat dan syarat sukses--gagal}
+  Jika observasi saling independen dan ukuran sampel
+  cukup besar, proporsi sampel $\hat{p}$ cenderung
+  mengikuti distribusi normal dengan rata-rata dan
+  galat baku berikut:%\footnotemark{}
+  \begin{align*}
+    \mu_{\hat{p}} &= p
+    &SE_{\hat{p}} &= \sqrt{\frac{p (1 - p)}{n}}
+  \end{align*}
+  Agar Teorema Limit Pusat berlaku,
+  ukuran sampel biasanya dianggap cukup besar
+  jika $np \geq 10$ dan $n(1-p) \geq 10$; ini disebut
+  \term{syarat sukses--gagal}.
+\end{onebox}
+%\footnotetext{Some statisticians will say what we
+%  have written for $SE_{\hat{p}}$ should be called
+%  the \emph{standard deviation of $\hat{p}$}
+%  and the standard error is a term for
+%  an estimated version (that we'll first encounter
+%  in Section~\ref{apply_clt_real_world_setting}).
+%  We adhere to simpler terminology in this book
+%  that is also accepted,
+%  where the listed formula also can be called the
+%  \emph{standard error}.}
+
+Teorema Limit Pusat sangat penting dan menjadi
+landasan bagi sebagian besar statistika.
+Ketika mulai menerapkan
+Teorema Limit Pusat, perhatikan kedua
+syarat teknis berikut:
+observasi harus saling independen, dan ukuran sampel harus
+cukup besar sehingga $np \geq 10$ dan $n(1-p) \geq 10$.
+
+\begin{examplewrap}
+\begin{nexample}{Sebelumnya, kita mengestimasi rata-rata dan galat
+baku $\hat{p}$ menggunakan data simulasi ketika
+$p = \pewsolarparprop{}$ dan $n = \pewsolarpollsize{}$.
+Pastikan bahwa Teorema Limit Pusat berlaku
+dan distribusi samplingnya kira-kira
+normal.}\label{sample_p88_n1000_confirm_normal}
+\begin{description}
+\item[Independensi.] Terdapat $n = \pewsolarpollsize{}$
+    observasi untuk setiap
+    proporsi sampel $\hat{p}$, dan masing-masing observasi
+    diperoleh secara independen. \emph{Cara paling umum agar
+    observasi dapat dianggap independen adalah jika observasi itu berasal dari
+    sampel acak sederhana.}
+    \index{independen}
+    \index{independensi}
+    \index{Teorema Limit Pusat!independensi}
+\item[Syarat sukses--gagal.] Kita dapat memastikan ukuran sampel
+    cukup besar dengan memeriksa syarat sukses--gagal
+    dan memastikan kedua nilai hasil perhitungan lebih besar dari~10:
+    \begin{align*}
+    np &= \pewsolarpollsize{} \times \pewsolarparprop{}
+        = \pewsolarpollexpcount{}
+        \geq 10
+    &n(1-p) &= \pewsolarpollsize{} \times (1 - \pewsolarparprop{})
+        = \pewsolarpollexpcountcomplement{}
+        \geq 10
+    \end{align*}
+\end{description}
+Syarat independensi dan syarat sukses--gagal keduanya
+terpenuhi, sehingga Teorema Limit Pusat berlaku dan
+masuk akal untuk memodelkan $\hat{p}$ dengan distribusi normal.
+\end{nexample}
+\end{examplewrap}
+
+\begin{onebox}{Cara memastikan observasi sampel saling independen}
+  Subjek dalam suatu eksperimen dianggap independen
+  jika ditempatkan secara acak ke dalam kelompok
+  perlakuan.\stdvspace{}
+
+  Jika observasi berasal dari sampel acak sederhana,
+  maka observasi tersebut saling independen.\stdvspace{}
+
+  Jika sampel berasal dari proses yang tampak acak,
+  misalnya kesalahan yang sesekali terjadi pada lini perakitan,
+  pemeriksaan independensi menjadi lebih sulit. Dalam kasus ini,
+  gunakan pertimbangan terbaik Anda.
+\end{onebox}
+
+Syarat tambahan yang kadang-kadang diberlakukan bagi sampel
+dari suatu populasi adalah bahwa ukurannya tidak melebihi 10\%
+dari populasi tersebut.
+Jika sampel melebihi 10\% ukuran populasi,
+metode yang kita bahas cenderung menghasilkan estimasi galat pengambilan
+sampel yang sedikit terlalu besar dibandingkan hasil metode
+yang lebih lanjut.\footnote{Sebagai contoh, kita dapat menggunakan sesuatu yang disebut
+  \term{faktor koreksi populasi terhingga}:
+  jika ukuran sampel adalah $n$ dan ukuran populasi adalah $N$,
+  kita dapat mengalikan rumus galat baku biasa dengan
+  $\sqrt{\frac{N-n}{N-1}}$
+  untuk memperoleh estimasi galat baku sebenarnya yang
+  lebih kecil dan lebih presisi.
+  Jika $n < 0.1 \times N$, dampak faktor koreksi ini
+  relatif kecil.}
+Hal ini sangat jarang menjadi masalah, dan ketika memang menjadi masalah,
+metode kita cenderung konservatif, sehingga pemeriksaan
+tambahan ini kita anggap opsional.
+
+\begin{examplewrap}
+\begin{nexample}{Hitung rata-rata dan galat baku teoretis
+dari $\hat{p}$ ketika
+$p = \pewsolarparprop{}$ dan $n = \pewsolarpollsize{}$,
+menurut
+Teorema Limit Pusat.}\label{sample_p88_n1000_mean_se}
+Rata-rata nilai-nilai $\hat{p}$ sama dengan proporsi populasi:
+$\mu_{\hat{p}} = \pewsolarparprop{}$.
+
+Perhitungan galat baku $\hat{p}$ menggunakan
+rumus berikut:
+\begin{align*}
+SE_{\hat{p}}
+    = \sqrt{\frac{p (1 - p)}{n}}
+    = \sqrt{\frac{\pewsolarparprop{} (1 - \pewsolarparprop{})}
+        {\pewsolarpollsize{}}}
+    = \pewsolarpollse{}
+\end{align*}
+\end{nexample}
+\end{examplewrap}
+
+\begin{examplewrap}
+\begin{nexample}{Perkirakan seberapa sering proporsi sampel
+$\hat{p}$ berada dalam jarak 0.02 (2\%) dari nilai populasi,
+$p = \pewsolarparprop{}$. Berdasarkan
+Contoh~\ref{sample_p88_n1000_confirm_normal}
+dan~\ref{sample_p88_n1000_mean_se},
+kita tahu bahwa distribusinya kira-kira
+$N(\mu_{\hat{p}} = \pewsolarparprop{}, SE_{\hat{p}} = \pewsolarpollse{})$.}
+\label{sampling_10k_prop_887p-prop_from_867_to_907}
+Setelah begitu banyak berlatih di Bagian~\ref{normalDist},
+semoga contoh distribusi normal ini terasa familier!
+Kita ingin mengetahui fraksi nilai-nilai $\hat{p}$
+di antara 0.86 dan 0.90:
+\begin{center}
+\Figure[Sebuah distribusi normal yang berpusat di 0.88 dengan simpangan baku 0.01 ditampilkan; daerah antara 0.86 dan 0.90 diarsir.]{0.35}{p-hat_from_86_and_90}
+\end{center}
+Dengan $\mu_{\hat{p}} = \pewsolarparprop{}$ dan
+$SE_{\hat{p}} = \pewsolarpollse{}$,
+kita dapat menghitung skor-Z untuk batas kiri maupun kanan:
+\begin{align*}
+Z_{0.86}
+  &= \frac{0.86 - \pewsolarparprop{}}{\pewsolarpollse{}}
+  = -2
+&Z_{0.90}
+  &= \frac{0.90 - \pewsolarparprop{}}{\pewsolarpollse{}}
+  = 2
+\end{align*}
+Kita dapat menggunakan perangkat lunak statistika, kalkulator grafis,
+atau tabel untuk mencari luas pada kedua ekor; dengan cara mana pun,
+kita akan memperoleh 0.0228 untuk masing-masing ekor. Luas total kedua ekor adalah
+$2 \times 0.0228 = 0.0456$, sehingga luas daerah yang diarsir adalah
+0.9544. Artinya, sekitar 95.44\% dari distribusi sampling
+pada Gambar~\ref{sampling_10k_prop_88p} berada dalam jarak $\pm0.02$
+dari proporsi populasi, $p = \pewsolarparprop{}$.
+\end{nexample}
+\end{examplewrap}
+
+\D{\newpage}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Dalam Contoh~\ref{smallerSampleWhatHappensToPropErrorExercise},
+kita membahas bahwa sampel yang lebih kecil cenderung
+menghasilkan estimasi yang kurang andal. Jelaskan bagaimana intuisi ini
+tercermin dalam rumus
+$SE_{\hat{p}} = \sqrt{\frac{p (1 - p)}{n}}$.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Karena
+  ukuran sampel $n$ berada di penyebut
+  (bagian bawah) pecahan,
+  ukuran sampel yang lebih besar membuat seluruh
+  nilai ekspresi hasil perhitungan cenderung lebih kecil.
+  Dengan kata lain, ukuran sampel yang lebih besar berkaitan dengan
+  galat baku yang lebih kecil.}
+
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""2339d6ba-af30-5b38-86fe-8300dda0b66b""]"
 8b57a040-e2e1-5c23-9127-2241ece87e9f,472bec5c-8b39-5aaa-846f-e89ddd224353,1,guided_exercise,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,2103,2111,5abc0b0dde38147629961e2f6076c359920ce6a22529edd07aa06755cc6d7a72,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,2037,2045,994296ece007f8130b05727afc41b3376944d8b4a12a0cca75e6776a1cca79e7,translated,"\begin{nexercise} \label{comparingPriceByTypeExercise}
 Gunakan grafik pada Gambar~\ref{countyIncomeSplitByPopGain}
 untuk membandingkan pendapatan county dalam kedua kelompok.
@@ -7813,6 +8829,19 @@ orang tersebut juga menyukai jeli?
 Jika dua peristiwa saling independen, mengetahui hasil salah satunya tidak memberikan informasi tentang peristiwa lainnya. Dengan peluang bersyarat, kita dapat menunjukkan bahwa pernyataan ini benar secara matematis.
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+9a21cb09-5ffc-5258-95f5-f0d165d07b97,548541ff-ef11-5c5c-839d-375d4724e8c9,101,exercise,en,ch_foundations_for_inf/TeX/variability_in_estimates.tex,3,21,3b43b1bb26b15d9ea2ce7064f888e236b62f0dbba0d5ec380ec037eef9af1cf4,id-ID,scratch/b019-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/variability_in_estimates.tex,3,14,65d58398126ef29ee58d90d894217dc523484148d90c78bcb9fade33ba07dbd8,visually_checked,"% 1
+
+\eoce{\qt{Identifikasi parameter, Bagian I\label{identify_parameter_1}} Untuk setiap situasi berikut, tentukan apakah parameter yang menjadi perhatian berupa rata-rata atau proporsi. Akan membantu jika Anda memperhatikan apakah tanggapan setiap individu bersifat numerik atau kategoris.
+\begin{parts}
+\item Dalam sebuah survei, seratus mahasiswa ditanya berapa jam per minggu yang mereka habiskan di internet.
+\item Dalam sebuah survei, seratus mahasiswa ditanya: ``Berapa persen dari waktu yang Anda habiskan di internet digunakan untuk tugas kuliah?''
+\item Dalam sebuah survei, seratus mahasiswa ditanya apakah mereka mengutip informasi dari Wikipedia dalam makalah mereka.
+\item Dalam sebuah survei, seratus mahasiswa ditanya berapa persen dari seluruh pengeluaran mingguan mereka yang digunakan untuk minuman beralkohol.
+\item Dalam sampel yang terdiri atas seratus lulusan perguruan tinggi baru, ditemukan bahwa 85 persen memperkirakan akan memperoleh pekerjaan dalam satu tahun setelah tanggal kelulusan.
+\end{parts}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""2339d6ba-af30-5b38-86fe-8300dda0b66b""]"
 9a8581c9-c645-5100-a47d-6ada99c4e38c,ec79be50-a684-5393-b549-01430a4353e1,302,data_appendix,en,extraTeX/data/data.tex,281,286,3d77f0a1ca8d35de52c12b543e7c1377371c0ff2fb652212eacb510e0fcb00b7,id-ID,qa/b016-build/source-snapshot-b016/extraTeX/data/data.tex,282,287,b1f21f738a3df76156bb87e2de6c32b34385f4efac91e2221a72c444c98eb07e,visually_checked,"\item[\ref{binomialModel}]
     \datawrap{Teman-teman yang merokok}
     Sayangnya, saat ini kami tidak memiliki informasi tambahan mengenai
@@ -10155,6 +11184,37 @@ d526505a-e9a5-5bdd-86a1-cb388c0743ae,ff94854d-cd16-57a9-90c8-520fb59f380d,2,work
 \end{nexample}
 \end{examplewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""586d1610-5f32-5232-ba50-6e2a04daf45a""]"
+d5d0a278-4bc2-55b1-983e-9f3e45ad77fa,3ad743df-ef86-5769-a3a9-fae1b48c5f33,106,exercise,en,ch_foundations_for_inf/TeX/variability_in_estimates.tex,145,174,b1acf841ed03fae5976053673dfc34c54ab45f9d1fcb3c506a15bcb84ddbf1f7,id-ID,scratch/b019-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/variability_in_estimates.tex,132,161,43b6e68b7d1eb954ebad4ce47c5f7ce6c45bf1088ba4beb97381a2f1932b961a,visually_checked,"% 6
+
+\eoce{\qt{Sampel mahasiswa berulang\label{repeated_student_samples_prop}}
+Di antara seluruh mahasiswa tahun pertama pada sebuah perguruan tinggi besar, 16\%
+masuk daftar prestasi dekan pada tahun berjalan.
+Sebagai bagian dari proyek kelas, para mahasiswa mengambil sampel acak 40 mahasiswa
+dan memeriksa apakah mereka masuk daftar tersebut.
+Mereka mengulangi proses ini 1.000 kali dan membentuk sebuah distribusi
+proporsi sampel.
+\begin{parts}
+\item
+    Apa nama distribusi ini?
+\item
+    Apakah Anda memperkirakan bentuk distribusi ini
+    simetris, menceng kanan, atau menceng kiri?
+    Jelaskan penalaran Anda.
+\item
+    Hitung variabilitas distribusi ini.
+\item
+    Apa nama formal nilai yang Anda hitung pada bagian~(c)?
+\item
+    Misalkan para mahasiswa memutuskan mengambil sampel lagi,
+    kali ini sebanyak 90 mahasiswa per sampel,
+    dan kembali mengumpulkan 1.000 sampel.
+    Mereka membentuk distribusi baru proporsi sampel.
+    Bagaimana perbandingan variabilitas distribusi baru ini
+    dengan variabilitas distribusi ketika setiap sampel
+    memuat 40 pengamatan?
+\end{parts}
+}{}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""2339d6ba-af30-5b38-86fe-8300dda0b66b""]"
 d5fb116d-a659-54e3-905b-4e795bd7a16d,de412d8d-c743-5910-aec4-762aaa8f1a89,1,end-of-section-exercise,en,ch_distributions/TeX/normal_distribution.tex,93,107,dc5d754776683667f82d61cca60c6d42134f09f22f0f27f1d337a16c4082b6b6,id-ID,repo/ch_distributions/TeX/normal_distribution.tex,98,113,cd9850867b25df8378693ff4c963a4f16dbd8d0481b061ee4800e893a8ca95be,language_reviewed,"% 5
 
 \eoce{\qt{Skor GRE, Bagian II\label{GRE_cutoffs}} Pada
@@ -11087,6 +12147,41 @@ sebagian besar data.
 
 \begin{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+ded05011-d8b7-5572-85ae-cea9700c15de,89e537f6-8c20-53ee-88ad-d52ceedd753c,203,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,940,976,a6571b1f642be62b8925398a0396932c6796e922002b375ee9b882593c76491b,id-ID,qa/b019-translation/staging/eoceSolutions_b019_prefix.id.tex,17,50,fb58ff7c725b9f1e91c303adba5fab3544d13904f3f299ff5cf54fd5e28db1f7,visually_checked,"% 3
+
+\eocesol{(a)~Sampel diambil dari seluruh cip komputer yang diproduksi
+    di pabrik tersebut selama minggu produksi itu.
+    Kita mungkin tergoda untuk menggeneralisasikan hasil ini
+    ke seluruh minggu produksi, tetapi kita perlu berhati-hati
+    karena tingkat cacat dapat berubah seiring waktu.
+(b)~Proporsi cip komputer yang diproduksi
+    di pabrik tersebut selama minggu produksi itu
+    yang mengalami cacat.
+(c)~Estimasi parameter dengan menggunakan data:
+    $\hat{p} = \frac{27}{212} = 0.127$.
+(d)~\emph{Galat baku} (atau $SE$).
+(e)~Hitung $SE$ dengan menggunakan
+    $\hat{p} = 0.127$ sebagai pengganti $p$:
+    $SE
+      \approx \sqrt{\frac{\hat{p}(1 - \hat{p})}{n}}
+      = \sqrt{\frac{0.127(1 - 0.127)}{212}}
+      = 0.023$.
+(f)~Galat baku adalah
+    simpangan baku dari $\hat{p}$.
+    Nilai 0,10 berjarak sekitar satu galat baku
+    dari nilai yang diamati, sehingga tidak
+    merupakan simpangan yang sangat tidak biasa.
+    (Sebagai kaidah praktis, nilai yang berjarak lebih dari sekitar
+    2 galat baku biasanya dianggap tidak biasa.)
+    Insinyur tersebut tidak perlu terkejut.
+(g)~Galat baku yang dihitung ulang dengan $p = 0.1$:
+    $SE = \sqrt{\frac{0.1(1 - 0.1)}{212}}
+      = 0.021$.
+    Nilai ini tidak jauh berbeda,
+    sebagaimana lazimnya ketika galat baku
+    dihitung menggunakan proporsi-proporsi yang relatif serupa
+    (dan kadang-kadang bahkan ketika proporsinya cukup berbeda!).}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""2339d6ba-af30-5b38-86fe-8300dda0b66b""]"
 ded8b9a4-d200-5624-940c-df9155008472,470c3927-0fbc-5034-9d45-fbf0ba065727,1,end-of-section-exercise,en,ch_probability/TeX/conditional_probability.tex,217,228,912d172c83487b159bd7ae71b9fd1a5cad8cd674873e5f01c54e1060cc6413d2,id-ID,repo/ch_probability/TeX/conditional_probability.tex,216,228,4ca94ce44a8f448fccb05ef7f414577cff4ab3eace95587287165aa2e8c7b983,language_reviewed,"% 22
 
 \eoce{\qt{Jajak pendapat seusai pemungutan suara\label{tree_exit_poll}} Edison Research
@@ -11130,6 +12225,42 @@ P(A | B) = 1 - P(A^c | B)
 \end{onebox}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+e0df56cd-6c02-5d62-a3ea-91adb6fbc826,7c60d2bd-4e91-5a12-8930-3245a77c7154,0,chapter_intro,en,ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,1,35,2229643eb68444138da6348ae20e294341343c02378539ef87e30a8bba392a8b,id-ID,scratch/b019-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,1,35,6c74ef42bd43630404f027bf34c38dd56e041bbdcbaf5fecc246e99ce4cc1dee,visually_checked,"\begin{chapterpage}{Dasar-dasar inferensi}
+  \chaptertitle{Dasar-dasar inferensi}
+  \label{foundationsForInference}
+  \label{ch_foundations_for_inf}
+  \chaptersection{pointEstimates}
+% Boundary-clean reader omits navigation to the excluded later section.
+% Boundary-clean reader omits navigation to the excluded later section.
+\end{chapterpage}
+\renewcommand{\chapterfolder}{ch_foundations_for_inf}
+
+\chapterintro{Statistika inferensial terutama
+  berkenaan dengan memahami dan menguantifikasi
+  ketidakpastian estimasi parameter.
+  Walaupun persamaan dan rinciannya berubah
+  bergantung pada situasi, dasar-dasar inferensi
+  tetap sama di seluruh bidang statistika. \\
+
+  \noindent%
+  Kita mulai dengan topik yang sudah dikenal:
+  gagasan menggunakan proporsi sampel untuk mengestimasi
+  proporsi populasi.
+  Selanjutnya, kita menyusun apa yang disebut
+  \emph{\hiddenterm{selang kepercayaan}}, yaitu suatu rentang
+  nilai yang masuk akal dan mungkin memuat nilai populasi
+  yang sebenarnya.
+  Terakhir, kita memperkenalkan
+  \emph{kerangka pengujian hipotesis},
+  yang memungkinkan kita mengevaluasi secara formal klaim tentang
+  populasi, misalnya apakah suatu survei memberikan bukti kuat
+  bahwa seorang kandidat didukung oleh mayoritas
+  populasi pemilih.}
+
+
+
+%__________________
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""2339d6ba-af30-5b38-86fe-8300dda0b66b""]"
 e17153d3-a0a0-5e5f-815f-4a28e904403b,298c8a6d-ef49-5d05-a237-724ee9e76461,6,worked_example,en,ch_distributions/TeX/ch_distributions.tex,1179,1201,90c7e163c94d296232b9243b19f0adfe979e625f820bf512d416d21f4234e976,id-ID,qa/b015-build/source-snapshot-b015/ch_distributions/TeX/ch_distributions.tex,1173,1193,9008afe34258a29d5e03e2ab3fc74573efafdef8f8767702a4fdb067ed84d032,visually_checked,"\begin{examplewrap}
 \begin{nexample}{Berapa peluang bahwa kita menemukan sukses pertama
     di antara tiga kasus pertama?}
