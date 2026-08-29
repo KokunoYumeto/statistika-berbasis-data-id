@@ -1,0 +1,479 @@
+{
+  "$schema": "interlanguage.r011-b024-root-visual-inspection-qa/v1",
+  "all_pages_visually_inspected": true,
+  "automated_receipts_preserved_unchanged": true,
+  "automated_visual_receipt": {
+    "bytes": 82980,
+    "path": "qa/b024-reader/R011-B024_AUTOMATED_VISUAL_QA.json",
+    "sha256": "543ea03db38a283c323f71e383687d1137564389ebd7ce429ed34f03f175f1af"
+  },
+  "boundary_id": "R011-B024",
+  "complete_corpus": false,
+  "credentials_accessed": false,
+  "defect_count": 0,
+  "defects": [],
+  "git_used": false,
+  "inspected_contact_sheets": [
+    {
+      "bytes": 670394,
+      "dimensions": [
+        1040,
+        1725
+      ],
+      "disposition": "VISUALLY_INSPECTED_ZERO_DEFECTS",
+      "mode": "RGB",
+      "page_range": [
+        1,
+        20
+      ],
+      "path": "qa/b024-reader/render-v1/contacts/contact-001-020.png",
+      "sha256": "0b3af4c64d40b48bc78b6bcdcc53704f8cc49f79ad5f36e51bae659c1680f6f9"
+    },
+    {
+      "bytes": 864433,
+      "dimensions": [
+        1040,
+        1725
+      ],
+      "disposition": "VISUALLY_INSPECTED_ZERO_DEFECTS",
+      "mode": "RGB",
+      "page_range": [
+        21,
+        40
+      ],
+      "path": "qa/b024-reader/render-v1/contacts/contact-021-040.png",
+      "sha256": "43abae17b5243f3714c664424c925f8095045a158071bdf9dbec924ed864a318"
+    },
+    {
+      "bytes": 717881,
+      "dimensions": [
+        1040,
+        1725
+      ],
+      "disposition": "VISUALLY_INSPECTED_ZERO_DEFECTS",
+      "mode": "RGB",
+      "page_range": [
+        41,
+        60
+      ],
+      "path": "qa/b024-reader/render-v1/contacts/contact-041-060.png",
+      "sha256": "3948a0164bc5e0c09735209160ab94fb146b9048fd3dfc451852f25f51ad961a"
+    },
+    {
+      "bytes": 720433,
+      "dimensions": [
+        1040,
+        1725
+      ],
+      "disposition": "VISUALLY_INSPECTED_ZERO_DEFECTS",
+      "mode": "RGB",
+      "page_range": [
+        61,
+        80
+      ],
+      "path": "qa/b024-reader/render-v1/contacts/contact-061-080.png",
+      "sha256": "36cd67f1a430e919dba6239adbfb2e641f4c6fe32e12087fc22686c33c3f44f0"
+    },
+    {
+      "bytes": 632115,
+      "dimensions": [
+        1040,
+        1725
+      ],
+      "disposition": "VISUALLY_INSPECTED_ZERO_DEFECTS",
+      "mode": "RGB",
+      "page_range": [
+        81,
+        100
+      ],
+      "path": "qa/b024-reader/render-v1/contacts/contact-081-100.png",
+      "sha256": "c481e656fc19d6d2e0dd2182b7668f4f3a4b5fa92d452a2f24018012b1297e8b"
+    },
+    {
+      "bytes": 710741,
+      "dimensions": [
+        1040,
+        1725
+      ],
+      "disposition": "VISUALLY_INSPECTED_ZERO_DEFECTS",
+      "mode": "RGB",
+      "page_range": [
+        101,
+        120
+      ],
+      "path": "qa/b024-reader/render-v1/contacts/contact-101-120.png",
+      "sha256": "2949a3168a62510e1c267470244e0bc03c495e2b343a8699132c4a7add0e05e5"
+    },
+    {
+      "bytes": 629423,
+      "dimensions": [
+        1040,
+        1725
+      ],
+      "disposition": "VISUALLY_INSPECTED_ZERO_DEFECTS",
+      "mode": "RGB",
+      "page_range": [
+        121,
+        140
+      ],
+      "path": "qa/b024-reader/render-v1/contacts/contact-121-140.png",
+      "sha256": "7d6d5eea93e8c4cedc1bbdd3632553dfbd662b56ecc2af2d690432fae2edbbca"
+    },
+    {
+      "bytes": 703137,
+      "dimensions": [
+        1040,
+        1725
+      ],
+      "disposition": "VISUALLY_INSPECTED_ZERO_DEFECTS",
+      "mode": "RGB",
+      "page_range": [
+        141,
+        160
+      ],
+      "path": "qa/b024-reader/render-v1/contacts/contact-141-160.png",
+      "sha256": "24877f0911c1a67c7269f42a08d00fa1adaa22696d56252a3d6b0b9aa59309ff"
+    },
+    {
+      "bytes": 635618,
+      "dimensions": [
+        1040,
+        1725
+      ],
+      "disposition": "VISUALLY_INSPECTED_ZERO_DEFECTS",
+      "mode": "RGB",
+      "page_range": [
+        161,
+        180
+      ],
+      "path": "qa/b024-reader/render-v1/contacts/contact-161-180.png",
+      "sha256": "fb9a070fa3a40586a67db1b91a8345597c60efbc14f749b797e9726359f8a74a"
+    },
+    {
+      "bytes": 798877,
+      "dimensions": [
+        1040,
+        1725
+      ],
+      "disposition": "VISUALLY_INSPECTED_ZERO_DEFECTS",
+      "mode": "RGB",
+      "page_range": [
+        181,
+        200
+      ],
+      "path": "qa/b024-reader/render-v1/contacts/contact-181-200.png",
+      "sha256": "02e6609d2383797adca08faf469c21c857ff3b7dd384b2f5280ba2e7e27154cb"
+    },
+    {
+      "bytes": 757728,
+      "dimensions": [
+        1040,
+        1725
+      ],
+      "disposition": "VISUALLY_INSPECTED_ZERO_DEFECTS",
+      "mode": "RGB",
+      "page_range": [
+        201,
+        220
+      ],
+      "path": "qa/b024-reader/render-v1/contacts/contact-201-220.png",
+      "sha256": "fcd572be1e8a2f1e9b2d9dcba26a55791c84041101b7cf197937fe9f923032aa"
+    },
+    {
+      "bytes": 814620,
+      "dimensions": [
+        1040,
+        1725
+      ],
+      "disposition": "VISUALLY_INSPECTED_ZERO_DEFECTS",
+      "mode": "RGB",
+      "page_range": [
+        221,
+        240
+      ],
+      "path": "qa/b024-reader/render-v1/contacts/contact-221-240.png",
+      "sha256": "c1bd3b185ed4b3f53e90f033be49a494423be7221f542b4d028bacc4bcfccd58"
+    },
+    {
+      "bytes": 589422,
+      "dimensions": [
+        1040,
+        1725
+      ],
+      "disposition": "VISUALLY_INSPECTED_ZERO_DEFECTS",
+      "mode": "RGB",
+      "page_range": [
+        241,
+        253
+      ],
+      "path": "qa/b024-reader/render-v1/contacts/contact-241-253.png",
+      "sha256": "aeeed51e857c12c4d9009157cb3aa0b7273411fe6a54f17a3d0fef693ba430e1"
+    }
+  ],
+  "inspected_individual_page_rasters": [
+    {
+      "bytes": 265175,
+      "dimensions": [
+        1020,
+        1320
+      ],
+      "disposition": "VISUALLY_INSPECTED_ZERO_DEFECTS",
+      "inspection_scale": "FULL_120_DPI_PAGE_RASTER_1020_BY_1320",
+      "mode": "RGB",
+      "page": 232,
+      "path": "qa/b024-reader/render-v1/pages/page-232.png",
+      "sha256": "b61afdf1d5e94b725ceda51fb7749eaf3084426a1998c41d8ed4c8969c5ef1e3"
+    },
+    {
+      "bytes": 299659,
+      "dimensions": [
+        1020,
+        1320
+      ],
+      "disposition": "VISUALLY_INSPECTED_ZERO_DEFECTS",
+      "inspection_scale": "FULL_120_DPI_PAGE_RASTER_1020_BY_1320",
+      "mode": "RGB",
+      "page": 233,
+      "path": "qa/b024-reader/render-v1/pages/page-233.png",
+      "sha256": "892a39651fd6b40a9125f0b87c6181a96dcdbb7a3ed1cfbda7f2efdef1e8c54b"
+    },
+    {
+      "bytes": 185030,
+      "dimensions": [
+        1020,
+        1320
+      ],
+      "disposition": "VISUALLY_INSPECTED_ZERO_DEFECTS",
+      "inspection_scale": "FULL_120_DPI_PAGE_RASTER_1020_BY_1320",
+      "mode": "RGB",
+      "page": 234,
+      "path": "qa/b024-reader/render-v1/pages/page-234.png",
+      "sha256": "96ae53a598d0a93d8354f37e0a32b92bbda1724b58be07078bcdb39e1e9898dc"
+    },
+    {
+      "bytes": 72648,
+      "dimensions": [
+        1020,
+        1320
+      ],
+      "disposition": "VISUALLY_INSPECTED_ZERO_DEFECTS",
+      "inspection_scale": "FULL_120_DPI_PAGE_RASTER_1020_BY_1320",
+      "mode": "RGB",
+      "page": 235,
+      "path": "qa/b024-reader/render-v1/pages/page-235.png",
+      "sha256": "fcbeb2a809f076894782df6d06b3db7022e34c7045d36369095ad1459470d38d"
+    },
+    {
+      "bytes": 258776,
+      "dimensions": [
+        1020,
+        1320
+      ],
+      "disposition": "VISUALLY_INSPECTED_ZERO_DEFECTS",
+      "inspection_scale": "FULL_120_DPI_PAGE_RASTER_1020_BY_1320",
+      "mode": "RGB",
+      "page": 236,
+      "path": "qa/b024-reader/render-v1/pages/page-236.png",
+      "sha256": "75d6a669128a79ef32aa0580598528d15821b01e1834f17d245902350c5d9490"
+    },
+    {
+      "bytes": 238982,
+      "dimensions": [
+        1020,
+        1320
+      ],
+      "disposition": "VISUALLY_INSPECTED_ZERO_DEFECTS",
+      "inspection_scale": "FULL_120_DPI_PAGE_RASTER_1020_BY_1320",
+      "mode": "RGB",
+      "page": 237,
+      "path": "qa/b024-reader/render-v1/pages/page-237.png",
+      "sha256": "7b41c66fc162958d5ccb4ca30d53eec563a35d86e3f2a413e6ec69b8c3ec5987"
+    },
+    {
+      "bytes": 341053,
+      "dimensions": [
+        1020,
+        1320
+      ],
+      "disposition": "VISUALLY_INSPECTED_ZERO_DEFECTS",
+      "inspection_scale": "FULL_120_DPI_PAGE_RASTER_1020_BY_1320",
+      "mode": "RGB",
+      "page": 238,
+      "path": "qa/b024-reader/render-v1/pages/page-238.png",
+      "sha256": "96d3698e68423e42074f287ff459ae6de83ef035a786ccbf6c2b87d254e8cc55"
+    },
+    {
+      "bytes": 197976,
+      "dimensions": [
+        1020,
+        1320
+      ],
+      "disposition": "VISUALLY_INSPECTED_ZERO_DEFECTS",
+      "inspection_scale": "FULL_120_DPI_PAGE_RASTER_1020_BY_1320",
+      "mode": "RGB",
+      "page": 239,
+      "path": "qa/b024-reader/render-v1/pages/page-239.png",
+      "sha256": "c0ef0a70c750fdf8cdb88251c8a587897d5f0c41632c7023091535b9fd1b5e66"
+    },
+    {
+      "bytes": 249636,
+      "dimensions": [
+        1020,
+        1320
+      ],
+      "disposition": "VISUALLY_INSPECTED_ZERO_DEFECTS",
+      "inspection_scale": "FULL_120_DPI_PAGE_RASTER_1020_BY_1320",
+      "mode": "RGB",
+      "page": 240,
+      "path": "qa/b024-reader/render-v1/pages/page-240.png",
+      "sha256": "c404a14753bd6429f0f0fd2a6564a353238594e52bdd255557a0620c4142e34d"
+    },
+    {
+      "bytes": 174883,
+      "dimensions": [
+        1020,
+        1320
+      ],
+      "disposition": "VISUALLY_INSPECTED_ZERO_DEFECTS",
+      "inspection_scale": "FULL_120_DPI_PAGE_RASTER_1020_BY_1320",
+      "mode": "RGB",
+      "page": 241,
+      "path": "qa/b024-reader/render-v1/pages/page-241.png",
+      "sha256": "20ac89df92261cff64137fb0c0ac848398205eaebc8a2e941b9a1e99a1edcdb0"
+    },
+    {
+      "bytes": 410934,
+      "dimensions": [
+        1020,
+        1320
+      ],
+      "disposition": "VISUALLY_INSPECTED_ZERO_DEFECTS",
+      "inspection_scale": "FULL_120_DPI_PAGE_RASTER_1020_BY_1320",
+      "mode": "RGB",
+      "page": 251,
+      "path": "qa/b024-reader/render-v1/pages/page-251.png",
+      "sha256": "a971c2f7b8f95c3ebc76c801ee482cf8eb778add357c3614e2358fcb17be8f38"
+    },
+    {
+      "bytes": 418295,
+      "dimensions": [
+        1020,
+        1320
+      ],
+      "disposition": "VISUALLY_INSPECTED_ZERO_DEFECTS",
+      "inspection_scale": "FULL_120_DPI_PAGE_RASTER_1020_BY_1320",
+      "mode": "RGB",
+      "page": 252,
+      "path": "qa/b024-reader/render-v1/pages/page-252.png",
+      "sha256": "bc2495e020f05b66c2086d3690fb88de045bed13e28b7a34bd241b8065a32a10"
+    },
+    {
+      "bytes": 63621,
+      "dimensions": [
+        1020,
+        1320
+      ],
+      "disposition": "VISUALLY_INSPECTED_ZERO_DEFECTS",
+      "inspection_scale": "FULL_120_DPI_PAGE_RASTER_1020_BY_1320",
+      "mode": "RGB",
+      "page": 253,
+      "path": "qa/b024-reader/render-v1/pages/page-253.png",
+      "sha256": "b449afa5e15fe778305d864320d0a88f159a1f95c6a5b3011fd8a346075bf4e5"
+    }
+  ],
+  "inspection_method": {
+    "checks": [
+      "no clipping",
+      "no overlap",
+      "no unreadable figure",
+      "no broken table",
+      "no layout defect",
+      "new Section 6.3 charts and answer pages readable at original scale"
+    ],
+    "contact_sheet_count": 13,
+    "contact_sheet_coverage": [
+      1,
+      253
+    ],
+    "direct_visual_inspection_by_root_agent": true,
+    "human_inspector_claimed": false,
+    "individual_full_page_rasters": [
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      251,
+      252,
+      253
+    ],
+    "root_confirmation": "The root Codex agent directly inspected all 13 ordered contact sheets covering pages 1 through 253 and the full-page rasters for the complete new Section 6.3/exercise range 232-241 plus answer pages 251-253."
+  },
+  "inspection_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "learner_pdf": {
+    "bytes": 12390137,
+    "pages": 253,
+    "path": "scratch/b024-boundary-clean-reader/final/main.pdf",
+    "sha256": "fcd78ff026131e4979c0ea282b4468101406527f16dc335ee6583ad220273b53"
+  },
+  "network_used": false,
+  "page_count": 253,
+  "page_count_is_artifact_extent_not_translation_progress": true,
+  "pagewise_language_receipt": {
+    "bytes": 86185,
+    "path": "qa/b024-reader/R011-B024_PAGEWISE_LANGUAGE_QA.json",
+    "sha256": "eb59ed06717453bef6a6fb91b3d2629094e47e25f5e42b34914d15a2a6e0b43e"
+  },
+  "production_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "publication_performed": false,
+  "root_confirmation": {
+    "all_253_pages_covered_in_order": true,
+    "all_thirteen_contact_sheets_inspected": true,
+    "individual_pages_inspected": [
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      251,
+      252,
+      253
+    ],
+    "zero_defects_confirmed": true
+  },
+  "status": "PASS_ALL_253_PAGES_VISUALLY_INSPECTED_ZERO_DEFECTS",
+  "upstream_contact": false,
+  "verified_render_inventory": {
+    "contact_sheet_geometry": [
+      1040,
+      1725,
+      "RGB"
+    ],
+    "contact_sheets": {
+      "canonical_identity_inventory_sha256": "6fd84733d023dd329f5dc8ae4e3c16a4fd2b599c69807762aa91e1376e5972c5",
+      "file_count": 13,
+      "total_bytes": 9244822
+    },
+    "every_page_covered_exactly_once": true,
+    "page_geometry": [
+      1020,
+      1320,
+      "RGB"
+    ],
+    "page_pngs": {
+      "canonical_identity_inventory_sha256": "0fe2a2f2352fa099f7a3d58c6d5255e489d893c94b8eb82472638eb5a1645704",
+      "file_count": 253,
+      "total_bytes": 58844348
+    }
+  }
+}

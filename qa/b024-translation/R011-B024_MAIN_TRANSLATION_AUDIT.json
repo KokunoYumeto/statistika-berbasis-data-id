@@ -1,0 +1,308 @@
+{
+  "$schema": "interlanguage.r011-b024-main-translation-audit/v1",
+  "boundary_id": "R011-B024",
+  "status": "PASS_COMPLETE_MAIN_SECTION_TRANSLATION_STRUCTURAL_MATH_LANGUAGE_AND_CORRECTION_QA",
+  "provenance": {
+    "translation_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+    "authority_commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "authority_slice": {
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_props/TeX/ch_inference_for_props.tex",
+      "bytes": 35242,
+      "sha256": "c8f9a8299a08be463fa869321de05db2cfeaf5e1a8abb0d65a035cb4a09d5ec2",
+      "first_line": 1344,
+      "last_line": 2001
+    },
+    "blueprint": {
+      "path": "qa/b024-source/R011-B024_BOUNDARY_BLUEPRINT.json",
+      "bytes": 40830,
+      "sha256": "66cf48d7f797aed42434a78d3e2e43c283cac594f3f4714136a022e1ac78127e"
+    }
+  },
+  "coverage": {
+    "main_instructional_source_complete": true,
+    "source_first_line": 1344,
+    "source_last_line": 2001,
+    "logical_lines": 658,
+    "exercise_or_public_answer_translation_in_this_audit": false
+  },
+  "targets": [
+    {
+      "path": "qa/b024-translation/staging/section-lines-1344-1471.id.tex",
+      "source_first_line": 1344,
+      "source_last_line": 1471,
+      "logical_lines": 128,
+      "bytes": 9094,
+      "sha256": "2c807758f04f5d38e8feaedfe8fcd28dca592c022a10232ccc89ac2e71e7f6a2"
+    },
+    {
+      "path": "qa/b024-translation/staging/section-lines-1472-1633.id.tex",
+      "source_first_line": 1472,
+      "source_last_line": 1633,
+      "logical_lines": 162,
+      "bytes": 9227,
+      "sha256": "7230f23e35b9e5d19e86b585e473f9c71f0c6dd000b9e6173a7df34dd75015da"
+    },
+    {
+      "path": "qa/b024-translation/staging/section-lines-1634-1763.id.tex",
+      "source_first_line": 1634,
+      "source_last_line": 1763,
+      "logical_lines": 130,
+      "bytes": 6280,
+      "sha256": "ca2b62effbd474bdba83a7a778d6eae2f166b57c0b398e611d3204d6ce771ee7"
+    },
+    {
+      "path": "qa/b024-translation/staging/section-lines-1764-2001.id.tex",
+      "source_first_line": 1764,
+      "source_last_line": 2001,
+      "logical_lines": 238,
+      "bytes": 11932,
+      "sha256": "426f235d8fc496bcaec34da3313ef1fb2c18e6b57384abbb46dbb8dc8c66a6a3"
+    }
+  ],
+  "aggregate_target": {
+    "bytes": 36533,
+    "sha256": "11d7d6cce5dcf73da985da249feec4e993102e3a741ab5c6e3d75b9e957f5e7b"
+  },
+  "structural_qa": {
+    "status": "PASS",
+    "source_and_target_logical_lines": 658,
+    "balanced_braces": true,
+    "exact_structure_sequences": {
+      "labels": 20,
+      "references": 37,
+      "begin_environments": 65,
+      "end_environments": 65,
+      "figure_calls": 10
+    },
+    "control_sequence_deltas": {
+      "\\approx": 1,
+      "\\sqrt": 1,
+      "\\text": 3
+    },
+    "control_sequence_delta_policy": "Only correction/localization additions: sqrt, approx, and three text wrappers."
+  },
+  "mathematical_qa": {
+    "status": "PASS",
+    "inline_math_spans_each": 79,
+    "approved_math_differences": [
+      {
+        "index": 4,
+        "source": "np(1-p)",
+        "target": "\\sqrt{np(1-p)}"
+      },
+      {
+        "index": 60,
+        "source": "k^{th}",
+        "target": "k"
+      },
+      {
+        "index": 66,
+        "source": "\\spdaysEProp{} \\times \\spdays{} = \\spdaysEC",
+        "target": "\\spdaysEProp{} \\times \\spdays{} \\approx \\spdaysEC"
+      },
+      {
+        "index": 75,
+        "source": "df = k - 1 = \\spdaysDF{}",
+        "target": "df = k - 1 - 1 = \\spdaysDF{}"
+      }
+    ],
+    "numeric_token_deltas": {
+      "0.1127708": 1,
+      "0.1128": -1,
+      "0.4548": 1,
+      "0.455": -1,
+      "0.4650": 1,
+      "0.545": -1,
+      "0.5452": 1,
+      "0.5951": -1,
+      "1": 1,
+      "2": 1,
+      "5": 2,
+      "6": -2,
+      "10": 1,
+      "12": -1,
+      "12.0531": 1,
+      "14": -1,
+      "14.4489": 1,
+      "25": -1,
+      "31.7698": 1,
+      "32": -1,
+      "45.48": 1,
+      "45.5": -1,
+      "47": 1,
+      "54.5": -1,
+      "54.52": 1,
+      "60": -1,
+      "69.8545": 1,
+      "70": -1,
+      "153.5939": 1,
+      "154": -1,
+      "337.7174": 1,
+      "338": -1,
+      "742.5624": 1,
+      "743": -1
+    },
+    "sp500_recalculation": {
+      "rows": 2501,
+      "daily_differences": 2500,
+      "fitted_p": 0.5452,
+      "observed": [
+        717,
+        369,
+        155,
+        69,
+        28,
+        14,
+        10
+      ],
+      "expected_unrounded": [
+        742.5624,
+        337.71737952,
+        153.59386420569598,
+        69.85448944075054,
+        31.76982179765334,
+        14.448914953572741,
+        12.053130082327423
+      ],
+      "expected_total": 1362.0,
+      "pearson_chi_square": 4.612002912979501,
+      "degrees_of_freedom": 5,
+      "p_value": 0.4650390952024728,
+      "conclusion": "fail_to_reject_unchanged"
+    }
+  },
+  "language_qa": {
+    "status": "PASS",
+    "forbidden_source_phrases_checked": 25,
+    "residual_english_phrases": [],
+    "unicode_dash_count": 0,
+    "terminology_decisions": [
+      {
+        "source": "chi-square",
+        "target": "khi-kuadrat",
+        "decision": "Use the established edition form already present in the Indonesian preface."
+      },
+      {
+        "source": "goodness of fit",
+        "target": "kesesuaian",
+        "decision": "Natural statistical noun; section title is 'uji kesesuaian'."
+      },
+      {
+        "source": "degrees of freedom",
+        "target": "derajat kebebasan",
+        "decision": "Matches the localized chart legend exactly."
+      },
+      {
+        "source": "observed count",
+        "target": "cacah teramati",
+        "decision": "Use 'Teramati' as the compact chart/table legend."
+      },
+      {
+        "source": "expected count",
+        "target": "cacah harapan",
+        "decision": "Use 'Harapan' as the compact chart legend; avoid collision with expectation E(X) by retaining 'cacah'."
+      },
+      {
+        "source": "test statistic",
+        "target": "statistik uji",
+        "decision": "Preserves existing edition terminology."
+      },
+      {
+        "source": "p-value",
+        "target": "nilai-p",
+        "decision": "Preserves existing edition spelling and the localized chart annotation."
+      },
+      {
+        "source": "right skewed",
+        "target": "menceng ke kanan",
+        "decision": "Natural Indonesian field usage."
+      },
+      {
+        "source": "upper tail",
+        "target": "ekor atas",
+        "decision": "Direct, established distribution terminology."
+      },
+      {
+        "source": "independence / independent",
+        "target": "independensi / independen",
+        "decision": "Use the noun/adjective distinction consistently."
+      },
+      {
+        "source": "Up / Down",
+        "target": "Naik / Turun",
+        "decision": "Localize reader-visible market-state labels while preserving the mathematical sequence."
+      },
+      {
+        "source": "Wait Until Positive Day",
+        "target": "Waktu tunggu hingga hari kenaikan",
+        "decision": "Matches the localized S&P chart axis exactly."
+      }
+    ]
+  },
+  "correction_qa": {
+    "status": "PASS_10_MAIN_SECTION_CORRECTIONS_APPLIED_1_EXERCISE_ANSWER_CORRECTION_OUT_OF_SCOPE",
+    "blueprint_correction_candidates_total": 11,
+    "main_section_correction_candidates_applied": 10,
+    "out_of_scope_correction": "Exercise 31 and public answer 31 incorrectly say a chi-square statistic is always positive; exercises/answers are owned by a separate bounded translation lane.",
+    "evidence": {
+      "opening_uses_ten_years": true,
+      "binomial_standard_error_has_sqrt": true,
+      "normal_distribution_tense_rendered_naturally": true,
+      "degrees_of_freedom_guided_practice_grammar_repaired": true,
+      "stable_misspelled_asset_id_preserved": true,
+      "degrees_of_freedom_number_agreement_repaired": true,
+      "tail_area_sentence_repaired": true,
+      "sp500_alt_text_grammar_repaired_and_chart_aligned": true,
+      "expected_counts_are_unrounded": true,
+      "fitted_probability_is_exactly_bound": true,
+      "fitted_parameter_df_is_five": true,
+      "corrected_p_value": true,
+      "conclusion_unchanged": true
+    },
+    "authority_mutated": false
+  },
+  "localized_chart_binding": {
+    "receipt": {
+      "path": "qa/b024-translation/R011-B024_LOCALIZED_CHARTS_QA.json",
+      "bytes": 4122,
+      "sha256": "3c6a445e357337ea13bef2f358fab338730431976211b2c918817bbd59c4ab3c"
+    },
+    "status": "PASS_THREE_LABEL_BEARING_CHARTS_LOCALIZED_AND_EXACTLY_REPLAYED",
+    "outputs": [
+      {
+        "path": "qa/b024-translation/staging/assets/chiSquareDistributionWithInceasingDF.id.pdf",
+        "bytes": 10271,
+        "sha256": "feb324a8bf54f25817455997634ebc8d63909ae68a66ed6144a9c4452e0d0420"
+      },
+      {
+        "path": "qa/b024-translation/staging/assets/geomFitEvaluationForSP500.id.pdf",
+        "bytes": 10898,
+        "sha256": "9e9d60d2ba4a0de959c694ef97b6f4d153f3582c67a350f76d8964fcacf06b18"
+      },
+      {
+        "path": "qa/b024-translation/staging/assets/geomFitPValueForSP500.id.pdf",
+        "bytes": 32003,
+        "sha256": "7f7d5b0a39a3307bb13892d734628423450ec710e83f9ac715e7e00aa1adcaf8"
+      }
+    ],
+    "visible_terms_aligned": [
+      "Derajat kebebasan",
+      "Teramati",
+      "Harapan",
+      "Frekuensi",
+      "Waktu tunggu hingga hari kenaikan",
+      "Luas yang menyatakan nilai-p"
+    ]
+  },
+  "scope_guards": {
+    "main_translation_staged_only": true,
+    "exercises_or_answers_mutated_by_this_operation": false,
+    "backend_mutated": false,
+    "reader_or_output_mutated": false,
+    "controls_mutated": false,
+    "release_or_publication_mutated": false,
+    "git_used": false,
+    "network_used": false,
+    "credentials_accessed": false
+  }
+}

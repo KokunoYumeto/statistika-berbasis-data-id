@@ -44,7 +44,9 @@ id,affected_id,category,summary,disposition,confidence,status
 3169b13f-e022-524a-924f-85d3b72fb094,5ae02b29-9532-5167-9a0e-abde9ad9048c,formula_symbol_inconsistency,,,high,active
 31b634d4-1109-5e35-8e71-f7d86a4bd55d,f5fb316e-6dd4-51e6-9e06-34ebb0d2fab2,grammatical_typo,,,high,active
 329a8e91-f482-561b-acdc-f40417b5858f,6242cdaa-0f32-5a58-a516-50bb0ef212b1,grammar,,,high,active
+34740fe8-fec2-52eb-b9f4-960c814020fd,3d21d8f6-cd4d-5b40-ba1a-95940ede3b94,sp500_alt_text_half_as_high,,,high,active
 367bddb6-f5af-5643-9675-69824d1503af,06b28e64-c231-50b0-b1f6-648ba4ba5102,localized_layout_adaptation,B014-LA001: \D{\newpage},applied_in_terminal_b014_candidate,high,active
+37fcd6d0-24f5-54ca-af33-4ca1e90463b9,b6a67d35-a676-579f-b64c-e42dc65864f7,normal_distribution_present_tense,,,high,active
 38ab1e8b-ea0c-5a85-bb6c-e21ff1838adc,9cf167d5-4320-5a32-b56f-605c6e7ff489,prose_and_tex_punctuation,,,high,active
 390b4aff-09c1-56dc-a981-d6eddc63e103,76ecd2e2-efd6-5cd9-b054-41be3101723f,translation_directionality,,,high,active
 3d6aa43c-508e-5e90-b81a-ff6bb2b064e5,8b9932bf-3164-5e36-a64a-304ae1894c90,grammar,,,high,active
@@ -68,6 +70,7 @@ id,affected_id,category,summary,disposition,confidence,status
 56fcf49d-7776-5cc9-a4b3-86b77a310cf6,9cf167d5-4320-5a32-b56f-605c6e7ff489,causal_inference,,,high,active
 575cccf4-5bc4-5362-b46b-c13f0db9cc66,b9823605-b359-533a-9cb9-84628fa32225,pdf_metadata_and_language,,,high,active
 57c682ac-05b5-5af7-b968-97da0abe9c12,6c1dd36c-f3f2-5b99-b629-a5100d9fbb85,source_correction,B016-SC003: explicit derivative-scoped source correction,applied_in_terminal_b016_candidate,high,active
+580a2751-a37e-5346-9cd0-bc2dce3242bb,b6a67d35-a676-579f-b64c-e42dc65864f7,degrees_of_freedom_number_agreement,,,high,active
 58333b00-3205-5cf9-b873-cf927b1ac40d,06b28e64-c231-50b0-b1f6-648ba4ba5102,source_correction,B014-SC008: Answer to part (b) would not change ... could not answer parts (d)-(f),applied_in_terminal_b014_candidate,high,active
 58d1d4bb-5bed-51c1-80a3-bd0ab8d6d7d0,187be28f-bd7f-565a-ab42-9a8fc4bf8185,source_correction,B016-SC004: explicit derivative-scoped source correction,applied_in_terminal_b016_candidate,high,active
 5b0fb447-56a3-5336-b5d0-eb4230043731,06b28e64-c231-50b0-b1f6-648ba4ba5102,source_correction,B014-SC007: it can be assumed that they to follow a normal distribution,applied_in_terminal_b014_candidate,high,active
@@ -79,15 +82,18 @@ id,affected_id,category,summary,disposition,confidence,status
 71df5bf4-fac9-5cd2-9428-b87b4a33693b,2789ea8d-6fa1-5e81-8dcc-c7d4bff3c42c,publication_state_semantics,,clarified_in_backend_QA_controls_and_checkpoint; published_package_bytes_unchanged,high,active
 73f47817-a29e-5574-9a29-c9371044c61f,4ad79ac2-b6ea-5eb3-86f4-298962d0bb50,public_answer_category_misalignment,,,high,active
 7792c8af-f392-53a9-a5ee-901a0358ed1f,c526fa55-62c1-5a35-bb8d-40abfc2fc3d8,public_answer_design_contradiction,,,high,active
+7efc0506-5000-5d1b-8647-9bf8e60fa074,b4622874-ecdd-5924-918f-e2e9255a053b,chi_square_nonnegative_not_positive,,,high,active
 80e46e51-acc3-5334-8d7b-0cbe02a72d34,49ca843c-e79c-5858-96ba-34396dd18ae6,component_rights,,,high,active
 81470fb8-b008-5073-9278-35aff1fcb141,aa0c130d-cb84-5a06-b650-6dc25cefd73c,answer_generalization,,,high,active
 81b6a3db-1c00-5ebc-8b44-ef5eccc809f3,38d29400-2764-5109-a7fd-d245c7e52b17,sampling_definition,,,high,active
 845da5b8-c031-5c7f-9314-6c8ba28900a4,ca0df825-ca52-52be-a3e6-0c3090edaa4c,grammar_subject_verb_agreement,B017-C005: high-confidence upstream copyedit candidate,recorded_not_applied_to_authority,high,active
+873e951b-1d0a-50e2-bdd0-dc4a28e2de33,3d21d8f6-cd4d-5b40-ba1a-95940ede3b94,unrounded_expected_counts,,,high,active
 87636e43-d788-51e2-9aea-8362fa95bfa0,6836cc12-95af-5484-8839-aa1e016867b6,publication_state_semantics,,clarified_in_backend_QA_controls_and_checkpoint; published_package_bytes_unchanged,high,active
 890b1089-827e-517f-952d-002eaa81f1aa,a766f9cd-f941-5953-b2d9-9d5f0b9a8764,localization_accessibility,"The twelve not_picked strings inside the resp macro are reader-visible texttt output, not opaque identifiers.",applied_before_terminal_b011_translation_gate,high,active
 8ac4eb09-f136-550c-a3f5-b6e8385325ab,f03bc0fc-6c96-5db2-8d50-46b2ac141f2b,accessibility_semantics,"The 0.0689 leaf is Midterm=A and Final=Other, but the source alt text describes other-and-other.",applied_in_isolated_b010_candidate,high,active
 8d40d947-eeca-570c-a75c-3a6a3b551ec3,c30ed712-53d9-5d5c-9e77-fc405aee5528,accessibility_marker_accuracy,State the first-year exception and identify crosses for women and points for men.,hold_until_corpus_complete_then_deduplicate,high,active
 8e35debf-4dd5-5e87-bf3a-4f0eb0b5bed9,dbda91d1-7c2a-59ea-8049-c1847a4c4218,invalid_variable_identifier,,,high,active
+9055ae2a-5052-524d-a9cb-91302b9e16e7,c79f2f09-2450-563f-a049-ef63fea47746,fitted_parameter_degrees_of_freedom,,,high,active
 91f341a7-8fe7-5748-94b4-eaf2cf745faa,b9823605-b359-533a-9cb9-84628fa32225,generated_labels,,,high,active
 920c2b3d-29bf-5a5b-bcec-f14a23576e50,a36d034f-f5c1-5f04-89ac-c4f4a6cd046d,caption_grammar,,,high,active
 92b3f75f-d3bd-58bf-bb7e-6a203f7f58ce,c30ed712-53d9-5d5c-9e77-fc405aee5528,accessibility_range_accuracy,Describe 2.0-3.2 and 1970-2000 as axis ranges.,hold_until_corpus_complete_then_deduplicate,high,active
@@ -96,6 +102,7 @@ id,affected_id,category,summary,disposition,confidence,status
 9c7c9691-1d75-5cdb-8585-d25e8240123a,fc1bd953-2912-5d8b-9e76-002dc648bd25,source_provenance_discrepancy,The adjacent research note cites a 7.4% false-positive statement while the producer and reader text use 7%.,applied_in_isolated_b010_candidate,high,active
 9c840628-4d7a-5aaf-9109-5dbc1aa8bbce,d8f095f4-b65e-533d-ae7e-f9eeeeb3835a,experimental_design,,,high,active
 9ea4d3d8-b96e-5f04-9712-5f8b819a9202,8eb2d76e-01a5-5f6a-944c-4dc01adf6597,public_answer_misalignment,,,high,active
+9f72ffb8-d0b0-5069-8d0f-b47afc6e09fe,ab39d771-26e7-5872-b2ef-081a53a1644b,binomial_standard_error_square_root,,,high,active
 9fd4de0a-e488-5d3a-a671-0f452707e375,cda64c06-7961-5028-afbc-01956ce7d61c,layout_reflow_exercise_break,,,high,active
 a0902a70-b856-5d34-bf64-379a29184d90,b9823605-b359-533a-9cb9-84628fa32225,layout_reflow_answer_break,,,high,active
 a5f473f6-7eaf-558e-b795-0f2a6b9b54da,06b28e64-c231-50b0-b1f6-648ba4ba5102,source_correction,"B014-SC011: Q1 = 23.13, Q3 = 26.86, IQR = 26.86 - 23.13 = 3.73",applied_in_terminal_b014_candidate,high,active
@@ -119,6 +126,7 @@ b75ead67-152e-5c89-9dbe-5e2aa87c10a0,ca0df825-ca52-52be-a3e6-0c3090edaa4c,gramma
 b8fbb49c-1fa0-52b7-98d8-d084de30600f,8b9932bf-3164-5e36-a64a-304ae1894c90,spatial_reference,,,high,active
 ba91278d-5d5f-5b3a-a8d7-1efb8edc6a0e,b4cd26a2-3443-5b4d-9a38-f2d9766ae10a,accessibility_grammar,,,high,active
 ba9a1557-65a1-5584-83ee-8c2a6f5b7be0,4a0f5bef-95db-5c6c-ae94-097778cff15d,layout_reflow_float_and_exercise_header,,,high,active
+bbe31395-03cf-53b4-88ed-c0774b2be94c,61e1c83c-7498-5cd8-adb1-46c84a2c9f48,increasing_identifier_semantic_alias,,,high,active
 c019502b-15a3-5bf4-bdaf-a684f021a06d,6951ea72-89ba-55eb-8098-ffbcba49cb5f,corrected_public_answer_values,,,high,active
 c0c83b62-d073-5b03-946b-2bdcf349c676,06b28e64-c231-50b0-b1f6-648ba4ba5102,source_correction,B014-SC001: grad lifting,applied_in_terminal_b014_candidate,high,active
 c208b5ac-52d7-538c-8401-7ad6a8a25f41,8b9932bf-3164-5e36-a64a-304ae1894c90,accessibility_mismatch,,,high,active
@@ -126,6 +134,7 @@ c2fd6c01-237b-51ce-9663-3ac44783b2e4,a132efe2-d782-5317-859e-6b0fd4cab424,answer
 c3212242-374d-5fa8-8b2e-30e50fb99528,4c8457ff-0769-59f0-9a0d-040a50fb107c,source_accessibility,B013-SC003: fourth bin height 25,applied_in_terminal_b013_candidate,high,active
 c324f35f-682e-5e9a-a48c-dded1a0031cb,ca0df825-ca52-52be-a3e6-0c3090edaa4c,grammar_subject_verb_agreement,B017-C004: high-confidence upstream copyedit candidate,recorded_not_applied_to_authority,high,active
 c3720413-ab3d-5ecd-9e2f-6b3bfa4dacd1,17acf038-9821-5e3d-9ffa-1526fab12218,variable_mismatch,,,high,active
+c4c81d6e-7fe7-5153-af21-07930b0ec6e0,8033d95c-22e2-52ee-837d-8774ab8803c3,ten_year_sp500_interval,,,high,active
 c55eef80-c64e-5a6e-aaf7-08a7f0bdfce2,bac586bc-5065-5e98-a3ae-8376ff0851ac,source_correction,B015-SC001: explicit derivative-scoped source correction,applied_in_terminal_b015_candidate,high,active
 c6243fde-2d91-5b85-ac86-874913c8207a,05ed1aa2-8201-50ff-8cb7-893d51314da9,accessibility_grammar,,,high,active
 c857903f-b07f-5baa-b13e-88c049ca8f97,d9efb99c-8c75-58b6-be7f-d14996d9f5b0,target_terminology_wording,,,high,active
@@ -152,6 +161,7 @@ e39a52ae-b9ae-5624-8673-12e42223fea5,2ffcfeef-a30d-5f61-943c-e0004b8e792c,clarit
 e4a078c9-b583-5429-a1bd-db333a70a187,47a4fe12-f3c0-587a-b879-47adb3ee9dc9,source_grammar,The source says `independence processes`.,applied_in_isolated_b010_candidate,high,active
 e53d742b-757b-50c3-85be-584d662408fb,a485ca16-e7af-5fc9-a661-2481b3a87b29,source_accessibility,Malformed phrase listed on in the total on the last line.,applied_in_terminal_b012_candidate,high,active
 e5ae681e-52ca-548b-aef2-4023d49c40b1,38d29400-2764-5109-a7fd-d245c7e52b17,figure_description_accuracy,,,high,active
+e7b98d80-2fb5-564a-b4b1-d039f9206668,b6a67d35-a676-579f-b64c-e42dc65864f7,tail_area_sentence_grammar,,,high,active
 eb6ea6fa-3280-5b9b-bdbd-3e01489e6488,b9823605-b359-533a-9cb9-84628fa32225,latex_grouping,,,high,active
 eb8e1abd-74f3-56c4-945d-9aef7e62edfa,7f6efe22-ac57-53a1-bb09-e6e9d1e12742,drug_name_spelling_and_grammar,,,high,active
 ec2dcc34-872d-5f6f-90a8-0ed266899557,da257b3a-e08f-562f-9796-9aac8b096719,percentage_point_estimand,,,high,active
@@ -168,5 +178,6 @@ f9383249-1d5d-58f0-9155-86786f242ec3,9cf167d5-4320-5a32-b56f-605c6e7ff489,index_
 f97c2991-2917-5dfb-a6a0-269a0bbf7978,3413dcec-8e83-5165-b99b-ed8b369a5a32,figure_caption,,,high,active
 f9fbf962-893f-5def-8700-f163e949e8aa,06b28e64-c231-50b0-b1f6-648ba4ba5102,localized_layout_adaptation,B014-LA002: default paragraph line count allowed the final word 'sebagai' to cross the page after Figure 4.5 floated,applied_in_terminal_b014_candidate,high,active
 fa2623e6-f6e3-5803-ac3a-4c3611c4d00d,499597dd-69ae-5d05-9d8a-7d80e7a8c46a,percentage_point_language,,,high,active
+fa4a1bb2-ed7a-5338-84bf-d655eb4106d7,b6a67d35-a676-579f-b64c-e42dc65864f7,guided_practice_number_and_answer_grammar,,,high,active
 fa5afa0b-1850-5954-a0c0-9bdb8cea3457,38d29400-2764-5109-a7fd-d245c7e52b17,internal_hyperlink,,,high,active
 fe707ab5-436e-5366-935b-76b962a1679a,38d29400-2764-5109-a7fd-d245c7e52b17,study_design_scope,,,high,active

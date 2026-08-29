@@ -1,0 +1,125 @@
+{
+  "$schema": "interlanguage.r011-b024-main-translation-independent-audit/v1",
+  "boundary_id": "R011-B024",
+  "status": "PASS_INDEPENDENT_MAIN_TRANSLATION_MEANING_STRUCTURE_MATH_CORRECTIONS_CHARTS_RIGHTS_AND_LANGUAGE_QA",
+  "audit_role": "Independent bounded read-only audit; this auditor did not translate or modify the four main-section chunks.",
+  "verifier": {
+    "path": "qa/b024-translation/verify_R011_B024_main_translation_independent.py",
+    "bytes": 11045,
+    "sha256": "ec17a8176b8f66dd0aeec062909620f69a74a0c995eee587600875806b85826d",
+    "py_compile": "PASS",
+    "execution": "PASS_ZERO_FAILURES"
+  },
+  "frozen_inputs": {
+    "authority_file": {
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_props/TeX/ch_inference_for_props.tex",
+      "bytes": 103385,
+      "sha256": "a2470ca3041209d1f1194b3ab27e8124405d8fdbd1ccece89a0319be13fae8a7"
+    },
+    "authority_slice": {
+      "first_line": 1344,
+      "last_line": 2001,
+      "logical_lines": 658,
+      "bytes": 35242,
+      "sha256": "c8f9a8299a08be463fa869321de05db2cfeaf5e1a8abb0d65a035cb4a09d5ec2"
+    },
+    "blueprint": {
+      "path": "qa/b024-source/R011-B024_BOUNDARY_BLUEPRINT.json",
+      "bytes": 40830,
+      "sha256": "66cf48d7f797aed42434a78d3e2e43c283cac594f3f4714136a022e1ac78127e"
+    },
+    "producer_audit": {
+      "path": "qa/b024-translation/R011-B024_MAIN_TRANSLATION_AUDIT.json",
+      "bytes": 9726,
+      "sha256": "90eb218c6b87169521896f2f3af4d04a08c0f8e5fc61c26dfcb7be80b6d91d8c"
+    }
+  },
+  "audited_targets": [
+    {"path": "qa/b024-translation/staging/section-lines-1344-1471.id.tex", "source_lines": "1344-1471", "logical_lines": 128, "bytes": 9094, "sha256": "2c807758f04f5d38e8feaedfe8fcd28dca592c022a10232ccc89ac2e71e7f6a2"},
+    {"path": "qa/b024-translation/staging/section-lines-1472-1633.id.tex", "source_lines": "1472-1633", "logical_lines": 162, "bytes": 9227, "sha256": "7230f23e35b9e5d19e86b585e473f9c71f0c6dd000b9e6173a7df34dd75015da"},
+    {"path": "qa/b024-translation/staging/section-lines-1634-1763.id.tex", "source_lines": "1634-1763", "logical_lines": 130, "bytes": 6280, "sha256": "ca2b62effbd474bdba83a7a778d6eae2f166b57c0b398e611d3204d6ce771ee7"},
+    {"path": "qa/b024-translation/staging/section-lines-1764-2001.id.tex", "source_lines": "1764-2001", "logical_lines": 238, "bytes": 11932, "sha256": "426f235d8fc496bcaec34da3313ef1fb2c18e6b57384abbb46dbb8dc8c66a6a3"}
+  ],
+  "aggregate_target": {"logical_lines": 658, "bytes": 36533, "sha256": "11d7d6cce5dcf73da985da249feec4e993102e3a741ab5c6e3d75b9e957f5e7b"},
+  "independent_findings": {
+    "meaning_and_natural_id_ID": {
+      "status": "PASS",
+      "method": "Line-aligned source/target review across all four chunks, with focused rereading of hypotheses, Pearson construction, distribution/tail explanations, juror inference, geometric waiting-time model, and final interpretation.",
+      "assessment": "The Indonesian is natural instructional prose, preserves hedging and inferential direction, distinguishes observed and expected counts, and keeps the failure-to-reject conclusion weaker than acceptance. No material omission, reversal, invented claim, or unnatural meaning-changing calque was found.",
+      "terminology": ["uji kesesuaian", "khi-kuadrat", "derajat kebebasan", "cacah teramati", "cacah harapan", "statistik uji", "nilai-p", "ekor atas", "menceng ke kanan", "independensi"]
+    },
+    "source_order_and_topology": {
+      "status": "PASS",
+      "source_lines": 658,
+      "target_lines": 658,
+      "labels_exact_sequence": 20,
+      "references_exact_sequence": 37,
+      "begin_environments_exact_sequence": 65,
+      "end_environments_exact_sequence": 65,
+      "figure_calls_exact_sequence": 10,
+      "braces_balanced": true
+    },
+    "math_and_numerics": {
+      "status": "PASS",
+      "meaning_preserved": true,
+      "approved_correction_deltas_only": ["sqrt(np(1-p)) standard error", "grammatical k-th wording without exponent", "approximately sign for rounded displayed count", "k-1-1 degrees of freedom for one fitted parameter"]
+    },
+    "ten_main_scope_corrections": {
+      "status": "PASS_ALL_10",
+      "evidence": [
+        "Opening uses the evidenced 10-year interval.",
+        "Binomial standard error is sqrt(np(1-p)), not np(1-p).",
+        "Normal-distribution statement uses natural present tense.",
+        "Guided-practice number agreement and answer grammar are repaired.",
+        "Stable misspelled identifier chiSquareDistributionWithInceasingDF is preserved while prose/alt text is grammatical.",
+        "Degrees-of-freedom number agreement is grammatical.",
+        "Tail-area statement directly and grammatically gives 0.1165.",
+        "S&P alt comparison says the next bar is about half as high.",
+        "Expected counts are displayed as decimal approximations while Pearson X-squared uses unrounded expectations and remains approximately 4.61.",
+        "One fitted geometric parameter yields df=5 and p approximately 0.4650; the failure-to-reject conclusion is unchanged."
+      ],
+      "exercise_answer_correction_out_of_scope": true
+    },
+    "sp500_independent_recalculation": {
+      "data": {"path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_props/figures/geomFitEvaluationForSP500/sp500_1950_2018.csv", "bytes": 1301875, "sha256": "fb4271bbb4284c03848eda46624734ad37e1b81ca16258385a160c1aa459dd6a"},
+      "rows": 2501,
+      "daily_differences": 2500,
+      "fitted_p": 0.5452,
+      "observed": [717, 369, 155, 69, 28, 14, 10],
+      "expected_unrounded": [742.5624, 337.71737952, 153.59386420569598, 69.85448944075054, 31.769821797653343, 14.448914953572741, 12.05313008232747],
+      "expected_total": 1362.0,
+      "pearson_chi_square": 4.612002912979517,
+      "degrees_of_freedom": 5,
+      "p_value": 0.46503909520247055,
+      "conclusion": "fail_to_reject_unchanged"
+    },
+    "localized_charts": {
+      "status": "PASS_CALLS_TERMINOLOGY_AND_BOUND_ASSET_IDENTITIES",
+      "qa_receipt": {"path": "qa/b024-translation/R011-B024_LOCALIZED_CHARTS_QA.json", "bytes": 4122, "sha256": "3c6a445e357337ea13bef2f358fab338730431976211b2c918817bbd59c4ab3c"},
+      "visual_receipt": {"path": "qa/b024-translation/R011-B024_LOCALIZED_CHARTS_VISUAL_QA.json", "bytes": 2411, "sha256": "42e746f9b439bf653f965fed64dd1d9aec16b2c9dd3f0209c720e8fb9dd3cc44"},
+      "visible_terms": ["Derajat kebebasan", "Teramati", "Harapan", "Frekuensi", "Waktu tunggu hingga hari kenaikan", "Luas yang menyatakan nilai-p"],
+      "assets": [
+        {"path": "qa/b024-translation/staging/assets/chiSquareDistributionWithInceasingDF.id.pdf", "bytes": 10271, "sha256": "feb324a8bf54f25817455997634ebc8d63909ae68a66ed6144a9c4452e0d0420"},
+        {"path": "qa/b024-translation/staging/assets/geomFitEvaluationForSP500.id.pdf", "bytes": 10898, "sha256": "9e9d60d2ba4a0de959c694ef97b6f4d153f3582c67a350f76d8964fcacf06b18"},
+        {"path": "qa/b024-translation/staging/assets/geomFitPValueForSP500.id.pdf", "bytes": 32003, "sha256": "7f7d5b0a39a3307bb13892d734628423450ec710e83f9ac715e7e00aa1adcaf8"}
+      ]
+    },
+    "component_rights": {
+      "status": "PASS",
+      "repository_components": "CC BY-SA 3.0 repository declaration; preserve attribution/share-alike derivative notice, use a novel derivative title, and exclude OpenIntro branding/logo.",
+      "sp500_limitation": "The adjacent CSV is resolved only as a component under the repository declaration; no broader standalone market-data license is asserted.",
+      "new_unresolved_binary_dependency": false
+    },
+    "residual_english": {
+      "status": "PASS_ZERO_READER_PROSE_PHRASES",
+      "residual_phrases": [],
+      "allowed_nonprose": "Stable TeX identifiers, macro names, index metadata, proper names, and S&P500 remain unchanged for compatibility/provenance."
+    }
+  },
+  "scope_guards": {
+    "translations_or_assets_mutated": false,
+    "backend_reader_controls_or_release_mutated": false,
+    "git_network_or_credentials_used": false,
+    "only_new_files": ["qa/b024-translation/verify_R011_B024_main_translation_independent.py", "qa/b024-translation/R011-B024_MAIN_TRANSLATION_INDEPENDENT_AUDIT.json"]
+  }
+}

@@ -2678,6 +2678,16 @@ Berdasarkan lelang sebelumnya, Elena memperkirakan akan memperoleh sekitar \$175
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""f5cfd01e-9712-58ec-ac48-481f923814c1""]"
+2bc81251-daaf-51b2-9949-62fc162e3bdf,b4622874-ecdd-5924-918f-e2e9255a053b,231,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,1474,1482,f5645791cd6e6bfa05bb6552e060913ca1cfde7e1516c225e08a2e33309daeb1,id-ID,qa/b024-translation/staging/public-answers-lines-1474-1498.id.tex,1,9,e8fa2a8b0d6ad5419961a001e11889b5ddad39f42e223372e2a137bcfd9985eb,visually_checked,"% 31
+
+\eocesol{(a)~Salah. Distribusi khi-kuadrat memiliki satu parameter yang disebut derajat 
+kebebasan.
+(b)~Benar.
+(c)~Salah. Statistik khi-kuadrat selalu nonnegatif, bukan selalu positif; nilainya dapat sama dengan nol ketika setiap frekuensi teramati sama dengan frekuensi harapannya.
+(d)~Salah. Ketika derajat kebebasan meningkat, bentuk distribusi khi-kuadrat 
+menjadi semakin simetris.}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""579b2fdc-113b-597a-b36e-0ece04275728""]"
 2c23dabc-91bf-51bc-94c3-9468b628f1db,be95e645-3cdc-57bc-bfb4-5183c73744d9,21,guided_inline_answer,en,ch_distributions/TeX/ch_distributions.tex,1664,1670,b9f9339eae185f2afbc036769da8562b69ffad0bde8f9c04af1cb8bece81e610,id-ID,qa/b016-build/source-snapshot-b016/ch_distributions/TeX/ch_distributions.tex,1624,1628,75d1dd52c081a66d479a1f621bec1c264b4b83d86a71eff116d11949f59ea2e3,visually_checked,"\footnotetext{Nyatakan ekspresi-ekspresi ini dengan kata-kata.
   Ada berapa cara berbeda untuk menempatkan 0 sukses dan $n$ kegagalan
   dalam $n$ percobaan? (1 cara.)
@@ -8610,6 +8620,30 @@ P(Y=\text{\resp{1}}\ |\ X=\text{\resp{1}})
 \end{align*}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+681be56b-0b4b-5497-bb62-75a5ed28d445,ced73779-e990-521b-ba6c-e2178e4368aa,133,exercise,en,ch_inference_for_props/TeX/testing_for_goodness_of_fit_using_chi-square.tex,36,58,5ad52be2a16090f4825ad7bfd302d9abf4f4795c741723471749369cef99d115,id-ID,qa/b024-translation/staging/exercises-lines-1-99.id.tex,36,58,d21819f61bafd83855f3a432cac911c387e8d9c5c59cbd2ff243db22ecacb809,visually_checked,"% 33
+
+\eoce{\qt{Buku teks sumber terbuka\label{opensource_text_chisq_GOF}} Seorang dosen yang menggunakan 
+buku pengantar statistika sumber terbuka memperkirakan bahwa 60\% 
+mahasiswa akan membeli salinan cetak buku tersebut, 25\% akan mencetaknya dari 
+web, dan 15\% akan membacanya secara daring. Pada akhir semester, dosen tersebut meminta 
+mahasiswanya mengisi survei yang menanyakan format buku 
+yang mereka gunakan. Dari 126 mahasiswa, 71 menyatakan membeli salinan cetak buku, 
+30 menyatakan mencetaknya dari web, dan 25 menyatakan membacanya secara daring.
+\begin{parts}
+\item Nyatakan hipotesis untuk menguji apakah prediksi dosen tersebut 
+tidak akurat.
+\item Berapa banyak mahasiswa yang diperkirakan dosen akan membeli buku, mencetak 
+buku, dan membaca buku hanya secara daring?
+\item Situasi ini sesuai untuk uji khi-kuadrat. Daftarkan 
+syarat-syarat yang diperlukan untuk uji tersebut dan periksa bahwa semuanya terpenuhi.
+\item Hitung statistik khi-kuadrat, derajat kebebasan yang terkait 
+dengannya, dan nilai-p.
+\item Berdasarkan nilai-p yang dihitung pada bagian (d), apa kesimpulan 
+uji hipotesis tersebut? Tafsirkan kesimpulan Anda dalam konteks ini.
+\end{parts}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""579b2fdc-113b-597a-b36e-0ece04275728""]"
 6887534e-fa97-5663-bf63-97b3ac37862c,fc0caa09-fb91-51a2-9411-8f34e4651d62,1,subsection_prose,en,ch_probability/TeX/ch_probability.tex,276,291,a13af4534076b426ab9d4dc9165df52e5e3bb79946f940253d58eb5b446226a2,id-ID,repo/ch_probability/TeX/ch_probability.tex,276,291,d97fa7091517d2693291fb595bb3ef516193d53ebdbd4976e3f4b98efbf100e1,language_reviewed,"\subsection{Probabilitas ketika peristiwa tidak saling lepas}
 
 Mari kita pertimbangkan perhitungan untuk dua peristiwa yang tidak saling lepas dalam konteks \indexthis{dek standar 52 kartu}{deck of cards}, yang ditampilkan pada Gambar~\ref{deckOfCards}. Jika Anda belum mengenal kartu dalam dek standar, lihat catatan kaki.\footnote{Ke-52 kartu dibagi menjadi empat \term{jenis}: $\clubsuit$ (keriting), {\color{redcards}$\diamondsuit$} (wajik), {\color{redcards}$\heartsuit$} (hati), dan $\spadesuit$ (sekop). Setiap jenis memiliki 13 kartu berlabel: \resp{2}, \resp{3}, ..., \resp{10}, \resp{J} (jack), \resp{Q} (queen), \resp{K} (king), dan \resp{A} (ace). Jadi, setiap kartu merupakan kombinasi unik antara jenis dan label, misalnya {\color{redcards}\resp{4$\heartsuit$}} dan \resp{J$\clubsuit$}. Ke-12 kartu berupa jack, queen, dan king disebut \termsub{\resp{kartu bergambar}}{face card}. Kartu berjenis {\color{redcards}$\diamondsuit$} atau {\color{redcards}$\heartsuit$} biasanya berwarna {\color{redcards}merah}, sedangkan dua jenis lainnya biasanya berwarna hitam.}
@@ -10253,6 +10287,44 @@ yang lebih tak lazim?\footnotemark{}
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""5013dc5b-3a29-5516-9948-98c064aa43e8""]"
+85cee7af-5366-505c-a258-77a2c097682a,8033d95c-22e2-52ee-837d-8774ab8803c3,0,section_intro,en,ch_inference_for_props/TeX/ch_inference_for_props.tex,1344,1380,e65cd55de5c609c7689044c8e2808be91219ed28bba6b429cb11920375763d17,id-ID,qa/b024-translation/staging/section-lines-1344-1471.id.tex,1,37,497f6ff3c9b2072dcd373794a10eec720bf26bc5c75534b4f9379cfba365f422,visually_checked,"\section{Uji kesesuaian menggunakan khi-kuadrat}
+\label{oneWayChiSquare}
+
+Pada bagian ini, kita mengembangkan metode untuk menilai model nol ketika data dikelompokkan ke dalam beberapa kategori.
+Teknik ini lazim digunakan dalam dua keadaan:
+\begin{itemize}
+\setlength{\itemsep}{0mm}
+\item Berdasarkan sampel kasus yang dapat dikelompokkan ke dalam beberapa kategori, tentukan apakah sampel tersebut mewakili populasi umum.
+\item Nilai apakah data menyerupai suatu distribusi tertentu, seperti distribusi normal atau distribusi geometrik.
+\end{itemize}
+Kedua keadaan tersebut dapat ditangani dengan uji statistik yang sama: uji khi-kuadrat.
+
+\index{data!racial make-up of jury|(}
+
+Untuk keadaan pertama, kita meninjau data dari sampel acak 275 anggota juri di sebuah wilayah administratif kecil. Para anggota juri menyatakan kelompok ras mereka, seperti ditampilkan pada Gambar~\ref{juryRepresentationAndCityRepresentationForRace}, dan kita ingin menentukan apakah komposisi ras anggota juri tersebut mewakili populasi. Jika juri mewakili populasi, proporsi dalam sampel seharusnya kurang lebih mencerminkan populasi warga yang memenuhi syarat menjadi anggota juri, yaitu pemilih terdaftar.
+
+\begin{figure}[h]
+\centering
+\begin{tabular}{ll ccc c ll}
+\hline
+Ras	 & \hspace{2mm} & Kulit putih & Kulit hitam & Hispanik & Lainnya & \hspace{2mm} & Total \\
+\hline
+Keterwakilan dalam juri &	& 205 & 26 & 25 & 19 & & 275 \\
+Pemilih terdaftar	 & 		& 0.72 & 0.07 & 0.12 & 0.09 & & 1.00 \\
+\hline
+\end{tabular}
+\caption{Keterwakilan menurut ras dalam juri dan populasi sebuah kota.}
+\label{juryRepresentationAndCityRepresentationForRace}
+\end{figure}
+
+Walaupun proporsi dalam juri tidak sama persis dengan proporsi dalam populasi, belum jelas apakah data ini memberikan bukti meyakinkan bahwa sampel tersebut tidak mewakili populasi. Jika anggota juri benar-benar dipilih secara acak dari pemilih terdaftar, kita dapat mengharapkan selisih kecil akibat kebetulan. Namun, selisih yang luar biasa besar dapat memberikan bukti meyakinkan bahwa juri tersebut tidak mewakili populasi.
+
+Penerapan kedua, yaitu menilai kesesuaian suatu distribusi, disajikan pada akhir bagian ini. Imbal hasil harian saham S\&P500 selama 10 tahun digunakan untuk menilai apakah aktivitas saham pada suatu hari independen dari perilaku saham pada hari-hari sebelumnya.
+
+Dalam persoalan ini, kita ingin memeriksa semua kategori secara serentak, bukan sekadar membandingkan satu atau dua kategori pada suatu waktu. Karena itu, kita perlu mengembangkan statistik uji baru.
+
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""579b2fdc-113b-597a-b36e-0ece04275728""]"
 873ad0f2-99d9-5829-b74d-210a9a962dd4,76494447-2b5b-55a0-acf9-028b903fa8cb,1,exercise,en,ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,118,131,342c9fbbb706ee7ad1c9d425616bb5ce797193008e8b5647ca849b8dd0cfa4e5,id-ID,repo/ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,115,128,a866b20e2c061e4f9f33951a438be37527cd3a6ab950e4c69601165dd9929276,translated,"\eoce{\qt{Kepuasan mata kuliah antarkelompok\label{course_satisfaction_sections}} 
 Sebuah kelas besar di perguruan tinggi memiliki 160 mahasiswa. Seluruh 
 mahasiswa mengikuti kuliah bersama, tetapi untuk sesi praktikum mereka dibagi 
@@ -11809,6 +11881,24 @@ bersyarat 0.02 dan peluang akhir Ya-dan-Tidak sebesar 0.0004. Cabang utama
 0.26 dan peluang akhir Tidak-dan-Ya sebesar 0.2548, serta cabang sekunder
 “Tidak” dengan peluang bersyarat 0.74 dan peluang akhir Tidak-dan-Tidak
 sebesar 0.7252.]{0.375}{ch_probability/figures/eoce/tree_lupus/tree_lupus.pdf}}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+9702be15-c0f7-50a6-81c8-ad75f0951e14,710d03ec-e228-5989-9c64-2dc46785a0a6,132,exercise,en,ch_inference_for_props/TeX/testing_for_goodness_of_fit_using_chi-square.tex,19,35,2a027abc25953eb3217995a9d0211e113b110736aaffa819b406212a5d2501bb,id-ID,qa/b024-translation/staging/exercises-lines-1-99.id.tex,19,35,68fd9575387876736efc864f2fe0f3093c88fb1507ec37650e05f260d6356522,visually_checked,"% 32
+
+\eoce{\qt{Benar atau salah, Bagian II\label{tf_chisq_2}} Tentukan apakah pernyataan di bawah ini 
+benar atau salah. Untuk setiap pernyataan yang salah, usulkan rumusan alternatif agar 
+pernyataan tersebut menjadi benar.
+\begin{parts}
+\item Ketika derajat kebebasan meningkat, rata-rata distribusi khi-kuadrat 
+meningkat.
+\item Jika Anda memperoleh $\chi^2 = 10$ dengan $df = 5$, Anda akan gagal menolak $H_0$ 
+pada tingkat signifikansi 5\%.
+\item Ketika mencari nilai-p dari uji khi-kuadrat, kita selalu mengarsir daerah 
+ekor pada kedua ekor.
+\item Ketika derajat kebebasan meningkat, keragaman distribusi khi-kuadrat 
+menurun.
+\end{parts}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""579b2fdc-113b-597a-b36e-0ece04275728""]"
 972b7dfa-feee-5f47-bd8f-e94d7781ed68,63c98f70-5635-52bb-ac09-fd191e570e5b,225,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,1089,1098,f9c29a672d14a1110488f9a87b06c086ffa29095ab788dd3fe8ca8b5d39633d0,id-ID,qa/b021-translation/staging/eoceSolutions_b021_public_odd.id.tex,83,92,07338f2b5d6cc2cf57b3322e76c8e4b8ea4618b87a1ebc99cafccab551317d99,visually_checked,"% 25
 
 \eocesol{(a)~$H_0$: Antidepresan tidak memengaruhi gejala
@@ -12576,6 +12666,224 @@ berikut? Jelaskan penalaran Anda.
 }{}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+a19d760e-dcbf-5974-bef9-d77d3e69aabf,b6a67d35-a676-579f-b64c-e42dc65864f7,3,subsection,en,ch_inference_for_props/TeX/ch_inference_for_props.tex,1474,1635,34a0cc462cc6918c4322b66c6576d93c0ef70bc204d4f6d46a82273dea65d741,id-ID,multi-part:R011-B024/chi-square-distribution-areas,,,403a93a0b440b8abc76583a2802166ec4e63522a874f98046708ccce4d20185b,visually_checked,"\subsection{Distribusi khi-kuadrat dan penentuan luas}
+
+\term{Distribusi khi-kuadrat} terkadang digunakan untuk
+mencirikan kumpulan data dan statistik yang selalu nonnegatif
+serta biasanya menceng ke kanan. Ingat bahwa distribusi normal memiliki
+dua parameter---rata-rata dan simpangan baku---yang dapat
+digunakan untuk menjelaskan karakteristiknya secara tepat.
+Distribusi khi-kuadrat hanya memiliki satu parameter yang disebut
+\termsub{derajat kebebasan (df)}{degrees of freedom (df)!chi-square},
+yang memengaruhi bentuk, pusat, dan penyebaran distribusi.
+
+\begin{exercisewrap}
+\begin{nexercise}\label{exerChiSquareDistributionDescriptionWithMoreDOF}%
+Gambar~\ref{chiSquareDistributionWithInceasingDF} menampilkan tiga distribusi khi-kuadrat. \\
+(a) Bagaimana pusat distribusi berubah ketika derajat kebebasannya lebih besar? \\
+(b) Bagaimana dengan variabilitasnya (penyebarannya)? \\
+(c) Bagaimana bentuknya berubah?\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{(a)~Pusatnya bergeser ke nilai yang lebih besar. Jika kita mengamatinya dengan teliti, kita dapat melihat bahwa rata-rata setiap distribusi sama dengan derajat kebebasan distribusi tersebut. (b)~Variabilitas meningkat ketika derajat kebebasan meningkat. (c)~Distribusi sangat menceng untuk $df=2$, lalu menjadi lebih simetris pada derajat kebebasan yang lebih besar, yaitu $df=4$ dan $df=9$. Kecenderungan ini akan berlanjut jika kita memeriksa distribusi dengan derajat kebebasan yang lebih besar lagi.}
+
+\begin{figure}[h]
+\centering
+\Figure[Tiga distribusi khi-kuadrat dengan derajat kebebasan 2, 4, dan 9 ditampilkan pada grafik yang sama. Sumbu horizontal membentang dari 0 hingga 25---ingat bahwa distribusi khi-kuadrat tidak pernah bernilai kurang dari 0. Distribusi khi-kuadrat dengan 2 derajat kebebasan bermula pada puncak di nol, lalu cepat menurun hingga lebih dari separuh pada nilai 2 dan melandai setelah nilai sekitar 5. Distribusi khi-kuadrat dengan 4 derajat kebebasan bermula pada 0 dan cepat naik hingga mencapai puncak sekitar 2, lalu menurun secara bertahap dan turun lebih tajam mulai dari 3 sebelum mulai melandai pada sekitar 5 atau 6. Distribusi tersebut sudah sangat dekat dengan sumbu horizontal pada nilai 10. Distribusi khi-kuadrat dengan 9 derajat kebebasan bermula di nol, lalu naik secara bertahap hingga mencapai puncak sekitar 7, kemudian kembali menurun dan melandai pada sekitar 15.]{0.8}{chiSquareDistributionWithInceasingDF}
+%\includegraphics[width=0.8\textwidth]{ch_inference_for_props/figures/chiSquareDistributionWithInceasingDF/chiSquareDistributionWithInceasingDF}
+\caption{Tiga distribusi khi-kuadrat dengan derajat kebebasan yang berbeda-beda.}
+\label{chiSquareDistributionWithInceasingDF}
+\end{figure}
+
+\D{\newpage}
+
+Gambar~\ref{chiSquareDistributionWithInceasingDF} dan Latihan Terbimbing~\ref{exerChiSquareDistributionDescriptionWithMoreDOF} memperlihatkan tiga sifat umum distribusi khi-kuadrat ketika derajat kebebasan meningkat: distribusi menjadi lebih simetris, pusatnya bergeser ke kanan, dan variabilitasnya meningkat.
+
+Kepentingan utama kita terhadap distribusi khi-kuadrat
+adalah menghitung nilai-p, yang (seperti telah kita lihat)
+berkaitan dengan penentuan luas yang relevan di ekor
+suatu distribusi.
+Cara yang paling lazim untuk melakukannya ialah menggunakan perangkat lunak komputer,
+kalkulator grafik, atau tabel.
+Bagi pembaca yang ingin menggunakan tabel,
+kita menyediakan panduan singkat untuk membaca tabel khi-kuadrat pada
+Lampiran~\ref{chiSquareProbabilityTable},
+yang juga memuat tabel tersebut.
+%\Comment{Jika menyertakan kode \R{} dalam teks, letakkan kode \R{}
+%  dalam contoh/latihan di bawah ini.}
+Untuk contoh-contoh berikut, gunakan cara yang Anda pilih
+untuk memastikan bahwa Anda memperoleh jawaban yang sama.
+
+\begin{examplewrap}
+\begin{nexample}{Gambar~\ref{chiSquareAreaAbove6Point25WithDF3}
+    menampilkan distribusi khi-kuadrat dengan 3 derajat kebebasan
+    serta ekor atas yang diarsir mulai dari 6.25.
+    Tentukan luas daerah yang diarsir.}
+  Dengan perangkat lunak statistika atau kalkulator grafik,
+  kita dapat menentukan bahwa luas ekor atas pada distribusi khi-kuadrat
+  dengan 3 derajat kebebasan ($df$)
+  dan titik batas 6.25 adalah 0.1001.
+  Artinya, ekor atas yang diarsir pada
+  Gambar~\ref{chiSquareAreaAbove6Point25WithDF3}
+  memiliki luas 0.1.
+\end{nexample}
+\end{examplewrap}
+
+\begin{figure}
+\centering
+\subfigure[]{
+\Figures[Ditampilkan distribusi khi-kuadrat dengan 3 derajat kebebasan, dengan luas di atas 6.25 diarsir. Daerah ini tampak mencakup sekitar 10\% luas di bawah kurva.]{0.475}{arrayOfFigureAreasForChiSquareDistribution/chiSquareAreaAbove6Point25WithDF3}{chiSquareAreaAbove6Point25WithDF3}
+\label{chiSquareAreaAbove6Point25WithDF3}
+}
+\subfigure[]{
+\Figures[Ditampilkan distribusi khi-kuadrat dengan 2 derajat kebebasan, dengan luas di atas 4.3 diarsir. Daerah ini tampak mencakup sekitar 10\% luas di bawah kurva.]{0.475}{arrayOfFigureAreasForChiSquareDistribution/chiSquareAreaAbove4Point3WithDF2}{chiSquareAreaAbove4Point3WithDF2}
+\label{chiSquareAreaAbove4Point3WithDF2}
+}
+\subfigure[]{
+\Figures[Ditampilkan distribusi khi-kuadrat dengan 5 derajat kebebasan, dengan luas di atas 5.1 diarsir. Daerah ini tampak mencakup sekitar 50\% luas di bawah kurva.]{0.475}{arrayOfFigureAreasForChiSquareDistribution/chiSquareAreaAbove5Point1WithDF5}{chiSquareAreaAbove5Point1WithDF5}
+\label{chiSquareAreaAbove5Point1WithDF5}
+}
+\subfigure[]{
+\Figures[Ditampilkan distribusi khi-kuadrat dengan 7 derajat kebebasan, dengan luas di atas 11.7 diarsir. Daerah ini tampak mencakup sekitar 15\% luas di bawah kurva.]{0.475}{arrayOfFigureAreasForChiSquareDistribution/chiSquareAreaAbove11Point7WithDF7}{chiSquareAreaAbove11Point7WithDF7}
+\label{chiSquareAreaAbove11Point7WithDF7}
+}
+\subfigure[]{
+\Figures[Ditampilkan distribusi khi-kuadrat dengan 4 derajat kebebasan, dengan luas di atas 10 diarsir. Daerah ini tampak mencakup sekitar 5\% luas di bawah kurva.]{0.475}{arrayOfFigureAreasForChiSquareDistribution/chiSquareAreaAbove10WithDF4}{chiSquareAreaAbove10WithDF4}
+\label{chiSquareAreaAbove10WithDF4}
+}
+\subfigure[]{
+\Figures[Ditampilkan distribusi khi-kuadrat dengan 3 derajat kebebasan, dengan luas di atas 9.21 diarsir. Daerah ini tampak mencakup sekitar 3\% luas di bawah kurva.]{0.475}{arrayOfFigureAreasForChiSquareDistribution/chiSquareAreaAbove9Point21WithDF3}{chiSquareAreaAbove9Point21WithDF3}
+\label{chiSquareAreaAbove9Point21WithDF3}
+}
+\caption{
+\textbf{\subref{chiSquareAreaAbove6Point25WithDF3}}~Distribusi khi-kuadrat dengan 3~derajat kebebasan, dengan luas di atas 6.25 diarsir.
+\textbf{\subref{chiSquareAreaAbove4Point3WithDF2}}~2~derajat kebebasan, dengan luas di atas 4.3 diarsir.
+\textbf{\subref{chiSquareAreaAbove5Point1WithDF5}}~5~derajat kebebasan, dengan luas di atas 5.1 diarsir.
+\textbf{\subref{chiSquareAreaAbove11Point7WithDF7}}~7~derajat kebebasan, dengan luas di atas 11.7 diarsir.
+\textbf{\subref{chiSquareAreaAbove10WithDF4}}~4~derajat kebebasan, dengan luas di atas 10 diarsir.
+\textbf{\subref{chiSquareAreaAbove9Point21WithDF3}}~3~derajat kebebasan, dengan luas di atas 9.21 diarsir.
+}
+\label{arrayOfFigureAreasForChiSquareDistribution}
+\end{figure}
+
+\begin{examplewrap}
+\begin{nexample}{Gambar~\ref{chiSquareAreaAbove4Point3WithDF2}
+    menampilkan ekor atas distribusi khi-kuadrat dengan
+    2~derajat kebebasan.
+    Batas ekor atas tersebut adalah 4.3.
+    Tentukan luas ekornya.}
+  Dengan perangkat lunak, kita dapat menentukan bahwa luas ekor yang diarsir pada
+  Gambar~\ref{chiSquareAreaAbove4Point3WithDF2}
+  adalah 0.1165.
+  Jika menggunakan tabel, kita hanya dapat memperoleh
+  rentang nilai untuk luas ekor tersebut:
+  antara 0.1 dan 0.2.
+\end{nexample}
+\end{examplewrap}
+
+\begin{examplewrap}
+\begin{nexample}{Gambar~\ref{chiSquareAreaAbove5Point1WithDF5}
+    menampilkan ekor atas distribusi khi-kuadrat dengan
+    5~derajat kebebasan dan titik batas 5.1.
+    Tentukan luas ekornya.}
+  Dengan perangkat lunak, kita memperoleh luas ekor 0.4038.
+  Jika menggunakan tabel pada Lampiran~\ref{chiSquareProbabilityTable},
+  kita dapat menentukan bahwa luas ekornya lebih besar dari 0.3,
+  tetapi tidak dapat memberikan nilai yang tepat.
+\end{nexample}
+\end{examplewrap}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Gambar~\ref{chiSquareAreaAbove11Point7WithDF7} menunjukkan titik batas
+11.7 pada distribusi khi-kuadrat dengan 7 derajat kebebasan.
+Tentukan luas ekor atasnya.\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{
+  Luasnya adalah 0.1109.
+  Jika menggunakan tabel, kita dapat menentukan bahwa nilainya berada
+  antara 0.1 dan 0.2.}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Gambar~\ref{chiSquareAreaAbove10WithDF4} menunjukkan titik batas
+10 pada distribusi khi-kuadrat dengan 4 derajat kebebasan.
+Tentukan luas ekor atasnya.\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Nilai tepat: 0.0404.
+  Jika menggunakan tabel: antara 0.02 dan 0.05.}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Gambar~\ref{chiSquareAreaAbove9Point21WithDF3} menunjukkan titik batas
+9.21 pada distribusi khi-kuadrat dengan 3 df.
+Tentukan luas ekor atasnya.\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Nilai tepat: 0.0266.
+  Jika menggunakan tabel: antara 0.02 dan 0.05.}
+
+
+\D{\newpage}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""579b2fdc-113b-597a-b36e-0ece04275728""]"
+a1a5faf6-2ed5-5930-a084-0de801b58807,ab39d771-26e7-5872-b2ef-081a53a1644b,2,subsection,en,ch_inference_for_props/TeX/ch_inference_for_props.tex,1420,1473,03927f25900071bd0cb15860b42d83e50be3ab024c6920f7b088ff5b3b069cc3,id-ID,multi-part:R011-B024/chi-square-statistic,,,3b89869d74d462aac321025c2f2596728ab7663ea975c79ff94fcc74a808f7e2,visually_checked,"\subsection{Statistik uji khi-kuadrat}
+\label{chiSquareTestStatistic}
+
+Dalam uji hipotesis sebelumnya, kita menyusun statistik uji berbentuk:
+\begin{align*}
+\frac{\text{estimasi titik} - \text{nilai nol}}
+    {\text{galat baku estimasi titik}}
+\end{align*}
+Penyusunan tersebut didasarkan pada (1) penentuan selisih antara estimasi titik dan nilai harapan ketika hipotesis nol benar, serta (2) pembakuan selisih itu dengan galat baku estimasi titik. Kedua gagasan ini akan membantu kita menyusun statistik uji yang sesuai untuk data cacah.
+
+Strategi kita adalah terlebih dahulu menghitung selisih antara cacah teramati dan cacah yang kita harapkan jika hipotesis nol benar, kemudian membakukan selisih tersebut:
+\begin{align*}
+Z_{1} = \frac{\text{cacah teramati untuk kulit putih} - \text{cacah nol untuk kulit putih}}
+				{\text{galat baku cacah teramati untuk kulit putih}}
+\end{align*}
+Galat baku estimasi titik berupa cacah pada data yang dikelompokkan adalah akar kuadrat cacah di bawah hipotesis nol.\footnote{Berdasarkan beberapa kaidah yang dipelajari pada bab-bab sebelumnya, kita mungkin menduga galat bakunya adalah $\sqrt{np(1-p)}$, dengan $n$ sebagai ukuran sampel dan $p$ sebagai proporsi dalam populasi. Rumus itu benar jika kita hanya meninjau satu cacah. Namun, di sini kita menghitung banyak selisih terbakukan dan menjumlahkannya. Dapat ditunjukkan---meskipun tidak di sini---bahwa akar kuadrat cacah merupakan cara yang lebih sesuai untuk membakukan selisih antarcacah.} Oleh karena itu:
+\begin{align*}
+Z_1 = \frac{205 - 198}{\sqrt{198}} = 0.50
+\end{align*}
+Pecahan tersebut sangat mirip dengan statistik uji sebelumnya: hitung dahulu suatu selisih, lalu bakukan. Perhitungan ini juga perlu dilakukan untuk kelompok kulit hitam, Hispanik, dan ras lainnya:
+\begin{align*}
+&\text{Kulit hitam} && \text{Hispanik}	&&\text{Lainnya} \\
+& Z_2 = \frac{26-19.25}{\sqrt{19.25}}=1.54\ \ \ \ 
+	&& Z_3 = \frac{25-33}{\sqrt{33}}=-1.39\ \ \ \ 
+	&& Z_4 = \frac{19-24.75}{\sqrt{24.75}}=-1.16 \\
+\end{align*}
+Kita ingin menggunakan satu statistik uji untuk menentukan apakah keempat selisih terbakukan ini secara tidak wajar jauh dari nol. Artinya, $Z_1$, $Z_2$, $Z_3$, dan $Z_4$ harus digabungkan dengan suatu cara agar dapat membantu menentukan apakah semuanya, sebagai satu kelompok, cenderung luar biasa jauh dari nol. Gagasan pertama mungkin mengambil nilai mutlak keempat selisih terbakukan tersebut lalu menjumlahkannya:
+\begin{align*}
+|Z_1| + |Z_2| + |Z_3| + |Z_4| = 4.58
+\end{align*}
+Cara ini memang menghasilkan satu angka yang merangkum seberapa jauh cacah aktual dari yang diharapkan. Namun, yang lebih lazim adalah menjumlahkan nilai kuadratnya:
+\begin{align*}
+Z_1^2 + Z_2^2 + Z_3^2 + Z_4^2 = 5.89
+\end{align*}
+Mengkuadratkan setiap selisih terbakukan sebelum menjumlahkannya memberikan dua akibat:
+\begin{itemize}
+\setlength{\itemsep}{0mm}
+\item Setiap selisih terbakukan yang dikuadratkan menjadi positif atau nol.
+\item Selisih yang sejak awal tampak tidak lazim---misalnya selisih terbakukan sebesar 2.5---akan menjadi jauh lebih besar setelah dikuadratkan.
+\end{itemize}
+Statistik uji $X^2$,\index{chi-square statistic} yang merupakan jumlah nilai-nilai $Z^2$, lazim digunakan karena kedua alasan tersebut. Kita juga dapat menuliskan persamaan $X^2$ menggunakan cacah teramati dan cacah nol:
+\index{data!racial make-up of jury|)}
+\begin{align*}
+X^2 &=
+	\frac
+	{\text{\footnotesize$(\text{cacah teramati}_1 - \text{cacah nol}_1)^2$}}
+	{\text{\footnotesize$\text{cacah nol}_1$}}
+	+ \dots + \frac
+	{\text{\footnotesize$(\text{cacah teramati}_4 - \text{cacah nol}_4)^2$}}
+	{\text{\footnotesize$\text{cacah nol}_4$}}
+\end{align*}
+Nilai akhir $X^2$ merangkum seberapa kuat cacah teramati cenderung menyimpang dari cacah nol. Pada Bagian~\ref{pValueForAChiSquareTest}, kita akan melihat bahwa jika hipotesis nol benar, $X^2$ mengikuti distribusi baru yang disebut \emph{distribusi khi-kuadrat}. Dengan distribusi ini, kita dapat memperoleh nilai-p untuk menilai hipotesis tersebut.
+
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""579b2fdc-113b-597a-b36e-0ece04275728""]"
 a1c78c1a-ef41-5135-8a92-513500ddbada,7cb7707e-3d93-56dc-8117-c4d5dfbc9e3c,30,guided_exercise,en,ch_distributions/TeX/ch_distributions.tex,539,546,edfd8f8510b78d653d56bc3593dfd1ac583d243871dbf83230c36c1401872ab9,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,526,533,e1296bb1c0ab221bc07771d75c7023d13026ac6706f0a7f1a48d2d4fbc67b0d5,language_reviewed,"\begin{exercisewrap}
 \begin{nexercise}
 Mike memiliki tinggi 5'7'' dan Jose 6'4'', dan keduanya tinggal di AS. \\
@@ -12905,6 +13213,46 @@ Setiap kasus mewakili satu orang dengan dua variabel: \var{inoculated} dan \var{
 %\D{\newpage}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+a4f7eef9-2e20-58e8-ac19-35cefcbebb75,d4fa27f8-c262-5e49-8b0c-d334c4897d4f,1,subsection,en,ch_inference_for_props/TeX/ch_inference_for_props.tex,1381,1419,0ee76297d32ccde9b3dd5813b75f6adce80ce7aaa64624f3b1dd1af1edfc38ce,id-ID,qa/b024-translation/staging/section-lines-1344-1471.id.tex,38,76,2236ccb6ed8a03414023a9b5f156b1d2efdf2f126ba782e1686c94df56bec691,visually_checked,"\subsection{Menyusun statistik uji untuk tabel satu arah}
+
+\begin{examplewrap}
+\begin{nexample}{Dari penduduk kota tersebut, 275 orang pernah bertugas sebagai anggota juri. Jika setiap orang dipilih secara acak untuk bertugas sebagai anggota juri, kira-kira berapa dari 275 orang itu yang kita harapkan berkulit putih? Berapa yang kita harapkan berkulit hitam?}
+Sekitar 72\% populasi berkulit putih, sehingga kita mengharapkan sekitar 72\% anggota juri berkulit putih: $0.72\times 275 = 198$.
+
+Demikian pula, kita mengharapkan sekitar 7\% anggota juri berkulit hitam, yang setara dengan sekitar $0.07\times 275 = 19.25$ anggota juri berkulit hitam.
+\end{nexample}
+\end{examplewrap}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Sebanyak dua belas persen populasi merupakan orang Hispanik dan 9\% berasal dari ras lain. Berapa dari 275 anggota juri yang kita harapkan merupakan orang Hispanik atau berasal dari ras lain? Jawabannya terdapat pada Gambar~\ref{expectedJuryRepresentationIfNoBias}.
+\end{nexercise}
+\end{exercisewrap}
+
+\begin{figure}[h]
+\centering
+\begin{tabular}{ll ccc c ll}
+\hline
+Ras	 & \hspace{2mm} & Kulit putih & Kulit hitam & Hispanik & Lainnya & \hspace{2mm} & Total \\
+\hline
+Data teramati			&	& 205 & 26	& 25 & 19	&	& 275 \\
+Cacah harapan	 &	& 198 & 19.25 & 33 & 24.75 & & 275 \\
+\hline
+\end{tabular}
+\caption{Komposisi aktual dan komposisi harapan anggota juri.}
+\label{expectedJuryRepresentationIfNoBias}
+\end{figure}
+
+Proporsi sampel yang mewakili setiap ras di antara 275 anggota juri tidak sama persis dengan proporsi kelompok etnis mana pun dalam populasi. Walaupun variasi sampel memang diharapkan, proporsi sampel semestinya cukup mirip dengan proporsi populasi jika tidak ada bias dalam juri. Kita perlu menguji apakah selisih tersebut cukup kuat untuk memberikan bukti meyakinkan bahwa anggota juri bukan sampel acak. Gagasan ini dapat disusun menjadi hipotesis berikut:
+\begin{itemize}
+\setlength{\itemsep}{0mm}
+\item[$H_0$:] Anggota juri merupakan sampel acak, yaitu tidak ada bias ras dalam pemilihan orang yang bertugas sebagai anggota juri, dan cacah teramati mencerminkan fluktuasi sampel yang wajar.
+\item[$H_A$:] Anggota juri tidak dipilih secara acak, yaitu terdapat bias ras dalam pemilihan anggota juri.
+\end{itemize}
+Untuk menilai hipotesis tersebut, kita mengukur seberapa jauh cacah teramati berbeda dari cacah yang kita harapkan jika hipotesis nol benar. Bukti kuat bagi hipotesis alternatif akan berupa simpangan antarkelompok yang luar biasa besar dibandingkan dengan yang diharapkan semata-mata akibat variasi sampel.
+
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""579b2fdc-113b-597a-b36e-0ece04275728""]"
 a56dd0b2-02cf-55e6-9bb4-2aded3729680,be09309b-7571-5131-8152-e98c6653b9a7,2,subsection_prose,en,ch_probability/TeX/ch_probability.tex,428,469,ba033dc84c443ed34e340d859c76ac9d7d09abf98efc3b638b0f90c5dfc01fe2,id-ID,repo/ch_probability/TeX/ch_probability.tex,428,469,6ac1bc7610e55f3c7033c7e1c2d0abcc1fb4f02412ab77b50536755c82470a11,language_reviewed,"\footnotetext{Probabilitas pada (a) tidak berjumlah~1.
     Probabilitas kedua pada (b) bernilai negatif.
     Dengan demikian tersisa (c), yang memang memenuhi
@@ -14480,6 +14828,48 @@ c2453e2f-b2b2-5108-84fa-bafceb0e4b9e,a766f9cd-f941-5953-b2d9-9d5f0b9a8764,10,sec
 Jika kita mengambil sampel dari populasi kecil \term{tanpa pengembalian}, pengamatan-pengamatan kita tidak lagi saling independen. Dalam Contoh~\ref{3woRep}, peluang tidak terpilih untuk pertanyaan kedua dikondisikan pada peristiwa bahwa Anda tidak terpilih untuk pertanyaan pertama. Dalam Contoh~\ref{3wRep}, dosen mengambil sampel mahasiswa \term{dengan pengembalian}: dosen tersebut berulang kali mengambil sampel dari seluruh kelas tanpa memedulikan siapa yang sudah dipilih. 
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""b8ee2bc6-8b07-51f4-8124-2fd462cd606b""]"
+c2658519-f484-5ce6-8523-690d457c234b,bf7243b8-c7fb-500a-9293-ddd52555d81f,134,exercise,en,ch_inference_for_props/TeX/testing_for_goodness_of_fit_using_chi-square.tex,59,99,9b82d6a0f05e18ceb3f86d55124c729c684f92f3042a07f065db16435a9111bf,id-ID,qa/b024-translation/staging/exercises-lines-1-99.id.tex,59,99,a68feab6d9a1776749bc922dd171106f31f3a4e9f6f97fcffb01740fb43e9da7,visually_checked,"% 34
+
+\eoce{\qt{Kijang\label{barking_deer_chisq_GOF}}
+Faktor mikrohabitat yang berkaitan dengan lokasi mencari makan dan tempat beristirahat
+kijang di Pulau Hainan, Tiongkok, diteliti.
+Di wilayah ini, hutan mencakup 4.8\% dari luas daratan,
+petak rumput budidaya mencakup 14.7\%, dan hutan gugur
+mencakup 39.6\%.
+Dari 426 lokasi tempat kijang mencari makan, 4 dikategorikan
+sebagai hutan, 16 sebagai petak rumput budidaya, dan 61 sebagai hutan gugur.
+Tabel di bawah ini merangkum data tersebut.\footfullcite{Teng:2004}
+\begin{center}
+\begin{tabular}{c c c c c}
+Hutan	& Rumput budidaya	& Hutan gugur	 & Lainnya & Total \\
+\hline 
+4		& 16					& 61			     & 345	 & 426 \\
+\end{tabular}
+\end{center}
+
+\noindent \begin{minipage}[c]{0.7\textwidth}
+\begin{parts}
+\item Tuliskan hipotesis untuk menguji apakah kijang lebih memilih mencari makan di 
+habitat tertentu daripada habitat lainnya.
+\item Jenis uji apa yang dapat kita gunakan untuk menjawab pertanyaan penelitian ini?
+\item Periksa apakah asumsi dan syarat yang diperlukan untuk uji tersebut 
+terpenuhi.
+\item Apakah data ini memberikan bukti meyakinkan bahwa kijang lebih memilih 
+mencari makan di habitat tertentu daripada habitat lainnya? Lakukan uji hipotesis 
+yang sesuai untuk menjawab pertanyaan penelitian ini.
+\end{parts}
+\end{minipage}
+\begin{minipage}[c]{0.03\textwidth}
+$\:$ \\
+\end{minipage}
+\begin{minipage}[c]{0.28\textwidth}
+\begin{center}
+\Figures[Foto seekor kijang bertanduk bercabang dan berwarna cokelat kemerahan, mengintip dari sela daun dan vegetasi.]{0.7}{eoce/barking_deer_chisq_GOF}{barking_deer.jpg} \\
+{\footnotesize Foto oleh Shrikant Rao (\oiRedirect{textbook-flickr_shrikant_rao_barking_deer}{http://flic.kr/p/4Xjdkk}) \oiRedirect{textbook-CC_BY_2}{lisensi CC~BY~2.0}}
+\end{center}
+\end{minipage}
+}{}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""579b2fdc-113b-597a-b36e-0ece04275728"",""6e688818-f7b4-500c-aa2a-c8a9ca40de20""]"
 c295369e-5c28-5ad5-a2af-9754cd135397,d2e7d229-5d0d-5829-bced-f63521bd731d,21,guided_inline_answer,en,ch_probability/TeX/ch_probability.tex,1970,1970,edcfe95bfdf240c0e1df921988e17ff0bca6f8b685565ffa49aa3e947586343e,id-ID,repo/ch_probability/TeX/ch_probability.tex,1959,1959,7b748ba4fc9a1f64023c9060f231195122ce68057b2227851217e1328feaba34,language_reviewed,"\footnotetext{Tidak, karena kemungkinan terdapat variabilitas. Sebagai contoh, kondisi lalu lintas berubah dari satu hari ke hari berikutnya, dan harga lelang akan bervariasi bergantung pada kualitas barang serta minat para peserta.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""f5cfd01e-9712-58ec-ac48-481f923814c1""]"
 c37a8e81-dd1b-5c26-9aaf-fbb7a0f485f7,17acf038-9821-5e3d-9ffa-1526fab12218,4,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,634,649,e3222f2cf41d7bac1b741292e96bcc6ebd05477a586bce04fe3ccd0f13bbc15e,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,618,632,1dc839678f924a507a3c5ed9b378929d129dbd1d1fff927ff3e77b3ad23133a3,translated,"\end{exercisewrap}
@@ -15316,6 +15706,25 @@ d526505a-e9a5-5bdd-86a1-cb388c0743ae,ff94854d-cd16-57a9-90c8-520fb59f380d,2,work
 \end{nexample}
 \end{examplewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""586d1610-5f32-5232-ba50-6e2a04daf45a""]"
+d5a49507-1428-5128-a09a-0a2f36d8ae63,a7f0df99-74bb-58fe-967b-f0ee8a8fccf3,131,exercise,en,ch_inference_for_props/TeX/testing_for_goodness_of_fit_using_chi-square.tex,1,18,e944d7696abc45b4290390547fc73416e03dc99cc48c1fb9c6fa4574d4046681,id-ID,qa/b024-translation/staging/exercises-lines-1-99.id.tex,1,18,b2d6dd2e4f0a3df94742b90ad8afd3d3a623fb7f64bb3795db5b51928e480645,visually_checked,"\exercisesheader{}
+
+% 31
+
+\eoce{\qt{Benar atau salah, Bagian I\label{tf_chisq_1}} Tentukan apakah pernyataan di bawah ini 
+benar atau salah. Untuk setiap pernyataan yang salah, usulkan rumusan alternatif agar 
+pernyataan tersebut menjadi benar.
+\begin{parts}
+\item Distribusi khi-kuadrat, sama seperti distribusi normal, memiliki dua 
+parameter, yaitu rata-rata dan simpangan baku.
+\item Distribusi khi-kuadrat selalu menceng ke kanan, terlepas dari 
+nilai parameter derajat kebebasan.
+\item Statistik khi-kuadrat selalu positif.
+\item Ketika derajat kebebasan meningkat, bentuk distribusi khi-kuadrat 
+menjadi semakin menceng.
+\end{parts}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""579b2fdc-113b-597a-b36e-0ece04275728""]"
 d5d0a278-4bc2-55b1-983e-9f3e45ad77fa,3ad743df-ef86-5769-a3a9-fae1b48c5f33,106,exercise,en,ch_foundations_for_inf/TeX/variability_in_estimates.tex,145,174,b1acf841ed03fae5976053673dfc34c54ab45f9d1fcb3c506a15bcb84ddbf1f7,id-ID,scratch/b019-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/variability_in_estimates.tex,132,161,43b6e68b7d1eb954ebad4ce47c5f7ce6c45bf1088ba4beb97381a2f1932b961a,visually_checked,"% 6
 
 \eoce{\qt{Sampel mahasiswa berulang\label{repeated_student_samples_prop}}
@@ -16128,6 +16537,23 @@ da9488cb-d432-54a6-bd6c-8ac7ca10eca0,70f34cf6-8094-557c-aa8c-9c95a3542dbe,21,gui
   Contoh~\ref{satAbove1190Exam}: 0.6736. \\
   \Figures[Sebuah distribusi normal dengan rata-rata 1100 dan simpangan baku 200 diarsir dari kiri sampai sebuah garis vertikal yang terletak sedikit di atas rata-rata distribusi.]{0.35}{subtractingArea}{subtracted}}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""5013dc5b-3a29-5516-9948-98c064aa43e8""]"
+dabc14e1-02db-5f83-ab3c-34634f99ff9f,96ae418f-e488-5228-9205-a2d38d0d0043,233,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,1483,1498,7ed14ed841c592e1497212203608b219303f001f3f575eec96ec25c530aac622,id-ID,qa/b024-translation/staging/public-answers-lines-1474-1498.id.tex,10,25,63943853ae06fe7d5309c24791a2cc88d8a10abed7e93d22ccb070107b8b050e,visually_checked,"% 33
+
+\eocesol{(a)~$H_0$: Distribusi format buku yang digunakan mahasiswa 
+mengikuti prediksi dosen. $H_A$: Distribusi format buku yang 
+digunakan mahasiswa tidak mengikuti prediksi dosen.
+(b)~$E_{hard~copy} = 126 \times  0.60 = 75.6$. 
+$E_{print} = 126 \times  0.25 = 31.5$.
+$E_{online} = 126 \times  0.15 = 18.9$.
+(c)~Independensi: Sampel tersebut tidak acak. Namun, jika dosen memiliki 
+alasan untuk meyakini bahwa proporsi tersebut stabil dari satu semester ke semester berikutnya 
+dan mahasiswa tidak saling memengaruhi kebiasaan belajar, independensi 
+mungkin merupakan asumsi yang wajar. Ukuran sampel: Semua frekuensi harapan sekurang-kurangnya 5.
+(d)~$\chi^2 = 2.32$, $df=2$, nilai-p = 0.313.
+(e)~Karena nilai-p besar, kita gagal menolak $H_0$. Data tidak 
+memberikan bukti kuat yang menunjukkan bahwa prediksi dosen tersebut 
+tidak akurat secara statistik.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""579b2fdc-113b-597a-b36e-0ece04275728""]"
 db2f7e01-3198-5996-80d3-69fac80e7e45,934f478e-1372-5c73-9c65-90094a7a5d9a,1,end-of-section-exercise,en,ch_probability/TeX/conditional_probability.tex,28,68,fe7f26a7e90a858ff29c7d37140ae689675a7dc50c28ede05644521cceb3cd06,id-ID,repo/ch_probability/TeX/conditional_probability.tex,29,69,d24a1a4da55c43b7570f610f404bd5d53f8b16b053683895da3def6c4fb4cfa4,language_reviewed,"% 15
 
 \eoce{\qt{Pemanasan global\label{global_warming}} Sebuah jajak pendapat Pew Research
@@ -16574,6 +17000,242 @@ sebagian besar data.
 
 \begin{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+deb2800d-3650-5317-a721-002e88f45774,29ecbead-8952-5ba8-a466-f10be7a9ef72,5,subsection,en,ch_inference_for_props/TeX/ch_inference_for_props.tex,1767,2001,7e6f8a2d1af5b3c8ded26745e5c16b09213ec39df4439103b0c679a6349526d5,id-ID,qa/b024-translation/staging/section-lines-1764-2001.id.tex,4,238,91b2467fb051c30191faefbb9eb81b4ec34cf19eb801d815624e9aa1b8c526a7,visually_checked,"
+Bagian~\ref{geomDist} berguna sebagai bacaan latar
+untuk contoh ini, tetapi bukan merupakan prasyarat.
+
+\index{data!S\&P500 stock data|(}
+
+\newcommand{\spyears}{10}
+\newcommand{\spdays}{1362}
+\newcommand{\spdaysA}{717}
+\newcommand{\spdaysB}{369}
+\newcommand{\spdaysC}{155}
+\newcommand{\spdaysD}{69}
+\newcommand{\spdaysE}{28}
+\newcommand{\spdaysF}{14}
+\newcommand{\spdaysG}{10}
+\newcommand{\spdaysEA}{742.5624}
+\newcommand{\spdaysEB}{337.7174}
+\newcommand{\spdaysEC}{153.5939}
+\newcommand{\spdaysED}{69.8545}
+\newcommand{\spdaysEE}{31.7698}
+\newcommand{\spdaysEF}{14.4489}
+\newcommand{\spdaysEG}{12.0531}
+\newcommand{\spdaysEProp}{0.1127708}
+\newcommand{\spdaysEPerc}{11.28\%}
+\newcommand{\spUpProp}{0.5452}
+\newcommand{\spUpPerc}{54.52\%}
+\newcommand{\spDownProp}{0.4548}
+\newcommand{\spDownPerc}{45.48\%}
+\newcommand{\spdaysXSq}{4.61}
+\newcommand{\spdaysN}{7}
+\newcommand{\spdaysDF}{5}
+\newcommand{\spdaysPvalue}{0.4650}
+
+Kita dapat menerapkan kerangka uji khi-kuadrat pada
+persoalan kedua dalam bagian ini:
+menilai apakah suatu model statistika tertentu sesuai dengan
+suatu kumpulan data.
+Imbal hasil harian saham S\&P500 selama \spyears{} tahun dapat digunakan untuk menilai apakah aktivitas saham pada suatu hari independen dari perilaku saham pada hari-hari sebelumnya. Pertanyaan ini terdengar sangat rumit, dan memang demikian, tetapi uji khi-kuadrat dapat digunakan untuk mempelajarinya. Kita akan memberi label setiap hari sebagai \resp{Naik} atau \resp{Turun} (\resp{T}), bergantung pada apakah pasar naik atau turun pada hari tersebut. Sebagai contoh, perhatikan perubahan harga berikut, label naik dan turun yang baru, lalu banyaknya hari yang harus diamati sebelum setiap hari \resp{Naik}:
+\begin{center}\footnotesize
+\begin{tabular}{lc ccc ccc ccc cc}
+Perubahan harga		&\hspace{-1mm}	& \footnotesize2.52 &
+	\footnotesize-1.46 & \footnotesize 0.51 &
+	\footnotesize-4.07 & \footnotesize3.36 &
+	\footnotesize1.10 &
+	\footnotesize-5.46 & \footnotesize-1.03 & \footnotesize-2.99 & \footnotesize1.71 \\
+Hasil	 & \hspace{-1mm} &
+	Naik &
+	T & Naik &
+	T & Naik &
+	Naik &
+	T & T & T & Naik \\
+\footnotesize Hari hingga Naik & \hspace{-1mm} & 1 & -- & 2 & -- & 2 & 1 & -- & -- & -- & 4 \\
+\end{tabular}
+\end{center}
+Jika hari-hari tersebut benar-benar independen, banyaknya hari hingga suatu hari perdagangan yang positif seharusnya mengikuti distribusi geometrik. Distribusi geometrik menjelaskan peluang menunggu hingga percobaan ke-$k$ untuk mengamati keberhasilan pertama. Di sini, setiap hari naik (Naik) menyatakan keberhasilan, sedangkan hari turun (T) menyatakan kegagalan. Pada data di atas, hanya diperlukan satu hari hingga pasar naik, sehingga waktu tunggu pertama adalah 1 hari. Diperlukan dua hari lagi sebelum kita mengamati hari perdagangan \resp{Naik} berikutnya, lalu dua hari lagi untuk hari \resp{Naik} ketiga. Kita ingin menentukan apakah cacah ini (1, 2, 2, 1, 4, dan seterusnya) mengikuti distribusi geometrik. Gambar~\ref{sAndP500TimeToPosTrade} menunjukkan banyaknya hari tunggu hingga hari perdagangan positif selama \spyears{} tahun untuk S\&P500.
+
+\begin{figure}[h]
+\centering
+\begin{tabular}{ll ccc ccc c ll}
+  \hline
+  Hari	 & \hspace{2mm} & 1 & 2 & 3 & 4 & 5 & 6 & 7+ &
+      \hspace{2mm} & Total \\
+  Teramati &		& \spdaysA{} & \spdaysB{} & \spdaysC{} &
+      \spdaysD{} & \spdaysE{} & \spdaysF{} & \spdaysG{} & &
+      \spdays{} \\
+  \hline
+\end{tabular}
+\caption{Distribusi teramati untuk waktu tunggu hingga
+    suatu hari perdagangan positif bagi S\&P500.}
+\label{sAndP500TimeToPosTrade}
+\end{figure}
+
+Kita meninjau berapa hari yang harus ditunggu hingga teramati suatu hari \resp{Naik} pada indeks saham S\&P500. Jika aktivitas saham independen dari satu hari ke hari berikutnya dan peluang hari perdagangan positif tetap konstan, waktu tunggu tersebut kita harapkan mengikuti \emph{distribusi geometrik}. Hal ini dapat disusun dalam kerangka hipotesis:
+\begin{itemize}
+\item[$H_0$:] Keadaan pasar saham yang naik atau turun pada suatu hari independen dari semua hari lainnya. Kita meninjau banyaknya hari yang berlalu hingga suatu hari \resp{Naik} teramati. Berdasarkan hipotesis ini, banyaknya hari hingga suatu hari \resp{Naik} seharusnya mengikuti distribusi geometrik.
+\item[$H_A$:] Keadaan pasar saham yang naik atau turun pada suatu hari tidak independen dari semua hari lainnya. Karena kita mengetahui bahwa banyaknya hari hingga suatu hari \resp{Naik} akan mengikuti distribusi geometrik di bawah hipotesis nol, kita mencari penyimpangan dari distribusi geometrik yang akan mendukung hipotesis alternatif.
+\end{itemize}
+Hasil kita memiliki implikasi penting bagi pedagang saham: jika informasi dari hari-hari perdagangan sebelumnya berguna untuk memperkirakan apa yang akan terjadi hari ini, informasi tersebut dapat memberikan keunggulan dibandingkan pedagang lain.
+
+Kita meninjau data S\&P500 dan merangkum waktu tunggu pada Gambar~\ref{sAndP500TimeToPosTrade2} serta Gambar~\ref{geomFitEvaluationForSP500}. S\&P500 mengalami kenaikan pada \spUpPerc{} dari hari-hari tersebut.
+
+\begin{figure}
+\centering
+\begin{tabular}{ll ccc ccc c ll}
+  \hline
+  Hari & \hspace{1mm} &
+      1 & 2 & 3 & 4 & 5 & 6 & 7+ & \hspace{1mm} & Total \\
+  \hline
+  Teramati & & \spdaysA{} & \spdaysB{} & \spdaysC{} &
+      \spdaysD{} & \spdaysE{} & \spdaysF{} & \spdaysG{} & &
+      \spdays{} \\
+  Model geometrik & & \spdaysEA{} & \spdaysEB{} & \spdaysEC{} &
+      \spdaysED{} & \spdaysEE{} & \spdaysEF{} & \spdaysEG{} & &
+      \spdays{} \\
+  \hline
+\end{tabular}
+\caption{Distribusi waktu tunggu hingga suatu hari perdagangan
+    positif.
+    Cacah harapan berdasarkan model geometrik
+    ditampilkan pada baris terakhir tanpa pembulatan ke bilangan bulat.
+    Untuk memperoleh setiap cacah harapan, kita menentukan peluang
+    menunggu selama $D$ hari berdasarkan model geometrik
+    ($P(D) = (1-\spUpProp{})^{D-1}(\spUpProp{})$),
+    lalu mengalikannya dengan jumlah keseluruhan rentetan, yaitu \spdays{}.
+    Sebagai contoh, waktu tunggu tiga hari terjadi berdasarkan
+    model geometrik sekitar
+    $\spDownProp{}^2\times \spUpProp{} = \spdaysEPerc{}$
+    dari seluruh kejadian, yang setara dengan
+    $\spdaysEProp{} \times \spdays{} \approx \spdaysEC$ rentetan.}
+\label{sAndP500TimeToPosTrade2}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \Figure[Ditampilkan diagram batang berdampingan untuk variabel ``Waktu tunggu hingga hari kenaikan'', dengan dua kelompok batang berupa ``Teramati'' dan ``Harapan''. Sumbu horizontal menampilkan nilai 1, 2, 3, 4, 5, 6, dan ``7+''. Batang tertinggi terdapat pada ``1'', sekitar 715 untuk Teramati dan 740 untuk Harapan. Batang untuk ``2'' sekitar separuh tinggi batang ``1'', dengan nilai sekitar 370 untuk Teramati dan 340 untuk Harapan. Batang untuk ``3'' kembali sekitar separuh tinggi batang ``2'', yaitu sekitar 150 untuk masing-masing Teramati dan Harapan. Nilai pada 5, 6, dan 7+ semuanya relatif kecil, yaitu sekitar 30 atau kurang.]{0.85}{geomFitEvaluationForSP500}
+  \caption{Diagram batang berdampingan untuk cacah teramati
+      dan cacah harapan pada setiap waktu tunggu.}
+  \label{geomFitEvaluationForSP500}
+\end{figure}
+
+Karena penerapan kerangka khi-kuadrat mengharuskan cacah harapan
+sekurang-kurangnya~5, kita telah \emph{menggabungkan} semua kasus
+dengan waktu tunggu setidaknya \spdaysN{} hari ke dalam satu kategori agar setiap
+cacah harapan jauh di atas batas minimum ini.
+Data aktual, yang ditampilkan pada baris \emph{Teramati} dalam
+Gambar~\ref{sAndP500TimeToPosTrade2}, dapat dibandingkan dengan
+cacah harapan pada baris \emph{Model geometrik}.
+Cara menghitung cacah harapan dibahas pada
+Gambar~\ref{sAndP500TimeToPosTrade2}.
+Secara umum, cacah harapan ditentukan dengan
+(1)~menentukan proporsi nol yang berkaitan dengan setiap kategori,
+lalu (2)~mengalikan setiap proporsi nol dengan cacah total
+untuk memperoleh cacah harapan.
+Dengan kata lain, strategi ini menentukan berapa proporsi dari cacah total
+yang kita harapkan berada dalam setiap kategori.
+
+\begin{examplewrap}
+\begin{nexample}{Apakah Anda melihat penyimpangan yang luar biasa besar
+    pada grafik?
+    Dapatkah Anda mengetahui hanya dengan melihatnya apakah penyimpangan tersebut
+    terjadi akibat kebetulan?}
+  Belum jelas apakah selisih antara cacah teramati
+  dan cacah harapan dari distribusi geometrik
+  berbeda secara signifikan.
+  Artinya, belum jelas apakah penyimpangan ini mungkin
+  terjadi akibat kebetulan atau justru begitu kuat sehingga data
+  memberikan bukti meyakinkan terhadap hipotesis nol.
+  Namun, kita dapat melakukan uji khi-kuadrat menggunakan cacah
+  pada Gambar~\ref{sAndP500TimeToPosTrade2}.
+\end{nexample}
+\end{examplewrap}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Gambar~\ref{sAndP500TimeToPosTrade2}
+memberikan sekumpulan data cacah untuk waktu tunggu
+($O_1=\spdaysA{}$, $O_2=\spdaysB{}$, ...)
+dan cacah harapan di bawah distribusi geometrik
+($E_1=\spdaysEA{}$, $E_2=\spdaysEB{}$, ...).
+Hitung statistik uji khi-kuadrat, $X^2$.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{$X^2 =
+      \frac{(\spdaysA{}-\spdaysEA{})^2}{\spdaysEA{}} +
+      \frac{(\spdaysB{}-\spdaysEB{})^2}{\spdaysEB{}} +
+      \cdots +
+      \frac{(\spdaysG{}-\spdaysEG{})^2}{\spdaysEG{}}
+    = \spdaysXSq{}$}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Karena semua cacah harapan sekurang-kurangnya~5,
+kita dapat menerapkan distribusi khi-kuadrat pada $X^2$ dengan aman.
+Namun, berapa derajat kebebasan yang harus
+kita gunakan?\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Terdapat $k = \spdaysN{}$ kelompok dan satu parameter geometrik
+    diestimasi dari deret yang sama, sehingga kita menggunakan
+    $df = k - 1 - 1 = \spdaysDF{}$.}
+
+\begin{examplewrap}
+\begin{nexample}{Jika cacah teramati mengikuti
+    model geometrik, statistik uji khi-kuadrat
+    $X^2 = \spdaysXSq{}$ akan mengikuti distribusi khi-kuadrat secara dekat
+    dengan $df = \spdaysDF{}$.
+    Dengan menggunakan informasi ini, hitung nilai-p.} 
+  \label{DNRejectGeomModelForSP500}%
+  Gambar~\ref{geomFitPValueForSP500} menampilkan
+  distribusi khi-kuadrat, titik batas, dan nilai-p yang diarsir.
+  % Kita dapat mencari $X^2 = \spdaysXSq{}$ dalam
+  % Lampiran~\ref{chiSquareProbabilityTable} untuk menentukan
+  % bahwa nilai-p lebih besar dari 0.3.
+  Dengan perangkat lunak, kita memperoleh nilai-p: \spdaysPvalue{}.
+  Pada akhirnya, kita tidak memiliki cukup bukti untuk menolak
+  gagasan bahwa waktu tunggu mengikuti distribusi geometrik
+  selama \spyears{} tahun terakhir pada data
+  S\&P500,
+  yaitu kita tidak dapat menolak gagasan bahwa hari-hari perdagangan
+  saling independen.
+\end{nexample}
+\end{examplewrap}
+
+\begin{figure}[h]
+  \centering
+  \Figure[Ditampilkan distribusi khi-kuadrat dengan 5 derajat kebebasan, dengan luas di atas 4.61 diarsir dan diberi anotasi ``Luas yang menyatakan nilai-p''. Daerah ini mencakup sekitar 47\% luas di bawah kurva.]{0.74}{geomFitPValueForSP500}
+  \caption{Distribusi khi-kuadrat dengan \spdaysDF{}
+      derajat kebebasan.
+      Nilai-p untuk analisis saham diarsir.}
+  \label{geomFitPValueForSP500}
+\end{figure}
+
+\begin{examplewrap}
+\begin{nexample}{Pada
+    Contoh~\ref{DNRejectGeomModelForSP500},
+    kita tidak menolak hipotesis nol bahwa hari-hari perdagangan
+    saling independen selama \spyears{} tahun terakhir pada data.
+    Mengapa hal ini begitu penting?}
+  Kita mungkin tergoda untuk menganggap bahwa pasar sudah ``saatnya''
+  mengalami hari \resp{Naik} jika selama beberapa hari berturut-turut
+  pasar terus turun.
+  Namun, kita belum menemukan bukti kuat bahwa ada
+  sifat semacam itu yang membuat pasar sudah ``saatnya'' mengalami
+  koreksi.
+  Setidaknya, analisis ini menunjukkan bahwa setiap ketergantungan
+  antarhari sangat lemah.
+\end{nexample}
+\end{examplewrap}
+
+\index{data!S\&P500 stock data|)}
+
+\CalculatorVideos{uji kesesuaian khi-kuadrat}
+
+
+{\input{ch_inference_for_props/TeX/testing_for_goodness_of_fit_using_chi-square.tex}}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""579b2fdc-113b-597a-b36e-0ece04275728""]"
 ded05011-d8b7-5572-85ae-cea9700c15de,89e537f6-8c20-53ee-88ad-d52ceedd753c,203,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,940,976,a6571b1f642be62b8925398a0396932c6796e922002b375ee9b882593c76491b,id-ID,qa/b019-translation/staging/eoceSolutions_b019_prefix.id.tex,17,50,fb58ff7c725b9f1e91c303adba5fab3544d13904f3f299ff5cf54fd5e28db1f7,visually_checked,"% 3
 
 \eocesol{(a)~Sampel diambil dari seluruh cip komputer yang diproduksi
@@ -16903,6 +17565,138 @@ e0df56cd-6c02-5d62-a3ea-91adb6fbc826,7c60d2bd-4e91-5a12-8930-3245a77c7154,0,chap
 
 %__________________
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""2339d6ba-af30-5b38-86fe-8300dda0b66b""]"
+e15a2ced-7821-5647-ac3d-2d137628eb4d,0adda3cf-8536-5a0d-8366-798216fdfb4b,4,subsection,en,ch_inference_for_props/TeX/ch_inference_for_props.tex,1636,1766,4faac70c5c74c88a111eb7b8390c82edbb00e4a5ecfb880cfe332a7422c8ca13,id-ID,multi-part:R011-B024/finding-p-value,,,3f9cbd39e9897fb7e1800ecaee66ba312bb4d1e23d265e21b858fa4b0b5180b7,visually_checked,"\subsection{Menentukan nilai-p untuk distribusi khi-kuadrat}
+\label{pValueForAChiSquareTest}
+
+\index{data!racial make-up of jury|(}
+Pada Bagian~\ref{chiSquareTestStatistic}, kita memperoleh statistik uji baru ($X^2$) dalam konteks penilaian apakah terdapat bukti bias ras dalam pemilihan anggota juri. Hipotesis nol menyatakan bahwa anggota juri dipilih secara acak dan tidak terdapat bias ras. Hipotesis alternatif menyatakan bahwa terdapat bias ras dalam pemilihan anggota juri.
+
+Kita telah menentukan bahwa nilai $X^2$ yang besar menunjukkan bukti kuat yang mendukung hipotesis alternatif, yaitu adanya bias ras. Namun, kita belum dapat mengukur peluang teramatinya statistik uji sebesar itu ($X^2=5.89$) jika hipotesis nol benar. Di sinilah distribusi khi-kuadrat berguna. Jika hipotesis nol benar dan tidak terdapat bias ras, $X^2$ mengikuti distribusi khi-kuadrat, dalam kasus ini dengan tiga derajat kebebasan. Dalam syarat-syarat tertentu, statistik $X^2$ mengikuti distribusi khi-kuadrat dengan $k - 1$ derajat kebebasan, dengan $k$ sebagai banyaknya kategori.
+
+\begin{examplewrap}
+\begin{nexample}{Berapa banyak kategori yang terdapat dalam contoh anggota juri? Berapa derajat kebebasan yang harus digunakan untuk distribusi khi-kuadrat bagi $X^2$?}
+Dalam contoh anggota juri, terdapat $k=4$ kategori: kulit putih, kulit hitam, Hispanik, dan lainnya. Berdasarkan kaidah di atas, statistik uji $X^2$ mengikuti distribusi khi-kuadrat dengan $k-1 = 3$ derajat kebebasan jika $H_0$ benar.
+\end{nexample}
+\end{examplewrap}
+
+Seperti ketika kita memeriksa syarat ukuran sampel untuk menggunakan distribusi
+normal pada bagian-bagian sebelumnya, kita juga harus memeriksa syarat
+ukuran sampel agar dapat menerapkan distribusi khi-kuadrat
+pada~$X^2$ dengan aman.
+Setiap cacah harapan harus sekurang-kurangnya 5. Dalam contoh anggota juri,
+cacah harapannya adalah 198, 19.25, 33, dan 24.75; semuanya jauh
+di atas~5, sehingga kita dapat menerapkan model khi-kuadrat pada
+statistik uji $X^2=5.89$.
+
+\begin{examplewrap}
+\begin{nexample}{Jika hipotesis nol benar,
+    statistik uji $X^2=5.89$ berkaitan erat
+    dengan distribusi khi-kuadrat yang memiliki
+    tiga derajat kebebasan.
+    Dengan menggunakan distribusi dan statistik uji tersebut,
+    tentukan nilai-p.}
+  Distribusi khi-kuadrat dan nilai-p ditampilkan pada
+  Gambar~\ref{jurorHTPValueShown}.
+  Karena nilai khi-kuadrat yang lebih besar merupakan bukti yang lebih kuat
+  terhadap hipotesis nol, kita mengarsir ekor atas
+  untuk merepresentasikan nilai-p.
+  Dengan perangkat lunak statistika (atau tabel pada
+  Lampiran~\ref{chiSquareProbabilityTable}),
+  kita dapat menentukan bahwa luasnya adalah 0.1171.
+  Pada umumnya, kita tidak menolak hipotesis nol
+  ketika nilai-p sebesar ini.
+  Dengan kata lain, data tidak memberikan bukti meyakinkan
+  mengenai adanya bias ras dalam pemilihan anggota juri.
+\end{nexample}
+\end{examplewrap}
+
+\begin{figure}[h]
+\centering
+\Figure[Ditampilkan distribusi khi-kuadrat dengan 3 derajat kebebasan, dengan luas di atas 5.89 diarsir. Daerah ini tampak mencakup sekitar 10\% luas di bawah kurva.]{0.55}{jurorHTPValueShown}
+\caption{Nilai-p untuk uji hipotesis anggota juri diarsir pada distribusi khi-kuadrat dengan $df=3$.}
+\label{jurorHTPValueShown}
+\end{figure}
+
+\index{data!racial make-up of jury|)}
+
+\begin{onebox}{Uji khi-kuadrat untuk tabel satu arah}
+  Misalkan kita hendak menilai apakah terdapat bukti meyakinkan
+  bahwa sekumpulan cacah teramati $O_1$, $O_2$, ...,
+  $O_k$ dalam $k$ kategori berbeda secara tidak wajar dari yang
+  diharapkan berdasarkan hipotesis nol.
+  Sebut \emph{cacah harapan} berdasarkan hipotesis nol tersebut
+  sebagai $E_1$, $E_2$, ..., $E_k$.
+  Jika setiap cacah harapan sekurang-kurangnya 5 dan hipotesis nol
+  benar, statistik uji berikut mengikuti distribusi khi-kuadrat
+  dengan $k-1$ derajat kebebasan:
+  \begin{align*}
+  X^2
+    = \frac{(O_1 - E_1)^2}{E_1} +
+        \frac{(O_2 - E_2)^2}{E_2} +
+        \cdots +
+        \frac{(O_k - E_k)^2}{E_k}
+  \end{align*}
+  Nilai-p untuk statistik uji ini diperoleh dari ekor atas
+  distribusi khi-kuadrat tersebut.
+  Kita meninjau ekor atas karena nilai $X^2$ yang lebih besar
+  memberikan bukti yang lebih kuat terhadap hipotesis nol.
+\end{onebox}
+
+\begin{onebox}{Syarat uji khi-kuadrat}
+  Terdapat dua syarat yang harus diperiksa sebelum
+  melakukan uji khi-kuadrat:\vspace{-1mm}
+  \begin{description}
+  \setlength{\itemsep}{0mm}
+  \item[Independensi.] Setiap kasus yang menyumbangkan satu cacah ke
+      dalam tabel harus independen dari semua kasus lain dalam
+      tabel tersebut.
+  \item[Ukuran sampel/distribusi.] Setiap keadaan tertentu
+      (yaitu cacah sel) harus memiliki sekurang-kurangnya 5~kasus harapan.
+  \end{description}
+  Jika syarat-syarat ini tidak terpenuhi, tingkat kesalahan uji dapat terpengaruh.
+\end{onebox}
+
+%\begin{onebox}{Uji khi-kuadrat untuk tabel satu arah}
+%  Misalkan kita hendak menilai apakah terdapat bukti meyakinkan
+%  bahwa sekumpulan cacah teramati $O_1$, $O_2$, ...,
+%  $O_k$ dalam $k$ kategori berbeda secara tidak wajar dari yang
+%  diharapkan berdasarkan hipotesis nol.
+%  \begin{description}
+%  \item[Persiapkan.]
+%      Tuliskan hipotesis dan tentukan tingkat signifikansi.
+%  \item[Periksa.]
+%      Pastikan syarat-syarat terpenuhi,
+%      termasuk menentukan nilai harapan
+%      untuk setiap dari $k$ sel berdasarkan hipotesis nol,
+%      yang kita beri label $E_1$, $E_2$, ..., $E_k$.
+%  \item[Hitung.]
+%      Hitung derajat kebebasan $df = k - 1$ dan
+%      statistik uji dengan membandingkan nilai harapan
+%      dengan nilai teramati $O_1, ..., O_k$:
+%      \begin{align*}
+%      X^2
+%        = \frac{(O_1 - E_1)^2}{E_1} +
+%            \frac{(O_2 - E_2)^2}{E_2} +
+%            \cdots +
+%            \frac{(O_k - E_k)^2}{E_k}
+%      \end{align*}
+%      Tentukan nilai-p sebagai ekor atas dalam distribusi khi-kuadrat
+%      dengan statistik uji sebagai titik batas.
+%  \item[Simpulkan.]
+%      Evaluasi uji hipotesis dengan membandingkan nilai-p
+%      dengan $\alpha$, lalu berikan kesimpulan dalam konteks
+%      persoalan.
+%  \end{description}
+%\end{onebox}
+
+
+Ketika memeriksa tabel yang hanya memiliki dua kategori,
+pilih salah satu kategori dan gunakan metode satu proporsi
+yang diperkenalkan pada Bagian~\ref{singleProportion}.
+\D{\newpage}
+
+\subsection{Menilai kesesuaian suatu distribusi}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""579b2fdc-113b-597a-b36e-0ece04275728""]"
 e17153d3-a0a0-5e5f-815f-4a28e904403b,298c8a6d-ef49-5d05-a237-724ee9e76461,6,worked_example,en,ch_distributions/TeX/ch_distributions.tex,1179,1201,90c7e163c94d296232b9243b19f0adfe979e625f820bf512d416d21f4234e976,id-ID,qa/b015-build/source-snapshot-b015/ch_distributions/TeX/ch_distributions.tex,1173,1193,9008afe34258a29d5e03e2ab3fc74573efafdef8f8767702a4fdb067ed84d032,visually_checked,"\begin{examplewrap}
 \begin{nexample}{Berapa peluang bahwa kita menemukan sukses pertama
     di antara tiga kasus pertama?}
