@@ -1,0 +1,137 @@
+{
+  "$schema": "interlanguage.r011-b022-translation-audit/v1",
+  "boundary": "R011-B022",
+  "status": "PASS_TRANSLATION_AND_PROTECTED_TEX_CLOSURE",
+  "production_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "authority": {
+    "repository": "https://github.com/OpenIntroStat/openintro-statistics",
+    "commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_props/TeX/ch_inference_for_props.tex",
+    "file_bytes": 103385,
+    "file_sha256": "a2470ca3041209d1f1194b3ab27e8124405d8fdbd1ccece89a0319be13fae8a7"
+  },
+  "source_slice": {
+    "first_line": 29,
+    "last_line": 205,
+    "logical_lines": 177,
+    "bytes": 6567,
+    "sha256": "8ac462bda529e0f0cf47b0d363778e883e7808c59486d0b3745e55bdb9ae0d6c",
+    "normalization": "Exact UTF-8 source bytes from line 29 through the LF terminating line 205; no BOM and LF line endings."
+  },
+  "target": {
+    "path": "qa/b022-translation/staging/ch_inference_for_props_29-205.id.tex",
+    "logical_lines": 176,
+    "line_endings": "LF",
+    "terminal_lf": true,
+    "bytes": 6761,
+    "sha256": "ed854514ad0cccaf3dcf09e4aa3aeb3d45ff10305bd761ed14f97248858955cc",
+    "coverage": "Section 6.1 opening, nearly-normal identification, and complete confidence-interval subsection through the blank boundary before Hypothesis testing for a proportion."
+  },
+  "protected_token_checks": {
+    "tex_control_sequence_order": {
+      "source_count": 163,
+      "target_count": 163,
+      "exact_sequence_equal": true
+    },
+    "begin_end_environment_order": {
+      "source_count": 28,
+      "target_count": 28,
+      "exact_sequence_equal": true
+    },
+    "label_ref_cite_redirect_input_order": {
+      "source_count": 6,
+      "target_count": 6,
+      "exact_sequence_equal": true
+    },
+    "inline_math_span_order": {
+      "source_count": 34,
+      "target_count": 34,
+      "exact_sequence_equal": true
+    },
+    "numeric_literal_order": {
+      "source_count": 43,
+      "target_count": 43,
+      "exact_sequence_equal": true
+    },
+    "newcommand_definition_order": {
+      "source_count": 10,
+      "target_count": 10,
+      "exact_sequence_equal": true
+    },
+    "dormant_comment_lines": {
+      "source_count": 20,
+      "target_count": 20,
+      "exact_sequence_equal": true,
+      "policy": "Dormant commented-out English source remains byte-text identical because it is not reader-visible and preserves upstream development history."
+    },
+    "brace_balance": {
+      "source_open": 129,
+      "source_close": 129,
+      "target_open": 129,
+      "target_close": 129
+    },
+    "active_reader_english_residue": {
+      "status": "PASS",
+      "heuristic_forbidden_fragments": [
+        "Inference for a single proportion",
+        "Identifying when the sample proportion",
+        "Confidence intervals for a proportion",
+        "A confidence interval provides",
+        "A simple random sample",
+        "For additional one-proportion",
+        "point estimate",
+        "Guided Practice",
+        "Support: ",
+        "Not: "
+      ],
+      "untranslated_fragments": [],
+      "manual_review": "Every active target line was read against authority lines 29-205; comments, math, macro names, labels, and protected identifiers were adjudicated separately."
+    }
+  },
+  "terminology_decisions": [
+    {
+      "source": "inference / point estimate / confidence interval / hypothesis test",
+      "target": "inferensi / estimasi titik / interval kepercayaan / uji hipotesis",
+      "decision": "Continue the accepted and published Chapter 5 terminology."
+    },
+    {
+      "source": "sampling distribution / sample proportion / standard error",
+      "target": "distribusi sampling / proporsi sampel / galat baku",
+      "decision": "Use the established id-ID statistical register and preserve p-hat and SE notation."
+    },
+    {
+      "source": "success-failure condition",
+      "target": "syarat sukses--gagal",
+      "decision": "Reuse the controlled form admitted in B020 and B021."
+    },
+    {
+      "source": "payday loan borrowers / payday lenders",
+      "target": "peminjam pinjaman gajian / pemberi pinjaman gajian",
+      "decision": "Use an explicit descriptive rendering rather than an unexplained English loan phrase."
+    }
+  ],
+  "source_defects": [
+    {
+      "line": 64,
+      "source": "We expected to see at least 10 successes and 10 failures",
+      "classification": "active-prose tense defect",
+      "intended_reading": "We expect to see at least 10 successes and 10 failures",
+      "translation_action": "Rendered the intended present-tense condition; authority left unchanged."
+    }
+  ],
+  "next_translation_cursor": {
+    "line": 206,
+    "title": "Hypothesis testing for a proportion",
+    "label": "htForPropSection",
+    "label_line": 207
+  },
+  "scope_guards": {
+    "canonical_source_mutated": false,
+    "live_backend_mutated": false,
+    "release_or_publication_mutated": false,
+    "network_used": false,
+    "git_used": false,
+    "credentials_accessed": false,
+    "upstream_contact": false
+  }
+}

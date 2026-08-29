@@ -36,6 +36,7 @@ id,affected_id,category,summary,disposition,confidence,status
 2e7ae2ff-038c-5c76-beb6-749df5fcfd58,bac586bc-5065-5e98-a3ae-8376ff0851ac,source_correction,B015-SC002: explicit derivative-scoped source correction,applied_in_terminal_b015_candidate,high,active
 2f73becc-e157-5bdf-9c26-28f8f7f8863c,d031fd92-364c-5922-9977-7d4f68b6f109,translation_spelling,,,high,active
 3025c792-7852-5e5c-b512-b58bd32985ed,4ad79ac2-b6ea-5eb3-86f4-298962d0bb50,layout_reflow_answer_break,,,high,active
+3169b13f-e022-524a-924f-85d3b72fb094,5ae02b29-9532-5167-9a0e-abde9ad9048c,formula_symbol_inconsistency,,,high,active
 31b634d4-1109-5e35-8e71-f7d86a4bd55d,f5fb316e-6dd4-51e6-9e06-34ebb0d2fab2,grammatical_typo,,,high,active
 367bddb6-f5af-5643-9675-69824d1503af,06b28e64-c231-50b0-b1f6-648ba4ba5102,localized_layout_adaptation,B014-LA001: \D{\newpage},applied_in_terminal_b014_candidate,high,active
 38ab1e8b-ea0c-5a85-bb6c-e21ff1838adc,9cf167d5-4320-5a32-b56f-605c6e7ff489,prose_and_tex_punctuation,,,high,active
@@ -56,6 +57,7 @@ id,affected_id,category,summary,disposition,confidence,status
 4ee59633-83dd-52ae-9949-f7c77323a226,6e4e8c2c-e78c-58d3-afef-7c55af54eb37,source_grammar,The source phrase `represents a classifier a sample` is malformed.,applied_in_isolated_b010_candidate,high,active
 4f3b7e46-2b80-53ad-b797-78b9d5be2704,9e0d4468-5410-57f5-a63f-64d449369bb9,generated_figure_font_portability,,,high,active
 4fef828b-b48e-501b-9f55-ac02dae1eeeb,51f8c9e8-d47d-503f-a0db-38a0564b62f2,grammar,,,high,active
+51f94645-2143-5476-89a8-ba39c6811cb4,1c210048-c7e1-5b6a-89b7-d6c081012bf6,grammatical_tense,,,high,active
 5300ddf7-69f8-5709-8ad6-f371d80b9b34,b9823605-b359-533a-9cb9-84628fa32225,author_attribution_metadata,,,high,active
 56fcf49d-7776-5cc9-a4b3-86b77a310cf6,9cf167d5-4320-5a32-b56f-605c6e7ff489,causal_inference,,,high,active
 575cccf4-5bc4-5362-b46b-c13f0db9cc66,b9823605-b359-533a-9cb9-84628fa32225,pdf_metadata_and_language,,,high,active
@@ -67,6 +69,7 @@ id,affected_id,category,summary,disposition,confidence,status
 5cfb6ea5-1ac3-5696-8894-33902d3303ef,1c22723c-f2d0-5445-bccd-2c220201d232,producer_text_inconsistency,,,high,active
 5e52953d-5c51-5921-81f8-97cd5ffdda60,d2b0d97b-fb59-5cdf-9170-ae1cdeea3398,missing_identifier,,,high,active
 6656c8c6-a66c-50ff-b275-ed018b554ac4,e6ac9457-94fd-5c0e-9e5d-64019cffef9a,layout_reflow_section_break,,,high,active
+71df5bf4-fac9-5cd2-9428-b87b4a33693b,2789ea8d-6fa1-5e81-8dcc-c7d4bff3c42c,publication_state_semantics,,clarified_in_backend_QA_controls_and_checkpoint; published_package_bytes_unchanged,high,active
 73f47817-a29e-5574-9a29-c9371044c61f,4ad79ac2-b6ea-5eb3-86f4-298962d0bb50,public_answer_category_misalignment,,,high,active
 7792c8af-f392-53a9-a5ee-901a0358ed1f,c526fa55-62c1-5a35-bb8d-40abfc2fc3d8,public_answer_design_contradiction,,,high,active
 80e46e51-acc3-5334-8d7b-0cbe02a72d34,49ca843c-e79c-5858-96ba-34396dd18ae6,component_rights,,,high,active
@@ -118,6 +121,7 @@ c55eef80-c64e-5a6e-aaf7-08a7f0bdfce2,bac586bc-5065-5e98-a3ae-8376ff0851ac,source
 c6243fde-2d91-5b85-ac86-874913c8207a,05ed1aa2-8201-50ff-8cb7-893d51314da9,accessibility_grammar,,,high,active
 caf11286-f797-5346-8cab-f2330eb9974d,0d9c327c-fe75-55f7-a4e4-35bec165ffe1,source_cross_reference,"Public answer 13(c) says 0.21 was computed under independence in part (a), but it is computed in part (b-i).",applied_in_isolated_b010_candidate,high,active
 cb44d141-4fff-5209-a574-d8d6c8c3b266,472bec5c-8b39-5aaa-846f-e89ddd224353,public_answer_numeric_mismatch,,,high,active
+cb5b76ca-aaed-51c2-8b5d-8ae00746a17d,2fed3de7-006a-524a-980b-14587f36dc58,question_data_direction_conflict,,,high,active
 cbc79aac-b4f8-53a9-9ce9-829e7c47e95e,e6ac9457-94fd-5c0e-9e5d-64019cffef9a,accessibility_category_mapping,,,high,active
 d0131d21-abda-57d9-82c8-a7333ba7171e,ca0df825-ca52-52be-a3e6-0c3090edaa4c,grammar_number_agreement,B017-C003: high-confidence upstream copyedit candidate,recorded_not_applied_to_authority,high,active
 d0b81f87-f267-5553-9031-14db536bc3ae,49928af2-5b48-5390-8a64-218e71c10a1a,answer_scope,,,high,active

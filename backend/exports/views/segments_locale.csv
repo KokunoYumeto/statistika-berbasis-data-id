@@ -95,6 +95,20 @@ Inilah banyaknya cara berbeda untuk mengurutkan $k-1$ sukses dan $n-k$ gagal dal
 
 \begin{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+0257f772-f91e-59d9-88c0-7712deb65fd7,8e864163-ef34-5a49-a45b-f9dbac4cae17,215,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,1349,1361,38eeefefa26310cb05cf346bcc4037172a194015820b7ea435a2c9490ae02ae7,id-ID,qa/b022-translation/staging/eoceSolutions_b022_public_odd.id.tex,122,134,0c0173789e9281020a53df18927815e0df22fdf5417d5c8be04ccb17d7adfa8f,visually_checked,"% 15
+
+\eocesol{Karena tersedia proporsi sampel ($\hat{p} = 0.55$),
+kita menggunakannya dalam penghitungan ukuran sampel.
+Batas galat untuk interval kepercayaan 90\% adalah
+$1.6449 \times SE = 1.6449 \times \sqrt{\frac{p(1 - p)}{n}}$.
+Kita ingin nilai ini lebih kecil daripada 0.01, dengan menggunakan
+$\hat{p}$ sebagai pengganti $p$:
+\begin{align*}
+1.6449 \times \sqrt{\frac{0.55(1 - 0.55)}{n}} \leq 0.01 \\
+1.6449^2 \frac{0.55(1 - 0.55)}{0.01^2} \leq n
+\end{align*}
+Dari hasil ini, kita memperoleh bahwa $n$ harus sekurang-kurangnya 6697.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
 025ef970-3f3f-5fee-b75a-ffad7021a927,39b0852e-4b0d-551c-b376-6cabf3fbb132,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,290,294,ebdf7ceb9d309124a229ab4b058a286868731eb5c17716f8c65a4b3d4fb0083d,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,305,309,72c71ebb0c1c7371cc52bc60f78425c2e08b1cb720727b042eed6a29685b8c94,translated,"% 13
 
 \eocesol{Histogram menunjukkan bahwa distribusinya bimodal, sesuatu yang tidak tampak pada 
@@ -173,6 +187,17 @@ ekstrem. Median tidak terlalu terpengaruh karena robust terhadap pencilan.
 bagi hampir semua dari 42 orang tersebut. Simpangan baku sangat dipengaruhi oleh dua pendapatan tinggi, 
 sedangkan IQR robust terhadap kedua pengamatan ekstrem itu.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+04d92e96-8783-5525-baae-70c0061df33e,b631db70-a7e1-5887-a670-1b5a7b96b58d,116,exercise,en,ch_inference_for_props/TeX/inference_for_a_single_proportion.tex,311,320,629df4da0493e7a04529b79d779da8a8faf7ebb7f618b0aff8b6ef252feecea6,id-ID,qa/b022-translation/staging/inference_for_a_single_proportion.id.tex,309,318,c1b1c3edbade63eb75feed863f97a5723cb1f5c1579007aad0b4097fcd112cf4,visually_checked,"% 16
+
+\eoce{\qt{Legalisasi ganja, Bagian II\label{legalize_marijuana_CI_sample_size}} Seperti 
+dibahas dalam Latihan~\ref{legalize_marijuana_CI_decision},
+Survei Sosial Umum melaporkan sebuah sampel dengan sekitar
+61\% penduduk AS berpendapat bahwa ganja seharusnya dilegalkan.
+Jika kita ingin membatasi batas galat 
+interval kepercayaan 95\% hingga 2\%, kira-kira berapa banyak
+warga Amerika yang perlu kita survei?
+}{}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
 0512bc2a-4154-5eb3-b510-b4f411b4c5ed,464d9b37-0ad1-53d0-b540-74effa8239f3,1,guided_exercise,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,152,155,8cf5ab9361cefccb36f0c0bf58676a1188f2290a9e2736640ab215eef7349773,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,150,153,7f9d4309c4e16cf08ff2209ffb882347a8052b4e1f2aa308f424456a2ce217ce,translated,"\begin{nexercise}
 Sebutkan dua variabel yang akan mempunyai hubungan berbentuk
 tapal kuda dalam diagram pencar ($\cap$ atau $\frown$).\footnotemark{}
@@ -462,6 +487,28 @@ temuannya dapat digunakan untuk menetapkan hubungan kausal.
 
 % 15
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+0939124c-305c-580c-aad9-910f157afcbc,2fed3de7-006a-524a-980b-14587f36dc58,111,exercise,en,ch_inference_for_props/TeX/inference_for_a_single_proportion.tex,223,244,1c4b8f30bf8f18ba53fd07579dbc0f6d9d57131ac4d0a597b5c307fcbbabeb61,id-ID,qa/b022-translation/staging/inference_for_a_single_proportion.id.tex,223,243,8a145b9064544de0e1bd6d67da4a490b73320a435e51931c533ff67e4f5ed82b,visually_checked,"% 11
+
+\eoce{\qt{Rencana Kesehatan Nasional, Bagian I\label{national_health_plan_HT}}
+Sebuah jajak pendapat \textit{Kaiser Family Foundation} terhadap orang dewasa AS
+pada 2019 mendapati bahwa 79\% Demokrat, 55\% Independen,
+dan 24\% Republikan mendukung suatu ``Rencana Kesehatan Nasional'' umum.
+Survei tersebut mencakup 347 Demokrat, 298 Republikan, dan 617 Independen.\footfullcite{data:KFF2019_nat_health_plan}
+\begin{parts}
+\item
+    Seorang komentator politik di televisi mengklaim bahwa mayoritas Independen
+    mendukung Rencana Kesehatan Nasional.
+    Apakah data ini memberikan bukti kuat yang mendukung pernyataan
+    semacam itu?
+\item
+    Apakah Anda memperkirakan bahwa interval kepercayaan untuk proporsi
+    Independen yang menentang rencana opsi publik akan
+    memuat 0.5?
+    Jelaskan.
+\end{parts}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
 09980ad7-ff9a-52f9-9507-7af1d2f03420,0a3f7f55-f998-5dbf-a8fa-b4e9a54dd5c4,105,exercise,en,ch_foundations_for_inf/TeX/variability_in_estimates.tex,110,144,90a51127a69e0d6f763efe5369e8a5960a3ea51117b3d9c17f90941782b9d9d6,id-ID,scratch/b019-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/variability_in_estimates.tex,97,131,0510b9503ac6b7ef0a31ed349b94d061438a691366f8ad47607f1f2003824c5d,visually_checked,"% 5
 
 \eoce{\qt{Sampel air berulang\label{repeated_water_samples_prop}}
@@ -1099,6 +1146,24 @@ Berdasarkan skenario pada Contoh~\ref{3wRep}, berapakah peluang Anda terpilih un
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""b8ee2bc6-8b07-51f4-8124-2fd462cd606b""]"
+19da7257-eb96-5527-a74d-16c67e20a765,96fece53-721f-51e8-b295-82cbff70b14a,112,exercise,en,ch_inference_for_props/TeX/inference_for_a_single_proportion.tex,245,261,903a368fc025934717cf3210d9437805d6c149f799415cb6e5b25bb0d47ea575,id-ID,qa/b022-translation/staging/inference_for_a_single_proportion.id.tex,244,260,0bace017470e8d1a50df62d9466e907c35ca01cea10e8832d73bcb661d250a66,visually_checked,"% 12
+
+\eoce{\qt{Apakah kuliah sepadan? Bagian I\label{college_worth_it_HT_CI}} Di antara sampel 
+acak sederhana yang terdiri atas 331 orang dewasa Amerika yang tidak memiliki gelar perguruan tinggi empat tahun 
+dan saat ini tidak bersekolah, 48\% mengatakan bahwa mereka memutuskan untuk tidak 
+kuliah karena tidak mampu membiayainya. \footfullcite{data:collegeWorthIt}
+\begin{parts}
+\item Sebuah artikel surat kabar menyatakan bahwa hanya sebagian kecil warga Amerika yang 
+memutuskan untuk tidak kuliah melakukannya karena tidak mampu membiayainya, dan menggunakan 
+estimasi titik dari survei ini sebagai bukti. Lakukan uji hipotesis untuk 
+menentukan apakah data ini memberikan bukti kuat yang mendukung pernyataan tersebut.
+\item Apakah Anda memperkirakan bahwa interval kepercayaan untuk proporsi orang dewasa Amerika 
+yang memutuskan untuk tidak kuliah karena tidak mampu membiayainya akan 
+memuat 0.5? Jelaskan.
+\end{parts}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
 1adff8c6-a052-517d-afd9-03ebe36f46fc,1b67b489-5bfb-5b84-8f44-a692fdc15298,31,guided_exercise,en,ch_probability/TeX/ch_probability.tex,1384,1388,6f7fe3fbfa99e4d9aafee5c65c970b922bce81d4983646a3d20cc9a856e7149b,id-ID,repo/ch_probability/TeX/ch_probability.tex,1383,1387,8dfc5ab3fbf4b44ed0abbd9eef4c1752f8a3384c2fff87c25f4c4116eeafa47f,language_reviewed,"\begin{exercisewrap}
 \begin{nexercise}
 Setelah mengikuti mata kuliah statistika pengantar, 78\% mahasiswa dapat menyusun diagram pohon dengan benar. Di antara mahasiswa yang dapat menyusun diagram pohon, 97\% lulus, sedangkan hanya 57\% mahasiswa yang tidak dapat menyusun diagram pohon yang lulus. (a)~Susun informasi ini dalam sebuah diagram pohon. (b)~Berapa peluang bahwa mahasiswa yang dipilih secara acak lulus? (c)~Hitung peluang bahwa seorang mahasiswa mampu menyusun diagram pohon jika diketahui mahasiswa tersebut lulus.\footnotemark
@@ -1335,6 +1400,19 @@ Untuk pertanyaan pertama, dosen memilih orang lain dengan peluang $14/15$. Ketik
 1c443be3-7710-58a9-9521-4efb02ec4632,5d52d2c3-518e-5fb4-9993-fc3cb99829f2,15,subsection_prose,en,ch_probability/TeX/ch_probability.tex,1186,1187,a5bb8a5380e60014dd99344c39662bd532776853cca0a36c3d19aa88755b2195,id-ID,repo/ch_probability/TeX/ch_probability.tex,1185,1186,b72a23734381db64ce41527329ef581cc24d0c9592f4df3e39c9acdc99928809,language_reviewed,"\footnotetext{$P($\var{result} = \resp{died} $|$ \var{inoculated} = \resp{yes}$) = \frac{P(\text{\var{result} = \resp{died} dan \var{inoculated} = \resp{yes}})}{P(\text{\var{inoculated} = \resp{yes}})} = \frac{0.0010}{0.0392} = 0.0255$ (jika kesalahan pembulatan dihindari, diperoleh $6 / 244 = 0.0246$). Tingkat kematian orang yang diinokulasi hanya sekitar 1~dari~40, sedangkan pada orang yang tidak diinokulasi sekitar 1~dari~7.}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+1c454e2f-bdd3-5208-b839-213e6cc7fed1,09803e0b-1ac0-5016-9a9e-b4f8e7360be6,1,section_intro,en,ch_inference_for_props/TeX/ch_inference_for_props.tex,29,40,2b0dbd582dfbe9ba20685b12af15475c04a6c08d73123a75fb1f9eed340d9ac9,id-ID,qa/b022-translation/staging/ch_inference_for_props_29-205.id.tex,1,12,981916fb604cdd244e0403975b9a6639916a4e220f79375c2cc54aceb822dfd5,visually_checked,"\section{Inferensi untuk satu proporsi}
+\label{singleProportion}
+
+Kita telah menjumpai metode inferensi untuk satu proporsi
+dalam Bab~\ref{ch_foundations_for_inf},
+dengan membahas estimasi titik, interval kepercayaan,
+dan uji hipotesis.
+Dalam bagian ini, kita akan meninjau kembali topik-topik tersebut
+sekaligus mempelajari cara memilih ukuran sampel yang tepat
+ketika mengumpulkan data dalam konteks satu proporsi.
+
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
 1c69f919-99f9-5053-9fd5-3ccc9045f60a,1d288b7a-abb4-52c9-a011-f3226ffd930d,1,end-of-section-exercise,en,ch_probability/TeX/defining_probability.tex,121,143,754a542374919325a39807fd0bb8da29409bf02a7f1adfdd000f92c23db43bf6,id-ID,repo/ch_probability/TeX/defining_probability.tex,118,138,ab94a2ddce12c19b8837041c60dc7448e616cdd2bad809203fb9344e573e0857,language_reviewed,"% 8
 
 \eoce{\qt{Kemiskinan dan bahasa\label{poverty_language}} American Community
@@ -1781,6 +1859,53 @@ pada Gambar~\ref{malaria_vaccine_20_exp_summary_rand_1}.
 \end{figure}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+223a69fc-0689-5a14-b017-6402554bf15e,1c210048-c7e1-5b6a-89b7-d6c081012bf6,2,subsection,en,ch_inference_for_props/TeX/ch_inference_for_props.tex,41,86,712727b2947e40c3991d6150b002b7e2460b15ab1b7cf8318f8810e78299cb1d,id-ID,qa/b022-translation/staging/ch_inference_for_props_29-205.id.tex,13,58,a1d4d796ba3bcc6a6c4f2d2aaa22d5b0b88186b06a1cf7582ce9da168785a410,visually_checked,"\subsection{Mengidentifikasi kapan proporsi sampel mendekati normal}
+
+Proporsi sampel $\hat{p}$ dapat dimodelkan menggunakan
+distribusi normal ketika pengamatan dalam sampel
+independen dan ukuran sampel cukup
+besar.
+
+
+%A sample proportion can be described as a sample mean. If we represent each ``success'' as a 1 and each ``failure'' as a 0, then the sample proportion is the mean of these numerical outcomes:
+%\begin{eqnarray*}
+%\hat{p} = \frac{\ 0 + 1 + 1 + \cdots + 0\ }{1042} = 0.82
+%\end{eqnarray*}
+%The distribution of $\hat{p}$ is nearly normal when the distribution of 0's and 1's is not too strongly skewed for the sample size. The most common guideline for sample size and skew when working with proportions is to ensure that we expect to observe a minimum number of successes (1's) and failures (0's), typically at least 10 of each. The labels \term{success} and \term{failure} need not mean something positive or negative. These terms are just convenient words that are frequently used when discussing proportions.
+
+\begin{onebox}{Distribusi sampling dari
+    $\pmb{\hat{\MakeLowercase{p}}}$}
+  Distribusi sampling dari $\hat{p}$ yang didasarkan pada
+  sampel berukuran $n$ dari populasi dengan
+  proporsi sebenarnya $p$ mendekati normal ketika:
+  \begin{enumerate}
+  \setlength{\itemsep}{0mm}
+  \item Pengamatan dalam sampel independen,
+      misalnya berasal dari sampel acak sederhana.
+  \item Kita mengharapkan sekurang-kurangnya 10 sukses dan
+      10 gagal dalam sampel, yaitu $np\geq10$ dan
+      $n(1-p)\geq10$.
+      Ini disebut \term{syarat sukses--gagal}.
+  \end{enumerate}
+  Ketika syarat-syarat ini terpenuhi, distribusi sampling
+  dari $\hat{p}$ mendekati normal dengan rata-rata
+  $p$ dan galat baku
+  \index{galat baku (SE)!satu proporsi}%
+  $SE = \sqrt{\frac{\ p(1-p)\ }{n}}$.
+\end{onebox}
+
+Biasanya kita tidak mengetahui proporsi sebenarnya $p$,
+sehingga kita menyubstitusikan suatu nilai untuk memeriksa syarat
+dan mengestimasi galat baku.
+Untuk interval kepercayaan, proporsi sampel
+$\hat{p}$ digunakan untuk memeriksa syarat sukses--gagal
+dan menghitung galat baku.
+Untuk uji hipotesis, biasanya nilai nol --
+yaitu proporsi yang dinyatakan dalam hipotesis nol --
+digunakan sebagai pengganti $p$.
+
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
 23b6b67a-f452-5232-a53b-de8d15505efe,75ebc1c8-89f8-5aa8-adae-418b44c3a87c,1,instructional_prose,en,ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,926,955,97b0f3c7b036548ab9d7a0102010cc1cb3464420cfc40a57e690efda773238cf,id-ID,scratch/b020-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,918,947,eb3d16426a14f93cef2d8f7aecbb51657bc9bbc90b6b309fd7a9d3618933f9ce,visually_checked,"\subsection{Mencakup parameter populasi}
 
 Menggunakan estimasi titik saja ibarat menangkap ikan dengan tombak
@@ -2422,6 +2547,22 @@ akan berkaitan, sehingga kinerja kuliah juga mungkin berkaitan.
 (c)~Tidak. Lihat jawaban bagian~(a) ketika mata kuliah tidak dinilai berdasarkan kurva.
 Secara umum, jika dua hal tidak berkaitan (independen), terjadinya salah satu tidak menghalangi
 terjadinya yang lain.}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+2b233eff-4a02-5ed1-8637-947ac3567d84,ee26bb6f-8b05-57d2-b3bd-77bac4c7c2f0,201,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,1228,1242,bd2c02ea36ed57cf682a7baef8c4a6675619d2828d42171dcf20e4cfc496bc67,id-ID,qa/b022-translation/staging/eoceSolutions_b022_public_odd.id.tex,1,15,2c8bfd074aad9bf4124fb8040840d68feda2d8c6aad83080e104f62cbfa6dcf2,visually_checked,"% 1
+
+\eocesol{(a)~Salah. Syarat sukses--gagal tidak terpenuhi.
+(b)~Benar. Syarat sukses--gagal tidak terpenuhi. Dalam sebagian besar sampel, kita 
+memperkirakan $\hat{p}$ mendekati 0.08, yaitu proporsi populasi sebenarnya. 
+Meskipun $\hat{p}$ dapat jauh di atas 0.08, nilainya dibatasi dari bawah oleh 0, sehingga 
+distribusinya diperkirakan menceng ke kanan. Membuat grafik distribusi sampling akan 
+mengonfirmasi dugaan ini.
+(c)~Salah. $SE_{\hat{p}} = 0.0243$, dan $\hat{p} = 0.12$ hanya berjarak 
+$\frac{0.12 - 0.08}{0.0243} = 1.65$ galat baku dari rata-rata, sehingga tidak 
+akan dianggap tidak lazim.
+(d)~Benar. $\hat{p}=0.12$ berjarak 2.32 galat baku dari rata-rata, yang 
+sering dianggap tidak lazim.
+(e)~Salah. Galat baku berkurang dengan faktor $1/\sqrt{2}$.}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
 2b4d83e5-1016-5f21-9760-b50e1fafa4e8,4e433fc3-72d5-5511-b8fa-f671182f898f,18,guided_exercise,en,ch_probability/TeX/ch_probability.tex,1958,1962,468c6fe3bfb7205d4f9fa2b37a20aa684e983d60960fb0dd05953dba081caecc,id-ID,repo/ch_probability/TeX/ch_probability.tex,1947,1951,02de86211181ee5920323bf9914d7fe422083b90764989d36d5acc292c24065c,language_reviewed,"\begin{exercisewrap}
 \begin{nexercise}
 Berdasarkan lelang sebelumnya, Elena memperkirakan akan memperoleh sekitar \$175 dari TV dan membayar sekitar \$23 untuk oven pemanggang. Secara keseluruhan, berapa banyak uang yang diperkirakan akan ia peroleh atau belanjakan?\footnotemark
@@ -2688,6 +2829,28 @@ Contoh~\ref{threeDice} mengilustrasikan apa yang disebut Aturan Perkalian untuk 
   \chaptersection{negativeBinomial}
   \chaptersection{poisson}
 \end{chapterpage}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""5013dc5b-3a29-5516-9948-98c064aa43e8""]"
+300ee92f-f49d-5961-b2f3-a653865276c1,ca943663-6b2f-54f6-a701-08fa0244e803,113,exercise,en,ch_inference_for_props/TeX/inference_for_a_single_proportion.tex,262,283,2eb210e7c69e327217bd39293d477a38dcb152e6d77d4a5f6b106570c6f899da,id-ID,qa/b022-translation/staging/inference_for_a_single_proportion.id.tex,261,281,3072bde225931990575c84c3531eca67f5d2c4c27ed9eb7aa80e0185766e8ace,visually_checked,"% 13
+
+\eoce{\qt{Uji rasa\label{taste_test_HT_2_sided}}
+Sebagian orang mengklaim bahwa mereka dapat membedakan 
+soda diet dari soda biasa pada tegukan pertama.
+Seorang peneliti yang ingin menguji klaim ini mengambil sampel acak sebanyak 80 orang tersebut.
+Kemudian, ia mengisi 80 
+gelas putih polos dengan soda, separuh soda diet dan separuh soda biasa
+melalui penetapan acak, 
+lalu meminta setiap orang meneguk sekali dari gelasnya
+dan mengidentifikasi soda tersebut sebagai 
+soda diet atau soda biasa.
+Sebanyak 53 peserta mengidentifikasi soda dengan benar.
+\begin{parts}
+\item Apakah data ini memberikan bukti kuat bahwa orang-orang tersebut
+  lebih baik atau lebih buruk daripada sekadar menebak secara acak dalam
+  membedakan soda diet dari soda biasa?
+\item Interpretasikan nilai-p dalam konteks ini.
+\end{parts}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
 30469567-930b-544d-bfbc-2159bc0f837b,aa5cb6c8-d476-55b8-9f52-8356e0a9e26b,134,exercise,en,ch_distributions/TeX/poisson_distribution.tex,63,86,c574ade63499923b9d112e9930629107b027f94caaaa5e64b8fd9072a5eec210,id-ID,scratch/b018-build-candidate/source-snapshot-b018/ch_distributions/TeX/poisson_distribution.tex,63,86,9f1b3ccd4ea8d3e49c4390e40e3319e5dcf5cda1c4e0341106c67edf24694938,visually_checked,"% 34
 
 \eoce{\qt{Bagasi hilang\label{lost_baggage}}
@@ -3389,6 +3552,43 @@ ini?\footnotemark{}
         (\insureSprob{})(\insureSprob{})
     = (\insureSprob{})^3 (\insureFprob{})^1$.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""d79c0e4f-9e37-5e77-9080-34fed0852af2""]"
+36db91f9-9a06-5c67-8c40-ce9bf752b2fe,e94a22b0-7c49-5b2c-8c15-d393ad006e75,105,exercise,en,ch_inference_for_props/TeX/inference_for_a_single_proportion.tex,85,120,dc458f1d22c32675aa43c5ecec8b38e11befe8293884aa7d1dd0586546034067,id-ID,qa/b022-translation/staging/inference_for_a_single_proportion.id.tex,85,120,92b45f3fc39aaf803165683662d83275806c87ae8d901f48abcc1b43c1faa08a,visually_checked,"% 5
+
+\eoce{\qt{Kesetaraan gender\label{gender_equality}}
+Survei Sosial Umum mengajukan pertanyaan berikut kepada sampel acak
+sebanyak 1,390 warga Amerika:
+``Secara umum, menurut Anda, apakah pemerintah semestinya atau tidak semestinya
+bertanggung jawab untuk mendorong kesetaraan
+antara laki-laki dan perempuan?''
+Sebanyak 82\% responden menjawab ``semestinya''.
+Pada tingkat kepercayaan 95\%, sampel ini memiliki batas galat 2\%.
+Berdasarkan informasi ini, tentukan apakah pernyataan-pernyataan berikut
+benar atau salah, dan jelaskan alasan Anda.\footfullcite{data:gss}
+\begin{parts}
+\item Kita yakin 95\% bahwa antara 80\% dan 84\% warga Amerika dalam 
+sampel ini berpendapat bahwa pemerintah bertanggung jawab mendorong kesetaraan antara 
+laki-laki dan perempuan.
+\item Kita yakin 95\% bahwa antara 80\% dan 84\% seluruh warga Amerika 
+berpendapat bahwa pemerintah bertanggung jawab mendorong kesetaraan antara 
+laki-laki dan perempuan.
+\item Jika kita mempertimbangkan banyak sampel acak yang masing-masing terdiri atas 1,390 warga Amerika, dan menghitung 
+interval kepercayaan 95\% untuk setiap sampel, 95\% dari interval tersebut akan memuat 
+proporsi populasi sebenarnya dari warga Amerika yang berpendapat bahwa pemerintah 
+bertanggung jawab mendorong kesetaraan antara laki-laki dan perempuan.
+\item Untuk mengurangi batas galat menjadi 1\%, kita perlu 
+melipatgandakan ukuran sampel menjadi empat kali (mengalikannya dengan 4).
+\item Berdasarkan interval kepercayaan ini, terdapat bukti yang cukup untuk 
+menyimpulkan bahwa mayoritas warga Amerika berpendapat bahwa pemerintah bertanggung jawab 
+mendorong kesetaraan antara laki-laki dan perempuan.
+\end{parts}
+
+% n = 1390
+% should be: 1142
+% p = 1142/1390 = 0.82
+% me = sqrt(.82*.08/1390)*1.96 = 0.02
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
 36dd87da-3393-58d0-92a4-bc30fff571d6,ddf6486c-36cf-5b4d-8978-667c8e4f60da,33,guided_exercise,en,ch_probability/TeX/ch_probability.tex,2171,2175,42d3da74ff0eb4c6557922428afacfd9185511a3d18851e18f579e100d472e2b,id-ID,repo/ch_probability/TeX/ch_probability.tex,2160,2164,3b27f1de1429d85fd3eb25a24cdb5cbe6a939a1dfd3771d22a3e25a0a19929e5,language_reviewed,"\begin{exercisewrap}
 \begin{nexercise}\label{elenaIsSellingATVAndBuyingAToasterOvenAtAnAuctionVariability}
 Pertimbangkan kembali dua lelang Elena dari Latihan Terbimbing~\ref{elenaIsSellingATVAndBuyingAToasterOvenAtAnAuction} pada halaman~\pageref{elenaIsSellingATVAndBuyingAToasterOvenAtAnAuction}. Misalkan kedua lelang ini kira-kira saling independen dan variabilitas harga lelang TV serta oven pemanggang dapat dideskripsikan menggunakan simpangan baku \$25 dan \$8. Hitung simpangan baku keuntungan bersih Elena.\footnotemark
@@ -6138,6 +6338,22 @@ dengan persentil tertentu?
 Misalkan Brian berlatih dengan sangat tekun dan setiap field goal dari jarak 35 yard yang ditendangnya memiliki peluang sukses $p=0.8$. Tebaklah berapa banyak percobaan yang ia perlukan sebelum mencetak field goal keempatnya.\footnotemark
 \end{nexercise}
 \end{exercisewrap}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""69574f5b-e113-5529-9d72-6ebfd1501a86""]"
+5611a6a6-ce40-520c-8803-fe17839bc5b9,a2d7c08f-a68f-555b-8a60-aac7b1fb5b5c,114,exercise,en,ch_inference_for_props/TeX/inference_for_a_single_proportion.tex,284,298,b6a8b04f4885e82663468bfe3e0da3d4e0b169650b6f28fc2989d03aa3c5515e,id-ID,qa/b022-translation/staging/inference_for_a_single_proportion.id.tex,282,296,e7c54dcd7d550778769af3e3a8d273a131a4589a3b61fe43996a7daa9fc633a9,visually_checked,"% 14
+
+\eoce{\qt{Apakah kuliah sepadan? Bagian II\label{college_worth_it_CI_sample_size}} 
+Latihan~\ref{college_worth_it_HT_CI} menyajikan hasil jajak pendapat yang menunjukkan bahwa 
+48\% dari 331 warga Amerika yang memutuskan untuk tidak kuliah melakukannya karena 
+tidak mampu membiayainya.
+\begin{parts}
+\item Hitung interval kepercayaan 90\% untuk proporsi warga Amerika 
+yang memutuskan untuk tidak kuliah karena tidak mampu membiayainya, lalu interpretasikan 
+interval tersebut dalam konteksnya.
+\item Misalkan kita menginginkan batas galat untuk tingkat kepercayaan 90\% 
+sekitar 1.5\%. Seberapa besar survei yang akan Anda rekomendasikan?
+\end{parts}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
 5623583c-258f-50a2-af9a-aeed766142b9,f737466c-6fe9-55d9-b2b4-09ec9a1f5afe,19,guided_inline_answer,en,ch_probability/TeX/ch_probability.tex,1963,1963,eb1d4220aaccb269df96b3ff9bcad73b3fe15744134eaa066ef9aaa44d2624bc,id-ID,repo/ch_probability/TeX/ch_probability.tex,1952,1952,c7b52e1c4b101bd17c62cbdde7e0da26af87966509c5d4c225ba1dd1ff925438,language_reviewed,"\footnotetext{$E(X-Y) = E(X) - E(Y) = 175 - 23 = \$152$. Elena diperkirakan akan memperoleh sekitar \$152.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""f5cfd01e-9712-58ec-ac48-481f923814c1""]"
 563fa6b8-edde-5b8d-9b60-984c6a23797a,3c6361cd-2b66-5dcf-9ae1-6f9525f9dce4,23,worked_example,en,ch_probability/TeX/ch_probability.tex,2002,2023,2ba6e992320c756789d2dac2d4ab1278c873573a02d32e04300b3e56836f896f,id-ID,repo/ch_probability/TeX/ch_probability.tex,1991,2012,337ba636373e46c63beb6f30b5ba6364fe8cfc046f853ba239df8b0c5055aa2d,language_reviewed,"\begin{examplewrap}
@@ -7079,6 +7295,125 @@ Jelaskan alasan Anda.
 
 % 23
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+5ab6259c-7143-570b-a9ad-314da67f3422,c00bb5f1-9b31-5d7e-8656-0530642b06a2,3,subsection,en,ch_inference_for_props/TeX/ch_inference_for_props.tex,87,205,179e0f2b3f65014864d942809d8c35c15c194db696c93b01f2946bd8ef36066c,id-ID,qa/b022-translation/staging/ch_inference_for_props_29-205.id.tex,59,176,66e382fba1337f6600d475cf1a34b989e29692c51c165cc7d44fb1913a1d5294,visually_checked,"\subsection{Interval kepercayaan untuk suatu proporsi}
+\label{confIntForPropSection}
+
+\index{estimasi titik!satu proporsi}
+
+Interval kepercayaan memberikan rentang
+nilai yang masuk akal bagi parameter $p$,
+dan ketika $\hat{p}$ dapat dimodelkan menggunakan
+distribusi normal, interval kepercayaan
+untuk $p$ berbentuk
+\begin{align*}
+\hat{p} \pm z^{\star} \times SE
+\end{align*}
+
+\index{data!Jajak pendapat regulasi pinjaman gajian|(}
+
+\newcommand{\paydayN}{826}
+\newcommand{\paydayNHalf}{413}
+\newcommand{\paydayRegPerc}{70\%}
+\newcommand{\paydayRegProp}{0.70}
+\newcommand{\paydayRegSE}{0.016}
+\newcommand{\paydayRegSEPerc}{1.6\%}
+\newcommand{\paydayRegLower}{0.669}
+\newcommand{\paydayRegUpper}{0.731}
+\newcommand{\paydayRegLowerPerc}{66.9\%}
+\newcommand{\paydayRegUpperPerc}{73.1\%}
+% https://www.pewtrusts.org/-/media/assets/2017/04/payday-loan-customers-want-more-protections-methodology.pdf
+
+\begin{examplewrap}
+\begin{nexample}{Sebuah sampel acak sederhana yang terdiri dari \paydayN{}
+    peminjam pinjaman gajian disurvei untuk lebih memahami
+    kepentingan mereka terkait regulasi dan biaya.
+    Sebanyak \paydayRegPerc{} dari responden mendukung
+    regulasi baru bagi pemberi pinjaman gajian.
+    Apakah masuk akal untuk memodelkan $\hat{p} = \paydayRegProp{}$
+    menggunakan distribusi normal?}
+  Data berasal dari sampel acak, sehingga pengamatannya
+  independen dan mewakili populasi yang menjadi
+  perhatian.
+
+  Kita juga harus memeriksa syarat sukses--gagal,
+  yang dilakukan dengan menggunakan $\hat{p}$ sebagai pengganti
+  $p$ ketika menghitung interval kepercayaan:
+  \begin{align*}
+  \text{Mendukung: }
+      n p &
+          \approx \paydayN{} \times \paydayRegProp{}
+      = 578
+  &\text{Tidak mendukung: }
+      n (1 - p) &
+        \approx \paydayN{} \times (1 - \paydayRegProp{})
+      = 248
+  \end{align*}
+  Karena kedua nilai tersebut sekurang-kurangnya 10, kita dapat menggunakan
+  distribusi normal untuk memodelkan $\hat{p}$.
+\end{nexample}
+\end{examplewrap}
+
+
+
+
+\begin{exercisewrap}
+\begin{nexercise} \label{seOfPropOfPDBorrowersSupportReg}
+Estimasilah galat baku dari $\hat{p} = \paydayRegProp{}$.
+Karena $p$ tidak diketahui dan galat baku ini digunakan untuk
+interval kepercayaan, gunakan $\hat{p}$ sebagai pengganti $p$
+dalam rumus.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{$SE = \sqrt{\frac{p(1-p)}{n}} \approx
+    \sqrt{\frac{\paydayRegProp{} (1 - \paydayRegProp{})}
+        {\paydayN{}}} = \paydayRegSE{}$.}
+
+\begin{examplewrap}
+\begin{nexample}{Buatlah interval kepercayaan 95\% untuk $p$,
+    yaitu proporsi peminjam pinjaman gajian yang mendukung peningkatan
+    regulasi bagi pemberi pinjaman gajian.}
+  Dengan menggunakan
+  estimasi titik \paydayRegProp{},
+  $z^{\star} = 1.96$ untuk interval kepercayaan 95\%,
+  dan
+  galat baku $SE = \paydayRegSE{}$ dari
+  Latihan Terbimbing~\ref{seOfPropOfPDBorrowersSupportReg},
+  interval kepercayaannya adalah
+  \begin{eqnarray*}
+  \text{estimasi titik} \ \pm\ z^{\star} \times SE
+      \quad\to\quad
+      \paydayRegProp{} \ \pm\ 1.96 \times \paydayRegSE{}
+      \quad\to\quad
+      (\paydayRegLower{}, \paydayRegUpper{})
+  \end{eqnarray*}
+  Kita yakin 95\% bahwa proporsi sebenarnya dari
+  peminjam pinjaman gajian yang mendukung regulasi pada saat
+  jajak pendapat berlangsung berada di antara \paydayRegLower{} dan
+  \paydayRegUpper{}.
+\end{nexample}
+\end{examplewrap}
+
+\onepropconfintsummary{}
+%\begin{onebox}{Constructing a confidence interval for a proportion}
+%  There are three steps to constructing a confidence
+%  interval for $p$.
+%  \begin{itemize}
+%  \setlength{\itemsep}{0mm}
+%  \item Check independence and the success-failure condition
+%      using $\hat{p}$.
+%      If the conditions are met, the sampling distribution
+%      of $\hat{p}$ may be well-approximated by the normal model.
+%  \item Construct the standard error using $\hat{p}$
+%      in place of $p$ in the standard error formula.
+%  \item Apply the general confidence interval formula.
+%  \end{itemize}
+%\end{onebox}
+
+\noindent%
+Untuk contoh tambahan interval kepercayaan satu proporsi,
+lihat Bagian~\ref{confidenceIntervals}.
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
 5bb45cef-c069-554c-8ee2-e944e0162b29,ef25e2c4-b83a-58be-bfaa-8fe6b5fa5d63,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,501,509,b8fdeb285e3c743472b87a4659c73c01cdce086ac9236f18b7dc449e6b0e8ec4,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,526,534,96082d9fc103425223c1a5fe018232cdc48757eee8ce128ff6dc22d447d5f2c0,language_reviewed,"% 17
 
 \eocesol{(a)~Tidak. Ada 6~perempuan yang paling menyukai Five Guys Burgers.
@@ -7099,6 +7434,15 @@ Tiga orang dewasa di AS dipilih secara acak. Peluang bahwa satu orang dewasa mem
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""b410ecf6-7942-5337-9e18-e09c9e84783d""]"
+5c0ef5e4-e3c2-5f84-acf1-dbf4c36878ba,0ba84ffe-8cd7-5585-8f97-da033f6aa698,107,exercise,en,ch_inference_for_props/TeX/inference_for_a_single_proportion.tex,137,144,ac83e02d48f89d9dd1ee4adf8bf76fbb5dd6eeb7cd08d16b7223794207fba229,id-ID,qa/b022-translation/staging/inference_for_a_single_proportion.id.tex,137,144,3fb5dea3a8483a047783b32c76e564773485700bb5842d5c54a9b40ae3939724,visually_checked,"% 7
+
+\eoce{\qt{Kembang api pada 4 Juli\label{fireworks_CI_concept}} Sebuah media 
+berita lokal melaporkan bahwa 56\% dari 600 penduduk Kansas yang dipilih secara acak berencana 
+menyalakan kembang api pada tanggal~4 Juli. Tentukan batas galat untuk 
+estimasi titik 56\% dengan menggunakan tingkat kepercayaan 95\%.\footfullcite{data:july4}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
 5c1d0fb0-35eb-5351-90bd-7853bb2eb919,52bf0186-4674-569a-b8c7-783489172959,3,subsection_prose,en,ch_probability/TeX/ch_probability.tex,620,653,025bd744df53e4cfa9effe76f28957a91251e65b20f4714547f36f6aa434dd7a,id-ID,repo/ch_probability/TeX/ch_probability.tex,617,650,032136db90402510dbc3b7104ed8c083f90ea6f836efbb87d57b3f9d5f1dc7e8,language_reviewed,"\footnotetext{(a)~Singkatan \resp{RH} dan \resp{LH} digunakan masing-masing untuk tidak kidal dan kidal. Karena semuanya independen, kita menerapkan Aturan Perkalian untuk proses independen:
 \begin{align*}
 P(\text{kelima orang adalah \resp{RH}})
@@ -7498,6 +7842,19 @@ Hal-hal yang kita anggap sebagai proses acak belum tentu benar-benar acak; mungk
 \end{onebox}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""5013dc5b-3a29-5516-9948-98c064aa43e8""]"
+6206732c-2a89-5e95-aef7-82f921618a59,3df47d41-adae-5042-a4ed-456befa944c4,115,exercise,en,ch_inference_for_props/TeX/inference_for_a_single_proportion.tex,299,310,cb5a7987717f66a3a939590e8bb407d2cfa11274d0e75b797011782390a3f1f4,id-ID,qa/b022-translation/staging/inference_for_a_single_proportion.id.tex,297,308,dc4bb92bdba5d732108432b53b8f9c359c7d78a45570759793a63d846a8f77a0,visually_checked,"% 15
+
+\eoce{\qt{Rencana Kesehatan Nasional,
+    Bagian II\label{national_health_plan_CI_sample_size_replaced}} 
+Latihan~\ref{national_health_plan_HT} menyajikan hasil
+jajak pendapat yang mengevaluasi dukungan terhadap suatu
+``Rencana Kesehatan Nasional'' umum di AS pada 2019,
+dan melaporkan bahwa 55\% Independen mendukungnya.
+Jika kita ingin mengestimasi angka ini dengan ketelitian hingga 1\% pada
+tingkat kepercayaan 90\%, berapakah ukuran sampel yang sesuai?
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
 63de73cb-5e86-5025-9f63-623ffae48a3f,ac2eadec-b632-5fad-ab1f-e392e30ab0a1,133,exercise,en,ch_distributions/TeX/poisson_distribution.tex,38,62,80a15353cd44d5cd454c9cd4a36a980e4b77218da183da22d7a065268c8c47e0,id-ID,scratch/b018-build-candidate/source-snapshot-b018/ch_distributions/TeX/poisson_distribution.tex,38,62,e1fce0d6fda68670ddbde19e4b44f29f1f70ccac0a00e39d0375b889306b8e86,visually_checked,"% 33
 
 \eoce{\qtq{Berapa banyak mobil yang datang\label{cars_in_parking_lot}}
@@ -7949,6 +8306,23 @@ Mari kita pertimbangkan perhitungan untuk dua peristiwa yang tidak saling lepas 
 \end{figure}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+68a10f1e-0241-5958-8144-c3ae95eebd7f,d278d395-2999-56a9-acb5-96c48ff3c5e9,106,exercise,en,ch_inference_for_props/TeX/inference_for_a_single_proportion.tex,121,136,caaad004037fbfa3f7d6a6f067c602fe3e8f9d462931bb50822c08721c89c7fe,id-ID,qa/b022-translation/staging/inference_for_a_single_proportion.id.tex,121,136,16a470801e761ab8f6a72163c9d2d9940dd187e0267d625bfea97ae9cc9bef9b,visually_checked,"% 6
+
+\eoce{\qt{Pengemudi lanjut usia\label{elderly_drivers_CI_concept}} 
+Marist Poll menerbitkan laporan yang menyatakan bahwa 66\% orang dewasa secara nasional 
+berpendapat bahwa pengemudi berlisensi harus diwajibkan mengikuti ulang ujian mengemudi setelah 
+mencapai usia 65 tahun. Dilaporkan pula bahwa wawancara dilakukan terhadap 
+1,018 orang dewasa Amerika dan bahwa batas galatnya adalah 3\% 
+dengan tingkat kepercayaan 95\%. \footfullcite{data:elderlyDriving}
+\begin{parts}
+\item Verifikasikan batas galat yang dilaporkan oleh Marist Poll. 
+\item Berdasarkan interval kepercayaan 95\%, apakah jajak pendapat tersebut memberikan bukti yang meyakinkan 
+bahwa \textit{lebih dari} 70\% populasi berpendapat bahwa pengemudi berlisensi 
+harus diwajibkan mengikuti ulang ujian mengemudi setelah mencapai usia 65 tahun?
+\end{parts}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
 69156d43-6b19-55b9-8e16-317af2b1e4cf,a36d034f-f5c1-5f04-89ac-c4f4a6cd046d,1,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,986,1039,ad49b85b7f8990b5227fda65a52ea18f64221ef9362a56b8b7d28000b2298bdc,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,941,991,3ba075d64886f3f223e3b428bf2c59a9158036dce296ada9f0430f175676eddd,translated,"\subsection{Statistik robust}
 
 Bagaimana \indexthis{statistik sampel}{statistik sampel} untuk
@@ -8160,6 +8534,17 @@ seperti batas galat bagi proporsi.)
 }{}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""0af7d341-14fc-5fd0-a88a-6d753a22639e""]"
+6c1f6fca-ca3e-50f4-820c-cd2c2b6f0cc7,5094a5b0-f706-546b-b80a-ba3ed3a39973,205,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,1250,1259,10891b6cebb5d768a6cd440cdec54444a387d020321582710a47e93470ec6f9c,id-ID,qa/b022-translation/staging/eoceSolutions_b022_public_odd.id.tex,23,32,cc2b2bcc1fea76bab611e482666029e1173beefe5754eb201390ca74e76b2fb2,visually_checked,"% 5
+
+\eocesol{(a)~Salah. Interval kepercayaan disusun untuk mengestimasi proporsi populasi, 
+bukan proporsi sampel.
+(b)~Benar. IK 95\%: $82\%\ \pm\ 2\%$.
+(c)~Benar. Berdasarkan definisi tingkat kepercayaan.
+(d)~Benar. Melipatgandakan ukuran sampel menjadi empat kali mengurangi galat baku dan batas galat dengan faktor 
+$1/\sqrt{4}$.
+(e)~Benar. Seluruh IK 95\% berada di atas 50\%.}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
 6cb895a1-c258-5476-8a18-1e995f13e480,c9faaa37-1ac5-54ae-b62f-1556d2b63374,3,prose,en,ch_intro_to_data/TeX/ch_intro_to_data.tex,82,82,db57f961aa91635456a9abd409541651a94649144e68f800966307027d572049,id-ID,repo/ch_intro_to_data/TeX/ch_intro_to_data.tex,82,82,0d7581e1ecf01a2adbe48f45c892fcd7a39013bcedb7b2649cbbcbe67f413254,translated,"Menelaah data setiap pasien satu per satu merupakan cara yang panjang dan rumit untuk menjawab pertanyaan penelitian semula. Sebaliknya, analisis data statistik memungkinkan kita menelaah seluruh data sekaligus. Gambar~\ref{stentStudyResults} merangkum data mentah dengan cara yang lebih berguna. Dari tabel ini, kita dapat dengan cepat melihat apa yang terjadi selama penelitian. Misalnya, untuk menentukan jumlah pasien dalam kelompok perlakuan yang mengalami strok dalam 30 hari, kita melihat sisi kiri tabel pada perpotongan baris perlakuan dan kolom strok: 33.
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 6d997608-d069-59e9-b479-bebcc9f3cbf5,1f16e855-c9cc-53b3-be05-b2aea690eb1b,1,instructional_prose,en,ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,1574,1719,f0eb1ffba3358efed88e6a614f780926da75570eac94d24b60957dbaca3cee21,id-ID,qa/b021-translation/staging/ch_foundations_for_inf_1509-1719.id.tex,66,210,d240abeccbde633ccec2111afa2f61cd4c136a1af2aaef0e1e8e8bd67c7d8119,visually_checked,"\subsection{Kerangka uji hipotesis}
@@ -8860,6 +9245,27 @@ Seandainya kita mengulangi Latihan Terbimbing~\ref{raffleOf30TicketsWWOReplaceme
 
 %_________________
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""b8ee2bc6-8b07-51f4-8124-2fd462cd606b""]"
+7a8bf7a9-803e-5e44-bac3-d26ed5162804,ae22caa7-8243-57e4-bc44-7aa51b6c9a4b,108,exercise,en,ch_inference_for_props/TeX/inference_for_a_single_proportion.tex,145,164,13f4e4ba5d654c92d8b230bdab499441473fa4e6edc4c366c2864ef71dc0b671,id-ID,qa/b022-translation/staging/inference_for_a_single_proportion.id.tex,145,164,470932c7ef91c3c25afd5cbe8e3002d9ee32874c2d7b84bfd3c87922a2fe2b24,visually_checked,"% 8
+
+\eoce{\qt{Penilaian kehidupan di Yunani\label{greece_life_rating_CI}} Yunani menghadapi 
+krisis ekonomi parah sejak akhir 2009. Sebuah jajak pendapat Gallup menyurvei 1,000 
+warga Yunani yang dipilih secara acak pada 2011 dan mendapati bahwa 25\% di antaranya mengatakan 
+kehidupan mereka cukup buruk untuk digolongkan sebagai ``menderita''.\footfullcite{data:suffering}
+\begin{parts}
+\item Deskripsikan parameter populasi yang menjadi perhatian. Berapakah nilai 
+estimasi titik parameter tersebut?
+\item Periksa apakah syarat yang diperlukan untuk menyusun interval kepercayaan 
+berdasarkan data ini terpenuhi.
+\item Susun interval kepercayaan 95\% untuk proporsi warga Yunani yang 
+``menderita"".
+\item Tanpa melakukan penghitungan apa pun, deskripsikan apa yang akan terjadi pada 
+interval kepercayaan jika kita memutuskan menggunakan tingkat kepercayaan yang lebih tinggi.
+\item Tanpa melakukan penghitungan apa pun, deskripsikan apa yang akan terjadi pada 
+interval kepercayaan jika kita menggunakan sampel yang lebih besar.
+\end{parts}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
 7a8ea5aa-0d5c-5e8b-b20b-af4e146e23ea,a41e10d3-917e-5713-82ad-81edbe6ee827,27,guided_exercise,en,ch_distributions/TeX/ch_distributions.tex,1761,1774,062f9bd3abebe7bec8ddf108ddc43d22100c5052eeef622785021c72ab8ea5bf,id-ID,qa/b016-build/source-snapshot-b016/ch_distributions/TeX/ch_distributions.tex,1711,1720,d8e3af80925fc285b9f7a91102d11fba1b5053285f75e776dad065b25e292330,visually_checked,"\begin{exercisewrap}
 \begin{nexercise}
 Di sini kita meninjau model binomial ketika peluang sukses adalah
@@ -8979,6 +9385,38 @@ sampel dan sampel lainnya.
 \end{figure}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""69574f5b-e113-5529-9d72-6ebfd1501a86""]"
+7cd0de8f-87a7-5fdc-be0e-617a2ca33b43,f9809f25-1c8d-52f8-8334-a9d15b7b97ab,109,exercise,en,ch_inference_for_props/TeX/inference_for_a_single_proportion.tex,165,195,1a759c3fc1068bc31a73c5ed6e6531e9f45ee9bad982cbf384a15ca79ff0baab,id-ID,qa/b022-translation/staging/inference_for_a_single_proportion.id.tex,165,195,2880f506fce62e443d83d389f86980182a9556c46e71868868ee8fa994766878,visually_checked,"% 9
+
+\eoce{\qt{Belajar di luar negeri\label{study_abroad_CI_decision}}
+Sebuah survei terhadap 1,509 siswa kelas akhir sekolah menengah yang mengikuti SAT
+dan menyelesaikan survei daring opsional menunjukkan bahwa
+55\% siswa kelas akhir sekolah menengah cukup yakin bahwa
+mereka akan mengikuti program belajar di luar negeri ketika 
+berkuliah.\footfullcite{data:studyAbroad}
+\begin{parts}
+\item
+    Apakah sampel ini merupakan sampel yang representatif dari populasi
+    seluruh siswa kelas akhir sekolah menengah di AS?
+    Jelaskan alasan Anda.
+\item
+    Misalkan syarat untuk inferensi terpenuhi.
+    Meskipun jawaban Anda pada bagian (a) menunjukkan bahwa pendekatan ini
+    tidak dapat diandalkan, analisis ini mungkin tetap menarik
+    untuk dilakukan (meskipun tidak untuk dilaporkan).
+    Susun interval kepercayaan 90\% untuk proporsi
+    siswa kelas akhir sekolah menengah (di antara mereka yang mengikuti SAT) yang cukup yakin
+    bahwa mereka akan mengikuti program belajar di luar negeri ketika berkuliah,
+    lalu interpretasikan interval ini dalam konteksnya.
+\item
+    Apa arti ``tingkat kepercayaan 90\%""?
+\item
+    Berdasarkan interval ini, pantaskah untuk menyatakan bahwa
+    mayoritas siswa kelas akhir sekolah menengah cukup yakin bahwa mereka
+    akan mengikuti program belajar di luar negeri ketika berkuliah?
+\end{parts}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
 7d28502a-5033-5c7f-a9fa-e6b30ec9d083,265b4bc6-ed59-56e2-81bb-20efe8616c93,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,547,553,d4fff0d95b52b1836b68a49cf8d0889d1d4d7e53abfdee05b425282569e20916,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,596,602,337030e102ba5db47655628e880370db6b458b94813bdc9d705cb37dd32af853,language_reviewed,"% 29
 
 \eocesol{(a)~13.
@@ -10230,6 +10668,57 @@ kedua variabel ini?\footnotemark{}
 \footnotetext{Kita mengasumsikan bahwa kedua variabel ini
   saling independen.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+9269ae96-4b1f-5b74-ac72-357fa04aeb87,5ae02b29-9532-5167-9a0e-abde9ad9048c,211,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,1278,1327,b46be2e9020bb93df1612a3d2932d24f9aad03ca767542d45edd61f5aaef04b8,id-ID,qa/b022-translation/staging/eoceSolutions_b022_public_odd.id.tex,51,100,dd741ed8a1507c537249e0d696e0fdf44735913451b99220bce36cf358dec05f,visually_checked,"% 11
+
+\eocesol{(a)~Kita ingin memeriksa apakah terdapat mayoritas (atau minoritas),
+    sehingga kita menggunakan hipotesis berikut:
+    \begin{align*}
+    &H_0: p = 0.5
+    &&H_A: p \neq 0.5
+    \end{align*}
+    Kita memiliki proporsi sampel $\hat{p} = 0.55$
+    dan ukuran sampel $n = 617$ Independen. \\
+    Karena ini adalah sampel acak, syarat independensi
+    terpenuhi.
+    Syarat sukses--gagal juga terpenuhi:
+    $617 \times 0.5$ dan $617 \times (1 - 0.5)$
+    keduanya sekurang-kurangnya 10 (kita menggunakan proporsi nol
+    $p_0 = 0.5$ untuk pemeriksaan ini dalam uji hipotesis
+    satu proporsi). \\
+    Oleh karena itu, kita dapat memodelkan $\hat{p}$ menggunakan
+    distribusi normal dengan galat baku sebesar
+    \begin{align*}
+    SE = \sqrt{\frac{p(1 - p)}{n}}
+      = 0.02
+    \end{align*}
+    (Kita menggunakan proporsi nol $p_0 = 0.5$
+    untuk menghitung galat baku dalam
+    uji hipotesis satu proporsi.)
+    Selanjutnya, kita menghitung statistik uji:
+    \begin{align*}
+    Z = \frac{0.55 - 0.5}{0.02} = 2.5
+    \end{align*}
+    Hasil ini memberikan luas satu ekor sebesar 0.0062,
+    dan nilai-p sebesar $2 \times 0.0062 = 0.0124$. \\
+    Karena nilai-p lebih kecil daripada 0.05,
+    kita menolak hipotesis nol.
+    Kita memiliki bukti kuat bahwa dukungan
+    berbeda dari 0.5, dan karena data
+    memberikan estimasi titik di atas 0.5,
+    kita memiliki bukti kuat yang mendukung
+    klaim komentator televisi tersebut. \\
+(b)~Tidak.
+    Secara umum, kita memperkirakan uji hipotesis
+    dan interval kepercayaan akan selaras,
+    sehingga kita memperkirakan interval kepercayaan
+    menunjukkan rentang nilai masuk akal yang
+    seluruhnya berada di atas 0.5.
+    Namun, jika tingkat kepercayaan tidak selaras
+    (misalnya tingkat kepercayaan 99\%
+    dan tingkat signifikansi $\alpha = 0.05$),
+    secara umum hal ini tidak lagi berlaku.}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
 92e20a80-b951-5afe-863f-843507de91b8,0d9c327c-fe75-55f7-a4e4-35bec165ffe1,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,482,490,8aed956ef99457b66bfbce7d9507a8cc8a1b592c1a806746b3f01033cbeec992,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,507,515,6dbf3ea67a1e19761364a2b2c6b4eb153ab3e556a6f12dcad61e46b44b4fc1e7,language_reviewed,"% 13
 
 \eocesol{(a)~Tidak, tetapi kita dapat menghitungnya jika A dan B saling independen.
@@ -10262,6 +10751,126 @@ disimpulkan? Nyatakan variabel-variabel itu beserta jenisnya.
 
 % 7
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+92f4bc43-8b49-5c1f-9256-d6c10830ac7e,98557e9a-b0f3-5b43-8078-83ebf4251f49,4,subsection,en,ch_inference_for_props/TeX/ch_inference_for_props.tex,206,324,e3ed3d2599b13017934edd37fdaee8d2d7f6ec9e8abcf6aaf5b2dd5c79e0dfa6,id-ID,qa/b022-translation/staging/ch_inference_for_props_206-324.id.tex,1,119,a54b3b69bc7ba8805f9d12756f692a4891f6dca2f71036cd663bd2868194065b,visually_checked,"\subsection{Uji hipotesis untuk suatu proporsi}
+\label{htForPropSection}
+
+\newcommand{\paydayCCPerc}{51\%}
+\newcommand{\paydayCCProp}{0.51}
+\newcommand{\paydayCCSE}{0.017}
+\newcommand{\paydayCCSEPerc}{1.7\%}
+\newcommand{\paydayCCZ}{0.59}
+\newcommand{\paydayCCOneTail}{0.2776}
+\newcommand{\paydayCCPvalue}{0.5552}
+
+Salah satu regulasi yang mungkin diberlakukan terhadap pemberi pinjaman
+gajian adalah mewajibkan mereka melakukan pemeriksaan kredit dan
+mengevaluasi pembayaran utang berdasarkan kondisi keuangan peminjam.
+Kita ingin mengetahui: apakah para peminjam akan mendukung bentuk
+regulasi ini?
+
+
+\begin{exercisewrap}
+\begin{nexercise}
+\label{paydayCC_hypotheses_gp}%
+Susunlah hipotesis untuk mengevaluasi apakah mayoritas peminjam
+mendukung atau justru menentang jenis
+regulasi ini.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{$H_0$: $p = 0.50$. $H_A$: $p \neq 0.50$.}
+
+Untuk menerapkan kerangka distribusi normal dalam konteks
+uji hipotesis bagi suatu proporsi, syarat independensi
+dan syarat sukses--gagal harus terpenuhi.
+Dalam uji hipotesis, syarat sukses--gagal
+diperiksa menggunakan proporsi nol:
+kita memverifikasi bahwa $np_0$ dan $n(1-p_0)$ sekurang-kurangnya 10,
+dengan $p_0$ sebagai nilai nol.
+
+\D{\newpage}
+ 
+
+\begin{exercisewrap}
+\begin{nexercise}
+\label{paydayCC_conditions_gp}%
+Apakah para peminjam pinjaman gajian mendukung regulasi
+yang akan
+  mewajibkan pemberi pinjaman memeriksa laporan kredit peminjam
+  dan mengevaluasi pembayaran utang peminjam tersebut?
+Dari sampel acak yang terdiri dari \paydayN{} peminjam,
+\paydayCCPerc{} menyatakan bahwa mereka akan mendukung
+regulasi tersebut.
+Apakah masuk akal untuk memodelkan $\hat{p} = \paydayCCProp{}$
+menggunakan distribusi normal
+untuk uji hipotesis ini?\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Independensi terpenuhi karena jajak pendapat
+    didasarkan pada sampel acak.
+    Syarat sukses--gagal juga terpenuhi,
+    yang diperiksa
+    menggunakan nilai nol ($p_0 = 0.5$) dari $H_0$:
+    $np_0 = \paydayN{} \times 0.5 = \paydayNHalf$,
+    $n(1 - p_0) = \paydayN{} \times 0.5 = \paydayNHalf$.}
+    
+\begin{examplewrap}
+\begin{nexample}{Dengan menggunakan hipotesis dan data dari
+    Latihan Terbimbing~\ref{paydayCC_hypotheses_gp}
+    dan~\ref{paydayCC_conditions_gp},
+    evaluasilah apakah jajak pendapat tersebut memberikan bukti meyakinkan
+    bahwa mayoritas peminjam pinjaman gajian mendukung
+    regulasi baru yang akan
+    mewajibkan pemberi pinjaman memeriksa laporan kredit
+    dan mengevaluasi pembayaran utang.}
+  Karena hipotesis sudah disusun dan syarat-syarat sudah diperiksa,
+  kita dapat melanjutkan ke perhitungan.
+  Galat baku dalam konteks uji hipotesis
+  satu proporsi dihitung menggunakan nilai nol, $p_0$:
+  \begin{align*}
+  SE = \sqrt{\frac{p_0 (1 - p_0)}{n}}
+      = \sqrt{\frac{0.5 (1 - 0.5)}{\paydayN{}}}
+      = \paydayCCSE{}
+  \end{align*}
+  Gambaran model normal ditampilkan di bawah,
+  dengan nilai-p direpresentasikan oleh daerah yang diarsir.
+  \begin{center}
+  \Figure[Ditampilkan distribusi normal dengan pusat 0.5 dan simpangan baku 0.017. Dua ekor diarsir: daerah di atas 0.51 dan daerah pada ekor bawah yang bersesuaian. Secara visual, tampak bahwa sedikit lebih dari separuh luas di bawah kurva normal diarsir.]{0.5}{paydayCC_norm_pvalue}
+  \end{center}
+  Berdasarkan model normal, statistik uji dapat
+  dihitung sebagai skor-Z dari estimasi titik:
+  \begin{align*}
+  Z = \frac{\text{estimasi titik} - \text{nilai nol}}{SE}
+      = \frac{\paydayCCProp{} - 0.50}{\paydayCCSE{}}
+      = \paydayCCZ{}
+  \end{align*}
+  Luas satu ekor adalah \paydayCCOneTail{}, dan nilai-p,
+  yang direpresentasikan oleh gabungan kedua luas ekor, adalah \paydayCCPvalue{}.
+  Karena nilai-p lebih besar daripada 0.05,
+  kita tidak menolak $H_0$.
+  Jajak pendapat tersebut tidak memberikan bukti meyakinkan bahwa
+  mayoritas peminjam pinjaman gajian mendukung ataupun menentang
+  regulasi mengenai pemeriksaan kredit dan evaluasi
+  pembayaran utang.
+\end{nexample}
+\end{examplewrap}
+
+\oneprophtsummary{}
+
+%\begin{onebox}{Hypothesis test for a proportion}
+%Set up hypotheses and verify the conditions using the null value, $p_0$, to ensure $\hat{p}$ is nearly normal under $H_0$. If the conditions hold, construct the standard error, again using $p_0$, and show the p-value in a drawing. Lastly, compute the p-value and evaluate the hypotheses.
+%\end{onebox}
+
+\noindent%
+Untuk contoh tambahan uji hipotesis satu proporsi,
+lihat Bagian~\ref{hypothesisTesting}.
+
+\index{data!Jajak pendapat regulasi pinjaman gajian|)}
+
+\CalculatorVideos{confidence intervals and hypothesis tests for a single proportion}
+
+
+\D{\newpage}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
 93a4b5f5-7bae-544f-8387-0a0e1b7b2aa8,dbda91d1-7c2a-59ea-8049-c1847a4c4218,3,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,260,435,bf7e2d384b1d75454a638b83c8bc3cdbbd88e91caf2e72f232e8348a0a25a7a2,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,257,426,76bd22a4e12b021511bce297698c96bcae95366c472fc59117dbe0426049743c,translated,"\end{exercisewrap}
 \footnotetext{Ukuran sampelnya adalah $n = 50$.}
 
@@ -10477,6 +11086,24 @@ sebesar 0.7252.]{0.375}{ch_probability/figures/eoce/tree_lupus/tree_lupus.pdf}}"
 (c)~Menyimpulkan bahwa antidepresan tidak memengaruhi
     gejala fibromialgia padahal sebenarnya berpengaruh.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""8205e88d-07dd-57ab-ae9a-c7e5f3bbf027""]"
+982f129d-71ce-54dc-8bc1-bdad38a7cfab,d1def3e9-419f-5c89-a5f6-97efac857297,103,exercise,en,ch_inference_for_props/TeX/inference_for_a_single_proportion.tex,42,58,296de5869137c4909408535ae32750c9d6a2d72bd6bc665526fe8e46d42d2c01,id-ID,qa/b022-translation/staging/inference_for_a_single_proportion.id.tex,42,58,e404c0382d28142298db24a8aebe0f1b1b62f99c0fcb2e2aea9548b0049a6bc1,visually_checked,"% 3
+
+\eoce{\qt{Kucing tabi jingga\label{orange_tabbies_CLT}} Misalkan 90\% kucing
+tabi jingga berjenis kelamin jantan. Tentukan apakah pernyataan-pernyataan berikut benar atau salah, 
+dan jelaskan alasan Anda.
+\begin{parts}
+\item Distribusi proporsi sampel dari sampel acak berukuran 30 
+menceng ke kiri.
+\item Menggunakan ukuran sampel 4 kali lebih besar akan mengurangi galat 
+baku proporsi sampel menjadi setengahnya.
+\item Distribusi proporsi sampel dari sampel acak berukuran 140 
+mendekati normal.
+\item Distribusi proporsi sampel dari sampel acak berukuran 280 
+mendekati normal.
+\end{parts}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
 983349f2-f7bc-574e-a0f7-d239ed020ba0,69e6130f-70e9-5ba1-9f52-baaf7a2ac41e,1,exercise,en,ch_intro_to_data/TeX/review_exercises.tex,47,56,a746618ffe6ab99f2fcb0f6f024b1add62f3faa57361a2b4d5f8c3d8e8d94e32,id-ID,repo/ch_intro_to_data/TeX/review_exercises.tex,47,56,39d6d79221dbf7d803c94d9fdc29954e46cff9d633dcb5313dcb1f48680d0e8a,translated,"\eoce{\qt{Stres, Bagian II\label{stressed_out_experiment}} Dalam suatu studi yang mengevaluasi
 hubungan antara stres dan kram otot, separuh subjek ditetapkan secara acak untuk mengalami peningkatan stres dengan ditempatkan di dalam lift yang turun cepat dan berhenti mendadak, sedangkan separuh lainnya dibiarkan tanpa stres atau pada tingkat stres dasar.
 \begin{parts}
@@ -11186,6 +11813,34 @@ Gambarlah pula satu situasi untuk setiap bagian.\footnotemark{}
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""5013dc5b-3a29-5516-9948-98c064aa43e8""]"
+a205e97c-f390-5dca-bd1a-e229941368e7,bf945453-3b30-5e37-9b6f-e1a99953874b,110,exercise,en,ch_inference_for_props/TeX/inference_for_a_single_proportion.tex,196,222,fe63582cae3c2992d7e28cd9d04021c9bb61e661a2bb9f1d7ce5548e52eb2a41,id-ID,qa/b022-translation/staging/inference_for_a_single_proportion.id.tex,196,222,014c65fd33ae70a110725e1f2e028134770178a817b5ef378f95ad38f6412589,visually_checked,"% 10
+
+\eoce{\qt{Legalisasi ganja, Bagian I\label{legalize_marijuana_CI_decision}} 
+Survei Sosial Umum bertanya kepada 1,578 penduduk AS:
+``Menurut Anda, apakah penggunaan ganja seharusnya dilegalkan atau tidak?''
+Sebanyak 61\% responden mengatakan 
+penggunaan ganja seharusnya dilegalkan.\footfullcite{data:gss}
+\begin{parts}
+\item Apakah 61\% merupakan statistik sampel atau parameter populasi? Jelaskan.
+\item Susun interval kepercayaan 95\% untuk proporsi penduduk AS 
+yang berpendapat bahwa ganja seharusnya dilegalkan, lalu interpretasikan interval tersebut dalam 
+konteks data.
+\item Seorang pengkritik menunjukkan bahwa interval kepercayaan 95\% ini hanya 
+akurat jika statistiknya mengikuti distribusi normal atau jika model normal 
+merupakan pendekatan yang baik. Apakah hal ini berlaku untuk data tersebut? Jelaskan.
+\item Sebuah berita mengenai temuan survei ini menyatakan, ``Mayoritas warga Amerika 
+berpendapat bahwa ganja seharusnya dilegalkan.'' Berdasarkan interval kepercayaan 
+Anda, apakah pernyataan dalam berita tersebut dapat dibenarkan? 
+\end{parts}
+
+% 2348 surveyed
+% 770 not asked question
+% 2348 - 770 = 1578 asked question
+% 968 said legalize
+% 968 / 1578 = 0.61
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
 a2c4717f-e047-5fd7-9edc-ef6be8335965,51f451c9-2225-5065-98f3-cd1cc5d4a119,126,exercise,en,ch_distributions/TeX/binomial_distribution.tex,194,211,58530f01c2af80b436a27453c824b22732273e5cd2534258c1ffb1c67e9ef7ef,id-ID,qa/b016-build/source-snapshot-b016/ch_distributions/TeX/binomial_distribution.tex,201,218,182ac7012d48f60b34ea3cb0a63a76c6ed3c2e613882fa352a4c60598e0edb16,visually_checked,"% 26
 
 \eoce{\qt{Anak laki-laki\label{male_children}} Walaupun peluang memiliki anak
@@ -11623,6 +12278,64 @@ dibulatkan ke dua tempat desimal adalah sebagai berikut: 0 hingga 10: 84 negara
 }{}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+a935ed5c-06d9-59f6-876a-de9a12cffe5d,7e1c33e9-8977-5e7e-bd88-fdde30072faa,207,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,1260,1266,bb675308c08674ad8032d375561c1021e41942fa6770006302def6850b5e5aac,id-ID,qa/b022-translation/staging/eoceSolutions_b022_public_odd.id.tex,33,39,6fe4719e73ac3ab96ec5b4838d211146bf3d342346d5f2b9fec1855664bc7bfe,visually_checked,"% 7
+
+\eocesol{Dengan sampel acak, syarat independensi 
+terpenuhi. Syarat sukses--gagal juga terpenuhi. 
+$ME = z^{\star} \sqrt{ \frac{\hat{p} (1-\hat{p})} {n} } 
+= 1.96 \sqrt{ \frac{0.56 \times  0.44}{600} }= 0.0397 \approx 4\%$}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
+a948d0a7-90dc-58eb-95a6-5b06f0c83750,ac0bad4f-bc17-5451-8ad2-6674d29fd1fe,5,subsection,en,ch_inference_for_props/TeX/ch_inference_for_props.tex,325,373,b90575255ce1180d7a36118718216f4328c980fa35a51211978b596dd33f576e,id-ID,qa/b022-translation/staging/ch_inference_for_props_325-548.id.tex,1,49,26d965330b063ab2b4b40df2bb878162a8b4b40d442ebf0ea0330931386a6f83,visually_checked,"\subsection{Ketika satu atau beberapa syarat tidak terpenuhi}
+
+Kita telah banyak membahas syarat-syarat agar
+$\hat{p}$ dapat dimodelkan secara wajar dengan distribusi normal.
+Apa yang terjadi ketika syarat sukses--gagal tidak terpenuhi?
+Bagaimana jika syarat independensi tidak terpenuhi?
+Dalam kedua kasus tersebut, gagasan umum interval kepercayaan
+dan uji hipotesis tetap sama, tetapi strategi
+atau teknik yang digunakan untuk menghasilkan interval atau nilai-p
+berubah.
+
+Ketika syarat sukses--gagal tidak terpenuhi
+untuk suatu uji hipotesis, kita dapat menyimulasikan distribusi nol
+dari $\hat{p}$ dengan menggunakan nilai nol, $p_0$.
+Konsep simulasi ini serupa dengan gagasan yang digunakan
+dalam studi kasus malaria yang disajikan pada
+Bagian~\ref{caseStudyMalariaVaccine},
+dan sebuah bagian daring menguraikan strategi ini:
+\begin{center}
+\oiRedirect{stat_sim_prop_ht}
+    {www.openintro.org/r?go=stat\_sim\_prop\_ht}
+\end{center}
+Untuk interval kepercayaan ketika syarat sukses--gagal
+tidak terpenuhi, kita dapat menggunakan apa yang disebut
+\term{interval Clopper--Pearson}.
+Rinciannya berada di luar cakupan buku ini.
+Namun, banyak sumber internet membahas
+topik tersebut.
+
+Syarat independensi memerlukan pertimbangan yang lebih cermat.
+Ketika syarat ini tidak terpenuhi, penting untuk memahami bagaimana dan mengapa
+hal itu terjadi.
+Sebagai contoh, jika kita mengambil sampel klaster
+(lihat Bagian~\ref{section_obs_data_sampling}),
+tersedia metode statistik yang sesuai, tetapi metode tersebut
+berada di luar cakupan bahkan sebagian besar mata kuliah statistika
+tingkat kedua atau ketiga.
+Di sisi lain, kita akan sulit menemukan metode apa pun
+yang dapat diterapkan dengan yakin untuk mengoreksi bias bawaan
+dalam data dari sampel kemudahan.
+
+Meskipun buku ini dibatasi pada persoalan statistik
+yang terkendali dengan baik, ingatlah bahwa ini hanyalah buku pertama
+dalam pustaka besar metode statistik yang
+sesuai untuk ragam data dan konteks yang sangat luas.
+
+
+\D{\newpage}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
 a978e4b6-1fec-5e8f-9c46-cbf239644527,60a2cb71-2aa1-5917-9379-f7f55474c01a,1,review_heading,en,ch_intro_to_data/TeX/review_exercises.tex,1,1,fa49e97aff561605b9912c9d0e3a0c35242bb6b73f9d388744260b6299cae8da,id-ID,repo/ch_intro_to_data/TeX/review_exercises.tex,4,4,fa49e97aff561605b9912c9d0e3a0c35242bb6b73f9d388744260b6299cae8da,translated,"\reviewexercisesheader{}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
 abfbcf57-b2a6-51ca-b613-769df693c412,b23f3ca2-973a-561f-8d7b-0808ca9315e8,2,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,2112,2129,75d153624272122fc1ff7598af290a08b282ea1a94d6d27946dfa7ecf5f63d2e,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,2046,2061,66ebed6d3ec092add45e0bf713a831cd32c2f31a752cef4d1efdebdf0f30c0dc,translated,"\end{exercisewrap}
@@ -11924,6 +12637,35 @@ ae50cf51-c3c1-5619-898f-ce615100a9db,e5540218-dc9d-570f-804d-aacf55d6b99b,221,pu
   apakah perubahan itu akan membantu perekonomian.)}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""8205e88d-07dd-57ab-ae9a-c7e5f3bbf027""]"
+aea6ff6c-6ee0-57b2-ae7e-3fa89a4aae43,95a88e7e-7760-5d31-8d51-c5769e47a0e6,0,chapter_front,en,ch_inference_for_props/TeX/ch_inference_for_props.tex,1,28,0b78fb09a2fa59824d873ddb98053b9fe6c17e99832fd7f50e1cd25b8824c92a,id-ID,qa/b022-translation/staging/ch_inference_for_props_1-28.id.tex,1,28,0ba54437f034767168bc9ceb9abf7bcc99dc684dd78d328d19b13c9f1af6f774,visually_checked,"\begin{chapterpage}{Inferensi untuk data kategoris}
+  \chaptertitle{Inferensi untuk data kategoris}
+  \label{inferenceForCategoricalData}
+  \label{ch_inference_for_props}
+  \chaptersection{singleProportion}
+  \chaptersection{differenceOfTwoProportions}
+  \chaptersection{oneWayChiSquare}
+  \chaptersection{twoWayTablesAndChiSquare}
+\end{chapterpage}
+\renewcommand{\chapterfolder}{ch_inference_for_props}
+
+\chapterintro{Dalam bab ini,
+  kita menerapkan metode dan gagasan dari
+  Bab~\ref{ch_foundations_for_inf}
+  dalam beberapa konteks data kategoris.
+  Kita mulai dengan meninjau kembali apa yang telah dipelajari untuk satu
+  proporsi, ketika distribusi normal dapat digunakan
+  untuk memodelkan ketidakpastian pada proporsi sampel.
+  Selanjutnya, kita menerapkan gagasan yang sama untuk menganalisis selisih
+  dua proporsi menggunakan model normal.
+  Kemudian dalam bab ini, kita menerapkan teknik inferensi
+  pada tabel kontingensi;
+  meskipun kita akan menggunakan distribusi yang berbeda
+  dalam konteks ini, gagasan inti
+  uji hipotesis tetap sama.}
+
+
+%__________________
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
 af23854e-8a70-5fff-8b98-39c6db3c5f73,0ece3572-bc49-5415-892d-29849f3ca09f,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,74,82,946b2f4e47b12422136e64fd699eca9c60bfbeb1c2c74bb50e390848c0870759,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,80,89,8c37023354259b1717a6670586b2f1dc4e95f8a42b772027f6ba44b7d4c5914f,translated,"% 15
 
 \eocesol{(a)~Populasi: seluruh pasien asma berusia 18--69 tahun yang 
@@ -12008,6 +12750,18 @@ robust kedua ukuran ini?
 
 % 18
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+b0e35a84-c6b4-57be-9146-97ee9d1d50f4,e3591b8b-0482-5e1f-a1ea-4490167e9442,209,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,1267,1277,d267c93501d4e453933d0c1e0d584e35d5131a1fd7b04731ed07cbea55433abb,id-ID,qa/b022-translation/staging/eoceSolutions_b022_public_odd.id.tex,40,50,5bfafeb1c2aff56b0e80f993b70b06dcd334e9dfc48ef95bd7a5ad5576c97bcc,visually_checked,"% 9
+
+\eocesol{(a)~Tidak. Sampel tersebut hanya merepresentasikan siswa yang mengikuti SAT, dan survei ini 
+juga dilakukan secara daring.
+(b)~(0.5289, 0.5711). Kita yakin 90\% bahwa 53\% hingga 57\% siswa kelas akhir 
+sekolah menengah yang mengikuti SAT cukup yakin bahwa mereka akan mengikuti 
+program belajar di luar negeri ketika berkuliah.
+(c)~Sebanyak 90\% dari sampel acak semacam itu akan menghasilkan interval kepercayaan 90\% 
+yang memuat proporsi sebenarnya.
+(d)~Ya. Seluruh interval berada di atas 50\%.}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
 b1a8e486-7cb9-5a85-b155-86e4934d1061,9ce6e3d6-a448-524e-9e0c-005767bdaded,1,guided_exercise,en,ch_probability/TeX/ch_probability.tex,532,546,a761c32b7a9699cbfb72692a4cc370063eed8c028cf8afee265db7b613a51f87,id-ID,repo/ch_probability/TeX/ch_probability.tex,530,544,af4355c540568a62ddf49288d5b5086a3ec051c9a5ee18eb4ec2e2feb2eebd96,language_reviewed,"\begin{exercisewrap}
 \begin{nexercise}
 Tentukan probabilitas berikut untuk lemparan dua dadu:\footnotemark
@@ -12552,6 +13306,33 @@ bea1e68a-bcea-57b8-980c-c3c2ac99c0ab,41489e88-acb0-527b-9e3d-5d71845baf15,34,wor
 \end{nexample}
 \end{examplewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""5013dc5b-3a29-5516-9948-98c064aa43e8""]"
+bf34b1a7-847d-58ec-b81f-8275a1df8908,65f635a0-3fc6-597e-a8d0-7ce7ca4e7542,104,exercise,en,ch_inference_for_props/TeX/inference_for_a_single_proportion.tex,59,84,78eec8dc4981dbbf0fd1568b5494cdb1f5e5270c691e5be049cf4cfa9bfd0009,id-ID,qa/b022-translation/staging/inference_for_a_single_proportion.id.tex,59,84,ebe0d9b6ea2c945cf742cb70ab78e3997909be2e7596e894ecda07546a65e037,visually_checked,"% 4
+
+\eoce{\qt{Kaum muda Amerika, Bagian II\label{young_americans_CLT_2}} Sekitar 25\% 
+kaum muda Amerika menunda untuk berkeluarga akibat kelesuan ekonomi yang 
+berlanjut. Tentukan apakah pernyataan-pernyataan berikut benar atau salah, dan jelaskan 
+alasan Anda.\footfullcite{news:youngAmericans2}
+\begin{parts}
+\item Distribusi proporsi sampel kaum muda Amerika yang 
+menunda untuk berkeluarga akibat kelesuan ekonomi yang berlanjut dalam sampel acak 
+berukuran 12 menceng ke kanan.
+\item Agar distribusi proporsi sampel kaum muda Amerika 
+yang menunda untuk berkeluarga akibat kelesuan ekonomi yang berlanjut 
+mendekati normal, kita memerlukan sampel acak dengan ukuran sampel 
+sekurang-kurangnya 40.
+\item Sampel acak yang terdiri atas 50 kaum muda Amerika dengan 20\% di antaranya menunda untuk 
+berkeluarga akibat kelesuan ekonomi yang berlanjut akan dianggap tidak lazim.
+\item Sampel acak yang terdiri atas 150 kaum muda Amerika dengan 20\% di antaranya menunda 
+untuk berkeluarga akibat kelesuan ekonomi yang berlanjut akan dianggap 
+tidak lazim.
+\item Melipatgandakan ukuran sampel menjadi tiga kali akan mengurangi galat baku proporsi 
+sampel sebesar sepertiga.
+\end{parts}
+}{}
+
+\D{\newpage}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
 bf480b62-6d56-50f6-a12f-4c22738f7bea,3024a3df-ad69-5255-943d-d2911908a101,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,54,63,482043ebff7ac64fdd2deeb5610f66c5584cea9f1c384a7e8356ed31ff7159c4,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,58,67,c285f447af9270d3fafbeab085017c6feb1efe5ab2f734f9a16973672febd18b,translated,"% 11
 
 \eocesol{(a)~Status kepemilikan bandara (publik/privat),
@@ -12919,6 +13700,182 @@ Jika kategoris, nyatakan apakah variabel tersebut ordinal.
 
 % 11
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+c8c89db6-19f8-53b2-ac35-bbe9d75e8196,5a5adc0e-6bed-5544-96e6-3ebed0ef9785,6,subsection,en,ch_inference_for_props/TeX/ch_inference_for_props.tex,374,548,0e3eb9e83e22bb44093bcb1ef09ca3a433826a58735ec517aee5c2894247b77c,id-ID,qa/b022-translation/staging/ch_inference_for_props_325-548.id.tex,50,224,bdceafbe7f5ba352eb8070cd4007ee3323bf9113a6acb160aeae4c42d324cdd7,visually_checked,"\subsection{Memilih ukuran sampel ketika mengestimasi suatu proporsi}
+
+\index{batas galat|(}
+
+Ketika mengumpulkan data, kita memilih ukuran sampel yang sesuai
+dengan tujuan penelitian.
+Sering kali hal ini berarti memilih ukuran sampel yang cukup
+besar agar \term{batas galat} --
+yaitu bagian yang kita tambahkan pada dan kurangkan dari estimasi
+titik dalam interval kepercayaan --
+cukup kecil sehingga sampel tersebut berguna.
+Sebagai contoh, tugas kita mungkin mencari ukuran sampel
+$n$ agar proporsi sampel berada dalam rentang $\pm 0.04$
+dari proporsi sebenarnya dalam interval kepercayaan 95\%.
+
+% For example, the margin of error for a point estimate using 95\% confidence can be written as $1.96\times SE$. We set up a general equation to represent the problem:
+%\begin{align*}
+%ME = z^{\star} \times SE \leq m
+%\end{align*}
+%where $ME$ represented the actual margin of error and $z^{\star}$ was chosen to correspond to the confidence level. The standard error formula is specified to correspond to the particular setting. For instance, in the case of means, the standard error was given as $\sigma / \sqrt{n}$. In the case of a single proportion, we use $\sqrt{p(1-p) / n\ }$ for the standard error.
+
+\index{data!Stadion sepak bola mahasiswa|(}
+
+\begin{examplewrap}
+\begin{nexample}{Sebuah surat kabar universitas sedang melakukan
+    survei untuk menentukan berapa bagian mahasiswa yang
+    mendukung kenaikan biaya sebesar \$200 per tahun guna membiayai pembangunan
+    stadion sepak bola baru.
+    Seberapa besar sampel yang diperlukan untuk memastikan bahwa
+    batas galat lebih kecil dari 0.04 dengan menggunakan
+    tingkat kepercayaan 95\%?}
+  Batas galat untuk suatu proporsi sampel adalah
+  \begin{align*}
+  z^{\star} \sqrt{\frac{p (1 - p)}{n}}
+  \end{align*}
+  Tujuan kita adalah mencari ukuran sampel terkecil $n$
+  agar batas galat ini lebih kecil dari $0.04$.
+  Untuk tingkat kepercayaan 95\%, nilai $z^{\star}$
+  yang sesuai adalah 1.96:
+  \begin{align*}
+  1.96\times \sqrt{\frac{p(1-p)}{n}} \ < \ 0.04
+  \end{align*}
+  Persamaan tersebut memiliki dua nilai yang belum diketahui: $p$ dan $n$.
+  Jika kita memiliki estimasi $p$, mungkin dari survei
+  sebelumnya, kita dapat memasukkan nilai itu dan menyelesaikan persamaan untuk~$n$.
+  Jika tidak memiliki estimasi semacam itu, kita harus menggunakan
+  nilai lain untuk~$p$.
+  Ternyata batas galat paling besar
+  ketika $p$ bernilai 0.5, sehingga biasanya kita menggunakan
+  \emph{nilai kasus terburuk} ini jika estimasi
+  proporsi tidak tersedia:
+  \begin{align*}
+	1.96\times \sqrt{\frac{0.5(1-0.5)}{n}} &\ < \ 0.04 \\
+	1.96^2\times \frac{0.5(1-0.5)}{n} &\ < \ 0.04^2 \\
+	1.96^2\times \frac{0.5(1-0.5)}{0.04^2} &\ < \ n \\
+	600.25 &\ < \  n
+  \end{align*}
+  Kita memerlukan lebih dari 600.25 peserta, yang berarti
+  kita memerlukan sedikitnya 601 peserta, untuk memastikan bahwa
+  proporsi sampel berada dalam jarak 0.04 dari proporsi sebenarnya
+  dengan tingkat keyakinan 95\%.
+\end{nexample}
+\end{examplewrap}
+
+\index{data!Stadion sepak bola mahasiswa|)}
+
+Ketika tersedia estimasi proporsi, kita menggunakannya sebagai pengganti nilai proporsi kasus terburuk,~0.5.
+
+\D{\newpage}
+
+\index{data!Tingkat kegagalan ban|(}
+
+\begin{exercisewrap}
+\begin{nexercise}
+\label{tire_failure_rate_3_samp_size_calc}%
+Seorang manajer akan segera mengawasi produksi
+massal model ban baru di pabriknya,
+dan ia ingin mengestimasi berapa proporsi
+ban tersebut yang akan ditolak dalam pengendalian mutu.
+Tim pengendalian mutu telah memantau tiga model
+ban terakhir yang diproduksi pabrik itu,
+dengan tingkat kegagalan 1.7\% pada model pertama,
+6.2\% pada model kedua,
+dan 1.3\% pada model ketiga.
+Manajer tersebut ingin memeriksa cukup banyak ban
+untuk mengestimasi tingkat kegagalan model ban baru
+dengan ketelitian sekitar 1\% pada tingkat kepercayaan 90\%.
+Terdapat tiga tingkat kegagalan berbeda yang dapat dipilih.
+Lakukan perhitungan ukuran sampel untuk masing-masing tingkat secara terpisah,
+dan tentukan tiga ukuran sampel yang dapat dipertimbangkan.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Untuk interval kepercayaan 90\%, $z^{\star} = 1.6449$,
+  dan karena tersedia estimasi proporsi sebesar 0.017,
+  kita akan menggunakannya dalam rumus batas galat:
+  \begin{align*}
+  1.6449\times \sqrt{\frac{0.017(1-0.017)}{n}} &\ < \ 0.01
+    \qquad\to\qquad
+      \frac{0.017(1-0.017)}{n} \ < \ 
+          \left(\frac{0.01}{1.6449}\right)^2
+    \qquad\to\qquad
+      452.15 \ < \ n
+  \end{align*}
+  Dalam perhitungan ukuran sampel, kita selalu membulatkan ke atas,
+  sehingga model ban pertama menunjukkan bahwa 453 ban
+  sudah memadai.
+
+  Perhitungan serupa dapat dilakukan dengan menggunakan 0.062
+  dan 0.013 untuk $p$; Anda perlu memverifikasi bahwa penggunaan
+  kedua proporsi ini menghasilkan ukuran sampel minimum masing-masing 1574
+  dan~348 ban.}
+
+\begin{examplewrap}
+\begin{nexample}{Ukuran sampel pada
+    Latihan Terbimbing~\ref{tire_failure_rate_3_samp_size_calc} sangat bervariasi.
+    Manakah dari ketiganya yang Anda sarankan untuk digunakan?
+    Apa yang akan memengaruhi pilihan Anda?}
+  Kita dapat memeriksa model lama mana yang paling
+  menyerupai model baru, lalu memilih ukuran sampel
+  yang sesuai.
+  Atau, jika dua estimasi sebelumnya didasarkan pada sampel
+  kecil sedangkan estimasi lainnya didasarkan pada sampel yang lebih besar,
+  kita dapat mempertimbangkan nilai yang sesuai dengan sampel
+  yang lebih besar tersebut.
+  Terdapat pula pendekatan lain yang masuk akal.
+
+  Perhatikan juga bahwa syarat sukses--gagal
+  perlu diperiksa pada sampel akhir.
+  Sebagai contoh, jika kita mengambil sampel sebanyak $n = 1584$ ban dan menemukan
+  tingkat kegagalan 0.5\%, aproksimasi normal
+  tidak masuk akal, dan kita memerlukan metode statistik
+  lanjutan untuk membentuk interval kepercayaan.
+\end{nexample}
+\end{examplewrap}
+
+\index{data!Tingkat kegagalan ban|)}
+\index{data!Jajak pendapat regulasi pinjaman gajian|(}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Misalkan kita ingin terus memantau dukungan
+peminjam pinjaman gajian terhadap regulasi bagi pemberi pinjaman,
+dengan melakukan jajak pendapat baru setiap bulan.
+Pelaksanaan jajak pendapat sesering itu mahal, sehingga kita memutuskan
+bahwa batas galat yang lebih lebar, yaitu 5\%, untuk setiap survei
+masih dapat diterima.
+Berdasarkan sampel awal peminjam, dengan
+\paydayRegPerc{} mendukung suatu bentuk regulasi,
+seberapa besar sampel bulanan kita agar mencapai batas
+galat 0.05 dengan tingkat kepercayaan 95\%?\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Kita melakukan perhitungan yang sama seperti sebelumnya,
+   tetapi sekarang menggunakan $\paydayRegProp{}$, bukan $0.5$,
+   untuk $p$:
+   \begin{align*}
+   1.96\times \sqrt{\frac{p(1-p)}{n}}
+       \approx 1.96\times
+           \sqrt{\frac{\paydayRegProp{}(1-\paydayRegProp{})}
+               {n}}
+       &\leq 0.05
+     \qquad\to\qquad
+       n \geq 322.7
+  \end{align*}
+  Ukuran sampel 323 atau lebih merupakan pilihan yang wajar.
+  (Pengingat: dalam perhitungan ukuran sampel, selalu bulatkan ke atas!)
+  Karena kita berencana memantau jajak pendapat ini dari waktu ke waktu,
+  kita mungkin juga ingin mengulangi perhitungan tersebut secara berkala
+  untuk memastikan bahwa rekomendasi ukuran sampel
+  tetap dipertimbangkan dengan cermat jika tingkat dasarnya berfluktuasi.}
+
+\index{data!Jajak pendapat regulasi pinjaman gajian|)}
+\index{batas galat|)}
+
+{\input{ch_inference_for_props/TeX/inference_for_a_single_proportion.tex}}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
 c8d0e5fa-fcf4-5df1-b538-d005828a47ac,c526fa55-62c1-5a35-bb8d-40abfc2fc3d8,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,165,176,1bf26009397d13d4acfc53539be4f755ecc904b229bf5aecab84cf1043bde533,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,178,189,b978839267e7c845689013a94ad9e5e1d258207400f940ae118568024fa37fbd,translated,"% 33
 
 \eocesol{Diperlukan pengacakan dan penyamaran. Salah satu rancangan yang mungkin adalah: 
@@ -13043,6 +14000,14 @@ H_A&: \hat{p} \neq 0.24
 % 19
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""8205e88d-07dd-57ab-ae9a-c7e5f3bbf027""]"
+cc3fc498-e2a3-5ed8-98b4-f3134b97b2e1,150ba0dc-d902-5995-a8b9-d109808395df,203,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,1243,1249,0e3f1091ccbfc16df658d235cf34257581d728eefd99899db920046926e2d96f,id-ID,qa/b022-translation/staging/eoceSolutions_b022_public_odd.id.tex,16,22,4c77d2cf65b900092d676dfb7b73dccd260cb5dc4515b426ae396b80cf7a0f3b,visually_checked,"% 3
+
+\eocesol{(a)~Benar. Lihat penalaran pada 6.1(b).
+(b)~Benar. Dalam rumus galat baku, kita mengambil akar kuadrat ukuran sampel.
+(c)~Benar. Syarat independensi dan syarat sukses--gagal terpenuhi.
+(d)~Benar. Syarat independensi dan syarat sukses--gagal terpenuhi.}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
 cc415551-6b2c-51bc-b294-d49881907075,28a41791-05d7-51f4-94c1-9d49de31cfb9,132,exercise,en,ch_distributions/TeX/poisson_distribution.tex,22,37,586c3f9a7a15422efd2857c102beacc30aebc47d4ebbb5f1081c94fdae659609,id-ID,scratch/b018-build-candidate/source-snapshot-b018/ch_distributions/TeX/poisson_distribution.tex,22,37,c7db1e32e8920873e270003e5b687e18662db438f693a06225ab91b9b9e1d712,visually_checked,"% 32
 
 \eoce{\qt{Salah ketik seorang stenografer\label{stenographer_typos}} Seorang stenografer
@@ -14998,6 +15963,26 @@ peminjam berpendapatan di atas~\$250,000.
 
 \begin{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+e8117eba-2917-5740-99dc-ac1bee594cd4,d1ae7a48-4639-534c-8b71-1a4bc9740067,102,exercise,en,ch_inference_for_props/TeX/inference_for_a_single_proportion.tex,23,41,094748ecba1dd4127c000c515d30006995b4366361cc35e7e15f1a6f70db3d69,id-ID,qa/b022-translation/staging/inference_for_a_single_proportion.id.tex,23,41,65d6b3e1368e8da0e368f7d07d851fc48ddec03a8b322b3e91d802deaac2051e,visually_checked,"% 2
+
+\eoce{\qt{Kaum muda Amerika, Bagian I\label{young_americans_CLT_1}} Sekitar 77\% 
+orang dewasa muda meyakini bahwa mereka dapat meraih Impian Amerika. Tentukan apakah 
+pernyataan-pernyataan berikut benar atau salah, dan jelaskan alasan Anda.
+\footfullcite{news:youngAmericans1}
+\begin{parts}
+\item Distribusi proporsi sampel kaum muda Amerika yang meyakini 
+mereka dapat meraih Impian Amerika dalam sampel berukuran 20 menceng ke kiri.
+\item Distribusi proporsi sampel kaum muda Amerika yang meyakini 
+mereka dapat meraih Impian Amerika dalam sampel acak berukuran 40 
+mendekati normal karena $n \ge 30$. 
+\item Sampel acak yang terdiri atas 60 kaum muda Amerika dengan 85\% di antaranya meyakini 
+mereka dapat meraih Impian Amerika akan dianggap tidak lazim.
+\item Sampel acak yang terdiri atas 120 kaum muda Amerika dengan 85\% di antaranya meyakini bahwa mereka dapat 
+meraih Impian Amerika akan dianggap tidak lazim.
+\end{parts}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
 e815c86e-c1a3-5500-89e2-85e50c91589c,b4e4f4b2-ec1c-5ccf-99e3-98cb2c136922,10,guided_inline_answer,en,ch_probability/TeX/ch_probability.tex,2324,2324,e2793f762f748a1d6b448ab6972621f401d721855694d0b5c57ddd0127da2d41,id-ID,repo/ch_probability/TeX/ch_probability.tex,2313,2313,d7c4f0b226edd85487551ed726a10ef75adcfdb50059951080db8e2be4e3f288,language_reviewed,"\footnotetext{Peluang ini bernilai positif. Siapa pun yang tingginya antara \resp{179.5} cm dan \resp{180.5} cm akan memiliki tinggi \emph{terukur} sebesar \resp{180} cm. Ini mungkin merupakan skenario yang lebih realistis dijumpai dalam praktik daripada Contoh~\ref{probabilityOfExactly180cm}.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""b410ecf6-7942-5337-9e18-e09c9e84783d""]"
 e8932d35-2f8b-5a9e-9ba9-d38646a26915,6e9dc374-9378-5c52-b2ae-88d498bcec17,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,97,105,c24a97fd3cda692d9f43e6a1e76811873a2bfdb4c7bbeec2c5578b96e5a61051,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,105,114,7cf8be8ee69d34c864556d730df7c9526f0a90ee5b996156071b922e2d424bca,translated,"% 21
@@ -15590,6 +16575,29 @@ kelahiran dalam cakupan itu. Namun, karena studi ini bersifat
 observasional, temuannya tidak dapat digunakan untuk menetapkan hubungan 
 kausal.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+f4d6400b-3f6b-5e4e-b6c8-34cd16c0bcab,f37229dc-90a4-57fa-a532-fddea89f7d3d,101,exercise,en,ch_inference_for_props/TeX/inference_for_a_single_proportion.tex,1,22,d4e68982e85529a2d1b44a178199e898791782881e6b7bee33dad6fd3bfe4d2b,id-ID,qa/b022-translation/staging/inference_for_a_single_proportion.id.tex,1,22,84b5e0cd1a2c450bd2571cb926f7ff2c2743155431b96121785c7e93680d1f01,visually_checked,"\exercisesheader{}
+
+% 1
+
+\eoce{\qt{Mahasiswa vegetarian\label{veg_coll_students_CLT}} Misalkan 8\% 
+mahasiswa adalah vegetarian. Tentukan apakah pernyataan-pernyataan berikut 
+benar atau salah, dan jelaskan alasan Anda.
+\begin{parts}
+\item Distribusi proporsi sampel mahasiswa vegetarian dalam sampel acak 
+berukuran 60 mendekati normal karena $n \ge 30$. 
+\item Distribusi proporsi sampel mahasiswa vegetarian dalam sampel acak 
+berukuran 50 menceng ke kanan.
+\item Sampel acak yang terdiri atas 125 mahasiswa dengan 12\% di antaranya vegetarian 
+akan dianggap tidak lazim. 
+\item Sampel acak yang terdiri atas 250 mahasiswa dengan 12\% di antaranya vegetarian 
+akan dianggap tidak lazim.
+\item Galat baku akan berkurang menjadi setengahnya jika ukuran 
+sampel ditingkatkan dari 125 menjadi~250.
+\end{parts}
+ 
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
 f510c603-1180-505f-9452-4e9ac90f5db8,596da6d2-a29c-5988-8c0f-afeb014b202a,11,guided_inline_answer,en,ch_distributions/TeX/ch_distributions.tex,263,271,9f6f29c0e890c4f9731869133dac4d9dd9136423b574f862447e4035c86f500f,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,261,269,586f1b3a6ec82f71c83cd6390a4559f462fe2faa2962e8a8b35b84d4aacd3cda,language_reviewed,"\footnotetext{(a) Skor-Z-nya diberikan oleh
     $Z
       = \frac{x-\mu}{\sigma}
@@ -16064,6 +17072,28 @@ menggambarkan berapa banyak percobaan yang diperlukan sampai suatu sukses
 diamati. Mari kita awali dengan sebuah contoh.
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""586d1610-5f32-5232-ba50-6e2a04daf45a""]"
+fb5070f2-fddb-595f-9622-ea52708d63c7,01328841-716a-5956-93fd-2a31ffa42f49,213,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,1328,1348,64d175458b470d54cc5f619bb88001f648d3322d826fd8c50d4dbd08a0a2213f,id-ID,qa/b022-translation/staging/eoceSolutions_b022_public_odd.id.tex,101,121,c4c23d49a12dd7ac996740f1384d1877716008ebf47cacf879065ddf6518bc65,visually_checked,"% 13
+
+\eocesol{(a)~$H_0: p = 0.5$. $H_A: p \neq 0.5$.
+Syarat independensi (sampel acak) terpenuhi,
+begitu pula syarat sukses--gagal (dengan menggunakan $p_0 = 0.5$,
+kita memperkirakan 40 sukses dan 40 gagal).
+$Z = 2.91$ $\to$ luas satu ekornya adalah 0.0018,
+sehingga nilai-p adalah 0.0036.
+Karena nilai-p $< 0.05$, kita menolak hipotesis nol.
+Karena kita menolak $H_0$ dan estimasi titik menunjukkan bahwa orang-orang tersebut
+lebih baik daripada sekadar menebak secara acak,
+kita dapat menyimpulkan bahwa tingkat keberhasilan mengidentifikasi 
+soda dengan benar pada orang-orang tersebut secara signifikan lebih tinggi daripada
+tingkat keberhasilan yang diperoleh hanya dengan menebak secara acak.
+(b)~Jika sebenarnya orang tidak dapat membedakan soda diet dari soda biasa 
+dan mereka menebak secara acak, probabilitas memperoleh
+sampel acak yang terdiri atas 
+80 orang dengan 53 orang atau lebih mengidentifikasi soda secara benar
+(atau 53 orang atau lebih mengidentifikasi soda secara keliru)
+adalah 0.0036.}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
 fb869ea6-5b73-59f3-8049-f102985c9dee,993641eb-cf5b-50e6-9840-92d99ada6efe,5,subsection_prose,en,ch_probability/TeX/ch_probability.tex,924,946,f6cfcb9e5ae391ab92f8975c7861584ad81794e66dd5cd5e15e9e80a43531235,id-ID,repo/ch_probability/TeX/ch_probability.tex,924,944,6ca7eae36c5ae42674de5ce9e01a7b7cf0b8a07523923f2276ea2856b9fd689a,language_reviewed,"\footnotetext{Keempat kombinasi hasil tersebut saling lepas,
    semua peluangnya memang tak negatif, dan jumlah
    peluangnya adalah $0.1081 + 0.0121 + 0.0615 + 0.8183 = 1.00$.}

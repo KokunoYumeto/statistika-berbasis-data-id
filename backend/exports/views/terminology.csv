@@ -69,6 +69,7 @@ id,concept_id,source_term,target_term,locale,variants,rejected_forms,scope,regis
 3efb70b1-68e9-5495-b1b3-7e4695351804,94a6e094-21f4-554c-8620-041fcacbbf33,bias,bias,id-ID,[],[],sampling and study design,academic,draft
 3f42f00d-8d98-51a5-a6c7-a62eedec096f,11a73379-6e22-527e-9bee-2665933bbf0a,failure,gagal,id-ID,"[""kegagalan""]",[],statistics / Chapter 4 Section 4.2,academic,language_reviewed
 409abc70-ac52-5542-b8ce-1c8d454aa8f2,6e9a38b9-583e-59bd-92c0-d5996673d712,variance,varians,id-ID,"[""variansi""]",[],probability / Chapter 3 Section 3.4,academic,language_reviewed
+40d78685-638a-5935-be34-bd4d52544d17,bca38777-62c3-58a5-ad1d-433b4e6812b0,inference for a single proportion,inferensi untuk satu proporsi,id-ID,[],[],statistics / Chapter 6 Section 6.1,academic,language_reviewed
 41ec91bb-fd46-51f0-9848-3d724cbab184,46f92235-c8d4-52cd-a423-4f8694d2624f,link function,fungsi hubung,id-ID,[],[],confirmed future generalized-linear-model terminology control,academic,language_reviewed
 448b58dc-ad89-509a-890f-b0d68a8858c7,6e9a38b9-583e-59bd-92c0-d5996673d712,variance,varians,id-ID,"[""variansi""]",[],statistics / Chapter 4 Section 4.2,academic,language_reviewed
 4546c9ea-be2b-5cfa-8d03-648d16b80207,3e1a17b0-923b-58e8-aef7-c71954373c12,side-by-side box plot,diagram kotak berdampingan,id-ID,[],[],data visualization,academic,translated
@@ -115,6 +116,7 @@ id,concept_id,source_term,target_term,locale,variants,rejected_forms,scope,regis
 636ecd2e-bbc8-593f-b7f4-c68f6e5e8364,9f450610-5ed2-54fb-9986-95a65d980077,data matrix,matriks data,id-ID,[],[],tabular data,academic,draft
 638edef5-0d46-5beb-85e7-ec7f67be3eb6,9e50634c-425d-538c-b202-85122d72d1c1,population,populasi,id-ID,[],[],sampling and study design,academic,draft
 662debe2-6445-52e7-9cf1-4ace2709a1c3,bdac6f66-9d41-5633-96f9-e3071687f583,geometric distribution,distribusi geometrik,id-ID,"[""distribusi geometri""]",[],statistics / Chapter 4 Section 4.2,academic,language_reviewed
+66d767a1-cafe-5355-a738-690b00706664,8efc6c64-1749-5a7d-9704-b394ec91a9d6,Clopper-Pearson interval,interval Clopper--Pearson,id-ID,[],[],statistics / Chapter 6 Section 6.1,academic,language_reviewed
 67446212-6cb7-516b-9cfc-51585bb7730d,0f678819-5b71-53c9-81a0-a23530beb82c,skew,kemencengan,id-ID,[],[],distribution shape,academic,translated
 68550c2c-400a-51b0-bc5b-dd3f5ceb529b,0e8ba95c-7f54-5d8f-bbd3-391f91322255,events,peristiwa,id-ID,[],[],probability / Chapter 3,academic,language_reviewed
 6956f439-3b7f-5a93-a0ae-0f3f9756afa1,6e94ffd4-18e9-5fa4-974f-4989cbd1c327,normal distribution,distribusi normal,id-ID,"[""distribusi Gaussian""]",[],statistics / Chapter 4 Section 4.1,academic,language_reviewed

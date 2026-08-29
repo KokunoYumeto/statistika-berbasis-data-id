@@ -1,0 +1,200 @@
+{
+  "$schema": "interlanguage.r011-b022-exercises-answers-translation-audit/v2",
+  "answer_closure": {
+    "exercise_ordinals": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "invented_answers_or_solutions": 0,
+    "o001_mastery_gaps": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16
+    ],
+    "public_answer_ordinals": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15
+    ],
+    "restricted_instructor_solutions_used": 0
+  },
+  "authority": {
+    "boundary_blueprint": {
+      "bytes": 12523,
+      "path": "qa/b022-source/R011-B022_BOUNDARY_BLUEPRINT.json",
+      "sha256": "998906deec9cfea6a36b6e202af674c1a381141402448706c6ba1988caf45db5"
+    },
+    "branch": "master",
+    "commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "repository": "https://github.com/OpenIntroStat/openintro-statistics",
+    "tree": "d61cc601e7d97759ce805900520f784d02a0489e"
+  },
+  "boundary_id": "R011-B022",
+  "checks": {
+    "answer_align_bodies_equal": true,
+    "answer_braces_balanced": true,
+    "answer_command_stream_equal": true,
+    "answer_comments_equal": true,
+    "answer_environment_stream_equal": true,
+    "answer_inline_math_equal": true,
+    "answer_numeric_tokens_equal": true,
+    "english_ordinal_suffix_absent": true,
+    "exercise_braces_balanced": true,
+    "exercise_citations_equal": true,
+    "exercise_command_stream_equal_after_two_date_localizations": true,
+    "exercise_comments_equal": true,
+    "exercise_environment_stream_equal": true,
+    "exercise_inline_math_equal_after_two_date_localizations": true,
+    "exercise_labels_equal": true,
+    "exercise_macro_count_exact": true,
+    "exercise_numeric_tokens_equal_after_two_date_localizations": true,
+    "exercise_ordinals_exact": true,
+    "exercise_refs_equal": true,
+    "indonesian_dates_present": true,
+    "no_restricted_or_invented_answers": true,
+    "o001_even_gap_set_exact": true,
+    "public_answer_macro_count_exact": true,
+    "public_answer_ordinals_exact": true
+  },
+  "git_used": false,
+  "justified_localization_exception": {
+    "all_other_tex_math_controls_preserved": true,
+    "reason": "Indonesian dates do not use the English ordinal suffix th; the suffix is prose typography, not mathematical content.",
+    "scope": "authority exercise lines 139 and 141 only",
+    "source_forms": [
+      "4$^{\\text{th}}$",
+      "July~$4^{th}$"
+    ],
+    "target_form": "4 Juli"
+  },
+  "publication_performed": false,
+  "source_corrections_and_anomalies": [
+    {
+      "source_issue": "The displayed one-proportion null-test standard-error formula uses p while its surrounding explanation specifies p_0.",
+      "source_location": "extraTeX/eoceSolutions/eoceSolutions.tex:1298-1303",
+      "translation_action": "Formula bytes preserved; candidate retained for the single post-corpus upstream report."
+    },
+    {
+      "source_issue": "Exercise 11(b) asks about opposition while the data and public answer reason about support.",
+      "source_location": "ch_inference_for_props/TeX/inference_for_a_single_proportion.tex:238-241 and extraTeX/eoceSolutions/eoceSolutions.tex:1317-1326",
+      "translation_action": "Contradiction preserved; candidate retained for the single post-corpus upstream report."
+    }
+  ],
+  "source_slices": [
+    {
+      "bytes": 13165,
+      "exercise_ordinals": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "line_range_inclusive": "1-320",
+      "lines": 320,
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_props/TeX/inference_for_a_single_proportion.tex",
+      "role": "end_of_section_exercises",
+      "sha256": "d78fcc296eb2ee985158e76d72822fd3c276d64e117325fa1c4af8e9059bf90f"
+    },
+    {
+      "bytes": 5147,
+      "line_range_inclusive": "1228-1361",
+      "lines": 134,
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/extraTeX/eoceSolutions/eoceSolutions.tex",
+      "public_answer_ordinals": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15
+      ],
+      "role": "linked_public_answers",
+      "sha256": "0f0d9a12cdea131b94c765a54dd5e9fb0e28ad3391364e1a9506b28103c953cd"
+    }
+  ],
+  "status": "PASS_EXERCISES_1_16_AND_ALL_LINKED_PUBLIC_ODD_ANSWERS_TRANSLATED",
+  "targets": [
+    {
+      "bytes": 14246,
+      "exercise_ordinals": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "lines": 318,
+      "path": "qa/b022-translation/staging/inference_for_a_single_proportion.id.tex",
+      "role": "end_of_section_exercises_id_ID",
+      "sha256": "20e72133e3111f175fd4bf7ceaad63dbb278723a796a8e5b8f16027bdd05309c"
+    },
+    {
+      "bytes": 5595,
+      "lines": 134,
+      "path": "qa/b022-translation/staging/eoceSolutions_b022_public_odd.id.tex",
+      "public_answer_ordinals": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15
+      ],
+      "role": "linked_public_answers_id_ID",
+      "sha256": "3b03a246c771c66b17f4a8cd69168eb156d0799caaaa72d0ee24782318f720fa"
+    }
+  ],
+  "translation_provenance": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "upstream_contacted": false
+}
