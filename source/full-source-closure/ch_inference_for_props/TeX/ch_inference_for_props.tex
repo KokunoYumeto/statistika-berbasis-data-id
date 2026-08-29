@@ -3,6 +3,7 @@
   \label{inferenceForCategoricalData}
   \label{ch_inference_for_props}
   \chaptersection{singleProportion}
+  \chaptersection{differenceOfTwoProportions}
 % Boundary-clean reader omits navigation to excluded later Chapter 6 sections.
 \end{chapterpage}
 \renewcommand{\chapterfolder}{ch_inference_for_props}
@@ -543,3 +544,787 @@ galat 0.05 dengan tingkat kepercayaan 95\%?\footnotemark
 \index{batas galat|)}
 
 {\input{ch_inference_for_props/TeX/inference_for_a_single_proportion.tex}}
+
+\section{Selisih dua proporsi}
+\label{differenceOfTwoProportions}
+
+Kita ingin memperluas metode dari
+Bagian~\ref{singleProportion}
+untuk menerapkan interval kepercayaan dan uji hipotesis
+pada selisih proporsi populasi:
+\mbox{$p_1 - p_2$}.
+%We~consider three examples.
+%In the first, we compare the utility of a blood thinner
+%for heart attack patients.
+%In the second application, we examine the efficacy of
+%mammograms in reducing deaths from breast cancer.
+%In the last example, a quadcopter company weighs whether
+%to switch to a higher quality manufacturer of rotor blades.
+Dalam pembahasan ini, kita akan mengidentifikasi
+estimasi titik yang masuk akal untuk $p_1 - p_2$ berdasarkan sampel,
+dan Anda mungkin sudah dapat menebak bentuknya:
+$\hat{p}_1 - \hat{p}_2$.
+\index{estimasi titik!selisih proporsi}%
+Selanjutnya, kita akan menerapkan proses yang sama seperti dalam
+konteks satu proporsi:
+kita memverifikasi bahwa estimasi titik
+dapat dimodelkan menggunakan distribusi normal,
+kita menghitung galat baku estimasi tersebut, dan
+menerapkan kerangka inferensi kita.
+
+
+\subsection{Distribusi sampling dari selisih
+    dua proporsi}
+
+Seperti halnya $\hat{p}$, selisih dua
+proporsi sampel $\hat{p}_1 - \hat{p}_2$ dapat dimodelkan
+menggunakan distribusi normal ketika syarat-syarat tertentu
+terpenuhi.
+Pertama, kita memerlukan syarat independensi yang lebih luas,
+dan kedua,
+syarat sukses--gagal harus dipenuhi oleh kedua kelompok.
+
+\begin{onebox}{Syarat agar
+    distribusi sampling dari
+    $\pmb{\hat{\MakeLowercase{p}}_1 -
+        \hat{\MakeLowercase{p}}_2}$
+    mendekati normal}
+  Selisih $\hat{p}_1 - \hat{p}_2$ dapat dimodelkan
+  menggunakan distribusi normal ketika
+  \begin{itemize}
+  \setlength{\itemsep}{0mm}
+  \item \emph{Independensi yang diperluas.}
+    Data independen, baik di dalam setiap kelompok maupun
+    antarkelompok.
+    Secara umum, syarat ini terpenuhi jika data berasal
+    dari dua sampel acak yang independen
+    atau dari eksperimen dengan alokasi acak.
+  \item \emph{Syarat sukses--gagal.}
+    Syarat sukses--gagal terpenuhi untuk kedua
+    kelompok; kita memeriksa jumlah sukses dan gagal
+    secara terpisah pada setiap kelompok.
+  \end{itemize}
+  Ketika syarat-syarat ini terpenuhi,
+  galat baku dari $\hat{p}_1 - \hat{p}_2$ adalah
+  \index{galat baku (SE)!selisih proporsi}
+  \begin{eqnarray*}
+  SE %_{\hat{p}_1 - \hat{p}_2}
+    %= \sqrt{SE_{\hat{p}_1}^2 + SE_{\hat{p}_2}^2}
+    = \sqrt{\frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}}
+  \label{seForDiffOfProp}
+  \end{eqnarray*}
+  dengan $p_1$ dan $p_2$ menyatakan proporsi populasi,
+  sedangkan $n_1$ dan $n_2$ menyatakan ukuran sampel.
+\end{onebox}
+
+%\noindent%
+%Ultimately, we can check the two conditions by
+%thinking of it as a broader independence check
+%along with a check on the success-failure condition
+%for each group:
+%\begin{description}
+%\item[Independence, extended.]
+%    The data are independent within and between
+%    the two groups.
+%    Generally this is satisfied if the data come
+%    from two independent random samples
+%    or if the data come from a randomized experiment.
+%\item[Success-failure condition.]
+%    The success-failure condition holds for both
+%    groups, where we check successes and failures
+%    in each group separately.
+%\end{description}
+
+%For the difference in two means, the standard error formula took the following form:
+%\begin{eqnarray*}
+%SE_{\bar{x}_{1} - \bar{x}_{2}} = \sqrt{SE_{\bar{x}_1}^2 + SE_{\bar{x}_2}^2}
+%\end{eqnarray*}
+%The standard error for the difference in two proportions takes a similar form. The reasons behind this similarity are rooted in the probability theory of Section~\ref{randomVariablesSection}, which is described for this context in Guided Practice~\vref{derivingSEForDiffOfTwoMeansExercise}.
+
+
+%% Boundary-clean reader removes a legacy forced page break.
+\subsection[Interval kepercayaan untuk $p_1 - p_2$]
+    {Interval kepercayaan untuk $\pmb{p_1 - p_2}$}
+
+\index{data!CPR dan pengencer darah|(}
+
+%In the setting of confidence intervals for a difference
+%of two proportions, the two sample proportions are used
+%to verify the success-failure condition and also compute
+%the standard error, just as was the case with a single
+%proportion.
+\noindent%
+Kita dapat menerapkan rumus interval kepercayaan umum
+untuk selisih dua proporsi,
+dengan menggunakan $\hat{p}_1 - \hat{p}_2$ sebagai estimasi
+titik dan menyubstitusikan rumus $SE$:
+\begin{align*}
+&\text{estimasi titik} \ \pm\  z^{\star} \times SE
+&&\to
+&&\hat{p}_1 - \hat{p}_2 \ \pm\ 
+    z^{\star} \times
+   \sqrt{\frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}}
+\end{align*}
+Kita juga dapat mengikuti urutan langkah yang sama, yaitu
+Siapkan, Periksa, Hitung, dan Simpulkan, ketika
+menghitung interval kepercayaan
+atau menyelesaikan uji hipotesis.
+Rinciannya sedikit berbeda,
+tetapi pendekatan umumnya tetap sama.
+Pikirkan langkah-langkah ini ketika menerapkan metode statistik.
+
+\begin{examplewrap}
+\begin{nexample}{Kita mempertimbangkan eksperimen pada pasien
+    yang menjalani resusitasi jantung-paru (CPR)
+    akibat serangan jantung dan
+    kemudian dirawat di
+    rumah sakit.
+    Pasien-pasien ini dialokasikan secara acak ke kelompok perlakuan
+    yang menerima pengencer darah atau ke kelompok kontrol
+    yang tidak menerima pengencer darah.
+    Variabel hasil yang menjadi perhatian adalah apakah
+    pasien bertahan hidup sekurang-kurangnya selama 24 jam.
+    Hasilnya ditampilkan dalam
+    Gambar~\ref{resultsForCPRStudyInSmallSampleSection}.
+    Periksalah apakah kita dapat memodelkan selisih
+    proporsi sampel menggunakan distribusi normal.}
+
+  Pertama, kita memeriksa independensi:
+  karena ini adalah eksperimen dengan alokasi acak,
+  syarat ini terpenuhi.
+  
+  Selanjutnya, kita memeriksa syarat sukses--gagal untuk
+  setiap kelompok.
+  Terdapat sedikitnya 10 sukses dan 10 gagal pada
+  setiap lengan eksperimen (11, 14, 39, 26),
+  sehingga syarat ini juga terpenuhi.
+
+  Karena kedua syarat terpenuhi,
+  selisih proporsi sampel dapat
+  dimodelkan secara wajar menggunakan distribusi normal
+  untuk data ini.
+\end{nexample}
+\end{examplewrap}
+
+\begin{figure}[ht]
+\centering
+\begin{tabular}{lccccc}
+\hline
+			&& Bertahan hidup 	& Meninggal 	&& Total \\
+\hline
+Kontrol		&& 11		& 39		&& 50 \\
+Perlakuan		&& 14		& 26		&& 40 \\
+\hline
+Total			&& 25		& 65		&& 90 \\
+\hline
+\end{tabular}
+\caption{Hasil studi CPR.
+    Pasien dalam kelompok perlakuan diberi
+    pengencer darah, sedangkan pasien dalam kelompok kontrol
+    tidak diberi pengencer darah.}
+\label{resultsForCPRStudyInSmallSampleSection}
+\end{figure}
+
+\begin{examplewrap}
+\begin{nexample}{
+    Buat dan interpretasikan interval kepercayaan 90\% untuk
+    selisih tingkat kelangsungan hidup dalam studi CPR.}
+
+  Kita gunakan $p_t$ untuk tingkat kelangsungan
+  hidup kelompok perlakuan dan $p_c$ untuk kelompok kontrol
+  sebagai berikut:
+  \begin{align*}
+  \hat{p}_{t} - \hat{p}_{c}
+    = \frac{14}{40} - \frac{11}{50}
+    = 0.35 - 0.22
+    = 0.13
+  \end{align*}
+  Kita menggunakan rumus galat baku yang diberikan pada
+  halaman~\pageref{seForDiffOfProp}.
+  Seperti dalam kasus proporsi satu sampel,
+  kita menggunakan estimasi sampel dari setiap proporsi
+  dalam rumus untuk konteks interval kepercayaan:
+  \begin{align*}
+  SE \approx \sqrt{\frac{0.35 (1 - 0.35)}{40} +
+      \frac{0.22 (1 - 0.22)}{50}}
+    = 0.095
+  \end{align*}
+  Untuk interval kepercayaan 90\%, kita gunakan $z^{\star} = 1.6449$:
+  \begin{align*}
+  \text{estimasi titik} \ \pm\ z^{\star} \times SE
+    \quad \to \quad 0.13 \ \pm\ 1.6449 \times  0.095
+    \quad \to \quad (-0.026, 0.286)
+  \end{align*}
+  Kita yakin pada tingkat kepercayaan 90\% bahwa,
+  bagi pasien yang serupa dengan peserta studi,
+  dampaknya berkisar dari -2.6 hingga +28.6
+  poin persentase terhadap tingkat kelangsungan hidup.
+  Karena 0 poin persentase termuat dalam interval,
+  kita tidak memiliki cukup informasi untuk menyatakan
+  apakah pengencer darah membantu atau membahayakan
+  pasien serangan jantung yang dirawat setelah
+  menjalani CPR.
+\end{nexample}
+\end{examplewrap}
+
+\index{data!CPR dan pengencer darah|)}
+
+%\begin{onebox}{Confidence interval for a difference
+%    of two proportions}
+%  Once you've determined a confidence interval for the
+%  difference of two proportions would be helpful for an
+%  application, there are four steps to constructing the interval:
+%  \begin{description}
+%  \item[Prepare.]
+%      Identify the sample proportions and sample sizes
+%      for each of the two groups,
+%      determine what confidence level you wish to use.
+%  \item[Check.]
+%      Verify the conditions to ensure each sample
+%      proportion is nearly normal.
+%      The success-failure condition should be checked
+%      for each group.
+%  \item[Calculate.]
+%      If the conditions hold, compute $SE$,
+%      find $z^{\star}$, and construct the interval.
+%  \item[Conclude.]
+%      Interpret the confidence interval in the context
+%      of the problem.
+%  \end{description}
+%\end{onebox}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Sebuah eksperimen selama 5 tahun
+dilakukan untuk mengevaluasi efektivitas
+minyak ikan dalam mengurangi kejadian kardiovaskular,
+dengan setiap subjek dialokasikan secara acak ke salah satu dari dua
+kelompok perlakuan.
+Kita akan meninjau kejadian serangan jantung pada pasien-pasien ini:
+\begin{center}
+\begin{tabular}{l ccc}
+  \hline
+  & serangan jantung &
+      tanpa kejadian & Total \\
+  \hline
+  minyak ikan & 145 & 12788 & 12933 \\
+  plasebo & 200 & 12738 & 12938 \\
+  \hline
+\end{tabular}
+\end{center}
+% library(openintro); library(xtable); xtable(fish_oil_18[[3]], digits = 0)
+Buatlah interval kepercayaan 95\% untuk efek minyak ikan
+terhadap serangan jantung pada pasien yang cukup terwakili oleh
+peserta studi tersebut.
+Interpretasikan juga interval tersebut dalam konteks
+studi.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{
+  Karena pasien dialokasikan secara acak,
+  pengamatan terhadap subjek independen, baik di dalam maupun di antara
+  kedua kelompok.
+  Syarat sukses--gagal juga terpenuhi untuk kedua
+  kelompok karena semua frekuensi sekurang-kurangnya~10.
+  Hal ini memenuhi syarat yang diperlukan untuk memodelkan
+  selisih proporsi menggunakan distribusi normal.
+
+  Hitung proporsi sampel
+  ($\hat{p}_{\text{fish oil}} = 0.0112$,
+    $\hat{p}_{\text{placebo}} = 0.0155$),
+  estimasi titik selisihnya ($0.0112 - 0.0155 = -0.0043$),
+  dan galat baku
+  ($SE = \sqrt{\frac{0.0112 \times 0.9888}{12933} +
+      \frac{0.0155 \times 0.9845}{12938}}
+    = 0.00145$).
+  Selanjutnya, masukkan nilai-nilai tersebut ke dalam rumus umum
+  interval kepercayaan; kita akan menggunakan tingkat
+  kepercayaan 95\% dengan $z^{\star} = 1.96$:
+  \begin{align*}
+  -0.0043 \pm 1.96 \times 0.00145
+      \quad \to \quad
+      (-0.0071, -0.0015)
+  \end{align*}
+  Kita yakin 95\% bahwa minyak ikan menurunkan
+  tingkat kejadian serangan jantung sebesar
+  0.15 hingga 0.71 poin persentase
+  (dari tingkat dasar sekitar 1.55\%)
+  selama periode 5 tahun pada subjek yang serupa
+  dengan peserta dalam studi tersebut.
+  Karena seluruh interval berada di bawah~0,
+  data memberikan bukti kuat
+  bahwa suplemen minyak ikan mengurangi kejadian serangan jantung
+  pada pasien yang serupa dengan peserta studi tersebut.}
+ 
+  
+\subsection%[Hypothesis tests for $p_1 - p_2$]
+    {Uji hipotesis untuk selisih dua proporsi}
+
+\index{data!mamografi|(}
+\index{data!kanker payudara|(}
+
+%We'll explore an experiment evaluating the benefits
+%of mammograms using a hypothesis test.
+Mamografi adalah prosedur sinar-X yang digunakan untuk memeriksa
+kanker payudara.
+Perlu tidaknya mamografi digunakan merupakan bagian dari
+perdebatan yang kontroversial, dan hal itu menjadi topik
+contoh berikutnya, tempat kita mempelajari uji hipotesis
+2 proporsi ketika $H_0$~adalah~$p_1 - p_2 = 0$
+(atau, secara ekuivalen, $p_1 = p_2$).
+
+Sebuah studi selama 30 tahun dilakukan terhadap hampir 90,000 perempuan. Selama masa skrining 5 tahun, setiap perempuan diacak ke salah satu dari dua kelompok: kelompok pertama menjalani mamografi rutin untuk skrining kanker payudara, sedangkan kelompok kedua menjalani pemeriksaan kanker payudara rutin tanpa mamografi. Tidak ada intervensi selama 25 tahun berikutnya, dan kita akan meninjau kematian akibat kanker payudara selama keseluruhan masa studi 30 tahun. Hasil studi dirangkum dalam Gambar~\ref{mammogramStudySummaryTable}.
+
+Jika mamografi jauh lebih efektif daripada pemeriksaan kanker payudara tanpa mamografi, kita mengharapkan lebih banyak kematian akibat kanker payudara pada kelompok kontrol. Di~sisi lain, jika mamografi tidak seefektif pemeriksaan kanker payudara rutin, kita~mengharapkan peningkatan kematian akibat kanker payudara pada kelompok mamografi.
+
+\begin{figure}[h]
+\centering
+\begin{tabular}{rrcc}
+	& \multicolumn{3}{c}{Meninggal akibat kanker payudara?} \\
+  \cline{2-4}
+ & \ \hspace{3mm}\ & Ya & Tidak \\
+  \hline
+Mamografi && 500 & 44,425 \\
+Kontrol && 505 & 44,405 \\
+   \hline
+\end{tabular}
+\caption{Ringkasan hasil studi kanker payudara.}
+\label{mammogramStudySummaryTable}
+\end{figure}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Apakah studi ini merupakan eksperimen atau studi observasional?\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Studi ini merupakan eksperimen. Para pasien diacak
+    untuk menjalani mamografi atau pemeriksaan kanker payudara standar.
+    Berdasarkan studi ini, kita dapat menarik kesimpulan kausal.}
+
+% Boundary-clean reader removes a legacy forced page break.
+
+\begin{exercisewrap}
+\begin{nexercise} \label{htFormammogramStudySummaryTable}
+Susun hipotesis untuk menguji apakah terdapat perbedaan
+kematian akibat kanker payudara antara kelompok mamografi dan kelompok kontrol.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{$H_0$: tingkat kematian akibat kanker payudara pada pasien
+    yang menjalani skrining mamografi sama dengan tingkat kematian akibat
+    kanker payudara pada pasien dalam kelompok kontrol,
+    $p_{mgm} - p_{ctrl} = 0$. \\
+    $H_A$: tingkat kematian akibat kanker payudara pada pasien yang menjalani
+    skrining mamografi berbeda dari tingkat kematian akibat kanker payudara
+    pada pasien dalam kelompok kontrol,
+    $p_{mgm} - p_{ctrl} \neq 0$.}
+
+Dalam Contoh~\ref{condFormammogramStudySummaryTableNormalInference},
+kita akan memeriksa syarat penggunaan distribusi normal untuk
+menganalisis hasil studi.
+Rinciannya sangat mirip dengan rincian interval kepercayaan.
+Namun, ketika hipotesis nol menyatakan bahwa $p_1 - p_2 = 0$,
+kita menggunakan proporsi khusus yang disebut
+\term{proporsi gabungan} untuk memeriksa syarat sukses--gagal:
+\begin{align*}
+\hat{p}_{\textit{pooled}}
+    &= \frac
+        {\text{\# pasien yang meninggal akibat kanker payudara dalam
+            seluruh studi}}
+        {\text{\# pasien dalam seluruh studi}} \\
+	&= \frac{500 + 505}{500 + \text{44,425} + 505 + \text{44,405}} \\
+	&= 0.0112
+\end{align*}
+Proporsi ini merupakan estimasi tingkat kematian akibat kanker payudara
+di seluruh studi, dan merupakan estimasi terbaik kita untuk
+proporsi $p_{mgm}$ dan $p_{ctrl}$
+\emph{jika hipotesis nol bahwa $p_{mgm} = p_{ctrl}$ benar}.
+Kita~juga akan menggunakan proporsi gabungan ini ketika menghitung
+galat baku.
+
+\begin{examplewrap}
+\begin{nexample}{Apakah wajar memodelkan selisih
+    proporsi menggunakan distribusi normal dalam
+    studi ini?}
+  \label{condFormammogramStudySummaryTableNormalInference}%
+  Karena para pasien diacak, pengamatan terhadap mereka dapat dianggap
+  saling independen, baik di dalam maupun antarkelompok.
+  Kita juga harus memeriksa syarat sukses--gagal untuk setiap kelompok.
+  Di bawah hipotesis nol, proporsi $p_{mgm}$
+  dan $p_{ctrl}$ sama, sehingga kita memeriksa syarat sukses--gagal
+  menggunakan estimasi terbaik untuk nilai-nilai ini di bawah $H_0$,
+  yaitu \hiddenterm{proporsi gabungan} dari kedua sampel,
+  $\hat{p}_{\textit{pooled}} = 0.0112$:
+  \begin{align*}
+  \hat{p}_{\textit{pooled}} \times n_{mgm}
+      &= 0.0112 \times \text{44,925} = 503
+    & (1 - \hat{p}_{\textit{pooled}}) \times n_{mgm}
+      &= 0.9888 \times \text{44,925} = \text{44,422} \\
+  \hat{p}_{\textit{pooled}} \times n_{ctrl}
+      &= 0.0112 \times \text{44,910} = 503
+    & (1 - \hat{p}_{\textit{pooled}}) \times n_{ctrl}
+      &= 0.9888 \times \text{44,910} = \text{44,407}
+  \end{align*}
+  Syarat sukses--gagal terpenuhi karena
+  semua nilai sedikitnya 10.
+  Karena kedua syarat terpenuhi, kita dapat memodelkan
+  selisih proporsi secara aman menggunakan distribusi
+  normal.
+\end{nexample}
+\end{examplewrap}
+
+\begin{onebox}{Gunakan proporsi gabungan ketika
+    $\pmb{H_0}$ adalah $\pmb{\MakeLowercase{p_1 - p_2 = 0}}$}
+  Ketika hipotesis nol menyatakan bahwa kedua proporsi sama,
+  gunakan proporsi gabungan ($\hat{p}_{\textit{pooled}}$)
+  untuk memverifikasi
+  syarat sukses--gagal dan mengestimasi galat baku:
+  \begin{eqnarray*}
+  \hat{p}_{\textit{pooled}}
+    = \frac{\text{jumlah ``sukses''}}
+      {\text{jumlah kasus}}
+    = \frac{\hat{p}_1 n_1 + \hat{p}_2 n_2}{n_1 + n_2}
+  \end{eqnarray*}
+  Di sini $\hat{p}_1 n_1$ menyatakan jumlah sukses dalam
+  sampel 1 karena
+  \begin{eqnarray*}
+  \hat{p}_1
+    = \frac{\text{jumlah sukses dalam sampel 1}}{n_1}
+  \end{eqnarray*}
+  Demikian pula, $\hat{p}_2 n_2$ menyatakan jumlah
+  sukses dalam sampel~2.
+\end{onebox}
+
+Dalam Contoh~\ref{condFormammogramStudySummaryTableNormalInference},
+proporsi gabungan digunakan untuk memeriksa syarat sukses--gagal.
+\footnote{Untuk contoh uji hipotesis dua proporsi
+  yang tidak mengharuskan
+  syarat sukses--gagal terpenuhi, lihat
+  Bagian~\ref{caseStudyMalariaVaccine}.}
+Dalam contoh berikutnya, kita melihat kegunaan kedua dari proporsi
+gabungan: perhitungan galat baku.
+
+% Boundary-clean reader removes a legacy forced page break.
+
+\begin{examplewrap}
+\begin{nexample}{Hitung estimasi titik untuk selisih
+    tingkat kematian akibat kanker payudara pada kedua kelompok,
+    dan gunakan proporsi gabungan
+    $\hat{p}_{\textit{pooled}} = 0.0112$ untuk menghitung
+    galat baku.}
+  Estimasi titik untuk selisih tingkat kematian akibat kanker payudara
+  adalah
+  \begin{align*}
+  \hat{p}_{mgm} - \hat{p}_{ctrl}
+    &= \frac{500}{500 + 44,425} - \frac{505}{505 + 44,405} \\
+    &= 0.01113 - 0.01125 \\
+    &= -0.00012
+  \end{align*}
+  Tingkat kematian akibat kanker payudara pada kelompok mamografi
+  lebih rendah sebesar 0.012 poin persentase daripada kelompok kontrol.
+  Selanjutnya, galat baku dihitung
+  \emph{menggunakan proporsi gabungan},~$\hat{p}_{\textit{pooled}}$:
+\begin{align*}
+SE = \sqrt{
+      \frac{\hat{p}_{\textit{pooled}}(1-\hat{p}_{\textit{pooled}})}
+          {n_{mgm}}
+      + \frac{\hat{p}_{\textit{pooled}}(1-\hat{p}_{\textit{pooled}})}
+          {n_{ctrl}}
+    }
+	= 0.00070
+\end{align*}
+\end{nexample}
+\end{examplewrap}
+
+\begin{examplewrap}
+\begin{nexample}{Dengan menggunakan estimasi titik $\hat{p}_{mgm} - \hat{p}_{ctrl} = -0.00012$ dan galat baku $SE = 0.00070$, hitung nilai-p untuk uji hipotesis dan tuliskan kesimpulannya.}
+Seperti pada uji sebelumnya, mula-mula kita menghitung statistik uji dan menggambar ilustrasi:
+\begin{align*}
+Z = \frac{\text{estimasi titik} - \text{nilai nol}}{SE}
+	= \frac{-0.00012 - 0}{0.00070}
+	= -0.17
+\end{align*}
+\begin{center}
+\Figures[Ditampilkan sebuah distribusi normal yang berpusat di 0 dengan simpangan baku 0.0007. Ekor bawah diarsir di bawah -0.00012 dan ekor atas diarsir di atas 0.00012. Secara visual, sekitar 90\% luas di bawah distribusi tampak diarsir.]{0.45}{mammograms}{mammogramPValue}
+\end{center}
+Luas ekor bawah adalah 0.4325, yang kita gandakan untuk memperoleh nilai-p:~0.8650. Karena nilai-p ini lebih besar daripada 0.05, kita tidak menolak hipotesis nol. Artinya, selisih tingkat kematian akibat kanker payudara secara masuk akal dapat dijelaskan oleh kebetulan, dan studi ini tidak mendeteksi secara statistik adanya manfaat ataupun bahaya mamografi dibandingkan pemeriksaan payudara rutin.
+\end{nexample}
+\end{examplewrap}
+
+Dapatkah kita menyimpulkan bahwa mamografi sama sekali tidak memiliki manfaat atau bahaya?
+Berikut beberapa pertimbangan yang perlu diingat ketika meninjau
+studi mamografi maupun studi medis lainnya:
+\begin{itemize}
+\setlength{\itemsep}{0mm}
+\item
+    Kita tidak menolak hipotesis nol, yang berarti
+    kita tidak memiliki cukup bukti untuk menyimpulkan bahwa
+    mamografi menurunkan atau meningkatkan kematian akibat kanker payudara.
+\item
+    Jika mamografi bermanfaat atau berbahaya, data
+    menunjukkan bahwa pengaruhnya tidak terlalu besar.
+\item
+    Apakah mamografi lebih mahal atau lebih murah daripada
+    pemeriksaan payudara tanpa mamografi?
+    Jika~salah satu pilihan jauh lebih mahal daripada
+    pilihan lainnya dan tidak memberikan manfaat yang jelas,
+    kita sebaiknya memilih
+    pilihan yang lebih murah.
+\item
+    Para penulis studi juga menemukan bahwa mamografi
+    menyebabkan diagnosis kanker payudara secara berlebihan,
+    yang berarti beberapa kanker payudara ditemukan
+    (atau dianggap ditemukan), tetapi kanker tersebut
+    tidak akan menimbulkan gejala selama hidup pasien.
+    Artinya, pasien akan meninggal akibat sebab lain
+    sebelum gejala kanker payudara muncul.
+    Ini berarti sebagian pasien mungkin telah menjalani pengobatan
+    kanker payudara yang sebenarnya tidak diperlukan, dan
+    pengobatan tersebut merupakan biaya lain yang perlu dipertimbangkan.
+    Penting pula untuk menyadari bahwa
+    diagnosis berlebihan dapat menimbulkan bahaya fisik
+    atau emosional yang tidak perlu bagi pasien.
+\end{itemize}
+Pertimbangan ini menyoroti rumitnya perawatan medis dan rekomendasi pengobatan. Para ahli dan dewan medis yang mempelajari pengobatan menggunakan pertimbangan seperti di atas untuk memberikan rekomendasi terbaik berdasarkan bukti terkini.
+
+\index{data!kanker payudara|)}
+\index{data!mamografi|)}
+
+%\begin{onebox}{Hypothesis testing when $\mathbf{H_0}$ is
+%    $\mathbf{p_1 - p_2 = 0}$}
+%  Once you've determined a hypothesis test for the difference
+%  of two proportions is the correct procedure, there are four
+%  steps to completing the test:
+%  \begin{description}
+%  \item[Prepare.]
+%      Identify the parameter of interest,
+%      list out hypotheses,
+%      identify the significance level,
+%      and compute summary statistics for each group.
+%  \item[Check.]
+%      Verify the conditions to ensure
+%      $\hat{p}_1 - \hat{p}_2$ is nearly normal under $H_0$.
+%      When the null hypothesis is that the difference is~0,
+%      use a pooled proportion to check the success-failure
+%      condition for each group.
+%  \item[Calculate.]
+%      If the conditions hold, compute the standard
+%      error, again using the pooled proportion,
+%      compute the Z-score, and identify the p-value.
+%  \item[Conclude.]
+%      Evaluate the hypothesis test by comparing the p-value
+%      to $\alpha$, and provide a conclusion in the context
+%      of the problem.
+%  \end{description}
+%\end{onebox}
+
+
+
+% Boundary-clean reader removes a legacy forced page break.
+ 
+\subsection{Lebih lanjut tentang uji hipotesis dua proporsi (topik khusus)}
+
+Ketika melakukan uji hipotesis dua proporsi,
+biasanya $H_0$ adalah $p_1 - p_2 = 0$. Namun, terdapat keadaan
+langka ketika kita ingin memeriksa apakah selisih antara
+$p_1$ dan $p_2$ sama dengan suatu nilai selain 0.
+Sebagai contoh, kita mungkin ingin memeriksa hipotesis nol
+dengan $p_1 - p_2 = 0.1$. %\footnote{Kita dapat
+%  pula menjumpai keadaan serupa untuk selisih
+%  dua rata-rata, meskipun contoh semacam itu tidak diberikan dalam
+%  Bab~\ref{inferenceForNumericalData} karena metode yang digunakan
+%  tetap persis sama dalam konteks rata-rata sampel.
+%  Di sisi lain, syarat sukses--gagal dan
+%  perhitungan galat baku sedikit berbeda pada berbagai
+%  konteks proporsi.}
+Dalam konteks seperti ini, umumnya kita menggunakan $\hat{p}_1$ dan
+$\hat{p}_2$ untuk memeriksa syarat sukses--gagal dan
+menyusun galat baku.
+
+\begin{exercisewrap}
+\begin{nexercise}
+\label{carWheelBladeManufacturer}%
+Sebuah perusahaan kuadkopter sedang mempertimbangkan produsen baru
+untuk bilah rotor.
+Produsen baru tersebut lebih mahal,
+tetapi mereka menyatakan bahwa
+bilah bermutu lebih tinggi buatan mereka lebih andal,
+dengan tingkat kelulusan inspeksi 3 poin persentase lebih tinggi daripada
+pesaing mereka.
+Susun hipotesis yang sesuai untuk pengujian tersebut.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{$H_0$: Tingkat kelulusan inspeksi bilah bermutu
+  tinggi 3 poin persentase lebih tinggi daripada bilah bermutu standar.
+  $p_{highQ} - p_{standard} = 0.03$.
+  $H_A$: Selisih tingkat kelulusan inspeksi
+  bilah bermutu tinggi dan bilah bermutu standar
+  tidak sama dengan 3 poin persentase.
+  $p_{highQ} - p_{standard} \neq 0.03$.}
+
+\captionsetup{width=85mm}
+
+\begin{figure}[h]
+\centering
+\Figures[Foto sebuah drone kuadkopter Phantom.]{0.6}{quadcopter}{quadcopter_david_j}
+\caption{Sebuah kuadkopter Phantom.\vspace{-1mm} \\
+   -----------------------------\vspace{-2mm}\\
+   {\footnotesize Foto oleh David J
+   (\oiRedirect{textbook-quadcopter_david_j}
+       {http://flic.kr/p/oiWLNu}).
+   \oiRedirect{textbook-CC_BY_2}{Lisensi CC-BY 2.0.}
+   Foto ini telah dipangkas dan diberi bingkai.}}
+\label{quadcopter_david_j}
+\end{figure}
+
+\captionsetup{width=\mycaptionwidth}
+
+% Boundary-clean reader removes a legacy forced page break.
+
+%\Add{Dalam Latihan Terbimbing~\ref{qualityCtrlEngHypothesisEval}, selisih nolnya adalah 0.03. Namun, dalam sebagian besar penerapan selisih rata-rata atau proporsi, selisih nolnya adalah~0. Walaupun rincian untuk selisih rata-rata tidak berubah ketika selisih nol bernilai nol atau bukan nol, hal itu tidak berlaku untuk selisih proporsi. Seperti akan kita lihat pada Bagian~\ref{}, uji hipotesis untuk selisih proporsi dengan nilai nol 0 memerlukan perhatian tambahan.}
+
+\begin{examplewrap}
+\begin{nexample}{Insinyur pengendalian mutu dari
+    Latihan Terbimbing~\ref{carWheelBladeManufacturer}
+    mengumpulkan sampel bilah dengan memeriksa 1000 bilah
+    dari setiap perusahaan, dan ia mendapati bahwa 899 bilah dari
+    pemasok saat ini serta 958 bilah dari calon pemasok lolos
+    inspeksi.
+    Dengan menggunakan data tersebut, evaluasi hipotesis dari
+    Latihan Terbimbing~\ref{carWheelBladeManufacturer}
+    pada tingkat signifikansi 5\%.}
+  \label{qualityCtrlEngHypothesisEval}%
+  Pertama, kita memeriksa syarat-syaratnya.
+  Sampel tersebut belum tentu acak, sehingga agar dapat melanjutkan
+  kita harus mengasumsikan bahwa semua bilah saling independen;
+  untuk sampel ini, kita akan menganggap asumsi tersebut
+  masuk akal, tetapi insinyur itu lebih mengetahui
+  apakah asumsi tersebut tepat.
+  Syarat sukses--gagal juga terpenuhi untuk setiap sampel.
+  Dengan demikian, selisih proporsi sampel,
+  $0.958 - 0.899 = 0.059$, dapat dianggap berasal dari distribusi
+  yang mendekati normal.
+
+  Galat baku dihitung dengan menggunakan kedua proporsi
+  sampel karena dalam konteks ini kita tidak menggunakan
+  proporsi gabungan:
+  \begin{align*}
+  SE
+    = \sqrt{\frac{0.958(1-0.958)}{1000} +
+        \frac{0.899(1-0.899)}{1000}}
+    = 0.0114
+  \end{align*}
+  Dalam uji hipotesis ini, karena hipotesis nol menyatakan bahwa
+  $p_1 - p_2 = 0.03$, proporsi sampel digunakan
+  untuk menghitung galat baku, bukan proporsi
+  gabungan.
+
+  Selanjutnya, kita menghitung statistik uji dan menggunakannya untuk memperoleh
+  nilai-p, yang digambarkan dalam
+  Gambar~\ref{bladesTwoSampleHTPValueQC}.
+  \begin{align*}
+  Z = \frac{\text{estimasi titik} - \text{nilai nol}}{SE}
+    = \frac{0.059 - 0.03}{0.0114} = 2.54
+  \end{align*}
+  Dengan menggunakan distribusi normal baku untuk statistik uji ini,
+  kita memperoleh luas ekor kanan sebesar 0.006,
+  lalu menggandakannya untuk mendapatkan nilai-p: 0.012.
+  Kita menolak hipotesis nol karena 0.012 lebih kecil daripada 0.05.
+  Karena kita mengamati kenaikan lebih dari 3 poin persentase pada proporsi bilah
+  yang lolos inspeksi, kita memiliki bukti yang signifikan
+  secara statistik bahwa proporsi kelulusan inspeksi bilah bermutu tinggi
+  melampaui proporsi kelulusan inspeksi bilah yang digunakan saat ini
+  sebesar \emph{lebih dari} 3 poin persentase, sehingga melampaui klaim perusahaan.
+\end{nexample}
+\end{examplewrap}
+
+\begin{figure}[h]
+  \centering
+  \Figure[Ditampilkan distribusi normal yang berpusat di 0.03 dengan simpangan baku 0.0114. Daerah ekor kecil pada kedua sisi diarsir. Pada sisi atas, daerah ekor di atas 0.059 diarsir dan diberi anotasi nilai 0.006 yang menyatakan luas ekor atas tersebut. Ekor bawah yang bersesuaian juga diarsir.]{0.45}{bladesTwoSampleHTPValueQC}
+  \caption{Distribusi sampling selisih proporsi sampel jika hipotesis
+      nol benar.
+      Nilai-p ditunjukkan oleh daerah yang diarsir.}
+  \label{bladesTwoSampleHTPValueQC}
+\end{figure}
+
+
+% Boundary-clean reader removes a legacy forced page break.
+
+\subsection{Menelaah rumus galat baku
+    (topik khusus)}
+
+Subbagian ini membahas topik yang lebih teoretis
+dan memberikan wawasan lebih mendalam mengenai asal-usul
+rumus galat baku untuk selisih dua
+proporsi.
+Pada akhirnya, semua rumus galat baku
+yang kita jumpai dalam bab ini dan dalam
+Bab~\ref{ch_inference_for_means}
+dapat diturunkan dari prinsip-prinsip peluang pada
+Bagian~\ref{randomVariablesSection}.
+
+Rumus galat baku untuk selisih
+dua proporsi dapat diuraikan menjadi rumus
+galat baku masing-masing proporsi sampel.
+Ingat bahwa kedua galat baku untuk masing-masing
+proporsi sampel $\hat{p}_1$ dan $\hat{p}_2$ adalah
+\begin{align*}
+&SE_{\hat{p}_1} = \sqrt{\frac{{p}_1 (1 - {p}_1)}{n_1}}
+&&SE_{\hat{p}_2} = \sqrt{\frac{{p}_2 (1 - {p}_2)}{n_2}}
+\end{align*}
+Galat baku selisih dua proporsi sampel
+dapat diuraikan dari galat baku masing-masing
+proporsi sampel:
+\begin{align*}
+SE_{\hat{p}_{1} - \hat{p}_{2}}
+	= \sqrt{SE_{\hat{p}_1}^2 + SE_{\hat{p}_2}^2}
+	= \sqrt{\frac{{p}_1 (1 - {p}_1)}{n_1}
+	    + \frac{{p}_2 (1 - {p}_2)}{n_2}}
+\end{align*}
+Hubungan khusus ini berasal dari teori peluang.
+
+\begin{exercisewrap}
+\begin{nexercise}
+\label{derivingSEForDiffOfTwoMeansExercise}%
+Prasyarat: Bagian~\ref{randomVariablesSection}.
+Kita dapat menuliskan kembali persamaan di atas dalam bentuk lain:
+\begin{align*}
+SE_{\hat{p}_{1} - \hat{p}_{2}}^2
+  = SE_{\hat{p}_1}^2 + SE_{\hat{p}_2}^2
+\end{align*}
+Jelaskan asal rumus ini dengan menggunakan
+rumus variabilitas jumlah dua
+variabel acak.\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Kuadrat galat baku menyatakan
+  varians estimasi.
+  Jika $X$ dan $Y$ adalah dua variabel acak yang saling independen dengan varians
+  $\sigma_x^2$ dan $\sigma_y^2$,
+  maka varians $X - Y$ adalah $\sigma_x^2 + \sigma_y^2$.
+  Demikian pula, varians yang bersesuaian dengan $\hat{p}_1 - \hat{p}_2$ adalah $\sigma_{\hat{p}_1}^2 + \sigma_{\hat{p}_2}^2$. Karena $\sigma_{\hat{p}_1}^2$ dan $\sigma_{\hat{p}_2}^2$ hanyalah cara lain untuk menuliskan $SE_{\hat{p}_1}^2$ dan  $SE_{\hat{p}_2}^2$, varians yang berkaitan dengan $\hat{p}_1 - \hat{p}_2$ dapat dituliskan sebagai $SE_{\hat{p}_1}^2 + SE_{\hat{p}_2}^2$.}
+
+
+
+%%__________________
+%\section{Menentukan ukuran sampel untuk suatu eksperimen}
+%\label{SampleSizeFor2Proportions}
+%
+%Sejauh ini kita berfokus pada pengendalian tingkat Galat Tipe~1 untuk uji hipotesis. Namun, ketika merencanakan eksperimen, kita sering ingin menentukan apakah terdapat suatu efek.\footnote{Perencanaan serupa juga sesuai untuk suatu} Sering kali terdapat dua pertimbangan yang bersaing:
+%\begin{itemize}
+%\setlength{\itemsep}{0mm}
+%\item Kita ingin mengumpulkan cukup data agar dapat mendeteksi efek yang penting.
+%\item Dalam banyak konteks, pengumpulan data mahal, sehingga kita tidak ingin mengumpulkan lebih banyak data daripada yang diperlukan untuk mendeteksi efek yang menjadi perhatian kita.
+%\end{itemize}
+%Poin pertama relatif sederhana: semakin banyak data yang kita kumpulkan, semakin presisi estimasi kita, sehingga kita dapat mendeteksi efek yang lebih kecil. Poin kedua lebih halus karena kita perlu menentukan besar efek yang menjadi perhatian kita.
+%
+%\begin{examplewrap}
+%\begin{nexample}{Penyakit Alzheimer adalah penyakit neurologis. Pada awalnya penyakit ini memengaruhi pasien secara ringan dan akhirnya menyebabkan demensia. Jika pasien Alzheimer hidup cukup lama, penyakit tersebut akan mulai memengaruhi fungsi tubuh dan pada akhirnya menyebabkan kematian. Ini adalah kondisi yang sangat serius yang dialami jutaan orang, belum memiliki obat, dan sangat mahal untuk diteliti, sebagian karena perkembangannya yang lambat. Sekelompok peneliti adalah }
+%\end{nexample}
+%\end{examplewrap}
+%
+%
+%, bahkan efek besar, sulit dideteksi dengan sampel kecil, sehingga kita semestinya mengumpulkan sampel lebih besar untuk mendeteksi efek tersebut. Jika kita mengambil sampel yang sangat besar, kita mungkin menemukan selisih yang signifikan secara statistik, tetapi besarnya mungkin sedemikian kecil sehingga tidak memiliki nilai praktis. Dalam bagian ini, kita menjelaskan teknik untuk memilih ukuran sampel yang sesuai berdasarkan pertimbangan tersebut.
+
+
+{\input{ch_inference_for_props/TeX/difference_of_two_proportions.tex}}
+

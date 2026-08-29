@@ -5,8 +5,10 @@ id,affected_id,category,summary,disposition,confidence,status
 038e919d-6132-527b-8e0e-462ee1837518,ef7f55d2-6426-5c6b-a525-29e747da8d0b,page_flow,,,high,active
 05d3e4ae-2b62-51d0-9a52-83c2732e8cde,a8faf5b0-451c-5cc3-b492-052fc857d718,grammar_missing_article,B017-C006: high-confidence upstream copyedit candidate,recorded_not_applied_to_authority,high,active
 06c8e6ba-b292-59fd-ae1c-75265e77422e,06b28e64-c231-50b0-b1f6-648ba4ba5102,source_correction,B014-SC006: the heights of male adults in the US is nearly normal,applied_in_terminal_b014_candidate,high,active
+0754b7bc-86f9-54e8-8be7-876c1d2f2cb3,8c17e7f7-9433-5397-8c68-2d980f9a0f73,statistical_wording,,,high,active
 084d4201-d8b1-54a8-a46e-0b827d501671,5172495b-cd2b-5f34-b695-29ce4bc07662,prose_grammar,,,high,active
 088ee0b9-7833-55ff-b938-6aa4b0400795,ef7f55d2-6426-5c6b-a525-29e747da8d0b,placebo_causation,,,high,active
+091299c0-c4ac-59a3-9306-1aec296d71e2,e0a39794-bf97-5b87-871a-1ef69e6dbaf0,corrected_public_answer_values,,,high,active
 0979c4d8-b360-565c-a46f-36443b5b3861,18b41b7a-5d41-55c2-ac5d-22a7da096c0d,stale_dormant_comment,,,high,active
 0c5a474b-68e3-5fc9-98b9-4ab40411d821,a766f9cd-f941-5953-b2d9-9d5f0b9a8764,layout_pagination,The default 4 mm pre-exercise spacing forced only EoCE 28(a)-(b) onto an otherwise empty continuation page.,applied_before_terminal_b011_translation_gate,high,active
 0cb9964d-2ff4-5b17-92c1-b4d1f72b3ab4,06b28e64-c231-50b0-b1f6-648ba4ba5102,source_correction,B014-SC009: ch_distributions/figures/eoce/GRE_intro/GRE_intro.pdf,applied_in_terminal_b014_candidate,high,active
@@ -15,10 +17,13 @@ id,affected_id,category,summary,disposition,confidence,status
 12fd69b5-695b-516a-b699-8c11a0eff299,b23f3ca2-973a-561f-8d7b-0808ca9315e8,translation_unit_notation,,,high,active
 1606cc19-64a9-5fc9-b11a-a94b9205009e,51f8c9e8-d47d-503f-a0db-38a0564b62f2,copy_error,,,high,active
 163478f6-7315-5e3d-b333-98cc69f5b03a,bac586bc-5065-5e98-a3ae-8376ff0851ac,source_correction,B015-SC003: explicit derivative-scoped source correction,applied_in_terminal_b015_candidate,high,active
+163f61ef-cb8a-51d4-bb8b-9e877da397e0,b3724ef2-bc44-5024-b4b3-ef8b0669972c,percentage_point_language,,,high,active
 181ad8b9-8976-53cd-bc6a-c2f43c538210,e6eef250-171b-5467-b369-df0a8ef36623,component_rights,,,high,active
 184fd896-8723-5ee3-bcfc-24e8a07d25a6,ef7f55d2-6426-5c6b-a525-29e747da8d0b,page_flow,,,high,active
+188d30ae-5452-57f5-bf1c-4adb418fdcc9,8c17e7f7-9433-5397-8c68-2d980f9a0f73,percentage_point_language,,,high,active
 18d42609-52f0-59b3-b460-8e42510c78de,ef7f55d2-6426-5c6b-a525-29e747da8d0b,experimental_design_definition,,,high,active
 19b6190a-3493-57bb-b160-4ea2d511ca71,4c8457ff-0769-59f0-9a0d-040a50fb107c,source_accessibility,B013-SC002: US adults heights,applied_in_terminal_b013_candidate,high,active
+1a1dffc4-24b3-584f-b572-27c1319257a4,499597dd-69ae-5d05-9d8a-7d80e7a8c46a,grammar,,,high,active
 1a54cf38-b99a-5216-a446-5e39f767a87d,4a67928d-9842-5598-8a98-8360b6b3ab69,prose_grammar,,,high,active
 1b3263b5-cea4-5891-a977-834a2aabf240,51f451c9-2225-5065-98f3-cd1cc5d4a119,source_correction,B016-SC005: explicit derivative-scoped source correction,applied_in_terminal_b016_candidate,high,active
 1b85cddf-6811-58e5-b22f-5144559c4286,ef7f55d2-6426-5c6b-a525-29e747da8d0b,study_design_scope,,,high,active
@@ -38,6 +43,7 @@ id,affected_id,category,summary,disposition,confidence,status
 3025c792-7852-5e5c-b512-b58bd32985ed,4ad79ac2-b6ea-5eb3-86f4-298962d0bb50,layout_reflow_answer_break,,,high,active
 3169b13f-e022-524a-924f-85d3b72fb094,5ae02b29-9532-5167-9a0e-abde9ad9048c,formula_symbol_inconsistency,,,high,active
 31b634d4-1109-5e35-8e71-f7d86a4bd55d,f5fb316e-6dd4-51e6-9e06-34ebb0d2fab2,grammatical_typo,,,high,active
+329a8e91-f482-561b-acdc-f40417b5858f,6242cdaa-0f32-5a58-a516-50bb0ef212b1,grammar,,,high,active
 367bddb6-f5af-5643-9675-69824d1503af,06b28e64-c231-50b0-b1f6-648ba4ba5102,localized_layout_adaptation,B014-LA001: \D{\newpage},applied_in_terminal_b014_candidate,high,active
 38ab1e8b-ea0c-5a85-bb6c-e21ff1838adc,9cf167d5-4320-5a32-b56f-605c6e7ff489,prose_and_tex_punctuation,,,high,active
 390b4aff-09c1-56dc-a981-d6eddc63e103,76ecd2e2-efd6-5cd9-b054-41be3101723f,translation_directionality,,,high,active
@@ -68,6 +74,7 @@ id,affected_id,category,summary,disposition,confidence,status
 5c0539c3-f99d-5106-9f7a-01d7a80d17fa,4c8457ff-0769-59f0-9a0d-040a50fb107c,source_accessibility,B013-SC001: The difference in appears will first be discussed,applied_in_terminal_b013_candidate,high,active
 5cfb6ea5-1ac3-5696-8894-33902d3303ef,1c22723c-f2d0-5445-bccd-2c220201d232,producer_text_inconsistency,,,high,active
 5e52953d-5c51-5921-81f8-97cd5ffdda60,d2b0d97b-fb59-5cdf-9170-ae1cdeea3398,missing_identifier,,,high,active
+6559db6a-ab68-5b21-9744-9380fb79e5a8,631bf039-12b7-5f5f-944a-429966c4e45f,independence_condition,,,high,active
 6656c8c6-a66c-50ff-b275-ed018b554ac4,e6ac9457-94fd-5c0e-9e5d-64019cffef9a,layout_reflow_section_break,,,high,active
 71df5bf4-fac9-5cd2-9428-b87b4a33693b,2789ea8d-6fa1-5e81-8dcc-c7d4bff3c42c,publication_state_semantics,,clarified_in_backend_QA_controls_and_checkpoint; published_package_bytes_unchanged,high,active
 73f47817-a29e-5574-9a29-c9371044c61f,4ad79ac2-b6ea-5eb3-86f4-298962d0bb50,public_answer_category_misalignment,,,high,active
@@ -76,6 +83,7 @@ id,affected_id,category,summary,disposition,confidence,status
 81470fb8-b008-5073-9278-35aff1fcb141,aa0c130d-cb84-5a06-b650-6dc25cefd73c,answer_generalization,,,high,active
 81b6a3db-1c00-5ebc-8b44-ef5eccc809f3,38d29400-2764-5109-a7fd-d245c7e52b17,sampling_definition,,,high,active
 845da5b8-c031-5c7f-9314-6c8ba28900a4,ca0df825-ca52-52be-a3e6-0c3090edaa4c,grammar_subject_verb_agreement,B017-C005: high-confidence upstream copyedit candidate,recorded_not_applied_to_authority,high,active
+87636e43-d788-51e2-9aea-8362fa95bfa0,6836cc12-95af-5484-8839-aa1e016867b6,publication_state_semantics,,clarified_in_backend_QA_controls_and_checkpoint; published_package_bytes_unchanged,high,active
 890b1089-827e-517f-952d-002eaa81f1aa,a766f9cd-f941-5953-b2d9-9d5f0b9a8764,localization_accessibility,"The twelve not_picked strings inside the resp macro are reader-visible texttt output, not opaque identifiers.",applied_before_terminal_b011_translation_gate,high,active
 8ac4eb09-f136-550c-a3f5-b6e8385325ab,f03bc0fc-6c96-5db2-8d50-46b2ac141f2b,accessibility_semantics,"The 0.0689 leaf is Midterm=A and Final=Other, but the source alt text describes other-and-other.",applied_in_isolated_b010_candidate,high,active
 8d40d947-eeca-570c-a75c-3a6a3b551ec3,c30ed712-53d9-5d5c-9e77-fc405aee5528,accessibility_marker_accuracy,State the first-year exception and identify crosses for women and points for men.,hold_until_corpus_complete_then_deduplicate,high,active
@@ -111,6 +119,7 @@ b75ead67-152e-5c89-9dbe-5e2aa87c10a0,ca0df825-ca52-52be-a3e6-0c3090edaa4c,gramma
 b8fbb49c-1fa0-52b7-98d8-d084de30600f,8b9932bf-3164-5e36-a64a-304ae1894c90,spatial_reference,,,high,active
 ba91278d-5d5f-5b3a-a8d7-1efb8edc6a0e,b4cd26a2-3443-5b4d-9a38-f2d9766ae10a,accessibility_grammar,,,high,active
 ba9a1557-65a1-5584-83ee-8c2a6f5b7be0,4a0f5bef-95db-5c6c-ae94-097778cff15d,layout_reflow_float_and_exercise_header,,,high,active
+c019502b-15a3-5bf4-bdaf-a684f021a06d,6951ea72-89ba-55eb-8098-ffbcba49cb5f,corrected_public_answer_values,,,high,active
 c0c83b62-d073-5b03-946b-2bdcf349c676,06b28e64-c231-50b0-b1f6-648ba4ba5102,source_correction,B014-SC001: grad lifting,applied_in_terminal_b014_candidate,high,active
 c208b5ac-52d7-538c-8401-7ad6a8a25f41,8b9932bf-3164-5e36-a64a-304ae1894c90,accessibility_mismatch,,,high,active
 c2fd6c01-237b-51ce-9663-3ac44783b2e4,a132efe2-d782-5317-859e-6b0fd4cab424,answer_terminology_mismatch,,,high,active
@@ -119,11 +128,13 @@ c324f35f-682e-5e9a-a48c-dded1a0031cb,ca0df825-ca52-52be-a3e6-0c3090edaa4c,gramma
 c3720413-ab3d-5ecd-9e2f-6b3bfa4dacd1,17acf038-9821-5e3d-9ffa-1526fab12218,variable_mismatch,,,high,active
 c55eef80-c64e-5a6e-aaf7-08a7f0bdfce2,bac586bc-5065-5e98-a3ae-8376ff0851ac,source_correction,B015-SC001: explicit derivative-scoped source correction,applied_in_terminal_b015_candidate,high,active
 c6243fde-2d91-5b85-ac86-874913c8207a,05ed1aa2-8201-50ff-8cb7-893d51314da9,accessibility_grammar,,,high,active
+c857903f-b07f-5baa-b13e-88c049ca8f97,d9efb99c-8c75-58b6-be7f-d14996d9f5b0,target_terminology_wording,,,high,active
 caf11286-f797-5346-8cab-f2330eb9974d,0d9c327c-fe75-55f7-a4e4-35bec165ffe1,source_cross_reference,"Public answer 13(c) says 0.21 was computed under independence in part (a), but it is computed in part (b-i).",applied_in_isolated_b010_candidate,high,active
 cb44d141-4fff-5209-a574-d8d6c8c3b266,472bec5c-8b39-5aaa-846f-e89ddd224353,public_answer_numeric_mismatch,,,high,active
 cb5b76ca-aaed-51c2-8b5d-8ae00746a17d,2fed3de7-006a-524a-980b-14587f36dc58,question_data_direction_conflict,,,high,active
 cbc79aac-b4f8-53a9-9ce9-829e7c47e95e,e6ac9457-94fd-5c0e-9e5d-64019cffef9a,accessibility_category_mapping,,,high,active
 d0131d21-abda-57d9-82c8-a7333ba7171e,ca0df825-ca52-52be-a3e6-0c3090edaa4c,grammar_number_agreement,B017-C003: high-confidence upstream copyedit candidate,recorded_not_applied_to_authority,high,active
+d06c6100-6ff4-54e4-8539-d62579716039,631bf039-12b7-5f5f-944a-429966c4e45f,grammar,,,high,active
 d0b81f87-f267-5553-9031-14db536bc3ae,49928af2-5b48-5390-8a64-218e71c10a1a,answer_scope,,,high,active
 d249bb13-aae8-521c-9b28-e05c291c400b,38d29400-2764-5109-a7fd-d245c7e52b17,caption_punctuation,,,high,active
 d492cfbb-f14f-5877-9081-81ab4e32ccbc,089a1c0f-be6b-55c7-889c-45c6aa156692,accessibility_numeric_accuracy,Describe all 12 bins with counts/224 and the verified two-decimal heights.,hold_until_corpus_complete_then_deduplicate,high,active
@@ -142,12 +153,20 @@ e4a078c9-b583-5429-a1bd-db333a70a187,47a4fe12-f3c0-587a-b879-47adb3ee9dc9,source
 e53d742b-757b-50c3-85be-584d662408fb,a485ca16-e7af-5fc9-a661-2481b3a87b29,source_accessibility,Malformed phrase listed on in the total on the last line.,applied_in_terminal_b012_candidate,high,active
 e5ae681e-52ca-548b-aef2-4023d49c40b1,38d29400-2764-5109-a7fd-d245c7e52b17,figure_description_accuracy,,,high,active
 eb6ea6fa-3280-5b9b-bdbd-3e01489e6488,b9823605-b359-533a-9cb9-84628fa32225,latex_grouping,,,high,active
+eb8e1abd-74f3-56c4-945d-9aef7e62edfa,7f6efe22-ac57-53a1-bb09-e6e9d1e12742,drug_name_spelling_and_grammar,,,high,active
+ec2dcc34-872d-5f6f-90a8-0ed266899557,da257b3a-e08f-562f-9796-9aac8b096719,percentage_point_estimand,,,high,active
+ef505614-5cf8-58d3-9e54-29ed99c6d8a3,8c17e7f7-9433-5397-8c68-2d980f9a0f73,grammar,,,high,active
 ef75233d-3e47-5745-944f-60c17ef23689,f9059826-6e10-5027-acd8-165acd75fa93,terminology_field_usage,,,high,active
 f0464435-1505-54d2-8043-71ea4ab33528,67a193b9-bacc-52c3-ba96-17f706246d41,grammatical_typo,,,high,active
 f2c587b3-7d4a-5ee0-aabe-3920f266c8e7,d82f2f00-344a-5fea-a0f0-fce650e00806,publication_state_semantics,,clarified_in_backend_QA_controls_and_checkpoint; published_package_bytes_unchanged,high,active
 f37d9469-6522-51a4-b13a-aa4a9263617b,be9d7454-a37d-597d-8b35-e25c50236f78,public_answer_omission,,,high,active
+f3af540f-ee51-5b77-98d5-c0ea244236e4,499597dd-69ae-5d05-9d8a-7d80e7a8c46a,grammar,,,high,active
+f5018e71-b22f-53b8-bbb1-5d50949b9db8,a1a0c4d5-bb5f-5f11-8467-b85b96386d98,boundary_value,,,high,active
 f6901230-2c1c-5fcc-9281-75b01448e7fa,38d29400-2764-5109-a7fd-d245c7e52b17,sampling_method_semantics,,,high,active
+f848e477-28c3-5d43-9126-d19a526736b9,631bf039-12b7-5f5f-944a-429966c4e45f,stable_label_alias,,,high,active
 f9383249-1d5d-58f0-9155-86786f242ec3,9cf167d5-4320-5a32-b56f-605c6e7ff489,index_mapping,,,high,active
+f97c2991-2917-5dfb-a6a0-269a0bbf7978,3413dcec-8e83-5165-b99b-ed8b369a5a32,figure_caption,,,high,active
 f9fbf962-893f-5def-8700-f163e949e8aa,06b28e64-c231-50b0-b1f6-648ba4ba5102,localized_layout_adaptation,B014-LA002: default paragraph line count allowed the final word 'sebagai' to cross the page after Figure 4.5 floated,applied_in_terminal_b014_candidate,high,active
+fa2623e6-f6e3-5803-ac3a-4c3611c4d00d,499597dd-69ae-5d05-9d8a-7d80e7a8c46a,percentage_point_language,,,high,active
 fa5afa0b-1850-5954-a0c0-9bdb8cea3457,38d29400-2764-5109-a7fd-d245c7e52b17,internal_hyperlink,,,high,active
 fe707ab5-436e-5366-935b-76b962a1679a,38d29400-2764-5109-a7fd-d245c7e52b17,study_design_scope,,,high,active

@@ -65,6 +65,7 @@ id,concept_id,source_term,target_term,locale,variants,rejected_forms,scope,regis
 3b31a5be-337d-53a7-af05-f8191958625e,90d95d9e-e5e0-566c-8e4b-e7bda9d1ccf4,two-sided hypothesis test,uji hipotesis dua sisi,id-ID,[],[],statistics / Chapter 5 Section 5.3,academic,language_reviewed
 3c73daa6-a706-5da0-92ff-c2a49589ef14,9e9ea1cf-0d5d-5db9-a084-9452e9de2a79,nonresponse bias,bias nonrespons,id-ID,[],[],sampling and study design,academic,draft
 3d981594-e526-55b7-ae84-b9732ce45331,2ba94c3f-c1a6-5a03-b893-c50de2cc16e8,complement,komplemen,id-ID,[],[],probability / Chapter 3,academic,language_reviewed
+3e829490-1d01-5045-ab7f-94339d308bc7,2bd89cf2-51e9-5027-be9b-8c8ec3c7f40b,two-proportion hypothesis test,uji hipotesis dua proporsi,id-ID,"[""uji hipotesis selisih proporsi dua populasi""]",[],statistics / Chapter 6 Section 6.2,academic,language_reviewed
 3eb3556b-14b6-5f91-ac1c-f7aa9097fd10,48c23f67-64c9-5732-9cc1-1e9caae466b8,event,peristiwa,id-ID,"[""kejadian""]",[],statistics / Chapter 4 Section 4.5,academic,language_reviewed
 3efb70b1-68e9-5495-b1b3-7e4695351804,94a6e094-21f4-554c-8620-041fcacbbf33,bias,bias,id-ID,[],[],sampling and study design,academic,draft
 3f42f00d-8d98-51a5-a6c7-a62eedec096f,11a73379-6e22-527e-9bee-2665933bbf0a,failure,gagal,id-ID,"[""kegagalan""]",[],statistics / Chapter 4 Section 4.2,academic,language_reviewed
@@ -145,6 +146,7 @@ id,concept_id,source_term,target_term,locale,variants,rejected_forms,scope,regis
 867307b6-15bf-51b4-bb24-7428d4052873,e5fd01c5-ba33-5c11-8054-6d191fc66639,interquartile range,rentang antarkuartil,id-ID,[],[],descriptive statistics,academic,translated
 86a10416-dd29-5c3e-989a-e5baf5c67c51,1557534c-d0f9-5d9f-b69d-97e1f366d3b3,standardized stacked bar plot,diagram batang bertumpuk terstandarisasi,id-ID,[],[],data visualization,academic,translated
 86b9543a-5e78-5f12-a381-701536d506d8,1cf70d78-b32f-5be5-bc3f-f2792574cab1,mean-to-median ratio,rasio rata-rata terhadap median,id-ID,[],[],chapter review exercises 2.27-2.34,academic,structurally_verified
+877cc1de-80d3-5737-93d7-0555de926826,66912ac9-5b44-54a9-b957-bd6aa24f614d,percentage point,poin persentase,id-ID,[],[],statistics / Chapter 6 Section 6.2,academic,language_reviewed
 8834dac5-97d7-5589-9cfe-13d4e39670a3,c0c417a6-c314-572e-b9d0-2d5c5dcb9dd9,retrospective observational study,studi observasional retrospektif,id-ID,[],[],Avandia exercise,academic,structurally_verified
 89b88e44-05db-5d66-ab33-ba624855eed7,5594ac04-c075-52ae-b2ea-7374ea43221a,sample,sampel,id-ID,[],[],sampling and study design,academic,draft
 8a8cc522-7df7-5514-bceb-e1cf6fd32a0f,ec5b7564-4a11-5f13-a079-e4729447462a,probability distribution,distribusi peluang,id-ID,"[""distribusi probabilitas""]",[],probability / Chapter 3 Section 3.4,academic,language_reviewed
@@ -233,6 +235,7 @@ ce284f5d-9a03-5257-939e-763be9f60742,5ff08d81-3f09-50c2-ab75-7fd9a5d72d46,popula
 ce71dd80-b8dd-589f-9bfd-3e8f7f16972b,af5dd421-170b-510e-bd64-753607e825c7,experimental unit,unit eksperimen,id-ID,[],[],experimental design,academic,draft
 cef643e1-1290-5e76-8fd1-773a54e80464,2ba94c3f-c1a6-5a03-b893-c50de2cc16e8,complement,komplemen,id-ID,[],[],statistics / Chapter 4 Section 4.2,academic,language_reviewed
 cf4ef6c0-92a7-5c0d-9160-0569e0bf025b,03b93084-0bd0-5fab-9e87-fcf05de1aeb8,sample mean,rata-rata sampel,id-ID,[],[],descriptive statistics,academic,translated
+d0001263-1a96-5dc5-a28f-e82d71ff503b,8fb748ce-0896-59e7-8d69-a61b77f888fb,difference of two proportions,selisih dua proporsi,id-ID,"[""selisih proporsi dua populasi""]",[],statistics / Chapter 6 Section 6.2,academic,language_reviewed
 d02e7a43-d27b-5833-ac79-630cba379c94,dd06bd38-e40b-5f06-915c-388e7446908e,logarithm,logaritma,id-ID,[],[],data transformation,academic,translated
 d03ab322-ac1a-51e9-adee-128479814a76,058a866f-4471-51a5-bd70-0a298261e3e8,linear predictor,prediktor linear,id-ID,[],[],confirmed future generalized-linear-model terminology control,academic,language_reviewed
 d063e2d8-2aeb-557b-88f1-7f60aa18134d,6dc1889e-633f-5de2-b357-59e54d74ca28,deductible,risiko sendiri (deductible),id-ID,"[""deduktibel""]",[],statistics / Chapter 4 Section 4.2,academic,language_reviewed
@@ -260,6 +263,8 @@ e43be60f-6d40-505d-917f-039ab80ec2b4,47a4a747-0a61-5419-a398-d3e253d2f117,sampli
 e454d6d1-a895-54a9-b27b-35e7131fb6d9,aede4f25-48ad-5f80-ba97-51740987ba5c,standard deviation,simpangan baku,id-ID,"[""deviasi standar""]",[],statistics / Chapter 4 Section 4.5,academic,language_reviewed
 e5a6a9b4-0c7b-50eb-a244-5b5b7a90dc53,b3091050-234a-5e25-9b35-62e087b0a405,blocking,pemblokan,id-ID,[],[],experimental design,academic,draft
 e6337ba4-0c66-5333-a648-006841f7d638,3e0ca2a1-19a6-57b9-bfbf-1b8048536dbe,paired data,data berpasangan,id-ID,[],[],data structure,academic,translated
+e6411dc4-2bb9-56ca-b119-ec7da2a76c81,62090286-4f58-5712-ade6-a3c4e91669e4,standard error for a difference of two proportions,galat baku untuk selisih dua proporsi,id-ID,[],[],statistics / Chapter 6 Section 6.2,academic,language_reviewed
+e83e45bc-a104-5edd-b152-e9875d4c3e36,75a0b596-313a-5d61-b12f-e787d1020984,pooled proportion,proporsi gabungan,id-ID,[],[],statistics / Chapter 6 Section 6.2,academic,language_reviewed
 e8b1ab00-49c4-58e4-b5f3-5e9ab45da64e,d42ddb11-e234-529d-9237-b2891c350f7a,fixed number of trials,jumlah percobaan yang tetap,id-ID,"[""banyak percobaan tetap""]",[],statistics / Chapter 4 Section 4.4,academic,language_reviewed
 e8c1c051-ad79-5bf9-ad61-97531dff8d38,30e68b8c-80dc-5c99-8703-0be295ed5dba,binomial experiment,eksperimen binomial,id-ID,"[""percobaan binomial""]",[],statistics / Chapter 4 Section 4.3,academic,language_reviewed
 ea015f21-f82b-5f60-a0cc-6326474df17c,2a2b4279-7bf2-58c0-a732-08d762a4298d,first quartile,kuartil pertama,id-ID,[],[],descriptive statistics,academic,translated

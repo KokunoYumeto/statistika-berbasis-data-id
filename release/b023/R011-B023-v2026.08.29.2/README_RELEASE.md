@@ -7,7 +7,3 @@ Cakupan latihan Bagian 6.1-6.2 adalah nomor 1-30. Jawaban publik hulu tersedia u
 Urutan file dimulai dengan PDF pembaca, kemudian sumber yang dapat disunting dan backend modular. Arsip sumber lengkap mempertahankan ekor sumber hulu yang belum diterjemahkan demi reproduksibilitas; ekor itu bukan keluaran pembelajar Bahasa Indonesia dan tidak dihitung sebagai kemajuan terjemahan. Jumlah halaman adalah luas artefak saat ini, bukan klaim bahwa korpus lengkap telah selesai.
 
 Sumber dibekukan pada `fee25091fb24e89c36296fd67c48c1fcf7a93b6e`. Model produksi: OpenAI Codex gpt-5.6-sol, Ultra. Tidak ada kontak hulu yang dilakukan.
-
-## Repositori publik
-
-- Zenodo: <https://zenodo.org/records/22164353>

@@ -672,6 +672,69 @@ Jelaskan alasan Anda.
 \end{parts} 
 }{}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+0d0b12a0-0dd3-5c17-ae07-aae819131ad7,0d957054-0554-577a-92d1-377a4b85a764,128,exercise,en,ch_inference_for_props/TeX/difference_of_two_proportions.tex,325,357,107f184179fdb45578d96eb25f683adcd5f7642427fc3f21d47368438269d296,id-ID,qa/b023-translation/staging/exercises-lines-213-406.id.tex,113,145,b252ab9ddf2c819b4e66d7547791d297cfaee583d4d9e74bcab163bd3f803e83,visually_checked,"% 28
+
+\eoce{\qt{Vitamin prenatal dan autisme\label{prenatal_vitamin_autism_HT}} 
+Peneliti yang mempelajari kaitan antara penggunaan vitamin prenatal dan autisme 
+menyurvei para ibu dari suatu sampel acak anak berusia 24--60 bulan dengan 
+autisme dan mengambil sampel acak terpisah dari anak dengan perkembangan 
+tipikal. Tabel di bawah menunjukkan jumlah ibu pada setiap kelompok yang 
+menggunakan dan tidak menggunakan vitamin prenatal selama tiga bulan sebelum 
+kehamilan (periode perikonsepsi).\footfullcite{Schmidt:2011}\vspace{-1.8mm}
+\begin{center}
+\begin{tabular}{l l c c c}
+		&			& \multicolumn{2}{c}{\textit{Autisme}}	&		\\
+\cline{3-4}
+		&			& Autisme		& Perkembangan tipikal		& Total	\\
+\cline{2-5}
+\textit{Vitamin prenatal}	& Tanpa vitamin	& 111	& 70		& 181	\\
+\textit{perikonsepsi}	& Dengan vitamin	& 143		& 159		& 302	\\
+\cline{2-5}
+							& Total		& 254		& 229		& 483
+\end{tabular}
+\end{center}\vspace{-4.2mm}
+\begin{parts}
+\item Nyatakan hipotesis yang sesuai untuk menguji independensi antara penggunaan 
+vitamin prenatal selama tiga bulan sebelum kehamilan dan autisme.
+\item Selesaikan uji hipotesis dan nyatakan kesimpulan yang sesuai. 
+(Pengingat: Verifikasi semua syarat yang diperlukan untuk uji tersebut.)
+\item Sebuah artikel New York Times yang melaporkan penelitian ini berjudul ``Vitamin 
+Prenatal Mungkin Mencegah Autisme''. Menurut Anda, apakah judul artikel tersebut 
+tepat? Jelaskan jawaban Anda. Selain itu, usulkan judul alternatif.
+\footfullcite{news:prenatalVitAutism}
+\end{parts}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""a6e32195-1507-50f4-a3a0-88884cb47648""]"
+0d0c6c6c-0cb5-5ac0-a5cb-4e46e822db15,24f448fa-190f-51eb-85c8-5be54f6360d7,118,exercise,en,ch_inference_for_props/TeX/difference_of_two_proportions.tex,30,57,86d2e059465f9f5942a32894a6fc04a1b760264caa376449929126099762f18b,id-ID,qa/b023-translation/staging/exercises-lines-1-212.id.tex,30,57,8903958ae378ec4a42f8bdc411c21d19eaf8f35c7cff500a64d7aa0c56aafd37,visually_checked,"% 18
+
+\eoce{\qt{Keberhasilan transplantasi jantung\label{heart_transplant_conditions}} Studi 
+Transplantasi Jantung Universitas Stanford dilakukan untuk menentukan apakah suatu 
+program transplantasi jantung eksperimental memperpanjang masa hidup. Setiap pasien 
+yang memasuki program tersebut secara resmi ditetapkan sebagai calon transplantasi jantung, 
+yang berarti pasien itu sakit parah dan mungkin memperoleh manfaat dari jantung baru. Pasien 
+ditempatkan secara acak ke dalam kelompok perlakuan dan kelompok kontrol. Pasien dalam 
+kelompok perlakuan menerima transplantasi, sedangkan pasien dalam kelompok kontrol 
+tidak menerimanya. Tabel di bawah menunjukkan jumlah pasien yang bertahan hidup dan meninggal dalam setiap 
+kelompok. \footfullcite{Turnbull+Brown+Hu:1974}\vspace{-2mm}
+\begin{center}
+\begin{tabular}{rcc}
+\hline
+            & kontrol   & perlakuan \\ 
+\hline
+hidup       & 4         & 24 \\ 
+meninggal   & 30        & 45 \\ 
+\hline
+\end{tabular}
+\end{center}
+Misalkan kita ingin mengestimasi selisih tingkat kelangsungan hidup antara 
+kelompok kontrol dan kelompok perlakuan dengan menggunakan interval kepercayaan.
+Jelaskan mengapa kita tidak dapat menyusun interval semacam itu dengan menggunakan 
+aproksimasi normal. Apa yang mungkin keliru jika kita tetap menyusun interval kepercayaan 
+meskipun terdapat masalah ini?
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""a6e32195-1507-50f4-a3a0-88884cb47648""]"
 0e0e365f-2315-566e-83d2-83464f8af3c4,d573685a-3c6f-54e0-bba9-f79f93fabd80,113,exercise,en,ch_foundations_for_inf/TeX/confidence_intervals.tex,127,147,9e5570cfa5e23e2a1cdaf6d26e9eb4325b22740f550b4015413c450e1ddc4541,id-ID,scratch/b020-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/confidence_intervals.tex,130,150,07910d40f7fa1fe9b5c2e576816dde5098007f1e30fb5c584443d8c3d369d3bb,visually_checked,"% 13
 
 \eoce{\qt{Pendaftaran situs web\label{website_registration_design_prop}}
@@ -810,6 +873,41 @@ merupakan peristiwa yang saling eksklusif.
   kita berfokus pada sifat-sifat data
   serta cara pengumpulannya.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+112165eb-ad92-5646-8bf7-61be0a90b67b,34059412-cf3b-5a79-953e-78941ed43cff,119,exercise,en,ch_inference_for_props/TeX/difference_of_two_proportions.tex,58,91,2a081b7c8cdf32cfadd8397fd1fc38b6b3ea375d5edbebe27286e67baf23ea4c,id-ID,qa/b023-translation/staging/exercises-lines-1-212.id.tex,58,91,552621d20879a43fe450db6b7318dce5cbd9bd4fb52839ee064fe8a4dfc46d6d,visually_checked,"% 19
+
+\eoce{\qt{Jenis kelamin dan preferensi warna\label{gender_color_preference_CI_concept}} 
+Sebuah studi menanyakan kepada 1,924 mahasiswa sarjana laki-laki dan 3,666 mahasiswa sarjana perempuan
+warna kesukaan mereka.
+Interval kepercayaan 95\% untuk selisih antara 
+proporsi laki-laki dan perempuan yang warna kesukaannya hitam 
+$(p_{male} - p_{female})$ dihitung sebesar (0.02, 0.06).
+Berdasarkan 
+informasi ini, tentukan apakah pernyataan-pernyataan berikut tentang
+mahasiswa sarjana benar atau salah, dan 
+jelaskan alasan Anda untuk setiap pernyataan yang Anda nyatakan salah.
+\footfullcite{Ellis:2001}
+\begin{parts}
+\item Kita yakin 95\% bahwa proporsi sebenarnya laki-laki yang warna 
+kesukaannya hitam berada antara 2\% lebih rendah dan 6\% lebih tinggi daripada proporsi sebenarnya perempuan 
+yang warna kesukaannya hitam.
+\item Kita yakin 95\% bahwa proporsi sebenarnya laki-laki yang warna 
+kesukaannya hitam 2\% hingga 6\% lebih tinggi daripada proporsi sebenarnya perempuan yang 
+warna kesukaannya hitam.
+\item Sebanyak 95\% sampel acak akan menghasilkan interval kepercayaan 95\% yang 
+memuat selisih sebenarnya antara proporsi populasi laki-laki dan 
+perempuan yang warna kesukaannya hitam.
+\item Kita dapat menyimpulkan bahwa terdapat selisih yang signifikan antara 
+proporsi laki-laki dan perempuan yang warna kesukaannya hitam, serta bahwa 
+selisih antara kedua proporsi sampel terlalu besar untuk secara masuk akal 
+disebabkan oleh kebetulan.
+\item Interval kepercayaan 95\% untuk $(p_{female} - p_{male})$ tidak dapat 
+dihitung hanya dengan informasi yang diberikan dalam latihan ini.
+\end{parts}
+}{}
+
+\D{\newpage}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""a6e32195-1507-50f4-a3a0-88884cb47648""]"
 116e69d6-fac6-5803-bb28-24e867ff424d,dbda91d1-7c2a-59ea-8049-c1847a4c4218,2,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,246,255,0c537932c09c330da7ccc3f60d9e560f8f9d2b45027a016252f1388f130920b3,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,244,252,fb53d016642c438edce5891aa831ba8fff69fe2105e5e8fe31433efaf999e61f,translated,"\end{exercisewrap}
 \footnotetext{$x_1$ menyatakan suku bunga pinjaman pertama
   dalam sampel (\loanA\%), $x_2$ menyatakan suku bunga pinjaman
@@ -2442,6 +2540,17 @@ hidup terhadap masa kehamilan ditampilkan di bawah ini. \footfullcite{Allison+Ci
 
 % 2
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+28f6a082-3d99-5816-a632-da1051b81ea0,d9efb99c-8c75-58b6-be7f-d14996d9f5b0,227,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,1433,1442,f86b466cd2347b00e3a7133a2c9907c9c231082320f649bd40eb2f85febfe658,id-ID,qa/b023-translation/staging/public-answers-lines-1363-1472.id.tex,71,80,1ec88c14c2f1b4b1e704ff7a3fcee33d60081da94a4fe174c6e7b3ba667caac2,visually_checked,"% 27
+
+\eocesol{Subskrip $_C$ menyatakan kelompok kontrol. Subskrip $_T$ menyatakan pengemudi truk. 
+$H_0: p_C = p_T$. $H_A: p _C \ne p_T$. Syarat independensi terpenuhi (sampel 
+acak), demikian pula syarat sukses--gagal, yang 
+diperiksa dengan menggunakan proporsi gabungan ($\hat{p}_{\textit{pool}} = 70/495 = 0.141$). 
+$Z = -1.65$ $\to$ nilai-p $ = 0.0989$. Karena nilai-p lebih besar daripada $\alpha = 0.05$, kita gagal 
+menolak $H_0$. Data tidak memberikan bukti kuat bahwa tingkat kurang 
+tidur berbeda antara pekerja di luar sektor transportasi dan pengemudi truk.}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""a6e32195-1507-50f4-a3a0-88884cb47648""]"
 29dacc45-dcb6-56cb-b119-08a62bfae94c,0c7e3eec-a33d-5c64-a81a-cb6ba33b7b1c,0,instructional_prose,en,ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,36,101,b06ae4fa86a64b57aadd1d5704b06c35500db414c45afb10867a4c4fa917bf4c,id-ID,scratch/b019-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,36,101,c804e944d005bca9ef78a36bc4b37081cb697e3642282891c0eb3b876a326647,visually_checked,"\section{Estimasi titik dan variabilitas sampling}
 \label{pointEstimates}
 
@@ -2575,6 +2684,34 @@ Berdasarkan lelang sebelumnya, Elena memperkirakan akan memperoleh sekitar \$175
   Ada berapa cara berbeda untuk menempatkan $n$ sukses dan 0 kegagalan
   dalam $n$ percobaan? (1 cara.)}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""d79c0e4f-9e37-5e77-9080-34fed0852af2""]"
+2c23eb63-ce15-5b32-91dd-7849ec262deb,a4fad9ef-faed-5351-abaa-1be94f22a3b9,121,exercise,en,ch_inference_for_props/TeX/difference_of_two_proportions.tex,135,161,239ed1f1128090767f9a58f451f2e1a17995a859b9cf9240cebf0fdad0eb1e6f,id-ID,qa/b023-translation/staging/exercises-lines-1-212.id.tex,135,161,07afaffdc55fa161382de60fd7d4beaea7fe6c521db87eb1f31cf82a5e1888ac,visually_checked,"% 21
+
+\eoce{\qt{Rencana Kesehatan Nasional,
+    Bagian III\label{national_health_plan_CI_replaced}}
+Latihan~\ref{national_health_plan_HT}
+menyajikan hasil jajak pendapat yang mengevaluasi dukungan terhadap
+``Rencana Kesehatan Nasional'' berlabel umum
+di Amerika Serikat.
+Sebanyak 79\% dari 347 Demokrat dan 55\% dari 617 Independen
+mendukung Rencana Kesehatan Nasional.
+\begin{parts}
+\item
+    Hitung interval kepercayaan 95\% untuk
+    selisih antara proporsi Demokrat
+    dan Independen yang mendukung Rencana
+    Kesehatan Nasional $(p_{D} - p_{I})$, lalu interpretasikan
+    interval tersebut dalam konteks ini.
+    Kami telah memeriksa syarat-syaratnya untuk Anda.
+\item
+    Benar atau salah:
+    Jika pada saat jajak pendapat ini kita memilih seorang Demokrat acak dan seorang
+    Independen acak, Demokrat tersebut lebih
+    mungkin mendukung Rencana Kesehatan
+    Nasional daripada Independen tersebut.
+\end{parts}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""a6e32195-1507-50f4-a3a0-88884cb47648""]"
 2c246af4-fd01-55a7-8d00-04a7d0b906fc,57d11337-8399-5156-84a2-79beb091af68,33,public-appendix-answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,400,402,23d364a7d3ba28561cc70ec1aedf80bfe1e2bf66af9bca4379226979e63808b1,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,426,431,a4b72360b2dc9b1eaeba7e102c2178d0a754fde2bd51193bf33b9f7db248505d,language_reviewed,"% 33
 
 \eocesol{\FigureFullPath[Ditampilkan diagram kotak untuk ""Nilai"" dengan kotak
@@ -2851,6 +2988,23 @@ Sebanyak 53 peserta mengidentifikasi soda dengan benar.
 }{}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
+303c77e7-88f9-5672-b790-fcae3d624dca,e0a39794-bf97-5b87-871a-1ef69e6dbaf0,223,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,1402,1417,c7dcc02e4dec22c12521014ccad0e8e4a521c626058d90574ecb1fee3975b6a6,id-ID,qa/b023-translation/staging/public-answers-lines-1363-1472.id.tex,40,55,0e76fa867a5671f6bdcd00928d7558423f3dbbeff31169096866cfe635e70cd6,visually_checked,"% 23
+
+\eocesol{(a)~Lulusan perguruan tinggi: 23.7\%. Bukan lulusan perguruan tinggi: 33.7\%.
+(b)~Misalkan $p_{CG}$ dan $p_{NCG}$ menyatakan proporsi lulusan perguruan tinggi 
+dan bukan lulusan perguruan tinggi yang menjawab ``tidak tahu''. 
+$H_0: p_{CG} = p_{NCG}$. $H_A: p_{CG} \ne p_{NCG}$. Syarat independensi terpenuhi 
+(sampel acak), dan syarat sukses--gagal, 
+yang diperiksa dengan menggunakan proporsi gabungan 
+($\hat{p}_{\textit{pool}} = 235/827 = 0.284$), juga terpenuhi. $Z = -3.16$ $\to$ 
+nilai-p $= 0.0016$. Karena nilai-p sangat kecil, kita menolak $H_0$. Data 
+memberikan bukti kuat bahwa proporsi lulusan perguruan tinggi yang tidak 
+memiliki pendapat tentang isu ini berbeda dari proporsi responden yang bukan lulusan perguruan 
+tinggi. Data juga menunjukkan bahwa lebih sedikit lulusan perguruan tinggi yang mengatakan ``tidak 
+tahu'' dibandingkan responden yang bukan lulusan perguruan tinggi (yakni, data menunjukkan arahnya setelah kita 
+menolak $H_0$).}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""a6e32195-1507-50f4-a3a0-88884cb47648""]"
 30469567-930b-544d-bfbc-2159bc0f837b,aa5cb6c8-d476-55b8-9f52-8356e0a9e26b,134,exercise,en,ch_distributions/TeX/poisson_distribution.tex,63,86,c574ade63499923b9d112e9930629107b027f94caaaa5e64b8fd9072a5eec210,id-ID,scratch/b018-build-candidate/source-snapshot-b018/ch_distributions/TeX/poisson_distribution.tex,63,86,9f1b3ccd4ea8d3e49c4390e40e3319e5dcf5cda1c4e0341106c67edf24694938,visually_checked,"% 34
 
 \eoce{\qt{Bagasi hilang\label{lost_baggage}}
@@ -2876,6 +3030,56 @@ model Poisson dengan rata-rata 2.2 bagasi.
 \end{parts}
 }{}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""5c6f7ab4-aec9-55ec-9259-e81faf2ff939""]"
+313f4cd9-e457-5836-8a51-83a1ad47c398,b3724ef2-bc44-5024-b4b3-ef8b0669972c,221,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,1382,1401,a9e424bc99c0f9cfe8db05ea85d114d160fcf2d3cb25b52c507db17d45d9ecf5,id-ID,qa/b023-translation/staging/public-answers-lines-1363-1472.id.tex,20,39,f795f67befc7b24479959e67273da74dcf11ea83288f9483584bcbd6a1fc3aae,visually_checked,"% 21
+
+\eocesol{(a)~Galat baku:
+    \begin{align*}
+    SE
+      = \sqrt{\frac{0.79(1 - 0.79)}{347} +
+          \frac{0.55(1 - 0.55)}{617}}
+      = 0.03
+    \end{align*}
+    Dengan menggunakan $z^{\star} = 1.96$, kita memperoleh:
+    \begin{align*}
+    0.79 - 0.55 \pm 1.96 \times 0.03
+      \to (0.181, 0.299)
+    \end{align*}
+    Kita yakin pada tingkat 95\% bahwa proporsi
+    anggota Partai Demokrat yang mendukung rencana tersebut lebih tinggi 18.1 hingga
+    29.9 poin persentase daripada proporsi
+    pemilih independen yang mendukung rencana tersebut.
+(b)~Benar.}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""a6e32195-1507-50f4-a3a0-88884cb47648""]"
+324c9cce-b29e-58c2-8300-63f5366441a2,1f7a138d-68a2-573d-9300-54b6bde88961,0,section_intro,en,ch_inference_for_props/TeX/ch_inference_for_props.tex,555,582,655b9a606778d7030adff852adeb01b6016629b434a7b5ae9701cefa9d15c8eb,id-ID,qa/b023-translation/staging/section-lines-555-866.id.tex,1,28,ab3bcf598acc45c56cde8ebd833c767f88b2f477cd8150c207711d94d625ea57,visually_checked,"\section{Selisih dua proporsi}
+\label{differenceOfTwoProportions}
+
+Kita ingin memperluas metode dari
+Bagian~\ref{singleProportion}
+untuk menerapkan interval kepercayaan dan uji hipotesis
+pada selisih proporsi populasi:
+\mbox{$p_1 - p_2$}.
+%We~consider three examples.
+%In the first, we compare the utility of a blood thinner
+%for heart attack patients.
+%In the second application, we examine the efficacy of
+%mammograms in reducing deaths from breast cancer.
+%In the last example, a quadcopter company weighs whether
+%to switch to a higher quality manufacturer of rotor blades.
+Dalam pembahasan ini, kita akan mengidentifikasi
+estimasi titik yang masuk akal untuk $p_1 - p_2$ berdasarkan sampel,
+dan Anda mungkin sudah dapat menebak bentuknya:
+$\hat{p}_1 - \hat{p}_2$.
+\index{estimasi titik!selisih proporsi}%
+Selanjutnya, kita akan menerapkan proses yang sama seperti dalam
+konteks satu proporsi:
+kita memverifikasi bahwa estimasi titik
+dapat dimodelkan menggunakan distribusi normal,
+kita menghitung galat baku estimasi tersebut, dan
+menerapkan kerangka inferensi kita.
+
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""a6e32195-1507-50f4-a3a0-88884cb47648""]"
 329fa693-385a-509f-b5fa-db340f86818e,9cdd5f10-ce1d-5869-965a-71b7aee9c5de,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,425,434,3a3d724b376ec9f522a7262672b1391cb571670b6c99c9756671a558f2634b46,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,12,19,6c2c938547ebd39759d6bdab7a4850d4ddea57408fe0d337dab05f03b60c0fd1,language_reviewed,"% 3
 \eocesol{(a)~10 lemparan. Lebih sedikit lemparan berarti proporsi kepala dalam sampel lebih bervariasi,
 sehingga peluang memperoleh setidaknya 60\% kepala lebih besar.
@@ -3525,6 +3729,85 @@ yang tidak biasa, jika ada.
 (e)~Distribusi cenderung lebih bervariasi
     ketika jumlah pengamatan per sampel lebih sedikit.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""2339d6ba-af30-5b38-86fe-8300dda0b66b""]"
+34b464a1-76fa-5610-85dd-4d14a22c5232,631bf039-12b7-5f5f-944a-429966c4e45f,5,subsection,en,ch_inference_for_props/TeX/ch_inference_for_props.tex,1259,1336,a109386cfa2783bb17d09712dcda6d2f0f2fbbcbc0b0991755f8c3003812a154,id-ID,qa/b023-translation/staging/section-lines-1131-1336.id.tex,129,206,765e6c4beaf0b4be6c94ecdb6748f33e7aabc2eee66be251fe54329480e871ae,visually_checked,"\subsection{Menelaah rumus galat baku
+    (topik khusus)}
+
+Subbagian ini membahas topik yang lebih teoretis
+dan memberikan wawasan lebih mendalam mengenai asal-usul
+rumus galat baku untuk selisih dua
+proporsi.
+Pada akhirnya, semua rumus galat baku
+yang kita jumpai dalam bab ini dan dalam
+Bab~\ref{ch_inference_for_means}
+dapat diturunkan dari prinsip-prinsip peluang pada
+Bagian~\ref{randomVariablesSection}.
+
+Rumus galat baku untuk selisih
+dua proporsi dapat diuraikan menjadi rumus
+galat baku masing-masing proporsi sampel.
+Ingat bahwa kedua galat baku untuk masing-masing
+proporsi sampel $\hat{p}_1$ dan $\hat{p}_2$ adalah
+\begin{align*}
+&SE_{\hat{p}_1} = \sqrt{\frac{{p}_1 (1 - {p}_1)}{n_1}}
+&&SE_{\hat{p}_2} = \sqrt{\frac{{p}_2 (1 - {p}_2)}{n_2}}
+\end{align*}
+Galat baku selisih dua proporsi sampel
+dapat diuraikan dari galat baku masing-masing
+proporsi sampel:
+\begin{align*}
+SE_{\hat{p}_{1} - \hat{p}_{2}}
+	= \sqrt{SE_{\hat{p}_1}^2 + SE_{\hat{p}_2}^2}
+	= \sqrt{\frac{{p}_1 (1 - {p}_1)}{n_1}
+	    + \frac{{p}_2 (1 - {p}_2)}{n_2}}
+\end{align*}
+Hubungan khusus ini berasal dari teori peluang.
+
+\begin{exercisewrap}
+\begin{nexercise}
+\label{derivingSEForDiffOfTwoMeansExercise}%
+Prasyarat: Bagian~\ref{randomVariablesSection}.
+Kita dapat menuliskan kembali persamaan di atas dalam bentuk lain:
+\begin{align*}
+SE_{\hat{p}_{1} - \hat{p}_{2}}^2
+  = SE_{\hat{p}_1}^2 + SE_{\hat{p}_2}^2
+\end{align*}
+Jelaskan asal rumus ini dengan menggunakan
+rumus variabilitas jumlah dua
+variabel acak.\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Kuadrat galat baku menyatakan
+  varians estimasi.
+  Jika $X$ dan $Y$ adalah dua variabel acak yang saling independen dengan varians
+  $\sigma_x^2$ dan $\sigma_y^2$,
+  maka varians $X - Y$ adalah $\sigma_x^2 + \sigma_y^2$.
+  Demikian pula, varians yang bersesuaian dengan $\hat{p}_1 - \hat{p}_2$ adalah $\sigma_{\hat{p}_1}^2 + \sigma_{\hat{p}_2}^2$. Karena $\sigma_{\hat{p}_1}^2$ dan $\sigma_{\hat{p}_2}^2$ hanyalah cara lain untuk menuliskan $SE_{\hat{p}_1}^2$ dan  $SE_{\hat{p}_2}^2$, varians yang berkaitan dengan $\hat{p}_1 - \hat{p}_2$ dapat dituliskan sebagai $SE_{\hat{p}_1}^2 + SE_{\hat{p}_2}^2$.}
+
+
+
+%%__________________
+%\section{Menentukan ukuran sampel untuk suatu eksperimen}
+%\label{SampleSizeFor2Proportions}
+%
+%Sejauh ini kita berfokus pada pengendalian tingkat Galat Tipe~1 untuk uji hipotesis. Namun, ketika merencanakan eksperimen, kita sering ingin menentukan apakah terdapat suatu efek.\footnote{Perencanaan serupa juga sesuai untuk suatu} Sering kali terdapat dua pertimbangan yang bersaing:
+%\begin{itemize}
+%\setlength{\itemsep}{0mm}
+%\item Kita ingin mengumpulkan cukup data agar dapat mendeteksi efek yang penting.
+%\item Dalam banyak konteks, pengumpulan data mahal, sehingga kita tidak ingin mengumpulkan lebih banyak data daripada yang diperlukan untuk mendeteksi efek yang menjadi perhatian kita.
+%\end{itemize}
+%Poin pertama relatif sederhana: semakin banyak data yang kita kumpulkan, semakin presisi estimasi kita, sehingga kita dapat mendeteksi efek yang lebih kecil. Poin kedua lebih halus karena kita perlu menentukan besar efek yang menjadi perhatian kita.
+%
+%\begin{examplewrap}
+%\begin{nexample}{Penyakit Alzheimer adalah penyakit neurologis. Pada awalnya penyakit ini memengaruhi pasien secara ringan dan akhirnya menyebabkan demensia. Jika pasien Alzheimer hidup cukup lama, penyakit tersebut akan mulai memengaruhi fungsi tubuh dan pada akhirnya menyebabkan kematian. Ini adalah kondisi yang sangat serius yang dialami jutaan orang, belum memiliki obat, dan sangat mahal untuk diteliti, sebagian karena perkembangannya yang lambat. Sekelompok peneliti adalah }
+%\end{nexample}
+%\end{examplewrap}
+%
+%
+%, bahkan efek besar, sulit dideteksi dengan sampel kecil, sehingga kita semestinya mengumpulkan sampel lebih besar untuk mendeteksi efek tersebut. Jika kita mengambil sampel yang sangat besar, kita mungkin menemukan selisih yang signifikan secara statistik, tetapi besarnya mungkin sedemikian kecil sehingga tidak memiliki nilai praktis. Dalam bagian ini, kita menjelaskan teknik untuk memilih ukuran sampel yang sesuai berdasarkan pertimbangan tersebut.
+
+
+{\input{ch_inference_for_props/TeX/difference_of_two_proportions.tex}}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""a6e32195-1507-50f4-a3a0-88884cb47648""]"
 356f74e8-e22a-5b18-bb75-a61b82e1795c,0695707a-cdef-560a-8fdf-4fd21111e7a6,102,exercise,en,ch_foundations_for_inf/TeX/variability_in_estimates.tex,22,39,0fdeed95e8389ea53e825a3190d801d6c11b4fc99e88519240e2bf0671438012,id-ID,scratch/b019-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/variability_in_estimates.tex,15,26,e8865279c516f473b06b207c7065f5d9d4e9e42dd8d067a37923ccf867ab017c,visually_checked,"% 2
 
 \eoce{\qt{Identifikasi parameter, Bagian II\label{identify_parameter_2}} Untuk setiap situasi berikut, tentukan apakah parameter yang menjadi perhatian berupa rata-rata atau proporsi.
@@ -5970,6 +6253,35 @@ perbandingan menjadi lebih masuk akal.
 \newcommand{\tomsatzscore}{0.5}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""5013dc5b-3a29-5516-9948-98c064aa43e8""]"
+517cf76d-c8ce-50c0-bfc2-52faddcad995,7f6efe22-ac57-53a1-bb09-e6e9d1e12742,129,exercise,en,ch_inference_for_props/TeX/difference_of_two_proportions.tex,358,386,cdf31eea499158b9f217c69fd47a74a38767363fc30fb0dd0b7fcc1fb21a3c0f,id-ID,qa/b023-translation/staging/exercises-lines-213-406.id.tex,146,173,4af2d636cb67e2d7366a5b1d384906d65d79b7e3e4223cc53c709bb2b79b1ad7,visually_checked,"% 29
+
+\eoce{\qt{HIV di Afrika sub-Sahara\label{hiv_africa_HT}}
+Pada Juli 2008, US National Institutes of Health mengumumkan
+bahwa sebuah studi klinis dihentikan lebih awal karena hasil yang tidak terduga.
+Populasi studi terdiri atas perempuan terinfeksi HIV di Afrika
+sub-Sahara yang telah diberi satu dosis nevirapine (obat untuk HIV)
+saat melahirkan, untuk mencegah penularan HIV kepada bayi.
+Studi tersebut merupakan perbandingan acak atas kelanjutan
+pengobatan perempuan (setelah persalinan berhasil)
+dengan nevirapine versus lopinavir, obat kedua yang digunakan untuk mengobati HIV.
+Sebanyak 240 perempuan berpartisipasi dalam studi;
+120 ditempatkan secara acak ke masing-masing dari kedua pengobatan.
+Dua puluh empat minggu setelah memulai pengobatan studi,
+setiap perempuan diperiksa untuk menentukan apakah infeksi HIV
+semakin memburuk (hasil yang disebut \textit{kegagalan virologis}).
+Dua puluh enam dari 120 perempuan yang diobati dengan nevirapine mengalami
+kegagalan virologis, sedangkan 10 dari 120 perempuan yang diobati dengan
+obat lainnya mengalami kegagalan virologis.\footfullcite{Lockman:2007}
+\begin{parts}
+\item Buat tabel dua arah yang menyajikan hasil studi ini.
+\item Nyatakan hipotesis yang sesuai untuk menguji perbedaan tingkat kegagalan virologis
+antara kedua kelompok pengobatan.
+\item Selesaikan uji hipotesis dan nyatakan kesimpulan yang sesuai. 
+(Pengingat: Verifikasi semua syarat yang diperlukan untuk uji tersebut.)
+\end{parts}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""a6e32195-1507-50f4-a3a0-88884cb47648""]"
 52382686-5e03-53e5-b5aa-802fc32c2bac,9c909fc2-49b5-5c03-a79f-ac7984a56db5,1,end-of-section-exercise,en,ch_probability/TeX/conditional_probability.tex,204,215,67fffd26b80df7ce6a210400efb6db2b78fa5134cbed54bfdc5a09714476bd0e,id-ID,repo/ch_probability/TeX/conditional_probability.tex,203,214,ce4a45377991d0c1d5caf0138d7ac4dfd8f754257bf9b14eeae8c61f8c97c6ad,language_reviewed,"% 21
 
 \eoce{\qt{Penyebabnya tak pernah lupus\label{tree_lupus}} Lupus adalah fenomena medis ketika antibodi
@@ -7414,6 +7726,15 @@ Untuk contoh tambahan interval kepercayaan satu proporsi,
 lihat Bagian~\ref{confidenceIntervals}.
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
+5b386d7f-b136-5912-b819-3856e26065c3,0dd2050f-08d2-5b50-ad56-3cbe099b138e,219,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,1374,1381,e5f66a7e4bcdb31a26502482c8ef02ba48e5ebbdca2b84f0aad71b75e637f21f,id-ID,qa/b023-translation/staging/public-answers-lines-1363-1472.id.tex,12,19,b74422691e412814ed5360604b9c393726a711a693816ce60ccec9e08c59fbff,visually_checked,"% 19
+
+\eocesol{(a)~Salah. Seluruh interval kepercayaan berada di atas 0.
+(b)~Benar.
+(c)~Benar.
+(d)~Benar.
+(e)~Salah. Nilai-nilainya hanya dinegasikan dan diurutkan ulang: (-0.06,-0.02).}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""a6e32195-1507-50f4-a3a0-88884cb47648""]"
 5bb45cef-c069-554c-8ee2-e944e0162b29,ef25e2c4-b83a-58be-bfaa-8fe6b5fa5d63,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,501,509,b8fdeb285e3c743472b87a4659c73c01cdce086ac9236f18b7dc449e6b0e8ec4,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,526,534,96082d9fc103425223c1a5fe018232cdc48757eee8ce128ff6dc22d447d5f2c0,language_reviewed,"% 17
 
 \eocesol{(a)~Tidak. Ada 6~perempuan yang paling menyukai Five Guys Burgers.
@@ -8375,6 +8696,27 @@ pindahkan 26.3\% $\to$ 35\%
 
 \begin{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+69387bcd-9ad8-5b25-9525-2b1f42c12736,8c0909cc-fb44-5dd7-bdee-c67de8dd6300,124,exercise,en,ch_inference_for_props/TeX/difference_of_two_proportions.tex,211,230,e20ad925c87c019674af682339e70933a4cc5e4cdcb5403cda7f0d0134d5f945,id-ID,multi-part:R011-B023/exercise-6-24,,,e7778af92584e3beeccba0250b60932a8f9510bb9c268147e736644bac8ab8e4,visually_checked,"% 24
+ 
+\eoce{\qt{Kurang tidur, CA vs. OR, Bagian II\label{sleep_OR_CA_HT}} 
+Latihan~\ref{sleep_OR_CA_CI} menyajikan data tentang tingkat kurang tidur di 
+California dan Oregon. Proporsi penduduk California yang 
+melaporkan tidak memperoleh istirahat atau tidur yang cukup pada setiap hari selama 30 hari sebelumnya adalah 
+8.0\%, sedangkan proporsi tersebut adalah 8.8\% untuk penduduk Oregon. Data ini 
+didasarkan pada sampel acak sederhana yang terdiri atas 11,545 penduduk California dan 4,691 penduduk Oregon. 
+
+\begin{parts}
+\item Lakukan uji hipotesis untuk menentukan apakah data ini memberikan bukti kuat 
+bahwa tingkat kurang tidur berbeda di kedua negara bagian tersebut. 
+(Pengingat: Periksa syarat-syaratnya.)
+\item Kesimpulan uji pada bagian (a) mungkin keliru. Jika 
+demikian, jenis galat apa yang terjadi?
+\end{parts}
+}{}
+
+\D{\newpage}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""a6e32195-1507-50f4-a3a0-88884cb47648""]"
 69b3ab1a-79ca-51a8-abc2-fd381704c736,e3bdaa51-3fd5-5e59-b2f2-3dcc23e80767,8,guided_exercise,en,ch_distributions/TeX/ch_distributions.tex,1540,1548,6fb2b7d0d86fbe451b8b184b229fd98266605c452ab586490408c887228e5ee4,id-ID,qa/b016-build/source-snapshot-b016/ch_distributions/TeX/ch_distributions.tex,1505,1512,6770a30807190aeff60c0945f6b4ddd32efdfc2a1a8f62c22909174977e2515b,visually_checked,"\begin{exercisewrap}
 \begin{nexercise}
 Jika kita mengambil sampel acak berisi 40 berkas kasus dari perusahaan
@@ -9233,6 +9575,50 @@ pada data sebenarnya?\footnotemark{}
   Perbedaan akibat kebetulan ini jauh lebih kecil daripada
   perbedaan yang diamati pada kelompok sebenarnya.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+799675bc-2940-5bd1-b6a8-737ba7727013,a1a0c4d5-bb5f-5f11-8467-b85b96386d98,120,exercise,en,ch_inference_for_props/TeX/difference_of_two_proportions.tex,92,134,fe45d7d8863f7ba23518d057655c9540381434e9663e084d9cf0a655746d39a2,id-ID,qa/b023-translation/staging/exercises-lines-1-212.id.tex,92,134,600c58c4b606f01e07dd268b33e499dcdfd7da583b73c019a21f51c876dfcbb8,visually_checked,"% 20
+
+\eoce{\qt{Penutupan pemerintah\label{government_shutdown_CI_concept}}
+Penutupan pemerintah federal Amerika Serikat tahun 2018--2019 berlangsung
+dari 22 Desember 2018 hingga 25 Januari 2019, selama 35 hari.
+Jajak pendapat Survey USA terhadap sampel acak 614 warga Amerika pada
+periode tersebut melaporkan bahwa 48\% orang yang berpenghasilan kurang dari \$40,000 per
+tahun dan 55\% orang yang berpenghasilan \$40,000 atau lebih per tahun mengatakan bahwa
+penutupan pemerintah sama sekali tidak memengaruhi mereka secara pribadi.
+Interval kepercayaan 95\% untuk $(p_\text{$<$40K} - p_\text{$\ge$40K})$,
+dengan $p$ sebagai proporsi orang yang mengatakan bahwa penutupan pemerintah
+sama sekali tidak memengaruhi mereka secara pribadi, adalah (-0.16, 0.02).
+Berdasarkan informasi ini, tentukan apakah pernyataan-pernyataan berikut 
+benar atau salah, dan jelaskan alasan Anda jika menyatakan suatu pernyataan
+salah.\footfullcite{data:govt_shuthown}
+\begin{parts}
+\item
+    Pada tingkat signifikansi 5\%, data memberikan
+    bukti yang meyakinkan tentang adanya selisih nyata dalam proporsi orang yang
+    tidak terdampak secara pribadi antara warga Amerika yang berpenghasilan kurang dari
+    \$40,000 per tahun dan warga Amerika yang berpenghasilan \$40,000 atau lebih per tahun.
+\item
+    Kita yakin 95\% bahwa terdapat antara 16\% lebih banyak dan 2\% lebih sedikit warga Amerika
+    yang berpenghasilan kurang dari \$40,000 per tahun dan sama sekali tidak terdampak secara pribadi
+    oleh penutupan pemerintah dibandingkan dengan mereka yang berpenghasilan
+    \$40,000 atau lebih per tahun.
+\item
+    Interval kepercayaan 90\% untuk
+    $(p_\text{$<$40K} - p_\text{$\ge$40K})$
+    akan lebih lebar daripada interval $(-0.16, 0.02)$.
+\item
+    Interval kepercayaan 95\% untuk
+    $(p_\text{$\ge$40K} - p_\text{$<$40K})$
+    adalah (-0.02, 0.16).
+\end{parts}
+% p1 = 0.48
+% p2 = 0.55
+% n1 = 162
+% n2 = 452
+% ((p1 - p2) + c(-1,1) * 1.96 * sqrt( (p1*(1-p1)/n1) + (p2*(1-p2)/n2)) ) %>% round(2)
+% (-0.16, 0.02)
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""a6e32195-1507-50f4-a3a0-88884cb47648""]"
 79990c87-93a6-5b4a-a98f-faaad4e555f9,a766f9cd-f941-5953-b2d9-9d5f0b9a8764,15,section_prose,en,ch_probability/TeX/ch_probability.tex,1702,1712,32d26ae85d810dd491935dd1df4c55bd990774dbf79592c055542103789d9847,id-ID,repo/ch_probability/TeX/ch_probability.tex,1691,1701,7a2d21b82f2bc26e852ad7e67a78563db01edbc95964d4cee11faa60948150ad,language_reviewed,"
 Seandainya kita mengulangi Latihan Terbimbing~\ref{raffleOf30TicketsWWOReplacement} dengan 300 tiket, bukan 30 tiket, kita akan menemukan hal yang menarik: hasilnya akan hampir identik. Peluangnya adalah 0.0233 tanpa pengembalian dan 0.0231 dengan pengembalian. Ketika ukuran sampel hanya merupakan sebagian kecil dari populasi (di bawah 10\%), pengamatan hampir saling independen meskipun pengambilan sampel dilakukan tanpa pengembalian.
 
@@ -9921,6 +10307,27 @@ mata kuliah ini.
 \item Jika dua peristiwa dapat terjadi bersamaan, apakah keduanya pasti dependen?
 \end{parts}
 }{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+882e3ec7-96c0-5fbe-8507-b5d42d040280,6242cdaa-0f32-5a58-a516-50bb0ef212b1,130,exercise,en,ch_inference_for_props/TeX/difference_of_two_proportions.tex,387,406,81225dade5070c85b7eef021dda0692b81ba3120a104727e19659217332046d9,id-ID,qa/b023-translation/staging/exercises-lines-213-406.id.tex,174,193,a2ed3f06297b06ba4e6c3ab7c921e86139300d7c81dfe9151e567055deddbd0e,visually_checked,"% 30
+
+\eoce{\qt{Satu apel sehari menjauhkan dokter
+    \label{apple_doctor_HT_concept}}
+Seorang guru pendidikan jasmani di sebuah sekolah menengah yang ingin
+meningkatkan kesadaran tentang gizi dan kesehatan
+bertanya kepada para siswanya pada awal semester
+apakah mereka memercayai ungkapan
+``satu apel sehari menjauhkan dokter'',
+dan 40\% siswa menjawab ya.
+Sepanjang semester, ia memulai setiap kelas dengan
+diskusi singkat mengenai studi yang menyoroti dampak positif
+dari mengonsumsi lebih banyak buah dan sayuran.
+Ia melakukan survei tentang satu-apel-sehari yang sama pada akhir
+semester, dan kali ini 60\% siswa
+menjawab ya.
+Dapatkah ia menggunakan metode dua proporsi dari bagian ini
+untuk analisis tersebut?
+Jelaskan alasan Anda.
+}{}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""a6e32195-1507-50f4-a3a0-88884cb47648""]"
 88316c65-5f8f-57ef-add9-0a90737c0310,a766f9cd-f941-5953-b2d9-9d5f0b9a8764,6,section_prose,en,ch_probability/TeX/ch_probability.tex,1665,1667,1986b718c382e5072f7ab9569e16b9e786aba0e9cd00038fb010228a6878eb05,id-ID,repo/ch_probability/TeX/ch_probability.tex,1654,1656,1986b718c382e5072f7ab9569e16b9e786aba0e9cd00038fb010228a6878eb05,language_reviewed,"
 \D{\newpage}
 
@@ -9972,6 +10379,271 @@ peluang ia
 }{}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""69574f5b-e113-5529-9d72-6ebfd1501a86""]"
+894e36ac-2d31-510d-b8ad-d7d7e8d8ff8c,8c17e7f7-9433-5397-8c68-2d980f9a0f73,3,subsection,en,ch_inference_for_props/TeX/ch_inference_for_props.tex,867,1130,96cb0a1d997eaee40f446477df0ebda3c7c6b27edd61dca572dfe637a169d8b1,id-ID,qa/b023-translation/staging/section-lines-867-1130.id.tex,1,264,8613f402b2d80cd448d5bd4344d0b59f4d83651314b8017010699b8705647bf3,visually_checked,"\subsection%[Hypothesis tests for $p_1 - p_2$]
+    {Uji hipotesis untuk selisih dua proporsi}
+
+\index{data!mamografi|(}
+\index{data!kanker payudara|(}
+
+%We'll explore an experiment evaluating the benefits
+%of mammograms using a hypothesis test.
+Mamografi adalah prosedur sinar-X yang digunakan untuk memeriksa
+kanker payudara.
+Perlu tidaknya mamografi digunakan merupakan bagian dari
+perdebatan yang kontroversial, dan hal itu menjadi topik
+contoh berikutnya, tempat kita mempelajari uji hipotesis
+2 proporsi ketika $H_0$~adalah~$p_1 - p_2 = 0$
+(atau, secara ekuivalen, $p_1 = p_2$).
+
+Sebuah studi selama 30 tahun dilakukan terhadap hampir 90,000 perempuan. Selama masa skrining 5 tahun, setiap perempuan diacak ke salah satu dari dua kelompok: kelompok pertama menjalani mamografi rutin untuk skrining kanker payudara, sedangkan kelompok kedua menjalani pemeriksaan kanker payudara rutin tanpa mamografi. Tidak ada intervensi selama 25 tahun berikutnya, dan kita akan meninjau kematian akibat kanker payudara selama keseluruhan masa studi 30 tahun. Hasil studi dirangkum dalam Gambar~\ref{mammogramStudySummaryTable}.
+
+Jika mamografi jauh lebih efektif daripada pemeriksaan kanker payudara tanpa mamografi, kita mengharapkan lebih banyak kematian akibat kanker payudara pada kelompok kontrol. Di~sisi lain, jika mamografi tidak seefektif pemeriksaan kanker payudara rutin, kita~mengharapkan peningkatan kematian akibat kanker payudara pada kelompok mamografi.
+
+\begin{figure}[h]
+\centering
+\begin{tabular}{rrcc}
+	& \multicolumn{3}{c}{Meninggal akibat kanker payudara?} \\
+  \cline{2-4}
+ & \ \hspace{3mm}\ & Ya & Tidak \\
+  \hline
+Mamografi && 500 & 44,425 \\
+Kontrol && 505 & 44,405 \\
+   \hline
+\end{tabular}
+\caption{Ringkasan hasil studi kanker payudara.}
+\label{mammogramStudySummaryTable}
+\end{figure}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Apakah studi ini merupakan eksperimen atau studi observasional?\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Studi ini merupakan eksperimen. Para pasien diacak
+    untuk menjalani mamografi atau pemeriksaan kanker payudara standar.
+    Berdasarkan studi ini, kita dapat menarik kesimpulan kausal.}
+
+\D{\newpage}
+
+\begin{exercisewrap}
+\begin{nexercise} \label{htFormammogramStudySummaryTable}
+Susun hipotesis untuk menguji apakah terdapat perbedaan
+kematian akibat kanker payudara antara kelompok mamografi dan kelompok kontrol.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{$H_0$: tingkat kematian akibat kanker payudara pada pasien
+    yang menjalani skrining mamografi sama dengan tingkat kematian akibat
+    kanker payudara pada pasien dalam kelompok kontrol,
+    $p_{mgm} - p_{ctrl} = 0$. \\
+    $H_A$: tingkat kematian akibat kanker payudara pada pasien yang menjalani
+    skrining mamografi berbeda dari tingkat kematian akibat kanker payudara
+    pada pasien dalam kelompok kontrol,
+    $p_{mgm} - p_{ctrl} \neq 0$.}
+
+Dalam Contoh~\ref{condFormammogramStudySummaryTableNormalInference},
+kita akan memeriksa syarat penggunaan distribusi normal untuk
+menganalisis hasil studi.
+Rinciannya sangat mirip dengan rincian interval kepercayaan.
+Namun, ketika hipotesis nol menyatakan bahwa $p_1 - p_2 = 0$,
+kita menggunakan proporsi khusus yang disebut
+\term{proporsi gabungan} untuk memeriksa syarat sukses--gagal:
+\begin{align*}
+\hat{p}_{\textit{pooled}}
+    &= \frac
+        {\text{\# pasien yang meninggal akibat kanker payudara dalam
+            seluruh studi}}
+        {\text{\# pasien dalam seluruh studi}} \\
+	&= \frac{500 + 505}{500 + \text{44,425} + 505 + \text{44,405}} \\
+	&= 0.0112
+\end{align*}
+Proporsi ini merupakan estimasi tingkat kematian akibat kanker payudara
+di seluruh studi, dan merupakan estimasi terbaik kita untuk
+proporsi $p_{mgm}$ dan $p_{ctrl}$
+\emph{jika hipotesis nol bahwa $p_{mgm} = p_{ctrl}$ benar}.
+Kita~juga akan menggunakan proporsi gabungan ini ketika menghitung
+galat baku.
+
+\begin{examplewrap}
+\begin{nexample}{Apakah wajar memodelkan selisih
+    proporsi menggunakan distribusi normal dalam
+    studi ini?}
+  \label{condFormammogramStudySummaryTableNormalInference}%
+  Karena para pasien diacak, pengamatan terhadap mereka dapat dianggap
+  saling independen, baik di dalam maupun antarkelompok.
+  Kita juga harus memeriksa syarat sukses--gagal untuk setiap kelompok.
+  Di bawah hipotesis nol, proporsi $p_{mgm}$
+  dan $p_{ctrl}$ sama, sehingga kita memeriksa syarat sukses--gagal
+  menggunakan estimasi terbaik untuk nilai-nilai ini di bawah $H_0$,
+  yaitu \hiddenterm{proporsi gabungan} dari kedua sampel,
+  $\hat{p}_{\textit{pooled}} = 0.0112$:
+  \begin{align*}
+  \hat{p}_{\textit{pooled}} \times n_{mgm}
+      &= 0.0112 \times \text{44,925} = 503
+    & (1 - \hat{p}_{\textit{pooled}}) \times n_{mgm}
+      &= 0.9888 \times \text{44,925} = \text{44,422} \\
+  \hat{p}_{\textit{pooled}} \times n_{ctrl}
+      &= 0.0112 \times \text{44,910} = 503
+    & (1 - \hat{p}_{\textit{pooled}}) \times n_{ctrl}
+      &= 0.9888 \times \text{44,910} = \text{44,407}
+  \end{align*}
+  Syarat sukses--gagal terpenuhi karena
+  semua nilai sedikitnya 10.
+  Karena kedua syarat terpenuhi, kita dapat memodelkan
+  selisih proporsi secara aman menggunakan distribusi
+  normal.
+\end{nexample}
+\end{examplewrap}
+
+\begin{onebox}{Gunakan proporsi gabungan ketika
+    $\pmb{H_0}$ adalah $\pmb{\MakeLowercase{p_1 - p_2 = 0}}$}
+  Ketika hipotesis nol menyatakan bahwa kedua proporsi sama,
+  gunakan proporsi gabungan ($\hat{p}_{\textit{pooled}}$)
+  untuk memverifikasi
+  syarat sukses--gagal dan mengestimasi galat baku:
+  \begin{eqnarray*}
+  \hat{p}_{\textit{pooled}}
+    = \frac{\text{jumlah ``sukses''}}
+      {\text{jumlah kasus}}
+    = \frac{\hat{p}_1 n_1 + \hat{p}_2 n_2}{n_1 + n_2}
+  \end{eqnarray*}
+  Di sini $\hat{p}_1 n_1$ menyatakan jumlah sukses dalam
+  sampel 1 karena
+  \begin{eqnarray*}
+  \hat{p}_1
+    = \frac{\text{jumlah sukses dalam sampel 1}}{n_1}
+  \end{eqnarray*}
+  Demikian pula, $\hat{p}_2 n_2$ menyatakan jumlah
+  sukses dalam sampel~2.
+\end{onebox}
+
+Dalam Contoh~\ref{condFormammogramStudySummaryTableNormalInference},
+proporsi gabungan digunakan untuk memeriksa syarat sukses--gagal.
+\footnote{Untuk contoh uji hipotesis dua proporsi
+  yang tidak mengharuskan
+  syarat sukses--gagal terpenuhi, lihat
+  Bagian~\ref{caseStudyMalariaVaccine}.}
+Dalam contoh berikutnya, kita melihat kegunaan kedua dari proporsi
+gabungan: perhitungan galat baku.
+
+\D{\newpage}
+
+\begin{examplewrap}
+\begin{nexample}{Hitung estimasi titik untuk selisih
+    tingkat kematian akibat kanker payudara pada kedua kelompok,
+    dan gunakan proporsi gabungan
+    $\hat{p}_{\textit{pooled}} = 0.0112$ untuk menghitung
+    galat baku.}
+  Estimasi titik untuk selisih tingkat kematian akibat kanker payudara
+  adalah
+  \begin{align*}
+  \hat{p}_{mgm} - \hat{p}_{ctrl}
+    &= \frac{500}{500 + 44,425} - \frac{505}{505 + 44,405} \\
+    &= 0.01113 - 0.01125 \\
+    &= -0.00012
+  \end{align*}
+  Tingkat kematian akibat kanker payudara pada kelompok mamografi
+  lebih rendah sebesar 0.012 poin persentase daripada kelompok kontrol.
+  Selanjutnya, galat baku dihitung
+  \emph{menggunakan proporsi gabungan},~$\hat{p}_{\textit{pooled}}$:
+\begin{align*}
+SE = \sqrt{
+      \frac{\hat{p}_{\textit{pooled}}(1-\hat{p}_{\textit{pooled}})}
+          {n_{mgm}}
+      + \frac{\hat{p}_{\textit{pooled}}(1-\hat{p}_{\textit{pooled}})}
+          {n_{ctrl}}
+    }
+	= 0.00070
+\end{align*}
+\end{nexample}
+\end{examplewrap}
+
+\begin{examplewrap}
+\begin{nexample}{Dengan menggunakan estimasi titik $\hat{p}_{mgm} - \hat{p}_{ctrl} = -0.00012$ dan galat baku $SE = 0.00070$, hitung nilai-p untuk uji hipotesis dan tuliskan kesimpulannya.}
+Seperti pada uji sebelumnya, mula-mula kita menghitung statistik uji dan menggambar ilustrasi:
+\begin{align*}
+Z = \frac{\text{estimasi titik} - \text{nilai nol}}{SE}
+	= \frac{-0.00012 - 0}{0.00070}
+	= -0.17
+\end{align*}
+\begin{center}
+\Figures[Ditampilkan sebuah distribusi normal yang berpusat di 0 dengan simpangan baku 0.0007. Ekor bawah diarsir di bawah -0.00012 dan ekor atas diarsir di atas 0.00012. Secara visual, sekitar 90\% luas di bawah distribusi tampak diarsir.]{0.45}{mammograms}{mammogramPValue}
+\end{center}
+Luas ekor bawah adalah 0.4325, yang kita gandakan untuk memperoleh nilai-p:~0.8650. Karena nilai-p ini lebih besar daripada 0.05, kita tidak menolak hipotesis nol. Artinya, selisih tingkat kematian akibat kanker payudara secara masuk akal dapat dijelaskan oleh kebetulan, dan studi ini tidak mendeteksi secara statistik adanya manfaat ataupun bahaya mamografi dibandingkan pemeriksaan payudara rutin.
+\end{nexample}
+\end{examplewrap}
+
+Dapatkah kita menyimpulkan bahwa mamografi sama sekali tidak memiliki manfaat atau bahaya?
+Berikut beberapa pertimbangan yang perlu diingat ketika meninjau
+studi mamografi maupun studi medis lainnya:
+\begin{itemize}
+\setlength{\itemsep}{0mm}
+\item
+    Kita tidak menolak hipotesis nol, yang berarti
+    kita tidak memiliki cukup bukti untuk menyimpulkan bahwa
+    mamografi menurunkan atau meningkatkan kematian akibat kanker payudara.
+\item
+    Jika mamografi bermanfaat atau berbahaya, data
+    menunjukkan bahwa pengaruhnya tidak terlalu besar.
+\item
+    Apakah mamografi lebih mahal atau lebih murah daripada
+    pemeriksaan payudara tanpa mamografi?
+    Jika~salah satu pilihan jauh lebih mahal daripada
+    pilihan lainnya dan tidak memberikan manfaat yang jelas,
+    kita sebaiknya memilih
+    pilihan yang lebih murah.
+\item
+    Para penulis studi juga menemukan bahwa mamografi
+    menyebabkan diagnosis kanker payudara secara berlebihan,
+    yang berarti beberapa kanker payudara ditemukan
+    (atau dianggap ditemukan), tetapi kanker tersebut
+    tidak akan menimbulkan gejala selama hidup pasien.
+    Artinya, pasien akan meninggal akibat sebab lain
+    sebelum gejala kanker payudara muncul.
+    Ini berarti sebagian pasien mungkin telah menjalani pengobatan
+    kanker payudara yang sebenarnya tidak diperlukan, dan
+    pengobatan tersebut merupakan biaya lain yang perlu dipertimbangkan.
+    Penting pula untuk menyadari bahwa
+    diagnosis berlebihan dapat menimbulkan bahaya fisik
+    atau emosional yang tidak perlu bagi pasien.
+\end{itemize}
+Pertimbangan ini menyoroti rumitnya perawatan medis dan rekomendasi pengobatan. Para ahli dan dewan medis yang mempelajari pengobatan menggunakan pertimbangan seperti di atas untuk memberikan rekomendasi terbaik berdasarkan bukti terkini.
+
+\index{data!kanker payudara|)}
+\index{data!mamografi|)}
+
+%\begin{onebox}{Hypothesis testing when $\mathbf{H_0}$ is
+%    $\mathbf{p_1 - p_2 = 0}$}
+%  Once you've determined a hypothesis test for the difference
+%  of two proportions is the correct procedure, there are four
+%  steps to completing the test:
+%  \begin{description}
+%  \item[Prepare.]
+%      Identify the parameter of interest,
+%      list out hypotheses,
+%      identify the significance level,
+%      and compute summary statistics for each group.
+%  \item[Check.]
+%      Verify the conditions to ensure
+%      $\hat{p}_1 - \hat{p}_2$ is nearly normal under $H_0$.
+%      When the null hypothesis is that the difference is~0,
+%      use a pooled proportion to check the success-failure
+%      condition for each group.
+%  \item[Calculate.]
+%      If the conditions hold, compute the standard
+%      error, again using the pooled proportion,
+%      compute the Z-score, and identify the p-value.
+%  \item[Conclude.]
+%      Evaluate the hypothesis test by comparing the p-value
+%      to $\alpha$, and provide a conclusion in the context
+%      of the problem.
+%  \end{description}
+%\end{onebox}
+
+
+
+\D{\newpage}
+ 
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""a6e32195-1507-50f4-a3a0-88884cb47648""]"
 8955285c-18b1-545b-9b67-cf16e91a6a73,05ed1aa2-8201-50ff-8cb7-893d51314da9,1,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,1095,1206,1653939f7f859a5acc1e75ba9d32d156582df58c7c52330b439927c16d6ea500,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,1042,1149,11985310f1752ec03eef94339d1dec5e1a8d816d23b2dad8d871ade3c2df5087,language_reviewed,"\subsection{Mentransformasi data (topik khusus)}
 \label{transformingDataSubsection}
 
@@ -10334,6 +11006,19 @@ kelompok?\footnotemark{}
 8b9e1d74-4635-577b-b6f5-fffcaf9dcb7c,24b82592-6802-5f86-86a9-f633491e350a,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,565,567,7b98f87a3b2b30aa51a84e7e5802152f353624a061683a202ebde7f93d73e710,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,614,616,7b98f87a3b2b30aa51a84e7e5802152f353624a061683a202ebde7f93d73e710,language_reviewed,"% 35
 
 \eocesol{E = -0.0526. SD = 0.9986.}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""f5cfd01e-9712-58ec-ac48-481f923814c1""]"
+8c5662f1-11fa-5bcf-9004-3793f6f3ea34,bc3c1ba0-0a67-533d-968d-9b5e4100a047,122,exercise,en,ch_inference_for_props/TeX/difference_of_two_proportions.tex,162,173,0866a31132773907c96bf7ac37c13b3304144ed0dda09122047cdf21b30e6876,id-ID,qa/b023-translation/staging/exercises-lines-1-212.id.tex,162,173,bb56cf6b0ef2846513dfe630cd833d1579141d1108d7ed0fbe092eafd93fc896,visually_checked,"% 22
+
+\eoce{\qt{Kurang tidur, CA vs. OR, Bagian I\label{sleep_OR_CA_CI}} Menurut 
+laporan tentang kurang tidur oleh Pusat Pengendalian dan Pencegahan Penyakit, 
+proporsi penduduk California yang melaporkan tidak cukup beristirahat atau tidur 
+selama masing-masing dari 30 hari sebelumnya adalah 8.0\%, sedangkan proporsi ini sebesar 8.8\% 
+untuk penduduk Oregon. Data tersebut didasarkan pada sampel acak sederhana yang terdiri atas 11,545 
+penduduk California dan 4,691 penduduk Oregon. Hitung interval kepercayaan 95\% 
+untuk selisih antara proporsi warga California dan Oregon yang 
+kurang tidur, lalu interpretasikan interval tersebut dalam konteks data.\footfullcite{data:sleepCAandOR}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""a6e32195-1507-50f4-a3a0-88884cb47648""]"
 8ccc592a-0fd2-5818-ad03-5dd7295f09ab,ceab8500-f0e6-5a98-bdb3-4007e44800d9,4,worked_example,en,ch_probability/TeX/ch_probability.tex,2232,2240,fcbf61b87368a87546f7d52d201e794b0924dad81db8866b01e2de47fa7c5363,id-ID,repo/ch_probability/TeX/ch_probability.tex,2221,2229,f8d5044bde3303d52e25b7ed244b15d8bd082a123ff956e0bd7de4385c8b6e3d,language_reviewed,"\begin{examplewrap}
 \begin{nexample}{Berapa proporsi sampel yang memiliki tinggi antara \resp{180} cm dan \resp{185} cm (sekitar 5 kaki 11 inci sampai 6 kaki 1 inci)?}\label{contDistProb}
 Kita dapat menjumlahkan tinggi bin-bin dalam rentang \resp{180} cm sampai \resp{185} cm lalu membaginya dengan ukuran sampel. Sebagai contoh, hal ini dapat dilakukan menggunakan dua bin berarsir pada Gambar~\ref{usHeightsHist180185}. Kedua bin dalam rentang ini memiliki hitungan 195,307 dan 156,239 orang, sehingga menghasilkan estimasi peluang berikut:
@@ -10544,6 +11229,43 @@ lebih lambat daripada Mary?
 untuk bagian (b)--(e) akan berubah? Jelaskan alasan Anda.
 \end{parts}
 }{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""5013dc5b-3a29-5516-9948-98c064aa43e8""]"
+8ea2eadd-38a1-5227-80db-a1d5a6059c62,27ef499d-6cc9-5e6e-8eb8-35dd616b2bad,126,exercise,en,ch_inference_for_props/TeX/difference_of_two_proportions.tex,260,295,1e7ea212781669ec3fcd4e62fa8e3f408c1183bee18803803b6c80fa198e2289,id-ID,qa/b023-translation/staging/exercises-lines-213-406.id.tex,48,83,a81bf455272fdc86783eaaa6d5fc263f6aeffa103e802e90d49aeb88b504137c,visually_checked,"% 26
+
+\eoce{\qt{Pemindaian seluruh tubuh, Bagian I\label{full_body_scan_HT_Error}} Sebuah artikel berita 
+melaporkan bahwa ``warga Amerika memiliki pandangan yang berbeda tentang dua praktik yang mungkin merepotkan 
+dan invasif yang dapat diterapkan bandara untuk mengungkap kemungkinan 
+serangan teroris.'' Berita ini didasarkan pada survei terhadap 
+sampel acak 1,137 orang dewasa di seluruh negeri. Salah satu pertanyaan dalam 
+survei tersebut berbunyi, ``Sejumlah bandara kini 
+menggunakan mesin sinar-X digital `seluruh tubuh' untuk memindai penumpang secara elektronik 
+di antrean pemeriksaan keamanan bandara. Menurut Anda, apakah mesin sinar-X baru ini 
+seharusnya digunakan atau tidak digunakan di bandara?'' Berikut ringkasan tanggapan 
+berdasarkan afiliasi partai. \footfullcite{news:fullBodyScan}
+\begin{center}
+\begin{tabular}{ll  cc c} 
+            &   & \multicolumn{3}{c}{\textit{Afiliasi Partai}} \\
+\cline{3-5}
+                                &           & Republikan & Demokrat & Independen   \\
+\cline{2-5}
+\multirow{3}{*}{\textit{Jawaban}}& Seharusnya    & 264        & 299      & 351 \\
+                                & Seharusnya tidak& 38         & 55       & 77 \\
+                                & Tidak tahu/Tanpa jawaban & 16 & 15    & 22 \\
+\cline{2-5}
+                                & Total      & 318       & 369      & 450
+\end{tabular}
+\end{center}
+\begin{parts}
+\item Lakukan uji hipotesis yang sesuai untuk mengevaluasi apakah terdapat 
+perbedaan antara proporsi Republikan dan Demokrat yang menilai bahwa pemindaian seluruh 
+tubuh seharusnya diterapkan di bandara. Anggap semua syarat yang relevan 
+terpenuhi.
+\item Kesimpulan uji pada bagian (a) mungkin keliru, yang berarti terjadi 
+galat pengujian. Jika terjadi galat, apakah itu galat Tipe~1 atau galat Tipe~2? 
+Jelaskan.
+\end{parts}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""a6e32195-1507-50f4-a3a0-88884cb47648""]"
 8f7bb141-296c-582c-8c60-a0a8e323df8c,f5fb316e-6dd4-51e6-9e06-34ebb0d2fab2,5,instructional_prose,en,ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,1424,1500,35fd2e1b56dace8fb48b7c247a892145b1bcf1a4729daee2b0238ac515916623,id-ID,scratch/b020-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,1416,1492,fc9e841c07313d83ab10bf3ed06402e2949899a890a0043d6215d02100b73037,visually_checked,"\subsection{Menafsirkan interval kepercayaan}
 \label{interpretingCIs}
 
@@ -11042,6 +11764,18 @@ rata-rata sampel, $\bar{x}$.
 
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+93da9aa5-2c12-5ac7-8889-6f530b70b262,28d9fd77-1f60-563f-8748-b4c6d411e7d7,217,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,1363,1373,0fd4d7ce56e53745c1a6dfb15b65907c1c88bdb2c644fe6f18d9805ee8234676,id-ID,qa/b023-translation/staging/public-answers-lines-1363-1472.id.tex,1,11,88651239a7b838059e5469cfb866f25af290f85a2d90f507c1a9bf0c9a0377c1,visually_checked,"% 17
+
+\eocesol{Studi ini bukan eksperimen acak, dan tidak jelas apakah orang-orang akan 
+dipengaruhi oleh perilaku rekan mereka. Dengan kata lain, independensi mungkin tidak 
+terpenuhi. Selain itu, hanya terdapat 5 intervensi dalam skenario 
+provokatif, sehingga syarat sukses--gagal tidak terpenuhi. Bahkan jika kita mempertimbangkan 
+uji hipotesis dengan menggabungkan kedua proporsi, syarat sukses--gagal 
+tetap tidak akan terpenuhi. Karena satu syarat diragukan dan syarat 
+lainnya tidak terpenuhi, selisih proporsi sampel tidak akan mengikuti 
+distribusi yang mendekati normal.}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""a6e32195-1507-50f4-a3a0-88884cb47648""]"
 93fda89e-f41c-5da8-832c-8f853ae0ba36,67b01e00-b2fc-57fd-8ab6-2748c5a69345,221,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,728,733,9082039de605794d27136e2c4f620182f9226fae934ff2495c3f43c537bd4816,id-ID,qa/b016-build/source-snapshot-b016/extraTeX/eoceSolutions/eoceSolutions.tex,783,788,9082039de605794d27136e2c4f620182f9226fae934ff2495c3f43c537bd4816,visually_checked,"% 21
 
 \eocesol{(a)~$1-0.75^3 = 0.5781$.
@@ -11119,6 +11853,44 @@ dan kram otot?
     $1 / \insureSprob{} \approx \insureGeomMean{}$
     orang untuk menemukan sukses pertama.}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""586d1610-5f32-5232-ba50-6e2a04daf45a""]"
+988deac7-c41d-5422-8023-5537ae877557,a0d3c8bc-4d53-56d0-b23d-9856448fd67a,123,exercise,en,ch_inference_for_props/TeX/difference_of_two_proportions.tex,174,210,7eb927798c67d07d83dd6f8864f7c46cd4d95f906c58705faf3ababbb8049db5,id-ID,qa/b023-translation/staging/exercises-lines-1-212.id.tex,174,210,d07ba7c39c9ff86352a57e3a2cd41b5b82b41d46561dabdceebab13f20d99a6e,visually_checked,"% 23
+
+\eoce{\qt{Pengeboran lepas pantai, Bagian I\label{offshore_drill_edu_dontknow_HT}}
+Sebuah survei bertanya kepada 827 pemilih terdaftar di California yang diambil secara acak,
+``Apakah Anda mendukung? Atau apakah Anda menentang? Pengeboran minyak dan gas alam
+di lepas Pantai California? Atau apakah Anda belum cukup tahu untuk menjawab?''
+Di bawah ini ditampilkan distribusi 
+respons, yang dipisahkan berdasarkan apakah responden lulus 
+perguruan tinggi atau tidak. \footfullcite{data:prop19_and_offshoreDrill} \\[1.3mm]
+
+\noindent\begin{minipage}[c]{0.6\textwidth}
+\begin{parts}
+\item Berapa persen lulusan perguruan tinggi dan berapa persen bukan lulusan 
+perguruan tinggi dalam sampel ini yang belum cukup tahu untuk berpendapat mengenai pengeboran 
+minyak dan gas alam di lepas Pantai California?
+\item Lakukan uji hipotesis untuk menentukan apakah data tersebut memberikan bukti kuat 
+bahwa proporsi lulusan perguruan tinggi yang tidak berpendapat 
+mengenai persoalan ini berbeda dari proporsi bukan lulusan perguruan tinggi.
+\end{parts}
+\end{minipage}
+\begin{minipage}[c]{0.4\textwidth}
+\begin{center}
+\begin{tabular}{l c c}
+			& \multicolumn{2}{c}{\textit{Lulusan perguruan tinggi}} \\
+\cline{2-3}
+			& Ya		& Tidak	\\
+\cline{1-3}
+Mendukung		& 154		& 132	\\
+Menentang		& 180		& 126	\\
+Tidak tahu	& 104		& 131	\\
+\cline{1-3}
+  Jumlah		& 438		& 389		
+\end{tabular}
+\end{center}
+\end{minipage}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""a6e32195-1507-50f4-a3a0-88884cb47648""]"
 98951096-ab0f-5a1f-85a6-cb3f5b972d7b,4ed9ee7c-54bf-582b-afb9-ca61f17cab9b,107,exercise,en,ch_foundations_for_inf/TeX/confidence_intervals.tex,3,15,3b28fe915d480b1e6785b4fe3e0a5efdc1052f6009fdf74145067e33f0b20559,id-ID,scratch/b020-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/confidence_intervals.tex,6,18,637830cfcccaa8ca0c9e3b798de9c300ca470383cd419711ac3a247d835e15d2,visually_checked,"% 7
 
 \eoce{\qt{Penyakit kronis, Bagian I\label{chronic_illness_intro}} 
@@ -12355,6 +13127,135 @@ abfbcf57-b2a6-51ca-b613-769df693c412,b23f3ca2-973a-561f-8d7b-0808ca9315e8,2,subs
 
 \begin{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+ac0d28bb-25f6-5e5a-8be9-3752f1d9cf86,da257b3a-e08f-562f-9796-9aac8b096719,4,subsection,en,ch_inference_for_props/TeX/ch_inference_for_props.tex,1131,1258,f85494f2d50b1b621a26b178d191e82ab0b076d03322f6a56ccde6c78baa74ae,id-ID,qa/b023-translation/staging/section-lines-1131-1336.id.tex,1,128,6cf094934d7ca920853383dd384fc2d4117dcd0cd084f930b43ba540b2aa954b,visually_checked,"\subsection{Lebih lanjut tentang uji hipotesis dua proporsi (topik khusus)}
+
+Ketika melakukan uji hipotesis dua proporsi,
+biasanya $H_0$ adalah $p_1 - p_2 = 0$. Namun, terdapat keadaan
+langka ketika kita ingin memeriksa apakah selisih antara
+$p_1$ dan $p_2$ sama dengan suatu nilai selain 0.
+Sebagai contoh, kita mungkin ingin memeriksa hipotesis nol
+dengan $p_1 - p_2 = 0.1$. %\footnote{Kita dapat
+%  pula menjumpai keadaan serupa untuk selisih
+%  dua rata-rata, meskipun contoh semacam itu tidak diberikan dalam
+%  Bab~\ref{inferenceForNumericalData} karena metode yang digunakan
+%  tetap persis sama dalam konteks rata-rata sampel.
+%  Di sisi lain, syarat sukses--gagal dan
+%  perhitungan galat baku sedikit berbeda pada berbagai
+%  konteks proporsi.}
+Dalam konteks seperti ini, umumnya kita menggunakan $\hat{p}_1$ dan
+$\hat{p}_2$ untuk memeriksa syarat sukses--gagal dan
+menyusun galat baku.
+
+\begin{exercisewrap}
+\begin{nexercise}
+\label{carWheelBladeManufacturer}%
+Sebuah perusahaan kuadkopter sedang mempertimbangkan produsen baru
+untuk bilah rotor.
+Produsen baru tersebut lebih mahal,
+tetapi mereka menyatakan bahwa
+bilah bermutu lebih tinggi buatan mereka lebih andal,
+dengan tingkat kelulusan inspeksi 3 poin persentase lebih tinggi daripada
+pesaing mereka.
+Susun hipotesis yang sesuai untuk pengujian tersebut.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{$H_0$: Tingkat kelulusan inspeksi bilah bermutu
+  tinggi 3 poin persentase lebih tinggi daripada bilah bermutu standar.
+  $p_{highQ} - p_{standard} = 0.03$.
+  $H_A$: Selisih tingkat kelulusan inspeksi
+  bilah bermutu tinggi dan bilah bermutu standar
+  tidak sama dengan 3 poin persentase.
+  $p_{highQ} - p_{standard} \neq 0.03$.}
+
+\captionsetup{width=85mm}
+
+\begin{figure}[h]
+\centering
+\Figures[Foto sebuah drone kuadkopter Phantom.]{0.6}{quadcopter}{quadcopter_david_j}
+\caption{Sebuah kuadkopter Phantom.\vspace{-1mm} \\
+   -----------------------------\vspace{-2mm}\\
+   {\footnotesize Foto oleh David J
+   (\oiRedirect{textbook-quadcopter_david_j}
+       {http://flic.kr/p/oiWLNu}).
+   \oiRedirect{textbook-CC_BY_2}{Lisensi CC-BY 2.0.}
+   Foto ini telah dipangkas dan diberi bingkai.}}
+\label{quadcopter_david_j}
+\end{figure}
+
+\captionsetup{width=\mycaptionwidth}
+
+\D{\newpage}
+
+%\Add{Dalam Latihan Terbimbing~\ref{qualityCtrlEngHypothesisEval}, selisih nolnya adalah 0.03. Namun, dalam sebagian besar penerapan selisih rata-rata atau proporsi, selisih nolnya adalah~0. Walaupun rincian untuk selisih rata-rata tidak berubah ketika selisih nol bernilai nol atau bukan nol, hal itu tidak berlaku untuk selisih proporsi. Seperti akan kita lihat pada Bagian~\ref{}, uji hipotesis untuk selisih proporsi dengan nilai nol 0 memerlukan perhatian tambahan.}
+
+\begin{examplewrap}
+\begin{nexample}{Insinyur pengendalian mutu dari
+    Latihan Terbimbing~\ref{carWheelBladeManufacturer}
+    mengumpulkan sampel bilah dengan memeriksa 1000 bilah
+    dari setiap perusahaan, dan ia mendapati bahwa 899 bilah dari
+    pemasok saat ini serta 958 bilah dari calon pemasok lolos
+    inspeksi.
+    Dengan menggunakan data tersebut, evaluasi hipotesis dari
+    Latihan Terbimbing~\ref{carWheelBladeManufacturer}
+    pada tingkat signifikansi 5\%.}
+  \label{qualityCtrlEngHypothesisEval}%
+  Pertama, kita memeriksa syarat-syaratnya.
+  Sampel tersebut belum tentu acak, sehingga agar dapat melanjutkan
+  kita harus mengasumsikan bahwa semua bilah saling independen;
+  untuk sampel ini, kita akan menganggap asumsi tersebut
+  masuk akal, tetapi insinyur itu lebih mengetahui
+  apakah asumsi tersebut tepat.
+  Syarat sukses--gagal juga terpenuhi untuk setiap sampel.
+  Dengan demikian, selisih proporsi sampel,
+  $0.958 - 0.899 = 0.059$, dapat dianggap berasal dari distribusi
+  yang mendekati normal.
+
+  Galat baku dihitung dengan menggunakan kedua proporsi
+  sampel karena dalam konteks ini kita tidak menggunakan
+  proporsi gabungan:
+  \begin{align*}
+  SE
+    = \sqrt{\frac{0.958(1-0.958)}{1000} +
+        \frac{0.899(1-0.899)}{1000}}
+    = 0.0114
+  \end{align*}
+  Dalam uji hipotesis ini, karena hipotesis nol menyatakan bahwa
+  $p_1 - p_2 = 0.03$, proporsi sampel digunakan
+  untuk menghitung galat baku, bukan proporsi
+  gabungan.
+
+  Selanjutnya, kita menghitung statistik uji dan menggunakannya untuk memperoleh
+  nilai-p, yang digambarkan dalam
+  Gambar~\ref{bladesTwoSampleHTPValueQC}.
+  \begin{align*}
+  Z = \frac{\text{estimasi titik} - \text{nilai nol}}{SE}
+    = \frac{0.059 - 0.03}{0.0114} = 2.54
+  \end{align*}
+  Dengan menggunakan distribusi normal baku untuk statistik uji ini,
+  kita memperoleh luas ekor kanan sebesar 0.006,
+  lalu menggandakannya untuk mendapatkan nilai-p: 0.012.
+  Kita menolak hipotesis nol karena 0.012 lebih kecil daripada 0.05.
+  Karena kita mengamati kenaikan lebih dari 3 poin persentase pada proporsi bilah
+  yang lolos inspeksi, kita memiliki bukti yang signifikan
+  secara statistik bahwa proporsi kelulusan inspeksi bilah bermutu tinggi
+  melampaui proporsi kelulusan inspeksi bilah yang digunakan saat ini
+  sebesar \emph{lebih dari} 3 poin persentase, sehingga melampaui klaim perusahaan.
+\end{nexample}
+\end{examplewrap}
+
+\begin{figure}[h]
+  \centering
+  \Figure[Ditampilkan distribusi normal yang berpusat di 0.03 dengan simpangan baku 0.0114. Daerah ekor kecil pada kedua sisi diarsir. Pada sisi atas, daerah ekor di atas 0.059 diarsir dan diberi anotasi nilai 0.006 yang menyatakan luas ekor atas tersebut. Ekor bawah yang bersesuaian juga diarsir.]{0.45}{bladesTwoSampleHTPValueQC}
+  \caption{Distribusi sampling selisih proporsi sampel jika hipotesis
+      nol benar.
+      Nilai-p ditunjukkan oleh daerah yang diarsir.}
+  \label{bladesTwoSampleHTPValueQC}
+\end{figure}
+
+
+\D{\newpage}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""a6e32195-1507-50f4-a3a0-88884cb47648""]"
 ac9c35c7-d890-5d7d-9a85-7b9d48601f65,06b28e64-c231-50b0-b1f6-648ba4ba5102,22,section_prose,en,ch_distributions/TeX/ch_distributions.tex,468,473,04dcfcfcf1399af2979f7b7569aaf71d2f2bbbeaccb66e61e5a1da41663753be,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,454,459,04dcfcfcf1399af2979f7b7569aaf71d2f2bbbeaccb66e61e5a1da41663753be,language_reviewed,"
 \D{\newpage}
 
@@ -14179,6 +15080,36 @@ terkena cacar air pada masa kanak-kanak? Bagaimana peluang ini berkaitan dengan
 jawaban Anda pada bagian (b)?
 \end{parts}
 }{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""d79c0e4f-9e37-5e77-9080-34fed0852af2""]"
+ce8b8412-1887-5101-8149-42e5481d881f,856505fb-f578-53f6-84b5-73d5c790a909,127,exercise,en,ch_inference_for_props/TeX/difference_of_two_proportions.tex,296,324,d46ea7ed61d479bbb2fa99d9e59c123a740ef8f9a902e2cdc972d2311691b125,id-ID,qa/b023-translation/staging/exercises-lines-213-406.id.tex,84,112,317052bcb60fefbdef9a4b685c2cc5ca1a5ab8eb9c4f6181c7a148ee6cb2d361,visually_checked,"% 27
+
+\eoce{\qt{Pekerja transportasi yang kurang tidur\label{sleep_deprived_driver_HT}} 
+National Sleep Foundation melakukan survei tentang kebiasaan tidur 
+pekerja transportasi yang dipilih secara acak dan sampel kontrol pekerja di luar sektor transportasi. 
+Hasil survei tersebut ditampilkan di bawah ini.
+\footfullcite{data:sleepTransport}\vspace{-1.8mm}
+\begin{center}
+\begin{tabular}{l c c c c c }
+						& 			& \multicolumn{4}{c}{\textit{Profesional Transportasi}} \\
+\cline{3-6}
+			& 			& 		& Pengemudi	& Operator		& Pengemudi Bus/ 		\\
+			& \textit{Kontrol}& Pilot	& Truk	& Kereta	& Taksi/Limusin	\\
+\cline{1-6}
+Tidur kurang dari 6 jam	& 35		& 19		& 35	& 29	& 21	\\
+Tidur 6 hingga 8 jam		& 193		& 132	    & 117	& 119	& 131	\\
+Tidur lebih dari 8 jam			& 64		& 51		& 51	& 32	& 58	\\
+\cline{1-6}
+Total						& 292		& 202	    & 203	& 180	& 210		
+\end{tabular}
+\end{center}\vspace{-1.2mm}
+Lakukan uji hipotesis untuk mengevaluasi apakah data ini memberikan bukti adanya 
+perbedaan antara proporsi pengemudi truk dan pekerja di luar sektor transportasi 
+(kelompok kontrol) yang tidur kurang dari 6 jam per hari, yakni 
+yang dianggap kurang tidur.
+}{}
+
+\D{\newpage}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""a6e32195-1507-50f4-a3a0-88884cb47648""]"
 ce94b7d4-b2af-587f-8684-e5a9ec23818a,b96cf383-2b68-558c-85e4-82c8b25f30de,1,exercise,en,ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,100,116,297e9e416cfb01b01d031a081710e74e6ddcf152e3212917eae375c5901ac6be,id-ID,repo/ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,98,113,480d80da6abcf60fd63d9893c6fdfe7124c92cef6ea6abdf16a10093da955536,translated,"\eoce{\qt{Kucing di YouTube\label{cats_on_youtube_definitions}} Misalkan Anda 
 ingin memperkirakan persentase video YouTube yang menampilkan kucing. Karena 
 mustahil menonton semua video di YouTube, Anda menggunakan pemilih video acak 
@@ -14202,6 +15133,36 @@ cea5d746-3331-5274-84a4-1c6c7bbf721a,a4e73da4-905d-55ee-8d61-b70d34d02530,15,pub
 $X$ diberikan oleh \\
 $\mu = E[X] = P(X = 0) \times 0 + P(X = 1) \times 1$ \\
 $= (1 - p) \times 0 + p\times 1 = 0 + p = p$}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""586d1610-5f32-5232-ba50-6e2a04daf45a""]"
+cec9e4bf-ec6a-55f2-b153-edaad0f1ae1e,69f5c732-6e45-5282-ae95-2e58aa3e13e8,117,exercise,en,ch_inference_for_props/TeX/difference_of_two_proportions.tex,1,29,4a4d925801d3ec50189366ea76b0b41d9c3f494735ede94a8b00a933614c5e94,id-ID,qa/b023-translation/staging/exercises-lines-1-212.id.tex,1,29,ae88dee08c28bdcbf7e630f5cdc8baaac4b06d497cde5a1e9ad17ee19515c4be,visually_checked,"\exercisesheader{}
+
+% 17
+
+\eoce{\qt{Eksperimen sosial, Bagian I\label{social_experiment_conditions}} Sebuah ``eksperimen 
+sosial"" yang dilakukan oleh sebuah program TV menyelidiki tindakan orang ketika melihat 
+seorang perempuan dengan memar yang sangat kentara dirundung oleh pacarnya. Pada dua 
+kesempatan berbeda di restoran yang sama, pasangan yang sama diperagakan. Dalam 
+satu skenario, perempuan tersebut berpakaian ``provokatif'', sedangkan dalam 
+skenario lainnya ia berpakaian ``konservatif''. Tabel di bawah menunjukkan berapa 
+banyak pengunjung restoran yang hadir dalam setiap skenario dan apakah 
+mereka turun tangan.
+\begin{center}
+\begin{tabular}{ll cc c} 
+            &               & \multicolumn{2}{c}{\textit{Skenario}} \\
+\cline{3-4}
+                            &       & Provokatif   & Konservatif  & Jumlah \\
+\cline{2-5}
+\multirow{2}{*}{\textit{Turun tangan}} &Ya & 5   & 15  & 20    \\
+                            &Tidak     & 15      & 10  & 25 \\
+\cline{2-5}
+                            &Jumlah  & 20      & 25  & 45 \\
+\end{tabular}
+\end{center}
+Jelaskan mengapa distribusi sampling selisih antara 
+proporsi orang yang turun tangan dalam skenario provokatif dan konservatif 
+tidak mengikuti distribusi yang mendekati normal.
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""a6e32195-1507-50f4-a3a0-88884cb47648""]"
 cffb2141-10c4-5b98-8a61-76af53570c53,2b26a40e-e53d-5697-9e81-9dd25b95261f,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,197,208,147fa0ec81bbe2912ed23f53d65655ac38e430315e10584bc2e2e4f99464e5b5,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,209,220,037b37e9f1e5420748132fd6587b1b6d50797279fbb738a3ae494f11e5cfba80,translated,"% 39
 
 \eocesol{(a)~Orang yang tidak merespons mungkin akan memberikan jawaban berbeda
@@ -14497,6 +15458,36 @@ Bagaimana dengan probabilitas memperoleh \resp{1}, \resp{2}, \resp{3}, \resp{4},
 \D{\newpage}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+d696bc08-779b-562c-8302-33e4635f2a84,2c2ed3ce-aef6-5db5-86b6-1cd5b111252a,125,exercise,en,ch_inference_for_props/TeX/difference_of_two_proportions.tex,231,259,894ce35d78a688247f3fe69543369e2c3c7ed19792527de9b802780beb2e0423,id-ID,qa/b023-translation/staging/exercises-lines-213-406.id.tex,19,47,baca04098dc46e12ade9afb1dbe6d476cb2c78f0d0674ee22e0a1da14b0896ee,visually_checked,"% 25
+
+\eoce{\qt{Pengeboran lepas pantai, Bagian II\label{offshore_drill_edu_support_HT}}
+Hasil jajak pendapat yang mengevaluasi dukungan terhadap pengeboran minyak
+dan gas alam di lepas pantai California diperkenalkan
+dalam Latihan~\ref{offshore_drill_edu_dontknow_HT}.
+\begin{center}
+\begin{tabular}{l c c}
+				& \multicolumn{2}{c}{\textit{Lulusan Perguruan Tinggi}} \\
+\cline{2-3}
+						& Ya		& Tidak				\\
+\cline{1-3}
+Mendukung		& 154		& 132			\\
+Menentang		& 180		& 126			\\
+Tidak tahu	& 104		& 131			\\
+\cline{1-3}
+ Total		& 438		& 389		
+\end{tabular}
+\end{center}
+\begin{parts}
+\item Berapa persen lulusan perguruan tinggi dan berapa persen responden yang bukan 
+lulusan perguruan tinggi dalam sampel ini yang mendukung pengeboran minyak dan gas alam di lepas pantai 
+California?
+\item Lakukan uji hipotesis untuk menentukan apakah data memberikan bukti kuat 
+bahwa proporsi lulusan perguruan tinggi yang mendukung pengeboran lepas pantai di California 
+berbeda dari proporsi responden yang bukan lulusan perguruan tinggi.
+\end{parts}
+}{}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""a6e32195-1507-50f4-a3a0-88884cb47648""]"
 d6dc7565-157f-5c68-b031-20b8eca1f7c0,38d29400-2764-5109-a7fd-d245c7e52b17,1,section_body,en,ch_intro_to_data/TeX/ch_intro_to_data.tex,799,1250,54c3eecb13e5bfd23889ef26a08d40140fbb3c7241a4b5d510d32f03d78d9263,id-ID,repo/ch_intro_to_data/TeX/ch_intro_to_data.tex,774,1247,2bc5638aa55698b891bcc0a048b8fd053316528e8ac3b19e6da6bc78d439c60b,translated,"\section{Prinsip dan strategi pengambilan sampel}
 \label{overviewOfDataCollectionPrinciples}
 \label{section_obs_data_sampling}
@@ -15117,6 +16108,22 @@ daerah berikut? Pastikan Anda menggambar grafik. \vspace{-3mm}
 \end{parts}
 \end{multicols}
 }{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""5013dc5b-3a29-5516-9948-98c064aa43e8""]"
+da3c0ade-77a9-5af4-bbab-e6bc156294e6,6951ea72-89ba-55eb-8098-ffbcba49cb5f,225,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,1418,1432,711a67afa860de0a9b413f592ce09a7901782ef491eac9625999fe2e0eea91f1,id-ID,qa/b023-translation/staging/public-answers-lines-1363-1472.id.tex,56,70,8d437c8e167b6303a2db35db08eb36b3e46994ce18876686acc5e3524c2fda14,visually_checked,"% 25
+
+\eocesol{(a)~Lulusan perguruan tinggi: 35.2\%. Bukan lulusan perguruan tinggi: 33.9\%.
+(b)~Misalkan $p_{CG}$ dan $p_{NCG}$ menyatakan proporsi
+lulusan perguruan tinggi 
+dan bukan lulusan perguruan tinggi yang mendukung pengeboran lepas pantai.
+$H_0: p_{CG} = p_{NCG}$. 
+$H_A: p_{CG} \ne p_{NCG}$. Syarat independensi terpenuhi (sampel acak),
+dan syarat sukses--gagal, yang diperiksa 
+dengan menggunakan proporsi gabungan ($\hat{p}_{\textit{pool}} = 286/827 = 0.346$), juga 
+terpenuhi. $Z = 0.37$ $\to$ nilai-p $=0.7113$. Karena nilai-p 
+$> \alpha$ (0.05), kita gagal menolak $H_0$. Data tidak memberikan bukti kuat 
+adanya perbedaan antara proporsi lulusan perguruan tinggi
+dan bukan lulusan perguruan tinggi yang mendukung pengeboran lepas pantai di California.}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""a6e32195-1507-50f4-a3a0-88884cb47648""]"
 da9488cb-d432-54a6-bd6c-8ac7ca10eca0,70f34cf6-8094-557c-aa8c-9c95a3542dbe,21,guided_inline_answer,en,ch_distributions/TeX/ch_distributions.tex,465,467,73a1f37eac5f182d3397739dae4f40a24e8733f52e7ff31220ecfdcf61a625bb,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,451,453,28f830ffc24091fb8f86a780e98303c01de851c2ea2bffbcea561b6f3145072b,language_reviewed,"\footnotetext{Kita telah memperoleh peluang ini pada
   Contoh~\ref{satAbove1190Exam}: 0.6736. \\
   \Figures[Sebuah distribusi normal dengan rata-rata 1100 dan simpangan baku 200 diarsir dari kiri sampai sebuah garis vertikal yang terletak sedikit di atas rata-rata distribusi.]{0.35}{subtractingArea}{subtracted}}
@@ -15615,6 +16622,221 @@ orang itu memiliki gelar dari perguruan tinggi. Berapakah peluang bahwa orang te
 memilih Scott Walker?
 \footfullcite{data:scott}
 }{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+df4ecd82-4083-50b1-a0b5-ff3e40c659c0,499597dd-69ae-5d05-9d8a-7d80e7a8c46a,2,subsection,en,ch_inference_for_props/TeX/ch_inference_for_props.tex,653,866,f7a2dea31f3291d2013731bcafdab4287d2b3c3b8b3983e14e3edf7582ec67ea,id-ID,qa/b023-translation/staging/section-lines-555-866.id.tex,99,312,7d91ce6b6738c7b908b2524e1267c8e7eb460d05423b734a49ae1a5120c08d23,visually_checked,"\subsection[Interval kepercayaan untuk $p_1 - p_2$]
+    {Interval kepercayaan untuk $\pmb{p_1 - p_2}$}
+
+\index{data!CPR dan pengencer darah|(}
+
+%In the setting of confidence intervals for a difference
+%of two proportions, the two sample proportions are used
+%to verify the success-failure condition and also compute
+%the standard error, just as was the case with a single
+%proportion.
+\noindent%
+Kita dapat menerapkan rumus interval kepercayaan umum
+untuk selisih dua proporsi,
+dengan menggunakan $\hat{p}_1 - \hat{p}_2$ sebagai estimasi
+titik dan menyubstitusikan rumus $SE$:
+\begin{align*}
+&\text{estimasi titik} \ \pm\  z^{\star} \times SE
+&&\to
+&&\hat{p}_1 - \hat{p}_2 \ \pm\ 
+    z^{\star} \times
+   \sqrt{\frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}}
+\end{align*}
+Kita juga dapat mengikuti urutan langkah yang sama, yaitu
+Siapkan, Periksa, Hitung, dan Simpulkan, ketika
+menghitung interval kepercayaan
+atau menyelesaikan uji hipotesis.
+Rinciannya sedikit berbeda,
+tetapi pendekatan umumnya tetap sama.
+Pikirkan langkah-langkah ini ketika menerapkan metode statistik.
+
+\begin{examplewrap}
+\begin{nexample}{Kita mempertimbangkan eksperimen pada pasien
+    yang menjalani resusitasi jantung-paru (CPR)
+    akibat serangan jantung dan
+    kemudian dirawat di
+    rumah sakit.
+    Pasien-pasien ini dialokasikan secara acak ke kelompok perlakuan
+    yang menerima pengencer darah atau ke kelompok kontrol
+    yang tidak menerima pengencer darah.
+    Variabel hasil yang menjadi perhatian adalah apakah
+    pasien bertahan hidup sekurang-kurangnya selama 24 jam.
+    Hasilnya ditampilkan dalam
+    Gambar~\ref{resultsForCPRStudyInSmallSampleSection}.
+    Periksalah apakah kita dapat memodelkan selisih
+    proporsi sampel menggunakan distribusi normal.}
+
+  Pertama, kita memeriksa independensi:
+  karena ini adalah eksperimen dengan alokasi acak,
+  syarat ini terpenuhi.
+  
+  Selanjutnya, kita memeriksa syarat sukses--gagal untuk
+  setiap kelompok.
+  Terdapat sedikitnya 10 sukses dan 10 gagal pada
+  setiap lengan eksperimen (11, 14, 39, 26),
+  sehingga syarat ini juga terpenuhi.
+
+  Karena kedua syarat terpenuhi,
+  selisih proporsi sampel dapat
+  dimodelkan secara wajar menggunakan distribusi normal
+  untuk data ini.
+\end{nexample}
+\end{examplewrap}
+
+\begin{figure}[ht]
+\centering
+\begin{tabular}{lccccc}
+\hline
+			&& Bertahan hidup 	& Meninggal 	&& Total \\
+\hline
+Kontrol		&& 11		& 39		&& 50 \\
+Perlakuan		&& 14		& 26		&& 40 \\
+\hline
+Total			&& 25		& 65		&& 90 \\
+\hline
+\end{tabular}
+\caption{Hasil studi CPR.
+    Pasien dalam kelompok perlakuan diberi
+    pengencer darah, sedangkan pasien dalam kelompok kontrol
+    tidak diberi pengencer darah.}
+\label{resultsForCPRStudyInSmallSampleSection}
+\end{figure}
+
+\begin{examplewrap}
+\begin{nexample}{
+    Buat dan interpretasikan interval kepercayaan 90\% untuk
+    selisih tingkat kelangsungan hidup dalam studi CPR.}
+
+  Kita gunakan $p_t$ untuk tingkat kelangsungan
+  hidup kelompok perlakuan dan $p_c$ untuk kelompok kontrol
+  sebagai berikut:
+  \begin{align*}
+  \hat{p}_{t} - \hat{p}_{c}
+    = \frac{14}{40} - \frac{11}{50}
+    = 0.35 - 0.22
+    = 0.13
+  \end{align*}
+  Kita menggunakan rumus galat baku yang diberikan pada
+  halaman~\pageref{seForDiffOfProp}.
+  Seperti dalam kasus proporsi satu sampel,
+  kita menggunakan estimasi sampel dari setiap proporsi
+  dalam rumus untuk konteks interval kepercayaan:
+  \begin{align*}
+  SE \approx \sqrt{\frac{0.35 (1 - 0.35)}{40} +
+      \frac{0.22 (1 - 0.22)}{50}}
+    = 0.095
+  \end{align*}
+  Untuk interval kepercayaan 90\%, kita gunakan $z^{\star} = 1.6449$:
+  \begin{align*}
+  \text{estimasi titik} \ \pm\ z^{\star} \times SE
+    \quad \to \quad 0.13 \ \pm\ 1.6449 \times  0.095
+    \quad \to \quad (-0.026, 0.286)
+  \end{align*}
+  Kita yakin pada tingkat kepercayaan 90\% bahwa,
+  bagi pasien yang serupa dengan peserta studi,
+  dampaknya berkisar dari -2.6 hingga +28.6
+  poin persentase terhadap tingkat kelangsungan hidup.
+  Karena 0 poin persentase termuat dalam interval,
+  kita tidak memiliki cukup informasi untuk menyatakan
+  apakah pengencer darah membantu atau membahayakan
+  pasien serangan jantung yang dirawat setelah
+  menjalani CPR.
+\end{nexample}
+\end{examplewrap}
+
+\index{data!CPR dan pengencer darah|)}
+
+%\begin{onebox}{Confidence interval for a difference
+%    of two proportions}
+%  Once you've determined a confidence interval for the
+%  difference of two proportions would be helpful for an
+%  application, there are four steps to constructing the interval:
+%  \begin{description}
+%  \item[Prepare.]
+%      Identify the sample proportions and sample sizes
+%      for each of the two groups,
+%      determine what confidence level you wish to use.
+%  \item[Check.]
+%      Verify the conditions to ensure each sample
+%      proportion is nearly normal.
+%      The success-failure condition should be checked
+%      for each group.
+%  \item[Calculate.]
+%      If the conditions hold, compute $SE$,
+%      find $z^{\star}$, and construct the interval.
+%  \item[Conclude.]
+%      Interpret the confidence interval in the context
+%      of the problem.
+%  \end{description}
+%\end{onebox}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Sebuah eksperimen selama 5 tahun
+dilakukan untuk mengevaluasi efektivitas
+minyak ikan dalam mengurangi kejadian kardiovaskular,
+dengan setiap subjek dialokasikan secara acak ke salah satu dari dua
+kelompok perlakuan.
+Kita akan meninjau kejadian serangan jantung pada pasien-pasien ini:
+\begin{center}
+\begin{tabular}{l ccc}
+  \hline
+  & serangan jantung &
+      tanpa kejadian & Total \\
+  \hline
+  minyak ikan & 145 & 12788 & 12933 \\
+  plasebo & 200 & 12738 & 12938 \\
+  \hline
+\end{tabular}
+\end{center}
+% library(openintro); library(xtable); xtable(fish_oil_18[[3]], digits = 0)
+Buatlah interval kepercayaan 95\% untuk efek minyak ikan
+terhadap serangan jantung pada pasien yang cukup terwakili oleh
+peserta studi tersebut.
+Interpretasikan juga interval tersebut dalam konteks
+studi.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{
+  Karena pasien dialokasikan secara acak,
+  pengamatan terhadap subjek independen, baik di dalam maupun di antara
+  kedua kelompok.
+  Syarat sukses--gagal juga terpenuhi untuk kedua
+  kelompok karena semua frekuensi sekurang-kurangnya~10.
+  Hal ini memenuhi syarat yang diperlukan untuk memodelkan
+  selisih proporsi menggunakan distribusi normal.
+
+  Hitung proporsi sampel
+  ($\hat{p}_{\text{fish oil}} = 0.0112$,
+    $\hat{p}_{\text{placebo}} = 0.0155$),
+  estimasi titik selisihnya ($0.0112 - 0.0155 = -0.0043$),
+  dan galat baku
+  ($SE = \sqrt{\frac{0.0112 \times 0.9888}{12933} +
+      \frac{0.0155 \times 0.9845}{12938}}
+    = 0.00145$).
+  Selanjutnya, masukkan nilai-nilai tersebut ke dalam rumus umum
+  interval kepercayaan; kita akan menggunakan tingkat
+  kepercayaan 95\% dengan $z^{\star} = 1.96$:
+  \begin{align*}
+  -0.0043 \pm 1.96 \times 0.00145
+      \quad \to \quad
+      (-0.0071, -0.0015)
+  \end{align*}
+  Kita yakin 95\% bahwa minyak ikan menurunkan
+  tingkat kejadian serangan jantung sebesar
+  0.15 hingga 0.71 poin persentase
+  (dari tingkat dasar sekitar 1.55\%)
+  selama periode 5 tahun pada subjek yang serupa
+  dengan peserta dalam studi tersebut.
+  Karena seluruh interval berada di bawah~0,
+  data memberikan bukti kuat
+  bahwa suplemen minyak ikan mengurangi kejadian serangan jantung
+  pada pasien yang serupa dengan peserta studi tersebut.}
+ 
+  
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""a6e32195-1507-50f4-a3a0-88884cb47648""]"
 df5e5859-bd53-5838-b35c-b5d6356bc40d,f420613b-16ba-5da1-a8a8-6e5b2cf9ccb9,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,241,246,975461e0dd623247e267d5801f1c7441395bad8a014f616583288347aa323c0d,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,255,260,3aa2b8919fb3ee3cb04e9053c27cedc5220b7c562742eb1112193cef04e6ee85,translated,"% 1
 
 \eocesol{(a)~Asosiasi positif: mamalia dengan masa kehamilan yang lebih lama cenderung memiliki 
@@ -15760,6 +16982,77 @@ Berdasarkan informasi bahwa gedung parkir penuh, peluang bahwa acara olahraga se
 \D{\newpage}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+e3cead6d-14da-54be-812f-61f5225b2aff,848b5c0c-c26d-5bd5-ae07-95acfc51c118,1,subsection,en,ch_inference_for_props/TeX/ch_inference_for_props.tex,583,652,3cb4426f4b769b15889044e85af3290217604604b6bb9a7b3719597914a80d7a,id-ID,qa/b023-translation/staging/section-lines-555-866.id.tex,29,98,cab3d913d380162b86c611328cfcdbc2ff603224c0df360753cab5b5015bec9f,visually_checked,"\subsection{Distribusi sampling dari selisih
+    dua proporsi}
+
+Seperti halnya $\hat{p}$, selisih dua
+proporsi sampel $\hat{p}_1 - \hat{p}_2$ dapat dimodelkan
+menggunakan distribusi normal ketika syarat-syarat tertentu
+terpenuhi.
+Pertama, kita memerlukan syarat independensi yang lebih luas,
+dan kedua,
+syarat sukses--gagal harus dipenuhi oleh kedua kelompok.
+
+\begin{onebox}{Syarat agar
+    distribusi sampling dari
+    $\pmb{\hat{\MakeLowercase{p}}_1 -
+        \hat{\MakeLowercase{p}}_2}$
+    mendekati normal}
+  Selisih $\hat{p}_1 - \hat{p}_2$ dapat dimodelkan
+  menggunakan distribusi normal ketika
+  \begin{itemize}
+  \setlength{\itemsep}{0mm}
+  \item \emph{Independensi yang diperluas.}
+    Data independen, baik di dalam setiap kelompok maupun
+    antarkelompok.
+    Secara umum, syarat ini terpenuhi jika data berasal
+    dari dua sampel acak yang independen
+    atau dari eksperimen dengan alokasi acak.
+  \item \emph{Syarat sukses--gagal.}
+    Syarat sukses--gagal terpenuhi untuk kedua
+    kelompok; kita memeriksa jumlah sukses dan gagal
+    secara terpisah pada setiap kelompok.
+  \end{itemize}
+  Ketika syarat-syarat ini terpenuhi,
+  galat baku dari $\hat{p}_1 - \hat{p}_2$ adalah
+  \index{galat baku (SE)!selisih proporsi}
+  \begin{eqnarray*}
+  SE %_{\hat{p}_1 - \hat{p}_2}
+    %= \sqrt{SE_{\hat{p}_1}^2 + SE_{\hat{p}_2}^2}
+    = \sqrt{\frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}}
+  \label{seForDiffOfProp}
+  \end{eqnarray*}
+  dengan $p_1$ dan $p_2$ menyatakan proporsi populasi,
+  sedangkan $n_1$ dan $n_2$ menyatakan ukuran sampel.
+\end{onebox}
+
+%\noindent%
+%Ultimately, we can check the two conditions by
+%thinking of it as a broader independence check
+%along with a check on the success-failure condition
+%for each group:
+%\begin{description}
+%\item[Independence, extended.]
+%    The data are independent within and between
+%    the two groups.
+%    Generally this is satisfied if the data come
+%    from two independent random samples
+%    or if the data come from a randomized experiment.
+%\item[Success-failure condition.]
+%    The success-failure condition holds for both
+%    groups, where we check successes and failures
+%    in each group separately.
+%\end{description}
+
+%For the difference in two means, the standard error formula took the following form:
+%\begin{eqnarray*}
+%SE_{\bar{x}_{1} - \bar{x}_{2}} = \sqrt{SE_{\bar{x}_1}^2 + SE_{\bar{x}_2}^2}
+%\end{eqnarray*}
+%The standard error for the difference in two proportions takes a similar form. The reasons behind this similarity are rooted in the probability theory of Section~\ref{randomVariablesSection}, which is described for this context in Guided Practice~\vref{derivingSEForDiffOfTwoMeansExercise}.
+
+
+%\D{\newpage}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""a6e32195-1507-50f4-a3a0-88884cb47648""]"
 e404dff7-dda5-5b2d-96d5-89c475dcfd92,2ffcfeef-a30d-5f61-943c-e0004b8e792c,1,section_prose,en,ch_distributions/TeX/ch_distributions.tex,2111,2115,7d5a1fd6635f5387e268de39c14ef6790e3dfcf23d9d8a9b088dcd40f9508df1,id-ID,scratch/b018-build-candidate/source-snapshot-b018/ch_distributions/TeX/ch_distributions.tex,2043,2047,db9277964d9a4de96c380eac151eba9c412529e7d32624a3c536ecd1a21b9fbc,visually_checked,"\section{Distribusi Poisson}
 \label{poisson}
 
@@ -17116,6 +18409,36 @@ P(\text{\ultruthfashion{}})
 
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+fbcb0831-4914-514a-9061-a61731466725,9fab543d-9c7d-53c2-b046-4a9e22bf5648,229,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,1443,1472,d80e46e0d325a0235ee45697dbc8835deec57ebc576dba773cec284123160331,id-ID,qa/b023-translation/staging/public-answers-lines-1363-1472.id.tex,81,109,f8aa213fc5b57a34e9a848057ad8c5c28ad3941d88464eb3dc2652095d8b8837,visually_checked,"% 29
+
+\eocesol{(a)~Ringkasan studi:
+\begin{center}\scriptsize
+\begin{tabular}{l l c c c}
+        &           & \multicolumn{2}{c}{\textit{Kegagalan virologis}}   &       \\
+\cline{3-4}
+        &           & Ya       & Tidak        & Total \\
+\cline{2-5}
+\multirow{2}{*}{\textit{Pengobatan}}     & Nevirapine    & 26   & 94 & 120   \\
+        & Lopinavir & 10            & 110   & 120   \\
+\cline{2-5}
+        & Total     & 36            & 204   & 240
+\end{tabular}
+\end{center}
+(b)~$H_0: p_N = p_L$. Tidak terdapat perbedaan tingkat kegagalan virologis antara 
+kelompok nevirapine dan lopinavir. $H_A: p_N \ne p_L$. Terdapat 
+perbedaan tingkat kegagalan virologis antara kelompok nevirapine dan lopinavir.
+(c)~Penempatan acak digunakan, sehingga pengamatan dalam setiap kelompok saling 
+independen. Jika pasien dalam studi mewakili pasien dalam 
+populasi umum (sesuatu yang mustahil diperiksa dari informasi yang diberikan), 
+temuan tersebut juga dapat digeneralisasi kepada populasi dengan yakin. Syarat 
+sukses--gagal, yang diperiksa dengan menggunakan proporsi gabungan 
+($\hat{p}_{pool} = 36/240 = 0.15$), terpenuhi. $Z = 2.89$ $\to$ nilai-p 
+$=0.0039$.
+Karena nilai-p kecil, kita menolak $H_0$.
+Terdapat bukti kuat adanya perbedaan tingkat kegagalan virologis antara
+kelompok nevirapine dan lopinavir.
+Pengobatan dan kegagalan virologis tampaknya tidak saling independen.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""a6e32195-1507-50f4-a3a0-88884cb47648""]"
 fcefba29-842d-5996-b35d-778711423e2e,d7955a56-864b-500a-a33b-7c476b342c7e,1,section-lead,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,2166,2174,6ef028db0b51282c6d6f478215bcd7a18f56cbdcea285e7dbc291186add7708d,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,2098,2106,c01ca36ff7acd225ef58df587ab91b42e65eb040f890a21c9546ac3492f6fcff,language_reviewed,"\section{Studi kasus: vaksin malaria}
 \label{caseStudyMalariaVaccine}
 

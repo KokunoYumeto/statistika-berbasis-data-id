@@ -1,0 +1,1557 @@
+{
+  "$schema": "interlanguage.r011-b023-translation-audit/v1",
+  "authority": {
+    "blueprint": {
+      "bytes": 33090,
+      "path": "qa/b023-source/R011-B023_BOUNDARY_BLUEPRINT.json",
+      "sha256": "96c8a0f4f02f6344244007efa433dcfc75d1804498ea92fce5570d826045d0b4"
+    },
+    "branch": "master",
+    "commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "full_sources": [
+      {
+        "bytes": 103385,
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_props/TeX/ch_inference_for_props.tex",
+        "role": "main_source",
+        "sha256": "a2470ca3041209d1f1194b3ab27e8124405d8fdbd1ccece89a0319be13fae8a7"
+      },
+      {
+        "bytes": 16786,
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_props/TeX/difference_of_two_proportions.tex",
+        "role": "exercise_source",
+        "sha256": "443eb8835af956fea62293b2ea6bb2e928ec311ac1981b0e2266fc092f3f8397"
+      },
+      {
+        "bytes": 106045,
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/extraTeX/eoceSolutions/eoceSolutions.tex",
+        "role": "public_answer_source",
+        "sha256": "6c4e01376db4c023cc7b3f9949490e57220ef1cb831c580da71efde6ce723268"
+      }
+    ],
+    "observed": "2026-08-20",
+    "reader_witness": "https://www.openintro.org/book/os/",
+    "repository": "https://github.com/OpenIntroStat/openintro-statistics",
+    "tree": "d61cc601e7d97759ce805900520f784d02a0489e"
+  },
+  "boundary_id": "R011-B023",
+  "checks": {
+    "exercises-1-212": {
+      "delimiters": {
+        "equal": true,
+        "source": {
+          "[": 3,
+          "]": 3,
+          "{": 96,
+          "}": 96
+        },
+        "target": {
+          "[": 3,
+          "]": 3,
+          "{": 96,
+          "}": 96
+        }
+      },
+      "environments": {
+        "sequence_equal": true,
+        "source_count": 24,
+        "target_count": 24
+      },
+      "figures": {
+        "calls": [],
+        "count": 0
+      },
+      "identifiers": {
+        "count": 13,
+        "names": [
+          "label",
+          "label",
+          "footfullcite",
+          "label",
+          "footfullcite",
+          "label",
+          "footfullcite",
+          "label",
+          "ref",
+          "label",
+          "footfullcite",
+          "label",
+          "footfullcite"
+        ],
+        "sequence_equal": true
+      },
+      "layout": {
+        "approved_variant": "exact_source_line_layout",
+        "blank_positions_source": [
+          2,
+          4,
+          29,
+          31,
+          57,
+          59,
+          89,
+          91,
+          93,
+          134,
+          136,
+          161,
+          163,
+          173,
+          175,
+          183,
+          210,
+          212
+        ],
+        "blank_positions_target": [
+          2,
+          4,
+          29,
+          31,
+          57,
+          59,
+          89,
+          91,
+          93,
+          134,
+          136,
+          161,
+          163,
+          173,
+          175,
+          183,
+          210,
+          212
+        ],
+        "comment_positions_source": [
+          3,
+          30,
+          58,
+          92,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132,
+          135,
+          162,
+          174,
+          211
+        ],
+        "comment_positions_target": [
+          3,
+          30,
+          58,
+          92,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132,
+          135,
+          162,
+          174,
+          211
+        ],
+        "explicit_reflow_exception": false,
+        "line_count_exact": true,
+        "source_lines": 212,
+        "target_lines": 212
+      },
+      "math": {
+        "frozen_math_normalization_edits": [],
+        "skeleton_equal_after_text_and_frozen_value_normalization": true,
+        "source_display_count": 0,
+        "source_inline_count": 14,
+        "target_display_count": 0,
+        "target_inline_count": 14
+      },
+      "numbers": {
+        "corrected_numeric_replacements": [],
+        "equal_after_explicit_exceptions": true,
+        "lexical_number_removals": [],
+        "source_count": 123,
+        "target_count": 123
+      },
+      "tex_controls": {
+        "allowed_percent_removals": [],
+        "allowed_term_qa_control_additions": [],
+        "equal_after_explicit_exceptions": true,
+        "source_count": 140,
+        "target_count": 140
+      }
+    },
+    "exercises-213-406": {
+      "delimiters": {
+        "equal": true,
+        "source": {
+          "[": 0,
+          "]": 0,
+          "{": 107,
+          "}": 107
+        },
+        "target": {
+          "[": 0,
+          "]": 0,
+          "{": 107,
+          "}": 107
+        }
+      },
+      "environments": {
+        "sequence_equal": true,
+        "source_count": 26,
+        "target_count": 26
+      },
+      "figures": {
+        "calls": [],
+        "count": 0
+      },
+      "identifiers": {
+        "count": 14,
+        "names": [
+          "label",
+          "ref",
+          "label",
+          "ref",
+          "label",
+          "footfullcite",
+          "label",
+          "footfullcite",
+          "label",
+          "footfullcite",
+          "footfullcite",
+          "label",
+          "footfullcite",
+          "label"
+        ],
+        "sequence_equal": true
+      },
+      "layout": {
+        "approved_variant": "accepted_prose_reflow_v1",
+        "blank_positions_source": [
+          16,
+          18,
+          20,
+          47,
+          49,
+          83,
+          85,
+          110,
+          112,
+          114,
+          145,
+          147,
+          174,
+          176
+        ],
+        "blank_positions_target": [
+          7,
+          16,
+          18,
+          20,
+          47,
+          49,
+          83,
+          85,
+          110,
+          112,
+          114,
+          145,
+          147,
+          173,
+          175
+        ],
+        "comment_positions_source": [
+          19,
+          48,
+          84,
+          113,
+          146,
+          175
+        ],
+        "comment_positions_target": [
+          19,
+          48,
+          84,
+          113,
+          146,
+          174
+        ],
+        "explicit_reflow_exception": true,
+        "line_count_exact": false,
+        "source_lines": 194,
+        "target_lines": 193
+      },
+      "math": {
+        "frozen_math_normalization_edits": [],
+        "skeleton_equal_after_text_and_frozen_value_normalization": true,
+        "source_display_count": 0,
+        "source_inline_count": 0,
+        "target_display_count": 0,
+        "target_inline_count": 0
+      },
+      "numbers": {
+        "corrected_numeric_replacements": [],
+        "equal_after_explicit_exceptions": true,
+        "lexical_number_removals": [],
+        "source_count": 113,
+        "target_count": 113
+      },
+      "tex_controls": {
+        "allowed_percent_removals": [],
+        "allowed_term_qa_control_additions": [],
+        "equal_after_explicit_exceptions": true,
+        "source_count": 124,
+        "target_count": 124
+      }
+    },
+    "public-answers-1363-1472": {
+      "delimiters": {
+        "equal": true,
+        "source": {
+          "[": 0,
+          "]": 0,
+          "{": 56,
+          "}": 56
+        },
+        "target": {
+          "[": 0,
+          "]": 0,
+          "{": 56,
+          "}": 56
+        }
+      },
+      "environments": {
+        "sequence_equal": true,
+        "source_count": 8,
+        "target_count": 8
+      },
+      "figures": {
+        "calls": [],
+        "count": 0
+      },
+      "identifiers": {
+        "count": 0,
+        "names": [],
+        "sequence_equal": true
+      },
+      "layout": {
+        "approved_variant": "accepted_answer_prose_reflow_v1",
+        "blank_positions_source": [
+          2,
+          11,
+          13,
+          19,
+          21,
+          39,
+          41,
+          55,
+          57,
+          70,
+          72,
+          80,
+          82
+        ],
+        "blank_positions_target": [
+          2,
+          11,
+          13,
+          19,
+          21,
+          39,
+          41,
+          55,
+          57,
+          70,
+          72,
+          80,
+          82
+        ],
+        "comment_positions_source": [
+          1,
+          12,
+          20,
+          40,
+          56,
+          71,
+          81
+        ],
+        "comment_positions_target": [
+          1,
+          12,
+          20,
+          40,
+          56,
+          71,
+          81
+        ],
+        "explicit_reflow_exception": true,
+        "line_count_exact": false,
+        "source_lines": 110,
+        "target_lines": 109
+      },
+      "math": {
+        "frozen_math_normalization_edits": [
+          {
+            "id": "C16_Z",
+            "replacement": "-3.18"
+          },
+          {
+            "id": "C16_p",
+            "replacement": "0.0014"
+          },
+          {
+            "id": "C17_Z",
+            "replacement": "0.39"
+          },
+          {
+            "id": "C17_p",
+            "replacement": "0.6966"
+          },
+          {
+            "id": "C16_math_wrapper",
+            "replacement": "plain-equality"
+          },
+          {
+            "id": "C18_alpha_math_wrapper",
+            "replacement": "plain-threshold-prose"
+          }
+        ],
+        "skeleton_equal_after_text_and_frozen_value_normalization": true,
+        "source_display_count": 2,
+        "source_inline_count": 36,
+        "target_display_count": 2,
+        "target_inline_count": 36
+      },
+      "numbers": {
+        "corrected_numeric_replacements": [
+          {
+            "authority": "3.18",
+            "id": "C16_Z",
+            "target": "3.16"
+          },
+          {
+            "authority": "0.0014",
+            "id": "C16_p",
+            "target": "0.0016"
+          },
+          {
+            "authority": "0.39",
+            "id": "C17_Z",
+            "target": "0.37"
+          },
+          {
+            "authority": "0.6966",
+            "id": "C17_p",
+            "target": "0.7113"
+          }
+        ],
+        "equal_after_explicit_exceptions": true,
+        "lexical_number_removals": [],
+        "source_count": 82,
+        "target_count": 82
+      },
+      "tex_controls": {
+        "allowed_percent_removals": [
+          {
+            "source_line": 1397,
+            "token": "\\%"
+          },
+          {
+            "source_line": 1398,
+            "token": "\\%"
+          }
+        ],
+        "allowed_term_qa_control_additions": [
+          {
+            "target_line": 77,
+            "token": "\\alpha"
+          }
+        ],
+        "equal_after_explicit_exceptions": true,
+        "source_count": 57,
+        "target_count": 56
+      }
+    },
+    "section-1131-1336": {
+      "delimiters": {
+        "equal": true,
+        "source": {
+          "[": 4,
+          "]": 4,
+          "{": 162,
+          "}": 162
+        },
+        "target": {
+          "[": 4,
+          "]": 4,
+          "{": 162,
+          "}": 162
+        }
+      },
+      "environments": {
+        "sequence_equal": true,
+        "source_count": 32,
+        "target_count": 32
+      },
+      "figures": {
+        "calls": [
+          {
+            "args": [
+              "0.6",
+              "quadcopter",
+              "quadcopter_david_j"
+            ],
+            "macro": "Figures",
+            "ordinal": 1,
+            "source_alt": "A photo of a Phantom quadcopter drone.",
+            "target_alt": "Foto sebuah drone kuadkopter Phantom.",
+            "target_line": 45
+          },
+          {
+            "args": [
+              "0.45",
+              "bladesTwoSampleHTPValueQC"
+            ],
+            "macro": "Figure",
+            "ordinal": 2,
+            "source_alt": "A normal distribution is shown that is centered at 0.03 with a standard deviation of 0.0114. Small tail areas on each side are shaded. On the upper end, the tail area above 0.059 is shaded, and this area is annotated with a value signifying the area of that upper tail as 0.006. The corresponding lower tail is also shaded.",
+            "target_alt": "Ditampilkan distribusi normal yang berpusat di 0.03 dengan simpangan baku 0.0114. Daerah ekor kecil pada kedua sisi diarsir. Pada sisi atas, daerah ekor di atas 0.059 diarsir dan diberi anotasi nilai 0.006 yang menyatakan luas ekor atas tersebut. Ekor bawah yang bersesuaian juga diarsir.",
+            "target_line": 119
+          }
+        ],
+        "count": 2
+      },
+      "identifiers": {
+        "count": 18,
+        "names": [
+          "ref",
+          "label",
+          "oiRedirect",
+          "oiRedirect",
+          "label",
+          "ref",
+          "ref",
+          "ref",
+          "ref",
+          "label",
+          "ref",
+          "label",
+          "ref",
+          "ref",
+          "label",
+          "ref",
+          "label",
+          "input"
+        ],
+        "sequence_equal": true
+      },
+      "layout": {
+        "approved_variant": "exact_source_line_layout",
+        "blank_positions_source": [
+          2,
+          19,
+          40,
+          42,
+          55,
+          57,
+          59,
+          61,
+          83,
+          97,
+          116,
+          125,
+          126,
+          128,
+          131,
+          141,
+          161,
+          182,
+          183,
+          184,
+          204,
+          205
+        ],
+        "blank_positions_target": [
+          2,
+          19,
+          40,
+          42,
+          55,
+          57,
+          59,
+          61,
+          83,
+          97,
+          116,
+          125,
+          126,
+          128,
+          131,
+          141,
+          161,
+          182,
+          183,
+          184,
+          204,
+          205
+        ],
+        "comment_positions_source": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          60,
+          185,
+          186,
+          187,
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203
+        ],
+        "comment_positions_target": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          60,
+          185,
+          186,
+          187,
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203
+        ],
+        "explicit_reflow_exception": false,
+        "line_count_exact": true,
+        "source_lines": 206,
+        "target_lines": 206
+      },
+      "math": {
+        "frozen_math_normalization_edits": [],
+        "skeleton_equal_after_text_and_frozen_value_normalization": true,
+        "source_display_count": 5,
+        "source_inline_count": 29,
+        "target_display_count": 5,
+        "target_inline_count": 29
+      },
+      "numbers": {
+        "corrected_numeric_replacements": [],
+        "equal_after_explicit_exceptions": true,
+        "lexical_number_removals": [
+          {
+            "reason": "2-proportion -> dua proporsi",
+            "source_line": 1131,
+            "value": "2"
+          },
+          {
+            "reason": "2-proportion -> dua proporsi",
+            "source_line": 1133,
+            "value": "2"
+          }
+        ],
+        "source_count": 122,
+        "target_count": 120
+      },
+      "tex_controls": {
+        "allowed_percent_removals": [
+          {
+            "source_line": 1158,
+            "token": "\\%"
+          },
+          {
+            "source_line": 1164,
+            "token": "\\%"
+          },
+          {
+            "source_line": 1167,
+            "token": "\\%"
+          },
+          {
+            "source_line": 1239,
+            "token": "\\%"
+          },
+          {
+            "source_line": 1242,
+            "token": "\\%"
+          }
+        ],
+        "allowed_term_qa_control_additions": [],
+        "equal_after_explicit_exceptions": true,
+        "source_count": 139,
+        "target_count": 134
+      }
+    },
+    "section-555-866": {
+      "delimiters": {
+        "equal": true,
+        "source": {
+          "[": 10,
+          "]": 10,
+          "{": 152,
+          "}": 152
+        },
+        "target": {
+          "[": 10,
+          "]": 10,
+          "{": 152,
+          "}": 152
+        }
+      },
+      "environments": {
+        "sequence_equal": true,
+        "source_count": 44,
+        "target_count": 44
+      },
+      "figures": {
+        "calls": [],
+        "count": 0
+      },
+      "identifiers": {
+        "count": 8,
+        "names": [
+          "label",
+          "ref",
+          "label",
+          "ref",
+          "vref",
+          "ref",
+          "label",
+          "pageref"
+        ],
+        "sequence_equal": true
+      },
+      "layout": {
+        "approved_variant": "exact_source_line_layout",
+        "blank_positions_source": [
+          3,
+          27,
+          28,
+          31,
+          39,
+          72,
+          90,
+          96,
+          97,
+          101,
+          103,
+          128,
+          144,
+          148,
+          154,
+          161,
+          180,
+          185,
+          222,
+          224,
+          248,
+          284,
+          311,
+          312
+        ],
+        "blank_positions_target": [
+          3,
+          27,
+          28,
+          31,
+          39,
+          72,
+          90,
+          96,
+          97,
+          101,
+          103,
+          128,
+          144,
+          148,
+          154,
+          161,
+          180,
+          185,
+          222,
+          224,
+          248,
+          284,
+          311,
+          312
+        ],
+        "comment_positions_source": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          65,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          91,
+          92,
+          93,
+          94,
+          95,
+          98,
+          104,
+          105,
+          106,
+          107,
+          108,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247,
+          268
+        ],
+        "comment_positions_target": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          65,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          91,
+          92,
+          93,
+          94,
+          95,
+          98,
+          104,
+          105,
+          106,
+          107,
+          108,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247,
+          268
+        ],
+        "explicit_reflow_exception": false,
+        "line_count_exact": true,
+        "source_lines": 312,
+        "target_lines": 312
+      },
+      "math": {
+        "frozen_math_normalization_edits": [],
+        "skeleton_equal_after_text_and_frozen_value_normalization": true,
+        "source_display_count": 7,
+        "source_inline_count": 26,
+        "target_display_count": 7,
+        "target_inline_count": 26
+      },
+      "numbers": {
+        "corrected_numeric_replacements": [],
+        "equal_after_explicit_exceptions": true,
+        "lexical_number_removals": [],
+        "source_count": 136,
+        "target_count": 136
+      },
+      "tex_controls": {
+        "allowed_percent_removals": [
+          {
+            "source_line": 766,
+            "token": "\\%"
+          },
+          {
+            "source_line": 766,
+            "token": "\\%"
+          },
+          {
+            "source_line": 769,
+            "token": "\\%"
+          }
+        ],
+        "allowed_term_qa_control_additions": [],
+        "equal_after_explicit_exceptions": true,
+        "source_count": 192,
+        "target_count": 189
+      }
+    },
+    "section-867-1130": {
+      "delimiters": {
+        "equal": true,
+        "source": {
+          "[": 7,
+          "]": 7,
+          "{": 204,
+          "}": 204
+        },
+        "target": {
+          "[": 7,
+          "]": 7,
+          "{": 204,
+          "}": 204
+        }
+      },
+      "environments": {
+        "sequence_equal": true,
+        "source_count": 48,
+        "target_count": 48
+      },
+      "figures": {
+        "calls": [
+          {
+            "args": [
+              "0.45",
+              "mammograms",
+              "mammogramPValue"
+            ],
+            "macro": "Figures",
+            "ordinal": 1,
+            "source_alt": "A normal distribution is shown centered at 0 with a standard deviation of 0.0007. The lower tail is shaded below -0.00012 and the upper tail is shaded above 0.00012. Visually, it looks like very roughly 90\\% of the area under the normal distribution is shaded.",
+            "target_alt": "Ditampilkan sebuah distribusi normal yang berpusat di 0 dengan simpangan baku 0.0007. Ekor bawah diarsir di bawah -0.00012 dan ekor atas diarsir di atas 0.00012. Secara visual, sekitar 90\\% luas di bawah distribusi tampak diarsir.",
+            "target_line": 188
+          }
+        ],
+        "count": 1
+      },
+      "identifiers": {
+        "count": 7,
+        "names": [
+          "ref",
+          "label",
+          "label",
+          "ref",
+          "label",
+          "ref",
+          "ref"
+        ],
+        "sequence_equal": true
+      },
+      "layout": {
+        "approved_variant": "exact_source_line_layout",
+        "blank_positions_source": [
+          3,
+          6,
+          16,
+          18,
+          20,
+          35,
+          44,
+          46,
+          61,
+          84,
+          115,
+          137,
+          146,
+          148,
+          178,
+          193,
+          229,
+          232,
+          260,
+          261,
+          262,
+          264
+        ],
+        "blank_positions_target": [
+          3,
+          6,
+          16,
+          18,
+          20,
+          35,
+          44,
+          46,
+          61,
+          84,
+          115,
+          137,
+          146,
+          148,
+          178,
+          193,
+          229,
+          232,
+          260,
+          261,
+          262,
+          264
+        ],
+        "comment_positions_source": [
+          7,
+          8,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259
+        ],
+        "comment_positions_target": [
+          7,
+          8,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259
+        ],
+        "explicit_reflow_exception": false,
+        "line_count_exact": true,
+        "source_lines": 264,
+        "target_lines": 264
+      },
+      "math": {
+        "frozen_math_normalization_edits": [],
+        "skeleton_equal_after_text_and_frozen_value_normalization": true,
+        "source_display_count": 7,
+        "source_inline_count": 30,
+        "target_display_count": 7,
+        "target_inline_count": 30
+      },
+      "numbers": {
+        "corrected_numeric_replacements": [],
+        "equal_after_explicit_exceptions": true,
+        "lexical_number_removals": [],
+        "source_count": 109,
+        "target_count": 109
+      },
+      "tex_controls": {
+        "allowed_percent_removals": [
+          {
+            "source_line": 1030,
+            "token": "\\%"
+          }
+        ],
+        "allowed_term_qa_control_additions": [],
+        "equal_after_explicit_exceptions": true,
+        "source_count": 190,
+        "target_count": 189
+      }
+    }
+  },
+  "exercise_answer_closure": {
+    "exercise_ids": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "exercise_labels": [
+      "social_experiment_conditions",
+      "heart_transplant_conditions",
+      "gender_color_preference_CI_concept",
+      "government_shutdown_CI_concept",
+      "national_health_plan_CI_replaced",
+      "sleep_OR_CA_CI",
+      "offshore_drill_edu_dontknow_HT",
+      "sleep_OR_CA_HT",
+      "offshore_drill_edu_support_HT",
+      "full_body_scan_HT_Error",
+      "sleep_deprived_driver_HT",
+      "prenatal_vitamin_autism_HT",
+      "hiv_africa_HT",
+      "apple_doctor_HT_concept"
+    ],
+    "exercise_records": 14,
+    "o001_mastery_gap_ids": [
+      18,
+      20,
+      22,
+      24,
+      26,
+      28,
+      30
+    ],
+    "public_answer_ids": [
+      17,
+      19,
+      21,
+      23,
+      25,
+      27,
+      29
+    ],
+    "public_answer_records": 7,
+    "restricted_instructor_solutions_accessed_or_invented": false
+  },
+  "figure_call_closure": [
+    {
+      "args": [
+        "0.45",
+        "mammograms",
+        "mammogramPValue"
+      ],
+      "chunk": "section-867-1130",
+      "macro": "Figures",
+      "ordinal": 1,
+      "source_alt": "A normal distribution is shown centered at 0 with a standard deviation of 0.0007. The lower tail is shaded below -0.00012 and the upper tail is shaded above 0.00012. Visually, it looks like very roughly 90\\% of the area under the normal distribution is shaded.",
+      "target_alt": "Ditampilkan sebuah distribusi normal yang berpusat di 0 dengan simpangan baku 0.0007. Ekor bawah diarsir di bawah -0.00012 dan ekor atas diarsir di atas 0.00012. Secara visual, sekitar 90\\% luas di bawah distribusi tampak diarsir.",
+      "target_line": 188
+    },
+    {
+      "args": [
+        "0.6",
+        "quadcopter",
+        "quadcopter_david_j"
+      ],
+      "chunk": "section-1131-1336",
+      "macro": "Figures",
+      "ordinal": 1,
+      "source_alt": "A photo of a Phantom quadcopter drone.",
+      "target_alt": "Foto sebuah drone kuadkopter Phantom.",
+      "target_line": 45
+    },
+    {
+      "args": [
+        "0.45",
+        "bladesTwoSampleHTPValueQC"
+      ],
+      "chunk": "section-1131-1336",
+      "macro": "Figure",
+      "ordinal": 2,
+      "source_alt": "A normal distribution is shown that is centered at 0.03 with a standard deviation of 0.0114. Small tail areas on each side are shaded. On the upper end, the tail area above 0.059 is shaded, and this area is annotated with a value signifying the area of that upper tail as 0.006. The corresponding lower tail is also shaded.",
+      "target_alt": "Ditampilkan distribusi normal yang berpusat di 0.03 dengan simpangan baku 0.0114. Daerah ekor kecil pada kedua sisi diarsir. Pada sisi atas, daerah ekor di atas 0.059 diarsir dan diberi anotasi nilai 0.006 yang menyatakan luas ekor atas tersebut. Ekor bawah yang bersesuaian juga diarsir.",
+      "target_line": 119
+    }
+  ],
+  "frozen_source_corrections": {
+    "allowed_count": 17,
+    "applied": [
+      {
+        "evidence_found": [
+          "pendekatan umumnya tetap sama"
+        ],
+        "id": "C01",
+        "kind": "grammar",
+        "location": "ch_inference_for_props/TeX/ch_inference_for_props.tex:680"
+      },
+      {
+        "evidence_found": [
+          "-2.6 hingga +28.6",
+          "poin persentase"
+        ],
+        "id": "C02",
+        "kind": "percentage_point_language",
+        "location": "ch_inference_for_props/TeX/ch_inference_for_props.tex:765-768"
+      },
+      {
+        "evidence_found": [
+          "minyak ikan menurunkan"
+        ],
+        "id": "C03",
+        "kind": "grammar",
+        "location": "ch_inference_for_props/TeX/ch_inference_for_props.tex:855"
+      },
+      {
+        "evidence_found": [
+          "rincian interval kepercayaan"
+        ],
+        "id": "C04",
+        "kind": "grammar",
+        "location": "ch_inference_for_props/TeX/ch_inference_for_props.tex:931"
+      },
+      {
+        "evidence_found": [
+          "0.012 poin persentase"
+        ],
+        "id": "C05",
+        "kind": "percentage_point_language",
+        "location": "ch_inference_for_props/TeX/ch_inference_for_props.tex:1024-1030"
+      },
+      {
+        "evidence_found": [
+          "tidak mendeteksi secara statistik"
+        ],
+        "id": "C06",
+        "kind": "statistical_wording",
+        "location": "ch_inference_for_props/TeX/ch_inference_for_props.tex:1056"
+      },
+      {
+        "evidence_found": [
+          "lebih dari 3 poin persentase",
+          "\\emph{lebih dari}"
+        ],
+        "id": "C07",
+        "kind": "percentage_point_estimand",
+        "location": "ch_inference_for_props/TeX/ch_inference_for_props.tex:1239-1243"
+      },
+      {
+        "evidence_found": [
+          "distribusi normal yang berpusat di 0.03"
+        ],
+        "id": "C08",
+        "kind": "figure_caption",
+        "location": "ch_inference_for_props/TeX/ch_inference_for_props.tex:1249-1252"
+      },
+      {
+        "evidence_found": [
+          "galat baku"
+        ],
+        "id": "C09",
+        "kind": "grammar",
+        "location": "ch_inference_for_props/TeX/ch_inference_for_props.tex:1275-1280"
+      },
+      {
+        "evidence_found": [
+          "derivingSEForDiffOfTwoMeansExercise"
+        ],
+        "id": "C10",
+        "kind": "stable_label_alias",
+        "location": "ch_inference_for_props/TeX/ch_inference_for_props.tex:1292-1295"
+      },
+      {
+        "evidence_found": [
+          "independen"
+        ],
+        "id": "C11",
+        "kind": "independence_condition",
+        "location": "ch_inference_for_props/TeX/ch_inference_for_props.tex:1306-1311"
+      },
+      {
+        "evidence_found": [
+          "40,000 atau lebih"
+        ],
+        "id": "C12",
+        "kind": "boundary_value",
+        "location": "ch_inference_for_props/TeX/difference_of_two_proportions.tex:109-112"
+      },
+      {
+        "evidence_found": [
+          "nevirapine"
+        ],
+        "id": "C13",
+        "kind": "nevirapine_spelling",
+        "location": "ch_inference_for_props/TeX/difference_of_two_proportions.tex:365,369,375; extraTeX/eoceSolutions/eoceSolutions.tex:1452,1458-1460,1470-1471"
+      },
+      {
+        "evidence_found": [
+          "Dapatkah ia menggunakan"
+        ],
+        "id": "C14",
+        "kind": "grammar",
+        "location": "ch_inference_for_props/TeX/difference_of_two_proportions.tex:403"
+      },
+      {
+        "evidence_found": [
+          "poin persentase"
+        ],
+        "id": "C15",
+        "kind": "percentage_point_language",
+        "location": "extraTeX/eoceSolutions/eoceSolutions.tex:1396-1399"
+      },
+      {
+        "evidence_found": [
+          "-3.16",
+          "0.0016"
+        ],
+        "id": "C16",
+        "kind": "corrected_public_answer_values",
+        "location": "extraTeX/eoceSolutions/eoceSolutions.tex:1404-1411"
+      },
+      {
+        "evidence_found": [
+          "0.37",
+          "0.7113"
+        ],
+        "id": "C17",
+        "kind": "corrected_public_answer_values",
+        "location": "extraTeX/eoceSolutions/eoceSolutions.tex:1420-1429"
+      }
+    ],
+    "count": 17,
+    "unauthorized_exception_count": 0
+  },
+  "language": {
+    "banned_active_source_phrases": [
+      "Difference of two proportions",
+      "Sampling distribution of the difference",
+      "Confidence intervals for",
+      "Hypothesis tests for the difference",
+      "More on 2-proportion hypothesis tests",
+      "A mammogram is an X-ray procedure",
+      "We are 90% confident",
+      "Create and interpret a 90% confidence interval",
+      "The quality control engineer from",
+      "Since we observed a larger-than-3",
+      "Conduct a hypothesis test to evaluate",
+      "Can she used a two-proportion",
+      "This is not a randomized experiment"
+    ],
+    "required_terms": [
+      "selisih dua proporsi",
+      "distribusi sampling",
+      "interval kepercayaan",
+      "uji hipotesis",
+      "syarat sukses--gagal",
+      "poin persentase",
+      "nilai-p"
+    ],
+    "residue": [],
+    "status": "PASS"
+  },
+  "next_cursor": {
+    "label": "oneWayChiSquare",
+    "label_line": 1345,
+    "line": 1344,
+    "next_boundary": "R011-B024",
+    "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_props/TeX/ch_inference_for_props.tex"
+  },
+  "rights_and_scope": {
+    "canonical_source_mutated": false,
+    "credentials_accessed": false,
+    "git_used": false,
+    "live_backend_or_controls_mutated": false,
+    "network_used": false,
+    "quadcopter_photo": "CC BY 2.0 David J; attribution/crop-border notice retained by source closure",
+    "release_or_publication_mutated": false,
+    "restricted_solutions_accessed_or_invented": false,
+    "text_source_starting_license": "CC BY-SA 3.0; ancillary rights remain component-specific per B023 blueprint",
+    "upstream_contacted": false
+  },
+  "source_slices": [
+    {
+      "bytes": 10808,
+      "line_range_inclusive": "555-866",
+      "lines": 312,
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_props/TeX/ch_inference_for_props.tex",
+      "role": "section_6_2_opening_confidence_intervals_and_cpr_fish_oil",
+      "sha256": "e2dc88e7b2b7d534cd3b6dd2edab235fa946da916be82738cf8fbb32578f00e7"
+    },
+    {
+      "bytes": 11171,
+      "line_range_inclusive": "867-1130",
+      "lines": 264,
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_props/TeX/ch_inference_for_props.tex",
+      "role": "two_proportion_hypothesis_tests_and_mammography",
+      "sha256": "96cb0a1d997eaee40f446477df0ebda3c7c6b27edd61dca572dfe637a169d8b1"
+    },
+    {
+      "bytes": 9739,
+      "line_range_inclusive": "1131-1336",
+      "lines": 206,
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_props/TeX/ch_inference_for_props.tex",
+      "role": "nonzero_null_quadcopter_blade_quality_and_se_derivation",
+      "sha256": "a2d5b2dd936c88f3b4696d92a04bc20beed9a5bba01a9ab217b61d2d670029b9"
+    },
+    {
+      "bytes": 8571,
+      "line_range_inclusive": "1-212",
+      "lines": 212,
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_props/TeX/difference_of_two_proportions.tex",
+      "role": "exercises_17_23",
+      "sha256": "6b302801b86e930cd90915cb993183e332644db35bfc64cb69bfe7eeddfd937b"
+    },
+    {
+      "bytes": 8215,
+      "line_range_inclusive": "213-406",
+      "lines": 194,
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_props/TeX/difference_of_two_proportions.tex",
+      "role": "exercises_24_30",
+      "sha256": "61b48768924c02bc3acd81de08646a66756c7a96af43fbccfe143e75e9530884"
+    },
+    {
+      "bytes": 4811,
+      "line_range_inclusive": "1363-1472",
+      "lines": 110,
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/extraTeX/eoceSolutions/eoceSolutions.tex",
+      "role": "linked_public_odd_answers",
+      "sha256": "a5e216d508f48d3421669683186dfbf451cba585ab3099c404f72c9a87f6e121"
+    }
+  ],
+  "status": "PASS_TRANSLATION_AND_PROTECTED_TEX_CLOSURE",
+  "targets": [
+    {
+      "bytes": 11169,
+      "lines": 312,
+      "path": "qa/b023-translation/staging/section-lines-555-866.id.tex",
+      "role": "section_6_2_opening_confidence_intervals_and_cpr_fish_oil",
+      "sha256": "48377c34c80c7274df54c5d846283f5273c5b242459530e3d22f734c97718a57"
+    },
+    {
+      "bytes": 11534,
+      "lines": 264,
+      "path": "qa/b023-translation/staging/section-lines-867-1130.id.tex",
+      "role": "two_proportion_hypothesis_tests_and_mammography",
+      "sha256": "8613f402b2d80cd448d5bd4344d0b59f4d83651314b8017010699b8705647bf3"
+    },
+    {
+      "bytes": 9929,
+      "lines": 206,
+      "path": "qa/b023-translation/staging/section-lines-1131-1336.id.tex",
+      "role": "nonzero_null_quadcopter_blade_quality_and_se_derivation",
+      "sha256": "5d368714583a4a26d24690b3029cace720af36f44eb9405da08ddc831bb7ed17"
+    },
+    {
+      "bytes": 9300,
+      "lines": 212,
+      "path": "qa/b023-translation/staging/exercises-lines-1-212.id.tex",
+      "role": "exercises_17_23",
+      "sha256": "8daeac4bbaa6fc30a04661aff48b4e3b811a3d453f6ac55d281e6702d231d106"
+    },
+    {
+      "bytes": 8621,
+      "lines": 193,
+      "path": "qa/b023-translation/staging/exercises-lines-213-406.id.tex",
+      "role": "exercises_24_30",
+      "sha256": "2d6813663b602c7ced3c8beb9cea1f7622a14ab4556700e9cdc69b3823e7c5b6"
+    },
+    {
+      "bytes": 5044,
+      "lines": 109,
+      "path": "qa/b023-translation/staging/public-answers-lines-1363-1472.id.tex",
+      "role": "linked_public_odd_answers",
+      "sha256": "dcd732c240580edeb7b586901ba5a51df309658b8f7588ed850bd3719012b923"
+    }
+  ],
+  "translation_provenance": "OpenAI Codex gpt-5.6-sol, Ultra"
+}
