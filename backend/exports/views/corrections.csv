@@ -10,6 +10,7 @@ id,affected_id,category,summary,disposition,confidence,status
 088ee0b9-7833-55ff-b938-6aa4b0400795,ef7f55d2-6426-5c6b-a525-29e747da8d0b,placebo_causation,,,high,active
 091299c0-c4ac-59a3-9306-1aec296d71e2,e0a39794-bf97-5b87-871a-1ef69e6dbaf0,corrected_public_answer_values,,,high,active
 0979c4d8-b360-565c-a46f-36443b5b3861,18b41b7a-5d41-55c2-ac5d-22a7da096c0d,stale_dormant_comment,,,high,active
+0ac94edf-89de-5660-b0b8-9555eaf18dcf,b9713b11-3896-5f98-b45d-dbd8d50965d2,,,,high,active
 0c5a474b-68e3-5fc9-98b9-4ab40411d821,a766f9cd-f941-5953-b2d9-9d5f0b9a8764,layout_pagination,The default 4 mm pre-exercise spacing forced only EoCE 28(a)-(b) onto an otherwise empty continuation page.,applied_before_terminal_b011_translation_gate,high,active
 0cb9964d-2ff4-5b17-92c1-b4d1f72b3ab4,06b28e64-c231-50b0-b1f6-648ba4ba5102,source_correction,B014-SC009: ch_distributions/figures/eoce/GRE_intro/GRE_intro.pdf,applied_in_terminal_b014_candidate,high,active
 0f64dce5-24a1-550b-a0ef-197dd2be431b,91fc3301-cb1f-55c9-be90-4bcb58dca050,accessibility_point_count,,,high,active
@@ -77,9 +78,11 @@ id,affected_id,category,summary,disposition,confidence,status
 5c0539c3-f99d-5106-9f7a-01d7a80d17fa,4c8457ff-0769-59f0-9a0d-040a50fb107c,source_accessibility,B013-SC001: The difference in appears will first be discussed,applied_in_terminal_b013_candidate,high,active
 5cfb6ea5-1ac3-5696-8894-33902d3303ef,1c22723c-f2d0-5445-bccd-2c220201d232,producer_text_inconsistency,,,high,active
 5e52953d-5c51-5921-81f8-97cd5ffdda60,d2b0d97b-fb59-5cdf-9170-ae1cdeea3398,missing_identifier,,,high,active
+6003f070-976c-5e41-af1b-38b2fffd6ed2,b9713b11-3896-5f98-b45d-dbd8d50965d2,,,,high,active
 6559db6a-ab68-5b21-9744-9380fb79e5a8,631bf039-12b7-5f5f-944a-429966c4e45f,independence_condition,,,high,active
 6656c8c6-a66c-50ff-b275-ed018b554ac4,e6ac9457-94fd-5c0e-9e5d-64019cffef9a,layout_reflow_section_break,,,high,active
 71df5bf4-fac9-5cd2-9428-b87b4a33693b,2789ea8d-6fa1-5e81-8dcc-c7d4bff3c42c,publication_state_semantics,,clarified_in_backend_QA_controls_and_checkpoint; published_package_bytes_unchanged,high,active
+73b6c3b6-f5e6-556e-94ec-b3f9f283c7ff,b9713b11-3896-5f98-b45d-dbd8d50965d2,,,,high,active
 73f47817-a29e-5574-9a29-c9371044c61f,4ad79ac2-b6ea-5eb3-86f4-298962d0bb50,public_answer_category_misalignment,,,high,active
 7792c8af-f392-53a9-a5ee-901a0358ed1f,c526fa55-62c1-5a35-bb8d-40abfc2fc3d8,public_answer_design_contradiction,,,high,active
 7efc0506-5000-5d1b-8647-9bf8e60fa074,b4622874-ecdd-5924-918f-e2e9255a053b,chi_square_nonnegative_not_positive,,,high,active
@@ -91,6 +94,7 @@ id,affected_id,category,summary,disposition,confidence,status
 87636e43-d788-51e2-9aea-8362fa95bfa0,6836cc12-95af-5484-8839-aa1e016867b6,publication_state_semantics,,clarified_in_backend_QA_controls_and_checkpoint; published_package_bytes_unchanged,high,active
 890b1089-827e-517f-952d-002eaa81f1aa,a766f9cd-f941-5953-b2d9-9d5f0b9a8764,localization_accessibility,"The twelve not_picked strings inside the resp macro are reader-visible texttt output, not opaque identifiers.",applied_before_terminal_b011_translation_gate,high,active
 8ac4eb09-f136-550c-a3f5-b6e8385325ab,f03bc0fc-6c96-5db2-8d50-46b2ac141f2b,accessibility_semantics,"The 0.0689 leaf is Midterm=A and Final=Other, but the source alt text describes other-and-other.",applied_in_isolated_b010_candidate,high,active
+8c9b1e3b-4ee8-5c8b-bb7c-45ff4fdb3cb1,b9713b11-3896-5f98-b45d-dbd8d50965d2,,,,high,active
 8d40d947-eeca-570c-a75c-3a6a3b551ec3,c30ed712-53d9-5d5c-9e77-fc405aee5528,accessibility_marker_accuracy,State the first-year exception and identify crosses for women and points for men.,hold_until_corpus_complete_then_deduplicate,high,active
 8e35debf-4dd5-5e87-bf3a-4f0eb0b5bed9,dbda91d1-7c2a-59ea-8049-c1847a4c4218,invalid_variable_identifier,,,high,active
 9055ae2a-5052-524d-a9cb-91302b9e16e7,c79f2f09-2450-563f-a049-ef63fea47746,fitted_parameter_degrees_of_freedom,,,high,active
@@ -105,6 +109,8 @@ id,affected_id,category,summary,disposition,confidence,status
 9f72ffb8-d0b0-5069-8d0f-b47afc6e09fe,ab39d771-26e7-5872-b2ef-081a53a1644b,binomial_standard_error_square_root,,,high,active
 9fd4de0a-e488-5d3a-a671-0f452707e375,cda64c06-7961-5028-afbc-01956ce7d61c,layout_reflow_exercise_break,,,high,active
 a0902a70-b856-5d34-bf64-379a29184d90,b9823605-b359-533a-9cb9-84628fa32225,layout_reflow_answer_break,,,high,active
+a14eb2bf-4a1f-5e99-8dfb-6525ad6cef57,b9713b11-3896-5f98-b45d-dbd8d50965d2,,,,high,active
+a233da61-b48a-5c30-9d96-466f5b86d90c,b9713b11-3896-5f98-b45d-dbd8d50965d2,,,,high,active
 a5f473f6-7eaf-558e-b795-0f2a6b9b54da,06b28e64-c231-50b0-b1f6-648ba4ba5102,source_correction,"B014-SC011: Q1 = 23.13, Q3 = 26.86, IQR = 26.86 - 23.13 = 3.73",applied_in_terminal_b014_candidate,high,active
 a63c4c75-ad22-5303-ac23-503f563b4916,e7980cec-c849-5c30-aac2-a5305b8270d0,typographic_duplication,,,high,active
 a804f0d4-d595-5aa8-beb2-010ec78535bc,5a337c31-cd63-530d-9f43-917e5cc22e7a,localization_language,Answer 25(d) used an awkward nominal phrase for removing a chip.,applied_before_terminal_b011_translation_gate,high,active
@@ -123,6 +129,7 @@ b4529f9f-06fd-58cd-8d0a-ae8979953049,67a193b9-bacc-52c3-ba96-17f706246d41,index_
 b4d9cb30-b224-5b6f-ae07-0b77047eba62,38d29400-2764-5109-a7fd-d245c7e52b17,component_rights,,,high,active
 b642518e-29bb-5956-9da7-6255124eb478,affe87a9-0bfc-5ab3-9232-48b74cfd45dc,variable_inventory,,,high,active
 b75ead67-152e-5c89-9dbe-5e2aa87c10a0,ca0df825-ca52-52be-a3e6-0c3090edaa4c,grammar_number_agreement,B017-C001: high-confidence upstream copyedit candidate,recorded_not_applied_to_authority,high,active
+b7e20304-b379-5b6d-b308-b0fb4b204cb7,b9713b11-3896-5f98-b45d-dbd8d50965d2,,,,high,active
 b8fbb49c-1fa0-52b7-98d8-d084de30600f,8b9932bf-3164-5e36-a64a-304ae1894c90,spatial_reference,,,high,active
 ba91278d-5d5f-5b3a-a8d7-1efb8edc6a0e,b4cd26a2-3443-5b4d-9a38-f2d9766ae10a,accessibility_grammar,,,high,active
 ba9a1557-65a1-5584-83ee-8c2a6f5b7be0,4a0f5bef-95db-5c6c-ae94-097778cff15d,layout_reflow_float_and_exercise_header,,,high,active
@@ -173,6 +180,7 @@ f37d9469-6522-51a4-b13a-aa4a9263617b,be9d7454-a37d-597d-8b35-e25c50236f78,public
 f3af540f-ee51-5b77-98d5-c0ea244236e4,499597dd-69ae-5d05-9d8a-7d80e7a8c46a,grammar,,,high,active
 f5018e71-b22f-53b8-bbb1-5d50949b9db8,a1a0c4d5-bb5f-5f11-8467-b85b96386d98,boundary_value,,,high,active
 f6901230-2c1c-5fcc-9281-75b01448e7fa,38d29400-2764-5109-a7fd-d245c7e52b17,sampling_method_semantics,,,high,active
+f70f9c14-9e48-551e-a7a4-1217e1109bf5,b9713b11-3896-5f98-b45d-dbd8d50965d2,,,,high,active
 f848e477-28c3-5d43-9126-d19a526736b9,631bf039-12b7-5f5f-944a-429966c4e45f,stable_label_alias,,,high,active
 f9383249-1d5d-58f0-9155-86786f242ec3,9cf167d5-4320-5a32-b56f-605c6e7ff489,index_mapping,,,high,active
 f97c2991-2917-5dfb-a6a0-269a0bbf7978,3413dcec-8e83-5165-b99b-ed8b369a5a32,figure_caption,,,high,active

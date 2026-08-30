@@ -1,0 +1,93 @@
+{
+  "$schema": "interlanguage.r011-b025-exercises-answers-translation-qa/v1",
+  "answer_tex_checks": {
+    "brace_counts_equal": true,
+    "expected_lines": 44,
+    "label_ref_sequence_equal": true,
+    "line_count_equal": true,
+    "numeric_token_sequence_equal": true,
+    "protected_command_count": 35,
+    "protected_command_sequence_equal": true,
+    "source_braces_balanced": true,
+    "source_lines": 44,
+    "target_braces_balanced": true,
+    "target_lines": 44
+  },
+  "boundary_id": "R011-B025",
+  "complete_corpus": false,
+  "credentials_accessed": false,
+  "exercise_ids": [
+    35,
+    36,
+    37,
+    38
+  ],
+  "exercise_tex_checks": {
+    "brace_counts_equal": true,
+    "expected_lines": 127,
+    "label_ref_sequence_equal": true,
+    "line_count_equal": true,
+    "numeric_token_sequence_equal": true,
+    "protected_command_count": 80,
+    "protected_command_sequence_equal": true,
+    "source_braces_balanced": true,
+    "source_lines": 127,
+    "target_braces_balanced": true,
+    "target_lines": 127
+  },
+  "git_used": false,
+  "network_used": false,
+  "o001_gap_ids": [
+    36,
+    38
+  ],
+  "o001_gap_ledger": {
+    "bytes": 2107,
+    "gap_ids": [
+      36,
+      38
+    ],
+    "path": "qa/b025-translation/staging/R011-B025_O001_MASTERY_GAPS.json",
+    "sha256": "5ca09682b02110ce941065c495683bbd36cd7ac9055c88dbd89b46512c4b8aee"
+  },
+  "public_answer_ids": [
+    35,
+    37
+  ],
+  "publication_performed": false,
+  "restricted_solutions_accessed_or_invented": false,
+  "source_exercises": {
+    "bytes": 4558,
+    "lines": 127,
+    "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_props/TeX/testing_for_independence_in_two-way_tables.tex",
+    "sha256": "5f22aeaa256054748f626dad74a279e57d3a098f6060dc057a9625f7b2259e9a"
+  },
+  "source_public_answer_slice": {
+    "byte_end_exclusive": 62685,
+    "byte_start": 61025,
+    "bytes": 1660,
+    "line_end": 1543,
+    "line_start": 1500,
+    "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/extraTeX/eoceSolutions/eoceSolutions.tex",
+    "public_answer_ids": [
+      35,
+      37
+    ],
+    "sha256": "b09e89cb4e0b98f1f38f75bea10dec562d3ac247aa2a55bc12ae8dc45dd1977c"
+  },
+  "status": "PASS_EXERCISES_35_38_AND_ALL_LINKED_PUBLIC_ODD_ANSWERS_TRANSLATED",
+  "target_exercises": {
+    "bytes": 4933,
+    "lines": 127,
+    "path": "qa/b025-translation/staging/exercises-lines-1-127.id.tex",
+    "sha256": "0d66bdb60c1edcf246e933ac0eab97bacaf237a573ec260e5a3463076731f440"
+  },
+  "target_public_answers": {
+    "bytes": 1748,
+    "lines": 44,
+    "path": "qa/b025-translation/staging/public-answers-lines-1500-1543.id.tex",
+    "sha256": "91a3e108ced397c72ae204d5f142fc9838f2612312383d1aa52eac78f0eb2dec"
+  },
+  "unadjudicated_residual_english": [],
+  "upstream_contact": false
+}

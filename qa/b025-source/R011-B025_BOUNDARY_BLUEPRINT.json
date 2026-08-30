@@ -1,0 +1,564 @@
+{
+  "$schema": "interlanguage.r011-boundary-blueprint/v1",
+  "boundary_id": "R011-B025",
+  "status": "PASS_SOURCE_ASSET_DATA_RIGHTS_AND_BOOK_ORDER_DEPENDENCY_CLOSURE",
+  "provenance": {
+    "production_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+    "role": "bounded source-closure analysis; no translation or publication performed"
+  },
+  "authority": {
+    "repository": "https://github.com/OpenIntroStat/openintro-statistics",
+    "branch_observed": "master",
+    "commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "tree": "d61cc601e7d97759ce805900520f784d02a0489e",
+    "observed": "2026-08-20",
+    "reader_witness": "https://www.openintro.org/book/os/"
+  },
+  "book_order_witness": {
+    "main_source": {
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/main.tex",
+      "bytes": 4155,
+      "sha256": "1ed8952651f4b21e7175d82b4c1fda780aee5ec78f88143b97c692477ee2750b",
+      "component_kind": "text_source",
+      "authored_generated_boundary": "authored",
+      "rights_resolution": "CC-BY-SA-3.0-repository-declaration",
+      "publication_disposition": "include_subject_to_attribution_and_brand_exclusion"
+    },
+    "current_chapter_include": {
+      "line": 104,
+      "text": "\\includechapter{6}{ch_inference_for_props}",
+      "slice": {
+        "first_line": 104,
+        "last_line": 104,
+        "logical_lines": 1,
+        "bytes": 43,
+        "sha256": "8736102168595564d4c046c98a8dfe14f253a5f40bb4621bc304835aac330201"
+      }
+    },
+    "next_chapter_include": {
+      "line": 105,
+      "text": "\\includechapter{7}{ch_inference_for_means}",
+      "slice": {
+        "first_line": 105,
+        "last_line": 105,
+        "logical_lines": 1,
+        "bytes": 43,
+        "sha256": "b23d148b5184b2f23ec9d55927d00359fb61be7a10599e69e31beae2f3aa2f4e"
+      }
+    }
+  },
+  "main_source": {
+    "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_props/TeX/ch_inference_for_props.tex",
+    "bytes": 103385,
+    "sha256": "a2470ca3041209d1f1194b3ab27e8124405d8fdbd1ccece89a0319be13fae8a7",
+    "component_kind": "text_source",
+    "authored_generated_boundary": "authored",
+    "rights_resolution": "CC-BY-SA-3.0-repository-declaration",
+    "publication_disposition": "include_subject_to_attribution_and_brand_exclusion",
+    "file_line_count": 2434,
+    "start_line": 2008,
+    "start_label": "twoWayTablesAndChiSquare",
+    "start_label_line": 2009,
+    "end_line": 2434,
+    "title": "Testing for independence in two-way tables",
+    "slice": {
+      "first_line": 2008,
+      "last_line": 2434,
+      "logical_lines": 427,
+      "bytes": 15494,
+      "sha256": "a82717a6c093e0d5a3c08744aa84a97046af0ce0f0a4ff42f3d6201a77e64ca4"
+    },
+    "source_file_ends_at_boundary": true,
+    "post_section_spacer": null
+  },
+  "translation_chunks": [
+    {
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_props/TeX/ch_inference_for_props.tex",
+      "first_line": 2008,
+      "last_line": 2116,
+      "logical_lines": 109,
+      "bytes": 3909,
+      "sha256": "b03eb122e0ad63cb57ce505536f4181248cf200fd68cc0b2d3d3bd61d3cd6050",
+      "coverage": "Section opening, iPod experiment, observed table, and independence question."
+    },
+    {
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_props/TeX/ch_inference_for_props.tex",
+      "first_line": 2117,
+      "last_line": 2238,
+      "logical_lines": 122,
+      "bytes": 4676,
+      "sha256": "f948f7af4decb80adbd9ce9c3485bc4490ae6b4a90e65ac5be8e346279c980d5",
+      "coverage": "Expected counts for two-way tables, worked example, guided practice, and formula."
+    },
+    {
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_props/TeX/ch_inference_for_props.tex",
+      "first_line": 2239,
+      "last_line": 2329,
+      "logical_lines": 91,
+      "bytes": 3471,
+      "sha256": "3a12d2d4d211a26e5ec73cc9165e43700307b88047ef70f75f55cc68e2c3e050",
+      "coverage": "Two-way chi-square statistic, degrees of freedom, p-value, and iPod conclusion."
+    },
+    {
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_props/TeX/ch_inference_for_props.tex",
+      "first_line": 2330,
+      "last_line": 2434,
+      "logical_lines": 105,
+      "bytes": 3438,
+      "sha256": "d051a08d5d38fc60d89b6dff9e0935de0ebb26615b5d0d5286f61415a37ec384",
+      "coverage": "Diabetes example and guided exercises, calculator-video marker, and exercise input."
+    }
+  ],
+  "exercise_answer_closure": {
+    "chapter_exercise_ids": [
+      35,
+      36,
+      37,
+      38
+    ],
+    "exercise_records": [
+      {
+        "chapter_id": 35,
+        "start_line": 5,
+        "label": "quitters_chisq_independence"
+      },
+      {
+        "chapter_id": 36,
+        "start_line": 30,
+        "label": "full_body_scan_chisq_indep"
+      },
+      {
+        "chapter_id": 37,
+        "start_line": 63,
+        "label": "offshore_drilling_chisq_indep"
+      },
+      {
+        "chapter_id": 38,
+        "start_line": 87,
+        "label": "parasitic_worm_chisq"
+      }
+    ],
+    "exercise_source": {
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_props/TeX/testing_for_independence_in_two-way_tables.tex",
+      "bytes": 4558,
+      "sha256": "5f22aeaa256054748f626dad74a279e57d3a098f6060dc057a9625f7b2259e9a",
+      "component_kind": "text_source",
+      "authored_generated_boundary": "authored",
+      "rights_resolution": "CC-BY-SA-3.0-repository-declaration",
+      "publication_disposition": "include_subject_to_attribution_and_brand_exclusion",
+      "lines": "1-127 inclusive (full file)",
+      "slice": {
+        "first_line": 1,
+        "last_line": 127,
+        "logical_lines": 127,
+        "bytes": 4558,
+        "sha256": "5f22aeaa256054748f626dad74a279e57d3a098f6060dc057a9625f7b2259e9a"
+      }
+    },
+    "exercise_translation_chunks": [
+      {
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_props/TeX/testing_for_independence_in_two-way_tables.tex",
+        "first_line": 1,
+        "last_line": 59,
+        "logical_lines": 59,
+        "bytes": 2522,
+        "sha256": "058d35eda7dcf890f9e571462efddfdaff6d8eead181dab23bc34b1fd7bcabd8",
+        "chapter_ids": [
+          35,
+          36
+        ]
+      },
+      {
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_props/TeX/testing_for_independence_in_two-way_tables.tex",
+        "first_line": 60,
+        "last_line": 127,
+        "logical_lines": 68,
+        "bytes": 2036,
+        "sha256": "f71d400340dade7197f174d02a8aa23ce41bceb56b7eb13a5225ccf100c7e3df",
+        "chapter_ids": [
+          37,
+          38
+        ]
+      }
+    ],
+    "public_answer_ids": [
+      35,
+      37
+    ],
+    "public_answer_source": {
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/extraTeX/eoceSolutions/eoceSolutions.tex",
+      "bytes": 106045,
+      "sha256": "6c4e01376db4c023cc7b3f9949490e57220ef1cb831c580da71efde6ce723268",
+      "component_kind": "text_source",
+      "authored_generated_boundary": "authored",
+      "rights_resolution": "CC-BY-SA-3.0-repository-declaration",
+      "publication_disposition": "include_subject_to_attribution_and_brand_exclusion",
+      "lines": "1500-1543 inclusive",
+      "slice": {
+        "first_line": 1500,
+        "last_line": 1543,
+        "logical_lines": 44,
+        "bytes": 1660,
+        "sha256": "b09e89cb4e0b98f1f38f75bea10dec562d3ac247aa2a55bc12ae8dc45dd1977c"
+      },
+      "layout_lines_inside_slice": "1521-1523 close/reopen the two-column environment"
+    },
+    "public_answer_translation_chunks": [
+      {
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/extraTeX/eoceSolutions/eoceSolutions.tex",
+        "first_line": 1500,
+        "last_line": 1519,
+        "logical_lines": 20,
+        "bytes": 688,
+        "sha256": "997bc996396054df720521c136ba97d53631ea76fadc4c89b9c8508485722c1a",
+        "chapter_ids": [
+          35
+        ]
+      },
+      {
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/extraTeX/eoceSolutions/eoceSolutions.tex",
+        "first_line": 1521,
+        "last_line": 1543,
+        "logical_lines": 23,
+        "bytes": 971,
+        "sha256": "fddaeeb199f9b200a47938ff573c35e53d1a23f9c48216679cfe61146a27eb60",
+        "chapter_ids": [
+          37
+        ],
+        "includes_layout_lines": true
+      }
+    ],
+    "o001_gap_ids": [
+      36,
+      38
+    ],
+    "restricted_solutions_accessed_or_invented": false
+  },
+  "figure_asset_closure": [
+    {
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_props/figures/iPodChiSqTail/iPodChiSqTail.pdf",
+      "bytes": 5719,
+      "sha256": "789e9da58ef275f9996f2414cb53ed5edb134b9df2f3f194e7be42d7ce810403",
+      "component_kind": "figure_or_media",
+      "authored_generated_boundary": "committed_generated_with_adjacent_R",
+      "rights_resolution": "CC-BY-SA-3.0-repository-declaration",
+      "publication_disposition": "include_subject_to_attribution_and_brand_exclusion",
+      "active_call_line": 2296,
+      "producer": {
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_props/figures/iPodChiSqTail/iPodChiSqTail.R",
+        "bytes": 368,
+        "sha256": "16c6c2d5167308537e38b4120ece9e841f6d41d532d9dab32e744329d319d543",
+        "component_kind": "code",
+        "authored_generated_boundary": "authored",
+        "rights_resolution": "CC-BY-SA-3.0-repository-declaration",
+        "publication_disposition": "include_subject_to_attribution_and_brand_exclusion",
+        "runtime_dependency": "openintro R package: ask data object, COL palette, myPDF, and ChiSquareTail; no standalone data file is loaded",
+        "analysis_expression": "chisq.test(table(ask[2:3]))$statistic"
+      },
+      "reader_visible_strings_from_producer": [
+        "Tail area (1 / 500 million)",
+        "is too small to see",
+        "0",
+        "10",
+        "20",
+        "30",
+        "40",
+        "50"
+      ],
+      "content_localization_required": true,
+      "required_localization": "Regenerate or safely relabel the two-line tail-area annotation in Indonesian while preserving X^2=40.13, df=2, the tail geometry, and axes.",
+      "alt_caption_localization_required": true
+    }
+  ],
+  "inline_tex_visuals": {
+    "main_source_tabular_count": 3,
+    "main_source_figure_environment_count": 4,
+    "exercise_source_tabular_count": 3,
+    "exercise_source_external_asset_count": 0,
+    "public_answer_slice_tabular_count": 1,
+    "localization_policy": "Translate TeX captions, headers, cells, annotations, and alt text while preserving counts, formulas, table structure, labels, cross-references, study attribution, and numerical meaning."
+  },
+  "data_code_closure": {
+    "standalone_dataset_input": false,
+    "producer_scripts": 1,
+    "committed_generated_pdfs": 1,
+    "runtime_package_data": {
+      "object": "ask",
+      "package": "openintro",
+      "usage": "table(ask[2:3]) supplies the iPod chi-square statistic",
+      "frozen_standalone_bytes_in_authority": false,
+      "reader_reproduction_note": "The committed figure PDF is the frozen reader byte witness; the main TeX independently freezes the 2x3 iPod counts and X^2=40.13."
+    },
+    "embedded_values": "The iPod 2x3 observed and expected counts, diabetes 3x2 counts, chi-square statistics, degrees of freedom, and p-values are embedded in TeX.",
+    "external_report_bytes_required": false
+  },
+  "citations": {
+    "full_bibliography": {
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/eoce.bib",
+      "bytes": 30361,
+      "sha256": "42191d6cb80b562e3bb769388759cba25b1798ae416536ebfdcf73de0770217a",
+      "component_kind": "text_source",
+      "authored_generated_boundary": "authored",
+      "rights_resolution": "CC-BY-SA-3.0-repository-declaration",
+      "publication_disposition": "include_subject_to_attribution_and_brand_exclusion"
+    },
+    "unique_keys": [
+      "King_Suamani_2018"
+    ],
+    "slices": [
+      {
+        "key": "King_Suamani_2018",
+        "lines": "824-831 inclusive",
+        "first_line": 824,
+        "last_line": 831,
+        "logical_lines": 8,
+        "bytes": 464,
+        "sha256": "7c6d9f6b03796c9349b58ee05581aac8e34a2cd4efed469d33bc6cd415056e7a"
+      }
+    ],
+    "required_external_bytes": false,
+    "policy": "Retain the cited study's authors, title, journal, volume, pages, year, and redirect provenance; do not claim independent relicensing of study wording."
+  },
+  "cross_reference_dependency_closure": {
+    "local_labels": [
+      "twoWayTablesAndChiSquare",
+      "ipod_ask_data_summary",
+      "iPodExComputeExpAA",
+      "iPodExComputeExpBB",
+      "ipod_ask_data_summary_expected",
+      "iPodChiSqTail",
+      "diabetes2ExpMetRosiLifestyleIntroExample",
+      "diabetes2ExpMetRosiLifestyleSummary",
+      "quitters_chisq_independence",
+      "full_body_scan_chisq_indep",
+      "offshore_drilling_chisq_indep",
+      "parasitic_worm_chisq",
+      "parasitic_worm_chisq_hyp"
+    ],
+    "external_targets": [
+      {
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_props/TeX/ch_inference_for_props.tex",
+        "bytes": 103385,
+        "sha256": "a2470ca3041209d1f1194b3ab27e8124405d8fdbd1ccece89a0319be13fae8a7",
+        "component_kind": "text_source",
+        "authored_generated_boundary": "authored",
+        "rights_resolution": "CC-BY-SA-3.0-repository-declaration",
+        "publication_disposition": "include_subject_to_attribution_and_brand_exclusion",
+        "label": "differenceOfTwoProportions",
+        "label_line": 556,
+        "label_slice": {
+          "first_line": 556,
+          "last_line": 556,
+          "logical_lines": 1,
+          "bytes": 35,
+          "sha256": "8a42783ac5a67ffdd2b4fcf9a259ff85dfc46aaa34612867b33e29187b8c9c2d"
+        }
+      },
+      {
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/extraTeX/tables/TeX/chiSquareTable.tex",
+        "bytes": 12800,
+        "sha256": "4be0620c156d3062d2694bf25cb1da73cecdbcde329529ea9fa2af7968f255a4",
+        "component_kind": "text_source",
+        "authored_generated_boundary": "authored",
+        "rights_resolution": "CC-BY-SA-3.0-repository-declaration",
+        "publication_disposition": "include_subject_to_attribution_and_brand_exclusion",
+        "label": "chiSquareProbabilityTable",
+        "label_line": 2,
+        "label_slice": {
+          "first_line": 2,
+          "last_line": 2,
+          "logical_lines": 1,
+          "bytes": 34,
+          "sha256": "186e88b2da11a7b6159287890f5704ce50e08a35d833600587537394318ee48b"
+        }
+      },
+      {
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_props/TeX/difference_of_two_proportions.tex",
+        "bytes": 16786,
+        "sha256": "443eb8835af956fea62293b2ea6bb2e928ec311ac1981b0e2266fc092f3f8397",
+        "component_kind": "text_source",
+        "authored_generated_boundary": "authored",
+        "rights_resolution": "CC-BY-SA-3.0-repository-declaration",
+        "publication_disposition": "include_subject_to_attribution_and_brand_exclusion",
+        "label": "full_body_scan_HT_Error",
+        "label_line": 262,
+        "label_slice": {
+          "first_line": 262,
+          "last_line": 262,
+          "logical_lines": 1,
+          "bytes": 81,
+          "sha256": "c40f347793116b539bb6c5068cd660804ff7793024ef1be78cad2e1b01915681"
+        }
+      },
+      {
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_props/TeX/difference_of_two_proportions.tex",
+        "bytes": 16786,
+        "sha256": "443eb8835af956fea62293b2ea6bb2e928ec311ac1981b0e2266fc092f3f8397",
+        "component_kind": "text_source",
+        "authored_generated_boundary": "authored",
+        "rights_resolution": "CC-BY-SA-3.0-repository-declaration",
+        "publication_disposition": "include_subject_to_attribution_and_brand_exclusion",
+        "label": "offshore_drill_edu_dontknow_HT",
+        "label_line": 176,
+        "label_slice": {
+          "first_line": 176,
+          "last_line": 176,
+          "logical_lines": 1,
+          "bytes": 75,
+          "sha256": "3e1462d20fc8e444a80c12dcf4b56be80c160275e24e2c12d1c1e5c0558b2ace"
+        }
+      }
+    ],
+    "internal_reference_targets": [
+      "ipod_ask_data_summary",
+      "iPodExComputeExpAA",
+      "iPodExComputeExpBB",
+      "ipod_ask_data_summary_expected",
+      "iPodChiSqTail",
+      "diabetes2ExpMetRosiLifestyleIntroExample",
+      "diabetes2ExpMetRosiLifestyleSummary",
+      "parasitic_worm_chisq_hyp"
+    ]
+  },
+  "macro_dependency_closure": [
+    {
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/extraTeX/style/style.tex",
+      "bytes": 15415,
+      "sha256": "075101ea8256a7e850c1f3b101100204feb5e4c8a5f0914138bf468d6a895901",
+      "component_kind": "text_source",
+      "authored_generated_boundary": "authored",
+      "rights_resolution": "CC-BY-SA-3.0-repository-declaration",
+      "publication_disposition": "include_subject_to_attribution_and_brand_exclusion",
+      "role": "D, response, onebox, example, guided-practice, exercise/solution, CalculatorVideos, includegraphics, redirect, and layout macros"
+    },
+    {
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/extraTeX/style/headers.tex",
+      "bytes": 4349,
+      "sha256": "e9c018fb35feeef801c7282f4b08f2f777a2419935601e724157b3d247faef96",
+      "component_kind": "text_source",
+      "authored_generated_boundary": "authored",
+      "rights_resolution": "CC-BY-SA-3.0-repository-declaration",
+      "publication_disposition": "include_subject_to_attribution_and_brand_exclusion",
+      "role": "end-of-section exercise heading macro"
+    }
+  ],
+  "rights": {
+    "repository_text_generated_figures_and_code": "CC BY-SA 3.0 repository declaration with source attribution, share-alike derivative notice, novel derivative title, and no OpenIntro branding/logo.",
+    "cited_medical_study": "Bibliographic facts and attributed study description are retained; no external article bytes are incorporated and no independent relicensing is claimed.",
+    "runtime_openintro_package_data": "The producer references the openintro package's ask object; no standalone data file enters this boundary. Preserve this runtime provenance.",
+    "component_rights_override": true,
+    "external_facts_and_quotations": "retain explicit attribution; do not claim independent relicensing",
+    "branding_excluded": true,
+    "new_unresolved_binary_dependency": false
+  },
+  "correction_candidates": [
+    {
+      "location": "ch_inference_for_props/TeX/ch_inference_for_props.tex:2068-2071",
+      "confidence": "high",
+      "source_issue": "The sentence contains a stray article/comma ('asking the, What problems...') and an ungrammatical construction around the quoted question.",
+      "translation_action": "State directly that asking 'What problems does it have?' was most effective; leave authority unchanged."
+    },
+    {
+      "location": "ch_inference_for_props/TeX/ch_inference_for_props.tex:2093-2094",
+      "confidence": "high",
+      "source_issue": "The figure caption ends mid-clause: 'where a question was posed to the study participant who acted'.",
+      "translation_action": "Complete the evidenced role as the participant acting as the seller; leave authority unchanged."
+    },
+    {
+      "location": "ch_inference_for_props/TeX/ch_inference_for_props.tex:2108-2114",
+      "confidence": "high",
+      "source_issue": "The hypothesis-test sentence lacks the predicate that says whether question success differed and is not grammatically complete.",
+      "translation_action": "Express the intended independence question: whether disclosure depends on the buyer question; leave authority unchanged."
+    },
+    {
+      "location": "ch_inference_for_props/TeX/ch_inference_for_props.tex:2209-2212",
+      "confidence": "high",
+      "source_issue": "The disclosed-seller fraction 0.2785 is described as iPodBD/iPodDD = 158/219, which equals 0.7215. The correct numerator is iPodAD = 61.",
+      "translation_action": "Use iPodAD/iPodDD = 61/219 for the disclosed fraction while preserving all stable macro and cross-reference identities."
+    },
+    {
+      "location": "ch_inference_for_props/TeX/ch_inference_for_props.tex:2261",
+      "confidence": "high",
+      "source_issue": "The prose has number agreement and hyphenation errors ('degrees of freedom was'; 'two way tables').",
+      "translation_action": "Render the intended statements grammatically in Indonesian."
+    },
+    {
+      "location": "ch_inference_for_props/TeX/ch_inference_for_props.tex:2303-2305",
+      "confidence": "high",
+      "source_issue": "The possessive apostrophe is missing in 'the sellers likelihood'.",
+      "translation_action": "Render the intended seller-likelihood phrase naturally."
+    },
+    {
+      "location": "ch_inference_for_props/TeX/testing_for_independence_in_two-way_tables.tex:92-94",
+      "confidence": "high",
+      "source_issue": "The phrase 'clear people of the this parasite' has a duplicated article.",
+      "translation_action": "Render the intended parasite-clearance statement grammatically."
+    },
+    {
+      "location": "extraTeX/eoceSolutions/eoceSolutions.tex:1527-1531",
+      "confidence": "high",
+      "source_issue": "The public answer has subject-verb disagreement: plural 'Opinions' is paired with 'has an association'.",
+      "translation_action": "Render the alternative hypothesis grammatically without changing it."
+    }
+  ],
+  "production_closure": {
+    "main_source_lines": 427,
+    "exercise_source_lines": 127,
+    "public_answer_source_lines": 44,
+    "subsections": 2,
+    "worked_examples": 3,
+    "guided_exercises": 4,
+    "end_of_section_exercises": 4,
+    "public_answers": 2,
+    "o001_gaps": 2,
+    "external_asset_calls": 1,
+    "distinct_binary_assets": 1,
+    "figure_producer_scripts": 1,
+    "standalone_data_files": 0,
+    "bibliography_keys": 1,
+    "high_confidence_source_corrections": 8
+  },
+  "post_boundary_cursor": {
+    "book_order_source": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/main.tex",
+    "book_order_current_include_line": 104,
+    "book_order_next_include_line": 105,
+    "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_means/TeX/ch_inference_for_means.tex",
+    "line": 1,
+    "chapter_title": "Inference for numerical data",
+    "chapter_label": "ch_inference_for_means",
+    "chapter_label_line": 4,
+    "first_section_line": 29,
+    "first_section_title": "One-sample means with the t-distribution",
+    "first_section_label": "oneSampleMeansWithTDistribution",
+    "first_section_label_line": 32,
+    "working_boundary_id": "R011-B026",
+    "next_source_component": {
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_means/TeX/ch_inference_for_means.tex",
+      "bytes": 141389,
+      "sha256": "d818b24b8e8d0582f8e603972e87764082d8470d91ddcbeaa794c295a1d37bec",
+      "component_kind": "text_source",
+      "authored_generated_boundary": "authored",
+      "rights_resolution": "CC-BY-SA-3.0-repository-declaration",
+      "publication_disposition": "include_subject_to_attribution_and_brand_exclusion"
+    },
+    "chapter_opening_slice": {
+      "first_line": 1,
+      "last_line": 32,
+      "logical_lines": 32,
+      "bytes": 1193,
+      "sha256": "d88c56149b9d3ff57d4c70af6d32fbf3421dd6c1472bf8da6f271832b14e1629"
+    }
+  },
+  "scope_guards": {
+    "translation_performed": false,
+    "canonical_source_mutated": false,
+    "live_backend_mutated": false,
+    "output_or_control_mutated": false,
+    "release_or_publication_mutated": false,
+    "cursor_advanced": false,
+    "network_used": false,
+    "git_used": false,
+    "credentials_accessed": false,
+    "upstream_contact": false
+  }
+}

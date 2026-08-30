@@ -1,0 +1,87 @@
+{
+  "$schema": "interlanguage.r011-b025-main-a-translation-audit/v1",
+  "applied_authority_correction": {
+    "description": "The prose says iPodAFraction=0.2785 is the disclosed fraction but the displayed inline source formula uses iPodBD/iPodDD=158/219, the hidden fraction.",
+    "disclosed_fraction": 0.2785388127853881,
+    "hidden_fraction": 0.7214611872146118,
+    "source_formula": "iPodBD/iPodDD = 158/219",
+    "source_line": 2211,
+    "staging_action": "Applied the exact numerator correction in the derivative while leaving the pinned authority byte-identical.",
+    "status": "HIGH_CONFIDENCE_CORRECTION_APPLIED_IN_DERIVATIVE_ONLY",
+    "target_formula": "iPodAD/iPodDD = 61/219"
+  },
+  "authority": {
+    "bytes": 103385,
+    "first_line": 2008,
+    "last_line": 2238,
+    "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_props/TeX/ch_inference_for_props.tex",
+    "sha256": "a2470ca3041209d1f1194b3ab27e8124405d8fdbd1ccece89a0319be13fae8a7",
+    "slice_bytes_lf": 8585,
+    "slice_logical_lines": 231,
+    "slice_sha256_lf": "89af837210e034c300fe1fc97dd03c2024ff4e51cb78ab7c013752d7bd8ebff2"
+  },
+  "boundary_id": "R011-B025",
+  "bounded_prose_repairs": [
+    {
+      "finding": "The source caption ends after 'participant who acted' and is grammatically truncated.",
+      "source_lines": "2093-2094",
+      "target": "Completed the role as 'bertindak sebagai penjual', which is fixed by the immediately preceding study description."
+    },
+    {
+      "finding": "The source hypothesis sentence is grammatically incomplete/awkward.",
+      "source_lines": "2108-2114",
+      "target": "Rendered the intended independence question explicitly without changing its inferential direction."
+    }
+  ],
+  "language_qa": {
+    "forbidden_phrases_checked": 37,
+    "residual_phrases": [],
+    "status": "PASS_ZERO_TARGETED_RESIDUAL_ENGLISH_READER_PHRASES",
+    "terminology": {
+      "expected count": "cacah harapan",
+      "guided practice": "Latihan Terbimbing",
+      "independence": "independensi",
+      "independent": "independen",
+      "observed count": "cacah teramati",
+      "one-way table": "tabel satu arah",
+      "two-way table": "tabel dua arah"
+    }
+  },
+  "scope": "main Section 6.4 authority lines 2008-2238 inclusive only",
+  "scope_guards": {
+    "backend_controls_reader_output_release_mutated": false,
+    "git_network_credentials_upstream_contact_used": false,
+    "main_source_mutated": false
+  },
+  "status": "PASS_COMPLETE_NATURAL_ID_ID_STRUCTURE_MATH_LANGUAGE_AND_HIGH_CONFIDENCE_FORMULA_CORRECTION_QA",
+  "structural_and_math_qa": {
+    "approved_localization_deltas": [
+      "English ordinal i^{th}/j^{th} rendered naturally as baris ke-$i$/kolom ke-$j$, following the established B024 k-th localization precedent.",
+      "Reader-visible text inside TeX math/text wrappers was translated while macros, operators, variables, and numeric tokens remained ordered and intact.",
+      "At source line 2211, iPodBD/iPodDD was corrected to iPodAD/iPodDD because 61/219, not 158/219, equals the stated disclosed fraction 0.2785."
+    ],
+    "begin_end_environment_count_each": 14,
+    "checks": {
+      "alignment_markers_by_line": true,
+      "begin_environments": true,
+      "brace_balance": true,
+      "control_sequences_after_one_approved_correction": true,
+      "dollar_delimiters_by_line": true,
+      "end_environments": true,
+      "labels": true,
+      "newcommand_definitions": true,
+      "numeric_token_sequence": true,
+      "references": true
+    },
+    "control_sequence_count_each": 223,
+    "labels_exact_sequence": 5,
+    "references_exact_sequence": 6,
+    "status": "PASS"
+  },
+  "target": {
+    "bytes": 9104,
+    "logical_lines": 231,
+    "path": "qa/b025-translation/staging/section-lines-2008-2238.id.tex",
+    "sha256": "5a59d955174eb73176876d756bb4c44ba427d25d5ca86ab41824ff218d2d9554"
+  }
+}

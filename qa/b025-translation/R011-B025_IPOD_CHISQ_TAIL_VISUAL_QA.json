@@ -1,0 +1,63 @@
+{
+  "$schema": "interlanguage.r011-b025-ipod-chisq-tail-direct-visual-qa/v1",
+  "boundary_id": "R011-B025",
+  "status": "PASS_DIRECT_VISUAL_INSPECTION_AND_RASTER_GEOMETRY_COMPARISON",
+  "inspector": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "inspection_date": "2026-08-29",
+  "source": {
+    "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_props/figures/iPodChiSqTail/iPodChiSqTail.pdf",
+    "bytes": 5719,
+    "sha256": "789e9da58ef275f9996f2414cb53ed5edb134b9df2f3f194e7be42d7ce810403"
+  },
+  "localized_output": {
+    "path": "qa/b025-translation/staging/assets/iPodChiSqTail.id.pdf",
+    "bytes": 13265,
+    "sha256": "4d34c0d4f59787283086f88fb0eaa7c47714726b0e21fcb440a7bcf8e243acae"
+  },
+  "render": {
+    "renderer": "pdftoppm",
+    "dpi": 300,
+    "dimensions_pixels": [1500, 675],
+    "source_png": {
+      "bytes": 28609,
+      "sha256": "8dea17b2d2a84df5549596ba858e37c897e0f5c0df3d15730dd08a0799e8da6a"
+    },
+    "localized_png": {
+      "bytes": 30741,
+      "sha256": "e94e4123312d3b372aa30d4bed0d86c7cc899716bc39a32ca88e58a0413f02bc"
+    },
+    "changed_pixel_count": 20360,
+    "changed_pixel_bounding_box": [847, 409, 1426, 507],
+    "permitted_annotation_region": [780, 360, 1480, 525],
+    "changed_pixels_outside_permitted_annotation_region": 0,
+    "non_annotation_raster_geometry_pixel_identical": true
+  },
+  "direct_visual_findings": {
+    "localized_line_1_visible": "Luas ekor (1 dari 500 juta)",
+    "localized_line_2_visible": "terlalu kecil untuk terlihat",
+    "source_english_annotation_visible": false,
+    "both_lines_centered_on_unchanged_tail_threshold": true,
+    "text_legible": true,
+    "text_clipping": false,
+    "text_overlap": false,
+    "page_edge_collision": false,
+    "curve_or_tail_occlusion": false,
+    "axes_and_ticks_readable": true,
+    "curve_shape_preserved": true,
+    "blue_tail_segment_preserved": true,
+    "numeric_ticks_preserved": [0, 10, 20, 30, 40, 50],
+    "visual_defects": []
+  },
+  "mathematical_context": {
+    "pearson_chi_square": 40.13,
+    "degrees_of_freedom": 2,
+    "tail_probability_precise_context": 0.000000002
+  },
+  "localized_caption": "Visualisasi nilai-p untuk X^2 = 40.13 ketika df = 2.",
+  "localized_alt_text": "Kurva khi-kuadrat dengan df = 2; luas ekor di sebelah kanan X^2 = 40.13, sekitar 1 dari 500 juta, terlalu kecil untuk terlihat.",
+  "rights": "CC BY-SA 3.0; OpenIntro source credit and pinned source/producer identities preserved",
+  "upstream_contact": false,
+  "git_used": false,
+  "credentials_accessed": false,
+  "publication_performed": false
+}

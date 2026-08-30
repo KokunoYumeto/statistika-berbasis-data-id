@@ -5,6 +5,7 @@
   \chaptersection{singleProportion}
   \chaptersection{differenceOfTwoProportions}
   \chaptersection{oneWayChiSquare}
+  \chaptersection{twoWayTablesAndChiSquare}
 % Boundary-clean reader omits navigation to excluded later Chapter 6 sections.
 \end{chapterpage}
 \renewcommand{\chapterfolder}{ch_inference_for_props}
@@ -1987,5 +1988,434 @@ kita gunakan?\footnotemark{}
 
 
 {\input{ch_inference_for_props/TeX/testing_for_goodness_of_fit_using_chi-square.tex}}
+
+\section{Menguji independensi dalam tabel dua arah}
+\label{twoWayTablesAndChiSquare}
+
+\index{data!iPod|(}
+
+\newcommand{\iPodAA}{2}
+\newcommand{\iPodAB}{23}
+\newcommand{\iPodAC}{36}
+\newcommand{\iPodAD}{61}
+\newcommand{\iPodAFraction}{0.2785}
+\newcommand{\iPodAExpected}{20.33}
+\newcommand{\iPodBA}{71}
+\newcommand{\iPodBB}{50}
+\newcommand{\iPodBC}{37}
+\newcommand{\iPodBD}{158}
+\newcommand{\iPodBFraction}{0.7215}
+\newcommand{\iPodBExpected}{52.67}
+\newcommand{\iPodDA}{73}
+\newcommand{\iPodDB}{73}
+\newcommand{\iPodDC}{73}
+\newcommand{\iPodDD}{219}
+\newcommand{\iPodN}{\iPodDD}
+
+Kita semua pernah membeli produk bekas --
+mobil, komputer, buku teks, dan sebagainya --
+dan terkadang kita beranggapan bahwa penjual produk tersebut
+akan berterus terang mengenai segala masalah tersembunyi pada
+barang yang mereka jual.
+Anggapan ini tidak seharusnya kita terima begitu saja.
+Para peneliti merekrut \iPodN{} peserta dalam sebuah studi; mereka
+diminta menjual iPod bekas\footnote{Bagi pembaca yang tidak setua
+  para penulis, iPod pada dasarnya merupakan iPhone tanpa
+  layanan seluler apa pun, dengan asumsi perangkat tersebut berasal dari salah satu
+  generasi yang lebih akhir. Generasi-generasi awal lebih sederhana.}
+yang diketahui pernah macet dua kali sebelumnya.
+Para peserta diberi insentif untuk memperoleh uang sebanyak mungkin
+dari iPod tersebut karena mereka akan menerima bagian sebesar 5\%
+dari hasil penjualan, ditambah \$10 sebagai imbalan atas partisipasi.
+Para peneliti ingin memahami jenis pertanyaan apa
+yang akan mendorong penjual mengungkapkan masalah macet tersebut.
+
+Tanpa sepengetahuan peserta yang menjadi penjual
+dalam studi tersebut,
+para pembeli bekerja sama dengan para peneliti
+untuk menilai pengaruh berbagai pertanyaan
+terhadap kemungkinan penjual mengungkapkan
+masalah yang pernah terjadi pada iPod.
+Pembeli yang mengikuti naskah memulai dengan
+``Baiklah, sepertinya saya yang harus mulai dulu.
+  Jadi, Anda sudah memiliki iPod ini selama 2 tahun ...''
+dan mengakhirinya dengan salah satu dari tiga pertanyaan:
+\begin{itemize}
+\item Umum: Apa yang bisa Anda ceritakan tentang perangkat ini?
+\item Asumsi positif: Perangkat ini tidak bermasalah, bukan?
+\item Asumsi negatif: Masalah apa yang dimiliki perangkat ini?
+\end{itemize}
+Pertanyaan tersebut merupakan perlakuan yang diberikan kepada para penjual,
+sedangkan responsnya adalah apakah pertanyaan itu mendorong mereka
+untuk mengungkapkan masalah macet pada iPod.
+Hasilnya ditampilkan pada Gambar~\ref{ipod_ask_data_summary},
+dan data tersebut menunjukkan bahwa pertanyaan
+\emph{Masalah apa yang dimiliki perangkat ini?}
+merupakan yang paling efektif dalam mendorong penjual mengungkapkan
+masalah macet yang pernah terjadi.
+Namun, Anda juga perlu bertanya kepada diri sendiri:
+mungkinkah hasil ini muncul semata-mata karena kebetulan,
+atau apakah hasil ini benar-benar menjadi bukti bahwa beberapa pertanyaan
+lebih efektif untuk mengungkap kebenaran?
+
+\begin{figure}[ht]
+\centering
+\begin{tabular}{l ccc l}
+  \hline
+  & Umum & Asumsi positif &
+      Asumsi negatif & Total \\ 
+  \hline
+  Mengungkap masalah & \iPodAA{} &  \iPodAB{} &
+      \iPodAC{} & \iPodAD{} \\ 
+  Menyembunyikan masalah &  \iPodBA{} &  \iPodBB{} &
+      \iPodBC{} & \iPodBD{} \\ 
+  \hline
+  Total & \iPodDA{} & \iPodDB{} &
+      \iPodDC{} & \iPodDD{} \\
+  \hline
+\end{tabular}
+\caption{Ringkasan studi iPod, dengan sebuah pertanyaan
+  diajukan kepada peserta studi yang bertindak sebagai penjual.}
+\label{ipod_ask_data_summary}
+\end{figure}
+
+\begin{onebox}{Perbedaan antara tabel satu arah dan tabel dua arah}
+  Tabel satu arah menggambarkan cacah untuk setiap hasil dalam satu
+  variabel.
+  Tabel dua arah menggambarkan cacah untuk \emph{kombinasi}
+  hasil dari dua variabel.
+  Ketika meninjau tabel dua arah, kita sering ingin mengetahui,
+  apakah variabel-variabel tersebut saling berkaitan?
+  Dengan kata lain, apakah keduanya dependen (alih-alih independen)?
+\end{onebox}
+
+Uji hipotesis untuk eksperimen iPod sebenarnya bertujuan
+menilai apakah terdapat bukti yang signifikan secara statistik
+bahwa tingkat keberhasilan setiap pertanyaan dalam mendorong peserta
+untuk mengungkapkan masalah iPod berbeda-beda.
+Dengan kata lain, tujuannya adalah memeriksa apakah jenis
+pertanyaan pembeli independen dari pengungkapan
+masalah oleh penjual.
+
+
+% Boundary-clean reader removes a legacy forced page break.
+
+\subsection{Cacah harapan dalam tabel dua arah}
+
+\noindent%
+Seperti pada tabel satu arah, kita perlu menghitung
+cacah harapan untuk setiap sel dalam tabel dua arah.
+
+\begin{examplewrap}
+\begin{nexample}{Dari eksperimen tersebut,
+    kita dapat menghitung proporsi seluruh penjual yang mengungkapkan
+    masalah macet sebagai $\iPodAD{}/\iPodDD = \iPodAFraction{}$.
+    Jika benar-benar tidak ada perbedaan di antara pertanyaan
+    dan 27.85\% penjual memang akan mengungkapkan masalah
+    macet apa pun pertanyaan yang diajukan kepada mereka,
+    berapa banyak dari \iPodDA{} orang dalam kelompok \resp{Umum}
+    yang kita harapkan akan mengungkapkan masalah
+    macet tersebut?} \label{iPodExComputeExpAA}
+  Kita memperkirakan bahwa $\iPodAFraction{} \times \iPodDA{} = \iPodAExpected{}$
+  penjual akan mengungkapkan masalah tersebut.
+  Jelas bahwa cacah teramati lebih kecil dari nilai ini, meskipun belum
+  jelas apakah hal tersebut disebabkan oleh variasi acak atau karena
+  pertanyaan-pertanyaan itu berbeda dalam hal seberapa efektif
+  pertanyaan tersebut mengungkap kebenaran.
+\end{nexample}
+\end{examplewrap}
+
+\begin{exercisewrap}
+\begin{nexercise}\label{iPodExComputeExpBB}
+Jika pertanyaan-pertanyaan tersebut sebenarnya sama efektifnya,
+yakni sekitar 27.85\% responden akan mengungkapkan
+masalah macet apa pun pertanyaan yang diajukan kepada mereka,
+kira-kira berapa penjual dari kelompok Asumsi positif
+yang kita harapkan akan \emph{menyembunyikan} masalah
+macet tersebut?\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Kita mengharapkan
+    $(1 - \iPodAFraction{}) \times \iPodDA{} = \iPodBExpected{}$.
+    Tidak masalah jika hasil ini,
+    seperti hasil dari Contoh~\ref{iPodExComputeExpAA},
+    berupa pecahan.}
+
+Kita dapat menghitung banyaknya penjual yang kita harapkan
+akan mengungkapkan atau menyembunyikan masalah macet untuk semua kelompok,
+jika pertanyaan tersebut tidak memengaruhi apa yang mereka ungkapkan,
+dengan menggunakan strategi yang sama seperti pada
+Contoh~\ref{iPodExComputeExpAA} dan
+Latihan Terbimbing~\ref{iPodExComputeExpBB}.
+Cacah harapan ini digunakan untuk menyusun Gambar~\ref{ipod_ask_data_summary_expected},
+yang sama dengan Gambar~\ref{ipod_ask_data_summary},
+hanya saja kini cacah harapan telah ditambahkan di dalam tanda kurung.
+
+\begin{figure}[h]
+\centering
+\begin{tabular}{l lll l}
+  \hline
+  & Umum & Asumsi positif &
+      Asumsi negatif & Total \\ 
+  \hline
+  Mengungkap masalah &
+      \iPodAA{} \ \highlightO{\footnotesize(\iPodAExpected{})} &
+      \iPodAB{} \highlightO{\footnotesize(\iPodAExpected{})} &
+      \iPodAC{} \highlightO{\footnotesize(\iPodAExpected{})} &
+      \iPodAD{} \\ 
+  Menyembunyikan masalah &
+      \iPodBA{} \highlightO{\footnotesize(\iPodBExpected{})} &
+      \iPodBB{} \highlightO{\footnotesize(\iPodBExpected{})} &
+      \iPodBC{} \highlightO{\footnotesize(\iPodBExpected{})} &
+      \iPodBD{} \\ 
+  \hline
+  Total & \iPodDA{} & \iPodDB{} &
+      \iPodDC{} & \iPodDD{} \\
+  \hline
+\end{tabular}
+\caption{Cacah teramati dan
+    \highlightO{(cacah harapan)}.}
+\label{ipod_ask_data_summary_expected}
+\end{figure}
+
+Contoh dan latihan di atas memberikan beberapa petunjuk
+untuk menghitung cacah harapan.
+Secara umum, cacah harapan untuk tabel dua arah dapat
+dihitung menggunakan total baris, total kolom,
+dan total tabel.
+Misalnya, jika tidak ada perbedaan di antara kelompok,
+maka sekitar 27.85\% dari setiap kolom seharusnya berada pada baris pertama:
+\begin{align*}
+\iPodAFraction{}\times (\text{total kolom 1}) &= \iPodAExpected{} \\
+\iPodAFraction{}\times (\text{total kolom 2}) &= \iPodAExpected{} \\
+\iPodAFraction{}\times (\text{total kolom 3}) &= \iPodAExpected{}
+\end{align*}
+Dengan mengingat kembali cara menghitung \iPodAFraction{} --
+sebagai fraksi penjual yang mengungkapkan masalah macet
+($\iPodAD{}/\iPodDD{}$) --
+ketiga cacah harapan ini dapat dihitung sebagai
+\begin{align*}
+\left(\frac{\text{total baris 1}}{\text{total tabel}}\right)
+    \text{(total kolom 1)} &= \iPodAExpected{} \\
+\left(\frac{\text{total baris 1}}{\text{total tabel}}\right)
+    \text{(total kolom 2)} &= \iPodAExpected{} \\
+\left(\frac{\text{total baris 1}}{\text{total tabel}}\right)
+    \text{(total kolom 3)} &= \iPodAExpected{}
+\end{align*}
+Hal ini menghasilkan rumus umum untuk menghitung cacah
+harapan dalam tabel dua arah ketika kita ingin menguji apakah
+terdapat bukti kuat mengenai hubungan antara variabel
+kolom dan variabel baris.
+
+% Boundary-clean reader removes a legacy forced page break.
+
+\begin{onebox}{Menghitung cacah harapan dalam tabel dua arah}
+  Untuk menentukan cacah harapan bagi baris ke-$i$
+  dan kolom ke-$j$, hitung
+  \begin{align*}
+  \text{cacah harapan}_{\text{baris }i,\text{ kolom }j}
+    = \frac{(\text{total baris $i$}) \times
+        (\text{total kolom $j$})}{\text{total tabel}}\vspace{2mm}
+  \end{align*}
+\end{onebox}
+
+%
+\subsection{Uji khi-kuadrat untuk tabel dua arah}
+
+Statistik uji khi-kuadrat untuk tabel dua arah dihitung
+dengan cara yang sama seperti untuk tabel satu arah.
+Untuk setiap cacah pada tabel, hitung
+\begin{align*}
+&\text{Rumus umum} &&
+    \frac{(\text{cacah teramati } - \text{cacah harapan})^2}
+        {\text{cacah harapan}} \\
+&\text{Baris 1, Kolom 1} &&
+    \frac{(\iPodAA - \iPodAExpected)^2}{\iPodAExpected} = 16.53 \\
+&\text{Baris 1, Kolom 2} &&
+    \frac{(\iPodAB - \iPodAExpected)^2}{\iPodAExpected} = 0.35 \\
+& \hspace{9mm}\vdots &&
+    \hspace{13mm}\vdots \\
+&\text{Baris 2, Kolom 3} &&
+    \frac{(\iPodBC - \iPodBExpected)^2}{\iPodBExpected} = 4.66
+\end{align*}
+Menjumlahkan nilai hasil perhitungan untuk setiap sel memberikan statistik uji khi-kuadrat $X^2$:
+\begin{align*}
+X^2 = 16.53 + 0.35 + \dots + 4.66 = 40.13
+\end{align*}
+Seperti sebelumnya, statistik uji ini mengikuti distribusi khi-kuadrat. Namun, derajat kebebasan dihitung sedikit berbeda untuk tabel dua arah.\footnote{Ingat: pada tabel satu arah, derajat kebebasan adalah banyaknya sel dikurangi 1.} Untuk tabel dua arah, derajat kebebasan sama dengan
+\begin{align*}
+df = \text{(banyaknya baris dikurangi 1)}\times \text{(banyaknya kolom dikurangi 1)}
+\end{align*}
+Dalam contoh kita, parameter derajat kebebasannya adalah
+\begin{align*}
+df = (2-1)\times (3-1) = 2
+\end{align*}
+Jika hipotesis nol benar
+(yaitu pertanyaan tersebut tidak memengaruhi para penjual dalam
+    percobaan itu),
+maka statistik uji $X^2 = 40.13$ mengikuti secara dekat
+distribusi khi-kuadrat dengan 2 derajat kebebasan.
+Dengan informasi ini, kita dapat menghitung nilai-p untuk
+uji tersebut, yang digambarkan dalam
+Gambar~\ref{iPodChiSqTail}.
+
+\begin{onebox}{Menghitung derajat kebebasan untuk tabel dua arah}
+  Ketika menerapkan uji khi-kuadrat pada tabel dua arah,
+  kita menggunakan
+  \begin{align*}
+  df = (R-1)\times (C-1)
+  \end{align*}
+  dengan $R$ sebagai banyaknya baris dalam tabel
+  dan $C$ sebagai banyaknya kolom.
+\end{onebox}
+
+Ketika menganalisis tabel kontingensi berukuran 2 kali 2, salah satu pedomannya
+adalah menggunakan metode dua proporsi yang diperkenalkan pada
+Bagian~\ref{differenceOfTwoProportions}.
+
+% Boundary-clean reader removes a legacy forced page break.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.65\textwidth]{ch_inference_for_props/figures/iPodChiSqTail/iPodChiSqTail}
+\caption{Visualisasi nilai-p untuk $X^2 = 40.13$
+    ketika $df = 2$.}
+\label{iPodChiSqTail}
+\end{figure}
+
+\begin{examplewrap}
+\begin{nexample}{Tentukan nilai-p dan tarik kesimpulan
+    mengenai apakah pertanyaan tersebut memengaruhi peluang penjual
+    melaporkan masalah pembekuan.}
+  % Dengan melihat Lampiran~\ref{chiSquareProbabilityTable}
+  % pada halaman~\pageref{chiSquareProbabilityTable},
+  % kita memeriksa baris yang bersesuaian dengan 2 derajat kebebasan.
+  % Statistik uji, $X^2 = 40.13$,
+  % lebih besar daripada nilai pada kolom terakhir,
+  % yang berarti luas ekor dan nilai-p lebih kecil dari 0.001.
+  Dengan komputer, kita dapat menghitung nilai yang sangat presisi
+  untuk luas ekor di atas $X^2 = 40.13$ pada distribusi
+  khi-kuadrat dengan 2 derajat kebebasan:
+  0.000000002.
+  (Jika menggunakan tabel dalam
+    Lampiran~\ref{chiSquareProbabilityTable},
+    kita akan menentukan bahwa nilai-p lebih kecil
+    dari 0.001.)
+  Dengan menggunakan tingkat signifikansi $\alpha=0.05$,
+  hipotesis nol ditolak karena nilai-p lebih kecil.
+  Artinya, data memberikan bukti meyakinkan bahwa
+  pertanyaan yang diajukan memang memengaruhi peluang seorang penjual
+  berkata jujur tentang masalah pada iPod.
+\end{nexample}
+\end{examplewrap}
+
+\index{data!iPod|)}
+
+\index{data!diabetes|(}
+
+\begin{examplewrap}
+\begin{nexample}{Gambar~\ref{diabetes2ExpMetRosiLifestyleSummary}
+    merangkum hasil suatu percobaan yang menilai
+    tiga pengobatan untuk diabetes tipe~2 pada pasien
+    berusia 10--17 tahun yang sedang menerima metformin.
+    Ketiga pengobatan yang ditinjau adalah
+    melanjutkan pengobatan dengan metformin (\resp{met}),
+    pengobatan dengan metformin yang digabungkan dengan rosiglitazone
+    (\resp{rosi}),
+    atau program intervensi gaya hidup.
+    Setiap pasien memiliki luaran primer, yaitu kendali
+    glikemik tidak tercapai (kegagalan)
+    atau kendali tersebut tercapai (keberhasilan).
+    Apa hipotesis yang sesuai untuk uji ini?}
+  \label{diabetes2ExpMetRosiLifestyleIntroExample}
+  \begin{itemize}
+  \item[$H_0$:] Tidak ada perbedaan dalam efektivitas
+      ketiga pengobatan tersebut.
+  \item[$H_A$:] Ada perbedaan efektivitas
+      di antara ketiga pengobatan, misalnya mungkin pengobatan
+      \resp{rosi} lebih efektif daripada
+      \resp{gaya hidup}.
+  \end{itemize}
+\end{nexample}
+\end{examplewrap}
+
+\begin{figure}[h]
+\centering
+\begin{tabular}{l ccc l}
+\hline
+ & Kegagalan & Keberhasilan & Total \\ 
+\hline
+\resp{gaya hidup} & 109 & 125 & 234 \\ 
+\resp{met} & 120 & 112 & 232 \\ 
+\resp{rosi} &  90 & 143 & 233 \\ 
+\hline
+Total & 319 & 380 & 699 \\
+\hline
+\end{tabular}
+\caption{Hasil studi diabetes tipe~2.}
+\label{diabetes2ExpMetRosiLifestyleSummary}
+\end{figure}
+
+% Boundary-clean reader removes a legacy forced page break.
+
+\begin{exercisewrap}
+\begin{nexercise}
+Uji khi-kuadrat untuk tabel dua arah dapat digunakan untuk menguji
+hipotesis dalam
+Contoh~\ref{diabetes2ExpMetRosiLifestyleIntroExample}.
+Sebagai langkah pertama, hitung cacah harapan bagi masing-masing dari
+keenam sel tabel tersebut.\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Cacah harapan untuk
+    baris pertama / kolom pertama diperoleh dengan mengalikan
+    total baris pertama (234) dan total kolom pertama (319),
+    lalu membaginya dengan total tabel (699):
+    $\frac{234\times 319}{699} = 106.8$.
+    Demikian pula untuk kolom kedua dan baris pertama:
+    $\frac{234\times 380}{699} = 127.2$.
+    Baris 2: 105.9 dan 126.1.
+    Baris 3: 106.3 dan 126.7.}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Hitung statistik uji khi-kuadrat untuk data dalam
+Gambar~\ref{diabetes2ExpMetRosiLifestyleSummary}.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Untuk setiap sel,
+    hitung $\frac{(\text{obs} - \text{exp})^2}{exp}$.
+    Sebagai contoh, baris pertama dan kolom pertama:
+    $\frac{(109-106.8)^2}{106.8} = 0.05$.
+    Menjumlahkan hasil dari setiap sel memberikan
+    statistik uji khi-kuadrat:
+    {\scriptsize$X^2 = 0.05 + \cdots + 2.11 = 8.16$}.}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Karena terdapat 3 baris dan 2 kolom,
+derajat kebebasan untuk uji tersebut adalah
+$df = (3 - 1) \times (2 - 1) = 2$.
+Gunakan $X^2 = 8.16$, $df = 2$, dan tentukan apakah
+hipotesis nol perlu ditolak dengan menggunakan tingkat signifikansi
+sebesar~0.05.\footnotemark
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{
+    Dengan komputer, kita dapat menentukan nilai-p
+    sebesar 0.017.
+    Artinya, kita menolak hipotesis nol karena
+    nilai-p kurang dari 0.05, lalu menyimpulkan
+    bahwa setidaknya salah satu pengobatan lebih atau
+    kurang efektif daripada yang lain dalam mencapai
+    kendali glikemik pada diabetes tipe~2.}
+
+\index{data!diabetes|)}
+
+\CalculatorVideos{uji khi-kuadrat untuk independensi}
+
+
+{\input{ch_inference_for_props/TeX/testing_for_independence_in_two-way_tables.tex}}
+
 
 
