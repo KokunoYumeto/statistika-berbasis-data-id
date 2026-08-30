@@ -1,0 +1,233 @@
+
+
+
+\subsection[Memperkenalkan distribusi $t$]
+    {Memperkenalkan distribusi $\pmb{t}$}
+\label{introducingTheTDistribution}
+
+\index{distribusi t@distribusi $t$|(}
+\index{distribusi!t@$t$|(}
+
+Dalam praktiknya, kita tidak dapat menghitung galat baku secara langsung
+untuk $\bar{x}$ karena kita tidak mengetahui simpangan baku
+populasi,~$\sigma$.
+Kita menghadapi masalah serupa ketika menghitung galat
+baku untuk proporsi sampel, yang bergantung pada proporsi
+populasi,~$p$.
+Solusi kita dalam konteks proporsi adalah menggunakan suatu nilai
+sampel sebagai pengganti
+nilai populasi ketika menghitung galat baku.
+Kita akan memakai strategi serupa untuk menghitung galat
+baku $\bar{x}$, dengan menggunakan simpangan
+baku sampel $s$ sebagai pengganti $\sigma$:
+\begin{align*}
+SE = \frac{\sigma}{\sqrt{n}} \approx \frac{s}{\sqrt{n}}
+\end{align*}
+Strategi ini cenderung bekerja baik ketika kita memiliki
+banyak data dan dapat mengestimasi $\sigma$ secara akurat menggunakan $s$.
+Namun, estimasi tersebut kurang presisi pada sampel yang lebih kecil,
+dan hal ini menimbulkan masalah ketika distribusi
+normal digunakan untuk memodelkan $\bar{x}$.
+% --
+%when the sample size is large --
+%but it is less reliable when the sample size is smaller
+%than about 30. % independent observations.
+
+Kita akan mendapati bahwa distribusi baru yang disebut
+\termsub{distribusi $\pmb{t}$}{distribusi t@distribusi $t$} berguna
+untuk perhitungan inferensi.
+Distribusi~$t$, yang ditampilkan sebagai garis penuh dalam
+Gambar~\ref{tDistCompareToNormalDist}, berbentuk lonceng.
+Namun, ekornya lebih tebal daripada ekor distribusi normal,
+yang berarti observasi lebih mungkin jatuh lebih dari dua
+simpangan baku dari rata-rata dibandingkan pada distribusi
+normal. %\footnote{The standard deviation of the
+  %$t$-distribution is actually a little more than 1.
+  %However, it is useful to always think of the $t$-distribution
+  %as having a standard deviation of 1 in all of our applications.}
+%This distribution is important since it accounts for
+%a key challenge with modeling the sample mean:
+%the standard error of the sample mean isn't as
+%precise when the sample size is small.
+Ketebalan ekstra pada ekor distribusi $t$ merupakan
+koreksi yang diperlukan untuk mengatasi masalah penggunaan~$s$
+sebagai pengganti $\sigma$ dalam perhitungan $SE$.
+
+\begin{figure}[h]
+  \centering
+  \Figure[Ditampilkan distribusi normal baku dan distribusi t. Distribusi t juga berbentuk lonceng, tetapi puncaknya lebih rendah dan lebih landai daripada distribusi normal serta ekornya lebih tebal. Sebagai contoh, terdapat bagian distribusi yang cukup besar -- mungkin 5\% untuk distribusi t khusus ini -- yang membentang hingga di bawah -3 dan di atas 3, sedangkan distribusi normal sangat mendekati nol pada nilai di bawah -3 atau di atas 3.]{0.7}{tDistCompareToNormalDist}
+  \caption{Perbandingan distribusi $t$
+      dan distribusi normal.}
+  \label{tDistCompareToNormalDist}
+\end{figure}
+
+Distribusi $t$ selalu berpusat di nol dan
+memiliki satu parameter: derajat kebebasan.
+\termsub{Derajat kebebasan ($\pmb{df}$)}
+    {derajat kebebasan ($df$)!distribusi $t$}
+menentukan bentuk tepat distribusi $t$ yang berbentuk lonceng.
+Beberapa distribusi $t$ ditampilkan dalam
+Gambar~\ref{tDistConvergeToNormalDist}
+sebagai perbandingan dengan distribusi normal.
+
+Secara umum, kita akan menggunakan distribusi $t$
+dengan $df = n - 1$ untuk memodelkan rata-rata sampel
+ketika ukuran sampelnya $n$.
+Artinya, ketika kita memiliki lebih banyak observasi,
+derajat kebebasannya akan lebih besar dan
+distribusi $t$ akan semakin menyerupai
+distribusi normal baku;
+ketika banyaknya derajat kebebasan sekitar 30 atau lebih,
+distribusi $t$ hampir tidak dapat dibedakan
+dari distribusi normal.
+
+\begin{figure}[h]
+  \centering
+  \Figure[Empat distribusi t dengan derajat kebebasan 1, 2, 4, dan 8 ditampilkan bersama distribusi normal dalam grafik yang sama. Semakin besar derajat kebebasan, semakin dekat distribusi t dengan distribusi normal; puncak di pusat semakin tinggi dan mendekati puncak distribusi normal, sedangkan ekor distribusinya tampak semakin tipis.]{0.75}{tDistConvergeToNormalDist}
+  \caption{Semakin besar derajat kebebasan,
+      distribusi $t$ semakin menyerupai distribusi
+      normal baku.}
+  \label{tDistConvergeToNormalDist}
+\end{figure}
+
+\begin{onebox}{Derajat kebebasan
+    ($\pmb{\MakeLowercase{df}}$)}
+  Derajat kebebasan menentukan bentuk
+  distribusi $t$.
+  Semakin besar derajat kebebasan, semakin baik
+  distribusi tersebut menghampiri model normal. \stdvspace{}
+
+  Ketika memodelkan $\bar{x}$ menggunakan distribusi $t$,
+  gunakan $df = n - 1$.
+\end{onebox}
+
+%\Comment{Cut this next sentence?}
+%In Section~\ref{tDistSolutionToSEProblem},
+%we relate degrees of freedom to sample size.
+
+Distribusi $t$ memberi kita fleksibilitas lebih besar daripada
+distribusi normal ketika menganalisis data numerik.
+Dalam~praktiknya, perangkat lunak statistik lazim digunakan,
+seperti R, Python, atau SAS untuk analisis ini.
+Sebagai alternatif, kalkulator grafik atau
+\termsub{tabel $\pmb{t}$}{tabel t@tabel $t$} dapat digunakan;
+tabel $t$ serupa dengan tabel distribusi normal,
+dan dapat ditemukan dalam Lampiran~\ref{tDistributionTable},
+yang memuat petunjuk penggunaan dan contoh
+bagi mereka yang ingin menggunakan opsi ini.
+Apa pun pendekatan yang dipilih, terapkan metode Anda
+pada contoh-contoh di bawah ini untuk memastikan
+pemahaman Anda mengenai distribusi $t$.
+
+\begin{examplewrap}
+\begin{nexample}{Berapa proporsi distribusi $t$
+    dengan 18 derajat kebebasan yang berada di bawah -2.10?}
+  Seperti dalam soal peluang normal, pertama-tama kita menggambar
+  grafik dalam Gambar~\ref{tDistDF18LeftTail2Point10}
+  dan mengarsir daerah di bawah -2.10.
+%  If this were a normal distribution, the area would be
+%  a little less than 0.025, since about 5\% of the area
+%  under a normal curve goes out beyond $\pm 1.96$ standard
+%  deviations.
+  Dengan perangkat lunak statistik, kita dapat memperoleh
+  nilai yang presisi: 0.0250.
+%  The tail area below -2.10 in the $t$-distribution with
+%  $df = 18$ is the same as the tail area below -1.96 in
+%  the normal distribution.
+\end{nexample}
+\end{examplewrap}
+
+\begin{figure}
+  \centering
+  \Figure[Ditampilkan distribusi t dengan 18 derajat kebebasan; daerah di bawah -2.10 diarsir dan tampak mewakili sekitar 2\% hingga 5\% dari luas distribusi. Secara umum, ketika derajat kebebasan lebih besar daripada sekitar 10, seperti dalam kasus ini, perbedaan visual antara distribusi t dan distribusi normal sangat halus, meskipun perbedaan tersebut tetap penting untuk perhitungan kita.]{0.42}{tDistDF18LeftTail2Point10}
+  \caption{Distribusi $t$ dengan 18 derajat kebebasan.
+      Daerah di bawah -2.10 telah diarsir.}
+  \label{tDistDF18LeftTail2Point10}
+\end{figure}
+
+\begin{examplewrap}
+\begin{nexample}{Distribusi $t$ dengan 20 derajat kebebasan
+    ditampilkan pada panel kiri
+    Gambar~\ref{tDistDF20RightTail1Point65}.
+    Estimasikan proporsi distribusi yang berada
+    di atas 1.65.}
+  Pada distribusi normal, nilainya akan sekitar
+  sekitar~0.05, sehingga kita mengharapkan distribusi $t$
+  memberikan nilai di sekitar itu.
+  Dengan perangkat lunak statistik: 0.0573.
+\end{nexample}
+\end{examplewrap}
+
+\begin{figure}
+  \centering
+  \Figure[Dua distribusi t ditampilkan pada dua grafik terpisah. Grafik pertama menampilkan distribusi t dengan 20 derajat kebebasan dan daerah di atas 1.65 diarsir; daerah itu tampak mewakili sekitar 5\% dari luas total distribusi. Grafik kedua menampilkan distribusi t dengan 2 derajat kebebasan dan daerah di bawah -3 serta di atas 3 diarsir. Karena derajat kebebasannya sangat kecil, ekor distribusi ini jauh lebih tebal dan pusatnya juga berpuncak lebih tajam. Masing-masing ekor tersebut tampak mewakili sekitar 2\% hingga 5\% dari luas di bawah distribusi ini.]{0.72}{tDistDF20RightTail1Point65}
+  \caption{Kiri: Distribusi $t$ dengan 20 derajat
+      kebebasan, dengan daerah di atas 1.65 diarsir.
+      Kanan:~Distribusi $t$ dengan 2 derajat kebebasan,
+      dengan daerah yang berjarak lebih dari 3 satuan dari 0 diarsir.}
+  \label{tDistDF20RightTail1Point65}
+\end{figure}
+
+\begin{examplewrap}
+\begin{nexample}{Distribusi $t$ dengan 2 derajat kebebasan
+    ditampilkan pada panel kanan
+    Gambar~\ref{tDistDF20RightTail1Point65}.
+    Estimasikan proporsi distribusi yang berjarak lebih
+    dari 3~satuan dari rata-rata (di atas atau di bawah).}
+  Dengan derajat kebebasan yang begitu sedikit, distribusi $t$
+  akan menghasilkan nilai yang jauh berbeda dari hasil distribusi
+  normal.
+  Pada distribusi normal, luasnya akan sekitar
+  0.003 berdasarkan aturan 68-95-99.7.
+  Untuk distribusi $t$ dengan $df = 2$, luas pada kedua
+  ekor di luar 3~satuan berjumlah 0.0955.
+  Luas ini sangat berbeda dari luas yang
+  kita peroleh dari distribusi normal.
+\end{nexample}
+\end{examplewrap}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Berapa proporsi distribusi $t$ dengan 19 derajat
+kebebasan yang berada di atas -1.79 satuan?
+Gunakan metode pilihan Anda untuk mencari luas ekor.\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Kita ingin mencari daerah yang diarsir di \emph{atas}
+  -1.79 (pembuatan gambarnya kami serahkan kepada Anda).
+  Luas ekor bawah adalah 0.0447,
+  sehingga luas daerah atas adalah $1 - 0.0447 = 0.9553$.}
+
+\index{distribusi!t@$t$|)}
+\index{distribusi t@distribusi $t$|)}
+
+
+%\subsection{Conditions for using the $\mathbf{t}$-distribution
+%    for inference on a sample mean}
+%\label{tDistSolutionToSEProblem}
+%
+%\noindent%
+%To proceed with the $t$-distribution for inference about a single mean, we first check two conditions.
+%\begin{description}
+%\item[Independence.]
+%    We verify this condition just as we did before.
+%    We collect a simple random sample, or if the data are from
+%    an experiment or random process, we check to the best of our
+%    abilities that the observations were independent.
+%\item[Sample size.]
+%    We use the earlier rule of thumb to evaluate this condition:
+%
+%    If the sample size $n$ is less than 30
+%    and there are no clear outliers in the data,
+%    then the sample size condition is satisfied.
+%
+%    If the sample size $n$ is at least 30
+%    and there are no \emph{particularly extreme} outliers,
+%    then the sample size condition is satisfied.
+%\end{description}
+%When examining a sample mean and estimated standard error
+%from a sample of $n$ independent and nearly normal observations,
+%we use a $t$-distribution with $n - 1$ degrees of freedom~($df$).
+%For example, if the sample size was 19, then we would use the
+%$t$-distribution with $df = 19 - 1 = 18$ degrees of freedom
+%and proceed in a way similar to how we worked with proportions.

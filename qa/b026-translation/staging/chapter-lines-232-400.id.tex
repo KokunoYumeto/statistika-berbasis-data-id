@@ -1,0 +1,169 @@
+
+Dalam praktiknya, lazim pula melakukan pemeriksaan secara mental untuk menilai
+apakah ada alasan untuk meyakini populasi yang mendasari
+memiliki kemencengan sedang (jika $n < 30$)
+atau memiliki pencilan yang sangat ekstrem ($n \geq 30$)
+di luar apa yang kita amati dalam data.
+Sebagai contoh, perhatikan jumlah pengikut
+pada setiap akun individual di Twitter,
+lalu bayangkan distribusinya.
+Sebagian besar akun telah mengumpulkan
+paling banyak beberapa ribu pengikut,
+sementara sebagian yang relatif sangat kecil telah menghimpun
+puluhan juta pengikut,
+yang berarti distribusinya sangat menceng.
+Ketika kita mengetahui bahwa data berasal dari distribusi
+yang kemencengannya seekstrem itu,
+diperlukan upaya tertentu untuk menentukan seberapa besar
+ukuran sampel yang diperlukan agar syarat normalitas
+terpenuhi.
+
+%if we were sampling accounts from Twitter
+%and examining the distribution of followers on the sampled
+%accounts, we can expect that the vast majority of accounts
+%will have fewer than 1,000 followers and that there
+%will be some very extreme outliers who have tens of millions
+%of followers.
+
+%Distribution of the number of subscribers for
+%      anyone who has uploaded a video to YouTube.
+%      Most such individuals will have built little to
+%      no following, while others will have amassed tens
+%      of millions of subscribers.
+%Generally, we do not presume you to always know when the
+%underlying population has particularly extreme outliers.
+%That~is, besides looking at the data itself,
+%considering the mental check for whether particularly extreme
+%outliers are likely to be a sanity check, not a formal check.
+
+%\begin{figure}[h]
+%  \centering
+%  \Figure{0.8}{outliers_and_ss_condition}
+%  \caption{Sample observations for
+%      Example~\ref{outliers_and_ss_condition_ex}.}
+%  \label{outliers_and_ss_condition}
+%\end{figure}
+
+%A more thorough sample size condition assessment would
+%also consider two additional aspects beyond the core
+%guidance above.
+
+%The most nuanced checks are then when the sample size
+%is very small -- and we have almost no observational data
+%to allow us to check the condition.
+%\begin{description}
+%\item[Population knowledge.]
+%    If we have information about the population beyond
+%    what we've observed in the sample, we would consider
+%    this information as well.
+%    For example, if the sample size is under 30
+%    and the population is known to be moderately skewed
+%    (something difficult to detect with a small sample
+%    in the observed data),
+%    we might still not consider the 
+%    For example, if the sample size is under 30 but the
+%    population is known to be moderately skewed,
+%    then the sample size condition is not reasonable.
+%    Likewise, if the population is known to have particularly
+%    extreme observations (examples below), then we may
+%    require a particularly large sample size if we want
+%    to use the normal model for $\bar{x}$.
+%\item[Relaxing the extreme outlier condition.]
+%    When the sample size gets very large,
+%    we may even be able to overcome issues with
+%    particularly extreme outliers.
+%    However, there isn't clear guidance, and instead,
+%    custom simulations can be helpful but are beyond
+%    the scope of this book.
+%\end{description}
+%In this first course in statistics,
+%you won't (and aren't expected to) have perfect judgement
+%on when the sample size condition is or is not met.
+%However, you are expected to be able to handle the
+%clear cut cases based on the core guidelines.
+
+%For those wanting to do more rigorous checks
+%or for the situation that the ,
+%then we add a 
+%below are slightly more careful checks, it's convenient
+%to break down 
+%\begin{description}
+%\item[Sample size under 30.]
+%    If the sample size is less than 30, then we simply follow
+%    the rule of thumb and there isn't
+%    extreme skew in the data (usually punctuated by
+%    extreme outliers), then we can proceed.
+%\item[Sample size at least 30.]
+%    If the sample size is at least 30 and there isn't
+%    extreme skew in the data (usually punctuated by
+%    extreme outliers), then we can proceed.
+%\end{description}
+%then it's generally reasonable to consider $\bar{x}$
+%as following a nearly normal distribution.
+
+%\Comment{Check the ``99\%'' and ``hundreds'' claim in the
+%  income example below.}
+%
+%\begin{examplewrap}
+%\begin{nexample}{Describe a couple populations that you know
+%    would have particularly extreme outliers.}
+%  Wealth distributions in many countries have
+%      particularly extreme outliers.
+%      For example, over 99\% of the population
+%      has fewer than \$10 million saved,
+%      while there are hundreds individuals in the
+%      United States with over \$1~billion and who
+%      are unlikely to be captured in even a moderate-sized
+%      sample.
+%
+%  Distribution of the number of subscribers for
+%      anyone who has uploaded a video to YouTube.
+%      Most such individuals will have built little to
+%      no following, while others will have amassed tens
+%      of millions of subscribers.
+%
+%%  So while we won't be quizzing you on a variety of applications
+%%  in this book, when you apply these skills elsewhere it is
+%%  important to keep this consideration in mind and do some
+%%  research if you aren't sure about outliers.
+%\end{nexample}
+%\end{examplewrap}
+%
+%Generally, we do not presume you to always know when the
+%underlying population has particularly extreme outliers.
+%That~is, besides looking at the data itself,
+%considering the mental check for whether particularly extreme
+%outliers are likely to be a sanity check, not a formal check.
+
+%\begin{examplewrap}
+%\begin{nexample}{Suppose we randomly sampled 20 individuals
+%    from the United States and considered their incomes. %,
+%    % which are shown in the following distribution:
+%    However, the population is known to have particularly
+%    extreme outliers, e.g. some individuals with incomes
+%    above \$10 million.
+%    No matter what we observe in the original 20 observations,
+%    can you say whether we should proceed with modeling
+%    $\bar{x}$ using a normal distribution?}
+%  When we know the population distribution to have particularly
+%  extreme outliers, then even if we observe no outliers in our
+%  sample, we should not proceed to model $\bar{x}$ using
+%  a normal distribution.
+%
+%  Generally, we do not presume you to always know when the
+%  underlying population has particularly extreme outliers.
+%  So while we won't be quizzing you on a variety of applications
+%  in this book, when you apply these skills elsewhere it is
+%  important to keep this consideration in mind and do some
+%  research if you aren't sure about outliers.
+%\end{nexample}
+%\end{examplewrap}
+
+%However, if one or more of clear outliers are present are evidently present,
+%the guidelines around a reasonable minimum sample become murky.
+%If 
+%We'll see some other examples throughout the rest of this book,
+%which will help in developing some intuition around this topic,
+%but in many cases, data with .
+
+\index{Teorema Limit Pusat!data normal|)}

@@ -1,0 +1,73 @@
+{
+  "$schema": "interlanguage.r011-translation-checkpoint/v1",
+  "boundary_id": "R011-B026",
+  "status": "PASS_ALL_B026_TEXT_TRANSLATED_AND_EXACTLY_REPLAYED_ASSETS_BUILD_BACKEND_AND_PUBLICATION_PENDING",
+  "recorded_at": "2026-08-30T00:00:00+02:00",
+  "provenance": {
+    "production_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+    "role": "natural id-ID translation and deterministic QA"
+  },
+  "authority": {
+    "commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "tree": "d61cc601e7d97759ce805900520f784d02a0489e",
+    "blueprint": {
+      "path": "qa/b026-source/R011-B026_BOUNDARY_BLUEPRINT.json",
+      "bytes": 52663,
+      "sha256": "2340adb156e7dd6833a2421eed9b6b4e2f7045e347f4fe8639544028cd6ced34"
+    }
+  },
+  "scope": {
+    "main_source_lines": "1-1052 inclusive",
+    "chapter": 7,
+    "section": "7.1 One-sample means with the t-distribution",
+    "exercise_ids": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+    "public_answer_ids": [1, 3, 5, 7, 9, 11, 13],
+    "o001_gap_ids": [2, 4, 6, 8, 10, 12, 14],
+    "restricted_solutions_accessed_or_invented": false
+  },
+  "main_targets": [
+    {"path": "qa/b026-translation/staging/chapter-lines-1-231.id.tex", "bytes": 9551, "sha256": "f7ee09a6df0667faa82ac86cf032f4eb0477a29ca94c7f1bc676dad38fc96d34"},
+    {"path": "qa/b026-translation/staging/chapter-lines-232-400.id.tex", "bytes": 7094, "sha256": "660ea8e51126b378c5b5ada70a365dc8111e0fa771de0bd979f8c017b2bcc7e4"},
+    {"path": "qa/b026-translation/staging/chapter-lines-401-633.id.tex", "bytes": 10675, "sha256": "d50a78f6fbbf52a5007cd42929ea1dd3737b9cc3b8bf0aec5bca3a9a861b44b3"},
+    {"path": "qa/b026-translation/staging/chapter-lines-634-796.id.tex", "bytes": 6278, "sha256": "bf908c142ee30f0b0e2a4d96b06c87d72ad941c7bba5af99d59786ee437c0613"},
+    {"path": "qa/b026-translation/staging/chapter-lines-797-896.id.tex", "bytes": 3804, "sha256": "c56ea68a482ed32479d4a9968f6bbac4d117a2f68b0c8774709a9e505884773d"},
+    {"path": "qa/b026-translation/staging/chapter-lines-897-1052.id.tex", "bytes": 6463, "sha256": "d4ad6b2b445259ed72dae2e301d2956a9f61e22d7c28fc63981ba403d8248ceb"}
+  ],
+  "exercise_answer_targets": [
+    {"path": "qa/b026-translation/staging/exercises-lines-1-280.id.tex", "bytes": 10409, "sha256": "d84536e75f75f66d59a2021ea3a18dd3e51bf146a37445eebc67ed634c4c4b21"},
+    {"path": "qa/b026-translation/staging/public-answers-lines-1623-1721.id.tex", "bytes": 3247, "sha256": "ba75f7b07e02b58f76ac25cfe3e0ef0b1c98a8eedc7a60b6d9d80faebc4ee73f"},
+    {"path": "qa/b026-translation/staging/R011-B026_O001_MASTERY_GAPS.json", "bytes": 5723, "sha256": "3664d3af33ea9c00fe50c45e83f977285f1c6446632eeaaf6821291f5102b78b"}
+  ],
+  "qa_receipts": [
+    {"path": "qa/b026-translation/R011-B026_MAIN_TRANSLATION_PART_A_QA.json", "bytes": 5830, "sha256": "23a11d485ceb9aa651dfb80b09871591b9727438f1212401a66b388939c9da1e"},
+    {"path": "qa/b026-translation/R011-B026_MAIN_TRANSLATION_PART_B_QA.json", "bytes": 5876, "sha256": "e3ab079281be7693ab892063ee8b1af48e931894dfe93ff44fdb2fbf8043fd16"},
+    {"path": "qa/b026-translation/R011-B026_MAIN_TRANSLATION_PART_C_QA.json", "bytes": 9483, "sha256": "743d912b1c24d4435f52cad1bbb4443aa0ba35158a757f63ca9fb1e43bf91bb3"},
+    {"path": "qa/b026-translation/R011-B026_MAIN_TRANSLATION_PARTS_DE_QA.json", "bytes": 11421, "sha256": "0cef972d46c4fbd6b07139e583e12d4bef0b57791773f6bdbbe2be6d9f17599d"},
+    {"path": "qa/b026-translation/R011-B026_MAIN_TRANSLATION_PART_F_QA.json", "bytes": 5464, "sha256": "2bfb273cc3f53337f3a19dccf03a1079faed6119ef6ccbb7b0c570ba404df507"},
+    {"path": "qa/b026-translation/R011-B026_EXERCISES_ANSWERS_QA.json", "bytes": 9694, "sha256": "263e1fbf5edb6f039614708ca896120d67e3c80fba3e97fbe8e272c0485a19ec"}
+  ],
+  "qa": {
+    "exact_write_plus_two_verify_replays": true,
+    "source_order_and_line_mapping_exact": true,
+    "commands_environments_math_numerics_labels_refs_assets_and_layout_verified": true,
+    "approved_high_confidence_repairs": 16,
+    "learner_visible_residual_english_matches": [],
+    "inactive_source_comments_retained_as_nonvisible_witnesses": true
+  },
+  "pending": [
+    "localize and deterministically verify the eight generated reader figures",
+    "assemble and build the boundary-clean reader twice",
+    "whole-reader structural, pagewise-language, and visual QA",
+    "modular-backend admission and exact replay",
+    "stable promotion, release packaging, publication, and anonymous byte/hash readback"
+  ],
+  "next_cursor_after_admission": {
+    "boundary_id": "R011-B027",
+    "path": "ch_inference_for_means/TeX/ch_inference_for_means.tex",
+    "line": 1059,
+    "section_label": "pairedData",
+    "section_label_line": 1060
+  },
+  "complete_corpus": false,
+  "upstream_contact": false
+}

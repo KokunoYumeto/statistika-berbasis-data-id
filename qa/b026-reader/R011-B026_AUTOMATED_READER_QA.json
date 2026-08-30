@@ -1,0 +1,2767 @@
+{
+  "$schema": "interlanguage.r011-b026-automated-reader-qa/v1",
+  "accepted_boundary": "Chapter 7 Section 7.1",
+  "accepted_indonesian_reader_pages": 273,
+  "boundary_id": "R011-B026",
+  "build_binding": {
+    "asset_localization_qa": {
+      "bytes": 35730,
+      "path": "qa/b026-translation/R011-B026_ASSET_LOCALIZATION_QA.json",
+      "sha256": "b479bb7bdacda021bee1afd7380bfdea1c98915b1a693369d4a224216b48b9c1"
+    },
+    "asset_root_visual_qa": {
+      "bytes": 3636,
+      "path": "qa/b026-translation/R011-B026_ASSET_ROOT_VISUAL_INSPECTION_QA.json",
+      "sha256": "9c6a6bdd7683e98204c722e9ad9a70c873d0182e557681f07b1f3d0484eedbf0"
+    },
+    "build_receipt": {
+      "bytes": 25201,
+      "path": "scratch/b026-boundary-clean-reader/final/R011-B026_BOUNDARY_CLEAN_BUILD_QA.json",
+      "sha256": "10c91e17f19ce0a75d707b4891571e8c46a10883cfc2066edba73226e9e40b1a"
+    },
+    "candidate_pdf": {
+      "bytes": 12782877,
+      "path": "scratch/b026-boundary-clean-reader/final/main.pdf",
+      "sha256": "0f61722fe01afe18552e949dfd4d3addba450c6e0337767ea2448d982012f0d6"
+    },
+    "candidate_text": {
+      "bytes": 873719,
+      "path": "scratch/b026-boundary-clean-reader/final/main-final.txt",
+      "sha256": "4344726ad43b62109d09aa624fed81fe34c36788213be6635a89634163f47b47"
+    },
+    "complete_corpus": false,
+    "excluded_untranslated_scope": [
+      "Chapter 7 even answers 2-14, recorded as explicit O001 gaps",
+      "Chapter 7 Section 7.2 onward",
+      "Chapter 8 onward",
+      "untranslated data, table, and index appendices not visible in the learner reader",
+      "restricted instructor solutions"
+    ],
+    "included_scope": "All admitted and publicly verified B025 Indonesian learner work, plus Chapter 7 front matter and complete Section 7.1; exercises 1-14; public odd answers 1-13.",
+    "next_cursor": {
+      "boundary_id": "R011-B027",
+      "line": 1059,
+      "path": "ch_inference_for_means/TeX/ch_inference_for_means.tex",
+      "section_label": "pairedData",
+      "section_label_line": 1060
+    },
+    "page_count": 273,
+    "page_count_is_artifact_extent_not_translation_progress": true,
+    "replays": {
+      "replay_a": {
+        "pass3": {
+          "bytes": 12782877,
+          "path": "scratch/b026-boundary-clean-reader/replay-a/main-pass3.pdf",
+          "sha256": "0f61722fe01afe18552e949dfd4d3addba450c6e0337767ea2448d982012f0d6"
+        },
+        "pdf": {
+          "bytes": 12782877,
+          "path": "scratch/b026-boundary-clean-reader/replay-a/main.pdf",
+          "sha256": "0f61722fe01afe18552e949dfd4d3addba450c6e0337767ea2448d982012f0d6"
+        },
+        "terminal_log": {
+          "bytes": 80615,
+          "path": "scratch/b026-boundary-clean-reader/replay-a/console-pass4.txt",
+          "sha256": "e5b6d77c62823ac44db623e23c7b2361f3de2fedb97000c49abf1dd1bb5ffedb"
+        },
+        "text": {
+          "bytes": 873719,
+          "path": "scratch/b026-boundary-clean-reader/replay-a/main-final.txt",
+          "sha256": "4344726ad43b62109d09aa624fed81fe34c36788213be6635a89634163f47b47"
+        },
+        "trailer_ids": [
+          "0086fad99f4bde917984d70a1fdf90e2",
+          "0086fad99f4bde917984d70a1fdf90e2"
+        ],
+        "warnings": {
+          "fatal": {
+            "multiply_defined_labels": 0,
+            "rerun_required": 0,
+            "undefined_citations": 0,
+            "undefined_references": 0
+          },
+          "overfull_hbox": 327
+        }
+      },
+      "replay_b": {
+        "pass3": {
+          "bytes": 12782877,
+          "path": "scratch/b026-boundary-clean-reader/replay-b/main-pass3.pdf",
+          "sha256": "0f61722fe01afe18552e949dfd4d3addba450c6e0337767ea2448d982012f0d6"
+        },
+        "pdf": {
+          "bytes": 12782877,
+          "path": "scratch/b026-boundary-clean-reader/replay-b/main.pdf",
+          "sha256": "0f61722fe01afe18552e949dfd4d3addba450c6e0337767ea2448d982012f0d6"
+        },
+        "terminal_log": {
+          "bytes": 80615,
+          "path": "scratch/b026-boundary-clean-reader/replay-b/console-pass4.txt",
+          "sha256": "e7ffc8133bbc4ed01ce418571000ebbcdcd958daffc8c169738efb6e5f6b1a6e"
+        },
+        "text": {
+          "bytes": 873719,
+          "path": "scratch/b026-boundary-clean-reader/replay-b/main-final.txt",
+          "sha256": "4344726ad43b62109d09aa624fed81fe34c36788213be6635a89634163f47b47"
+        },
+        "trailer_ids": [
+          "0086fad99f4bde917984d70a1fdf90e2",
+          "0086fad99f4bde917984d70a1fdf90e2"
+        ],
+        "warnings": {
+          "fatal": {
+            "multiply_defined_labels": 0,
+            "rerun_required": 0,
+            "undefined_citations": 0,
+            "undefined_references": 0
+          },
+          "overfull_hbox": 327
+        }
+      }
+    },
+    "source_manifest": {
+      "bytes": 177439,
+      "files": 1222,
+      "inventory_sha256": "858ca66c52d547eb33696ce93435b77391e3b2b72dafae29f7ca48300f4a2a97",
+      "path": "scratch/b026-boundary-clean-reader/R011-B026_BOUNDARY_CLEAN_SOURCE_MANIFEST.tsv",
+      "sha256": "858ca66c52d547eb33696ce93435b77391e3b2b72dafae29f7ca48300f4a2a97",
+      "snapshot_bytes": 42042298
+    }
+  },
+  "candidate_mutated": false,
+  "complete_corpus": false,
+  "credentials_accessed": false,
+  "extracted_text": {
+    "bytes": 873719,
+    "path": "scratch/b026-boundary-clean-reader/final/main-final.txt",
+    "sha256": "4344726ad43b62109d09aa624fed81fe34c36788213be6635a89634163f47b47"
+  },
+  "git_used": false,
+  "language_summary": {
+    "allowed_english_or_literal_adjudications": [
+      {
+        "category": "proper_name_citation_url_literal_identifier_or_math",
+        "english": 6,
+        "indonesian": 0,
+        "page": 11,
+        "text": "2 G. Allais et al. “Ear acupuncture in the treatment of migraine attacks: a randomized trial on the efficacy of"
+      },
+      {
+        "category": "proper_name_citation_url_literal_identifier_or_math",
+        "english": 5,
+        "indonesian": 0,
+        "page": 19,
+        "text": "12 Alessandro Bucciol and Marco Piovesan. “Luck or cheating? A field experiment on honesty with children”. In:"
+      },
+      {
+        "category": "proper_name_citation_url_literal_identifier_or_math",
+        "english": 6,
+        "indonesian": 0,
+        "page": 20,
+        "text": "14 R.A Fisher. “The Use of Multiple Measurements in Taxonomic Problems”. In: Annals of Eugenics 7 (1936),"
+      },
+      {
+        "category": "proper_name_citation_url_literal_identifier_or_math",
+        "english": 4,
+        "indonesian": 0,
+        "page": 31,
+        "text": "measurement, and its consequences”. In: Journal of personality and social psychology 104.6 (2013), p. 1060."
+      },
+      {
+        "category": "proper_name_citation_url_literal_identifier_or_math",
+        "english": 4,
+        "indonesian": 0,
+        "page": 36,
+        "text": "32 C. Audera et al. “Mega-dose vitamin C in treatment of the common cold: a randomised controlled trial”. In:"
+      },
+      {
+        "category": "proper_name_citation_url_literal_identifier_or_math",
+        "english": 4,
+        "indonesian": 0,
+        "page": 38,
+        "text": "34 Tamlin S Conner et al. “Let them eat fruit! The effect of fruit and vegetable consumption on psychological"
+      },
+      {
+        "category": "proper_name_citation_url_literal_identifier_or_math",
+        "english": 4,
+        "indonesian": 0,
+        "page": 39,
+        "text": "36 Emma Pierson et al. “A large-scale analysis of racial disparities in police stops across the United States”. In:"
+      },
+      {
+        "category": "proper_name_citation_url_literal_identifier_or_math",
+        "english": 4,
+        "indonesian": 0,
+        "page": 56,
+        "text": "15 T. Allison and D.V. Cicchetti. “Sleep in mammals: ecological and constitutional correlates”. In: Arch. Hydrobiol"
+      },
+      {
+        "category": "proper_name_citation_url_literal_identifier_or_math",
+        "english": 5,
+        "indonesian": 1,
+        "page": 71,
+        "text": "24 Public Policy Polling, Americans on College Degrees, Classic Literature, the Seasons, and More, data collected"
+      },
+      {
+        "category": "proper_name_citation_url_literal_identifier_or_math",
+        "english": 4,
+        "indonesian": 0,
+        "page": 76,
+        "text": "29 D.J. Graham et al. “Risk of acute myocardial infarction, stroke, heart failure, and death in elderly Medicare"
+      },
+      {
+        "category": "proper_name_citation_url_literal_identifier_or_math",
+        "english": 5,
+        "indonesian": 1,
+        "page": 77,
+        "text": "30 B. Turnbull et al. “Survivorship of Heart Transplant Data”. In: Journal of the American Statistical Association"
+      },
+      {
+        "category": "proper_name_citation_url_literal_identifier_or_math",
+        "english": 4,
+        "indonesian": 1,
+        "page": 113,
+        "text": "40 Pew Research Center, Majority of Republicans No Longer See Evidence of Global Warming, data collected on"
+      },
+      {
+        "category": "proper_name_citation_url_literal_identifier_or_math",
+        "english": 4,
+        "indonesian": 0,
+        "page": 115,
+        "text": "42 B. Laeng et al. “Why do blue-eyed men prefer women with the same eye color?” In: Behavioral Ecology and"
+      },
+      {
+        "category": "proper_name_citation_url_literal_identifier_or_math",
+        "english": 5,
+        "indonesian": 0,
+        "page": 159,
+        "text": "31 SAMHSA, Office of Applied Studies, National Survey on Drug Use and Health, 2007 and 2008."
+      },
+      {
+        "category": "proper_name_citation_url_literal_identifier_or_math",
+        "english": 4,
+        "indonesian": 0,
+        "page": 217,
+        "text": "7 Demos.org. “The State of Young America: The Poll”. In: (2011)."
+      },
+      {
+        "category": "proper_name_citation_url_literal_identifier_or_math",
+        "english": 4,
+        "indonesian": 1,
+        "page": 218,
+        "text": "11 Gallup World, More Than One in 10 “Suffering” Worldwide, data collected throughout 2011."
+      },
+      {
+        "category": "proper_name_citation_url_literal_identifier_or_math",
+        "english": 7,
+        "indonesian": 1,
+        "page": 218,
+        "text": "14 Kaiser Family Foundation, The Public On Next Steps For The ACA And Proposals To Expand Coverage, data"
+      },
+      {
+        "category": "proper_name_citation_url_literal_identifier_or_math",
+        "english": 5,
+        "indonesian": 1,
+        "page": 227,
+        "text": "22 B. Turnbull et al. “Survivorship of Heart Transplant Data”. In: Journal of the American Statistical Association"
+      },
+      {
+        "category": "proper_name_citation_url_literal_identifier_or_math",
+        "english": 5,
+        "indonesian": 0,
+        "page": 228,
+        "text": "23 L Ellis and C Ficek. “Color preferences according to gender and sexual orientation”. In: Personality and"
+      },
+      {
+        "category": "proper_name_citation_url_literal_identifier_or_math",
+        "english": 5,
+        "indonesian": 0,
+        "page": 262,
+        "text": "9 WI Mortada et al. “Study of lead exposure from automobile exhaust as a risk for nephrotoxicity among traffic"
+      }
+    ],
+    "boundary_clean_no_section_7_2_or_later": true,
+    "canonical_lf": true,
+    "direct_visual_anchor_pages": {
+      "Cakupan edisi parsial ini": [
+        3,
+        6
+      ],
+      "Cherry Blossom Race 2017": [
+        257,
+        259
+      ],
+      "Distribusi t dengan 18 derajat kebebasan": [
+        253
+      ],
+      "Distribusi t dengan 20 derajat kebebasan": [
+        253
+      ],
+      "Inferensi untuk data numerik": [
+        3,
+        4,
+        248,
+        250,
+        252,
+        254,
+        256,
+        258,
+        260,
+        262,
+        273
+      ],
+      "Observasi Sampel 1": [
+        251
+      ],
+      "Perbandingan distribusi t dan distribusi normal": [
+        252
+      ],
+      "Rata-rata satu sampel dengan distribusi t": [
+        3,
+        6,
+        248,
+        250,
+        251,
+        253,
+        255,
+        257,
+        259,
+        261
+      ],
+      "Seekor lumba-lumba Risso": [
+        255
+      ],
+      "Solusi latihan": [
+        3,
+        263,
+        264,
+        266,
+        268,
+        270,
+        272
+      ],
+      "Tentukan nilai kritis t": [
+        260
+      ],
+      "Tinggi badan orang dewasa": [
+        130,
+        131,
+        261
+      ]
+    },
+    "forbidden_matches": {},
+    "missing_required": [],
+    "page_count": 273,
+    "required_individual_visual_pages": [
+      3,
+      6,
+      130,
+      251,
+      252,
+      253,
+      255,
+      257,
+      259,
+      260,
+      261,
+      272,
+      273
+    ],
+    "status": "PASS_ALL_PAGES_UTF8_BOUNDARY_CLEAN_REQUIRED_AND_RESIDUAL_ENGLISH_QA",
+    "terminal_form_feed": true,
+    "toc_missing": [],
+    "unresolved_heuristic_english": [],
+    "untranslated_instructional_or_exercise_prose_pages": 0,
+    "utf8": true
+  },
+  "learner_pdf": {
+    "bytes": 12782877,
+    "path": "scratch/b026-boundary-clean-reader/final/main.pdf",
+    "sha256": "0f61722fe01afe18552e949dfd4d3addba450c6e0337767ea2448d982012f0d6"
+  },
+  "learner_reader_total_pages": 273,
+  "network_used": false,
+  "next_cursor": {
+    "boundary_id": "R011-B027",
+    "line": 1059,
+    "path": "ch_inference_for_means/TeX/ch_inference_for_means.tex",
+    "section_label": "pairedData",
+    "section_label_line": 1060
+  },
+  "page_count_is_artifact_extent_not_translation_progress": true,
+  "pdf_structure": {
+    "acroform_absent": true,
+    "all_link_destinations_resolve": true,
+    "all_non_exempt_fonts_have_to_unicode": true,
+    "all_non_type3_non_base14_form_fonts_embedded": true,
+    "annotation_count": 1246,
+    "annotation_types": {
+      "/Link": 1246
+    },
+    "base14_form_exception_policy": "Only standard PDF Base-14 fonts confined to imported figure Form XObjects are accepted without embedding/ToUnicode; direct-page fonts and every non-Base14 font remain fail-closed. Figure text extraction is independently required by pagewise language and exact asset QA.",
+    "base14_form_font_exceptions": [
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-15/form-279-0/form-294-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F1",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-16/form-301-0/form-317-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F1",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-17/form-325-0/form-346-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F1",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-18/form-352-0/form-366-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F1",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-226/form-4699-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F1",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-253/form-5233-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F1",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-253/form-5235-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F1",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-34/form-742-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F1",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-77/form-1911-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F1",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-106/form-2539-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-107/form-2542-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-108/form-2555-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-109/form-2578-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-111/form-2593-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-120/form-2783-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-121/form-2813-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-126/form-2880-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-130/form-2964-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-131/form-2966-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-131/form-2987-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-132/form-3016-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-133/form-3046-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-136/form-3099-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-137/form-3100-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-138/form-3128-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-139/form-3168-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-140/form-3191-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-140/form-3192-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-141/form-3195-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-141/form-3214-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-141/form-3217-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-142/form-3220-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-142/form-3247-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-142/form-3248-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-143/form-3274-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-143/form-3276-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-144/form-3300-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-148/form-3409-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-15/form-279-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-157/form-3539-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-158/form-3567-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-16/form-301-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-167/form-3753-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-17/form-325-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-174/form-3843-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-176/form-3869-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-178/form-3900-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-179/form-3901-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-18/form-352-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-180/form-3902-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-185/form-4016-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-187/form-4049-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-199/form-4247-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-200/form-4264-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-202/form-4278-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-213/form-4441-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-224/form-4670-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-226/form-4699-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-23/form-489-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-235/form-4872-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-235/form-4873-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-235/form-4874-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-235/form-4875-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-235/form-4876-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-235/form-4877-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-24/form-508-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-24/form-509-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-245/form-5119-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-25/form-544-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-251/form-5204-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-252/form-5217-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-253/form-5219-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-258/form-5320-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-260/form-5341-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-261/form-5381-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-265/form-5473-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-266/form-5500-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-267/form-5522-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-267/form-5524-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-268/form-5555-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-268/form-5556-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-268/form-5557-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-268/form-5558-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-268/form-5560-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-27/form-570-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-28/form-571-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-30/form-638-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-38/form-936-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-42/form-1037-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-43/form-1040-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-43/form-1063-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-44/form-1064-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-46/form-1127-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-48/form-1148-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-49/form-1176-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-50/form-1177-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-50/form-1205-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-52/form-1252-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-53/form-1283-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-53/form-1284-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-54/form-1316-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-54/form-1317-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-55/form-1355-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-55/form-1356-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-56/form-1361-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-56/form-1362-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-56/form-1394-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-56/form-1396-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-58/form-1446-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-58/form-1476-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-58/form-1478-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-58/form-1480-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-60/form-1543-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-61/form-1567-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-61/form-1568-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-61/form-1570-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-61/form-1571-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-61/form-1572-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-63/form-1615-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-66/form-1666-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-66/form-1667-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-66/form-1668-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-68/form-1725-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-69/form-1761-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-70/form-1784-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-70/form-1785-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-71/form-1827-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-75/form-1883-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-77/form-1931-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-78/form-1963-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-78/form-1968-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-79/form-1975-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-79/form-2014-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-80/form-2043-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-80/form-2044-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-84/form-2096-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-86/form-2123-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-88/form-2161-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-89/form-2182-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-90/form-2209-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-91/form-2210-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-91/form-2233-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-93/form-2280-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-99/form-2428-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F2",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-120/form-2783-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/helv",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-126/form-2880-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/helv",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-130/form-2964-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/helv",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-131/form-2966-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/helv",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-131/form-2987-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/helv",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-132/form-3016-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/helv",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-133/form-3046-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/helv",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-148/form-3409-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/helv",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-167/form-3753-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/helv",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-37/form-810-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/helv",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-63/form-1615-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/helv",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-66/form-1666-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/helv",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-66/form-1667-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/helv",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-66/form-1668-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/helv",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-67/form-1690-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/helv",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-67/form-1691-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/helv",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-67/form-1723-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/helv",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-68/form-1725-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/helv",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-69/form-1761-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/helv",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-70/form-1784-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/helv",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-70/form-1785-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/helv",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-71/form-1827-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/helv",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-71/form-1831-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/helv",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-75/form-1883-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/helv",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-77/form-1930-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/helv",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-77/form-1931-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/helv",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica",
+        "contexts": [
+          "page-78/form-1963-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/helv",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Helvetica-Bold",
+        "contexts": [
+          "page-202/form-4278-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F3",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Symbol",
+        "contexts": [
+          "page-121/form-2814-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F6",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Symbol",
+        "contexts": [
+          "page-144/form-3300-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F6",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/Symbol",
+        "contexts": [
+          "page-50/form-1205-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F6",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/ZapfDingbats",
+        "contexts": [
+          "page-16/form-301-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F1",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/ZapfDingbats",
+        "contexts": [
+          "page-17/form-325-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F1",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/ZapfDingbats",
+        "contexts": [
+          "page-185/form-4016-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F1",
+        "subtype": "/Type1",
+        "to_unicode": false
+      },
+      {
+        "base_font": "/ZapfDingbats",
+        "contexts": [
+          "page-52/form-1252-0"
+        ],
+        "embedded_streams": [],
+        "resource_name": "/F1",
+        "subtype": "/Type1",
+        "to_unicode": false
+      }
+    ],
+    "crop_boxes": [
+      [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    ],
+    "document_language": "id-ID",
+    "embedded_numeric_form_fonts_without_to_unicode": [
+      {
+        "base_font": "/AQDSFW+Helvetica",
+        "contexts": [
+          "page-237/form-4964-0"
+        ],
+        "embedded_streams": [
+          "/FontFile2"
+        ],
+        "form_text_operands": [
+          "0",
+          "5",
+          "10",
+          "15"
+        ],
+        "resource_name": "/TT1",
+        "subtype": "/TrueType",
+        "to_unicode": false
+      }
+    ],
+    "embedded_numeric_form_no_to_unicode_policy": "An embedded non-Base14 font confined to imported figure Form XObjects may lack ToUnicode only when every text-show operand in each containing Form is deterministically parsed and numeric-only; prose and localized labels remain fail-closed.",
+    "font_count": 229,
+    "font_subtypes": {
+      "/TrueType": 1,
+      "/Type0": 3,
+      "/Type1": 225
+    },
+    "form_xobject_count": 156,
+    "image_dimensions_valid": true,
+    "image_xobject_count": 54,
+    "link_action_types": {
+      "/GoTo": 1124,
+      "/URI": 122
+    },
+    "media_boxes": [
+      [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    ],
+    "metadata": {
+      "/Author": "David M. Diez, Mine Çetinkaya-Rundel, Christopher D. Barr",
+      "/CreationDate": "D:20260829000000Z",
+      "/Creator": "LaTeX with hyperref",
+      "/Keywords": "statistika, data, buku teks, bahasa Indonesia",
+      "/ModDate": "D:20260829000000Z",
+      "/Subject": "Karya turunan berbahasa Indonesia dari OpenIntro Statistics, Edisi Keempat",
+      "/Title": "Statistika Berbasis Data"
+    },
+    "named_destination_count": 2221,
+    "named_destination_page_range": [
+      1,
+      273
+    ],
+    "outline_count": 9,
+    "outlines": [
+      {
+        "level": 0,
+        "page": 6,
+        "title": "Cakupan edisi parsial ini"
+      },
+      {
+        "level": 0,
+        "page": 7,
+        "title": "1 Pengantar data"
+      },
+      {
+        "level": 0,
+        "page": 40,
+        "title": "2 Merangkum data"
+      },
+      {
+        "level": 0,
+        "page": 81,
+        "title": "3 Probabilitas"
+      },
+      {
+        "level": 0,
+        "page": 134,
+        "title": "4 Distribusi variabel acak"
+      },
+      {
+        "level": 0,
+        "page": 170,
+        "title": "5 Dasar-dasar inferensi"
+      },
+      {
+        "level": 0,
+        "page": 208,
+        "title": "6 Inferensi untuk data kategoris"
+      },
+      {
+        "level": 0,
+        "page": 248,
+        "title": "7 Inferensi untuk data numerik"
+      },
+      {
+        "level": 0,
+        "page": 263,
+        "title": "A Solusi latihan"
+      }
+    ],
+    "page_count": 273,
+    "pdfplumber_object_counts": {
+      "chars": 586222,
+      "curves": 50369,
+      "images": 334,
+      "lines": 5699,
+      "rects": 12352
+    },
+    "status": "PASS_STRICT_PDF_STRUCTURE_METADATA_FONTS_LINKS_OUTLINES_IMAGES_FORMS_ANNOTATIONS_AND_BBOX_QA",
+    "text_or_image_bbox_clipping_or_overflow_violations": [],
+    "toc_entries_verified": [
+      "Daftar Isi",
+      "7 Inferensi untuk data numerik",
+      "7.1 Rata-rata satu sampel dengan distribusi t",
+      "A Solusi latihan"
+    ],
+    "uri_count": 122,
+    "vector_geometry_outside_page_box": [
+      {
+        "bbox": [
+          270.667531,
+          -3498.759118,
+          341.627109,
+          129.182729
+        ],
+        "kind": "rects",
+        "page": 50
+      },
+      {
+        "bbox": [
+          341.627109,
+          -3498.759118,
+          377.106898,
+          129.182729
+        ],
+        "kind": "rects",
+        "page": 50
+      },
+      {
+        "bbox": [
+          235.18774200000001,
+          -3498.759118,
+          270.667531,
+          129.182729
+        ],
+        "kind": "rects",
+        "page": 50
+      },
+      {
+        "bbox": [
+          377.106898,
+          -3498.759118,
+          412.586687,
+          129.182729
+        ],
+        "kind": "rects",
+        "page": 50
+      },
+      {
+        "bbox": [
+          199.707953,
+          -3498.759118,
+          235.18774200000001,
+          129.182729
+        ],
+        "kind": "rects",
+        "page": 50
+      },
+      {
+        "bbox": [
+          412.59361800000005,
+          -3498.759118,
+          448.07340700000003,
+          129.182729
+        ],
+        "kind": "rects",
+        "page": 50
+      },
+      {
+        "bbox": [
+          164.221233,
+          -3498.759118,
+          199.701022,
+          129.182729
+        ],
+        "kind": "rects",
+        "page": 50
+      },
+      {
+        "bbox": [
+          270.667531,
+          -46623.302498000005,
+          341.627109,
+          624.27099
+        ],
+        "kind": "rects",
+        "page": 50
+      },
+      {
+        "bbox": [
+          341.627109,
+          -46623.302498000005,
+          377.106898,
+          624.27099
+        ],
+        "kind": "rects",
+        "page": 50
+      },
+      {
+        "bbox": [
+          235.18774200000001,
+          -46623.302498000005,
+          270.667531,
+          624.27099
+        ],
+        "kind": "rects",
+        "page": 50
+      },
+      {
+        "bbox": [
+          377.106898,
+          -46623.302498000005,
+          412.586687,
+          624.27099
+        ],
+        "kind": "rects",
+        "page": 50
+      },
+      {
+        "bbox": [
+          199.707953,
+          -46623.302498000005,
+          235.18774200000001,
+          624.27099
+        ],
+        "kind": "rects",
+        "page": 50
+      },
+      {
+        "bbox": [
+          412.59361800000005,
+          -46623.302498000005,
+          448.07340700000003,
+          624.27099
+        ],
+        "kind": "rects",
+        "page": 50
+      },
+      {
+        "bbox": [
+          164.221233,
+          -46623.302498000005,
+          199.701022,
+          624.27099
+        ],
+        "kind": "rects",
+        "page": 50
+      },
+      {
+        "bbox": [
+          270.667531,
+          -45494.561424,
+          341.627109,
+          682.595355
+        ],
+        "kind": "rects",
+        "page": 50
+      },
+      {
+        "bbox": [
+          341.627109,
+          -45494.561424,
+          377.106898,
+          682.595355
+        ],
+        "kind": "rects",
+        "page": 50
+      },
+      {
+        "bbox": [
+          235.18774200000001,
+          -45494.561424,
+          270.667531,
+          682.595355
+        ],
+        "kind": "rects",
+        "page": 50
+      },
+      {
+        "bbox": [
+          377.106898,
+          -45494.561424,
+          412.586687,
+          682.595355
+        ],
+        "kind": "rects",
+        "page": 50
+      },
+      {
+        "bbox": [
+          199.707953,
+          -45494.561424,
+          235.18774200000001,
+          682.595355
+        ],
+        "kind": "rects",
+        "page": 50
+      },
+      {
+        "bbox": [
+          412.59361800000005,
+          -45494.561424,
+          448.07340700000003,
+          682.595355
+        ],
+        "kind": "rects",
+        "page": 50
+      },
+      {
+        "bbox": [
+          164.221233,
+          -45494.561424,
+          199.701022,
+          682.595355
+        ],
+        "kind": "rects",
+        "page": 50
+      }
+    ],
+    "vector_geometry_policy": "Off-page rectangle/line/curve bounds produced by clipped vector graphics are recorded but are not content overflow; text and image bounds remain fail-closed, and every rendered page is independently checked for edge ink and visually inspected.",
+    "widget_annotations": 0
+  },
+  "publication_performed": false,
+  "source_structure": {
+    "chapter_7_label_exact": true,
+    "chapter_7_source_lines": "1-1052 source lines; 1049 assembled lines after four later-navigation lines are replaced by one boundary note",
+    "exercise_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "exercise_labels": [
+      "identify_critical_t",
+      "t_distribution",
+      "find_T_pval_1_2_sided",
+      "find_T_pval_2_2_sided",
+      "work_backwards_1",
+      "work_backwards_2",
+      "ny_sleep_habits_2_sided",
+      "adult_heights",
+      "find_mean_2_sided",
+      "critical_t_vs_z",
+      "play_piano_2_sided",
+      "auto_exhaust_lead_exposure_2_sided",
+      "car_insurance_savings",
+      "sat_scores_CI"
+    ],
+    "installed_localized_assets": [
+      {
+        "replaced": {
+          "bytes": 5071,
+          "path": "scratch/b026-boundary-clean-reader/source-snapshot/ch_inference_for_means/figures/outliers_and_ss_condition/outliers_and_ss_condition.pdf",
+          "sha256": "e3522b83b91e7897b843246727adc99c264b4ca4ead9dc0bc1b0793215307100"
+        },
+        "source": {
+          "bytes": 11338,
+          "path": "qa/b026-translation/staging/assets/outliers_and_ss_condition.id.pdf",
+          "sha256": "5efbf4b8f972c938df3b27e0fb281f7b00269e178dceb0673d09bdf61e0fbcdf"
+        },
+        "target": {
+          "bytes": 11338,
+          "path": "scratch/b026-boundary-clean-reader/source-snapshot/ch_inference_for_means/figures/outliers_and_ss_condition/outliers_and_ss_condition.pdf",
+          "sha256": "5efbf4b8f972c938df3b27e0fb281f7b00269e178dceb0673d09bdf61e0fbcdf"
+        }
+      },
+      {
+        "replaced": {
+          "bytes": 15583,
+          "path": "scratch/b026-boundary-clean-reader/source-snapshot/ch_inference_for_means/figures/tDistCompareToNormalDist/tDistCompareToNormalDist.pdf",
+          "sha256": "28470fe71fc00a899d6cae91c1572c26d7ee374bfab18e071bfb488034b1cd71"
+        },
+        "source": {
+          "bytes": 52105,
+          "path": "qa/b026-translation/staging/assets/tDistCompareToNormalDist.id.pdf",
+          "sha256": "09ba1c4a8edbebcb4d7108810244f9442aba69e0fd0ce9d8a0528c544d37e186"
+        },
+        "target": {
+          "bytes": 52105,
+          "path": "scratch/b026-boundary-clean-reader/source-snapshot/ch_inference_for_means/figures/tDistCompareToNormalDist/tDistCompareToNormalDist.pdf",
+          "sha256": "09ba1c4a8edbebcb4d7108810244f9442aba69e0fd0ce9d8a0528c544d37e186"
+        }
+      },
+      {
+        "replaced": {
+          "bytes": 19212,
+          "path": "scratch/b026-boundary-clean-reader/source-snapshot/ch_inference_for_means/figures/tDistConvergeToNormalDist/tDistConvergeToNormalDist.pdf",
+          "sha256": "754dd5ab4ab301b060c3f951a28a653bd1c65a2d52e9eb348578582adac71160"
+        },
+        "source": {
+          "bytes": 65026,
+          "path": "qa/b026-translation/staging/assets/tDistConvergeToNormalDist.id.pdf",
+          "sha256": "b0e9bfcbcf886b710d1960c1005859429f174728c1384633afd572a22be1a0e0"
+        },
+        "target": {
+          "bytes": 65026,
+          "path": "scratch/b026-boundary-clean-reader/source-snapshot/ch_inference_for_means/figures/tDistConvergeToNormalDist/tDistConvergeToNormalDist.pdf",
+          "sha256": "b0e9bfcbcf886b710d1960c1005859429f174728c1384633afd572a22be1a0e0"
+        }
+      },
+      {
+        "replaced": {
+          "bytes": 24430,
+          "path": "scratch/b026-boundary-clean-reader/source-snapshot/ch_inference_for_means/figures/tDistDF18LeftTail2Point10/tDistDF18LeftTail2Point10.pdf",
+          "sha256": "e1da0ef09eb01c68d5aec3ec9d4cedbbe6c705f031290ed31bdfc6b7eb46bb0e"
+        },
+        "source": {
+          "bytes": 13307,
+          "path": "qa/b026-translation/staging/assets/tDistDF18LeftTail2Point10.id.pdf",
+          "sha256": "7ad8aa77c0e94a6ddfd375c35ab4cd0ececcb7c5f917a3c96d731243191f15ba"
+        },
+        "target": {
+          "bytes": 13307,
+          "path": "scratch/b026-boundary-clean-reader/source-snapshot/ch_inference_for_means/figures/tDistDF18LeftTail2Point10/tDistDF18LeftTail2Point10.pdf",
+          "sha256": "7ad8aa77c0e94a6ddfd375c35ab4cd0ececcb7c5f917a3c96d731243191f15ba"
+        }
+      },
+      {
+        "replaced": {
+          "bytes": 13328,
+          "path": "scratch/b026-boundary-clean-reader/source-snapshot/ch_inference_for_means/figures/tDistDF20RightTail1Point65/tDistDF20RightTail1Point65.pdf",
+          "sha256": "b2a7ae6e05ada61536a49703e215fed0252e70f23078086e34bd16c398d5465e"
+        },
+        "source": {
+          "bytes": 25786,
+          "path": "qa/b026-translation/staging/assets/tDistDF20RightTail1Point65.id.pdf",
+          "sha256": "11ce38a736c383f883a355f79fe1aeabcaa26e3feee540e740c266b31f95b3db"
+        },
+        "target": {
+          "bytes": 25786,
+          "path": "scratch/b026-boundary-clean-reader/source-snapshot/ch_inference_for_means/figures/tDistDF20RightTail1Point65/tDistDF20RightTail1Point65.pdf",
+          "sha256": "11ce38a736c383f883a355f79fe1aeabcaa26e3feee540e740c266b31f95b3db"
+        }
+      },
+      {
+        "replaced": {
+          "bytes": 4617,
+          "path": "scratch/b026-boundary-clean-reader/source-snapshot/ch_inference_for_means/figures/run10SampTimeHistogram/run17SampTimeHistogram.pdf",
+          "sha256": "e7e21b8a3807dae74b8a82f970ff9096268c169260ab52688ead88d393d13270"
+        },
+        "source": {
+          "bytes": 7629,
+          "path": "qa/b026-translation/staging/assets/run17SampTimeHistogram.id.pdf",
+          "sha256": "7ce6972438b8a32f504bcb14a0c90111460a1e47e9dc1d2b991aa1ce02229f1a"
+        },
+        "target": {
+          "bytes": 7629,
+          "path": "scratch/b026-boundary-clean-reader/source-snapshot/ch_inference_for_means/figures/run10SampTimeHistogram/run17SampTimeHistogram.pdf",
+          "sha256": "7ce6972438b8a32f504bcb14a0c90111460a1e47e9dc1d2b991aa1ce02229f1a"
+        }
+      },
+      {
+        "replaced": {
+          "bytes": 17949,
+          "path": "scratch/b026-boundary-clean-reader/source-snapshot/ch_inference_for_means/figures/eoce/t_distribution/t_distribution.pdf",
+          "sha256": "9bea5f900e1ff2f10d99217eb08378e637c8ec3a63f906fd250887b56e0e70fe"
+        },
+        "source": {
+          "bytes": 60191,
+          "path": "qa/b026-translation/staging/assets/t_distribution.id.pdf",
+          "sha256": "52ecac753c4b469c93ac6eff52563d417db86eebd6aa20d9087b1146c203fe92"
+        },
+        "target": {
+          "bytes": 60191,
+          "path": "scratch/b026-boundary-clean-reader/source-snapshot/ch_inference_for_means/figures/eoce/t_distribution/t_distribution.pdf",
+          "sha256": "52ecac753c4b469c93ac6eff52563d417db86eebd6aa20d9087b1146c203fe92"
+        }
+      },
+      {
+        "replaced": {
+          "bytes": 4674,
+          "path": "scratch/b026-boundary-clean-reader/source-snapshot/ch_inference_for_means/figures/eoce/adult_heights/adult_heights_hist.pdf",
+          "sha256": "486ef0179721127302ebc7f43d240a3c1918ab4411d20a780191b0a14e523da5"
+        },
+        "source": {
+          "bytes": 8023,
+          "path": "qa/b026-translation/staging/assets/adult_heights_hist.id.pdf",
+          "sha256": "9fe6bfbcee89f0415ead39e800e9f2979b6f96f435e58681cb4bd1bdb537abd1"
+        },
+        "target": {
+          "bytes": 8023,
+          "path": "scratch/b026-boundary-clean-reader/source-snapshot/ch_inference_for_means/figures/eoce/adult_heights/adult_heights_hist.pdf",
+          "sha256": "9fe6bfbcee89f0415ead39e800e9f2979b6f96f435e58681cb4bd1bdb537abd1"
+        }
+      }
+    ],
+    "o001_gap_ids": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14
+    ],
+    "public_answer_ids": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13
+    ],
+    "reflow_repairs": [
+      {
+        "answer": 25,
+        "chapter": 5,
+        "midstream_forced_close_newpage_reopen_absent": true
+      },
+      {
+        "answer": 37,
+        "chapter": 6,
+        "midstream_forced_close_newpage_reopen_absent": true
+      },
+      {
+        "answer": 9,
+        "chapter": 7,
+        "midstream_forced_close_newpage_reopen_absent": true
+      }
+    ],
+    "restricted_instructor_solutions_accessed_or_invented": false,
+    "rissos_dolphin": {
+      "bytes": 72046,
+      "path": "scratch/b026-boundary-clean-reader/source-snapshot/ch_inference_for_means/figures/rissosDolphin/rissosDolphin.jpg",
+      "rights": "CC BY 2.0",
+      "rights_witness": {
+        "bytes": 119,
+        "path": "scratch/b026-boundary-clean-reader/source-snapshot/ch_inference_for_means/figures/rissosDolphin/ReadMe.txt",
+        "sha256": "51903690d2b3cd10e69431292a345a08e321ac06d390252e852f4deef200088f"
+      },
+      "sha256": "591d0ba9d9a228e58f2e8841536b826847f219d68cf791d6740986b7768ee200"
+    },
+    "section_7_1_label_exact": true,
+    "section_7_2_and_later_absent": true
+  },
+  "status": "PASS_DETERMINISTIC_BUILD_SOURCE_STRUCTURE_PDF_AND_LANGUAGE_QA",
+  "translation_provenance": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "untranslated_instructional_or_exercise_prose_pages": 0,
+  "upstream_contact": false
+}

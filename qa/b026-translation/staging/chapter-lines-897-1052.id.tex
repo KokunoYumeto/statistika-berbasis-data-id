@@ -1,0 +1,156 @@
+\newcommand{\cherryblossomn}{100}
+\newcommand{\cherryblossommean}{97.32}
+\newcommand{\cherryblossomnull}{93.29}
+\newcommand{\cherryblossomsd}{16.98}
+\newcommand{\cherryblossomse}{1.70}
+\newcommand{\cherryblossomz}{2.37}
+
+\noindent%
+Apakah pelari di AS pada umumnya semakin cepat atau semakin lambat dari waktu ke waktu? Kita membahas pertanyaan ini dalam konteks Cherry Blossom Race, yaitu lomba lari 10 mil yang diselenggarakan di Washington, DC setiap~musim semi.
+
+Waktu rata-rata seluruh pelari yang menyelesaikan Cherry Blossom Race pada 2006 adalah \cherryblossomnull{} menit (93 menit dan sekitar 17 detik). Dengan menggunakan data dari \cherryblossomn{} peserta Cherry Blossom Race 2017, kita ingin menentukan apakah para pelari dalam lomba ini semakin cepat atau semakin lambat, dibandingkan dengan kemungkinan lain bahwa tidak terjadi perubahan.
+
+\begin{exercisewrap}
+\begin{nexercise}
+Hipotesis apa yang sesuai untuk konteks ini?\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{$H_0$: Waktu rata-rata lari 10 mil sama pada 2006 dan 2017. $\mu = \cherryblossomnull{}$ menit. $H_A$: Waktu rata-rata lari 10 mil pada 2017 \emph{berbeda} dari waktu pada 2006. $\mu \neq \cherryblossomnull{}$ menit.}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Data berasal dari sampel acak sederhana atas seluruh peserta,
+sehingga pengamatan-pengamatannya saling independen.
+Namun, apakah kita perlu mengkhawatirkan syarat kenormalan?
+Lihat Gambar~\ref{run10SampTimeHistogram} yang menampilkan histogram
+waktu lari sampel, lalu evaluasilah apakah kita dapat
+melanjutkan analisis.\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Dengan sampel berukuran \cherryblossomn{},
+  kita hanya perlu khawatir jika terdapat pencilan yang sangat
+  ekstrem.
+  Histogram data tidak menunjukkan pencilan yang mengkhawatirkan
+  (dan dapat dikatakan tidak menunjukkan pencilan sama sekali).}
+
+\begin{figure}[h]
+  \centering
+  \Figures[Ditampilkan histogram waktu untuk sampel data Cherry Blossom Race. Data hampir simetris dengan pusat sekitar 100 menit dan simpangan baku kira-kira 15 sampai 20 menit. Semua waktu berada di antara 50 dan 140 menit.]{0.65}{run10SampTimeHistogram}{run17SampTimeHistogram} 
+  \caption{Histogram \var{time} untuk sampel data
+      Cherry Blossom Race.}
+  \label{run10SampTimeHistogram}
+\end{figure}
+
+Ketika melakukan uji hipotesis untuk rata-rata satu sampel,
+prosesnya hampir sama dengan melakukan uji hipotesis
+untuk satu proporsi.
+Pertama, kita mencari skor-Z menggunakan nilai teramati,
+nilai nol, dan galat baku;
+namun, kita menyebutnya \term{skor-T} karena kita menggunakan
+distribusi-$t$ untuk menghitung luas ekor.
+Kemudian kita mencari nilai-p dengan gagasan yang sama seperti
+sebelumnya: cari luas satu ekor di bawah distribusi
+sampling, lalu kalikan dua.
+
+\D{\newpage}
+
+%\begin{exampleewrap}
+%\begin{nexample}{With independence satisfied and normality
+%    not a concern, we can proceed with performing a hypothesis
+%    test using the $t$-distribution.
+%    The sample mean and sample standard deviation of the
+%    sample of \cherryblossomn{} runners from the 2017 Cherry
+%    Blossom Race are \cherryblossommean{} and
+%    \cherryblossomsd{} minutes, respectively.
+%    Recall that the sample size is 100.
+%    What is the p-value for the test, and what is your
+%    conclusion?}
+%\end{nexercise}
+%\end{exercisewrap}
+
+\begin{examplewrap}
+\begin{nexample}{Karena syarat independensi
+    dan kenormalan telah terpenuhi,
+    kita dapat melanjutkan uji hipotesis dengan
+    distribusi-$t$.
+    Rata-rata sampel dan simpangan baku sampel
+    dari sampel
+    \cherryblossomn{} pelari dalam
+    Cherry Blossom Race 2017
+    adalah \cherryblossommean{} dan \cherryblossomsd{} menit,
+    secara berurutan.
+    Ingat bahwa ukuran sampelnya adalah 100
+    dan waktu lari rata-rata pada 2006 adalah
+    \cherryblossomnull{} menit.
+    Carilah statistik uji dan nilai-p.
+    Apa kesimpulan Anda?}
+
+  Untuk mencari statistik uji (skor-T),
+  terlebih dahulu kita menentukan galat baku:
+  \begin{align*}
+  SE
+    = \cherryblossomsd{} / \sqrt{\cherryblossomn{}}
+    = \cherryblossomse{}
+  \end{align*}
+  Sekarang kita dapat menghitung \emph{skor-T}
+  menggunakan rata-rata sampel (\cherryblossommean{}),
+  nilai nol (\cherryblossomnull{}), dan $SE$:
+  \begin{align*}
+  T
+    = \frac{\cherryblossommean{} - \cherryblossomnull{}}
+        {\cherryblossomse{}}
+    = \cherryblossomz{}
+  \end{align*}
+  Untuk $df = \cherryblossomn{} - 1 = 99$,
+  dengan perangkat lunak statistik
+  (atau tabel-$t$) kita dapat menentukan bahwa luas satu ekornya adalah 0.01,
+  yang kita kalikan dua untuk memperoleh nilai-p:~0.02.
+
+  Karena nilai-p lebih kecil daripada 0.05,
+  kita menolak hipotesis nol.
+  Artinya, data memberikan bukti kuat bahwa waktu lari
+  rata-rata dalam Cherry Blossom Race 2017 berbeda
+  dari rata-rata 2006.
+  Karena nilai teramati berada di atas nilai nol
+  dan kita telah menolak hipotesis nol, kita menyimpulkan
+  bahwa pelari dalam lomba tersebut rata-rata lebih lambat pada 2017
+  daripada pada 2006.
+\end{nexample}
+\end{examplewrap}
+
+%%\begin{onebox}{When using a $t$-distribution, we use a T-score (same as Z-score)}
+%To help us remember to use the $t$-distribution,
+%we use a $T$ to represent the test statistic,
+%and we often call this a \term{T-score}.
+%The Z-score and T-score are computed in the exact same way
+%and are conceptually identical:
+%each represents how many standard errors the observed value
+%is from the null value.
+%%\end{onebox}
+
+\begin{onebox}{Uji hipotesis untuk satu rata-rata}
+  Setelah Anda menentukan bahwa uji hipotesis satu rata-rata merupakan
+  prosedur yang tepat, terdapat empat langkah untuk menyelesaikan
+  pengujian:
+  \begin{description}
+  \item[Persiapkan.]
+      Identifikasi parameter yang menjadi perhatian,
+      tuliskan hipotesis,
+      tentukan tingkat signifikansi,
+      serta identifikasi $\bar{x}$, $s$, dan $n$.
+  \item[Periksa.]
+      Verifikasi syarat-syarat agar $\bar{x}$ mendekati distribusi normal.
+  \item[Hitung.]
+      Jika syarat-syarat terpenuhi, hitung $SE$,
+      hitung skor-T, dan tentukan nilai-p.
+  \item[Simpulkan.]
+      Evaluasi uji hipotesis dengan membandingkan nilai-p
+      dengan $\alpha$, lalu berikan kesimpulan dalam konteks
+      masalah tersebut.
+  \end{description}
+\end{onebox}
+
+\CalculatorVideos{interval kepercayaan dan uji hipotesis untuk satu rata-rata}
+
+
+{\input{ch_inference_for_means/TeX/one-sample_means_with_the_t-distribution.tex}}

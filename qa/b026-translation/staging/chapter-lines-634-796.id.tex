@@ -1,0 +1,163 @@
+
+
+\D{\newpage}
+
+\subsection[Interval kepercayaan $t$ satu sampel]
+    {Interval kepercayaan $\pmb{t}$ satu sampel}
+\label{oneSampleTConfidenceIntervals}
+
+\index{data!lumba-lumba dan merkuri|(}
+
+Mari kita mulai mengenal penerapan distribusi $t$
+dalam konteks contoh tentang kandungan merkuri
+di otot lumba-lumba.
+%Dolphins are at the top of the oceanic food chain, which causes dangerous substances such as mercury to concentrate in their organs and muscles.
+Konsentrasi merkuri yang tinggi merupakan masalah penting
+baik bagi lumba-lumba
+maupun hewan lain, seperti manusia, yang sesekali memakannya.
+\captionsetup{width=86mm}
+
+\begin{figure}[h]
+\centering
+\Figures[Seekor lumba-lumba Risso tampak muncul ke permukaan air. Bagian di depan wajahnya sebagian besar berwarna putih, kemudian tubuhnya bercorak abu-abu dan putih.]{0.8}{rissosDolphin}{rissosDolphin.jpg}  \\
+\addvspace{2mm}
+\begin{minipage}{\textwidth}
+   \caption[rissosDolphinPic]{Seekor lumba-lumba Risso.\vspace{-1mm} \\
+   -----------------------------\vspace{-2mm}\\
+   {\footnotesize Foto oleh Mike Baird (\oiRedirect{textbook-bairdphotos_com}{www.bairdphotos.com}). \oiRedirect{textbook-CC_BY_2}{lisensi~CC~BY~2.0}.}\vspace{-8mm}}
+   \label{rissosDolphin}
+\end{minipage}
+\stdvspace{}
+\end{figure}
+\captionsetup{width=\mycaptionwidth}
+
+Kita akan menentukan interval kepercayaan bagi rata-rata kandungan merkuri dalam otot lumba-lumba dengan menggunakan sampel 19 lumba-lumba Risso dari wilayah Taiji di Jepang. Data diringkas dalam Gambar~\ref{summaryStatsOfHgInMuscleOfRissosDolphins}. Nilai minimum dan maksimum yang teramati dapat digunakan untuk menilai apakah terdapat pencilan yang jelas.
+
+\begin{figure}[h]
+\centering
+\begin{tabular}{ccc cc}
+\hline
+$n$ & $\bar{x}$ & $s$ & minimum & maksimum \\
+19   & 4.4	  & 2.3  & 1.7	       & 9.2 \\
+\hline
+\end{tabular}
+\caption{Ringkasan kandungan merkuri dalam otot
+    19 lumba-lumba Risso dari wilayah Taiji.
+    Pengukuran dinyatakan dalam mikrogram merkuri per gram basah
+    otot ($\mu$g/g basah).}
+\label{summaryStatsOfHgInMuscleOfRissosDolphins}
+\end{figure}
+
+\begin{examplewrap}
+\begin{nexample}{Apakah syarat independensi dan
+    normalitas terpenuhi untuk kumpulan~data ini?}
+  Observasi-observasi tersebut merupakan sampel acak sederhana,
+  sehingga independensi masuk akal.
+  Statistik ringkasan dalam
+  Gambar~\ref{summaryStatsOfHgInMuscleOfRissosDolphins}
+  tidak menunjukkan pencilan yang jelas karena
+  semua observasi berada dalam 2.5 simpangan baku
+  dari rata-rata.
+  Berdasarkan bukti ini, syarat normalitas
+  tampaknya masuk akal.
+\end{nexample}
+\end{examplewrap}
+
+Dalam model normal, kita menggunakan $z^{\star}$ dan galat baku untuk menentukan lebar interval kepercayaan. Kita sedikit menyesuaikan rumus interval kepercayaan ketika menggunakan distribusi $t$:
+\begin{align*}
+&\text{estimasi titik} \ \pm\  t^{\star}_{df} \times SE
+&&\to
+&&\bar{x} \ \pm\  t^{\star}_{df} \times \frac{s}{\sqrt{n}}
+\end{align*}
+%The sample mean is the point estimate of interest.
+%The standard error is computed using $SE = s/\sqrt{n}$.
+
+\begin{examplewrap}
+\begin{nexample}{Dengan menggunakan statistik ringkasan dalam
+    Gambar~\ref{summaryStatsOfHgInMuscleOfRissosDolphins},
+    hitung galat baku bagi rata-rata kandungan merkuri
+    pada $n = 19$ lumba-lumba tersebut.}
+  Kita memasukkan $s$ dan $n$ ke dalam rumus:
+  $
+  %\begin{align*}
+  SE
+    = s / \sqrt{n}
+    = 2.3 / \sqrt{19}
+    = 0.528
+  %\end{align*}
+  $.
+\end{nexample}
+\end{examplewrap}
+
+Nilai $t^{\star}_{df}$ merupakan nilai kritis yang kita peroleh berdasarkan
+tingkat kepercayaan dan distribusi $t$ dengan $df$ derajat
+kebebasan.
+Nilai batas itu dicari dengan cara yang sama seperti pada distribusi
+normal: kita mencari $t^{\star}_{df}$ sedemikian rupa sehingga
+proporsi distribusi $t$ dengan $df$ derajat
+kebebasan yang berada dalam jarak $t^{\star}_{df}$
+dari 0 sama dengan tingkat kepercayaan yang dikehendaki.
+
+\begin{examplewrap}
+\begin{nexample}{Ketika $n = 19$, berapakah banyak
+    derajat kebebasan yang sesuai?
+    Cari $t^{\star}_{df}$ untuk banyaknya derajat kebebasan ini
+    dan tingkat kepercayaan 95\%}
+  Banyaknya derajat kebebasan mudah dihitung:
+  $df = n - 1 = 18$.
+  
+  Dengan perangkat lunak statistik, kita mencari nilai kritis yang membuat
+  luas ekor atas sama dengan 2.5\%:
+  $t^{\star}_{18} = 2.10$.
+  Luas di bawah -2.10 juga akan sama dengan 2.5\%.
+  Artinya, 95\% distribusi $t$ dengan $df = 18$
+  terletak dalam jarak 2.10 satuan dari~0.
+\end{nexample}
+\end{examplewrap}
+
+%\begin{onebox}{Degrees of freedom for a single sample}
+%If the sample has $n$ observations and we are examining a single mean, then we use the $t$-distribution with $df=n-1$ degrees of freedom.
+%\end{onebox}
+
+%In our current example, we should use the $t$-distribution
+%with $df=19-1=18$ degrees of freedom.
+%We can generally identify $t_{18}^{\star}$
+%using statistical software.
+%Alternatively, we could use the $t$-table in
+%Appendix~\ref{tDistributionTable}.
+%Generally the value of $t^{\star}_{df}$ is slightly larger
+%than what we would get under the normal model with~$z^{\star}$.
+
+\begin{examplewrap}
+\begin{nexample}{Hitung dan tafsirkan interval kepercayaan 95\%
+    bagi rata-rata kandungan merkuri pada lumba-lumba Risso.}
+  Kita dapat menyusun interval kepercayaan sebagai
+  \begin{align*}
+  \bar{x} \ \pm\  t^{\star}_{18} \times SE
+    \quad \to \quad 4.4 \ \pm\  2.10 \times 0.528
+    \quad \to \quad (3.29, 5.51)
+  \end{align*}
+  Kita yakin 95\% bahwa rata-rata kandungan merkuri dalam otot
+  lumba-lumba Risso berada antara 3.29 dan 5.51 $\mu$g/gram basah,
+  yang dianggap sangat tinggi.
+\end{nexample}
+\end{examplewrap}
+
+\index{data!lumba-lumba dan merkuri|)}
+
+\begin{onebox}{Menentukan
+    interval kepercayaan $\pmb{\MakeLowercase{t}}$
+    bagi rata-rata}
+  Berdasarkan sampel yang terdiri atas $n$ observasi saling independen
+  dan mendekati normal, interval kepercayaan bagi rata-rata
+  populasi adalah
+  \begin{align*}
+  &\text{estimasi titik} \ \pm\  t^{\star}_{df} \times SE
+  &&\to
+  &&\bar{x} \ \pm\  t^{\star}_{df} \times \frac{s}{\sqrt{n}}
+  \end{align*}
+  dengan $\bar{x}$ sebagai rata-rata sampel, $t^{\star}_{df}$
+  sesuai dengan tingkat kepercayaan dan derajat kebebasan
+  $df$, dan $SE$ sebagai galat baku yang diestimasi dari
+  sampel.
+\end{onebox}

@@ -1,0 +1,1157 @@
+{
+  "$schema": "interlanguage.r011-b026-asset-localization-qa/v1",
+  "artifacts": [
+    {
+      "key": "outliers_and_ss_condition",
+      "method": "exact_pypdf_content_stream_surgery",
+      "non_label_content_stream_identity_after_inverse_mapping": true,
+      "non_label_geometry_and_resource_keys_preserved": true,
+      "output": {
+        "bytes": 11338,
+        "path": "qa/b026-translation/staging/assets/outliers_and_ss_condition.id.pdf",
+        "sha256": "5efbf4b8f972c938df3b27e0fb281f7b00269e178dceb0673d09bdf61e0fbcdf"
+      },
+      "producer": {
+        "bytes": 692,
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_means/figures/outliers_and_ss_condition/outliers_and_ss_condition.R",
+        "sha256": "d6ff755fbb5b82d1ab7fd6b43faefb4330b430b5e8698d2da8d8f657d081dae4"
+      },
+      "removed_reader_visible_english_strings": [
+        "Sample 1 Observations",
+        "Sample 2 Observations",
+        "Frequency"
+      ],
+      "replacements": [
+        {
+          "occurrences": 1,
+          "source_operator_ascii": "[(Sample 1 Obser) -30 (v) 25 (ations \\(n = 15\\))] TJ",
+          "target_operator_ascii": "(Observasi Sampel 1 \\(n = 15\\)) Tj"
+        },
+        {
+          "occurrences": 1,
+          "source_operator_ascii": "[(Sample 2 Obser) -30 (v) 25 (ations \\(n = 50\\))] TJ",
+          "target_operator_ascii": "(Observasi Sampel 2 \\(n = 50\\)) Tj"
+        },
+        {
+          "occurrences": 2,
+          "source_operator_ascii": "(Frequency) Tj",
+          "target_operator_ascii": "(Frekuensi) Tj"
+        }
+      ],
+      "required_localized_strings": [
+        "Observasi Sampel 1 (n = 15)",
+        "Observasi Sampel 2 (n = 50)",
+        "Frekuensi"
+      ],
+      "source": {
+        "bytes": 5071,
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_means/figures/outliers_and_ss_condition/outliers_and_ss_condition.pdf",
+        "sha256": "e3522b83b91e7897b843246727adc99c264b4ca4ead9dc0bc1b0793215307100"
+      },
+      "source_content_stream": {
+        "bytes": 5829,
+        "sha256": "5e302371634f10bd937821da88df246d5323634e36509888d3ae4e1c9fe0ecbe"
+      },
+      "source_numeric_tokens": [
+        "1",
+        "15",
+        "0",
+        "2",
+        "4",
+        "6",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "2",
+        "50",
+        "0",
+        "10",
+        "20",
+        "0",
+        "5",
+        "10",
+        "15",
+        "20",
+        "25"
+      ],
+      "source_page_box": [
+        0.0,
+        0.0,
+        576.0,
+        180.0
+      ],
+      "target_content_stream": {
+        "bytes": 5793,
+        "sha256": "7311eba758a17c148c04b32db4ea09c6042f3fe56e0587932608acf81b05e543"
+      },
+      "target_extractable_text": "Observasi Sampel 1 (n = 15) 0 2 4 6 0 1 2 3 4 Frekuensi Observasi Sampel 2 (n = 50) 0 10 20 0 5 10 15 20 25 Frekuensi",
+      "target_numeric_tokens": [
+        "1",
+        "15",
+        "0",
+        "2",
+        "4",
+        "6",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "2",
+        "50",
+        "0",
+        "10",
+        "20",
+        "0",
+        "5",
+        "10",
+        "15",
+        "20",
+        "25"
+      ],
+      "target_page_box": [
+        0.0,
+        0.0,
+        576.0,
+        180.0
+      ],
+      "two_replay_exact_byte_proof": {
+        "byte_identical": true,
+        "replay_1_bytes": 11338,
+        "replay_1_sha256": "5efbf4b8f972c938df3b27e0fb281f7b00269e178dceb0673d09bdf61e0fbcdf",
+        "replay_2_bytes": 11338,
+        "replay_2_sha256": "5efbf4b8f972c938df3b27e0fb281f7b00269e178dceb0673d09bdf61e0fbcdf",
+        "status": "PASS_EXACT_BYTES"
+      },
+      "unchanged_language_neutral_or_shared_terms": []
+    },
+    {
+      "key": "tDistCompareToNormalDist",
+      "method": "exact_pypdf_content_stream_surgery",
+      "non_label_content_stream_identity_after_inverse_mapping": true,
+      "non_label_geometry_and_resource_keys_preserved": true,
+      "output": {
+        "bytes": 52105,
+        "path": "qa/b026-translation/staging/assets/tDistCompareToNormalDist.id.pdf",
+        "sha256": "09ba1c4a8edbebcb4d7108810244f9442aba69e0fd0ce9d8a0528c544d37e186"
+      },
+      "producer": {
+        "bytes": 851,
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_means/figures/tDistCompareToNormalDist/tDistCompareToNormalDist.R",
+        "sha256": "83f648e6925dee7255618614cc6633653db4c649feef1094a5afb83610512408"
+      },
+      "removed_reader_visible_english_strings": [
+        "t-distribution"
+      ],
+      "replacements": [
+        {
+          "occurrences": 1,
+          "source_operator_ascii": "[(t-distr) -15 (ib) 20 (ution)] TJ",
+          "target_operator_ascii": "(distribusi-t) Tj"
+        }
+      ],
+      "required_localized_strings": [
+        "Normal",
+        "distribusi-t"
+      ],
+      "source": {
+        "bytes": 15583,
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_means/figures/tDistCompareToNormalDist/tDistCompareToNormalDist.pdf",
+        "sha256": "28470fe71fc00a899d6cae91c1572c26d7ee374bfab18e071bfb488034b1cd71"
+      },
+      "source_content_stream": {
+        "bytes": 36075,
+        "sha256": "d3cb3161cc8f4dc4c88fc544f846197d5b7c4a66b91317e9f295b3c479f67382"
+      },
+      "source_numeric_tokens": [
+        "-4",
+        "-2",
+        "0",
+        "2",
+        "4"
+      ],
+      "source_page_box": [
+        0.0,
+        0.0,
+        360.0,
+        165.0
+      ],
+      "target_content_stream": {
+        "bytes": 36058,
+        "sha256": "50498af36c4f05023a9aafd3b0b11f4381319f59f5b8a2f8e016849e31e18f94"
+      },
+      "target_extractable_text": "-4 -2 0 2 4 Normal distribusi-t",
+      "target_numeric_tokens": [
+        "-4",
+        "-2",
+        "0",
+        "2",
+        "4"
+      ],
+      "target_page_box": [
+        0.0,
+        0.0,
+        360.0,
+        165.0
+      ],
+      "two_replay_exact_byte_proof": {
+        "byte_identical": true,
+        "replay_1_bytes": 52105,
+        "replay_1_sha256": "09ba1c4a8edbebcb4d7108810244f9442aba69e0fd0ce9d8a0528c544d37e186",
+        "replay_2_bytes": 52105,
+        "replay_2_sha256": "09ba1c4a8edbebcb4d7108810244f9442aba69e0fd0ce9d8a0528c544d37e186",
+        "status": "PASS_EXACT_BYTES"
+      },
+      "unchanged_language_neutral_or_shared_terms": [
+        "Normal"
+      ]
+    },
+    {
+      "key": "tDistConvergeToNormalDist",
+      "method": "exact_pypdf_content_stream_surgery",
+      "non_label_content_stream_identity_after_inverse_mapping": true,
+      "non_label_geometry_and_resource_keys_preserved": true,
+      "output": {
+        "bytes": 65026,
+        "path": "qa/b026-translation/staging/assets/tDistConvergeToNormalDist.id.pdf",
+        "sha256": "b0e9bfcbcf886b710d1960c1005859429f174728c1384633afd572a22be1a0e0"
+      },
+      "producer": {
+        "bytes": 797,
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_means/figures/tDistConvergeToNormalDist/tDistConvergeToNormalDist.R",
+        "sha256": "bc4ce12c5b3d19c068119be7ce525225fe0222d2efa7bc6a6c264503eb494958"
+      },
+      "removed_reader_visible_english_strings": [
+        "df ="
+      ],
+      "replacements": [
+        {
+          "occurrences": 1,
+          "source_operator_ascii": "(t, df = 8) Tj",
+          "target_operator_ascii": "(t, dk = 8) Tj"
+        },
+        {
+          "occurrences": 1,
+          "source_operator_ascii": "(t, df = 4) Tj",
+          "target_operator_ascii": "(t, dk = 4) Tj"
+        },
+        {
+          "occurrences": 1,
+          "source_operator_ascii": "(t, df = 2) Tj",
+          "target_operator_ascii": "(t, dk = 2) Tj"
+        },
+        {
+          "occurrences": 1,
+          "source_operator_ascii": "(t, df = 1) Tj",
+          "target_operator_ascii": "(t, dk = 1) Tj"
+        }
+      ],
+      "required_localized_strings": [
+        "normal",
+        "t, dk = 8",
+        "t, dk = 4",
+        "t, dk = 2",
+        "t, dk = 1"
+      ],
+      "source": {
+        "bytes": 19212,
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_means/figures/tDistConvergeToNormalDist/tDistConvergeToNormalDist.pdf",
+        "sha256": "754dd5ab4ab301b060c3f951a28a653bd1c65a2d52e9eb348578582adac71160"
+      },
+      "source_content_stream": {
+        "bytes": 45359,
+        "sha256": "c390216657e1452ebd05cafc8fa0cda9c165bec619ed91425294cf93d7e590a8"
+      },
+      "source_numeric_tokens": [
+        "-4",
+        "-2",
+        "0",
+        "2",
+        "4",
+        "8",
+        "4",
+        "2",
+        "1"
+      ],
+      "source_page_box": [
+        0.0,
+        0.0,
+        427.0,
+        182.0
+      ],
+      "target_content_stream": {
+        "bytes": 45359,
+        "sha256": "712b52ce986829b0d404a4c04b86203ae9f0dea34d8bbd4c5f0f92e429ee1be0"
+      },
+      "target_extractable_text": "-4 -2 0 2 4 normal t, dk = 8 t, dk = 4 t, dk = 2 t, dk = 1",
+      "target_numeric_tokens": [
+        "-4",
+        "-2",
+        "0",
+        "2",
+        "4",
+        "8",
+        "4",
+        "2",
+        "1"
+      ],
+      "target_page_box": [
+        0.0,
+        0.0,
+        427.0,
+        182.0
+      ],
+      "two_replay_exact_byte_proof": {
+        "byte_identical": true,
+        "replay_1_bytes": 65026,
+        "replay_1_sha256": "b0e9bfcbcf886b710d1960c1005859429f174728c1384633afd572a22be1a0e0",
+        "replay_2_bytes": 65026,
+        "replay_2_sha256": "b0e9bfcbcf886b710d1960c1005859429f174728c1384633afd572a22be1a0e0",
+        "status": "PASS_EXACT_BYTES"
+      },
+      "unchanged_language_neutral_or_shared_terms": [
+        "normal"
+      ]
+    },
+    {
+      "key": "run17SampTimeHistogram",
+      "method": "exact_pypdf_content_stream_surgery",
+      "non_label_content_stream_identity_after_inverse_mapping": true,
+      "non_label_geometry_and_resource_keys_preserved": true,
+      "output": {
+        "bytes": 7629,
+        "path": "qa/b026-translation/staging/assets/run17SampTimeHistogram.id.pdf",
+        "sha256": "7ce6972438b8a32f504bcb14a0c90111460a1e47e9dc1d2b991aa1ce02229f1a"
+      },
+      "producer": {
+        "bytes": 746,
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_means/figures/run10SampTimeHistogram/run10SampTimeHistogram.R",
+        "sha256": "1bd20d0f8823555d2aefad5f93d884ed977b0541203b21de96ff89a4a3ef9fb9"
+      },
+      "removed_reader_visible_english_strings": [
+        "Time (Minutes)",
+        "Frequency"
+      ],
+      "replacements": [
+        {
+          "occurrences": 1,
+          "source_operator_ascii": "[(Time \\(Min) 10 (utes\\))] TJ",
+          "target_operator_ascii": "(Waktu \\(Menit\\)) Tj"
+        },
+        {
+          "occurrences": 1,
+          "source_operator_ascii": "(Frequency) Tj",
+          "target_operator_ascii": "(Frekuensi) Tj"
+        }
+      ],
+      "required_localized_strings": [
+        "Waktu (Menit)",
+        "Frekuensi"
+      ],
+      "source": {
+        "bytes": 4617,
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_means/figures/run10SampTimeHistogram/run17SampTimeHistogram.pdf",
+        "sha256": "e7e21b8a3807dae74b8a82f970ff9096268c169260ab52688ead88d393d13270"
+      },
+      "source_content_stream": {
+        "bytes": 2560,
+        "sha256": "d205440a13a1417fe4d06c9d18aedf2ec2855e2984a537c179689747edc2c7cc"
+      },
+      "source_numeric_tokens": [
+        "60",
+        "80",
+        "100",
+        "120",
+        "140",
+        "0",
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "source_page_box": [
+        0.0,
+        0.0,
+        360.0,
+        201.0
+      ],
+      "target_content_stream": {
+        "bytes": 2551,
+        "sha256": "883059041e4b989cc3ec089c21360e94585b265540495b08a38eafa467d79842"
+      },
+      "target_extractable_text": "Waktu (Menit) Frekuensi 60 80 100 120 140 0 5 10 15 20",
+      "target_numeric_tokens": [
+        "60",
+        "80",
+        "100",
+        "120",
+        "140",
+        "0",
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "target_page_box": [
+        0.0,
+        0.0,
+        360.0,
+        201.0
+      ],
+      "two_replay_exact_byte_proof": {
+        "byte_identical": true,
+        "replay_1_bytes": 7629,
+        "replay_1_sha256": "7ce6972438b8a32f504bcb14a0c90111460a1e47e9dc1d2b991aa1ce02229f1a",
+        "replay_2_bytes": 7629,
+        "replay_2_sha256": "7ce6972438b8a32f504bcb14a0c90111460a1e47e9dc1d2b991aa1ce02229f1a",
+        "status": "PASS_EXACT_BYTES"
+      },
+      "unchanged_language_neutral_or_shared_terms": []
+    },
+    {
+      "key": "t_distribution",
+      "method": "exact_pypdf_content_stream_surgery",
+      "non_label_content_stream_identity_after_inverse_mapping": true,
+      "non_label_geometry_and_resource_keys_preserved": true,
+      "output": {
+        "bytes": 60191,
+        "path": "qa/b026-translation/staging/assets/t_distribution.id.pdf",
+        "sha256": "52ecac753c4b469c93ac6eff52563d417db86eebd6aa20d9087b1146c203fe92"
+      },
+      "producer": {
+        "bytes": 485,
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_means/figures/eoce/t_distribution/t_distribution.R",
+        "sha256": "4d2b7380fba7abbdfc7a92bfaba09061b9666b49b52d9dde80be54cb5d2c985f"
+      },
+      "removed_reader_visible_english_strings": [
+        "solid",
+        "dashed",
+        "dotted"
+      ],
+      "replacements": [
+        {
+          "occurrences": 1,
+          "source_operator_ascii": "/F2 1 Tf 12.00 0.00 0.00 12.00 261.74 145.52 Tm (solid) Tj",
+          "target_operator_ascii": "/F2 1 Tf 10.00 0.00 0.00 10.00 253.00 146.23 Tm (padat) Tj"
+        },
+        {
+          "occurrences": 1,
+          "source_operator_ascii": "/F2 1 Tf 12.00 0.00 0.00 12.00 261.74 131.12 Tm (dashed) Tj",
+          "target_operator_ascii": "/F2 1 Tf 10.00 0.00 0.00 10.00 253.00 131.83 Tm (putus-putus) Tj"
+        },
+        {
+          "occurrences": 1,
+          "source_operator_ascii": "/F2 1 Tf 12.00 0.00 0.00 12.00 261.74 116.72 Tm (dotted) Tj",
+          "target_operator_ascii": "/F2 1 Tf 10.00 0.00 0.00 10.00 253.00 117.43 Tm (titik-titik) Tj"
+        }
+      ],
+      "required_localized_strings": [
+        "padat",
+        "putus-putus",
+        "titik-titik"
+      ],
+      "source": {
+        "bytes": 17949,
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_means/figures/eoce/t_distribution/t_distribution.pdf",
+        "sha256": "9bea5f900e1ff2f10d99217eb08378e637c8ec3a63f906fd250887b56e0e70fe"
+      },
+      "source_content_stream": {
+        "bytes": 41775,
+        "sha256": "ec187da7853e4ca3fc38fc5c7655c23b258f70c94b3662687889a850548673e3"
+      },
+      "source_numeric_tokens": [
+        "-4",
+        "-2",
+        "0",
+        "2",
+        "4"
+      ],
+      "source_page_box": [
+        0.0,
+        0.0,
+        309.0,
+        165.0
+      ],
+      "target_content_stream": {
+        "bytes": 41785,
+        "sha256": "0fa790b2d77d60b641bf4810dbfe9a7976530e569d98fb085d4470e0dc827f3d"
+      },
+      "target_extractable_text": "-4 -2 0 2 4 padat putus-putus titik-titik",
+      "target_numeric_tokens": [
+        "-4",
+        "-2",
+        "0",
+        "2",
+        "4"
+      ],
+      "target_page_box": [
+        0.0,
+        0.0,
+        309.0,
+        165.0
+      ],
+      "two_replay_exact_byte_proof": {
+        "byte_identical": true,
+        "replay_1_bytes": 60191,
+        "replay_1_sha256": "52ecac753c4b469c93ac6eff52563d417db86eebd6aa20d9087b1146c203fe92",
+        "replay_2_bytes": 60191,
+        "replay_2_sha256": "52ecac753c4b469c93ac6eff52563d417db86eebd6aa20d9087b1146c203fe92",
+        "status": "PASS_EXACT_BYTES"
+      },
+      "unchanged_language_neutral_or_shared_terms": []
+    },
+    {
+      "key": "adult_heights_hist",
+      "method": "exact_pypdf_content_stream_surgery",
+      "non_label_content_stream_identity_after_inverse_mapping": true,
+      "non_label_geometry_and_resource_keys_preserved": true,
+      "output": {
+        "bytes": 8023,
+        "path": "qa/b026-translation/staging/assets/adult_heights_hist.id.pdf",
+        "sha256": "9fe6bfbcee89f0415ead39e800e9f2979b6f96f435e58681cb4bd1bdb537abd1"
+      },
+      "producer": {
+        "bytes": 436,
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_means/figures/eoce/adult_heights/adult_heights.R",
+        "sha256": "ebc25dba238a931e444157fbffffb6063f33864f6cc197a68671496af64713b2"
+      },
+      "removed_reader_visible_english_strings": [
+        "Height"
+      ],
+      "replacements": [
+        {
+          "occurrences": 1,
+          "source_operator_ascii": "(Height) Tj",
+          "target_operator_ascii": "(Tinggi) Tj"
+        }
+      ],
+      "required_localized_strings": [
+        "Tinggi"
+      ],
+      "source": {
+        "bytes": 4674,
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_means/figures/eoce/adult_heights/adult_heights_hist.pdf",
+        "sha256": "486ef0179721127302ebc7f43d240a3c1918ab4411d20a780191b0a14e523da5"
+      },
+      "source_content_stream": {
+        "bytes": 2886,
+        "sha256": "c88929694e85d3d8b336af481963b802a26d2151e70145478a49228d7805d4d3"
+      },
+      "source_numeric_tokens": [
+        "150",
+        "160",
+        "170",
+        "180",
+        "190",
+        "200",
+        "0",
+        "20",
+        "40",
+        "60",
+        "80",
+        "100"
+      ],
+      "source_page_box": [
+        0.0,
+        0.0,
+        432.0,
+        216.0
+      ],
+      "target_content_stream": {
+        "bytes": 2886,
+        "sha256": "39448d52812347e661047211a76153a8bbdf1545fcbd81626c60f804e77e8344"
+      },
+      "target_extractable_text": "Tinggi 150 160 170 180 190 200 0 20 40 60 80 100",
+      "target_numeric_tokens": [
+        "150",
+        "160",
+        "170",
+        "180",
+        "190",
+        "200",
+        "0",
+        "20",
+        "40",
+        "60",
+        "80",
+        "100"
+      ],
+      "target_page_box": [
+        0.0,
+        0.0,
+        432.0,
+        216.0
+      ],
+      "two_replay_exact_byte_proof": {
+        "byte_identical": true,
+        "replay_1_bytes": 8023,
+        "replay_1_sha256": "9fe6bfbcee89f0415ead39e800e9f2979b6f96f435e58681cb4bd1bdb537abd1",
+        "replay_2_bytes": 8023,
+        "replay_2_sha256": "9fe6bfbcee89f0415ead39e800e9f2979b6f96f435e58681cb4bd1bdb537abd1",
+        "status": "PASS_EXACT_BYTES"
+      },
+      "unchanged_language_neutral_or_shared_terms": []
+    },
+    {
+      "correction": "producer df=10 repaired to source/caption df=18; cutoff -2.10 retained; stray placeholder Text removed",
+      "curve_and_tail_semantics_recomputed_from_declared_df_and_cutoffs": true,
+      "key": "tDistDF18LeftTail2Point10",
+      "method": "deterministic_reportlab_student_t_vector_regeneration",
+      "output": {
+        "bytes": 13307,
+        "path": "qa/b026-translation/staging/assets/tDistDF18LeftTail2Point10.id.pdf",
+        "sha256": "7ad8aa77c0e94a6ddfd375c35ab4cd0ececcb7c5f917a3c96d731243191f15ba"
+      },
+      "page_geometry_semantics_preserved": true,
+      "panels": [
+        {
+          "axis_baseline": 20.07,
+          "axis_ticks": [
+            -4,
+            -2,
+            0,
+            2,
+            4
+          ],
+          "curve_sample_count": 1001,
+          "curve_sample_sha256": "be97f7e3f406e4225721a9165a7462c138de6e2cde55ff7ca8a862cef7a337fd",
+          "curve_top": 123.07,
+          "cutoffs": [
+            -2.1
+          ],
+          "df": 18,
+          "plot_box": [
+            14.4,
+            27.07,
+            259.2,
+            96.0
+          ],
+          "student_t_pdf_peak_at_zero": 0.393442516723,
+          "tail_boundary_sha256": "44686e0cbc513883c01c1a1029689db2d5a75cbf75ce793d55d6210f2dd78313",
+          "tails": [
+            "left"
+          ],
+          "xlim_rendered": [
+            -4.32,
+            4.32
+          ],
+          "xlim_requested": [
+            -4.0,
+            4.0
+          ]
+        }
+      ],
+      "producer": {
+        "bytes": 263,
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_means/figures/tDistDF18LeftTail2Point10/tDistDF18LeftTail2Point10.R",
+        "sha256": "add4c26d6b865850a1d4bdca15a1673db64948483644798b72ae250de1f394f8"
+      },
+      "source": {
+        "bytes": 24430,
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_means/figures/tDistDF18LeftTail2Point10/tDistDF18LeftTail2Point10.pdf",
+        "sha256": "e1da0ef09eb01c68d5aec3ec9d4cedbbe6c705f031290ed31bdfc6b7eb46bb0e"
+      },
+      "source_page_box": [
+        0.0,
+        0.0,
+        288.0,
+        129.0
+      ],
+      "stray_placeholder_text_removed": true,
+      "target_extractable_text": "-4 -2 0 2 4",
+      "target_numeric_tokens": [
+        "-4",
+        "-2",
+        "0",
+        "2",
+        "4"
+      ],
+      "target_page_box": [
+        0.0,
+        0.0,
+        288.0,
+        129.0
+      ],
+      "two_replay_exact_byte_proof": {
+        "byte_identical": true,
+        "replay_1_bytes": 13307,
+        "replay_1_sha256": "7ad8aa77c0e94a6ddfd375c35ab4cd0ececcb7c5f917a3c96d731243191f15ba",
+        "replay_2_bytes": 13307,
+        "replay_2_sha256": "7ad8aa77c0e94a6ddfd375c35ab4cd0ececcb7c5f917a3c96d731243191f15ba",
+        "status": "PASS_EXACT_BYTES"
+      }
+    },
+    {
+      "correction": "left producer df=12 repaired to df=20 with cutoff 1.65; right producer df=2.3 repaired to df=2 with cutoffs -3 and 3",
+      "curve_and_tail_semantics_recomputed_from_declared_df_and_cutoffs": true,
+      "key": "tDistDF20RightTail1Point65",
+      "method": "deterministic_reportlab_student_t_vector_regeneration",
+      "output": {
+        "bytes": 25786,
+        "path": "qa/b026-translation/staging/assets/tDistDF20RightTail1Point65.id.pdf",
+        "sha256": "11ce38a736c383f883a355f79fe1aeabcaa26e3feee540e740c266b31f95b3db"
+      },
+      "page_geometry_semantics_preserved": true,
+      "panels": [
+        {
+          "axis_baseline": 20.31,
+          "axis_ticks": [
+            -4,
+            -2,
+            0,
+            2,
+            4
+          ],
+          "curve_sample_count": 1001,
+          "curve_sample_sha256": "da79bb63f1762aff1046827b0820ea436acfcc8909b7da2f9c56cd3baf63a575",
+          "curve_top": 130.31,
+          "cutoffs": [
+            1.65
+          ],
+          "df": 20,
+          "plot_box": [
+            14.4,
+            27.31,
+            216.0,
+            103.0
+          ],
+          "student_t_pdf_peak_at_zero": 0.393988585711,
+          "tail_boundary_sha256": "510ef92fffa5b407e524040a6624ea7077157cabefba3a05ba17507f47d646b7",
+          "tails": [
+            "right"
+          ],
+          "xlim_rendered": [
+            -4.32,
+            4.32
+          ],
+          "xlim_requested": [
+            -4.0,
+            4.0
+          ]
+        },
+        {
+          "axis_baseline": 20.31,
+          "axis_ticks": [
+            -4,
+            -2,
+            0,
+            2,
+            4
+          ],
+          "curve_sample_count": 1001,
+          "curve_sample_sha256": "42dcc4454d35f1438963686afa2cf60386b502d46b31e8fccdf9497a13ba8656",
+          "curve_top": 130.31,
+          "cutoffs": [
+            -3.0,
+            3.0
+          ],
+          "df": 2,
+          "plot_box": [
+            259.2,
+            27.31,
+            216.0,
+            103.0
+          ],
+          "student_t_pdf_peak_at_zero": 0.353553390593,
+          "tail_boundary_sha256": "f5ae74d02c6d0059d03f3b0984db5f77b4942304563aca37f92604229b40e941",
+          "tails": [
+            "left",
+            "right"
+          ],
+          "xlim_rendered": [
+            -4.86,
+            4.86
+          ],
+          "xlim_requested": [
+            -4.5,
+            4.5
+          ]
+        }
+      ],
+      "producer": {
+        "bytes": 425,
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_means/figures/tDistDF20RightTail1Point65/tDistDF20RightTail1Point65.R",
+        "sha256": "d48f7853ec0dc24fe77d4f5924716d4b2e2146a8b23eab4e0aad1d3e9720c17a"
+      },
+      "source": {
+        "bytes": 13328,
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_means/figures/tDistDF20RightTail1Point65/tDistDF20RightTail1Point65.pdf",
+        "sha256": "b2a7ae6e05ada61536a49703e215fed0252e70f23078086e34bd16c398d5465e"
+      },
+      "source_page_box": [
+        0.0,
+        0.0,
+        489.0,
+        136.0
+      ],
+      "stray_placeholder_text_removed": true,
+      "target_extractable_text": "-4 -2 0 2 4 -4 -2 0 2 4",
+      "target_numeric_tokens": [
+        "-4",
+        "-2",
+        "0",
+        "2",
+        "4",
+        "-4",
+        "-2",
+        "0",
+        "2",
+        "4"
+      ],
+      "target_page_box": [
+        0.0,
+        0.0,
+        489.0,
+        136.0
+      ],
+      "two_replay_exact_byte_proof": {
+        "byte_identical": true,
+        "replay_1_bytes": 25786,
+        "replay_1_sha256": "11ce38a736c383f883a355f79fe1aeabcaa26e3feee540e740c266b31f95b3db",
+        "replay_2_bytes": 25786,
+        "replay_2_sha256": "11ce38a736c383f883a355f79fe1aeabcaa26e3feee540e740c266b31f95b3db",
+        "status": "PASS_EXACT_BYTES"
+      }
+    }
+  ],
+  "boundary_id": "R011-B026",
+  "language_qa": {
+    "language_neutral_shared_terms_retained": [
+      "Normal",
+      "normal",
+      "t"
+    ],
+    "locale": "id-ID",
+    "required_terms": [
+      "Frekuensi",
+      "Observasi Sampel 1",
+      "Observasi Sampel 2",
+      "distribusi-t",
+      "Waktu (Menit)",
+      "padat",
+      "putus-putus",
+      "titik-titik",
+      "Tinggi"
+    ],
+    "residual_english_checks": "PASS_EXACT_READER_VISIBLE_LABEL_DENYLIST"
+  },
+  "next_action": "Install these eight exact localized PDF bytes into the isolated B026 reader snapshot, bind them into the backend admission, and retain the dolphin photo at its source identity with its CC BY 2.0 attribution.",
+  "numeric_and_geometry_qa": {
+    "all_media_and_crop_boxes_preserved": true,
+    "axes_and_tail_geometry_rendered_as_vector_paths": true,
+    "corrected_df18_left_tail": {
+      "cutoff": -2.1,
+      "df": 18,
+      "stray_Text_removed": true
+    },
+    "corrected_df20_right_tail": {
+      "left_panel": {
+        "cutoff": 1.65,
+        "df": 20,
+        "tail": "right"
+      },
+      "right_panel": {
+        "cutoffs": [
+          -3.0,
+          3.0
+        ],
+        "df": 2,
+        "tails": [
+          "left",
+          "right"
+        ]
+      }
+    },
+    "label_only_non_label_content_streams_preserved_exactly_after_inverse_mapping": true,
+    "label_only_source_numeric_tokens_preserved_exactly": true,
+    "student_t_curves_recomputed_analytically": true
+  },
+  "output_inventory": {
+    "bytes": 243405,
+    "files": 8,
+    "inventory_sha256": "d8da29bb513ba4d30ceb2d0aab4504bea8c1b8b1a766a41a74e658446c186558"
+  },
+  "provenance": {
+    "authority_branch": "master",
+    "authority_commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "authority_repository": "https://github.com/OpenIntroStat/openintro-statistics",
+    "authority_tree": "d61cc601e7d97759ce805900520f784d02a0489e",
+    "credentials_accessed": false,
+    "git_used": false,
+    "network_used": false,
+    "production_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+    "script": {
+      "bytes": 34335,
+      "path": "scripts/localize_b026_assets.py",
+      "sha256": "c6fe427f82f94e520f6f506e5ef1d75f2432dd62dd1d2504dab2fd2c6e737e56"
+    }
+  },
+  "recorded_at": "2026-08-30T00:00:00+02:00",
+  "render_qa": {
+    "all_rendered_pages_nonblank": true,
+    "dpi": 144,
+    "inspection_notes": "All eight charts are legible and unclipped; localized labels fit; curves, axes, cutoffs, and shaded tails render correctly; no stray placeholder text is visible.",
+    "model_visual_inspection": "PASS_ZERO_VISIBLE_DEFECTS",
+    "montage": {
+      "bytes": 200461,
+      "path": "qa/b026-translation/staging/assets/R011-B026_ASSET_VISUAL_QA.png",
+      "sha256": "acdbf630b8bd3c3facd1aada13779b8f3daf374408afac424d237d6e900e6618"
+    },
+    "rendered_pdf_count": 8,
+    "renderer": "C:\\Users\\Floris\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe",
+    "renders": [
+      {
+        "nonblank_extrema": [
+          [
+            0,
+            255
+          ],
+          [
+            0,
+            255
+          ],
+          [
+            0,
+            255
+          ]
+        ],
+        "pdf": {
+          "bytes": 11338,
+          "path": "qa/b026-translation/staging/assets/outliers_and_ss_condition.id.pdf",
+          "sha256": "5efbf4b8f972c938df3b27e0fb281f7b00269e178dceb0673d09bdf61e0fbcdf"
+        },
+        "poppler_stderr_line_count": 16,
+        "render_pixels": [
+          1152,
+          360
+        ],
+        "render_sha256": "c7cb34d5aa5be6ed1ef68b8094395e6b1aea22c687d3191468e48a6ceb4c8e0c"
+      },
+      {
+        "nonblank_extrema": [
+          [
+            0,
+            255
+          ],
+          [
+            0,
+            255
+          ],
+          [
+            0,
+            255
+          ]
+        ],
+        "pdf": {
+          "bytes": 52105,
+          "path": "qa/b026-translation/staging/assets/tDistCompareToNormalDist.id.pdf",
+          "sha256": "09ba1c4a8edbebcb4d7108810244f9442aba69e0fd0ce9d8a0528c544d37e186"
+        },
+        "poppler_stderr_line_count": 16,
+        "render_pixels": [
+          720,
+          330
+        ],
+        "render_sha256": "8ab54266f6abc1ecb4ac1ea3da1594598ab3c7ca652797d07f70cff5b35e0b69"
+      },
+      {
+        "nonblank_extrema": [
+          [
+            0,
+            255
+          ],
+          [
+            0,
+            255
+          ],
+          [
+            0,
+            255
+          ]
+        ],
+        "pdf": {
+          "bytes": 65026,
+          "path": "qa/b026-translation/staging/assets/tDistConvergeToNormalDist.id.pdf",
+          "sha256": "b0e9bfcbcf886b710d1960c1005859429f174728c1384633afd572a22be1a0e0"
+        },
+        "poppler_stderr_line_count": 16,
+        "render_pixels": [
+          854,
+          364
+        ],
+        "render_sha256": "0060c3f8a96f597dfc9ee356cc32a618de4ddbd8ae14c5219b972c95ac6216eb"
+      },
+      {
+        "nonblank_extrema": [
+          [
+            0,
+            255
+          ],
+          [
+            0,
+            255
+          ],
+          [
+            0,
+            255
+          ]
+        ],
+        "pdf": {
+          "bytes": 7629,
+          "path": "qa/b026-translation/staging/assets/run17SampTimeHistogram.id.pdf",
+          "sha256": "7ce6972438b8a32f504bcb14a0c90111460a1e47e9dc1d2b991aa1ce02229f1a"
+        },
+        "poppler_stderr_line_count": 16,
+        "render_pixels": [
+          720,
+          402
+        ],
+        "render_sha256": "35562b450838cd15a8ab8ec3250385feda9ef6ad0c87272913d9c5a0a959c4a9"
+      },
+      {
+        "nonblank_extrema": [
+          [
+            0,
+            255
+          ],
+          [
+            0,
+            255
+          ],
+          [
+            0,
+            255
+          ]
+        ],
+        "pdf": {
+          "bytes": 60191,
+          "path": "qa/b026-translation/staging/assets/t_distribution.id.pdf",
+          "sha256": "52ecac753c4b469c93ac6eff52563d417db86eebd6aa20d9087b1146c203fe92"
+        },
+        "poppler_stderr_line_count": 16,
+        "render_pixels": [
+          618,
+          330
+        ],
+        "render_sha256": "b5dab4ddbd9126925486ebf219f6a61a653c8c1ff35291baa813b6f7f8405b24"
+      },
+      {
+        "nonblank_extrema": [
+          [
+            0,
+            255
+          ],
+          [
+            0,
+            255
+          ],
+          [
+            0,
+            255
+          ]
+        ],
+        "pdf": {
+          "bytes": 8023,
+          "path": "qa/b026-translation/staging/assets/adult_heights_hist.id.pdf",
+          "sha256": "9fe6bfbcee89f0415ead39e800e9f2979b6f96f435e58681cb4bd1bdb537abd1"
+        },
+        "poppler_stderr_line_count": 16,
+        "render_pixels": [
+          864,
+          432
+        ],
+        "render_sha256": "c0f25a2054f1371316996278bdd73790996ee3dd1a9bf300355025c79cb39e15"
+      },
+      {
+        "nonblank_extrema": [
+          [
+            0,
+            255
+          ],
+          [
+            0,
+            255
+          ],
+          [
+            0,
+            255
+          ]
+        ],
+        "pdf": {
+          "bytes": 13307,
+          "path": "qa/b026-translation/staging/assets/tDistDF18LeftTail2Point10.id.pdf",
+          "sha256": "7ad8aa77c0e94a6ddfd375c35ab4cd0ececcb7c5f917a3c96d731243191f15ba"
+        },
+        "poppler_stderr_line_count": 16,
+        "render_pixels": [
+          576,
+          258
+        ],
+        "render_sha256": "73b3b4586907fd2bb5c0c2ce04cdb94aeedb73c932d8fe9f9f26a5c0d1048105"
+      },
+      {
+        "nonblank_extrema": [
+          [
+            0,
+            255
+          ],
+          [
+            0,
+            255
+          ],
+          [
+            0,
+            255
+          ]
+        ],
+        "pdf": {
+          "bytes": 25786,
+          "path": "qa/b026-translation/staging/assets/tDistDF20RightTail1Point65.id.pdf",
+          "sha256": "11ce38a736c383f883a355f79fe1aeabcaa26e3feee540e740c266b31f95b3db"
+        },
+        "poppler_stderr_line_count": 16,
+        "render_pixels": [
+          978,
+          272
+        ],
+        "render_sha256": "3d0616eb005de5b46c75504018e27cb37ea092a4ce9da8325a38a3714d843dbb"
+      }
+    ]
+  },
+  "replay": {
+    "all_diagnostics_identical_across_two_independent_in_memory_builds": true,
+    "all_output_bytes_identical_across_two_independent_in_memory_builds": true,
+    "pdf_outputs_replayed": 8,
+    "promoted_staging_bytes_match_replay": true
+  },
+  "rights": {
+    "generated_pdfs_and_producers": "CC BY-SA 3.0 repository declaration; derivative labels/corrections preserve source and producer identity.",
+    "rissos_dolphin": {
+      "required_attribution_verbatim": "Photo by Mike Baird (http://www.bairdphotos.com/). Image was licensed under Creative Commons Attribution 2.0 Generic.",
+      "rights_resolution": "CC-BY-2.0",
+      "rights_witness": {
+        "bytes": 119,
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_means/figures/rissosDolphin/ReadMe.txt",
+        "sha256": "51903690d2b3cd10e69431292a345a08e321ac06d390252e852f4deef200088f"
+      },
+      "source": {
+        "bytes": 72046,
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_means/figures/rissosDolphin/rissosDolphin.jpg",
+        "sha256": "591d0ba9d9a228e58f2e8841536b826847f219d68cf791d6740986b7768ee200"
+      },
+      "source_preserved_byte_identical": true,
+      "staged_copy_created": false
+    }
+  },
+  "scope": {
+    "canonical_source_mutated": false,
+    "corrected_vector_regenerations": 2,
+    "generated_reader_pdf_assets": 8,
+    "label_only_content_stream_surgeries": 6,
+    "live_repo_backend_output_control_or_release_mutated": false,
+    "photographic_assets_preserved_in_place": 1
+  },
+  "status": "PASS_DETERMINISTIC_ASSET_LOCALIZATION_AND_VISUAL_QA"
+}

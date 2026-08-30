@@ -1,0 +1,231 @@
+\begin{chapterpage}{Inferensi untuk data numerik}
+  \chaptertitle{Inferensi untuk data numerik}
+  \label{inferenceForNumericalData}
+  \label{ch_inference_for_means}
+  \chaptersection{oneSampleMeansWithTDistribution}
+  \chaptersection{pairedData}
+  \chaptersection{differenceOfTwoMeans}
+  \chaptersection{PowerForDifferenceOfTwoMeans}
+  \chaptersection{anovaAndRegrWithCategoricalVariables}
+\end{chapterpage}
+\renewcommand{\chapterfolder}{ch_inference_for_means}
+
+
+\chapterintro{Bab~\ref{ch_foundations_for_inf}
+  memperkenalkan kerangka inferensi statistik yang didasarkan
+  pada interval kepercayaan dan hipotesis menggunakan
+  distribusi normal untuk proporsi sampel.
+  Dalam bab ini, kita akan menjumpai beberapa estimasi titik baru
+  dan dua distribusi baru.
+  Dalam setiap kasus, gagasan inferensinya tetap sama:
+  tentukan estimasi titik atau statistik uji yang berguna,
+  identifikasi distribusi yang sesuai untuk estimasi titik
+  atau statistik uji tersebut, lalu
+  terapkan gagasan inferensi.}
+
+
+
+%__________________
+\section[Rata-rata satu sampel dengan distribusi $t$]
+    {Rata-rata satu sampel dengan distribusi
+        $\pmb{\MakeLowercase{t}}$}
+\label{oneSampleMeansWithTDistribution}
+
+\noindent%
+Sebagaimana kita dapat memodelkan perilaku
+proporsi sampel $\hat{p}$ menggunakan distribusi normal,
+rata-rata sampel $\bar{x}$ juga dapat dimodelkan menggunakan
+distribusi normal ketika syarat-syarat tertentu terpenuhi.
+\index{estimasi titik!rata-rata tunggal}
+Namun, kita akan segera mempelajari bahwa distribusi baru,
+yang disebut distribusi $t$,
+cenderung lebih berguna ketika bekerja dengan rata-rata sampel.
+Pertama-tama kita akan mempelajari distribusi baru ini,
+kemudian menggunakannya untuk menyusun interval kepercayaan
+dan melakukan uji hipotesis untuk rata-rata.
+
+
+\subsection[Distribusi $\bar{x}$]
+    {Distribusi sampling dari $\pmb{\bar{x}}$}
+
+Rata-rata sampel cenderung mengikuti
+distribusi normal yang berpusat pada rata-rata populasi,~$\mu$,
+ketika syarat-syarat tertentu terpenuhi.
+Selain itu, kita dapat menghitung galat baku untuk rata-rata
+sampel menggunakan simpangan baku populasi $\sigma$
+dan ukuran sampel $n$.
+
+\begin{onebox}{Teorema Limit Pusat untuk rata-rata sampel}
+  Ketika kita mengumpulkan sampel cukup besar yang terdiri atas
+  $n$~observasi yang saling independen dari populasi dengan
+  rata-rata $\mu$ dan simpangan baku $\sigma$,
+  distribusi sampling $\bar{x}$ akan mendekati
+  distribusi normal dengan
+  \begin{align*}
+  &\text{Rata-rata}=\mu
+  &&\text{Galat Baku }(SE) = \frac{\sigma}{\sqrt{n}}
+  \end{align*}
+\end{onebox}
+
+\noindent%
+Sebelum mendalami interval kepercayaan dan uji
+hipotesis menggunakan $\bar{x}$, pertama-tama kita perlu membahas dua topik:
+\begin{itemize}
+\item
+    Ketika kita memodelkan $\hat{p}$ menggunakan distribusi normal,
+    syarat-syarat tertentu harus terpenuhi.
+    Syarat-syarat untuk bekerja dengan $\bar{x}$
+    sedikit lebih rumit, dan kita akan menggunakan
+    Bagian~\ref{x_bar_conditions} untuk membahas
+    cara memeriksa syarat-syarat inferensi.
+\item
+    Galat baku bergantung pada simpangan
+    baku populasi, $\sigma$.
+    Namun, kita jarang mengetahui $\sigma$, sehingga
+    kita harus mengestimasinya.
+    Karena estimasi ini sendiri tidak sempurna,
+    kita menggunakan distribusi baru yang disebut
+    distribusi $t$\index{distribusi t@distribusi $t$}
+    untuk mengatasi masalah ini, yang kita bahas dalam
+%    While we can use the plug-in principle,
+%    using the sample standard deviation $s$ in place of $\sigma$,
+%    this is not quite enough to resolve the issue entirely.
+%    and .
+%    We'll cover this topic in
+    Bagian~\ref{introducingTheTDistribution}.
+\end{itemize}
+
+
+\subsection[Mengevaluasi dua syarat yang diperlukan untuk
+    memodelkan $\bar{x}$]
+  {Mengevaluasi dua syarat yang diperlukan untuk
+      memodelkan $\pmb{\bar{x}}$}
+\label{x_bar_conditions}
+
+\noindent%
+Dua syarat diperlukan untuk menerapkan
+Teorema Limit Pusat\index{Teorema Limit Pusat}
+pada rata-rata sampel~$\bar{x}$:
+\begin{description}
+\item[Independensi.]
+    Observasi sampel harus saling independen.
+    Cara paling umum untuk memenuhi syarat ini adalah
+    mengambil sampel acak sederhana dari
+    populasi.
+    Jika data berasal dari proses acak,
+    yang serupa dengan pelemparan sebuah dadu,
+    hal ini juga akan memenuhi syarat independensi.
+\item[Normalitas.]
+    Ketika sampelnya kecil,
+    kita juga mensyaratkan bahwa observasi sampel
+    berasal dari populasi yang berdistribusi normal.
+    Syarat ini semakin dapat dilonggarkan
+    seiring bertambahnya ukuran sampel.
+    Syarat ini memang bersifat samar,
+    sehingga sulit dievaluasi;
+    karena itu, selanjutnya kita memperkenalkan dua pedoman praktis
+    agar pemeriksaan syarat ini menjadi lebih mudah.
+\end{description}
+%%Before we get to the sample size consideration, let's
+%%consider a special case of the normal distribution
+%%where any sample size is sufficient.
+%
+%%There is also a special case of the Central Limit Theorem
+%%for when the data come from a nearly normal distribution.
+%%In this case the sample mean will be nearly normal
+%%regardless of sample size.
+%
+%\begin{onebox}{Special case of the Central Limit Theorem
+%    for normally distributed data}
+%  The sampling distribution of $\bar{x}$ is nearly normal when
+%  the sample observations are independent and come from a nearly
+%  normal distribution.
+%  This is true for any sample size.
+%\end{onebox}
+%
+%%For population distributions that are not normal,
+%%the sample mean $\bar{x}$ will still look normal if the sample
+%%size is large enough.
+%%To check what is \emph{large enough}, we ask two questions:
+%%\begin{itemize}
+%%\item
+%%    Is the sample show evident skew or outliers?
+%%    If so, then if t
+%%\end{itemize}
+%
+%In practice, the population never exactly follows
+%a normal distribution,
+%and the more ``non-normal'' a population
+%distribution, the larger the required sample size required for
+%$\bar{x}$ to be reasonably modeled using a normal distribution.
+%The rough rule of thumb is, if you don't see any clear outliers
+%and we don't have reason to believe particularly extreme outliers
+%are present in population, then this condition is satisfied.
+
+\begin{onebox}{Pedoman praktis:
+    cara melakukan pemeriksaan normalitas}
+  Tidak ada cara sempurna untuk memeriksa syarat normalitas,
+  jadi sebagai gantinya kita menggunakan dua pedoman praktis: %,
+%  one for small samples ($n < 30$)
+%  and another for large samples ($n \geq 30$):
+  \begin{description}
+  \setlength{\itemsep}{0mm}
+  \item[$\mathbf{n < 30}$:]
+      Jika ukuran sampel $n$ kurang dari 30
+      dan tidak terdapat pencilan yang jelas dalam data,
+      biasanya kita mengasumsikan data berasal dari
+      distribusi yang mendekati normal agar
+      syarat tersebut terpenuhi.
+  \item[$\mathbf{n \geq 30}$:]
+      Jika ukuran sampel $n$ setidaknya 30
+      dan tidak terdapat pencilan yang \emph{sangat ekstrem},
+      biasanya kita mengasumsikan distribusi sampling
+      $\bar{x}$ mendekati normal, sekalipun distribusi
+      observasi individual yang mendasarinya tidak normal.
+  \end{description}
+\end{onebox}
+
+Dalam mata kuliah statistika pengantar ini, Anda tidak diharapkan
+mengembangkan penilaian yang sempurna mengenai syarat normalitas.
+Namun, Anda diharapkan mampu menangani
+kasus-kasus yang jelas berdasarkan pedoman praktis tersebut.\footnote{Pedoman
+  yang lebih cermat akan mempertimbangkan pelonggaran lebih lanjut
+  atas pemeriksaan \emph{pencilan sangat ekstrem} ketika
+  ukuran sampel sangat besar.
+  Namun, pembahasan lebih lanjut akan kita sisakan untuk mata kuliah berikutnya.}
+
+\begin{examplewrap}
+\begin{nexample}{Perhatikan dua grafik berikut
+    yang berasal dari sampel acak sederhana dari
+    populasi yang berbeda.
+    Ukuran sampelnya adalah $n_1 = 15$ dan $n_2 = 50$.
+    \begin{center}
+    \Figure[Dua histogram ditampilkan, satu untuk "Observasi Sampel 1" dan satu lagi untuk "Observasi Sampel 2". Histogram Observasi Sampel 1 memuat nilai dari 0 hingga 7 dengan lebar bin 1, sehingga terdapat 7 bin dengan frekuensi 2, 1, 4, 3, 2, 0, dan 3. Histogram Observasi Sampel 2 memuat nilai dari 0 hingga 22, dengan lebar bin 1. Sebagian besar data berada dekat nol, dengan separuh observasi berada dalam bin dari 0 hingga 1. Hanya ada satu bin tak nol di atas 5; tingginya tampak 1, yaitu bin dari 21 hingga 22.]{0.85}{outliers_and_ss_condition}
+    \end{center}
+    Apakah syarat independensi dan normalitas terpenuhi
+    dalam setiap kasus?}
+  \label{outliers_and_ss_condition_ex}%
+  Setiap sampel merupakan sampel acak sederhana dari
+  populasinya masing-masing, sehingga syarat independensi
+  terpenuhi.
+  Selanjutnya, mari kita periksa syarat normalitas untuk
+  setiap sampel menggunakan pedoman praktis.
+  
+  Sampel pertama memiliki kurang dari 30 observasi,
+  sehingga kita memperhatikan setiap pencilan yang jelas.
+  Tidak ada pencilan semacam itu; meskipun terdapat celah kecil dalam
+  histogram antara 5 dan~6, celah ini kecil dan
+  20\% observasi dalam sampel kecil ini
+  terwakili oleh batang paling kanan pada histogram,
+  sehingga observasi itu nyaris tidak dapat disebut pencilan yang jelas.
+  Karena tidak ada pencilan yang jelas, syarat normalitas
+  secara wajar~terpenuhi.
+
+  Sampel kedua berukuran lebih besar dari 30 dan
+  mencakup pencilan yang tampaknya kira-kira 5 kali
+  lebih jauh dari pusat distribusi dibandingkan
+  observasi terjauh berikutnya.
+  Ini merupakan contoh pencilan yang sangat ekstrem,
+  sehingga syarat normalitas tidak akan terpenuhi.
+\end{nexample}
+\end{examplewrap}

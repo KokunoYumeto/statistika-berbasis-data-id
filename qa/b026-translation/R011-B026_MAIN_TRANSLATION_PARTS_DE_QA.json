@@ -1,0 +1,317 @@
+{
+  "$schema": "interlanguage.r011-translation-qa/v1",
+  "boundary_id": "R011-B026",
+  "part": "main-parts-d-e",
+  "status": "PASS_COMPLETE_NATURAL_ID_ID_STRUCTURE_MATH_PROTECTED_TEX_APPROVED_REPAIR_AND_RESIDUAL_ENGLISH_QA",
+  "provenance": {
+    "production_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+    "role": "independent bounded id-ID translation audit and deterministic QA"
+  },
+  "authority": {
+    "commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "full_source": {
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_means/TeX/ch_inference_for_means.tex",
+      "sha256": "d818b24b8e8d0582f8e603972e87764082d8470d91ddcbeaa794c295a1d37bec"
+    },
+    "blueprint": {
+      "path": "qa/b026-source/R011-B026_BOUNDARY_BLUEPRINT.json",
+      "bytes": 52663,
+      "sha256": "2340adb156e7dd6833a2421eed9b6b4e2f7045e347f4fe8639544028cd6ced34"
+    }
+  },
+  "audits": [
+    {
+      "part": "D",
+      "source": {
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_means/TeX/ch_inference_for_means.tex",
+        "first_line": 634,
+        "last_line": 796,
+        "logical_lines": 163,
+        "bytes": 6099,
+        "sha256": "e488a127faa7e527d516ab67c9125b2e24af932fef8e22de1c62a4b8404b2ce1",
+        "blueprint_chunk": {
+          "first_line": 634,
+          "last_line": 796,
+          "bytes": 6099,
+          "sha256": "e488a127faa7e527d516ab67c9125b2e24af932fef8e22de1c62a4b8404b2ce1"
+        }
+      },
+      "target": {
+        "path": "qa/b026-translation/staging/chapter-lines-634-796.id.tex",
+        "bytes": 6278,
+        "sha256": "bf908c142ee30f0b0e2a4d96b06c87d72ad941c7bba5af99d59786ee437c0613",
+        "locale": "id-ID",
+        "logical_lines": 163,
+        "mapping": "target line 1 maps to source line 634"
+      },
+      "qa": {
+        "command_and_environment_sequences_exact": true,
+        "inline_and_display_mathematics_exact_except_localized_text_wrappers": true,
+        "labels_refs_assets_redirects_caption_bindings_and_numerics_exact": true,
+        "blank_line_topology_exact": true,
+        "comment_suffixes_exact": true,
+        "comment_line_numbers": [
+          647,
+          705,
+          706,
+          715,
+          720,
+          751,
+          752,
+          753,
+          755,
+          756,
+          757,
+          758,
+          759,
+          760,
+          761,
+          762
+        ],
+        "control_token_counts": {
+          "{": {
+            "source": 119,
+            "target": 119
+          },
+          "}": {
+            "source": 119,
+            "target": 119
+          },
+          "$": {
+            "source": 86,
+            "target": 86
+          },
+          "%": {
+            "source": 22,
+            "target": 22
+          },
+          "~": {
+            "source": 10,
+            "target": 10
+          },
+          "&": {
+            "source": 18,
+            "target": 18
+          },
+          "\\": {
+            "source": 149,
+            "target": 149
+          }
+        },
+        "unchanged_learner_visible_source_lines": [],
+        "residual_english_patterns_checked": [
+          "\\bLet's get our first taste\\b",
+          "\\bmercury content\\b",
+          "\\bdolphin muscle\\b",
+          "\\bElevated mercury concentrations\\b",
+          "\\bshown surfacing in water\\b",
+          "\\bPhoto by\\b",
+          "\\bSummary of mercury\\b",
+          "\\bMeasurements are in\\b",
+          "\\bconditions satisfied\\b",
+          "\\bsimple random sample\\b",
+          "\\bstandard deviations of the mean\\b",
+          "\\bBased on this evidence\\b",
+          "\\bcompute the standard error\\b",
+          "\\bWe plug in\\b",
+          "\\bconfidence level\\b",
+          "\\bupper tail\\b",
+          "\\barea below\\b",
+          "\\bCompute and interpret\\b",
+          "\\bWe are 95\\b",
+          "\\bpopulation mean\\b",
+          "\\bFDA's webpage\\b",
+          "\\bparts per million\\b",
+          "\\bsummary statistics of the data\\b",
+          "\\bGuided Practice\\b",
+          "\\bactual mean\\b",
+          "\\bOnce you've determined\\b",
+          "\\bfour steps to constructing\\b",
+          "\\bVerify the conditions\\b",
+          "\\bIf the conditions hold\\b",
+          "\\bInterpret the confidence interval\\b",
+          "\\bplausible values\\b",
+          "\\bindividual observations\\b",
+          "\\bOne sample\\b"
+        ],
+        "residual_english_matches": [],
+        "approved_blueprint_repairs_overlapping_part": [
+          {
+            "location": "ch_inference_for_means/TeX/ch_inference_for_means.tex:737-740",
+            "confidence": "high",
+            "source_issue": "The worked prompt says 'this degrees of freedom' and the response says 'The degrees of freedom is easy to calculate'.",
+            "translation_action": "Render the intended number of degrees of freedom grammatically."
+          }
+        ]
+      }
+    },
+    {
+      "part": "E",
+      "source": {
+        "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_means/TeX/ch_inference_for_means.tex",
+        "first_line": 797,
+        "last_line": 896,
+        "logical_lines": 100,
+        "bytes": 3642,
+        "sha256": "2361cd6e2d4fe867200c0ebf2792001baa17c524347e66e3f09253862d47c44c",
+        "blueprint_chunk": {
+          "first_line": 797,
+          "last_line": 896,
+          "bytes": 3642,
+          "sha256": "2361cd6e2d4fe867200c0ebf2792001baa17c524347e66e3f09253862d47c44c"
+        }
+      },
+      "target": {
+        "path": "qa/b026-translation/staging/chapter-lines-797-896.id.tex",
+        "bytes": 3804,
+        "sha256": "c56ea68a482ed32479d4a9968f6bbac4d117a2f68b0c8774709a9e505884773d",
+        "locale": "id-ID",
+        "logical_lines": 100,
+        "mapping": "target line 1 maps to source line 797"
+      },
+      "qa": {
+        "command_and_environment_sequences_exact": true,
+        "inline_and_display_mathematics_exact_except_localized_text_wrappers": true,
+        "labels_refs_assets_redirects_caption_bindings_and_numerics_exact": true,
+        "blank_line_topology_exact": true,
+        "comment_suffixes_exact": true,
+        "comment_line_numbers": [
+          825,
+          888,
+          889,
+          890
+        ],
+        "control_token_counts": {
+          "{": {
+            "source": 58,
+            "target": 58
+          },
+          "}": {
+            "source": 58,
+            "target": 58
+          },
+          "$": {
+            "source": 32,
+            "target": 32
+          },
+          "%": {
+            "source": 10,
+            "target": 10
+          },
+          "~": {
+            "source": 4,
+            "target": 4
+          },
+          "&": {
+            "source": 0,
+            "target": 0
+          },
+          "\\": {
+            "source": 74,
+            "target": 74
+          }
+        },
+        "unchanged_learner_visible_source_lines": [],
+        "residual_english_patterns_checked": [
+          "\\bLet's get our first taste\\b",
+          "\\bmercury content\\b",
+          "\\bdolphin muscle\\b",
+          "\\bElevated mercury concentrations\\b",
+          "\\bshown surfacing in water\\b",
+          "\\bPhoto by\\b",
+          "\\bSummary of mercury\\b",
+          "\\bMeasurements are in\\b",
+          "\\bconditions satisfied\\b",
+          "\\bsimple random sample\\b",
+          "\\bstandard deviations of the mean\\b",
+          "\\bBased on this evidence\\b",
+          "\\bcompute the standard error\\b",
+          "\\bWe plug in\\b",
+          "\\bconfidence level\\b",
+          "\\bupper tail\\b",
+          "\\barea below\\b",
+          "\\bCompute and interpret\\b",
+          "\\bWe are 95\\b",
+          "\\bpopulation mean\\b",
+          "\\bFDA's webpage\\b",
+          "\\bparts per million\\b",
+          "\\bsummary statistics of the data\\b",
+          "\\bGuided Practice\\b",
+          "\\bactual mean\\b",
+          "\\bOnce you've determined\\b",
+          "\\bfour steps to constructing\\b",
+          "\\bVerify the conditions\\b",
+          "\\bIf the conditions hold\\b",
+          "\\bInterpret the confidence interval\\b",
+          "\\bplausible values\\b",
+          "\\bindividual observations\\b",
+          "\\bOne sample\\b"
+        ],
+        "residual_english_matches": [],
+        "approved_blueprint_repairs_overlapping_part": []
+      }
+    }
+  ],
+  "qa": {
+    "source_order_and_one_to_one_line_mapping_exact": true,
+    "combined_source_range": "634-896 inclusive",
+    "combined_logical_lines": 263,
+    "indonesian_terminology_anchors": [
+      "Interval kepercayaan $t$ satu sampel",
+      "rata-rata kandungan merkuri",
+      "syarat independensi",
+      "syarat normalitas",
+      "nilai kritis",
+      "derajat kebebasan",
+      "galat baku",
+      "Latihan Terarah",
+      "interval kepercayaan bagi satu rata-rata",
+      "observasi individual",
+      "Uji $t$ satu sampel"
+    ],
+    "learner_visible_residual_english_matches": [],
+    "approved_source_repair": {
+      "source_lines": "737-740",
+      "source_issue": "The worked prompt says 'this degrees of freedom' and the response says 'The degrees of freedom is easy to calculate'.",
+      "translation_action": "Render the intended number of degrees of freedom grammatically.",
+      "target_line_737": "    Cari $t^{\\star}_{df}$ untuk banyaknya derajat kebebasan ini",
+      "target_line_739": "  Banyaknya derajat kebebasan mudah dihitung:",
+      "target_line_740": "  $df = n - 1 = 18$."
+    },
+    "unrecorded_semantic_repairs_applied": false,
+    "translation_quality_refinements": [
+      "Aligned rata-rata kandungan merkuri word order with natural id-ID usage.",
+      "Aligned the normality term to normalitas across the audited slices.",
+      "Aligned cutoff terminology to nilai kritis used by the B026 exercises.",
+      "Removed a literal English-style hyphen from interval kepercayaan t.",
+      "Recast the literal objections question as a natural reason-to-doubt question.",
+      "Removed an unnecessary second-person pronoun from the four-step summary.",
+      "Used rata-rata kandungan merkuri and 90% dari consistently in the fish sequence."
+    ],
+    "inactive_comment_policy": "Every full-line or trailing inactive source comment suffix is retained exactly and excluded from learner-visible residual-English accounting."
+  },
+  "next_translation_cursor": {
+    "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_means/TeX/ch_inference_for_means.tex",
+    "line": 897,
+    "blueprint_chunk": "897-1052 inclusive",
+    "context": "Cherry Blossom one-sample t test, summary box, video marker, and exercise input."
+  },
+  "scope_guards": {
+    "other_staged_translation_files_mutated": false,
+    "exercises_or_public_answers_mutated": false,
+    "assets_localized": false,
+    "canonical_source_mutated": false,
+    "live_backend_mutated": false,
+    "control_or_output_mutated": false,
+    "release_or_publication_mutated": false,
+    "git_used": false,
+    "network_used": false,
+    "credentials_accessed": false,
+    "upstream_contact": false
+  },
+  "qa_script": {
+    "path": "scripts/qa_b026_main_translation_parts_de.py",
+    "bytes": 21218,
+    "sha256": "fd7e66dbc35c4cd9a3e51736a17ba7f774666b848f73fa30a7be7f0ef51af9ad"
+  }
+}

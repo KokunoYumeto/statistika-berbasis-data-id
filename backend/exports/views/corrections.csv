@@ -14,6 +14,7 @@ id,affected_id,category,summary,disposition,confidence,status
 0c5a474b-68e3-5fc9-98b9-4ab40411d821,a766f9cd-f941-5953-b2d9-9d5f0b9a8764,layout_pagination,The default 4 mm pre-exercise spacing forced only EoCE 28(a)-(b) onto an otherwise empty continuation page.,applied_before_terminal_b011_translation_gate,high,active
 0cb9964d-2ff4-5b17-92c1-b4d1f72b3ab4,06b28e64-c231-50b0-b1f6-648ba4ba5102,source_correction,B014-SC009: ch_distributions/figures/eoce/GRE_intro/GRE_intro.pdf,applied_in_terminal_b014_candidate,high,active
 0f64dce5-24a1-550b-a0ef-197dd2be431b,91fc3301-cb1f-55c9-be90-4bcb58dca050,accessibility_point_count,,,high,active
+11f9fd8c-5056-5f5d-9460-65c3e24d234e,02e58b9c-5cda-534d-abab-30ab5d6b553e,,,,high,active
 125e2153-5ec4-5f96-b86d-95dd7b9d5e67,ef7f55d2-6426-5c6b-a525-29e747da8d0b,page_flow,,,high,active
 12fd69b5-695b-516a-b699-8c11a0eff299,b23f3ca2-973a-561f-8d7b-0808ca9315e8,translation_unit_notation,,,high,active
 1606cc19-64a9-5fc9-b11a-a94b9205009e,51f8c9e8-d47d-503f-a0db-38a0564b62f2,copy_error,,,high,active
@@ -30,11 +31,14 @@ id,affected_id,category,summary,disposition,confidence,status
 1b85cddf-6811-58e5-b22f-5144559c4286,ef7f55d2-6426-5c6b-a525-29e747da8d0b,study_design_scope,,,high,active
 1c4409f2-97dd-5aaa-802a-0ecc1688c178,9eaed801-2728-5f8d-b0de-374b6611b66a,terminology_field_usage,,,high,active
 209f33c7-9700-55e7-86c7-04ffd4b75dbe,dbda91d1-7c2a-59ea-8049-c1847a4c4218,accessibility_value_count,,,high,active
+20f0e44c-5177-5701-ba0d-bab9c77554c6,02e58b9c-5cda-534d-abab-30ab5d6b553e,,,,high,active
 2152bdae-0c1b-53cc-9b1d-140112c098a5,ef7f55d2-6426-5c6b-a525-29e747da8d0b,page_flow,,,high,active
 24238ba5-39c9-5dc2-bc05-8042c3a7cfd1,472bec5c-8b39-5aaa-846f-e89ddd224353,translation_label_consistency,,,high,active
 254a625a-7cd8-5437-a6dd-0fd2ab3c8ed0,c008ad85-0b9e-5a0c-bd8a-16e3520c8c96,nonadherence_inference,,,high,active
+258c800f-8250-55be-8013-aa42ac75d7ff,02e58b9c-5cda-534d-abab-30ab5d6b553e,,,,high,active
 25933c6f-5e91-5566-a232-6ec5c9bbffab,17acf038-9821-5e3d-9ffa-1526fab12218,prose_grammar,,,high,active
 271793e3-36cb-58aa-917b-7692d572ff30,15e82d16-af8c-5c5f-900d-1e15be6b7e41,accessibility_term_typo,,,high,active
+29c72a53-6a2e-5bce-8a13-cb0e0c13b33d,02e58b9c-5cda-534d-abab-30ab5d6b553e,,,,high,active
 29d2ba0b-fa19-58dd-93f5-b53fa6605622,02f6e6bb-cb13-52fa-bcd9-7183093cea93,scientific_units,,,high,active
 2a039acc-4b2e-5ec9-98e0-d9175c119568,06b28e64-c231-50b0-b1f6-648ba4ba5102,source_correction,B014-SC010: Frederic Gauss,applied_in_terminal_b014_candidate,high,active
 2b2fe24c-fbaf-5754-bc6c-24beee56d894,38d29400-2764-5109-a7fd-d245c7e52b17,source_prose,,,high,active
@@ -42,9 +46,11 @@ id,affected_id,category,summary,disposition,confidence,status
 2e7ae2ff-038c-5c76-beb6-749df5fcfd58,bac586bc-5065-5e98-a3ae-8376ff0851ac,source_correction,B015-SC002: explicit derivative-scoped source correction,applied_in_terminal_b015_candidate,high,active
 2f73becc-e157-5bdf-9c26-28f8f7f8863c,d031fd92-364c-5922-9977-7d4f68b6f109,translation_spelling,,,high,active
 3025c792-7852-5e5c-b512-b58bd32985ed,4ad79ac2-b6ea-5eb3-86f4-298962d0bb50,layout_reflow_answer_break,,,high,active
+309f4b11-383c-5bc5-920e-ee8c16ab53d6,02e58b9c-5cda-534d-abab-30ab5d6b553e,,,,high,active
 3169b13f-e022-524a-924f-85d3b72fb094,5ae02b29-9532-5167-9a0e-abde9ad9048c,formula_symbol_inconsistency,,,high,active
 31b634d4-1109-5e35-8e71-f7d86a4bd55d,f5fb316e-6dd4-51e6-9e06-34ebb0d2fab2,grammatical_typo,,,high,active
 329a8e91-f482-561b-acdc-f40417b5858f,6242cdaa-0f32-5a58-a516-50bb0ef212b1,grammar,,,high,active
+33ab2577-1dc0-5282-8400-c860edd7c91c,02e58b9c-5cda-534d-abab-30ab5d6b553e,,,,high,active
 34740fe8-fec2-52eb-b9f4-960c814020fd,3d21d8f6-cd4d-5b40-ba1a-95940ede3b94,sp500_alt_text_half_as_high,,,high,active
 367bddb6-f5af-5643-9675-69824d1503af,06b28e64-c231-50b0-b1f6-648ba4ba5102,localized_layout_adaptation,B014-LA001: \D{\newpage},applied_in_terminal_b014_candidate,high,active
 37fcd6d0-24f5-54ca-af33-4ca1e90463b9,b6a67d35-a676-579f-b64c-e42dc65864f7,normal_distribution_present_tense,,,high,active
@@ -65,6 +71,7 @@ id,affected_id,category,summary,disposition,confidence,status
 4d2a4836-2e91-56fc-93e8-dedb8e27a255,a485ca16-e7af-5fc9-a661-2481b3a87b29,source_accessibility,Accessibility text contains the typo The the dot plot.,applied_in_terminal_b012_candidate,high,active
 4ee59633-83dd-52ae-9949-f7c77323a226,6e4e8c2c-e78c-58d3-afef-7c55af54eb37,source_grammar,The source phrase `represents a classifier a sample` is malformed.,applied_in_isolated_b010_candidate,high,active
 4f3b7e46-2b80-53ad-b797-78b9d5be2704,9e0d4468-5410-57f5-a63f-64d449369bb9,generated_figure_font_portability,,,high,active
+4f549c1b-c5aa-5ae5-b649-1ea9983c51db,02e58b9c-5cda-534d-abab-30ab5d6b553e,,,,high,active
 4fef828b-b48e-501b-9f55-ac02dae1eeeb,51f8c9e8-d47d-503f-a0db-38a0564b62f2,grammar,,,high,active
 51f94645-2143-5476-89a8-ba39c6811cb4,1c210048-c7e1-5b6a-89b7-d6c081012bf6,grammatical_tense,,,high,active
 5300ddf7-69f8-5709-8ad6-f371d80b9b34,b9823605-b359-533a-9cb9-84628fa32225,author_attribution_metadata,,,high,active
@@ -74,8 +81,10 @@ id,affected_id,category,summary,disposition,confidence,status
 580a2751-a37e-5346-9cd0-bc2dce3242bb,b6a67d35-a676-579f-b64c-e42dc65864f7,degrees_of_freedom_number_agreement,,,high,active
 58333b00-3205-5cf9-b873-cf927b1ac40d,06b28e64-c231-50b0-b1f6-648ba4ba5102,source_correction,B014-SC008: Answer to part (b) would not change ... could not answer parts (d)-(f),applied_in_terminal_b014_candidate,high,active
 58d1d4bb-5bed-51c1-80a3-bd0ab8d6d7d0,187be28f-bd7f-565a-ab42-9a8fc4bf8185,source_correction,B016-SC004: explicit derivative-scoped source correction,applied_in_terminal_b016_candidate,high,active
+5ac5a503-2fb0-5771-8783-8d3a6b0ab927,02e58b9c-5cda-534d-abab-30ab5d6b553e,,,,high,active
 5b0fb447-56a3-5336-b5d0-eb4230043731,06b28e64-c231-50b0-b1f6-648ba4ba5102,source_correction,B014-SC007: it can be assumed that they to follow a normal distribution,applied_in_terminal_b014_candidate,high,active
 5c0539c3-f99d-5106-9f7a-01d7a80d17fa,4c8457ff-0769-59f0-9a0d-040a50fb107c,source_accessibility,B013-SC001: The difference in appears will first be discussed,applied_in_terminal_b013_candidate,high,active
+5c27de6d-cdb8-58fe-b33b-292802085d58,02e58b9c-5cda-534d-abab-30ab5d6b553e,,,,high,active
 5cfb6ea5-1ac3-5696-8894-33902d3303ef,1c22723c-f2d0-5445-bccd-2c220201d232,producer_text_inconsistency,,,high,active
 5e52953d-5c51-5921-81f8-97cd5ffdda60,d2b0d97b-fb59-5cdf-9170-ae1cdeea3398,missing_identifier,,,high,active
 6003f070-976c-5e41-af1b-38b2fffd6ed2,b9713b11-3896-5f98-b45d-dbd8d50965d2,,,,high,active
@@ -85,6 +94,7 @@ id,affected_id,category,summary,disposition,confidence,status
 73b6c3b6-f5e6-556e-94ec-b3f9f283c7ff,b9713b11-3896-5f98-b45d-dbd8d50965d2,,,,high,active
 73f47817-a29e-5574-9a29-c9371044c61f,4ad79ac2-b6ea-5eb3-86f4-298962d0bb50,public_answer_category_misalignment,,,high,active
 7792c8af-f392-53a9-a5ee-901a0358ed1f,c526fa55-62c1-5a35-bb8d-40abfc2fc3d8,public_answer_design_contradiction,,,high,active
+792bd28d-77ec-5850-905d-051f2ad78ff5,02e58b9c-5cda-534d-abab-30ab5d6b553e,,,,high,active
 7efc0506-5000-5d1b-8647-9bf8e60fa074,b4622874-ecdd-5924-918f-e2e9255a053b,chi_square_nonnegative_not_positive,,,high,active
 80e46e51-acc3-5334-8d7b-0cbe02a72d34,49ca843c-e79c-5858-96ba-34396dd18ae6,component_rights,,,high,active
 81470fb8-b008-5073-9278-35aff1fcb141,aa0c130d-cb84-5a06-b650-6dc25cefd73c,answer_generalization,,,high,active
@@ -103,9 +113,11 @@ id,affected_id,category,summary,disposition,confidence,status
 92b3f75f-d3bd-58bf-bb7e-6a203f7f58ce,c30ed712-53d9-5d5c-9e77-fc405aee5528,accessibility_range_accuracy,Describe 2.0-3.2 and 1970-2000 as axis ranges.,hold_until_corpus_complete_then_deduplicate,high,active
 961e9bbd-b87a-539d-8bd7-7bc0767c9459,38d29400-2764-5109-a7fd-d245c7e52b17,source_prose,,,high,active
 96aa426f-0689-5d4a-9010-c1176e758806,eac9ad9b-507e-5477-a53b-f8307ee5ad49,terminology_field_usage,,,high,active
+97162e28-5bae-5b0b-846a-4afd29d39702,0b1418b0-c578-5b33-b2fd-6b56eb7c175b,,,,high,active
 9c7c9691-1d75-5cdb-8585-d25e8240123a,fc1bd953-2912-5d8b-9e76-002dc648bd25,source_provenance_discrepancy,The adjacent research note cites a 7.4% false-positive statement while the producer and reader text use 7%.,applied_in_isolated_b010_candidate,high,active
 9c840628-4d7a-5aaf-9109-5dbc1aa8bbce,d8f095f4-b65e-533d-ae7e-f9eeeeb3835a,experimental_design,,,high,active
 9ea4d3d8-b96e-5f04-9712-5f8b819a9202,8eb2d76e-01a5-5f6a-944c-4dc01adf6597,public_answer_misalignment,,,high,active
+9ee7c680-3daf-500c-862e-1330754356ac,02e58b9c-5cda-534d-abab-30ab5d6b553e,,,,high,active
 9f72ffb8-d0b0-5069-8d0f-b47afc6e09fe,ab39d771-26e7-5872-b2ef-081a53a1644b,binomial_standard_error_square_root,,,high,active
 9fd4de0a-e488-5d3a-a671-0f452707e375,cda64c06-7961-5028-afbc-01956ce7d61c,layout_reflow_exercise_break,,,high,active
 a0902a70-b856-5d34-bf64-379a29184d90,b9823605-b359-533a-9cb9-84628fa32225,layout_reflow_answer_break,,,high,active
@@ -135,6 +147,7 @@ ba91278d-5d5f-5b3a-a8d7-1efb8edc6a0e,b4cd26a2-3443-5b4d-9a38-f2d9766ae10a,access
 ba9a1557-65a1-5584-83ee-8c2a6f5b7be0,4a0f5bef-95db-5c6c-ae94-097778cff15d,layout_reflow_float_and_exercise_header,,,high,active
 bbe31395-03cf-53b4-88ed-c0774b2be94c,61e1c83c-7498-5cd8-adb1-46c84a2c9f48,increasing_identifier_semantic_alias,,,high,active
 c019502b-15a3-5bf4-bdaf-a684f021a06d,6951ea72-89ba-55eb-8098-ffbcba49cb5f,corrected_public_answer_values,,,high,active
+c0710215-3d5f-58f2-ad07-18e07f191b79,02e58b9c-5cda-534d-abab-30ab5d6b553e,,,,high,active
 c0c83b62-d073-5b03-946b-2bdcf349c676,06b28e64-c231-50b0-b1f6-648ba4ba5102,source_correction,B014-SC001: grad lifting,applied_in_terminal_b014_candidate,high,active
 c208b5ac-52d7-538c-8401-7ad6a8a25f41,8b9932bf-3164-5e36-a64a-304ae1894c90,accessibility_mismatch,,,high,active
 c2fd6c01-237b-51ce-9663-3ac44783b2e4,a132efe2-d782-5317-859e-6b0fd4cab424,answer_terminology_mismatch,,,high,active
@@ -149,6 +162,7 @@ caf11286-f797-5346-8cab-f2330eb9974d,0d9c327c-fe75-55f7-a4e4-35bec165ffe1,source
 cb44d141-4fff-5209-a574-d8d6c8c3b266,472bec5c-8b39-5aaa-846f-e89ddd224353,public_answer_numeric_mismatch,,,high,active
 cb5b76ca-aaed-51c2-8b5d-8ae00746a17d,2fed3de7-006a-524a-980b-14587f36dc58,question_data_direction_conflict,,,high,active
 cbc79aac-b4f8-53a9-9ce9-829e7c47e95e,e6ac9457-94fd-5c0e-9e5d-64019cffef9a,accessibility_category_mapping,,,high,active
+ccdcfce2-d1fd-532b-8f65-ee19dae7ed8d,02e58b9c-5cda-534d-abab-30ab5d6b553e,,,,high,active
 d0131d21-abda-57d9-82c8-a7333ba7171e,ca0df825-ca52-52be-a3e6-0c3090edaa4c,grammar_number_agreement,B017-C003: high-confidence upstream copyedit candidate,recorded_not_applied_to_authority,high,active
 d06c6100-6ff4-54e4-8539-d62579716039,631bf039-12b7-5f5f-944a-429966c4e45f,grammar,,,high,active
 d0b81f87-f267-5553-9031-14db536bc3ae,49928af2-5b48-5390-8a64-218e71c10a1a,answer_scope,,,high,active
@@ -169,9 +183,11 @@ e4a078c9-b583-5429-a1bd-db333a70a187,47a4fe12-f3c0-587a-b879-47adb3ee9dc9,source
 e53d742b-757b-50c3-85be-584d662408fb,a485ca16-e7af-5fc9-a661-2481b3a87b29,source_accessibility,Malformed phrase listed on in the total on the last line.,applied_in_terminal_b012_candidate,high,active
 e5ae681e-52ca-548b-aef2-4023d49c40b1,38d29400-2764-5109-a7fd-d245c7e52b17,figure_description_accuracy,,,high,active
 e7b98d80-2fb5-564a-b4b1-d039f9206668,b6a67d35-a676-579f-b64c-e42dc65864f7,tail_area_sentence_grammar,,,high,active
+e81b4742-bf4f-5a78-820b-f9d94ccf404a,d06fd38f-50b4-524f-b381-cd23155187e4,,,,high,active
 eb6ea6fa-3280-5b9b-bdbd-3e01489e6488,b9823605-b359-533a-9cb9-84628fa32225,latex_grouping,,,high,active
 eb8e1abd-74f3-56c4-945d-9aef7e62edfa,7f6efe22-ac57-53a1-bb09-e6e9d1e12742,drug_name_spelling_and_grammar,,,high,active
 ec2dcc34-872d-5f6f-90a8-0ed266899557,da257b3a-e08f-562f-9796-9aac8b096719,percentage_point_estimand,,,high,active
+eddef74a-fd56-5ab3-9caf-5aeb542355d0,02e58b9c-5cda-534d-abab-30ab5d6b553e,,,,high,active
 ef505614-5cf8-58d3-9e54-29ed99c6d8a3,8c17e7f7-9433-5397-8c68-2d980f9a0f73,grammar,,,high,active
 ef75233d-3e47-5745-944f-60c17ef23689,f9059826-6e10-5027-acd8-165acd75fa93,terminology_field_usage,,,high,active
 f0464435-1505-54d2-8043-71ea4ab33528,67a193b9-bacc-52c3-ba96-17f706246d41,grammatical_typo,,,high,active

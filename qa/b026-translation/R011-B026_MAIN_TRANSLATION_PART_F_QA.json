@@ -1,0 +1,165 @@
+{
+  "$schema": "interlanguage.r011-translation-qa/v1",
+  "boundary_id": "R011-B026",
+  "part": "main-part-f",
+  "status": "PASS_COMPLETE_NATURAL_ID_ID_STRUCTURE_MATH_PROTECTED_TEX_REPAIR_LEDGER_AND_RESIDUAL_ENGLISH_QA",
+  "provenance": {
+    "production_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+    "role": "bounded id-ID translation and deterministic QA"
+  },
+  "blueprint": {
+    "path": "qa/b026-source/R011-B026_BOUNDARY_BLUEPRINT.json",
+    "bytes": 52663,
+    "sha256": "2340adb156e7dd6833a2421eed9b6b4e2f7045e347f4fe8639544028cd6ced34"
+  },
+  "source": {
+    "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_means/TeX/ch_inference_for_means.tex",
+    "full_file_sha256": "d818b24b8e8d0582f8e603972e87764082d8470d91ddcbeaa794c295a1d37bec",
+    "first_line": 897,
+    "last_line": 1052,
+    "logical_lines": 156,
+    "bytes": 6297,
+    "sha256": "ee67646d201bf0538b364884b60e559ce68e6f67ee21ee0491f97fa70b37cfb5",
+    "blueprint_chunk": {
+      "first_line": 897,
+      "last_line": 1052,
+      "bytes": 6297,
+      "sha256": "ee67646d201bf0538b364884b60e559ce68e6f67ee21ee0491f97fa70b37cfb5"
+    }
+  },
+  "target": {
+    "path": "qa/b026-translation/staging/chapter-lines-897-1052.id.tex",
+    "bytes": 6463,
+    "sha256": "d4ad6b2b445259ed72dae2e301d2956a9f61e22d7c28fc63981ba403d8248ceb",
+    "locale": "id-ID",
+    "logical_lines": 156,
+    "mapping": "target line N maps to source line N for lines 897-1052"
+  },
+  "qa": {
+    "command_environment_math_and_protected_sequences_exact": true,
+    "blank_line_topology_exact": true,
+    "comment_source_witness_lines_exact": true,
+    "comment_lines_checked": 22,
+    "comment_line_numbers": [
+      953,
+      954,
+      955,
+      956,
+      957,
+      958,
+      959,
+      960,
+      961,
+      962,
+      963,
+      964,
+      965,
+      1017,
+      1018,
+      1019,
+      1020,
+      1021,
+      1022,
+      1023,
+      1024,
+      1025
+    ],
+    "control_token_counts": {
+      "{": {
+        "source": 90,
+        "target": 90
+      },
+      "}": {
+        "source": 90,
+        "target": 90
+      },
+      "$": {
+        "source": 38,
+        "target": 38
+      },
+      "%": {
+        "source": 25,
+        "target": 25
+      },
+      "~": {
+        "source": 3,
+        "target": 3
+      }
+    },
+    "unchanged_learner_visible_source_lines": [],
+    "residual_english_patterns_checked": [
+      "\\bAre runners in the US\\b",
+      "\\baverage time for all runners\\b",
+      "\\bWhat are appropriate hypotheses\\b",
+      "\\bdata come from a simple random sample\\b",
+      "\\bhistogram of the differences\\b",
+      "\\bthere is are particularly extreme outliers\\b",
+      "\\bhistogram of time for the sample data\\b",
+      "\\bWhen conducting a hypothesis test\\b",
+      "\\bTo find the test statistic\\b",
+      "\\bwe reject the null hypothesis\\b",
+      "\\bHypothesis testing for a single mean\\b",
+      "\\bIdentify the parameter of interest\\b",
+      "\\bVerify conditions for\\b",
+      "\\bconfidence intervals? and hypothesis tests? for a single mean\\b"
+    ],
+    "residual_english_matches": [],
+    "indonesian_terminology_anchors": [
+      "waktu lari sampel",
+      "pencilan yang sangat",
+      "skor-T",
+      "galat baku",
+      "distribusi-$t$",
+      "nilai-p",
+      "Uji hipotesis untuk satu rata-rata",
+      "interval kepercayaan dan uji hipotesis untuk satu rata-rata"
+    ],
+    "repairs_applied": [
+      {
+        "source_lines": "921-923",
+        "source_issue": "prompt calls the active run17 plot a histogram of differences rather than sampled run times",
+        "target_evidence": [
+          "Lihat Gambar~\\ref{run10SampTimeHistogram} yang menampilkan histogram",
+          "waktu lari sampel, lalu evaluasilah apakah kita dapat",
+          "melanjutkan analisis.\\footnotemark{}"
+        ]
+      },
+      {
+        "source_lines": "926-930",
+        "source_issue": "source has the agreement error 'there is are particularly extreme outliers'",
+        "target_evidence": [
+          "\\footnotetext{Dengan sampel berukuran \\cherryblossomn{},",
+          "  kita hanya perlu khawatir jika terdapat pencilan yang sangat",
+          "  ekstrem.",
+          "  Histogram data tidak menunjukkan pencilan yang mengkhawatirkan",
+          "  (dan dapat dikatakan tidak menunjukkan pencilan sama sekali).}"
+        ]
+      }
+    ],
+    "unrecorded_semantic_repairs_applied": false,
+    "inactive_comment_policy": "All inactive source commentary is retained exactly as provenance and excluded from learner-visible residual-English accounting."
+  },
+  "next_translation_cursor": {
+    "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_means/TeX/ch_inference_for_means.tex",
+    "line": 1059,
+    "section_label": "pairedData",
+    "working_boundary_id": "R011-B027"
+  },
+  "scope_guards": {
+    "exercises_or_public_answers_translated": false,
+    "assets_localized": false,
+    "canonical_source_mutated": false,
+    "live_backend_mutated": false,
+    "control_or_output_mutated": false,
+    "release_or_publication_mutated": false,
+    "git_used": false,
+    "network_used": false,
+    "credentials_accessed": false,
+    "upstream_contact": false
+  },
+  "qa_script": {
+    "path": "scripts/qa_b026_main_translation_part_f.py",
+    "bytes": 14650,
+    "sha256": "3eefccd21c1f3fd7553a698afb67097e21f6822c78233d498f9e8f4e409b926e"
+  }
+}

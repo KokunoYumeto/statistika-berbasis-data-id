@@ -1,0 +1,60 @@
+{
+  "$schema": "interlanguage.r011-root-visual-inspection/v1",
+  "boundary_id": "R011-B026",
+  "status": "PASS_ALL_8_LOCALIZED_ASSETS_VISUALLY_INSPECTED_AFTER_ONE_CORRECTION_ZERO_REMAINING_DEFECTS",
+  "provenance": {
+    "inspection_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+    "inspection_role": "independent root visual inspection of exact rendered asset montage"
+  },
+  "asset_localization_receipt": {
+    "path": "qa/b026-translation/R011-B026_ASSET_LOCALIZATION_QA.json",
+    "bytes": 35730,
+    "sha256": "b479bb7bdacda021bee1afd7380bfdea1c98915b1a693369d4a224216b48b9c1"
+  },
+  "final_montage": {
+    "path": "qa/b026-translation/staging/assets/R011-B026_ASSET_VISUAL_QA.png",
+    "bytes": 200461,
+    "sha256": "acdbf630b8bd3c3facd1aada13779b8f3daf374408afac424d237d6e900e6618",
+    "inspection_detail": "original",
+    "render_dpi": 144
+  },
+  "inspection_sequence": [
+    {
+      "pass": 1,
+      "result": "FAIL_ONE_VISIBLE_LABEL_CLIPPED",
+      "defect": "The second t_distribution legend label was visibly clipped to 'putus-pu' instead of 'putus-putus'.",
+      "disposition": "returned to the asset producer for reflow"
+    },
+    {
+      "pass": 2,
+      "result": "PASS_ZERO_VISIBLE_DEFECTS",
+      "evidence": "The corrected exact montage shows the complete 'putus-putus' label and all eight charts without clipping, overlap, unreadable labels, placeholder text, or malformed axes."
+    }
+  ],
+  "assets": [
+    {"path": "qa/b026-translation/staging/assets/outliers_and_ss_condition.id.pdf", "bytes": 11338, "sha256": "5efbf4b8f972c938df3b27e0fb281f7b00269e178dceb0673d09bdf61e0fbcdf", "result": "PASS"},
+    {"path": "qa/b026-translation/staging/assets/tDistCompareToNormalDist.id.pdf", "bytes": 52105, "sha256": "09ba1c4a8edbebcb4d7108810244f9442aba69e0fd0ce9d8a0528c544d37e186", "result": "PASS"},
+    {"path": "qa/b026-translation/staging/assets/tDistConvergeToNormalDist.id.pdf", "bytes": 65026, "sha256": "b0e9bfcbcf886b710d1960c1005859429f174728c1384633afd572a22be1a0e0", "result": "PASS"},
+    {"path": "qa/b026-translation/staging/assets/run17SampTimeHistogram.id.pdf", "bytes": 7629, "sha256": "7ce6972438b8a32f504bcb14a0c90111460a1e47e9dc1d2b991aa1ce02229f1a", "result": "PASS"},
+    {"path": "qa/b026-translation/staging/assets/t_distribution.id.pdf", "bytes": 60191, "sha256": "52ecac753c4b469c93ac6eff52563d417db86eebd6aa20d9087b1146c203fe92", "result": "PASS_AFTER_REFLOW"},
+    {"path": "qa/b026-translation/staging/assets/adult_heights_hist.id.pdf", "bytes": 8023, "sha256": "9fe6bfbcee89f0415ead39e800e9f2979b6f96f435e58681cb4bd1bdb537abd1", "result": "PASS"},
+    {"path": "qa/b026-translation/staging/assets/tDistDF18LeftTail2Point10.id.pdf", "bytes": 13307, "sha256": "7ad8aa77c0e94a6ddfd375c35ab4cd0ececcb7c5f917a3c96d731243191f15ba", "result": "PASS_DF18_CUTOFF_MINUS_2_POINT_10_AND_NO_STRAY_TEXT"},
+    {"path": "qa/b026-translation/staging/assets/tDistDF20RightTail1Point65.id.pdf", "bytes": 25786, "sha256": "11ce38a736c383f883a355f79fe1aeabcaa26e3feee540e740c266b31f95b3db", "result": "PASS_LEFT_DF20_CUTOFF_1_POINT_65_RIGHT_DF2_CUTOFFS_PLUS_MINUS_3"}
+  ],
+  "checks": {
+    "localized_labels_legible": true,
+    "curves_axes_ticks_and_shaded_tails_legible": true,
+    "clipping_or_overlap": false,
+    "blank_or_black_assets": false,
+    "stray_placeholder_text": false,
+    "remaining_visible_english_label_defects": false
+  },
+  "dolphin_photo": {
+    "staged_or_modified": false,
+    "source_bytes": 72046,
+    "source_sha256": "591d0ba9d9a228e58f2e8841536b826847f219d68cf791d6740986b7768ee200",
+    "credit": "Mike Baird",
+    "license": "CC BY 2.0"
+  },
+  "upstream_contact": false
+}

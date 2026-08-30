@@ -1,0 +1,62 @@
+{
+  "schema": "interlanguage.r011-b026-rejected-reader-candidate-qa/v1",
+  "status": "REJECTED_PAGE_271_FORCED_BREAK_REFLOW_DEFECT",
+  "candidate": {
+    "path": "scratch/b026-boundary-clean-reader/final/main.pdf",
+    "bytes": 12785737,
+    "sha256": "9adb2d374142e651c913ff514e7ca890df3a71a00d28074415d9527295bba4be",
+    "pages": 276
+  },
+  "candidate_text": {
+    "path": "scratch/b026-boundary-clean-reader/final/main-final.txt",
+    "bytes": 873947,
+    "sha256": "eb3ae9cc6616619a286b87455160f8ede346ceb9d692ed2779c5c5be939b6d0e"
+  },
+  "build_receipt": {
+    "path": "scratch/b026-boundary-clean-reader/final/R011-B026_BOUNDARY_CLEAN_BUILD_QA.json",
+    "bytes": 25007,
+    "sha256": "96478e38c44a9085686487a66ea38e0bd47106c6a5385890132b7b03e4430a98"
+  },
+  "source_manifest": {
+    "path": "scratch/b026-boundary-clean-reader/R011-B026_BOUNDARY_CLEAN_SOURCE_MANIFEST.tsv",
+    "bytes": 177439,
+    "sha256": "c1bd025c9ea6a93b4f7a54f82513e96f77162e67269e2eda1a07d53ed0a64187"
+  },
+  "finding": {
+    "physical_pdf_page": 271,
+    "description": "Answer 5.25 is isolated at the top of page 271, leaving most of the page blank before Chapter 6 solutions begin on page 272.",
+    "classification": "reader_reflow_and_page_fill_defect",
+    "boundary_semantics": "Chapter 6 must retain its hard page boundary."
+  },
+  "cause": {
+    "path": "scratch/b026-boundary-clean-reader/source-snapshot/extraTeX/eoceSolutions/eoceSolutions_boundary_clean_b026.tex",
+    "bytes": 62118,
+    "sha256": "a9bdd22a4aecc23794bca2a4f80bb8046d5a873028994a6ae451d9d2224048d9",
+    "lines": {
+      "1023": "\\end{multicols}",
+      "1024": "\\newpage",
+      "1025": "\\begin{multicols}{2}",
+      "1027": "% 25",
+      "1037": "\\end{multicols}",
+      "1039": "\\newpage",
+      "1041": "\\eocesolch{Inferensi untuk data kategoris}",
+      "1043": "\\begin{multicols}{2}"
+    }
+  },
+  "minimal_repair": {
+    "remove_only_lines": [
+      1023,
+      1024,
+      1025
+    ],
+    "retain_lines": [
+      1037,
+      1039,
+      1041,
+      1043
+    ],
+    "rationale": "Answer 5.25 then continues in the already-open two-column stream, while the retained close and page break preserve the Chapter 6 boundary."
+  },
+  "promotion_eligible": false,
+  "qa_disposition": "Do not bind, promote, admit, or publish this rejected candidate. Run complete whole-reader QA against the deterministic rebuilt candidate only."
+}

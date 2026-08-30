@@ -1,0 +1,137 @@
+{
+  "$schema": "interlanguage.r011-b026-o001-mastery-gaps/v1",
+  "boundary_id": "R011-B026",
+  "status": "EXPLICIT_O001_GAPS_RECORDED_NO_RESTRICTED_SOLUTIONS_ACCESSED_OR_INVENTED",
+  "provenance": {
+    "production_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+    "role": "bounded id-ID translation of public exercise and answer material; no restricted solution material used"
+  },
+  "authority": {
+    "repository": "https://github.com/OpenIntroStat/openintro-statistics",
+    "branch_observed": "master",
+    "commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "tree": "d61cc601e7d97759ce805900520f784d02a0489e",
+    "observed": "2026-08-20"
+  },
+  "rights": {
+    "source_exercises_and_public_answers": "CC BY-SA 3.0 repository declaration; preserve attribution and share-alike, use a novel derivative title, and exclude OpenIntro branding/logo.",
+    "derivative_translation": "CC BY-SA 3.0",
+    "restricted_solution_material": "not accessed, copied, inferred, or invented"
+  },
+  "source_exercise_file": {
+    "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_means/TeX/one-sample_means_with_the_t-distribution.tex",
+    "bytes": 10225,
+    "sha256": "5d41cfe653f9da3e3b78885c23b3b2d30cd698a11087424fca1abc104de451ae",
+    "line_start": 1,
+    "line_end": 280
+  },
+  "public_answer_source_slice": {
+    "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/extraTeX/eoceSolutions/eoceSolutions.tex",
+    "source_file_bytes": 106045,
+    "source_file_sha256": "6c4e01376db4c023cc7b3f9949490e57220ef1cb831c580da71efde6ce723268",
+    "line_start": 1623,
+    "line_end": 1721,
+    "bytes": 3169,
+    "sha256": "e2841a9784a3d2412f6da418f51d0afd40da1b17b11865a2121b46e386ea2f16",
+    "public_answer_ids": [1, 3, 5, 7, 9, 11, 13]
+  },
+  "records": [
+    {
+      "stable_key": "r011/unit/o001-gap/7.2",
+      "chapter_exercise_id": 2,
+      "exercise_label": "t_distribution",
+      "answer_availability": "no_public_answer_upstream",
+      "gap_reason": "no_public_answer_in_frozen_upstream_answer_slice",
+      "authoring_mode": "independent_original_required",
+      "translation_state": "queued",
+      "source_solution_used": false,
+      "restricted_solution_accessed_or_invented": false,
+      "target_answer_path": null
+    },
+    {
+      "stable_key": "r011/unit/o001-gap/7.4",
+      "chapter_exercise_id": 4,
+      "exercise_label": "find_T_pval_2_2_sided",
+      "answer_availability": "no_public_answer_upstream",
+      "gap_reason": "no_public_answer_in_frozen_upstream_answer_slice",
+      "authoring_mode": "independent_original_required",
+      "translation_state": "queued",
+      "source_solution_used": false,
+      "restricted_solution_accessed_or_invented": false,
+      "target_answer_path": null
+    },
+    {
+      "stable_key": "r011/unit/o001-gap/7.6",
+      "chapter_exercise_id": 6,
+      "exercise_label": "work_backwards_2",
+      "answer_availability": "no_public_answer_upstream",
+      "gap_reason": "no_public_answer_in_frozen_upstream_answer_slice",
+      "authoring_mode": "independent_original_required",
+      "translation_state": "queued",
+      "source_solution_used": false,
+      "restricted_solution_accessed_or_invented": false,
+      "target_answer_path": null
+    },
+    {
+      "stable_key": "r011/unit/o001-gap/7.8",
+      "chapter_exercise_id": 8,
+      "exercise_label": "adult_heights",
+      "answer_availability": "no_public_answer_upstream",
+      "gap_reason": "no_public_answer_in_frozen_upstream_answer_slice",
+      "authoring_mode": "independent_original_required",
+      "translation_state": "queued",
+      "source_solution_used": false,
+      "restricted_solution_accessed_or_invented": false,
+      "target_answer_path": null
+    },
+    {
+      "stable_key": "r011/unit/o001-gap/7.10",
+      "chapter_exercise_id": 10,
+      "exercise_label": "critical_t_vs_z",
+      "answer_availability": "no_public_answer_upstream",
+      "gap_reason": "no_public_answer_in_frozen_upstream_answer_slice",
+      "authoring_mode": "independent_original_required",
+      "translation_state": "queued",
+      "source_solution_used": false,
+      "restricted_solution_accessed_or_invented": false,
+      "target_answer_path": null
+    },
+    {
+      "stable_key": "r011/unit/o001-gap/7.12",
+      "chapter_exercise_id": 12,
+      "exercise_label": "auto_exhaust_lead_exposure_2_sided",
+      "answer_availability": "no_public_answer_upstream",
+      "gap_reason": "no_public_answer_in_frozen_upstream_answer_slice",
+      "authoring_mode": "independent_original_required",
+      "translation_state": "queued",
+      "source_solution_used": false,
+      "restricted_solution_accessed_or_invented": false,
+      "target_answer_path": null
+    },
+    {
+      "stable_key": "r011/unit/o001-gap/7.14",
+      "chapter_exercise_id": 14,
+      "exercise_label": "sat_scores_CI",
+      "answer_availability": "no_public_answer_upstream",
+      "gap_reason": "no_public_answer_in_frozen_upstream_answer_slice",
+      "authoring_mode": "independent_original_required",
+      "translation_state": "queued",
+      "source_solution_used": false,
+      "restricted_solution_accessed_or_invented": false,
+      "target_answer_path": null
+    }
+  ],
+  "public_answers_present": [1, 3, 5, 7, 9, 11, 13],
+  "o001_gap_ids": [2, 4, 6, 8, 10, 12, 14],
+  "restricted_solutions_accessed_or_invented": false,
+  "scope_guards": {
+    "canonical_source_mutated": false,
+    "live_backend_mutated": false,
+    "output_or_control_mutated": false,
+    "release_or_publication_mutated": false,
+    "network_used": false,
+    "git_used": false,
+    "credentials_accessed": false,
+    "upstream_contact": false
+  }
+}

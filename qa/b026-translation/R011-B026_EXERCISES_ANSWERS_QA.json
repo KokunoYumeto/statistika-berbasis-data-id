@@ -1,0 +1,310 @@
+{
+  "$schema": "interlanguage.r011-translation-qa/v1",
+  "boundary_id": "R011-B026",
+  "part": "exercises-public-answers-and-o001",
+  "status": "PASS_COMPLETE_NATURAL_ID_ID_EXERCISE_ANSWER_CLOSURE_STRUCTURE_MATH_REPAIRS_AND_RESIDUAL_ENGLISH_QA",
+  "provenance": {
+    "production_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+    "role": "independent bounded id-ID exercise/public-answer audit and deterministic QA"
+  },
+  "blueprint": {
+    "path": "qa/b026-source/R011-B026_BOUNDARY_BLUEPRINT.json",
+    "bytes": 52663,
+    "sha256": "2340adb156e7dd6833a2421eed9b6b4e2f7045e347f4fe8639544028cd6ced34"
+  },
+  "authority": {
+    "repository": "https://github.com/OpenIntroStat/openintro-statistics",
+    "commit": "fee25091fb24e89c36296fd67c48c1fcf7a93b6e",
+    "tree": "d61cc601e7d97759ce805900520f784d02a0489e",
+    "exercise_source": {
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_means/TeX/one-sample_means_with_the_t-distribution.tex",
+      "bytes": 10225,
+      "sha256": "5d41cfe653f9da3e3b78885c23b3b2d30cd698a11087424fca1abc104de451ae"
+    },
+    "public_answer_source_file": {
+      "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/extraTeX/eoceSolutions/eoceSolutions.tex",
+      "bytes": 106045,
+      "sha256": "6c4e01376db4c023cc7b3f9949490e57220ef1cb831c580da71efde6ce723268"
+    },
+    "public_answer_source_slice": {
+      "first_line": 1623,
+      "last_line": 1721,
+      "logical_lines": 99,
+      "bytes": 3169,
+      "sha256": "e2841a9784a3d2412f6da418f51d0afd40da1b17b11865a2121b46e386ea2f16"
+    }
+  },
+  "targets": {
+    "exercises": {
+      "path": "qa/b026-translation/staging/exercises-lines-1-280.id.tex",
+      "bytes": 10409,
+      "sha256": "d84536e75f75f66d59a2021ea3a18dd3e51bf146a37445eebc67ed634c4c4b21",
+      "locale": "id-ID",
+      "logical_lines": 280,
+      "source_mapping": "authority lines 1-280 map one-to-one to target lines 1-280"
+    },
+    "public_answers": {
+      "path": "qa/b026-translation/staging/public-answers-lines-1623-1721.id.tex",
+      "bytes": 3247,
+      "sha256": "ba75f7b07e02b58f76ac25cfe3e0ef0b1c98a8eedc7a60b6d9d80faebc4ee73f",
+      "locale": "id-ID",
+      "logical_lines": 99,
+      "source_mapping": "authority lines 1623-1721 map one-to-one to target lines 1-99"
+    },
+    "o001_gap_ledger": {
+      "path": "qa/b026-translation/staging/R011-B026_O001_MASTERY_GAPS.json",
+      "bytes": 5723,
+      "sha256": "3664d3af33ea9c00fe50c45e83f977285f1c6446632eeaaf6821291f5102b78b"
+    }
+  },
+  "closure": {
+    "exercise_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "exercise_labels": [
+      "identify_critical_t",
+      "t_distribution",
+      "find_T_pval_1_2_sided",
+      "find_T_pval_2_2_sided",
+      "work_backwards_1",
+      "work_backwards_2",
+      "ny_sleep_habits_2_sided",
+      "adult_heights",
+      "find_mean_2_sided",
+      "critical_t_vs_z",
+      "play_piano_2_sided",
+      "auto_exhaust_lead_exposure_2_sided",
+      "auto_exhaust_lead_exposure_2_sided_cond",
+      "car_insurance_savings",
+      "sat_scores_CI"
+    ],
+    "public_answer_ids": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13
+    ],
+    "o001_even_gap_ids": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14
+    ],
+    "restricted_solution_material_included": false,
+    "restricted_solution_material_accessed_or_invented_per_staged_scope_guard": false
+  },
+  "qa": {
+    "exact_line_mapping": true,
+    "blank_line_topology_exact": {
+      "exercises": true,
+      "public_answers": true
+    },
+    "comment_source_witness_lines_exact": true,
+    "comment_line_numbers": {
+      "exercises": [
+        3,
+        9,
+        16,
+        19,
+        34,
+        52,
+        68,
+        78,
+        90,
+        124,
+        171,
+        187,
+        194,
+        216,
+        247,
+        259
+      ],
+      "public_answers": [
+        1623,
+        1628,
+        1633,
+        1636,
+        1645,
+        1652,
+        1658,
+        1683,
+        1692,
+        1716
+      ]
+    },
+    "command_sequence_exact_after_approved_notation_normalization": true,
+    "environment_sequence_exact": true,
+    "mathematics_exact_after_approved_notation_normalization": true,
+    "labels_refs_citations_asset_bindings_widths_and_numerics_exact": true,
+    "layout_exact_except_approved_two_column_table_repair": true,
+    "control_token_counts": {
+      "exercises": {
+        "{": {
+          "source": 115,
+          "target": 115
+        },
+        "}": {
+          "source": 115,
+          "target": 115
+        },
+        "$": {
+          "source": 76,
+          "target": 76
+        },
+        "%": {
+          "source": 27,
+          "target": 27
+        },
+        "&": {
+          "source": 17,
+          "target": 17
+        },
+        "~": {
+          "source": 2,
+          "target": 2
+        }
+      },
+      "public_answers": {
+        "{": {
+          "source": 47,
+          "target": 47
+        },
+        "}": {
+          "source": 47,
+          "target": 47
+        },
+        "$": {
+          "source": 94,
+          "target": 94
+        },
+        "%": {
+          "source": 11,
+          "target": 11
+        },
+        "&": {
+          "source": 2,
+          "target": 2
+        },
+        "~": {
+          "source": 16,
+          "target": 16
+        }
+      }
+    },
+    "unchanged_learner_visible_source_lines": {
+      "exercises": [],
+      "public_answers": []
+    },
+    "residual_english_patterns_checked": [
+      "\\bIdentify the critical\\b",
+      "\\bAn independent random sample\\b",
+      "\\bFind the degrees of freedom\\b",
+      "\\bconfidence level\\b",
+      "\\bstandard deviation\\b",
+      "\\bDetermine which is which\\b",
+      "\\bFind the p-value\\b",
+      "\\bnull hypothesis\\b",
+      "\\bWorking backwards\\b",
+      "\\bSleep habits\\b",
+      "\\bStatistical summaries\\b",
+      "\\bpoint estimate\\b",
+      "\\bhypothesis test\\b",
+      "\\bHeights of adults\\b",
+      "\\bResearchers studying\\b",
+      "\\bWhat is the point estimate\\b",
+      "\\bExplain your reasoning\\b",
+      "\\bFind the mean\\b",
+      "\\bPlay the piano\\b",
+      "\\bConstruct a 95\\b",
+      "\\bAuto exhaust\\b",
+      "\\bCar insurance savings\\b",
+      "\\bSAT scores\\b",
+      "\\bHow large (?:of )?a sample\\b",
+      "\\bcolumn with two tails\\b",
+      "\\bdo not reject\\b",
+      "\\bThe mean is the midpoint\\b",
+      "\\bNew Yorkers sleep\\b",
+      "\\bThe sample is random\\b",
+      "\\bThe test statistic is\\b",
+      "\\bthe confidence interval is\\b",
+      "\\bIf the sample is large\\b",
+      "\\bround up for sample size\\b"
+    ],
+    "residual_english_pattern_matches": [],
+    "unchanged_source_four_word_phrases": [],
+    "indonesian_terminology_anchors": [
+      "Tentukan nilai kritis",
+      "Distribusi $t$",
+      "Tentukan nilai-p",
+      "tingkat kepercayaan",
+      "simpangan baku",
+      "Kebiasaan tidur warga New York",
+      "Tinggi badan orang dewasa",
+      "estimasi titik",
+      "uji hipotesis",
+      "gas buang kendaraan",
+      "paparan timbal",
+      "margin galat",
+      "jangan tolak $H_0$",
+      "derajat kebebasan"
+    ],
+    "approved_repairs": [
+      {
+        "source_lines": "30",
+        "source_issue": "agreement errors and reversed center-peak ordering in alt text",
+        "target_evidence": "\\FigureFullPath[Tiga distribusi ditampilkan; semuanya simetris, berbentuk lonceng, dan berpusat di nol. Kurva pertama digambar dengan garis utuh dan memiliki puncak tengah paling tinggi dan tajam; ekornya paling tipis dan tampak mendekati nol sekitar -3 dan 3. Kurva kedua digambar dengan garis putus-putus dan memiliki tinggi puncak serta ketebalan ekor di antara kedua kurva lain; ekornya mendekati nol sekitar -4 dan 4. Kurva ketiga digambar dengan garis titik-titik dan memiliki puncak tengah paling rendah dan lebar; ekornya paling tebal dan masih tampak melampaui -4 dan 4.]{0.4}{ch_inference_for_means/figures/eoce/t_distribution/t_distribution}"
+      },
+      {
+        "source_lines": "92-96",
+        "source_issue": "unbalanced source quotation marks",
+        "target_evidence": "``kota yang tidak pernah tidur''."
+      },
+      {
+        "source_lines": "139-147",
+        "source_issue": "three-column declaration for two-cell rows",
+        "target_evidence": "\\begin{tabular}{l|r}"
+      },
+      {
+        "source_lines": "189-191",
+        "source_issue": "critical-value notation switches from \\star to plain *",
+        "target_evidence": "\\eoce{\\qt{$t^\\star$ versus $z^\\star$\\label{critical_t_vs_z}} Untuk tingkat kepercayaan | tertentu, $t^{\\star}_{df}$ lebih besar daripada $z^{\\star}$. Jelaskan bagaimana nilai $t^{\\star}_{df}$ | yang sedikit lebih besar daripada $z^{\\star}$ memengaruhi lebar interval kepercayaan."
+      }
+    ],
+    "unrecorded_semantic_repairs_applied": false
+  },
+  "next_integration_action": "Admit these exact staged exercise/public-answer/O001 bytes with the completed B026 main-section translation and localized assets; do not add restricted solutions.",
+  "scope_guards": {
+    "canonical_source_mutated": false,
+    "live_backend_mutated": false,
+    "control_or_output_mutated": false,
+    "release_or_publication_mutated": false,
+    "git_used": false,
+    "network_used": false,
+    "credentials_accessed": false,
+    "upstream_contact": false
+  },
+  "qa_script": {
+    "path": "scripts/qa_b026_exercises_answers.py",
+    "bytes": 28440,
+    "sha256": "df2cb9339f9048f5c6ea254b8da757d29a3f2043df3d87b4935ec87ce6c35384"
+  }
+}

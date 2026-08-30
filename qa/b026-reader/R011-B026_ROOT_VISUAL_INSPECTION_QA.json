@@ -1,0 +1,330 @@
+{
+  "$schema": "interlanguage.r011-b026-root-visual-inspection-qa/v1",
+  "all_pages_visually_inspected": true,
+  "boundary_id": "R011-B026",
+  "complete_corpus": false,
+  "contact_sheet_count": 14,
+  "contact_sheet_coverage": [
+    1,
+    273
+  ],
+  "credentials_accessed": false,
+  "defect_count": 0,
+  "defects": [],
+  "findings": {
+    "all_eight_localized_or_corrected_charts_legible": true,
+    "all_pages_covered_exactly_once": true,
+    "chapter_7_section_7_1_legible": true,
+    "dolphin_photo_and_attribution_legible": true,
+    "exercises_1_14_legible": true,
+    "public_answers_1_13_odd_legible": true,
+    "untranslated_tail_absent": true,
+    "zero_defects_confirmed": true
+  },
+  "git_used": false,
+  "inspected_contact_sheets": [
+    {
+      "bytes": 671914,
+      "disposition": "DIRECTLY_INSPECTED_ZERO_DEFECTS",
+      "page_range": [
+        1,
+        20
+      ],
+      "path": "qa/b026-reader/render-v1/contacts/contact-001-020.png",
+      "sha256": "564d29522d896ce995a2f95958ee0ca4da96f9a73838efaaef07afe608e2ec21"
+    },
+    {
+      "bytes": 864433,
+      "disposition": "DIRECTLY_INSPECTED_ZERO_DEFECTS",
+      "page_range": [
+        21,
+        40
+      ],
+      "path": "qa/b026-reader/render-v1/contacts/contact-021-040.png",
+      "sha256": "43abae17b5243f3714c664424c925f8095045a158071bdf9dbec924ed864a318"
+    },
+    {
+      "bytes": 717881,
+      "disposition": "DIRECTLY_INSPECTED_ZERO_DEFECTS",
+      "page_range": [
+        41,
+        60
+      ],
+      "path": "qa/b026-reader/render-v1/contacts/contact-041-060.png",
+      "sha256": "3948a0164bc5e0c09735209160ab94fb146b9048fd3dfc451852f25f51ad961a"
+    },
+    {
+      "bytes": 720433,
+      "disposition": "DIRECTLY_INSPECTED_ZERO_DEFECTS",
+      "page_range": [
+        61,
+        80
+      ],
+      "path": "qa/b026-reader/render-v1/contacts/contact-061-080.png",
+      "sha256": "36cd67f1a430e919dba6239adbfb2e641f4c6fe32e12087fc22686c33c3f44f0"
+    },
+    {
+      "bytes": 632115,
+      "disposition": "DIRECTLY_INSPECTED_ZERO_DEFECTS",
+      "page_range": [
+        81,
+        100
+      ],
+      "path": "qa/b026-reader/render-v1/contacts/contact-081-100.png",
+      "sha256": "c481e656fc19d6d2e0dd2182b7668f4f3a4b5fa92d452a2f24018012b1297e8b"
+    },
+    {
+      "bytes": 710741,
+      "disposition": "DIRECTLY_INSPECTED_ZERO_DEFECTS",
+      "page_range": [
+        101,
+        120
+      ],
+      "path": "qa/b026-reader/render-v1/contacts/contact-101-120.png",
+      "sha256": "2949a3168a62510e1c267470244e0bc03c495e2b343a8699132c4a7add0e05e5"
+    },
+    {
+      "bytes": 629423,
+      "disposition": "DIRECTLY_INSPECTED_ZERO_DEFECTS",
+      "page_range": [
+        121,
+        140
+      ],
+      "path": "qa/b026-reader/render-v1/contacts/contact-121-140.png",
+      "sha256": "7d6d5eea93e8c4cedc1bbdd3632553dfbd662b56ecc2af2d690432fae2edbbca"
+    },
+    {
+      "bytes": 703137,
+      "disposition": "DIRECTLY_INSPECTED_ZERO_DEFECTS",
+      "page_range": [
+        141,
+        160
+      ],
+      "path": "qa/b026-reader/render-v1/contacts/contact-141-160.png",
+      "sha256": "24877f0911c1a67c7269f42a08d00fa1adaa22696d56252a3d6b0b9aa59309ff"
+    },
+    {
+      "bytes": 635618,
+      "disposition": "DIRECTLY_INSPECTED_ZERO_DEFECTS",
+      "page_range": [
+        161,
+        180
+      ],
+      "path": "qa/b026-reader/render-v1/contacts/contact-161-180.png",
+      "sha256": "fb9a070fa3a40586a67db1b91a8345597c60efbc14f749b797e9726359f8a74a"
+    },
+    {
+      "bytes": 798877,
+      "disposition": "DIRECTLY_INSPECTED_ZERO_DEFECTS",
+      "page_range": [
+        181,
+        200
+      ],
+      "path": "qa/b026-reader/render-v1/contacts/contact-181-200.png",
+      "sha256": "02e6609d2383797adca08faf469c21c857ff3b7dd384b2f5280ba2e7e27154cb"
+    },
+    {
+      "bytes": 759678,
+      "disposition": "DIRECTLY_INSPECTED_ZERO_DEFECTS",
+      "page_range": [
+        201,
+        220
+      ],
+      "path": "qa/b026-reader/render-v1/contacts/contact-201-220.png",
+      "sha256": "0d21ea31eb2158e9e93779b88086e2f1dab75aa66d9a7c41ebf00307370b69b8"
+    },
+    {
+      "bytes": 814528,
+      "disposition": "DIRECTLY_INSPECTED_ZERO_DEFECTS",
+      "page_range": [
+        221,
+        240
+      ],
+      "path": "qa/b026-reader/render-v1/contacts/contact-221-240.png",
+      "sha256": "ef438ee21876fb7e6e72805715759363a8f27956833e0e900974e7fea13107a9"
+    },
+    {
+      "bytes": 657685,
+      "disposition": "DIRECTLY_INSPECTED_ZERO_DEFECTS",
+      "page_range": [
+        241,
+        260
+      ],
+      "path": "qa/b026-reader/render-v1/contacts/contact-241-260.png",
+      "sha256": "0d270fe59dff7b994fa73ec2a62308dd164d14e50dbd5a688ccb84cd3a9c9456"
+    },
+    {
+      "bytes": 683140,
+      "disposition": "DIRECTLY_INSPECTED_ZERO_DEFECTS",
+      "page_range": [
+        261,
+        273
+      ],
+      "path": "qa/b026-reader/render-v1/contacts/contact-261-273.png",
+      "sha256": "f0a4ba2a1ea75ab0db0f6b24ff9d69fda819df93bfd7b09386cab30da11053ce"
+    }
+  ],
+  "inspected_individual_page_rasters": [
+    {
+      "bytes": 42870,
+      "disposition": "DIRECTLY_INSPECTED_AT_ORIGINAL_DETAIL_ZERO_DEFECTS",
+      "page": 1,
+      "path": "qa/b026-reader/render-v1/pages/page-001.png",
+      "sha256": "6c9aae11645c37cb9f2e02bbb2821a79bfddaa5c3474f4be0ec1003d1208b799"
+    },
+    {
+      "bytes": 109154,
+      "disposition": "DIRECTLY_INSPECTED_AT_ORIGINAL_DETAIL_ZERO_DEFECTS",
+      "page": 2,
+      "path": "qa/b026-reader/render-v1/pages/page-002.png",
+      "sha256": "9940359e3e66c8c7734b71967f8fcd34bb928894a7cf8b031dab5e9d7cc71601"
+    },
+    {
+      "bytes": 139019,
+      "disposition": "DIRECTLY_INSPECTED_AT_ORIGINAL_DETAIL_ZERO_DEFECTS",
+      "page": 3,
+      "path": "qa/b026-reader/render-v1/pages/page-003.png",
+      "sha256": "fdc0c3db5a60419c8db3c24e820fa359c93952e244ec56dffc45626866336389"
+    },
+    {
+      "bytes": 85017,
+      "disposition": "DIRECTLY_INSPECTED_AT_ORIGINAL_DETAIL_ZERO_DEFECTS",
+      "page": 6,
+      "path": "qa/b026-reader/render-v1/pages/page-006.png",
+      "sha256": "326421d8304eebc4009caa527b137976e44f369ccab58ac2032a0b76de3a8a01"
+    },
+    {
+      "bytes": 162276,
+      "disposition": "DIRECTLY_INSPECTED_AT_ORIGINAL_DETAIL_ZERO_DEFECTS",
+      "page": 130,
+      "path": "qa/b026-reader/render-v1/pages/page-130.png",
+      "sha256": "a826d62d4c233744039a00839874fb47e0410b07139971b14d1c0183cd013ab0"
+    },
+    {
+      "bytes": 284426,
+      "disposition": "DIRECTLY_INSPECTED_AT_ORIGINAL_DETAIL_ZERO_DEFECTS",
+      "page": 251,
+      "path": "qa/b026-reader/render-v1/pages/page-251.png",
+      "sha256": "17d79c8b76e54503f4724956a725318af4cc7ee4ba1ebfcc51060b160a6e5506"
+    },
+    {
+      "bytes": 272876,
+      "disposition": "DIRECTLY_INSPECTED_AT_ORIGINAL_DETAIL_ZERO_DEFECTS",
+      "page": 252,
+      "path": "qa/b026-reader/render-v1/pages/page-252.png",
+      "sha256": "797fd08c8cee3c3e7e0a10fb1df9a75a32400149011652d0c44b672e600b1bd9"
+    },
+    {
+      "bytes": 141210,
+      "disposition": "DIRECTLY_INSPECTED_AT_ORIGINAL_DETAIL_ZERO_DEFECTS",
+      "page": 253,
+      "path": "qa/b026-reader/render-v1/pages/page-253.png",
+      "sha256": "567b81f3088bc771362f9cb70a26bf03da38a6a352f162cc0694ed97de456394"
+    },
+    {
+      "bytes": 479067,
+      "disposition": "DIRECTLY_INSPECTED_AT_ORIGINAL_DETAIL_ZERO_DEFECTS",
+      "page": 255,
+      "path": "qa/b026-reader/render-v1/pages/page-255.png",
+      "sha256": "9140147ecc89e3758db6f20e8fd71702d313ae629435fd9ba768d2c91089e122"
+    },
+    {
+      "bytes": 254680,
+      "disposition": "DIRECTLY_INSPECTED_AT_ORIGINAL_DETAIL_ZERO_DEFECTS",
+      "page": 257,
+      "path": "qa/b026-reader/render-v1/pages/page-257.png",
+      "sha256": "4d6f2dbb7b8deb6ba14ac3f5f9428febd81ec9ca8e77cfb403cffe08108b0a71"
+    },
+    {
+      "bytes": 180140,
+      "disposition": "DIRECTLY_INSPECTED_AT_ORIGINAL_DETAIL_ZERO_DEFECTS",
+      "page": 259,
+      "path": "qa/b026-reader/render-v1/pages/page-259.png",
+      "sha256": "315f59d07dd1082e64d22663884f6a926f739faacb9353bab75ac6a55c5656eb"
+    },
+    {
+      "bytes": 194547,
+      "disposition": "DIRECTLY_INSPECTED_AT_ORIGINAL_DETAIL_ZERO_DEFECTS",
+      "page": 260,
+      "path": "qa/b026-reader/render-v1/pages/page-260.png",
+      "sha256": "3b9607ef15a619a8b4e0321b6a1cad65ca8863243cb4514975fe208e47497640"
+    },
+    {
+      "bytes": 231501,
+      "disposition": "DIRECTLY_INSPECTED_AT_ORIGINAL_DETAIL_ZERO_DEFECTS",
+      "page": 261,
+      "path": "qa/b026-reader/render-v1/pages/page-261.png",
+      "sha256": "23cbc51307109545c86fec79698027db4050e4d4a5c8d0300e563bc6c6a35bfa"
+    },
+    {
+      "bytes": 418237,
+      "disposition": "DIRECTLY_INSPECTED_AT_ORIGINAL_DETAIL_ZERO_DEFECTS",
+      "page": 272,
+      "path": "qa/b026-reader/render-v1/pages/page-272.png",
+      "sha256": "001bbf8b38d3a22167d9a9d0c4fd17a38f919a433d39b4d60cc04f9d03953742"
+    },
+    {
+      "bytes": 389507,
+      "disposition": "DIRECTLY_INSPECTED_AT_ORIGINAL_DETAIL_ZERO_DEFECTS",
+      "page": 273,
+      "path": "qa/b026-reader/render-v1/pages/page-273.png",
+      "sha256": "aed5a55a59c5a3f5c67efe419a64434bb11f129150924383eaa08390fad58e5a"
+    }
+  ],
+  "inspection_method": {
+    "checks": [
+      "no clipping",
+      "no overlap",
+      "no blank or black page",
+      "no off-center or overflow content",
+      "no unreadable figure",
+      "no broken table, formula, header, footnote, exercise, or answer",
+      "localized chart labels legible",
+      "Chapter 7 Section 7.1 terminates cleanly before appendix answers"
+    ],
+    "direct_visual_inspection_by_codex_agent": true,
+    "every_ordered_contact_sheet_inspected": true,
+    "human_inspector_claimed": false,
+    "representative_pages_inspected_at_original_detail": [
+      1,
+      2,
+      3,
+      6,
+      130,
+      251,
+      252,
+      253,
+      255,
+      257,
+      259,
+      260,
+      261,
+      272,
+      273
+    ]
+  },
+  "inspection_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "learner_pdf": {
+    "bytes": 12782877,
+    "path": "scratch/b026-boundary-clean-reader/final/main.pdf",
+    "sha256": "0f61722fe01afe18552e949dfd4d3addba450c6e0337767ea2448d982012f0d6"
+  },
+  "network_used": false,
+  "page_count": 273,
+  "page_count_is_artifact_extent_not_translation_progress": true,
+  "publication_performed": false,
+  "render_inventory": {
+    "contact_sheets": {
+      "bytes": 9999603,
+      "files": 14,
+      "inventory_sha256": "16224f65f04fd094f6acd65237a39a85b3792ca5950f50c696afe65018742ac9"
+    },
+    "page_pngs": {
+      "bytes": 63655119,
+      "files": 273,
+      "inventory_sha256": "64e318c3ca0314a0455da13bd351fb8f34eab19a3acaaae4371a84722fb3d6b2"
+    }
+  },
+  "status": "PASS_ALL_273_PAGES_VISUALLY_INSPECTED_IN_ORDER_ZERO_DEFECTS",
+  "upstream_contact": false
+}

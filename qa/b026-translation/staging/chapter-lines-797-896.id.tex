@@ -1,0 +1,100 @@
+
+\begin{exercisewrap}
+\begin{nexercise} \label{croakerWhiteFishPacificExerConditions}
+\index{data!ikan croaker putih dan merkuri|(}
+Laman FDA menyediakan sejumlah data tentang kandungan merkuri pada ikan.
+Berdasarkan sampel 15 ikan croaker putih (Pasifik),
+rata-rata sampel dan simpangan baku masing-masing dihitung sebesar 0.287
+dan 0.069 ppm (bagian per sejuta).
+Ke-15 observasi tersebut berkisar dari 0.18 hingga 0.41 ppm.
+Kita akan menganggap observasi-observasi ini saling independen.
+Berdasarkan statistik ringkasan data,
+adakah alasan untuk meragukan syarat normalitas
+bagi observasi individual?\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Ukuran sampel kurang dari 30,
+  jadi kita memeriksa pencilan yang jelas:
+  karena semua observasi berada dalam 2 simpangan baku
+  dari rata-rata, tidak ada pencilan yang jelas semacam itu.}
+
+\begin{examplewrap}
+\begin{nexample}{Estimasikan galat baku bagi
+    $\bar{x} = 0.287$ ppm dengan menggunakan ringkasan data dalam
+    Latihan Terarah~\ref{croakerWhiteFishPacificExerConditions}.
+    Jika kita hendak menggunakan distribusi $t$ untuk menyusun
+    interval kepercayaan 90\% bagi rata-rata sebenarnya dari
+    kandungan merkuri, tentukan derajat kebebasan
+    dan $t^{\star}_{df}$.}
+  \label{croakerWhiteFishPacificExerSEDFTStar}%
+  Galat baku: $SE = \frac{0.069}{\sqrt{15}} = 0.0178$.
+
+  Derajat kebebasan: $df = n - 1 = 14$.
+
+  Karena tujuannya adalah interval kepercayaan 90\%,
+  kita memilih $t_{14}^{\star}$ sehingga luas kedua ekor
+  adalah 0.1:
+  $t^{\star}_{14} = 1.76$.
+\end{nexample}
+\end{examplewrap}
+
+\begin{onebox}{Interval kepercayaan bagi satu rata-rata}
+  Setelah menentukan bahwa interval kepercayaan bagi satu rata-rata
+  akan berguna dalam suatu penerapan,
+  terdapat empat langkah untuk menyusun interval tersebut:
+  \begin{description}
+  \item[Persiapkan.]
+      Tentukan $\bar{x}$, $s$, $n$, dan pilih
+      tingkat kepercayaan yang ingin Anda gunakan.
+  \item[Periksa.]
+      Verifikasi syarat-syarat untuk memastikan bahwa $\bar{x}$
+      mendekati normal.
+  \item[Hitung.]
+      Jika syarat-syarat terpenuhi, hitung $SE$,
+      cari $t_{df}^{\star}$, dan susun intervalnya.
+  \item[Simpulkan.]
+      Tafsirkan interval kepercayaan dalam konteks
+      masalah tersebut.
+  \end{description}
+\end{onebox}
+
+\begin{exercisewrap}
+\begin{nexercise}
+\label{croakerWhiteFish90ci}
+Dengan menggunakan informasi dan hasil Latihan Terarah~\ref{croakerWhiteFishPacificExerConditions} serta Contoh~\ref{croakerWhiteFishPacificExerSEDFTStar}, hitung interval kepercayaan 90\% bagi rata-rata kandungan merkuri pada ikan croaker putih (Pasifik).\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{
+  $\bar{x} \ \pm\ t^{\star}_{14} \times SE
+      \ \to\  0.287 \ \pm\  1.76 \times 0.0178
+      \ \to\ (0.256, 0.318)$.
+  Kita yakin 90\% bahwa rata-rata kandungan merkuri
+  pada ikan croaker putih (Pasifik) berada antara 0.256 dan 0.318 ppm.}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Interval kepercayaan 90\% dari
+Latihan Terarah~\ref{croakerWhiteFish90ci}
+adalah 0.256 ppm hingga 0.318 ppm.
+Dapatkah kita mengatakan bahwa 90\% dari ikan croaker putih (Pasifik)
+memiliki kadar merkuri antara 0.256 dan 0.318 ppm?\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{
+  Tidak. Interval kepercayaan hanya memberikan rentang
+  nilai-nilai yang masuk akal bagi suatu parameter populasi,
+  dalam hal ini rata-rata populasi.
+  Interval itu tidak menjelaskan apa yang mungkin kita amati
+  pada observasi individual.}
+
+\index{data!ikan croaker putih dan merkuri|)}
+
+%Now that we've whet \Comment{spelling?} your palette with confidence
+%intervals for a mean, let's speed on through to
+%hypothesis tests for the mean.
+
+
+\subsection[Uji $t$ satu sampel]
+    {Uji $\pmb{t}$ satu sampel}
+\label{oneSampleTTests}
+ 

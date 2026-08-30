@@ -459,6 +459,29 @@ Kita tertarik pada probabilitas memperoleh \resp{1}, \resp{4}, atau \resp{5}. (a
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+085df95e-cb65-5514-bf9f-6ee3896eb97c,cf88d434-7e04-5af1-8eb3-fbd20777b8b9,1,,,ch_inference_for_means/TeX/one-sample_means_with_the_t-distribution.tex,196,217,e77bd39fa0b1258f6c26069ea7d26a358fcbb8438a014bc114426238167a4357,id-ID,,,,,visually_checked,"\eoce{\qt{Bermain piano\label{play_piano_2_sided}}
+Georgianna menyatakan bahwa di sebuah kota kecil
+yang terkenal karena sekolah musiknya, rata-rata anak mengikuti les piano kurang dari 5 tahun.
+Kita memiliki sampel acak berisi 20 anak dari kota tersebut, dengan
+rata-rata lama les piano 4.6 tahun dan simpangan baku 2.2 tahun.
+\begin{parts}
+\item
+    Evaluasi pernyataan Georgianna (atau kemungkinan bahwa kebalikannya benar)
+    menggunakan uji hipotesis.
+\item
+    Susun interval kepercayaan 95\% untuk banyaknya tahun
+    siswa di kota ini mengikuti les piano, lalu tafsirkan interval itu
+    dalam konteks data.
+\item
+    Apakah hasil uji hipotesis dan interval
+    kepercayaan Anda konsisten?
+    Jelaskan alasan Anda.
+\end{parts}
+}{}
+
+% 12
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""ddecb7b2-412c-5926-ae2e-c224b431e638""]"
 08630e5f-8196-5e38-8190-84cb9cdce371,a067a93b-4d57-52cd-aed6-d6a6dfc3d061,35,guided_exercise,en,ch_distributions/TeX/ch_distributions.tex,613,619,de8e3e690d688eedcb14258e0351d7cba05103625eecd312beae85c9c211d6be,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,600,606,c55eaf937ad36f9915f8f3fbf2d102db95bc781b363220c2ba23fa3beb1c4b85,language_reviewed,"\begin{exercisewrap}
 \begin{nexercise}
 Skor SAT mengikuti $N(\satmean{}, \satsd{})$.\footnotemark{} \\
@@ -757,6 +780,238 @@ desain baru itu, 64 orang mendaftar.
 }{}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""0af7d341-14fc-5fd0-a88a-6d753a22639e""]"
+0e82b6c4-97a5-5770-a57b-ea1d20d84e64,2865666e-a2a4-5f6d-9af5-71c46a666781,1,,,ch_inference_for_means/TeX/ch_inference_for_means.tex,1,231,4610634923d5ddd9e28f6ac8dfe3e9f2517e996d5072886547b19ce1c7d6d54e,id-ID,,,,,visually_checked,"\begin{chapterpage}{Inferensi untuk data numerik}
+  \chaptertitle{Inferensi untuk data numerik}
+  \label{inferenceForNumericalData}
+  \label{ch_inference_for_means}
+  \chaptersection{oneSampleMeansWithTDistribution}
+  \chaptersection{pairedData}
+  \chaptersection{differenceOfTwoMeans}
+  \chaptersection{PowerForDifferenceOfTwoMeans}
+  \chaptersection{anovaAndRegrWithCategoricalVariables}
+\end{chapterpage}
+\renewcommand{\chapterfolder}{ch_inference_for_means}
+
+
+\chapterintro{Bab~\ref{ch_foundations_for_inf}
+  memperkenalkan kerangka inferensi statistik yang didasarkan
+  pada interval kepercayaan dan hipotesis menggunakan
+  distribusi normal untuk proporsi sampel.
+  Dalam bab ini, kita akan menjumpai beberapa estimasi titik baru
+  dan dua distribusi baru.
+  Dalam setiap kasus, gagasan inferensinya tetap sama:
+  tentukan estimasi titik atau statistik uji yang berguna,
+  identifikasi distribusi yang sesuai untuk estimasi titik
+  atau statistik uji tersebut, lalu
+  terapkan gagasan inferensi.}
+
+
+
+%__________________
+\section[Rata-rata satu sampel dengan distribusi $t$]
+    {Rata-rata satu sampel dengan distribusi
+        $\pmb{\MakeLowercase{t}}$}
+\label{oneSampleMeansWithTDistribution}
+
+\noindent%
+Sebagaimana kita dapat memodelkan perilaku
+proporsi sampel $\hat{p}$ menggunakan distribusi normal,
+rata-rata sampel $\bar{x}$ juga dapat dimodelkan menggunakan
+distribusi normal ketika syarat-syarat tertentu terpenuhi.
+\index{estimasi titik!rata-rata tunggal}
+Namun, kita akan segera mempelajari bahwa distribusi baru,
+yang disebut distribusi $t$,
+cenderung lebih berguna ketika bekerja dengan rata-rata sampel.
+Pertama-tama kita akan mempelajari distribusi baru ini,
+kemudian menggunakannya untuk menyusun interval kepercayaan
+dan melakukan uji hipotesis untuk rata-rata.
+
+
+\subsection[Distribusi $\bar{x}$]
+    {Distribusi sampling dari $\pmb{\bar{x}}$}
+
+Rata-rata sampel cenderung mengikuti
+distribusi normal yang berpusat pada rata-rata populasi,~$\mu$,
+ketika syarat-syarat tertentu terpenuhi.
+Selain itu, kita dapat menghitung galat baku untuk rata-rata
+sampel menggunakan simpangan baku populasi $\sigma$
+dan ukuran sampel $n$.
+
+\begin{onebox}{Teorema Limit Pusat untuk rata-rata sampel}
+  Ketika kita mengumpulkan sampel cukup besar yang terdiri atas
+  $n$~observasi yang saling independen dari populasi dengan
+  rata-rata $\mu$ dan simpangan baku $\sigma$,
+  distribusi sampling $\bar{x}$ akan mendekati
+  distribusi normal dengan
+  \begin{align*}
+  &\text{Rata-rata}=\mu
+  &&\text{Galat Baku }(SE) = \frac{\sigma}{\sqrt{n}}
+  \end{align*}
+\end{onebox}
+
+\noindent%
+Sebelum mendalami interval kepercayaan dan uji
+hipotesis menggunakan $\bar{x}$, pertama-tama kita perlu membahas dua topik:
+\begin{itemize}
+\item
+    Ketika kita memodelkan $\hat{p}$ menggunakan distribusi normal,
+    syarat-syarat tertentu harus terpenuhi.
+    Syarat-syarat untuk bekerja dengan $\bar{x}$
+    sedikit lebih rumit, dan kita akan menggunakan
+    Bagian~\ref{x_bar_conditions} untuk membahas
+    cara memeriksa syarat-syarat inferensi.
+\item
+    Galat baku bergantung pada simpangan
+    baku populasi, $\sigma$.
+    Namun, kita jarang mengetahui $\sigma$, sehingga
+    kita harus mengestimasinya.
+    Karena estimasi ini sendiri tidak sempurna,
+    kita menggunakan distribusi baru yang disebut
+    distribusi $t$\index{distribusi t@distribusi $t$}
+    untuk mengatasi masalah ini, yang kita bahas dalam
+%    While we can use the plug-in principle,
+%    using the sample standard deviation $s$ in place of $\sigma$,
+%    this is not quite enough to resolve the issue entirely.
+%    and .
+%    We'll cover this topic in
+    Bagian~\ref{introducingTheTDistribution}.
+\end{itemize}
+
+
+\subsection[Mengevaluasi dua syarat yang diperlukan untuk
+    memodelkan $\bar{x}$]
+  {Mengevaluasi dua syarat yang diperlukan untuk
+      memodelkan $\pmb{\bar{x}}$}
+\label{x_bar_conditions}
+
+\noindent%
+Dua syarat diperlukan untuk menerapkan
+Teorema Limit Pusat\index{Teorema Limit Pusat}
+pada rata-rata sampel~$\bar{x}$:
+\begin{description}
+\item[Independensi.]
+    Observasi sampel harus saling independen.
+    Cara paling umum untuk memenuhi syarat ini adalah
+    mengambil sampel acak sederhana dari
+    populasi.
+    Jika data berasal dari proses acak,
+    yang serupa dengan pelemparan sebuah dadu,
+    hal ini juga akan memenuhi syarat independensi.
+\item[Normalitas.]
+    Ketika sampelnya kecil,
+    kita juga mensyaratkan bahwa observasi sampel
+    berasal dari populasi yang berdistribusi normal.
+    Syarat ini semakin dapat dilonggarkan
+    seiring bertambahnya ukuran sampel.
+    Syarat ini memang bersifat samar,
+    sehingga sulit dievaluasi;
+    karena itu, selanjutnya kita memperkenalkan dua pedoman praktis
+    agar pemeriksaan syarat ini menjadi lebih mudah.
+\end{description}
+%%Before we get to the sample size consideration, let's
+%%consider a special case of the normal distribution
+%%where any sample size is sufficient.
+%
+%%There is also a special case of the Central Limit Theorem
+%%for when the data come from a nearly normal distribution.
+%%In this case the sample mean will be nearly normal
+%%regardless of sample size.
+%
+%\begin{onebox}{Special case of the Central Limit Theorem
+%    for normally distributed data}
+%  The sampling distribution of $\bar{x}$ is nearly normal when
+%  the sample observations are independent and come from a nearly
+%  normal distribution.
+%  This is true for any sample size.
+%\end{onebox}
+%
+%%For population distributions that are not normal,
+%%the sample mean $\bar{x}$ will still look normal if the sample
+%%size is large enough.
+%%To check what is \emph{large enough}, we ask two questions:
+%%\begin{itemize}
+%%\item
+%%    Is the sample show evident skew or outliers?
+%%    If so, then if t
+%%\end{itemize}
+%
+%In practice, the population never exactly follows
+%a normal distribution,
+%and the more ``non-normal'' a population
+%distribution, the larger the required sample size required for
+%$\bar{x}$ to be reasonably modeled using a normal distribution.
+%The rough rule of thumb is, if you don't see any clear outliers
+%and we don't have reason to believe particularly extreme outliers
+%are present in population, then this condition is satisfied.
+
+\begin{onebox}{Pedoman praktis:
+    cara melakukan pemeriksaan normalitas}
+  Tidak ada cara sempurna untuk memeriksa syarat normalitas,
+  jadi sebagai gantinya kita menggunakan dua pedoman praktis: %,
+%  one for small samples ($n < 30$)
+%  and another for large samples ($n \geq 30$):
+  \begin{description}
+  \setlength{\itemsep}{0mm}
+  \item[$\mathbf{n < 30}$:]
+      Jika ukuran sampel $n$ kurang dari 30
+      dan tidak terdapat pencilan yang jelas dalam data,
+      biasanya kita mengasumsikan data berasal dari
+      distribusi yang mendekati normal agar
+      syarat tersebut terpenuhi.
+  \item[$\mathbf{n \geq 30}$:]
+      Jika ukuran sampel $n$ setidaknya 30
+      dan tidak terdapat pencilan yang \emph{sangat ekstrem},
+      biasanya kita mengasumsikan distribusi sampling
+      $\bar{x}$ mendekati normal, sekalipun distribusi
+      observasi individual yang mendasarinya tidak normal.
+  \end{description}
+\end{onebox}
+
+Dalam mata kuliah statistika pengantar ini, Anda tidak diharapkan
+mengembangkan penilaian yang sempurna mengenai syarat normalitas.
+Namun, Anda diharapkan mampu menangani
+kasus-kasus yang jelas berdasarkan pedoman praktis tersebut.\footnote{Pedoman
+  yang lebih cermat akan mempertimbangkan pelonggaran lebih lanjut
+  atas pemeriksaan \emph{pencilan sangat ekstrem} ketika
+  ukuran sampel sangat besar.
+  Namun, pembahasan lebih lanjut akan kita sisakan untuk mata kuliah berikutnya.}
+
+\begin{examplewrap}
+\begin{nexample}{Perhatikan dua grafik berikut
+    yang berasal dari sampel acak sederhana dari
+    populasi yang berbeda.
+    Ukuran sampelnya adalah $n_1 = 15$ dan $n_2 = 50$.
+    \begin{center}
+    \Figure[Dua histogram ditampilkan, satu untuk ""Observasi Sampel 1"" dan satu lagi untuk ""Observasi Sampel 2"". Histogram Observasi Sampel 1 memuat nilai dari 0 hingga 7 dengan lebar bin 1, sehingga terdapat 7 bin dengan frekuensi 2, 1, 4, 3, 2, 0, dan 3. Histogram Observasi Sampel 2 memuat nilai dari 0 hingga 22, dengan lebar bin 1. Sebagian besar data berada dekat nol, dengan separuh observasi berada dalam bin dari 0 hingga 1. Hanya ada satu bin tak nol di atas 5; tingginya tampak 1, yaitu bin dari 21 hingga 22.]{0.85}{outliers_and_ss_condition}
+    \end{center}
+    Apakah syarat independensi dan normalitas terpenuhi
+    dalam setiap kasus?}
+  \label{outliers_and_ss_condition_ex}%
+  Setiap sampel merupakan sampel acak sederhana dari
+  populasinya masing-masing, sehingga syarat independensi
+  terpenuhi.
+  Selanjutnya, mari kita periksa syarat normalitas untuk
+  setiap sampel menggunakan pedoman praktis.
+  
+  Sampel pertama memiliki kurang dari 30 observasi,
+  sehingga kita memperhatikan setiap pencilan yang jelas.
+  Tidak ada pencilan semacam itu; meskipun terdapat celah kecil dalam
+  histogram antara 5 dan~6, celah ini kecil dan
+  20\% observasi dalam sampel kecil ini
+  terwakili oleh batang paling kanan pada histogram,
+  sehingga observasi itu nyaris tidak dapat disebut pencilan yang jelas.
+  Karena tidak ada pencilan yang jelas, syarat normalitas
+  secara wajar~terpenuhi.
+
+  Sampel kedua berukuran lebih besar dari 30 dan
+  mencakup pencilan yang tampaknya kira-kira 5 kali
+  lebih jauh dari pusat distribusi dibandingkan
+  observasi terjauh berikutnya.
+  Ini merupakan contoh pencilan yang sangat ekstrem,
+  sehingga syarat normalitas tidak akan terpenuhi.
+\end{nexample}
+\end{examplewrap}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""ddecb7b2-412c-5926-ae2e-c224b431e638""]"
 0eab55c9-522a-5000-bd4a-a075c7f50ec5,40116ec4-9cb8-5f8f-95bb-1f397c042240,1,guided_exercise,en,ch_probability/TeX/ch_probability.tex,342,346,c4bc32c3e8cbee36fdf56089969a23f40d2a22ee69f848c97777453b48412be7,id-ID,repo/ch_probability/TeX/ch_probability.tex,342,346,d86cded09158ec5cbaccbc4611146059a630e00be5761f8fb6bf972b0afe698c,language_reviewed,"\begin{exercisewrap}
 \begin{nexercise}
 (a) Jika $A$ dan $B$ saling lepas, jelaskan mengapa hal ini berarti $P(A$ dan $B) = 0$. (b) Dengan menggunakan bagian (a), verifikasi bahwa Aturan Penjumlahan Umum menyederhana menjadi Aturan Penjumlahan untuk peristiwa saling lepas jika $A$ dan $B$ saling lepas.\footnotemark
@@ -1108,6 +1363,27 @@ di kalangan anjing maupun kucing.
 
 % 36
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""bad63bfb-9cf6-5f60-bbe6-9e93ae431ce0"",""67382a1e-7768-5d98-9912-2c3a848ce7a1""]"
+1734fe83-badc-5df6-b9fc-e3ed26ccaf74,b5367685-f236-5522-ad75-bba005cb4259,1,,,extraTeX/eoceSolutions/eoceSolutions.tex,1658,1677,a4e030c461075fc7211fc575eb4a9f06e3ea975d435bc7f76f3f00de869ced4c,id-ID,,,,,visually_checked,"% 7
+
+\eocesol{(a)~$H_0$: $\mu = 8$ (Warga New York tidur rata-rata 8 jam per malam.)
+$H_A$: $\mu \neq 8$ (Warga New York tidur kurang atau lebih dari 8 jam per
+malam secara rata-rata.)
+(b)~Independensi: Sampelnya acak.
+Nilai min/maks menunjukkan tidak ada pencilan yang mengkhawatirkan.
+$T = -1.75$. $df=25-1=24$.
+(c)~ nilai-p $= 0.093$.
+Jika rata-rata populasi sebenarnya untuk
+lama tidur warga New York per malam adalah 8 jam,
+peluang memperoleh
+sampel acak berisi 25 warga New York dengan rata-rata
+lama tidur 7.73 jam
+per malam atau kurang (atau 8.27 jam atau lebih) adalah 0.093.
+(d)~Karena nilai-p $>$ 0.05, jangan tolak $H_0$.
+Data tidak memberikan bukti kuat bahwa
+warga New York rata-rata tidur lebih atau kurang dari 8 jam
+per malam.
+(e)~Tidak, karena nilai-p lebih kecil daripada $1 - 0.90 = 0.10$.}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""ddecb7b2-412c-5926-ae2e-c224b431e638""]"
 175c0a01-f8d8-573a-acf1-5eab7c444073,a485ca16-e7af-5fc9-a661-2481b3a87b29,8,section_prose,en,ch_probability/TeX/ch_probability.tex,1770,1861,2e7567dd5bc0aba47fa2b909db4c2941fc2853dc88501af802101e09ee1f8a62,id-ID,repo/ch_probability/TeX/ch_probability.tex,1759,1850,a1690117e9fb6bf78b6651b44b386954a5cf5ded6c4964767dd3fedf440b28e8,language_reviewed,"
 \subsection{Nilai harapan}
 
@@ -1262,6 +1538,16 @@ memuat 0.5? Jelaskan.
 }{}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
+19feb5c3-c07d-5242-803b-084091b25ec6,caaf674f-f0cd-5aa3-a720-7cce1e6efaa0,1,,,extraTeX/eoceSolutions/eoceSolutions.tex,1636,1644,7f7705d7131cc99802d1ab47e1e186af3b82e525db187aabef1ad340b8094a17,id-ID,,,,,visually_checked,"% 1
+
+\eocesol{(a)~$df=6-1=5$, $t_{5}^{\star} = 2.02$ (kolom dengan jumlah dua ekor 0.10,
+baris dengan $df=5$).
+(b)~$df=21-1=20$, $t_{20}^{\star} = 2.53$ (kolom dengan jumlah dua ekor 0.02,
+baris dengan $df=20$).
+(c)~$df=28$, $t_{28}^{\star} = 2.05$.
+(d)~$df=11$, $t_{11}^{\star} = 3.11$.}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""ddecb7b2-412c-5926-ae2e-c224b431e638""]"
 1adff8c6-a052-517d-afd9-03ebe36f46fc,1b67b489-5bfb-5b84-8f44-a692fdc15298,31,guided_exercise,en,ch_probability/TeX/ch_probability.tex,1384,1388,6f7fe3fbfa99e4d9aafee5c65c970b922bce81d4983646a3d20cc9a856e7149b,id-ID,repo/ch_probability/TeX/ch_probability.tex,1383,1387,8dfc5ab3fbf4b44ed0abbd9eef4c1752f8a3384c2fff87c25f4c4116eeafa47f,language_reviewed,"\begin{exercisewrap}
 \begin{nexercise}
 Setelah mengikuti mata kuliah statistika pengantar, 78\% mahasiswa dapat menyusun diagram pohon dengan benar. Di antara mahasiswa yang dapat menyusun diagram pohon, 97\% lulus, sedangkan hanya 57\% mahasiswa yang tidak dapat menyusun diagram pohon yang lulus. (a)~Susun informasi ini dalam sebuah diagram pohon. (b)~Berapa peluang bahwa mahasiswa yang dipilih secara acak lulus? (c)~Hitung peluang bahwa seorang mahasiswa mampu menyusun diagram pohon jika diketahui mahasiswa tersebut lulus.\footnotemark
@@ -1742,6 +2028,240 @@ paling tepat dideskripsikan dengan rata-rata dan variabilitasnya dengan simpanga
   $0.2 \times 0.2 \times 0.8 \times
       0.8 \times 0.8 \times 0.8
     = 0.0164$.}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""69574f5b-e113-5529-9d72-6ebfd1501a86""]"
+1ea32577-ede6-5000-8e1d-a090088cfd26,0d9fe295-6a34-5124-bfd8-5dd5e24586c5,1,,,ch_inference_for_means/TeX/ch_inference_for_means.tex,401,633,dce7cb73b918eb0c7585e979377bbfc1de427f6884c501b528e45c2c34049fde,id-ID,,,,,visually_checked,"
+
+
+\subsection[Memperkenalkan distribusi $t$]
+    {Memperkenalkan distribusi $\pmb{t}$}
+\label{introducingTheTDistribution}
+
+\index{distribusi t@distribusi $t$|(}
+\index{distribusi!t@$t$|(}
+
+Dalam praktiknya, kita tidak dapat menghitung galat baku secara langsung
+untuk $\bar{x}$ karena kita tidak mengetahui simpangan baku
+populasi,~$\sigma$.
+Kita menghadapi masalah serupa ketika menghitung galat
+baku untuk proporsi sampel, yang bergantung pada proporsi
+populasi,~$p$.
+Solusi kita dalam konteks proporsi adalah menggunakan suatu nilai
+sampel sebagai pengganti
+nilai populasi ketika menghitung galat baku.
+Kita akan memakai strategi serupa untuk menghitung galat
+baku $\bar{x}$, dengan menggunakan simpangan
+baku sampel $s$ sebagai pengganti $\sigma$:
+\begin{align*}
+SE = \frac{\sigma}{\sqrt{n}} \approx \frac{s}{\sqrt{n}}
+\end{align*}
+Strategi ini cenderung bekerja baik ketika kita memiliki
+banyak data dan dapat mengestimasi $\sigma$ secara akurat menggunakan $s$.
+Namun, estimasi tersebut kurang presisi pada sampel yang lebih kecil,
+dan hal ini menimbulkan masalah ketika distribusi
+normal digunakan untuk memodelkan $\bar{x}$.
+% --
+%when the sample size is large --
+%but it is less reliable when the sample size is smaller
+%than about 30. % independent observations.
+
+Kita akan mendapati bahwa distribusi baru yang disebut
+\termsub{distribusi $\pmb{t}$}{distribusi t@distribusi $t$} berguna
+untuk perhitungan inferensi.
+Distribusi~$t$, yang ditampilkan sebagai garis penuh dalam
+Gambar~\ref{tDistCompareToNormalDist}, berbentuk lonceng.
+Namun, ekornya lebih tebal daripada ekor distribusi normal,
+yang berarti observasi lebih mungkin jatuh lebih dari dua
+simpangan baku dari rata-rata dibandingkan pada distribusi
+normal. %\footnote{The standard deviation of the
+  %$t$-distribution is actually a little more than 1.
+  %However, it is useful to always think of the $t$-distribution
+  %as having a standard deviation of 1 in all of our applications.}
+%This distribution is important since it accounts for
+%a key challenge with modeling the sample mean:
+%the standard error of the sample mean isn't as
+%precise when the sample size is small.
+Ketebalan ekstra pada ekor distribusi $t$ merupakan
+koreksi yang diperlukan untuk mengatasi masalah penggunaan~$s$
+sebagai pengganti $\sigma$ dalam perhitungan $SE$.
+
+\begin{figure}[h]
+  \centering
+  \Figure[Ditampilkan distribusi normal baku dan distribusi t. Distribusi t juga berbentuk lonceng, tetapi puncaknya lebih rendah dan lebih landai daripada distribusi normal serta ekornya lebih tebal. Sebagai contoh, terdapat bagian distribusi yang cukup besar -- mungkin 5\% untuk distribusi t khusus ini -- yang membentang hingga di bawah -3 dan di atas 3, sedangkan distribusi normal sangat mendekati nol pada nilai di bawah -3 atau di atas 3.]{0.7}{tDistCompareToNormalDist}
+  \caption{Perbandingan distribusi $t$
+      dan distribusi normal.}
+  \label{tDistCompareToNormalDist}
+\end{figure}
+
+Distribusi $t$ selalu berpusat di nol dan
+memiliki satu parameter: derajat kebebasan.
+\termsub{Derajat kebebasan ($\pmb{df}$)}
+    {derajat kebebasan ($df$)!distribusi $t$}
+menentukan bentuk tepat distribusi $t$ yang berbentuk lonceng.
+Beberapa distribusi $t$ ditampilkan dalam
+Gambar~\ref{tDistConvergeToNormalDist}
+sebagai perbandingan dengan distribusi normal.
+
+Secara umum, kita akan menggunakan distribusi $t$
+dengan $df = n - 1$ untuk memodelkan rata-rata sampel
+ketika ukuran sampelnya $n$.
+Artinya, ketika kita memiliki lebih banyak observasi,
+derajat kebebasannya akan lebih besar dan
+distribusi $t$ akan semakin menyerupai
+distribusi normal baku;
+ketika banyaknya derajat kebebasan sekitar 30 atau lebih,
+distribusi $t$ hampir tidak dapat dibedakan
+dari distribusi normal.
+
+\begin{figure}[h]
+  \centering
+  \Figure[Empat distribusi t dengan derajat kebebasan 1, 2, 4, dan 8 ditampilkan bersama distribusi normal dalam grafik yang sama. Semakin besar derajat kebebasan, semakin dekat distribusi t dengan distribusi normal; puncak di pusat semakin tinggi dan mendekati puncak distribusi normal, sedangkan ekor distribusinya tampak semakin tipis.]{0.75}{tDistConvergeToNormalDist}
+  \caption{Semakin besar derajat kebebasan,
+      distribusi $t$ semakin menyerupai distribusi
+      normal baku.}
+  \label{tDistConvergeToNormalDist}
+\end{figure}
+
+\begin{onebox}{Derajat kebebasan
+    ($\pmb{\MakeLowercase{df}}$)}
+  Derajat kebebasan menentukan bentuk
+  distribusi $t$.
+  Semakin besar derajat kebebasan, semakin baik
+  distribusi tersebut menghampiri model normal. \stdvspace{}
+
+  Ketika memodelkan $\bar{x}$ menggunakan distribusi $t$,
+  gunakan $df = n - 1$.
+\end{onebox}
+
+%\Comment{Cut this next sentence?}
+%In Section~\ref{tDistSolutionToSEProblem},
+%we relate degrees of freedom to sample size.
+
+Distribusi $t$ memberi kita fleksibilitas lebih besar daripada
+distribusi normal ketika menganalisis data numerik.
+Dalam~praktiknya, perangkat lunak statistik lazim digunakan,
+seperti R, Python, atau SAS untuk analisis ini.
+Sebagai alternatif, kalkulator grafik atau
+\termsub{tabel $\pmb{t}$}{tabel t@tabel $t$} dapat digunakan;
+tabel $t$ serupa dengan tabel distribusi normal,
+dan dapat ditemukan dalam Lampiran~\ref{tDistributionTable},
+yang memuat petunjuk penggunaan dan contoh
+bagi mereka yang ingin menggunakan opsi ini.
+Apa pun pendekatan yang dipilih, terapkan metode Anda
+pada contoh-contoh di bawah ini untuk memastikan
+pemahaman Anda mengenai distribusi $t$.
+
+\begin{examplewrap}
+\begin{nexample}{Berapa proporsi distribusi $t$
+    dengan 18 derajat kebebasan yang berada di bawah -2.10?}
+  Seperti dalam soal peluang normal, pertama-tama kita menggambar
+  grafik dalam Gambar~\ref{tDistDF18LeftTail2Point10}
+  dan mengarsir daerah di bawah -2.10.
+%  If this were a normal distribution, the area would be
+%  a little less than 0.025, since about 5\% of the area
+%  under a normal curve goes out beyond $\pm 1.96$ standard
+%  deviations.
+  Dengan perangkat lunak statistik, kita dapat memperoleh
+  nilai yang presisi: 0.0250.
+%  The tail area below -2.10 in the $t$-distribution with
+%  $df = 18$ is the same as the tail area below -1.96 in
+%  the normal distribution.
+\end{nexample}
+\end{examplewrap}
+
+\begin{figure}
+  \centering
+  \Figure[Ditampilkan distribusi t dengan 18 derajat kebebasan; daerah di bawah -2.10 diarsir dan tampak mewakili sekitar 2\% hingga 5\% dari luas distribusi. Secara umum, ketika derajat kebebasan lebih besar daripada sekitar 10, seperti dalam kasus ini, perbedaan visual antara distribusi t dan distribusi normal sangat halus, meskipun perbedaan tersebut tetap penting untuk perhitungan kita.]{0.42}{tDistDF18LeftTail2Point10}
+  \caption{Distribusi $t$ dengan 18 derajat kebebasan.
+      Daerah di bawah -2.10 telah diarsir.}
+  \label{tDistDF18LeftTail2Point10}
+\end{figure}
+
+\begin{examplewrap}
+\begin{nexample}{Distribusi $t$ dengan 20 derajat kebebasan
+    ditampilkan pada panel kiri
+    Gambar~\ref{tDistDF20RightTail1Point65}.
+    Estimasikan proporsi distribusi yang berada
+    di atas 1.65.}
+  Pada distribusi normal, nilainya akan sekitar
+  sekitar~0.05, sehingga kita mengharapkan distribusi $t$
+  memberikan nilai di sekitar itu.
+  Dengan perangkat lunak statistik: 0.0573.
+\end{nexample}
+\end{examplewrap}
+
+\begin{figure}
+  \centering
+  \Figure[Dua distribusi t ditampilkan pada dua grafik terpisah. Grafik pertama menampilkan distribusi t dengan 20 derajat kebebasan dan daerah di atas 1.65 diarsir; daerah itu tampak mewakili sekitar 5\% dari luas total distribusi. Grafik kedua menampilkan distribusi t dengan 2 derajat kebebasan dan daerah di bawah -3 serta di atas 3 diarsir. Karena derajat kebebasannya sangat kecil, ekor distribusi ini jauh lebih tebal dan pusatnya juga berpuncak lebih tajam. Masing-masing ekor tersebut tampak mewakili sekitar 2\% hingga 5\% dari luas di bawah distribusi ini.]{0.72}{tDistDF20RightTail1Point65}
+  \caption{Kiri: Distribusi $t$ dengan 20 derajat
+      kebebasan, dengan daerah di atas 1.65 diarsir.
+      Kanan:~Distribusi $t$ dengan 2 derajat kebebasan,
+      dengan daerah yang berjarak lebih dari 3 satuan dari 0 diarsir.}
+  \label{tDistDF20RightTail1Point65}
+\end{figure}
+
+\begin{examplewrap}
+\begin{nexample}{Distribusi $t$ dengan 2 derajat kebebasan
+    ditampilkan pada panel kanan
+    Gambar~\ref{tDistDF20RightTail1Point65}.
+    Estimasikan proporsi distribusi yang berjarak lebih
+    dari 3~satuan dari rata-rata (di atas atau di bawah).}
+  Dengan derajat kebebasan yang begitu sedikit, distribusi $t$
+  akan menghasilkan nilai yang jauh berbeda dari hasil distribusi
+  normal.
+  Pada distribusi normal, luasnya akan sekitar
+  0.003 berdasarkan aturan 68-95-99.7.
+  Untuk distribusi $t$ dengan $df = 2$, luas pada kedua
+  ekor di luar 3~satuan berjumlah 0.0955.
+  Luas ini sangat berbeda dari luas yang
+  kita peroleh dari distribusi normal.
+\end{nexample}
+\end{examplewrap}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Berapa proporsi distribusi $t$ dengan 19 derajat
+kebebasan yang berada di atas -1.79 satuan?
+Gunakan metode pilihan Anda untuk mencari luas ekor.\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Kita ingin mencari daerah yang diarsir di \emph{atas}
+  -1.79 (pembuatan gambarnya kami serahkan kepada Anda).
+  Luas ekor bawah adalah 0.0447,
+  sehingga luas daerah atas adalah $1 - 0.0447 = 0.9553$.}
+
+\index{distribusi!t@$t$|)}
+\index{distribusi t@distribusi $t$|)}
+
+
+%\subsection{Conditions for using the $\mathbf{t}$-distribution
+%    for inference on a sample mean}
+%\label{tDistSolutionToSEProblem}
+%
+%\noindent%
+%To proceed with the $t$-distribution for inference about a single mean, we first check two conditions.
+%\begin{description}
+%\item[Independence.]
+%    We verify this condition just as we did before.
+%    We collect a simple random sample, or if the data are from
+%    an experiment or random process, we check to the best of our
+%    abilities that the observations were independent.
+%\item[Sample size.]
+%    We use the earlier rule of thumb to evaluate this condition:
+%
+%    If the sample size $n$ is less than 30
+%    and there are no clear outliers in the data,
+%    then the sample size condition is satisfied.
+%
+%    If the sample size $n$ is at least 30
+%    and there are no \emph{particularly extreme} outliers,
+%    then the sample size condition is satisfied.
+%\end{description}
+%When examining a sample mean and estimated standard error
+%from a sample of $n$ independent and nearly normal observations,
+%we use a $t$-distribution with $n - 1$ degrees of freedom~($df$).
+%For example, if the sample size was 19, then we would use the
+%$t$-distribution with $df = 19 - 1 = 18$ degrees of freedom
+%and proceed in a way similar to how we worked with proportions.
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""ddecb7b2-412c-5926-ae2e-c224b431e638""]"
 1ec27c44-4f9a-5ece-aa68-df04740a947a,ded57bbc-127f-56f2-8da5-8b984e4e6ca6,0,section_intro,en,ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,1509,1573,283aaeba0f01b6d519ff8773a4d166d01b6a72bd8d6650b24e190c6c20ffb4fc,id-ID,qa/b021-translation/staging/ch_foundations_for_inf_1509-1719.id.tex,1,65,e9283ec034851d62c07d5f0b2cffe5fc8521f20974f8ecf8b2502bdfa4343be1,visually_checked,"\section{Uji hipotesis untuk suatu proporsi}
 \label{hypothesisTesting}
 
@@ -2684,6 +3204,38 @@ menolak $H_0$. Data tidak memberikan bukti kuat bahwa tingkat kurang
 tidur berbeda antara pekerja di luar sektor transportasi dan pengemudi truk.}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""a6e32195-1507-50f4-a3a0-88884cb47648""]"
+291d5b72-8f06-578c-bdf4-8bb8f6c6bceb,c8b687e6-335f-5295-93bc-b350091caf49,1,,,ch_inference_for_means/TeX/one-sample_means_with_the_t-distribution.tex,218,248,88587db7fa121585ff5b3a06089eafbf0fa35b65575f8d8ffc0d1f2a04953198,id-ID,,,,,visually_checked,"\eoce{\qt{Gas buang kendaraan dan
+    paparan timbal\label{auto_exhaust_lead_exposure_2_sided}}
+Peneliti yang tertarik pada paparan timbal akibat gas buang kendaraan
+mengambil sampel darah dari 52 petugas polisi yang terus-menerus
+menghirup asap knalpot kendaraan ketika bertugas mengatur lalu lintas
+di lingkungan yang terutama bersifat perkotaan.
+Sampel darah para petugas tersebut memiliki rata-rata konsentrasi timbal
+124.32 $\mu$g/l dan SD 37.74 $\mu$g/l;
+penelitian sebelumnya terhadap individu dari daerah pinggiran kota terdekat,
+yang tidak memiliki riwayat paparan, menemukan rata-rata kadar
+timbal darah
+sebesar 35 $\mu$g/l.\footfullcite{Mortada:2000}
+\begin{parts}
+\item
+    Tuliskan hipotesis yang sesuai untuk
+    menguji apakah para petugas polisi tampaknya telah terpapar
+    konsentrasi timbal yang berbeda.
+\item\label{auto_exhaust_lead_exposure_2_sided_cond}
+    Nyatakan secara eksplisit dan periksa semua kondisi yang diperlukan untuk
+    melakukan inferensi pada data ini.
+\item
+    Terlepas dari jawaban Anda pada
+    bagian~(\ref{auto_exhaust_lead_exposure_2_sided_cond}),
+    ujilah hipotesis bahwa petugas polisi pusat kota memiliki
+    paparan timbal yang lebih tinggi daripada kelompok dalam penelitian sebelumnya.
+    Tafsirkan hasil Anda dalam konteksnya.
+\end{parts}
+}{}
+
+% 13
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""ddecb7b2-412c-5926-ae2e-c224b431e638""]"
 29dacc45-dcb6-56cb-b119-08a62bfae94c,0c7e3eec-a33d-5c64-a81a-cb6ba33b7b1c,0,instructional_prose,en,ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,36,101,b06ae4fa86a64b57aadd1d5704b06c35500db414c45afb10867a4c4fa917bf4c,id-ID,scratch/b019-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/ch_foundations_for_inf.tex,36,101,c804e944d005bca9ef78a36bc4b37081cb697e3642282891c0eb3b876a326647,visually_checked,"\section{Estimasi titik dan variabilitas sampling}
 \label{pointEstimates}
 
@@ -3109,6 +3661,14 @@ Contoh~\ref{threeDice} mengilustrasikan apa yang disebut Aturan Perkalian untuk 
   \chaptersection{negativeBinomial}
   \chaptersection{poisson}
 \end{chapterpage}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""5013dc5b-3a29-5516-9948-98c064aa43e8""]"
+2fd39554-710f-5552-ab03-626ab44c3a8a,bb9507e0-31b8-5fbd-bb73-c14d0d5b5095,1,,,extraTeX/eoceSolutions/eoceSolutions.tex,1645,1651,4dda0de0830d6e6b91dacbb8585942e497e04a77717f8d5d2e3ee71cd8481249,id-ID,,,,,visually_checked,"% 3
+
+\eocesol{(a)~0.085, jangan tolak $H_0$.
+(b)~0.003, tolak $H_0$.
+(c)~0.438, jangan tolak $H_0$.
+(d)~0.042, tolak $H_0$.}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""ddecb7b2-412c-5926-ae2e-c224b431e638""]"
 300ee92f-f49d-5961-b2f3-a653865276c1,ca943663-6b2f-54f6-a701-08fa0244e803,113,exercise,en,ch_inference_for_props/TeX/inference_for_a_single_proportion.tex,262,283,2eb210e7c69e327217bd39293d477a38dcb152e6d77d4a5f6b106570c6f899da,id-ID,qa/b022-translation/staging/inference_for_a_single_proportion.id.tex,261,281,3072bde225931990575c84c3531eca67f5d2c4c27ed9eb7aa80e0185766e8ace,visually_checked,"% 13
 
 \eoce{\qt{Uji rasa\label{taste_test_HT_2_sided}}
@@ -3320,6 +3880,54 @@ estimasikan nilai-nilai berikut untuk
 (c) IQR.\footnotemark{}
 \end{nexercise}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+33d0ab3c-a77c-5c91-81a6-596120fd9a81,d8cb2b73-6eec-5c46-8b87-c07d07a8f5b8,1,,,ch_inference_for_means/TeX/one-sample_means_with_the_t-distribution.tex,126,172,c6d9c5099172fc7a0ed2c0abd834c7e9f5e03e25381e2f8cf25ea68ccdbede7d,id-ID,,,,,visually_checked,"\eoce{\qt{Tinggi badan orang dewasa\label{adult_heights}}
+Peneliti yang mengkaji antropometri
+mengumpulkan ukuran lingkar tubuh dan diameter rangka, serta
+usia, berat badan, tinggi badan, dan jenis kelamin, dari 507 individu yang aktif secara fisik. Histogram
+di bawah ini menunjukkan distribusi sampel tinggi badan dalam sentimeter.
+\footfullcite{Heinz:2003} \\
+\begin{minipage}[c]{0.75\textwidth}
+\begin{center}
+\FigureFullPath[Histogram ditampilkan untuk ""Tinggi badan"" dengan nilai dari 140 sampai 200 dan lebar bin 5. Distribusinya kira-kira simetris dengan pusat sekitar 170. Tinggi bin, dimulai dari bin 145 sampai 150, kira-kira 3, 17, 55, 70, 100, 85, 95, 50, 30, 15, dan 3.]{}{ch_inference_for_means/figures/eoce/adult_heights/adult_heights_hist}
+\end{center}
+\end{minipage}
+\begin{minipage}[c]{0.23\textwidth}
+\begin{center}
+\begin{tabular}{l|r}
+Min     & 147.2 \\
+Q1      & 163.8 \\
+Median  & 170.3 \\
+Rata-rata & 171.1 \\
+SD      &  9.4 \\
+Q3      & 177.8 \\
+Maks    & 198.1 \\
+\end{tabular}
+\end{center}
+\end{minipage}
+\begin{parts}
+\item Berapakah estimasi titik untuk rata-rata tinggi badan individu yang aktif?
+Bagaimana dengan mediannya?
+\item Berapakah estimasi titik untuk simpangan baku tinggi badan
+individu yang aktif? Bagaimana dengan IQR?
+\item Apakah orang dengan tinggi 1m 80cm (180 cm) dianggap luar biasa tinggi? Dan apakah
+orang dengan tinggi 1m 55cm (155cm) dianggap luar biasa pendek? Jelaskan
+alasan Anda.
+\item Para peneliti mengambil sampel acak lain dari individu yang aktif secara fisik.
+Apakah Anda memperkirakan rata-rata dan simpangan baku sampel baru ini
+akan sama dengan nilai yang diberikan di atas? Jelaskan alasan Anda.
+\item Rata-rata sampel yang diperoleh merupakan estimasi titik bagi rata-rata tinggi badan semua
+individu yang aktif, jika sampel individu tersebut setara dengan sampel
+acak sederhana.
+Ukuran apa yang kita gunakan untuk menguantifikasi variabilitas estimasi semacam itu?
+Hitung
+besaran tersebut menggunakan data dari sampel awal dengan syarat bahwa
+data itu merupakan sampel acak sederhana.
+\end{parts}
+}{}
+
+% 9
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""ddecb7b2-412c-5926-ae2e-c224b431e638""]"
 33df6b82-9fd3-569d-8830-065d549de8af,70513049-5725-57fb-a5c9-ffede960b3bf,13,exercise,en,ch_distributions/TeX/geometric_distribution.tex,31,44,74e6f69db893c8244eaa6e0d8aed3f6e1f4365da4a8e759090bcc11bd81bdf13,id-ID,qa/b015-build/source-snapshot-b015/ch_distributions/TeX/geometric_distribution.tex,34,47,b24dd26d61a62dc75ffe77b5a1700590b0a7d6d3b0cb3b074e52ac66357f99e5,visually_checked,"% 13
 
 \eoce{\qt{Warna mata, Bagian I\label{eye_color_geometric}} Sepasang suami
@@ -5120,6 +5728,27 @@ Pada awalnya mungkin juga terdapat periode pertumbuhan eksponensial
 sebelum ukuran cawan petri mulai memperlambat pertumbuhan. \\
 \FigureFullPath[Sebuah grafik ditampilkan dengan sumbu horizontal ""waktu"" dan sumbu vertikal berlabel ""jumlah sel bakteri"". Sebuah kurva naik dengan curam di sisi kiri; ketika bergerak ke kanan, kenaikannya melambat hingga hampir berhenti ketika mencapai sisi kanan grafik.]{0.25}{ch_summarizing_data/figures/eoce/reproducing_bacteria/reproducing_bacteria_sketch}}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+449cea50-46c0-5020-ae52-e15e1d258513,e7788f2f-a791-5938-bb2e-d99943359a16,1,,,ch_inference_for_means/TeX/one-sample_means_with_the_t-distribution.tex,1,20,b332fe258fca41b030efb8950179115272dcab41d4e38a81410faf45bc29aaf0,id-ID,,,,,visually_checked,"\exercisesheader{}
+
+% 1
+
+\eoce{\qt{Tentukan nilai kritis $t$\label{identify_critical_t}} Suatu sampel acak
+independen dipilih dari populasi yang kira-kira berdistribusi normal dengan
+simpangan baku tidak diketahui. Tentukan derajat kebebasan dan nilai kritis $t$
+(t$^\star$) untuk ukuran sampel dan tingkat kepercayaan yang diberikan.
+%\begin{multicols}{4}
+\begin{parts}
+\item $n = 6$, TK = 90\%
+\item $n = 21$, TK = 98\%
+\item $n = 29$, TK = 95\%
+\item $n = 12$, TK = 99\%
+\end{parts}
+%\end{multicols}
+}{}
+
+% 2
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""ddecb7b2-412c-5926-ae2e-c224b431e638""]"
 451e01bb-c333-5029-b69b-0e056179571b,75bf42e8-7e18-5f6a-9e73-838f25cb78d6,109,exercise,en,ch_foundations_for_inf/TeX/confidence_intervals.tex,27,48,21721d13bb5ca3ec8327aa7e12e2a3be1ee92a0dc6eb5ede89a9c878a3b807b5,id-ID,scratch/b020-boundary-clean-reader/source-snapshot/ch_foundations_for_inf/TeX/confidence_intervals.tex,30,51,83a824a7051ff3462f0a01c8776ebccc2e5c7cc23ba2c27251d2c5a640fb7456,visually_checked,"% 9
 
 \eoce{\qt{Penyakit kronis, Bagian II\label{chronic_illness_tf}} Pada 2013, Pew Research Foundation melaporkan bahwa 
@@ -5236,6 +5865,107 @@ dan menyimpulkan bahwa vaksin tersebut efektif.
 
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+460fa394-b1f9-5af9-9896-cd49fcef6fda,69d5568e-b07a-51fc-9933-042186d8202c,1,,,ch_inference_for_means/TeX/ch_inference_for_means.tex,797,896,2361cd6e2d4fe867200c0ebf2792001baa17c524347e66e3f09253862d47c44c,id-ID,,,,,visually_checked,"
+\begin{exercisewrap}
+\begin{nexercise} \label{croakerWhiteFishPacificExerConditions}
+\index{data!ikan croaker putih dan merkuri|(}
+Laman FDA menyediakan sejumlah data tentang kandungan merkuri pada ikan.
+Berdasarkan sampel 15 ikan croaker putih (Pasifik),
+rata-rata sampel dan simpangan baku masing-masing dihitung sebesar 0.287
+dan 0.069 ppm (bagian per sejuta).
+Ke-15 observasi tersebut berkisar dari 0.18 hingga 0.41 ppm.
+Kita akan menganggap observasi-observasi ini saling independen.
+Berdasarkan statistik ringkasan data,
+adakah alasan untuk meragukan syarat normalitas
+bagi observasi individual?\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Ukuran sampel kurang dari 30,
+  jadi kita memeriksa pencilan yang jelas:
+  karena semua observasi berada dalam 2 simpangan baku
+  dari rata-rata, tidak ada pencilan yang jelas semacam itu.}
+
+\begin{examplewrap}
+\begin{nexample}{Estimasikan galat baku bagi
+    $\bar{x} = 0.287$ ppm dengan menggunakan ringkasan data dalam
+    Latihan Terarah~\ref{croakerWhiteFishPacificExerConditions}.
+    Jika kita hendak menggunakan distribusi $t$ untuk menyusun
+    interval kepercayaan 90\% bagi rata-rata sebenarnya dari
+    kandungan merkuri, tentukan derajat kebebasan
+    dan $t^{\star}_{df}$.}
+  \label{croakerWhiteFishPacificExerSEDFTStar}%
+  Galat baku: $SE = \frac{0.069}{\sqrt{15}} = 0.0178$.
+
+  Derajat kebebasan: $df = n - 1 = 14$.
+
+  Karena tujuannya adalah interval kepercayaan 90\%,
+  kita memilih $t_{14}^{\star}$ sehingga luas kedua ekor
+  adalah 0.1:
+  $t^{\star}_{14} = 1.76$.
+\end{nexample}
+\end{examplewrap}
+
+\begin{onebox}{Interval kepercayaan bagi satu rata-rata}
+  Setelah menentukan bahwa interval kepercayaan bagi satu rata-rata
+  akan berguna dalam suatu penerapan,
+  terdapat empat langkah untuk menyusun interval tersebut:
+  \begin{description}
+  \item[Persiapkan.]
+      Tentukan $\bar{x}$, $s$, $n$, dan pilih
+      tingkat kepercayaan yang ingin Anda gunakan.
+  \item[Periksa.]
+      Verifikasi syarat-syarat untuk memastikan bahwa $\bar{x}$
+      mendekati normal.
+  \item[Hitung.]
+      Jika syarat-syarat terpenuhi, hitung $SE$,
+      cari $t_{df}^{\star}$, dan susun intervalnya.
+  \item[Simpulkan.]
+      Tafsirkan interval kepercayaan dalam konteks
+      masalah tersebut.
+  \end{description}
+\end{onebox}
+
+\begin{exercisewrap}
+\begin{nexercise}
+\label{croakerWhiteFish90ci}
+Dengan menggunakan informasi dan hasil Latihan Terarah~\ref{croakerWhiteFishPacificExerConditions} serta Contoh~\ref{croakerWhiteFishPacificExerSEDFTStar}, hitung interval kepercayaan 90\% bagi rata-rata kandungan merkuri pada ikan croaker putih (Pasifik).\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{
+  $\bar{x} \ \pm\ t^{\star}_{14} \times SE
+      \ \to\  0.287 \ \pm\  1.76 \times 0.0178
+      \ \to\ (0.256, 0.318)$.
+  Kita yakin 90\% bahwa rata-rata kandungan merkuri
+  pada ikan croaker putih (Pasifik) berada antara 0.256 dan 0.318 ppm.}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Interval kepercayaan 90\% dari
+Latihan Terarah~\ref{croakerWhiteFish90ci}
+adalah 0.256 ppm hingga 0.318 ppm.
+Dapatkah kita mengatakan bahwa 90\% dari ikan croaker putih (Pasifik)
+memiliki kadar merkuri antara 0.256 dan 0.318 ppm?\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{
+  Tidak. Interval kepercayaan hanya memberikan rentang
+  nilai-nilai yang masuk akal bagi suatu parameter populasi,
+  dalam hal ini rata-rata populasi.
+  Interval itu tidak menjelaskan apa yang mungkin kita amati
+  pada observasi individual.}
+
+\index{data!ikan croaker putih dan merkuri|)}
+
+%Now that we've whet \Comment{spelling?} your palette with confidence
+%intervals for a mean, let's speed on through to
+%hypothesis tests for the mean.
+
+
+\subsection[Uji $t$ satu sampel]
+    {Uji $\pmb{t}$ satu sampel}
+\label{oneSampleTTests}
+ 
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""ddecb7b2-412c-5926-ae2e-c224b431e638""]"
 4695139d-27a3-5e9b-b80a-46c0fdf5d8c2,539c9f92-ebb5-583a-bbe7-033054cf48e2,1,guided_exercise,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,240,245,5a65b642e0499b81f9b384811b7c891674fefbdab31bcd3627fd4da09536ce52,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,238,243,d34457c2f8766e39256048df79df5f4d5061984a7a8d669e4f356693a8064451,translated,"\begin{nexercise}
 Perhatikan persamaan untuk rata-rata.
 Apa yang dinyatakan oleh $x_1$? Bagaimana dengan $x_2$?
@@ -5685,6 +6415,17 @@ dalam kedua skenario.
 \end{parts}
 }{}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""8205e88d-07dd-57ab-ae9a-c7e5f3bbf027""]"
+486fb3e6-9e6b-5d33-8c97-30ed1f208beb,7e136ff6-1534-5f8e-8b86-90d0c7d3930a,1,,,ch_inference_for_means/TeX/one-sample_means_with_the_t-distribution.tex,70,79,dc58b93c9d8f12fb4582ef806164931adc8deca7468650540a682a952533b746,id-ID,,,,,visually_checked,"\eoce{\qt{Menelusuri perhitungan secara terbalik, Bagian I\label{work_backwards_1}} Interval kepercayaan 95\%
+untuk rata-rata populasi, $\mu$, diberikan sebagai (18.985, 21.015). Interval
+kepercayaan ini didasarkan pada sampel acak sederhana berisi 36 pengamatan.
+Hitung rata-rata dan simpangan baku sampel. Asumsikan bahwa semua kondisi
+yang diperlukan untuk inferensi terpenuhi. Gunakan distribusi $t$ dalam setiap
+perhitungan.
+}{}
+
+% 6
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""ddecb7b2-412c-5926-ae2e-c224b431e638""]"
 48d01b71-acb9-5fdd-8622-2ae426b91c5b,6e4e8c2c-e78c-58d3-afef-7c55af54eb37,2,subsection_prose,en,ch_probability/TeX/ch_probability.tex,703,814,7ca458f161fe0f63ab7956d7711d2315a68a0abd0799e9ab907bcce5d5f11236,id-ID,repo/ch_probability/TeX/ch_probability.tex,703,814,e933a5c14c3a1a16b459d7725e6c1a0fcb1353647e350cbff6c14708c36f486c,language_reviewed,"\subsection{Mengeksplorasi peluang dengan tabel kontingensi}
 
 \index{data!photo\_classify|(}
@@ -5822,6 +6563,31 @@ untuk nilai baru: $(24\times 74 + 1\times64)/(24+1) = 73.6$.
 sehingga simpangan bakunya meningkat.}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+491dbce3-40b4-5403-8c78-6a3296774f77,2034421f-a170-5537-8ad3-802d196e8420,1,,,extraTeX/eoceSolutions/eoceSolutions.tex,1692,1715,79bf8d081a63304449d66dbd5d816aecdc3b968dcb198c01c6c3020e13f41145,id-ID,,,,,visually_checked,"% 11
+
+\eocesol{(a)~Kita akan melakukan uji $t$ 1-sampel.
+    $H_0$: $\mu = 5$. $H_A$: $\mu \neq 5$.
+    Kita gunakan $\alpha = 0.05$.
+    Ini merupakan sampel acak, sehingga pengamatannya independen.
+    Untuk melanjutkan, kita asumsikan distribusi lama mengikuti les
+    piano kira-kira normal.
+    $SE = 2.2 / \sqrt{20} = 0.4919$.
+    Statistik ujinya adalah $T = (4.6 - 5) / SE = -0.81$.
+    $df = 20 - 1 = 19$.
+    Luas satu ekor kira-kira 0.21, sehingga
+    nilai-p kira-kira 0.42, yang lebih besar daripada
+    $\alpha = 0.05$, dan kita tidak menolak $H_0$.
+    Artinya, kita tidak memiliki bukti yang cukup kuat
+    untuk menolak anggapan bahwa rata-ratanya 5 tahun. \\
+(b)~Dengan $SE = 0.4919$ dan $t_{df = 19}^{\star} = 2.093$,
+    interval kepercayaannya adalah (3.57, 5.63).
+    Kita yakin 95\% bahwa rata-rata banyaknya
+    tahun seorang anak mengikuti les piano di kota ini berada antara
+    3.57 dan 5.63 tahun. \\
+(c)~Keduanya konsisten, karena kita tidak menolak hipotesis nol
+    dan nilai nol 5 berada dalam interval $t$.}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""ddecb7b2-412c-5926-ae2e-c224b431e638""]"
 496a5b38-c1dd-5b4b-9727-2671c56282f1,be52aff2-82ec-57e8-9248-7d5838b5503a,10,guided_exercise,en,ch_probability/TeX/ch_probability.tex,1895,1905,24ae20db1a3eeb3494fbcde46779941b87d4686c3ee815810052ebee366d52e7,id-ID,repo/ch_probability/TeX/ch_probability.tex,1884,1894,41ef6fb6fed0b0d059a975d95f4c35665cfa6c4fc65a2fafffac1e5c303ebc8a,language_reviewed,"\begin{exercisewrap}
 \begin{nexercise}
 Toko buku tersebut juga menawarkan buku teks kimia seharga \$159 dan buku pendamping seharga \$41. Berdasarkan pengalaman sebelumnya, mereka mengetahui bahwa sekitar 25\% mahasiswa kimia hanya membeli buku teks, sedangkan 60\% membeli buku teks beserta buku pendamping.\footnotemark
@@ -6622,6 +7388,27 @@ antara kedua kelompok pengobatan.
 }{}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""a6e32195-1507-50f4-a3a0-88884cb47648""]"
+522e9414-e69d-53a9-ba10-4c7db6fe3dba,46d82880-3c67-59c6-b7f1-8a524e25db73,1,,,ch_inference_for_means/TeX/one-sample_means_with_the_t-distribution.tex,261,280,6417e3f296922557a2a52f714492bcc36be6ed4c6ef647571ebf7516cdf0829a,id-ID,,,,,visually_checked,"\eoce{\qt{Skor SAT\label{sat_scores_CI}}
+Simpangan baku skor SAT mahasiswa di
+sebuah perguruan tinggi Ivy League tertentu adalah 250 poin.
+Dua mahasiswa statistika, Raina dan Luke, ingin mengestimasi
+rata-rata skor SAT mahasiswa di perguruan tinggi ini sebagai bagian
+dari proyek kelas.
+Mereka ingin margin galatnya tidak lebih dari 25 poin.
+\begin{parts}
+\item
+    Raina ingin menggunakan interval kepercayaan 90\%.
+    Seberapa besar sampel yang harus ia kumpulkan?
+\item
+    Luke ingin menggunakan interval kepercayaan 99\%.
+    Tanpa menghitung ukuran sampel yang sebenarnya, tentukan
+    apakah sampelnya harus lebih besar atau lebih kecil
+    daripada sampel Raina, lalu jelaskan alasan Anda.
+\item
+    Hitung ukuran sampel minimum yang diperlukan Luke.
+\end{parts}
+}{}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""ddecb7b2-412c-5926-ae2e-c224b431e638""]"
 52382686-5e03-53e5-b5aa-802fc32c2bac,9c909fc2-49b5-5c03-a79f-ac7984a56db5,1,end-of-section-exercise,en,ch_probability/TeX/conditional_probability.tex,204,215,67fffd26b80df7ce6a210400efb6db2b78fa5134cbed54bfdc5a09714476bd0e,id-ID,repo/ch_probability/TeX/conditional_probability.tex,203,214,ce4a45377991d0c1d5caf0138d7ac4dfd8f754257bf9b14eeae8c61f8c97c6ad,language_reviewed,"% 21
 
 \eoce{\qt{Penyebabnya tak pernah lupus\label{tree_lupus}} Lupus adalah fenomena medis ketika antibodi
@@ -7248,6 +8035,25 @@ dipastikan.}
 
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+59ef8ba4-695e-5a40-a152-8e3db46e66ea,a68d2e40-dde8-5223-b51f-7144f90227aa,1,,,ch_inference_for_means/TeX/one-sample_means_with_the_t-distribution.tex,36,53,fb8dd4759a985a9372f5392ad1d6d58e7449703d2bb00b5c94d43d0fed7b1768,id-ID,,,,,visually_checked,"\eoce{\qt{Tentukan nilai-p, Bagian I\label{find_T_pval_1_2_sided}}
+Suatu sampel acak independen
+dipilih dari populasi yang kira-kira berdistribusi normal
+dengan simpangan baku
+yang tidak diketahui.
+Tentukan nilai-p untuk ukuran sampel dan statistik uji yang diberikan.
+Tentukan juga apakah hipotesis nol akan ditolak pada
+$\alpha = 0.05$.
+\begin{parts}
+\item $n = 11$, $T = 1.91$
+\item $n = 17$, $T = -3.45$
+\item $n = 7$, $T = 0.83$
+\item $n = 28$, $T = 2.13$
+\end{parts}
+}{}
+
+% 4
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""ddecb7b2-412c-5926-ae2e-c224b431e638""]"
 5a436845-190c-5387-9a5e-702e4f02c724,20b13ee4-e03c-53fa-ae0f-d8eee0d4f258,1,public_appendix_solution,en,extraTeX/eoceSolutions/eoceSolutions.tex,265,276,e23470c1e142d079d22bd20ffb69a7bf777b01a8b667922918f28744459157ff,id-ID,repo/extraTeX/eoceSolutions/eoceSolutions.tex,279,291,8dbdbe4e72805fa68a0ff2374d94cc34db9b6b5e4d5a7135b8a5e42bc14902e2,translated,"% 9
 
 \eocesol{(a)~Distribusi~2 memiliki rata-rata yang lebih tinggi karena $20 > 13$, dan simpangan 
@@ -8402,6 +9208,13 @@ n            & 92
 }{}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+5fece8b1-5ae5-5cd0-aa73-4438932ec7d7,00991a87-b274-5cad-a6b1-11e0a707ac7c,1,,,extraTeX/eoceSolutions/eoceSolutions.tex,1652,1657,ea67b484b5a75716ee01b817ab3ab91db4cfc06e9573232cb33fb44faff6141a,id-ID,,,,,visually_checked,"% 5
+
+\eocesol{Rata-rata adalah titik tengah: $\bar{x} = 20$. Tentukan margin galat:
+$ME = 1.015$, lalu gunakan $t^{\star}_{35} = 2.03$ dan $SE=s/\sqrt{n}$ dalam
+rumus margin galat untuk memperoleh $s = 3$.\\[6mm]}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""ddecb7b2-412c-5926-ae2e-c224b431e638""]"
 6016d048-4580-5091-b311-2058706090ba,b23f3ca2-973a-561f-8d7b-0808ca9315e8,3,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,2135,2165,00da733b454c6bdf631d088d6abb316172575f2644ec9fdfeeb4253a5af8b001,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,2067,2097,b722252f92d09e99668a7f43f1de7dcb2f069bf838643d0c736dbf17f31fa50e,translated,"\end{exercisewrap}
 \footnotetext{Jawaban dapat bervariasi.
   Diagram kotak berdampingan sangat berguna untuk membandingkan
@@ -9171,6 +9984,13 @@ harus diwajibkan mengikuti ulang ujian mengemudi setelah mencapai usia 65 tahun?
 }{}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
+68df3617-7b80-5d2e-8115-bb7024bf7e26,56729bf4-abe9-5e57-b6a7-4f757e052fdc,1,,,extraTeX/eoceSolutions/eoceSolutions.tex,1716,1721,87c82ab5584f79a6e364a61f16edf4038440328780a7d9d9df5e463f857bf1ac,id-ID,,,,,visually_checked,"% 13
+
+\eocesol{Jika sampelnya besar, margin galat akan kira-kira sebesar
+$1.96 \times 100 / \sqrt{n}$. Kita ingin nilai ini kurang dari 10, sehingga
+diperoleh $n \geq 384.16$; artinya, kita memerlukan ukuran sampel sedikitnya 385 (bulatkan
+ke atas untuk perhitungan ukuran sampel!).}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""ddecb7b2-412c-5926-ae2e-c224b431e638""]"
 69156d43-6b19-55b9-8e16-317af2b1e4cf,a36d034f-f5c1-5f04-89ac-c4f4a6cd046d,1,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,986,1039,ad49b85b7f8990b5227fda65a52ea18f64221ef9362a56b8b7d28000b2298bdc,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,941,991,3ba075d64886f3f223e3b428bf2c59a9158036dce296ada9f0430f175676eddd,translated,"\subsection{Statistik robust}
 
 Bagaimana \indexthis{statistik sampel}{statistik sampel} untuk
@@ -9805,6 +10625,176 @@ Sekitar 20 mahasiswa tidak akan membeli satu pun buku (total 0 buku), sekitar 55
 \end{nexample}
 \end{examplewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""f5cfd01e-9712-58ec-ac48-481f923814c1""]"
+720c543b-cbc1-5fe2-b641-010c31510446,b822fc7b-fdbf-53cf-969f-470029e9c07c,1,,,ch_inference_for_means/TeX/ch_inference_for_means.tex,232,400,5cadf54230a62da1181104dff92c6fb207ddb747a4b5f71a9d543fd004720d44,id-ID,,,,,visually_checked,"
+Dalam praktiknya, lazim pula melakukan pemeriksaan secara mental untuk menilai
+apakah ada alasan untuk meyakini populasi yang mendasari
+memiliki kemencengan sedang (jika $n < 30$)
+atau memiliki pencilan yang sangat ekstrem ($n \geq 30$)
+di luar apa yang kita amati dalam data.
+Sebagai contoh, perhatikan jumlah pengikut
+pada setiap akun individual di Twitter,
+lalu bayangkan distribusinya.
+Sebagian besar akun telah mengumpulkan
+paling banyak beberapa ribu pengikut,
+sementara sebagian yang relatif sangat kecil telah menghimpun
+puluhan juta pengikut,
+yang berarti distribusinya sangat menceng.
+Ketika kita mengetahui bahwa data berasal dari distribusi
+yang kemencengannya seekstrem itu,
+diperlukan upaya tertentu untuk menentukan seberapa besar
+ukuran sampel yang diperlukan agar syarat normalitas
+terpenuhi.
+
+%if we were sampling accounts from Twitter
+%and examining the distribution of followers on the sampled
+%accounts, we can expect that the vast majority of accounts
+%will have fewer than 1,000 followers and that there
+%will be some very extreme outliers who have tens of millions
+%of followers.
+
+%Distribution of the number of subscribers for
+%      anyone who has uploaded a video to YouTube.
+%      Most such individuals will have built little to
+%      no following, while others will have amassed tens
+%      of millions of subscribers.
+%Generally, we do not presume you to always know when the
+%underlying population has particularly extreme outliers.
+%That~is, besides looking at the data itself,
+%considering the mental check for whether particularly extreme
+%outliers are likely to be a sanity check, not a formal check.
+
+%\begin{figure}[h]
+%  \centering
+%  \Figure{0.8}{outliers_and_ss_condition}
+%  \caption{Sample observations for
+%      Example~\ref{outliers_and_ss_condition_ex}.}
+%  \label{outliers_and_ss_condition}
+%\end{figure}
+
+%A more thorough sample size condition assessment would
+%also consider two additional aspects beyond the core
+%guidance above.
+
+%The most nuanced checks are then when the sample size
+%is very small -- and we have almost no observational data
+%to allow us to check the condition.
+%\begin{description}
+%\item[Population knowledge.]
+%    If we have information about the population beyond
+%    what we've observed in the sample, we would consider
+%    this information as well.
+%    For example, if the sample size is under 30
+%    and the population is known to be moderately skewed
+%    (something difficult to detect with a small sample
+%    in the observed data),
+%    we might still not consider the 
+%    For example, if the sample size is under 30 but the
+%    population is known to be moderately skewed,
+%    then the sample size condition is not reasonable.
+%    Likewise, if the population is known to have particularly
+%    extreme observations (examples below), then we may
+%    require a particularly large sample size if we want
+%    to use the normal model for $\bar{x}$.
+%\item[Relaxing the extreme outlier condition.]
+%    When the sample size gets very large,
+%    we may even be able to overcome issues with
+%    particularly extreme outliers.
+%    However, there isn't clear guidance, and instead,
+%    custom simulations can be helpful but are beyond
+%    the scope of this book.
+%\end{description}
+%In this first course in statistics,
+%you won't (and aren't expected to) have perfect judgement
+%on when the sample size condition is or is not met.
+%However, you are expected to be able to handle the
+%clear cut cases based on the core guidelines.
+
+%For those wanting to do more rigorous checks
+%or for the situation that the ,
+%then we add a 
+%below are slightly more careful checks, it's convenient
+%to break down 
+%\begin{description}
+%\item[Sample size under 30.]
+%    If the sample size is less than 30, then we simply follow
+%    the rule of thumb and there isn't
+%    extreme skew in the data (usually punctuated by
+%    extreme outliers), then we can proceed.
+%\item[Sample size at least 30.]
+%    If the sample size is at least 30 and there isn't
+%    extreme skew in the data (usually punctuated by
+%    extreme outliers), then we can proceed.
+%\end{description}
+%then it's generally reasonable to consider $\bar{x}$
+%as following a nearly normal distribution.
+
+%\Comment{Check the ``99\%'' and ``hundreds'' claim in the
+%  income example below.}
+%
+%\begin{examplewrap}
+%\begin{nexample}{Describe a couple populations that you know
+%    would have particularly extreme outliers.}
+%  Wealth distributions in many countries have
+%      particularly extreme outliers.
+%      For example, over 99\% of the population
+%      has fewer than \$10 million saved,
+%      while there are hundreds individuals in the
+%      United States with over \$1~billion and who
+%      are unlikely to be captured in even a moderate-sized
+%      sample.
+%
+%  Distribution of the number of subscribers for
+%      anyone who has uploaded a video to YouTube.
+%      Most such individuals will have built little to
+%      no following, while others will have amassed tens
+%      of millions of subscribers.
+%
+%%  So while we won't be quizzing you on a variety of applications
+%%  in this book, when you apply these skills elsewhere it is
+%%  important to keep this consideration in mind and do some
+%%  research if you aren't sure about outliers.
+%\end{nexample}
+%\end{examplewrap}
+%
+%Generally, we do not presume you to always know when the
+%underlying population has particularly extreme outliers.
+%That~is, besides looking at the data itself,
+%considering the mental check for whether particularly extreme
+%outliers are likely to be a sanity check, not a formal check.
+
+%\begin{examplewrap}
+%\begin{nexample}{Suppose we randomly sampled 20 individuals
+%    from the United States and considered their incomes. %,
+%    % which are shown in the following distribution:
+%    However, the population is known to have particularly
+%    extreme outliers, e.g. some individuals with incomes
+%    above \$10 million.
+%    No matter what we observe in the original 20 observations,
+%    can you say whether we should proceed with modeling
+%    $\bar{x}$ using a normal distribution?}
+%  When we know the population distribution to have particularly
+%  extreme outliers, then even if we observe no outliers in our
+%  sample, we should not proceed to model $\bar{x}$ using
+%  a normal distribution.
+%
+%  Generally, we do not presume you to always know when the
+%  underlying population has particularly extreme outliers.
+%  So while we won't be quizzing you on a variety of applications
+%  in this book, when you apply these skills elsewhere it is
+%  important to keep this consideration in mind and do some
+%  research if you aren't sure about outliers.
+%\end{nexample}
+%\end{examplewrap}
+
+%However, if one or more of clear outliers are present are evidently present,
+%the guidelines around a reasonable minimum sample become murky.
+%If 
+%We'll see some other examples throughout the rest of this book,
+%which will help in developing some intuition around this topic,
+%but in many cases, data with .
+
+\index{Teorema Limit Pusat!data normal|)}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""ddecb7b2-412c-5926-ae2e-c224b431e638""]"
 728dc61a-d943-514e-8d9b-72a8896524b1,06b28e64-c231-50b0-b1f6-648ba4ba5102,9,section_prose,en,ch_distributions/TeX/ch_distributions.tex,241,246,cae7c5aea09dcba100064b2480a76e54a60a787fc1a60875293e5e5b8a8414b7,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,239,244,fdc38997390e6557a1d0c795acacc5597bb1c6f46150816a668d9b03c04c84da,language_reviewed,"
 Pengamatan di atas rata-rata selalu memiliki skor-Z positif,
 sedangkan pengamatan di bawah rata-rata selalu memiliki skor-Z negatif.
@@ -10844,6 +11834,23 @@ Dalam persoalan ini, kita ingin memeriksa semua kategori secara serentak, bukan 
 
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""579b2fdc-113b-597a-b36e-0ece04275728""]"
+85f6e2ef-dd3f-5dc8-9199-5155fba204b0,3462b86a-a3a3-5279-bd35-4f9e93756b81,1,,,ch_inference_for_means/TeX/one-sample_means_with_the_t-distribution.tex,173,188,f99b0adab758c82ff622dfe38935d34288266fce37f52ed874ca7079df5420c7,id-ID,,,,,visually_checked,"\eoce{\qt{Tentukan rata-rata\label{find_mean_2_sided}}
+Anda diberi hipotesis berikut:
+\begin{align*}
+H_0&: \mu = 60 \\
+H_A&: \mu \neq 60
+\end{align*}
+Kita mengetahui bahwa simpangan baku sampel adalah 8
+dan ukuran sampelnya 20.
+Untuk nilai rata-rata sampel berapakah nilai-p sama dengan 0.05?
+Asumsikan bahwa semua kondisi yang diperlukan untuk inferensi terpenuhi.
+}{}
+
+\D{\newpage}
+
+% 10
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""ddecb7b2-412c-5926-ae2e-c224b431e638""]"
 873ad0f2-99d9-5829-b74d-210a9a962dd4,76494447-2b5b-55a0-acf9-028b903fa8cb,1,exercise,en,ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,118,131,342c9fbbb706ee7ad1c9d425616bb5ce797193008e8b5647ca849b8dd0cfa4e5,id-ID,repo/ch_intro_to_data/TeX/sampling_principles_and_strategies.tex,115,128,a866b20e2c061e4f9f33951a438be37527cd3a6ab950e4c69601165dd9929276,translated,"\eoce{\qt{Kepuasan mata kuliah antarkelompok\label{course_satisfaction_sections}} 
 Sebuah kelas besar di perguruan tinggi memiliki 160 mahasiswa. Seluruh 
 mahasiswa mengikuti kuliah bersama, tetapi untuk sesi praktikum mereka dibagi 
@@ -10923,6 +11930,14 @@ Jelaskan alasan Anda.
 \D{\newpage}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""b8ee2bc6-8b07-51f4-8124-2fd462cd606b""]"
+886cb4fb-73aa-5393-a3cf-86d34c5740a3,511eb98c-2cfa-53a9-b7ad-a7c82dae7fa0,1,,,ch_inference_for_means/TeX/one-sample_means_with_the_t-distribution.tex,189,195,9293bb014d9f94dc30fc36f8a16c3442e18436c8815e9cbc5fb87c016797e235,id-ID,,,,,visually_checked,"\eoce{\qt{$t^\star$ versus $z^\star$\label{critical_t_vs_z}} Untuk tingkat kepercayaan
+tertentu, $t^{\star}_{df}$ lebih besar daripada $z^{\star}$. Jelaskan bagaimana nilai $t^{\star}_{df}$
+yang sedikit lebih besar daripada $z^{\star}$ memengaruhi lebar interval kepercayaan.
+}{}
+
+% 11
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""ddecb7b2-412c-5926-ae2e-c224b431e638""]"
 88770e33-2a29-573d-a131-80ea1953918e,1a632010-0fdb-5011-938e-4bf7023aac50,11,guided_inline_answer,en,ch_distributions/TeX/ch_distributions.tex,1572,1576,8f25989b8b1f7c1e2b3962aa9f11e91f7087b14d87aa212b813b297160c959cc,id-ID,qa/b016-build/source-snapshot-b016/ch_distributions/TeX/ch_distributions.tex,1535,1539,e6820c7feccbdea9bd8d48e5993ba45ad3a1ffcd42bb1ca6c3d0e24729c03595,visually_checked,"\footnotetext{Salah satu jawaban yang mungkin: jika teman-teman tersebut
   saling mengenal, asumsi independensi mungkin tidak terpenuhi. Sebagai
   contoh, orang-orang yang saling mengenal mungkin memiliki kebiasaan
@@ -13465,6 +14480,19 @@ Anda, apakah pernyataan dalam berita tersebut dapat dibenarkan?
 }{}
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
+a281af99-9f33-5fed-a5a8-398fffc469ee,d06744cc-af16-5a2a-a7bc-0424420b376b,1,,,ch_inference_for_means/TeX/one-sample_means_with_the_t-distribution.tex,80,91,31a2de8dfde1232cf38ca37f0c08731a8225d4a0bfe58256e1ebd69fd46f5d49,id-ID,,,,,visually_checked,"\eoce{\qt{Menelusuri perhitungan secara terbalik, Bagian II\label{work_backwards_2}} Interval kepercayaan 90\%
+untuk rata-rata populasi adalah (65, 77). Distribusi populasi kira-kira
+normal dan simpangan baku populasi tidak diketahui. Interval
+kepercayaan ini didasarkan pada sampel acak sederhana berisi 25 pengamatan.
+Hitung rata-rata sampel, margin galat, dan simpangan baku
+sampel.
+}{}
+
+\D{\newpage}
+
+% 7
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""ddecb7b2-412c-5926-ae2e-c224b431e638""]"
 a2c4717f-e047-5fd7-9edc-ef6be8335965,51f451c9-2225-5065-98f3-cd1cc5d4a119,126,exercise,en,ch_distributions/TeX/binomial_distribution.tex,194,211,58530f01c2af80b436a27453c824b22732273e5cd2534258c1ffb1c67e9ef7ef,id-ID,qa/b016-build/source-snapshot-b016/ch_distributions/TeX/binomial_distribution.tex,201,218,182ac7012d48f60b34ea3cb0a63a76c6ed3c2e613882fa352a4c60598e0edb16,visually_checked,"% 26
 
 \eoce{\qt{Anak laki-laki\label{male_children}} Walaupun peluang memiliki anak
@@ -13797,6 +14825,163 @@ Untuk menilai hipotesis tersebut, kita mengukur seberapa jauh cacah teramati ber
 
 
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""579b2fdc-113b-597a-b36e-0ece04275728""]"
+a50c03f4-dd49-5387-bf9e-b919be81d79a,967b208e-fa4a-5094-8e54-eeafaae152cf,1,,,ch_inference_for_means/TeX/ch_inference_for_means.tex,897,1052,ee67646d201bf0538b364884b60e559ce68e6f67ee21ee0491f97fa70b37cfb5,id-ID,,,,,visually_checked,"\newcommand{\cherryblossomn}{100}
+\newcommand{\cherryblossommean}{97.32}
+\newcommand{\cherryblossomnull}{93.29}
+\newcommand{\cherryblossomsd}{16.98}
+\newcommand{\cherryblossomse}{1.70}
+\newcommand{\cherryblossomz}{2.37}
+
+\noindent%
+Apakah pelari di AS pada umumnya semakin cepat atau semakin lambat dari waktu ke waktu? Kita membahas pertanyaan ini dalam konteks Cherry Blossom Race, yaitu lomba lari 10 mil yang diselenggarakan di Washington, DC setiap~musim semi.
+
+Waktu rata-rata seluruh pelari yang menyelesaikan Cherry Blossom Race pada 2006 adalah \cherryblossomnull{} menit (93 menit dan sekitar 17 detik). Dengan menggunakan data dari \cherryblossomn{} peserta Cherry Blossom Race 2017, kita ingin menentukan apakah para pelari dalam lomba ini semakin cepat atau semakin lambat, dibandingkan dengan kemungkinan lain bahwa tidak terjadi perubahan.
+
+\begin{exercisewrap}
+\begin{nexercise}
+Hipotesis apa yang sesuai untuk konteks ini?\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{$H_0$: Waktu rata-rata lari 10 mil sama pada 2006 dan 2017. $\mu = \cherryblossomnull{}$ menit. $H_A$: Waktu rata-rata lari 10 mil pada 2017 \emph{berbeda} dari waktu pada 2006. $\mu \neq \cherryblossomnull{}$ menit.}
+
+\begin{exercisewrap}
+\begin{nexercise}
+Data berasal dari sampel acak sederhana atas seluruh peserta,
+sehingga pengamatan-pengamatannya saling independen.
+Namun, apakah kita perlu mengkhawatirkan syarat kenormalan?
+Lihat Gambar~\ref{run10SampTimeHistogram} yang menampilkan histogram
+waktu lari sampel, lalu evaluasilah apakah kita dapat
+melanjutkan analisis.\footnotemark{}
+\end{nexercise}
+\end{exercisewrap}
+\footnotetext{Dengan sampel berukuran \cherryblossomn{},
+  kita hanya perlu khawatir jika terdapat pencilan yang sangat
+  ekstrem.
+  Histogram data tidak menunjukkan pencilan yang mengkhawatirkan
+  (dan dapat dikatakan tidak menunjukkan pencilan sama sekali).}
+
+\begin{figure}[h]
+  \centering
+  \Figures[Ditampilkan histogram waktu untuk sampel data Cherry Blossom Race. Data hampir simetris dengan pusat sekitar 100 menit dan simpangan baku kira-kira 15 sampai 20 menit. Semua waktu berada di antara 50 dan 140 menit.]{0.65}{run10SampTimeHistogram}{run17SampTimeHistogram} 
+  \caption{Histogram \var{time} untuk sampel data
+      Cherry Blossom Race.}
+  \label{run10SampTimeHistogram}
+\end{figure}
+
+Ketika melakukan uji hipotesis untuk rata-rata satu sampel,
+prosesnya hampir sama dengan melakukan uji hipotesis
+untuk satu proporsi.
+Pertama, kita mencari skor-Z menggunakan nilai teramati,
+nilai nol, dan galat baku;
+namun, kita menyebutnya \term{skor-T} karena kita menggunakan
+distribusi-$t$ untuk menghitung luas ekor.
+Kemudian kita mencari nilai-p dengan gagasan yang sama seperti
+sebelumnya: cari luas satu ekor di bawah distribusi
+sampling, lalu kalikan dua.
+
+\D{\newpage}
+
+%\begin{exampleewrap}
+%\begin{nexample}{With independence satisfied and normality
+%    not a concern, we can proceed with performing a hypothesis
+%    test using the $t$-distribution.
+%    The sample mean and sample standard deviation of the
+%    sample of \cherryblossomn{} runners from the 2017 Cherry
+%    Blossom Race are \cherryblossommean{} and
+%    \cherryblossomsd{} minutes, respectively.
+%    Recall that the sample size is 100.
+%    What is the p-value for the test, and what is your
+%    conclusion?}
+%\end{nexercise}
+%\end{exercisewrap}
+
+\begin{examplewrap}
+\begin{nexample}{Karena syarat independensi
+    dan kenormalan telah terpenuhi,
+    kita dapat melanjutkan uji hipotesis dengan
+    distribusi-$t$.
+    Rata-rata sampel dan simpangan baku sampel
+    dari sampel
+    \cherryblossomn{} pelari dalam
+    Cherry Blossom Race 2017
+    adalah \cherryblossommean{} dan \cherryblossomsd{} menit,
+    secara berurutan.
+    Ingat bahwa ukuran sampelnya adalah 100
+    dan waktu lari rata-rata pada 2006 adalah
+    \cherryblossomnull{} menit.
+    Carilah statistik uji dan nilai-p.
+    Apa kesimpulan Anda?}
+
+  Untuk mencari statistik uji (skor-T),
+  terlebih dahulu kita menentukan galat baku:
+  \begin{align*}
+  SE
+    = \cherryblossomsd{} / \sqrt{\cherryblossomn{}}
+    = \cherryblossomse{}
+  \end{align*}
+  Sekarang kita dapat menghitung \emph{skor-T}
+  menggunakan rata-rata sampel (\cherryblossommean{}),
+  nilai nol (\cherryblossomnull{}), dan $SE$:
+  \begin{align*}
+  T
+    = \frac{\cherryblossommean{} - \cherryblossomnull{}}
+        {\cherryblossomse{}}
+    = \cherryblossomz{}
+  \end{align*}
+  Untuk $df = \cherryblossomn{} - 1 = 99$,
+  dengan perangkat lunak statistik
+  (atau tabel-$t$) kita dapat menentukan bahwa luas satu ekornya adalah 0.01,
+  yang kita kalikan dua untuk memperoleh nilai-p:~0.02.
+
+  Karena nilai-p lebih kecil daripada 0.05,
+  kita menolak hipotesis nol.
+  Artinya, data memberikan bukti kuat bahwa waktu lari
+  rata-rata dalam Cherry Blossom Race 2017 berbeda
+  dari rata-rata 2006.
+  Karena nilai teramati berada di atas nilai nol
+  dan kita telah menolak hipotesis nol, kita menyimpulkan
+  bahwa pelari dalam lomba tersebut rata-rata lebih lambat pada 2017
+  daripada pada 2006.
+\end{nexample}
+\end{examplewrap}
+
+%%\begin{onebox}{When using a $t$-distribution, we use a T-score (same as Z-score)}
+%To help us remember to use the $t$-distribution,
+%we use a $T$ to represent the test statistic,
+%and we often call this a \term{T-score}.
+%The Z-score and T-score are computed in the exact same way
+%and are conceptually identical:
+%each represents how many standard errors the observed value
+%is from the null value.
+%%\end{onebox}
+
+\begin{onebox}{Uji hipotesis untuk satu rata-rata}
+  Setelah Anda menentukan bahwa uji hipotesis satu rata-rata merupakan
+  prosedur yang tepat, terdapat empat langkah untuk menyelesaikan
+  pengujian:
+  \begin{description}
+  \item[Persiapkan.]
+      Identifikasi parameter yang menjadi perhatian,
+      tuliskan hipotesis,
+      tentukan tingkat signifikansi,
+      serta identifikasi $\bar{x}$, $s$, dan $n$.
+  \item[Periksa.]
+      Verifikasi syarat-syarat agar $\bar{x}$ mendekati distribusi normal.
+  \item[Hitung.]
+      Jika syarat-syarat terpenuhi, hitung $SE$,
+      hitung skor-T, dan tentukan nilai-p.
+  \item[Simpulkan.]
+      Evaluasi uji hipotesis dengan membandingkan nilai-p
+      dengan $\alpha$, lalu berikan kesimpulan dalam konteks
+      masalah tersebut.
+  \end{description}
+\end{onebox}
+
+\CalculatorVideos{interval kepercayaan dan uji hipotesis untuk satu rata-rata}
+
+
+{\input{ch_inference_for_means/TeX/one-sample_means_with_the_t-distribution.tex}}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""ddecb7b2-412c-5926-ae2e-c224b431e638""]"
 a56dd0b2-02cf-55e6-9bb4-2aded3729680,be09309b-7571-5131-8152-e98c6653b9a7,2,subsection_prose,en,ch_probability/TeX/ch_probability.tex,428,469,ba033dc84c443ed34e340d859c76ac9d7d09abf98efc3b638b0f90c5dfc01fe2,id-ID,repo/ch_probability/TeX/ch_probability.tex,428,469,6ac1bc7610e55f3c7033c7e1c2d0abcc1fb4f02412ab77b50536755c82470a11,language_reviewed,"\footnotetext{Probabilitas pada (a) tidak berjumlah~1.
     Probabilitas kedua pada (b) bernilai negatif.
     Dengan demikian tersisa (c), yang memang memenuhi
@@ -14002,6 +15187,12 @@ sesuai untuk ragam data dan konteks yang sangat luas.
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""42e21f32-ce64-55c7-b9f8-04eaad367833""]"
 a978e4b6-1fec-5e8f-9c46-cbf239644527,60a2cb71-2aa1-5917-9379-f7f55474c01a,1,review_heading,en,ch_intro_to_data/TeX/review_exercises.tex,1,1,fa49e97aff561605b9912c9d0e3a0c35242bb6b73f9d388744260b6299cae8da,id-ID,repo/ch_intro_to_data/TeX/review_exercises.tex,4,4,fa49e97aff561605b9912c9d0e3a0c35242bb6b73f9d388744260b6299cae8da,translated,"\reviewexercisesheader{}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+ab535f5e-7bc0-58c8-adc2-3f009b60bcbb,0403c2e4-6d55-5d50-acdc-b36647764c18,1,,,extraTeX/eoceSolutions/eoceSolutions.tex,1678,1682,15fe413457f8d2846afdc5e03d7be1f6a6c2acd192bf639756ee3d6be9c54371,id-ID,,,,,visually_checked,"
+\end{multicols}
+\newpage
+\begin{multicols}{2}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""ddecb7b2-412c-5926-ae2e-c224b431e638""]"
 abfbcf57-b2a6-51ca-b613-769df693c412,b23f3ca2-973a-561f-8d7b-0808ca9315e8,2,subsection_prose,en,ch_summarizing_data/TeX/ch_summarizing_data.tex,2112,2129,75d153624272122fc1ff7598af290a08b282ea1a94d6d27946dfa7ecf5f63d2e,id-ID,repo/ch_summarizing_data/TeX/ch_summarizing_data.tex,2046,2061,66ebed6d3ec092add45e0bf713a831cd32c2f31a752cef4d1efdebdf0f30c0dc,translated,"\end{exercisewrap}
 \footnotetext{Jawaban dapat sedikit berbeda.
   County yang mengalami pertambahan penduduk cenderung memiliki
@@ -14571,6 +15762,170 @@ Tentukan probabilitas berikut untuk lemparan dua dadu:\footnotemark
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+b1b7e87b-ef86-528b-a1cc-fad27dffc87e,81757651-b82f-5762-a07e-1ed7309b9bf9,1,,,ch_inference_for_means/TeX/ch_inference_for_means.tex,634,796,e488a127faa7e527d516ab67c9125b2e24af932fef8e22de1c62a4b8404b2ce1,id-ID,,,,,visually_checked,"
+
+\D{\newpage}
+
+\subsection[Interval kepercayaan $t$ satu sampel]
+    {Interval kepercayaan $\pmb{t}$ satu sampel}
+\label{oneSampleTConfidenceIntervals}
+
+\index{data!lumba-lumba dan merkuri|(}
+
+Mari kita mulai mengenal penerapan distribusi $t$
+dalam konteks contoh tentang kandungan merkuri
+di otot lumba-lumba.
+%Dolphins are at the top of the oceanic food chain, which causes dangerous substances such as mercury to concentrate in their organs and muscles.
+Konsentrasi merkuri yang tinggi merupakan masalah penting
+baik bagi lumba-lumba
+maupun hewan lain, seperti manusia, yang sesekali memakannya.
+\captionsetup{width=86mm}
+
+\begin{figure}[h]
+\centering
+\Figures[Seekor lumba-lumba Risso tampak muncul ke permukaan air. Bagian di depan wajahnya sebagian besar berwarna putih, kemudian tubuhnya bercorak abu-abu dan putih.]{0.8}{rissosDolphin}{rissosDolphin.jpg}  \\
+\addvspace{2mm}
+\begin{minipage}{\textwidth}
+   \caption[rissosDolphinPic]{Seekor lumba-lumba Risso.\vspace{-1mm} \\
+   -----------------------------\vspace{-2mm}\\
+   {\footnotesize Foto oleh Mike Baird (\oiRedirect{textbook-bairdphotos_com}{www.bairdphotos.com}). \oiRedirect{textbook-CC_BY_2}{lisensi~CC~BY~2.0}.}\vspace{-8mm}}
+   \label{rissosDolphin}
+\end{minipage}
+\stdvspace{}
+\end{figure}
+\captionsetup{width=\mycaptionwidth}
+
+Kita akan menentukan interval kepercayaan bagi rata-rata kandungan merkuri dalam otot lumba-lumba dengan menggunakan sampel 19 lumba-lumba Risso dari wilayah Taiji di Jepang. Data diringkas dalam Gambar~\ref{summaryStatsOfHgInMuscleOfRissosDolphins}. Nilai minimum dan maksimum yang teramati dapat digunakan untuk menilai apakah terdapat pencilan yang jelas.
+
+\begin{figure}[h]
+\centering
+\begin{tabular}{ccc cc}
+\hline
+$n$ & $\bar{x}$ & $s$ & minimum & maksimum \\
+19   & 4.4	  & 2.3  & 1.7	       & 9.2 \\
+\hline
+\end{tabular}
+\caption{Ringkasan kandungan merkuri dalam otot
+    19 lumba-lumba Risso dari wilayah Taiji.
+    Pengukuran dinyatakan dalam mikrogram merkuri per gram basah
+    otot ($\mu$g/g basah).}
+\label{summaryStatsOfHgInMuscleOfRissosDolphins}
+\end{figure}
+
+\begin{examplewrap}
+\begin{nexample}{Apakah syarat independensi dan
+    normalitas terpenuhi untuk kumpulan~data ini?}
+  Observasi-observasi tersebut merupakan sampel acak sederhana,
+  sehingga independensi masuk akal.
+  Statistik ringkasan dalam
+  Gambar~\ref{summaryStatsOfHgInMuscleOfRissosDolphins}
+  tidak menunjukkan pencilan yang jelas karena
+  semua observasi berada dalam 2.5 simpangan baku
+  dari rata-rata.
+  Berdasarkan bukti ini, syarat normalitas
+  tampaknya masuk akal.
+\end{nexample}
+\end{examplewrap}
+
+Dalam model normal, kita menggunakan $z^{\star}$ dan galat baku untuk menentukan lebar interval kepercayaan. Kita sedikit menyesuaikan rumus interval kepercayaan ketika menggunakan distribusi $t$:
+\begin{align*}
+&\text{estimasi titik} \ \pm\  t^{\star}_{df} \times SE
+&&\to
+&&\bar{x} \ \pm\  t^{\star}_{df} \times \frac{s}{\sqrt{n}}
+\end{align*}
+%The sample mean is the point estimate of interest.
+%The standard error is computed using $SE = s/\sqrt{n}$.
+
+\begin{examplewrap}
+\begin{nexample}{Dengan menggunakan statistik ringkasan dalam
+    Gambar~\ref{summaryStatsOfHgInMuscleOfRissosDolphins},
+    hitung galat baku bagi rata-rata kandungan merkuri
+    pada $n = 19$ lumba-lumba tersebut.}
+  Kita memasukkan $s$ dan $n$ ke dalam rumus:
+  $
+  %\begin{align*}
+  SE
+    = s / \sqrt{n}
+    = 2.3 / \sqrt{19}
+    = 0.528
+  %\end{align*}
+  $.
+\end{nexample}
+\end{examplewrap}
+
+Nilai $t^{\star}_{df}$ merupakan nilai kritis yang kita peroleh berdasarkan
+tingkat kepercayaan dan distribusi $t$ dengan $df$ derajat
+kebebasan.
+Nilai batas itu dicari dengan cara yang sama seperti pada distribusi
+normal: kita mencari $t^{\star}_{df}$ sedemikian rupa sehingga
+proporsi distribusi $t$ dengan $df$ derajat
+kebebasan yang berada dalam jarak $t^{\star}_{df}$
+dari 0 sama dengan tingkat kepercayaan yang dikehendaki.
+
+\begin{examplewrap}
+\begin{nexample}{Ketika $n = 19$, berapakah banyak
+    derajat kebebasan yang sesuai?
+    Cari $t^{\star}_{df}$ untuk banyaknya derajat kebebasan ini
+    dan tingkat kepercayaan 95\%}
+  Banyaknya derajat kebebasan mudah dihitung:
+  $df = n - 1 = 18$.
+  
+  Dengan perangkat lunak statistik, kita mencari nilai kritis yang membuat
+  luas ekor atas sama dengan 2.5\%:
+  $t^{\star}_{18} = 2.10$.
+  Luas di bawah -2.10 juga akan sama dengan 2.5\%.
+  Artinya, 95\% distribusi $t$ dengan $df = 18$
+  terletak dalam jarak 2.10 satuan dari~0.
+\end{nexample}
+\end{examplewrap}
+
+%\begin{onebox}{Degrees of freedom for a single sample}
+%If the sample has $n$ observations and we are examining a single mean, then we use the $t$-distribution with $df=n-1$ degrees of freedom.
+%\end{onebox}
+
+%In our current example, we should use the $t$-distribution
+%with $df=19-1=18$ degrees of freedom.
+%We can generally identify $t_{18}^{\star}$
+%using statistical software.
+%Alternatively, we could use the $t$-table in
+%Appendix~\ref{tDistributionTable}.
+%Generally the value of $t^{\star}_{df}$ is slightly larger
+%than what we would get under the normal model with~$z^{\star}$.
+
+\begin{examplewrap}
+\begin{nexample}{Hitung dan tafsirkan interval kepercayaan 95\%
+    bagi rata-rata kandungan merkuri pada lumba-lumba Risso.}
+  Kita dapat menyusun interval kepercayaan sebagai
+  \begin{align*}
+  \bar{x} \ \pm\  t^{\star}_{18} \times SE
+    \quad \to \quad 4.4 \ \pm\  2.10 \times 0.528
+    \quad \to \quad (3.29, 5.51)
+  \end{align*}
+  Kita yakin 95\% bahwa rata-rata kandungan merkuri dalam otot
+  lumba-lumba Risso berada antara 3.29 dan 5.51 $\mu$g/gram basah,
+  yang dianggap sangat tinggi.
+\end{nexample}
+\end{examplewrap}
+
+\index{data!lumba-lumba dan merkuri|)}
+
+\begin{onebox}{Menentukan
+    interval kepercayaan $\pmb{\MakeLowercase{t}}$
+    bagi rata-rata}
+  Berdasarkan sampel yang terdiri atas $n$ observasi saling independen
+  dan mendekati normal, interval kepercayaan bagi rata-rata
+  populasi adalah
+  \begin{align*}
+  &\text{estimasi titik} \ \pm\  t^{\star}_{df} \times SE
+  &&\to
+  &&\bar{x} \ \pm\  t^{\star}_{df} \times \frac{s}{\sqrt{n}}
+  \end{align*}
+  dengan $\bar{x}$ sebagai rata-rata sampel, $t^{\star}_{df}$
+  sesuai dengan tingkat kepercayaan dan derajat kebebasan
+  $df$, dan $SE$ sebagai galat baku yang diestimasi dari
+  sampel.
+\end{onebox}
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""ddecb7b2-412c-5926-ae2e-c224b431e638""]"
 b21f2b5d-8c9f-5c39-800a-4b45b9147b0c,20534028-bf75-5f73-b8fd-26400b3665d6,207,public_answer,en,extraTeX/eoceSolutions/eoceSolutions.tex,996,1005,46782e38c0f7921617a12ffba914ea65d237abf721b010587da6ad7ecd112fc4,id-ID,qa/b020-translation/staging/eoceSolutions_b020_public_odd.id.tex,1,10,5b190e9dd1c980e10fa5427a47cbb90d5b36b069644ff0658d207a33ad17bafe,visually_checked,"% 7
 
 \eocesol{Ingat bahwa rumus umumnya adalah $\text{estimasi titik} \pm z^{\star} \times SE$.
@@ -14837,6 +16192,19 @@ adalah~1.\footnotemark
 \end{nexercise}
 \end{exercisewrap}
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+b8685183-a9b9-5aec-860f-c2c8dab38188,a94b5d20-6ac9-5a7e-b93f-acbd2d72bec6,1,,,ch_inference_for_means/TeX/one-sample_means_with_the_t-distribution.tex,249,260,f488bf9055b440cb75e0cb27726b8f5f52bb56abddfed4b7e70e9e28fd420c57,id-ID,,,,,visually_checked,"\eoce{\qt{Penghematan asuransi mobil\label{car_insurance_savings}}
+Seorang peneliti pasar ingin mengevaluasi penghematan asuransi mobil
+di perusahaan pesaing.
+Berdasarkan penelitian sebelumnya, ia mengasumsikan bahwa simpangan
+baku penghematan adalah \$100.
+Ia ingin mengumpulkan data sehingga memperoleh margin
+galat tidak lebih dari \$10 pada tingkat kepercayaan 95\%.
+Seberapa besar sampel yang harus ia kumpulkan?
+}{}
+
+% 14
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""ddecb7b2-412c-5926-ae2e-c224b431e638""]"
 b89a4cf1-5b2d-5d98-a2f5-5767ecfc6d06,0a016c30-8bee-5a38-9d9b-fab58e544005,25,guided_inline_answer,en,ch_distributions/TeX/ch_distributions.tex,507,509,7427e8b5c63a6a96a48a61771542d36cbf849397f672d6867085a6ebf694578a,id-ID,repo/ch_distributions/TeX/ch_distributions.tex,493,496,474b3c760bfeb35315a434d08df335c978291d008d40b4e83f427ab06cd520f5,language_reviewed,"\footnotetext{Jika Edward memperoleh skor lebih tinggi daripada 36\%
   peserta SAT, sekitar 64\% peserta tentu memperoleh skor lebih tinggi
   daripada Edward. \\
@@ -15858,6 +17226,16 @@ Jelaskan.
 \item Perkirakan IQR suhu (dalam \degree C) pada bulan Juni di LA.
 \end{parts}
 }{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""5013dc5b-3a29-5516-9948-98c064aa43e8""]"
+cb21bfe4-5e38-52dd-a786-cf051e42180f,23bfd15f-0fd2-544f-92a6-7b862a1c181b,1,,,extraTeX/eoceSolutions/eoceSolutions.tex,1683,1691,2f7058628140c70c8f35023a774c96d02002a146333c7b799ee59d8bae3fcc78,id-ID,,,,,visually_checked,"% 9
+
+\eocesol{$T$ adalah -2.09 atau 2.09.
+Kemudian $\bar{x}$ adalah salah satu dari nilai berikut:
+\begin{align*}
+-2.09 &= \frac{\bar{x} - 60}{\frac{8}{\sqrt{20}}} \ \rightarrow \ \bar{x} = 56.26 \\
+2.09 &= \frac{\bar{x} - 60}{\frac{8}{\sqrt{20}}} \ \rightarrow \ \bar{x} = 63.74
+\end{align*}}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""ddecb7b2-412c-5926-ae2e-c224b431e638""]"
 cb66d0f0-88e5-5c7e-9c44-55dd6205470a,1abc8a2f-fff1-5a7e-9e46-948375210665,1,end-of-section-exercise,en,ch_probability/TeX/defining_probability.tex,50,63,977ebe301fed61467d377d4bf62e7418806d58984b7868e6d0d37841b1df8f10,id-ID,repo/ch_probability/TeX/defining_probability.tex,47,60,dfef240e72cb72019dbe1c45e0fbec9c83f5ba75558bca3ba8d441721453e175,language_reviewed,"% 3
 
 \eoce{\qt{Empat permainan, satu pemenang\label{four_games_one_winner}} Berikut empat
@@ -15872,6 +17250,41 @@ Biaya bermain setiap permainan adalah \$1. Jelaskan penalaran Anda.
 \item Jika proporsi kepala lebih kecil dari 0.30, Anda menang \$1.
 \end{parts}
 }{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+cbce58ca-1a8b-5a1d-9608-a81b32fb1c36,03cf8ecd-73d8-5029-8d61-455f33d332ac,1,,,ch_inference_for_means/TeX/one-sample_means_with_the_t-distribution.tex,92,125,b91cc9d5c9027f6499712dbbe4d4af3c04aa4af48368c76164f3c95e7a24708a,id-ID,,,,,visually_checked,"\eoce{\qt{Kebiasaan tidur warga New York\label{ny_sleep_habits_2_sided}}
+New York dikenal sebagai
+``kota yang tidak pernah tidur''.
+Suatu sampel acak yang terdiri atas 25 warga New York ditanya berapa lama
+mereka tidur setiap malam.
+Ringkasan statistik data tersebut ditampilkan
+di bawah ini.
+Estimasi titik menunjukkan bahwa, secara rata-rata, warga New York tidur kurang dari
+8~jam per malam.
+Apakah hasilnya signifikan secara statistik?
+\begin{center}
+\begin{tabular}{rrrrrr}
+ \hline
+ n   & $\bar{x}$ & s     & min   & maks \\
+ \hline
+ 25  & 7.73      & 0.77  & 6.17  & 9.78 \\
+  \hline
+\end{tabular}
+\end{center}
+
+\begin{parts}
+\item Tuliskan hipotesis dalam simbol dan kata-kata.
+\item Periksa kondisi, lalu hitung statistik uji, $T$, dan
+derajat kebebasan yang terkait.
+\item Tentukan dan tafsirkan nilai-p dalam konteks ini. Menggambar sketsa mungkin
+membantu.
+\item Apa kesimpulan uji hipotesis tersebut?
+\item Jika Anda menyusun interval kepercayaan 90\% yang bersesuaian dengan
+uji hipotesis ini, apakah Anda memperkirakan 8 jam akan berada dalam interval tersebut?
+\end{parts}
+}{}
+
+% 8
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""ddecb7b2-412c-5926-ae2e-c224b431e638""]"
 cc185b05-889f-531c-baa5-94193f2747bd,1606b87c-a0d8-564e-9bed-342ebb189f94,118,exercise,en,ch_foundations_for_inf/TeX/hypothesis_testing.tex,81,100,17ac2d97afe5213939fa31c9430b70fc23f9c73d21e41074d5aac5b04cacbac8,id-ID,qa/b021-translation/staging/hypothesis_testing.id.tex,81,100,8f145882d1a5cbb8be9f71238200f73c01c633b67bc72c4572b432a545451f95,visually_checked,"\eoce{\qt{Menikah pada usia 25 tahun\label{married_at_25_prop_ht_errors}}
 Sebuah studi mengemukakan bahwa 25\% orang berusia 25 tahun telah
 menikah.
@@ -18572,6 +19985,22 @@ populasi yang diklaim.
 
 % 7
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+e618fe9d-2ab5-583b-826c-8f0eaa40d486,6172265b-ea9c-58f2-9602-b9bfc27eb6c6,1,,,ch_inference_for_means/TeX/one-sample_means_with_the_t-distribution.tex,21,35,e62726746f6c3bd95ff9689ec50ddafedffa5e204a1035306bea8106cf7f3607,id-ID,,,,,visually_checked,"\eoce{\qt{Distribusi $t$\label{t_distribution}}
+Gambar di sebelah kanan memperlihatkan tiga kurva
+unimodal dan simetris:
+distribusi normal baku (z),
+distribusi $t$ dengan 5 derajat kebebasan,
+dan distribusi $t$ dengan 1 derajat kebebasan.
+Tentukan kurva mana yang mewakili masing-masing distribusi, lalu jelaskan alasan Anda.
+\begin{center}
+
+\FigureFullPath[Tiga distribusi ditampilkan; semuanya simetris, berbentuk lonceng, dan berpusat di nol. Kurva pertama digambar dengan garis utuh dan memiliki puncak tengah paling tinggi dan tajam; ekornya paling tipis dan tampak mendekati nol sekitar -3 dan 3. Kurva kedua digambar dengan garis putus-putus dan memiliki tinggi puncak serta ketebalan ekor di antara kedua kurva lain; ekornya mendekati nol sekitar -4 dan 4. Kurva ketiga digambar dengan garis titik-titik dan memiliki puncak tengah paling rendah dan lebar; ekornya paling tebal dan masih tampak melampaui -4 dan 4.]{0.4}{ch_inference_for_means/figures/eoce/t_distribution/t_distribution}
+\end{center}
+}{}
+
+% 3
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""ddecb7b2-412c-5926-ae2e-c224b431e638""]"
 e71856cd-6923-57df-85db-45ba3a69df12,e63fd8cb-be7f-5a22-bb5e-a2dbb024e1f5,31,guided_exercise,en,ch_probability/TeX/ch_probability.tex,2164,2168,bf3e56ac5caa0fa08c8b0899c1b9ad5463d23a60fcd6844ababdb2cebb0ccc65,id-ID,repo/ch_probability/TeX/ch_probability.tex,2153,2157,2293556e526976211a25d1ec4eed0b8be11abce0bc2bcc991a8f0941526dde35,language_reviewed,"\begin{exercisewrap}
 \begin{nexercise}
 Perhitungan dalam Contoh~\ref{sdOfJohnsCommuteWeeklyTime} bergantung pada asumsi penting: waktu perjalanan setiap hari saling independen dari waktu perjalanan pada hari-hari lain dalam minggu tersebut. Menurut Anda, apakah asumsi ini valid? Jelaskan.\footnotemark
@@ -19326,6 +20755,23 @@ dipilih secara acak pernah terkena cacar air?
 yang dipilih secara acak \textit{tidak} pernah terkena cacar air?
 \end{parts}
 }{}","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""d79c0e4f-9e37-5e77-9080-34fed0852af2""]"
+f59796c8-cd05-50ed-9513-e948b0387346,50c38fb2-13dd-5b83-9510-6b147bd0f7a8,1,,,ch_inference_for_means/TeX/one-sample_means_with_the_t-distribution.tex,54,69,50fd51e52760072df16818efb76630d1dc4727c6d8e4a6cd646c9a02ecbd07cd,id-ID,,,,,visually_checked,"\eoce{\qt{Tentukan nilai-p, Bagian II\label{find_T_pval_2_2_sided}}
+Suatu sampel acak independen
+dipilih dari populasi yang kira-kira berdistribusi normal
+dengan simpangan baku
+yang tidak diketahui.
+Tentukan nilai-p untuk ukuran sampel dan statistik uji yang diberikan.
+Tentukan juga apakah hipotesis nol akan ditolak pada
+$\alpha = 0.01$.
+\begin{parts}
+\item $n = 26$, $T = 2.485$
+\item $n = 18$, $T = 0.5$
+\end{parts}
+}{}
+
+% 5
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""ddecb7b2-412c-5926-ae2e-c224b431e638""]"
 f72d418b-1f13-55f4-8a0d-c8bed9befa6b,55052df6-d488-53ed-8f4c-e0bb4a894836,1,subsection_prose,en,ch_probability/TeX/ch_probability.tex,470,485,577c70655223fcc2289bbb0f95b8537157199062c0f7f2f3102029f2e116c3d2,id-ID,repo/ch_probability/TeX/ch_probability.tex,470,485,419dfade4f8de840a544230ee3b519a85f6424da5c39b9b67898c4c8aa0347bb,language_reviewed,"\subsection{Komplemen suatu peristiwa}
 
 Melempar dadu menghasilkan nilai dalam himpunan $\{$\resp{1}, \resp{2}, \resp{3}, \resp{4}, \resp{5}, \resp{6}$\}$. Himpunan semua hasil yang mungkin ini disebut \term{ruang sampel} ($S$)\index{S@$S$} untuk lemparan dadu. Kita sering menggunakan ruang sampel untuk memeriksa situasi ketika suatu peristiwa tidak terjadi.
@@ -19612,6 +21058,20 @@ Apa variabel penjelas dan variabel respons dalam penelitian ini?
 
 % 8
 ","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f""]"
+fae93ca5-84f9-500f-97fc-5b025e95275c,d17b03e0-f033-5d77-82fc-689cd3097110,1,,,extraTeX/eoceSolutions/eoceSolutions.tex,1623,1635,6cf7dcf42045e7edc312caf0d96d8d6b05b57999979283146b5a78a9e21d7058,id-ID,,,,,visually_checked,"%_______________
+\end{multicols}
+
+
+
+%_______________
+\eocesolch{Inferensi untuk data numerik}
+
+
+
+%_______________
+\begin{multicols}{2}
+
+","[""18223f28-a74d-5f9f-a586-6c3ab2bbef1f"",""ddecb7b2-412c-5926-ae2e-c224b431e638""]"
 fb1695dc-2e4b-5693-a8a8-da2af32d68b3,65551ca9-43d7-5ff5-957c-31dfc67eb47a,1,exercise,en,ch_summarizing_data/TeX/examining_numerical_data.tex,230,250,4e8caf7bcf89b0e112318708497efbb21178564b2c7c1afc65f93ac772c2e066,id-ID,repo/ch_summarizing_data/TeX/examining_numerical_data.tex,235,255,5b045513ea1b68ebede9780d9441a7801070db3aac60f75c15274a55d2c616e8,translated,"\eoce{\qt{Distribusi dan statistik yang sesuai, Bagian II\label{dist_shape_housing_alcohol_salary}} 
 Untuk setiap hal berikut, nyatakan apakah Anda memperkirakan distribusinya simetris, menceng 
 kanan, atau menceng kiri. Tentukan juga apakah rata-rata atau median paling tepat mewakili 

@@ -1,0 +1,203 @@
+{
+  "$schema": "interlanguage.r011-translation-qa/v1",
+  "boundary_id": "R011-B026",
+  "part": "main-part-a",
+  "status": "PASS_COMPLETE_NATURAL_ID_ID_STRUCTURE_MATH_PROTECTED_TEX_AND_RESIDUAL_ENGLISH_QA",
+  "provenance": {
+    "production_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+    "role": "bounded id-ID translation and deterministic QA"
+  },
+  "blueprint": {
+    "path": "qa/b026-source/R011-B026_BOUNDARY_BLUEPRINT.json",
+    "bytes": 52663,
+    "sha256": "2340adb156e7dd6833a2421eed9b6b4e2f7045e347f4fe8639544028cd6ced34"
+  },
+  "source": {
+    "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_means/TeX/ch_inference_for_means.tex",
+    "full_file_sha256": "d818b24b8e8d0582f8e603972e87764082d8470d91ddcbeaa794c295a1d37bec",
+    "first_line": 1,
+    "last_line": 231,
+    "logical_lines": 231,
+    "bytes": 9303,
+    "sha256": "4610634923d5ddd9e28f6ac8dfe3e9f2517e996d5072886547b19ce1c7d6d54e",
+    "blueprint_chunks_consumed": [
+      {
+        "first_line": 1,
+        "last_line": 28,
+        "bytes": 1021,
+        "sha256": "3e126cce0bfffd7c3f6d3f6643635101bbafcf87a1066cdc3bb4b6665f086b36"
+      },
+      {
+        "first_line": 29,
+        "last_line": 231,
+        "bytes": 8282,
+        "sha256": "a6dcccf46199b0cb497c0ef67dfb706d6988fbf1d43125836cadf1995d632d63"
+      }
+    ]
+  },
+  "target": {
+    "path": "qa/b026-translation/staging/chapter-lines-1-231.id.tex",
+    "bytes": 9551,
+    "sha256": "f7ee09a6df0667faa82ac86cf032f4eb0477a29ca94c7f1bc676dad38fc96d34",
+    "locale": "id-ID",
+    "logical_lines": 231,
+    "mapping": "source line N maps to target line N for lines 1-231"
+  },
+  "qa": {
+    "command_sequence_exact": true,
+    "environment_sequence_exact": true,
+    "labels_refs_chapter_navigation_figure_bindings_and_numerics_exact": true,
+    "inline_and_aligned_mathematics_exact_outside_localized_text": true,
+    "blank_line_topology_exact": true,
+    "comment_source_witness_lines_exact": true,
+    "comment_lines_checked": 43,
+    "comment_line_numbers": [
+      28,
+      90,
+      91,
+      92,
+      93,
+      94,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      169,
+      170
+    ],
+    "control_token_counts": {
+      "{": {
+        "source": 86,
+        "target": 86
+      },
+      "}": {
+        "source": 86,
+        "target": 86
+      },
+      "$": {
+        "source": 76,
+        "target": 76
+      },
+      "%": {
+        "source": 65,
+        "target": 65
+      },
+      "~": {
+        "source": 8,
+        "target": 8
+      }
+    },
+    "unchanged_learner_visible_source_lines": [],
+    "residual_english_patterns_checked": [
+      "\\bInference for numerical data\\b",
+      "\\bintroduced a framework\\b",
+      "\\bconfidence intervals?\\b",
+      "\\bhypothesis tests?\\b",
+      "\\bpoint estimates?\\b",
+      "\\btest statistics?\\b",
+      "\\bsample proportions?\\b",
+      "\\bsample means?\\b",
+      "\\bnormal distributions?\\b",
+      "\\bCentral Limit Theorem\\b",
+      "\\bStandard Error\\b",
+      "\\bpopulation standard deviation\\b",
+      "\\bBefore diving\\b",
+      "\\bcertain conditions\\b",
+      "\\bIndependence\\.\\b",
+      "\\bNormality\\.\\b",
+      "\\bsample observations\\b",
+      "\\bnormally distributed population\\b",
+      "\\brules? of thumb\\b",
+      "\\bclear outliers?\\b",
+      "\\bfirst course in statistics\\b",
+      "\\bdifferent populations\\b",
+      "\\bSample 1 Observations\\b",
+      "\\bSample 2 Observations\\b",
+      "\\bnormality condition\\b",
+      "\\bEach samples is\\b"
+    ],
+    "residual_english_matches": [],
+    "indonesian_terminology_anchors": [
+      "Inferensi untuk data numerik",
+      "Teorema Limit Pusat untuk rata-rata sampel",
+      "galat baku",
+      "Independensi.",
+      "Normalitas.",
+      "pedoman praktis",
+      "pencilan yang sangat ekstrem",
+      "sampel acak sederhana"
+    ],
+    "repairs_applied": [
+      {
+        "source_line": 111,
+        "source_issue": "comma joins two complete sentences",
+        "target_evidence": "    Observasi sampel harus saling independen."
+      },
+      {
+        "source_line": 203,
+        "source_issue": "alt text omits 'one' before non-zero bin",
+        "target_evidence": "Hanya ada satu bin tak nol di atas 5"
+      },
+      {
+        "source_line": 208,
+        "source_issue": "'Each samples is' number-agreement error",
+        "target_evidence": "  Setiap sampel merupakan sampel acak sederhana dari"
+      }
+    ],
+    "unrecorded_semantic_repairs_applied": false
+  },
+  "next_translation_cursor": {
+    "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_means/TeX/ch_inference_for_means.tex",
+    "line": 232,
+    "blueprint_chunk": "232-400 inclusive",
+    "context": "Population-level sanity check for skew/extreme outliers, retained source comments, and closure of Central Limit Theorem indexing."
+  },
+  "scope_guards": {
+    "exercises_or_public_answers_translated": false,
+    "assets_localized": false,
+    "canonical_source_mutated": false,
+    "live_backend_mutated": false,
+    "control_or_output_mutated": false,
+    "release_or_publication_mutated": false,
+    "git_used": false,
+    "network_used": false,
+    "credentials_accessed": false,
+    "upstream_contact": false
+  },
+  "qa_script": {
+    "path": "scripts/qa_b026_main_translation_part_a.py",
+    "bytes": 17595,
+    "sha256": "762921e65d92ffa2916cff14cb662701ade0940af19d038ebcd2c6924f523f7a"
+  }
+}

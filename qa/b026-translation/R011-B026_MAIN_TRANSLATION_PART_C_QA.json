@@ -1,0 +1,267 @@
+{
+  "$schema": "interlanguage.r011-translation-qa/v1",
+  "boundary_id": "R011-B026",
+  "part": "main-part-c",
+  "status": "PASS_COMPLETE_NATURAL_ID_ID_STRUCTURE_MATH_PROTECTED_TEX_APPROVED_REPAIR_AND_RESIDUAL_ENGLISH_QA",
+  "provenance": {
+    "production_model": "OpenAI Codex gpt-5.6-sol, Ultra",
+    "role": "bounded id-ID translation and deterministic QA"
+  },
+  "blueprint": {
+    "path": "qa/b026-source/R011-B026_BOUNDARY_BLUEPRINT.json",
+    "bytes": 52663,
+    "sha256": "2340adb156e7dd6833a2421eed9b6b4e2f7045e347f4fe8639544028cd6ced34"
+  },
+  "source": {
+    "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_means/TeX/ch_inference_for_means.tex",
+    "full_file_sha256": "d818b24b8e8d0582f8e603972e87764082d8470d91ddcbeaa794c295a1d37bec",
+    "first_line": 401,
+    "last_line": 633,
+    "logical_lines": 233,
+    "bytes": 10731,
+    "sha256": "dce7cb73b918eb0c7585e979377bbfc1de427f6884c501b528e45c2c34049fde",
+    "blueprint_chunk": {
+      "first_line": 401,
+      "last_line": 633,
+      "bytes": 10731,
+      "sha256": "dce7cb73b918eb0c7585e979377bbfc1de427f6884c501b528e45c2c34049fde"
+    }
+  },
+  "target": {
+    "path": "qa/b026-translation/staging/chapter-lines-401-633.id.tex",
+    "bytes": 10675,
+    "sha256": "d50a78f6fbbf52a5007cd42929ea1dd3737b9cc3b8bf0aec5bca3a9a861b44b3",
+    "locale": "id-ID",
+    "logical_lines": 233,
+    "mapping": "target line 1 maps to source line 401; target line 233 maps to source line 633"
+  },
+  "qa": {
+    "command_environment_math_and_protected_sequences_exact": true,
+    "blank_line_topology_exact": true,
+    "comment_source_witness_lines_exact": true,
+    "comment_lines_checked": 50,
+    "comment_line_numbers": [
+      431,
+      432,
+      433,
+      434,
+      445,
+      446,
+      447,
+      448,
+      449,
+      450,
+      451,
+      504,
+      505,
+      506,
+      528,
+      529,
+      530,
+      531,
+      534,
+      535,
+      536,
+      605,
+      606,
+      607,
+      608,
+      609,
+      610,
+      611,
+      612,
+      613,
+      614,
+      615,
+      616,
+      617,
+      618,
+      619,
+      620,
+      621,
+      622,
+      623,
+      624,
+      625,
+      626,
+      627,
+      628,
+      629,
+      630,
+      631,
+      632,
+      633
+    ],
+    "control_token_counts": {
+      "{": {
+        "source": 95,
+        "target": 95
+      },
+      "}": {
+        "source": 95,
+        "target": 95
+      },
+      "$": {
+        "source": 144,
+        "target": 144
+      },
+      "%": {
+        "source": 60,
+        "target": 60
+      },
+      "~": {
+        "source": 17,
+        "target": 17
+      }
+    },
+    "unchanged_learner_visible_source_lines": [],
+    "residual_english_patterns_checked": [
+      "\\bIn practice\\b",
+      "\\bwe cannot directly calculate\\b",
+      "\\bstandard error\\b",
+      "\\bpopulation standard deviation\\b",
+      "\\bsimilar issue\\b",
+      "\\bOur solution\\b",
+      "\\bsample value in place\\b",
+      "\\bWe'll employ\\b",
+      "\\bThis strategy tends\\b",
+      "\\buse a new distribution\\b",
+      "\\bbell shape\\b",
+      "\\bthicker than the normal\\b",
+      "\\bobservations are more likely\\b",
+      "\\bextra thick tails\\b",
+      "\\balways centered at zero\\b",
+      "\\bdegrees of freedom\\b",
+      "\\bprecise form\\b",
+      "\\bIn general\\b",
+      "\\bWhen modeling\\b",
+      "\\bgreater flexibility\\b",
+      "\\bstatistical software\\b",
+      "\\bgraphing calculator\\b",
+      "\\bworking understanding\\b",
+      "\\bWhat proportion\\b",
+      "\\bfalls below\\b",
+      "\\bdraw the picture\\b",
+      "\\bshade the area\\b",
+      "\\bEstimate the proportion\\b",
+      "\\bWith a normal distribution\\b",
+      "\\bfalling more than\\b",
+      "\\bboth tails\\b",
+      "\\bdramatically different\\b",
+      "\\bUse your preferred method\\b",
+      "\\bshaded area\\b",
+      "\\blower tail area\\b",
+      "\\bupper area\\b"
+    ],
+    "residual_english_matches": [],
+    "indonesian_terminology_anchors": [
+      "Memperkenalkan distribusi $t$",
+      "menghitung galat baku",
+      "simpangan baku sampel",
+      "menggunakan suatu nilai",
+      "sampel sebagai pengganti",
+      "puncaknya lebih rendah dan lebih landai",
+      "ekornya lebih tebal",
+      "derajat kebebasan",
+      "banyaknya derajat kebebasan sekitar 30 atau lebih",
+      "puncak di pusat semakin tinggi",
+      "ekor distribusinya tampak semakin tipis",
+      "perangkat lunak statistik",
+      "luas ekor bawah",
+      "luas daerah atas"
+    ],
+    "approved_repairs_overlapping_part": [
+      {
+        "location": "ch_inference_for_means/TeX/ch_inference_for_means.tex:417-419",
+        "confidence": "high",
+        "source_issue": "The phrase 'use sample value' is missing the article 'a'.",
+        "translation_action": "Render the intended sample-value substitution naturally."
+      },
+      {
+        "location": "ch_inference_for_means/TeX/ch_inference_for_means.tex:458",
+        "confidence": "high",
+        "source_issue": "The alt text says 'the is a sizable fraction' and describes the plotted df=2 t density as more sharply peaked than the normal density; at zero the plotted t density is lower/flatter, while its tails are heavier.",
+        "translation_action": "Correct the grammar and describe the visible center/tail relationship without reversing the peak-height ordering."
+      },
+      {
+        "location": "ch_inference_for_means/TeX/ch_inference_for_means.tex:465-496",
+        "confidence": "high",
+        "source_issue": "Several clauses treat plural 'degrees of freedom' as singular ('describes', 'is about 30').",
+        "translation_action": "Use grammatical number while preserving df=n-1 and all values."
+      },
+      {
+        "location": "ch_inference_for_means/TeX/ch_inference_for_means.tex:486",
+        "confidence": "high",
+        "source_issue": "The alt text has a malformed possessive ('distributions tails') and says the peak becomes less sharp as df grows; the plotted densities instead converge upward at zero toward the normal density while their tails thin.",
+        "translation_action": "Correct both grammar and the plotted peak/tail trend in localized alt text."
+      }
+    ],
+    "repairs_applied": [
+      {
+        "source_location": "ch_inference_for_means/TeX/ch_inference_for_means.tex:417-419",
+        "source_issue": "The phrase 'use sample value' omits the article 'a'.",
+        "target_evidence": {
+          "lines": "417-419",
+          "text": "menggunakan suatu nilai / sampel sebagai pengganti / nilai populasi"
+        },
+        "resolution": "Rendered the intended substitution naturally as 'suatu nilai sampel'.",
+        "authority_mutated": false
+      },
+      {
+        "source_location": "ch_inference_for_means/TeX/ch_inference_for_means.tex:458",
+        "source_issue": "The alt text has a grammar error and reverses the plotted center-height ordering.",
+        "target_evidence": {
+          "line": 458,
+          "text": "puncaknya lebih rendah dan lebih landai ... serta ekornya lebih tebal"
+        },
+        "resolution": "Corrected the grammar and described the visible lower/flatter center and heavier tails.",
+        "authority_mutated": false
+      },
+      {
+        "source_location": "ch_inference_for_means/TeX/ch_inference_for_means.tex:465-496",
+        "source_issue": "Plural 'degrees of freedom' is treated as singular in several English clauses.",
+        "target_evidence": {
+          "lines": "465-496",
+          "text": "Indonesian predicate forms remain grammatical; line 480 explicitly uses 'banyaknya derajat kebebasan'."
+        },
+        "resolution": "Preserved df=n-1 and every value while avoiding the source agreement errors.",
+        "authority_mutated": false
+      },
+      {
+        "source_location": "ch_inference_for_means/TeX/ch_inference_for_means.tex:486",
+        "source_issue": "The alt text has a malformed possessive and reverses the plotted peak/tail trend.",
+        "target_evidence": {
+          "line": 486,
+          "text": "puncak di pusat semakin tinggi dan mendekati puncak distribusi normal, sedangkan ekor distribusinya tampak semakin tipis"
+        },
+        "resolution": "Described convergence upward at zero and thinning tails as df increases.",
+        "authority_mutated": false
+      }
+    ],
+    "unrecorded_semantic_repairs_applied": false,
+    "inactive_comment_policy": "All inactive source commentary is retained exactly as provenance and excluded from learner-visible residual-English accounting."
+  },
+  "next_translation_cursor": {
+    "path": "authority/upstream/openintro-statistics-fee25091fb24e89c36296fd67c48c1fcf7a93b6e/ch_inference_for_means/TeX/ch_inference_for_means.tex",
+    "line": 634,
+    "blueprint_chunk": "634-796 inclusive",
+    "context": "One-sample t confidence intervals and the Risso's dolphin worked sequence."
+  },
+  "scope_guards": {
+    "exercises_or_public_answers_translated": false,
+    "assets_localized": false,
+    "canonical_source_mutated": false,
+    "live_backend_mutated": false,
+    "control_or_output_mutated": false,
+    "release_or_publication_mutated": false,
+    "git_used": false,
+    "network_used": false,
+    "credentials_accessed": false,
+    "upstream_contact": false
+  },
+  "qa_script": {
+    "path": "scripts/qa_b026_main_translation_part_c.py",
+    "bytes": 19167,
+    "sha256": "57b2cd83e8dc2c02e793110cda2e931ec698cef96ee3ae2043383dd22477707e"
+  }
+}

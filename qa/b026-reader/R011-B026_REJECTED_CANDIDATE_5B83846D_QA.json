@@ -1,0 +1,139 @@
+{
+  "schema": "interlanguage.r011-b026-rejected-reader-candidate-qa/v1",
+  "status": "REJECTED_PAGES_273_275_FORCED_BREAK_REFLOW_DEFECTS",
+  "candidate": {
+    "path": "scratch/b026-boundary-clean-reader/final/main.pdf",
+    "bytes": 12784901,
+    "sha256": "5b83846deaf8756ecdd778344390180c7a4c6e6790f92bf4f6a8d5093fa99e09",
+    "pages": 275
+  },
+  "candidate_text": {
+    "path": "scratch/b026-boundary-clean-reader/final/main-final.txt",
+    "bytes": 873736,
+    "sha256": "2b32ae1e05d6174610a61334d455ac5093b579f3b308038d4c74b659024b0629"
+  },
+  "build_receipt": {
+    "path": "scratch/b026-boundary-clean-reader/final/R011-B026_BOUNDARY_CLEAN_BUILD_QA.json",
+    "bytes": 25072,
+    "sha256": "fe8e28b1d0a02d0dc1fd70b5253fca57d4248711859c0067f2635548133d3f76"
+  },
+  "source_manifest": {
+    "path": "scratch/b026-boundary-clean-reader/R011-B026_BOUNDARY_CLEAN_SOURCE_MANIFEST.tsv",
+    "bytes": 177439,
+    "sha256": "39642a6d803c66ad6f6c2f8eed0ce841b8bd65f7e213fde0343c38d4872e2d91"
+  },
+  "assembled_answers": {
+    "path": "scratch/b026-boundary-clean-reader/source-snapshot/extraTeX/eoceSolutions/eoceSolutions_boundary_clean_b026.tex",
+    "bytes": 62206,
+    "sha256": "44ccef0c59c70052c3b6cd8eb8b2d951e01f59f3dbb594df0eaeae3870339e40",
+    "inspected_line_range": [
+      1335,
+      1458
+    ]
+  },
+  "prior_reflow_repair_verified": {
+    "physical_page_270": "Answer 5.25 now completes in the filled two-column stream.",
+    "physical_page_271": "Chapter 6 begins cleanly at the retained chapter boundary.",
+    "status": "PASS_ORIGINAL_DETAIL_VISUAL_INSPECTION"
+  },
+  "findings": [
+    {
+      "physical_pdf_page": 273,
+      "description": "Only the tail of answer 6.33 and answer 6.35 occupy the top quarter; the rest is blank although answer 6.37 immediately follows in the same chapter stream.",
+      "render": {
+        "path": "qa/b026-reader/rejected-5b83846d/page-273.png",
+        "bytes": 99100,
+        "sha256": "246a22627132adc4c2a0daedcd30e1340c390cba62dc23aa205a5f687d530da0"
+      },
+      "cause_lines": {
+        "1335": "\\end{multicols}",
+        "1336": "\\newpage",
+        "1337": "\\begin{multicols}{2}",
+        "1339": "% 37"
+      },
+      "minimal_repair": "Remove only lines 1335-1337 so answer 6.37 continues in the already-open Chapter 6 two-column stream."
+    },
+    {
+      "physical_pdf_pages": [
+        274,
+        275
+      ],
+      "description": "Page 274 ends early after answer 7.7 and page 275 contains only answers 7.9-7.13 at the top, leaving large combined whitespace within one continuous Chapter 7 answer stream.",
+      "renders": [
+        {
+          "path": "qa/b026-reader/rejected-5b83846d/page-274.png",
+          "bytes": 189078,
+          "sha256": "4cb27691b008ca0a1a0c2cea6a3a2947d276283dcfbe8383c5c9777f7a7081ee"
+        },
+        {
+          "path": "qa/b026-reader/rejected-5b83846d/page-275.png",
+          "bytes": 116257,
+          "sha256": "6e595dbde7cbfe9709d81fc0786b4c33ad8a849fc39c78e08b2f136a8a140402"
+        }
+      ],
+      "cause_lines": {
+        "1414": "\\end{multicols}",
+        "1415": "\\newpage",
+        "1416": "\\begin{multicols}{2}",
+        "1418": "% 9"
+      },
+      "minimal_repair": "Remove only lines 1414-1416 so answers 7.9-7.13 continue in the already-open Chapter 7 two-column stream."
+    }
+  ],
+  "structural_safety": {
+    "retain_line_1359": "\\end{multicols}",
+    "retain_line_1364": "\\eocesolch{Inferensi untuk data numerik}",
+    "retain_line_1369": "\\begin{multicols}{2}",
+    "retain_line_1458": "\\end{multicols}",
+    "rationale": "The retained Chapter 6 close, Chapter 7 heading/open, and final Chapter 7 close preserve answer hierarchy while removing only mid-stream forced pagination."
+  },
+  "nonvisual_receipts_before_visual_rejection": {
+    "automated_reader": {
+      "path": "qa/b026-reader/rejected-5b83846d/R011-B026_AUTOMATED_READER_QA.json",
+      "bytes": 73277,
+      "sha256": "b751381ea48555278c25fc0ecfc2a9ebe2024063b1a84b28f9be7f9c3b919e22"
+    },
+    "pagewise_json": {
+      "path": "qa/b026-reader/rejected-5b83846d/R011-B026_PAGEWISE_LANGUAGE_QA.json",
+      "bytes": 111710,
+      "sha256": "5bb5650f4970b0c7ccc17f7ea888ca263a5be727b462a1784fa05ef2e24c1fee"
+    },
+    "pagewise_tsv": {
+      "path": "qa/b026-reader/rejected-5b83846d/R011-B026_PAGEWISE_LANGUAGE_QA.tsv",
+      "bytes": 26231,
+      "sha256": "b91b9c468058822850fc59d2001b2b21b286c5faff6d79ab82f68dff23d71080"
+    },
+    "automated_visual": {
+      "path": "qa/b026-reader/rejected-5b83846d/R011-B026_AUTOMATED_VISUAL_QA.json",
+      "bytes": 149478,
+      "sha256": "fce70c52c89f89046acd38cf5d8d2fb22e0705bac1b9ef52d19e718ef18fa552"
+    }
+  },
+  "direct_visual_inspection": {
+    "ordered_contact_sheets_inspected": 14,
+    "all_275_pages_covered": true,
+    "original_detail_pages_inspected": [
+      1,
+      2,
+      3,
+      6,
+      130,
+      251,
+      252,
+      253,
+      255,
+      257,
+      259,
+      260,
+      261,
+      270,
+      271,
+      273,
+      274,
+      275
+    ],
+    "defect_count": 2
+  },
+  "promotion_eligible": false,
+  "qa_disposition": "Do not bind, promote, admit, publish, or write a root visual PASS for this 275-page candidate. Rebuild deterministically after only the two recorded build-layer repairs, then rerun all nonvisual, raster, pagewise, and direct visual QA against the new bytes."
+}
